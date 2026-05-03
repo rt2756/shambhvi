@@ -30,6 +30,8 @@
 - Right angle = 90
   - Perpendicular lines: Two lines at 90 degrees to each other are called to be perpendicular to each other
 
+![Angle diagram](images/angles-diagram.png)
+
 Angle 1 = Angle CAB or BAC
 
 Angle 2 = Angle CAD or BAC
