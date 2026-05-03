@@ -195,7 +195,7 @@ A fraction shows a part of a whole.
 ## Converting Between Fractions
 
 1. Improper to Mixed
-  a. Divide, Q / R / D or Quotient Remainder / Divisor  
+  a. Divide, Q R / D or Quotient Remainder / Divisor  
    b. 11 / 4 = 2 3 / 4
 2. Mixed = Improper
   a. Multiply, ( Q * D + R ) / D
