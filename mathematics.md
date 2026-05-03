@@ -161,9 +161,9 @@ Even: ends in 0, 2, 4, 6, 8 (divisible by 2)
 
 Odd: ends in 1, 3, 5, 7, 9
 
-## Factors, Multiples and Prime Time
+# Factors, Multiples and Prime Time
 
-### Factor / Divisor
+## Factor / Divisor
 
 If a number divides another number exactly, it is called a factor or divisor of that number.
 
@@ -177,7 +177,7 @@ Important:
 
 Example: Factors of 24 are 1, 2, 3, 4, 6, 8, 12, 24.
 
-### Multiple
+## Multiple
 
 A multiple of a number is obtained by multiplying it by 1, 2, 3, 4, ...
 
@@ -190,7 +190,7 @@ Important:
 
 Example: 24 is a multiple of 4 because 24 = 4 * 6.
 
-### Common Multiples
+## Common Multiples
 
 Common multiples are numbers that are multiples of two or more given numbers.
 
@@ -201,7 +201,7 @@ Example:
 
 The first common multiple is the smallest common multiple. Later this is called LCM or least common multiple.
 
-### Common Factors
+## Common Factors
 
 Common factors are numbers that are factors of two or more given numbers.
 
@@ -210,7 +210,7 @@ Example:
 - Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36
 - Common factors of 14 and 36: 1, 2
 
-### Prime Numbers
+## Prime Numbers
 
 A prime number has exactly two factors: 1 and itself.
 
@@ -222,7 +222,7 @@ Important:
 - Every prime number except 2 is odd.
 - A prime number still has factors: 1 and itself.
 
-### Composite Numbers
+## Composite Numbers
 
 A composite number has more than two factors.
 
@@ -233,7 +233,7 @@ Important:
 - A product of two or more prime numbers is composite.
 - Composite numbers can be broken down into smaller factors.
 
-### 1 Is Special
+## 1 Is Special
 
 1 is neither prime nor composite.
 
@@ -242,7 +242,7 @@ Reason:
 - Composite numbers have more than 2 factors.
 - 1 has only 1 factor: itself.
 
-### Twin Primes
+## Twin Primes
 
 Twin primes are pairs of prime numbers that differ by 2.
 
@@ -256,7 +256,7 @@ Examples:
 - 59 and 61
 - 71 and 73
 
-### Co-prime Numbers
+## Co-prime Numbers
 
 Two numbers are co-prime if their only common factor is 1.
 
@@ -282,7 +282,7 @@ Example:
 - Product = 18.
 - First common multiple = 6.
 
-### Prime Factorisation
+## Prime Factorisation
 
 Prime factorisation means writing a number as a product of prime numbers.
 
@@ -303,7 +303,7 @@ Example:
 The order does not matter:
 2 * 2 * 3 * 3 = 3 * 2 * 3 * 2 = 36
 
-### Prime Factorisation of a Product
+## Prime Factorisation of a Product
 
 To find the prime factorisation of a product, factorise each number and combine all prime factors.
 
@@ -317,7 +317,7 @@ Example:
 So:
 72 = 2 * 2 * 3 * 2 * 3 = 2 * 2 * 2 * 3 * 3
 
-### Using Prime Factorisation to Check Co-prime Numbers
+## Using Prime Factorisation to Check Co-prime Numbers
 
 Find prime factorisations of both numbers.
 
@@ -337,7 +337,7 @@ Example:
 
 Common prime factor is 7, so 56 and 63 are not co-prime.
 
-### Using Prime Factorisation to Check Divisibility
+## Using Prime Factorisation to Check Divisibility
 
 A number is divisible by another number if the second number's full prime factorisation is included in the first number's prime factorisation.
 
@@ -357,7 +357,7 @@ Example:
 
 Repeated prime factors matter.
 
-### Divisibility Tests
+## Divisibility Tests
 
 Divisible by 10:
 - Last digit is 0.
@@ -380,21 +380,7 @@ Divisible by 8:
 Example:
 8560 is divisible by 8 because 560 is divisible by 8.
 
-The chapter says divisibility tests for 3, 6, 7, and 9 come later.
-
-### Leap Year Rule
-
-A leap year is usually a multiple of 4.
-
-Exception:
-- Years divisible by 100 are not leap years unless they are also divisible by 400.
-
-Examples:
-- 2024 is a leap year.
-- 1900 is not a leap year.
-- 2000 is a leap year.
-
-### Useful Chapter Patterns
+## Useful Chapter Patterns
 
 Common multiple pattern:
 - For numbers a and b, common multiples appear at regular gaps.
@@ -405,11 +391,7 @@ Co-prime product pattern:
 Divisibility inclusion pattern:
 - To check if A is divisible by B, all prime factors of B must appear in A with enough repeats.
 
-Prime grid puzzle pattern:
-- Fill grids using only prime numbers.
-- Row products and column products are built from prime factorisations.
-
-### Common Mistakes
+## Common Mistakes
 
 - Saying 1 is prime. It is neither prime nor composite.
 - Saying prime numbers have no factors. They have exactly two factors.
