@@ -32,10 +32,6 @@
 
 ![Angle diagram](images/angles-diagram.png)
 
-Angle 1 = Angle CAB or BAC
-
-Angle 2 = Angle CAD or BAC
-
 ## Shapes
 
 - Triangle : 3 sides and 3 corners.
