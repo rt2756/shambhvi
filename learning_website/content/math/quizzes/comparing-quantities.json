@@ -1,0 +1,127 @@
+{
+  "slug": "comparing-quantities",
+  "title": "Comparing Quantities — Practice Quiz",
+  "version": 1,
+  "questions": [
+    {
+      "id": "cq-q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "The ratio of 3 boys to 5 girls is:",
+      "options": ["$3 : 5$", "$5 : 3$", "$3 : 8$", "$8 : 5$"],
+      "correctIndex": 0,
+      "explanation": "Ratio keeps the order stated: boys to girls $= 3 : 5$.",
+      "topicTags": ["ratio"]
+    },
+    {
+      "id": "cq-q2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "$25\\%$ written as a fraction in simplest form is:",
+      "options": ["$\\frac{1}{4}$", "$\\frac{1}{2}$", "$\\frac{25}{10}$", "$\\frac{1}{25}$"],
+      "correctIndex": 0,
+      "explanation": "$25\\% = \\dfrac{25}{100} = \\dfrac{1}{4}$.",
+      "topicTags": ["percentage"]
+    },
+    {
+      "id": "cq-q3",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "Write $0.6$ as a percentage.",
+      "options": ["$60\\%$", "$6\\%$", "$0.6\\%$", "$600\\%$"],
+      "correctIndex": 0,
+      "explanation": "Decimal to percentage: shift the point right 2 places. $0.6 = 60\\%$.",
+      "topicTags": ["percentage", "conversion"]
+    },
+    {
+      "id": "cq-q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "What is $25\\%$ of ₹400?",
+      "options": ["₹100", "₹25", "₹40", "₹200"],
+      "correctIndex": 0,
+      "explanation": "$\\dfrac{25}{100} \\times 400 = 100$. So $25\\%$ of ₹400 is ₹100.",
+      "topicTags": ["percentage"]
+    },
+    {
+      "id": "cq-q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "5 notebooks cost ₹150. What do 8 notebooks cost?",
+      "options": ["₹240", "₹200", "₹300", "₹120"],
+      "correctIndex": 0,
+      "explanation": "Unitary method: one notebook $= \\dfrac{150}{5} = 30$. Eight cost $8 \\times 30 = $ ₹240.",
+      "topicTags": ["unitary-method"]
+    },
+    {
+      "id": "cq-q6",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "If $2 : 3 = 4 : x$, find $x$.",
+      "options": ["$6$", "$5$", "$8$", "$12$"],
+      "correctIndex": 0,
+      "explanation": "Cross-product: $2 \\times x = 3 \\times 4 = 12$, so $x = 6$.",
+      "topicTags": ["proportion"]
+    },
+    {
+      "id": "cq-q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "A cycle is bought for ₹2000 and sold for ₹2500. What is the profit percent?",
+      "options": ["$25\\%$", "$20\\%$", "$50\\%$", "$10\\%$"],
+      "correctIndex": 0,
+      "explanation": "Profit $= 2500 - 2000 = 500$. Profit% $= \\dfrac{500}{2000} \\times 100 = 25\\%$ (always on CP).",
+      "topicTags": ["profit-loss"]
+    },
+    {
+      "id": "cq-q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Write $\\frac{3}{4}$ as a percentage.",
+      "options": ["$75\\%$", "$34\\%$", "$43\\%$", "$7.5\\%$"],
+      "correctIndex": 0,
+      "explanation": "Fraction to percentage: multiply by $100$. $\\dfrac{3}{4} \\times 100 = 75\\%$.",
+      "topicTags": ["percentage", "conversion"]
+    },
+    {
+      "id": "cq-q9",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Find the simple interest on ₹5000 at $8\\%$ per year for 2 years.",
+      "options": ["₹800", "₹400", "₹1000", "₹80"],
+      "correctIndex": 0,
+      "explanation": "$SI = \\dfrac{P \\times R \\times T}{100} = \\dfrac{5000 \\times 8 \\times 2}{100} = $ ₹800.",
+      "topicTags": ["simple-interest"]
+    },
+    {
+      "id": "cq-q10",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "A saree is marked ₹1200 with a $15\\%$ discount. What is the final price?",
+      "options": ["₹1020", "₹1080", "₹180", "₹1185"],
+      "correctIndex": 0,
+      "explanation": "Discount $= \\dfrac{15}{100} \\times 1200 = 180$. Final price $= 1200 - 180 = $ ₹1020.",
+      "topicTags": ["percentage", "discount"]
+    },
+    {
+      "id": "cq-q11",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "An item costing ₹800 is sold for ₹600. What is the loss percent?",
+      "options": ["$25\\%$", "$20\\%$", "$33\\%$", "$200\\%$"],
+      "correctIndex": 0,
+      "explanation": "Loss $= 800 - 600 = 200$. Loss% $= \\dfrac{200}{800} \\times 100 = 25\\%$ (on CP).",
+      "topicTags": ["profit-loss"]
+    },
+    {
+      "id": "cq-q12",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "₹10,000 is deposited at $6\\%$ per year for 3 years. What total amount is returned?",
+      "options": ["₹11,800", "₹1,800", "₹10,600", "₹13,000"],
+      "correctIndex": 0,
+      "explanation": "$SI = \\dfrac{10000 \\times 6 \\times 3}{100} = 1800$. Amount $= P + SI = 10000 + 1800 = $ ₹11,800.",
+      "topicTags": ["simple-interest"]
+    }
+  ]
+}

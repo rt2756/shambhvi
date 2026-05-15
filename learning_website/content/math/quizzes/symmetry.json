@@ -1,0 +1,137 @@
+{
+  "slug": "symmetry",
+  "title": "Symmetry — Practice Quiz",
+  "version": 1,
+  "questions": [
+    {
+      "id": "sym-q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "How many lines of symmetry does a square have?",
+      "options": ["$4$", "$2$", "$1$", "$8$"],
+      "correctIndex": 0,
+      "explanation": "A square has 4 lines of symmetry: 2 diagonals and 2 mid-side lines.",
+      "topicTags": ["lines-of-symmetry"]
+    },
+    {
+      "id": "sym-q2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "How many lines of symmetry does an equilateral triangle have?",
+      "options": ["$3$", "$1$", "$2$", "$6$"],
+      "correctIndex": 0,
+      "explanation": "A regular polygon with $n$ sides has $n$ lines of symmetry; an equilateral triangle has 3.",
+      "topicTags": ["lines-of-symmetry"]
+    },
+    {
+      "id": "sym-q3",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "How many lines of symmetry does a circle have?",
+      "options": ["Infinitely many", "$1$", "$4$", "$0$"],
+      "correctIndex": 0,
+      "explanation": "Every line through the centre of a circle is a line of symmetry, so there are infinitely many.",
+      "topicTags": ["lines-of-symmetry"]
+    },
+    {
+      "id": "sym-q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "A line of symmetry divides a shape into:",
+      "options": [
+        "Two mirror-image halves",
+        "Two unequal parts",
+        "Four equal parts",
+        "Three parts"
+      ],
+      "correctIndex": 0,
+      "explanation": "A line of symmetry splits a shape into two halves that are mirror images of each other.",
+      "topicTags": ["definition"]
+    },
+    {
+      "id": "sym-q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "What is the order of rotational symmetry of a square?",
+      "options": ["$4$", "$2$", "$1$", "$8$"],
+      "correctIndex": 0,
+      "explanation": "A square looks the same after every $90°$ turn. $\\dfrac{360°}{90°} = 4$, so the order is 4.",
+      "topicTags": ["rotational-symmetry"]
+    },
+    {
+      "id": "sym-q6",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "What is the smallest angle of rotation for an equilateral triangle?",
+      "options": ["$120°$", "$60°$", "$90°$", "$180°$"],
+      "correctIndex": 0,
+      "explanation": "$\\dfrac{360°}{3} = 120°$ — the triangle matches itself after a $120°$ turn.",
+      "topicTags": ["rotational-symmetry"]
+    },
+    {
+      "id": "sym-q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "How many lines of symmetry does a regular hexagon have?",
+      "options": ["$6$", "$3$", "$12$", "$2$"],
+      "correctIndex": 0,
+      "explanation": "A regular polygon with $n$ sides has $n$ lines of symmetry; a regular hexagon has 6.",
+      "topicTags": ["lines-of-symmetry"]
+    },
+    {
+      "id": "sym-q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "If a shape's smallest angle of rotation is $60°$, what is its order of rotational symmetry?",
+      "options": ["$6$", "$60$", "$3$", "$12$"],
+      "correctIndex": 0,
+      "explanation": "Order $= \\dfrac{360°}{\\text{angle}} = \\dfrac{360°}{60°} = 6$.",
+      "topicTags": ["rotational-symmetry"]
+    },
+    {
+      "id": "sym-q9",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "How many lines of symmetry does a regular pentagon have?",
+      "options": ["$5$", "$10$", "$2$", "$1$"],
+      "correctIndex": 0,
+      "explanation": "A regular pentagon has 5 sides, so 5 lines of symmetry.",
+      "topicTags": ["lines-of-symmetry"]
+    },
+    {
+      "id": "sym-q10",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "How many lines of symmetry does a (non-square) rectangle have?",
+      "options": ["$2$", "$4$", "$1$", "$0$"],
+      "correctIndex": 0,
+      "explanation": "Only the two mid-side lines. The diagonals of a non-square rectangle are NOT lines of symmetry.",
+      "topicTags": ["lines-of-symmetry", "common-mistake"]
+    },
+    {
+      "id": "sym-q11",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "What is the order of rotational symmetry of the letter **S**?",
+      "options": ["$2$", "$1$", "$0$", "$4$"],
+      "correctIndex": 0,
+      "explanation": "The letter S looks the same after a $180°$ turn, so its order is $\\dfrac{360°}{180°} = 2$.",
+      "topicTags": ["rotational-symmetry"]
+    },
+    {
+      "id": "sym-q12",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "An order of rotational symmetry equal to $1$ means the shape has:",
+      "options": [
+        "No rotational symmetry",
+        "Full rotational symmetry",
+        "Exactly one line of symmetry",
+        "A centre but no vertex"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every shape returns to itself after a full $360°$ turn. Order 1 means only $360°$ works — i.e. no real rotational symmetry.",
+      "topicTags": ["rotational-symmetry"]
+    }
+  ]
+}

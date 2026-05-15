@@ -42,6 +42,15 @@ export default async function FoundationPage({ params }: Props) {
         <Markdown>{topic.content}</Markdown>
       </div>
 
+      <footer className="flex flex-wrap gap-3 border-t border-slate-200 pt-4">
+        <Link
+          href={`/math/foundations/${topic.slug}/quiz`}
+          className="rounded-lg bg-brand-600 px-4 py-2 text-sm font-medium text-white hover:bg-brand-700"
+        >
+          Take the quiz
+        </Link>
+      </footer>
+
       <AskTutorButton chapterSlug={topic.slug} chapterTitle={topic.title} />
     </article>
   );

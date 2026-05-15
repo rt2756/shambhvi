@@ -1,0 +1,127 @@
+{
+  "slug": "simple-equations",
+  "title": "Simple Equations — Practice Quiz",
+  "version": 1,
+  "questions": [
+    {
+      "id": "se-q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "In the expression $3x + 5$, which is the **variable**?",
+      "options": ["$x$", "$3$", "$5$", "$+$"],
+      "correctIndex": 0,
+      "explanation": "A variable is a letter standing for an unknown number. Here that is $x$. ($3$ and $5$ are constants.)",
+      "topicTags": ["definitions"]
+    },
+    {
+      "id": "se-q2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "Solve: $x - 5 = 12$.",
+      "options": ["$x = 17$", "$x = 7$", "$x = -7$", "$x = 60$"],
+      "correctIndex": 0,
+      "explanation": "Add $5$ to both sides: $x = 12 + 5 = 17$.",
+      "topicTags": ["solving"]
+    },
+    {
+      "id": "se-q3",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "Solve: $4x = 20$.",
+      "options": ["$x = 5$", "$x = 16$", "$x = 80$", "$x = 24$"],
+      "correctIndex": 0,
+      "explanation": "Divide both sides by $4$: $x = \\dfrac{20}{4} = 5$.",
+      "topicTags": ["solving"]
+    },
+    {
+      "id": "se-q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "Which of these is an **equation** (not just an expression)?",
+      "options": ["$3x + 5 = 14$", "$3x + 5$", "$3x$", "$x + y$"],
+      "correctIndex": 0,
+      "explanation": "An equation has an equals sign joining two expressions. Only $3x + 5 = 14$ has $=$.",
+      "topicTags": ["definitions"]
+    },
+    {
+      "id": "se-q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Solve: $3x + 7 = 22$.",
+      "options": ["$x = 5$", "$x = 7$", "$x = 9$", "$x = 15$"],
+      "correctIndex": 0,
+      "explanation": "Subtract $7$: $3x = 15$. Divide by $3$: $x = 5$.",
+      "topicTags": ["solving"]
+    },
+    {
+      "id": "se-q6",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Solve: $\\dfrac{x}{3} = 4$.",
+      "options": ["$x = 12$", "$x = 7$", "$x = \\dfrac{4}{3}$", "$x = 1$"],
+      "correctIndex": 0,
+      "explanation": "Multiply both sides by $3$: $x = 4 \\times 3 = 12$.",
+      "topicTags": ["solving"]
+    },
+    {
+      "id": "se-q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Using transposition, solve $x + 8 = 15$.",
+      "options": ["$x = 7$", "$x = 23$", "$x = -7$", "$x = 8$"],
+      "correctIndex": 0,
+      "explanation": "Move $+8$ to the other side as $-8$: $x = 15 - 8 = 7$.",
+      "topicTags": ["transposition"]
+    },
+    {
+      "id": "se-q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "\"$5$ more than twice a number is $17$.\" Which equation is correct (let the number be $x$)?",
+      "options": ["$2x + 5 = 17$", "$5x + 2 = 17$", "$2 + 5x = 17$", "$2x - 5 = 17$"],
+      "correctIndex": 0,
+      "explanation": "Twice the number is $2x$; $5$ more than that is $2x + 5$. So $2x + 5 = 17$.",
+      "topicTags": ["word-problem", "setup"]
+    },
+    {
+      "id": "se-q9",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "Solve: $2x - 4 = 10$.",
+      "options": ["$x = 7$", "$x = 3$", "$x = 14$", "$x = 28$"],
+      "correctIndex": 0,
+      "explanation": "Add $4$: $2x = 14$. Divide by $2$: $x = 7$.",
+      "topicTags": ["solving"]
+    },
+    {
+      "id": "se-q10",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "Riya buys 3 notebooks at the same price and a ₹40 pen, paying ₹160 total. Price of one notebook?",
+      "options": ["₹40", "₹50", "₹60", "₹30"],
+      "correctIndex": 0,
+      "explanation": "Let one notebook be $x$: $3x + 40 = 160 \\Rightarrow 3x = 120 \\Rightarrow x = 40$. Each notebook costs ₹40.",
+      "topicTags": ["word-problem"]
+    },
+    {
+      "id": "se-q11",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "Aryan is 4 years older than Shambhvi. Their ages add up to 22. How old is Shambhvi?",
+      "options": ["$9$", "$13$", "$11$", "$7$"],
+      "correctIndex": 0,
+      "explanation": "Let Shambhvi be $x$: $x + (x + 4) = 22 \\Rightarrow 2x + 4 = 22 \\Rightarrow 2x = 18 \\Rightarrow x = 9$.",
+      "topicTags": ["word-problem"]
+    },
+    {
+      "id": "se-q12",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "Solve: $5x + 3 = 2x + 18$.",
+      "options": ["$x = 5$", "$x = 7$", "$x = 3$", "$x = 21$"],
+      "correctIndex": 0,
+      "explanation": "Bring variables together: $5x - 2x = 18 - 3 \\Rightarrow 3x = 15 \\Rightarrow x = 5$.",
+      "topicTags": ["solving"]
+    }
+  ]
+}

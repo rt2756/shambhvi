@@ -1,0 +1,132 @@
+{
+  "slug": "lines-and-angles",
+  "title": "Lines and Angles — Practice Quiz",
+  "version": 1,
+  "questions": [
+    {
+      "id": "la-q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "An angle of $45°$ is:",
+      "options": ["Acute", "Right", "Obtuse", "Reflex"],
+      "correctIndex": 0,
+      "explanation": "An acute angle is less than $90°$. Since $45° < 90°$, it is acute.",
+      "topicTags": ["angle-types"]
+    },
+    {
+      "id": "la-q2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "What is the complement of $35°$?",
+      "options": ["$55°$", "$145°$", "$65°$", "$35°$"],
+      "correctIndex": 0,
+      "explanation": "Complementary angles add to $90°$: $90° - 35° = 55°$.",
+      "topicTags": ["complementary"]
+    },
+    {
+      "id": "la-q3",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "What is the supplement of $110°$?",
+      "options": ["$70°$", "$90°$", "$250°$", "$20°$"],
+      "correctIndex": 0,
+      "explanation": "Supplementary angles add to $180°$: $180° - 110° = 70°$.",
+      "topicTags": ["supplementary"]
+    },
+    {
+      "id": "la-q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "Two angles that add up to $90°$ are called:",
+      "options": ["Complementary", "Supplementary", "Vertically opposite", "A linear pair"],
+      "correctIndex": 0,
+      "explanation": "Sum $= 90°$ → complementary. (Sum $= 180°$ would be supplementary.)",
+      "topicTags": ["complementary"]
+    },
+    {
+      "id": "la-q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "When two straight lines cross, the vertically opposite angles are:",
+      "options": ["Equal", "Supplementary", "Complementary", "Always $90°$"],
+      "correctIndex": 0,
+      "explanation": "Vertically opposite angles (the pair facing each other) are always equal.",
+      "topicTags": ["vertically-opposite"]
+    },
+    {
+      "id": "la-q6",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "The two angles of a linear pair always add up to:",
+      "options": ["$180°$", "$90°$", "$360°$", "$270°$"],
+      "correctIndex": 0,
+      "explanation": "A linear pair sits on a straight line, so the angles are supplementary: they sum to $180°$.",
+      "topicTags": ["linear-pair"]
+    },
+    {
+      "id": "la-q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "An angle is $60°$. What is the size of its complement?",
+      "options": ["$30°$", "$120°$", "$40°$", "$60°$"],
+      "correctIndex": 0,
+      "explanation": "Complement $= 90° - 60° = 30°$.",
+      "topicTags": ["complementary"]
+    },
+    {
+      "id": "la-q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "A transversal crosses two parallel lines. Corresponding angles are:",
+      "options": ["Equal", "Supplementary", "Complementary", "Unrelated"],
+      "correctIndex": 0,
+      "explanation": "When the lines are parallel, corresponding angles are equal.",
+      "topicTags": ["transversal"]
+    },
+    {
+      "id": "la-q9",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "On two parallel lines cut by a transversal, co-interior (same-side interior) angles add up to:",
+      "options": ["$180°$", "$90°$", "$360°$", "They are equal"],
+      "correctIndex": 0,
+      "explanation": "Co-interior angles are supplementary when the lines are parallel: they sum to $180°$.",
+      "topicTags": ["transversal"]
+    },
+    {
+      "id": "la-q10",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "One angle of a linear pair is $125°$. What is the other angle?",
+      "options": ["$55°$", "$65°$", "$35°$", "$235°$"],
+      "correctIndex": 0,
+      "explanation": "A linear pair sums to $180°$: $180° - 125° = 55°$.",
+      "topicTags": ["linear-pair"]
+    },
+    {
+      "id": "la-q11",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "Alternate interior angles are equal **only when**:",
+      "options": [
+        "The two lines are parallel",
+        "The transversal is vertical",
+        "Both angles are acute",
+        "The angles are adjacent"
+      ],
+      "correctIndex": 0,
+      "explanation": "The equality of alternate interior angles holds only if the two lines cut by the transversal are parallel.",
+      "topicTags": ["transversal", "parallel-test"]
+    },
+    {
+      "id": "la-q12",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "An angle is $x$ and its supplement is $x + 40°$. Find $x$.",
+      "options": ["$70°$", "$50°$", "$60°$", "$80°$"],
+      "correctIndex": 0,
+      "explanation": "Supplementary: $x + (x + 40°) = 180° \\Rightarrow 2x + 40° = 180° \\Rightarrow 2x = 140° \\Rightarrow x = 70°$.",
+      "topicTags": ["supplementary", "equation"]
+    }
+  ]
+}

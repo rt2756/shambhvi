@@ -1,0 +1,127 @@
+{
+  "slug": "visualising-solid-shapes",
+  "title": "Visualising Solid Shapes — Practice Quiz",
+  "version": 1,
+  "questions": [
+    {
+      "id": "vss-q1",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "How many faces does a cube have?",
+      "options": ["$6$", "$8$", "$12$", "$4$"],
+      "correctIndex": 0,
+      "explanation": "A cube has 6 square faces.",
+      "topicTags": ["faces-edges-vertices"]
+    },
+    {
+      "id": "vss-q2",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "How many edges does a cube have?",
+      "options": ["$12$", "$6$", "$8$", "$4$"],
+      "correctIndex": 0,
+      "explanation": "A cube has 12 edges (the line segments where faces meet).",
+      "topicTags": ["faces-edges-vertices"]
+    },
+    {
+      "id": "vss-q3",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "How many vertices does a cube have?",
+      "options": ["$8$", "$6$", "$12$", "$4$"],
+      "correctIndex": 0,
+      "explanation": "A cube has 8 vertices (corner points).",
+      "topicTags": ["faces-edges-vertices"]
+    },
+    {
+      "id": "vss-q4",
+      "type": "mcq",
+      "difficulty": "easy",
+      "prompt": "A flat surface of a solid is called a:",
+      "options": ["Face", "Edge", "Vertex", "Net"],
+      "correctIndex": 0,
+      "explanation": "A face is a flat surface; an edge is where two faces meet; a vertex is a corner.",
+      "topicTags": ["definitions"]
+    },
+    {
+      "id": "vss-q5",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "How many vertices does a cuboid have?",
+      "options": ["$8$", "$6$", "$12$", "$4$"],
+      "correctIndex": 0,
+      "explanation": "Like a cube, a cuboid has 8 vertices (and 6 faces, 12 edges).",
+      "topicTags": ["faces-edges-vertices"]
+    },
+    {
+      "id": "vss-q6",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "How many edges does a sphere have?",
+      "options": ["$0$", "$1$", "$2$", "Infinitely many"],
+      "correctIndex": 0,
+      "explanation": "A sphere is fully curved — it has no edges and no vertices.",
+      "topicTags": ["faces-edges-vertices"]
+    },
+    {
+      "id": "vss-q7",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "How many vertices does a cone have?",
+      "options": ["$1$", "$0$", "$2$", "$3$"],
+      "correctIndex": 0,
+      "explanation": "A cone has a single vertex — the apex (pointed tip).",
+      "topicTags": ["faces-edges-vertices"]
+    },
+    {
+      "id": "vss-q8",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "The line segment where two flat faces of a solid meet is called a(n):",
+      "options": ["Edge", "Vertex", "Face", "Net"],
+      "correctIndex": 0,
+      "explanation": "Two faces meet along an edge. A vertex is a single point, not a line.",
+      "topicTags": ["definitions"]
+    },
+    {
+      "id": "vss-q9",
+      "type": "mcq",
+      "difficulty": "medium",
+      "prompt": "How many faces does a triangular prism have?",
+      "options": ["$5$", "$6$", "$4$", "$9$"],
+      "correctIndex": 0,
+      "explanation": "A triangular prism has 2 triangular faces + 3 rectangular faces = 5 faces.",
+      "topicTags": ["faces-edges-vertices"]
+    },
+    {
+      "id": "vss-q10",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "How many different nets can fold into a cube?",
+      "options": ["$11$", "$6$", "$8$", "$1$"],
+      "correctIndex": 0,
+      "explanation": "There are 11 distinct nets that fold up into a cube.",
+      "topicTags": ["nets"]
+    },
+    {
+      "id": "vss-q11",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "How many edges does a square pyramid have?",
+      "options": ["$8$", "$5$", "$6$", "$12$"],
+      "correctIndex": 0,
+      "explanation": "4 edges around the square base + 4 slant edges to the apex = 8 edges.",
+      "topicTags": ["faces-edges-vertices"]
+    },
+    {
+      "id": "vss-q12",
+      "type": "mcq",
+      "difficulty": "hard",
+      "prompt": "What is the **top view** of a cylinder standing upright?",
+      "options": ["A circle", "A rectangle", "A triangle", "A square"],
+      "correctIndex": 0,
+      "explanation": "Looking straight down on an upright cylinder, you see its circular top — a circle. (The front view is a rectangle.)",
+      "topicTags": ["views"]
+    }
+  ]
+}
