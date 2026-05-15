@@ -21,4 +21,17 @@ dist/
 .tmp/
 tmp/
 
+# Next.js build output
+.next/
+out/
+next-env.d.ts.bak
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# AI-drafted content awaiting parent review
+content/math/_drafts/
+
 # Project local assets/output
