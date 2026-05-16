@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Markdown } from "@/lib/markdown";
+import { recordTutorMessage } from "@/lib/progress/events";
 
 interface Props {
   chapterSlug?: string;
@@ -72,6 +73,7 @@ export function TutorChat({
     setMessages(next);
     setInput("");
     setStreaming(true);
+    recordTutorMessage();
 
     try {
       const res = await fetch("/api/tutor", {

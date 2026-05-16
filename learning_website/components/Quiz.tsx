@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Markdown } from "@/lib/markdown";
+import { recordQuizAttempt } from "@/lib/progress/events";
 import type { Quiz as QuizData, QuizResult } from "@/lib/quiz/schema";
 
 interface Props {
@@ -34,6 +35,7 @@ export function Quiz({ quiz, onComplete }: Props) {
     if (isLast) {
       setDone(true);
       const correct = Object.values(perQuestion).filter(Boolean).length;
+      recordQuizAttempt(quiz.slug, quiz.questions.length, correct);
       onComplete?.({
         slug: quiz.slug,
         total: quiz.questions.length,

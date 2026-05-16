@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AskTutorButton } from "@/components/AskTutorButton";
+import { ViewTracker } from "@/components/ViewTracker";
 import { getFoundation, getFoundationTopics } from "@/lib/content";
 import { Markdown } from "@/lib/markdown";
 
@@ -52,6 +53,7 @@ export default async function FoundationPage({ params }: Props) {
       </footer>
 
       <AskTutorButton chapterSlug={topic.slug} chapterTitle={topic.title} />
+      <ViewTracker slug={topic.slug} />
     </article>
   );
 }

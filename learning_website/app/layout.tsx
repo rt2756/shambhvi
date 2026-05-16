@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { StreakBadge } from "@/components/StreakBadge";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -33,6 +34,7 @@ export default function RootLayout({
               <Link href="/progress" className="hover:text-brand-600">
                 Progress
               </Link>
+              <StreakBadge />
             </nav>
           </div>
         </header>

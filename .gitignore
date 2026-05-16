@@ -26,6 +26,9 @@ tmp/
 out/
 next-env.d.ts.bak
 
+# TypeScript incremental build cache
+*.tsbuildinfo
+
 # Environment / secrets
 .env
 .env.local
