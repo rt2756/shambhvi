@@ -1,6 +1,6 @@
-# Class 7 Maths
+# Maths
 
-A single-page website of class-7 (CBSE / NCERT) maths revision notes — one running document.
+A single-page website of CBSE / NCERT maths revision notes — one running document.
 Plain HTML + CSS, no build step, no JavaScript — published with **GitHub Pages**.
 
 ## Files
