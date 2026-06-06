@@ -1,9 +1,9 @@
 [
-  "numbers.md",
-  "calculations.md",
-  "fractions-decimals.md",
-  "algebra.md",
-  "geometry.md",
-  "measurements.md",
-  "data-handling.md"
+  "1.numbers.md",
+  "2.fractions-decimals.md",
+  "3.geometry.md",
+  "4.algebra.md",
+  "5.data-handling.md",
+  "6.measurements.md",
+  "7.calculations.md"
 ]
