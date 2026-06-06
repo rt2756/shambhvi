@@ -1,31 +1,58 @@
 # Maths
 
-A single-page website of CBSE / NCERT maths revision notes — one running document.
-Plain HTML + CSS, no build step, no JavaScript — published with **GitHub Pages**.
+CBSE / NCERT maths revision notes. The **content lives in plain Markdown files**, one per
+topic; the page fetches them and renders collapsible sections in the browser. No build
+step, no Jekyll — published with **GitHub Pages**.
 
 ## Files
 
 | Path | What it is |
 |---|---|
-| `index.html` | The notes — one running document, every topic on this page. |
+| `content/math/*.md` | The notes — one Markdown file per topic. **Edit these.** |
+| `content/math/manifest.json` | The ordered list of topic files to show. |
+| `index.html` | Thin shell: header + an empty container the notes render into. |
+| `assets/js/app.js` | Loads the manifest + `.md` files and builds the page. |
+| `assets/js/marked.min.js` | The Markdown parser (vendored — `marked` v12.0.2). |
 | `assets/css/style.css` | All the styling, in one commented stylesheet. |
-| `.nojekyll` | Tells GitHub Pages to serve the files as-is (no Jekyll processing). |
+| `.nojekyll` | Tells GitHub Pages to serve the files as-is (no Jekyll). |
 
-## Writing notes
+## Editing notes
 
-Add topics straight into `index.html`. The pre-styled building blocks are:
+Just edit the Markdown in `content/math/`. The first `#` heading in a file is the topic
+title shown on the collapsible panel; use `##` for sub-topics, `-` for bullets, `**bold**`
+for emphasis. Save and reload — the change shows up, and `git diff` shows a clean,
+readable delta.
 
-- `<h2>Topic</h2>` and `<h3>Sub-topic</h3>` for headings
-- `<div class="box eg">` — a worked example
-- `<div class="box tip">` — a handy tip
-- `<div class="box warn">` — the ⚠️ common-mistakes line
-- a normal `<table>` for tables
+### Coloured callout boxes
 
-No build step — save and reload the page.
+Write them as GitHub-style alerts (these also render as proper boxes when you view the
+`.md` on github.com):
+
+```markdown
+> [!TIP]
+> A handy tip.
+
+> [!WARNING]
+> The ⚠️ common-mistakes line.
+```
+
+| You write | You get |
+|---|---|
+| `> [!TIP]` | 💡 green tip box |
+| `> [!WARNING]` or `> [!CAUTION]` | ⚠️ red "common mistakes" box |
+| `> [!NOTE]` | 📘 blue note box |
+| `> [!IMPORTANT]` | 📝 purple example box |
+
+### Adding a new topic
+
+1. Create `content/math/<topic>.md` starting with a `# Title` line.
+2. Add `"<topic>.md"` to `content/math/manifest.json` (the order there is the page order).
 
 ## Local preview
 
-Double-click `index.html`, or run a tiny server from the repo root:
+The notes load from separate files, so you need a tiny local server — **double-clicking
+`index.html` won't work** (browsers block reading local files over `file://`). From the
+repo root:
 
     python3 -m http.server
 
