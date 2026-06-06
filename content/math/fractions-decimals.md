@@ -73,14 +73,50 @@
 >
 > For division, flip only the **second** fraction.
 
-## Decimals & money
+## Decimals
 
-- The point splits whole and part: 4.73 = 4 + 7/10 + 3/100 (tenths, hundredths, thousandths).
-- **Compare:** line up the point and compare place by place; 0.5 = 0.50.
-- **Add / subtract:** line up the decimal points.
-- **Fraction ↔ decimal:** divide to turn a pizza fraction into a decimal (`3/4 = 0.75`); write decimal digits over their place value to turn a decimal back into a fraction (`0.25 = 25/100 = 1/4`).
-- **Money:** 100 paise = ₹1; write amounts with 2 decimal places (₹12.50).
+- Another way to write a fraction. It uses a **decimal point** to separate whole numbers from parts smaller than 1.
+- Numbers to the **left** of the decimal point are whole numbers: ones, tens, hundreds.
+- Numbers to the **right** of the decimal point are decimal parts: tenths, hundredths, thousandths.
+- Every step to the right of the decimal point means dividing by 10.
+- **Expanded form:** `4.73 = 4 + 7/10 + 3/100`.
 
-> [!WARNING]
-> 0.5 > 0.45 (line up the point, don't count digits) · keep 2 places after the point for paise.
+
+| Number | Place         | Meaning                          |
+| ------ | ------------- | -------------------------------- |
+| `4`    | Ones          | 4 wholes                         |
+| `.`    | Decimal point | separates whole and decimal part |
+| `7`    | Tenths        | `7/10`                           |
+| `3`    | Hundredths    | `3/100`                          |
+
+
+## Comparing decimals
+
+- **Do not count digits** to decide which decimal is bigger.
+- Line up the decimal points, then add helper zeros at the end if needed.
+- Example: compare `0.5` and `0.45`. 
+  - Write `0.5` as `0.50`, then compare `50` hundredths with `45` hundredths. So `0.50 > 0.45`.
+- Adding zeros at the end of a decimal does not change its value: `0.5 = 0.50 = 0.500`.
+
+## Adding & subtracting decimals
+
+- Line up the decimal points, then add helper zeros at the end if needed before adding or subtracting.
+
+```text
+  5.80   ← helper zero
++ 2.14
+------
+  7.94
+```
+
+## Decimal and fraction conversions
+
+- **Fraction to decimal:** treat the fraction bar as division. Divide numerator by denominator (`3/4 = 3 ÷ 4 = 0.75`).
+- **Decimal to fraction:** write the decimal digits as a whole number on top, then add as many zeroes as many digits, then simplify.
+- Example: `0.3 = 3/10`
+- Example: `0.25 = 25/100 = 1/4` after dividing numerator and denominator by 25
+- Example: `0.751 = 751/1000`
+
+> [!WARNING]  
+> `0.5 > 0.45`: line up the decimal points first; add helper zeroes to make number of decimal digits same, then compare.
 
