@@ -2,9 +2,8 @@
 
 ## Fractions
 
-- Think of every example as a **same-size pizza** cut into equal slices.
+- Think of fractions as a **same-size pizza** cut into equal slices.
 - A fraction shows **part of a whole**: `3/4` means 3 slices when 1 pizza is cut into 4 equal slices.
-- In `3/4`, **3 is the numerator** and **4 is the denominator**.
 - **Numerator** = top number; it tells how many pizza slices we have.
 - **Denominator** = bottom number; it tells how many equal slices make 1 whole pizza.
 - **Fraction bar means division:** `6/2` means `6 ÷ 2`, so it equals 3.
