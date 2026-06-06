@@ -86,6 +86,7 @@ code{ background:#f3eefe; color:#5a3fe0; padding:.06em .35em; border-radius:5px;
 table{ border-collapse:collapse; width:100%; margin:1.2em 0; font-size:.96rem; background:#fff; border-radius:10px; overflow:hidden; }
 th,td{ border:1px solid var(--line); padding:9px 12px; text-align:left; vertical-align:top; }
 th{ background:#f1ecff; color:var(--brand-ink); }
+.topic-body table{ display:block; max-width:100%; overflow-x:auto; white-space:nowrap; }
 
 /* ---------- empty state (shown until notes are added) ---------- */
 .empty{ background:#fff; border:1px dashed #cfc5ea; border-radius:16px; padding:34px 26px; text-align:center; color:var(--soft); margin:1.4em 0; }
