@@ -133,11 +133,13 @@
     if (!mount) return;
     if (!window.marked) { showError(mount, new Error("marked failed to load")); return; }
 
-    fetch(SUBJECT_DIR + "manifest.json")
+    // { cache: "no-cache" } => always revalidate with the server, so edits to the
+    // .md / manifest show up on a normal reload (no hard refresh needed).
+    fetch(SUBJECT_DIR + "manifest.json", { cache: "no-cache" })
       .then(function (r) { if (!r.ok) throw new Error("manifest.json " + r.status); return r.json(); })
       .then(function (files) {
         return Promise.all(files.map(function (name) {
-          return fetch(SUBJECT_DIR + name)
+          return fetch(SUBJECT_DIR + name, { cache: "no-cache" })
             .then(function (r) { if (!r.ok) throw new Error(name + " " + r.status); return r.text(); })
             .then(function (text) { return toTopic(name, text); });
         }));

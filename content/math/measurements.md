@@ -1,11 +1,29 @@
 # 📏 Measurements
 
-## Measurement
+## Length
 
-- **Length:** 10 mm = 1 cm · 100 cm = 1 m · 1000 m = 1 km.
-- **Weight:** 1000 mg = 1 g · 1000 g = 1 kg. **Capacity:** 1000 mL = 1 L.
-- Big unit → small unit: **×** · small → big: **÷**.
-- **Time:** 60 sec = 1 min · 60 min = 1 hour · 24 hours = 1 day. 24-hour clock: 1 pm = 13:00.
+- 1 centimetre = 10 millimetre, 1 decimetre = 10 centimetre, 1 metre = 10 decimetre
+- 1 decametre = 10 metre, 1 hectametre = 10 decametre, 1 km = 10 hectametre
+- **1 m = 100 cm = 1000 mm**
+- **1 km = 1000 m**
 
-> [!WARNING]
-> 1 km = 1000 m (not 100) · make units the same before adding.
+## Weight
+
+- 1 g = 1000 mg · 1 kg = 1000 g.
+
+## Capacity
+
+- 1 L = 1000 ml.
+
+## Time
+
+- 60 sec = 1 min · 60 min = 1 hour · 24 hours = 1 day.
+
+## Quantity
+
+- Hundred = 10² = 100.
+- Thousand = 10³ = 1,000.
+- Million = 10⁶ = 1,000,000.
+- Billion = 10⁹ = 1,000,000,000.
+- Trillion = 10¹² = 1,000,000,000,000.
+
