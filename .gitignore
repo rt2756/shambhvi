@@ -38,3 +38,4 @@ next-env.d.ts.bak
 content/math/_drafts/
 
 # Project local assets/output
+.claude/
