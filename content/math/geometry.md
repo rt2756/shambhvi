@@ -9,9 +9,10 @@
 - **Straight angle:** exactly 180°.
 - **Reflex angle:** more than 180° and less than 360° (`180° < angle < 360°`).
 - **Perpendicular lines:** two lines that meet at 90° are perpendicular to each other.
-- **Clock angles:** in 12 hours, the hour hand covers 360°, so 1 hour = `360° / 12 = 30°`.
-- In 60 minutes, the minute hand covers 360°, so 1 minute = `360° / 60 = 6°`.
-- In 60 seconds, the second hand covers 360°, so 1 second = `360° / 60 = 6°`.
+- **Clock angles:**
+  - In 12 hours, the hour hand covers 360°, so 1 hour = `360° / 12 = 30°`.
+  - In 60 minutes, the minute hand covers 360°, so 1 minute = `360° / 60 = 6°`.
+  - In 60 seconds, the second hand covers 360°, so 1 second = `360° / 60 = 6°`.
 - **Naming angles:** use three letters, with the vertex letter in the middle. Example: angle 1 can be written as `∠CAB` or `∠BAC`.
 
 ![Angle naming example](assets/img/angle-naming-example.png)
@@ -22,10 +23,10 @@
 ## Shapes
 
 - **Triangle:** 3 sides and 3 corners.
-- **Equilateral triangle:** all 3 sides are equal and all 3 angles are equal.
-- **Isosceles triangle:** 2 sides are equal and 2 angles are equal.
-- **Scalene triangle:** no sides are equal.
-- **Right angle triangle:** one angle is 90°.
+    - **Equilateral triangle:** all 3 sides are equal and all 3 angles are equal.
+    - **Isosceles triangle:** 2 sides are equal and 2 angles are equal.
+    - **Scalene triangle:** no sides are equal.
+    - **Right angle triangle:** one angle is 90°.
 - **Square:** 4 equal sides and 4 right-angle corners. Opposite sides are parallel.
 - **Rhombus:** like a leaning square. It has 4 equal sides, opposite sides are parallel, but it has no right angles.
 - **Rectangle:** all 4 angles are right angles. Opposite sides are equal and parallel.
@@ -39,9 +40,25 @@
 - **Octagon:** 8 sides and 8 corners.
 - **Nonagon:** 9 sides and 9 corners.
 - **Decagon:** 10 sides and 10 corners.
+- **Circle:** no sides and no corners. The **radius** goes from the centre to the edge; the **diameter** goes across the centre. `diameter = 2 × radius`.
 
 > [!WARNING]
 > A right angle is exactly 90°. For angle names, the vertex must be the middle letter.
+
+## 3D shapes, nets & views
+
+- A **solid shape** is 3D. It has length, breadth, and height.
+- A **face** is a flat or curved surface, an **edge** is where faces meet, and a **vertex/corner** is where edges meet.
+- **Cube:** 6 square faces, 12 edges, and 8 corners.
+- **Cuboid:** 6 rectangular faces, 12 edges, and 8 corners.
+- **Prism:** same shape on two opposite faces, joined by rectangular faces. Example: triangular prism.
+- **Pyramid:** one base face and triangular faces meeting at one top corner.
+- **Sphere:** curved surface only; no edges and no corners.
+- **Cylinder:** 2 flat circular faces and 1 curved face.
+- **Cone:** 1 flat circular face, 1 curved face, and 1 corner.
+- A **net** is a flat pattern that can be folded to make a solid.
+- **Opposite faces** do not touch each other. **Adjacent faces** share an edge.
+- The same object can look different from the **top view**, **front view**, **side view**, or **back view**.
 
 ## Perimeter, area & volume
 
@@ -55,6 +72,7 @@
 ## Symmetry & patterns
 
 - A **line of symmetry** folds a shape into two matching mirror halves; a shape can have 0, 1, 2, … or infinite lines.
+- A mirror placed on the line of symmetry shows the missing half as a reflection.
 - Square → 4 lines · rectangle → 2 · equilateral triangle → 3 · circle → infinite.
 - **Patterns:** numbers (2, 4, 6, …), shapes, and repeating or growing patterns.
 
