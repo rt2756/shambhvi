@@ -23,6 +23,13 @@
 - Just check the **last digit** to decide. 
 - **0 is even.**
 
+## Prime & composite numbers
+
+- **Prime** = has **exactly two** factors — 1 and the number itself (2, 3, 5, 7, 11, …).
+- **Composite** = has **more than two** factors (4, 6, 8, 9, 10, …).
+- **0 and 1 are neither prime nor composite** — 1 has only one factor, so it fails the “exactly two” test.
+- **2 is the only even prime**
+
 ## Factors & multiples
 
 - **Factor** = a number that divides another **exactly** (no remainder).
@@ -87,13 +94,16 @@
 
 ### Divisibility shortcuts
 
-- Last digit **0, 2, 4, 6, 8** → divisible by **2**
-- Last digit **0 or 5** → divisible by **5**
-- Last digit **0** → divisible by **10**
-
-## Prime & composite numbers
-
-- **Prime** = has **exactly two** factors — 1 and the number itself (2, 3, 5, 7, 11, …).
-- **Composite** = has **more than two** factors (4, 6, 8, 9, 10, …).
-- **0 and 1 are neither prime nor composite** — 1 has only one factor, so it fails the “exactly two” test.
-- **2 is the only even prime**
+- **2:** last digit is **0, 2, 4, 6, or 8** (e.g. 48, 130)
+- **3:** **sum of digits** is divisible by 3 (e.g. 123 → `1 + 2 + 3 = 6`)
+- **4:** **last two digits** form a number divisible by 4 (e.g. 1324 → `24 ÷ 4 = 6`)
+- **5:** last digit is **0 or 5** (e.g. 35, 120)
+- **6:** divisible by **both 2 and 3** (e.g. 126 — even, and `1 + 2 + 6 = 9`)
+- **8:** **last three digits** form a number divisible by 8 (e.g. 5024 → `24 ÷ 8 = 3` ✓; 5026 → `26 ÷ 8` leaves a remainder ✗)
+- **9:** **sum of digits** is divisible by 9 (e.g. 729 → `7 + 2 + 9 = 18`)
+- **11:** count from the **right** — sum digits in **odd** places, sum digits in **even** places; if their **difference is 0 or divisible by 11**, the number is divisible by 11.
+  - **11** → odd: 1, even: 1 → `1 − 1 = 0` ✓
+  - **121** → odd: 1 + 1 = 2, even: 2 → `2 − 2 = 0` ✓
+  - **1331** → odd: 1 + 3 = 4, even: 3 + 1 = 4 → `4 − 4 = 0` ✓
+  - **1463** → odd: 3 + 4 = 7, even: 6 + 1 = 7 → `7 − 7 = 0` ✓
+  - **1234** → odd: 4 + 2 = 6, even: 3 + 1 = 4 → `6 − 4 = 2` (not 0 or divisible by 11) ✗
