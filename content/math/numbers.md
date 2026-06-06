@@ -23,6 +23,74 @@
 - Just check the **last digit** to decide. 
 - **0 is even.**
 
+## Factors & multiples
+
+- **Factor** = a number that divides another **exactly** (no remainder).
+
+### How to find all factors of a number
+
+**Prime factorisation**
+
+- **Step 1:** divide repeatedly by the smallest prime that divides it exactly, until only primes are left. This is the **prime factorisation**.
+  - Example: **12** → `12 ÷ 2 = 6` → `6 ÷ 2 = 3` → 3 is prime, so stop. 
+  - Prime factors: **2, 2, 3**
+- **Step 2:** write the number using **powers** of each prime: `12 = 2² × 3¹`
+- **Step 3:** to get **all factors**, try every power of each prime and multiply:
+  - Powers of 2: `2⁰ = 1`, `2¹ = 2`, `2² = 4`
+  - Powers of 3: `3⁰ = 1`, `3¹ = 3`
+  - Combine: `1 × 1 = 1`, `2 × 1 = 2`, `4 × 1 = 4`, `1 × 3 = 3`, `2 × 3 = 6`, `4 × 3 = 12`
+  - Factors of 12: **1, 2, 3, 4, 6, 12**
+
+- **Multiple** = a number's times-table. To find multiples of a number, multiply the number by 1, 2, 3, 4, …
+    - Example: multiples of **4** → `4 × 1 = 4`, `4 × 2 = 8`, `4 × 3 = 12`, `4 × 4 = 16`, …
+
+> [!TIP]
+> **1 is a factor of every number**
+> Every number is a factor and a multiple of **itself**.
+> Every number is a multiple of each of its factors.
+
+### How to find common factors & HCF (highest common factor)
+
+- **Common factor** = a number that divides **both** numbers exactly.
+- **HCF** (Highest Common Factor) = the **largest** common factor.
+- Steps to get HCF:
+  1. Write each number as a product of **prime powers**.
+  2. For every prime that appears in **both** numbers, take the **smaller** power.
+  3. Multiply those primes together — that is the HCF.
+- Example: HCF of **18** and **60**
+  - `18 = 2¹ × 3²`
+  - `60 = 2² × 3¹ × 5¹`
+  - Common primes: **2** and **3** (ignore **5** — it is only in 60)
+  - Smaller powers: `2¹` (not `2²`) and `3¹` (not `3²`)
+  - HCF = `2¹ × 3¹ = 2 × 3` = **6**
+
+### How to find common multiples & LCM (lowest common multiple)
+
+- **Common multiple** = a number that appears in **both** times-tables.
+- **LCM** (Lowest Common Multiple) = the **smallest** common multiple (used to add or compare unlike fractions).
+- Steps to get LCM:
+  1. Write each number as a product of **prime powers**.
+  2. For every prime that appears in **either** number, take the **larger** power.
+  3. Multiply those primes together — that is the LCM.
+- Example: LCM of **18** and **60**
+  - `18 = 2¹ × 3²`
+  - `60 = 2² × 3¹ × 5¹`
+  - All primes: **2**, **3**, **5**
+  - Larger powers: `2²`, `3²`, `5¹`
+  - LCM = `2² × 3² × 5¹ = 4 × 9 × 5` = **180**
+
+> [!TIP]
+> **HCF** = Highest Common **Factor** (the small answer).
+> **LCM** = Lowest Common **Multiple** (the big answer).
+> **HCF × LCM = product of the two numbers** (e.g. `6 × 180 = 18 × 60 = 1080`).
+> If you already know one, you can find the other: **LCM = (a × b) ÷ HCF** or **HCF = (a × b) ÷ LCM**.
+
+### Divisibility shortcuts
+
+- Last digit **0, 2, 4, 6, 8** → divisible by **2**
+- Last digit **0 or 5** → divisible by **5**
+- Last digit **0** → divisible by **10**
+
 ## Prime & composite numbers
 
 - **Prime** = has **exactly two** factors — 1 and the number itself (2, 3, 5, 7, 11, …).
