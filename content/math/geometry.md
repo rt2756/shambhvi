@@ -22,6 +22,11 @@
 
 ## Shapes
 
+- **Regular shape:**
+  - All sides are equal
+  - All angles are equal
+
+
 - **Triangle:** 3 sides and 3 corners.
     - **Equilateral triangle:** all 3 sides are equal and all 3 angles are equal.
     - **Isosceles triangle:** 2 sides are equal and 2 angles are equal.
@@ -35,7 +40,7 @@
 - **Regular pentagon:** 5 equal sides and all angles are equal. Equal central/turn angle = `360° / 5 = 72°`.
 - **Hexagon:** 6 sides and 6 corners.
 - **Regular hexagon:** 6 equal sides and all angles are equal. Equal central/turn angle = `360° / 6 = 60°`.
-- **Regular shape:** all sides are equal and all angles are equal.
+
 - **Septagon:** 7 sides and 7 corners.
 - **Octagon:** 8 sides and 8 corners.
 - **Nonagon:** 9 sides and 9 corners.
