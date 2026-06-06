@@ -6,9 +6,6 @@
 - **Whole numbers (W)** = the natural numbers **plus 0**: 0, 1, 2, 3, … So **whole = natural + 0**, and the smallest whole number is **0**.
 - Zero is the only difference: every natural number is also a whole number, but **0 is whole and not natural**.
 
-> [!WARNING]
-> Counting (natural) numbers start at 1, whole numbers start at 0 · 0 is a whole number but **not** a natural number.
-
 ## Integers
 
 - **Integers (Z)** = the whole numbers **together with their negatives**: …, −3, −2, −1, 0, 1, 2, 3, …
