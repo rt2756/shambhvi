@@ -1,6 +1,6 @@
 # 🧮 Calculations
 
-## Multiplication table image
+## Multiplication table 1 to 20
 
 ![Multiplication table 2 to 20](assets/img/multiplication-table-2-to-20.png)
 
