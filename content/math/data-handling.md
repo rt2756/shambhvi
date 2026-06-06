@@ -1,0 +1,28 @@
+# 📊 Data handling
+
+## Collecting & organising data
+
+- **Data** = collected information (numbers or facts).
+- **Tally marks:** group in 5s (four lines, fifth crosses them) to count quickly.
+- **Frequency table:** lists each item and how many times it occurs (its **frequency**).
+
+## Pictograph
+
+- Uses a **picture/symbol** to stand for a number of items.
+- A **key/scale** says how many one symbol represents (e.g. 1 apple = 10). Use a **half symbol** for half the value.
+
+## Bar graph
+
+- Bars of **equal width** with **equal gaps**; the **height** shows the value.
+- Read a bar by matching its top to the **scale** on the axis.
+- **Double bar graph:** two bars per item to compare two sets (e.g. two years).
+
+## Averages (a single central value)
+
+- **Mean** = sum of all values ÷ number of values.
+- **Median** = the **middle** value when the data is arranged in order (if there are two middle values, take their mean).
+- **Mode** = the value that occurs **most often** (there can be more than one).
+- **Range** = largest − smallest.
+
+> [!TIP]
+> One very large or small value pulls the **mean** a lot; the **median** stays a steadier "middle".

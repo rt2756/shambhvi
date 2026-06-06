@@ -33,19 +33,23 @@
     - **Scalene triangle:** no sides are equal.
     - **Right angle triangle:** one angle is 90°.
 - **Square:** 4 equal sides and 4 right-angle corners. Opposite sides are parallel.
-- **Rhombus:** like a leaning square. It has 4 equal sides, opposite sides are parallel, but it has no right angles.
+- **Rhombus:** like a leaning square. It has 4 equal sides, opposite sides are parallel, usually with no right angles.
 - **Rectangle:** all 4 angles are right angles. Opposite sides are equal and parallel.
-- **Parallelogram:** like a leaning rectangle. Opposite sides are equal and parallel, but it has no right angle.
+- **Parallelogram:** like a leaning rectangle. Opposite sides are equal and parallel, usually with no right angles.
+- **Kite:** 2 pairs of equal **adjacent** sides (sides 1 = 2 and 3 = 4); its diagonals cross at right angles.
 - **Pentagon:** 5 sides and 5 corners.
 - **Regular pentagon:** 5 equal sides and all angles are equal. Equal central/turn angle = `360° / 5 = 72°`.
 - **Hexagon:** 6 sides and 6 corners.
 - **Regular hexagon:** 6 equal sides and all angles are equal. Equal central/turn angle = `360° / 6 = 60°`.
 
-- **Septagon:** 7 sides and 7 corners.
+- **Heptagon (septagon):** 7 sides and 7 corners.
 - **Octagon:** 8 sides and 8 corners.
 - **Nonagon:** 9 sides and 9 corners.
 - **Decagon:** 10 sides and 10 corners.
 - **Circle:** no sides and no corners. The **radius** goes from the centre to the edge; the **diameter** goes across the centre. `diameter = 2 × radius`.
+
+> [!TIP]
+> **Quadrilateral family:** a square is a special rectangle *and* a special rhombus; rectangles and rhombuses are both special parallelograms.
 
 > [!WARNING]
 > A right angle is exactly 90°. For angle names, the vertex must be the middle letter.
@@ -76,9 +80,11 @@
 
 ## Symmetry & patterns
 
-- A **line of symmetry** folds a shape into two matching mirror halves; a shape can have 0, 1, 2, … or infinite lines.
+- **Reflection (line) symmetry:** a **line of symmetry** folds a shape into two matching mirror halves; a shape can have 0, 1, 2, … or infinite lines.
 - A mirror placed on the line of symmetry shows the missing half as a reflection.
 - Square → 4 lines · rectangle → 2 · equilateral triangle → 3 · circle → infinite.
+- **Rotational symmetry:** the shape looks the same when turned about its centre (before a full turn). The number of matches in one full turn is its **order**.
+  - Square → order 4 (matches every `1/4` turn) · rectangle → order 2 (every `1/2` turn) · equilateral triangle → order 3 · circle → infinite.
 - **Patterns:** numbers (2, 4, 6, …), shapes, and repeating or growing patterns.
 
 > [!WARNING]
