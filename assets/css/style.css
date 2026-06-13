@@ -109,6 +109,14 @@ code{ background:#f3eefe; color:#5a3fe0; padding:.06em .35em; border-radius:5px;
 .box.eg{   border-color:var(--eg);   background:var(--eg-bg);   } .box.eg .label{   color:var(--eg);   }
 .box.note .label{ color:var(--note); }
 
+/* ---------- "studied up to here" progress bookmark ---------- */
+.studied-here{ display:flex; align-items:center; gap:14px; margin:2em 0;
+  color:#b9740a; font-weight:800; font-size:.78rem; letter-spacing:.04em; text-transform:uppercase; }
+.studied-here::before, .studied-here::after{ content:""; flex:1; border-top:3px dashed #f0a500; }
+.studied-here span{ display:inline-flex; align-items:center; gap:.45em; white-space:nowrap;
+  background:#fff7e6; border:1px solid #f3d08a; border-radius:999px; padding:6px 16px;
+  box-shadow:0 4px 14px rgba(200,140,20,.14); }
+
 /* ---------- tables ---------- */
 table{ border-collapse:collapse; width:100%; margin:1.2em 0; font-size:.96rem; background:#fff; border-radius:10px; overflow:hidden; }
 th,td{ border:1px solid var(--line); padding:9px 12px; text-align:left; vertical-align:top; }
