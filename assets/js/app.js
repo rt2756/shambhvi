@@ -1,10 +1,13 @@
-/* Maths notes — loads topic-per-file Markdown and renders collapsible panels.
-   Content lives in content/math/<topic>.md, listed in content/math/manifest.json.
+/* Maths — loads topic-per-file Markdown and renders collapsible panels.
+   Two layouts share this one engine, chosen by the #app element's data-* attributes:
+     data-content-dir   where the manifest + .md files live (default content/math/)
+     data-mode          "notes" (running cheat sheets) or "questions" (numbered Q cards)
+   Content lives in <content-dir>/<topic>.md, listed in <content-dir>/manifest.json.
    No build step: the browser fetches the files and renders them with marked. */
 (function () {
   "use strict";
 
-  var SUBJECT_DIR = "content/math/";
+  var DEFAULT_DIR = "content/math/";
 
   // "🔢 Numbers" -> "numbers"; "➗ Fractions & decimals" -> "fractions-decimals"
   function slugify(text) {
@@ -19,7 +22,16 @@
     NOTE:      { cls: "note", label: "📘 Note" },
     IMPORTANT: { cls: "eg",   label: "📝 Example" }
   };
-  var ALERT_RE = /^\s*\[!(TIP|WARNING|CAUTION|NOTE|IMPORTANT)\]\s*/;
+  var ALERT_RE  = /^\s*\[!(TIP|WARNING|CAUTION|NOTE|IMPORTANT)\]\s*/;
+  var ANSWER_RE = /^\s*\[!ANSWER\]\s*/;
+
+  // Strip a leading "[!TYPE]" marker from the first non-empty text node inside el.
+  function stripMarker(el, re) {
+    var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null);
+    var node = walker.nextNode();
+    while (node && node.nodeValue.trim() === "") node = walker.nextNode();
+    if (node) node.nodeValue = node.nodeValue.replace(re, "");
+  }
 
   // Rewrite blockquotes that start with "[!TYPE]" into styled callout boxes.
   function upgradeCallouts(root) {
@@ -33,12 +45,7 @@
       var box = document.createElement("div");
       box.className = "box " + spec.cls;
       while (bq.firstChild) box.appendChild(bq.firstChild);
-
-      // strip the leading "[!TYPE]" marker from the first non-empty text node
-      var walker = document.createTreeWalker(box, NodeFilter.SHOW_TEXT, null);
-      var node = walker.nextNode();
-      while (node && node.nodeValue.trim() === "") node = walker.nextNode();
-      if (node) node.nodeValue = node.nodeValue.replace(ALERT_RE, "");
+      stripMarker(box, ALERT_RE);
 
       // prepend the label only after the marker is stripped from the content
       var label = document.createElement("span");
@@ -50,15 +57,97 @@
     }
   }
 
-  // markdown text -> { id, title, bodyHTML } (first H1 becomes the panel title)
-  function toTopic(fileName, mdText) {
+  // Rewrite "[!ANSWER]" blockquotes into a tap-to-reveal "Show answer" panel.
+  function upgradeAnswers(root) {
+    var quotes = root.querySelectorAll("blockquote");
+    for (var i = 0; i < quotes.length; i++) {
+      var bq = quotes[i];
+      if (!ANSWER_RE.test(bq.textContent || "")) continue;
+
+      var details = document.createElement("details");
+      details.className = "answer";
+      var summary = document.createElement("summary");
+      summary.textContent = "Show answer";
+      details.appendChild(summary);
+
+      var body = document.createElement("div");
+      body.className = "answer-body";
+      while (bq.firstChild) body.appendChild(bq.firstChild);
+      stripMarker(body, ANSWER_RE);
+      details.appendChild(body);
+
+      bq.parentNode.replaceChild(details, bq);
+    }
+  }
+
+  // questions mode: split a chapter body into numbered question cards.
+  // Questions are separated by a top-level <hr> ("---"); each card's [!ANSWER]
+  // block becomes a collapsible "Show answer". Returns { fragment, count } so an
+  // empty file can fall back to a friendly "coming soon" state.
+  function toQuestionCards(body) {
+    var chunks = [[]];
+    Array.prototype.forEach.call(body.childNodes, function (node) {
+      if (node.nodeType === 1 && node.tagName === "HR") chunks.push([]);
+      else chunks[chunks.length - 1].push(node);
+    });
+
+    chunks = chunks.filter(function (nodes) {
+      return nodes.some(function (n) {
+        return n.nodeType === 1 || (n.nodeType === 3 && n.nodeValue.trim() !== "");
+      });
+    });
+
+    var frag = document.createDocumentFragment();
+    chunks.forEach(function (nodes, i) {
+      var card = document.createElement("div");
+      card.className = "qcard";
+
+      var num = document.createElement("span");
+      num.className = "qnum";
+      num.textContent = i + 1;
+      card.appendChild(num);
+
+      var qbody = document.createElement("div");
+      qbody.className = "qbody";
+      nodes.forEach(function (n) { qbody.appendChild(n); });
+      upgradeAnswers(qbody);
+      card.appendChild(qbody);
+
+      frag.appendChild(card);
+    });
+    return { fragment: frag, count: chunks.length };
+  }
+
+  function emptyState(big, strong, msg) {
+    var div = document.createElement("div");
+    div.className = "empty";
+    var b = document.createElement("div"); b.className = "big"; b.textContent = big;
+    var s = document.createElement("strong"); s.textContent = strong;
+    div.appendChild(b);
+    div.appendChild(s);
+    div.appendChild(document.createTextNode(msg));
+    return div;
+  }
+
+  // markdown text -> { id, title, body } (first H1 becomes the panel title).
+  // In questions mode the body is rebuilt as numbered question cards.
+  function toTopic(fileName, mdText, mode) {
     var tmp = document.createElement("div");
     tmp.innerHTML = window.marked.parse(mdText);
     var h1 = tmp.querySelector("h1");
     var title = h1 ? h1.textContent.trim() : fileName.replace(/\.md$/, "");
     if (h1) h1.parentNode.removeChild(h1);
     upgradeCallouts(tmp);
-    return { id: slugify(title), title: title, bodyHTML: tmp.innerHTML };
+
+    if (mode === "questions") {
+      var cards = toQuestionCards(tmp);
+      tmp.innerHTML = "";
+      tmp.appendChild(cards.count
+        ? cards.fragment
+        : emptyState("📝", "Questions coming soon",
+            "Practice questions for this chapter haven’t been added yet."));
+    }
+    return { id: slugify(title), title: title, body: tmp };
   }
 
   function buildToc(topics) {
@@ -100,7 +189,7 @@
     details.appendChild(summary);
     var body = document.createElement("div");
     body.className = "topic-body";
-    body.innerHTML = topic.bodyHTML;
+    while (topic.body.firstChild) body.appendChild(topic.body.firstChild);
     details.appendChild(body);
     return details;
   }
@@ -120,12 +209,12 @@
     mount.innerHTML =
       '<div class="empty">' +
       '<div class="big">📭</div>' +
-      "<strong>Couldn’t load the notes</strong>" +
-      "These notes load from separate files, so open the site with a local server " +
+      "<strong>Couldn’t load this page</strong>" +
+      "The content loads from separate files, so open the site with a local server " +
       "(not by double-clicking the file):<br><br>" +
       "<code>python3 -m http.server</code><br>then visit <code>http://localhost:8000</code>" +
       "</div>";
-    if (window.console) console.error("[notes]", err);
+    if (window.console) console.error("[maths]", err);
   }
 
   function init() {
@@ -133,15 +222,18 @@
     if (!mount) return;
     if (!window.marked) { showError(mount, new Error("marked failed to load")); return; }
 
+    var dir = mount.dataset.contentDir || DEFAULT_DIR;
+    var mode = mount.dataset.mode || "notes";
+
     // { cache: "no-cache" } => always revalidate with the server, so edits to the
     // .md / manifest show up on a normal reload (no hard refresh needed).
-    fetch(SUBJECT_DIR + "manifest.json", { cache: "no-cache" })
+    fetch(dir + "manifest.json", { cache: "no-cache" })
       .then(function (r) { if (!r.ok) throw new Error("manifest.json " + r.status); return r.json(); })
       .then(function (files) {
         return Promise.all(files.map(function (name) {
-          return fetch(SUBJECT_DIR + name, { cache: "no-cache" })
+          return fetch(dir + name, { cache: "no-cache" })
             .then(function (r) { if (!r.ok) throw new Error(name + " " + r.status); return r.text(); })
-            .then(function (text) { return toTopic(name, text); });
+            .then(function (text) { return toTopic(name, text, mode); });
         }));
       })
       .then(function (topics) {

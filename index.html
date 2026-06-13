@@ -5,17 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Maths — Notes</title>
 <meta name="description" content="Quick CBSE / NCERT maths revision notes, organised by topic — editable Markdown, rendered in the browser.">
-<link rel="stylesheet" href="assets/css/style.css?v=3">
+<link rel="stylesheet" href="assets/css/style.css?v=4">
 </head>
 <body>
   <div class="wrap notes">
     <header class="hero">
       <span class="pill">📘 CBSE · NCERT</span>
       <h1 class="title"><span class="grad">Maths</span></h1>
+      <nav class="nav-toggle" aria-label="Layout">
+        <a class="active" href="index.html">📘 Notes</a>
+        <a href="questions.html">📝 Questions</a>
+      </nav>
     </header>
 
     <!-- Notes are loaded from content/math/*.md and rendered here by assets/js/app.js -->
-    <div id="app">
+    <div id="app" data-content-dir="content/math/" data-mode="notes">
       <div class="empty"><div class="big">⏳</div><strong>Loading notes…</strong></div>
     </div>
   </div>

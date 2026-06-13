@@ -10,8 +10,10 @@ step, no Jekyll — published with **GitHub Pages**.
 |---|---|
 | `content/math/*.md` | The notes — one Markdown file per topic. **Edit these.** |
 | `content/math/manifest.json` | The ordered list of topic files to show. |
-| `index.html` | Thin shell: header + an empty container the notes render into. |
-| `assets/js/app.js` | Loads the manifest + `.md` files and builds the page. |
+| `content/math-questions/*.md` | The practice questions — one file per topic, same chapters as the notes. |
+| `content/math-questions/manifest.json` | The ordered list of question files to show. |
+| `index.html` · `questions.html` | The two layouts — **Notes** and **Questions**. Each is a thin shell with a container the content renders into. |
+| `assets/js/app.js` | Loads a manifest + `.md` files and builds the page; one engine drives both layouts (chosen by `#app`'s `data-mode`). |
 | `assets/js/marked.min.js` | The Markdown parser (vendored — `marked` v12.0.2). |
 | `assets/css/style.css` | All the styling, in one commented stylesheet. |
 | `.nojekyll` | Tells GitHub Pages to serve the files as-is (no Jekyll). |
@@ -47,6 +49,38 @@ Write them as GitHub-style alerts (these also render as proper boxes when you vi
 
 1. Create `content/math/<topic>.md` starting with a `# Title` line.
 2. Add `"<topic>.md"` to `content/math/manifest.json` (the order there is the page order).
+
+## Questions
+
+The **Questions** page (`questions.html`) is a second layout that shares the same engine.
+Questions live in `content/math-questions/`, one Markdown file per topic — the **same
+numbered chapters** as the notes (`1.numbers.md`, …). They render as **auto-numbered
+cards**, each with a tap-to-reveal **“Show answer.”**
+
+Write each question as a block, separated by a blank-line-padded `---`; put the answer in
+a `> [!ANSWER]` block (optional). **Don't number the questions yourself** — the page
+numbers them in order. A file with no questions shows a “coming soon” state.
+
+```markdown
+# 1. Numbers
+
+What is the smallest whole number?
+
+> [!ANSWER]
+> 0
+
+---
+
+Find (−6) × 102 using the distributive shortcut.
+
+> [!ANSWER]
+> (−6) × 100 + (−6) × 2 = −612
+```
+
+### Adding a question chapter
+
+1. Create `content/math-questions/<topic>.md` starting with a `# Title` line.
+2. Add `"<topic>.md"` to `content/math-questions/manifest.json` (the order there is the page order).
 
 ## Local preview
 
