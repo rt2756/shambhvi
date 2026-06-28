@@ -1,7 +1,8 @@
-/* Maths — loads topic-per-file Markdown and renders collapsible panels.
-   Two layouts share this one engine, chosen by the #app element's data-* attributes:
+/* Maths & English — loads topic-per-file Markdown and renders collapsible panels.
+   Layouts share this one engine, chosen by the #app element's data-* attributes:
      data-content-dir   where the manifest + .md files live (default content/math/)
-     data-mode          "notes" (running cheat sheets) or "questions" (numbered Q cards)
+     data-mode          "notes" (running cheat sheets), "questions" (numbered Q cards),
+                        or "vocab" (flashcards: word on front, meaning on tap)
    Content lives in <content-dir>/<topic>.md, listed in <content-dir>/manifest.json.
    No build step: the browser fetches the files and renders them with marked. */
 (function () {
@@ -57,8 +58,9 @@
     }
   }
 
-  // Rewrite "[!ANSWER]" blockquotes into a tap-to-reveal "Show answer" panel.
-  function upgradeAnswers(root) {
+  // Rewrite "[!ANSWER]" blockquotes into a tap-to-reveal panel. The summary text
+  // defaults to "Show answer" (questions); vocab passes "Reveal meaning".
+  function upgradeAnswers(root, label) {
     var quotes = root.querySelectorAll("blockquote");
     for (var i = 0; i < quotes.length; i++) {
       var bq = quotes[i];
@@ -67,7 +69,7 @@
       var details = document.createElement("details");
       details.className = "answer";
       var summary = document.createElement("summary");
-      summary.textContent = "Show answer";
+      summary.textContent = label || "Show answer";
       details.appendChild(summary);
 
       var body = document.createElement("div");
@@ -80,11 +82,12 @@
     }
   }
 
-  // questions mode: split a chapter body into numbered question cards.
-  // Questions are separated by a top-level <hr> ("---"); each card's [!ANSWER]
-  // block becomes a collapsible "Show answer". Returns { fragment, count } so an
-  // empty file can fall back to a friendly "coming soon" state.
-  function toQuestionCards(body) {
+  // Split a chapter body into cards on top-level <hr> ("---"). Each card's
+  // [!ANSWER] block becomes a tap-to-reveal panel. opts tunes the rendering:
+  //   cardClass / bodyClass — CSS hooks; numbered — show a 1,2,3 badge;
+  //   revealLabel — summary text for the reveal. Returns { fragment, count } so
+  //   an empty file can fall back to a friendly "coming soon" state.
+  function toCards(body, opts) {
     var chunks = [[]];
     Array.prototype.forEach.call(body.childNodes, function (node) {
       if (node.nodeType === 1 && node.tagName === "HR") chunks.push([]);
@@ -100,18 +103,20 @@
     var frag = document.createDocumentFragment();
     chunks.forEach(function (nodes, i) {
       var card = document.createElement("div");
-      card.className = "qcard";
+      card.className = opts.cardClass;
 
-      var num = document.createElement("span");
-      num.className = "qnum";
-      num.textContent = i + 1;
-      card.appendChild(num);
+      if (opts.numbered) {
+        var num = document.createElement("span");
+        num.className = "qnum";
+        num.textContent = i + 1;
+        card.appendChild(num);
+      }
 
-      var qbody = document.createElement("div");
-      qbody.className = "qbody";
-      nodes.forEach(function (n) { qbody.appendChild(n); });
-      upgradeAnswers(qbody);
-      card.appendChild(qbody);
+      var cbody = document.createElement("div");
+      cbody.className = opts.bodyClass;
+      nodes.forEach(function (n) { cbody.appendChild(n); });
+      upgradeAnswers(cbody, opts.revealLabel);
+      card.appendChild(cbody);
 
       frag.appendChild(card);
     });
@@ -130,7 +135,7 @@
   }
 
   // markdown text -> { id, title, body } (first H1 becomes the panel title).
-  // In questions mode the body is rebuilt as numbered question cards.
+  // In questions/vocab mode the body is rebuilt as cards.
   function toTopic(fileName, mdText, mode) {
     var tmp = document.createElement("div");
     tmp.innerHTML = window.marked.parse(mdText);
@@ -140,12 +145,19 @@
     upgradeCallouts(tmp);
 
     if (mode === "questions") {
-      var cards = toQuestionCards(tmp);
+      var cards = toCards(tmp, { cardClass: "qcard", bodyClass: "qbody", numbered: true, revealLabel: "Show answer" });
       tmp.innerHTML = "";
       tmp.appendChild(cards.count
         ? cards.fragment
         : emptyState("📝", "Questions coming soon",
             "Practice questions for this chapter haven’t been added yet."));
+    } else if (mode === "vocab") {
+      var words = toCards(tmp, { cardClass: "vcard", bodyClass: "vbody", numbered: false, revealLabel: "Reveal meaning" });
+      tmp.innerHTML = "";
+      tmp.appendChild(words.count
+        ? words.fragment
+        : emptyState("🔤", "Words coming soon",
+            "Vocabulary for this level hasn’t been added yet."));
     }
     return { id: slugify(title), title: title, body: tmp };
   }
@@ -178,6 +190,53 @@
     sync();
     wrap.appendChild(btn);
     return wrap;
+  }
+
+  // Pick one vocab card by day-of-year (stable for the whole day) and surface it
+  // as a "Word of the day" banner. Clicking it opens & scrolls to that word.
+  function buildWordOfTheDay(mount) {
+    var cards = mount.querySelectorAll(".vcard");
+    if (!cards.length) return null;
+
+    var now = new Date();
+    var start = new Date(now.getFullYear(), 0, 0);
+    var doy = Math.floor((now - start) / 86400000);
+    var card = cards[doy % cards.length];
+
+    var headEl = card.querySelector("h3, h2, h4, h1");
+    var word = headEl ? headEl.textContent.trim() : "";
+    if (!word) return null;
+
+    var meaningEl = card.querySelector(".answer-body");
+    var meaning = meaningEl ? meaningEl.textContent.trim() : "";
+    meaning = meaning.split(/\s*Example:/i)[0].trim(); // just the definition
+
+    var banner = document.createElement("div");
+    banner.className = "wotd";
+    var label = document.createElement("span");
+    label.className = "wotd-label";
+    label.textContent = "🌟 Word of the day";
+    var w = document.createElement("strong");
+    w.className = "wotd-word";
+    w.textContent = word;
+    banner.appendChild(label);
+    banner.appendChild(w);
+    if (meaning) {
+      var m = document.createElement("p");
+      m.className = "wotd-meaning";
+      m.textContent = meaning;
+      banner.appendChild(m);
+    }
+
+    var panel = card.closest("details.topic");
+    if (panel) {
+      banner.classList.add("clickable");
+      banner.addEventListener("click", function () {
+        panel.open = true;
+        card.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+    }
+    return banner;
   }
 
   function buildPanel(topic) {
@@ -214,7 +273,7 @@
       "(not by double-clicking the file):<br><br>" +
       "<code>python3 -m http.server</code><br>then visit <code>http://localhost:8000</code>" +
       "</div>";
-    if (window.console) console.error("[maths]", err);
+    if (window.console) console.error("[learn]", err);
   }
 
   function init() {
@@ -242,6 +301,11 @@
         mount.appendChild(buildToc(topics));
         mount.appendChild(buildControls(panels));
         panels.forEach(function (p) { mount.appendChild(p); });
+
+        if (mode === "vocab") {
+          var wotd = buildWordOfTheDay(mount);
+          if (wotd) mount.insertBefore(wotd, mount.firstChild);
+        }
 
         // Clicking a chip opens its panel before the browser scrolls to it.
         mount.addEventListener("click", function (e) {

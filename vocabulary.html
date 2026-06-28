@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vocabulary — Word Power</title>
+<meta name="description" content="Build English vocabulary in levels — tap a word to reveal its meaning, and learn roots that unlock many more.">
+<link rel="stylesheet" href="assets/css/style.css?v=5">
+</head>
+<body>
+  <div class="wrap vocab">
+    <header class="hero">
+      <span class="pill">🔤 English · Word Power</span>
+      <h1 class="title"><span class="grad">Vocabulary</span></h1>
+      <p class="lead">Build word power one level at a time. Tap a word to reveal its meaning — and learn the roots to unlock dozens more.</p>
+      <nav class="nav-toggle" aria-label="Layout">
+        <a href="index.html">📘 Notes</a>
+        <a href="questions.html">📝 Questions</a>
+        <a class="active" href="vocabulary.html">🔤 Vocabulary</a>
+      </nav>
+    </header>
+
+    <!-- Words are loaded from content/vocab/*.md and rendered as flashcards by assets/js/app.js -->
+    <div id="app" data-content-dir="content/vocab/" data-mode="vocab">
+      <div class="empty"><div class="big">⏳</div><strong>Loading words…</strong></div>
+    </div>
+  </div>
+
+  <script src="assets/js/marked.min.js"></script>
+  <script src="assets/js/app.js?v=5"></script>
+</body>
+</html>

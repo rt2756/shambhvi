@@ -1,14 +1,17 @@
 # To-Do — Shambhvi's Learning Site
 
-## 1. English vocabulary builder (in-site feature) — main task
+## 1. English vocabulary builder (in-site feature)
 
-Build a feature into the website to help Shambhvi improve her English vocabulary.
+**v1 — done ✅** A `Vocabulary` page (`vocabulary.html` + `content/vocab/`, `vocab` mode in `app.js`):
+- Leveled flashcards (Level 1 → 2 → 3, ~46 words) — tap a word to reveal meaning + example.
+- Word-roots track (roots / prefixes / suffixes) to build vocabulary fast.
+- "Word of the Day" banner.
 
-- Inspired by *Word Power Made Easy* style: root words, prefixes/suffixes, word families.
-- Possible pieces: word-of-the-day, themed word lists, root-word groups, flashcards,
-  quick quizzes, spaced repetition, simple progress tracking — pitched at class-7 level.
-- Built into the existing site (same markdown-driven setup: content files + `app.js`).
-- [ ] Decide format & scope, then build.
+**v2 — backlog**
+- [ ] Grow the word lists (seed is small & curated → aim for 100+).
+- [ ] Quiz mode (multiple-choice / type-the-meaning) + "mark as known" with progress saved
+      in the browser (localStorage); light spaced repetition.
+- [ ] "Word of the Day" to draw only from real words, not roots.
 
 ## 2. Acquire supplementary books (legally)
 
