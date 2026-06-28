@@ -39,3 +39,7 @@ content/math/_drafts/
 
 # Project local assets/output
 .claude/
+
+# Local NCERT reference library (textbook PDFs) — kept on disk / Google Drive,
+# never published to the GitHub Pages site. See ncert_books/INDEX.md.
+ncert_books/
