@@ -192,30 +192,66 @@
     return wrap;
   }
 
-  // Pick one vocab card by day-of-year (stable for the whole day) and surface it
-  // as a "Word of the day" banner. Clicking it opens & scrolls to that word.
-  function buildWordOfTheDay(mount) {
-    var cards = mount.querySelectorAll(".vcard");
-    if (!cards.length) return null;
+  // How many cards each section reveals per day. Levels show a fresh batch of
+  // 14; word roots show a single root. A section with N cards therefore cycles
+  // back to the start every ceil(N / batch) days — 14 days when fully stocked
+  // (levels = 196 words, roots = 14 roots).
+  var WORDS_PER_DAY = 14;
+  function batchSizeForTitle(title) {
+    return /root/i.test(title) ? 1 : WORDS_PER_DAY;
+  }
 
+  // Days elapsed since Jan 0 — stable for the whole calendar day.
+  function dayOfYear() {
     var now = new Date();
     var start = new Date(now.getFullYear(), 0, 0);
-    var doy = Math.floor((now - start) / 86400000);
-    var card = cards[doy % cards.length];
+    return Math.floor((now - start) / 86400000);
+  }
+
+  // Reveal only today's batch of cards in one section (hide the rest) and return
+  // the batch's first card, used as that section's featured "of the day". The
+  // batch advances by one each day and repeats after a full cycle.
+  function applyDailyBatch(panel, doy) {
+    var cards = panel.querySelectorAll(".vcard");
+    if (!cards.length) return null;
+    var summaryEl = panel.querySelector("summary");
+    var n = batchSizeForTitle(summaryEl ? summaryEl.textContent : "");
+    var batches = Math.ceil(cards.length / n);
+    var batch = ((doy % batches) + batches) % batches;
+    var startIdx = batch * n;
+    Array.prototype.forEach.call(cards, function (card, i) {
+      card.style.display = (i >= startIdx && i < startIdx + n) ? "" : "none";
+    });
+    return cards[startIdx] || null;
+  }
+
+  // Build a "word of the day" banner that features one card. Clicking it opens
+  // that section and scrolls to the word.
+  function buildDailyPick(panel, card) {
+    if (!card) return null;
 
     var headEl = card.querySelector("h3, h2, h4, h1");
     var word = headEl ? headEl.textContent.trim() : "";
     if (!word) return null;
 
-    var meaningEl = card.querySelector(".answer-body");
+    // The first paragraph holds the definition ("Meaning:" / "Origin:"); show
+    // it without its label.
+    var meaningEl = card.querySelector(".answer-body p");
     var meaning = meaningEl ? meaningEl.textContent.trim() : "";
-    meaning = meaning.split(/\s*Example:/i)[0].trim(); // just the definition
+    meaning = meaning.replace(/^\s*(Meaning|Origin)\s*:\s*/i, "");
+
+    var summaryEl = panel.querySelector("summary");
+    var sectionTitle = summaryEl ? summaryEl.textContent.trim() : "";
+    var shortName = sectionTitle.split(/[—–-]/)[0].trim();
+    var isRoot = /root/i.test(sectionTitle);
 
     var banner = document.createElement("div");
-    banner.className = "wotd";
+    banner.className = "wotd clickable";
     var label = document.createElement("span");
     label.className = "wotd-label";
-    label.textContent = "🌟 Word of the day";
+    label.textContent = isRoot
+      ? "🌱 Root of the day"
+      : "🌟 Word of the day" + (shortName ? " · " + shortName : "");
     var w = document.createElement("strong");
     w.className = "wotd-word";
     w.textContent = word;
@@ -228,15 +264,25 @@
       banner.appendChild(m);
     }
 
-    var panel = card.closest("details.topic");
-    if (panel) {
-      banner.classList.add("clickable");
-      banner.addEventListener("click", function () {
-        panel.open = true;
-        card.scrollIntoView({ behavior: "smooth", block: "center" });
-      });
-    }
+    banner.addEventListener("click", function () {
+      panel.open = true;
+      card.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
     return banner;
+  }
+
+  // Reveal today's batch in every section and stack a featured pick per section
+  // in a responsive row at the top.
+  function buildDailyPicks(panels) {
+    var doy = dayOfYear();
+    var wrap = document.createElement("div");
+    wrap.className = "daily-picks";
+    panels.forEach(function (panel) {
+      var featured = applyDailyBatch(panel, doy);
+      var banner = buildDailyPick(panel, featured);
+      if (banner) wrap.appendChild(banner);
+    });
+    return wrap.children.length ? wrap : null;
   }
 
   function buildPanel(topic) {
@@ -303,8 +349,8 @@
         panels.forEach(function (p) { mount.appendChild(p); });
 
         if (mode === "vocab") {
-          var wotd = buildWordOfTheDay(mount);
-          if (wotd) mount.insertBefore(wotd, mount.firstChild);
+          var picks = buildDailyPicks(panels);
+          if (picks) mount.insertBefore(picks, mount.firstChild);
         }
 
         // Clicking a chip opens its panel before the browser scrolls to it.

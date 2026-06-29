@@ -131,6 +131,10 @@ th{ background:#f1ecff; color:var(--brand-ink); }
 footer.site{ text-align:center; color:var(--soft); font-size:.85rem; margin-top:48px; }
 
 /* ---------- vocabulary: word of the day + flashcards ---------- */
+.daily-picks{ display:grid; gap:14px; margin:.2em 0 1.8em;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); align-items:start; }
+.daily-picks .wotd{ margin:0; height:100%; }
+.daily-picks .wotd-word{ font-size:1.5rem; }
 .wotd{ background:linear-gradient(135deg,#ffffff,#f4efff); border:1px solid var(--line);
   border-radius:16px; padding:16px 20px; margin:.2em 0 1.8em; text-align:center;
   box-shadow:0 6px 18px rgba(80,60,160,.10); }
