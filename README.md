@@ -4,6 +4,21 @@ CBSE / NCERT maths revision notes. The **content lives in plain Markdown files**
 topic; the page fetches them and renders collapsible sections in the browser. No build
 step, no Jekyll — published with **GitHub Pages**.
 
+## Writing principle — always explain *why*, never just *how*
+
+These notes teach for **understanding, not memorisation**. Every rule, step, shortcut, or
+formula must come with the **reason it works** — right beside it, or linked from it. The
+test: *would the student be able to **re-derive** the step, or would they just have to
+**remember** it?* If it's the latter, the "why" is missing and the note isn't finished.
+
+- ✅ **Do:** state the rule, then a **`**Why it works:**`** line explaining the idea behind
+  it (see the multiply/divide sign rule and the factor count-check in `content/math/1.numbers.md`).
+- ❌ **Don't:** drop in a recipe like "add 1 to each power and multiply" with no reason —
+  that's just one more thing to memorise.
+
+Worked examples, `> [!TIP]` callouts, and "Why it works" lines exist for exactly this. A
+concept with no explanation anywhere in the notes is treated as unfinished.
+
 ## Files
 
 | Path | What it is |
