@@ -1,7 +1,8 @@
-/* Maths — loads topic-per-file Markdown and renders collapsible panels.
-   Two layouts share this one engine, chosen by the #app element's data-* attributes:
+/* Maths & English — loads topic-per-file Markdown and renders collapsible panels.
+   Layouts share this one engine, chosen by the #app element's data-* attributes:
      data-content-dir   where the manifest + .md files live (default content/math/)
-     data-mode          "notes" (running cheat sheets) or "questions" (numbered Q cards)
+     data-mode          "notes" (running cheat sheets), "questions" (numbered Q cards),
+                        or "vocab" (flashcards: word on front, meaning on tap)
    Content lives in <content-dir>/<topic>.md, listed in <content-dir>/manifest.json.
    No build step: the browser fetches the files and renders them with marked. */
 (function () {
@@ -57,8 +58,9 @@
     }
   }
 
-  // Rewrite "[!ANSWER]" blockquotes into a tap-to-reveal "Show answer" panel.
-  function upgradeAnswers(root) {
+  // Rewrite "[!ANSWER]" blockquotes into a tap-to-reveal panel. The summary text
+  // defaults to "Show answer" (questions); vocab passes "Reveal meaning".
+  function upgradeAnswers(root, label) {
     var quotes = root.querySelectorAll("blockquote");
     for (var i = 0; i < quotes.length; i++) {
       var bq = quotes[i];
@@ -67,7 +69,7 @@
       var details = document.createElement("details");
       details.className = "answer";
       var summary = document.createElement("summary");
-      summary.textContent = "Show answer";
+      summary.textContent = label || "Show answer";
       details.appendChild(summary);
 
       var body = document.createElement("div");
@@ -80,11 +82,12 @@
     }
   }
 
-  // questions mode: split a chapter body into numbered question cards.
-  // Questions are separated by a top-level <hr> ("---"); each card's [!ANSWER]
-  // block becomes a collapsible "Show answer". Returns { fragment, count } so an
-  // empty file can fall back to a friendly "coming soon" state.
-  function toQuestionCards(body) {
+  // Split a chapter body into cards on top-level <hr> ("---"). Each card's
+  // [!ANSWER] block becomes a tap-to-reveal panel. opts tunes the rendering:
+  //   cardClass / bodyClass — CSS hooks; numbered — show a 1,2,3 badge;
+  //   revealLabel — summary text for the reveal. Returns { fragment, count } so
+  //   an empty file can fall back to a friendly "coming soon" state.
+  function toCards(body, opts) {
     var chunks = [[]];
     Array.prototype.forEach.call(body.childNodes, function (node) {
       if (node.nodeType === 1 && node.tagName === "HR") chunks.push([]);
@@ -100,18 +103,20 @@
     var frag = document.createDocumentFragment();
     chunks.forEach(function (nodes, i) {
       var card = document.createElement("div");
-      card.className = "qcard";
+      card.className = opts.cardClass;
 
-      var num = document.createElement("span");
-      num.className = "qnum";
-      num.textContent = i + 1;
-      card.appendChild(num);
+      if (opts.numbered) {
+        var num = document.createElement("span");
+        num.className = "qnum";
+        num.textContent = i + 1;
+        card.appendChild(num);
+      }
 
-      var qbody = document.createElement("div");
-      qbody.className = "qbody";
-      nodes.forEach(function (n) { qbody.appendChild(n); });
-      upgradeAnswers(qbody);
-      card.appendChild(qbody);
+      var cbody = document.createElement("div");
+      cbody.className = opts.bodyClass;
+      nodes.forEach(function (n) { cbody.appendChild(n); });
+      upgradeAnswers(cbody, opts.revealLabel);
+      card.appendChild(cbody);
 
       frag.appendChild(card);
     });
@@ -130,7 +135,7 @@
   }
 
   // markdown text -> { id, title, body } (first H1 becomes the panel title).
-  // In questions mode the body is rebuilt as numbered question cards.
+  // In questions/vocab mode the body is rebuilt as cards.
   function toTopic(fileName, mdText, mode) {
     var tmp = document.createElement("div");
     tmp.innerHTML = window.marked.parse(mdText);
@@ -140,12 +145,19 @@
     upgradeCallouts(tmp);
 
     if (mode === "questions") {
-      var cards = toQuestionCards(tmp);
+      var cards = toCards(tmp, { cardClass: "qcard", bodyClass: "qbody", numbered: true, revealLabel: "Show answer" });
       tmp.innerHTML = "";
       tmp.appendChild(cards.count
         ? cards.fragment
         : emptyState("📝", "Questions coming soon",
             "Practice questions for this chapter haven’t been added yet."));
+    } else if (mode === "vocab") {
+      var words = toCards(tmp, { cardClass: "vcard", bodyClass: "vbody", numbered: false, revealLabel: "Reveal meaning" });
+      tmp.innerHTML = "";
+      tmp.appendChild(words.count
+        ? words.fragment
+        : emptyState("🔤", "Words coming soon",
+            "Vocabulary for this level hasn’t been added yet."));
     }
     return { id: slugify(title), title: title, body: tmp };
   }
@@ -178,6 +190,99 @@
     sync();
     wrap.appendChild(btn);
     return wrap;
+  }
+
+  // How many cards each section reveals per day. Levels show a fresh batch of
+  // 14; word roots show a single root. A section with N cards therefore cycles
+  // back to the start every ceil(N / batch) days — 14 days when fully stocked
+  // (levels = 196 words, roots = 14 roots).
+  var WORDS_PER_DAY = 14;
+  function batchSizeForTitle(title) {
+    return /root/i.test(title) ? 1 : WORDS_PER_DAY;
+  }
+
+  // Days elapsed since Jan 0 — stable for the whole calendar day.
+  function dayOfYear() {
+    var now = new Date();
+    var start = new Date(now.getFullYear(), 0, 0);
+    return Math.floor((now - start) / 86400000);
+  }
+
+  // Reveal only today's batch of cards in one section (hide the rest) and return
+  // the batch's first card, used as that section's featured "of the day". The
+  // batch advances by one each day and repeats after a full cycle.
+  function applyDailyBatch(panel, doy) {
+    var cards = panel.querySelectorAll(".vcard");
+    if (!cards.length) return null;
+    var summaryEl = panel.querySelector("summary");
+    var n = batchSizeForTitle(summaryEl ? summaryEl.textContent : "");
+    var batches = Math.ceil(cards.length / n);
+    var batch = ((doy % batches) + batches) % batches;
+    var startIdx = batch * n;
+    Array.prototype.forEach.call(cards, function (card, i) {
+      card.style.display = (i >= startIdx && i < startIdx + n) ? "" : "none";
+    });
+    return cards[startIdx] || null;
+  }
+
+  // Build a "word of the day" banner that features one card. Clicking it opens
+  // that section and scrolls to the word.
+  function buildDailyPick(panel, card) {
+    if (!card) return null;
+
+    var headEl = card.querySelector("h3, h2, h4, h1");
+    var word = headEl ? headEl.textContent.trim() : "";
+    if (!word) return null;
+
+    // The first paragraph holds the definition ("Meaning:" / "Origin:"); show
+    // it without its label.
+    var meaningEl = card.querySelector(".answer-body p");
+    var meaning = meaningEl ? meaningEl.textContent.trim() : "";
+    meaning = meaning.replace(/^\s*(Meaning|Origin)\s*:\s*/i, "");
+
+    var summaryEl = panel.querySelector("summary");
+    var sectionTitle = summaryEl ? summaryEl.textContent.trim() : "";
+    var shortName = sectionTitle.split(/[—–-]/)[0].trim();
+    var isRoot = /root/i.test(sectionTitle);
+
+    var banner = document.createElement("div");
+    banner.className = "wotd clickable";
+    var label = document.createElement("span");
+    label.className = "wotd-label";
+    label.textContent = isRoot
+      ? "🌱 Root of the day"
+      : "🌟 Word of the day" + (shortName ? " · " + shortName : "");
+    var w = document.createElement("strong");
+    w.className = "wotd-word";
+    w.textContent = word;
+    banner.appendChild(label);
+    banner.appendChild(w);
+    if (meaning) {
+      var m = document.createElement("p");
+      m.className = "wotd-meaning";
+      m.textContent = meaning;
+      banner.appendChild(m);
+    }
+
+    banner.addEventListener("click", function () {
+      panel.open = true;
+      card.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+    return banner;
+  }
+
+  // Reveal today's batch in every section and stack a featured pick per section
+  // in a responsive row at the top.
+  function buildDailyPicks(panels) {
+    var doy = dayOfYear();
+    var wrap = document.createElement("div");
+    wrap.className = "daily-picks";
+    panels.forEach(function (panel) {
+      var featured = applyDailyBatch(panel, doy);
+      var banner = buildDailyPick(panel, featured);
+      if (banner) wrap.appendChild(banner);
+    });
+    return wrap.children.length ? wrap : null;
   }
 
   function buildPanel(topic) {
@@ -214,7 +319,7 @@
       "(not by double-clicking the file):<br><br>" +
       "<code>python3 -m http.server</code><br>then visit <code>http://localhost:8000</code>" +
       "</div>";
-    if (window.console) console.error("[maths]", err);
+    if (window.console) console.error("[learn]", err);
   }
 
   function init() {
@@ -242,6 +347,11 @@
         mount.appendChild(buildToc(topics));
         mount.appendChild(buildControls(panels));
         panels.forEach(function (p) { mount.appendChild(p); });
+
+        if (mode === "vocab") {
+          var picks = buildDailyPicks(panels);
+          if (picks) mount.insertBefore(picks, mount.firstChild);
+        }
 
         // Clicking a chip opens its panel before the browser scrolls to it.
         mount.addEventListener("click", function (e) {

@@ -130,6 +130,30 @@ th{ background:#f1ecff; color:var(--brand-ink); }
 
 footer.site{ text-align:center; color:var(--soft); font-size:.85rem; margin-top:48px; }
 
+/* ---------- vocabulary: word of the day + flashcards ---------- */
+.daily-picks{ display:grid; gap:14px; margin:.2em 0 1.8em;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); align-items:start; }
+.daily-picks .wotd{ margin:0; height:100%; }
+.daily-picks .wotd-word{ font-size:1.5rem; }
+.wotd{ background:linear-gradient(135deg,#ffffff,#f4efff); border:1px solid var(--line);
+  border-radius:16px; padding:16px 20px; margin:.2em 0 1.8em; text-align:center;
+  box-shadow:0 6px 18px rgba(80,60,160,.10); }
+.wotd.clickable{ cursor:pointer; transition:transform .15s, box-shadow .15s; }
+.wotd.clickable:hover{ transform:translateY(-2px); box-shadow:0 10px 24px rgba(80,60,160,.16); }
+.wotd-label{ display:block; font-weight:800; font-size:.72rem; letter-spacing:.06em;
+  text-transform:uppercase; color:var(--brand-ink); margin-bottom:4px; }
+.wotd-word{ display:block; font-size:1.9rem; line-height:1.1;
+  background:linear-gradient(90deg,#6b4eff,#d23fb0); -webkit-background-clip:text; background-clip:text; color:transparent; }
+.wotd-meaning{ margin:.45em auto 0; max-width:34em; color:var(--soft); font-size:1rem; }
+
+.vcard{ background:#fff; border:1px solid var(--line); border-radius:14px;
+  padding:14px 18px; margin:.9em 0; box-shadow:0 4px 14px rgba(70,50,130,.05); }
+.vbody p{ margin:.5em 0; } .vbody > :first-child{ margin-top:0; } .vbody > :last-child{ margin-bottom:0; }
+.vcard h3{ margin:.1em 0 .35em; color:var(--ink); font-size:1.4rem; }
+.vcard .vbody > p > em{ display:inline-block; font-style:normal; font-weight:800;
+  font-size:.68rem; letter-spacing:.05em; text-transform:uppercase; color:var(--eg);
+  background:var(--eg-bg); padding:2px 10px; border-radius:999px; }
+
 /* ---------- small screens ---------- */
 @media (max-width:520px){
   body{ font-size:17px; }
