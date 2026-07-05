@@ -2,7 +2,8 @@
    Layouts share this one engine, chosen by the #app element's data-* attributes:
      data-content-dir   where the manifest + .md files live (default content/math/)
      data-mode          "notes" (running cheat sheets), "questions" (numbered Q cards),
-                        or "vocab" (flashcards: word on front, meaning on tap)
+                        "vocab" (flashcards: word on front, meaning on tap), or
+                        "todo" (notes-style, with tick-off checkboxes saved on the device)
    Content lives in <content-dir>/<topic>.md, listed in <content-dir>/manifest.json.
    No build step: the browser fetches the files and renders them with marked. */
 (function () {
@@ -322,6 +323,28 @@
     if (window.console) console.error("[learn]", err);
   }
 
+  // In "todo" mode the Markdown renders like notes, but GFM task-list checkboxes
+  // ("- [ ] …") are made interactive and their checked state is remembered in
+  // localStorage — keyed by the item's text, so it survives reloads and reordering.
+  function wireTodos(root) {
+    var boxes = root.querySelectorAll(".topic-body input[type=checkbox]");
+    Array.prototype.forEach.call(boxes, function (box) {
+      box.disabled = false;
+      var li = box.closest("li");
+      if (li) {
+        li.classList.add("task");
+        if (li.parentNode && li.parentNode.tagName === "UL") li.parentNode.classList.add("checklist");
+      }
+      var key = "todo:" + slugify(li ? li.textContent : (box.value || "")).slice(0, 80);
+      try { if (window.localStorage.getItem(key) === "1") box.checked = true; } catch (e) {}
+      if (li) li.classList.toggle("done", box.checked);
+      box.addEventListener("change", function () {
+        if (li) li.classList.toggle("done", box.checked);
+        try { window.localStorage.setItem(key, box.checked ? "1" : "0"); } catch (e) {}
+      });
+    });
+  }
+
   function init() {
     var mount = document.getElementById("app");
     if (!mount) return;
@@ -352,6 +375,8 @@
           var picks = buildDailyPicks(panels);
           if (picks) mount.insertBefore(picks, mount.firstChild);
         }
+
+        if (mode === "todo") wireTodos(mount);
 
         // Clicking a chip opens its panel before the browser scrolls to it.
         mount.addEventListener("click", function (e) {

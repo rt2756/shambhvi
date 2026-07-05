@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maths — To-do</title>
+<meta name="description" content="Things for Shambhvi to learn — multiplication tables (1–20), squares (1–20) and cubes (1–15), with a tick-off checklist.">
+<link rel="stylesheet" href="assets/css/style.css?v=8">
+</head>
+<body>
+  <div class="wrap notes todo">
+    <header class="hero">
+      <span class="pill">✅ Learn &amp; practise</span>
+      <h1 class="title"><span class="grad">Maths</span></h1>
+      <p class="lead">Things for Shambhvi to learn — with the tables, squares and cubes to practise from.</p>
+      <nav class="nav-toggle" aria-label="Layout">
+        <a href="index.html">📘 Notes</a>
+        <a href="questions.html">📝 Questions</a>
+        <a class="active" href="todo.html">✅ To-do</a>
+        <a href="vocabulary.html">🔤 Vocabulary</a>
+      </nav>
+    </header>
+
+    <!-- To-do checklist + tables/squares/cubes, loaded from content/math-todo/*.md by assets/js/app.js -->
+    <div id="app" data-content-dir="content/math-todo/" data-mode="todo">
+      <div class="empty"><div class="big">⏳</div><strong>Loading to-do…</strong></div>
+    </div>
+  </div>
+
+  <script src="assets/js/marked.min.js"></script>
+  <script src="assets/js/app.js?v=8"></script>
+</body>
+</html>

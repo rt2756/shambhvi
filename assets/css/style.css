@@ -40,7 +40,7 @@ h1.title .grad{ background:linear-gradient(90deg,#6b4eff,#d23fb0); -webkit-backg
 .lead{ font-size:1.12rem; color:var(--soft); max-width:34em; margin:0 auto; }
 
 /* ---------- layout toggle (Notes ⇄ Questions) ---------- */
-.nav-toggle{ display:inline-flex; gap:5px; margin-top:18px; padding:5px;
+.nav-toggle{ display:inline-flex; flex-wrap:wrap; justify-content:center; gap:5px; margin-top:18px; padding:5px;
   background:#fff; border:1px solid var(--line); border-radius:999px;
   box-shadow:0 6px 18px rgba(80,60,160,.10); }
 .nav-toggle a{ text-decoration:none; color:var(--soft); font-weight:700; font-size:.95rem;
@@ -129,6 +129,13 @@ th{ background:#f1ecff; color:var(--brand-ink); }
 .empty strong{ color:var(--ink); font-size:1.1rem; display:block; margin-bottom:4px; }
 
 footer.site{ text-align:center; color:var(--soft); font-size:.85rem; margin-top:48px; }
+
+/* ---------- to-do: tick-off checklist ---------- */
+.todo .topic-body ul.checklist{ list-style:none; padding-left:.1em; margin:.6em 0; }
+.todo .topic-body li.task{ margin:.55em 0; }
+.todo .topic-body li.task input[type="checkbox"]{ width:1.15em; height:1.15em;
+  margin-right:.55em; accent-color:var(--brand); vertical-align:-3px; cursor:pointer; }
+.todo .topic-body li.task.done{ color:var(--soft); text-decoration:line-through; text-decoration-color:var(--tip); }
 
 /* ---------- vocabulary: word of the day + flashcards ---------- */
 .daily-picks{ display:grid; gap:14px; margin:.2em 0 1.8em;
