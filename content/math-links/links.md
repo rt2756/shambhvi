@@ -4,6 +4,9 @@ Handy places for reference and extra practice. **Save new links here** — open 
 
 ## Practice questions
 
+- **Best RD Sharma book copy i found online** - [Scribd Link](https://www.scribd.com/document/585778645/RD-Sharma-Question-For-Class-7)
+
+
 - **RD Sharma Class 7 solutions (BYJU'S)** — free, chapter by chapter. Good for seeing the range of question types; we write our own versions in the same style.
   - [Chapter 1 — Integers](https://byjus.com/rd-sharma-solutions/class-7-maths-chapter-1-integers/)
   - [Chapter 2 — Fractions](https://byjus.com/rd-sharma-solutions/class-7-maths-chapter-2-fractions/)
