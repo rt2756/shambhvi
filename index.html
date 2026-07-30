@@ -3,32 +3,69 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Maths — Notes</title>
-<meta name="description" content="Quick CBSE / NCERT maths revision notes, organised by topic — editable Markdown, rendered in the browser.">
-<link rel="stylesheet" href="assets/css/style.css?v=8">
+<title>Learning Hub — Class 5–10</title>
+<meta name="description" content="CBSE / NCERT revision notes and practice questions, class by class — maths and science for classes 5 to 10, plus vocabulary and skills practice.">
+<link rel="stylesheet" href="assets/css/style.css?v=9">
 </head>
 <body>
   <div class="wrap notes">
     <header class="hero">
-      <span class="pill">📘 CBSE · NCERT</span>
-      <h1 class="title"><span class="grad">Maths</span></h1>
+      <span class="pill">🎓 CBSE · NCERT</span>
+      <h1 class="title"><span class="grad">Learning Hub</span></h1>
+      <p class="lead">Pick a class for its notes and practice questions — or jump to the everyday skills that grow with you.</p>
       <nav class="nav-toggle" aria-label="Layout">
-        <a class="active" href="index.html">📘 Notes</a>
-        <a href="questions.html">📝 Questions</a>
-        <a href="saved.html">⭐ Saved</a>
-        <a href="todo.html">✅ To-do</a>
+        <a class="active" href="index.html">🏠 Home</a>
         <a href="vocabulary.html">🔤 Vocabulary</a>
-        <a href="links.html">🔗 Links</a>
+        <a href="todo.html">✅ To-do</a>
       </nav>
     </header>
 
-    <!-- Notes are loaded from content/math/*.md and rendered here by assets/js/app.js -->
-    <div id="app" data-content-dir="content/math/" data-mode="notes">
-      <div class="empty"><div class="big">⏳</div><strong>Loading notes…</strong></div>
+    <div class="class-cards">
+      <a class="class-card" href="class5-math.html">
+        <span class="cc-num">5</span>
+        <strong>Class 5</strong>
+        <span class="cc-sub">Maths · The World Around Us</span>
+      </a>
+      <a class="class-card" href="class6-math.html">
+        <span class="cc-num">6</span>
+        <strong>Class 6</strong>
+        <span class="cc-sub">Maths · Science</span>
+      </a>
+      <a class="class-card current" href="class7-math.html">
+        <span class="cc-num">7</span>
+        <strong>Class 7</strong>
+        <span class="cc-sub">Maths · Science · Questions</span>
+        <span class="cc-badge">⭐ studying now</span>
+      </a>
+      <a class="class-card" href="class8-math.html">
+        <span class="cc-num">8</span>
+        <strong>Class 8</strong>
+        <span class="cc-sub">Maths · Science</span>
+      </a>
+      <a class="class-card" href="class9-math.html">
+        <span class="cc-num">9</span>
+        <strong>Class 9</strong>
+        <span class="cc-sub">Maths · Science</span>
+      </a>
+      <a class="class-card" href="class10-math.html">
+        <span class="cc-num">10</span>
+        <strong>Class 10</strong>
+        <span class="cc-sub">Maths · Science</span>
+      </a>
+    </div>
+
+    <div class="class-cards beyond">
+      <a class="class-card" href="vocabulary.html">
+        <span class="cc-num">🔤</span>
+        <strong>Vocabulary</strong>
+        <span class="cc-sub">Word power, level by level — no class lens</span>
+      </a>
+      <a class="class-card" href="todo.html">
+        <span class="cc-num">✅</span>
+        <strong>To-do</strong>
+        <span class="cc-sub">Tables · squares · cubes — tick them off</span>
+      </a>
     </div>
   </div>
-
-  <script src="assets/js/marked.min.js"></script>
-  <script src="assets/js/app.js?v=8"></script>
 </body>
 </html>

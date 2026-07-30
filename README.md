@@ -1,8 +1,13 @@
-# Maths
+# Learning Hub — Class 5–10
 
-CBSE / NCERT maths revision notes. The **content lives in plain Markdown files**, one per
-topic; the page fetches them and renders collapsible sections in the browser. No build
-step, no Jekyll — published with **GitHub Pages**.
+CBSE / NCERT revision notes and practice questions, **bucketed by class (5–10)** for maths
+and science, plus class-free vocabulary and a to-do list. The **content lives in plain
+Markdown files**, one per chapter; the page fetches them and renders collapsible sections
+in the browser. No build step, no Jekyll — published with **GitHub Pages**.
+
+**Class 7 is the deep one** (full notes + ~428 maths questions + science). The other classes
+currently hold a **syllabus map** — the full chapter list of the year, taken from the NCERT
+book — ready to be filled in chapter by chapter.
 
 ## Writing principle — always explain *why*, never just *how*
 
@@ -12,7 +17,7 @@ test: *would the student be able to **re-derive** the step, or would they just h
 **remember** it?* If it's the latter, the "why" is missing and the note isn't finished.
 
 - ✅ **Do:** state the rule, then a **`**Why it works:**`** line explaining the idea behind
-  it (see the multiply/divide sign rule and the factor count-check in `content/math/1.numbers.md`).
+  it (see the multiply/divide sign rule and the factor count-check in `content/class7/math/1.numbers.md`).
 - ❌ **Don't:** drop in a recipe like "add 1 to each power and multiply" with no reason —
   that's just one more thing to memorise.
 
@@ -21,21 +26,35 @@ concept with no explanation anywhere in the notes is treated as unfinished.
 
 ## Files
 
+Content is bucketed **by class** (5–10); vocabulary and the to-do list are class-free and live at the top level.
+
 | Path | What it is |
 |---|---|
-| `content/math/*.md` | The notes — one Markdown file per topic. **Edit these.** |
-| `content/math/manifest.json` | The ordered list of topic files to show. |
-| `content/math-questions/*.md` | The practice questions — one file per topic, same chapters as the notes. |
-| `content/math-questions/manifest.json` | The ordered list of question files to show. |
-| `index.html` · `questions.html` | The two layouts — **Notes** and **Questions**. Each is a thin shell with a container the content renders into. |
-| `assets/js/app.js` | Loads a manifest + `.md` files and builds the page; one engine drives both layouts (chosen by `#app`'s `data-mode`). |
+| `content/class<N>/math/*.md` | Maths notes for class N — one Markdown file per chapter. **Edit these.** |
+| `content/class<N>/science/*.md` | Science notes for class N (class 5's is *The World Around Us*). |
+| `content/class<N>/<subject>/manifest.json` | The ordered list of files to show in that panel stack. |
+| `content/class<N>/<subject>/0.syllabus.md` | The chapter map for the year — every class has one, written from the NCERT book. |
+| `content/class7/math-questions/*.md` · `science-questions/*.md` | Class 7 practice questions, same chapter numbering as its notes. |
+| `content/class7/saved/` · `content/class7/links/` | The tricky-questions notebook and the reference links. |
+| `content/vocab/` · `content/math-todo/` | Class-free: word power, and the tables/squares/cubes checklist. |
+| `index.html` | **Home** — the class picker (5–10) plus the class-free sections. |
+| `class<N>-math.html` · `class<N>-science.html` | One page per class per subject. |
+| `class7-math-questions.html` · `class7-science-questions.html` · `class7-saved.html` · `class7-links.html` | The extra class-7 pages. |
+| `questions.html` · `science.html` · `saved.html` · `links.html` | Redirect stubs kept so old bookmarks still work. |
+| `assets/js/app.js` | Loads a manifest + `.md` files and builds the page; one engine drives every layout (chosen by `#app`'s `data-mode`). |
 | `assets/js/marked.min.js` | The Markdown parser (vendored — `marked` v12.0.2). |
 | `assets/css/style.css` | All the styling, in one commented stylesheet. |
 | `.nojekyll` | Tells GitHub Pages to serve the files as-is (no Jekyll). |
 
+### Adding a class page
+
+Everything is driven by `data-content-dir` on the `#app` div — to add, say, class 6 maths notes, drop
+`content/class6/math/1.patterns.md`, add it to that folder's `manifest.json`, and it appears on
+`class6-math.html`. No new HTML needed.
+
 ## Editing notes
 
-Just edit the Markdown in `content/math/`. The first `#` heading in a file is the topic
+Just edit the Markdown in `content/class7/math/`. The first `#` heading in a file is the topic
 title shown on the collapsible panel; use `##` for sub-topics, `-` for bullets, `**bold**`
 for emphasis. Save and reload — the change shows up, and `git diff` shows a clean,
 readable delta.
@@ -62,13 +81,13 @@ Write them as GitHub-style alerts (these also render as proper boxes when you vi
 
 ### Adding a new topic
 
-1. Create `content/math/<topic>.md` starting with a `# Title` line.
-2. Add `"<topic>.md"` to `content/math/manifest.json` (the order there is the page order).
+1. Create `content/class7/math/<topic>.md` starting with a `# Title` line.
+2. Add `"<topic>.md"` to `content/class7/math/manifest.json` (the order there is the page order).
 
 ## Questions
 
-The **Questions** page (`questions.html`) is a second layout that shares the same engine.
-Questions live in `content/math-questions/`, one Markdown file per topic — the **same
+The **Questions** page (`class7-math-questions.html`) is a second layout that shares the same engine.
+Questions live in `content/class7/math-questions/`, one Markdown file per topic — the **same
 numbered chapters** as the notes (`1.numbers.md`, …). They render as **auto-numbered
 cards**, each with a tap-to-reveal **“Show answer.”**
 
@@ -94,8 +113,8 @@ Find (−6) × 102 using the distributive shortcut.
 
 ### Adding a question chapter
 
-1. Create `content/math-questions/<topic>.md` starting with a `# Title` line.
-2. Add `"<topic>.md"` to `content/math-questions/manifest.json` (the order there is the page order).
+1. Create `content/class7/math-questions/<topic>.md` starting with a `# Title` line.
+2. Add `"<topic>.md"` to `content/class7/math-questions/manifest.json` (the order there is the page order).
 
 ## Local preview
 

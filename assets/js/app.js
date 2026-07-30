@@ -9,7 +9,7 @@
 (function () {
   "use strict";
 
-  var DEFAULT_DIR = "content/math/";
+  var DEFAULT_DIR = "content/class7/math/";
 
   // "🔢 Numbers" -> "numbers"; "➗ Fractions & decimals" -> "fractions-decimals"
   function slugify(text) {

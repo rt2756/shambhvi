@@ -1,6 +1,6 @@
 # 🔗 Useful links
 
-Handy places for reference and extra practice. **Save new links here** — open `content/math-links/links.md` and add a line like `- [Title](https://…)`.
+Handy places for reference and extra practice. **Save new links here** — open `content/class7/links/links.md` and add a line like `- [Title](https://…)`.
 
 ## Practice questions
 

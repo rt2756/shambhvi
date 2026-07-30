@@ -3,7 +3,7 @@
 <!--
   Shambhvi's "tricky questions" notebook. This page renders in QUESTIONS mode,
   so anything here shows as a tap-to-reveal card. To save a question:
-    1. Copy the whole question block from content/math-questions/<chapter>.md
+    1. Copy the whole question block from content/class7/math-questions/<chapter>.md
        (the question text AND its "> [!ANSWER]" block).
     2. Paste it below, separated from the next one by a line with just "---".
   Keep the intro note first. Delete a saved question once she's mastered it.
