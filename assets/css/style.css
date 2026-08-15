@@ -14,6 +14,8 @@
   --warn:#c0392b; --warn-bg:#fdeeec;   /* the ⚠️ common-mistakes boxes */
   --eg:#5a3fe0;   --eg-bg:#efeaff;
   --note:#1668d6; --note-bg:#e7f0fd;
+  /* ⭐ starred questions — the ones to revise */
+  --star:#e0a106; --star-bg:#fff8e6; --star-ink:#8a6100;
 }
 
 *{ box-sizing:border-box; }
@@ -64,11 +66,19 @@ strong{ color:var(--ink); }
 code{ background:#f3eefe; color:#5a3fe0; padding:.06em .35em; border-radius:5px; font-size:.92em; }
 
 /* ---------- collapsible topic panels ---------- */
-.controls{ display:flex; justify-content:flex-end; margin:.2em 0 .8em; }
+.controls{ display:flex; flex-wrap:wrap; justify-content:flex-end; gap:8px; margin:.2em 0 .8em; }
 .toggle-all{ font:inherit; font-size:.85rem; font-weight:700; color:var(--brand-ink);
   background:#fff; border:1px solid var(--line); border-radius:999px; padding:6px 14px;
   cursor:pointer; box-shadow:0 4px 14px rgba(70,50,130,.06); transition:border-color .15s, transform .15s; }
 .toggle-all:hover{ border-color:var(--brand); transform:translateY(-1px); }
+
+/* the ⭐ filter — only rendered on question pages that have a starred question */
+.star-filter{ font:inherit; font-size:.85rem; font-weight:700; color:var(--star-ink);
+  background:#fff; border:1px solid var(--line); border-radius:999px; padding:6px 14px;
+  cursor:pointer; box-shadow:0 4px 14px rgba(70,50,130,.06);
+  transition:border-color .15s, transform .15s, background .15s; }
+.star-filter:hover{ border-color:var(--star); transform:translateY(-1px); }
+.star-filter.on{ background:var(--star-bg); border-color:var(--star); }
 
 .topic{ border-top:2px solid var(--line); scroll-margin-top:14px; }
 .topic > summary{ cursor:pointer; list-style:none; display:flex; align-items:center; gap:.5em;
@@ -90,6 +100,12 @@ code{ background:#f3eefe; color:#5a3fe0; padding:.06em .35em; border-radius:5px;
   display:flex; align-items:center; justify-content:center; color:#fff; font-weight:800; font-size:.95rem;
   background:linear-gradient(135deg,#6b4eff,#d23fb0); }
 .qbody > :first-child{ margin-top:0; } .qbody > :last-child{ margin-bottom:0; }
+
+/* a starred question stands out even with the filter off */
+.qcard.starred{ padding-right:44px; border-color:var(--star); background:var(--star-bg);
+  box-shadow:0 4px 14px rgba(224,161,6,.14); }
+.qcard.starred .qnum{ background:linear-gradient(135deg,#f7b733,#e07a05); }
+.qcard .qstar{ position:absolute; right:13px; top:12px; font-size:1.05rem; line-height:1; }
 
 .answer{ margin-top:.7em; }
 .answer > summary{ cursor:pointer; list-style:none; display:inline-flex; align-items:center; gap:.4em;
@@ -168,7 +184,9 @@ footer.site{ text-align:center; color:var(--soft); font-size:.85rem; margin-top:
   .hero{ margin-top:36px; }
   .nav-toggle{ margin-top:14px; } .nav-toggle a{ padding:6px 14px; font-size:.9rem; }
   .qcard{ padding:14px 14px 14px 48px; }
+  .qcard.starred{ padding-right:38px; }
   .qcard .qnum{ left:11px; width:26px; height:26px; font-size:.85rem; }
+  .qcard .qstar{ right:11px; top:11px; font-size:.95rem; }
 }
 
 /* ---------- landing page: class cards (Home = class picker, 5-10) ---------- */

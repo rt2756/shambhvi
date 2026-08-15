@@ -83,6 +83,15 @@
     }
   }
 
+  // A question is "starred" — one she got wrong before, kept for revision — by
+  // putting a comment line "<!-- star -->" at the top of its block in the
+  // Markdown. It's invisible in the file's own preview, travels with git, and
+  // never collides with the decorative "<!-- ===== section ===== -->" comments.
+  var STAR_RE = /^\s*star\s*$/i;
+  function isStarMarker(node) {
+    return node.nodeType === 8 && STAR_RE.test(node.nodeValue || "");
+  }
+
   // Split a chapter body into cards on top-level <hr> ("---"). Each card's
   // [!ANSWER] block becomes a tap-to-reveal panel. opts tunes the rendering:
   //   cardClass / bodyClass — CSS hooks; numbered — show a 1,2,3 badge;
@@ -113,9 +122,18 @@
         card.appendChild(num);
       }
 
+      if (nodes.some(isStarMarker)) {
+        card.classList.add("starred");
+        var star = document.createElement("span");
+        star.className = "qstar";
+        star.textContent = "⭐";
+        star.title = "Marked for revision — got this one wrong before";
+        card.appendChild(star);
+      }
+
       var cbody = document.createElement("div");
       cbody.className = opts.bodyClass;
-      nodes.forEach(function (n) { cbody.appendChild(n); });
+      nodes.forEach(function (n) { if (!isStarMarker(n)) cbody.appendChild(n); });
       upgradeAnswers(cbody, opts.revealLabel);
       card.appendChild(cbody);
 
@@ -191,6 +209,57 @@
     sync();
     wrap.appendChild(btn);
     return wrap;
+  }
+
+  // Questions mode: a "⭐ Starred only" switch. On, it hides every unstarred
+  // card, hides chapters left with nothing (and their table-of-contents chips),
+  // and opens the ones that remain — so the revision list is one tap away.
+  // Returns null when the page has no starred questions, so the button simply
+  // doesn't exist on pages where it would do nothing.
+  // toc's links are built one-per-panel in the same order, so index i pairs them.
+  function buildStarFilter(panels, toc) {
+    var total = panels.reduce(function (n, p) {
+      return n + p.querySelectorAll(".qcard.starred").length;
+    }, 0);
+    if (!total) return null;
+
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "star-filter";
+    var on = false;
+
+    function sync() {
+      btn.textContent = on ? "↩ Show all questions" : "⭐ Starred only (" + total + ")";
+      btn.classList.toggle("on", on);
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+    }
+
+    btn.addEventListener("click", function () {
+      on = !on;
+      panels.forEach(function (panel, i) {
+        // Remember how the chapter was left, so switching the filter off
+        // doesn't leave every chapter hanging open.
+        if (on) panel.dataset.wasOpen = panel.open ? "1" : "0";
+
+        var kept = 0;
+        Array.prototype.forEach.call(panel.querySelectorAll(".qcard"), function (card) {
+          var keep = !on || card.classList.contains("starred");
+          card.style.display = keep ? "" : "none";
+          if (keep) kept++;
+        });
+
+        var show = !on || kept > 0;
+        panel.style.display = show ? "" : "none";
+        panel.open = on ? show : panel.dataset.wasOpen === "1";
+
+        var chip = toc && toc.children[i];
+        if (chip) chip.style.display = show ? "" : "none";
+      });
+      sync();
+    });
+
+    sync();
+    return btn;
   }
 
   // How many cards each section reveals per day. Levels show a fresh batch of
@@ -366,10 +435,17 @@
       })
       .then(function (topics) {
         var panels = topics.map(buildPanel);
+        var toc = buildToc(topics);
+        var controls = buildControls(panels);
         mount.innerHTML = "";
-        mount.appendChild(buildToc(topics));
-        mount.appendChild(buildControls(panels));
+        mount.appendChild(toc);
+        mount.appendChild(controls);
         panels.forEach(function (p) { mount.appendChild(p); });
+
+        if (mode === "questions") {
+          var starFilter = buildStarFilter(panels, toc);
+          if (starFilter) controls.insertBefore(starFilter, controls.firstChild);
+        }
 
         if (mode === "vocab") {
           var picks = buildDailyPicks(panels);

@@ -5,7 +5,7 @@ and science, plus class-free vocabulary and a to-do list. The **content lives in
 Markdown files**, one per chapter; the page fetches them and renders collapsible sections
 in the browser. No build step, no Jekyll — published with **GitHub Pages**.
 
-**Class 7 is the deep one** (full notes + ~428 maths questions + science). The other classes
+**Class 7 is the deep one** (full notes + ~448 maths questions + science). The other classes
 currently hold a **syllabus map** — the full chapter list of the year, taken from the NCERT
 book — ready to be filled in chapter by chapter.
 
@@ -110,6 +110,30 @@ Find (−6) × 102 using the distributive shortcut.
 > [!ANSWER]
 > (−6) × 100 + (−6) × 2 = −612
 ```
+
+### ⭐ Starring a question for revision
+
+Put a **`<!-- star -->`** comment line at the top of a question block — followed by a blank
+line — to mark it as one to revise (typically one she got wrong in a test):
+
+```markdown
+<!-- star -->
+
+There are **45 students** in a class and **3/5** of them are boys. How many girls?
+
+> [!ANSWER]
+> …
+```
+
+On the page that question gets a **gold card with a ⭐**, and a **`⭐ Starred only (N)`**
+button appears next to *Expand all*. Tapping it hides every unstarred question, hides the
+chapters left with nothing (and their chips), and opens the ones that remain — the whole
+revision list in one view. Tap again to go back to everything.
+
+The button only appears on pages that actually have a star, and this works on **every**
+questions page (class 5–10, maths and science, plus ⭐ Saved) because they share one engine.
+Question numbers keep their real position in the chapter, so a starred question is easy to
+find in the book. To unstar, delete the comment line.
 
 ### Adding a question chapter
 
