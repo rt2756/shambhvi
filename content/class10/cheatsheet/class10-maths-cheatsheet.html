@@ -1,0 +1,1268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CBSE Class 10 Maths Cheat Sheet</title>
+<style>
+@page { size: A4; margin: 11mm 10mm 12mm 10mm; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 8.9pt; line-height: 1.38; color: #1c2430; margin: 0; }
+.cover { background: #12355b; color: #fff; border-radius: 8px; padding: 16px 20px 14px; margin-bottom: 9px; }
+.cover h1 { margin: 0 0 3px; font-size: 23pt; letter-spacing: -.3px; }
+.cover p { margin: 0; font-size: 10pt; color: #cfe0f2; }
+.toc { display: flex; flex-wrap: wrap; gap: 4px 5px; margin-top: 10px; }
+.toc span { background: rgba(255,255,255,.13); border-radius: 10px; padding: 2px 8px; font-size: 7.8pt; }
+h2 { font-size: 12.5pt; margin: 11px 0 6px; padding: 5px 10px; border-radius: 5px; color: #fff; background: #12355b; break-after: avoid; }
+h2 small { font-weight: 400; font-size: 8.3pt; opacity: .85; margin-left: 6px; }
+h2.part { background: #b4521a; font-size: 14pt; margin-top: 4px; }
+h2.g { background: #1f6f54; } h2.t { background: #6a3d9a; } h2.m { background: #a23b58; } h2.s { background: #2a6f97; } h2.n { background: #12355b; } h2.a { background: #8a5a00; }
+.cols { column-count: 2; column-gap: 6mm; }
+.c { break-inside: avoid; border: .6pt solid #d3dbe5; border-left: 2.6pt solid #12355b; border-radius: 4px; padding: 5px 8px 6px; margin: 0 0 6px; background: #fff; }
+.c h3 { margin: 0 0 3px; font-size: 9.6pt; color: #12355b; }
+.c p { margin: 2px 0; }
+ul { margin: 2px 0; padding-left: 13px; } li { margin: 1px 0; }
+.fx { font-family: "STIX Two Text", Georgia, "Times New Roman", serif; font-size: 10pt; background: #f1f5fa; border-radius: 3px; padding: 3px 7px; margin: 3px 0 !important; }
+.tip { background: #eaf6ee; border-radius: 3px; padding: 3px 7px; font-size: 8.4pt; }
+.tip::before { content: "Tip: "; font-weight: 700; color: #1f6f54; }
+.warn { background: #fdeeee; border-radius: 3px; padding: 3px 7px; font-size: 8.4pt; }
+.warn::before { content: "Watch out: "; font-weight: 700; color: #b3261e; }
+.x { display: inline-block; background: #fff3d6; color: #7a5200; border-radius: 3px; padding: 0 4px; font-size: 7.2pt; font-weight: 700; vertical-align: 1px; }
+table { border-collapse: collapse; width: 100%; margin: 3px 0; font-size: 8.5pt; }
+th, td { border: .5pt solid #c9d2dd; padding: 2px 5px; text-align: left; vertical-align: middle; }
+th { background: #e8eef5; color: #12355b; }
+table.ctr td, table.ctr th { text-align: center; }
+table.m td { font-family: "STIX Two Text", Georgia, serif; font-size: 9.4pt; }
+table.m td:first-child { font-family: inherit; font-size: 8.5pt; font-weight: 600; }
+.f { display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; font-size: .9em; line-height: 1.15; margin: 0 1px; }
+.f > span:first-child { border-bottom: .6pt solid currentColor; padding: 0 2px 1px; }
+.f > span:last-child { padding: 1px 2px 0; }
+.fig { text-align: center; margin: 2px 0; } .fig svg { max-width: 100%; }
+svg text { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8px; fill: #1c2430; }
+.two { display: flex; gap: 8px; align-items: center; } .two > div { flex: 1; }
+.foot { font-size: 7.6pt; color: #5b6675; margin-top: 6px; text-align: center; }
+b { color: #0f2c4c; }
+.ex { border-left-color: #c7701e; background: #fffaf3; }
+.ex h3 { color: #8a4a0c; } .ex h3::before { content: "Example · "; font-weight: 400; }
+.pf { border-left-color: #6a3d9a; background: #faf7fd; }
+.pf h3 { color: #4d2a78; } .pf h3::before { content: "Proof · "; font-weight: 400; }
+ol { margin: 2px 0; padding-left: 15px; } ol li { margin: 1px 0; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <h1>Class 10 Maths — Complete Cheat Sheet</h1>
+  <p>CBSE · Every formula, theorem and method from the basics up to the board exam · with worked examples and full proofs · <b style="color:#ffd58a">Part A</b> foundations (Classes 6–9) · <b style="color:#ffd58a">Part B</b> all 14 Class 10 chapters · <b style="color:#ffd58a">Part C</b> exam plan</p>
+  <div class="toc">
+    <span>1 Real Numbers</span><span>2 Polynomials</span><span>3 Linear Equations</span><span>4 Quadratic Equations</span><span>5 Arithmetic Progressions</span><span>6 Triangles</span><span>7 Coordinate Geometry</span><span>8 Trigonometry</span><span>9 Heights &amp; Distances</span><span>10 Circles</span><span>11 Areas Related to Circles</span><span>12 Surface Areas &amp; Volumes</span><span>13 Statistics</span><span>14 Probability</span>
+  </div>
+</div>
+<p style="margin:0 0 4px;font-size:8.2pt;color:#5b6675">Items marked <span class="x">EXTRA</span> are outside the current rationalised Class 10 syllabus, but are short, useful and often needed in later classes or competitive exams.</p>
+
+<!-- ======================= PART A ======================= -->
+<h2 class="part">Part A — Foundations you must already own <small>Classes 6–9</small></h2>
+<div class="cols">
+
+<div class="c"><h3>Types of numbers</h3>
+<ul>
+<li><b>Natural (N):</b> 1, 2, 3 … &nbsp; <b>Whole (W):</b> 0, 1, 2 …</li>
+<li><b>Integers (Z):</b> … −2, −1, 0, 1, 2 …</li>
+<li><b>Rational (Q):</b> can be written [[p||q]], q ≠ 0. Decimal form <i>terminates</i> or <i>repeats</i> (0.75, 0.333…).</li>
+<li><b>Irrational:</b> decimal never ends, never repeats (√2, √3, π).</li>
+<li><b>Real (R):</b> rational + irrational — every point on the number line.</li>
+<li><b>Prime:</b> exactly 2 factors (2, 3, 5, 7, 11 …). 2 is the only even prime. <b>1 is neither prime nor composite.</b></li>
+<li><b>Co-prime:</b> HCF = 1 (e.g. 8 and 15).</li>
+</ul></div>
+
+<div class="c"><h3>Order of operations and signs</h3>
+<p><b>BODMAS:</b> Brackets → Orders (powers, roots) → Division → Multiplication → Addition → Subtraction.</p>
+<p>(+)(+) = +, &nbsp;(−)(−) = +, &nbsp;(+)(−) = −. &nbsp; −(a − b) = −a + b.</p>
+<p class="warn">(−3)² = 9 but −3² = −9. Division by 0 is not defined.</p></div>
+
+<div class="c"><h3>Divisibility rules</h3>
+<table>
+<tr><th>By</th><th>Rule</th></tr>
+<tr><td>2</td><td>last digit even</td></tr>
+<tr><td>3</td><td>sum of digits divisible by 3</td></tr>
+<tr><td>4</td><td>last two digits divisible by 4</td></tr>
+<tr><td>5</td><td>last digit 0 or 5</td></tr>
+<tr><td>6</td><td>divisible by both 2 and 3</td></tr>
+<tr><td>8</td><td>last three digits divisible by 8</td></tr>
+<tr><td>9</td><td>sum of digits divisible by 9</td></tr>
+<tr><td>10</td><td>last digit 0</td></tr>
+<tr><td>11</td><td>(sum of odd-place digits) − (sum of even-place digits) is 0 or a multiple of 11</td></tr>
+</table></div>
+
+<div class="c"><h3>Fractions, percentages, ratio</h3>
+<p class="fx">[[a||b]] ± [[c||d]] = [[ad ± bc||bd]] &nbsp;&nbsp; [[a||b]] × [[c||d]] = [[ac||bd]] &nbsp;&nbsp; [[a||b]] ÷ [[c||d]] = [[ad||bc]]</p>
+<p class="fx">x% of y = [[x||100]] × y &nbsp;&nbsp;&nbsp; % change = [[new − old||old]] × 100</p>
+<p>½ = 50% · ⅓ = 33.33% · ¼ = 25% · ⅕ = 20% · ⅛ = 12.5% · ¾ = 75%</p>
+<p><b>Proportion:</b> a : b = c : d ⇒ ad = bc. &nbsp;<b>Direct:</b> [[x||y]] = constant. &nbsp;<b>Inverse:</b> xy = constant.</p></div>
+
+<div class="c"><h3>Laws of exponents and surds</h3>
+<p class="fx">a<sup>m</sup> · a<sup>n</sup> = a<sup>m+n</sup> &nbsp;&nbsp; a<sup>m</sup> ÷ a<sup>n</sup> = a<sup>m−n</sup> &nbsp;&nbsp; (a<sup>m</sup>)<sup>n</sup> = a<sup>mn</sup></p>
+<p class="fx">(ab)<sup>n</sup> = a<sup>n</sup>b<sup>n</sup> &nbsp;&nbsp; a<sup>0</sup> = 1 &nbsp;&nbsp; a<sup>−n</sup> = [[1||a<sup>n</sup>]] &nbsp;&nbsp; a<sup>1/n</sup> = <sup>n</sup>√a</p>
+<p class="fx">√a · √b = √(ab) &nbsp;&nbsp; [[√a||√b]] = √(a/b) &nbsp;&nbsp; (√a)² = a</p>
+<p><b>Rationalising:</b> [[1||√a + √b]] = [[√a − √b||a − b]] (multiply top and bottom by the conjugate).</p>
+<p class="warn">√(a + b) ≠ √a + √b. &nbsp; (a + b)² ≠ a² + b².</p></div>
+
+<div class="c"><h3>Algebraic identities (learn by heart)</h3>
+<p class="fx">(a + b)² = a² + 2ab + b²<br>(a − b)² = a² − 2ab + b²<br>a² − b² = (a + b)(a − b)<br>(x + a)(x + b) = x² + (a + b)x + ab<br>(a + b + c)² = a² + b² + c² + 2ab + 2bc + 2ca<br>(a + b)³ = a³ + b³ + 3ab(a + b)<br>(a − b)³ = a³ − b³ − 3ab(a − b)<br>a³ + b³ = (a + b)(a² − ab + b²)<br>a³ − b³ = (a − b)(a² + ab + b²)<br>a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca)</p>
+<p>If a + b + c = 0, then a³ + b³ + c³ = 3abc.</p>
+<p><b>Remainder theorem:</b> p(x) ÷ (x − a) leaves remainder p(a). &nbsp;<b>Factor theorem:</b> (x − a) is a factor ⇔ p(a) = 0.</p></div>
+
+<div class="c"><h3>Everyday arithmetic formulas</h3>
+<p class="fx">Profit % = [[SP − CP||CP]] × 100 &nbsp;&nbsp; Discount = MP − SP</p>
+<p class="fx">Simple interest = [[P × R × T||100]] <br>Compound interest: A = P(1 + [[R||100]])<sup>n</sup></p>
+<p class="fx">Speed = [[Distance||Time]] <br>1 km/h = [[5||18]] m/s &nbsp;&nbsp; 1 m/s = [[18||5]] km/h</p>
+<p><b>Work:</b> if A finishes in <i>a</i> days, A does [[1||a]] of the work per day. Together: [[1||a]] + [[1||b]] per day.</p></div>
+
+<div class="c"><h3>Values worth memorising</h3>
+<p>√2 = 1.414 · √3 = 1.732 · √5 = 2.236 · π = [[22||7]] ≈ 3.14</p>
+<p><b>Squares:</b> 11² 121 · 12² 144 · 13² 169 · 14² 196 · 15² 225 · 16² 256 · 17² 289 · 18² 324 · 19² 361 · 20² 400 · 21² 441 · 22² 484 · 23² 529 · 24² 576 · 25² 625</p>
+<p><b>Cubes:</b> 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000 (1³ to 10³)</p>
+<p><b>Pythagorean triples:</b> 3-4-5 · 5-12-13 · 8-15-17 · 7-24-25 · 9-40-41 · 20-21-29 (and their multiples, e.g. 6-8-10)</p></div>
+
+<div class="c"><h3>Lines and angles</h3>
+<ul>
+<li>Complementary angles add to 90°; supplementary add to 180°.</li>
+<li>Linear pair = 180°. Vertically opposite angles are equal.</li>
+<li><b>Parallel lines cut by a transversal:</b> corresponding angles equal · alternate interior angles equal · co-interior angles add to 180°.</li>
+<li>Polygon with n sides: sum of interior angles = (n − 2) × 180°. Regular polygon: each exterior angle = [[360°||n]].</li>
+</ul></div>
+
+<div class="c"><h3>Triangles — basic facts</h3>
+<ul>
+<li>Angle sum = 180°. Exterior angle = sum of the two interior opposite angles.</li>
+<li>Sum of any two sides &gt; third side. Bigger angle faces the longer side.</li>
+<li>Isosceles: angles opposite equal sides are equal. Equilateral: each angle 60°.</li>
+<li><b>Congruence rules:</b> SSS · SAS · ASA · AAS · RHS. (No "SSA" or "AAA" for congruence.)</li>
+<li><b>Pythagoras:</b> in a right triangle, Hypotenuse² = Base² + Perpendicular². Converse: if c² = a² + b², the angle opposite c is 90°.</li>
+<li><b>Mid-point theorem:</b> the line joining mid-points of two sides is parallel to the third side and half of it.</li>
+</ul></div>
+
+<div class="c"><h3>Quadrilaterals (angle sum 360°)</h3>
+<table>
+<tr><th>Shape</th><th>Key properties</th></tr>
+<tr><td>Parallelogram</td><td>opposite sides equal and parallel; opposite angles equal; diagonals bisect each other</td></tr>
+<tr><td>Rectangle</td><td>parallelogram + all angles 90° + diagonals equal</td></tr>
+<tr><td>Rhombus</td><td>parallelogram + all sides equal + diagonals bisect at 90°</td></tr>
+<tr><td>Square</td><td>rectangle + rhombus (everything above)</td></tr>
+<tr><td>Trapezium</td><td>one pair of opposite sides parallel</td></tr>
+</table></div>
+
+<div class="c"><h3>Circle theorems from Class 9</h3>
+<ul>
+<li>Perpendicular from the centre to a chord bisects the chord.</li>
+<li>Equal chords are equidistant from the centre (and vice versa).</li>
+<li>Angle at the centre = 2 × angle at the circumference on the same arc.</li>
+<li>Angles in the same segment are equal. Angle in a semicircle = 90°.</li>
+<li>Cyclic quadrilateral: opposite angles add to 180°.</li>
+</ul></div>
+
+<div class="c"><h3>Mensuration — plane figures</h3>
+<table class="m">
+<tr><th>Figure</th><th>Area</th><th>Perimeter</th></tr>
+<tr><td>Rectangle</td><td>l × b</td><td>2(l + b)</td></tr>
+<tr><td>Square</td><td>a² &nbsp;(diagonal a√2)</td><td>4a</td></tr>
+<tr><td>Triangle</td><td>½ × base × height</td><td>a + b + c</td></tr>
+<tr><td>Triangle (Heron)</td><td>√(s(s−a)(s−b)(s−c))</td><td>s = [[a+b+c||2]]</td></tr>
+<tr><td>Equilateral</td><td>[[√3||4]] a² &nbsp;(height [[√3||2]] a)</td><td>3a</td></tr>
+<tr><td>Parallelogram</td><td>base × height</td><td>2(a + b)</td></tr>
+<tr><td>Rhombus</td><td>½ × d₁ × d₂</td><td>4a</td></tr>
+<tr><td>Trapezium</td><td>½ (a + b) × h</td><td>sum of sides</td></tr>
+<tr><td>Circle</td><td>πr²</td><td>2πr</td></tr>
+</table></div>
+
+<div class="c"><h3>Mensuration — solids</h3>
+<table class="m">
+<tr><th>Solid</th><th>Curved / lateral</th><th>Total surface</th><th>Volume</th></tr>
+<tr><td>Cuboid</td><td>2h(l + b)</td><td>2(lb + bh + hl)</td><td>lbh</td></tr>
+<tr><td>Cube</td><td>4a²</td><td>6a²</td><td>a³</td></tr>
+<tr><td>Cylinder</td><td>2πrh</td><td>2πr(r + h)</td><td>πr²h</td></tr>
+<tr><td>Cone</td><td>πrl</td><td>πr(r + l)</td><td>⅓πr²h</td></tr>
+<tr><td>Sphere</td><td>4πr²</td><td>4πr²</td><td>[[4||3]]πr³</td></tr>
+<tr><td>Hemisphere</td><td>2πr²</td><td>3πr²</td><td>[[2||3]]πr³</td></tr>
+</table>
+<p>Cone slant height l = √(r² + h²). Cuboid diagonal = √(l² + b² + h²). Cube diagonal = a√3.</p>
+<p><b>Units:</b> 1 m³ = 1000 litres · 1 litre = 1000 cm³ · 1 m² = 10 000 cm² · 1 hectare = 10 000 m².</p></div>
+
+
+<div class="c"><h3>Solving a linear equation in one variable</h3>
+<ul>
+<li>Whatever you do to one side, do to the other. Moving a term across "=" changes its sign; a multiplier becomes a divisor.</li>
+<li>Clear fractions first by multiplying every term by the LCM of the denominators.</li>
+<li><b>Cross-multiplication:</b> [[a||b]] = [[c||d]] ⇒ ad = bc.</li>
+</ul>
+<p class="fx">3x − 7 = 2x + 5 ⇒ 3x − 2x = 5 + 7 ⇒ x = 12</p>
+<p class="fx">[[2x + 1||3]] = [[x − 1||2]] ⇒ 4x + 2 = 3x − 3 ⇒ x = −5</p>
+<p class="tip">Put your answer back in the original equation. LHS must equal RHS.</p></div>
+
+<div class="c"><h3>Factorising — four methods</h3>
+<ol>
+<li><b>Common factor:</b> 6x² + 9x = 3x(2x + 3).</li>
+<li><b>Grouping:</b> ax + ay + bx + by = (a + b)(x + y).</li>
+<li><b>Identities:</b> 4x² − 25 = (2x + 5)(2x − 5); x² + 6x + 9 = (x + 3)².</li>
+<li><b>Splitting the middle term</b> of ax² + bx + c: find two numbers with product ac and sum b.</li>
+</ol>
+<p class="fx">x² − 5x + 6 → product 6, sum −5 → −2, −3 → (x − 2)(x − 3)</p>
+<p class="fx">6x² + 7x − 3 → product −18, sum 7 → 9, −2<br>= 6x² + 9x − 2x − 3 = 3x(2x + 3) − 1(2x + 3)<br>= (3x − 1)(2x + 3)</p></div>
+
+<div class="c"><h3>HCF, LCM and square roots by prime factors</h3>
+<p>Break each number into primes using a factor tree or repeated division by 2, 3, 5, 7 …</p>
+<p class="fx">72 = 2³ × 3² &nbsp;&nbsp; 120 = 2³ × 3 × 5<br>HCF = 2³ × 3 = 24 &nbsp;&nbsp; LCM = 2³ × 3² × 5 = 360</p>
+<p><b>Square root:</b> pair up equal primes and take one from each pair. √7056 = √(2⁴ × 3² × 7²) = 2² × 3 × 7 = 84.</p>
+<p><b>Fractions:</b> LCM of fractions = [[LCM of numerators||HCF of denominators]]; HCF of fractions = [[HCF of numerators||LCM of denominators]].</p></div>
+
+<div class="c"><h3>Linear equations in two variables and graphs (Class 9)</h3>
+<ul>
+<li>ax + by + c = 0 has infinitely many solutions; its graph is a straight line. Every point on the line is a solution.</li>
+<li>To plot: choose 3 values of x, find y, plot and join. Two points fix the line; the third is a check.</li>
+<li>x-intercept: put y = 0. y-intercept: put x = 0.</li>
+<li>x = a is a vertical line (parallel to the y-axis). y = b is a horizontal line (parallel to the x-axis).</li>
+<li>x-axis is the line y = 0; y-axis is the line x = 0. The origin is (0, 0).</li>
+<li>In (x, y): x is the abscissa (distance from the y-axis), y is the ordinate (distance from the x-axis).</li>
+</ul></div>
+
+<div class="c"><h3>Ungrouped data: mean, median, mode</h3>
+<p class="fx">Mean = [[sum of observations||number of observations]]</p>
+<p><b>Median:</b> arrange in order. If n is odd, it is the ([[n + 1||2]])th value. If n is even, it is the average of the ([[n||2]])th and ([[n||2]] + 1)th values.</p>
+<p><b>Mode:</b> the value that occurs most often. <b>Range:</b> highest − lowest.</p>
+<p>Data 3, 7, 7, 9, 14: mean = 40 ÷ 5 = 8, median = 7, mode = 7, range = 11.</p>
+<ul>
+<li>If every value increases by k, the mean increases by k. If every value is multiplied by k, the mean is multiplied by k.</li>
+<li>The sum of deviations from the mean is always 0.</li>
+</ul></div>
+
+<div class="c"><h3>Unit conversions</h3>
+<table>
+<tr><th>Length</th><th>Area</th><th>Volume / capacity</th></tr>
+<tr><td>1 km = 1000 m</td><td>1 m² = 10 000 cm²</td><td>1 m³ = 1 000 000 cm³</td></tr>
+<tr><td>1 m = 100 cm</td><td>1 cm² = 100 mm²</td><td>1 m³ = 1000 litres = 1 kilolitre</td></tr>
+<tr><td>1 cm = 10 mm</td><td>1 hectare = 10 000 m²</td><td>1 litre = 1000 cm³ = 1000 ml</td></tr>
+<tr><td>1 inch = 2.54 cm</td><td>1 km² = 100 hectares</td><td>1 cm³ = 1 ml</td></tr>
+</table>
+<p class="warn">When length units change by a factor k, area changes by k² and volume by k³.</p></div>
+
+<div class="c"><h3>The language of proofs</h3>
+<ul>
+<li><b>Axiom / postulate:</b> accepted without proof. <b>Theorem:</b> a statement that has been proved.</li>
+<li><b>Converse:</b> swap "if" and "then". The converse of a true statement need not be true.</li>
+<li><b>Proof by contradiction:</b> assume the opposite, reach something impossible, conclude the original is true.</li>
+<li><b>Counter-example:</b> one example is enough to show a statement is false, but examples never prove it true.</li>
+<li>Geometry proofs are written as: Given → To prove → Construction → Proof, with a reason for each step (CPCT, AA, alternate angles …).</li>
+</ul></div>
+
+<div class="c ex"><h3>Heron's formula</h3>
+<p>Triangle with sides 13 cm, 14 cm, 15 cm.</p>
+<p class="fx">s = [[13 + 14 + 15||2]] = 21<br>Area = √(21 × 8 × 7 × 6) = √7056 = 84 cm²</p>
+<p>Altitude on the 14 cm side = [[2 × 84||14]] = 12 cm.</p></div>
+
+<div class="c"><h3>Mental-maths shortcuts</h3>
+<ul>
+<li><b>Square of a number ending in 5:</b> 35² → 3 × 4 = 12, attach 25 → 1225.</li>
+<li><b>Multiply by 11:</b> 43 × 11 → 4 (4 + 3) 3 → 473.</li>
+<li><b>Multiply by 5:</b> halve, then × 10. <b>By 25:</b> divide by 4, then × 100.</li>
+<li><b>Difference of squares:</b> 47 × 53 = 50² − 3² = 2491.</li>
+<li><b>Near-100 squares:</b> 98² = (100 − 2)² = 10000 − 400 + 4 = 9604.</li>
+<li>1/√2 ≈ 0.707 · 1/√3 ≈ 0.577 · √3/2 ≈ 0.866.</li>
+</ul></div>
+
+</div>
+
+<!-- ======================= PART B ======================= -->
+<h2 class="part">Part B — Class 10, chapter by chapter</h2>
+
+<h2 class="n">1 · Real Numbers <small>Unit: Number Systems · 6 marks</small></h2>
+<div class="cols">
+<div class="c"><h3>Fundamental Theorem of Arithmetic</h3>
+<p>Every composite number can be written as a product of primes, and this factorisation is <b>unique</b> apart from the order of the factors. Example: 360 = 2³ × 3² × 5.</p>
+<p><b>HCF</b> = product of the <i>smallest</i> power of each <i>common</i> prime.<br><b>LCM</b> = product of the <i>greatest</i> power of <i>every</i> prime involved.</p>
+<p class="fx">HCF(a, b) × LCM(a, b) = a × b</p>
+<p class="warn">This product rule works for two numbers only, not three.</p>
+<p class="tip">"Largest number that divides…" → HCF. "Smallest number divisible by…" or "when will they meet / ring together again" → LCM.</p></div>
+
+<div class="c"><h3>Proving irrationality (√2, √3, √5)</h3>
+<p><b>Key theorem:</b> if a prime p divides a², then p divides a.</p>
+<p><b>Proof pattern (contradiction):</b></p>
+<ul>
+<li>Assume √2 = [[a||b]], with a, b co-prime, b ≠ 0.</li>
+<li>Square: a² = 2b² ⇒ 2 divides a² ⇒ 2 divides a. Let a = 2c.</li>
+<li>Then 4c² = 2b² ⇒ b² = 2c² ⇒ 2 divides b.</li>
+<li>So a and b share the factor 2 — contradicts co-prime. Hence √2 is irrational.</li>
+</ul>
+<p><b>For 3 + 2√5 type:</b> assume it is rational, isolate √5 = rational → contradiction.</p>
+<p>Rational ± irrational = irrational. Non-zero rational × irrational = irrational.</p></div>
+
+<div class="c"><h3>Standard question types</h3>
+<ul>
+<li><b>Can 6<sup>n</sup> end in 0?</b> A number ending in 0 needs prime factors 2 <i>and</i> 5. 6<sup>n</sup> = 2<sup>n</sup> × 3<sup>n</sup> has no 5 → never.</li>
+<li><b>Show 7 × 11 × 13 + 13 is composite:</b> take 13 common → 13 × (78), more than two factors.</li>
+</ul>
+<p><span class="x">EXTRA</span> <b>Euclid's lemma:</b> a = bq + r, 0 ≤ r &lt; b. &nbsp;<b>Decimals:</b> [[p||q]] (lowest terms) terminates only if q = 2<sup>m</sup> × 5<sup>n</sup>.</p></div>
+
+<div class="c ex"><h3>HCF and LCM by prime factorisation</h3>
+<p>Find the HCF and LCM of 96 and 404 and verify the product rule.</p>
+<p class="fx">96 = 2⁵ × 3 &nbsp;&nbsp;&nbsp; 404 = 2² × 101<br>HCF = 2² = 4 &nbsp;&nbsp;&nbsp; LCM = 2⁵ × 3 × 101 = 9696<br>4 × 9696 = 38 784 = 96 × 404 ✓</p>
+<p><b>Given the HCF, find the LCM:</b> HCF(306, 657) = 9 ⇒ LCM = [[306 × 657||9]] = 22 338.</p></div>
+
+<div class="c ex"><h3>Three numbers</h3>
+<p>HCF and LCM of 6, 72, 120.</p>
+<p class="fx">6 = 2 × 3 &nbsp; 72 = 2³ × 3² &nbsp; 120 = 2³ × 3 × 5<br>HCF = 2 × 3 = 6 &nbsp;&nbsp; LCM = 2³ × 3² × 5 = 360</p>
+<p>Here HCF × LCM = 2160, but 6 × 72 × 120 = 51 840. The product rule fails for three numbers.</p></div>
+
+<div class="c ex"><h3>Word problems</h3>
+<ul>
+<li><b>Meeting again:</b> Sonia takes 18 min and Ravi 12 min for one round of a field, starting together. They meet at the start after LCM(18, 12) = 36 minutes.</li>
+<li><b>Bells:</b> bells ring every 9, 12 and 15 minutes. LCM = 180 minutes, so they ring together every 3 hours.</li>
+<li><b>Remainder type:</b> largest number that divides 245 and 1029 leaving remainder 5 in each case = HCF(245 − 5, 1029 − 5) = HCF(240, 1024) = 16.</li>
+<li><b>Largest equal groups / longest tape / biggest tile:</b> HCF.</li>
+</ul></div>
+
+<div class="c pf"><h3>5 − √3 is irrational</h3>
+<ol>
+<li>Assume 5 − √3 is rational. Then 5 − √3 = [[a||b]], where a, b are co-prime integers and b ≠ 0.</li>
+<li>Rearranging: √3 = 5 − [[a||b]] = [[5b − a||b]].</li>
+<li>Since a and b are integers, [[5b − a||b]] is rational, so √3 is rational.</li>
+<li>But √3 is irrational. This is a contradiction.</li>
+<li>So the assumption is wrong, and 5 − √3 is irrational.</li>
+</ol>
+<p>The same five lines work for 3 + 2√5, 7√5, [[1||√2]] and similar numbers. If asked, first prove √3 is irrational using the √2 pattern.</p></div>
+
+</div>
+
+<h2 class="a">2 · Polynomials <small>Unit: Algebra · 20 marks for chapters 2–5</small></h2>
+<div class="cols">
+<div class="c"><h3>Basics</h3>
+<ul>
+<li>Degree = highest power of x. Linear (1), quadratic (2), cubic (3).</li>
+<li><b>Zero</b> of p(x): a value k with p(k) = 0. On a graph, zeros are the x-coordinates where y = p(x) meets the x-axis.</li>
+<li>A polynomial of degree n has <b>at most n</b> zeros.</li>
+<li>Graph of ax² + bx + c is a parabola: opens up if a &gt; 0, down if a &lt; 0. It cuts the x-axis at 2, 1 or 0 points.</li>
+</ul></div>
+<div class="c"><h3>Zeros and coefficients — quadratic ax² + bx + c</h3>
+<p class="fx">α + β = −[[b||a]] &nbsp;&nbsp;&nbsp;&nbsp; αβ = [[c||a]]</p>
+<p><b>Build a polynomial from its zeros:</b></p>
+<p class="fx">p(x) = k [ x² − (α + β)x + αβ ]</p>
+<p><b>Useful rearrangements:</b></p>
+<p class="fx">α² + β² = (α + β)² − 2αβ<br>(α − β)² = (α + β)² − 4αβ<br>[[1||α]] + [[1||β]] = [[α + β||αβ]]<br>α³ + β³ = (α + β)³ − 3αβ(α + β)</p>
+<p><span class="x">EXTRA</span> Cubic ax³ + bx² + cx + d: &nbsp;α+β+γ = −[[b||a]], &nbsp;αβ+βγ+γα = [[c||a]], &nbsp;αβγ = −[[d||a]].</p></div>
+
+<div class="c"><h3>More vocabulary</h3>
+<ul>
+<li>p(x) = a<sub>n</sub>x<sup>n</sup> + … + a₁x + a₀ with whole-number powers. [[1||x]], √x and x<sup>−2</sup> are not polynomial terms.</li>
+<li>Monomial (1 term), binomial (2), trinomial (3).</li>
+<li>Constant polynomial (e.g. 7) has degree 0. The degree of the zero polynomial is not defined.</li>
+<li>Value of p(x) at x = k is p(k). A linear polynomial ax + b has exactly one zero, −[[b||a]].</li>
+</ul>
+<p><b>Reading a graph:</b> number of zeros = number of points where the graph meets the x-axis. A graph that only touches the axis counts once (equal zeros).</p></div>
+
+<div class="c ex"><h3>Find the zeros and verify the relationship</h3>
+<p><b>(a)</b> x² − 2x − 8 = (x − 4)(x + 2). Zeros: 4 and −2.</p>
+<p class="fx">Sum = 2 = −[[(−2)||1]] ✓ &nbsp;&nbsp; Product = −8 = [[−8||1]] ✓</p>
+<p><b>(b)</b> 6x² − 3 − 7x. First arrange: 6x² − 7x − 3 = (3x + 1)(2x − 3). Zeros: −[[1||3]] and [[3||2]].</p>
+<p class="fx">Sum = [[7||6]] = −[[(−7)||6]] ✓ &nbsp;&nbsp; Product = −[[1||2]] = [[−3||6]] ✓</p>
+<p><b>(c)</b> x² − 3 = (x − √3)(x + √3). Zeros ±√3; sum 0, product −3.</p></div>
+
+<div class="c ex"><h3>Form a polynomial; use α and β</h3>
+<p><b>Sum √2, product [[1||3]]:</b> x² − √2 x + [[1||3]]. Multiply by 3 → 3x² − 3√2 x + 1.</p>
+<p><b>If α, β are zeros of x² − 5x + 6:</b> α + β = 5, αβ = 6.</p>
+<p class="fx">α² + β² = 25 − 12 = 13 &nbsp;&nbsp; [[1||α]] + [[1||β]] = [[5||6]]<br>(α − β)² = 25 − 24 = 1 &nbsp;&nbsp; α³ + β³ = 125 − 90 = 35</p>
+<p><b>New polynomial with zeros 2α and 2β:</b> sum 10, product 24 → x² − 10x + 24.</p></div>
+
+<div class="c"><h3>Quick facts for 1-mark questions</h3>
+<ul>
+<li>Zeros are equal in size, opposite in sign (α = −β) ⇒ sum = 0 ⇒ b = 0.</li>
+<li>Zeros are reciprocals (αβ = 1) ⇒ c = a.</li>
+<li>One zero is 0 ⇒ c = 0.</li>
+<li>Polynomial with zeros [[1||α]], [[1||β]] is cx² + bx + a (coefficients reversed).</li>
+<li>If k is a zero, substitute x = k and set p(k) = 0 to find an unknown coefficient.</li>
+<li>Infinitely many polynomials share the same zeros: multiply by any non-zero k.</li>
+</ul>
+<p><span class="x">EXTRA</span> <b>Division algorithm:</b> p(x) = g(x) × q(x) + r(x), where r(x) = 0 or degree of r &lt; degree of g.</p></div>
+
+</div>
+
+<h2 class="a">3 · Pair of Linear Equations in Two Variables</h2>
+<div class="cols">
+<div class="c"><h3>Consistency test</h3>
+<p>For a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0:</p>
+<table>
+<tr><th>Compare ratios</th><th>Graph</th><th>Solutions</th><th>Called</th></tr>
+<tr><td style="white-space:nowrap">[[a₁||a₂]] ≠ [[b₁||b₂]]</td><td>intersecting</td><td>exactly one</td><td>consistent</td></tr>
+<tr><td style="white-space:nowrap">[[a₁||a₂]] = [[b₁||b₂]] = [[c₁||c₂]]</td><td>coincident</td><td>infinitely many</td><td>consistent (dependent)</td></tr>
+<tr><td style="white-space:nowrap">[[a₁||a₂]] = [[b₁||b₂]] ≠ [[c₁||c₂]]</td><td>parallel</td><td>none</td><td>inconsistent</td></tr>
+</table>
+<p class="warn">Bring both equations to the form ax + by + c = 0 before comparing ratios.</p></div>
+<div class="c"><h3>Solving methods</h3>
+<ul>
+<li><b>Graphical:</b> plot both lines (3 points each); the intersection is the solution.</li>
+<li><b>Substitution:</b> from one equation write y in terms of x, put it in the other.</li>
+<li><b>Elimination:</b> multiply to make the coefficients of one variable equal, then add or subtract.</li>
+</ul>
+<p class="tip">Always substitute the answer back in both equations to check.</p></div>
+<div class="c"><h3>Setting up word problems</h3>
+<ul>
+<li><b>Two-digit number:</b> tens digit x, units digit y → number 10x + y; reversed 10y + x.</li>
+<li><b>Fraction:</b> numerator x, denominator y → [[x||y]].</li>
+<li><b>Ages:</b> n years ago → (x − n); n years later → (x + n).</li>
+<li><b>Boat:</b> speed in still water x, stream y → downstream x + y, upstream x − y. Time = [[distance||speed]].</li>
+<li><b>Fixed + variable charge:</b> total = x + (units) × y.</li>
+<li><b>Supplementary / cyclic quadrilateral angles:</b> use the 180° sums.</li>
+</ul></div>
+
+<div class="c ex"><h3>Elimination, step by step</h3>
+<p>Solve 2x + 3y = 13 and 5x − 2y = 4.</p>
+<p class="fx">(1) × 2: &nbsp; 4x + 6y = 26<br>(2) × 3: &nbsp; 15x − 6y = 12<br>Add: &nbsp; 19x = 38 ⇒ x = 2<br>Put in (1): 4 + 3y = 13 ⇒ y = 3</p>
+<p>Check in (2): 10 − 6 = 4 ✓</p>
+<p><b>Swapped coefficients</b> (99x + 101y = 499, 101x + 99y = 501): add → x + y = 5; subtract → x − y = 1; so x = 3, y = 2.</p></div>
+
+<div class="c ex"><h3>Finding k</h3>
+<p><b>No solution:</b> kx + 3y = k − 3 and 12x + ky = k.</p>
+<p class="fx">[[k||12]] = [[3||k]] ⇒ k² = 36 ⇒ k = ±6</p>
+<p>Also need [[3||k]] ≠ [[k − 3||k]], i.e. k ≠ 6. So <b>k = −6</b>. (k = 6 gives coincident lines.)</p>
+<p><b>Infinitely many solutions:</b> 2x + 3y = 7 and (a − b)x + (a + b)y = 3a + b − 2.</p>
+<p class="fx">[[2||a − b]] = [[3||a + b]] = [[7||3a + b − 2]]<br>First two: a = 5b. Last two: 2a − 4b = 6.<br>⇒ b = 1, a = 5</p></div>
+
+<div class="c ex"><h3>Word problems solved</h3>
+<p><b>Digits:</b> the sum of the digits of a two-digit number is 9; nine times the number equals twice the number with digits reversed.</p>
+<p class="fx">x + y = 9 &nbsp;&nbsp; 9(10x + y) = 2(10y + x) ⇒ y = 8x<br>x = 1, y = 8 ⇒ number = 18</p>
+<p><b>Boat:</b> 30 km upstream + 44 km downstream takes 10 h; 40 km upstream + 55 km downstream takes 13 h. Let u = [[1||x − y]], v = [[1||x + y]].</p>
+<p class="fx">30u + 44v = 10 &nbsp;&nbsp; 40u + 55v = 13<br>⇒ u = [[1||5]], v = [[1||11]] ⇒ x − y = 5, x + y = 11<br>Boat 8 km/h, stream 3 km/h</p></div>
+
+<div class="c"><h3>Graph questions</h3>
+<ul>
+<li>Make a table of 3 points for each line, plot on the same axes, read the intersection.</li>
+<li><b>Triangle with the x-axis:</b> vertices are the intersection point and the two x-intercepts. Area = ½ × base on the axis × height (the y-coordinate of the intersection).</li>
+<li>Line through the origin: c = 0. Lines x = a and y = b meet at (a, b).</li>
+</ul>
+<p><span class="x">EXTRA</span> <b>Reducible equations:</b> for [[2||x]] + [[3||y]] = 13, put [[1||x]] = u and [[1||y]] = v, solve the linear pair, then invert.</p></div>
+
+</div>
+
+<h2 class="a">4 · Quadratic Equations</h2>
+<div class="cols">
+<div class="c"><h3>Standard form and solving</h3>
+<p class="fx">ax² + bx + c = 0, &nbsp; a ≠ 0</p>
+<p><b>1. Factorisation (splitting the middle term):</b> find two numbers whose <i>sum is b</i> and <i>product is ac</i>. Example: 2x² − 5x + 3 → sum −5, product 6 → −2 and −3 → (2x − 3)(x − 1) = 0 → x = [[3||2]], 1.</p>
+<p><b>2. Quadratic formula:</b></p>
+<p class="fx">x = [[−b ± √(b² − 4ac)||2a]]</p></div>
+<div class="c"><h3>Discriminant and nature of roots</h3>
+<p class="fx">D = b² − 4ac</p>
+<table>
+<tr><th>D</th><th>Roots</th></tr>
+<tr><td>D &gt; 0</td><td>two distinct real roots</td></tr>
+<tr><td>D = 0</td><td>two equal real roots, each −[[b||2a]]</td></tr>
+<tr><td>D &lt; 0</td><td>no real roots</td></tr>
+</table>
+<p>"Real roots" means D ≥ 0. "Equal roots — find k" means set D = 0.</p>
+<p>Sum of roots = −[[b||a]], product = [[c||a]].</p></div>
+<div class="c"><h3>Word problems</h3>
+<ul>
+<li>Consecutive integers: x, x + 1. Consecutive odd or even: x, x + 2.</li>
+<li>Speed problems: [[d||x]] − [[d||x + k]] = time difference → take LCM → quadratic.</li>
+<li>Rectangle: length × breadth = area with one side written in terms of the other.</li>
+<li>Right triangle: use Pythagoras to form the equation.</li>
+</ul>
+<p class="warn">Reject roots that make no sense (negative length, speed, age). Write "x ≠ −5 since speed cannot be negative".</p></div>
+
+<div class="c"><h3>Is it quadratic? Simplify first</h3>
+<ul>
+<li>(x + 1)² = 2(x − 3) ⇒ x² + 7 = 0. Quadratic.</li>
+<li>x(x + 1) + 8 = (x + 2)(x − 2) ⇒ x + 12 = 0. <b>Not</b> quadratic — x² cancels.</li>
+<li>x + [[1||x]] = 3 ⇒ x² − 3x + 1 = 0 (multiply by x). Quadratic.</li>
+</ul>
+<p><b>Root given, find k:</b> substitute the root. If x = 2 is a root of x² + kx − 10 = 0, then 4 + 2k − 10 = 0 ⇒ k = 3.</p>
+<p><b>Roots given, form the equation:</b> x² − (sum of roots)x + (product of roots) = 0.</p></div>
+
+<div class="c ex"><h3>Formula and discriminant</h3>
+<p><b>Solve 2x² − 7x + 3 = 0.</b> a = 2, b = −7, c = 3.</p>
+<p class="fx">D = 49 − 24 = 25 &nbsp;&nbsp; x = [[7 ± 5||4]] = 3 or [[1||2]]</p>
+<p><b>Equal roots:</b> kx(x − 2) + 6 = 0 ⇒ kx² − 2kx + 6 = 0.</p>
+<p class="fx">D = 4k² − 24k = 0 ⇒ 4k(k − 6) = 0 ⇒ k = 6</p>
+<p>k = 0 is rejected because the equation would stop being quadratic.</p>
+<p><b>2x² + kx + 3 = 0, equal roots:</b> k² = 24 ⇒ k = ±2√6.</p></div>
+
+<div class="c ex"><h3>Word problems solved</h3>
+<p><b>Train:</b> 360 km at uniform speed; 5 km/h faster would take 1 hour less.</p>
+<p class="fx">[[360||x]] − [[360||x + 5]] = 1 ⇒ x² + 5x − 1800 = 0<br>(x + 45)(x − 40) = 0 ⇒ x = 40 km/h</p>
+<p><b>Consecutive integers:</b> the sum of squares of two consecutive positive integers is 365.</p>
+<p class="fx">x² + (x + 1)² = 365 ⇒ x² + x − 182 = 0<br>(x + 14)(x − 13) = 0 ⇒ 13 and 14</p>
+<p><b>Taps:</b> two taps together fill a tank in [[75||8]] hours; the larger takes 10 hours less than the smaller.</p>
+<p class="fx">[[1||x]] + [[1||x − 10]] = [[8||75]] ⇒ 8x² − 230x + 750 = 0<br>⇒ x = 25 (smaller tap), larger tap 15 hours</p></div>
+
+<div class="c"><h3><span class="x">EXTRA</span> Completing the square</h3>
+<ol>
+<li>Make the coefficient of x² equal to 1.</li>
+<li>Move the constant to the right.</li>
+<li>Add (half the coefficient of x)² to both sides.</li>
+<li>Write the left side as a perfect square and take the square root.</li>
+</ol>
+<p class="fx">x² + 6x − 7 = 0 ⇒ x² + 6x + 9 = 16<br>(x + 3)² = 16 ⇒ x + 3 = ±4 ⇒ x = 1 or −7</p>
+<p>The quadratic formula is this method applied to ax² + bx + c = 0.</p></div>
+
+</div>
+
+<h2 class="a">5 · Arithmetic Progressions</h2>
+<div class="cols">
+<div class="c"><h3>Core formulas</h3>
+<p>AP: a, a + d, a + 2d, … &nbsp;where a = first term, d = common difference = a₂ − a₁.</p>
+<p class="fx">nth term: &nbsp;a<sub>n</sub> = a + (n − 1)d</p>
+<p class="fx">Sum: &nbsp;S<sub>n</sub> = [[n||2]] [2a + (n − 1)d] = [[n||2]] (a + l)</p>
+<p>l = last term. Use the second form whenever the last term is known.</p>
+<p class="fx">a<sub>n</sub> = S<sub>n</sub> − S<sub>n−1</sub> &nbsp;&nbsp;&nbsp; nth term from the end = l − (n − 1)d</p></div>
+<div class="c"><h3>Shortcuts</h3>
+<ul>
+<li>a, b, c are in AP ⇔ 2b = a + c.</li>
+<li>Choose 3 terms as a − d, a, a + d; 4 terms as a − 3d, a − d, a + d, a + 3d (sum problems become easy).</li>
+<li>Number of terms: n = [[l − a||d]] + 1.</li>
+<li>Sum of first n natural numbers = [[n(n + 1)||2]].</li>
+<li>Sum of first n odd numbers = n². Sum of first n even numbers = n(n + 1).</li>
+<li>If a<sub>n</sub> is of the form pn + q, the sequence is an AP with d = p.</li>
+</ul>
+<p class="warn">n must be a positive integer. If you get n = 12.5, the term is not in the AP.</p></div>
+
+<div class="c ex"><h3>nth term problems</h3>
+<p><b>10th term of 2, 7, 12 …</b> a = 2, d = 5 ⇒ a₁₀ = 2 + 9 × 5 = 47.</p>
+<p><b>Which term of 21, 18, 15 … is −81?</b></p>
+<p class="fx">21 + (n − 1)(−3) = −81 ⇒ n − 1 = 34 ⇒ n = 35</p>
+<p><b>Given a₃ = 5 and a₇ = 9:</b> subtract → 4d = 4 ⇒ d = 1, a = 3. AP: 3, 4, 5, 6 …</p>
+<p><b>How many multiples of 4 lie between 10 and 250?</b> 12, 16 … 248.</p>
+<p class="fx">n = [[248 − 12||4]] + 1 = 60</p>
+<p>Three-digit numbers divisible by 7: 105 … 994 ⇒ n = 128.</p></div>
+
+<div class="c ex"><h3>Sum problems</h3>
+<p><b>34 + 32 + 30 + … + 10:</b> n = [[10 − 34||−2]] + 1 = 13.</p>
+<p class="fx">S = [[13||2]] (34 + 10) = 286</p>
+<p><b>How many terms of 24, 21, 18 … give a sum of 78?</b></p>
+<p class="fx">[[n||2]] [48 − 3(n − 1)] = 78 ⇒ n² − 17n + 52 = 0<br>⇒ n = 4 or 13</p>
+<p>Both are valid: terms 5 to 13 add up to zero.</p>
+<p><b>Given S<sub>n</sub> = 4n − n²:</b> a₁ = S₁ = 3; S₂ = 4 so a₂ = 1; d = −2; a<sub>n</sub> = 5 − 2n.</p></div>
+
+<div class="c ex"><h3>Real-life AP</h3>
+<p>200 logs are stacked with 20 in the bottom row, 19 in the next, 18 in the next … How many rows?</p>
+<p class="fx">[[n||2]] [40 − (n − 1)] = 200 ⇒ n² − 41n + 400 = 0<br>⇒ n = 16 or 25</p>
+<p>n = 25 would need a negative number of logs in the top row, so n = 16 rows and the top row has 20 − 15 = 5 logs.</p>
+<p>Other AP situations: fixed yearly salary increment, equal monthly increase in savings, taxi fare per km after a fixed charge, rungs of a ladder. Compound interest is <b>not</b> an AP.</p></div>
+
+<div class="c"><h3>Properties for tricky questions</h3>
+<ul>
+<li>Adding, subtracting, multiplying or dividing every term by the same non-zero number still gives an AP.</li>
+<li>Sum of terms equidistant from the two ends = a + l.</li>
+<li>If S<sub>n</sub> = An² + Bn, it is an AP with d = 2A.</li>
+<li>If a<sub>m</sub> = n and a<sub>n</sub> = m, then d = −1 and a<sub>m+n</sub> = 0.</li>
+<li>If m × a<sub>m</sub> = n × a<sub>n</sub>, then a<sub>m+n</sub> = 0.</li>
+<li><b>Ratio of sums → ratio of terms:</b> replace n by (2m − 1) in the ratio of S<sub>n</sub> to get the ratio of the mth terms.</li>
+<li>a<sub>n</sub> − a<sub>k</sub> = (n − k)d — the fastest way to find d from two terms.</li>
+</ul></div>
+
+</div>
+
+<h2 class="g">6 · Triangles <small>Unit: Geometry · 15 marks with Circles</small></h2>
+<div class="cols">
+<div class="c"><h3>Similarity</h3>
+<p>Two triangles are similar (~) if corresponding angles are equal <b>and</b> corresponding sides are in the same ratio. Congruent = same shape and size; similar = same shape only.</p>
+<p class="fx">ΔABC ~ ΔPQR ⇒ [[AB||PQ]] = [[BC||QR]] = [[AC||PR]]</p>
+<p><b>Criteria:</b></p>
+<ul>
+<li><b>AA (AAA):</b> two pairs of angles equal.</li>
+<li><b>SSS:</b> all three pairs of sides proportional.</li>
+<li><b>SAS:</b> one angle equal and the sides including it proportional.</li>
+</ul>
+<p class="warn">The order of letters matters. Write the correspondence correctly (A↔P, B↔Q, C↔R) before writing ratios.</p></div>
+<div class="c"><h3>Basic Proportionality Theorem (Thales)</h3>
+<div class="two"><div>
+<p>If DE || BC in ΔABC, then</p>
+<p class="fx">[[AD||DB]] = [[AE||EC]]</p>
+<p>Also [[AD||AB]] = [[AE||AC]] = [[DE||BC]].</p>
+<p><b>Converse:</b> if a line divides two sides in the same ratio, it is parallel to the third side.</p>
+</div><div class="fig">
+<svg width="140" height="105" viewBox="0 0 140 110"><polygon points="70,10 10,100 130,100" fill="#eaf3ee" stroke="#1f6f54" stroke-width="1.3"/><line x1="40" y1="55" x2="100" y2="55" stroke="#b3261e" stroke-width="1.3"/><text x="67" y="7">A</text><text x="2" y="108">B</text><text x="131" y="108">C</text><text x="30" y="54">D</text><text x="103" y="54">E</text></svg>
+</div></div>
+<p>The proof of BPT (using areas of triangles on the same base) is a frequently asked 5-mark question.</p></div>
+<div class="c"><h3>Results that follow from similarity</h3>
+<ul>
+<li>Ratio of corresponding sides = ratio of perimeters = ratio of corresponding altitudes = ratio of corresponding medians.</li>
+<li><span class="x">EXTRA</span> Ratio of areas = (ratio of corresponding sides)².</li>
+<li>In a right triangle with altitude to the hypotenuse, all three triangles formed are similar.</li>
+<li>Shadow problems: object and shadow form similar triangles → [[height₁||shadow₁]] = [[height₂||shadow₂]].</li>
+</ul></div>
+
+<div class="c pf"><h3>Basic Proportionality Theorem</h3>
+<p><b>Given:</b> ΔABC with DE || BC, D on AB, E on AC. <b>To prove:</b> [[AD||DB]] = [[AE||EC]].</p>
+<p><b>Construction:</b> join BE and CD. Draw EN ⟂ AB and DM ⟂ AC.</p>
+<ol>
+<li>ar(ADE) = ½ × AD × EN and ar(BDE) = ½ × DB × EN, so [[ar(ADE)||ar(BDE)]] = [[AD||DB]].</li>
+<li>ar(ADE) = ½ × AE × DM and ar(DEC) = ½ × EC × DM, so [[ar(ADE)||ar(DEC)]] = [[AE||EC]].</li>
+<li>ΔBDE and ΔDEC are on the same base DE and between the same parallels DE and BC, so ar(BDE) = ar(DEC).</li>
+<li>From 1, 2 and 3: [[AD||DB]] = [[AE||EC]].</li>
+</ol></div>
+
+<div class="c ex"><h3>Using BPT and similarity</h3>
+<p><b>BPT:</b> DE || BC, AD = 1.5 cm, DB = 3 cm, AE = 1 cm. Then [[1.5||3]] = [[1||EC]] ⇒ EC = 2 cm.</p>
+<p><b>Converse:</b> if [[AD||DB]] = [[AE||EC]], state "by the converse of BPT, DE || BC".</p>
+<p><b>Shadow:</b> a 6 m pole casts a 4 m shadow when a tower casts a 28 m shadow.</p>
+<p class="fx">[[h||28]] = [[6||4]] ⇒ h = 42 m</p>
+<p><b>Lamp post:</b> a girl 90 cm tall walks from a 3.6 m lamp post at 1.2 m/s. After 4 s she is 4.8 m away; let her shadow be x.</p>
+<p class="fx">[[x||4.8 + x]] = [[0.9||3.6]] ⇒ 4x = 4.8 + x ⇒ x = 1.6 m</p></div>
+
+<div class="c"><h3>How to spot similar triangles</h3>
+<ul>
+<li>A <b>common angle</b> shared by both triangles.</li>
+<li><b>Vertically opposite angles</b> where two lines cross.</li>
+<li><b>Parallel lines</b> → alternate or corresponding angles equal.</li>
+<li>Two <b>right angles</b>, plus one more equal angle.</li>
+</ul>
+<p>Two equal angles are enough (AA). Then write the similarity in the correct order and pick the ratio you need.</p>
+<p><b>Trapezium ABCD (AB || DC), diagonals meet at O:</b> ΔAOB ~ ΔCOD by AA, so [[AO||OC]] = [[BO||OD]].</p>
+<p><span class="x">EXTRA</span> <b>Angle bisector theorem:</b> if AD bisects ∠A, then [[BD||DC]] = [[AB||AC]].</p></div>
+
+<div class="c pf"><h3>Pythagoras theorem by similarity</h3>
+<p><b>Given:</b> ΔABC right-angled at B. <b>To prove:</b> AC² = AB² + BC². <b>Construction:</b> BD ⟂ AC.</p>
+<ol>
+<li>ΔADB ~ ΔABC (∠A common, right angles) ⇒ [[AD||AB]] = [[AB||AC]] ⇒ AB² = AD × AC.</li>
+<li>ΔBDC ~ ΔABC (∠C common, right angles) ⇒ BC² = CD × AC.</li>
+<li>Add: AB² + BC² = AC(AD + CD) = AC².</li>
+</ol>
+<p>The proof is outside the current syllabus <span class="x">EXTRA</span>, but the theorem is used everywhere. Related results: in an equilateral triangle of side a and height h, 4h² = 3a². In a rhombus, 4 × side² = d₁² + d₂².</p></div>
+
+</div>
+
+<h2 class="s">7 · Coordinate Geometry <small>6 marks</small></h2>
+<div class="cols">
+<div class="c"><h3>Formulas</h3>
+<p class="fx">Distance AB = √((x₂ − x₁)² + (y₂ − y₁)²)</p>
+<p>Distance of (x, y) from the origin = √(x² + y²).</p>
+<p class="fx">Section formula (m : n, internal):<br>P = ( [[mx₂ + nx₁||m + n]] , [[my₂ + ny₁||m + n]] )</p>
+<p class="fx">Mid-point = ( [[x₁ + x₂||2]] , [[y₁ + y₂||2]] )</p>
+<p><span class="x">EXTRA</span> Centroid = ( [[x₁+x₂+x₃||3]] , [[y₁+y₂+y₃||3]] ). &nbsp;Area of triangle = ½ | x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂) |.</p></div>
+<div class="c"><h3>How to use them</h3>
+<ul>
+<li>Point on the x-axis is (x, 0); on the y-axis is (0, y).</li>
+<li><b>Finding a ratio:</b> assume k : 1, apply the section formula, solve for k.</li>
+<li><b>Collinear points:</b> AB + BC = AC (largest distance = sum of the other two).</li>
+<li><b>Equidistant point:</b> set PA² = PB² (squaring removes the roots).</li>
+<li>Signs by quadrant: I (+,+) · II (−,+) · III (−,−) · IV (+,−).</li>
+</ul>
+<table>
+<tr><th>To prove</th><th>Show</th></tr>
+<tr><td>Parallelogram</td><td>mid-points of both diagonals coincide</td></tr>
+<tr><td>Rectangle</td><td>opposite sides equal + diagonals equal</td></tr>
+<tr><td>Rhombus</td><td>all four sides equal</td></tr>
+<tr><td>Square</td><td>all four sides equal + diagonals equal</td></tr>
+<tr><td>Right triangle</td><td>largest side² = sum of the other two squares</td></tr>
+</table></div>
+
+<div class="c ex"><h3>Distance formula</h3>
+<p><b>Distance between (2, 3) and (4, 1):</b> √(2² + (−2)²) = √8 = 2√2.</p>
+<p><b>Point on the x-axis equidistant from (2, −5) and (−2, 9):</b> let it be (x, 0).</p>
+<p class="fx">(x − 2)² + 25 = (x + 2)² + 81<br>−4x + 29 = 4x + 85 ⇒ x = −7 ⇒ (−7, 0)</p>
+<p><b>Type of triangle (5, −2), (6, 4), (7, −2):</b> AB = √37, BC = √37, AC = 2. Two sides equal ⇒ isosceles.</p>
+<p>Distance of (x, y) from the x-axis is |y|; from the y-axis is |x|.</p></div>
+
+<div class="c ex"><h3>Section formula</h3>
+<p><b>Point dividing (4, −3) and (8, 5) in the ratio 3 : 1:</b></p>
+<p class="fx">( [[3 × 8 + 1 × 4||4]] , [[3 × 5 + 1 × (−3)||4]] ) = (7, 3)</p>
+<p><b>Ratio in which the y-axis divides (5, −6) and (−1, −4):</b> let it be k : 1. The x-coordinate is 0.</p>
+<p class="fx">[[−k + 5||k + 1]] = 0 ⇒ k = 5 ⇒ ratio 5 : 1<br>y = [[−20 − 6||6]] = −[[13||3]] ⇒ point (0, −[[13||3]])</p>
+<p><b>Trisection of (4, −1) and (−2, −3):</b> use ratios 1 : 2 and 2 : 1 → (2, −[[5||3]]) and (0, −[[7||3]]).</p></div>
+
+<div class="c ex"><h3>Parallelogram and circle</h3>
+<p><b>(1, 2), (4, y), (x, 6), (3, 5) are vertices of a parallelogram in order.</b> Diagonals bisect each other, so mid-points are equal.</p>
+<p class="fx">[[1 + x||2]] = [[4 + 3||2]] ⇒ x = 6 &nbsp;&nbsp; [[2 + 6||2]] = [[y + 5||2]] ⇒ y = 3</p>
+<p><b>Shortcut for the fourth vertex:</b> D = A + C − B (coordinate-wise).</p>
+<p><b>Circle:</b> the centre is the mid-point of a diameter; radius = distance from the centre to any point on the circle. If one end of a diameter is (2, 3) and the centre is (−2, 5), the other end is (2 × (−2) − 2, 2 × 5 − 3) = (−6, 7).</p></div>
+
+<div class="c"><h3>Shortcuts</h3>
+<ul>
+<li>x-axis divides the join of (x₁, y₁) and (x₂, y₂) in the ratio −y₁ : y₂.</li>
+<li>y-axis divides it in the ratio −x₁ : x₂.</li>
+<li>A negative ratio means the point divides the segment externally.</li>
+<li>Median from A goes to the mid-point of BC. The centroid divides each median 2 : 1 from the vertex.</li>
+<li>Work with squared distances for as long as possible to avoid square roots.</li>
+<li><span class="x">EXTRA</span> Three points are collinear if the triangle area formula gives 0.</li>
+</ul></div>
+
+</div>
+
+<h2 class="t">8 · Introduction to Trigonometry <small>Unit: Trigonometry · 12 marks with chapter 9</small></h2>
+<div class="cols">
+<div class="c"><h3>The six ratios</h3>
+<div class="two"><div class="fig">
+<svg width="150" height="100" viewBox="0 0 150 105"><polygon points="12,88 122,88 122,18" fill="#f1ebf8" stroke="#6a3d9a" stroke-width="1.3"/><rect x="113" y="79" width="9" height="9" fill="none" stroke="#6a3d9a" stroke-width="1"/><text x="30" y="85">θ</text><text x="48" y="99">Base (B)</text><text x="125" y="50">Perp.</text><text x="125" y="59">(P)</text><text x="28" y="44">Hypotenuse (H)</text></svg>
+</div><div>
+<p class="fx">sin θ = [[P||H]] &nbsp; cos θ = [[B||H]] &nbsp; tan θ = [[P||B]]</p>
+<p class="fx">cosec θ = [[H||P]] &nbsp; sec θ = [[H||B]] &nbsp; cot θ = [[B||P]]</p>
+</div></div>
+<p>P = side <i>opposite</i> θ, B = side <i>adjacent</i> to θ.</p>
+<p class="fx">cosec θ = [[1||sin θ]] &nbsp; sec θ = [[1||cos θ]] &nbsp; cot θ = [[1||tan θ]]<br>tan θ = [[sin θ||cos θ]]</p>
+<p class="tip">Given one ratio, draw a right triangle, fill two sides, get the third by Pythagoras, then read off all other ratios.</p></div>
+
+<div class="c"><h3>Standard values</h3>
+<table class="ctr m">
+<tr><th>θ</th><th>0°</th><th>30°</th><th>45°</th><th>60°</th><th>90°</th></tr>
+<tr><td>sin</td><td>0</td><td>[[1||2]]</td><td>[[1||√2]]</td><td>[[√3||2]]</td><td>1</td></tr>
+<tr><td>cos</td><td>1</td><td>[[√3||2]]</td><td>[[1||√2]]</td><td>[[1||2]]</td><td>0</td></tr>
+<tr><td>tan</td><td>0</td><td>[[1||√3]]</td><td>1</td><td>√3</td><td>n.d.</td></tr>
+<tr><td>cosec</td><td>n.d.</td><td>2</td><td>√2</td><td>[[2||√3]]</td><td>1</td></tr>
+<tr><td>sec</td><td>1</td><td>[[2||√3]]</td><td>√2</td><td>2</td><td>n.d.</td></tr>
+<tr><td>cot</td><td>n.d.</td><td>√3</td><td>1</td><td>[[1||√3]]</td><td>0</td></tr>
+</table>
+<p>n.d. = not defined. <b>Memory trick for sin:</b> √(0/4), √(1/4), √(2/4), √(3/4), √(4/4). cos is the same row reversed.</p>
+<p>sin θ and cos θ always lie between 0 and 1 for acute θ; sec θ and cosec θ are always ≥ 1.</p></div>
+
+<div class="c"><h3>Identities</h3>
+<p class="fx">sin²θ + cos²θ = 1<br>1 + tan²θ = sec²θ<br>1 + cot²θ = cosec²θ</p>
+<p>Rearranged: sec²θ − tan²θ = 1 ⇒ (sec θ − tan θ)(sec θ + tan θ) = 1. Same for cosec and cot.</p>
+<p><span class="x">EXTRA</span> <b>Complementary angles:</b> sin(90° − θ) = cos θ · tan(90° − θ) = cot θ · sec(90° − θ) = cosec θ.</p>
+<p class="warn">sin²θ means (sin θ)². sin(A + B) ≠ sin A + sin B.</p></div>
+
+<div class="c"><h3>How to prove an identity</h3>
+<ul>
+<li>Start from the more complicated side (usually LHS).</li>
+<li>Convert everything to sin and cos if you are stuck.</li>
+<li>Take LCM when adding fractions.</li>
+<li>Multiply by the conjugate when you see (1 ± sin θ) or (sec θ ± tan θ) in a denominator.</li>
+<li>Replace 1 by sin²θ + cos²θ (or sec²θ − tan²θ) when needed.</li>
+<li>Use a² − b², (a ± b)² and a³ ± b³ identities.</li>
+</ul></div>
+
+<div class="c ex"><h3>All ratios from one ratio</h3>
+<p><b>Given sin A = [[3||4]]:</b> P = 3, H = 4, so B = √(16 − 9) = √7.</p>
+<p class="fx">cos A = [[√7||4]] &nbsp;&nbsp; tan A = [[3||√7]] &nbsp;&nbsp; sec A = [[4||√7]]</p>
+<p><b>Given 15 cot A = 8:</b> cot A = [[8||15]], so B = 8, P = 15, H = 17.</p>
+<p class="fx">sin A = [[15||17]] &nbsp;&nbsp; sec A = [[17||8]]</p>
+<p>The ratios depend only on the angle, not on the size of the triangle.</p></div>
+
+<div class="c ex"><h3>Evaluating with standard values</h3>
+<p class="fx">sin 60° cos 30° + sin 30° cos 60° = [[3||4]] + [[1||4]] = 1</p>
+<p class="fx">2 tan² 45° + cos² 30° − sin² 60° = 2 + [[3||4]] − [[3||4]] = 2</p>
+<p class="fx">[[5 cos² 60° + 4 sec² 30° − tan² 45°||sin² 30° + cos² 30°]] = [[5||4]] + [[16||3]] − 1 = [[67||12]]</p>
+<p><b>Find A and B:</b> tan(A + B) = √3 and tan(A − B) = [[1||√3]] ⇒ A + B = 60°, A − B = 30° ⇒ A = 45°, B = 15°.</p></div>
+
+<div class="c ex"><h3>Identity proofs worked out</h3>
+<p><b>1.</b> [[1 + tan² A||1 + cot² A]] = [[sec² A||cosec² A]] = [[sin² A||cos² A]] = tan² A.</p>
+<p><b>2.</b> √([[1 + sin A||1 − sin A]]): multiply top and bottom inside the root by (1 + sin A).</p>
+<p class="fx">= √([[(1 + sin A)²||cos² A]]) = [[1 + sin A||cos A]] = sec A + tan A</p>
+<p><b>3.</b> [[sin θ − 2 sin³ θ||2 cos³ θ − cos θ]] = [[sin θ (1 − 2 sin² θ)||cos θ (2 cos² θ − 1)]] = tan θ, because 1 − 2 sin² θ = 2 cos² θ − 1.</p>
+<p><b>4.</b> (cosec θ − cot θ)² = [[(1 − cos θ)²||sin² θ]] = [[(1 − cos θ)²||(1 − cos θ)(1 + cos θ)]] = [[1 − cos θ||1 + cos θ]].</p></div>
+
+<div class="c"><h3>Handy derived results</h3>
+<p class="fx">(sin θ + cos θ)² = 1 + 2 sin θ cos θ<br>(sin θ − cos θ)² = 1 − 2 sin θ cos θ<br>tan θ + cot θ = [[1||sin θ cos θ]] = sec θ cosec θ<br>sin⁴ θ − cos⁴ θ = sin² θ − cos² θ<br>sec⁴ θ − tan⁴ θ = sec² θ + tan² θ</p>
+<p>If sec θ + tan θ = p, then sec θ − tan θ = [[1||p]]. Add the two to get sec θ; subtract to get tan θ.</p>
+<p><b>In terms of sin A:</b> cos A = √(1 − sin² A), tan A = [[sin A||√(1 − sin² A)]].</p>
+<ul>
+<li>As θ goes from 0° to 90°, sin θ rises from 0 to 1 and cos θ falls from 1 to 0. They are equal at 45°.</li>
+<li>"sin A" is one symbol, not sin × A. You cannot cancel the A in [[sin A||cos A]].</li>
+</ul></div>
+
+</div>
+
+<h2 class="t">9 · Some Applications of Trigonometry <small>Heights and Distances</small></h2>
+<div class="cols">
+<div class="c"><h3>Terms</h3>
+<div class="fig">
+<svg width="215" height="100" viewBox="0 0 215 100"><line x1="20" y1="50" x2="195" y2="50" stroke="#555" stroke-dasharray="3 3"/><line x1="20" y1="50" x2="180" y2="10" stroke="#6a3d9a" stroke-width="1.3"/><line x1="20" y1="50" x2="180" y2="92" stroke="#b3261e" stroke-width="1.3"/><circle cx="20" cy="50" r="2.6" fill="#1c2430"/><circle cx="180" cy="10" r="2.6" fill="#6a3d9a"/><circle cx="180" cy="92" r="2.6" fill="#b3261e"/><text x="4" y="44">Eye</text><text x="22" y="20">angle of elevation (looking up)</text><text x="22" y="88">angle of depression (looking down)</text><text x="150" y="47">horizontal</text></svg>
+</div>
+<ul>
+<li><b>Line of sight:</b> line from the eye to the object.</li>
+<li><b>Angle of elevation:</b> angle above the horizontal when looking up.</li>
+<li><b>Angle of depression:</b> angle below the horizontal when looking down.</li>
+<li>Angle of depression from A to B = angle of elevation from B to A (alternate angles).</li>
+</ul></div>
+<div class="c"><h3>Method</h3>
+<ul>
+<li>Draw a neat labelled figure — it carries marks.</li>
+<li>Mark the right angle, the known side and the unknown side.</li>
+<li>Almost always use <b>tan θ = [[height||horizontal distance]]</b>.</li>
+<li>Two angles → two right triangles → two equations; eliminate the common unknown.</li>
+<li>Add the observer's height at the end if the eye is above the ground.</li>
+</ul>
+<table class="ctr">
+<tr><th>Angle</th><th>height : distance</th><th>Triangle sides</th></tr>
+<tr><td>30°</td><td>h = d / √3</td><td rowspan="2">30-60-90 → 1 : √3 : 2</td></tr>
+<tr><td>60°</td><td>h = d√3</td></tr>
+<tr><td>45°</td><td>h = d</td><td>45-45-90 → 1 : 1 : √2</td></tr>
+</table>
+<p>Use √3 = 1.732 only if the question asks; otherwise leave the answer with √3 and rationalise.</p></div>
+
+<div class="c ex"><h3>One triangle, and two angles on the same side</h3>
+<p><b>(a)</b> From a point 30 m from the foot of a tower, the angle of elevation of the top is 30°.</p>
+<p class="fx">tan 30° = [[h||30]] ⇒ h = [[30||√3]] = 10√3 ≈ 17.32 m</p>
+<p><b>(b)</b> The elevation of the top of a tower is 30°. After walking 20 m towards it, the elevation is 60°. Let the remaining distance be x.</p>
+<p class="fx">h = x√3 &nbsp; and &nbsp; h = [[x + 20||√3]]<br>3x = x + 20 ⇒ x = 10 ⇒ h = 10√3 ≈ 17.32 m</p></div>
+
+<div class="c ex"><h3>Elevation and depression together</h3>
+<p><b>(a)</b> From the top of a 7 m building, the elevation of the top of a tower is 60° and the depression of its foot is 45°.</p>
+<p class="fx">Depression 45° ⇒ horizontal distance = 7 m<br>Extra height = 7 tan 60° = 7√3<br>Tower = 7(√3 + 1) ≈ 19.12 m</p>
+<p><b>(b)</b> A 1.6 m statue stands on a pedestal. From a point on the ground the elevation of the top of the statue is 60° and of the top of the pedestal is 45°.</p>
+<p class="fx">h = d &nbsp; and &nbsp; h + 1.6 = d√3<br>h = [[1.6||√3 − 1]] = 0.8(√3 + 1) ≈ 2.19 m</p></div>
+
+<div class="c"><h3>Common set-ups</h3>
+<ul>
+<li><b>Shadow and sun's altitude:</b> shadow = [[height||tan θ]]. If the shadow is 40 m longer at 30° than at 60°, then h√3 − [[h||√3]] = 40 ⇒ h = 20√3 m.</li>
+<li><b>Objects on opposite sides</b> of a tower: add the two horizontal distances. On the same side: subtract.</li>
+<li><b>Kite or ladder:</b> the string or ladder is the hypotenuse — use sin θ = [[height||length]].</li>
+<li><b>River width, two poles of equal height:</b> two right triangles sharing the total width.</li>
+<li><b>Moving car, boat, plane or balloon:</b> distance moved = difference of the two horizontal distances; speed = [[distance||time]].</li>
+<li><b>Observer has height:</b> work with (object height − eye height), add the eye height back at the end.</li>
+</ul>
+<p>Rationalise: [[1||√3 − 1]] = [[√3 + 1||2]]. &nbsp;[[1||√3]] = [[√3||3]].</p></div>
+
+</div>
+
+<h2 class="g">10 · Circles</h2>
+<div class="cols">
+<div class="c"><h3>Tangent basics</h3>
+<ul>
+<li><b>Tangent:</b> touches the circle at exactly one point. <b>Secant:</b> cuts it at two points.</li>
+<li>Tangents from a point: inside the circle 0 · on the circle 1 · outside the circle 2.</li>
+</ul>
+<p><b>Theorem 1:</b> the tangent at any point is <b>perpendicular to the radius</b> through the point of contact.</p>
+<p><b>Theorem 2:</b> the lengths of the two tangents drawn from an external point are <b>equal</b> (PA = PB).</p>
+<p>Both proofs are asked in boards. Theorem 2 uses RHS congruence of ΔOAP and ΔOBP.</p></div>
+<div class="c"><h3>Results used in problems</h3>
+<div class="two"><div class="fig">
+<svg width="140" height="95" viewBox="0 0 150 100"><circle cx="50" cy="50" r="30" fill="#eaf3ee" stroke="#1f6f54" stroke-width="1.3"/><line x1="130" y1="50" x2="61.25" y2="22.19" stroke="#b3261e" stroke-width="1.3"/><line x1="130" y1="50" x2="61.25" y2="77.81" stroke="#b3261e" stroke-width="1.3"/><line x1="50" y1="50" x2="61.25" y2="22.19" stroke="#1f6f54"/><line x1="50" y1="50" x2="61.25" y2="77.81" stroke="#1f6f54"/><line x1="50" y1="50" x2="130" y2="50" stroke="#555" stroke-dasharray="3 3"/><text x="40" y="53">O</text><text x="133" y="53">P</text><text x="58" y="18">A</text><text x="58" y="90">B</text></svg>
+</div><div>
+<p class="fx">PA = PB = √(OP² − r²)</p>
+<p class="fx">∠APB + ∠AOB = 180°</p>
+</div></div>
+<ul>
+<li>OP bisects ∠APB and ∠AOB; OP is the perpendicular bisector of chord AB.</li>
+<li>Quadrilateral ABCD circumscribing a circle: AB + CD = AD + BC.</li>
+<li>Tangents at the two ends of a diameter are parallel.</li>
+<li>A parallelogram circumscribing a circle is a rhombus.</li>
+<li>In-radius of a right triangle with legs a, b and hypotenuse c: r = [[a + b − c||2]].</li>
+</ul></div>
+
+<div class="c pf"><h3>Tangent is perpendicular to the radius</h3>
+<p><b>Given:</b> circle with centre O, tangent XY at P. <b>To prove:</b> OP ⟂ XY.</p>
+<ol>
+<li>Take any point Q on XY other than P and join OQ.</li>
+<li>Q must lie outside the circle; otherwise XY would cut the circle at two points and be a secant.</li>
+<li>So OQ &gt; radius, i.e. OQ &gt; OP, for every such Q.</li>
+<li>OP is therefore the shortest distance from O to the line XY.</li>
+<li>The shortest distance from a point to a line is the perpendicular. Hence OP ⟂ XY.</li>
+</ol></div>
+
+<div class="c pf"><h3>Tangents from an external point are equal</h3>
+<p><b>Given:</b> tangents PA and PB from external point P to a circle with centre O. <b>To prove:</b> PA = PB.</p>
+<p><b>Construction:</b> join OA, OB, OP.</p>
+<ol>
+<li>∠OAP = ∠OBP = 90° (tangent ⟂ radius).</li>
+<li>OA = OB (radii).</li>
+<li>OP = OP (common hypotenuse).</li>
+<li>ΔOAP ≅ ΔOBP (RHS).</li>
+<li>PA = PB (CPCT). Also ∠APO = ∠BPO, so OP bisects ∠APB.</li>
+</ol></div>
+
+<div class="c ex"><h3>Standard problems</h3>
+<ul>
+<li><b>Tangent length:</b> a point is 5 cm from the centre and the tangent is 4 cm long ⇒ r = √(25 − 16) = 3 cm.</li>
+<li><b>Concentric circles</b> of radii 5 cm and 3 cm: a chord of the larger circle touching the smaller has length 2√(25 − 9) = 8 cm. The point of contact bisects the chord.</li>
+<li><b>Angle between tangents is 80°:</b> ∠AOB = 100°, so ∠POA = 50°.</li>
+<li><b>Tangents PT, PQ and chord TQ:</b> ∠TPQ = 2∠OTQ.</li>
+</ul>
+<p><b>Triangle around a circle:</b> ΔABC circumscribes a circle of radius 4 cm; the circle touches BC at D with BD = 8 cm, DC = 6 cm. Let the tangent length from A be x.</p>
+<p class="fx">AB = x + 8, AC = x + 6, BC = 14, s = x + 14<br>√((x + 14) × x × 8 × 6) = 4(x + 14)<br>3x = x + 14 ⇒ x = 7 ⇒ AB = 15 cm, AC = 13 cm</p></div>
+
+<div class="c"><h3>More results</h3>
+<ul>
+<li>Area of a triangle = r × s, where r is the in-radius and s the semi-perimeter.</li>
+<li>If the tangent lengths from the three vertices are x, y, z, the sides are x + y, y + z, z + x and s = x + y + z.</li>
+<li>Opposite sides of a quadrilateral circumscribing a circle subtend supplementary angles at the centre.</li>
+<li>The perpendicular at the point of contact to the tangent passes through the centre.</li>
+<li>There is exactly one tangent at any point on a circle.</li>
+<li><span class="x">EXTRA</span> <b>Alternate segment theorem:</b> the angle between a tangent and a chord equals the angle in the alternate segment.</li>
+</ul>
+<p class="tip">Whenever you see a tangent, join the centre to the point of contact and mark 90°. Most problems then reduce to Pythagoras or angle sum.</p></div>
+
+</div>
+
+<h2 class="m">11 · Areas Related to Circles <small>Unit: Mensuration · 10 marks with chapter 12</small></h2>
+<div class="cols">
+<div class="c"><h3>Sector and segment</h3>
+<div class="two"><div class="fig">
+<svg width="105" height="100" viewBox="0 0 100 100"><circle cx="50" cy="50" r="35" fill="#fff" stroke="#a23b58" stroke-width="1.3"/><path d="M50,50 L76.81,27.5 A35,35 0 0 1 76.81,72.5 Z" fill="#f6dfe6" stroke="#a23b58"/><path d="M76.81,27.5 A35,35 0 0 1 76.81,72.5 Z" fill="#e3a3b6" stroke="#a23b58"/><text x="57" y="53">θ</text><text x="40" y="53">O</text><text x="2" y="96">sector = both shades</text><text x="2" y="10">segment = dark part</text></svg>
+</div><div>
+<p class="fx">Arc length = [[θ||360]] × 2πr</p>
+<p class="fx">Sector area = [[θ||360]] × πr²</p>
+</div></div>
+<p class="fx">Segment area = sector area − triangle area</p>
+<p>Triangle area: for θ = 90° it is ½r²; for θ = 60° it is [[√3||4]]r² (equilateral); for θ = 120° it is [[√3||4]]r². In general ½ r² sin θ.</p>
+<p>Major sector or segment = πr² − minor one. Sector area also = ½ × arc length × r.</p></div>
+<div class="c"><h3>Other formulas</h3>
+<ul>
+<li>Circumference 2πr = πd. Area πr².</li>
+<li>Perimeter of a sector = 2r + arc length.</li>
+<li>Semicircle: area ½πr², perimeter πr + 2r. Quadrant: area ¼πr².</li>
+<li>Ring (between two concentric circles) = π(R² − r²).</li>
+<li>Distance covered by a wheel in one revolution = its circumference. Revolutions = [[distance||2πr]].</li>
+<li><b>Clock:</b> minute hand sweeps 6° per minute; hour hand 30° per hour (0.5° per minute).</li>
+</ul>
+<p class="tip">Use π = 22/7 unless the question says 3.14. If r is a multiple of 7, 22/7 cancels neatly.</p></div>
+
+<div class="c ex"><h3>Sector and segment</h3>
+<p><b>Sector, r = 4 cm, θ = 30° (π = 3.14):</b></p>
+<p class="fx">Area = [[30||360]] × 3.14 × 16 ≈ 4.19 cm²<br>Major sector = 50.24 − 4.19 ≈ 46.05 cm²</p>
+<p><b>Chord subtends 90°, r = 10 cm:</b></p>
+<p class="fx">Minor sector = ¼ × 3.14 × 100 = 78.5 cm²<br>Triangle = ½ × 10 × 10 = 50 cm²<br>Minor segment = 28.5 cm² &nbsp; Major sector = 235.5 cm²</p>
+<p><b>Segment, r = 21 cm, θ = 120°:</b></p>
+<p class="fx">Sector = [[1||3]] × [[22||7]] × 441 = 462 cm²<br>Triangle = [[√3||4]] × 441 cm²<br>Segment = 462 − [[441√3||4]] = [[21||4]] (88 − 21√3) cm²</p></div>
+
+<div class="c ex"><h3>Clock, wheel, arc</h3>
+<p><b>Clock:</b> minute hand 14 cm; area swept in 5 minutes. Angle = 5 × 6° = 30°.</p>
+<p class="fx">[[30||360]] × [[22||7]] × 196 = [[154||3]] ≈ 51.33 cm²</p>
+<p><b>Wheel:</b> diameter 80 cm, car speed 66 km/h. Revolutions in 10 minutes?</p>
+<p class="fx">Distance = 11 km = 1 100 000 cm<br>Circumference = [[22||7]] × 80 cm<br>Revolutions = 1 100 000 × [[7||1760]] = 4375</p>
+<p><b>Arc:</b> r = 21 cm, θ = 60° ⇒ arc = [[60||360]] × 2 × [[22||7]] × 21 = 22 cm.</p></div>
+
+<div class="c"><h3>Triangle inside the sector</h3>
+<table class="ctr">
+<tr><th>θ</th><th>Triangle area</th><th>Chord length</th></tr>
+<tr><td>60°</td><td>[[√3||4]] r² (equilateral)</td><td>r</td></tr>
+<tr><td>90°</td><td>½ r²</td><td>r√2</td></tr>
+<tr><td>120°</td><td>[[√3||4]] r²</td><td>r√3</td></tr>
+</table>
+<p>For 120°: drop a perpendicular from the centre to the chord. It bisects the angle (60° each), so height = r cos 60° = [[r||2]] and half-chord = r sin 60° = [[√3||2]] r.</p></div>
+
+<div class="c"><h3>Shaded-region strategies</h3>
+<ul>
+<li>Shaded area = area of the outer figure − area of the unshaded parts.</li>
+<li><b>Circle inside a square:</b> diameter = side. <b>Square inside a circle:</b> diagonal = diameter.</li>
+<li><b>Four quadrants at the corners of a square</b> = one full circle.</li>
+<li><b>Sectors at the three vertices of an equilateral triangle</b> (60° each) = half a circle in total.</li>
+<li><b>Animal tied at a corner</b> of a square or rectangular field grazes a quadrant; at a corner of a triangular field, a sector with that corner's angle.</li>
+<li><b>Umbrella with 8 ribs, brooch, table design:</b> equal sectors of [[360°||n]] each.</li>
+<li><b>Wiper blades:</b> each sweeps a sector; add if they do not overlap.</li>
+<li><b>Track with semicircular ends:</b> two straight parts + one full circle.</li>
+</ul></div>
+
+</div>
+
+<h2 class="m">12 · Surface Areas and Volumes</h2>
+<div class="cols">
+<div class="c"><h3>Combination of solids</h3>
+<p><b>Volume</b> of a combined solid = sum of the individual volumes.</p>
+<p><b>Surface area</b> = sum of only the <b>visible</b> surfaces — never add full TSAs, because the joined faces disappear.</p>
+<table>
+<tr><th>Shape</th><th>Surface area</th></tr>
+<tr><td>Cone on hemisphere (toy, top)</td><td>πrl + 2πr²</td></tr>
+<tr><td>Cylinder + cone (tent)</td><td>2πrh + πrl</td></tr>
+<tr><td>Cylinder + 2 hemispheres (capsule)</td><td>2πrh + 4πr²</td></tr>
+<tr><td>Hemisphere scooped from a cube</td><td>6a² − πr² + 2πr²</td></tr>
+<tr><td>Cylinder with cone hollowed out</td><td>2πrh + πr² + πrl</td></tr>
+</table>
+<p>Formulas for the individual solids are in the Part A table.</p></div>
+<div class="c"><h3>Conversion and flow problems</h3>
+<ul>
+<li><b>Melting and recasting:</b> volume stays the same. Number of small objects = [[volume of big solid||volume of one small solid]].</li>
+<li><b>Water flowing through a pipe:</b> volume in time t = area of cross-section × speed × t.</li>
+<li><b>Solid dropped in water:</b> volume of water displaced (or rise × base area) = volume of the solid.</li>
+<li>Keep all lengths in the same unit before calculating. Diameter given? Halve it first.</li>
+</ul>
+<p><span class="x">EXTRA</span> <b>Frustum of a cone:</b> V = ⅓πh(R² + r² + Rr), CSA = π(R + r)l, l = √(h² + (R − r)²).</p></div>
+
+<div class="c ex"><h3>Surface area of combined solids</h3>
+<p><b>Toy:</b> a cone on a hemisphere, radius 3.5 cm, total height 15.5 cm.</p>
+<p class="fx">Cone height = 15.5 − 3.5 = 12 cm<br>l = √(3.5² + 12²) = 12.5 cm<br>TSA = πrl + 2πr² = πr(l + 2r)<br>= [[22||7]] × 3.5 × 19.5 = 214.5 cm²</p>
+<p><b>Capsule:</b> cylinder with two hemispherical ends, total length 14 mm, diameter 5 mm.</p>
+<p class="fx">Cylinder length = 14 − 5 = 9 mm<br>Area = 2πrh + 4πr² = 2πr(h + 2r)<br>= 2 × [[22||7]] × 2.5 × 14 = 220 mm²</p></div>
+
+<div class="c ex"><h3>Recasting and flow</h3>
+<p><b>Melting:</b> a metal sphere of radius 4.2 cm is recast into a cylinder of radius 6 cm.</p>
+<p class="fx">[[4||3]] π (4.2)³ = π × 6² × h<br>h = [[4 × 74.088||3 × 36]] = 2.744 cm</p>
+<p><b>Canal:</b> 6 m wide, 1.5 m deep, water flowing at 10 km/h. Area irrigated in 30 minutes if 8 cm of standing water is needed?</p>
+<p class="fx">Length of water in 30 min = 5000 m<br>Volume = 6 × 1.5 × 5000 = 45 000 m³<br>Area = [[45 000||0.08]] = 562 500 m² = 56.25 hectares</p>
+<p><b>Counting:</b> a sphere of radius 3 cm makes [[3³||1³]] = 27 balls of radius 1 cm.</p></div>
+
+<div class="c"><h3>More formulas and facts</h3>
+<ul>
+<li><b>Hollow cylinder (pipe):</b> volume = π(R² − r²)h; curved surface (inner + outer) = 2π(R + r)h.</li>
+<li>Cone : hemisphere : cylinder with the same radius and height = 1 : 2 : 3 in volume.</li>
+<li>A cone has one-third the volume of a cylinder with the same base and height.</li>
+<li><b>Scaling:</b> if every length is multiplied by k, surface area × k², volume × k³. Doubling the radius of a sphere gives 4 times the area and 8 times the volume.</li>
+<li><b>Largest sphere in a cube</b> of edge a: diameter = a. <b>Largest cone in a cube:</b> r = [[a||2]], h = a.</li>
+<li><b>Cube inside a sphere:</b> a√3 = 2r.</li>
+</ul></div>
+
+<div class="c"><h3>Other standard situations</h3>
+<ul>
+<li><b>Well and embankment:</b> earth dug out πr²h = volume of the ring π(R² − r²)H spread around it.</li>
+<li><b>Wall and bricks:</b> number of bricks = [[volume of wall||volume of one brick]] (subtract mortar if given).</li>
+<li><b>Rain on a roof:</b> roof area × rainfall depth = volume collected in the tank.</li>
+<li><b>Ice-cream cone:</b> cone + hemisphere; number of cones = [[volume of container||volume of one filled cone]].</li>
+<li><b>Vessel = hemisphere + cylinder:</b> inner surface = 2πr² + 2πrh.</li>
+<li><b>Wooden article with scoops:</b> the scooped surface is still exposed — add the curved area of each scoop, subtract the flat circles removed.</li>
+<li><b>Cost questions:</b> cost = rate × area (painting, canvas) or rate × volume (milk, digging).</li>
+</ul></div>
+
+</div>
+
+<h2 class="s">13 · Statistics <small>Unit: Statistics and Probability · 11 marks</small></h2>
+<div class="cols">
+<div class="c"><h3>Mean of grouped data</h3>
+<p>Class mark x<sub>i</sub> = [[upper limit + lower limit||2]]; f<sub>i</sub> = frequency.</p>
+<p class="fx">Direct: &nbsp;x̄ = [[Σ f<sub>i</sub>x<sub>i</sub>||Σ f<sub>i</sub>]]</p>
+<p class="fx">Assumed mean: &nbsp;x̄ = a + [[Σ f<sub>i</sub>d<sub>i</sub>||Σ f<sub>i</sub>]], &nbsp; d<sub>i</sub> = x<sub>i</sub> − a</p>
+<p class="fx">Step deviation: &nbsp;x̄ = a + ( [[Σ f<sub>i</sub>u<sub>i</sub>||Σ f<sub>i</sub>]] ) × h, &nbsp; u<sub>i</sub> = [[x<sub>i</sub> − a||h]]</p>
+<p>a = assumed mean (pick a middle class mark), h = class size. All three methods give the same answer.</p></div>
+<div class="c"><h3>Mode of grouped data</h3>
+<p class="fx">Mode = l + ( [[f₁ − f₀||2f₁ − f₀ − f₂]] ) × h</p>
+<p>Modal class = class with the highest frequency. l = its lower limit, f₁ = its frequency, f₀ = frequency of the class before, f₂ = frequency of the class after, h = class size.</p></div>
+<div class="c"><h3>Median of grouped data</h3>
+<p class="fx">Median = l + ( [[n/2 − cf||f]] ) × h</p>
+<ul>
+<li>n = Σf. Make a cumulative frequency (cf) column.</li>
+<li>Median class = first class whose cumulative frequency is ≥ [[n||2]].</li>
+<li>l = lower limit of the median class, f = its frequency, <b>cf = cumulative frequency of the class <i>before</i> it</b>.</li>
+</ul>
+<p class="fx">Empirical relation: 3 Median = Mode + 2 Mean</p>
+<p class="warn">If classes are 10–19, 20–29 … (gaps), first make them continuous: 9.5–19.5, 19.5–29.5 … Needed for median and mode.</p>
+<p>"Less than" / "more than" type tables: convert to ordinary class intervals before using the formulas.</p></div>
+
+<div class="c ex"><h3>Mean, median and mode from one table</h3>
+<table class="ctr">
+<tr><th>Class</th><th>f</th><th>x</th><th>f·x</th><th>u</th><th>f·u</th><th>cf</th></tr>
+<tr><td>0–10</td><td>5</td><td>5</td><td>25</td><td>−2</td><td>−10</td><td>5</td></tr>
+<tr><td>10–20</td><td>8</td><td>15</td><td>120</td><td>−1</td><td>−8</td><td>13</td></tr>
+<tr><td><b>20–30</b></td><td><b>15</b></td><td>25</td><td>375</td><td>0</td><td>0</td><td>28</td></tr>
+<tr><td>30–40</td><td>10</td><td>35</td><td>350</td><td>1</td><td>10</td><td>38</td></tr>
+<tr><td>40–50</td><td>2</td><td>45</td><td>90</td><td>2</td><td>4</td><td>40</td></tr>
+<tr><th>Total</th><th>40</th><th></th><th>960</th><th></th><th>−4</th><th></th></tr>
+</table>
+<p class="fx">Mean (direct) = [[960||40]] = 24<br>Mean (step deviation, a = 25, h = 10) = 25 + ([[−4||40]]) × 10 = 24</p>
+<p><b>Median:</b> [[n||2]] = 20. First cf ≥ 20 is 28 ⇒ median class 20–30; l = 20, cf = 13, f = 15.</p>
+<p class="fx">Median = 20 + ([[20 − 13||15]]) × 10 ≈ 24.67</p>
+<p><b>Mode:</b> modal class 20–30; f₁ = 15, f₀ = 8, f₂ = 10.</p>
+<p class="fx">Mode = 20 + ([[15 − 8||30 − 8 − 10]]) × 10 ≈ 25.83</p>
+<p>Check: 3 × 24.67 − 2 × 24 ≈ 26, close to the mode. The empirical relation is approximate.</p></div>
+
+<div class="c"><h3>Missing-frequency questions</h3>
+<ol>
+<li>Call the unknown frequencies x and y.</li>
+<li>Equation 1: all frequencies add up to the given total n.</li>
+<li>Equation 2: put the given mean (or median, or mode) into its formula.</li>
+<li>Solve the two equations together.</li>
+</ol>
+<p>For a given median, the median class is the class that contains the median value — use that to find l, f and cf in terms of x.</p>
+<p><b>"Less than" table:</b> "less than 10 → 5, less than 20 → 13, less than 30 → 28" means classes 0–10, 10–20, 20–30 with frequencies 5, 8, 15 (subtract successive values).</p></div>
+
+<div class="c"><h3>Which average to use</h3>
+<table>
+<tr><th>Measure</th><th>Best when</th><th>Weakness</th></tr>
+<tr><td>Mean</td><td>every value should count (average marks)</td><td>pulled by extreme values</td></tr>
+<tr><td>Median</td><td>typical / middle value (income, height)</td><td>ignores the actual size of other values</td></tr>
+<tr><td>Mode</td><td>most popular item (shoe size, most-chosen option)</td><td>may not be unique</td></tr>
+</table>
+<ul>
+<li>Class size h = upper limit − lower limit. Class mark = mid-value.</li>
+<li>The mode formula needs equal class sizes; the mean and median formulas do not.</li>
+<li>Mean of grouped data assumes every value in a class sits at the class mark, so it is an estimate.</li>
+</ul>
+<p><span class="x">EXTRA</span> <b>Ogive:</b> plot (upper limit, cf) for a "less than" ogive. The x-value at height [[n||2]] is the median. Less-than and more-than ogives cross at the median.</p></div>
+
+</div>
+
+<h2 class="s">14 · Probability</h2>
+<div class="cols">
+<div class="c"><h3>Rules</h3>
+<p class="fx">P(E) = [[number of favourable outcomes||total number of equally likely outcomes]]</p>
+<ul>
+<li>0 ≤ P(E) ≤ 1. Impossible event: 0. Sure event: 1.</li>
+<li>P(E) + P(not E) = 1.</li>
+<li>Sum of probabilities of all elementary events = 1.</li>
+<li>"At least one" = 1 − P(none).</li>
+</ul>
+<p class="warn">A probability can never be negative or greater than 1. Always reduce the fraction.</p></div>
+<div class="c"><h3>Sample spaces to remember</h3>
+<ul>
+<li><b>Coins:</b> 1 coin → 2 outcomes; 2 coins → 4 (HH, HT, TH, TT); 3 coins → 8.</li>
+<li><b>One die:</b> 6 outcomes. Primes: 2, 3, 5.</li>
+<li><b>Two dice:</b> 36 outcomes. Doublets: 6.</li>
+</ul>
+<table class="ctr">
+<tr><th>Sum</th><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td></tr>
+<tr><th>Ways</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td></tr>
+</table>
+<ul>
+<li><b>Cards (52):</b> 4 suits × 13. Red 26 (hearts, diamonds), black 26 (spades, clubs). Face cards 12 (J, Q, K × 4). Aces 4 — an ace is not a face card.</li>
+<li><b>53 Sundays:</b> leap year [[2||7]], ordinary year [[1||7]].</li>
+<li>Numbers 1 to n: count carefully (multiples of 3 up to 50 → 16).</li>
+</ul></div>
+
+<div class="c"><h3>Vocabulary</h3>
+<ul>
+<li><b>Experiment / trial:</b> an action with an uncertain result. <b>Outcome:</b> one possible result. <b>Sample space:</b> the set of all outcomes.</li>
+<li><b>Event:</b> a collection of outcomes. <b>Elementary event:</b> exactly one outcome.</li>
+<li><b>Equally likely:</b> each outcome has the same chance. "Fair", "unbiased", "at random" and "well-shuffled" all signal this.</li>
+<li><b>Complementary event (not E):</b> everything in the sample space outside E.</li>
+<li>"A <b>or</b> B": count outcomes in either, each only once. "A <b>and</b> B": count outcomes in both.</li>
+<li>Theoretical probability (this chapter) is calculated; experimental probability (Class 9) comes from actual trials.</li>
+</ul></div>
+
+<div class="c ex"><h3>Dice and coins</h3>
+<p><b>Two dice (36 outcomes):</b></p>
+<ul>
+<li>P(sum 8) = [[5||36]] &nbsp;·&nbsp; P(doublet) = [[6||36]] = [[1||6]]</li>
+<li>P(sum ≥ 10) = [[3 + 2 + 1||36]] = [[1||6]]</li>
+<li>P(product 6): (1,6), (6,1), (2,3), (3,2) ⇒ [[4||36]] = [[1||9]]</li>
+<li>P(sum is prime): sums 2, 3, 5, 7, 11 ⇒ [[1 + 2 + 4 + 6 + 2||36]] = [[5||12]]</li>
+</ul>
+<p><b>Coins:</b> two coins, at least one head = [[3||4]]. Three coins: exactly two heads = [[3||8]]; at most two heads = 1 − P(three heads) = [[7||8]].</p></div>
+
+<div class="c ex"><h3>Cards and numbers</h3>
+<p><b>One card from 52:</b></p>
+<ul>
+<li>P(red king) = [[2||52]] = [[1||26]] &nbsp;·&nbsp; P(face card) = [[12||52]] = [[3||13]]</li>
+<li>P(spade or ace) = [[13 + 3||52]] = [[4||13]] (the ace of spades counted once)</li>
+<li>P(neither king nor queen) = [[52 − 8||52]] = [[11||13]]</li>
+<li>If cards are removed first, reduce the total: all kings removed ⇒ 48 cards.</li>
+</ul>
+<p><b>Card numbered 1 to 20:</b> primes are 2, 3, 5, 7, 11, 13, 17, 19 ⇒ P(prime) = [[8||20]] = [[2||5]].</p>
+<p><b>Counting hints:</b> two-digit numbers: 90 (10 to 99). Perfect squares from 1 to 100: 10. Numbers from a to b inclusive: b − a + 1.</p></div>
+
+<div class="c ex"><h3>Finding an unknown</h3>
+<p><b>Bag with 5 red and x blue balls; P(blue) = 2 × P(red):</b></p>
+<p class="fx">[[x||5 + x]] = 2 × [[5||5 + x]] ⇒ x = 10</p>
+<p><b>A box has 12 balls, x of them black. After adding 6 black balls the probability of black doubles:</b></p>
+<p class="fx">[[x + 6||18]] = 2 × [[x||12]] ⇒ 12x + 72 = 36x ⇒ x = 3</p>
+<p><b>Leap year with 53 Sundays:</b> 366 days = 52 weeks + 2 extra days. The 7 possible pairs are (Sun, Mon), (Mon, Tue) … (Sat, Sun); 2 contain a Sunday ⇒ [[2||7]].</p>
+<p><b>Area type:</b> P(point lands in a region) = [[area of the region||total area]].</p>
+<p><b>Defective items:</b> P(good) = 1 − P(defective). Once an item is removed and not replaced, both the count and the total drop by 1.</p></div>
+
+</div>
+
+<!-- ======================= PART C ======================= -->
+<h2 class="part">Part C — Exam plan</h2>
+<div class="cols">
+<div class="c"><h3>Paper pattern (80 marks, 3 hours)</h3>
+<table>
+<tr><th>Section</th><th>Questions</th><th>Marks</th></tr>
+<tr><td>A</td><td>18 MCQ + 2 assertion–reason, 1 mark each</td><td>20</td></tr>
+<tr><td>B</td><td>5 very short answer, 2 marks each</td><td>10</td></tr>
+<tr><td>C</td><td>6 short answer, 3 marks each</td><td>18</td></tr>
+<tr><td>D</td><td>4 long answer, 5 marks each</td><td>20</td></tr>
+<tr><td>E</td><td>3 case-study questions, 4 marks each</td><td>12</td></tr>
+</table>
+<p>Plus 20 marks internal assessment. Confirm the current year's sample paper on cbseacademic.nic.in, since CBSE revises the pattern from time to time.</p></div>
+<div class="c"><h3>Unit weightage</h3>
+<table>
+<tr><th>Unit</th><th>Chapters</th><th>Marks</th></tr>
+<tr><td>Number Systems</td><td>1</td><td>6</td></tr>
+<tr><td>Algebra</td><td>2, 3, 4, 5</td><td>20</td></tr>
+<tr><td>Coordinate Geometry</td><td>7</td><td>6</td></tr>
+<tr><td>Geometry</td><td>6, 10</td><td>15</td></tr>
+<tr><td>Trigonometry</td><td>8, 9</td><td>12</td></tr>
+<tr><td>Mensuration</td><td>11, 12</td><td>10</td></tr>
+<tr><td>Statistics and Probability</td><td>13, 14</td><td>11</td></tr>
+</table></div>
+<div class="c"><h3>Proofs to practise in full</h3>
+<ul>
+<li>√2, √3, √5 are irrational.</li>
+<li>Basic Proportionality Theorem.</li>
+<li>Tangent is perpendicular to the radius at the point of contact.</li>
+<li>Tangents from an external point are equal.</li>
+<li>Trigonometric identity proofs (NCERT Exercise 8.3 style).</li>
+</ul></div>
+<div class="c"><h3>Mistakes that cost marks</h3>
+<ul>
+<li>Sign errors in −b and in b² − 4ac when c is negative.</li>
+<li>Using diameter where radius is needed.</li>
+<li>Taking cf of the median class itself instead of the class before it.</li>
+<li>Adding total surface areas in combined solids.</li>
+<li>Wrong order of vertices in similar triangles.</li>
+<li>Forgetting units (cm², cm³) and the final statement in word problems.</li>
+<li>Not writing the formula first — the formula step earns a mark.</li>
+<li>Skipping the figure in geometry and height-and-distance questions.</li>
+</ul></div>
+<div class="c"><h3>How to prepare</h3>
+<ul>
+<li>NCERT first: every example and exercise. Most board questions are NCERT or close variants.</li>
+<li>Then NCERT Exemplar for the harder MCQ and case-study types.</li>
+<li>Solve the last 5 years' board papers and the latest CBSE sample paper with a timer.</li>
+<li>Keep one formula notebook; revise it every week and the night before the exam.</li>
+<li>In the exam: read the paper for 15 minutes, do the sections you are sure about first, keep 10 minutes to recheck calculations.</li>
+</ul></div>
+
+<div class="c"><h3>Time plan for the 3 hours</h3>
+<table>
+<tr><th>Stage</th><th>Minutes</th><th>Note</th></tr>
+<tr><td>Reading time</td><td>15 (given)</td><td>tick the questions you are sure of; choose between internal options</td></tr>
+<tr><td>Section A (20 marks)</td><td>30</td><td>about 1.5 minutes each; do rough work, never guess blindly</td></tr>
+<tr><td>Section B (10 marks)</td><td>20</td><td>2–3 steps each</td></tr>
+<tr><td>Section C (18 marks)</td><td>40</td><td>formula → substitution → answer with unit</td></tr>
+<tr><td>Section D (20 marks)</td><td>50</td><td>figure, given, to prove, full steps</td></tr>
+<tr><td>Section E (12 marks)</td><td>25</td><td>read the case once fully, then answer the parts</td></tr>
+<tr><td>Checking</td><td>15</td><td>signs, units, question numbers, anything left blank</td></tr>
+</table></div>
+
+<div class="c"><h3>Assertion–Reason questions</h3>
+<p>Decide separately whether the Assertion (A) and the Reason (R) are true. Then:</p>
+<table>
+<tr><th>Option</th><th>Meaning</th></tr>
+<tr><td>(a)</td><td>A and R both true, and R correctly explains A</td></tr>
+<tr><td>(b)</td><td>A and R both true, but R does not explain A</td></tr>
+<tr><td>(c)</td><td>A true, R false</td></tr>
+<tr><td>(d)</td><td>A false, R true</td></tr>
+</table>
+<p>Test for (a) versus (b): can you say "A is true <i>because</i> R"? If that sentence makes sense, choose (a).</p></div>
+
+<div class="c"><h3>Must-do question types, chapter by chapter</h3>
+<table>
+<tr><th>Ch</th><th>Practise until automatic</th></tr>
+<tr><td>1</td><td>HCF–LCM word problem; irrationality proof</td></tr>
+<tr><td>2</td><td>zeros + verify; build polynomial; expressions in α, β</td></tr>
+<tr><td>3</td><td>find k for each case; one word problem of each type; graph</td></tr>
+<tr><td>4</td><td>nature of roots; find k; speed and work problems</td></tr>
+<tr><td>5</td><td>find n; sum with last term; S<sub>n</sub> given; real-life AP</td></tr>
+<tr><td>6</td><td>BPT proof; proving triangles similar; shadow problems</td></tr>
+<tr><td>7</td><td>ratio by an axis; fourth vertex; equidistant point</td></tr>
+<tr><td>8</td><td>value-based evaluation; 6 to 8 identity proofs</td></tr>
+<tr><td>9</td><td>two-triangle problems of each set-up</td></tr>
+<tr><td>10</td><td>both proofs; circumscribed quadrilateral and triangle</td></tr>
+<tr><td>11</td><td>segment area for 60°, 90°, 120°; shaded regions</td></tr>
+<tr><td>12</td><td>one of each: combination, recasting, flow</td></tr>
+<tr><td>13</td><td>mean (all 3 methods), median, mode; missing frequency</td></tr>
+<tr><td>14</td><td>two dice; cards; find-x problems</td></tr>
+</table></div>
+
+<div class="c"><h3>Presentation that earns full marks</h3>
+<ul>
+<li>Write the question number clearly and leave a line between answers.</li>
+<li>Step marking: formula (1 mark), substitution, calculation, final answer with unit. A wrong final answer still earns step marks.</li>
+<li>Word problems: start with "Let … be x" and end with a sentence that answers the question asked.</li>
+<li>Proofs: Given, To prove, Construction, Proof, with a reason in brackets beside each step.</li>
+<li>Draw figures with pencil and ruler, label every point used in the solution.</li>
+<li>Box or underline the final answer. Keep rough work in a margin column, not on scattered scraps.</li>
+<li>Leave answers as fractions or surds unless told to use decimals; rationalise denominators.</li>
+</ul></div>
+
+<div class="c"><h3>Case-study questions (Section E)</h3>
+<ul>
+<li>Each has a real-life passage and usually three parts worth 1, 1 and 2 marks, with a choice in the 2-mark part.</li>
+<li>First decide which chapter it is: seats in rows → AP; tower and angles → heights and distances; grid positions → coordinate geometry; tent or toy → surface areas and volumes; frequency table → statistics.</li>
+<li>Pull out the numbers and write them as a, d, r, h, θ … before reading the sub-questions.</li>
+<li>The parts are usually independent, so a mistake in one need not spoil the others.</li>
+</ul></div>
+
+<div class="c"><h3>Last 30 days</h3>
+<ul>
+<li><b>Days 1–14:</b> one chapter a day — read this sheet's chapter, redo the NCERT examples, then 15 mixed questions.</li>
+<li><b>Days 15–24:</b> one full sample or past paper every day under exam timing; mark it against the official marking scheme.</li>
+<li><b>Days 25–28:</b> redo only the questions you got wrong; keep an error log by type (concept, calculation, misreading).</li>
+<li><b>Days 29–30:</b> formulas, proofs and the standard-values table only. Sleep properly.</li>
+</ul>
+<p><b>Standard or Basic:</b> CBSE offers two papers on the same syllabus. Standard (code 041) is the harder paper and the usual route to Mathematics in Class 11; Basic (code 241) is for students not continuing with maths. Check the current rule with the school before choosing.</p></div>
+
+</div>
+
+<p class="foot">CBSE Class 10 Mathematics · based on the NCERT rationalised syllabus · verify exam pattern against the current year's CBSE circular</p>
+
+<script>
+document.body.innerHTML = document.body.innerHTML.replace(/\[\[(.+?)\|\|(.+?)\]\]/g, '<span class="f"><span>$1</span><span>$2</span></span>');
+</script>
+</body>
+</html>
