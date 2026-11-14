@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Algebra Challenge Set</title>
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--ink:#1c1c1c;--muted:#666;--line:#ddd;--accent:#2d5bd7;--ok:#1d8a4a;--bad:#c83737;--okbg:#e8f6ee;--badbg:#fbeaea}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161616;--card:#202020;--ink:#eee;--muted:#aaa;--line:#3a3a3a;--accent:#7d9ff5;--ok:#5fcf8b;--bad:#f07c7c;--okbg:#1d3326;--badbg:#3a2020}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 -apple-system,system-ui,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line);padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+h1{font-size:18px;margin:0}
+#timer{font:600 22px ui-monospace,monospace;padding:4px 12px;border-radius:8px;border:1px solid var(--line)}
+#timer.low{color:var(--bad);border-color:var(--bad)}
+main{max-width:780px;margin:0 auto;padding:16px}
+.intro{color:var(--muted);font-size:15px}
+.q{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:14px 0}
+.q h3{margin:0 0 8px;font-size:15px;color:var(--muted)}
+.q p{margin:0 0 10px}
+label.opt{display:block;padding:6px 10px;border-radius:6px;cursor:pointer}
+label.opt:hover{background:var(--bg)}
+input[type=text]{font:inherit;padding:6px 10px;width:160px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)}
+button{font:inherit;padding:10px 20px;border:0;border-radius:8px;background:var(--accent);color:#fff;cursor:pointer}
+button:disabled{opacity:.5;cursor:default}
+.q.right{border-color:var(--ok);background:var(--okbg)}
+.q.wrong{border-color:var(--bad);background:var(--badbg)}
+.fb{margin-top:8px;font-size:15px}
+.fb b.ok{color:var(--ok)} .fb b.bad{color:var(--bad)}
+#result{font-size:20px;font-weight:600;margin:16px 0}
+.start{text-align:center;padding:30px 0}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<header>
+  <h1>Algebraic Expressions · Challenge</h1>
+  <div id="saved" style="font-size:14px;color:var(--muted)">Answers save as you go</div>
+</header>
+<main>
+  <p class="intro">10 harder questions · 1 mark each · no time limit. Your answers are saved as you go, even if you close or reload the page. Press <b>Submit</b> at the bottom when you're done.</p>
+  <form id="ws"></form>
+  <div id="result"></div>
+  <div style="text-align:center;margin:20px 0 60px"><button id="submitBtn">Submit</button></div>
+</main>
+<script>
+const Q=[
+{t:"Simplify: 3(2x − y) − 2(x − 3y) + 4(y − x)",o:["7y","8x + 7y","x + 7y","−8x + 7y"],a:0,e:"6x − 3y − 2x + 6y + 4y − 4x. The x terms cancel (6 − 2 − 4 = 0) and the y terms give −3 + 6 + 4 = 7, so the answer is 7y."},
+{t:"A = 2x² − 3x + 1, B = x² + x − 4, C = −3x² + 2x + 5. Find A − B + C.",o:["−2x² − 2x + 10","−2x² − 4x + 10","−2x² − 2x + 2","2x² − 2x + 10"],a:0,e:"A − B = x² − 4x + 5. Adding C gives (1 − 3)x² + (−4 + 2)x + (5 + 5) = −2x² − 2x + 10."},
+{t:"If p = −2 and q = 3, find p³ − 2p²q + pq².",n:-50,e:"(−2)³ = −8; 2 × 4 × 3 = 24; (−2) × 9 = −18. So −8 − 24 − 18 = −50."},
+{t:"What should be subtracted from 5a² − 3ab + 2b² to get 2a² + ab − b²?",o:["3a² − 4ab + 3b²","3a² − 2ab + b²","7a² − 2ab + b²","3a² + 4ab + 3b²"],a:0,e:"Subtract the result from the start: (5a² − 3ab + 2b²) − (2a² + ab − b²) = 3a² − 4ab + 3b²."},
+{t:"The sum of (x² + 2x − 3) and (2x² − x + 5) is subtracted from (4x² + x + 1). Find the value of the result when x = 3.",n:8,e:"Sum = 3x² + x + 2. Then (4x² + x + 1) − (3x² + x + 2) = x² − 1. At x = 3: 9 − 1 = 8."},
+{t:"In the pattern 5, 9, 13, 17, … which term is 81? (Hint: first find the nth term.)",n:20,e:"Each term goes up by 4, so the nth term is 4n + 1. 4n + 1 = 81 gives 4n = 80, so n = 20."},
+{t:"Pencils cost ₹x each and pens cost ₹(x + 5) each. Riya buys 6 pencils and 4 pens and pays with a ₹200 note. How much change does she get?",o:["₹(180 − 10x)","₹(200 − 10x)","₹(220 − 10x)","₹(180 − 6x)"],a:0,e:"Cost = 6x + 4(x + 5) = 10x + 20. Change = 200 − (10x + 20) = 180 − 10x."},
+{t:"Simplify: 2a − [3b − (a − 2b) + 4a]",o:["−a − 5b","−a + 5b","5a − 5b","−3a − b"],a:0,e:"Work from the inside out: 3b − a + 2b + 4a = 3a + 5b. Then 2a − (3a + 5b) = −a − 5b."},
+{t:"4xᵃy³ and −7x²yᵇ are like terms. Find a + b.",n:5,e:"Like terms have the same powers of each letter, so a = 2 and b = 3, which gives a + b = 5."},
+{t:"If x = −1, y = 2 and z = −3, find xy + yz + zx − xyz.",n:-11,e:"xy = −2, yz = −6, zx = 3, so the sum is −5. xyz = (−1)(2)(−3) = 6. So −5 − 6 = −11."}
+];
+const form=document.getElementById('ws');
+Q.forEach((q,i)=>{
+  const d=document.createElement('div');d.className='q';d.id='q'+i;
+  let h=`<h3>Q${i+1}</h3><p>${q.t}</p>`;
+  if(q.o) q.o.forEach((o,j)=>{h+=`<label class="opt"><input type="radio" name="a${i}" value="${j}"> (${'abcd'[j]}) ${o}</label>`});
+  else h+=`<input type="text" name="a${i}" inputmode="numeric" autocomplete="off" placeholder="Your answer">`;
+  h+=`<div class="fb"></div>`;d.innerHTML=h;form.appendChild(d);
+});
+let done=false;const KEY='alg7-challenge';
+function load(){try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){return {}}}
+function save(){const r={};Q.forEach((q,i)=>{const c=form.querySelector(`input[name=a${i}]:checked`),t=form.querySelector(`input[type=text][name=a${i}]`);if(c)r[i]=c.value;else if(t&&t.value.trim())r[i]=t.value.trim();});try{localStorage.setItem(KEY,JSON.stringify(r))}catch(e){}document.getElementById('saved').textContent=`Answered ${Object.keys(r).length} / ${Q.length}`;}
+(function(){const r=load();Object.entries(r).forEach(([i,v])=>{const q=Q[i];if(!q)return;if(q.o){const x=form.querySelector(`input[name=a${i}][value="${v}"]`);if(x)x.checked=true}else{const t=form.querySelector(`input[name=a${i}]`);if(t)t.value=v}});save();})();
+form.addEventListener('input',save);form.addEventListener('change',save);
+function num(s){s=(s||'').trim().replace(/[−–—]/g,'-').replace(/\s+/g,'');return s===''?NaN:Number(s)}
+function submit(){
+  if(done)return;done=true;
+  let score=0,blank=0;
+  Q.forEach((q,i)=>{
+    const box=document.getElementById('q'+i),fb=box.querySelector('.fb');let ok=false,ans,given;
+    if(q.o){const c=form.querySelector(`input[name=a${i}]:checked`);given=c?+c.value:null;ok=given===q.a;ans=`(${'abcd'[q.a]}) ${q.o[q.a]}`;}
+    else{const v=num(form.querySelector(`input[name=a${i}]`).value);given=isNaN(v)?null:v;ok=v===q.n;ans=String(q.n).replace('-','−');}
+    if(given===null)blank++;
+    if(ok)score++;
+    box.classList.add(ok?'right':'wrong');
+    fb.innerHTML=ok?`<b class="ok">✓ Correct.</b> ${q.e}`:`<b class="bad">✗ ${given===null?'Not answered.':'Wrong.'}</b> Answer: <b>${ans}</b>. ${q.e}`;
+  });
+  form.querySelectorAll('input').forEach(x=>x.disabled=true);
+  document.getElementById('submitBtn').disabled=true;
+  document.getElementById('result').innerHTML=`Score: ${score} / ${Q.length}${blank?` · Left blank: ${blank}`:''}`;
+  document.getElementById('result').scrollIntoView({behavior:'smooth'});
+}
+document.getElementById('submitBtn').onclick=()=>submit();
+</script>
+</body>
+</html>

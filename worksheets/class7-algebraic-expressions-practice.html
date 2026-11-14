@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Algebra Practice Worksheet</title>
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--ink:#1c1c1c;--muted:#666;--line:#ddd;--accent:#2d5bd7;--ok:#1d8a4a;--bad:#c83737;--okbg:#e8f6ee;--badbg:#fbeaea}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161616;--card:#202020;--ink:#eee;--muted:#aaa;--line:#3a3a3a;--accent:#7d9ff5;--ok:#5fcf8b;--bad:#f07c7c;--okbg:#1d3326;--badbg:#3a2020}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 -apple-system,system-ui,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line);padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+h1{font-size:18px;margin:0}
+#timer{font:600 22px ui-monospace,monospace;padding:4px 12px;border-radius:8px;border:1px solid var(--line)}
+#timer.low{color:var(--bad);border-color:var(--bad)}
+main{max-width:780px;margin:0 auto;padding:16px}
+.intro{color:var(--muted);font-size:15px}
+.q{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:14px 0}
+.q h3{margin:0 0 8px;font-size:15px;color:var(--muted)}
+.q p{margin:0 0 10px}
+label.opt{display:block;padding:6px 10px;border-radius:6px;cursor:pointer}
+label.opt:hover{background:var(--bg)}
+input[type=text]{font:inherit;padding:6px 10px;width:160px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)}
+button{font:inherit;padding:10px 20px;border:0;border-radius:8px;background:var(--accent);color:#fff;cursor:pointer}
+button:disabled{opacity:.5;cursor:default}
+.q.right{border-color:var(--ok);background:var(--okbg)}
+.q.wrong{border-color:var(--bad);background:var(--badbg)}
+.fb{margin-top:8px;font-size:15px}
+.fb b.ok{color:var(--ok)} .fb b.bad{color:var(--bad)}
+#result{font-size:20px;font-weight:600;margin:16px 0}
+.start{text-align:center;padding:30px 0}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<header>
+  <h1>Algebraic Expressions · Class 7</h1>
+  <div id="saved" style="font-size:14px;color:var(--muted)">Answers save as you go</div>
+</header>
+<main>
+  <p class="intro">20 questions · 1 mark each · no time limit. Your answers are saved as you go, even if you close or reload the page. Press <b>Submit</b> at the bottom when you're done.</p>
+  <form id="ws"></form>
+  <div id="result"></div>
+  <div style="text-align:center;margin:20px 0 60px"><button id="submitBtn">Submit</button></div>
+</main>
+<script>
+const Q=[
+{t:"How many terms are in 4x²y − 3xy + 7y − 2?",o:["2","3","4","5"],a:2,e:"Terms are 4x²y, −3xy, 7y and −2, so there are 4."},
+{t:"What is the coefficient of ab in 7 − 5ab + a?",o:["5","−5","1","7"],a:1,e:"The sign goes with the term: −5ab, so the coefficient is −5."},
+{t:"Which pair are like terms?",o:["3xy² and 3x²y","5pq and −2qp","4m and 4m²","7a and 7b"],a:1,e:"pq = qp, so 5pq and −2qp have the same letters and powers."},
+{t:"x² + 3x − 1 is a:",o:["Monomial","Binomial","Trinomial","None of these"],a:2,e:"Three terms make a trinomial."},
+{t:"Simplify: 9a − 4b − 3a + 6b",o:["6a + 2b","6a − 10b","12a + 2b","6a − 2b"],a:0,e:"9a − 3a = 6a and −4b + 6b = 2b."},
+{t:"Add (2x − 3y + 4) and (−5x + y − 1).",o:["−3x − 2y + 3","3x − 2y + 3","−3x + 4y + 5","−3x − 2y + 5"],a:0,e:"x: 2 − 5 = −3; y: −3 + 1 = −2; numbers: 4 − 1 = 3."},
+{t:"Subtract (4a − b) from (7a + 2b).",o:["3a + b","3a + 3b","11a + b","3a − 3b"],a:1,e:"(7a + 2b) − (4a − b) = 7a + 2b − 4a + b = 3a + 3b."},
+{t:"Find 3x² − 2x + 5 when x = −1.",o:["10","6","0","4"],a:0,e:"3(1) − 2(−1) + 5 = 3 + 2 + 5 = 10."},
+{t:"Find a² − 2ab + b² when a = 3 and b = 1.",n:4,e:"9 − 6 + 1 = 4."},
+{t:"Simplify 5(y − 2) − 2(y − 4), then find its value when y = 4.",n:10,e:"5y − 10 − 2y + 8 = 3y − 2. At y = 4: 12 − 2 = 10."},
+{t:"What must be added to 3x − 2 to get 5x + 4?",o:["2x + 6","2x + 2","8x + 2","2x − 6"],a:0,e:"(5x + 4) − (3x − 2) = 2x + 6."},
+{t:"A rectangle has length (2x + 3) and breadth (x − 1). Its perimeter is:",o:["6x + 4","3x + 2","6x + 2","4x + 4"],a:0,e:"2 × (2x + 3 + x − 1) = 2 × (3x + 2) = 6x + 4."},
+{t:"Squares are made in a row with matchsticks: 1 square uses 4, 2 squares use 7, 3 squares use 10. How many for n squares?",o:["4n","3n + 1","3n + 4","n + 3"],a:1,e:"Each new square adds 3 sticks to the first 1: 3n + 1."},
+{t:"Find 2xy − y² when x = 2 and y = −3.",n:-21,e:"2(2)(−3) − (−3)² = −12 − 9 = −21."},
+{t:"Ravi is x years old. His father's age is 4 more than three times Ravi's age. What will his father's age be in 5 years?",o:["3x + 9","3x + 4","3(x + 5) + 4","4x + 3"],a:0,e:"Father now: 3x + 4. In 5 years: 3x + 4 + 5 = 3x + 9."},
+{t:"−(2a − 3b + c) equals:",o:["−2a + 3b − c","−2a − 3b − c","2a − 3b + c","−2a + 3b + c"],a:0,e:"A minus outside a bracket flips every sign inside it."},
+{t:"Simplify (6x² − 2x + 1) − (2x² + 3x − 4), then find its value when x = 1.",n:4,e:"4x² − 5x + 5. At x = 1: 4 − 5 + 5 = 4."},
+{t:"Which of these is NOT a monomial?",o:["9a²b","−12","2x + 1","xyz"],a:2,e:"2x + 1 has two terms, so it is a binomial."},
+{t:"Find z³ − 3z when z = −2.",n:-2,e:"(−2)³ − 3(−2) = −8 + 6 = −2."},
+{t:"Simplify: a − (b − (a − b))",o:["2a − 2b","0","2a","−2b"],a:0,e:"Inner bracket first: b − (a − b) = 2b − a. Then a − (2b − a) = 2a − 2b."}
+];
+const form=document.getElementById('ws');
+Q.forEach((q,i)=>{
+  const d=document.createElement('div');d.className='q';d.id='q'+i;
+  let h=`<h3>Q${i+1}</h3><p>${q.t}</p>`;
+  if(q.o) q.o.forEach((o,j)=>{h+=`<label class="opt"><input type="radio" name="a${i}" value="${j}"> (${'abcd'[j]}) ${o}</label>`});
+  else h+=`<input type="text" name="a${i}" inputmode="numeric" autocomplete="off" placeholder="Your answer">`;
+  h+=`<div class="fb"></div>`;d.innerHTML=h;form.appendChild(d);
+});
+let done=false;const KEY='alg7-answers';
+function load(){try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){return {}}}
+function save(){const r={};Q.forEach((q,i)=>{const c=form.querySelector(`input[name=a${i}]:checked`),t=form.querySelector(`input[type=text][name=a${i}]`);if(c)r[i]=c.value;else if(t&&t.value.trim())r[i]=t.value.trim();});try{localStorage.setItem(KEY,JSON.stringify(r))}catch(e){}document.getElementById('saved').textContent=`Answered ${Object.keys(r).length} / ${Q.length}`;}
+(function(){const r=load();Object.entries(r).forEach(([i,v])=>{const q=Q[i];if(!q)return;if(q.o){const x=form.querySelector(`input[name=a${i}][value="${v}"]`);if(x)x.checked=true}else{const t=form.querySelector(`input[name=a${i}]`);if(t)t.value=v}});save();})();
+form.addEventListener('input',save);form.addEventListener('change',save);
+function num(s){s=(s||'').trim().replace(/[−–—]/g,'-').replace(/\s+/g,'');return s===''?NaN:Number(s)}
+function submit(){
+  if(done)return;done=true;
+  let score=0,blank=0;
+  Q.forEach((q,i)=>{
+    const box=document.getElementById('q'+i),fb=box.querySelector('.fb');let ok=false,ans,given;
+    if(q.o){const c=form.querySelector(`input[name=a${i}]:checked`);given=c?+c.value:null;ok=given===q.a;ans=`(${'abcd'[q.a]}) ${q.o[q.a]}`;}
+    else{const v=num(form.querySelector(`input[name=a${i}]`).value);given=isNaN(v)?null:v;ok=v===q.n;ans=String(q.n).replace('-','−');}
+    if(given===null)blank++;
+    if(ok)score++;
+    box.classList.add(ok?'right':'wrong');
+    fb.innerHTML=ok?`<b class="ok">✓ Correct.</b> ${q.e}`:`<b class="bad">✗ ${given===null?'Not answered.':'Wrong.'}</b> Answer: <b>${ans}</b>. ${q.e}`;
+  });
+  form.querySelectorAll('input').forEach(x=>x.disabled=true);
+  document.getElementById('submitBtn').disabled=true;
+  document.getElementById('result').innerHTML=`Score: ${score} / ${Q.length}${blank?` · Left blank: ${blank}`:''}`;
+  document.getElementById('result').scrollIntoView({behavior:'smooth'});
+}
+document.getElementById('submitBtn').onclick=()=>submit();
+</script>
+</body>
+</html>

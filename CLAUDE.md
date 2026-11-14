@@ -38,3 +38,9 @@ Intuition first — **concrete example → the idea → the general rule** — t
 rule. Keep it short and plain, with lots of worked examples and `> [!TIP]` / `> [!NOTE]`
 callouts, matching the existing style. Verify any numbers or factor lists before writing
 them into the notes.
+
+## Studying a chapter together
+
+When asked to teach a chapter, follow **`HowWeStudy.md`**: teach the chapter in chat → a
+self-marking 20-question worksheet (no timer, answers saved) opened in Claude's browser pane →
+a 10-question challenge set → log the scores there. Reusable worksheets are in `worksheets/`.
