@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Niku Comparing Numbers</title>
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--ink:#1c1c1c;--muted:#666;--line:#ddd;--accent:#2d5bd7;--ok:#1d8a4a;--bad:#c83737;--okbg:#e8f6ee;--badbg:#fbeaea}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161616;--card:#202020;--ink:#eee;--muted:#aaa;--line:#3a3a3a;--accent:#7d9ff5;--ok:#5fcf8b;--bad:#f07c7c;--okbg:#1d3326;--badbg:#3a2020}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:21px/1.55 -apple-system,system-ui,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line);padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+h1{font-size:18px;margin:0}
+#timer{font:600 22px ui-monospace,monospace;padding:4px 12px;border-radius:8px;border:1px solid var(--line)}
+#timer.low{color:var(--bad);border-color:var(--bad)}
+main{max-width:780px;margin:0 auto;padding:16px}
+.intro{color:var(--muted);font-size:15px}
+.q{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:14px 0}
+.q h3{margin:0 0 8px;font-size:15px;color:var(--muted)}
+.q p{margin:0 0 10px}
+label.opt{display:block;padding:6px 10px;border-radius:6px;cursor:pointer}
+label.opt:hover{background:var(--bg)}
+input[type=text]{font:inherit;padding:6px 10px;width:120px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)}
+button{font:inherit;padding:10px 20px;border:0;border-radius:8px;background:var(--accent);color:#fff;cursor:pointer}
+button:disabled{opacity:.5;cursor:default}
+.q.right{border-color:var(--ok);background:var(--okbg)}
+.q.wrong{border-color:var(--bad);background:var(--badbg)}
+.fb{margin-top:8px;font-size:15px}
+.fb b.ok{color:var(--ok)} .fb b.bad{color:var(--bad)}
+#result{font-size:20px;font-weight:600;margin:16px 0}
+.start{text-align:center;padding:30px 0}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<header>
+  <h1>Which Number Is Bigger? ⭐</h1>
+  <div id="saved" style="font-size:14px;color:var(--muted)">Answers save as you go</div>
+</header>
+<main>
+  <p class="intro">10 questions · no hurry! Pick one answer for each. <b>Tip:</b> fewer digits? That number is smaller. Same number of digits? Compare from the <b>left</b> — the first place that is different decides. When you finish all of them, press <b>Submit</b> at the bottom. 🙂</p>
+  <form id="ws"></form>
+  <div id="result"></div>
+  <div style="text-align:center;margin:20px 0 60px"><button id="submitBtn">Submit</button></div>
+</main>
+<script>
+const Q=[
+{t:"Which is <b>bigger</b>?",o:["3,456","3,465","They are equal"],a:1,e:"Thousands tie (3), hundreds tie (4). Tens: 6 is more than 5, so 3,465 is bigger."},
+{t:"Which is <b>bigger</b>?",o:["999","1,000","They are equal"],a:1,e:"999 has no thousands place at all — it is only 3 digits. 1,000 has 1 thousand. Even the biggest 3-digit number (999) is 1 less than 1,000."},
+{t:"Which is <b>smaller</b>?",o:["5,201","5,210","They are equal"],a:0,e:"Thousands tie (5), hundreds tie (2). Tens: 0 is less than 1, so 5,201 is smaller."},
+{t:"Which is <b>bigger</b>?",o:["987","1,002","They are equal"],a:1,e:"Don't be fooled by the 9s! 987 has 0 thousands; 1,002 has 1 thousand. 1 thousand beats 987 straight away."},
+{t:"Which is <b>smaller</b>?",o:["7,089","7,098","They are equal"],a:0,e:"Thousands tie (7), hundreds tie (0). Tens: 8 is less than 9, so 7,089 is smaller."},
+{t:"Which is <b>bigger</b>?",o:["99","909","They are equal"],a:1,e:"99 has only tens and ones (2 digits). 909 has 9 hundreds — and 1 hundred alone is more than 99."},
+{t:"Which is the <b>biggest</b>?",o:["4,999","5,001","4,990","5,010"],a:3,e:"Thousands first: 5,001 and 5,010 have 5 thousands, the others only 4. Between those two, hundreds tie (0), tens: 1 beats 0 → 5,010."},
+{t:"Which is the <b>smallest</b>?",o:["8,100","810","8,010","1,800"],a:1,e:"810 is the only 3-digit number — it has 0 thousands, while all the others have at least 1 thousand. So 810 is smallest."},
+{t:"Which is <b>bigger</b>?",o:["2,345","2,345","They are equal"],a:2,e:"Check every place: 2 = 2, 3 = 3, 4 = 4, 5 = 5. Every place matches, so they are equal."},
+{t:"Which is the <b>biggest</b>?",o:["6,070","6,700","6,007","760"],a:1,e:"760 has no thousands, so it's out. The rest have 6 thousands. Hundreds: 6,700 has 7 hundreds, the others have 0 → 6,700 is biggest."}
+];
+const form=document.getElementById('ws');
+Q.forEach((q,i)=>{
+  const d=document.createElement('div');d.className='q';d.id='q'+i;
+  let h=`<h3>Q${i+1}</h3><p>${q.t}</p>`;
+  if(q.o) q.o.forEach((o,j)=>{h+=`<label class="opt"><input type="radio" name="a${i}" value="${j}"> (${'abcd'[j]}) ${o}</label>`});
+  else h+=`<input type="text" name="a${i}" inputmode="numeric" autocomplete="off" placeholder="Your answer">`;
+  h+=`<div class="fb"></div>`;d.innerHTML=h;form.appendChild(d);
+});
+let done=false;const KEY='niku-class2-compare';
+function load(){try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){return {}}}
+function save(){const r={};Q.forEach((q,i)=>{const c=form.querySelector(`input[name=a${i}]:checked`),t=form.querySelector(`input[type=text][name=a${i}]`);if(c)r[i]=c.value;else if(t&&t.value.trim())r[i]=t.value.trim();});try{localStorage.setItem(KEY,JSON.stringify(r))}catch(e){}document.getElementById('saved').textContent=`Answered ${Object.keys(r).length} / ${Q.length}`;}
+(function(){const r=load();Object.entries(r).forEach(([i,v])=>{const q=Q[i];if(!q)return;if(q.o){const x=form.querySelector(`input[name=a${i}][value="${v}"]`);if(x)x.checked=true}else{const t=form.querySelector(`input[name=a${i}]`);if(t)t.value=v}});save();})();
+form.addEventListener('input',save);form.addEventListener('change',save);
+function num(s){s=(s||'').trim().replace(/[−–—]/g,'-').replace(/\s+/g,'');return s===''?NaN:Number(s)}
+function submit(){
+  if(done)return;done=true;
+  let score=0,blank=0;
+  Q.forEach((q,i)=>{
+    const box=document.getElementById('q'+i),fb=box.querySelector('.fb');let ok=false,ans,given;
+    if(q.o){const c=form.querySelector(`input[name=a${i}]:checked`);given=c?+c.value:null;ok=given===q.a;ans=`(${'abcd'[q.a]}) ${q.o[q.a]}`;}
+    else{const v=num(form.querySelector(`input[name=a${i}]`).value);given=isNaN(v)?null:v;ok=v===q.n;ans=String(q.n).replace('-','−');}
+    if(given===null)blank++;
+    if(ok)score++;
+    box.classList.add(ok?'right':'wrong');
+    fb.innerHTML=ok?`<b class="ok">✓ Correct.</b> ${q.e}`:`<b class="bad">✗ ${given===null?'Not answered.':'Wrong.'}</b> Answer: <b>${ans}</b>. ${q.e}`;
+  });
+  form.querySelectorAll('input').forEach(x=>x.disabled=true);
+  document.getElementById('submitBtn').disabled=true;
+  document.getElementById('result').innerHTML=`Score: ${score} / ${Q.length}${blank?` · Left blank: ${blank}`:''}`;
+  document.getElementById('result').scrollIntoView({behavior:'smooth'});
+}
+document.getElementById('submitBtn').onclick=()=>submit();
+</script>
+</body>
+</html>
