@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Niku Maths Practice</title>
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--ink:#1c1c1c;--muted:#666;--line:#ddd;--accent:#2d5bd7;--ok:#1d8a4a;--bad:#c83737;--okbg:#e8f6ee;--badbg:#fbeaea}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161616;--card:#202020;--ink:#eee;--muted:#aaa;--line:#3a3a3a;--accent:#7d9ff5;--ok:#5fcf8b;--bad:#f07c7c;--okbg:#1d3326;--badbg:#3a2020}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:21px/1.55 -apple-system,system-ui,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line);padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+h1{font-size:18px;margin:0}
+#timer{font:600 22px ui-monospace,monospace;padding:4px 12px;border-radius:8px;border:1px solid var(--line)}
+#timer.low{color:var(--bad);border-color:var(--bad)}
+main{max-width:780px;margin:0 auto;padding:16px}
+.intro{color:var(--muted);font-size:15px}
+.q{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:14px 0}
+.q h3{margin:0 0 8px;font-size:15px;color:var(--muted)}
+.q p{margin:0 0 10px}
+label.opt{display:block;padding:6px 10px;border-radius:6px;cursor:pointer}
+label.opt:hover{background:var(--bg)}
+input[type=text]{font:inherit;padding:6px 10px;width:120px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)}
+button{font:inherit;padding:10px 20px;border:0;border-radius:8px;background:var(--accent);color:#fff;cursor:pointer}
+button:disabled{opacity:.5;cursor:default}
+.q.right{border-color:var(--ok);background:var(--okbg)}
+.q.wrong{border-color:var(--bad);background:var(--badbg)}
+.fb{margin-top:8px;font-size:15px}
+.fb b.ok{color:var(--ok)} .fb b.bad{color:var(--bad)}
+#result{font-size:20px;font-weight:600;margin:16px 0}
+.start{text-align:center;padding:30px 0}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<header>
+  <h1>Niku’s Maths Practice · Class 2 ⭐</h1>
+  <div id="saved" style="font-size:14px;color:var(--muted)">Answers save as you go</div>
+</header>
+<main>
+  <p class="intro">10 questions · no hurry! Pick an answer or type a number. When you finish all of them, press <b>Submit</b> at the bottom. 🙂</p>
+  <form id="ws"></form>
+  <div id="result"></div>
+  <div style="text-align:center;margin:20px 0 60px"><button id="submitBtn">Submit</button></div>
+</main>
+<script>
+const Q=[
+{t:"What number comes just after 49?",o:["48","50","59","40"],a:1,e:"Counting up by 1: 48, 49, <b>50</b>. When the ones reach 9, one more makes a new ten."},
+{t:"In the number 63, how many <b>tens</b> are there?",o:["3","6","63","9"],a:1,e:"63 = 6 tens and 3 ones (60 + 3). The first digit tells the tens."},
+{t:"Which number is the <b>biggest</b>?",o:["38","83","58","80"],a:1,e:"Look at the tens first. 83 and 80 both have 8 tens — the most. Then the ones: 3 is more than 0, so 83 wins."},
+{t:"25 + 14 = ?",n:39,e:"Add ones: 5 + 4 = 9. Add tens: 2 + 1 = 3. So 3 tens and 9 ones = 39."},
+{t:"47 − 23 = ?",n:24,e:"Take away ones: 7 − 3 = 4. Take away tens: 4 − 2 = 2. So 24."},
+{t:"Riya has 18 marbles 🔵. Her friend gives her 7 more. How many marbles does she have now?",n:25,e:"Make a ten first: 18 + 2 = 20. 7 − 2 leaves 5 more, so 20 + 5 = 25."},
+{t:"Skip count by 5: &nbsp; 5, 10, 15, ___, 25. What is missing?",n:20,e:"Each step adds 5: 15 + 5 = 20, and 20 + 5 = 25 ✓."},
+{t:"How many corners does a triangle 🔺 have?",o:["2","3","4","5"],a:1,e:"A triangle has 3 sides and 3 corners. “Tri” means three — like a tricycle has 3 wheels."},
+{t:"There are 3 baskets. Each basket has 4 mangoes 🥭. How many mangoes in all?",o:["7","12","10","34"],a:1,e:"3 groups of 4: 4 + 4 + 4 = 12. (Not 3 + 4 — that would add baskets and mangoes together.)"},
+{t:"Niku has two ₹10 notes and one ₹5 coin. How much money is that?",o:["₹15","₹25","₹20","₹30"],a:1,e:"10 + 10 = 20, then 20 + 5 = ₹25."}
+];
+const form=document.getElementById('ws');
+Q.forEach((q,i)=>{
+  const d=document.createElement('div');d.className='q';d.id='q'+i;
+  let h=`<h3>Q${i+1}</h3><p>${q.t}</p>`;
+  if(q.o) q.o.forEach((o,j)=>{h+=`<label class="opt"><input type="radio" name="a${i}" value="${j}"> (${'abcd'[j]}) ${o}</label>`});
+  else h+=`<input type="text" name="a${i}" inputmode="numeric" autocomplete="off" placeholder="Your answer">`;
+  h+=`<div class="fb"></div>`;d.innerHTML=h;form.appendChild(d);
+});
+let done=false;const KEY='niku-class2-math-1';
+function load(){try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){return {}}}
+function save(){const r={};Q.forEach((q,i)=>{const c=form.querySelector(`input[name=a${i}]:checked`),t=form.querySelector(`input[type=text][name=a${i}]`);if(c)r[i]=c.value;else if(t&&t.value.trim())r[i]=t.value.trim();});try{localStorage.setItem(KEY,JSON.stringify(r))}catch(e){}document.getElementById('saved').textContent=`Answered ${Object.keys(r).length} / ${Q.length}`;}
+(function(){const r=load();Object.entries(r).forEach(([i,v])=>{const q=Q[i];if(!q)return;if(q.o){const x=form.querySelector(`input[name=a${i}][value="${v}"]`);if(x)x.checked=true}else{const t=form.querySelector(`input[name=a${i}]`);if(t)t.value=v}});save();})();
+form.addEventListener('input',save);form.addEventListener('change',save);
+function num(s){s=(s||'').trim().replace(/[−–—]/g,'-').replace(/\s+/g,'');return s===''?NaN:Number(s)}
+function submit(){
+  if(done)return;done=true;
+  let score=0,blank=0;
+  Q.forEach((q,i)=>{
+    const box=document.getElementById('q'+i),fb=box.querySelector('.fb');let ok=false,ans,given;
+    if(q.o){const c=form.querySelector(`input[name=a${i}]:checked`);given=c?+c.value:null;ok=given===q.a;ans=`(${'abcd'[q.a]}) ${q.o[q.a]}`;}
+    else{const v=num(form.querySelector(`input[name=a${i}]`).value);given=isNaN(v)?null:v;ok=v===q.n;ans=String(q.n).replace('-','−');}
+    if(given===null)blank++;
+    if(ok)score++;
+    box.classList.add(ok?'right':'wrong');
+    fb.innerHTML=ok?`<b class="ok">✓ Correct.</b> ${q.e}`:`<b class="bad">✗ ${given===null?'Not answered.':'Wrong.'}</b> Answer: <b>${ans}</b>. ${q.e}`;
+  });
+  form.querySelectorAll('input').forEach(x=>x.disabled=true);
+  document.getElementById('submitBtn').disabled=true;
+  document.getElementById('result').innerHTML=`Score: ${score} / ${Q.length}${blank?` · Left blank: ${blank}`:''}`;
+  document.getElementById('result').scrollIntoView({behavior:'smooth'});
+}
+document.getElementById('submitBtn').onclick=()=>submit();
+</script>
+</body>
+</html>
