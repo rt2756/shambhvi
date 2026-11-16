@@ -1,0 +1,53 @@
+{
+"title": "11. Compound Interest",
+"tests": [
+{"q": [
+{"t": "Find the compound interest on ₹1000 at 10% per year for 2 years, compounded yearly (in ₹).", "n": 210, "u": "₹", "k": "1000*F(11,10)**2-1000", "e": "Year 1: 10% of 1000 = 100 → 1100. Year 2: 10% of 1100 = 110 → 1210. Interest = 210. The second year earns interest on the first year’s interest too."},
+{"t": "Find the amount on ₹1000 at 10% per year for 2 years, compounded yearly (in ₹).", "n": 1210, "u": "₹", "k": "1000*F(11,10)**2", "e": "Each year multiplies the money by 1.1: 1000 × 1.1 × 1.1 = 1210."},
+{"t": "Which is the formula for the amount at compound interest (compounded yearly for n years)?", "o": ["P(1 + R/100)ⁿ", "P × R × n ÷ 100", "P + R + n", "P(1 + nR/100)"], "e": "Each year the money is multiplied by (1 + R/100). After n years that multiplication has happened n times."},
+{"t": "For the FIRST year, compound interest (compounded yearly) and simple interest on the same sum are:", "o": ["Equal", "CI is double", "SI is more", "CI is always more"], "e": "In year one there is no earlier interest to earn interest on, so both are just R% of the principal."},
+{"t": "Find the interest on ₹5000 at 10% per year for 1 year (in ₹).", "n": 500, "u": "₹", "k": "5000*F(10,100)", "e": "10% of 5000 = 500."},
+{"t": "Compound interest equals:", "o": ["Amount − principal", "Amount + principal", "Principal × rate", "Amount ÷ principal"], "e": "The interest is whatever the money has grown by."},
+{"t": "When interest is compounded half-yearly, we use:", "o": ["Half the rate and twice the number of periods", "Twice the rate and half the periods", "The same rate and periods", "Half the rate and half the periods"], "e": "Interest is added every 6 months: each addition is at half the yearly rate, and there are two additions per year."},
+{"t": "Find the amount on ₹2000 at 5% per year for 2 years, compounded yearly (in ₹).", "n": 2205, "u": "₹", "k": "2000*F(105,100)**2", "e": "2000 → 2100 → 2205 (5% of 2100 is 105)."},
+{"t": "Interest that is earned on earlier interest as well as on the principal is called:", "o": ["Compound interest", "Simple interest", "Discount", "Depreciation"], "e": "The interest is ‘compounded’ — added to the principal so that it earns interest too."},
+{"t": "₹100 is invested at 10% per year compounded yearly. Find the amount after 2 years (in ₹).", "n": 121, "u": "₹", "k": "100*F(11,10)**2", "e": "100 → 110 → 121."}
+]},
+{"q": [
+{"t": "Find the compound interest on ₹8000 at 5% per year for 2 years (in ₹).", "n": 820, "u": "₹", "k": "8000*F(105,100)**2-8000", "e": "8000 → 8400 → 8820. Interest = 820 (simple interest would be only 800)."},
+{"t": "Find the amount on ₹10,000 at 10% per year for 3 years, compounded yearly (in ₹).", "n": 13310, "u": "₹", "k": "10000*F(11,10)**3", "e": "10,000 → 11,000 → 12,100 → 13,310."},
+{"t": "Find the difference between the compound interest and the simple interest on ₹5000 at 10% per year for 2 years (in ₹).", "n": 50, "u": "₹", "k": "5000*F(11,10)**2-5000-1000", "e": "CI = 1050 and SI = 1000. The extra ₹50 is the interest on the first year’s ₹500 of interest."},
+{"t": "Find the compound interest on ₹4000 for 1 year at 10% per year, compounded half-yearly (in ₹).", "n": 410, "u": "₹", "k": "4000*F(105,100)**2-4000", "e": "Two half-years at 5% each: 4000 → 4200 → 4410. Interest = 410."},
+{"t": "A town of 20,000 people grows by 5% each year. Find the population after 2 years.", "n": 22050, "k": "20000*F(105,100)**2", "e": "Growth compounds just like interest: 20,000 → 21,000 → 22,050."},
+{"t": "A machine worth ₹50,000 loses 10% of its value every year. Find its value after 2 years (in ₹).", "n": 40500, "u": "₹", "k": "50000*F(9,10)**2", "e": "Each year it keeps 90%: 50,000 → 45,000 → 40,500. Depreciation multiplies by (1 − R/100)."},
+{"t": "Find the compound interest on ₹6250 at 8% per year for 2 years (in ₹).", "n": 1040, "u": "₹", "k": "6250*F(108,100)**2-6250", "e": "6250 → 6750 → 7290. Interest = 1040."},
+{"t": "Find the amount on ₹12,000 at 15% per year for 2 years, compounded yearly (in ₹).", "n": 15870, "u": "₹", "k": "12000*F(115,100)**2", "e": "12,000 → 13,800 → 15,870."},
+{"t": "What sum amounts to ₹1210 in 2 years at 10% per year compound interest (in ₹)?", "n": 1000, "u": "₹", "k": "1210/F(11,10)**2", "e": "P × 1.21 = 1210, so P = 1000."},
+{"t": "Find the compound interest on ₹16,000 for 1 year at 5% per year, compounded half-yearly (in ₹).", "n": 810, "u": "₹", "k": "16000*F(1025,1000)**2-16000", "e": "Two periods at 2.5%: 16,000 → 16,400 → 16,810. Interest = 810."}
+]},
+{"q": [
+{"t": "₹5000 becomes ₹6050 in 2 years at compound interest. Find the rate percent per year.", "n": 10, "u": "%", "k": "((F(6050,5000))**F(1,2)-1)*100", "e": "(1 + R/100)² = 6050/5000 = 1.21 = 1.1², so R = 10%."},
+{"t": "In how many years will ₹8000 amount to ₹9261 at 5% per year compound interest?", "n": 3, "u": "years", "k": "[n for n in range(1,9) if 8000*F(21,20)**n==9261][0]", "e": "9261/8000 = (21/20)³, so n = 3."},
+{"t": "The difference between the compound and simple interest on a sum for 2 years at 4% per year is ₹32. Find the sum (in ₹).", "n": 20000, "u": "₹", "k": "32/F(4,100)**2", "e": "For 2 years the difference is P × (R/100)² = P × 0.0016 = 32, so P = 20,000."},
+{"t": "₹10,000 is invested for 2 years at 10% for the first year and 20% for the second. Find the amount (in ₹).", "n": 13200, "u": "₹", "k": "10000*F(11,10)*F(12,10)", "e": "10,000 × 1.1 = 11,000, then × 1.2 = 13,200."},
+{"t": "Find the compound interest on ₹8000 for 1 1/2 years at 10% per year, compounded half-yearly (in ₹).", "n": 1261, "u": "₹", "k": "8000*F(21,20)**3-8000", "e": "Three half-years at 5%: 8000 → 8400 → 8820 → 9261. Interest = 1261."},
+{"t": "A town’s population is 9261 after growing by 5% a year for 3 years. What was it 3 years ago?", "n": 8000, "k": "9261/F(21,20)**3", "e": "P × (21/20)³ = 9261, so P = 9261 × 8000/9261 = 8000."},
+{"t": "A machine loses 20% of its value each year and is worth ₹64,000 after 2 years. Find its original value (in ₹).", "n": 100000, "u": "₹", "k": "64000/F(8,10)**2", "e": "P × 0.8 × 0.8 = 64,000, so P = 64,000 ÷ 0.64 = 1,00,000."},
+{"t": "Find the compound interest on ₹15,625 at 4% per year for 3 years (in ₹).", "n": 1951, "u": "₹", "k": "15625*F(26,25)**3-15625", "e": "15,625 × (26/25)³ = 17,576. Interest = 1951."},
+{"t": "A sum amounts to ₹4840 in 2 years and to ₹5324 in 3 years at compound interest. Find the rate percent per year.", "n": 10, "u": "%", "k": "F(5324-4840,4840)*100", "e": "The third year’s interest is 5324 − 4840 = 484, earned on 4840: 484/4840 = 10%."},
+{"t": "Bacteria in a culture increase by 10% every hour. There are 20,000 now. How many will there be after 2 hours?", "n": 24200, "k": "20000*F(11,10)**2", "e": "20,000 → 22,000 → 24,200."}
+]},
+{"q": [
+{"t": "The difference between the compound and simple interest on a sum for 3 years at 10% per year is ₹93. Find the sum (in ₹).", "n": 3000, "u": "₹", "k": "93/(F(11,10)**3-1-F(3,10))", "e": "CI = 0.331P and SI = 0.3P, so the difference is 0.031P = 93 and P = 3000."},
+{"t": "A sum amounts to ₹2420 in 2 years and ₹2662 in 3 years at compound interest. Find the sum (in ₹).", "n": 2000, "u": "₹", "k": "2420/F(2662,2420)**2", "e": "Rate = (2662 − 2420)/2420 = 10%. Then P × 1.21 = 2420, so P = 2000."},
+{"t": "At what rate percent per year does a sum become 27/8 times itself in 3 years at compound interest?", "n": 50, "u": "%", "k": "(F(3,2)-1)*100", "e": "(1 + R/100)³ = 27/8 = (3/2)³, so 1 + R/100 = 1.5 and R = 50%."},
+{"t": "Find the compound interest on ₹16,000 for 9 months at 20% per year, compounded quarterly (in ₹).", "n": 2522, "u": "₹", "k": "16000*F(21,20)**3-16000", "e": "Quarterly rate = 5%, and 9 months = 3 quarters: 16,000 × (21/20)³ = 18,522. Interest = 2522."},
+{"t": "A town of 10,000 grows by 10% in year one, shrinks by 10% in year two and grows by 10% in year three. Find the final population.", "n": 10890, "k": "10000*F(11,10)*F(9,10)*F(11,10)", "e": "10,000 → 11,000 → 9,900 → 10,890."},
+{"t": "A sum doubles in 5 years at compound interest. In how many years does it become 8 times itself?", "n": 15, "u": "years", "k": "5*3", "e": "8 = 2 × 2 × 2 — three doublings, each taking 5 years. (With simple interest it would take 35 years.)"},
+{"t": "The simple interest on a sum for 2 years at 5% per year is ₹400. Find the compound interest for the same time and rate (in ₹).", "n": 410, "u": "₹", "k": "4000*F(105,100)**2-4000", "e": "SI of 400 means P = 4000. CI: 4000 → 4200 → 4410, so 410."},
+{"t": "Find the compound interest on ₹6000 for 2 1/2 years at 10% per year, compounded yearly (in ₹).", "n": 1623, "u": "₹", "k": "6000*F(11,10)**2*F(105,100)-6000", "e": "Two full years: 6000 × 1.21 = 7260. The half year adds 5%: 7260 × 1.05 = 7623. Interest = 1623."},
+{"t": "A man borrows ₹20,000 at 10% per year compound interest and repays ₹12,000 at the end of the first year. How much must he pay at the end of the second year to clear the loan (in ₹)?", "n": 11000, "u": "₹", "k": "(20000*F(11,10)-12000)*F(11,10)", "e": "After year 1 he owes 22,000; he pays 12,000, leaving 10,000. That grows by 10% to 11,000."},
+{"t": "A scooter’s value falls from ₹25,000 to ₹20,250 in 2 years. Find the yearly rate of depreciation (in %).", "n": 10, "u": "%", "k": "(1-F(20250,25000)**F(1,2))*100", "e": "(1 − R/100)² = 20,250/25,000 = 0.81 = 0.9², so R = 10%."}
+]}
+]
+}

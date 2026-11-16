@@ -1,0 +1,53 @@
+{
+"title": "14. Polygons",
+"tests": [
+{"q": [
+{"t": "How many sides does a pentagon have?", "n": 5, "e": "‘Penta’ means five."},
+{"t": "What is the sum of the interior angles of a triangle (in degrees)?", "n": 180, "u": "°", "e": "The three corners placed together make a straight line."},
+{"t": "What is the sum of the interior angles of a quadrilateral (in degrees)?", "n": 360, "u": "°", "k": "2*180", "e": "A diagonal splits it into 2 triangles: 2 × 180° = 360°."},
+{"t": "A regular polygon has:", "o": ["All sides equal and all angles equal", "All sides equal only", "All angles equal only", "Four sides"], "e": "Both are needed: a rhombus has equal sides but unequal angles, a rectangle equal angles but unequal sides."},
+{"t": "What is the sum of the exterior angles of any convex polygon, one at each vertex (in degrees)?", "n": 360, "u": "°", "e": "Walking once round the polygon you turn through each exterior angle and end up facing the way you started — one full turn."},
+{"t": "How many sides does a hexagon have?", "n": 6, "e": "‘Hexa’ means six."},
+{"t": "What is each angle of a regular quadrilateral (a square), in degrees?", "n": 90, "u": "°", "k": "F(360,4)", "e": "Four equal angles share 360°."},
+{"t": "How many diagonals does a quadrilateral have?", "n": 2, "e": "Each joins a pair of opposite corners, and there are two such pairs."},
+{"t": "How many sides does an octagon have?", "n": 8, "e": "‘Octa’ means eight, as in octopus."},
+{"t": "At any vertex of a polygon, the interior angle and the exterior angle add up to:", "n": 180, "u": "°", "e": "They sit side by side on a straight line (a linear pair)."}
+]},
+{"q": [
+{"t": "Find the sum of the interior angles of a hexagon (in degrees).", "n": 720, "u": "°", "k": "(6-2)*180", "e": "Diagonals from one vertex cut an n-sided polygon into (n − 2) triangles: 4 × 180° = 720°."},
+{"t": "Find each interior angle of a regular pentagon (in degrees).", "n": 108, "u": "°", "k": "F((5-2)*180,5)", "e": "Sum = 3 × 180 = 540°, shared equally by 5 angles: 108°."},
+{"t": "Find each exterior angle of a regular hexagon (in degrees).", "n": 60, "u": "°", "k": "F(360,6)", "e": "The exterior angles total 360° and all six are equal."},
+{"t": "Each exterior angle of a regular polygon is 45°. How many sides does it have?", "n": 8, "k": "F(360,45)", "e": "Number of sides = 360 ÷ exterior angle = 8."},
+{"t": "How many diagonals does a pentagon have?", "n": 5, "k": "F(5*2,2)", "e": "Each vertex joins to n − 3 = 2 others by diagonals; 5 × 2 counts each diagonal twice, so 5."},
+{"t": "Find the sum of the interior angles of an octagon (in degrees).", "n": 1080, "u": "°", "k": "(8-2)*180", "e": "6 triangles × 180° = 1080°."},
+{"t": "Find each interior angle of a regular octagon (in degrees).", "n": 135, "u": "°", "k": "180-F(360,8)", "e": "Exterior angle = 360 ÷ 8 = 45°, so the interior angle is 180 − 45 = 135°."},
+{"t": "The interior angles of a polygon add up to 900°. How many sides does it have?", "n": 7, "k": "F(900,180)+2", "e": "(n − 2) × 180 = 900 → n − 2 = 5 → n = 7."},
+{"t": "Each interior angle of a regular polygon is 120°. How many sides does it have?", "n": 6, "k": "F(360,180-120)", "e": "Exterior angle = 60°, and 360 ÷ 60 = 6."},
+{"t": "How many diagonals does a hexagon have?", "n": 9, "k": "F(6*3,2)", "e": "n(n − 3)/2 = 6 × 3 ÷ 2 = 9."}
+]},
+{"q": [
+{"t": "Each interior angle of a regular polygon is 150°. How many sides does it have?", "n": 12, "k": "F(360,30)", "e": "Exterior angle = 30°, so sides = 360 ÷ 30 = 12."},
+{"t": "The interior angles of a polygon add up to 1440°. How many sides does it have?", "n": 10, "k": "F(1440,180)+2", "e": "(n − 2) × 180 = 1440 → n − 2 = 8 → n = 10."},
+{"t": "How many diagonals does a decagon (10 sides) have?", "n": 35, "k": "F(10*7,2)", "e": "n(n − 3)/2 = 10 × 7 ÷ 2 = 35."},
+{"t": "A polygon has 20 diagonals. How many sides does it have?", "n": 8, "k": "[n for n in range(3,30) if n*(n-3)==40][0]", "e": "n(n − 3)/2 = 20 → n(n − 3) = 40 = 8 × 5, so n = 8."},
+{"t": "The angles of a pentagon are in the ratio 2 : 3 : 4 : 5 : 6. Find the largest angle (in degrees).", "n": 162, "u": "°", "k": "F(540,20)*6", "e": "Sum = 540°, and 20 parts make one part 27°. Largest = 6 × 27 = 162°."},
+{"t": "The angles of a quadrilateral are x°, 2x°, 3x° and 4x°. Find the largest angle (in degrees).", "n": 144, "u": "°", "k": "F(360,10)*4", "e": "10x = 360, so x = 36 and 4x = 144."},
+{"t": "Can a regular polygon have an interior angle of 100°?", "o": ["No — 360 ÷ 80 is not a whole number", "Yes, with 5 sides", "Yes, with 9 sides", "No — every interior angle must be over 100°"], "e": "The exterior angle would be 80°, and 360 ÷ 80 = 4.5 sides, which is impossible."},
+{"t": "In a regular polygon the interior angle is 3 times the exterior angle. How many sides does it have?", "n": 8, "k": "F(360,45)", "e": "Exterior e, interior 3e: 4e = 180, so e = 45° and sides = 360 ÷ 45 = 8."},
+{"t": "Four angles of a pentagon are 100°, 110°, 120° and 95°. Find the fifth (in degrees).", "n": 115, "u": "°", "k": "540-100-110-120-95", "e": "A pentagon’s angles total 540°. 540 − 425 = 115."},
+{"t": "Find each exterior angle of a regular polygon with 15 sides (in degrees).", "n": 24, "u": "°", "k": "F(360,15)", "e": "360 ÷ 15 = 24."}
+]},
+{"q": [
+{"t": "In a regular polygon each interior angle is 5 times each exterior angle. How many sides does it have?", "n": 12, "k": "F(360,30)", "e": "e + 5e = 180, so e = 30° and sides = 360 ÷ 30 = 12."},
+{"t": "In a regular polygon the interior angle is 100° more than the exterior angle. How many sides does it have?", "n": 9, "k": "F(360,40)", "e": "i − e = 100 and i + e = 180, so e = 40°. Sides = 360 ÷ 40 = 9."},
+{"t": "The sum of the interior angles of a polygon is 3 times the sum of its exterior angles. How many sides does it have?", "n": 8, "k": "F(3*360,180)+2", "e": "(n − 2) × 180 = 3 × 360 = 1080 → n − 2 = 6 → n = 8."},
+{"t": "A polygon has 54 diagonals. How many sides does it have?", "n": 12, "k": "[n for n in range(3,30) if n*(n-3)==108][0]", "e": "n(n − 3) = 108 = 12 × 9, so n = 12."},
+{"t": "Two regular polygons have numbers of sides in the ratio 1 : 2 and interior angles in the ratio 3 : 4. How many sides does the smaller one have?", "n": 5, "k": "[n for n in range(3,30) if F(180*(n-2),n)/F(180*(2*n-2),2*n)==F(3,4)][0]", "e": "Angles (n − 2)/n and (2n − 2)/(2n) have ratio (n − 2)/(n − 1) = 3/4, so n = 5. Check: pentagon 108°, decagon 144°, and 108 : 144 = 3 : 4."},
+{"t": "The exterior angles of a pentagon are x°, 2x°, 3x°, 4x° and 5x°. Find its smallest INTERIOR angle (in degrees).", "n": 60, "u": "°", "k": "180-5*F(360,15)", "e": "15x = 360, so x = 24. The largest exterior angle (120°) goes with the smallest interior angle: 180 − 120 = 60."},
+{"t": "One angle of a hexagon is 165° and the other five are equal. Find each of them (in degrees).", "n": 111, "u": "°", "k": "F(720-165,5)", "e": "A hexagon’s angles total 720°. (720 − 165) ÷ 5 = 111."},
+{"t": "What is the largest exterior angle a regular polygon can have (in degrees)?", "n": 120, "u": "°", "k": "F(360,3)", "e": "The fewer the sides, the bigger the exterior angle. The fewest is 3 (an equilateral triangle): 360 ÷ 3 = 120."},
+{"t": "Each interior angle of a regular polygon is 172°. How many sides does it have?", "n": 45, "k": "F(360,8)", "e": "Exterior angle = 8°, and 360 ÷ 8 = 45."},
+{"t": "All the diagonals from ONE vertex of a decagon are drawn. Into how many triangles is it divided?", "n": 8, "k": "10-2", "e": "Diagonals from one vertex always make n − 2 triangles — which is why the angle sum is (n − 2) × 180°."}
+]}
+]
+}

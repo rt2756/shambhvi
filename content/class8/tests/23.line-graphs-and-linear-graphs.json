@@ -1,0 +1,53 @@
+{
+"title": "23. Line Graphs and Linear Graphs",
+"tests": [
+{"q": [
+{"t": "A line graph is most useful for showing:", "o": ["How something changes over time", "Parts of a whole", "A single total", "Names in a list"], "e": "Joining the points lets you see rises and falls from one time to the next."},
+{"t": "A graph that is a single straight line is called a:", "o": ["Linear graph", "Bar graph", "Pie chart", "Histogram"], "e": "‘Linear’ comes from ‘line’."},
+{"t": "Which point lies on the graph of y = x?", "o": ["(2, 2)", "(2, 3)", "(0, 1)", "(1, 2)"], "e": "On y = x both coordinates are equal."},
+{"t": "For y = 2x, find y when x = 3.", "n": 6, "k": "2*3", "e": "y = 2 × 3."},
+{"t": "On a time graph, time is usually shown on the:", "o": ["Horizontal axis", "Vertical axis", "Title", "Scale key"], "e": "Time is the thing we choose (independent), so it goes along the bottom."},
+{"t": "The graph of y = 5 is:", "o": ["A horizontal line", "A vertical line", "A line through the origin", "A curve"], "e": "Every point has height 5, whatever x is."},
+{"t": "A line that rises from left to right shows that the quantity is:", "o": ["Increasing", "Decreasing", "Constant", "Zero"], "e": "Later points are higher, so the value is going up."},
+{"t": "For y = x + 1, find y when x = 4.", "n": 5, "k": "4+1", "e": "4 + 1 = 5."},
+{"t": "A flat (horizontal) part of a distance–time graph means the object is:", "o": ["At rest", "Speeding up", "Moving fast", "Going back"], "e": "Time passes but the distance does not change."},
+{"t": "What is the least number of points needed to draw a straight-line graph?", "n": 2, "e": "Two points fix a straight line (a third is a useful check)."}
+]},
+{"q": [
+{"t": "The graph of y = 3x passes through:", "o": ["The origin", "(0, 3)", "(3, 0)", "(1, 1)"], "e": "When x = 0, y = 0. Any graph y = kx passes through (0, 0)."},
+{"t": "For y = 2x + 1, find y when x = 0.", "n": 1, "k": "2*0+1", "e": "This is where the line crosses the y-axis."},
+{"t": "Which point lies on y = 2x − 1?", "o": ["(3, 5)", "(3, 6)", "(1, 2)", "(0, 1)"], "e": "Test: 2 × 3 − 1 = 5 ✓."},
+{"t": "On a distance–time graph a car covers 60 km in 2 hours at a steady speed. Find its speed (in km/h).", "n": 30, "u": "km/h", "k": "F(60,2)", "e": "Speed = distance ÷ time — the steepness of the line."},
+{"t": "The perimeter of a square is P = 4s. Find P when s = 2.5 cm (in cm).", "n": 10, "u": "cm", "k": "4*F('2.5')", "e": "4 × 2.5 = 10."},
+{"t": "A graph shows simple interest on ₹100 at 5% per year. What interest does it show after 4 years (in ₹)?", "n": 20, "u": "₹", "k": "F(100*5*4,100)", "e": "₹5 each year, so ₹20 after 4 years — a straight line through the origin."},
+{"t": "Temperatures: 6 am 20°C, 9 am 25°C, 12 noon 30°C, 3 pm 28°C. When is the graph highest?", "o": ["12 noon", "3 pm", "9 am", "6 am"], "e": "The highest point is the largest value, 30°C."},
+{"t": "Temperatures: 6 am 20°C, 9 am 25°C, 12 noon 30°C, 3 pm 28°C. By how much does it rise from 6 am to noon (in °C)?", "n": 10, "u": "°C", "k": "30-20", "e": "30 − 20 = 10."},
+{"t": "On a line graph, a steeper line means:", "o": ["A faster change", "A slower change", "No change", "A smaller value"], "e": "Steeper means more rise for the same step across."},
+{"t": "For y = 10 − x, find y when x = 4.", "n": 6, "k": "10-4", "e": "10 − 4 = 6."}
+]},
+{"q": [
+{"t": "A straight line passes through (0, 0) and (2, 6). Find y when x = 5.", "n": 15, "k": "F(6,2)*5", "e": "y rises 3 for every 1 across, so y = 3x and y = 15."},
+{"t": "A car travels 150 km in 3 hours, rests for 1 hour, then travels 100 km in 2 hours. Find its speed in the last part (in km/h).", "n": 50, "u": "km/h", "k": "F(100,2)", "e": "100 km ÷ 2 h = 50 km/h."},
+{"t": "A car travels 150 km in 3 hours, rests for 1 hour, then travels 100 km in 2 hours. Find its average speed for the whole trip.", "o": ["41 2/3 km/h", "50 km/h", "62 1/2 km/h", "45 km/h"], "k": "F(250,6)", "e": "Total distance ÷ total time, including the rest: 250 ÷ 6 = 41 2/3."},
+{"t": "On the line y = 2x + 3, find x when y = 9.", "n": 3, "k": "F(9-3,2)", "e": "2x + 3 = 9 → x = 3."},
+{"t": "Is the graph of a square’s area against its side a straight line?", "o": ["No, because area = side², which is not linear", "Yes, because area depends on side", "Yes, it passes through the origin", "No, because area is larger"], "e": "Doubling the side makes the area 4 times, not 2 times, so the graph curves upward."},
+{"t": "A straight line passes through (1, 3) and (3, 7). Where does it cross the y-axis?", "n": 1, "k": "3-2*1", "e": "It rises 4 for 2 across (2 per unit). Going back 1 from (1, 3) gives (0, 1)."},
+{"t": "5 pens cost ₹40. From the straight-line cost graph, find the cost of 12 pens (in ₹).", "n": 96, "u": "₹", "k": "F(40,5)*12", "e": "₹8 per pen, so 12 cost ₹96."},
+{"t": "Where does the line y = 3x − 6 cross the x-axis?", "n": 2, "k": "F(6,3)", "e": "On the x-axis y = 0: 3x − 6 = 0, so x = 2."},
+{"t": "A taxi fare is ₹20 plus ₹10 per km. Find the fare for 7 km (in ₹).", "n": 90, "u": "₹", "k": "20+10*7", "e": "20 + 70 = 90. The graph is a line starting at 20, not at the origin."},
+{"t": "Two points on a graph have the same y-coordinate. The line joining them is:", "o": ["Horizontal", "Vertical", "Through the origin", "Sloping upward"], "e": "Same height at both ends."}
+]},
+{"q": [
+{"t": "A straight line passes through (2, 5) and (4, 9). Find x when y = 21.", "n": 10, "k": "F(21-1,2)", "e": "It rises 2 per unit and passes through (0, 1): y = 2x + 1. Then 2x + 1 = 21 gives x = 10."},
+{"t": "A cycles from a town at 10 km/h. B starts from the same town 1 hour later at 15 km/h. How far from the town does B catch A (in km)?", "n": 30, "u": "km", "k": "10*3", "e": "At t hours after A starts: 10t = 15(t − 1), so t = 3. Distance = 30 km — where the two lines cross."},
+{"t": "The lines y = x + 2 and y = 3x − 4 meet at a point. Find its y-coordinate.", "n": 5, "k": "3+2", "e": "x + 2 = 3x − 4 gives x = 3, and then y = 5."},
+{"t": "Fahrenheit and Celsius are linked by F = (9/5)C + 32. Find F when C = 25.", "n": 77, "k": "F(9,5)*25+32", "e": "9/5 × 25 = 45, plus 32 is 77."},
+{"t": "At what temperature do the Celsius and Fahrenheit scales show the same number?", "n": -40, "k": "F(-32*5,4)", "e": "Put F = C: C = (9/5)C + 32 → −(4/5)C = 32 → C = −40."},
+{"t": "A straight line passes through (0, 4) and (2, 0). Find y when x = 5.", "n": -6, "k": "4-2*5", "e": "It falls 4 for 2 across (−2 per unit): y = 4 − 2x = −6."},
+{"t": "Find the area enclosed by the line y = x, the x-axis and the line x = 6.", "n": 18, "u": "sq units", "k": "F(1,2)*6*6", "e": "A right triangle with corners (0, 0), (6, 0) and (6, 6): ½ × 6 × 6."},
+{"t": "On a distance–time graph, the steepness (slope) of the line gives the:", "o": ["Speed", "Distance", "Time", "Acceleration"], "e": "Slope = distance covered ÷ time taken."},
+{"t": "A straight line falls from (0, 20) to (5, 0). Find y when x = 2.", "n": 12, "k": "20-4*2", "e": "It drops 20 over 5 steps: 4 per step. 20 − 8 = 12."},
+{"t": "A 500-litre tank drains at 25 litres a minute. After how many minutes are 150 litres left?", "n": 14, "u": "minutes", "k": "F(500-150,25)", "e": "350 litres must drain: 350 ÷ 25 = 14."}
+]}
+]
+}

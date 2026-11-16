@@ -1,0 +1,53 @@
+{
+"title": "2. Exponents",
+"tests": [
+{"q": [
+{"t": "Find 2⁻³.", "o": ["1/8", "−8", "−6", "8"], "k": "F(2)**-3", "e": "A negative exponent means ‘divide by’ that many factors: 2⁻³ = 1/2³ = 1/8. It does not make the number negative."},
+{"t": "Find 5⁰.", "n": 1, "e": "5² ÷ 5² = 1, and by the division law it is 5²⁻² = 5⁰. So any non-zero number to the power 0 is 1."},
+{"t": "Find (1/3)⁻².", "n": 9, "k": "F(1,3)**-2", "e": "A negative exponent flips the fraction: (1/3)⁻² = 3² = 9."},
+{"t": "Find 10⁻² as a decimal.", "n": 0.01, "k": "F(10)**-2", "e": "10⁻² = 1/10² = 1/100 = 0.01."},
+{"t": "Find 3⁴ × 3⁻².", "n": 9, "k": "F(3)**4*F(3)**-2", "e": "Same base, add exponents: 4 + (−2) = 2, and 3² = 9."},
+{"t": "Find (2/5)⁻¹.", "o": ["5/2", "−2/5", "2/5", "−5/2"], "k": "F(2,5)**-1", "e": "The power −1 gives the reciprocal: flip 2/5 to get 5/2."},
+{"t": "Find 7⁻¹.", "o": ["1/7", "−7", "−1/7", "7"], "k": "F(7)**-1", "e": "7⁻¹ is the reciprocal of 7."},
+{"t": "aᵐ ÷ aⁿ equals:", "o": ["aᵐ⁻ⁿ", "aᵐ⁺ⁿ", "aᵐⁿ", "a to the power m ÷ n"], "e": "Dividing cancels n of the m factors, leaving m − n of them."},
+{"t": "Write 0.0001 as a power of 10.", "o": ["10⁻⁴", "10⁴", "10⁻³", "10⁻⁵"], "e": "0.0001 = 1/10000 = 1/10⁴ = 10⁻⁴. The 1 is in the 4th decimal place."},
+{"t": "Find (−2)⁻².", "o": ["1/4", "−1/4", "4", "−4"], "k": "F(-2)**-2", "e": "(−2)⁻² = 1/(−2)² = 1/4. The even power makes it positive."}
+]},
+{"q": [
+{"t": "Find 2⁻¹ + 3⁻¹.", "o": ["5/6", "1/5", "1/6", "5⁻¹"], "k": "F(1,2)+F(1,3)", "e": "1/2 + 1/3 = 3/6 + 2/6 = 5/6. Exponent laws do not apply to ADDING different bases."},
+{"t": "Find (3⁻² × 3⁵) ÷ 3.", "n": 9, "k": "F(3)**-2*3**5/3", "e": "Exponents: −2 + 5 − 1 = 2, and 3² = 9."},
+{"t": "Write 0.000056 in standard form.", "o": ["5.6 × 10⁻⁵", "5.6 × 10⁵", "56 × 10⁻⁶", "5.6 × 10⁻⁴"], "k": "F('0.000056')/F(10)**-5", "e": "Move the point 5 places right to get 5.6, so the number is 5.6 ÷ 10⁵ = 5.6 × 10⁻⁵."},
+{"t": "Find (4⁻¹)⁻².", "n": 16, "k": "(F(4)**-1)**-2", "e": "Power of a power: multiply exponents, (−1) × (−2) = 2. 4² = 16."},
+{"t": "Find (2/3)⁻³.", "o": ["27/8", "8/27", "−8/27", "−27/8"], "k": "F(2,3)**-3", "e": "Flip, then cube: (3/2)³ = 27/8."},
+{"t": "Find (5⁻¹ × 2⁻¹) ÷ 10⁻¹.", "n": 1, "k": "(F(1,5)*F(1,2))/F(1,10)", "e": "1/5 × 1/2 = 1/10, and (1/10) ÷ (1/10) = 1."},
+{"t": "Write 3.2 × 10⁻⁴ in the usual form.", "o": ["0.00032", "0.0032", "32000", "0.000032"], "k": "F('3.2')*F(10)**-4", "e": "× 10⁻⁴ moves the point 4 places left: 0.00032."},
+{"t": "Find x if 2ˣ = 1/16.", "n": -4, "k": "[x for x in range(-9,9) if F(2)**x==F(1,16)][0]", "e": "16 = 2⁴, so 1/16 = 2⁻⁴ and x = −4."},
+{"t": "Find (1/2)⁻² + (1/3)⁻².", "n": 13, "k": "F(1,2)**-2+F(1,3)**-2", "e": "2² + 3² = 4 + 9 = 13."},
+{"t": "Find (−3)⁻³.", "o": ["−1/27", "1/27", "−27", "27"], "k": "F(-3)**-3", "e": "1/(−3)³ = 1/(−27) = −1/27. An odd power keeps the negative sign."}
+]},
+{"q": [
+{"t": "Simplify: [(1/3)⁻² − (1/2)⁻³] ÷ (1/4)⁻²", "o": ["1/16", "16", "17/16", "1"], "k": "(F(1,3)**-2-F(1,2)**-3)/F(1,4)**-2", "e": "3² − 2³ = 9 − 8 = 1, and (1/4)⁻² = 16. So 1 ÷ 16 = 1/16."},
+{"t": "Find x if 5²ˣ⁻¹ = 125.", "n": 2, "k": "F(3+1,2)", "e": "125 = 5³, so 2x − 1 = 3 and x = 2."},
+{"t": "Find (3⁻¹ + 4⁻¹)⁻¹.", "o": ["12/7", "7", "7/12", "1/7"], "k": "(F(1,3)+F(1,4))**-1", "e": "1/3 + 1/4 = 7/12, and its reciprocal is 12/7. (It is NOT 3 + 4.)"},
+{"t": "By what number should 3⁻⁴ be multiplied to get 3²?", "n": 729, "k": "F(3)**2/F(3)**-4", "e": "The exponent must rise from −4 to 2, a jump of 6: multiply by 3⁶ = 729."},
+{"t": "Find (2⁵ ÷ 2⁸) × 2⁻².", "o": ["1/32", "32", "1/8", "1/64"], "k": "F(2)**5/F(2)**8*F(2)**-2", "e": "Exponents: 5 − 8 − 2 = −5, and 2⁻⁵ = 1/32."},
+{"t": "A cell is 0.000007 m across. Write this in standard form.", "o": ["7 × 10⁻⁶ m", "7 × 10⁻⁵ m", "7 × 10⁶ m", "0.7 × 10⁻⁷ m"], "k": "F('0.000007')/F(10)**-6", "e": "The 7 is in the 6th decimal place, so it is 7 × 10⁻⁶."},
+{"t": "Simplify: (2/3)² × (3/2)⁻³", "o": ["32/243", "2/3", "243/32", "3/2"], "k": "F(2,3)**2*F(3,2)**-3", "e": "(3/2)⁻³ = (2/3)³. So (2/3)²⁺³ = (2/3)⁵ = 32/243."},
+{"t": "Find x if (4/9)ˣ = (3/2)⁴.", "n": -2, "k": "[x for x in range(-9,9) if F(4,9)**x==F(3,2)**4][0]", "e": "4/9 = (2/3)² = (3/2)⁻². So (3/2)⁻²ˣ = (3/2)⁴, giving −2x = 4 and x = −2."},
+{"t": "A sheet of paper is 0.0016 cm thick. How thick is a stack of 500 sheets (in cm)?", "n": 0.8, "u": "cm", "k": "F('0.0016')*500", "e": "1.6 × 10⁻³ × 5 × 10² = 8 × 10⁻¹ = 0.8 cm."},
+{"t": "Find (6⁻¹ − 8⁻¹)⁻¹.", "n": 24, "k": "(F(1,6)-F(1,8))**-1", "e": "1/6 − 1/8 = 4/24 − 3/24 = 1/24, and its reciprocal is 24."}
+]},
+{"q": [
+{"t": "Find x if 3ˣ⁺¹ + 3ˣ = 108.", "n": 3, "k": "[x for x in range(0,9) if 3**(x+1)+3**x==108][0]", "e": "3ˣ⁺¹ = 3 × 3ˣ, so the left side is 4 × 3ˣ = 108. Then 3ˣ = 27 and x = 3."},
+{"t": "Simplify: (25 × t⁻⁴) ÷ (5⁻³ × 10 × t⁻⁸)", "o": ["625t⁴/2", "625t⁻¹²/2", "25t⁴/2", "5t⁴/2"], "k": "25/(F(5)**-3*10)*2", "e": "Numbers: 25 × 5³ ÷ 10 = 3125/10 = 625/2. Powers of t: −4 − (−8) = 4."},
+{"t": "Simplify: [(2/3)²]³ × (1/3)⁻⁴ × 3⁻¹ × 6⁻¹", "o": ["32/81", "64/81", "16/27", "81/32"], "k": "(F(2,3)**2)**3*F(1,3)**-4*F(1,3)*F(1,6)", "e": "2⁶/3⁶ × 3⁴ × 3⁻¹ × (2 × 3)⁻¹ = 2⁶⁻¹ × 3⁻⁶⁺⁴⁻¹⁻¹ = 2⁵/3⁴ = 32/81."},
+{"t": "Find x if 2ˣ × 4ˣ = 8⁴.", "n": 4, "k": "F(12,3)", "e": "Write everything in base 2: 2ˣ × 2²ˣ = 2³ˣ and 8⁴ = 2¹². So 3x = 12 and x = 4."},
+{"t": "The Earth’s mass is 5.97 × 10²⁴ kg and the Moon’s is 7.35 × 10²² kg. Find their total mass.", "o": ["6.0435 × 10²⁴ kg", "13.32 × 10⁴⁶ kg", "1.332 × 10²⁵ kg", "6.705 × 10²³ kg"], "k": "(F('5.97')*10**24+F('7.35')*10**22)/10**24", "e": "Powers must match before adding: 7.35 × 10²² = 0.0735 × 10²⁴. Then 5.97 + 0.0735 = 6.0435."},
+{"t": "Find 0.000064 ÷ 0.0004.", "n": 0.16, "k": "F('0.000064')/F('0.0004')", "e": "(6.4 × 10⁻⁵) ÷ (4 × 10⁻⁴) = 1.6 × 10⁻¹ = 0.16."},
+{"t": "Find x if (−2)ˣ⁺¹ × (−2)⁵ = (−2)⁹.", "n": 3, "k": "9-5-1", "e": "Add exponents: x + 1 + 5 = 9, so x = 3."},
+{"t": "Find [(−1/2)⁻²]⁻³.", "o": ["1/64", "64", "−1/64", "−64"], "k": "(F(-1,2)**-2)**-3", "e": "Multiply exponents: (−2) × (−3) = 6. (−1/2)⁶ = 1/64, positive because the power is even."},
+{"t": "A red blood cell is 7 × 10⁻⁶ m wide. How many of them fit side by side along 1.4 cm?", "n": 2000, "k": "F('0.014')/(7*F(10)**-6)", "e": "1.4 cm = 1.4 × 10⁻² m. (1.4 × 10⁻²) ÷ (7 × 10⁻⁶) = 0.2 × 10⁴ = 2000."},
+{"t": "Find n if 2ⁿ⁻⁵ × 6²ⁿ⁻⁴ = 1 ÷ (12⁴ × 2).", "n": 0, "k": "[n for n in range(-5,6) if F(2)**(n-5)*F(6)**(2*n-4)==F(1,12**4*2)][0]", "e": "Left: 2³ⁿ⁻⁹ × 3²ⁿ⁻⁴. Right: 12⁴ × 2 = 2⁹ × 3⁴, so it is 2⁻⁹ × 3⁻⁴. Matching powers of 3: 2n − 4 = −4, so n = 0 (and 3n − 9 = −9 ✓)."}
+]}
+]
+}

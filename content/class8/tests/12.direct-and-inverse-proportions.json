@@ -1,0 +1,53 @@
+{
+"title": "12. Direct and Inverse Proportions",
+"tests": [
+{"q": [
+{"t": "x and y are in direct proportion. When x = 4, y = 12. Find y when x = 7.", "n": 21, "k": "F(12,4)*7", "e": "In direct proportion y/x stays the same: 12/4 = 3, so y = 3 × 7 = 21."},
+{"t": "x and y are in inverse proportion. When x = 3, y = 8. Find y when x = 6.", "n": 4, "k": "F(3*8,6)", "e": "In inverse proportion x × y stays the same: 3 × 8 = 24, so y = 24 ÷ 6 = 4. Doubling x halves y."},
+{"t": "5 kg of rice costs ₹200. Find the cost of 8 kg (in ₹).", "n": 320, "u": "₹", "k": "F(200,5)*8", "e": "1 kg costs ₹40, so 8 kg cost ₹320."},
+{"t": "6 workers finish a job in 10 days. How many days do 12 workers take?", "n": 5, "u": "days", "k": "F(6*10,12)", "e": "The job needs 60 worker-days. Twice the workers take half the time."},
+{"t": "For a fixed distance, speed and time taken are in:", "o": ["Inverse proportion", "Direct proportion", "No proportion", "Equal amounts"], "e": "speed × time = distance, which is fixed. If one doubles, the other halves."},
+{"t": "The number of articles bought and their total cost are in:", "o": ["Direct proportion", "Inverse proportion", "No proportion", "Reverse order"], "e": "Buy twice as many and you pay twice as much: cost ÷ number stays the same."},
+{"t": "If x/y is always the same number, then x and y are in:", "o": ["Direct proportion", "Inverse proportion", "Neither", "Both"], "e": "A constant ratio is the definition of direct proportion."},
+{"t": "If x × y is always the same number, then x and y are in:", "o": ["Inverse proportion", "Direct proportion", "Neither", "Both"], "e": "A constant product is the definition of inverse proportion."},
+{"t": "3 pens cost ₹45. Find the cost of 7 pens (in ₹).", "n": 105, "u": "₹", "k": "F(45,3)*7", "e": "1 pen costs ₹15, so 7 cost ₹105."},
+{"t": "4 pipes fill a tank in 6 hours. How long do 8 such pipes take (in hours)?", "n": 3, "u": "hours", "k": "F(4*6,8)", "e": "24 pipe-hours of filling are needed. 24 ÷ 8 = 3."}
+]},
+{"q": [
+{"t": "35 workers build a wall in 24 days. How many days would 28 workers take?", "n": 30, "u": "days", "k": "F(35*24,28)", "e": "Work = 35 × 24 = 840 worker-days. 840 ÷ 28 = 30."},
+{"t": "On a map 1 cm represents 25 km. Two towns are 7.5 cm apart on the map. Find the real distance (in km).", "n": 187.5, "u": "km", "k": "25*F('7.5')", "e": "Direct proportion: 7.5 × 25 = 187.5."},
+{"t": "A 6 m pole casts a 15 m shadow. At the same time a tree casts a 25 m shadow. Find the height of the tree (in m).", "n": 10, "u": "m", "k": "F(6,15)*25", "e": "Height/shadow is the same for both: 6/15 = h/25, so h = 10."},
+{"t": "8 taps fill a tank in 27 minutes. How long do 6 taps take (in minutes)?", "n": 36, "u": "minutes", "k": "F(8*27,6)", "e": "216 tap-minutes are needed. 216 ÷ 6 = 36."},
+{"t": "x and y are in inverse proportion. When x = 10, y = 6. Find x when y = 15.", "n": 4, "k": "F(10*6,15)", "e": "x × y = 60 always, so x = 60 ÷ 15 = 4."},
+{"t": "At 50 km/h a journey takes 6 hours. What speed is needed to do it in 5 hours (in km/h)?", "n": 60, "u": "km/h", "k": "F(50*6,5)", "e": "Distance = 300 km. 300 ÷ 5 = 60."},
+{"t": "A stock of fodder lasts 12 cows for 20 days. How long does it last 15 cows (in days)?", "n": 16, "u": "days", "k": "F(12*20,15)", "e": "240 cow-days of fodder ÷ 15 cows = 16 days."},
+{"t": "A 22.5 m iron rod weighs 85.5 kg. Find the weight of 6 m of the same rod (in kg).", "n": 22.8, "u": "kg", "k": "F('85.5')/F('22.5')*6", "e": "1 m weighs 85.5 ÷ 22.5 = 3.8 kg, so 6 m weigh 22.8 kg."},
+{"t": "A fort has food for 1200 soldiers for 28 days. How long would it last 1400 soldiers (in days)?", "n": 24, "u": "days", "k": "F(1200*28,1400)", "e": "33,600 soldier-days ÷ 1400 = 24."},
+{"t": "Rina types 540 words in 30 minutes. How many words does she type in 6 minutes?", "n": 108, "k": "F(540,30)*6", "e": "18 words a minute × 6 = 108."}
+]},
+{"q": [
+{"t": "A camp has food for 1200 people for 35 days. After 5 days, 300 more people arrive. How many more days does the food last?", "n": 24, "u": "days", "k": "F(1200*30,1500)", "e": "Food left = 1200 × 30 = 36,000 person-days. For 1500 people: 24 days."},
+{"t": "6 oxen OR 8 cows can graze a field in 28 days. How long do 9 oxen and 2 cows take together (in days)?", "n": 16, "u": "days", "k": "F(8*28,9*F(8,6)+2)", "e": "6 oxen eat like 8 cows, so 9 oxen = 12 cows. Total 14 cows: 8 × 28 ÷ 14 = 16."},
+{"t": "10 men working 8 hours a day finish a job in 12 days. How many days do 16 men working 6 hours a day take?", "n": 10, "u": "days", "k": "F(10*8*12,16*6)", "e": "Job = 960 man-hours. 16 × 6 = 96 man-hours a day, so 10 days."},
+{"t": "5 workers earn ₹3750 in 6 days. How much do 8 workers earn in 9 days (in ₹)?", "n": 9000, "u": "₹", "k": "F(3750,30)*72", "e": "One worker earns 3750 ÷ 30 = ₹125 a day. 8 × 9 = 72 worker-days × 125 = 9000."},
+{"t": "A wheel with 20 teeth drives a wheel with 50 teeth. The small wheel makes 150 turns. How many turns does the large wheel make?", "n": 60, "k": "F(20*150,50)", "e": "The same number of teeth pass the meeting point: 20 × 150 = 50 × turns, so 60 turns. More teeth, fewer turns."},
+{"t": "A pipe fills 3/5 of a cistern in 1 minute. How many more seconds does the rest take?", "n": 40, "u": "seconds", "k": "60/F(3,5)*F(2,5)", "e": "3 fifths take 60 s, so 1 fifth takes 20 s and the remaining 2 fifths take 40 s."},
+{"t": "A train runs at 108 km/h. How far does it go in 15 seconds (in m)?", "n": 450, "u": "m", "k": "F(108*1000,3600)*15", "e": "108 km/h = 108 × 5/18 = 30 m/s. In 15 s: 450 m."},
+{"t": "24 men can finish a job in 12 days. After 4 days, 8 men leave. How many more days does the job take?", "n": 12, "u": "days", "k": "F(24*8,16)", "e": "Work left = 24 × 8 = 192 man-days. With 16 men: 12 days."},
+{"t": "A floor needs 45 m of carpet that is 1.2 m wide. How many metres are needed of carpet 1.5 m wide?", "n": 36, "u": "m", "k": "45*F('1.2')/F('1.5')", "e": "The area is fixed: 45 × 1.2 = 54 m². 54 ÷ 1.5 = 36 m. Wider carpet, shorter length."},
+{"t": "8 men OR 12 boys can do a job in 16 days. How long do 12 men and 6 boys take together (in days)?", "n": 8, "u": "days", "k": "F(8*16,12+6*F(8,12))", "e": "12 boys = 8 men, so 6 boys = 4 men. That makes 16 men: 8 × 16 ÷ 16 = 8 days."}
+]},
+{"q": [
+{"t": "15 men working 8 hours a day finish a job in 21 days. 3 women do as much work as 2 men. How many days do 21 women working 6 hours a day take?", "n": 30, "u": "days", "k": "F(15*8*21,21*F(2,3)*6)", "e": "21 women = 14 men. Job = 15 × 8 × 21 = 2520 man-hours. 14 × 6 = 84 man-hours a day → 30 days."},
+{"t": "A garrison of 2000 men has food for 54 days. After 15 days, reinforcements arrive and the food lasts only 20 more days. How many men arrived?", "n": 1900, "k": "F(2000*39,20)-2000", "e": "Food left = 2000 × 39 = 78,000 man-days. For 20 days that feeds 3900 men, so 1900 arrived."},
+{"t": "A works twice as fast as B. Together they finish a job in 14 days. How long would A take alone (in days)?", "n": 21, "u": "days", "k": "14*F(3,2)", "e": "A does 2 parts a day for each 1 of B: together 3 parts. The job is 14 × 3 = 42 parts, and A alone does 2 a day: 21 days."},
+{"t": "12 men dig a 150 m trench in 5 days. How many days do 20 men take to dig a 300 m trench?", "n": 6, "u": "days", "k": "F(12*5,150)*300/20", "e": "150 m needs 60 man-days, so 300 m needs 120. With 20 men: 6 days."},
+{"t": "x varies directly as y and inversely as z. x = 12 when y = 9 and z = 6. Find x when y = 15 and z = 10.", "n": 12, "k": "F(12*6,9)*15/10", "e": "x = k × y/z. From the first set, k = 12 × 6 ÷ 9 = 8. Then x = 8 × 15 ÷ 10 = 12."},
+{"t": "Travelling at 3/4 of its usual speed, a car arrives 20 minutes late. Find its usual journey time (in minutes).", "n": 60, "u": "minutes", "k": "20/(F(4,3)-1)", "e": "At 3/4 the speed the time becomes 4/3 of usual. The extra 1/3 of the usual time is 20 minutes, so usual time = 60."},
+{"t": "5 machines make 5 parts in 5 minutes. How many minutes do 100 machines take to make 100 parts?", "n": 5, "u": "minutes", "e": "Each machine makes one part in 5 minutes. 100 machines each make one part — still 5 minutes."},
+{"t": "4 equal taps fill a tank in 9 hours. After 3 hours, 2 more such taps are opened. How many more hours does it take to fill the tank?", "n": 4, "u": "hours", "k": "F(4*9-4*3,6)", "e": "Job = 36 tap-hours; 12 are done. The remaining 24 are shared by 6 taps: 4 hours."},
+{"t": "A train passes a pole in 12 seconds and a 200 m platform in 20 seconds. Find the length of the train (in m).", "n": 300, "u": "m", "k": "F(200,20-12)*12", "e": "The extra 8 seconds are spent covering the 200 m platform: speed = 25 m/s. Length = 25 × 12 = 300 m."},
+{"t": "A contractor must finish a road in 40 days and uses 30 men. After 25 days only half the work is done. How many extra men does he need?", "n": 20, "k": "F(30*25,15)-30", "e": "Half the work took 30 × 25 = 750 man-days, so the other half needs 750 more in 15 days: 50 men. That is 20 extra."}
+]}
+]
+}

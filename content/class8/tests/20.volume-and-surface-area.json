@@ -1,0 +1,53 @@
+{
+"title": "20. Volume and Surface Area of Solids",
+"tests": [
+{"q": [
+{"t": "Find the volume of a cuboid 5 cm × 4 cm × 3 cm (in cm³).", "n": 60, "u": "cm³", "k": "5*4*3", "e": "Each layer holds 5 × 4 = 20 unit cubes and there are 3 layers: 60."},
+{"t": "Find the volume of a cube of side 4 cm (in cm³).", "n": 64, "u": "cm³", "k": "4**3", "e": "side × side × side."},
+{"t": "Find the total surface area of a cube of side 3 cm (in cm²).", "n": 54, "u": "cm²", "k": "6*3*3", "e": "Six square faces of 9 cm² each."},
+{"t": "The volume of a cylinder with radius r and height h is:", "o": ["πr²h", "2πrh", "πr²", "2πr(r + h)"], "e": "Area of the circular base (πr²) × height — a stack of circles."},
+{"t": "How many cubic centimetres make 1 litre?", "n": 1000, "k": "10**3", "e": "A litre fills a cube 10 cm × 10 cm × 10 cm."},
+{"t": "Find the total surface area of a cuboid 3 cm × 2 cm × 1 cm (in cm²).", "n": 22, "u": "cm²", "k": "2*(3*2+2*1+1*3)", "e": "Three pairs of faces: 2 × (6 + 2 + 3) = 22."},
+{"t": "How many litres does 1 cubic metre hold?", "n": 1000, "k": "F(100**3,1000)", "e": "1 m³ = 100 × 100 × 100 cm³ = 10,00,000 cm³ = 1000 litres."},
+{"t": "Find the lateral surface area (4 walls) of a cube of side 5 cm (in cm²).", "n": 100, "u": "cm²", "k": "4*25", "e": "Four side faces of 25 cm² each (top and bottom left out)."},
+{"t": "The curved surface area of a cylinder is:", "o": ["2πrh", "πr²h", "πr²", "2πr²"], "e": "Unroll the curved surface into a rectangle: its length is the circumference 2πr and its width is h."},
+{"t": "Find the volume of a cylinder of radius 7 cm and height 10 cm (take π = 22/7), in cm³.", "n": 1540, "u": "cm³", "k": "F(22,7)*49*10", "e": "22/7 × 7 × 7 × 10 = 154 × 10 = 1540."}
+]},
+{"q": [
+{"t": "A cuboid has volume 240 cm³, length 8 cm and breadth 6 cm. Find its height (in cm).", "n": 5, "u": "cm", "k": "F(240,48)", "e": "Height = volume ÷ base area = 240 ÷ 48 = 5."},
+{"t": "A cube has total surface area 150 cm². Find its side (in cm).", "n": 5, "u": "cm", "k": "F(150,6)**F(1,2)", "e": "6a² = 150, so a² = 25 and a = 5."},
+{"t": "Find the curved surface area of a cylinder of radius 7 cm and height 20 cm (take π = 22/7), in cm².", "n": 880, "u": "cm²", "k": "2*F(22,7)*7*20", "e": "2 × 22/7 × 7 × 20 = 44 × 20 = 880."},
+{"t": "Find the total surface area of a closed cylinder of radius 7 cm and height 8 cm (take π = 22/7), in cm².", "n": 660, "u": "cm²", "k": "2*F(22,7)*7*(7+8)", "e": "2πr(r + h) = 44 × 15 = 660 — the curved surface plus the two circular ends."},
+{"t": "A tank is 2 m × 1.5 m × 1 m. How many litres of water does it hold?", "n": 3000, "u": "litres", "k": "2*F('1.5')*1*1000", "e": "Volume = 3 m³, and 1 m³ = 1000 litres."},
+{"t": "A cube has volume 343 cm³. Find its total surface area (in cm²).", "n": 294, "u": "cm²", "k": "6*49", "e": "Side = ∛343 = 7. Surface area = 6 × 49 = 294."},
+{"t": "A cylinder has volume 1232 cm³ and radius 7 cm. Find its height (take π = 22/7), in cm.", "n": 8, "u": "cm", "k": "1232/(F(22,7)*49)", "e": "Base area = 154 cm². Height = 1232 ÷ 154 = 8."},
+{"t": "Find the length of the longest rod that fits in a box 12 cm × 4 cm × 3 cm (in cm).", "n": 13, "u": "cm", "k": "(144+16+9)**F(1,2)", "e": "The space diagonal: √(12² + 4² + 3²) = √169 = 13."},
+{"t": "How many cubes of side 5 cm can be cut from a cuboid 20 cm × 15 cm × 10 cm?", "n": 24, "k": "4*3*2", "e": "4 along the length, 3 along the breadth, 2 along the height: 24."},
+{"t": "A room is 6 m long, 5 m wide and 4 m high. Find the area of its four walls (in m²).", "n": 88, "u": "m²", "k": "2*(6+5)*4", "e": "Perimeter of the floor × height = 22 × 4 = 88."}
+]},
+{"q": [
+{"t": "Three cubes of side 6 cm are joined end to end. Find the total surface area of the cuboid formed (in cm²).", "n": 504, "u": "cm²", "k": "2*(18*6+6*6+6*18)", "e": "The cuboid is 18 × 6 × 6: 2 × (108 + 36 + 108) = 504. (Four inner faces are hidden, so it is less than 3 × 216.)"},
+{"t": "The radius of a cylinder is doubled and its height is halved. Its volume:", "o": ["Doubles", "Stays the same", "Becomes 4 times", "Is halved"], "e": "πr²h becomes π(2r)²(h/2) = 2πr²h. The radius is squared, so doubling it counts four-fold."},
+{"t": "A rectangular sheet 44 cm × 20 cm is rolled along its length into a cylinder of height 20 cm. Find its volume (take π = 22/7), in cm³.", "n": 3080, "u": "cm³", "k": "F(22,7)*49*20", "e": "The 44 cm edge becomes the circumference: 2 × 22/7 × r = 44, so r = 7. Volume = 154 × 20 = 3080."},
+{"t": "A well of diameter 7 m is dug 20 m deep. Find the volume of earth dug out (take π = 22/7), in m³.", "n": 770, "u": "m³", "k": "F(22,7)*F(7,2)**2*20", "e": "Radius 3.5 m: 22/7 × 3.5 × 3.5 × 20 = 770."},
+{"t": "A hollow pipe is 21 cm long with outer radius 4 cm and inner radius 3 cm. Find the volume of metal (take π = 22/7), in cm³.", "n": 462, "u": "cm³", "k": "F(22,7)*(16-9)*21", "e": "Outer cylinder minus inner cylinder: π(4² − 3²) × 21 = 22/7 × 7 × 21 = 462."},
+{"t": "The edges of a cuboid are in the ratio 1 : 2 : 3 and its total surface area is 88 cm². Find its volume (in cm³).", "n": 48, "u": "cm³", "k": "6*2**3", "e": "2(2 + 6 + 3)k² = 22k² = 88, so k = 2. Edges 2, 4, 6: volume 48."},
+{"t": "Three metal cubes of edges 3 cm, 4 cm and 5 cm are melted into one cube. Find its edge (in cm).", "n": 6, "u": "cm", "k": "round((27+64+125)**(1/3))", "e": "27 + 64 + 125 = 216 = 6³."},
+{"t": "A road roller is 1 m long with diameter 84 cm. What area does it level in 500 complete turns (take π = 22/7), in m²?", "n": 1320, "u": "m²", "k": "F(22,7)*F(84,100)*1*500", "e": "One turn covers its curved surface: 22/7 × 0.84 × 1 = 2.64 m². 500 turns: 1320 m²."},
+{"t": "A river 3 m deep and 40 m wide flows at 2 km/h. How much water passes a point in one minute (in m³)?", "n": 4000, "u": "m³", "k": "F(2000,60)*3*40", "e": "In one minute the water moves 2000 ÷ 60 m. Volume = that length × 3 × 40 = 4000 m³."},
+{"t": "How many bricks 25 cm × 10 cm × 8 cm are needed for a wall 5 m × 3 m × 20 cm?", "n": 1500, "k": "F(500*300*20,25*10*8)", "e": "Wall = 500 × 300 × 20 = 30,00,000 cm³. Brick = 2000 cm³. 30,00,000 ÷ 2000 = 1500."}
+]},
+{"q": [
+{"t": "A cylinder has curved surface area 1320 cm² and base circumference 44 cm. Find its volume (take π = 22/7), in cm³.", "n": 4620, "u": "cm³", "k": "F(22,7)*49*F(1320,44)", "e": "Height = 1320 ÷ 44 = 30. Circumference 44 gives r = 7. Volume = 154 × 30 = 4620."},
+{"t": "The length, breadth and height of a cuboid add up to 19 cm and its space diagonal is 11 cm. Find its total surface area (in cm²).", "n": 240, "u": "cm²", "k": "19**2-11**2", "e": "(l + b + h)² = l² + b² + h² + 2(lb + bh + hl). So the surface area = 361 − 121 = 240."},
+{"t": "A cube has surface area 216 cm². Each side is increased by 50%. Find the new volume (in cm³).", "n": 729, "u": "cm³", "k": "(6*F(3,2))**3", "e": "6a² = 216 gives a = 6. New side = 9, and 9³ = 729."},
+{"t": "A cylindrical tank has radius 1.4 m and height 2 m. Find its capacity in litres (take π = 22/7).", "n": 12320, "u": "litres", "k": "F(22,7)*F('1.4')**2*2*1000", "e": "22/7 × 1.96 × 2 = 12.32 m³ = 12,320 litres."},
+{"t": "2 cm of rain falls on a field of 1 hectare. Find the volume of water that falls (in m³).", "n": 200, "u": "m³", "k": "10000*F(2,100)", "e": "1 hectare = 10,000 m² and 2 cm = 0.02 m. Volume = 200 m³."},
+{"t": "The largest possible cylinder is cut from a cube of side 14 cm. Find its volume (take π = 22/7), in cm³.", "n": 2156, "u": "cm³", "k": "F(22,7)*49*14", "e": "Its diameter and height both equal 14: r = 7, h = 14. Volume = 154 × 14 = 2156."},
+{"t": "Two cylinders have radii in the ratio 2 : 3 and heights in the ratio 5 : 3. Find the ratio of their volumes.", "o": ["20 : 27", "10 : 9", "4 : 9", "2 : 3"], "k": "F(4*5,9*3)*27", "e": "Volume ∝ r²h: (2² × 5) : (3² × 3) = 20 : 27."},
+{"t": "Squares of side 3 cm are cut from each corner of a sheet 24 cm × 18 cm and the sides folded up to make an open box. Find its volume (in cm³).", "n": 648, "u": "cm³", "k": "(24-6)*(18-6)*3", "e": "Each dimension loses 3 cm at both ends: 18 × 12, with height 3. Volume = 648."},
+{"t": "A room is 8 m × 6 m × 3 m. Find the cost of painting its four walls and ceiling at ₹20 per m² (in ₹).", "n": 2640, "u": "₹", "k": "(2*(8+6)*3+8*6)*20", "e": "Walls: 2 × 14 × 3 = 84 m². Ceiling: 48 m². Total 132 m² × 20 = 2640."},
+{"t": "Water flows at 0.7 m/s through a pipe of radius 1 cm into a cylindrical tank of radius 40 cm. By how much does the water level rise in 30 minutes (in cm)?", "n": 78.75, "u": "cm", "k": "F(1*70*1800,40*40)", "e": "Water in = π × 1² × (70 cm/s × 1800 s). Rise = that ÷ (π × 40²) = 1,26,000 ÷ 1600 = 78.75 cm. The π cancels."}
+]}
+]
+}

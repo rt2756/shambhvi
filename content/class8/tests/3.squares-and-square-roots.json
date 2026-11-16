@@ -1,0 +1,53 @@
+{
+"title": "3. Squares and Square Roots",
+"tests": [
+{"q": [
+{"t": "Find 12².", "n": 144, "k": "12**2", "e": "12 × 12 = 144 — the number of unit squares in a 12 by 12 square."},
+{"t": "Find √81.", "n": 9, "k": "81**F(1,2)", "e": "The square root undoes squaring: 9 × 9 = 81."},
+{"t": "Is 50 a perfect square?", "o": ["No — it lies between 7² = 49 and 8² = 64", "Yes, 50 = 25 × 2", "Yes, because it ends in 0", "No, because it is even"], "e": "A perfect square is a whole number times itself. 7² = 49 and 8² = 64, and 50 falls in the gap."},
+{"t": "What is the units digit of 23²?", "n": 9, "k": "23**2%10", "e": "Only the units digits matter: 3 × 3 = 9. (23² = 529.)"},
+{"t": "Find √169.", "n": 13, "k": "169**F(1,2)", "e": "13 × 13 = 169."},
+{"t": "The square of an even number is always:", "o": ["Even", "Odd", "Prime", "A multiple of 3"], "e": "even × even has a factor of 2 (in fact of 4), so it is even."},
+{"t": "Find 1 + 3 + 5 + 7.", "n": 16, "k": "1+3+5+7", "e": "The sum of the first n odd numbers is n². Here n = 4, so 4² = 16 — each odd number adds an L-shaped border to a square."},
+{"t": "Find 15².", "n": 225, "k": "15**2", "e": "15 × 15 = 225. (Trick for numbers ending in 5: 1 × 2 = 2, then write 25.)"},
+{"t": "Find √(4/9).", "o": ["2/3", "4/3", "2/9", "16/81"], "k": "F(2,3)", "e": "Take the root of top and bottom: √4/√9 = 2/3. Check: 2/3 × 2/3 = 4/9."},
+{"t": "Which digit can NEVER be the units digit of a perfect square?", "o": ["7", "1", "4", "6"], "e": "Squaring the digits 0–9 gives last digits 0, 1, 4, 9, 6, 5, 6, 9, 4, 1 only — never 2, 3, 7 or 8."}
+]},
+{"q": [
+{"t": "Find √1764.", "n": 42, "k": "1764**F(1,2)", "e": "1764 = 2² × 3² × 7². Take one of each pair: 2 × 3 × 7 = 42."},
+{"t": "What is the smallest number by which 180 must be multiplied to make a perfect square?", "n": 5, "k": "min(n for n in range(1,200) if round((180*n)**0.5)**2==180*n)", "e": "180 = 2² × 3² × 5. The 5 has no partner, so multiply by 5 to complete the pair: 900 = 30²."},
+{"t": "Find √0.09.", "n": 0.3, "k": "F(3,10)", "e": "0.3 × 0.3 = 0.09. (Two decimal places in the square, one in the root.)"},
+{"t": "Find 35².", "n": 1225, "k": "35**2", "e": "For a number ending in 5: 3 × (3 + 1) = 12, then write 25 → 1225."},
+{"t": "How many natural numbers lie between 12² and 13²?", "n": 24, "k": "13**2-12**2-1", "e": "Between n² and (n + 1)² there are 2n numbers: 2 × 12 = 24. (169 − 144 − 1.)"},
+{"t": "Find √(1 9/16).", "o": ["5/4", "1 3/4", "25/16", "3/4"], "k": "F(5,4)", "e": "Change to an improper fraction first: 25/16. Then √25/√16 = 5/4."},
+{"t": "Find the Pythagorean triplet whose smallest member is 8.", "o": ["8, 15, 17", "8, 10, 12", "8, 9, 17", "8, 16, 24"], "k": "8**2+15**2-17**2+8", "e": "Use 2m, m² − 1, m² + 1 with 2m = 8, so m = 4: 8, 15, 17. Check: 64 + 225 = 289 = 17²."},
+{"t": "Find √6.25.", "n": 2.5, "k": "F(5,2)", "e": "625 = 25², and two decimal places halve to one: 2.5."},
+{"t": "What is the smallest number by which 2800 must be divided to get a perfect square?", "n": 7, "k": "min(n for n in range(1,2801) if 2800%n==0 and round((2800//n)**0.5)**2==2800//n)", "e": "2800 = 2⁴ × 5² × 7. Only 7 is unpaired, so divide by 7: 400 = 20²."},
+{"t": "Find 99².", "n": 9801, "k": "99**2", "e": "(100 − 1)² = 10000 − 200 + 1 = 9801."}
+]},
+{"q": [
+{"t": "What is the least number that must be subtracted from 2000 to get a perfect square?", "n": 64, "k": "2000-44**2", "e": "44² = 1936 and 45² = 2025, so the nearest square below is 1936. 2000 − 1936 = 64."},
+{"t": "What is the least number that must be added to 6200 to get a perfect square?", "n": 41, "k": "79**2-6200", "e": "78² = 6084 and 79² = 6241. The next square above is 6241: 6241 − 6200 = 41."},
+{"t": "Find √0.0625.", "n": 0.25, "k": "F(1,4)", "e": "625 = 25². Four decimal places in the square give two in the root: 0.25."},
+{"t": "A square field has area 5184 m². Find its perimeter (in m).", "n": 288, "u": "m", "k": "4*72", "e": "Side = √5184 = 72 m. Perimeter = 4 × 72 = 288 m."},
+{"t": "2025 students stand in rows so that the number of rows equals the number of students in each row. How many rows are there?", "n": 45, "k": "2025**F(1,2)", "e": "rows × rows = 2025, so rows = √2025 = 45."},
+{"t": "Find the least perfect square that is divisible by each of 4, 6 and 10.", "n": 900, "k": "min(n*n for n in range(1,100) if n*n%4==0 and n*n%6==0 and n*n%10==0)", "e": "LCM = 60 = 2² × 3 × 5. To pair up the 3 and the 5, multiply by 15: 900 = 30²."},
+{"t": "Find √(248 + √(52 + √144)).", "n": 16, "k": "(248+(52+12)**F(1,2))**F(1,2)", "e": "Work from the inside: √144 = 12; √(52 + 12) = √64 = 8; √(248 + 8) = √256 = 16."},
+{"t": "Find √1.44 + √0.0144.", "n": 1.32, "k": "F('1.2')+F('0.12')", "e": "1.2 + 0.12 = 1.32."},
+{"t": "How many digits are there in the square root of a 6-digit perfect square?", "n": 3, "e": "Pair the digits from the right: 6 digits make 3 pairs, and each pair gives one digit of the root."},
+{"t": "Find the sum of the first 20 odd natural numbers.", "n": 400, "k": "sum(range(1,40,2))", "e": "The sum of the first n odd numbers is n²: 20² = 400."}
+]},
+{"q": [
+{"t": "Find the greatest 4-digit number that is a perfect square.", "n": 9801, "k": "max(n*n for n in range(1,100))", "e": "100² = 10000 has 5 digits, so the greatest is 99² = 9801."},
+{"t": "Find the smallest 4-digit number that is a perfect square.", "n": 1024, "k": "min(n*n for n in range(1,100) if n*n>=1000)", "e": "31² = 961 (3 digits) and 32² = 1024."},
+{"t": "A general has 8160 soldiers. He arranges them in a solid square and 60 are left over. How many soldiers are in each row?", "n": 90, "k": "(8160-60)**F(1,2)", "e": "8160 − 60 = 8100 soldiers form the square, and √8100 = 90."},
+{"t": "Find √12.25 + √0.25.", "n": 4, "k": "F('3.5')+F('0.5')", "e": "3.5 + 0.5 = 4."},
+{"t": "If √(1 + 25/144) = 1 + x/12, find x.", "n": 1, "k": "(F(13,12)-1)*12", "e": "1 + 25/144 = 169/144, whose root is 13/12 = 1 + 1/12. So x = 1."},
+{"t": "Find 55² − 45².", "n": 1000, "k": "55**2-45**2", "e": "a² − b² = (a + b)(a − b) = 100 × 10 = 1000."},
+{"t": "Given √2 = 1.414, find √50.", "n": 7.07, "k": "5*F('1.414')", "e": "50 = 25 × 2, so √50 = 5 × √2 = 5 × 1.414 = 7.07."},
+{"t": "121 is the sum of how many consecutive odd numbers starting from 1?", "n": 11, "k": "121**F(1,2)", "e": "The first n odd numbers add up to n². 121 = 11², so n = 11."},
+{"t": "A square has the same area as a rectangle 48 m by 27 m. Find the side of the square (in m).", "n": 36, "u": "m", "k": "(48*27)**F(1,2)", "e": "Area = 48 × 27 = 1296 m², and √1296 = 36."},
+{"t": "The product of two positive numbers is 1575 and their quotient is 9/7. Find the larger number.", "n": 45, "k": "9*(F(1575,63))**F(1,2)", "e": "Let them be 9k and 7k: 63k² = 1575, so k² = 25 and k = 5. The larger is 45 (and the other 35)."}
+]}
+]
+}

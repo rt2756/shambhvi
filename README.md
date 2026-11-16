@@ -157,8 +157,10 @@ How it is organised (the same three pieces for every class):
 | Runner | `test.html?c=<N>&f=<chapter>&t=<1–4>` | One shared page that runs any test. |
 | Data | `content/class<N>/tests/<n>.<chapter>.json` + `manifest.json` | One file per chapter, holding its four tests. |
 
-The class-7 chapter list follows the usual **RS Aggarwal / RD Sharma** class-7 order (Integers …
-Probability, 23 chapters). The questions are our own, written in that style — not copied.
+Classes 7 and 8 have tests so far. Their chapter lists follow the usual **RS Aggarwal** order for
+that class (class 7: Integers … Probability, 23 chapters; class 8: Rational Numbers … Probability,
+25 chapters) — so the class-8 tests do **not** match the NCERT chapter names used in the class-8
+notes. The questions are our own, written in that style — not copied.
 
 A question is multiple choice or a number answer:
 

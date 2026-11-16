@@ -1,0 +1,53 @@
+{
+"title": "15. Quadrilaterals",
+"tests": [
+{"q": [
+{"t": "The four angles of a quadrilateral add up to:", "n": 360, "u": "°", "e": "A diagonal cuts it into two triangles, each with 180°."},
+{"t": "How many sides does a quadrilateral have?", "n": 4, "e": "‘Quadri’ means four and ‘lateral’ means side."},
+{"t": "How many diagonals does a quadrilateral have?", "n": 2, "e": "One for each pair of opposite vertices."},
+{"t": "Three angles of a quadrilateral are 80°, 90° and 100°. Find the fourth (in degrees).", "n": 90, "u": "°", "k": "360-80-90-100", "e": "360 − 270 = 90."},
+{"t": "A quadrilateral with all sides equal and every angle 90° is a:", "o": ["Square", "Rhombus", "Rectangle", "Kite"], "e": "A rhombus has equal sides, a rectangle has right angles; a square has both."},
+{"t": "A quadrilateral with exactly one pair of parallel sides is a:", "o": ["Trapezium", "Parallelogram", "Rhombus", "Kite"], "e": "A parallelogram has two pairs of parallel sides; a trapezium has only one."},
+{"t": "How many vertices does a quadrilateral have?", "n": 4, "e": "One at each corner where two sides meet."},
+{"t": "Two sides of a quadrilateral that share a vertex are called:", "o": ["Adjacent sides", "Opposite sides", "Diagonals", "Parallel sides"], "e": "Adjacent means next to each other."},
+{"t": "A quadrilateral in which both pairs of opposite sides are parallel is a:", "o": ["Parallelogram", "Trapezium", "Kite", "Pentagon"], "e": "That is the definition of a parallelogram."},
+{"t": "A kite has:", "o": ["Two pairs of equal adjacent sides", "Two pairs of equal opposite sides", "Four equal sides always", "One pair of parallel sides"], "e": "In a kite the equal sides are next to each other, not opposite."}
+]},
+{"q": [
+{"t": "The angles of a quadrilateral are in the ratio 3 : 4 : 5 : 6. Find the largest (in degrees).", "n": 120, "u": "°", "k": "F(360,18)*6", "e": "18 parts make 360°, so one part is 20° and the largest is 120°."},
+{"t": "Three angles of a quadrilateral are 75° each. Find the fourth (in degrees).", "n": 135, "u": "°", "k": "360-3*75", "e": "360 − 225 = 135."},
+{"t": "The angles of a quadrilateral are x°, (x + 10)°, (x + 20)° and (x + 30)°. Find x.", "n": 75, "k": "F(360-60,4)", "e": "4x + 60 = 360, so x = 75."},
+{"t": "One angle of a quadrilateral is 120° and the other three are equal. Find each of them (in degrees).", "n": 80, "u": "°", "k": "F(360-120,3)", "e": "The other three share 240° equally."},
+{"t": "The angles of a quadrilateral are in the ratio 1 : 2 : 3 : 4. Find the smallest (in degrees).", "n": 36, "u": "°", "k": "F(360,10)", "e": "10 parts make 360°, so one part is 36°."},
+{"t": "In a convex quadrilateral, the diagonals lie:", "o": ["Entirely inside it", "Entirely outside it", "One inside and one outside", "Along the sides"], "e": "Convex means no corner points inwards, so every diagonal stays inside."},
+{"t": "Two angles of a quadrilateral are 70° and 110°, and the other two are equal. Find each (in degrees).", "n": 90, "u": "°", "k": "F(360-180,2)", "e": "The remaining 180° is shared equally."},
+{"t": "The angles of a quadrilateral are (2x + 5)°, (3x − 5)°, (x + 20)° and (4x − 10)°. Find x.", "n": 35, "k": "F(360-10,10)", "e": "10x + 10 = 360, so x = 35."},
+{"t": "The exterior angles of a quadrilateral (one at each vertex) add up to:", "n": 360, "u": "°", "e": "The exterior angles of every convex polygon total one full turn."},
+{"t": "Three angles of a quadrilateral are 90° each. The quadrilateral must be a:", "o": ["Rectangle (possibly a square)", "Trapezium only", "Kite", "Rhombus that is not a square"], "e": "The fourth angle is 360 − 270 = 90°, so all four are right angles."}
+]},
+{"q": [
+{"t": "In quadrilateral ABCD, ∠C = 100° and ∠D = 60°. The bisectors of ∠A and ∠B meet at P. Find ∠APB (in degrees).", "n": 80, "u": "°", "k": "F(100+60,2)", "e": "∠A + ∠B = 360 − 160 = 200°, so their halves add to 100°. In △APB the third angle is 180 − 100 = 80° — half of (∠C + ∠D)."},
+{"t": "Three angles of a quadrilateral are in the ratio 1 : 2 : 3 and the fourth is 120°. Find the largest of the three (in degrees).", "n": 120, "u": "°", "k": "F(240,6)*3", "e": "The three share 360 − 120 = 240°. 6 parts → 40° each, so the largest is 120°."},
+{"t": "In a quadrilateral, ∠A = ∠B + 20°, ∠C = ∠B + 40° and ∠D = ∠B + 60°. Find ∠D (in degrees).", "n": 120, "u": "°", "k": "F(360-120,4)+60", "e": "4∠B + 120 = 360, so ∠B = 60° and ∠D = 120°."},
+{"t": "Two adjacent angles of a quadrilateral add up to 150°. The other two are in the ratio 3 : 4. Find the larger of these (in degrees).", "n": 120, "u": "°", "k": "F(210,7)*4", "e": "The other two share 210°: 7 parts of 30°, so 90° and 120°."},
+{"t": "In kite ABCD, AB = AD and CB = CD. ∠B = 110° and ∠A = 60°. Find ∠C (in degrees).", "n": 80, "u": "°", "k": "360-110-110-60", "e": "The kite is symmetric about AC, so ∠D = ∠B = 110°. Then ∠C = 360 − 220 − 60 = 80."},
+{"t": "In trapezium ABCD, AB ∥ DC, ∠A = 65° and ∠B = 85°. Find ∠C (in degrees).", "n": 95, "u": "°", "k": "180-85", "e": "BC is a transversal of the parallel sides, so ∠B + ∠C = 180°: ∠C = 95."},
+{"t": "In an isosceles trapezium, each base angle on the longer parallel side is 70°. Find each angle on the shorter parallel side (in degrees).", "n": 110, "u": "°", "k": "180-70", "e": "Angles on the same leg between the parallel sides are co-interior: 180 − 70 = 110."},
+{"t": "Can all four angles of a quadrilateral be acute?", "o": ["No — they would add up to less than 360°", "Yes, in a kite", "Yes, in a trapezium", "Only if it is concave"], "e": "Four angles each under 90° total less than 360°, but the sum must be exactly 360°."},
+{"t": "A concave quadrilateral has:", "o": ["One angle greater than 180°", "All angles less than 90°", "Two right angles", "Angles adding to more than 360°"], "e": "One vertex is pushed inwards, making a reflex angle there. The total is still 360°."},
+{"t": "At one vertex of a quadrilateral the exterior angle is 70°. Find the interior angle there (in degrees).", "n": 110, "u": "°", "k": "180-70", "e": "Interior + exterior = 180°."}
+]},
+{"q": [
+{"t": "In quadrilateral ABCD, ∠A + ∠B = 220°. The bisectors of ∠C and ∠D meet at O. Find ∠COD (in degrees).", "n": 110, "u": "°", "k": "180-F(360-220,2)", "e": "∠C + ∠D = 140°, halves add to 70°, so ∠COD = 180 − 70 = 110° — half of (∠A + ∠B)."},
+{"t": "The angles of a quadrilateral are (x + 20)°, (x − 20)°, (2x + 5)° and (2x − 5)°. Find the largest angle (in degrees).", "n": 125, "u": "°", "k": "2*60+5", "e": "6x = 360, so x = 60. The angles are 80°, 40°, 125° and 115°."},
+{"t": "Three exterior angles of a quadrilateral are 2x°, 3x° and 4x°, and the fourth is 90°. Find the smallest INTERIOR angle (in degrees).", "n": 60, "u": "°", "k": "180-4*F(270,9)", "e": "9x + 90 = 360, so x = 30. The largest exterior angle is 120°, so the smallest interior angle is 60°."},
+{"t": "In a quadrilateral, ∠A + ∠C = 200° and ∠B = 3 × ∠D. Find ∠B (in degrees).", "n": 120, "u": "°", "k": "F(160,4)*3", "e": "∠B + ∠D = 160°, so 4∠D = 160, ∠D = 40° and ∠B = 120°."},
+{"t": "In kite ABCD, AB = AD and CB = CD. ∠A = 90° and ∠C = 50°. Find ∠B (in degrees).", "n": 110, "u": "°", "k": "F(360-90-50,2)", "e": "∠B = ∠D by symmetry, and together they make 360 − 140 = 220°."},
+{"t": "In trapezium ABCD, AB ∥ DC and ∠A : ∠D = 2 : 3. Find ∠D (in degrees).", "n": 108, "u": "°", "k": "F(180,5)*3", "e": "∠A + ∠D = 180° (co-interior). 5 parts → 36° each, so ∠D = 108°."},
+{"t": "The four angles of a quadrilateral are consecutive multiples of 12. Find the largest (in degrees).", "n": 108, "u": "°", "k": "F(360-72,4)+36", "e": "a + (a + 12) + (a + 24) + (a + 36) = 360 → 4a = 288 → a = 72. Angles: 72°, 84°, 96°, 108°."},
+{"t": "The bisectors of the four angles of a parallelogram (not a rhombus) enclose a:", "o": ["Rectangle", "Rhombus", "Trapezium", "Kite"], "e": "Adjacent angles add to 180°, so their bisectors meet at 90°. Four right angles make a rectangle."},
+{"t": "For a convex quadrilateral, what is the sum of ALL its interior and exterior angles (one exterior at each vertex), in degrees?", "n": 720, "u": "°", "k": "4*180", "e": "Each vertex contributes interior + exterior = 180°. Four vertices: 720°."},
+{"t": "In quadrilateral ABCD, AB ∥ DC and AD ∥ BC. ∠A = (3x + 10)° and ∠B = (2x + 20)°. Find ∠C (in degrees).", "n": 100, "u": "°", "k": "3*30+10", "e": "It is a parallelogram: ∠A + ∠B = 180 gives 5x + 30 = 180, x = 30. ∠C = ∠A = 100°."}
+]}
+]
+}

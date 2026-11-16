@@ -1,0 +1,53 @@
+{
+"title": "4. Cubes and Cube Roots",
+"tests": [
+{"q": [
+{"t": "Find 4³.", "n": 64, "k": "4**3", "e": "4 × 4 × 4 = 64 — the number of unit cubes in a 4 by 4 by 4 cube."},
+{"t": "Find ∛27.", "n": 3, "k": "round(27**(1/3))", "e": "The cube root undoes cubing: 3 × 3 × 3 = 27."},
+{"t": "Find (−2)³.", "n": -8, "k": "(-2)**3", "e": "(−2) × (−2) = 4, and 4 × (−2) = −8. Three negatives leave one unpaired, so the cube stays negative."},
+{"t": "The cube of an odd number is always:", "o": ["Odd", "Even", "A multiple of 3", "Prime"], "e": "odd × odd × odd has no factor of 2, so it stays odd."},
+{"t": "Find ∛125.", "n": 5, "k": "round(125**(1/3))", "e": "5 × 5 × 5 = 125."},
+{"t": "Find 10³.", "n": 1000, "k": "10**3", "e": "10 × 10 × 10 = 1000."},
+{"t": "Is 100 a perfect cube?", "o": ["No — it lies between 4³ = 64 and 5³ = 125", "Yes, because 100 = 10²", "Yes, because it ends in zeros", "No, because it is even"], "e": "A perfect cube is a whole number multiplied by itself three times. 100 falls between 64 and 125."},
+{"t": "Find ∛(−64).", "n": -4, "k": "-round(64**(1/3))", "e": "(−4) × (−4) × (−4) = −64. Negative numbers DO have cube roots (unlike square roots)."},
+{"t": "What is the units digit of 7³?", "n": 3, "k": "7**3%10", "e": "7 × 7 = 49, and 9 × 7 = 63, so the last digit is 3. (7³ = 343.)"},
+{"t": "Find (1/2)³.", "o": ["1/8", "1/6", "3/2", "3/8"], "k": "F(1,2)**3", "e": "Cube the top and the bottom: 1³/2³ = 1/8."}
+]},
+{"q": [
+{"t": "Find ∛1728.", "n": 12, "k": "round(1728**(1/3))", "e": "1728 = 2⁶ × 3³. Take one from each group of three: 2² × 3 = 12."},
+{"t": "What is the smallest number by which 72 must be multiplied to make a perfect cube?", "n": 3, "k": "min(n for n in range(1,100) if round((72*n)**(1/3))**3==72*n)", "e": "72 = 2³ × 3². The 3s need one more to make a triple, so multiply by 3: 216 = 6³."},
+{"t": "Find ∛(8/125).", "o": ["2/5", "8/5", "2/25", "4/25"], "k": "F(2,5)", "e": "Take the cube root of top and bottom: ∛8/∛125 = 2/5."},
+{"t": "Find ∛0.008.", "n": 0.2, "k": "F(2,10)", "e": "0.2 × 0.2 × 0.2 = 0.008. Three decimal places in the cube give one in the root."},
+{"t": "What is the smallest number by which 192 must be divided to get a perfect cube?", "n": 3, "k": "min(n for n in range(1,193) if 192%n==0 and round((192//n)**(1/3))**3==192//n)", "e": "192 = 2⁶ × 3. The single 3 is left over, so divide by 3: 64 = 4³."},
+{"t": "Find 11³.", "n": 1331, "k": "11**3", "e": "11 × 11 = 121, and 121 × 11 = 1331."},
+{"t": "Find ∛(−343).", "n": -7, "k": "-round(343**(1/3))", "e": "7³ = 343, so (−7)³ = −343."},
+{"t": "Find ∛(27 × 64).", "n": 12, "k": "3*4", "e": "∛(a × b) = ∛a × ∛b = 3 × 4 = 12."},
+{"t": "4913 is a perfect cube. What is the units digit of its cube root?", "n": 7, "k": "17%10", "e": "Only a number ending in 7 has a cube ending in 3 (7³ = 343). The root is 17."},
+{"t": "Find the volume of a cube of side 9 cm (in cm³).", "n": 729, "u": "cm³", "k": "9**3", "e": "Volume = side³ = 9 × 9 × 9 = 729."}
+]},
+{"q": [
+{"t": "Find ∛(−1728/2744).", "o": ["−6/7", "6/7", "−12/7", "−3/7"], "k": "F(-12,14)", "e": "∛1728 = 12 and ∛2744 = 14, so the root is −12/14 = −6/7."},
+{"t": "A cube has volume 2197 cm³. Find its total surface area (in cm²).", "n": 1014, "u": "cm²", "k": "6*13*13", "e": "Side = ∛2197 = 13 cm. Six square faces: 6 × 13² = 6 × 169 = 1014."},
+{"t": "Find ∛0.001728.", "n": 0.12, "k": "F(12,100)", "e": "1728 = 12³, and six decimal places in the cube give two in the root: 0.12."},
+{"t": "Three numbers are in the ratio 1 : 2 : 3 and the sum of their cubes is 972. Find the largest number.", "n": 9, "k": "3*round((972/36)**(1/3))", "e": "k³ + 8k³ + 27k³ = 36k³ = 972, so k³ = 27 and k = 3. The largest is 3k = 9."},
+{"t": "What is the smallest number by which 3600 must be multiplied to make a perfect cube?", "n": 60, "k": "min(n for n in range(1,500) if round((3600*n)**(1/3))**3==3600*n)", "e": "3600 = 2⁴ × 3² × 5². To reach triples (2⁶ × 3³ × 5³) we need 2² × 3 × 5 = 60."},
+{"t": "Find ∛(216 × (−125)).", "n": -30, "k": "6*-5", "e": "∛216 = 6 and ∛(−125) = −5. Product: −30."},
+{"t": "7 + 9 + 11 is the cube of which number?", "n": 3, "k": "round((7+9+11)**(1/3))", "e": "7 + 9 + 11 = 27 = 3³. (n³ is the sum of n consecutive odd numbers.)"},
+{"t": "12167 is a perfect cube. Find its cube root.", "n": 23, "k": "round(12167**(1/3))", "e": "Units digit 7 → the root ends in 3. The leading group 12 lies between 2³ = 8 and 3³ = 27 → tens digit 2. So 23."},
+{"t": "Find the difference between the cubes of 5 and 3.", "n": 98, "k": "5**3-3**3", "e": "125 − 27 = 98."},
+{"t": "How many cubes of side 3 cm fit inside a cube of side 12 cm?", "n": 64, "k": "(12//3)**3", "e": "4 fit along each edge (12 ÷ 3), so 4 × 4 × 4 = 64."}
+]},
+{"q": [
+{"t": "A cuboid 16 cm × 8 cm × 4 cm is melted and recast as a cube. Find the side of the cube (in cm).", "n": 8, "u": "cm", "k": "round((16*8*4)**(1/3))", "e": "Volume stays the same: 16 × 8 × 4 = 512 cm³, and ∛512 = 8."},
+{"t": "What is the least number that must be subtracted from 350 to get a perfect cube?", "n": 7, "k": "350-7**3", "e": "The nearest cube below 350 is 7³ = 343. 350 − 343 = 7."},
+{"t": "Three numbers are in the ratio 2 : 3 : 4 and the sum of their cubes is 33957. Find the smallest number.", "n": 14, "k": "2*round((33957/99)**(1/3))", "e": "8k³ + 27k³ + 64k³ = 99k³ = 33957, so k³ = 343 and k = 7. Smallest = 2 × 7 = 14."},
+{"t": "Find ∛0.000216 ÷ ∛0.008.", "n": 0.3, "k": "F('0.06')/F('0.2')", "e": "0.06 ÷ 0.2 = 0.3."},
+{"t": "Find ∛27 + ∛0.008 + ∛0.064.", "n": 3.6, "k": "3+F('0.2')+F('0.4')", "e": "3 + 0.2 + 0.4 = 3.6."},
+{"t": "Each side of a cube is doubled. Its volume becomes:", "o": ["8 times", "2 times", "4 times", "6 times"], "e": "(2s)³ = 8s³. Doubling happens in all three directions: 2 × 2 × 2."},
+{"t": "Find √(1³ + 2³ + 3³ + 4³ + 5³).", "n": 15, "k": "(sum(i**3 for i in range(1,6)))**F(1,2)", "e": "1 + 8 + 27 + 64 + 125 = 225 = 15². (The sum of the first n cubes is always (1 + 2 + … + n)².)"},
+{"t": "Find ∛(a⁶b⁹).", "o": ["a²b³", "a³b⁶", "a²b⁶", "a¹⁸b²⁷"], "e": "A cube root divides each exponent by 3: 6 ÷ 3 = 2 and 9 ÷ 3 = 3."},
+{"t": "How many cuboids of size 5 cm × 2 cm × 5 cm are needed to build the smallest possible cube?", "n": 20, "k": "F(10**3,5*2*5)", "e": "The cube’s side must be a multiple of 5 and 2: the smallest is 10 cm. 1000 ÷ 50 = 20 cuboids."},
+{"t": "Find ∛(3 3/8).", "o": ["3/2", "9/8", "27/8", "1 1/8"], "k": "F(3,2)", "e": "3 3/8 = 27/8, and ∛27/∛8 = 3/2."}
+]}
+]
+}

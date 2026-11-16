@@ -1,0 +1,53 @@
+{
+"title": "8. Linear Equations",
+"tests": [
+{"q": [
+{"t": "Solve: 2x + 5 = 17", "n": 6, "k": "F(17-5,2)", "e": "Undo in reverse order: subtract 5 (2x = 12), then divide by 2."},
+{"t": "Solve: x/3 − 2 = 4", "n": 18, "k": "(4+2)*3", "e": "Add 2: x/3 = 6. Multiply by 3: x = 18."},
+{"t": "Solve: 5x − 3 = 3x + 7", "n": 5, "k": "F(7+3,5-3)", "e": "Bring the x terms together: 5x − 3x = 7 + 3, so 2x = 10."},
+{"t": "Solve: 3(x − 4) = 15", "n": 9, "k": "F(15,3)+4", "e": "Divide both sides by 3: x − 4 = 5, so x = 9."},
+{"t": "Solve: 7 − 2x = 1", "n": 3, "k": "F(7-1,2)", "e": "−2x = 1 − 7 = −6, so x = 3."},
+{"t": "Solve: x + x/2 = 9", "n": 6, "k": "9/F(3,2)", "e": "x + x/2 = 3x/2 = 9, so x = 9 × 2/3 = 6."},
+{"t": "Solve: 4x = −20", "n": -5, "k": "F(-20,4)", "e": "Divide both sides by 4."},
+{"t": "Solve: (x + 1)/2 = 5", "n": 9, "k": "5*2-1", "e": "Multiply by 2: x + 1 = 10."},
+{"t": "Solve: 0.5x = 6", "n": 12, "k": "6/F(1,2)", "e": "Half of x is 6, so x is 12."},
+{"t": "Solve: 10 − x = 2x + 1", "n": 3, "k": "F(10-1,3)", "e": "Add x to both sides: 10 = 3x + 1, so 3x = 9."}
+]},
+{"q": [
+{"t": "Solve: (2x − 1)/3 = (x + 2)/2", "n": 8, "k": "6+2", "e": "Cross-multiply (multiply both sides by 6): 2(2x − 1) = 3(x + 2) → 4x − 2 = 3x + 6 → x = 8."},
+{"t": "Solve: (3x + 5)/(2x + 1) = 2", "n": 3, "k": "5-2", "e": "Multiply both sides by (2x + 1): 3x + 5 = 4x + 2, so x = 3."},
+{"t": "Solve: x/2 − x/5 = 6", "n": 20, "k": "6/(F(1,2)-F(1,5))", "e": "Multiply by 10: 5x − 2x = 60, so 3x = 60."},
+{"t": "Solve: 5(2x − 3) − 3(3x − 7) = 5", "n": -1, "k": "5+15-21", "e": "10x − 15 − 9x + 21 = 5 → x + 6 = 5 → x = −1."},
+{"t": "Solve: 0.5x + 1.5 = 0.25x + 3", "n": 6, "k": "F('1.5')/F('0.25')", "e": "0.25x = 1.5, so x = 6."},
+{"t": "Solve: (x − 5)/2 − (x − 3)/5 = 1/2", "n": 8, "k": "F(5+25-6,3)", "e": "Multiply by 10: 5(x − 5) − 2(x − 3) = 5 → 3x − 19 = 5 → x = 8."},
+{"t": "The sum of two consecutive even numbers is 86. Find the smaller one.", "n": 42, "k": "F(86-2,2)", "e": "x + (x + 2) = 86 → 2x = 84 → x = 42."},
+{"t": "Solve: (3x − 2)/4 = (2x + 3)/3", "n": 18, "k": "12+6", "e": "Cross-multiply: 3(3x − 2) = 4(2x + 3) → 9x − 6 = 8x + 12 → x = 18."},
+{"t": "A number added to its half gives 72. Find the number.", "n": 48, "k": "72/F(3,2)", "e": "x + x/2 = 3x/2 = 72, so x = 48."},
+{"t": "The supplement of an angle is 4 times its complement. Find the angle (in degrees).", "n": 60, "u": "°", "k": "F(360-180,3)", "e": "180 − x = 4(90 − x) → 180 − x = 360 − 4x → 3x = 180 → x = 60."}
+]},
+{"q": [
+{"t": "The digits of a two-digit number add up to 12. Reversing the digits makes the number 18 larger. Find the number.", "n": 57, "k": "[n for n in range(10,100) if n//10+n%10==12 and (n%10*10+n//10)-n==18][0]", "e": "Tens digit a, units 12 − a. Reversed − original = 9(units − tens) = 18, so units − tens = 2: digits 5 and 7."},
+{"t": "A father is 4 times as old as his son. In 20 years he will be twice as old. How old is the father now?", "n": 40, "u": "years", "k": "4*10", "e": "Son s, father 4s: 4s + 20 = 2(s + 20) → 2s = 20 → s = 10, father 40."},
+{"t": "Solve: (x + 1)/(2x + 3) = 3/8", "n": 0.5, "k": "F(9-8,2)", "e": "Cross-multiply: 8x + 8 = 6x + 9 → 2x = 1 → x = 1/2."},
+{"t": "A rectangle’s length is 7 cm more than its breadth. If the length is decreased by 4 cm and the breadth increased by 3 cm, the area is unchanged. Find the length (in cm).", "n": 16, "u": "cm", "k": "9+7", "e": "Breadth b: b(b + 7) = (b + 3)(b + 3) → b² + 7b = b² + 6b + 9 → b = 9. Length = 16."},
+{"t": "184 is split into two parts so that one-third of the first part is 8 more than one-seventh of the second. Find the first part.", "n": 72, "k": "F(168+552,10)", "e": "x/3 − (184 − x)/7 = 8. Multiply by 21: 7x − 552 + 3x = 168 → 10x = 720 → x = 72."},
+{"t": "A motorboat covers a distance downstream in 5 hours and returns upstream in 6 hours. The stream flows at 2 km/h. Find the boat’s speed in still water (in km/h).", "n": 22, "u": "km/h", "k": "F(12+10,1)", "e": "Same distance both ways: 5(v + 2) = 6(v − 2) → 5v + 10 = 6v − 12 → v = 22."},
+{"t": "A purse has 50 coins, some ₹5 and the rest ₹2, worth ₹160 in all. How many ₹5 coins are there?", "n": 20, "k": "F(160-100,3)", "e": "5a + 2(50 − a) = 160 → 3a + 100 = 160 → a = 20."},
+{"t": "Three consecutive multiples of 7 add up to 777. Find the largest of them.", "n": 266, "k": "F(777,3)+7", "e": "The middle one is 777 ÷ 3 = 259, so they are 252, 259, 266."},
+{"t": "Solve: (x − 1)/2 + (x − 2)/3 + (x − 3)/4 = 7/2", "n": 5, "k": "F(42+23,13)", "e": "Multiply by 12: 6(x − 1) + 4(x − 2) + 3(x − 3) = 42 → 13x − 23 = 42 → x = 5."},
+{"t": "One number is 3/5 of another and their sum is 64. Find the smaller number.", "n": 24, "k": "64/F(8,5)*F(3,5)", "e": "x + 3x/5 = 8x/5 = 64, so x = 40 and the smaller is 3/5 of 40 = 24."}
+]},
+{"q": [
+{"t": "Five years ago A was 3 times as old as B. Ten years from now A will be twice as old as B. How old is A now?", "n": 50, "u": "years", "k": "3*20-10", "e": "A − 5 = 3(B − 5) gives A = 3B − 10. Then (3B − 10) + 10 = 2(B + 10) → B = 20, so A = 50."},
+{"t": "In a two-digit number the tens digit is 3 times the units digit. The number is 36 more than the number with its digits reversed. Find the number.", "n": 62, "k": "[n for n in range(10,100) if n//10==3*(n%10) and n-(n%10*10+n//10)==36][0]", "e": "Difference = 9(tens − units) = 36, so tens − units = 4. With tens = 3 × units: units = 2, tens = 6."},
+{"t": "Solve for the positive value of x: (x² − 9)/(5 + x²) = −5/9", "n": 2, "k": "(F(56,14))**F(1,2)", "e": "Cross-multiply: 9x² − 81 = −25 − 5x² → 14x² = 56 → x² = 4 → x = 2."},
+{"t": "A steamer goes downstream in 4 hours and returns in 5 hours. The stream flows at 1 km/h. Find the distance one way (in km).", "n": 40, "u": "km", "k": "4*(9+1)", "e": "4(v + 1) = 5(v − 1) → v = 9 km/h. Distance = 4 × 10 = 40 km."},
+{"t": "The denominator of a rational number is 8 more than its numerator. If the numerator is increased by 17 and the denominator decreased by 1, the result is 3/2. Find the number.", "o": ["13/21", "5/13", "7/15", "21/13"], "k": "F(13,21)", "e": "(n + 17)/(n + 7) = 3/2 → 2n + 34 = 3n + 21 → n = 13. The number is 13/21."},
+{"t": "₹4200 is made up of ₹50, ₹20 and ₹10 notes whose numbers are in the ratio 2 : 3 : 5. How many ₹20 notes are there?", "n": 60, "k": "3*F(4200,210)", "e": "With 2k, 3k and 5k notes the value is 100k + 60k + 50k = 210k = 4200, so k = 20. ₹20 notes: 3k = 60."},
+{"t": "A rectangle’s length is twice its breadth. If the length is decreased by 5 m and the breadth increased by 5 m, the area increases by 75 m². Find the length (in m).", "n": 40, "u": "m", "k": "2*F(75+25,5)", "e": "(2b − 5)(b + 5) = 2b² + 75 → 2b² + 5b − 25 = 2b² + 75 → b = 20. Length = 40."},
+{"t": "The sum of three consecutive odd numbers is 20 more than the smallest of them. Find the largest.", "n": 11, "k": "7+4", "e": "x + (x + 2) + (x + 4) = x + 20 → 2x = 14 → x = 7. The numbers are 7, 9, 11."},
+{"t": "Solve: (x − 3)/4 + (x − 1)/5 − (x − 2)/3 = 1", "n": 11, "k": "F(60+45+12-40,7)", "e": "Multiply by 60: 15(x − 3) + 12(x − 1) − 20(x − 2) = 60 → 7x − 17 = 60 → x = 11."},
+{"t": "A man leaves half of his property to his wife, one-third to his son and the remaining ₹25,000 to his daughter. Find the total value of the property (in ₹).", "n": 150000, "u": "₹", "k": "25000/(1-F(1,2)-F(1,3))", "e": "1/2 + 1/3 = 5/6, so the daughter gets 1/6 of the total. 6 × 25,000 = 1,50,000."}
+]}
+]
+}

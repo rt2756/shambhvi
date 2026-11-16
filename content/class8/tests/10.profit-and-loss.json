@@ -1,0 +1,53 @@
+{
+"title": "10. Profit and Loss, Discount and Tax",
+"tests": [
+{"q": [
+{"t": "CP = ₹400 and SP = ₹460. Find the profit percent.", "n": 15, "u": "%", "k": "F(60,400)*100", "e": "Profit = 60, measured on the cost price: 60/400 = 15%."},
+{"t": "Marked price = ₹500 and discount = 10%. Find the selling price (in ₹).", "n": 450, "u": "₹", "k": "500*F(90,100)", "e": "Discount = 10% of 500 = 50. SP = 500 − 50 = 450."},
+{"t": "Discount is equal to:", "o": ["Marked price − selling price", "Selling price − cost price", "Cost price − selling price", "Marked price − cost price"], "e": "A discount is the amount taken off the price printed on the tag."},
+{"t": "CP = ₹250 and the loss is 20%. Find the SP (in ₹).", "n": 200, "u": "₹", "k": "250*F(80,100)", "e": "Loss = 20% of 250 = 50. SP = 200."},
+{"t": "Find a 25% discount on a marked price of ₹800 (in ₹).", "n": 200, "u": "₹", "k": "800*F(25,100)", "e": "25% is a quarter: 800 ÷ 4 = 200."},
+{"t": "SP = ₹1200 and the profit is 20%. Find the CP (in ₹).", "n": 1000, "u": "₹", "k": "1200/F(120,100)", "e": "SP is 120% of CP: 1200 ÷ 1.2 = 1000."},
+{"t": "An article is priced at ₹600 and 5% tax is added. Find the bill amount (in ₹).", "n": 630, "u": "₹", "k": "600*F(105,100)", "e": "Tax = 5% of 600 = 30, added on: 630."},
+{"t": "Discount percent is always calculated on the:", "o": ["Marked price", "Cost price", "Selling price", "Profit"], "e": "The discount is offered on the price shown to the customer — the marked (list) price."},
+{"t": "CP = ₹80 and SP = ₹100. Find the profit percent.", "n": 25, "u": "%", "k": "F(20,80)*100", "e": "Profit 20 on a cost of 80: 20/80 = 25% (not 20% — the base is CP)."},
+{"t": "Marked price = ₹1000 and SP = ₹850. Find the discount percent.", "n": 15, "u": "%", "k": "F(150,1000)*100", "e": "Discount = 150 on a marked price of 1000 = 15%."}
+]},
+{"q": [
+{"t": "Marked price = ₹1600 and discount = 15%. Find the SP (in ₹).", "n": 1360, "u": "₹", "k": "1600*F(85,100)", "e": "The buyer pays 85%: 0.85 × 1600 = 1360."},
+{"t": "After a 15% discount an article sells for ₹2040. Find the marked price (in ₹).", "n": 2400, "u": "₹", "k": "2040/F(85,100)", "e": "2040 is 85% of the marked price: 2040 ÷ 0.85 = 2400."},
+{"t": "Successive discounts of 20% and 10% are given on ₹1000. Find the final price (in ₹).", "n": 720, "u": "₹", "k": "1000*F(80,100)*F(90,100)", "e": "1000 → 800 (20% off) → 720 (10% off 800). The second discount applies to the reduced price, so it is not 30% in all."},
+{"t": "An article costing ₹1500 is marked 20% above cost and sold at a 10% discount. Find the profit percent.", "n": 8, "u": "%", "k": "(F(120,100)*F(90,100)-1)*100", "e": "MP = 1800. SP = 90% of 1800 = 1620. Profit = 120 on 1500 = 8%."},
+{"t": "A bill of ₹2240 includes 12% tax. Find the price before tax (in ₹).", "n": 2000, "u": "₹", "k": "2240/F(112,100)", "e": "2240 is 112% of the price: 2240 ÷ 1.12 = 2000."},
+{"t": "The cost price of 12 articles equals the selling price of 15. Find the loss percent.", "n": 20, "u": "%", "k": "F(15-12,15)*100", "e": "Let each cost ₹1. 15 articles cost ₹15 but sell for ₹12: loss 3 on 15 = 20%."},
+{"t": "A grocer mixes 80 kg of rice at ₹13.50 per kg with 120 kg at ₹16 per kg and sells the mixture at ₹18 per kg. Find his gain percent.", "n": 20, "u": "%", "k": "(200*18/(80*F('13.5')+120*16)-1)*100", "e": "CP = 1080 + 1920 = 3000. SP = 200 × 18 = 3600. Gain 600 on 3000 = 20%."},
+{"t": "An article is sold for ₹4800 at a loss of 4%. Find the CP (in ₹).", "n": 5000, "u": "₹", "k": "4800/F(96,100)", "e": "SP is 96% of CP: 4800 ÷ 0.96 = 5000."},
+{"t": "After a discount of 12.5% an article sells for ₹1750. Find the marked price (in ₹).", "n": 2000, "u": "₹", "k": "1750/F('0.875')", "e": "12.5% = 1/8, so the SP is 7/8 of the marked price: 1750 × 8/7 = 2000."},
+{"t": "What single discount equals successive discounts of 10% and 10%?", "n": 19, "u": "%", "k": "(1-F(9,10)**2)*100", "e": "100 → 90 → 81. Total reduction = 19%."}
+]},
+{"q": [
+{"t": "A trader marks goods 40% above cost and gives a 25% discount. Find his profit percent.", "n": 5, "u": "%", "k": "(F(140,100)*F(75,100)-1)*100", "e": "CP 100 → MP 140 → SP = 75% of 140 = 105. Profit 5%."},
+{"t": "A dealer gives a 10% discount and still gains 20%. The article cost him ₹600. Find the marked price (in ₹).", "n": 800, "u": "₹", "k": "600*F(120,100)/F(90,100)", "e": "SP = 120% of 600 = 720, which is 90% of the marked price: 720 ÷ 0.9 = 800."},
+{"t": "Successive discounts of 20% and x% equal a single discount of 28%. Find x.", "n": 10, "k": "(1-F(72,80))*100", "e": "0.8 × (1 − x/100) = 0.72 → 1 − x/100 = 0.9 → x = 10."},
+{"t": "An article is sold at a loss of 12%. If it had sold for ₹60 more, there would have been a gain of 8%. Find the CP (in ₹).", "n": 300, "u": "₹", "k": "60/F(20,100)", "e": "From −12% to +8% is 20% of CP = 60, so CP = 300."},
+{"t": "List price ₹2500, discount 10%, then 8% tax on the discounted price. Find the amount paid (in ₹).", "n": 2430, "u": "₹", "k": "2500*F(90,100)*F(108,100)", "e": "After discount: 2250. Tax = 8% of 2250 = 180. Total 2430."},
+{"t": "Two articles are sold for ₹1955 each, one at a gain of 15% and the other at a loss of 15%. Find the overall loss percent.", "n": 2.25, "u": "%", "k": "(1-F(3910,1700+2300))*100", "e": "CPs: 1955 ÷ 1.15 = 1700 and 1955 ÷ 0.85 = 2300 — total 4000. SP = 3910. Loss 90 on 4000 = 2.25%."},
+{"t": "By selling 33 m of cloth a merchant gains the selling price of 11 m. Find his gain percent.", "n": 50, "u": "%", "k": "F(11,33-11)*100", "e": "Take SP as ₹1 per metre: SP = 33, gain = 11, so CP = 22. Gain % = 11/22 = 50%."},
+{"t": "A machine is bought for ₹3000, ₹600 is spent on repairs, and it is sold for ₹4500. Find the gain percent.", "n": 25, "u": "%", "k": "F(4500-3600,3600)*100", "e": "Total cost = 3600. Gain = 900. 900/3600 = 25%."},
+{"t": "CP = ₹1250 and the required gain is 16%. Find the SP (in ₹).", "n": 1450, "u": "₹", "k": "1250*F(116,100)", "e": "16% of 1250 = 200. SP = 1450."},
+{"t": "An article marked ₹250 is sold at a 16% discount, and the seller still makes a 5% profit. Find the CP (in ₹).", "n": 200, "u": "₹", "k": "250*F(84,100)/F(105,100)", "e": "SP = 84% of 250 = 210 = 105% of CP, so CP = 200."}
+]},
+{"q": [
+{"t": "Goods are marked 50% above cost, then given successive discounts of 20% and 10%. Find the profit percent.", "n": 8, "u": "%", "k": "(F(150,100)*F(80,100)*F(90,100)-1)*100", "e": "CP 100 → MP 150 → 120 → 108. Profit 8%."},
+{"t": "A retailer buys goods at a 20% discount on the list price of ₹5000 and sells them at the list price. Find his profit percent.", "n": 25, "u": "%", "k": "F(5000-4000,4000)*100", "e": "He pays 4000 and sells for 5000: profit 1000 on 4000 = 25% (the base is his cost, not the list price)."},
+{"t": "A sells to B at a 10% profit, and B sells to C at a 5% loss. C pays ₹1672. What did A pay (in ₹)?", "n": 1600, "u": "₹", "k": "1672/F(95,100)/F(110,100)", "e": "B paid 1672 ÷ 0.95 = 1760. A paid 1760 ÷ 1.1 = 1600."},
+{"t": "A dishonest dealer sells at cost price but uses a 900 g weight for 1 kg. Find his gain percent.", "o": ["11 1/9%", "10%", "9 1/11%", "12 1/2%"], "k": "F(100,900)*100", "e": "He gives 900 g but is paid for 1000 g. Gain = 100 g on the 900 g he actually parts with: 100/900 = 11 1/9%."},
+{"t": "A customer pays ₹1320 including 10% tax. The shopkeeper’s profit is 20%. Find the shopkeeper’s cost price (in ₹).", "n": 1000, "u": "₹", "k": "1320/F(110,100)/F(120,100)", "e": "Price before tax = 1320 ÷ 1.1 = 1200. That is 120% of cost, so CP = 1000."},
+{"t": "An article sold at a 20% discount gives a profit of 12%. What would the profit percent be with no discount?", "n": 40, "u": "%", "k": "(F(112,80)-1)*100", "e": "0.8 × MP = 1.12 × CP, so MP = 1.4 × CP. Selling at MP gives 40% profit."},
+{"t": "Two horses cost ₹16,000 altogether. They are sold for the same price, one at a gain of 20% and the other at a loss of 20%. Find the total loss (in ₹).", "n": 640, "u": "₹", "k": "16000-2*(16000/(F(10,12)+F(10,8)))", "e": "If each sells for s, the costs are s/1.2 and s/0.8, totalling 25s/12 = 16,000, so s = 7680. Total SP = 15,360: a loss of 640."},
+{"t": "‘Buy 3, get 1 free’ is the same as a discount of what percent?", "n": 25, "u": "%", "k": "F(1,4)*100", "e": "You take 4 items but pay for 3 — one out of four is free: 1/4 = 25%."},
+{"t": "A profit of 20% reckoned on the SELLING price is what percent of the cost price?", "n": 25, "u": "%", "k": "F(20,80)*100", "e": "If SP = 100, profit = 20 and CP = 80. On the cost price: 20/80 = 25%."},
+{"t": "An article costs ₹1000. The trader wants a 17% profit after giving a 10% discount. What should the marked price be (in ₹)?", "n": 1300, "u": "₹", "k": "1000*F(117,100)/F(90,100)", "e": "He needs SP = 1170, which must be 90% of the marked price: 1170 ÷ 0.9 = 1300."}
+]}
+]
+}

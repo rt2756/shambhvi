@@ -59,7 +59,7 @@ def check_file(path, problems):
                     problems.append(f"{where}: k failed: {ex}"); continue
                 if target is None:
                     problems.append(f"{where}: k given but option has no number: {q['o'][0]!r}")
-                elif (F(str(got)) if isinstance(got, float) else F(got)) != target:
+                elif (F(str(round(got, 9))) if isinstance(got, float) else F(got)) != target:   # floats come from square roots
                     problems.append(f"{where}: key says {target}, formula gives {got}")
                 checked += 1
     return sum(len(t.get("q", [])) for t in tests), checked
