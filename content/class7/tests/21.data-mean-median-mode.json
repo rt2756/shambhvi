@@ -1,0 +1,53 @@
+{
+"title": "21. Data — Mean, Median and Mode",
+"tests": [
+{"q": [
+{"t": "Find the mean of 2, 4, 6, 8 and 10.", "n": 6, "k": "F(2+4+6+8+10,5)", "e": "Mean = total ÷ how many = 30 ÷ 5 = 6. It is the value each would have if the total were shared equally."},
+{"t": "Find the median of 3, 5, 7, 9 and 11.", "n": 7, "e": "The median is the middle value once the data is in order. Of 5 values the 3rd is in the middle: 7."},
+{"t": "Find the mode of 2, 3, 3, 5, 7, 3.", "n": 3, "e": "The mode is the value that appears most often. 3 appears three times."},
+{"t": "Find the range of 4, 9, 1 and 7.", "n": 8, "k": "9-1", "e": "Range = largest − smallest = 9 − 1 = 8. It shows how spread out the data is."},
+{"t": "Find the mean of the first five natural numbers.", "n": 3, "k": "F(1+2+3+4+5,5)", "e": "1 + 2 + 3 + 4 + 5 = 15, and 15 ÷ 5 = 3."},
+{"t": "Find the median of 4, 1 and 7.", "n": 4, "e": "Put them in order first: 1, 4, 7. The middle one is 4."},
+{"t": "In tally marks, the number 5 is shown as:", "o": ["Four upright strokes with one stroke across them", "Five upright strokes", "A circle with five dots", "Two crossed strokes"], "e": "Bundling in fives makes counting quick — you can count 5, 10, 15 …"},
+{"t": "Data arranged in ascending or descending order is called:", "o": ["An array", "A tally", "A range", "A frequency"], "e": "Raw data is jumbled; arranged data (an array) makes the smallest, largest and middle easy to see."},
+{"t": "The mean of a set of numbers equals:", "o": ["Sum of the numbers ÷ how many numbers", "Largest − smallest", "The middle number", "The most frequent number"], "e": "The mean shares the total equally among all the values."},
+{"t": "The value that occurs most often in a set of data is the:", "o": ["Mode", "Mean", "Median", "Range"], "e": "Mode = the most ‘fashionable’ value."}
+]},
+{"q": [
+{"t": "Find the median of 12, 7, 9, 15, 10 and 11.", "n": 10.5, "k": "F(10+11,2)", "e": "In order: 7, 9, 10, 11, 12, 15. With an even count there are two middle values, so take their mean: (10 + 11) ÷ 2 = 10.5."},
+{"t": "Find the mean of 15, 20, 25, 30 and 35.", "n": 25, "k": "F(15+20+25+30+35,5)", "e": "Total 125 ÷ 5 = 25. (Evenly spaced numbers have the middle one as their mean.)"},
+{"t": "The mean of 6 numbers is 12. What is their sum?", "n": 72, "k": "6*12", "e": "Mean = sum ÷ count, so sum = mean × count = 12 × 6 = 72."},
+{"t": "Find the mode of 4, 5, 5, 6, 6, 6, 7, 7.", "n": 6, "e": "6 appears three times, more than any other value."},
+{"t": "Find the mean of the first six even natural numbers.", "n": 7, "k": "F(2+4+6+8+10+12,6)", "e": "2 + 4 + 6 + 8 + 10 + 12 = 42, and 42 ÷ 6 = 7."},
+{"t": "The mean of 3, 7, x and 10 is 7. Find x.", "n": 8, "k": "4*7-3-7-10", "e": "The sum must be 4 × 7 = 28. So x = 28 − 20 = 8."},
+{"t": "Find the median of the first seven prime numbers.", "n": 7, "e": "2, 3, 5, 7, 11, 13, 17 — the 4th value is in the middle: 7. (1 is not a prime.)"},
+{"t": "In a test, 3 students scored 5 marks, 5 students scored 6 marks and 2 students scored 7 marks. Find the mean mark.", "n": 5.9, "k": "F(3*5+5*6+2*7,10)", "e": "Total marks = 15 + 30 + 14 = 59 for 10 students: 59 ÷ 10 = 5.9. Each mark must be counted as many times as it occurs."},
+{"t": "Find the range of 23, 45, 12, 38 and 29.", "n": 33, "k": "45-12", "e": "Largest 45 − smallest 12 = 33."},
+{"t": "Find the mean of 2.5, 3.5, 4.5 and 5.5.", "n": 4, "k": "(F('2.5')+F('3.5')+F('4.5')+F('5.5'))/4", "e": "Sum = 16, and 16 ÷ 4 = 4."}
+]},
+{"q": [
+{"t": "The mean of 5 numbers is 18. One number is removed and the mean of the remaining 4 is 16. Which number was removed?", "n": 26, "k": "5*18-4*16", "e": "Totals: 5 × 18 = 90 before and 4 × 16 = 64 after. The removed number is 90 − 64 = 26."},
+{"t": "The mean of 10 numbers is 15. Each number is increased by 3. Find the new mean.", "n": 18, "k": "15+3", "e": "Each of the 10 numbers gains 3, so the total gains 30 and the mean gains 30 ÷ 10 = 3."},
+{"t": "The mean of x, x + 2, x + 4, x + 6 and x + 8 is 11. Find x.", "n": 7, "k": "11-4", "e": "The sum is 5x + 20 = 55, so x = 7. (The mean of evenly spaced numbers is the middle one, x + 4 = 11.)"},
+{"t": "The data 5, 8, x, 14, 20, 21 is in ascending order and its median is 12. Find x.", "n": 10, "k": "2*12-14", "e": "With 6 values the median is the mean of the 3rd and 4th: (x + 14) ÷ 2 = 12, so x = 10."},
+{"t": "A batsman averages 40 runs over 8 innings. After the 9th innings his average is 42. How many runs did he score in the 9th innings?", "n": 58, "k": "9*42-8*40", "e": "Totals: 9 × 42 = 378 and 8 × 40 = 320. The 9th innings gave 378 − 320 = 58."},
+{"t": "Find the mean of the first 10 natural numbers.", "n": 5.5, "k": "F(sum(range(1,11)),10)", "e": "1 + 2 + … + 10 = 55, and 55 ÷ 10 = 5.5."},
+{"t": "Find the mode of 2, 3, 4, 3, 2, 3, 5, 2, 3.", "n": 3, "e": "Count each: 2 appears 3 times, 3 appears 4 times, 4 and 5 once each. The mode is 3."},
+{"t": "In a class, 20 boys have a mean weight of 45 kg and 30 girls have a mean weight of 40 kg. Find the mean weight of the whole class (in kg).", "n": 42, "u": "kg", "k": "F(20*45+30*40,50)", "e": "Total weight = 900 + 1200 = 2100 kg for 50 students: 42 kg. It is closer to 40 because there are more girls."},
+{"t": "Every value in a data set is multiplied by 2. The mean:", "o": ["Is also multiplied by 2", "Stays the same", "Increases by 2", "Is multiplied by 4"], "e": "The total doubles while the number of values stays the same, so the mean doubles."},
+{"t": "Find the median of the first 10 multiples of 3.", "n": 16.5, "k": "F(15+18,2)", "e": "3, 6, 9, 12, 15, 18, 21, 24, 27, 30. The 5th and 6th are 15 and 18; their mean is 16.5."}
+]},
+{"q": [
+{"t": "The mean of 25 observations is 36. The mean of the first 13 is 32 and the mean of the last 13 is 39. Find the 13th observation.", "n": 23, "k": "13*32+13*39-25*36", "e": "First 13 total 416 and last 13 total 507. Together 923 — but that counts the 13th twice. The real total is 900, so the 13th is 923 − 900 = 23."},
+{"t": "The mean of 10 numbers was worked out as 20. Later it was found that one number, 35, had been misread as 25. Find the correct mean.", "n": 21, "k": "F(200-25+35,10)", "e": "The wrong total was 200. Correct total = 200 − 25 + 35 = 210, so the mean is 21."},
+{"t": "The data 3, 5, 7, x, 11 is in ascending order and its mean equals its median. Find x.", "n": 9, "k": "5*7-3-5-7-11", "e": "The median is the middle value, 7. So the mean is 7: (26 + x) ÷ 5 = 7 → x = 9. (It fits between 7 and 11 ✓.)"},
+{"t": "The data 4, 6, x, 6, 4, 9 has exactly ONE mode, and that mode is 4. Find x.", "n": 4, "e": "Without x, both 4 and 6 appear twice. For 4 alone to be the mode, x must be another 4."},
+{"t": "The average of 5 consecutive odd numbers is 27. Find the largest of them.", "n": 31, "k": "27+4", "e": "For evenly spaced numbers the average is the middle one, so they are 23, 25, 27, 29, 31."},
+{"t": "The average age of 30 students is 12 years. When the teacher’s age is included, the average becomes 13 years. How old is the teacher?", "n": 43, "u": "years", "k": "31*13-30*12", "e": "Totals: 31 × 13 = 403 and 30 × 12 = 360. The teacher adds 403 − 360 = 43."},
+{"t": "The mean of p and q is 10, the mean of q and r is 14, and the mean of p and r is 12. Find the mean of p, q and r.", "n": 12, "k": "F(20+28+24,2*3)", "e": "p + q = 20, q + r = 28, p + r = 24. Adding: 2(p + q + r) = 72, so p + q + r = 36 and the mean is 12."},
+{"t": "The value 10 occurs 3 times, 20 occurs f times and 30 occurs 2 times. The mean is 19. Find f.", "n": 5, "k": "[f for f in range(1,50) if 90+20*f==19*(5+f)][0]", "e": "(30 + 20f + 60) ÷ (5 + f) = 19 → 90 + 20f = 95 + 19f → f = 5."},
+{"t": "A data set has 11 different values. The largest value is increased by 10. The median:", "o": ["Does not change", "Increases by 10", "Increases by 10/11", "Becomes the largest value"], "e": "The median is the 6th value in order. Making the largest even larger does not move the middle. (The mean WOULD change.)"},
+{"t": "The mean of 6 numbers is 15. A seventh number is added and the mean becomes 17. Find the seventh number.", "n": 29, "k": "7*17-6*15", "e": "Totals: 7 × 17 = 119 and 6 × 15 = 90. The new number is 119 − 90 = 29."}
+]}
+]
+}

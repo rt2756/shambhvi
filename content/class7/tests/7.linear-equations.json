@@ -1,0 +1,53 @@
+{
+"title": "7. Linear Equations in One Variable",
+"tests": [
+{"q": [
+{"t": "Solve: x + 7 = 15", "n": 8, "k": "15-7", "e": "Take 7 from both sides so the balance stays level: x = 15 − 7 = 8."},
+{"t": "Solve: 3x = 21", "n": 7, "k": "F(21,3)", "e": "3 lots of x make 21, so divide both sides by 3: x = 7."},
+{"t": "Solve: x/4 = 5", "n": 20, "k": "5*4", "e": "x was divided by 4; undo it by multiplying both sides by 4: x = 20."},
+{"t": "Solve: x − 9 = −2", "n": 7, "k": "-2+9", "e": "Add 9 to both sides: x = −2 + 9 = 7."},
+{"t": "Solve: 2x + 1 = 11", "n": 5, "k": "F(11-1,2)", "e": "Undo in reverse order: subtract 1 (2x = 10), then divide by 2 (x = 5)."},
+{"t": "Which value of x is the solution of 5x − 3 = 12?", "o": ["x = 3", "x = 2", "x = 4", "x = 15"], "e": "A solution makes both sides equal. Try x = 3: 5 × 3 − 3 = 12 ✓."},
+{"t": "‘A number increased by 6 is 20.’ Which equation says this?", "o": ["x + 6 = 20", "6x = 20", "x − 6 = 20", "x + 20 = 6"], "e": "‘Increased by 6’ means add 6, and ‘is’ means equals."},
+{"t": "Solve: 7 − x = 3", "n": 4, "k": "7-3", "e": "7 take away what leaves 3? x = 4. (Or add x to both sides: 7 = 3 + x.)"},
+{"t": "Solve: −4x = 28", "n": -7, "k": "F(28,-4)", "e": "Divide both sides by −4: 28 ÷ (−4) = −7. Check: −4 × (−7) = 28 ✓."},
+{"t": "Solve: x/3 + 1 = 4", "n": 9, "k": "(4-1)*3", "e": "Subtract 1: x/3 = 3. Multiply by 3: x = 9."}
+]},
+{"q": [
+{"t": "Solve: 3x − 7 = 2x + 5", "n": 12, "k": "5+7", "e": "Take 2x from both sides: x − 7 = 5. Add 7: x = 12. Doing the same to both sides keeps them equal."},
+{"t": "Solve: 5(x − 2) = 3x + 4", "n": 7, "k": "F(4+10,2)", "e": "Open the bracket: 5x − 10 = 3x + 4. Then 2x = 14, so x = 7."},
+{"t": "Solve: x/2 + x/3 = 10", "n": 12, "k": "10/(F(1,2)+F(1,3))", "e": "Multiply every term by 6 (the LCM) to clear fractions: 3x + 2x = 60, so 5x = 60 and x = 12."},
+{"t": "Solve: 4x + 9 = 1", "n": -2, "k": "F(1-9,4)", "e": "4x = 1 − 9 = −8, so x = −2. Solutions can be negative."},
+{"t": "Solve: 0.3x + 1.2 = 3", "n": 6, "k": "(3-F('1.2'))/F('0.3')", "e": "0.3x = 1.8, so x = 1.8 ÷ 0.3 = 18 ÷ 3 = 6."},
+{"t": "Solve: 2(3x − 1) − 4 = 12", "n": 3, "k": "F(12+4+2,6)", "e": "6x − 2 − 4 = 12 → 6x − 6 = 12 → 6x = 18 → x = 3."},
+{"t": "Solve: (x − 3)/5 = 2", "n": 13, "k": "2*5+3", "e": "Multiply both sides by 5: x − 3 = 10. Add 3: x = 13."},
+{"t": "Three times a number, decreased by 8, is 19. Find the number.", "n": 9, "k": "F(19+8,3)", "e": "3x − 8 = 19 → 3x = 27 → x = 9."},
+{"t": "Solve: 7x − 5 = 4x + 16", "n": 7, "k": "F(16+5,7-4)", "e": "Bring x terms to one side and numbers to the other: 7x − 4x = 16 + 5, so 3x = 21 and x = 7."},
+{"t": "Solve: (2x + 1)/3 = 5", "n": 7, "k": "F(5*3-1,2)", "e": "Multiply by 3: 2x + 1 = 15. Then 2x = 14 and x = 7."}
+]},
+{"q": [
+{"t": "The sum of three consecutive integers is 72. What is the smallest of them?", "n": 23, "k": "F(72,3)-1", "e": "Call them x, x + 1, x + 2. Then 3x + 3 = 72, so x = 23. (23 + 24 + 25 = 72 ✓)"},
+{"t": "The length of a rectangle is 3 cm more than twice its breadth. Its perimeter is 54 cm. Find the length (in cm).", "n": 19, "u": "cm", "k": "2*8+3", "e": "Breadth b, length 2b + 3. Perimeter: 2(b + 2b + 3) = 54 → 3b + 3 = 27 → b = 8. Length = 2 × 8 + 3 = 19."},
+{"t": "A father is 3 times as old as his son. Five years ago he was 4 times as old as his son was then. How old is the son now?", "n": 15, "k": "20-5", "e": "Son s, father 3s. Five years ago: 3s − 5 = 4(s − 5) → 3s − 5 = 4s − 20 → s = 15. Check: 45 and 15; five years ago 40 and 10 ✓."},
+{"t": "Solve: (x + 2)/3 + (x − 1)/2 = 6", "n": 7, "k": "F(36-4+3,5)", "e": "Multiply every term by 6: 2(x + 2) + 3(x − 1) = 36 → 5x + 1 = 36 → x = 7."},
+{"t": "Two numbers are in the ratio 3 : 5 and their sum is 96. Find the larger number.", "n": 60, "k": "F(96,8)*5", "e": "Let them be 3x and 5x. 8x = 96, so x = 12, and the larger is 5 × 12 = 60."},
+{"t": "Sara has 20 coins, some ₹5 and the rest ₹10, worth ₹145 in all. How many ₹5 coins does she have?", "n": 11, "k": "F(200-145,5)", "e": "If a are ₹5 coins, then (20 − a) are ₹10 coins: 5a + 10(20 − a) = 145 → 200 − 5a = 145 → a = 11."},
+{"t": "One-fourth of a number is 3 more than one-sixth of it. Find the number.", "n": 36, "k": "3/(F(1,4)-F(1,6))", "e": "x/4 − x/6 = 3. With LCM 12: 3x/12 − 2x/12 = x/12 = 3, so x = 36."},
+{"t": "Solve: 3(x + 2) − 2(x − 1) = 2(x − 1)", "n": 10, "k": "8+2", "e": "Left side: 3x + 6 − 2x + 2 = x + 8. Right side: 2x − 2. So x + 8 = 2x − 2 and x = 10."},
+{"t": "The angles of a triangle are x°, 2x° and 3x°. Find the largest angle (in degrees).", "n": 90, "u": "°", "k": "F(180,6)*3", "e": "Angles of a triangle add to 180°: 6x = 180, x = 30. The largest is 3x = 90°."},
+{"t": "A number is doubled and then decreased by 13. The result equals the number increased by 9. Find the number.", "n": 22, "k": "9+13", "e": "2x − 13 = x + 9 → x = 22. Check: 44 − 13 = 31 and 22 + 9 = 31 ✓."}
+]},
+{"q": [
+{"t": "In a two-digit number, the tens digit is twice the units digit and the digits add up to 9. Find the number.", "n": 63, "k": "60+3", "e": "Units digit u, tens digit 2u: 3u = 9, so u = 3 and the tens digit is 6. The number is 63."},
+{"t": "Anu is 4 years older than Bina. Six years from now, their ages will add up to 46. How old is Anu now?", "n": 19, "k": "F(46-12-4,2)+4", "e": "Bina b, Anu b + 4. In six years: (b + 10) + (b + 6) = 46 → 2b = 30 → b = 15. Anu is 19."},
+{"t": "Solve: (2x − 1)/3 − (x − 2)/4 = (x + 7)/6", "n": 4, "k": "F(14-2,3)", "e": "Multiply every term by 12: 4(2x − 1) − 3(x − 2) = 2(x + 7) → 5x + 2 = 2x + 14 → 3x = 12 → x = 4."},
+{"t": "Two cyclists start 90 km apart and ride towards each other at 12 km/h and 18 km/h. After how many hours do they meet?", "n": 3, "u": "hours", "k": "F(90,12+18)", "e": "Together they close the gap by 12 + 18 = 30 km every hour. 30t = 90, so t = 3."},
+{"t": "₹1200 is shared among A, B and C. B gets ₹100 more than A, and C gets twice as much as A. How much does C get (in ₹)?", "n": 550, "u": "₹", "k": "F(1200-100,4)*2", "e": "A = a, B = a + 100, C = 2a. So 4a + 100 = 1200, a = 275, and C = 550."},
+{"t": "Three-fifths of a number is 44 more than two-sevenths of it. Find the number.", "n": 140, "k": "44/(F(3,5)-F(2,7))", "e": "3x/5 − 2x/7 = 21x/35 − 10x/35 = 11x/35 = 44, so x = 44 × 35 ÷ 11 = 140."},
+{"t": "The denominator of a fraction is 3 more than its numerator. If 5 is added to both, the fraction becomes 3/4. What is the original fraction?", "o": ["4/7", "3/6", "7/10", "5/8"], "e": "Fraction x/(x + 3). Then (x + 5)/(x + 8) = 3/4 → 4x + 20 = 3x + 24 → x = 4. The fraction is 4/7; check 9/12 = 3/4 ✓."},
+{"t": "An isosceles triangle has perimeter 44 cm. Each of the two equal sides is 4 cm longer than the base. Find the base (in cm).", "n": 12, "u": "cm", "k": "F(44-8,3)", "e": "Base b, equal sides b + 4 each: b + 2(b + 4) = 44 → 3b + 8 = 44 → b = 12."},
+{"t": "Solve: 0.25(4x − 3) = 0.05(10x − 9)", "n": 0.6, "k": "F('0.3')/F('0.5')", "e": "Open the brackets: x − 0.75 = 0.5x − 0.45. Then 0.5x = 0.30, so x = 0.6."},
+{"t": "I think of a number, multiply it by 4, subtract 6, divide the result by 2, then add 5. I get 20. What was my number?", "n": 9, "k": "F((20-5)*2+6,4)", "e": "Undo each step backwards: 20 − 5 = 15; 15 × 2 = 30; 30 + 6 = 36; 36 ÷ 4 = 9."}
+]}
+]
+}

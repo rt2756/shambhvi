@@ -1,0 +1,53 @@
+{
+"title": "3. Decimals",
+"tests": [
+{"q": [
+{"t": "Find 2.5 + 3.75.", "n": 6.25, "k": "F('2.5')+F('3.75')", "e": "Line up the decimal points (2.50 + 3.75) so tenths add to tenths and hundredths to hundredths: 6.25."},
+{"t": "Find 0.7 × 0.3.", "o": ["0.21", "2.1", "0.021", "1.0"], "k": "F('0.7')*F('0.3')", "e": "7 tenths × 3 tenths = 21 hundredths. One decimal place + one decimal place = two decimal places."},
+{"t": "Find 4.8 ÷ 4.", "n": 1.2, "k": "F('4.8')/4", "e": "48 tenths shared among 4 is 12 tenths = 1.2."},
+{"t": "Write 3/4 as a decimal.", "o": ["0.75", "0.34", "3.4", "0.43"], "k": "F(3,4)", "e": "3/4 = 75/100 (multiply top and bottom by 25), and 75 hundredths is 0.75."},
+{"t": "Find 12.6 × 10.", "n": 126, "k": "F('12.6')*10", "e": "Multiplying by 10 makes every digit worth ten times more, so each digit moves one place left: 126."},
+{"t": "Which is the greatest?", "o": ["0.55", "0.505", "0.5", "0.05"], "e": "Write all with three places: 0.550, 0.505, 0.500, 0.050. Compare like whole numbers: 550 is biggest."},
+{"t": "Find 7 − 2.35.", "n": 4.65, "k": "7-F('2.35')", "e": "Write 7 as 7.00 so the places line up: 7.00 − 2.35 = 4.65."},
+{"t": "Write 0.25 as a fraction in lowest terms.", "o": ["1/4", "25/10", "2/5", "1/25"], "k": "F('0.25')", "e": "0.25 = 25/100. Dividing top and bottom by 25 gives 1/4."},
+{"t": "Find 56.3 ÷ 100.", "o": ["0.563", "5.63", "5630", "0.0563"], "k": "F('56.3')/100", "e": "Dividing by 100 makes each digit 100 times smaller: digits move two places right, giving 0.563."},
+{"t": "What is the place value of 7 in 3.472?", "o": ["7/100", "7/10", "7/1000", "7"], "e": "Places after the point are tenths, hundredths, thousandths. 7 is in the second place, so it is 7 hundredths."}
+]},
+{"q": [
+{"t": "Find 1.2 × 0.15.", "n": 0.18, "k": "F('1.2')*F('0.15')", "e": "12 × 15 = 180. There are 1 + 2 = 3 decimal places in total, so 0.180 = 0.18."},
+{"t": "Find 7.75 ÷ 0.25.", "n": 31, "k": "F('7.75')/F('0.25')", "e": "Multiply both by 100 (the answer does not change): 775 ÷ 25 = 31. It asks how many quarters are in 7.75."},
+{"t": "Simplify: 5.2 − 3.875 + 1.08", "o": ["2.405", "2.045", "0.245", "2.415"], "k": "F('5.2')-F('3.875')+F('1.08')", "e": "5.200 − 3.875 = 1.325, then 1.325 + 1.080 = 2.405. Padding with zeros keeps the columns straight."},
+{"t": "Write 3 kg 45 g in kilograms.", "o": ["3.045 kg", "3.45 kg", "3.0045 kg", "345 kg"], "k": "3+F(45,1000)", "e": "1 g = 1/1000 kg, so 45 g = 0.045 kg. Total 3.045 kg."},
+{"t": "Find 0.9 ÷ 0.003.", "n": 300, "k": "F('0.9')/F('0.003')", "e": "Multiply both by 1000 to make the divisor whole: 900 ÷ 3 = 300."},
+{"t": "Find 2.5 × 2.5 × 0.4.", "n": 2.5, "k": "F('2.5')**2*F('0.4')", "e": "Pair the easy ones: 2.5 × 0.4 = 1. Then 1 × 2.5 = 2.5."},
+{"t": "Arrange in ascending order: 0.3, 0.03, 0.33, 0.303", "o": ["0.03, 0.3, 0.303, 0.33", "0.03, 0.303, 0.3, 0.33", "0.3, 0.03, 0.303, 0.33", "0.33, 0.303, 0.3, 0.03"], "e": "With three places: 0.300, 0.030, 0.330, 0.303. In order: 030, 300, 303, 330."},
+{"t": "Write 5/8 as a decimal.", "n": 0.625, "k": "F(5,8)", "e": "5 ÷ 8 = 0.625. (1/8 = 0.125, and 5 × 0.125 = 0.625.)"},
+{"t": "Ribbon costs ₹18.40 per metre. What do 2.5 m cost (in ₹)?", "n": 46, "u": "₹", "k": "F('18.40')*F('2.5')", "e": "2 m cost 36.80 and half a metre costs 9.20; together ₹46."},
+{"t": "Write 0.125 as a fraction in lowest terms.", "o": ["1/8", "1/125", "5/8", "125/100"], "k": "F('0.125')", "e": "0.125 = 125/1000. Divide top and bottom by 125: 1/8."}
+]},
+{"q": [
+{"t": "A car travels 14.5 km on one litre of petrol. How far does it go on 8.4 litres (in km)?", "n": 121.8, "u": "km", "k": "F('14.5')*F('8.4')", "e": "145 × 84 = 12180, with two decimal places in total: 121.80 km."},
+{"t": "The product of two decimals is 4.95. One of them is 1.5. Find the other.", "n": 3.3, "k": "F('4.95')/F('1.5')", "e": "Other = 4.95 ÷ 1.5 = 49.5 ÷ 15 = 3.3. Check: 1.5 × 3.3 = 4.95 ✓."},
+{"t": "A square has side 3.5 cm. What is its area (in cm²)?", "n": 12.25, "u": "cm²", "k": "F('3.5')**2", "e": "Area = side × side = 3.5 × 3.5. 35 × 35 = 1225, two decimal places: 12.25."},
+{"t": "Simplify: (4.5 × 0.2 + 1.1) ÷ 0.4", "n": 5, "k": "(F('4.5')*F('0.2')+F('1.1'))/F('0.4')", "e": "Inside the bracket, multiply first: 0.9 + 1.1 = 2. Then 2 ÷ 0.4 = 20 ÷ 4 = 5."},
+{"t": "Meena buys 3.25 kg of apples at ₹120 per kg and 1.5 kg of grapes at ₹80 per kg. She pays with ₹1000. How much change does she get (in ₹)?", "n": 490, "u": "₹", "k": "1000-(F('3.25')*120+F('1.5')*80)", "e": "Apples: 3.25 × 120 = 390. Grapes: 1.5 × 80 = 120. Bill = 510, change = 1000 − 510 = 490."},
+{"t": "A rope 17.28 m long is cut into pieces of 0.36 m each. How many pieces are there?", "n": 48, "k": "F('17.28')/F('0.36')", "e": "Multiply both by 100: 1728 ÷ 36 = 48."},
+{"t": "Find 0.1 × 0.01 × 0.001.", "o": ["0.000001", "0.00001", "0.0001", "0.0000001"], "k": "F('0.1')*F('0.01')*F('0.001')", "e": "1 × 1 × 1 = 1, and the decimal places add up: 1 + 2 + 3 = 6 places, so 0.000001."},
+{"t": "What must be subtracted from 10 to get 3.007?", "o": ["6.993", "7.003", "6.003", "7.993"], "k": "10-F('3.007')", "e": "10.000 − 3.007 = 6.993. Check by adding back: 6.993 + 3.007 = 10 ✓."},
+{"t": "Find the average of 2.4, 3.6, 4.2 and 5.8.", "n": 4, "k": "(F('2.4')+F('3.6')+F('4.2')+F('5.8'))/4", "e": "Sum = 16.0. Average = sum ÷ how many = 16 ÷ 4 = 4."},
+{"t": "Write 2.4 hours in hours and minutes.", "o": ["2 h 24 min", "2 h 40 min", "2 h 4 min", "2 h 14 min"], "e": "0.4 of an hour = 0.4 × 60 = 24 minutes. The decimal part is a fraction of 60, not a count of minutes."}
+]},
+{"q": [
+{"t": "Simplify: (0.6 × 0.6 − 0.4 × 0.4) ÷ (0.6 − 0.4)", "n": 1, "k": "(F('0.6')**2-F('0.4')**2)/(F('0.6')-F('0.4'))", "e": "Top: 0.36 − 0.16 = 0.20. Bottom: 0.2. 0.20 ÷ 0.2 = 1."},
+{"t": "Find 1/4 + 0.35 + 3/8 as a decimal.", "n": 0.975, "k": "F(1,4)+F('0.35')+F(3,8)", "e": "Change the fractions to decimals: 0.25 + 0.35 + 0.375 = 0.975."},
+{"t": "A stack of 250 sheets of paper is 3 cm thick. How thick is one sheet (in mm)?", "n": 0.12, "u": "mm", "k": "F(30,250)", "e": "3 cm = 30 mm. One sheet = 30 ÷ 250 = 0.12 mm. Change the unit first, then divide."},
+{"t": "A number divided by 0.05 gives 240. What is the same number multiplied by 0.5?", "n": 6, "k": "240*F('0.05')*F('0.5')", "e": "The number = 240 × 0.05 = 12. Then 12 × 0.5 = 6."},
+{"t": "A taxi charges ₹25 for the first kilometre and ₹12.50 for every kilometre after that. A ride costs ₹187.50. How long was the ride (in km)?", "n": 14, "u": "km", "k": "1+(F('187.5')-25)/F('12.5')", "e": "After the first km, 187.50 − 25 = 162.50 is left. 162.50 ÷ 12.50 = 13 more km. Total 1 + 13 = 14 km."},
+{"t": "Which of these is equal to 3.6 ÷ 0.09?", "o": ["360 ÷ 9", "36 ÷ 9", "3.6 ÷ 9", "360 ÷ 0.9"], "e": "Multiplying BOTH numbers by 100 keeps the quotient the same: 3.6 ÷ 0.09 = 360 ÷ 9 = 40."},
+{"t": "Three numbers add up to 12.5. Two of them are 3.75 and 4.085. Find the third.", "n": 4.665, "k": "F('12.5')-F('3.75')-F('4.085')", "e": "3.750 + 4.085 = 7.835. Third = 12.500 − 7.835 = 4.665."},
+{"t": "Given that 23 × 47 = 1081, find 2.3 × 0.047.", "o": ["0.1081", "1.081", "0.01081", "10.81"], "k": "F('2.3')*F('0.047')", "e": "Same digits, so the answer uses 1081. Decimal places: 1 + 3 = 4, so 0.1081."},
+{"t": "A rectangle has perimeter 15.4 cm and length 4.9 cm. Find its area (in cm²).", "n": 13.72, "u": "cm²", "k": "F('4.9')*(F('15.4')/2-F('4.9'))", "e": "Length + breadth = half the perimeter = 7.7. Breadth = 7.7 − 4.9 = 2.8. Area = 4.9 × 2.8 = 13.72."},
+{"t": "Petrol costs ₹96.50 per litre and a scooter runs 45 km on one litre. What does the petrol for a 108 km trip cost (in ₹)?", "n": 231.6, "u": "₹", "k": "F(108,45)*F('96.5')", "e": "Petrol needed = 108 ÷ 45 = 2.4 litres. Cost = 2.4 × 96.50 = ₹231.60."}
+]}
+]
+}

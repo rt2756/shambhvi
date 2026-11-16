@@ -207,3 +207,46 @@ footer.site{ text-align:center; color:var(--soft); font-size:.85rem; margin-top:
 .class-card .cc-badge{ position:absolute; top:10px; right:10px; font-size:.68rem; font-weight:800;
   letter-spacing:.03em; color:#7a5300; background:#ffe9b3; border-radius:999px; padding:3px 9px; }
 .class-card.current{ border-color:#e7c76a; box-shadow:0 8px 22px rgba(180,140,40,.16); }
+
+/* ---------- chapter tests: the hub grid (class<N>-tests.html) ---------- */
+.test-tally{ text-align:center; color:var(--soft); font-weight:700; font-size:.9rem; margin:0 0 1em; }
+.test-row{ background:#fff; border:1px solid var(--line); border-radius:14px; padding:12px 16px;
+  margin:.7em 0; box-shadow:0 4px 14px rgba(70,50,130,.05); }
+.test-chapter{ font-weight:800; margin-bottom:8px; }
+.test-levels{ display:grid; grid-template-columns:repeat(4,1fr); gap:8px; }
+.test-btn{ display:flex; flex-direction:column; align-items:center; gap:1px; text-decoration:none;
+  border:1px solid var(--line); border-radius:10px; padding:7px 4px; font-weight:700; font-size:.88rem;
+  color:var(--ink); background:#fbfaff; transition:border-color .15s, transform .15s; }
+.test-btn:hover{ border-color:var(--brand); transform:translateY(-1px); }
+.test-btn.done{ background:var(--tip-bg); border-color:var(--tip); }
+.test-score{ font-size:.78rem; color:var(--soft); font-weight:700; }
+.test-btn.done .test-score{ color:var(--tip); }
+
+/* ---------- chapter tests: one test (test.html) ---------- */
+.test-intro{ text-align:center; color:var(--soft); font-size:.98rem; }
+.test-result{ text-align:center; background:#fff; border:2px solid var(--brand); border-radius:16px;
+  padding:14px 18px; margin:1em 0; font-weight:700; box-shadow:0 6px 18px rgba(80,60,160,.12); }
+.test-marks{ font-size:2.2rem; line-height:1.15;
+  background:linear-gradient(90deg,#6b4eff,#d23fb0); -webkit-background-clip:text; background-clip:text; color:transparent; }
+.tq .tq-text{ margin-top:0; }
+.tq table{ border-collapse:collapse; margin:.5em 0; font-size:.95em; }
+.tq th, .tq td{ border:1px solid var(--line); padding:3px 10px; text-align:center; }
+.tq label.opt{ display:flex; align-items:baseline; gap:.55em; padding:6px 10px; border-radius:8px; cursor:pointer; }
+.tq label.opt:hover{ background:#f6f2ff; }
+.num-wrap{ display:flex; align-items:center; gap:.5em; }
+.num-input{ font:inherit; padding:6px 10px; width:170px; max-width:100%; border:1px solid var(--line);
+  border-radius:8px; background:#fbfaff; color:var(--ink); }
+.num-unit{ color:var(--soft); font-weight:700; }
+.tq.right{ border-color:var(--tip); background:var(--tip-bg); }
+.tq.wrong{ border-color:var(--warn); background:var(--warn-bg); }
+.tq .fb:not(:empty){ margin-top:.7em; padding-top:.6em; border-top:1px dashed var(--line); font-size:.95rem; }
+.fb b.ok{ color:var(--tip); } .fb b.bad{ color:var(--warn); }
+.fb-answer, .fb-why{ margin-top:.25em; }
+.test-actions{ display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:10px; margin:1.6em 0 0; }
+.test-actions a{ text-decoration:none; }
+.test-progress{ color:var(--soft); font-weight:700; font-size:.9rem; }
+.test-submit{ font:inherit; font-weight:800; color:#fff; border:0; border-radius:999px; padding:10px 30px;
+  cursor:pointer; background:linear-gradient(90deg,#6b4eff,#d23fb0); box-shadow:0 6px 18px rgba(80,60,160,.25); }
+@media (max-width:520px){
+  .test-levels{ grid-template-columns:repeat(2,1fr); }
+}

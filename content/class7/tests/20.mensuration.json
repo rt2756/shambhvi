@@ -1,0 +1,53 @@
+{
+"title": "20. Mensuration",
+"tests": [
+{"q": [
+{"t": "Find the perimeter of a rectangle 8 cm long and 5 cm wide (in cm).", "n": 26, "u": "cm", "k": "2*(8+5)", "e": "Perimeter is the distance all the way round: two lengths and two breadths = 2 × (8 + 5) = 26."},
+{"t": "Find the area of a square of side 7 cm (in cm²).", "n": 49, "u": "cm²", "k": "7*7", "e": "7 rows of 7 unit squares: side × side = 49."},
+{"t": "Find the area of a rectangle 12 m by 5 m (in m²).", "n": 60, "u": "m²", "k": "12*5", "e": "5 rows of 12 unit squares: length × breadth = 60."},
+{"t": "Find the perimeter of a square of side 9 cm (in cm).", "n": 36, "u": "cm", "k": "4*9", "e": "Four equal sides: 4 × 9 = 36."},
+{"t": "Find the area of a triangle with base 10 cm and height 6 cm (in cm²).", "n": 30, "u": "cm²", "k": "F(1,2)*10*6", "e": "A triangle is half of a parallelogram with the same base and height: ½ × 10 × 6 = 30."},
+{"t": "Find the area of a parallelogram with base 8 cm and height 5 cm (in cm²).", "n": 40, "u": "cm²", "k": "8*5", "e": "Cut the slanting triangle off one end and move it to the other — you get a rectangle 8 by 5. Area = base × height."},
+{"t": "Find the circumference of a circle of diameter 14 cm (take π = 22/7), in cm.", "n": 44, "u": "cm", "k": "F(22,7)*14", "e": "Circumference = π × diameter = 22/7 × 14 = 44. The distance round any circle is a little over 3 times its width."},
+{"t": "How many square centimetres make 1 square metre?", "o": ["10,000", "100", "1,000", "1,00,000"], "k": "100*100", "e": "A square metre is 100 cm by 100 cm, so it holds 100 × 100 = 10,000 small squares."},
+{"t": "A square has perimeter 48 cm. Find its side (in cm).", "n": 12, "u": "cm", "k": "F(48,4)", "e": "Four equal sides share 48 cm: 48 ÷ 4 = 12."},
+{"t": "Find the area of a circle of radius 7 cm (take π = 22/7), in cm².", "n": 154, "u": "cm²", "k": "F(22,7)*49", "e": "Area = π r² = 22/7 × 7 × 7 = 154."}
+]},
+{"q": [
+{"t": "A rectangle has area 96 cm² and length 12 cm. Find its perimeter (in cm).", "n": 40, "u": "cm", "k": "2*(12+F(96,12))", "e": "Breadth = 96 ÷ 12 = 8. Perimeter = 2 × (12 + 8) = 40."},
+{"t": "A square has area 144 cm². Find its perimeter (in cm).", "n": 48, "u": "cm", "k": "4*12", "e": "Side × side = 144, so the side is 12. Perimeter = 4 × 12 = 48."},
+{"t": "A triangle has area 54 cm² and base 12 cm. Find its height (in cm).", "n": 9, "u": "cm", "k": "F(2*54,12)", "e": "½ × 12 × h = 54 → 6h = 54 → h = 9."},
+{"t": "A parallelogram has area 84 cm² and height 7 cm. Find its base (in cm).", "n": 12, "u": "cm", "k": "F(84,7)", "e": "Base × height = area, so base = 84 ÷ 7 = 12."},
+{"t": "A circle has circumference 88 cm. Find its radius (take π = 22/7), in cm.", "n": 14, "u": "cm", "k": "88/(2*F(22,7))", "e": "2 × 22/7 × r = 88 → r = 88 × 7 ÷ 44 = 14."},
+{"t": "Find the area of a circle of diameter 28 cm (take π = 22/7), in cm².", "n": 616, "u": "cm²", "k": "F(22,7)*14*14", "e": "Radius = 14 (half the diameter). Area = 22/7 × 14 × 14 = 616."},
+{"t": "A rectangular field is 40 m by 25 m. Find the cost of fencing it at ₹12 per metre (in ₹).", "n": 1560, "u": "₹", "k": "2*(40+25)*12", "e": "Fencing goes round the edge, so use the perimeter: 2 × 65 = 130 m. Cost = 130 × 12 = 1560."},
+{"t": "Find the area of a right-angled triangle whose legs are 9 cm and 12 cm (in cm²).", "n": 54, "u": "cm²", "k": "F(1,2)*9*12", "e": "The two legs are at right angles, so one is the base and the other the height: ½ × 9 × 12 = 54."},
+{"t": "A wheel has radius 35 cm. How far does it roll in one full turn (take π = 22/7), in cm?", "n": 220, "u": "cm", "k": "2*F(22,7)*35", "e": "One turn lays its whole rim on the ground once: circumference = 2 × 22/7 × 35 = 220."},
+{"t": "The diagonals of a rhombus are 10 cm and 24 cm. Find its area (in cm²).", "n": 120, "u": "cm²", "k": "F(1,2)*10*24", "e": "The diagonals cut the rhombus into 4 right triangles which fill half of a 10 × 24 rectangle: ½ × 10 × 24 = 120."}
+]},
+{"q": [
+{"t": "A garden 30 m by 20 m has a path 2 m wide all around it on the OUTSIDE. Find the area of the path (in m²).", "n": 216, "u": "m²", "k": "34*24-30*20", "e": "The path adds 2 m at both ends of each side: outer rectangle 34 by 24 = 816. Path = 816 − 600 = 216."},
+{"t": "How many square tiles of side 20 cm are needed to cover a floor 6 m by 4 m?", "n": 600, "k": "F(600*400,20*20)", "e": "Use the same unit: floor 600 cm × 400 cm = 2,40,000 cm². Each tile = 400 cm². 2,40,000 ÷ 400 = 600."},
+{"t": "A wheel has diameter 70 cm. How many full turns does it make in travelling 1.1 km (take π = 22/7)?", "n": 500, "k": "110000/(F(22,7)*70)", "e": "One turn = 22/7 × 70 = 220 cm = 2.2 m. 1100 m ÷ 2.2 m = 500 turns."},
+{"t": "A square and a rectangle have the same perimeter. The square has side 15 cm and the rectangle is 18 cm long. How much greater is the square’s area (in cm²)?", "n": 9, "u": "cm²", "k": "15*15-18*12", "e": "Perimeter = 60, so the rectangle’s breadth is 30 − 18 = 12. Areas: 225 and 216. Difference 9. For a fixed perimeter the square holds the most."},
+{"t": "Find the area of a ring between two circles with the same centre and radii 14 cm and 7 cm (take π = 22/7), in cm².", "n": 462, "u": "cm²", "k": "F(22,7)*(14*14-7*7)", "e": "Big circle − small circle = 22/7 × (196 − 49) = 22/7 × 147 = 462."},
+{"t": "A park 60 m by 40 m has two roads, each 5 m wide, crossing at the centre — one parallel to the length and one parallel to the breadth. Find the area covered by the roads (in m²).", "n": 475, "u": "m²", "k": "60*5+40*5-5*5", "e": "Roads: 60 × 5 = 300 and 40 × 5 = 200. The 5 × 5 square where they cross was counted twice, so subtract 25: 475."},
+{"t": "A parallelogram has sides 12 cm and 9 cm. The height on the 12 cm side is 6 cm. Find the height on the 9 cm side (in cm).", "n": 8, "u": "cm", "k": "F(12*6,9)", "e": "The area is the same whichever side is the base: 12 × 6 = 72 = 9 × h, so h = 8."},
+{"t": "A wire shaped as a circle of radius 21 cm is bent into a square. Find the side of the square (take π = 22/7), in cm.", "n": 33, "u": "cm", "k": "2*F(22,7)*21/4", "e": "The wire’s length does not change: circumference = 2 × 22/7 × 21 = 132 cm. Side = 132 ÷ 4 = 33."},
+{"t": "A triangle and a parallelogram have the same base and the same area. The parallelogram’s height is 6 cm. Find the triangle’s height (in cm).", "n": 12, "u": "cm", "k": "2*6", "e": "Triangle area is HALF of base × height, so to match it needs twice the height: 12 cm."},
+{"t": "Find the perimeter of a semicircular plate of radius 7 cm (take π = 22/7), in cm.", "n": 36, "u": "cm", "k": "F(22,7)*7+14", "e": "Curved part = half the circumference = 22/7 × 7 = 22. Add the straight edge (the diameter, 14): 36. Do not forget the straight edge."}
+]},
+{"q": [
+{"t": "A wire shaped as a square of side 22 cm is bent into a circle. Find the area of the circle (take π = 22/7), in cm².", "n": 616, "u": "cm²", "k": "F(22,7)*(88/(2*F(22,7)))**2", "e": "Wire length = 4 × 22 = 88 cm = circumference, so r = 14. Area = 22/7 × 14 × 14 = 616 (more than the square’s 484)."},
+{"t": "The largest possible circle is cut from a square sheet of side 14 cm. Find the area of sheet left over (take π = 22/7), in cm².", "n": 42, "u": "cm²", "k": "14*14-F(22,7)*7*7", "e": "The circle’s diameter equals the side, so r = 7. Square 196 − circle 154 = 42."},
+{"t": "The length of a rectangle is increased by 20% and its breadth is decreased by 20%. Its area:", "o": ["Decreases by 4%", "Stays the same", "Increases by 4%", "Decreases by 20%"], "k": "100-100*F(120,100)*F(80,100)", "e": "New area = 1.2 × 0.8 = 0.96 of the old one — a 4% fall, because the 20% cut is taken from a longer side."},
+{"t": "An isosceles right-angled triangle has area 50 cm². Find the length of each equal side (in cm).", "n": 10, "u": "cm", "k": "(2*50)**F(1,2)", "e": "The equal sides are the base and height: ½ × a × a = 50 → a² = 100 → a = 10."},
+{"t": "A lawn 50 m by 30 m has a path 3 m wide all around it on the INSIDE. Find the area of the path (in m²).", "n": 444, "u": "m²", "k": "50*30-44*24", "e": "The path takes 3 m off both ends of each side, leaving 44 by 24 = 1056. Path = 1500 − 1056 = 444."},
+{"t": "The radii of two circles are in the ratio 2 : 3. What is the ratio of their areas?", "o": ["4 : 9", "2 : 3", "8 : 27", "3 : 2"], "e": "Area depends on r², so the ratio is squared: 2² : 3² = 4 : 9."},
+{"t": "The minute hand of a clock is 14 cm long. Find the area it sweeps in 15 minutes (take π = 22/7), in cm².", "n": 154, "u": "cm²", "k": "F(1,4)*F(22,7)*14*14", "e": "15 minutes is a quarter of a full turn, so it sweeps a quarter of the circle: ¼ × 616 = 154."},
+{"t": "A rhombus has perimeter 52 cm and one diagonal 24 cm. Find its area (in cm²).", "n": 120, "u": "cm²", "k": "F(1,2)*24*2*(13*13-12*12)**F(1,2)", "e": "Side = 13. Half-diagonals and a side make a right triangle: 13² − 12² = 25, so the other half-diagonal is 5 and that diagonal is 10. Area = ½ × 24 × 10 = 120."},
+{"t": "A rectangle has perimeter 82 cm and area 400 cm². Find its length (in cm).", "n": 25, "u": "cm", "k": "max(l for l in range(1,41) if l*(41-l)==400)", "e": "Length + breadth = 41 and length × breadth = 400. The pair 25 and 16 fits both (25 + 16 = 41, 25 × 16 = 400)."},
+{"t": "An isosceles triangle has equal sides 13 cm and base 10 cm. Find its area (in cm²).", "n": 60, "u": "cm²", "k": "F(1,2)*10*(169-25)**F(1,2)", "e": "The height bisects the base (5 and 5): 13² − 5² = 144, so the height is 12. Area = ½ × 10 × 12 = 60."}
+]}
+]
+}

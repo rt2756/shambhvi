@@ -1,0 +1,53 @@
+{
+"title": "4. Rational Numbers",
+"tests": [
+{"q": [
+{"t": "Is 0 a rational number?", "o": ["Yes, because 0 = 0/1", "No, because 0 has no denominator", "No, because 0 is not positive", "Only if it is written as 0/0"], "e": "A rational number is anything that can be written as p/q with integers p, q and q ≠ 0. 0 = 0/1 fits. (0/0 is not allowed — the denominator can never be 0.)"},
+{"t": "Write 9/(−15) in standard form.", "o": ["−3/5", "3/−5", "−9/15", "3/5"], "k": "F(9,-15)", "e": "Standard form needs a positive denominator and no common factor. Multiply top and bottom by −1 to get −9/15, then divide by 3: −3/5."},
+{"t": "Find −2/7 + 5/7.", "o": ["3/7", "−3/7", "7/7", "−7/7"], "k": "F(-2,7)+F(5,7)", "e": "Same denominator, so add the numerators: −2 + 5 = 3. Answer 3/7."},
+{"t": "What is the reciprocal of −4/9?", "o": ["−9/4", "9/4", "4/9", "−4/9"], "k": "1/F(-4,9)", "e": "Flip it and keep the sign: (−4/9) × (−9/4) = 1. The reciprocal must be negative too, so that the product is +1."},
+{"t": "Which is greater: −1/2 or −1/3?", "o": ["−1/3", "−1/2", "They are equal"], "e": "In sixths, −1/2 = −3/6 and −1/3 = −2/6. −2/6 is closer to 0, so it lies further right on the number line."},
+{"t": "Find 3/4 × (−8/9).", "o": ["−2/3", "2/3", "−24/13", "−27/32"], "k": "F(3,4)*F(-8,9)", "e": "Multiply tops and bottoms: −24/36 = −2/3. One negative factor makes the product negative."},
+{"t": "What is the additive inverse of −5/8?", "o": ["5/8", "−5/8", "8/5", "−8/5"], "e": "The additive inverse adds to give 0: −5/8 + 5/8 = 0. (8/5 would be the reciprocal with the wrong sign.)"},
+{"t": "Find (−5/6) ÷ 5.", "o": ["−1/6", "−25/6", "−6", "1/6"], "k": "F(-5,6)/5", "e": "Dividing by 5 is multiplying by 1/5: −5/6 × 1/5 = −5/30 = −1/6."},
+{"t": "Which of these is equivalent to −2/3?", "o": ["−8/12", "−4/9", "8/12", "−6/4"], "k": "F(-2,3)", "e": "Multiply top and bottom by the same number (4): −8/12. That keeps the value the same."},
+{"t": "Which of these rational numbers lies between 0 and 1?", "o": ["1/2", "−1/2", "3/2", "2/1"], "e": "A positive fraction with numerator smaller than denominator is less than 1. 1/2 is the only one."}
+]},
+{"q": [
+{"t": "Find −3/4 + 5/6.", "o": ["1/12", "−1/12", "2/10", "19/12"], "k": "F(-3,4)+F(5,6)", "e": "LCM of 4 and 6 is 12: −9/12 + 10/12 = 1/12."},
+{"t": "Find −7/12 − (−5/8).", "o": ["1/24", "−1/24", "−29/24", "29/24"], "k": "F(-7,12)-F(-5,8)", "e": "Subtracting a negative is adding: −7/12 + 5/8 = −14/24 + 15/24 = 1/24."},
+{"t": "Find (−8/15) × (−25/16).", "o": ["5/6", "−5/6", "6/5", "33/31"], "k": "F(-8,15)*F(-25,16)", "e": "Two negatives give a positive. Cancel: 8/16 = 1/2 and 25/15 = 5/3, so 1/2 × 5/3 = 5/6."},
+{"t": "Find (−9/14) ÷ (3/−7).", "o": ["3/2", "−3/2", "−27/98", "2/3"], "k": "F(-9,14)/F(3,-7)", "e": "Multiply by the reciprocal: (−9/14) × (−7/3) = 63/42 = 3/2. Negative ÷ negative is positive."},
+{"t": "Arrange in ascending order: −1/2, −3/4, −5/8", "o": ["−3/4, −5/8, −1/2", "−1/2, −5/8, −3/4", "−5/8, −3/4, −1/2", "−3/4, −1/2, −5/8"], "e": "In eighths: −4/8, −6/8, −5/8. For negatives the bigger number part is the smaller value: −6/8 < −5/8 < −4/8."},
+{"t": "If −3/8 = x/(−40), find x.", "n": 15, "k": "F(-3,8)*-40", "e": "8 was multiplied by −5 to get −40, so do the same to −3: (−3) × (−5) = 15."},
+{"t": "Write (−84)/(−126) in standard form.", "o": ["2/3", "−2/3", "14/21", "3/2"], "k": "F(-84,-126)", "e": "Negative ÷ negative is positive. The HCF of 84 and 126 is 42: 84 ÷ 42 = 2 and 126 ÷ 42 = 3."},
+{"t": "A rational number is added to its additive inverse. What is the sum?", "n": 0, "e": "That is exactly what additive inverse means — the number that brings you back to 0."},
+{"t": "What should be added to −5/9 to get 1/3?", "o": ["8/9", "−2/9", "2/9", "−8/9"], "k": "F(1,3)-F(-5,9)", "e": "Needed = 1/3 − (−5/9) = 3/9 + 5/9 = 8/9. Check: −5/9 + 8/9 = 3/9 = 1/3 ✓."},
+{"t": "Find the product of −2/3 and its reciprocal.", "n": 1, "k": "F(-2,3)*F(-3,2)", "e": "A number times its reciprocal is always 1: (−2/3) × (−3/2) = 6/6 = 1."}
+]},
+{"q": [
+{"t": "The sum of two rational numbers is −5. One of them is −13/6. Find the other.", "o": ["−17/6", "−43/6", "17/6", "−7/6"], "k": "-5-F(-13,6)", "e": "Other = −5 − (−13/6) = −30/6 + 13/6 = −17/6."},
+{"t": "Which rational number is exactly halfway between −1/3 and 1/2?", "o": ["1/12", "1/6", "0", "−1/12"], "k": "(F(-1,3)+F(1,2))/2", "e": "The midpoint is the average: (−1/3 + 1/2) ÷ 2 = (1/6) ÷ 2 = 1/12."},
+{"t": "Simplify: (−2/3 × 9/4) + (5/6 ÷ (−5/12))", "o": ["−7/2", "1/2", "−1/2", "7/2"], "k": "F(-2,3)*F(9,4)+F(5,6)/F(-5,12)", "e": "First bracket: −18/12 = −3/2. Second: 5/6 × (−12/5) = −2. Sum: −3/2 − 2 = −7/2."},
+{"t": "Divide the sum of 5/8 and −7/12 by their difference (5/8 − (−7/12)).", "o": ["1/29", "29", "1/24", "29/24"], "k": "(F(5,8)+F(-7,12))/(F(5,8)-F(-7,12))", "e": "Sum = 15/24 − 14/24 = 1/24. Difference = 15/24 + 14/24 = 29/24. Then 1/24 ÷ 29/24 = 1/29."},
+{"t": "How many rational numbers are there between −1 and 0?", "o": ["Infinitely many", "None", "Exactly one", "Exactly nine"], "e": "Between any two rationals you can always find another (their average), and then another between those… so the list never ends."},
+{"t": "The temperature is 2°C and falls by 3/4°C every hour. What is the temperature after 8 hours (in °C)?", "n": -4, "u": "°C", "k": "2-F(3,4)*8", "e": "Total fall = 8 × 3/4 = 6°C. 2 − 6 = −4°C."},
+{"t": "The product of two rational numbers is −28/27. One of them is −4/9. Find the other.", "o": ["7/3", "−7/3", "3/7", "112/243"], "k": "F(-28,27)/F(-4,9)", "e": "Other = (−28/27) ÷ (−4/9) = (−28/27) × (−9/4) = 7/3. A negative product with one negative factor needs a positive partner."},
+{"t": "Which of these is the smallest?", "o": ["−7/10", "−2/3", "−5/8", "−3/5"], "e": "With denominator 120: −84, −80, −75, −72. The smallest (furthest left) is −84/120 = −7/10."},
+{"t": "On the number line, −4/5 lies between which two integers?", "o": ["−1 and 0", "−5 and −4", "0 and 1", "−2 and −1"], "e": "4/5 is less than 1 whole, so −4/5 is less than one step left of 0: between −1 and 0."},
+{"t": "If x = −1/2 and y = 2/3, find x − y × x.", "o": ["−1/6", "−5/6", "7/12", "1/6"], "k": "F(-1,2)-F(2,3)*F(-1,2)", "e": "Multiply first: y × x = −1/3. Then −1/2 − (−1/3) = −3/6 + 2/6 = −1/6."}
+]},
+{"q": [
+{"t": "Simplify: −3/5 + 7/10 − (−2/15) − 1/6", "o": ["1/15", "−1/15", "2/15", "1/30"], "k": "F(-3,5)+F(7,10)-F(-2,15)-F(1,6)", "e": "LCM is 30: −18/30 + 21/30 + 4/30 − 5/30 = 2/30 = 1/15."},
+{"t": "Which set of three rational numbers all lie between −1/2 and −1/3?", "o": ["−11/24, −5/12, −3/8", "−7/24, −1/4, −5/24", "−13/24, −7/12, −5/8", "−1/4, −1/5, −1/6"], "e": "With denominator 24: −1/2 = −12/24 and −1/3 = −8/24. The numbers between are −11/24, −10/24 (= −5/12) and −9/24 (= −3/8)."},
+{"t": "x/y = −3/4 and x + y = 5, where x is negative. Find x.", "n": -15, "k": "-3*5", "e": "Let x = −3k and y = 4k. Then −3k + 4k = k = 5, so x = −15 and y = 20. Check: −15/20 = −3/4 ✓."},
+{"t": "Find a × (b + c) when a = −2/3, b = 3/4 and c = −5/6.", "o": ["1/18", "−1/18", "19/18", "−1/12"], "k": "F(-2,3)*(F(3,4)+F(-5,6))", "e": "b + c = 9/12 − 10/12 = −1/12. Then (−2/3) × (−1/12) = 2/36 = 1/18."},
+{"t": "By what number should −33/8 be divided to get −11/2?", "o": ["3/4", "4/3", "−3/4", "363/16"], "k": "F(-33,8)/F(-11,2)", "e": "Divisor = dividend ÷ quotient = (−33/8) ÷ (−11/2) = 33/8 × 2/11 = 3/4."},
+{"t": "Rational numbers are NOT closed under which operation?", "o": ["Division", "Addition", "Subtraction", "Multiplication"], "e": "Adding, subtracting or multiplying two rationals always gives a rational. Division fails in one case: dividing by 0 gives no answer."},
+{"t": "Find the sum of −7/8 and its reciprocal.", "o": ["−113/56", "−15/56", "0", "−1"], "k": "F(-7,8)+F(-8,7)", "e": "Reciprocal is −8/7. −7/8 − 8/7 = −49/56 − 64/56 = −113/56."},
+{"t": "A diver starts 3/4 m above the water and goes down 2 1/2 m every minute. Where is the diver after 5 minutes?", "o": ["11 3/4 m below the surface", "12 1/2 m below the surface", "13 1/4 m below the surface", "11 1/4 m below the surface"], "k": "F(5,2)*5-F(3,4)", "e": "Down 5 × 5/2 = 25/2 m. Position = 3/4 − 25/2 = 3/4 − 50/4 = −47/4 = −11 3/4, i.e. 11 3/4 m below."},
+{"t": "Subtract the sum of −5/7 and −8/3 from the sum of 5/2 and −11/3.", "o": ["31/14", "−31/14", "−191/42", "9/14"], "k": "(F(5,2)+F(-11,3))-(F(-5,7)+F(-8,3))", "e": "First sum: −15/21 − 56/21 = −71/21. Second sum: 15/6 − 22/6 = −7/6. Then −7/6 − (−71/21) = −49/42 + 142/42 = 93/42 = 31/14."},
+{"t": "If −5/7 = x/28 = −45/y, find x + y.", "n": 43, "k": "-20+63", "e": "7 × 4 = 28, so x = −5 × 4 = −20. −5 × 9 = −45, so y = 7 × 9 = 63. x + y = 43."}
+]}
+]
+}

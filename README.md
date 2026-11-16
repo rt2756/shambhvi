@@ -40,6 +40,8 @@ Content is bucketed **by class** (5–10); vocabulary and the to-do list are cla
 | `index.html` | **Home** — the class picker (5–10) plus the class-free sections. |
 | `class<N>-math.html` · `class<N>-science.html` | One page per class per subject. |
 | `class7-math-questions.html` · `class7-science-questions.html` · `class7-saved.html` · `class7-links.html` | The extra class-7 pages. |
+| `class7-tests.html` · `test.html` · `content/class7/tests/*.json` | **Chapter tests** — four self-marking tests per chapter (see *Chapter tests* below). |
+| `assets/js/tests.js` · `tools/check_tests.py` | The test engine, and the script that re-checks every answer key. |
 | `questions.html` · `science.html` · `saved.html` · `links.html` | Redirect stubs kept so old bookmarks still work. |
 | `assets/js/app.js` | Loads a manifest + `.md` files and builds the page; one engine drives every layout (chosen by `#app`'s `data-mode`). |
 | `assets/js/marked.min.js` | The Markdown parser (vendored — `marked` v12.0.2). |
@@ -139,6 +141,43 @@ find in the book. To unstar, delete the comment line.
 
 1. Create `content/class7/math-questions/<topic>.md` starting with a `# Title` line.
 2. Add `"<topic>.md"` to `content/class7/math-questions/manifest.json` (the order there is the page order).
+
+## Chapter tests
+
+**Four tests per chapter — 🟢 Simple, 🟡 Hard, 🟠 Harder, 🔴 Hardest — 10 questions each, 1 mark
+each.** The student answers, presses **Submit**, and only then sees the marks, the right answer
+and a one-line *why* for every question. Answers save as she goes; the score is remembered and
+shown on the hub.
+
+How it is organised (the same three pieces for every class):
+
+| Piece | File | What it does |
+|---|---|---|
+| Hub | `class<N>-tests.html` | One row per chapter, four level buttons, saved scores. |
+| Runner | `test.html?c=<N>&f=<chapter>&t=<1–4>` | One shared page that runs any test. |
+| Data | `content/class<N>/tests/<n>.<chapter>.json` + `manifest.json` | One file per chapter, holding its four tests. |
+
+The class-7 chapter list follows the usual **RS Aggarwal / RD Sharma** class-7 order (Integers …
+Probability, 23 chapters). The questions are our own, written in that style — not copied.
+
+A question is multiple choice or a number answer:
+
+```json
+{"t": "Find (−7) × 6.", "o": ["−42", "42", "−13", "−1"], "e": "why…", "k": "-7*6"}
+{"t": "Find 12 − (−5).", "n": 17, "u": "cm", "e": "why…", "k": "12-(-5)"}
+```
+
+- **`o`** — the options, with the **right answer always first**. The page shuffles them (the same
+  way each visit), so there is no answer letter to keep in step.
+- **`n`** — a number answer (`u` is an optional unit shown beside the box). `3/4` typed by the
+  student is accepted for `0.75`.
+- **`e`** — the explanation shown after Submit. Every question needs one (the *why* rule).
+- **`k`** — optional: a formula for the answer. `python3 tools/check_tests.py` works out every
+  `k` and compares it with the key, and also checks each file has 4 tests × 10 questions.
+  **Run it after any edit.**
+
+To add a class: create `content/class<N>/tests/` with chapter files and a `manifest.json`, copy
+`class7-tests.html` to `class<N>-tests.html`, and change `data-class`.
 
 ## Local preview
 

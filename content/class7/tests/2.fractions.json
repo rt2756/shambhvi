@@ -1,0 +1,53 @@
+{
+"title": "2. Fractions",
+"tests": [
+{"q": [
+{"t": "Find 3/7 + 2/7.", "o": ["5/7", "5/14", "6/7", "1/7"], "k": "F(3,7)+F(2,7)", "e": "Same denominator means same-sized pieces, so just count them: 3 sevenths + 2 sevenths = 5 sevenths. The piece size (7) does not change."},
+{"t": "Find 2/3 of 18.", "n": 12, "k": "F(2,3)*18", "e": "One third of 18 is 18 ÷ 3 = 6; two thirds is 2 × 6 = 12."},
+{"t": "What is the reciprocal of 5/9?", "o": ["9/5", "5/9", "−5/9", "1/9"], "e": "The reciprocal is the fraction flipped, because 5/9 × 9/5 = 1."},
+{"t": "Find 3/4 × 8.", "n": 6, "k": "F(3,4)*8", "e": "A quarter of 8 is 2; three quarters is 3 × 2 = 6."},
+{"t": "Write 2 1/3 as an improper fraction.", "o": ["7/3", "6/3", "5/3", "3/7"], "k": "2+F(1,3)", "e": "2 wholes = 6 thirds; plus 1 third = 7 thirds."},
+{"t": "Find 5/6 − 1/6 in lowest terms.", "o": ["2/3", "4/12", "1/3", "6/6"], "k": "F(5,6)-F(1,6)", "e": "5 sixths − 1 sixth = 4 sixths. Divide top and bottom by 2: 4/6 = 2/3."},
+{"t": "Which is greater: 3/5 or 4/7?", "o": ["3/5", "4/7", "They are equal"], "e": "Make the pieces the same size: 3/5 = 21/35 and 4/7 = 20/35. 21 pieces beat 20."},
+{"t": "Find 6 ÷ 1/2.", "n": 12, "k": "6/F(1,2)", "e": "It asks how many halves fit in 6. Each whole has 2 halves, so 6 × 2 = 12."},
+{"t": "Write 12/18 in lowest terms.", "o": ["2/3", "6/9", "3/4", "4/6"], "k": "F(12,18)", "e": "The HCF of 12 and 18 is 6. Dividing both by 6 gives 2/3. (6/9 and 4/6 are equal to it but not fully reduced.)"},
+{"t": "Find 1/2 × 1/3.", "o": ["1/6", "1/5", "2/5", "2/3"], "k": "F(1,2)*F(1,3)", "e": "It means half of a third. Cut a third into 2 equal parts and each part is one sixth of the whole."}
+]},
+{"q": [
+{"t": "Find 2/3 + 3/4.", "o": ["1 5/12", "5/7", "1 1/12", "5/12"], "k": "F(2,3)+F(3,4)", "e": "LCM of 3 and 4 is 12: 8/12 + 9/12 = 17/12 = 1 5/12. Never add the denominators — the piece size must match first."},
+{"t": "Find 3 1/2 × 2 2/7.", "n": 8, "k": "F(7,2)*F(16,7)", "e": "Change to improper fractions: 7/2 × 16/7. The 7s cancel, leaving 16/2 = 8."},
+{"t": "Find 4/5 ÷ 8/15.", "o": ["1 1/2", "32/75", "2/3", "1 1/4"], "k": "F(4,5)/F(8,15)", "e": "Dividing by a fraction = multiplying by its reciprocal: 4/5 × 15/8 = 60/40 = 3/2 = 1 1/2."},
+{"t": "Find 5 1/4 − 2 5/6.", "o": ["2 5/12", "3 5/12", "2 7/12", "3 1/12"], "k": "F(21,4)-F(17,6)", "e": "21/4 − 17/6 with LCM 12: 63/12 − 34/12 = 29/12 = 2 5/12."},
+{"t": "How many hours are there in 3/8 of a day?", "n": 9, "u": "hours", "k": "F(3,8)*24", "e": "A day has 24 hours. One eighth is 3 hours, so three eighths is 9 hours."},
+{"t": "Arrange in ascending order: 2/3, 5/9, 7/12", "o": ["5/9, 7/12, 2/3", "7/12, 5/9, 2/3", "2/3, 7/12, 5/9", "5/9, 2/3, 7/12"], "e": "LCM of 3, 9, 12 is 36: 2/3 = 24/36, 5/9 = 20/36, 7/12 = 21/36. So 20 < 21 < 24."},
+{"t": "Find 2 2/5 ÷ 6.", "o": ["2/5", "14 2/5", "5/2", "4/5"], "k": "F(12,5)/6", "e": "12/5 ÷ 6 = 12/5 × 1/6 = 12/30 = 2/5. Sharing 12 fifths among 6 gives 2 fifths each."},
+{"t": "A fraction is multiplied by its reciprocal. What is the product?", "n": 1, "e": "a/b × b/a: the top and bottom are the same number (ab), so the product is always 1."},
+{"t": "Find 1/2 + 1/3 + 1/6.", "n": 1, "k": "F(1,2)+F(1,3)+F(1,6)", "e": "In sixths: 3/6 + 2/6 + 1/6 = 6/6 = 1 whole."},
+{"t": "Cloth costs ₹48 per metre. What is the cost of 3 3/4 m (in ₹)?", "n": 180, "u": "₹", "k": "48*F(15,4)", "e": "48 × 15/4: a quarter of 48 is 12, and 12 × 15 = 180."}
+]},
+{"q": [
+{"t": "A rope 11 m long is cut into pieces each 2 3/4 m long. How many pieces are there?", "n": 4, "k": "11/F(11,4)", "e": "11 ÷ 11/4 = 11 × 4/11 = 4. Division asks how many pieces of that size fit."},
+{"t": "A book has 150 pages. Rina reads 2/5 of it on day one, and 1/3 of the REMAINING pages on day two. How many pages are left?", "n": 60, "k": "150*F(3,5)*F(2,3)", "e": "Day one: 2/5 of 150 = 60, leaving 90. Day two: 1/3 of 90 = 30, leaving 60. The second fraction is of what is left, not of 150."},
+{"t": "Simplify: (2/3 + 1/4) ÷ (5/6 − 1/2)", "o": ["2 3/4", "11/36", "3 2/3", "1 3/8"], "k": "(F(2,3)+F(1,4))/(F(5,6)-F(1,2))", "e": "Brackets first: 2/3 + 1/4 = 11/12 and 5/6 − 1/2 = 1/3. Then 11/12 ÷ 1/3 = 11/12 × 3 = 11/4 = 2 3/4."},
+{"t": "Find the area of a rectangle 5 1/3 m long and 2 1/4 m wide (in m²).", "n": 12, "u": "m²", "k": "F(16,3)*F(9,4)", "e": "Area = length × breadth = 16/3 × 9/4. Cancel: 16 ÷ 4 = 4 and 9 ÷ 3 = 3, so 4 × 3 = 12."},
+{"t": "By what number should 3 3/4 be multiplied to get 5?", "o": ["1 1/3", "3/4", "1 1/4", "18 3/4"], "k": "5/F(15,4)", "e": "Undo the multiplication by dividing: 5 ÷ 15/4 = 5 × 4/15 = 20/15 = 4/3 = 1 1/3."},
+{"t": "A car runs 16 2/3 km on 1 litre of petrol. How far does it go on 2 2/5 litres (in km)?", "n": 40, "u": "km", "k": "F(50,3)*F(12,5)", "e": "50/3 × 12/5: 50 ÷ 5 = 10 and 12 ÷ 3 = 4, so 10 × 4 = 40 km."},
+{"t": "The sum of two fractions is 5 1/6. One of them is 2 3/4. Find the other.", "o": ["2 5/12", "2 7/12", "3 5/12", "7 11/12"], "k": "F(31,6)-F(11,4)", "e": "Other = 31/6 − 11/4 = 62/12 − 33/12 = 29/12 = 2 5/12."},
+{"t": "Find 3/4 of 2/3 of 240.", "n": 120, "k": "F(3,4)*F(2,3)*240", "e": "‘Of’ means multiply. 2/3 of 240 = 160, then 3/4 of 160 = 120. (Or 3/4 × 2/3 = 1/2, and half of 240 is 120.)"},
+{"t": "Which of these fractions is the largest?", "o": ["2/3", "5/8", "7/12", "9/16"], "e": "With denominator 48: 2/3 = 32/48, 5/8 = 30/48, 7/12 = 28/48, 9/16 = 27/48. The biggest numerator wins."},
+{"t": "A tank is 3/5 full and holds 420 litres at that level. What is its full capacity (in litres)?", "n": 700, "u": "litres", "k": "420/F(3,5)", "e": "3 fifths = 420, so 1 fifth = 140 and the whole (5 fifths) = 700."}
+]},
+{"q": [
+{"t": "Find 1/(1×2) + 1/(2×3) + 1/(3×4) + 1/(4×5).", "o": ["4/5", "1/5", "5/4", "3/4"], "k": "F(1,2)+F(1,6)+F(1,12)+F(1,20)", "e": "Each term splits: 1/(1×2) = 1 − 1/2, 1/(2×3) = 1/2 − 1/3, and so on. The middle parts cancel, leaving 1 − 1/5 = 4/5."},
+{"t": "A man spends 1/3 of his salary on rent, 1/4 on food and 1/6 on travel. He saves the remaining ₹6000. What is his salary (in ₹)?", "n": 24000, "u": "₹", "k": "6000/(1-F(1,3)-F(1,4)-F(1,6))", "e": "Spent: 4/12 + 3/12 + 2/12 = 9/12 = 3/4. So 1/4 of the salary is ₹6000 and the whole is 4 × 6000 = ₹24000."},
+{"t": "Simplify: 2 1/2 − [1 1/4 ÷ {3/4 − (1/2 − 1/3)}]", "o": ["5/14", "15/7", "1/2", "9/14"], "k": "F(5,2)-(F(5,4)/(F(3,4)-(F(1,2)-F(1,3))))", "e": "1/2 − 1/3 = 1/6; 3/4 − 1/6 = 7/12; 5/4 ÷ 7/12 = 15/7; 5/2 − 15/7 = 35/14 − 30/14 = 5/14."},
+{"t": "The numerator of a fraction is 4 less than its denominator. If 1 is added to both, the fraction becomes 1/2. What is the fraction?", "o": ["3/7", "5/9", "1/5", "7/11"], "e": "Test it: 3/7 has numerator 4 less than denominator, and (3+1)/(7+1) = 4/8 = 1/2 ✓. The others fail the second condition."},
+{"t": "A pole has 1/4 of its length in mud and 2/5 in water. The remaining 7 m is above the water. How long is the pole (in m)?", "n": 20, "u": "m", "k": "7/(1-F(1,4)-F(2,5))", "e": "In mud and water: 5/20 + 8/20 = 13/20. So 7/20 of the pole is 7 m, 1/20 is 1 m, and the pole is 20 m."},
+{"t": "A ball always bounces back to 2/3 of the height it fell from. It is dropped from 54 m. How high does it rise after the 3rd bounce (in m)?", "n": 16, "u": "m", "k": "54*F(2,3)**3", "e": "Each bounce multiplies the height by 2/3: 54 → 36 → 24 → 16."},
+{"t": "How many packets of 3/8 kg can be filled from 7 1/2 kg of sugar?", "n": 20, "k": "F(15,2)/F(3,8)", "e": "15/2 ÷ 3/8 = 15/2 × 8/3 = 120/6 = 20."},
+{"t": "Which of these fractions lies between 1/3 and 1/2?", "o": ["5/12", "7/12", "1/4", "2/3"], "e": "In twelfths, 1/3 = 4/12 and 1/2 = 6/12. Only 5/12 sits between them (1/4 = 3/12 and 2/3 = 8/12 are outside)."},
+{"t": "Half of a number is 12 more than one-fifth of the same number. Find the number.", "n": 40, "k": "12/(F(1,2)-F(1,5))", "e": "1/2 − 1/5 = 3/10 of the number equals 12, so 1/10 is 4 and the number is 40. Check: 20 − 8 = 12 ✓."},
+{"t": "A tap fills 1/6 of a tank every hour, but a leak empties 1/15 of the tank every hour. How many hours does the tank take to fill?", "n": 10, "u": "hours", "k": "1/(F(1,6)-F(1,15))", "e": "Net filling each hour = 1/6 − 1/15 = 5/30 − 2/30 = 3/30 = 1/10 of the tank, so 10 hours fill it."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "1. Integers",
+"tests": [
+{"q": [
+{"t": "Find (−8) + 13.", "n": 5, "k": "-8+13", "e": "Start at −8 and move 13 steps right: 8 steps reach 0, the other 5 take you to 5."},
+{"t": "Find (−7) × 6.", "o": ["−42", "42", "−13", "−1"], "k": "-7*6", "e": "It is six lots of −7, i.e. six debts of 7, so the total is −42. Unlike signs give a negative product."},
+{"t": "Find (−48) ÷ (−6).", "n": 8, "k": "F(-48,-6)", "e": "Ask: what times −6 gives −48? 8 × (−6) = −48. Same signs give a positive quotient."},
+{"t": "What is the additive inverse of −15?", "o": ["15", "−15", "0", "1/15"], "e": "The additive inverse is the number that adds to give 0: −15 + 15 = 0."},
+{"t": "Which of these integers is the greatest?", "o": ["−1", "−3", "−7", "−10"], "e": "On the number line the number furthest right is greatest. −1 is closest to 0, so it lies furthest right."},
+{"t": "Find 12 − (−5).", "n": 17, "k": "12-(-5)", "e": "Subtracting a number is adding its opposite: 12 + 5 = 17. Taking away a debt of 5 makes you 5 richer."},
+{"t": "Find (−9) × 0.", "o": ["0", "−9", "9", "1"], "e": "Zero lots of anything is nothing, so any integer × 0 = 0."},
+{"t": "At night the temperature was −4°C. By noon it rose by 9°C. What was the temperature at noon (in °C)?", "n": 5, "u": "°C", "k": "-4+9", "e": "A rise means add: −4 + 9 = 5."},
+{"t": "What is the absolute value |−23|?", "n": 23, "e": "Absolute value is the distance from 0, and distance is never negative. −23 is 23 steps from 0."},
+{"t": "Find (−1) × (−1) × (−1).", "o": ["−1", "1", "−3", "3"], "k": "(-1)**3", "e": "The first two make +1 (negatives pair up); multiplying by the third −1 gives −1. An odd count of negatives gives a negative product."}
+]},
+{"q": [
+{"t": "Simplify: −15 + 8 − (−12) − 20", "n": -15, "k": "-15+8-(-12)-20", "e": "−(−12) becomes +12. Positives: 8 + 12 = 20. Negatives: −15 − 20 = −35. Then 20 − 35 = −15."},
+{"t": "Find (−4) × (−5) × (−3).", "o": ["−60", "60", "−12", "−23"], "k": "-4*-5*-3", "e": "Three negatives is an odd count, so the product is negative: 4 × 5 × 3 = 60, answer −60."},
+{"t": "Simplify: (−36) ÷ 4 + (−2) × (−7)", "n": 5, "k": "F(-36,4)+(-2)*(-7)", "e": "Do ÷ and × before +: −9 + 14 = 5."},
+{"t": "Use the distributive property to find (−25) × 102.", "o": ["−2550", "−2500", "−2450", "2550"], "k": "-25*102", "e": "102 = 100 + 2, so (−25) × 100 + (−25) × 2 = −2500 − 50 = −2550."},
+{"t": "The sum of two integers is −17. One of them is 9. What is the other?", "n": -26, "k": "-17-9", "e": "Other = sum − known number = −17 − 9 = −26. Check: 9 + (−26) = −17."},
+{"t": "Subtract −8 from −20.", "o": ["−12", "−28", "12", "28"], "k": "-20-(-8)", "e": "Subtract −8 FROM −20 means −20 − (−8) = −20 + 8 = −12. The number after ‘from’ comes first."},
+{"t": "Seven negative integers and two positive integers are multiplied together. The product is:", "o": ["Negative", "Positive", "Zero", "Impossible to tell"], "e": "Negatives cancel in pairs. Seven negatives leave one unpaired, so the product is negative. Positive factors do not change the sign."},
+{"t": "(−125) ÷ ? = 5. What is the missing integer?", "n": -25, "k": "F(-125,5)", "e": "Missing number = −125 ÷ 5 = −25. Check: (−125) ÷ (−25) = 5, same signs give positive."},
+{"t": "Simplify: 18 − [5 − {3 − (9 − 12)}]", "n": 19, "k": "18-(5-(3-(9-12)))", "e": "Innermost first: 9 − 12 = −3; 3 − (−3) = 6; 5 − 6 = −1; 18 − (−1) = 19."},
+{"t": "Which statement is true?", "o": ["(−7) + 4 = 4 + (−7)", "(−7) − 4 = 4 − (−7)", "(−8) ÷ 2 = 2 ÷ (−8)", "7 − 0 = 0 − 7"], "e": "Addition can be done in any order (commutative): both sides equal −3. Subtraction and division change when you swap the numbers."}
+]},
+{"q": [
+{"t": "A submarine is 250 m below sea level. It rises 30 m every minute. Where is it after 6 minutes?", "o": ["70 m below sea level", "430 m below sea level", "180 m below sea level", "70 m above sea level"], "k": "250-30*6", "e": "Below sea level is negative: −250 + 6 × 30 = −250 + 180 = −70, i.e. 70 m below."},
+{"t": "In a test, each correct answer earns +4 and each wrong answer earns −1. Aman attempts 15 questions and gets 11 correct. What is his score?", "n": 40, "k": "11*4+4*(-1)", "e": "Correct: 11 × 4 = 44. Wrong: 15 − 11 = 4 questions, 4 × (−1) = −4. Total 44 − 4 = 40."},
+{"t": "Find (−1)¹ + (−1)² + (−1)³ + … + (−1)²⁵.", "o": ["−1", "1", "0", "−25"], "k": "sum((-1)**i for i in range(1,26))", "e": "The terms go −1, +1, −1, +1 … Each pair adds to 0. 25 terms make 12 pairs and one leftover −1."},
+{"t": "Simplify: (−12) × 48 + (−12) × 52", "n": -1200, "k": "-12*48+-12*52", "e": "Take out the common factor: (−12) × (48 + 52) = (−12) × 100 = −1200."},
+{"t": "The product of two integers is −144. One of them is 16. Find the other.", "n": -9, "k": "F(-144,16)", "e": "Other = −144 ÷ 16 = −9. A negative product needs one negative factor, and 16 is positive."},
+{"t": "At 12 noon the temperature is 6°C. It falls 2°C every hour. At what time will it be −8°C?", "o": ["7 pm", "6 pm", "8 pm", "4 pm"], "k": "F(6-(-8),2)", "e": "Total fall = 6 − (−8) = 14°C. At 2°C an hour that takes 7 hours: 12 noon + 7 h = 7 pm."},
+{"t": "An integer is added to its additive inverse, and the result is multiplied by −99. What do you get?", "o": ["0", "−99", "99", "It depends on the integer"], "e": "A number plus its additive inverse is always 0, and 0 × (−99) = 0."},
+{"t": "Simplify: 39 − [23 − {29 − (17 − 9 + 3)}]", "n": 34, "k": "39-(23-(29-(17-9+3)))", "e": "17 − 9 + 3 = 11; 29 − 11 = 18; 23 − 18 = 5; 39 − 5 = 34."},
+{"t": "A mine lift starts 10 m above the ground and goes down at 6 m per minute. How many minutes does it take to reach 350 m below the ground?", "n": 60, "u": "minutes", "k": "F(10-(-350),6)", "e": "Distance = 10 − (−350) = 360 m (10 m down to ground level, then 350 m more). 360 ÷ 6 = 60 minutes."},
+{"t": "Which of these has the greatest value?", "o": ["(−3) × (−4)", "(−20) ÷ (−2)", "−15 + 20", "−(−9)"], "e": "Work each out: 12, 10, 5 and 9. The largest is 12."}
+]},
+{"q": [
+{"t": "If a = −5, b = 3 and c = −2, find a² − b × c + c³.", "n": 23, "k": "(-5)**2-3*(-2)+(-2)**3", "e": "a² = 25; b × c = −6, so −(−6) = +6; c³ = −8. 25 + 6 − 8 = 23."},
+{"t": "Find the sum of all the integers from −50 to 52.", "n": 103, "k": "sum(range(-50,53))", "e": "Every integer from −50 to 50 cancels with its opposite (and 0 adds nothing). Only 51 + 52 = 103 is left."},
+{"t": "Two integers have a sum of −3 and a product of −40. What is the smaller integer?", "n": -8, "k": "min(a for a in range(-40,41) if a*(-3-a)==-40)", "e": "A product of −40 means opposite signs. Try factor pairs of 40: 5 and −8 give 5 + (−8) = −3 ✓. The smaller is −8."},
+{"t": "A quiz gives +5 for a right answer, −2 for a wrong answer and 0 for a skipped one. Riya got 10 right and scored 34. How many did she get wrong?", "n": 8, "k": "F(10*5-34,2)", "e": "Right answers give 10 × 5 = 50. She lost 50 − 34 = 16 marks, at 2 per wrong answer: 16 ÷ 2 = 8."},
+{"t": "How many integers (positive and negative) divide 12 exactly?", "n": 12, "k": "len([d for d in range(-12,13) if d!=0 and 12%d==0])", "e": "Positive divisors: 1, 2, 3, 4, 6, 12 — six of them. Each has a negative partner (−1, −2, …), so 6 × 2 = 12."},
+{"t": "What is the sign of (−2)⁹⁹ × (−3)⁵⁰?", "o": ["Negative", "Positive", "It is zero", "Impossible to tell"], "e": "(−2)⁹⁹ has an odd number of negatives → negative. (−3)⁵⁰ has an even number → positive. Negative × positive = negative."},
+{"t": "Which of these is the smallest?", "o": ["−|−8|", "(−2)³ + 1", "−(−8)", "(−3)²"], "e": "Values: −|−8| = −8; (−2)³ + 1 = −7; −(−8) = 8; (−3)² = 9. The smallest is −8."},
+{"t": "A shopkeeper gains ₹8 on every pen and loses ₹3 on every pencil. He sells 45 pens and some pencils, and ends with a profit of ₹150. How many pencils did he sell?", "n": 70, "k": "F(45*8-150,3)", "e": "Pens bring in 45 × 8 = ₹360. To be left with ₹150, the pencils lost 360 − 150 = ₹210. At ₹3 each: 210 ÷ 3 = 70."},
+{"t": "Find 1 − 2 + 3 − 4 + … + 99 − 100.", "n": -50, "k": "sum((-1)**(i+1)*i for i in range(1,101))", "e": "Group in pairs: (1 − 2), (3 − 4), … each pair is −1. 100 numbers make 50 pairs: 50 × (−1) = −50."},
+{"t": "If a ÷ (−4) = −9 and b × (−3) = 36, find a + b.", "n": 24, "k": "(-9*-4)+F(36,-3)", "e": "a = (−9) × (−4) = 36. b = 36 ÷ (−3) = −12. a + b = 36 − 12 = 24."}
+]}
+]
+}

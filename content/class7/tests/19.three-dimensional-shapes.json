@@ -1,0 +1,53 @@
+{
+"title": "19. Three-Dimensional Shapes",
+"tests": [
+{"q": [
+{"t": "How many faces does a cube have?", "n": 6, "e": "Top, bottom, front, back, left and right — like the six faces of a dice."},
+{"t": "How many edges does a cube have?", "n": 12, "e": "4 around the top, 4 around the bottom and 4 upright ones joining them."},
+{"t": "How many vertices (corners) does a cube have?", "n": 8, "e": "4 corners on the top face and 4 on the bottom face."},
+{"t": "A brick has the shape of a:", "o": ["Cuboid", "Cube", "Cylinder", "Cone"], "e": "It has 6 rectangular faces with length, breadth and height all different."},
+{"t": "How many vertices does a cone have?", "n": 1, "e": "Only the pointed tip (the apex). The circular edge has no corners."},
+{"t": "How many curved surfaces does a cylinder have?", "n": 1, "e": "One curved surface wrapped around, plus two flat circular ends."},
+{"t": "How many edges does a sphere have?", "n": 0, "e": "A sphere is one smooth curved surface — no flat faces, so nothing meets to form an edge."},
+{"t": "How many faces does a triangular pyramid (tetrahedron) have?", "n": 4, "e": "A triangular base plus three triangular side faces."},
+{"t": "A dice has the shape of a:", "o": ["Cube", "Cuboid", "Sphere", "Prism with a triangular base"], "e": "All six faces are equal squares."},
+{"t": "How many faces does a square pyramid have?", "n": 5, "e": "One square base and four triangular faces meeting at the top."}
+]},
+{"q": [
+{"t": "Euler’s formula for any polyhedron is:", "o": ["F + V − E = 2", "F + E − V = 2", "F − V + E = 2", "F + V + E = 2"], "e": "Check with a cube: 6 faces + 8 vertices − 12 edges = 2. It works for every solid with flat faces."},
+{"t": "How many faces does a triangular prism have?", "n": 5, "e": "2 triangular ends and 3 rectangular sides."},
+{"t": "How many edges does a triangular prism have?", "n": 9, "e": "3 on each triangular end (6) plus 3 joining the ends."},
+{"t": "How many vertices does a triangular prism have?", "n": 6, "e": "3 corners on each of the two triangular ends."},
+{"t": "How many edges does a square pyramid have?", "n": 8, "e": "4 around the square base and 4 slanting up to the top."},
+{"t": "The net of a cube is made of how many squares?", "n": 6, "e": "A net is the solid unfolded flat, so it needs one square for each of the 6 faces."},
+{"t": "How many flat faces does a cylinder have?", "n": 2, "e": "The two circular ends."},
+{"t": "A cuboid has how many pairs of identical opposite faces?", "n": 3, "e": "Top–bottom, front–back and left–right."},
+{"t": "How many edges does a tetrahedron have?", "n": 6, "e": "3 around the base and 3 rising to the top. Check Euler: 4 + 4 − 6 = 2 ✓."},
+{"t": "How many surfaces (flat and curved together) does a cone have?", "n": 2, "e": "One flat circular base and one curved surface."}
+]},
+{"q": [
+{"t": "A polyhedron has 7 faces and 10 vertices. How many edges does it have?", "n": 15, "k": "7+10-2", "e": "Euler: F + V − E = 2, so E = 7 + 10 − 2 = 15. (It is a pentagonal prism.)"},
+{"t": "A polyhedron has 8 faces and 12 edges. How many vertices does it have?", "n": 6, "k": "2+12-8", "e": "V = 2 + E − F = 2 + 12 − 8 = 6. (An octahedron.)"},
+{"t": "On a dice, opposite faces add up to 7. Which number is opposite 3?", "n": 4, "k": "7-3", "e": "7 − 3 = 4."},
+{"t": "How many faces does a pentagonal prism have?", "n": 7, "k": "5+2", "e": "2 pentagonal ends plus 5 rectangular sides."},
+{"t": "How many vertices does a hexagonal pyramid have?", "n": 7, "k": "6+1", "e": "6 corners on the hexagonal base plus the apex."},
+{"t": "A cylinder is cut by a plane parallel to its base. The cross-section is a:", "o": ["Circle", "Rectangle", "Triangle", "Oval"], "e": "Every slice parallel to the base is a copy of the circular base."},
+{"t": "A cylinder standing upright is cut straight down through its centre. The cross-section is a:", "o": ["Rectangle", "Circle", "Triangle", "Semicircle"], "e": "The cut has the two straight sides of the cylinder as its height and the diameter as its width."},
+{"t": "Looking straight down on a cone standing on its base, the top view is a:", "o": ["Circle", "Triangle", "Rectangle", "Straight line"], "e": "From above you see the outline of the circular base (with the tip as a point at the centre)."},
+{"t": "A lamp shines on a ball. The shadow of the ball on a wall straight behind it is a:", "o": ["Circle", "Sphere", "Square", "Line"], "e": "A shadow is flat (2-D). A sphere has a circular outline from every direction."},
+{"t": "How many edges does a pentagonal pyramid have?", "n": 10, "k": "5+5", "e": "5 around the base and 5 slanting up to the apex."}
+]},
+{"q": [
+{"t": "Can a polyhedron have 10 faces, 20 edges and 15 vertices?", "o": ["No, because F + V − E = 5, not 2", "Yes, it is a prism", "Yes, it is a pyramid", "No, because 20 is even"], "k": "10+15-20", "e": "Every polyhedron must satisfy Euler’s formula: 10 + 15 − 20 = 5 ≠ 2."},
+{"t": "A prism has 10 faces. How many edges does it have?", "n": 24, "k": "3*(10-2)", "e": "Two of the faces are the ends, so the base has 8 sides (octagon). A prism has 3 edges for every side of the base: 8 + 8 + 8 = 24."},
+{"t": "A pyramid has 12 edges. How many faces does it have?", "n": 7, "k": "F(12,2)+1", "e": "A pyramid has 2 edges for each side of its base, so the base has 6 sides. Faces = 6 triangles + 1 base = 7."},
+{"t": "A 3 × 3 × 3 cube is painted on the outside and cut into 27 small cubes. How many small cubes have exactly 2 painted faces?", "n": 12, "e": "Those are the middle cubes of each edge (corners have 3, face-centres have 1). A cube has 12 edges with one such cube each."},
+{"t": "A 3 × 3 × 3 cube is painted on the outside and cut into 27 small cubes. How many small cubes have NO paint at all?", "n": 1, "k": "27-8-12-6", "e": "Only the cube hidden at the very centre. Check: 8 corners + 12 edge cubes + 6 face-centres + 1 = 27."},
+{"t": "A solid has 6 vertices and 9 edges. What is it?", "o": ["A triangular prism", "A square pyramid", "A tetrahedron", "A cube"], "e": "Faces = 2 + E − V = 2 + 9 − 6 = 5. A triangular prism has 5 faces, 6 vertices and 9 edges."},
+{"t": "What is the total number of dots on all six faces of a dice?", "n": 21, "k": "sum(range(1,7))", "e": "1 + 2 + 3 + 4 + 5 + 6 = 21. (Three opposite pairs that each add to 7.)"},
+{"t": "A cone is cut straight down through its tip and the centre of its base. The cross-section is a:", "o": ["Triangle", "Circle", "Rectangle", "Semicircle"], "e": "The cut shows the two slanting sides meeting at the tip, with the diameter of the base as the third side."},
+{"t": "How many edges meet at each vertex of a cube?", "n": 3, "e": "One along the length, one along the breadth and one along the height."},
+{"t": "What is the smallest number of faces a polyhedron can have?", "n": 4, "e": "You need at least 3 faces meeting at a point and one more to close the solid — the tetrahedron."}
+]}
+]
+}

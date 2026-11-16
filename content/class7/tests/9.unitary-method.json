@@ -1,0 +1,53 @@
+{
+"title": "9. Unitary Method",
+"tests": [
+{"q": [
+{"t": "5 pens cost ₹60. What do 8 pens cost (in ₹)?", "n": 96, "u": "₹", "k": "F(60,5)*8", "e": "Find ONE first: 1 pen = 60 ÷ 5 = ₹12. Then 8 pens = 8 × 12 = ₹96."},
+{"t": "3 kg of sugar costs ₹150. What do 7 kg cost (in ₹)?", "n": 350, "u": "₹", "k": "F(150,3)*7", "e": "1 kg = 150 ÷ 3 = ₹50, so 7 kg = ₹350."},
+{"t": "A car travels 240 km in 4 hours at a steady speed. How far does it go in 7 hours (in km)?", "n": 420, "u": "km", "k": "F(240,4)*7", "e": "In 1 hour it goes 240 ÷ 4 = 60 km, so in 7 hours 420 km."},
+{"t": "6 identical books weigh 3 kg. What do 10 such books weigh (in kg)?", "n": 5, "u": "kg", "k": "F(3,6)*10", "e": "1 book = 3 ÷ 6 = 0.5 kg; 10 books = 5 kg."},
+{"t": "15 oranges cost ₹90. How many oranges can you buy for ₹150?", "n": 25, "k": "150/F(90,15)", "e": "1 orange = 90 ÷ 15 = ₹6. Number bought = 150 ÷ 6 = 25."},
+{"t": "4 men can paint a wall in 6 days. How many days would 1 man take?", "n": 24, "u": "days", "k": "4*6", "e": "Fewer men means MORE days. The job needs 4 × 6 = 24 man-days, so one man takes 24 days."},
+{"t": "A dozen bananas cost ₹48. What do 5 bananas cost (in ₹)?", "n": 20, "u": "₹", "k": "F(48,12)*5", "e": "A dozen is 12: 1 banana = 48 ÷ 12 = ₹4, so 5 cost ₹20."},
+{"t": "2 m of cloth costs ₹250. What do 5 m cost (in ₹)?", "n": 625, "u": "₹", "k": "F(250,2)*5", "e": "1 m = ₹125, so 5 m = ₹625."},
+{"t": "A car has to cover a fixed distance. If its speed increases, the time taken:", "o": ["Decreases", "Increases", "Stays the same", "Doubles"], "e": "Going faster covers the same road in less time. Speed and time vary inversely."},
+{"t": "9 notebooks cost ₹198. What does 1 notebook cost (in ₹)?", "n": 22, "u": "₹", "k": "F(198,9)", "e": "Share the cost equally among 9: 198 ÷ 9 = 22."}
+]},
+{"q": [
+{"t": "8 men can do a job in 15 days. How many days will 12 men take?", "n": 10, "u": "days", "k": "F(8*15,12)", "e": "The job needs 8 × 15 = 120 man-days. With 12 men: 120 ÷ 12 = 10 days. More men, fewer days."},
+{"t": "35 inland letters cost ₹87.50. How many letters can be bought for ₹315?", "n": 126, "k": "315/(F('87.5')/35)", "e": "1 letter = 87.50 ÷ 35 = ₹2.50. Number = 315 ÷ 2.50 = 126."},
+{"t": "A car uses 14 litres of petrol to go 210 km. How many litres does it need for 330 km?", "n": 22, "u": "litres", "k": "F(330,F(210,14))", "e": "1 litre takes it 210 ÷ 14 = 15 km. For 330 km: 330 ÷ 15 = 22 litres."},
+{"t": "6 pipes fill a tank in 80 minutes. How long do 5 such pipes take (in minutes)?", "n": 96, "u": "minutes", "k": "F(6*80,5)", "e": "One pipe alone would take 6 × 80 = 480 minutes. Five pipes share the job: 480 ÷ 5 = 96."},
+{"t": "15 workers earn ₹9000 in 4 days. How much do 8 workers earn in 5 days (in ₹)?", "n": 6000, "u": "₹", "k": "F(9000,15*4)*8*5", "e": "1 worker in 1 day earns 9000 ÷ (15 × 4) = ₹150. Then 8 workers × 5 days × 150 = ₹6000."},
+{"t": "A fort has food for 360 men for 40 days. How long would the same food last 400 men (in days)?", "n": 36, "u": "days", "k": "F(360*40,400)", "e": "Food = 360 × 40 = 14400 man-days. For 400 men: 14400 ÷ 400 = 36 days."},
+{"t": "18 m of cloth costs ₹1170. What do 12 m cost (in ₹)?", "n": 780, "u": "₹", "k": "F(1170,18)*12", "e": "1 m = 1170 ÷ 18 = ₹65. 12 m = 12 × 65 = ₹780."},
+{"t": "A machine fills 420 bottles in 3 hours. How many does it fill in 5 hours?", "n": 700, "k": "F(420,3)*5", "e": "In 1 hour: 420 ÷ 3 = 140 bottles. In 5 hours: 700."},
+{"t": "At 60 km/h a journey takes 5 hours. How long does it take at 75 km/h (in hours)?", "n": 4, "u": "hours", "k": "F(60*5,75)", "e": "Distance = 60 × 5 = 300 km. At 75 km/h: 300 ÷ 75 = 4 hours."},
+{"t": "11 kg of rice costs ₹506. What do 17 kg cost (in ₹)?", "n": 782, "u": "₹", "k": "F(506,11)*17", "e": "1 kg = 506 ÷ 11 = ₹46. 17 kg = 17 × 46 = ₹782."}
+]},
+{"q": [
+{"t": "12 men working 8 hours a day finish a job in 10 days. How many days do 8 men working 10 hours a day take?", "n": 12, "u": "days", "k": "F(12*8*10,8*10)", "e": "The job needs 12 × 8 × 10 = 960 man-hours. 8 men × 10 hours = 80 man-hours a day, so 960 ÷ 80 = 12 days."},
+{"t": "A camp has food for 600 men for 20 days. After 5 days, 150 men leave. How many more days does the remaining food last?", "n": 20, "u": "days", "k": "F(600*15,450)", "e": "After 5 days, food for 600 men × 15 days = 9000 man-days is left. For 450 men: 9000 ÷ 450 = 20 days."},
+{"t": "A can do a job in 10 days and B in 15 days. How long do they take working together (in days)?", "n": 6, "u": "days", "k": "1/(F(1,10)+F(1,15))", "e": "In one day A does 1/10 and B does 1/15: together 3/30 + 2/30 = 1/6 of the job. So 6 days."},
+{"t": "One tap fills a tank in 6 hours and another in 3 hours. How long do both take together (in hours)?", "n": 2, "u": "hours", "k": "1/(F(1,6)+F(1,3))", "e": "In one hour they fill 1/6 + 1/3 = 1/2 of the tank, so the whole tank takes 2 hours."},
+{"t": "Convert 54 km/h into metres per second.", "n": 15, "u": "m/s", "k": "F(54*1000,3600)", "e": "54 km = 54000 m and 1 hour = 3600 s. 54000 ÷ 3600 = 15 m/s. (Shortcut: × 5/18.)"},
+{"t": "A train 150 m long runs at 54 km/h. How long does it take to pass a pole (in seconds)?", "n": 10, "u": "seconds", "k": "150/F(54*5,18)", "e": "To pass a pole the train must move its own length, 150 m. Speed = 15 m/s, so 150 ÷ 15 = 10 s."},
+{"t": "Three-quarters of a job is done in 12 days. At the same rate, how many more days are needed to finish it?", "n": 4, "u": "days", "k": "F(12,3)", "e": "3 quarters take 12 days, so 1 quarter takes 4 days — and exactly 1 quarter is left."},
+{"t": "6 men earn ₹5040 in 7 days. How much do 9 men earn in 4 days (in ₹)?", "n": 4320, "u": "₹", "k": "F(5040,42)*36", "e": "1 man in 1 day earns 5040 ÷ 42 = ₹120. 9 men × 4 days = 36 man-days × 120 = ₹4320."},
+{"t": "A car covers 2/5 of a journey in 3 hours. At the same speed, how many more hours does the rest take?", "n": 4.5, "u": "hours", "k": "3/F(2,5)-3", "e": "2 fifths take 3 h, so 1 fifth takes 1.5 h. The remaining 3 fifths take 3 × 1.5 = 4.5 h."},
+{"t": "20 cows graze a field in 9 days. In how many days will 15 cows graze it?", "n": 12, "u": "days", "k": "F(20*9,15)", "e": "The field holds 20 × 9 = 180 cow-days of grass. 180 ÷ 15 = 12 days."}
+]},
+{"q": [
+{"t": "A and B together finish a job in 12 days. A alone takes 20 days. How long does B alone take (in days)?", "n": 30, "u": "days", "k": "1/(F(1,12)-F(1,20))", "e": "B’s one-day work = 1/12 − 1/20 = 5/60 − 3/60 = 2/60 = 1/30, so B takes 30 days."},
+{"t": "5 men OR 8 women can do a job in 12 days. How long do 10 men and 8 women take together (in days)?", "n": 4, "u": "days", "k": "F(12,3)", "e": "8 women do the same as 5 men. So 10 men + 8 women = 15 men = three teams of 5 men. Three teams take 12 ÷ 3 = 4 days."},
+{"t": "8 men working 9 hours a day finish a job in 20 days. How many hours a day must 12 men work to finish it in 10 days?", "n": 12, "u": "hours", "k": "F(8*9*20,12*10)", "e": "Job = 8 × 9 × 20 = 1440 man-hours. 12 men × 10 days = 120 man-days, so 1440 ÷ 120 = 12 hours a day."},
+{"t": "A train 240 m long crosses a bridge 360 m long in 30 seconds. Find its speed in km/h.", "n": 72, "u": "km/h", "k": "F(240+360,30)*F(18,5)", "e": "To clear the bridge it travels bridge + its own length = 600 m. Speed = 600 ÷ 30 = 20 m/s = 20 × 18/5 = 72 km/h."},
+{"t": "Pipe A fills a tank in 12 hours and pipe B empties it in 18 hours. Starting empty with both open, how long does the tank take to fill (in hours)?", "n": 36, "u": "hours", "k": "1/(F(1,12)-F(1,18))", "e": "Each hour: 1/12 in, 1/18 out. Net = 3/36 − 2/36 = 1/36 of the tank, so 36 hours."},
+{"t": "A can do a job in 15 days and B in 10 days. They work together for 3 days, then A leaves. How many more days does B need to finish?", "n": 5, "u": "days", "k": "(1-3*(F(1,15)+F(1,10)))/F(1,10)", "e": "Together per day: 1/15 + 1/10 = 1/6. In 3 days: 1/2 the job. B does the other half at 1/10 per day: 5 days."},
+{"t": "A camp of 80 students has food for 30 days. After 6 days, 16 more students join. How many days does the remaining food last?", "n": 20, "u": "days", "k": "F(80*24,96)", "e": "Food left = 80 students × 24 days = 1920 student-days. Now 96 students: 1920 ÷ 96 = 20 days."},
+{"t": "Walking at 4 km/h, Ravi reaches school 10 minutes late. Walking at 5 km/h, he is 5 minutes early. How far is the school (in km)?", "n": 5, "u": "km", "k": "F(15,60)/(F(1,4)-F(1,5))", "e": "The two times differ by 15 min = 1/4 hour: d/4 − d/5 = 1/4 → d/20 = 1/4 → d = 5 km."},
+{"t": "15 men earn ₹6300 in 6 days. How many men will earn ₹5880 in 12 days?", "n": 7, "k": "5880/(F(6300,90)*12)", "e": "1 man in 1 day earns 6300 ÷ 90 = ₹70. In 12 days one man earns ₹840. 5880 ÷ 840 = 7 men."},
+{"t": "A contractor puts 40 men on a job due in 30 days. After 10 days only 1/4 of the work is done. How many EXTRA men are needed to finish on time?", "n": 20, "k": "F(3*400,20)-40", "e": "40 men × 10 days = 400 man-days did 1/4, so the remaining 3/4 needs 1200 man-days. In 20 days that takes 1200 ÷ 20 = 60 men: 20 extra."}
+]}
+]
+}

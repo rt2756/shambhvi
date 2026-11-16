@@ -1,0 +1,53 @@
+{
+"title": "15. Properties of Triangles",
+"tests": [
+{"q": [
+{"t": "The three angles of any triangle add up to:", "n": 180, "u": "°", "e": "Tear off the three corners and put them together — they make a straight line. (A line through one vertex parallel to the opposite side shows why.)"},
+{"t": "Two angles of a triangle are 50° and 60°. Find the third (in degrees).", "n": 70, "u": "°", "k": "180-50-60", "e": "180 − 50 − 60 = 70."},
+{"t": "Each angle of an equilateral triangle is:", "n": 60, "u": "°", "k": "F(180,3)", "e": "All three angles are equal and add to 180°, so each is 180 ÷ 3 = 60°."},
+{"t": "A triangle with one angle of 90° is called:", "o": ["A right-angled triangle", "An acute-angled triangle", "An obtuse-angled triangle", "An equilateral triangle"], "e": "It is named after its biggest angle — a right angle."},
+{"t": "Can sides of 3 cm, 4 cm and 5 cm make a triangle?", "o": ["Yes, because 3 + 4 > 5", "No, because 3 + 4 > 5", "No, because they are all different", "Yes, because 3 + 4 + 5 = 12"], "e": "Any two sides together must be longer than the third, or they cannot reach each other. The two shortest (3 + 4 = 7) beat the longest (5)."},
+{"t": "An exterior angle of a triangle equals:", "o": ["The sum of the two interior opposite angles", "The adjacent interior angle", "The sum of all three interior angles", "Half the opposite angle"], "e": "Exterior + adjacent interior = 180°, and the three interior angles = 180°. So the exterior angle must equal the other two interior angles together."},
+{"t": "An isosceles triangle has:", "o": ["Two equal sides", "Three equal sides", "No equal sides", "One right angle"], "e": "Isosceles means ‘equal legs’ — exactly two sides (and the two angles opposite them) are equal."},
+{"t": "In a right-angled triangle, the hypotenuse is:", "o": ["The side opposite the right angle", "The shortest side", "Either side forming the right angle", "The base"], "e": "It faces the biggest angle (90°), so it is also the longest side."},
+{"t": "Can a triangle have two right angles?", "o": ["No — they already use up 180°", "Yes, if it is large enough", "Yes, if it is isosceles", "Only if the third angle is 90°"], "e": "90 + 90 = 180 leaves 0° for the third angle, so there is no third corner."},
+{"t": "A triangle with all three sides of different lengths is:", "o": ["Scalene", "Isosceles", "Equilateral", "Right-angled"], "e": "Scalene = no equal sides. (It may or may not also be right-angled.)"}
+]},
+{"q": [
+{"t": "The angles of a triangle are x°, 2x° and 3x°. Find the largest angle (in degrees).", "n": 90, "u": "°", "k": "F(180,6)*3", "e": "6x = 180, x = 30. Largest = 3x = 90 — a right-angled triangle."},
+{"t": "An exterior angle of a triangle is 120° and one interior opposite angle is 50°. Find the other interior opposite angle (in degrees).", "n": 70, "u": "°", "k": "120-50", "e": "Exterior angle = sum of the two interior opposite angles: 120 − 50 = 70."},
+{"t": "The vertex angle of an isosceles triangle is 40°. Find each base angle (in degrees).", "n": 70, "u": "°", "k": "F(180-40,2)", "e": "The two base angles are equal and share 180 − 40 = 140°, so each is 70°."},
+{"t": "A right-angled triangle has legs 6 cm and 8 cm. Find the hypotenuse (in cm).", "n": 10, "u": "cm", "k": "(36+64)**F(1,2)", "e": "Pythagoras: hypotenuse² = 6² + 8² = 36 + 64 = 100, so the hypotenuse is 10."},
+{"t": "Can sides of 5 cm, 7 cm and 13 cm make a triangle?", "o": ["No, because 5 + 7 < 13", "Yes, because 13 is the longest", "Yes, because 5 + 13 > 7", "No, because they are all odd"], "e": "The two shorter sides together (12) are shorter than the third (13), so they cannot meet."},
+{"t": "In a right-angled triangle one acute angle is 35°. Find the other acute angle (in degrees).", "n": 55, "u": "°", "k": "90-35", "e": "The right angle takes 90°, leaving 90° for the other two: 90 − 35 = 55."},
+{"t": "A right-angled triangle has hypotenuse 13 cm and one leg 5 cm. Find the other leg (in cm).", "n": 12, "u": "cm", "k": "(169-25)**F(1,2)", "e": "leg² = 13² − 5² = 169 − 25 = 144, so the leg is 12."},
+{"t": "The angles of a triangle are in the ratio 2 : 3 : 4. Find the largest angle (in degrees).", "n": 80, "u": "°", "k": "F(180,9)*4", "e": "9 parts make 180°, one part is 20°, largest = 80°."},
+{"t": "Each base angle of an isosceles triangle is 55°. Find the vertex angle (in degrees).", "n": 70, "u": "°", "k": "180-2*55", "e": "180 − 55 − 55 = 70."},
+{"t": "Find each exterior angle of an equilateral triangle (in degrees).", "n": 120, "u": "°", "k": "180-60", "e": "Each interior angle is 60°, and exterior + interior = 180°, so the exterior angle is 120° (= 60 + 60, the two opposite angles)."}
+]},
+{"q": [
+{"t": "A 15 m ladder reaches a window 12 m above the ground. How far is the foot of the ladder from the wall (in m)?", "n": 9, "u": "m", "k": "(225-144)**F(1,2)", "e": "Wall, ground and ladder make a right triangle with the ladder as hypotenuse: 15² − 12² = 225 − 144 = 81, so 9 m."},
+{"t": "An exterior angle of a triangle is 110°. The two interior opposite angles are in the ratio 2 : 3. Find the larger of them (in degrees).", "n": 66, "u": "°", "k": "F(110,5)*3", "e": "They add up to the exterior angle: 5 parts = 110, one part = 22, larger = 66."},
+{"t": "Two sides of a triangle are 7 cm and 10 cm. The third side must be:", "o": ["Between 3 cm and 17 cm", "Exactly 17 cm", "Less than 3 cm", "More than 17 cm"], "e": "It must be less than the sum (17) so the other two can reach, and more than the difference (3) so that it can reach them."},
+{"t": "The angles of a triangle are (x + 10)°, (2x − 20)° and (x + 30)°. Find the largest angle (in degrees).", "n": 70, "u": "°", "k": "40+30", "e": "4x + 20 = 180, x = 40. Angles: 50°, 60°, 70°."},
+{"t": "Is a triangle with sides 9 cm, 40 cm and 41 cm right-angled?", "o": ["Yes, because 9² + 40² = 41²", "No, because 9 + 40 ≠ 41", "No, because the sides are unequal", "Yes, because 41 is odd"], "k": "9**2+40**2-41**2+9", "e": "81 + 1600 = 1681 = 41². If the squares of two sides add up to the square of the third, the triangle is right-angled."},
+{"t": "One angle of a triangle is 80° and the other two are equal. Find each of them (in degrees).", "n": 50, "u": "°", "k": "F(180-80,2)", "e": "The other two share 100° equally: 50° each."},
+{"t": "A rectangle is 8 cm by 15 cm. Find the length of its diagonal (in cm).", "n": 17, "u": "cm", "k": "(64+225)**F(1,2)", "e": "The diagonal is the hypotenuse of a right triangle with legs 8 and 15: 64 + 225 = 289 = 17²."},
+{"t": "In a triangle, one angle equals the sum of the other two. The triangle is:", "o": ["Right-angled", "Equilateral", "Obtuse-angled", "Acute-angled"], "e": "If A = B + C, then A + A = 180, so A = 90°."},
+{"t": "A right-angled triangle is also isosceles. Find each acute angle (in degrees).", "n": 45, "u": "°", "k": "F(90,2)", "e": "The two acute angles are equal and add to 90°, so each is 45°."},
+{"t": "A man walks 12 m east and then 5 m north. How far is he from his starting point (in m)?", "n": 13, "u": "m", "k": "(144+25)**F(1,2)", "e": "East and north are at right angles, so the straight-line distance is a hypotenuse: 144 + 25 = 169 = 13²."}
+]},
+{"q": [
+{"t": "Two vertical poles 6 m and 11 m high stand 12 m apart on level ground. Find the distance between their tops (in m).", "n": 13, "u": "m", "k": "(12**2+(11-6)**2)**F(1,2)", "e": "The tops differ in height by 5 m and are 12 m apart sideways. Right triangle: 25 + 144 = 169 = 13²."},
+{"t": "In △ABC, ∠A is 20° more than ∠B, and ∠C is 20° less than ∠B. Find ∠A (in degrees).", "n": 80, "u": "°", "k": "60+20", "e": "(B + 20) + B + (B − 20) = 180 → 3B = 180 → B = 60, so A = 80."},
+{"t": "The diagonals of a rhombus are 16 cm and 30 cm. Find the length of each side (in cm).", "n": 17, "u": "cm", "k": "(8**2+15**2)**F(1,2)", "e": "The diagonals cut each other in half at right angles, making right triangles with legs 8 and 15: 64 + 225 = 289 = 17²."},
+{"t": "The three exterior angles of a triangle (one at each vertex) add up to:", "n": 360, "u": "°", "k": "3*180-180", "e": "Each exterior + interior pair is 180°, so three pairs total 540°. Remove the interior sum of 180°: 360°."},
+{"t": "In △ABC, ∠A = 70°. The bisectors of ∠B and ∠C meet at O. Find ∠BOC (in degrees).", "n": 125, "u": "°", "k": "180-F(180-70,2)", "e": "∠B + ∠C = 110°, so their halves add to 55°. In △BOC the third angle is 180 − 55 = 125°."},
+{"t": "A tree breaks 5 m above the ground and its top touches the ground 12 m from the base. How tall was the tree (in m)?", "n": 18, "u": "m", "k": "5+(25+144)**F(1,2)", "e": "The broken part is the hypotenuse: 25 + 144 = 169 → 13 m. Total height = 5 + 13 = 18 m."},
+{"t": "Two sides of a triangle are 4 cm and 9 cm. How many whole-number lengths (in cm) are possible for the third side?", "n": 7, "k": "len([c for c in range(1,30) if 9-4<c<9+4])", "e": "The third side must be more than 9 − 4 = 5 and less than 9 + 4 = 13: so 6, 7, 8, 9, 10, 11 or 12 — seven values."},
+{"t": "A right-angled triangle has hypotenuse 13 cm, and its legs differ by 7 cm. Find the shorter leg (in cm).", "n": 5, "u": "cm", "k": "[x for x in range(1,13) if x*x+(x+7)**2==169][0]", "e": "Legs x and x + 7 with x² + (x + 7)² = 169. Try x = 5: 25 + 144 = 169 ✓."},
+{"t": "An exterior angle of a triangle is 105° and the two interior opposite angles are equal. Find each (in degrees).", "n": 52.5, "u": "°", "k": "F(105,2)", "e": "They add up to the exterior angle, so each is 105 ÷ 2 = 52.5."},
+{"t": "In △ABC, AB = AC and ∠A = 2 × ∠B. Find ∠A (in degrees).", "n": 90, "u": "°", "k": "F(180,4)*2", "e": "AB = AC makes ∠B = ∠C. So 2B + B + B = 180, B = 45 and ∠A = 90."}
+]}
+]
+}

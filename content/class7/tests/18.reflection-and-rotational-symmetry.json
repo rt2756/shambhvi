@@ -1,0 +1,53 @@
+{
+"title": "18. Reflection and Rotational Symmetry",
+"tests": [
+{"q": [
+{"t": "How many lines of symmetry does a square have?", "n": 4, "e": "Two join the midpoints of opposite sides and two are the diagonals. Folding along any of them makes the halves match."},
+{"t": "How many lines of symmetry does an equilateral triangle have?", "n": 3, "e": "One from each vertex to the midpoint of the opposite side."},
+{"t": "How many lines of symmetry does a circle have?", "o": ["Infinitely many", "One", "Four", "None"], "e": "Every line through the centre (every diameter) folds the circle onto itself, and there is no end to the diameters."},
+{"t": "How many lines of symmetry does the capital letter A have?", "n": 1, "e": "Only the vertical line down the middle — the left and right halves are mirror images."},
+{"t": "How many lines of symmetry does a rectangle (that is not a square) have?", "n": 2, "e": "The two lines joining midpoints of opposite sides. The diagonals do NOT work — folding along one leaves corners sticking out."},
+{"t": "What is the order of rotational symmetry of a square?", "n": 4, "e": "In one full turn it looks the same 4 times — after 90°, 180°, 270° and 360°."},
+{"t": "In a mirror placed beside it, the letter p looks like:", "o": ["q", "b", "d", "p"], "e": "A mirror swaps left and right but not up and down, so the loop moves to the other side of the stick: q."},
+{"t": "How many lines of symmetry does an isosceles triangle (not equilateral) have?", "n": 1, "e": "Only the line from the vertex between the equal sides to the midpoint of the base."},
+{"t": "Which of these capital letters has NO line of symmetry?", "o": ["F", "A", "H", "M"], "e": "A and M fold left-to-right, H folds both ways. F matches under no fold."},
+{"t": "How many lines of symmetry does a regular hexagon have?", "n": 6, "e": "A regular polygon with n sides has n lines of symmetry: 3 through opposite corners and 3 through midpoints of opposite sides."}
+]},
+{"q": [
+{"t": "What is the order of rotational symmetry of an equilateral triangle?", "n": 3, "e": "It fits onto itself after turns of 120°, 240° and 360° — three times in a full turn."},
+{"t": "What is the smallest angle through which a square can be turned to look the same (in degrees)?", "n": 90, "u": "°", "k": "F(360,4)", "e": "Order 4, so 360 ÷ 4 = 90°."},
+{"t": "Which capital letter has both a horizontal and a vertical line of symmetry?", "o": ["H", "A", "B", "M"], "e": "H folds top-to-bottom and left-to-right. A and M only fold left-to-right; B only top-to-bottom."},
+{"t": "How many lines of symmetry does a parallelogram (not a rectangle or rhombus) have?", "n": 0, "e": "No fold makes the halves match — the slanted sides land in the wrong places."},
+{"t": "What is the order of rotational symmetry of a parallelogram?", "n": 2, "e": "A half-turn (180°) about the point where the diagonals cross puts it back onto itself."},
+{"t": "How many lines of symmetry does a rhombus (not a square) have?", "n": 2, "e": "Its two diagonals. All four sides are equal, so folding along a diagonal matches the sides."},
+{"t": "How many lines of symmetry does a regular pentagon have?", "n": 5, "e": "One through each vertex and the midpoint of the opposite side — 5 in all."},
+{"t": "What is the angle of rotational symmetry of a regular hexagon (in degrees)?", "n": 60, "u": "°", "k": "F(360,6)", "e": "Order 6, so 360 ÷ 6 = 60°."},
+{"t": "The capital letter S has:", "o": ["Rotational symmetry of order 2 but no line of symmetry", "One line of symmetry only", "Two lines of symmetry", "No symmetry at all"], "e": "No fold matches its halves, but a half-turn brings it back onto itself."},
+{"t": "How many lines of symmetry does a scalene triangle have?", "n": 0, "e": "With all sides different, no fold can make two matching halves."}
+]},
+{"q": [
+{"t": "A figure has rotational symmetry of order 4. What is its angle of rotation (in degrees)?", "n": 90, "u": "°", "k": "F(360,4)", "e": "Angle = 360° ÷ order = 90°."},
+{"t": "A regular polygon has an angle of rotational symmetry of 40°. How many sides does it have?", "n": 9, "k": "F(360,40)", "e": "Order = 360 ÷ 40 = 9, and a regular polygon’s order equals its number of sides."},
+{"t": "How many lines of symmetry does a kite have?", "n": 1, "e": "Only the diagonal that joins the two corners where the equal sides meet."},
+{"t": "What is the order of rotational symmetry of the capital letter Z?", "n": 2, "e": "A half-turn brings Z back onto itself; a quarter-turn makes it look like N."},
+{"t": "Which shape has line symmetry but NO rotational symmetry (other than a full turn)?", "o": ["Isosceles triangle", "Parallelogram", "Square", "Equilateral triangle"], "e": "An isosceles triangle folds along one line, but only a full 360° turn brings it back."},
+{"t": "Which shape has rotational symmetry but NO line of symmetry?", "o": ["Parallelogram", "Rectangle", "Kite", "Isosceles triangle"], "e": "A parallelogram fits itself after a half-turn (order 2) but cannot be folded into matching halves."},
+{"t": "How many lines of symmetry does a regular polygon with 12 sides have?", "n": 12, "e": "A regular n-sided polygon has n lines of symmetry."},
+{"t": "How many lines of symmetry does a semicircle have?", "n": 1, "e": "Only the line through the middle of the straight edge, at right angles to it."},
+{"t": "A clock shows 3 o’clock. What time does it appear to show in a mirror?", "o": ["9 o’clock", "3 o’clock", "6 o’clock", "12 o’clock"], "e": "The mirror swaps left and right, so the hour hand pointing right at 3 appears to point left at 9."},
+{"t": "A figure has rotational symmetry of order 5. Find its angle of rotation (in degrees).", "n": 72, "u": "°", "k": "F(360,5)", "e": "360 ÷ 5 = 72°."}
+]},
+{"q": [
+{"t": "Can a figure have 50° as its smallest angle of rotational symmetry?", "o": ["No, because 50 does not divide 360 exactly", "Yes, with order 7", "Yes, with order 50", "No, because 50 is less than 90"], "e": "Repeating the turn must bring the figure back exactly at 360°. 360 ÷ 50 = 7.2 is not a whole number."},
+{"t": "A figure’s smallest angle of rotational symmetry is 45°. What is its order?", "n": 8, "k": "F(360,45)", "e": "360 ÷ 45 = 8."},
+{"t": "How many letters of the word MATHS (in capitals) have at least one line of symmetry?", "n": 4, "e": "M, A and T fold left-to-right; H folds both ways. S has no line of symmetry. That is 4 letters."},
+{"t": "How many letters of the word ZOOM (in capitals) have rotational symmetry of order more than 1?", "n": 3, "e": "Z looks the same after a half-turn, and so does each O. M turned upside down becomes W. That is 3 letters."},
+{"t": "A clock seen in a mirror appears to show 4:20. What is the real time?", "o": ["7:40", "8:40", "7:20", "4:20"], "e": "Mirror time and real time add up to 12:00 (written as 11:60). 11:60 − 4:20 = 7:40."},
+{"t": "A regular polygon has rotational symmetry of order 10. What is the size of each of its exterior angles (in degrees)?", "n": 36, "u": "°", "k": "F(360,10)", "e": "It has 10 sides, and the exterior angles of any polygon total 360°: 360 ÷ 10 = 36°. This equals its angle of rotation."},
+{"t": "Which shape has exactly 2 lines of symmetry AND rotational symmetry of order 2?", "o": ["Rectangle", "Square", "Parallelogram", "Equilateral triangle"], "e": "Rectangle: 2 lines, order 2. Square: 4 and 4. Parallelogram: 0 lines. Equilateral triangle: 3 and 3."},
+{"t": "Which number reads exactly the same after a half-turn (180°)?", "o": ["69", "68", "66", "19"], "e": "A half-turn swaps the two digits’ places and turns 6 into 9 and 9 into 6: 69 → 69. (66 becomes 99, 68 becomes 89, 19 becomes 61.)"},
+{"t": "Add up the lines of symmetry of a square, a rectangle and an equilateral triangle.", "n": 9, "k": "4+2+3", "e": "4 + 2 + 3 = 9."},
+{"t": "A regular polygon has 8 lines of symmetry. Find its angle of rotational symmetry (in degrees).", "n": 45, "u": "°", "k": "F(360,8)", "e": "8 lines of symmetry means 8 sides and order 8: 360 ÷ 8 = 45°."}
+]}
+]
+}

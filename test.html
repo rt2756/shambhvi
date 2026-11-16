@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter test</title>
+<meta name="description" content="A self-marking chapter test — answers, marks and explanations after Submit.">
+<link rel="stylesheet" href="assets/css/style.css?v=11">
+</head>
+<body>
+  <!-- One page runs every test: test.html?c=<class>&f=<chapter file>&t=<1-4>.
+       The data comes from content/class<c>/tests/<f>.json — see assets/js/tests.js. -->
+  <div class="wrap questions">
+    <header class="hero">
+      <span class="pill" id="test-pill">🎯 Chapter test</span>
+      <h1 class="title"><span class="grad" id="test-title">Test</span></h1>
+      <nav class="nav-toggle" aria-label="Layout">
+        <a href="index.html">🏠 Home</a>
+        <a id="test-back" href="index.html">🎯 All tests</a>
+      </nav>
+    </header>
+
+    <div id="test-run">
+      <div class="empty"><div class="big">⏳</div><strong>Loading test…</strong></div>
+    </div>
+  </div>
+
+  <script src="assets/js/tests.js?v=1"></script>
+</body>
+</html>
