@@ -1,0 +1,53 @@
+{
+"title": "6. Decoration for Festival",
+"tests": [
+{"q": [
+{"t": "Add: 12 + 53", "n": 65, "k": "12+53", "e": "Ones: 2 + 3 = 5. Tens: 1 + 5 = 6. So 65."},
+{"t": "Add: 43 + 20", "n": 63, "k": "43+20", "e": "Adding 2 tens moves 43 up to 63; the ones stay 3."},
+{"t": "Add: 25 + 12", "n": 37, "k": "25+12", "e": "Count 12 ahead of 25: 10 more is 35, 2 more is 37."},
+{"t": "Subtract: 45 − 12", "n": 33, "k": "45-12", "e": "Ones: 5 − 2 = 3. Tens: 4 − 1 = 3. So 33."},
+{"t": "Subtract: 37 − 24", "n": 13, "k": "37-24", "e": "Ones: 7 − 4 = 3. Tens: 3 − 2 = 1. So 13."},
+{"t": "Rohan has 1 garland of 10 flowers and 2 loose flowers. How many flowers does he have?", "n": 12, "u": "flowers", "k": "10+2", "e": "1 ten and 2 ones make 12."},
+{"t": "Subtract: 22 − 22", "n": 0, "k": "22-22", "e": "Taking away everything you have leaves nothing — like spending all your money."},
+{"t": "Subtract: 14 − 0", "n": 14, "k": "14-0", "e": "Taking away nothing leaves all 14 — like spending no money."},
+{"t": "Aman needs 20 skips. He has done 14. How many more skips does he need?", "n": 6, "u": "skips", "k": "20-14", "e": "Count on from 14 to 20: 15, 16, 17, 18, 19, 20 — that is 6 more. So 20 − 14 = 6."},
+{"t": "Ruby has ₹60. She buys a notebook for ₹20. How much money is left?", "n": 40, "u": "₹", "k": "60-20", "e": "6 tens − 2 tens = 4 tens, so ₹40."}
+]},
+{"q": [
+{"t": "Add: 36 + 47", "n": 83, "k": "36+47", "e": "Ones: 6 + 7 = 13, that is 1 ten and 3 ones. Tens: 3 + 4 + 1 = 8. So 83."},
+{"t": "Add: 57 + 34", "n": 91, "k": "57+34", "e": "57 + 30 = 87, then 87 + 4 = 91."},
+{"t": "Add: 46 + 39", "n": 85, "k": "46+39", "e": "Ones: 6 + 9 = 15 → write 5, carry 1 ten. Tens: 4 + 3 + 1 = 8. So 85."},
+{"t": "Subtract: 46 − 18", "n": 28, "k": "46-18", "e": "6 ones is too few to take 8, so open 1 ten: 3 tens and 16 ones. 16 − 8 = 8, 3 − 1 = 2. So 28."},
+{"t": "Subtract: 54 − 28", "n": 26, "k": "54-28", "e": "Open 1 ten: 4 tens and 14 ones. 14 − 8 = 6, 4 − 2 = 2. So 26."},
+{"t": "A girl made 75 diyas and sold 35. How many are left?", "n": 40, "u": "diyas", "k": "75-35", "e": "Ones: 5 − 5 = 0. Tens: 7 − 3 = 4. So 40."},
+{"t": "Rahim made 43 runs in one match and 48 runs in another. How many runs in all?", "n": 91, "u": "runs", "k": "43+48", "e": "Ones: 3 + 8 = 11 → 1 ten and 1 one. Tens: 4 + 4 + 1 = 9. So 91."},
+{"t": "We know 20 + 30 = 50. So what is 50 − 30?", "n": 20, "k": "50-30", "e": "Subtraction undoes addition: if 20 and 30 make 50, taking 30 from 50 leaves 20."},
+{"t": "Subtract: 93 − 48", "n": 45, "k": "93-48", "e": "Open 1 ten: 8 tens and 13 ones. 13 − 8 = 5, 8 − 4 = 4. So 45."},
+{"t": "What is the correct answer to 25 + 36?", "o": ["61", "511", "51", "62"], "e": "Ones: 5 + 6 = 11, which is 1 ten and 1 one — carry the ten: 2 + 3 + 1 = 6 tens. So 61, not 511."}
+]},
+{"q": [
+{"t": "Anushka collected 63 shells. She gave 26 to her brother. How many are left?", "n": 37, "u": "shells", "k": "63-26", "e": "Open 1 ten: 5 tens and 13 ones. 13 − 6 = 7, 5 − 2 = 3. So 37."},
+{"t": "56 birds sat on a tree. More birds came. Now there are 87. How many birds came?", "n": 31, "u": "birds", "k": "87-56", "e": "The new birds are the difference: 87 − 56 = 31. Check: 56 + 31 = 87."},
+{"t": "Arman dribbled the ball 18 times. How many more times must he dribble to reach 35?", "n": 17, "k": "35-18", "e": "Find what to add to 18 to make 35: 35 − 18 = 17. Check: 18 + 17 = 35."},
+{"t": "Kanika made 72 bangles and sold 36. How many are left?", "n": 36, "u": "bangles", "k": "72-36", "e": "Open 1 ten: 6 tens and 12 ones. 12 − 6 = 6, 6 − 3 = 3. So 36."},
+{"t": "Heena has 34 red marbles and 57 blue marbles. How many marbles in all?", "n": 91, "u": "marbles", "k": "34+57", "e": "Ones: 4 + 7 = 11 → carry 1 ten. Tens: 3 + 5 + 1 = 9. So 91."},
+{"t": "In an addition pyramid, the top box is the sum of the two boxes below it. The bottom boxes are 5 and 3. What is on top?", "n": 8, "k": "5+3", "e": "Top = 5 + 3 = 8."},
+{"t": "Daljeet wrote 35 − 17 = 22. What is the correct answer?", "n": 18, "k": "35-17", "e": "5 ones is too few to take 7, so open a ten: 15 − 7 = 8 and 2 − 1 = 1. So 18. He forgot to open the ten."},
+{"t": "Daljeet wrote 37 + 58 = 131. What is the correct answer?", "n": 95, "k": "37+58", "e": "Ones: 7 + 8 = 15 → write 5, carry 1. Tens: 3 + 5 + 1 = 9. So 95. He wrote 15 instead of carrying the ten."},
+{"t": "What number added to 22 gives 38?", "n": 16, "k": "38-22", "e": "The missing part is 38 − 22 = 16. Check: 22 + 16 = 38."},
+{"t": "There were 40 balloons. 13 burst. How many are left?", "n": 27, "u": "balloons", "k": "40-13", "e": "Open 1 ten: 3 tens and 10 ones. 10 − 3 = 7, 3 − 1 = 2. So 27."}
+]},
+{"q": [
+{"t": "Hania and Mansi have ₹85. They buy a gift wrapper for ₹26 and ribbons for ₹35. How much do they spend?", "n": 61, "u": "₹", "k": "26+35", "e": "Spent = 26 + 35. Ones: 6 + 5 = 11 → carry 1. Tens: 2 + 3 + 1 = 6. So ₹61."},
+{"t": "Hania and Mansi have ₹85. They spend ₹26 on a gift wrapper and ₹35 on ribbons. How much money is left?", "n": 24, "u": "₹", "k": "85-26-35", "e": "They spend 26 + 35 = 61 in all, and 85 − 61 = 24."},
+{"t": "Jyoti has 73 flowers. She gives 47 to her mother and 5 to a friend. How many are left?", "n": 21, "u": "flowers", "k": "73-47-5", "e": "73 − 47 = 26, then 26 − 5 = 21."},
+{"t": "A bus has 36 men and 47 women. At a stop, 25 people get off. How many people are on the bus now?", "n": 58, "u": "people", "k": "36+47-25", "e": "First add: 36 + 47 = 83 people. Then take away: 83 − 25 = 58."},
+{"t": "Simran has 12 pencils. Her mother gives her 36 more. She gives 20 to her brother. How many does she have now?", "n": 28, "u": "pencils", "k": "12+36-20", "e": "12 + 36 = 48, then 48 − 20 = 28."},
+{"t": "Ruby has ₹60. She buys a notebook for ₹20 and a pen for ₹15. How much is left?", "n": 25, "u": "₹", "k": "60-20-15", "e": "60 − 20 = 40, then 40 − 15 = 25."},
+{"t": "Aman and Avni each need 20 skips. Aman has done 14 and Avni has done 12. How many more skips do they need altogether?", "n": 14, "u": "skips", "k": "(20-14)+(20-12)", "e": "Aman needs 20 − 14 = 6, Avni needs 20 − 12 = 8, and 6 + 8 = 14."},
+{"t": "A girl made 75 diyas. She sold 35 in the morning and 28 in the evening. How many are left?", "n": 12, "u": "diyas", "k": "75-35-28", "e": "75 − 35 = 40, then 40 − 28 = 12."},
+{"t": "Which two numbers add up to 50 and also have a difference of 10?", "o": ["30 and 20", "25 and 25", "40 and 10", "35 and 25"], "e": "30 + 20 = 50 and 30 − 20 = 10. The others fail one of the two checks."},
+{"t": "Fact family of 20, 80 and 100: 100 − ___ = 20", "n": 80, "k": "100-20", "e": "Since 20 + 80 = 100, taking 80 from 100 leaves 20."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "2. Shapes Around Us",
+"tests": [
+{"q": [
+{"t": "A football is shaped like a:", "o": ["Sphere", "Cube", "Cone", "Cylinder"], "e": "A sphere is round all over, just like a ball."},
+{"t": "A dice is shaped like a:", "o": ["Cube", "Sphere", "Cone", "Cylinder"], "e": "A dice has 6 flat faces that are all the same square — that is a cube."},
+{"t": "An empty ice-cream cone is shaped like a:", "o": ["Cone", "Cube", "Sphere", "Cuboid"], "e": "It is round at the top and comes to one pointed corner at the bottom — a cone."},
+{"t": "A drum is shaped most like a:", "o": ["Cylinder", "Cone", "Cube", "Sphere"], "e": "A drum has two flat round faces and a curved side, like a cylinder."},
+{"t": "A brick is shaped like a:", "o": ["Cuboid", "Sphere", "Cone", "Cylinder"], "e": "A brick is a box with 6 flat rectangle faces — a cuboid."},
+{"t": "How many faces does a cube have?", "n": 6, "u": "faces", "k": "6", "e": "Top, bottom, front, back, left and right — 6 faces."},
+{"t": "How many corners does a sphere have?", "n": 0, "u": "corners", "k": "0", "e": "A sphere is round all over, so no edges meet anywhere to make a corner."},
+{"t": "Which shape can roll easily in every direction?", "o": ["Sphere", "Cube", "Cuboid", "Cone"], "e": "A sphere is curved everywhere, so it rolls whichever way you push it."},
+{"t": "How many corners does a cone have?", "n": 1, "u": "corner", "k": "1", "e": "A cone has just one pointed corner, at its tip."},
+{"t": "A gift box is a cuboid. How many stars do you need to put one star on each face?", "n": 6, "u": "stars", "k": "6", "e": "A cuboid has 6 faces, so it needs 6 stars."}
+]},
+{"q": [
+{"t": "How many edges does a cube have?", "n": 12, "u": "edges", "k": "4+4+4", "e": "4 edges round the top, 4 round the bottom and 4 standing up: 4 + 4 + 4 = 12."},
+{"t": "How many corners does a cuboid have?", "n": 8, "u": "corners", "k": "4+4", "e": "4 corners on the top face and 4 on the bottom face: 8."},
+{"t": "How many flat faces does a cylinder have?", "n": 2, "u": "faces", "k": "2", "e": "A cylinder has a flat circle at the top and one at the bottom; its side is curved."},
+{"t": "Which shape has no corners and no edges?", "o": ["Sphere", "Cylinder", "Cone", "Cube"], "e": "A sphere has one smooth curved surface, so nothing meets to make an edge or a corner."},
+{"t": "Which shape has exactly one corner?", "o": ["Cone", "Cylinder", "Sphere", "Cube"], "e": "The tip of a cone is its only corner."},
+{"t": "A round clay matka (pot) is most like which shape?", "o": ["Sphere", "Cube", "Cuboid", "Cone"], "e": "A matka is round and fat all over, like a ball."},
+{"t": "Which of these is NOT shaped like a cylinder?", "o": ["A football", "A tin can", "A pipe", "A candle"], "e": "A can, a pipe and a candle have flat round ends and a curved side; a football is round all over."},
+{"t": "How is a harmonium (a box shape) different from a drum?", "o": ["The harmonium has flat faces and corners; the drum has a curved side", "The harmonium is round all over", "The harmonium has no edges", "The harmonium rolls like a drum"], "e": "A box has only flat faces that meet at corners; a drum has a curved side and no corners."},
+{"t": "Which shape can both roll and also stand still on a flat face?", "o": ["Cylinder", "Cube", "Sphere", "Cuboid"], "e": "On its curved side a cylinder rolls; stood on a flat end, it stays still."},
+{"t": "A shehnai is narrow at one end and gets wider at the other end. It looks most like a:", "o": ["Cone", "Cube", "Sphere", "Cuboid"], "e": "A shape that widens from a narrow end is like a cone."}
+]},
+{"q": [
+{"t": "To put one ribbon on every edge of a cube-shaped box, how many ribbons do you need?", "n": 12, "u": "ribbons", "k": "12", "e": "A cube has 12 edges, so one ribbon each makes 12."},
+{"t": "You put one pompom on every corner of 2 cube boxes. How many pompoms in all?", "n": 16, "u": "pompoms", "k": "2*8", "e": "Each cube has 8 corners, and 8 + 8 = 16."},
+{"t": "You put one star on every face of 3 cubes. How many stars in all?", "n": 18, "u": "stars", "k": "3*6", "e": "Each cube has 6 faces: 6 + 6 + 6 = 18."},
+{"t": "Which is true about a cube and a cuboid?", "o": ["Both have 6 faces, 12 edges and 8 corners", "A cube has more corners than a cuboid", "A cuboid has no edges", "A cube has only 4 faces"], "e": "A cube is a special cuboid, so they have the same number of faces, edges and corners."},
+{"t": "How are a cube and a cuboid different?", "o": ["All faces of a cube are the same square; a cuboid’s faces can be longer rectangles", "A cube can roll but a cuboid cannot", "A cuboid has 8 faces", "A cube has curved faces"], "e": "Both are boxes; in a cube every face is the same square."},
+{"t": "Which shape has one curved face AND two flat faces?", "o": ["Cylinder", "Cube", "Cone", "Sphere"], "e": "A cylinder has a curved side and a flat circle at each end. A cone has only one flat face."},
+{"t": "Which is the odd one out: a ball, an orange, a globe, a dice?", "o": ["The dice", "The ball", "The orange", "The globe"], "e": "A ball, an orange and a globe are all spheres; a dice is a cube."},
+{"t": "How many corners do one cone and one cube have together?", "n": 9, "u": "corners", "k": "1+8", "e": "A cone has 1 corner and a cube has 8: 1 + 8 = 9."},
+{"t": "How many edges does a sphere have?", "n": 0, "u": "edges", "k": "0", "e": "An edge is where two faces meet. A sphere has only one smooth face, so it has no edges."},
+{"t": "Which shape has zero corners but is NOT round all over?", "o": ["Cylinder", "Sphere", "Cube", "Cone"], "e": "A cylinder has no corners, yet it has flat ends. A sphere is round all over; a cube and a cone have corners."}
+]},
+{"q": [
+{"t": "Heena decorates a cube box: one star on each face and one pompom on each corner. How many stars and pompoms in all?", "n": 14, "k": "6+8", "e": "6 faces need 6 stars and 8 corners need 8 pompoms: 6 + 8 = 14."},
+{"t": "Atif puts one ribbon on every edge of a cuboid and one star on every face. How many ribbons and stars together?", "n": 18, "k": "12+6", "e": "12 edges need 12 ribbons and 6 faces need 6 stars: 12 + 6 = 18."},
+{"t": "Stars cost ₹2 each. How much do you pay for one star on every face of a cube?", "n": 12, "u": "₹", "k": "6*2", "e": "A cube has 6 faces, so 6 stars: 2 + 2 + 2 + 2 + 2 + 2 = 12 rupees."},
+{"t": "Who am I? I have no corners. I have 2 flat faces. I can roll.", "o": ["Cylinder", "Sphere", "Cone", "Cuboid"], "e": "A sphere has no flat faces, a cone has a corner and a cuboid has corners — only a cylinder fits."},
+{"t": "Who am I? I have 1 corner and 1 flat face.", "o": ["Cone", "Cylinder", "Cube", "Sphere"], "e": "A cone has one pointed corner and one flat round base."},
+{"t": "Who am I? I have 8 corners, and my faces are rectangles that are not all the same.", "o": ["Cuboid", "Cube", "Cylinder", "Cone"], "e": "8 corners means a box. If the faces are not all the same square, it is a cuboid, not a cube."},
+{"t": "How many corners do 3 cones and 2 spheres have together?", "n": 3, "u": "corners", "k": "3*1+2*0", "e": "Each cone has 1 corner (3 in all) and spheres have none: 3 + 0 = 3."},
+{"t": "Count all the corners of one cube, one cuboid and one cylinder.", "n": 16, "u": "corners", "k": "8+8+0", "e": "Cube 8, cuboid 8, cylinder 0: 8 + 8 + 0 = 16."},
+{"t": "Riya is stacking shapes. On which shape is it hardest to balance another shape?", "o": ["A sphere", "A cube", "A cuboid", "A cylinder standing on its flat end"], "e": "A sphere has no flat face on top, so things slide off it."},
+{"t": "A box has 12 edges. Ribbons come in packs of 5. How many packs must you buy to have a ribbon for every edge?", "n": 3, "u": "packs", "k": "3", "e": "2 packs give only 10 ribbons, which is short of 12; 3 packs give 15, which is enough."}
+]}
+]
+}

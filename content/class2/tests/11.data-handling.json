@@ -1,0 +1,53 @@
+{
+"title": "11. Data Handling",
+"tests": [
+{"q": [
+{"t": "Favourite colours: Red 5 children, Green 3, Blue 6, Yellow 4. Which colour is liked the most?", "o": ["Blue", "Red", "Yellow", "Green"], "e": "6 is the biggest number in the table, and it belongs to blue."},
+{"t": "Favourite colours: Red 5, Green 3, Blue 6, Yellow 4. Which colour is liked the least?", "o": ["Green", "Yellow", "Red", "Blue"], "e": "3 is the smallest number, and it belongs to green."},
+{"t": "Favourite colours: Red 5, Green 3, Blue 6, Yellow 4. How many children like red?", "n": 5, "u": "children", "k": "5", "e": "Read it straight from the table: Red 5."},
+{"t": "Favourite colours: Red 5, Green 3, Blue 6, Yellow 4. How many children are there in all?", "n": 18, "u": "children", "k": "5+3+6+4", "e": "Each child picked one colour, so add them all: 5 + 3 + 6 + 4 = 18."},
+{"t": "Favourite colours: Red 5, Green 3, Blue 6, Yellow 4. Yellow is liked more than which colour?", "o": ["Green", "Blue", "Red"], "e": "Yellow has 4; only green (3) has fewer."},
+{"t": "In a picture chart, each smiley face stands for 1 child. The ‘mango’ row has 4 faces. How many children like mango?", "n": 4, "u": "children", "k": "4*1", "e": "Each face is 1 child, so 4 faces = 4 children."},
+{"t": "What is a good way to find how many classmates like each fruit?", "o": ["Ask everyone and count in a table", "Guess", "Ask only one friend", "Draw one big circle"], "e": "A table keeps each count in its own place so nothing is missed or counted twice."},
+{"t": "Favourite colours: Red 5, Green 3, Blue 6, Yellow 4. How many more children like blue than green?", "n": 3, "u": "children", "k": "6-3", "e": "6 − 3 = 3 more."},
+{"t": "Favourite colours: Red 5, Green 3, Blue 6, Yellow 4. Red is liked LESS than which colour?", "o": ["Blue", "Yellow", "Green"], "e": "Red has 5; only blue (6) has more."},
+{"t": "Favourite colours: Red 5, Green 3, Blue 6, Yellow 4. How many children like red or yellow?", "n": 9, "u": "children", "k": "5+4", "e": "Add the two rows: 5 + 4 = 9."}
+]},
+{"q": [
+{"t": "Favourite fruits: Apple 4 children, Banana 7, Guava 4, Orange 2, Kiwi 3. How many children are there in all?", "n": 20, "u": "children", "k": "4+7+4+2+3", "e": "4 + 7 + 4 + 2 + 3 = 20."},
+{"t": "Favourite fruits: Apple 4, Banana 7, Guava 4, Orange 2, Kiwi 3. Which fruit is liked the most?", "o": ["Banana", "Apple", "Guava", "Kiwi"], "e": "7 is the biggest count, and it is banana’s."},
+{"t": "Favourite fruits: Apple 4, Banana 7, Guava 4, Orange 2, Kiwi 3. Which fruit is liked the least?", "o": ["Orange", "Kiwi", "Apple", "Guava"], "e": "2 is the smallest count, and it is orange’s."},
+{"t": "Favourite fruits: Apple 4, Banana 7, Guava 4, Orange 2, Kiwi 3. The number who like guava is ___ the number who like apple.", "o": ["equal to", "more than", "less than"], "e": "Both are 4, so they are equal."},
+{"t": "Favourite fruits: Apple 4, Banana 7, Guava 4, Orange 2, Kiwi 3. The number who like apple is ___ the number who like banana.", "o": ["less than", "more than", "equal to"], "e": "4 is less than 7."},
+{"t": "Favourite fruits: Apple 4, Banana 7, Guava 4, Orange 2, Kiwi 3. The number who like orange is ___ the number who like kiwi.", "o": ["less than", "more than", "equal to"], "e": "2 is less than 3."},
+{"t": "Favourite fruits: Apple 4, Banana 7, Guava 4, Orange 2, Kiwi 3. How many more children like banana than kiwi?", "n": 4, "u": "children", "k": "7-3", "e": "7 − 3 = 4 more."},
+{"t": "Favourite fruits: Apple 4, Banana 7, Guava 4, Orange 2, Kiwi 3. How many children like apple or guava?", "n": 8, "u": "children", "k": "4+4", "e": "4 + 4 = 8."},
+{"t": "Favourite fruits: Apple 4, Banana 7, Guava 4, Orange 2, Kiwi 3. Which two fruits are liked by the same number of children?", "o": ["Apple and guava", "Banana and kiwi", "Orange and kiwi", "Apple and banana"], "e": "Apple and guava both have 4."},
+{"t": "Favourite fruits: Orange 2. Then 3 new children join, and all of them like orange. How many like orange now?", "n": 5, "u": "children", "k": "2+3", "e": "2 + 3 = 5."}
+]},
+{"q": [
+{"t": "Coming to school: On foot 6 students, Autorickshaw 4, Bus 9, Bike 2, Bicycle 5. How do most students come?", "o": ["By bus", "On foot", "By bicycle", "By autorickshaw"], "e": "9 is the biggest number, and it belongs to bus."},
+{"t": "Coming to school: On foot 6, Autorickshaw 4, Bus 9, Bike 2, Bicycle 5. How do the fewest students come?", "o": ["By bike", "By autorickshaw", "By bicycle", "On foot"], "e": "2 is the smallest number, and it belongs to bike."},
+{"t": "Coming to school: On foot 6, Autorickshaw 4, Bus 9, Bike 2, Bicycle 5. The number who come by bus is ___ the number who come by autorickshaw.", "o": ["more than", "less than", "equal to"], "e": "9 is more than 4."},
+{"t": "Coming to school: On foot 6, Autorickshaw 4, Bus 9, Bike 2, Bicycle 5. The number who come by bike is ___ the number who come by bicycle.", "o": ["less than", "more than", "equal to"], "e": "2 is less than 5."},
+{"t": "Coming to school: On foot 6, Autorickshaw 4, Bus 9, Bike 2, Bicycle 5. How many students are there in all?", "n": 26, "u": "students", "k": "6+4+9+2+5", "e": "6 + 4 = 10, 10 + 9 = 19, 19 + 2 = 21, 21 + 5 = 26."},
+{"t": "Coming to school: On foot 6, Autorickshaw 4, Bus 9, Bike 2, Bicycle 5. How many more come by bus than on foot?", "n": 3, "u": "students", "k": "9-6", "e": "9 − 6 = 3."},
+{"t": "Coming to school: On foot 6, Autorickshaw 4, Bus 9, Bike 2, Bicycle 5. How many come by bike or bicycle?", "n": 7, "u": "students", "k": "2+5", "e": "2 + 5 = 7."},
+{"t": "Coming to school: Bus 9 students. In a picture chart where each face is 1 student, how many faces go in the bus row?", "n": 9, "u": "faces", "k": "9", "e": "One face for each student: 9 students need 9 faces."},
+{"t": "Coming to school: On foot 6, Autorickshaw 4, Bus 9, Bike 2, Bicycle 5. Which two groups together are equal to the bus group?", "o": ["Autorickshaw and bicycle", "On foot and bike", "Bike and autorickshaw", "On foot and bicycle"], "e": "4 + 5 = 9. The others make 8, 6 and 11."},
+{"t": "Coming to school: On foot 6, Autorickshaw 4, Bus 9, Bike 2, Bicycle 5. How many students do NOT come by bus?", "n": 17, "u": "students", "k": "6+4+2+5", "e": "Add everyone except bus: 6 + 4 + 2 + 5 = 17 (or 26 − 9)."}
+]},
+{"q": [
+{"t": "Games we like: Gilli-danda 3 students, Kabaddi 7, Pithu 5, Football 6, Cricket 9. Which game is liked the most?", "o": ["Cricket", "Kabaddi", "Football", "Pithu"], "e": "9 is the biggest count, and it is cricket’s."},
+{"t": "Games we like: Gilli-danda 3, Kabaddi 7, Pithu 5, Football 6, Cricket 9. Which game is liked the least?", "o": ["Gilli-danda", "Pithu", "Football", "Kabaddi"], "e": "3 is the smallest count, and it is gilli-danda’s."},
+{"t": "Games we like: Gilli-danda 3, Kabaddi 7, Pithu 5, Football 6, Cricket 9. Pithu is liked more than which game?", "o": ["Gilli-danda", "Football", "Kabaddi", "Cricket"], "e": "Pithu has 5; only gilli-danda (3) has fewer."},
+{"t": "Games we like: Gilli-danda 3, Kabaddi 7, Pithu 5, Football 6, Cricket 9. Which game is liked more than football but less than cricket?", "o": ["Kabaddi", "Pithu", "Gilli-danda", "Football"], "e": "We need a number between 6 and 9: kabaddi’s 7."},
+{"t": "Games we like: Gilli-danda 3, Kabaddi 7, Pithu 5, Football 6, Cricket 9. How many students are there in all?", "n": 30, "u": "students", "k": "3+7+5+6+9", "e": "3 + 7 = 10, 10 + 5 = 15, 15 + 6 = 21, 21 + 9 = 30."},
+{"t": "Games we like: Gilli-danda 3, Kabaddi 7, Pithu 5, Football 6, Cricket 9. How many more like cricket than gilli-danda and pithu put together?", "n": 1, "u": "student", "k": "9-(3+5)", "e": "Gilli-danda and pithu together: 3 + 5 = 8. Then 9 − 8 = 1."},
+{"t": "Games we like: Kabaddi 7, Football 6. Each face in a picture chart is 1 student. How many faces in the kabaddi and football rows together?", "n": 13, "u": "faces", "k": "7+6", "e": "7 + 6 = 13 faces."},
+{"t": "Family sizes in a class: 2 people — 3 families, 3 people — 5 families, 4 people — 8 families, 5 people — 4 families. How many people live in most of the families?", "n": 4, "u": "people", "k": "4", "e": "The biggest count of families is 8, in the ‘4 people’ row. (Careful: the answer is the row, not the 8.)"},
+{"t": "Family sizes: 2 people — 3 families, 3 people — 5 families, 4 people — 8 families, 5 people — 4 families. How many families have more than 3 people?", "n": 12, "u": "families", "k": "8+4", "e": "More than 3 means the 4-people and 5-people rows: 8 + 4 = 12."},
+{"t": "Family sizes: 2 people — 3 families, 3 people — 5 families, 4 people — 8 families, 5 people — 4 families. How many families are there in all?", "n": 20, "u": "families", "k": "3+5+8+4", "e": "Add the families column: 3 + 5 + 8 + 4 = 20."}
+]}
+]
+}

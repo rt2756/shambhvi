@@ -1,0 +1,53 @@
+{
+"title": "5. Playing with Lines",
+"tests": [
+{"q": [
+{"t": "A flagpole stands up straight. What kind of line does it make?", "o": ["Standing (vertical) line", "Sleeping (horizontal) line", "Slanting line", "Curved line"], "e": "It goes straight up and down, like a person standing tall."},
+{"t": "The top edge of a table goes straight from left to right. What kind of line is it?", "o": ["Sleeping (horizontal) line", "Standing (vertical) line", "Slanting line", "Curved line"], "e": "It lies flat from side to side, like a person sleeping."},
+{"t": "A ladder leaning against a wall makes a:", "o": ["Slanting line", "Standing line", "Sleeping line", "Curved line"], "e": "It is straight but tilted — neither straight up nor flat."},
+{"t": "A rainbow makes a:", "o": ["Curved line", "Straight line", "Standing line", "Sleeping line"], "e": "A rainbow bends like an arch, so it is curved."},
+{"t": "Standing, sleeping and slanting lines are all:", "o": ["Straight lines", "Curved lines", "Circles", "Wavy lines"], "e": "They only point in different directions; none of them bends."},
+{"t": "You lie flat on your back on the floor for a yoga pose. Your body makes a:", "o": ["Sleeping (horizontal) line", "Standing (vertical) line", "Slanting line", "Curved line"], "e": "Lying flat means lying side to side, like a sleeping line."},
+{"t": "You hold a thread tight between your two hands. It makes a:", "o": ["Straight line", "Curved line", "Circle", "Zigzag line"], "e": "Pulled tight, the thread cannot bend, so it is straight."},
+{"t": "Now you bring your hands closer, and the thread hangs down. It makes a:", "o": ["Curved line", "Straight line", "Standing line", "Slanting line"], "e": "The loose thread sags and bends, so it is curved."},
+{"t": "Which letter is made only of straight lines?", "o": ["L", "O", "C", "S"], "e": "L is one standing line and one sleeping line; O, C and S bend."},
+{"t": "Which letter has a curved line?", "o": ["C", "T", "L", "E"], "e": "C bends round; T, L and E use only straight lines."}
+]},
+{"q": [
+{"t": "How many straight lines make the capital letter T?", "n": 2, "u": "lines", "k": "2", "e": "One sleeping line on top and one standing line down the middle."},
+{"t": "How many standing (vertical) lines are in the capital letter H?", "n": 2, "u": "lines", "k": "2", "e": "H has a standing line on the left and one on the right."},
+{"t": "How many sleeping (horizontal) lines are in the capital letter H?", "n": 1, "u": "line", "k": "1", "e": "Only the middle bar of H lies flat."},
+{"t": "The capital letter V is made of:", "o": ["Two slanting lines", "Two standing lines", "Two curved lines", "One sleeping line"], "e": "Both arms of V are tilted and meet at the bottom."},
+{"t": "The capital letter D is made of:", "o": ["One standing line and one curved line", "Two slanting lines", "Only sleeping lines", "Three standing lines"], "e": "D has a straight back and a round front."},
+{"t": "The side edge of a closed door makes a:", "o": ["Standing (vertical) line", "Sleeping (horizontal) line", "Slanting line", "Curved line"], "e": "The door’s side edge goes straight up from the floor."},
+{"t": "A slide in the park goes down at a tilt. It makes a:", "o": ["Slanting line", "Standing line", "Sleeping line", "Circle"], "e": "It is tilted, not straight up and not flat — slanting."},
+{"t": "Where the sea meets the sky looks like a:", "o": ["Sleeping (horizontal) line", "Standing (vertical) line", "Slanting line", "Zigzag line"], "e": "It stretches flat from side to side."},
+{"t": "Which shape has no straight lines?", "o": ["A circle", "A square", "A triangle", "A rectangle"], "e": "A circle is one curved line all the way round."},
+{"t": "At 6 o’clock the clock hands point straight up and straight down. Together they make a:", "o": ["Standing (vertical) line", "Sleeping (horizontal) line", "Slanting line", "Curved line"], "e": "One hand points to 12 (up) and one to 6 (down), forming one straight up-down line."}
+]},
+{"q": [
+{"t": "How many straight lines make a triangle?", "n": 3, "u": "lines", "k": "3", "e": "A triangle has 3 straight sides."},
+{"t": "How many sleeping (horizontal) lines are in the capital letter E?", "n": 3, "u": "lines", "k": "3", "e": "E has a top bar, a middle bar and a bottom bar."},
+{"t": "How many straight lines in all make the capital letter E?", "n": 4, "u": "lines", "k": "1+3", "e": "1 standing line on the left and 3 sleeping lines: 1 + 3 = 4."},
+{"t": "The capital letter A is made of:", "o": ["Two slanting lines and one sleeping line", "Two standing lines", "Three curved lines", "One standing line"], "e": "Two tilted sides meet at the top, and a flat bar joins them."},
+{"t": "How many slanting lines make the capital letter W?", "n": 4, "u": "lines", "k": "4", "e": "W goes down, up, down, up — 4 tilted strokes."},
+{"t": "The capital letter M has two standing sides. How many slanting lines does it have?", "n": 2, "u": "lines", "k": "2", "e": "The two middle strokes of M are tilted and meet in a point."},
+{"t": "The capital letter N is made of:", "o": ["Two standing lines and one slanting line", "Three sleeping lines", "Two curved lines", "Three slanting lines"], "e": "N has a standing line on each side and one tilted line joining them."},
+{"t": "Which letter uses both a straight line and a curved line?", "o": ["P", "O", "T", "X"], "e": "P has a straight back and a curved loop; O is all curved; T and X are all straight."},
+{"t": "You fold a paper in half and open it. What does the fold (crease) look like?", "o": ["A straight line", "A curved line", "A circle", "A wavy line"], "e": "Pressing a fold flat makes a sharp, straight crease."},
+{"t": "A tree has a trunk going straight up and branches going up to the sides. What lines do you see?", "o": ["Standing and slanting lines", "Only sleeping lines", "Only curved lines", "Only circles"], "e": "The trunk stands up straight, and the branches tilt outwards."}
+]},
+{"q": [
+{"t": "A square has 2 sleeping lines (top and bottom). A triangle with a flat base has 1 sleeping line. How many sleeping lines in all?", "n": 3, "u": "lines", "k": "2+1", "e": "Square 2 + triangle 1 = 3."},
+{"t": "How many straight lines are there in the capital letters T, L and H together?", "n": 7, "u": "lines", "k": "2+2+3", "e": "T has 2, L has 2, H has 3: 2 + 2 + 3 = 7."},
+{"t": "In the word HI (written as simple capital letters, with I as one standing line), how many standing lines are there?", "n": 3, "u": "lines", "k": "2+1", "e": "H has 2 standing lines and I has 1: 2 + 1 = 3."},
+{"t": "How many slanting lines are in the capital letters X and V together?", "n": 4, "u": "lines", "k": "2+2", "e": "X has 2 crossing slanting lines and V has 2: 2 + 2 = 4."},
+{"t": "Which word is written with straight lines only?", "o": ["TIE", "CUP", "BOX", "SUN"], "e": "T, I and E are all straight. C, U, B, O and S each have a curve."},
+{"t": "Which capital letter is made of just one curved line, with no straight line?", "o": ["O", "D", "P", "B"], "e": "D, P and B each have a straight back; O is one curved line all round."},
+{"t": "You draw a house: a square wall with a triangle roof sitting on top (they share the line between them). How many slanting lines are there?", "n": 2, "u": "lines", "k": "2", "e": "Only the two sides of the roof are tilted; the wall lines stand or lie flat."},
+{"t": "In the same house (a square wall with a triangle roof sharing one line), how many straight lines are there in all?", "n": 6, "u": "lines", "k": "4+3-1", "e": "Square 4 + triangle 3 = 7, but the shared line is counted twice, so 7 − 1 = 6."},
+{"t": "Which yoga pose shows a sleeping (horizontal) line?", "o": ["Lying flat on your back", "Standing tall like a tree", "Bending your back into a curve", "Leaning to one side with arms tilted"], "e": "Lying flat makes the body go side to side, like a sleeping line."},
+{"t": "A zigzag line is made of:", "o": ["Slanting lines joined together", "Curved lines", "Only standing lines", "Circles"], "e": "A zigzag goes up-tilted, down-tilted, up-tilted … each piece is a straight slanting line."}
+]}
+]
+}

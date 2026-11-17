@@ -1,0 +1,53 @@
+{
+"title": "4. Shadow Story",
+"tests": [
+{"q": [
+{"t": "You trace around a bottle cap on paper. What shape do you get?", "o": ["Circle", "Square", "Triangle", "Rectangle"], "e": "The flat face of a bottle cap is round, so its trace is a circle."},
+{"t": "How many corners does a triangle have?", "n": 3, "u": "corners", "k": "3", "e": "‘Tri’ means three: 3 sides and 3 corners."},
+{"t": "How many sides does a square have?", "n": 4, "u": "sides", "k": "4", "e": "A square has 4 straight sides, all the same length."},
+{"t": "How many corners does a circle have?", "n": 0, "u": "corners", "k": "0", "e": "A circle has only one curved edge, so it has no corners."},
+{"t": "Which shape can hide exactly behind the face of a shoe box?", "o": ["Rectangle", "Circle", "Triangle"], "e": "A shoe box face is a rectangle, so a rectangle fits behind it."},
+{"t": "A wall clock face is usually a:", "o": ["Circle", "Triangle", "Rectangle", "Square"], "e": "Most clock faces are round, like a circle."},
+{"t": "When do we see a shadow?", "o": ["When an object blocks the light", "Only in a dark room with no light", "Only when it rains", "When we close our eyes"], "e": "A shadow is the dark patch where light cannot reach because something is in the way."},
+{"t": "How many sides does a rectangle have?", "n": 4, "u": "sides", "k": "4", "e": "A rectangle has 4 straight sides: 2 long and 2 short."},
+{"t": "A samosa looks most like which shape?", "o": ["Triangle", "Circle", "Square", "Rectangle"], "e": "A samosa has 3 corners and 3 sides, like a triangle."},
+{"t": "Which shape has only a curved edge?", "o": ["Circle", "Square", "Triangle", "Rectangle"], "e": "A square, a triangle and a rectangle have straight sides; a circle has one curved edge."}
+]},
+{"q": [
+{"t": "You trace around the flat face of an eraser shaped like a small box. What shape do you get?", "o": ["Rectangle", "Circle", "Triangle", "Star"], "e": "The face of a box-shaped eraser is a rectangle."},
+{"t": "At what time of the day is your shadow shortest?", "o": ["Around noon, when the sun is high", "Early in the morning", "Late in the evening", "It is always the same"], "e": "When the sun is high above you, light falls from the top, so the shadow is short."},
+{"t": "At what time of the day is your shadow longest?", "o": ["Early morning or evening, when the sun is low", "At noon", "When the sun is right overhead", "It is always the same"], "e": "When the sun is low in the sky, light comes from the side and stretches the shadow."},
+{"t": "‘Catch the Corner’ is a game where you must stand at a corner of a table. Can it be played around a round table?", "o": ["No, a round table has no corners", "Yes, it has 4 corners", "Yes, it has 1 corner", "Yes, it has 2 corners"], "e": "A round table top is a circle, and a circle has no corners."},
+{"t": "How many corners does a rectangle-shaped table top have?", "n": 4, "u": "corners", "k": "4", "e": "A rectangle has 4 sides, and they meet at 4 corners."},
+{"t": "You fold a square paper in half by joining two opposite corners. What shape do you get?", "o": ["Triangle", "Circle", "Square", "Rectangle"], "e": "Folding corner to corner makes a fold along the slanting line, giving 3 corners — a triangle."},
+{"t": "Which object has both straight and curved edges?", "o": ["Half a roti (a half-circle)", "A square tile", "A round coin", "A triangle ruler"], "e": "Half a circle has one straight cut edge and one curved edge."},
+{"t": "Continue the pattern: square, circle, square, circle, ___", "o": ["Square", "Circle", "Triangle", "Star"], "e": "The shapes take turns, and after a circle comes a square."},
+{"t": "Kikku rabbit jumps on tiles 1, 4, 7, ___. Which tile next?", "n": 10, "k": "7+3", "e": "He jumps 3 tiles each time: 7 + 3 = 10."},
+{"t": "Kikku’s mother jumps on tiles 1, 6, 11, ___. Which tile next?", "n": 16, "k": "11+5", "e": "She jumps 5 tiles each time: 11 + 5 = 16."}
+]},
+{"q": [
+{"t": "How many corners do 2 triangles and 1 square have in all?", "n": 10, "u": "corners", "k": "2*3+4", "e": "Each triangle has 3 (3 + 3 = 6), and the square has 4: 6 + 4 = 10."},
+{"t": "How many sides do 3 triangles have in all?", "n": 9, "u": "sides", "k": "3*3", "e": "Each triangle has 3 sides: 3 + 3 + 3 = 9."},
+{"t": "Continue the pattern: AB, BC, CD, ___", "o": ["DE", "DC", "EF", "CE"], "e": "Each pair starts with the last letter of the one before and adds the next letter: D then E."},
+{"t": "Continue the pattern: AA, BB, CC, ___", "o": ["DD", "DE", "CD", "EE"], "e": "Each pair is one letter written twice, going A, B, C, D."},
+{"t": "Continue the pattern: 7, 14, 21, ___", "n": 28, "k": "21+7", "e": "Each number is 7 more than the one before: 21 + 7 = 28."},
+{"t": "Continue the pattern: 1, 7, 13, ___", "n": 19, "k": "13+6", "e": "Each number is 6 more than the one before: 13 + 6 = 19."},
+{"t": "What shape is the shadow of a ball?", "o": ["Circle", "Square", "Triangle", "Rectangle"], "e": "A ball is round from every side, so its shadow is always a circle."},
+{"t": "A square paper is folded in half, edge to edge. What shape is each half?", "o": ["Rectangle", "Triangle", "Circle", "Square"], "e": "Folding edge to edge halves one side but keeps the other, making a long rectangle."},
+{"t": "You move a torch closer to a toy. What happens to the toy’s shadow on the wall?", "o": ["It gets bigger", "It gets smaller", "It disappears", "It stays exactly the same"], "e": "Close to the torch, the toy blocks much more of the light, so the shadow grows."},
+{"t": "Which is true about a square and a rectangle?", "o": ["Both have 4 corners and 4 straight sides", "A square has 3 corners", "A rectangle has curved edges", "A square has 5 sides"], "e": "Both have 4 straight sides meeting at 4 corners; in a square all 4 sides are equal."}
+]},
+{"q": [
+{"t": "A carpet design has 4 triangles, 3 squares and 2 circles. How many corners in all?", "n": 24, "u": "corners", "k": "4*3+3*4+2*0", "e": "Triangles: 3+3+3+3 = 12. Squares: 4+4+4 = 12. Circles: 0. Total 12 + 12 = 24."},
+{"t": "How many straight sides do 2 rectangles and 3 triangles have in all?", "n": 17, "u": "sides", "k": "2*4+3*3", "e": "Rectangles: 4 + 4 = 8. Triangles: 3 + 3 + 3 = 9. Total 8 + 9 = 17."},
+{"t": "Continue the pattern: circle, triangle, triangle, circle, triangle, triangle, ___", "o": ["Circle", "Triangle", "Square", "Rectangle"], "e": "The repeating part is circle, triangle, triangle; after two triangles comes a circle."},
+{"t": "A pattern goes square, triangle, circle, square, triangle, circle … What is the 8th shape?", "o": ["Triangle", "Square", "Circle", "Rectangle"], "e": "The 7th shape starts the group again (square), so the 8th is the 2nd in the group: triangle."},
+{"t": "Continue the pattern: 5, 10, 15, 20, ___, ___. What is the second missing number?", "n": 30, "k": "20+5+5", "e": "Add 5 each time: 25, then 30."},
+{"t": "Kikku jumps on tiles 1, 4, 7, 10 … What is the 5th tile he lands on?", "n": 13, "k": "1+4*3", "e": "1st is 1, and each jump adds 3: 1, 4, 7, 10, 13."},
+{"t": "Which object leaves a triangle when you trace around it?", "o": ["A set square (triangle ruler)", "A coin", "A matchbox", "A bangle"], "e": "A set square has 3 straight edges and 3 corners — a triangle."},
+{"t": "A square paper is folded corner to corner, then folded corner to corner once more. What shape do you get?", "o": ["A smaller triangle", "A circle", "A rectangle", "A bigger square"], "e": "Folding a triangle in half from its top corner gives a smaller triangle."},
+{"t": "A round plate held flat towards a torch makes a circle shadow. You turn it so its edge points at the torch. What does the shadow look like now?", "o": ["A thin straight strip", "A big circle", "A triangle", "A star"], "e": "From the side, a plate is just a thin edge, so it blocks only a thin strip of light."},
+{"t": "Which has the most corners: a triangle, a square or a circle?", "o": ["Square", "Triangle", "Circle", "They all have the same"], "e": "Square 4, triangle 3, circle 0 — the square has the most."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "1. A Day at the Beach",
+"tests": [
+{"q": [
+{"t": "A necklace has 10 shells. How many shells are there on 3 such necklaces?", "n": 30, "u": "shells", "k": "3*10", "e": "Each necklace is one group of ten, so 3 tens = 10 + 10 + 10 = 30."},
+{"t": "Manoj has 4 trays with 10 chikoos in each tray and 6 loose chikoos. How many chikoos are there in all?", "n": 46, "u": "chikoos", "k": "4*10+6", "e": "4 trays of ten make 40, and 6 more make 46."},
+{"t": "How many ones make one ten?", "n": 10, "k": "10", "e": "When we have 10 ones, we bundle them into 1 ten."},
+{"t": "In the number 58, what does the 5 stand for?", "o": ["5 tens (50)", "5 ones", "8 tens", "58 tens"], "e": "The left digit is in the tens place, so 5 means 5 tens = 50."},
+{"t": "Write 7 tens and 2 ones as a number.", "n": 72, "k": "7*10+2", "e": "7 tens is 70, and 2 ones more makes 72."},
+{"t": "Which is more: 43 oranges or 34 oranges?", "o": ["43 oranges", "34 oranges"], "e": "43 has 4 tens but 34 has only 3 tens, so 43 is more."},
+{"t": "How many tens are there in 60?", "n": 6, "k": "60//10", "e": "60 is 10 + 10 + 10 + 10 + 10 + 10, which is 6 tens."},
+{"t": "Which is the smallest two-digit number?", "n": 10, "k": "10", "e": "Two-digit numbers start when we first have 1 ten: 10. Before that, 9 has only one digit."},
+{"t": "Which is the largest two-digit number?", "n": 99, "k": "99", "e": "9 is the biggest digit, so 9 tens and 9 ones is the biggest. One more is 100, which has three digits."},
+{"t": "In a boat race, the red boat came 1st, the blue boat came 2nd and the green boat came 3rd. Which boat came just after the blue boat?", "o": ["The green boat", "The red boat", "No boat", "The blue boat"], "e": "After 2nd comes 3rd, and the green boat was 3rd."}
+]},
+{"q": [
+{"t": "25 chikoos are put in trays of 10. How many trays are full?", "n": 2, "u": "trays", "k": "25//10", "e": "25 is 2 tens and 5 ones, so 2 trays are full."},
+{"t": "25 chikoos are put in trays of 10. How many chikoos are left over, not in a full tray?", "n": 5, "u": "chikoos", "k": "25-2*10", "e": "2 full trays hold 20, and 25 − 20 = 5 are left."},
+{"t": "A ten strip has 10 units. How many ten strips make 100 units?", "n": 10, "u": "strips", "k": "100//10", "e": "10 tens make 100 — count 10, 20, 30 … 100 and you say ten numbers."},
+{"t": "Which number is 9 tens and 3 ones?", "n": 93, "k": "9*10+3", "e": "9 tens = 90, and 3 ones more makes 93."},
+{"t": "Fill in the blank: 67 is ___ than 76.", "o": ["less", "more", "equal to"], "e": "67 has 6 tens, 76 has 7 tens. Fewer tens means less."},
+{"t": "Which shows 84 broken into tens and ones?", "o": ["80 + 4", "8 + 4", "40 + 8", "80 + 40"], "e": "84 is 8 tens (80) and 4 ones (4)."},
+{"t": "What is the smallest two-digit number with 3 in the tens place?", "n": 30, "k": "30", "e": "With 3 tens fixed, the smallest ones digit is 0, so the number is 30."},
+{"t": "What is the largest two-digit number with 2 in the ones place?", "n": 92, "k": "92", "e": "With 2 ones fixed, the biggest tens digit is 9, so the number is 92."},
+{"t": "Which number is between 47 and 59?", "o": ["52", "45", "60", "41"], "e": "52 is bigger than 47 and smaller than 59. The others are outside."},
+{"t": "On a calendar, 15 August is a Tuesday. What day is 16 August?", "o": ["Wednesday", "Monday", "Tuesday", "Thursday"], "e": "The next date is the next day of the week, and Wednesday comes after Tuesday."}
+]},
+{"q": [
+{"t": "Use the digit cards 3 and 5 once each. What is the bigger number you can make?", "n": 53, "k": "53", "e": "Put the bigger digit, 5, in the tens place: 5 tens beats 3 tens."},
+{"t": "Swap the two digits of 27. What new number do you get?", "n": 72, "k": "72", "e": "The 2 moves to the ones place and the 7 to the tens place: 7 tens and 2 ones = 72."},
+{"t": "What is the largest two-digit number where no digit is repeated?", "n": 98, "k": "98", "e": "99 repeats the 9, so keep 9 tens and take the next biggest digit, 8, for the ones."},
+{"t": "What is the smallest two-digit number whose two digits are the same?", "n": 11, "k": "11", "e": "10 has different digits; the first one with matching digits is 11."},
+{"t": "Arrange from biggest to smallest: 53, 35, 50.", "o": ["53, 50, 35", "35, 50, 53", "50, 53, 35", "53, 35, 50"], "e": "53 and 50 both have 5 tens; 53 has more ones. 35 has only 3 tens, so it is smallest."},
+{"t": "Which number has 6 ones and 4 tens?", "n": 46, "k": "4*10+6", "e": "Tens are written first: 4 tens and 6 ones is 46, not 64."},
+{"t": "43 oranges go into trays of 10. How many trays do we need so that no orange is left out?", "n": 5, "u": "trays", "k": "43//10+1", "e": "4 full trays hold 40. The 3 oranges left still need one more tray, so 5 trays."},
+{"t": "Rohit has 3 bundles of 10 sticks and 15 loose sticks. How many sticks are there in all?", "n": 45, "u": "sticks", "k": "3*10+15", "e": "3 bundles = 30. The 15 loose sticks are 1 ten and 5 ones, so 30 + 15 = 45."},
+{"t": "Which is another way of showing 72?", "o": ["6 tens and 12 ones", "7 tens and 12 ones", "2 tens and 7 ones", "6 tens and 2 ones"], "e": "12 ones is 1 ten and 2 ones, so 6 tens and 12 ones = 7 tens and 2 ones = 72."},
+{"t": "5 boats finish a race. The pink boat comes 2nd. How many boats finish after the pink boat?", "n": 3, "u": "boats", "k": "5-2", "e": "The boats after 2nd are 3rd, 4th and 5th — that is 3 boats."}
+]},
+{"q": [
+{"t": "Surbhi has 34 shells. Each necklace needs 10 shells. How many more shells does she need to make 4 necklaces?", "n": 6, "u": "shells", "k": "4*10-34", "e": "4 necklaces need 40 shells. From 34, she needs 6 more to reach 40."},
+{"t": "A shop has 6 packs of 10 balloons and 8 loose balloons. 2 more packs of 10 come in. How many balloons are there now?", "n": 88, "u": "balloons", "k": "8*10+8", "e": "6 + 2 = 8 packs make 80, and 8 loose balloons make 88."},
+{"t": "I am a two-digit number. My tens digit is 4. My ones digit is 2 more than my tens digit. Who am I?", "n": 46, "k": "4*10+(4+2)", "e": "Tens digit 4; ones digit 4 + 2 = 6. So the number is 46."},
+{"t": "I am a two-digit number between 60 and 70. My two digits are the same. Who am I?", "n": 66, "k": "66", "e": "Numbers between 60 and 70 have 6 tens, so the ones digit must also be 6."},
+{"t": "What number is 1 ten more than 59?", "n": 69, "k": "59+10", "e": "Adding 1 ten makes the tens digit go up by 1: 5 tens becomes 6 tens, so 69."},
+{"t": "Meena has 5 tens and 9 ones. Ravi has 6 tens and 0 ones. Who has more?", "o": ["Ravi, because 6 tens is more than 5 tens", "Meena, because 9 ones is more than 0 ones", "Both have the same", "Meena, because she has more ones"], "e": "Meena has 59 and Ravi has 60. Compare tens first: 6 tens wins, whatever the ones are."},
+{"t": "Use any two of the cards 4, 9 and 1. What is the biggest two-digit number you can make?", "n": 94, "k": "94", "e": "Put the biggest digit, 9, in the tens place and the next biggest, 4, in the ones place."},
+{"t": "Use any two of the cards 4, 9 and 1. What is the smallest two-digit number you can make?", "n": 14, "k": "14", "e": "Put the smallest digit, 1, in the tens place and the next smallest, 4, in the ones place."},
+{"t": "On a calendar, 15 August is a Tuesday. What is the date of the next Tuesday?", "n": 22, "k": "15+7", "e": "A week has 7 days, so the same day comes again 7 dates later: 15 + 7 = 22."},
+{"t": "Arya’s jersey number has 1 ten and 7 ones. His friend’s number is 10 more. What is the friend’s number?", "n": 27, "k": "17+10", "e": "Arya’s number is 17. Adding 10 adds one more ten: 27."}
+]}
+]
+}

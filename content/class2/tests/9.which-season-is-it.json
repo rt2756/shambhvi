@@ -1,0 +1,53 @@
+{
+"title": "9. Which Season is it?",
+"tests": [
+{"q": [
+{"t": "How many days are there in a week?", "n": 7, "u": "days", "k": "7", "e": "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday — 7 days."},
+{"t": "How many months are there in a year?", "n": 12, "u": "months", "k": "12", "e": "January to December makes 12 months."},
+{"t": "How many days are there in January?", "n": 31, "u": "days", "k": "31", "e": "January is one of the long months, with 31 days."},
+{"t": "Which month comes just after March?", "o": ["April", "February", "May", "June"], "e": "The order goes January, February, March, April …"},
+{"t": "The poem in this chapter says how many seasons are there in a year?", "n": 5, "u": "seasons", "k": "5", "e": "Spring, summer, rainy season, autumn and winter — five seasons."},
+{"t": "The short hand of a clock is on 3 and the long hand is on 12. What time is it?", "o": ["3 o’clock", "12 o’clock", "6 o’clock", "9 o’clock"], "e": "The short (hour) hand tells the hour; the long hand on 12 means exactly o’clock."},
+{"t": "On a clock, the short hand is the:", "o": ["Hour hand", "Minute hand", "Pendulum", "Number 12"], "e": "The short hand moves slowly and tells the hour."},
+{"t": "You stand facing the rising sun. Which direction are you facing?", "o": ["East", "West", "North", "South"], "e": "The sun rises in the East."},
+{"t": "In which season do peacocks dance and frogs hop in lots of rain?", "o": ["Rainy season", "Winter", "Summer", "Autumn"], "e": "Peacocks dance and frogs come out when it rains a lot."},
+{"t": "In which season do leaves fall to the ground?", "o": ["Autumn", "Spring", "Rainy season", "Summer"], "e": "In autumn many trees drop their old leaves."}
+]},
+{"q": [
+{"t": "How many days are there in February in most years?", "n": 28, "u": "days", "k": "28", "e": "February is the shortest month: 28 days (29 in a leap year)."},
+{"t": "How many days are there in April?", "n": 30, "u": "days", "k": "30", "e": "April, June, September and November have 30 days."},
+{"t": "You face the rising sun. Which direction is behind you?", "o": ["West", "East", "North", "South"], "e": "You face East, and the opposite of East is West."},
+{"t": "You face the rising sun. Which direction is on your left?", "o": ["North", "South", "West", "East"], "e": "Facing East, your left hand points North."},
+{"t": "You face the rising sun. Which direction is on your right?", "o": ["South", "North", "West", "East"], "e": "Facing East, your right hand points South."},
+{"t": "Which of these lasts for months, not hours?", "o": ["Summer vacation", "Cooking lunch", "Doing yoga", "Filling a water tank"], "e": "Summer vacation goes on for weeks and weeks; the others are done in a few hours or less."},
+{"t": "Which of these is done in hours, not months?", "o": ["Cooking a meal", "A change of season", "Summer vacation", "A seed growing into a tall tree"], "e": "A meal is ready in an hour or so; the others take months or longer."},
+{"t": "A train leaves at 8 o’clock in the morning and arrives at 1 o’clock in the afternoon. How many hours is the journey?", "n": 5, "u": "hours", "k": "(12-8)+1", "e": "8 to 12 is 4 hours, and 12 to 1 is 1 more: 4 + 1 = 5."},
+{"t": "Gargi wakes up at 6 o’clock and goes to school at 7 o’clock. How many hours later does she go to school?", "n": 1, "u": "hour", "k": "7-6", "e": "From 6 to 7 the hour hand moves one number: 1 hour."},
+{"t": "What does a calendar tell us?", "o": ["The day and the date", "How heavy things are", "How long a pencil is", "Only the time of a train"], "e": "A calendar shows the days, dates and months of the year."}
+]},
+{"q": [
+{"t": "March has 31 days and April has 30 days. How many days in both months together?", "n": 61, "u": "days", "k": "31+30", "e": "31 + 30 = 61."},
+{"t": "Which months have 30 days?", "o": ["April, June, September, November", "January, March, May, July", "February only", "August, October, December"], "e": "Only these four have 30. February has 28 or 29, and the rest have 31."},
+{"t": "15 August is a Tuesday. What day is 22 August?", "o": ["Tuesday", "Wednesday", "Monday", "Sunday"], "e": "22 is 7 days after 15, and after 7 days the same weekday comes back."},
+{"t": "Today is Monday. What day will it be 2 days from now?", "o": ["Wednesday", "Tuesday", "Thursday", "Sunday"], "e": "Monday → Tuesday (1 day) → Wednesday (2 days)."},
+{"t": "A bus drops a family at 9 o’clock in the morning and comes back after 8 hours. When does it come back?", "o": ["5 o’clock in the evening", "1 o’clock in the afternoon", "8 o’clock at night", "9 o’clock at night"], "e": "9 to 12 is 3 hours; 5 more hours after 12 is 5 o’clock. 3 + 5 = 8 hours."},
+{"t": "The long hand is on 12 and the short hand is on 9. What time is it?", "o": ["9 o’clock", "12 o’clock", "3 o’clock", "6 o’clock"], "e": "The short hand shows the hour (9); the long hand on 12 means o’clock."},
+{"t": "At 6 o’clock, where is the short (hour) hand?", "o": ["On 6", "On 12", "On 3", "On 9"], "e": "At any o’clock time, the hour hand points at that hour’s number."},
+{"t": "You face North. Which direction is on your right?", "o": ["East", "West", "South", "North"], "e": "If North is in front, East is on the right (the rising-sun side) and West on the left."},
+{"t": "How many months have 31 days?", "n": 7, "u": "months", "k": "7", "e": "January, March, May, July, August, October, December — 7 months."},
+{"t": "How many weeks make 14 days?", "n": 2, "u": "weeks", "k": "14//7", "e": "1 week is 7 days, and 7 + 7 = 14."}
+]},
+{"q": [
+{"t": "June has 30 days and July has 31 days. How many days in both together?", "n": 61, "u": "days", "k": "30+31", "e": "30 + 31 = 61."},
+{"t": "Today is the 25th of a month that has 30 days. How many more days until the last day of the month?", "n": 5, "u": "days", "k": "30-25", "e": "Count on from 25: 26, 27, 28, 29, 30 — 5 days."},
+{"t": "A trip starts on 24 November and ends on 28 November. How many days long is the trip, counting both the first and last day?", "n": 5, "u": "days", "k": "28-24+1", "e": "24, 25, 26, 27, 28 — five days. (28 − 24 = 4, plus the first day.)"},
+{"t": "A train leaves at 2 o’clock. The journey takes 3 hours. When does it arrive?", "o": ["5 o’clock", "3 o’clock", "6 o’clock", "1 o’clock"], "e": "2 + 3 = 5, so 5 o’clock."},
+{"t": "It is 11 o’clock. What time will it be 2 hours later?", "o": ["1 o’clock", "13 o’clock", "9 o’clock", "12 o’clock"], "e": "11 → 12 is 1 hour, 12 → 1 is another. A clock starts again at 1 after 12."},
+{"t": "You face North, then turn all the way round to face the opposite way. Which direction do you face now?", "o": ["South", "East", "West", "North"], "e": "North and South are opposite each other."},
+{"t": "You face West. Which direction is on your left?", "o": ["South", "North", "East", "West"], "e": "Facing West is the reverse of facing East, so left and right swap: North goes to your right, South to your left."},
+{"t": "1 March is a Wednesday. What day is 8 March?", "o": ["Wednesday", "Thursday", "Tuesday", "Friday"], "e": "8 is 7 days after 1, and 7 days later is the same weekday."},
+{"t": "1 March is a Wednesday. What day is 10 March?", "o": ["Friday", "Wednesday", "Thursday", "Saturday"], "e": "8 March is Wednesday again; 9 is Thursday and 10 is Friday."},
+{"t": "A month has 31 days and starts on a Sunday. How many Sundays are in it?", "n": 5, "u": "Sundays", "k": "len(range(1,32,7))", "e": "Sundays fall on 1, 8, 15, 22 and 29 — that is 5. The next would be 36, past 31."}
+]}
+]
+}

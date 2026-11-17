@@ -1,0 +1,53 @@
+{
+"title": "10. Fun at the Fair",
+"tests": [
+{"q": [
+{"t": "How many paise make 1 rupee?", "n": 100, "u": "paise", "k": "100", "e": "1 rupee is split into 100 small parts called paise."},
+{"t": "How many 50 paise coins make ₹1?", "n": 2, "u": "coins", "k": "100//50", "e": "50 paise + 50 paise = 100 paise = ₹1."},
+{"t": "Add: ₹10 + ₹10 + ₹5", "n": 25, "u": "₹", "k": "10+10+5", "e": "10 + 10 = 20, and 20 + 5 = 25."},
+{"t": "Rupal had ₹50. She spent ₹30 on rides. How much is left?", "n": 20, "u": "₹", "k": "50-30", "e": "5 tens − 3 tens = 2 tens = ₹20."},
+{"t": "A ride ticket costs ₹20. How much for 2 tickets?", "n": 40, "u": "₹", "k": "2*20", "e": "20 + 20 = 40."},
+{"t": "Add: ₹18 + ₹32", "n": 50, "u": "₹", "k": "18+32", "e": "Ones: 8 + 2 = 10 → 1 more ten. Tens: 1 + 3 + 1 = 5. So ₹50."},
+{"t": "Which is more money: one ₹100 note or one ₹50 note?", "o": ["The ₹100 note", "The ₹50 note", "Both are the same"], "e": "100 is more than 50 — in fact two ₹50 notes make ₹100."},
+{"t": "Ajay has ₹58. He spends ₹48. How much is left?", "n": 10, "u": "₹", "k": "58-48", "e": "Ones: 8 − 8 = 0. Tens: 5 − 4 = 1. So ₹10."},
+{"t": "Which note is worth the most?", "o": ["₹500", "₹200", "₹100", "₹50"], "e": "500 is the biggest number here."},
+{"t": "Add: ₹15 + ₹27", "n": 42, "u": "₹", "k": "15+27", "e": "Ones: 5 + 7 = 12 → carry 1 ten. Tens: 1 + 2 + 1 = 4. So ₹42."}
+]},
+{"q": [
+{"t": "How many 25 paise coins make ₹1?", "n": 4, "u": "coins", "k": "100//25", "e": "25 + 25 + 25 + 25 = 100 paise = ₹1."},
+{"t": "How many 20 paise coins make ₹1?", "n": 5, "u": "coins", "k": "100//20", "e": "20, 40, 60, 80, 100 — five coins make 100 paise."},
+{"t": "Jayant spent ₹25 on pens and ₹40 on notebooks. How much did he spend in all?", "n": 65, "u": "₹", "k": "25+40", "e": "25 + 40 = 65."},
+{"t": "Meera has ₹43. Kanika has ₹14 more than Meera. How much does Kanika have?", "n": 57, "u": "₹", "k": "43+14", "e": "More than means add: 43 + 14 = 57."},
+{"t": "Bread costs ₹30 and a chocolate costs ₹60. How much for both?", "n": 90, "u": "₹", "k": "30+60", "e": "3 tens + 6 tens = 9 tens = ₹90."},
+{"t": "Father gave you ₹40 for the fair. You came home with ₹6. How much did you spend?", "n": 34, "u": "₹", "k": "40-6", "e": "Spent = what you had − what is left = 40 − 6 = 34. Check: 34 + 6 = 40."},
+{"t": "To pay ₹66 you use one ₹50 note, one ₹10 note, one ₹5 coin and one more coin. Which coin?", "o": ["₹1", "₹2", "₹5", "₹10"], "e": "50 + 10 + 5 = 65, and you need 1 more rupee to make 66."},
+{"t": "A ride costs ₹15 per ticket. How much for 2 tickets?", "n": 30, "u": "₹", "k": "2*15", "e": "15 + 15 = 30."},
+{"t": "Which of these makes exactly ₹20?", "o": ["Two ₹10 notes", "Two ₹5 coins", "One ₹10 note and one ₹2 coin", "Four ₹2 coins"], "e": "10 + 10 = 20. The others make 10, 12 and 8."},
+{"t": "Add: ₹47 + ₹50", "n": 97, "u": "₹", "k": "47+50", "e": "Adding 5 tens to 47: 4 tens + 5 tens = 9 tens, ones stay 7. So ₹97."}
+]},
+{"q": [
+{"t": "Matru pays ₹10 for 3 chances at ‘pop the balloon’. How much does he pay for 9 chances?", "n": 30, "u": "₹", "k": "(9//3)*10", "e": "9 chances is 3 lots of 3 chances, and 3 × ₹10 = ₹30."},
+{"t": "A red balloon wins ₹5, a blue one ₹10 and a green one ₹2. Matru pops one of each. How much does he win?", "n": 17, "u": "₹", "k": "5+10+2", "e": "5 + 10 + 2 = 17."},
+{"t": "You want to make ₹85. You have one ₹50 note and one ₹20 note. How many more rupees do you need?", "n": 15, "u": "₹", "k": "85-50-20", "e": "50 + 20 = 70, and 85 − 70 = 15."},
+{"t": "You have ₹50. You buy a toy for ₹28 and a ball for ₹15. How much is left?", "n": 7, "u": "₹", "k": "50-28-15", "e": "Spent 28 + 15 = 43, and 50 − 43 = 7."},
+{"t": "Which is a correct way to make ₹54?", "o": ["₹50 + ₹2 + ₹2", "₹50 + ₹5", "₹20 + ₹20 + ₹5", "₹50 + ₹2"], "e": "50 + 2 + 2 = 54. The others make 55, 45 and 52."},
+{"t": "4 coins of 25 paise make how many rupees?", "n": 1, "u": "₹", "k": "4*25//100", "e": "4 × 25 paise = 100 paise, and 100 paise = ₹1."},
+{"t": "How many 10 paise coins make ₹1?", "n": 10, "u": "coins", "k": "100//10", "e": "10, 20, 30 … 100: ten coins make 100 paise."},
+{"t": "Rupal spends ₹10, ₹15 and ₹20 on three rides. How much does she spend in all?", "n": 45, "u": "₹", "k": "10+15+20", "e": "10 + 15 = 25, and 25 + 20 = 45."},
+{"t": "A friend had ₹50. She spent ₹20 on rides, ₹20 on snacks and ₹2 on candies. How much is left?", "n": 8, "u": "₹", "k": "50-20-20-2", "e": "Spent 20 + 20 + 2 = 42, and 50 − 42 = 8."},
+{"t": "You have ₹30. A toy costs ₹55. How much more money do you need?", "n": 25, "u": "₹", "k": "55-30", "e": "Count on from 30 to 55: that is 25 more."}
+]},
+{"q": [
+{"t": "You have ₹100. You buy a book for ₹45 and a pen for ₹30. How much is left?", "n": 25, "u": "₹", "k": "100-45-30", "e": "Spent 45 + 30 = 75, and 100 − 75 = 25."},
+{"t": "Meera has ₹43. Kanika has ₹14 more than Meera. How much do they have together?", "n": 100, "u": "₹", "k": "43+(43+14)", "e": "Kanika has 43 + 14 = 57. Together 43 + 57 = 100."},
+{"t": "You have two ₹20 notes and three ₹5 coins. You spend ₹27. How much is left?", "n": 28, "u": "₹", "k": "2*20+3*5-27", "e": "You have 40 + 15 = 55. Then 55 − 27 = 28."},
+{"t": "Matru pays ₹10 for 3 chances. He pops a blue (₹10), another blue (₹10) and a red (₹5) balloon. How much more did he win than he paid?", "n": 15, "u": "₹", "k": "10+10+5-10", "e": "He wins 10 + 10 + 5 = 25 and paid 10, so 25 − 10 = 15 more."},
+{"t": "Ajay had ₹58. He spent ₹48 at the market. Then his mother gave him ₹25. How much does he have now?", "n": 35, "u": "₹", "k": "58-48+25", "e": "58 − 48 = 10 left, then 10 + 25 = 35."},
+{"t": "Rita buys 5 pencils at ₹4 each and pays with a ₹50 note. How much change does she get?", "n": 30, "u": "₹", "k": "50-5*4", "e": "Pencils cost 4 + 4 + 4 + 4 + 4 = 20. Change = 50 − 20 = 30."},
+{"t": "Two 50 paise coins and four 25 paise coins make how many rupees?", "n": 2, "u": "₹", "k": "(2*50+4*25)//100", "e": "Two 50 paise = ₹1 and four 25 paise = ₹1, so ₹2 in all."},
+{"t": "Which costs more: 3 rides at ₹15 each or 2 rides at ₹20 each?", "o": ["3 rides at ₹15 each", "2 rides at ₹20 each", "Both cost the same"], "e": "15 + 15 + 15 = 45 and 20 + 20 = 40, so the 3 rides cost more."},
+{"t": "Sonu has three ₹10 notes. He wants a toy that costs ₹55. How much more does he need?", "n": 25, "u": "₹", "k": "55-3*10", "e": "He has 10 + 10 + 10 = 30, and 55 − 30 = 25."},
+{"t": "You pay ₹85 using four ₹20 notes and some ₹5 coins. How many ₹5 coins?", "n": 1, "u": "coin", "k": "(85-4*20)//5", "e": "Four ₹20 notes make 80, and 85 − 80 = 5, which is one ₹5 coin."}
+]}
+]
+}

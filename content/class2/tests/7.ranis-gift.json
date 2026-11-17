@@ -1,0 +1,53 @@
+{
+"title": "7. Rani’s Gift",
+"tests": [
+{"q": [
+{"t": "Raju measures a table: 8 handspans. His little sister measures the same table: 12 handspans. Why are the numbers different?", "o": ["Her hands are smaller, so she needs more of them", "The table grew longer", "Raju’s hands are smaller", "Handspans are all the same size"], "e": "A smaller unit fits more times into the same length."},
+{"t": "Which is heavier: a pumpkin or a carrot?", "o": ["Pumpkin", "Carrot", "Both weigh the same"], "e": "A pumpkin is much bigger and fuller, so it pulls down harder in your hands."},
+{"t": "Which is lighter: a feather or a brick?", "o": ["Feather", "Brick", "Both weigh the same"], "e": "A feather floats in the air; a brick is hard to lift."},
+{"t": "A toy giraffe is 9 blocks tall and a toy monkey is 4 blocks tall. How many blocks taller is the giraffe?", "n": 5, "u": "blocks", "k": "9-4", "e": "Taller by = 9 − 4 = 5 blocks."},
+{"t": "On a balance, which side goes down?", "o": ["The heavier side", "The lighter side", "Neither side ever moves", "Always the left side"], "e": "The heavier thing pulls its side down more strongly."},
+{"t": "One glass of nimbu pani needs 1 spoon of sugar. How many spoons of sugar for 3 glasses?", "n": 3, "u": "spoons", "k": "3*1", "e": "Each glass needs 1 spoon: 1 + 1 + 1 = 3."},
+{"t": "Which can hold more water: a bucket or a cup?", "o": ["A bucket", "A cup", "Both hold the same"], "e": "A bucket is much bigger inside, so it holds many cups of water."},
+{"t": "Pencil A is 5 erasers long. Pencil B is 7 erasers long (same eraser). Which is longer?", "o": ["Pencil B", "Pencil A", "Both are the same"], "e": "Using the same eraser, more erasers means a longer pencil."},
+{"t": "Which tool helps you find which of two objects is heavier?", "o": ["A balance", "A ruler", "A clock", "A calendar"], "e": "A balance tips down on the heavier side."},
+{"t": "Two same-size paper bags: one is full of sand and one is full of dry leaves. Which is heavier?", "o": ["The bag of sand", "The bag of dry leaves", "Both weigh the same"], "e": "Same size, but sand is packed tight and heavy; dry leaves are light and full of air."}
+]},
+{"q": [
+{"t": "One glass of nimbu pani needs 2 spoons of lemon juice. How many spoons for 3 glasses?", "n": 6, "u": "spoons", "k": "3*2", "e": "2 + 2 + 2 = 6 spoons."},
+{"t": "One bottle fills 4 glasses. How many glasses do 2 such bottles fill?", "n": 8, "u": "glasses", "k": "2*4", "e": "4 + 4 = 8 glasses."},
+{"t": "A desk is 6 books long. A table is 9 books long (same book). How much longer is the table?", "n": 3, "u": "books", "k": "9-6", "e": "9 − 6 = 3 books longer."},
+{"t": "A toy elephant is 8 blocks tall, a toy giraffe 9 blocks and a toy monkey 4 blocks. Which is the tallest?", "o": ["Giraffe", "Elephant", "Monkey"], "e": "9 blocks is the most, so the giraffe is the tallest."},
+{"t": "A muskmelon is heavier than a carrot. A pumpkin is heavier than the muskmelon. Which is the heaviest?", "o": ["Pumpkin", "Muskmelon", "Carrot"], "e": "The pumpkin beats the muskmelon, which already beats the carrot."},
+{"t": "Why is it better for everyone to measure with the same ruler?", "o": ["So everyone gets the same answer", "Because rulers are colourful", "So it takes longer", "It makes no difference at all"], "e": "Handspans and steps are different for different people; one fixed ruler gives one answer."},
+{"t": "Kavita can walk to school by a path of 12 steps or a path of 20 steps. Which path is faster?", "o": ["The 12-step path", "The 20-step path", "Both take the same time"], "e": "Fewer steps means a shorter path, so she gets there sooner."},
+{"t": "Riya’s bottle fills 5 glasses. Mohan’s bottle fills 3 glasses. How many more glasses does Riya’s bottle hold?", "n": 2, "u": "glasses", "k": "5-3", "e": "5 − 3 = 2 more glasses."},
+{"t": "What is the best way to find which of two same-looking balls is heavier?", "o": ["Put them on a balance", "Look at their colour", "Smell them", "Count them"], "e": "Colour and smell tell nothing about weight; a balance shows it directly."},
+{"t": "A jug holds 4 glasses of water. How many glasses do you need to empty a full jug?", "n": 4, "u": "glasses", "k": "4", "e": "The jug holds exactly 4 glasses, so 4 glasses take all of it."}
+]},
+{"q": [
+{"t": "A watermelon balances 6 mangoes. 1 coconut weighs the same as 2 mangoes. How many coconuts balance the watermelon?", "n": 3, "u": "coconuts", "k": "6//2", "e": "Make pairs of mangoes: 6 mangoes = 3 pairs, and each pair is 1 coconut."},
+{"t": "Raghu makes nimbu pani for himself and 4 friends (5 glasses). Each glass needs 2 spoons of lemon juice. How many spoons?", "n": 10, "u": "spoons", "k": "5*2", "e": "2 + 2 + 2 + 2 + 2 = 10."},
+{"t": "A doll is 7 blocks tall. A toy horse is 3 blocks taller than the doll. How tall is the horse?", "n": 10, "u": "blocks", "k": "7+3", "e": "Taller means add: 7 + 3 = 10 blocks."},
+{"t": "Pencil A is 6 erasers long and pencil B is 9 erasers long. How long are they laid end to end?", "n": 15, "u": "erasers", "k": "6+9", "e": "End to end, the lengths add: 6 + 9 = 15."},
+{"t": "A is heavier than B. B is heavier than C. Which is the lightest?", "o": ["C", "A", "B"], "e": "B beats C, and A beats B, so C is lighter than both."},
+{"t": "A bucket holds 10 mugs of water. 4 mugs are poured out. How many mugs of water are still in the bucket?", "n": 6, "u": "mugs", "k": "10-4", "e": "10 − 4 = 6 mugs."},
+{"t": "Ravi walks across the room in 20 steps. His father walks across in 12 steps. Who takes longer steps?", "o": ["His father", "Ravi", "Both the same"], "e": "Fewer steps for the same room means each step covers more ground."},
+{"t": "A jug fills 4 glasses. How many full jugs are needed to fill 12 glasses?", "n": 3, "u": "jugs", "k": "12//4", "e": "4 + 4 + 4 = 12, so 3 jugs."},
+{"t": "Raju sits on one end of a see-saw and his lighter sister Mina on the other. Which end goes down?", "o": ["Raju’s end", "Mina’s end", "Neither; it stays level"], "e": "The heavier person pulls their end down."},
+{"t": "How can you find out how much water a bottle holds?", "o": ["Count how many glasses of water fill it", "Measure how tall the cap is", "Weigh the empty bottle", "Look at its colour"], "e": "Filling it glass by glass counts how much water fits inside."}
+]},
+{"q": [
+{"t": "1 glass of nimbu pani needs 1 spoon of sugar and 2 spoons of lemon juice. For 4 glasses, how many spoons of sugar and lemon juice together?", "n": 12, "u": "spoons", "k": "4*1+4*2", "e": "Sugar: 4 spoons. Lemon: 2 + 2 + 2 + 2 = 8 spoons. Together 4 + 8 = 12."},
+{"t": "A watermelon balances 8 mangoes. A coconut balances 2 mangoes. How many coconuts balance 2 watermelons?", "n": 8, "u": "coconuts", "k": "2*8//2", "e": "2 watermelons = 16 mangoes = 8 pairs, and each pair is 1 coconut."},
+{"t": "A toy giraffe is 9 blocks tall and a toy monkey 4 blocks. The monkey stands on the giraffe’s head. How much taller are they together than a 7-block elephant?", "n": 6, "u": "blocks", "k": "9+4-7", "e": "Together: 9 + 4 = 13 blocks. 13 − 7 = 6 blocks taller."},
+{"t": "A table is 12 of Raju’s handspans long. One of Papa’s handspans is as long as 2 of Raju’s. How many of Papa’s handspans long is the table?", "n": 6, "u": "handspans", "k": "12//2", "e": "Every 2 of Raju’s spans make 1 of Papa’s: 12 spans make 6 pairs."},
+{"t": "A pot has 15 glasses of water. You fill your bottle (4 glasses) and your friend fills theirs (6 glasses). How many glasses of water are left in the pot?", "n": 5, "u": "glasses", "k": "15-4-6", "e": "Used: 4 + 6 = 10. Left: 15 − 10 = 5."},
+{"t": "A brick balances 4 apples. One apple balances 3 lemons. How many lemons balance the brick?", "n": 12, "u": "lemons", "k": "4*3", "e": "Swap each apple for 3 lemons: 3 + 3 + 3 + 3 = 12."},
+{"t": "Path A is 3 blocks and then 5 blocks long. Path B is 9 blocks long. Which is shorter, and by how much?", "o": ["Path A, by 1 block", "Path B, by 1 block", "They are the same", "Path A, by 2 blocks"], "e": "Path A = 3 + 5 = 8 blocks, and 9 − 8 = 1, so A is 1 block shorter."},
+{"t": "A pumpkin is heavier than a cauliflower. A carrot is lighter than the cauliflower. Put them from lightest to heaviest.", "o": ["Carrot, cauliflower, pumpkin", "Pumpkin, cauliflower, carrot", "Cauliflower, carrot, pumpkin", "Carrot, pumpkin, cauliflower"], "e": "The carrot is below the cauliflower and the pumpkin is above it, so the cauliflower sits in the middle."},
+{"t": "A bucket holds 20 mugs of water. 8 mugs are used for plants and 5 mugs for washing. How many mugs are left?", "n": 7, "u": "mugs", "k": "20-8-5", "e": "Used: 8 + 5 = 13. Left: 20 − 13 = 7."},
+{"t": "A ribbon is 10 pencils long. You cut off 3 pencil-lengths, and then 3 pencil-lengths again. How long is the ribbon now?", "n": 4, "u": "pencils", "k": "10-3-3", "e": "10 − 3 = 7, then 7 − 3 = 4 pencil-lengths."}
+]}
+]
+}

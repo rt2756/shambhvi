@@ -1,0 +1,53 @@
+{
+"title": "8. Grouping and Sharing",
+"tests": [
+{"q": [
+{"t": "There are 4 bicycles. Each has 2 wheels. How many wheels in all?", "n": 8, "u": "wheels", "k": "4*2", "e": "2 + 2 + 2 + 2 = 8, so 4 × 2 = 8."},
+{"t": "2 + 2 + 2 + 2 + 2 is how many twos?", "n": 5, "u": "twos", "k": "5", "e": "Count the 2s being added: there are five of them."},
+{"t": "Find 5 × 2.", "n": 10, "k": "5*2", "e": "5 groups of 2: 2, 4, 6, 8, 10."},
+{"t": "Find 3 × 3.", "n": 9, "k": "3*3", "e": "3 groups of 3: 3 + 3 + 3 = 9."},
+{"t": "Find 4 × 10.", "n": 40, "k": "4*10", "e": "4 tens make 40."},
+{"t": "Share 8 laddoos equally between 2 children. How many does each child get?", "n": 4, "u": "laddoos", "k": "8//2", "e": "Give 1 each, again and again: after 4 rounds all 8 are gone, so each gets 4."},
+{"t": "There are 2 autorickshaws. Each has 3 wheels. How many wheels in all?", "n": 6, "u": "wheels", "k": "2*3", "e": "3 + 3 = 6, so 2 × 3 = 6."},
+{"t": "How many is 4 groups of 5?", "n": 20, "k": "4*5", "e": "5 + 5 + 5 + 5 = 20."},
+{"t": "A car has 4 wheels. How many wheels do 3 cars have?", "n": 12, "u": "wheels", "k": "3*4", "e": "4 + 4 + 4 = 12."},
+{"t": "Share 6 gulab jamuns equally between 2 children. How many does each get?", "n": 3, "k": "6//2", "e": "1 for you, 1 for me, three times: each gets 3, and 3 + 3 = 6."}
+]},
+{"q": [
+{"t": "There are 7 cars. Each car has 4 wheels. How many wheels in all?", "n": 28, "u": "wheels", "k": "7*4", "e": "7 fours: 4, 8, 12, 16, 20, 24, 28."},
+{"t": "Which is true about 3 × 4 and 4 × 3?", "o": ["They are equal — both are 12", "3 × 4 is bigger", "4 × 3 is bigger", "Neither is 12"], "e": "3 groups of 4 and 4 groups of 3 use the same 12 things, just arranged the other way."},
+{"t": "There are 8 packets of bindis with 5 bindis in each. How many bindis in all?", "n": 40, "u": "bindis", "k": "8*5", "e": "Count in fives 8 times: 5, 10, 15, 20, 25, 30, 35, 40."},
+{"t": "Bharti puts 4 buttons on each shirt. How many buttons for 7 shirts?", "n": 28, "u": "buttons", "k": "7*4", "e": "7 groups of 4: 7 × 4 = 28."},
+{"t": "Each string has 7 beads. How many strings can you make with 21 beads?", "n": 3, "u": "strings", "k": "21//7", "e": "7 + 7 + 7 = 21, so 3 strings use all the beads."},
+{"t": "5 roses fit in one vase. How many vases for 25 roses?", "n": 5, "u": "vases", "k": "25//5", "e": "Count in fives to 25: 5, 10, 15, 20, 25 — five vases."},
+{"t": "Share 24 bananas equally among 3 monkeys. How many does each get?", "n": 8, "u": "bananas", "k": "24//3", "e": "8 + 8 + 8 = 24, so each monkey gets 8."},
+{"t": "Rita buys 6 pencils at ₹4 each. How much does she pay?", "n": 24, "u": "₹", "k": "6*4", "e": "4 + 4 + 4 + 4 + 4 + 4 = 24, so 6 × 4 = 24 rupees."},
+{"t": "Find 6 × 3.", "n": 18, "k": "6*3", "e": "6 groups of 3: 3, 6, 9, 12, 15, 18."},
+{"t": "An octopus has 8 legs. How many legs do 2 octopuses have?", "n": 16, "u": "legs", "k": "2*8", "e": "8 + 8 = 16."}
+]},
+{"q": [
+{"t": "2 × 6 = 12. The table of 4 is the table of 2 added to itself. So what is 4 × 6?", "n": 24, "k": "2*6+2*6", "e": "4 sixes = 2 sixes + 2 sixes = 12 + 12 = 24."},
+{"t": "3 × 5 = 15 and 4 × 5 = 20. Use them to find 7 × 5.", "n": 35, "k": "3*5+4*5", "e": "7 fives = 3 fives + 4 fives = 15 + 20 = 35."},
+{"t": "2 × 4 = 8 and 6 × 4 = 24. Use them to find 8 × 4.", "n": 32, "k": "2*4+6*4", "e": "8 fours = 2 fours + 6 fours = 8 + 24 = 32."},
+{"t": "There are 54 flowers. 9 flowers make 1 bracelet. How many bracelets can you make?", "n": 6, "u": "bracelets", "k": "54//9", "e": "Count in nines: 9, 18, 27, 36, 45, 54 — six bracelets."},
+{"t": "27 candles are put equally into 3 boxes. How many candles in each box?", "n": 9, "u": "candles", "k": "27//3", "e": "9 + 9 + 9 = 27."},
+{"t": "A tailor puts 6 buttons on each shirt. How many shirts can 30 buttons go on?", "n": 5, "u": "shirts", "k": "30//6", "e": "6, 12, 18, 24, 30 — five groups of 6."},
+{"t": "Garima has 20 beads and uses 5 beads for each bracelet. How many bracelets can she make?", "n": 4, "u": "bracelets", "k": "20//5", "e": "Take away 5 again and again: 20, 15, 10, 5, 0 — four bracelets."},
+{"t": "5 people can sit in a car. How many people can sit in 8 such cars?", "n": 40, "u": "people", "k": "8*5", "e": "8 groups of 5 = 40."},
+{"t": "9 + 9 + 9 is the same as:", "o": ["3 × 9", "9 × 9", "9 + 3", "2 × 9"], "e": "Three 9s are being added, so it is 3 times 9."},
+{"t": "You arrange 24 buttons in equal rows. Which of these is NOT a way to do it?", "o": ["5 rows of 5", "3 rows of 8", "4 rows of 6", "2 rows of 12"], "e": "5 rows of 5 is 25, not 24. The others all make 24."}
+]},
+{"q": [
+{"t": "There are 3 bicycles and 2 autorickshaws. How many wheels in all?", "n": 12, "u": "wheels", "k": "3*2+2*3", "e": "Bicycles: 3 × 2 = 6. Autos: 2 × 3 = 6. Total 6 + 6 = 12."},
+{"t": "There are 4 cars and 3 bicycles. How many wheels in all?", "n": 22, "u": "wheels", "k": "4*4+3*2", "e": "Cars: 4 × 4 = 16. Bicycles: 3 × 2 = 6. Total 16 + 6 = 22."},
+{"t": "Rita buys 5 pencils at ₹4 each and 2 erasers at ₹3 each. How much does she pay?", "n": 26, "u": "₹", "k": "5*4+2*3", "e": "Pencils: 5 × 4 = 20. Erasers: 2 × 3 = 6. Total 20 + 6 = 26 rupees."},
+{"t": "Pooja has 2 plates with 12 laddoos in all. She shares them equally into 3 plates. How many laddoos on each plate?", "n": 4, "u": "laddoos", "k": "12//3", "e": "It is the total that is shared: 12 shared into 3 plates gives 4 each (4 + 4 + 4 = 12)."},
+{"t": "30 sweets are shared equally among 5 children. Each child then eats 2. How many sweets does each child have left?", "n": 4, "u": "sweets", "k": "30//5-2", "e": "Each gets 30 ÷ 5 = 6 (since 5 × 6 = 30), then 6 − 2 = 4."},
+{"t": "3 boxes have 6 crayons each. All the crayons are shared equally between 2 children. How many does each child get?", "n": 9, "u": "crayons", "k": "3*6//2", "e": "Total 3 × 6 = 18 crayons. Shared by 2: 9 + 9 = 18, so 9 each."},
+{"t": "4 vases have 5 roses each. 3 roses wilt. How many fresh roses are left?", "n": 17, "u": "roses", "k": "4*5-3", "e": "4 × 5 = 20 roses, and 20 − 3 = 17."},
+{"t": "A tailor has 40 buttons. He sews 6 buttons on each of 5 shirts. How many buttons are left?", "n": 10, "u": "buttons", "k": "40-5*6", "e": "He uses 5 × 6 = 30 buttons, so 40 − 30 = 10 are left."},
+{"t": "Garima has 23 beads. Each bracelet needs 5 beads. How many full bracelets can she make?", "n": 4, "u": "bracelets", "k": "23//5", "e": "4 bracelets use 20 beads. Only 3 beads are left, not enough for a 5th."},
+{"t": "Which is more: 6 groups of 4 or 4 groups of 5?", "o": ["6 groups of 4", "4 groups of 5", "Both are the same"], "e": "6 × 4 = 24 and 4 × 5 = 20, so 6 groups of 4 is more."}
+]}
+]
+}
