@@ -1,0 +1,53 @@
+{
+"title": "5. Sharing and Measuring",
+"tests": [
+{"q": [
+{"t": "A roti is cut into 2 equal parts. What is each part called?", "o": ["1/2 (one half)", "1/4 (one quarter)", "1/3 (one third)", "2 (two)"], "e": "When a whole is cut into 2 equal parts, each part is one half, written 1/2."},
+{"t": "A paper is folded into 4 equal parts. What is each part called?", "o": ["1/4 (one quarter)", "1/2 (one half)", "1/3 (one third)", "4 (four)"], "e": "One of 4 equal parts is a quarter, written 1/4."},
+{"t": "How many halves make one whole?", "n": 2, "k": "2", "e": "The whole was cut into 2 equal parts, so 2 halves fit back together."},
+{"t": "How many quarters make one whole?", "n": 4, "k": "4", "e": "A quarter is one of 4 equal parts, so 4 of them make the whole."},
+{"t": "Which is bigger: 1/2 or 1/4 of the same roti?", "o": ["1/2", "1/4", "Both are the same"], "e": "Cutting into fewer parts makes each part bigger — 2 parts are bigger than 4 parts."},
+{"t": "What is 1/2 of 10 sweets?", "n": 5, "k": "10//2", "e": "Share 10 sweets into 2 equal groups: each group has 5."},
+{"t": "Meena has 8 diyas. How many diyas are 1/4 of them?", "n": 2, "k": "8//4", "e": "Split 8 diyas into 4 equal groups: each group has 2."},
+{"t": "A dhokla is shared equally among 5 people. What part does each get?", "o": ["1/5", "1/2", "1/4", "5"], "e": "One of 5 equal parts is written 1/5 — one fifth."},
+{"t": "A paper is cut into 2 parts of different sizes. Is each part a half?", "o": ["No — halves must be equal parts", "Yes — any 2 parts are halves", "Only the bigger part is a half", "Only the smaller part is a half"], "e": "A half is one of 2 EQUAL parts, so unequal pieces are not halves."},
+{"t": "How do we read 1/3?", "o": ["One third", "One half", "Three ones", "One quarter"], "e": "The 3 below means 3 equal parts, and the 1 above means we take one of them."}
+]},
+{"q": [
+{"t": "Which is smaller: 1/6 or 1/8 of the same dhokla?", "o": ["1/8", "1/6", "Both are the same"], "e": "Sharing among 8 people gives each a smaller piece than sharing among 6."},
+{"t": "Two quarters of a paper are the same as:", "o": ["1/2", "1/4", "1/3", "The whole paper"], "e": "4 quarters make a whole, so 2 quarters make half of it."},
+{"t": "A box has 16 barfis. How many barfis are 1/4 of the box?", "n": 4, "k": "16//4", "e": "Split 16 into 4 equal groups: 4 in each."},
+{"t": "There are 12 cookies. How many cookies are 1/3 of them?", "n": 4, "k": "12//3", "e": "Split 12 into 3 equal groups: 4 in each."},
+{"t": "How many pieces of 1/6 make one whole?", "n": 6, "k": "6", "e": "1/6 means one of 6 equal parts, so 6 such pieces fit together into the whole."},
+{"t": "A rectangle is cut into 4 equal parts and 3 of them are shaded. What part is shaded?", "o": ["3/4", "1/4", "4/3", "1/3"], "e": "3 of the 4 equal parts are shaded — three quarters, written 3/4."},
+{"t": "A garden has 5 equal parts. Roses grow in 2 of them. What part has roses?", "o": ["2/5", "1/5", "2/3", "5/2"], "e": "2 out of 5 equal parts is 2/5 — the bottom number counts the parts, the top counts the ones we take."},
+{"t": "Which is greater: 1/5 or 1/4 of the same cake?", "o": ["1/4", "1/5", "Both are the same"], "e": "4 equal parts are bigger than 5 equal parts of the same cake."},
+{"t": "12 cookies are shared equally among 6 children. How many does each child get?", "n": 2, "k": "12//6", "e": "Give one at a time round the 6 children: after 2 rounds all 12 are gone."},
+{"t": "A garden has 5 equal parts and roses fill all 5. What part has roses?", "o": ["5/5 — the whole garden", "1/5", "1/2", "0"], "e": "Taking all 5 of the 5 equal parts gives the whole."}
+]},
+{"q": [
+{"t": "1/2 is the same as which fraction?", "o": ["2/4", "1/4", "3/4", "2/3"], "k": "F(1,2)", "e": "Fold each half into 2 again: the half becomes 2 of 4 equal parts."},
+{"t": "A paper is folded into 3 equal parts and 1 is coloured. Then it is folded in half again. 1/3 is the same as:", "o": ["2/6", "1/6", "3/6", "2/3"], "k": "F(1,3)", "e": "Halving every part makes 6 parts, and the coloured third is now 2 of them."},
+{"t": "How many pieces of 1/8 make 1/4?", "n": 2, "k": "F(1,4)/F(1,8)", "e": "Cut each quarter in half and you get eighths, so one quarter is 2 eighths."},
+{"t": "Three pieces of 1/6 together make:", "o": ["1/2", "1/3", "3/18", "1/9"], "k": "3*F(1,6)", "e": "6 sixths make a whole, so 3 sixths make half of it."},
+{"t": "There are 20 pots. How many pots are 3/5 of them?", "n": 12, "k": "20*F(3,5)", "e": "1/5 of 20 is 4, so 3/5 is 3 groups of 4 = 12."},
+{"t": "When will Sumedha get MORE dhokla: when it is shared equally among 9 people or among 11 people?", "o": ["Among 9 people", "Among 11 people", "The same either way"], "e": "Fewer people sharing the same dhokla means bigger pieces."},
+{"t": "A dosa has 1/4 potato, 1/4 onion and the rest tomato. What part is tomato?", "o": ["1/2", "1/4", "3/4", "1/3"], "k": "1-F(1,4)-F(1,4)", "e": "Two quarters are used, so 2 of the 4 quarters are left — that is half."},
+{"t": "Mohan’s ribbon is 1/4 as long as Rohan’s. Mohan’s ribbon is 5 cm. How long is Rohan’s (in cm)?", "n": 20, "u": "cm", "k": "5*4", "e": "Mohan’s is one of 4 equal parts of Rohan’s, so Rohan’s is 4 × 5 cm."},
+{"t": "Which is the smallest: 1/2, 1/3, 1/7 or 1/5?", "o": ["1/7", "1/2", "1/3", "1/5"], "e": "The more equal parts a whole is cut into, the smaller each part — 7 is the most parts."},
+{"t": "Simran has 15 friends at her party. 1/3 of them get a hairband. How many get a hairband?", "n": 5, "k": "15//3", "e": "Split 15 friends into 3 equal groups: one group has 5."}
+]},
+{"q": [
+{"t": "A dhokla is shared equally among 5 people. Idha gives her share to Sumedha. What part does Sumedha have now?", "o": ["2/5", "1/5", "1/2", "1/10"], "k": "2*F(1,5)", "e": "Her own 1/5 plus Idha’s 1/5 makes 2 of the 5 equal parts."},
+{"t": "A dhokla is shared equally among 5. Both Idha and Vinayak give their shares to Sumedha. What part does Sumedha have now?", "o": ["3/5", "2/5", "3/15", "1/3"], "k": "3*F(1,5)", "e": "Her 1/5 plus two more fifths makes 3 of the 5 parts."},
+{"t": "24 laddoos: 1/4 go to Ravi and 1/3 go to Meena. How many laddoos are left?", "n": 10, "k": "24-24//4-24//3", "e": "Ravi gets 24 ÷ 4 = 6 and Meena gets 24 ÷ 3 = 8; 24 − 6 − 8 = 10."},
+{"t": "A garden has 7 equal parts. Marigold is in 1/7, roses are in 3/7 and hibiscus fills the rest. What part is hibiscus?", "o": ["3/7", "4/7", "2/7", "1/7"], "k": "1-F(1,7)-F(3,7)", "e": "1 + 3 = 4 parts are used, so 7 − 4 = 3 of the 7 parts are left."},
+{"t": "A ribbon is 1 metre (100 cm) long. How long is 1/4 of it (in cm)?", "n": 25, "u": "cm", "k": "100//4", "e": "Cut 100 cm into 4 equal pieces: each is 25 cm."},
+{"t": "A pizza is cut into 8 equal slices. Ali eats 3 slices and Bina eats 2. What part of the pizza is left?", "o": ["3/8", "5/8", "2/8", "1/2"], "k": "1-F(5,8)", "e": "5 of the 8 slices are eaten, so 8 − 5 = 3 slices (3/8) are left."},
+{"t": "16 barfis: Mummy gives 1/4 of them to Ravi and 1/4 to Sita. How many barfis are left?", "n": 8, "k": "16-16//4-16//4", "e": "Each child gets 16 ÷ 4 = 4, so 8 are given away and 8 are left — two quarters gone leaves half."},
+{"t": "Which is more: 1/2 of 30 or 1/3 of 60?", "o": ["1/3 of 60", "1/2 of 30", "Both are equal"], "e": "1/2 of 30 is 15, but 1/3 of 60 is 20."},
+{"t": "Ravi’s dhokla is cut into 6 equal pieces and he eats 2. Rani’s same-size dhokla is cut into 3 equal pieces and she eats 1. Who ate more?", "o": ["Both ate the same", "Ravi", "Rani"], "e": "Halving each of Rani’s 3 pieces gives 6 pieces, and her 1 piece becomes 2 — the same as Ravi’s 2/6."},
+{"t": "A class of 32 children: 1/2 of them play outside and 1/4 of them read. The rest paint. How many children paint?", "n": 8, "k": "32-32//2-32//4", "e": "16 play and 8 read, so 32 − 16 − 8 = 8 are left to paint."}
+]}
+]
+}

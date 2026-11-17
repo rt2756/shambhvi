@@ -1,0 +1,53 @@
+{
+"title": "14. Data Handling",
+"tests": [
+{"q": [
+{"t": "Children named their favourite subject: M, L, M, A, M, T, L, M (M = Maths). How many chose Maths?", "n": 4, "k": "'MLMAMTLM'.count('M')", "e": "Count every M in the list: 1st, 3rd, 5th and 8th — 4 children."},
+{"t": "Children named their favourite subject: M, L, M, A, M, T, L, M. How many children answered in all?", "n": 8, "k": "len('MLMAMTLM')", "e": "Each letter is one child’s answer, and there are 8 letters."},
+{"t": "Which question is best for finding the most liked subject?", "o": ["Which subject do you like the most?", "Which subjects do you like?", "Do you like school?", "How many subjects do you have?"], "e": "Asking for ONE favourite gives one answer per child, which we can count and compare."},
+{"t": "Golas eaten: Red 12, Green 7, Orange 15, Yellow 9. Which colour was eaten the most?", "o": ["Orange", "Red", "Green", "Yellow"], "e": "15 is the biggest number in the table."},
+{"t": "Golas eaten: Red 12, Green 7, Orange 15, Yellow 9. Which colour was eaten the least?", "o": ["Green", "Yellow", "Red", "Orange"], "e": "7 is the smallest number in the table."},
+{"t": "In a pictograph, one picture stands for 2 children. What do 4 pictures stand for?", "n": 8, "k": "4*2", "e": "Each picture is 2 children: 2 + 2 + 2 + 2."},
+{"t": "Golas eaten: Red 12, Green 7, Orange 15, Yellow 9. How many red and green golas together?", "n": 19, "k": "12+7", "e": "Read both numbers from the table and add."},
+{"t": "Golas eaten: Red 12, Green 7, Orange 15, Yellow 9. How many more orange than yellow golas?", "n": 6, "k": "15-9", "e": "‘How many more’ means subtract: 15 − 9."},
+{"t": "Which is easier to read: a long list of answers or a table with the counts?", "o": ["A table — the counting is already done", "The long list", "Both are just as easy", "Neither shows the answers"], "e": "In a table the answers are already grouped and counted, so you can compare at a glance."},
+{"t": "In a pictograph, one picture stands for 5 sandwiches. Day 1 shows 3 pictures. How many sandwiches were sold on Day 1?", "n": 15, "k": "3*5", "e": "Each picture is 5 sandwiches: 5 + 5 + 5."}
+]},
+{"q": [
+{"t": "Favourite subjects (P = Physical Education): T, A, P, A, M, P, L, L, P, A, T, M, A, P, P. How many chose P?", "n": 5, "k": "'TAPAMPLLPATMAPP'.count('P')", "e": "Go through the list and count each P: there are 5."},
+{"t": "Favourite subjects: T, A, P, A, M, P, L, L, P, A, T, M, A, P, P. Which subject is liked the most?", "o": ["Physical Education (P)", "Arts (A)", "Maths (M)", "Languages (L)"], "e": "P appears 5 times, A 4 times, and M, L, T only 2 times each."},
+{"t": "Favourite subjects: T, A, P, A, M, P, L, L, P, A, T, M, A, P, P. How many more children chose Arts (A) than Maths (M)?", "n": 2, "k": "'TAPAMPLLPATMAPP'.count('A')-'TAPAMPLLPATMAPP'.count('M')", "e": "A appears 4 times and M 2 times: 4 − 2 = 2."},
+{"t": "In a pictograph, one picture stands for 10 fruit chaats. Day 2 shows 6 pictures. How many chaats were sold on Day 2?", "n": 60, "k": "6*10", "e": "6 pictures of 10 each: 6 Tens = 60."},
+{"t": "A class table: Chess only — 6 girls, 4 boys. Cricket only — 5 girls, 9 boys. Both — 3 girls, 2 boys. Neither — 1 girl, 2 boys. How many children play both games?", "n": 5, "k": "3+2", "e": "Read the ‘Both’ row: 3 girls + 2 boys."},
+{"t": "Chess only — 6 girls, 4 boys. Cricket only — 5 girls, 9 boys. Both — 3 girls, 2 boys. Neither — 1 girl, 2 boys. How many girls are in the class?", "n": 15, "k": "6+5+3+1", "e": "Each girl is in exactly one row, so add the girls’ column: 6 + 5 + 3 + 1."},
+{"t": "Chess only — 6 girls, 4 boys. Cricket only — 5 girls, 9 boys. Both — 3 girls, 2 boys. Neither — 1 girl, 2 boys. How many boys play cricket?", "n": 11, "k": "9+2", "e": "Boys who play cricket are in ‘Cricket only’ (9) and also in ‘Both’ (2)."},
+{"t": "Golas eaten — Boys: red 6, green 2, orange 4. Girls: red 3, green 5, orange 4. Which colour did the girls eat the most?", "o": ["Green", "Red", "Orange"], "e": "Look only at the girls’ numbers: green 5 is the biggest."},
+{"t": "Golas eaten — Boys: red 6, green 2, orange 4. Girls: red 3, green 5, orange 4. How many orange golas were eaten in all?", "n": 8, "k": "4+4", "e": "Add the boys’ orange and the girls’ orange: 4 + 4."},
+{"t": "Golas eaten — Boys: red 6, green 2, orange 4. Girls: red 3, green 5, orange 4. Which colour was eaten the most overall?", "o": ["Red", "Green", "Orange"], "e": "Red: 6 + 3 = 9; green: 2 + 5 = 7; orange: 4 + 4 = 8."}
+]},
+{"q": [
+{"t": "Sandwiches pictograph, one picture = 5 sandwiches: Day 1 has 4 pictures, Day 2 has 7, Day 3 has 5. How many sandwiches were sold in all?", "n": 80, "k": "(4+7+5)*5", "e": "There are 4 + 7 + 5 = 16 pictures, and 16 × 5 = 80."},
+{"t": "Sandwiches pictograph, one picture = 5: Day 1 has 4 pictures, Day 2 has 7, Day 3 has 5. On which day were the most sandwiches sold?", "o": ["Day 2", "Day 1", "Day 3"], "e": "Every picture is worth the same, so the row with the most pictures (7) sold the most."},
+{"t": "One picture = 5. Fruit chaats: Day 1 has 6 pictures, Day 2 has 3, Day 3 has 8. Sandwiches: Day 1 has 4, Day 2 has 7, Day 3 has 5. Which item sold more on Day 2?", "o": ["Sandwiches", "Fruit chaats", "They sold the same"], "e": "On Day 2 sandwiches have 7 pictures (35) and chaats only 3 (15)."},
+{"t": "One picture = 5. Fruit chaats on Day 3: 8 pictures. Sandwiches on Day 3: 5 pictures. What were the total sales on Day 3?", "n": 65, "k": "(8+5)*5", "e": "8 + 5 = 13 pictures, and 13 × 5 = 65."},
+{"t": "One picture = 5. Chaats: Day 1 has 6, Day 2 has 3, Day 3 has 8 pictures. Sandwiches: Day 1 has 4, Day 2 has 7, Day 3 has 5. Which day had the highest total sales?", "o": ["Day 3", "Day 1", "Day 2"], "e": "Day 1: 10 pictures, Day 2: 10 pictures, Day 3: 13 pictures — Day 3 is highest."},
+{"t": "Chess only — 6 girls, 4 boys. Cricket only — 5 girls, 9 boys. Both — 3 girls, 2 boys. Neither — 1 girl, 2 boys. Who plays chess more, girls or boys?", "o": ["Girls", "Boys", "The same number"], "e": "Chess players are in ‘Chess only’ and ‘Both’: girls 6 + 3 = 9, boys 4 + 2 = 6."},
+{"t": "Chess only — 6 girls, 4 boys. Cricket only — 5 girls, 9 boys. Both — 3 girls, 2 boys. Neither — 1 girl, 2 boys. How many children play neither game?", "n": 3, "k": "1+2", "e": "Read the ‘Neither’ row: 1 girl + 2 boys."},
+{"t": "Chess only — 6 girls, 4 boys. Cricket only — 5 girls, 9 boys. Both — 3 girls, 2 boys. Neither — 1 girl, 2 boys. How many children are in the class?", "n": 32, "k": "6+4+5+9+3+2+1+2", "e": "Every child is in exactly one box, so add all eight numbers: 15 girls + 17 boys."},
+{"t": "In a pictograph, one picture stands for 4 children. 28 children chose cricket. How many pictures are drawn for cricket?", "n": 7, "k": "28//4", "e": "Each picture shows 4 children, and 28 has seven 4s."},
+{"t": "Favourite subjects: P.E. 5, Arts 4, Maths 2, Languages 2, Environment 2. How many more chose the most popular subject than Maths?", "n": 3, "k": "5-2", "e": "The most popular is P.E. with 5, and 5 − 2 = 3."}
+]},
+{"q": [
+{"t": "40 children each named one favourite subject: Maths 12, Languages 9, Arts 8, Environment 4, and the rest chose P.E. How many chose P.E.?", "n": 7, "k": "40-12-9-8-4", "e": "The others add to 12 + 9 + 8 + 4 = 33, so 40 − 33 = 7 chose P.E."},
+{"t": "40 children each named one favourite subject. 12 chose Maths. How many did NOT choose Maths?", "n": 28, "k": "40-12", "e": "Everyone who did not pick Maths is the rest of the class: 40 − 12."},
+{"t": "In a pictograph, one whole picture stands for 10 children and half a picture stands for 5. A row shows 4 whole pictures and 1 half picture. How many children is that?", "n": 45, "k": "4*10+5", "e": "4 whole pictures = 40, and the half picture = half of 10 = 5."},
+{"t": "Golas — Boys: red 7, green 4, orange 6. Girls: red 3, green 8, orange 4. Rohan wants the colour eaten most by everyone. Which should he buy?", "o": ["Green", "Red", "Orange"], "e": "Totals: red 7 + 3 = 10, green 4 + 8 = 12, orange 6 + 4 = 10. Green wins."},
+{"t": "Golas — Boys: red 7, green 4, orange 6. Girls: red 3, green 8, orange 4. How many more golas did the boys eat than the girls?", "n": 2, "k": "(7+4+6)-(3+8+4)", "e": "Boys ate 7 + 4 + 6 = 17 and girls ate 3 + 8 + 4 = 15; 17 − 15 = 2."},
+{"t": "30 children: 8 play only chess, 11 play only cricket and 6 play both. How many play neither game?", "n": 5, "k": "30-8-11-6", "e": "8 + 11 + 6 = 25 children play at least one game, so 30 − 25 = 5 play neither."},
+{"t": "30 children: 8 play only chess, 11 play only cricket and 6 play both. How many play cricket in all?", "n": 17, "k": "11+6", "e": "Cricket players are the ‘only cricket’ children and the ‘both’ children: 11 + 6."},
+{"t": "50 fruit chaats were sold over 3 days: 15 on Day 1 and 20 on Day 2. In a pictograph where one picture = 5 chaats, how many pictures are drawn for Day 3?", "n": 3, "k": "(50-15-20)//5", "e": "Day 3 sold 50 − 15 − 20 = 15 chaats, and 15 ÷ 5 = 3 pictures."},
+{"t": "Pets in a class: dogs 9, cats 6, fish 4, birds 5. In a pictograph where one picture = 3 pets, how many pictures are drawn for dogs and cats together?", "n": 5, "k": "(9+6)//3", "e": "Dogs need 9 ÷ 3 = 3 pictures and cats need 6 ÷ 3 = 2: 5 pictures."},
+{"t": "Anjali asks, ‘Do you like Maths?’ Why is this NOT a good question for finding the MOST liked subject?", "o": ["It only gets yes or no about one subject", "It is too short", "Maths is not a subject", "Children cannot answer it"], "e": "To compare subjects, each child must pick one favourite from all of them."}
+]}
+]
+}

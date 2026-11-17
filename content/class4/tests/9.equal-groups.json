@@ -1,0 +1,53 @@
+{
+"title": "9. Equal Groups",
+"tests": [
+{"q": [
+{"t": "Each lily has 3 petals. How many petals do 12 lilies have?", "n": 36, "k": "12*3", "e": "10 lilies have 30 petals and 2 lilies have 6: 30 + 6 = 36."},
+{"t": "A hibiscus has 5 petals. Gulabo counted 80 petals. How many flowers were there?", "n": 16, "k": "80//5", "e": "50 petals make 10 flowers and 30 petals make 6 more: 10 + 6 = 16."},
+{"t": "What is the double of 32?", "n": 64, "k": "2*32", "e": "Double means two times: 32 + 32."},
+{"t": "Find 10 × 6.", "n": 60, "k": "10*6", "e": "10 groups of 6 is 6 Tens, which is 60."},
+{"t": "Which of these is a multiple of 4 (a number the squirrel lands on, jumping 4 at a time from 0)?", "o": ["28", "30", "18", "22"], "e": "4, 8, 12, 16, 20, 24, 28 — 28 is 7 jumps of 4."},
+{"t": "Find 40 × 6.", "n": 240, "k": "40*6", "e": "4 × 6 = 24, so 40 × 6 is 24 Tens = 240."},
+{"t": "Gulabo plants 3 rows of saplings with 6 in each row. How many saplings?", "n": 18, "k": "3*6", "e": "3 equal rows of 6: 6 + 6 + 6."},
+{"t": "100 bikes each carry 2 people. How many people?", "n": 200, "k": "100*2", "e": "100 groups of 2 is 2 Hundreds."},
+{"t": "₹30 is shared equally among 3 children. How much does each get (in ₹)?", "n": 10, "u": "₹", "k": "30//3", "e": "3 Tens shared by 3 children: 1 Ten each."},
+{"t": "A frog jumps 3 steps at a time starting from 0. Will it land on 67?", "o": ["No, 67 is not a multiple of 3", "Yes, after 22 jumps", "Yes, after 20 jumps", "Yes, it lands on every number"], "e": "22 jumps reach 66 and 23 jumps reach 69, so the frog skips over 67."}
+]},
+{"q": [
+{"t": "Radha packs 4 cupcakes in each box and packs 18 boxes. How many cupcakes?", "n": 72, "k": "18*4", "e": "Split 18 into 10 + 8: 10 × 4 = 40 and 8 × 4 = 32; 40 + 32 = 72."},
+{"t": "A bullock cart needs 8 bamboo rods. How many rods are needed for 23 carts?", "n": 184, "k": "23*8", "e": "20 × 8 = 160 and 3 × 8 = 24; 160 + 24 = 184."},
+{"t": "A tempo needs 3 wheels. How many tempos can be fitted with 58 wheels?", "n": 19, "k": "58//3", "e": "Take away groups: 30 wheels → 10 tempos, 15 → 5, 9 → 3, 3 → 1. That is 19 tempos, with 1 wheel left over."},
+{"t": "Chippi sees 88 legs of cows. How many cows are there?", "n": 22, "k": "88//4", "e": "A cow has 4 legs. 40 legs → 10 cows, another 40 → 10 cows, 8 legs → 2 cows: 22."},
+{"t": "Jolly fish sees 72 octopus legs. How many octopuses are there?", "n": 9, "k": "72//8", "e": "An octopus has 8 legs, and 9 × 8 = 72."},
+{"t": "Which number is a common multiple of 3 and 4 (both the frog and the squirrel land on it)?", "o": ["12", "8", "9", "15"], "e": "12 = 4 jumps of 3 and also 3 jumps of 4; the others fit only one of them."},
+{"t": "Find 500 × 4.", "n": 2000, "k": "500*4", "e": "5 × 4 = 20, so 500 × 4 is 20 Hundreds = 2000."},
+{"t": "Find 900 ÷ 3.", "n": 300, "k": "900//3", "e": "9 Hundreds shared into 3 groups is 3 Hundreds each."},
+{"t": "An auditorium has 15 rows with 8 children in each row. How many children?", "n": 120, "k": "15*8", "e": "10 × 8 = 80 and 5 × 8 = 40; 80 + 40 = 120."},
+{"t": "What is the ones digit of the double of 17?", "n": 4, "k": "(2*17)%10", "e": "Double 17 is 34; doubling the 7 Ones gives 14, so the ones digit is 4."}
+]},
+{"q": [
+{"t": "An e-rickshaw carries 8 passengers. How many people can 125 e-rickshaws carry in one round?", "n": 1000, "k": "125*8", "e": "100 × 8 = 800, 20 × 8 = 160, 5 × 8 = 40; 800 + 160 + 40 = 1000."},
+{"t": "Potters pack 6 kulhads in a box and pack 174 boxes. How many kulhads?", "n": 1044, "k": "174*6", "e": "100 × 6 = 600, 70 × 6 = 420, 4 × 6 = 24; 600 + 420 + 24 = 1044."},
+{"t": "A school gives 2 pencils to each of its 465 students. How many pencils does it need?", "n": 930, "k": "465*2", "e": "Double 465: 400 → 800, 60 → 120, 5 → 10; 800 + 120 + 10 = 930."},
+{"t": "9 boats must carry 108 people, the same number in each boat. How many people go in each boat?", "n": 12, "k": "108//9", "e": "10 in each boat uses 90 people; the other 18 make 2 more each: 10 + 2 = 12."},
+{"t": "A store packs 4 shuttlecocks in a box. It has 50 shuttlecocks. How many boxes are filled completely?", "n": 12, "k": "50//4", "e": "12 × 4 = 48, so 12 boxes are full and 2 shuttlecocks are left over."},
+{"t": "245 children go in 7 buses, the same number in each. How many children are in each bus?", "n": 35, "k": "245//7", "e": "30 in each bus uses 210; the other 35 give 5 more each: 30 + 5 = 35."},
+{"t": "25 geese and 12 sheep stand by a pond. How many legs are there?", "n": 98, "k": "25*2+12*4", "e": "Geese: 25 × 2 = 50 legs. Sheep: 12 × 4 = 48 legs. 50 + 48 = 98."},
+{"t": "A rabbit jumps 6 at a time and a kangaroo jumps 8 at a time, both from 0. What is the first number after 0 that both land on?", "n": 24, "k": "min(set(range(6,100,6))&set(range(8,100,8)))", "e": "Rabbit: 6, 12, 18, 24 … Kangaroo: 8, 16, 24 … The first common one is 24."},
+{"t": "259 people go rafting and each raft takes 7 people. How many rafts are needed?", "n": 37, "k": "259//7", "e": "30 rafts take 210 people; the other 49 need 7 more rafts: 30 + 7 = 37."},
+{"t": "‘Multiplying a number by 2 gives an odd number.’ This is:", "o": ["Never true", "Always true", "Sometimes true"], "e": "Multiplying by 2 makes two equal groups, so every item has a partner — the answer is always even."}
+]},
+{"q": [
+{"t": "Anu saves ₹45 every month for 6 months. Then she shares it all equally among 3 friends. How much does each friend get (in ₹)?", "n": 90, "u": "₹", "k": "45*6//3", "e": "She saves 6 × 45 = ₹270, and 270 ÷ 3 = 90."},
+{"t": "A toy train runs 88 km every day. How far does it run in a week?", "n": 616, "u": "km", "k": "88*7", "e": "A week is 7 days: 80 × 7 = 560 and 8 × 7 = 56; 560 + 56 = 616."},
+{"t": "A tray holds 18 cupcakes and Radha bakes 2 trays at a time. She made 108 cupcakes. How many times did she use the oven?", "n": 3, "k": "108//(18*2)", "e": "Each time she bakes 18 + 18 = 36 cupcakes, and 36 + 36 + 36 = 108."},
+{"t": "A cat is on 6 and a rat is on 12. Each turn the cat jumps 3 forward and the rat jumps 2 forward. On which number does the cat catch the rat?", "n": 24, "k": "[6+3*n for n in range(20) if 6+3*n==12+2*n][0]", "e": "The cat gains 1 step each turn and starts 6 behind, so after 6 turns both are on 6 + 18 = 24."},
+{"t": "234 children each give ₹5 for a mela. They spend ₹950. How much money is left (in ₹)?", "n": 220, "u": "₹", "k": "234*5-950", "e": "They collect 234 × 5 = ₹1170 (200 × 5 + 34 × 5), and 1170 − 950 = 220."},
+{"t": "Chippi sees 60 truck tyres (6 on each truck) and 80 car wheels (4 on each car). How many vehicles are there in all?", "n": 30, "k": "60//6+80//4", "e": "60 ÷ 6 = 10 trucks and 80 ÷ 4 = 20 cars, so 30 vehicles."},
+{"t": "465 students each get 2 pencils. Pencils come in packs of 10. How many packs are needed?", "n": 93, "k": "465*2//10", "e": "465 × 2 = 930 pencils, and 930 is 93 Tens."},
+{"t": "What is 94 ÷ 4?", "o": ["23, remainder 2", "22, remainder 6", "24, remainder 0", "23, remainder 0"], "e": "4 × 23 = 92, and 94 − 92 = 2 left over (a remainder must be less than 4)."},
+{"t": "Raju drives an auto and makes 8 trips a day. How many trips does he make in 4 weeks?", "n": 224, "k": "8*7*4", "e": "4 weeks = 28 days, and 28 × 8 = 160 + 64 = 224."},
+{"t": "‘Multiplying a number by 5 gives 5 in the ones place.’ This is:", "o": ["Sometimes true", "Always true", "Never true"], "e": "5 × 3 = 15 ends in 5, but 5 × 4 = 20 ends in 0 — so it is only sometimes true."}
+]}
+]
+}

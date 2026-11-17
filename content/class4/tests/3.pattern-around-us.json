@@ -1,0 +1,53 @@
+{
+"title": "3. Pattern Around Us",
+"tests": [
+{"q": [
+{"t": "Is 14 even or odd?", "o": ["Even", "Odd"], "e": "14 things can be put into 7 pairs with none left over, so 14 is even."},
+{"t": "Is 27 even or odd?", "o": ["Odd", "Even"], "e": "Pairing 27 things leaves 1 left over, so 27 is odd."},
+{"t": "Gundappa has 4 rows of coconut trees with 5 trees in each row. How many trees are there?", "n": 20, "k": "4*5", "e": "4 equal rows of 5: 5 + 5 + 5 + 5 = 20."},
+{"t": "How much money is 3 notes of ₹10 and 2 coins of ₹5 (in ₹)?", "n": 40, "u": "₹", "k": "3*10+2*5", "e": "₹30 from the notes and ₹10 from the coins."},
+{"t": "Which of these numbers is even?", "o": ["36", "41", "53", "19"], "e": "A number is even when its ones digit is 0, 2, 4, 6 or 8 — 36 ends in 6."},
+{"t": "The number just after an odd number is always:", "o": ["Even", "Odd", "Zero", "A hundred"], "e": "Odd means one left over without a partner; adding 1 gives that one a partner, so the next number is even."},
+{"t": "There are 6 coconut trees and 5 coconuts are plucked from each. How many coconuts in all?", "n": 30, "k": "6*5", "e": "6 groups of 5: 5, 10, 15, 20, 25, 30."},
+{"t": "How many even numbers are there from 1 to 10?", "n": 5, "k": "len([x for x in range(1,11) if x%2==0])", "e": "They are 2, 4, 6, 8 and 10 — every second number."},
+{"t": "How many pairs can you make from 12 socks?", "n": 6, "k": "12//2", "e": "Each pair uses 2 socks, and 12 is 6 twos."},
+{"t": "A number has 8 in its ones place. The number is:", "o": ["Even", "Odd"], "e": "Only the ones digit decides even or odd, because tens, hundreds and so on always pair up fully."}
+]},
+{"q": [
+{"t": "Which of these numbers is odd?", "o": ["415", "300", "78", "154"], "e": "415 ends in 5, an odd digit, so one is left over after pairing."},
+{"t": "How many even numbers are there between 20 and 30 (not counting 20 and 30)?", "n": 4, "k": "len([x for x in range(21,30) if x%2==0])", "e": "They are 22, 24, 26 and 28."},
+{"t": "There are 3 trays. Each tray has 4 rows of 3 laddoos. How many laddoos in all?", "n": 36, "k": "3*4*3", "e": "One tray has 4 × 3 = 12 laddoos, and 3 trays have 12 + 12 + 12 = 36."},
+{"t": "How much is 2 notes of ₹50, 3 notes of ₹10 and 4 coins of ₹2 (in ₹)?", "n": 138, "u": "₹", "k": "2*50+3*10+4*2", "e": "₹100 + ₹30 + ₹8 = ₹138."},
+{"t": "Using the digits 1 and 6 once each, which 2-digit number is even?", "o": ["16", "61", "Both 16 and 61", "Neither"], "e": "16 ends in 6 (even); 61 ends in 1 (odd)."},
+{"t": "How many odd numbers are there from 1 to 100?", "n": 50, "k": "len([x for x in range(1,101) if x%2])", "e": "Numbers go odd, even, odd, even…, so half of the 100 numbers are odd."},
+{"t": "23 children try to stand in pairs. How many children are left without a partner?", "n": 1, "k": "23%2", "e": "23 is odd: 11 pairs use 22 children and 1 is left over."},
+{"t": "Coins placed in 2 equal rows always make:", "o": ["An even number", "An odd number", "A number ending in 5", "Exactly 10"], "e": "Two equal rows means every coin in one row has a partner in the other — that is what even means."},
+{"t": "How much is 5 notes of ₹20 and 5 coins of ₹5 (in ₹)?", "n": 125, "u": "₹", "k": "5*20+5*5", "e": "₹100 from the notes and ₹25 from the coins."},
+{"t": "The ones digit of an even number can be:", "o": ["0, 2, 4, 6 or 8", "1, 3, 5, 7 or 9", "Only 0", "Any digit"], "e": "Tens and hundreds always pair up, so only the ones digit decides — and 0, 2, 4, 6, 8 pair up."}
+]},
+{"q": [
+{"t": "7 + 9 is:", "o": ["Even", "Odd"], "e": "Each odd number has one left over; the two left-overs pair with each other, so the total is even (16)."},
+{"t": "12 + 5 is:", "o": ["Odd", "Even"], "e": "12 pairs up fully and 5 has one left over, so the total still has one left over (17)."},
+{"t": "You add any three odd numbers. The answer is always:", "o": ["Odd", "Even", "Sometimes odd, sometimes even", "Zero"], "e": "Two of the left-over ones pair up, but the third is left alone — so the total is odd."},
+{"t": "From 1 to 100, are there more even numbers or more odd numbers?", "o": ["Equal — 50 each", "More even numbers", "More odd numbers", "We cannot tell"], "e": "Odd and even take turns: 1 odd, 2 even, 3 odd … 100 even, so they split 50 and 50."},
+{"t": "Write the 10 numbers from 20 to 29. How many of them are odd?", "n": 5, "k": "len([x for x in range(20,30) if x%2])", "e": "Ten numbers in a row take turns even, odd, even, odd…, so 5 are odd: 21, 23, 25, 27, 29."},
+{"t": "A shop has 4 shelves. Each shelf has 6 rows with 5 cups in each row. How many cups in all?", "n": 120, "k": "4*6*5", "e": "One shelf has 6 × 5 = 30 cups, and 4 shelves have 30 + 30 + 30 + 30 = 120."},
+{"t": "What is the smallest 3-digit odd number?", "n": 101, "k": "101", "e": "The smallest 3-digit number is 100, which is even, so the next one, 101, is the smallest odd one."},
+{"t": "What is the largest 2-digit even number?", "n": 98, "k": "98", "e": "The largest 2-digit number is 99, which is odd, so step back one to 98."},
+{"t": "35 coins are put into pairs. How many full pairs are made?", "n": 17, "k": "35//2", "e": "17 pairs use 34 coins; 1 coin is left over because 35 is odd."},
+{"t": "Using only ₹10, ₹5, ₹2 and ₹1 coins, what is the fewest number of coins that make ₹36?", "n": 5, "k": "3+1+1", "e": "Use the biggest coins first: three ₹10 (₹30), one ₹5 (₹35), one ₹1 (₹36) — 5 coins."}
+]},
+{"q": [
+{"t": "Gundappa has 6 rows of 8 coconut trees. He plucks 5 coconuts from each tree. How many coconuts does he pluck?", "n": 240, "k": "6*8*5", "e": "There are 6 × 8 = 48 trees, and 48 groups of 5 coconuts make 240."},
+{"t": "4 trays are stacked. Each tray has 3 rows of 4 laddoos and 2 rows of 4 pedas. How many sweets in all?", "n": 80, "k": "4*(3*4+2*4)", "e": "One tray has 12 laddoos + 8 pedas = 20 sweets, and 4 trays have 80."},
+{"t": "Using two different digits from 3, 4 and 7, how many even 2-digit numbers can you make?", "n": 2, "k": "len([a*10+b for a in (3,4,7) for b in (3,4,7) if a!=b and b%2==0])", "e": "An even number must end in 4, so the numbers are 34 and 74."},
+{"t": "Using the digits 2, 5 and 8 once each, how many 3-digit odd numbers can you make?", "n": 2, "k": "2", "e": "An odd number must end in 5; the other two digits can go 2-8 or 8-2: 285 and 825."},
+{"t": "Add all the numbers from 1 to 10. Is the total even or odd?", "o": ["Odd", "Even"], "e": "The even numbers pair up fully; the five odd numbers each have one left over, and five left-overs make two pairs plus one alone — so the total (55) is odd."},
+{"t": "Take any odd number, add 1 to it, and then double the answer. The result is:", "o": ["Always even", "Always odd", "Sometimes even, sometimes odd", "Always 10"], "e": "Doubling makes two equal groups, so every item has a partner — any doubled number is even."},
+{"t": "Shirley’s book has pages numbered 1 to 48. How many pages have odd numbers?", "n": 24, "k": "len([x for x in range(1,49) if x%2])", "e": "Odd and even pages take turns, so half of 48 pages are odd: 24."},
+{"t": "Shiv has 47 coins and Shirley has 52 coins. They put all their coins together into pairs. How many full pairs do they make?", "n": 49, "k": "(47+52)//2", "e": "Together they have 99 coins; 49 pairs use 98 and 1 is left over."},
+{"t": "Ramesh has 3 stacks of 10 coins of ₹5 and 4 more coins of ₹2. How much money does he have (in ₹)?", "n": 158, "u": "₹", "k": "3*10*5+4*2", "e": "30 coins of ₹5 make ₹150, and 4 coins of ₹2 add ₹8."},
+{"t": "Make ₹125 using only ₹10 and ₹5 coins, with as many ₹10 coins as possible. How many coins do you use in all?", "n": 13, "k": "12+1", "e": "12 coins of ₹10 make ₹120; one ₹5 coin makes the last ₹5 — 13 coins."}
+]}
+]
+}

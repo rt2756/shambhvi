@@ -1,0 +1,53 @@
+{
+"title": "7. The Cleanest Village",
+"tests": [
+{"q": [
+{"t": "24 teachers from one school and 28 from another go on a trip. How many teachers in all?", "n": 52, "k": "24+28", "e": "4 + 8 = 12 Ones = 1 Ten 2 Ones; regroup the Ten: 2 + 2 + 1 = 5 Tens. So 52."},
+{"t": "Find 438 + 476.", "n": 914, "k": "438+476", "e": "8 + 6 = 14 (write 4, regroup 1 Ten); 3 + 7 + 1 = 11 Tens (write 1, regroup 1 Hundred); 4 + 4 + 1 = 9."},
+{"t": "Find 83 − 46.", "n": 37, "k": "83-46", "e": "3 Ones is not enough to take 6, so break 1 Ten into 10 Ones: 13 − 6 = 7, then 7 − 4 = 3 Tens."},
+{"t": "Find 438 − 215.", "n": 223, "k": "438-215", "e": "Take away place by place: 8 − 5 = 3, 3 − 1 = 2, 4 − 2 = 2."},
+{"t": "An item costs ₹113. You pay ₹150. What balance do you get back (in ₹)?", "n": 37, "u": "₹", "k": "150-113", "e": "Balance = paid − cost: count up from 113 to 120 (7) and on to 150 (30): 37."},
+{"t": "Find 38 + 16.", "n": 54, "k": "38+16", "e": "8 + 6 = 14 Ones = 1 Ten 4 Ones; 3 + 1 + 1 = 5 Tens."},
+{"t": "Daisy and Lou had ₹185 and got ₹125 more. How much do they have now (in ₹)?", "n": 310, "u": "₹", "k": "185+125", "e": "5 + 5 = 10 Ones → 1 Ten; 8 + 2 + 1 = 11 Tens → 1 Hundred 1 Ten; 1 + 1 + 1 = 3 Hundreds."},
+{"t": "Find 310 − 179.", "n": 131, "k": "310-179", "e": "Regroup a Hundred into Tens and a Ten into Ones, then take away: 10 − 9 = 1, 10 − 7 = 3, 2 − 1 = 1."},
+{"t": "10 Ones can be regrouped as:", "o": ["1 Ten", "1 Hundred", "10 Tens", "1 Thousand"], "e": "Ten single ones bundled together make one Ten."},
+{"t": "Onions cost ₹32 for 1 kg. How much do 2 kg cost (in ₹)?", "n": 64, "u": "₹", "k": "32+32", "e": "2 kg costs the price of 1 kg twice: 32 + 32."}
+]},
+{"q": [
+{"t": "Cost ₹185, paid ₹200. What is the balance (in ₹)?", "n": 15, "u": "₹", "k": "200-185", "e": "Count up from 185 to 200: 5 to reach 190 and 10 more to reach 200."},
+{"t": "Cost ₹435, paid ₹500. What is the balance (in ₹)?", "n": 65, "u": "₹", "k": "500-435", "e": "435 → 440 is 5, and 440 → 500 is 60: 5 + 60 = 65."},
+{"t": "Cost ₹149, paid ₹500. What is the balance (in ₹)?", "n": 351, "u": "₹", "k": "500-149", "e": "149 → 150 is 1, and 150 → 500 is 350: 1 + 350 = 351."},
+{"t": "Find 654 + 95.", "n": 749, "k": "654+95", "e": "4 + 5 = 9; 5 + 9 = 14 Tens → 1 Hundred 4 Tens; 6 + 1 = 7 Hundreds."},
+{"t": "Find 900 − 328.", "n": 572, "k": "900-328", "e": "Easy way: 900 − 300 = 600, then 600 − 28 = 572."},
+{"t": "Find 803 − 350.", "n": 453, "k": "803-350", "e": "803 − 300 = 503, and 503 − 50 = 453."},
+{"t": "Preeti’s school has 423 children. It has 178 fewer than her cousin’s school. How many children are in the cousin’s school?", "n": 601, "k": "423+178", "e": "The cousin’s school is the bigger one, so add the 178 back: 423 + 178."},
+{"t": "1 kg of custard apple costs ₹45 and 1 kg of sapota costs ₹70. What is the total (in ₹)?", "n": 115, "u": "₹", "k": "45+70", "e": "45 + 70: 7 Tens + 4 Tens = 11 Tens, plus 5 Ones."},
+{"t": "Find 410 − 12 the quick way.", "n": 398, "k": "410-12", "e": "410 − 10 = 400, and 2 less than 400 is 398."},
+{"t": "Find 811 + 99 the quick way.", "n": 910, "k": "811+99", "e": "Adding 99 is adding 100 and taking back 1: 911 − 1 = 910."}
+]},
+{"q": [
+{"t": "Oranges cost ₹21 each. Krishna buys 2 and pays with a ₹50 note. What balance does he get (in ₹)?", "n": 8, "u": "₹", "k": "50-2*21", "e": "2 oranges cost 21 + 21 = ₹42, and 50 − 42 = 8."},
+{"t": "Sudama buys 2 oranges at ₹21 each and pays with a ₹100 note. What balance does he get (in ₹)?", "n": 58, "u": "₹", "k": "100-2*21", "e": "Cost is ₹42; 100 − 42 = 58."},
+{"t": "Estimate 438 + 476 by rounding each to the nearest hundred.", "o": ["About 900", "About 800", "About 1000", "About 700"], "e": "438 is about 400 and 476 is about 500; 400 + 500 = 900 (the exact answer, 914, is close)."},
+{"t": "Ram Chacha got 264 mangoes last year and 527 this year. How many more did he get this year?", "n": 263, "k": "527-264", "e": "‘How many more’ compares two amounts, so subtract: 527 − 264."},
+{"t": "Ranganna made 639 dolls and sold 531. How many dolls are left?", "n": 108, "k": "639-531", "e": "Take away what was sold: 639 − 531."},
+{"t": "Rami read a book of 236 pages. Kesu read three books of 96, 30 and 90 pages. Who read more, and by how many pages?", "o": ["Rami, by 20 pages", "Kesu, by 20 pages", "Rami, by 30 pages", "They read the same"], "e": "Kesu read 96 + 30 + 90 = 216 pages; 236 − 216 = 20, so Rami read 20 more."},
+{"t": "A book has 128 pages. Sumi has read 23. How many pages are left?", "n": 105, "k": "128-23", "e": "Pages left = total − pages read."},
+{"t": "Find 945 − 19 the quick way.", "n": 926, "k": "945-19", "e": "Take away 20 and give 1 back: 925 + 1 = 926."},
+{"t": "You paid ₹200 and got ₹75 back. What did the item cost (in ₹)?", "n": 125, "u": "₹", "k": "200-75", "e": "Cost + balance = amount paid, so cost = 200 − 75."},
+{"t": "An item cost ₹580 and the balance returned was ₹120. How much was paid (in ₹)?", "n": 700, "u": "₹", "k": "580+120", "e": "The money paid covers the cost and the balance: 580 + 120."}
+]},
+{"q": [
+{"t": "A bus leaves with 46 people. At the first stop 18 get off and 25 get on. At the second stop 30 get off. How many are on the bus now?", "n": 23, "k": "46-18+25-30", "e": "46 − 18 = 28; 28 + 25 = 53; 53 − 30 = 23."},
+{"t": "Books have 145, 210, 64 and 88 pages. Asha has finished the 145-page and 64-page books and 30 pages of the 210-page book. How many pages are left to read?", "n": 268, "k": "(145+210+64+88)-(145+64+30)", "e": "All books have 507 pages; she has read 145 + 64 + 30 = 239; 507 − 239 = 268."},
+{"t": "Beans cost ₹40 a kg and potatoes ₹37 a kg. Mother buys 2 kg of beans and 1 kg of potatoes and pays ₹200. What balance does she get (in ₹)?", "n": 83, "u": "₹", "k": "200-(40+40+37)", "e": "Cost = 40 + 40 + 37 = ₹117, and 200 − 117 = 83."},
+{"t": "A dance school has 86 boys and 79 girls. 27 more girls join and 12 boys leave. How many children are there now?", "n": 180, "k": "(86-12)+(79+27)", "e": "Boys: 86 − 12 = 74. Girls: 79 + 27 = 106. Total: 74 + 106 = 180."},
+{"t": "Two numbers add up to 856. One of them is 479. What is the other?", "n": 377, "k": "856-479", "e": "If 479 + ? = 856, then ? = 856 − 479."},
+{"t": "Lou has ₹245 in his piggy bank. He gets ₹180 more and then spends ₹268. How much is left (in ₹)?", "n": 157, "u": "₹", "k": "245+180-268", "e": "245 + 180 = 425, and 425 − 268 = 157."},
+{"t": "Mala buys 2 oranges at ₹21 each and pays with a ₹200 note. What balance does she get (in ₹)?", "n": 158, "u": "₹", "k": "200-2*21", "e": "Cost is 21 + 21 = ₹42; 200 − 42 = 158."},
+{"t": "Books have 179, 236, 30 and 96 pages. What is the difference between the thickest and the thinnest book (in pages)?", "n": 206, "k": "236-30", "e": "The thickest has 236 pages and the thinnest 30, and 236 − 30 = 206."},
+{"t": "One school sends 438 children and 24 teachers; another sends 476 children and 28 teachers. How many people go in all?", "n": 966, "k": "438+24+476+28", "e": "Children: 438 + 476 = 914. Teachers: 24 + 28 = 52. Total: 914 + 52 = 966."},
+{"t": "In 3_6 + 248 = 604, what is the missing digit?", "n": 5, "k": "(604-248-306)//10", "e": "604 − 248 = 356, so the missing tens digit is 5."}
+]}
+]
+}

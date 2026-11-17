@@ -1,0 +1,53 @@
+{
+"title": "10. Elephants, Tigers, and Leopards",
+"tests": [
+{"q": [
+{"t": "Karnataka has 6049 elephants and Kerala has 3054. How many in both states?", "n": 9103, "k": "6049+3054", "e": "9 + 4 = 13 Ones → 1 Ten 3 Ones; 4 + 5 + 1 = 10 Tens → 1 Hundred 0 Tens; 0 + 0 + 1 = 1 Hundred; 6 + 3 = 9 Thousands."},
+{"t": "Find 5719 − 3965.", "n": 1754, "k": "5719-3965", "e": "Regroup where a digit is too small: 9 − 5 = 4; 11 − 6 = 5; 16 − 9 = 7; 4 − 3 = 1."},
+{"t": "Find 1459 + 476.", "n": 1935, "k": "1459+476", "e": "9 + 6 = 15 (write 5, regroup 1); 5 + 7 + 1 = 13 (write 3, regroup 1); 4 + 4 + 1 = 9; then 1."},
+{"t": "Find 5000 − 4124.", "n": 876, "k": "5000-4124", "e": "Count up: 4124 → 4200 is 76, and 4200 → 5000 is 800: 876."},
+{"t": "10 Hundreds can be regrouped as:", "o": ["1 Thousand", "1 Ten", "100 Tens", "10 Thousands"], "e": "Ten bundles of a hundred make one thousand."},
+{"t": "Find 2540 + 50.", "n": 2590, "k": "2540+50", "e": "Adding 5 Tens to 4 Tens gives 9 Tens; nothing else changes."},
+{"t": "Find 354 + 1000.", "n": 1354, "k": "354+1000", "e": "Adding a thousand just puts 1 in the Thousands place."},
+{"t": "In the NIM game you add 1 or 2 each turn, and whoever reaches 10 first wins. The other player has reached 8. Can you win on your turn?", "o": ["Yes — add 2", "No — you cannot reach 10", "Yes — add 1", "Only if you add 3"], "e": "8 + 2 = 10, so you reach the target at once."},
+{"t": "Take 27, reverse its digits to get 72, and add. What is the sum?", "n": 99, "k": "27+72", "e": "27 + 72: 7 + 2 = 9 Ones and 2 + 7 = 9 Tens."},
+{"t": "Find 8787 − 99 the quick way.", "n": 8688, "k": "8787-99", "e": "Subtract 100, then add 1 back: 8687 + 1 = 8688."}
+]},
+{"q": [
+{"t": "Gujarat has 1355 leopards, Karnataka 1131 and Madhya Pradesh 1817. How many in all three?", "n": 4303, "k": "1355+1131+1817", "e": "Ones: 5 + 1 + 7 = 13 (write 3, regroup 1). Tens: 5 + 3 + 1 + 1 = 10 (write 0, regroup 1). Hundreds: 3 + 1 + 8 + 1 = 13 (write 3, regroup 1). Thousands: 1 + 1 + 1 + 1 = 4."},
+{"t": "Maharashtra has 444 tigers. Madhya Pradesh has 341 more. How many tigers does Madhya Pradesh have?", "n": 785, "k": "444+341", "e": "‘341 more’ means add 341 to 444."},
+{"t": "8591 visitors came in December and 6415 in November. How many more came in December?", "n": 2176, "k": "8591-6415", "e": "‘How many more’ compares, so subtract: 8591 − 6415."},
+{"t": "Find 3863 + 4188.", "n": 8051, "k": "3863+4188", "e": "3 + 8 = 11, 6 + 8 + 1 = 15, 8 + 1 + 1 = 10, 3 + 4 + 1 = 8: 8051."},
+{"t": "Find 8006 − 5567.", "n": 2439, "k": "8006-5567", "e": "With zeros, regroup from the Thousands: 8006 becomes 7 Th, 9 H, 9 T, 16 O; then take away."},
+{"t": "Find 4596 + 104 the quick way.", "n": 4700, "k": "4596+104", "e": "4596 + 4 = 4600, and 4600 + 100 = 4700."},
+{"t": "In 2022 there were 8820 leopards, which is 749 more than in 2018. How many were there in 2018?", "n": 8071, "k": "8820-749", "e": "2018 had fewer, so take the increase away: 8820 − 749."},
+{"t": "Without calculating, compare 54 + 97 and 54 + 90.", "o": ["54 + 97 is greater", "54 + 90 is greater", "They are equal"], "e": "Both start with 54, and 97 is more than 90."},
+{"t": "Find 1575 − 125.", "n": 1450, "k": "1575-125", "e": "1575 − 100 = 1475, then − 25 = 1450."},
+{"t": "Take 45, reverse it, and add the two numbers. What do you get?", "n": 99, "k": "45+54", "e": "45 + 54: the ones and tens digits swap places, so each place gets 4 + 5 = 9."}
+]},
+{"q": [
+{"t": "A factory packs 1348 bottles of pineapple juice. Guava juice bottles are 759 more. How many bottles of guava juice?", "n": 2107, "k": "1348+759", "e": "‘759 more than 1348’ means 1348 + 759."},
+{"t": "There are 2107 bottles of guava juice. Orange juice is 1257 more than guava. How many bottles of orange juice?", "n": 3364, "k": "2107+1257", "e": "2107 + 1257: 7 + 7 = 14, 0 + 5 + 1 = 6, 1 + 2 = 3, 2 + 1 = 3."},
+{"t": "A town has 6304 jeeps. Buses are 253 more than jeeps. How many buses?", "n": 6557, "k": "6304+253", "e": "Add the extra 253 to 6304."},
+{"t": "A town has 6557 buses. Tractors are 5247 fewer than buses. How many tractors?", "n": 1310, "k": "6557-5247", "e": "‘Fewer’ means take away: 6557 − 5247."},
+{"t": "You know 139 + 175 = 314. So what is 314 − 175?", "n": 139, "k": "314-175", "e": "Subtraction undoes addition: taking 175 back out of 314 leaves 139."},
+{"t": "You know 845 − 394 = 451. So what is 845 − 395?", "n": 450, "k": "845-395", "e": "Taking away 1 more leaves 1 less: 451 − 1."},
+{"t": "Find 3999 + 290 the quick way.", "n": 4289, "k": "3999+290", "e": "3999 is 1 less than 4000: 4000 + 290 = 4290, then take back 1."},
+{"t": "In NIM (add 1 or 2 each turn, first to 10 wins), which total should you reach to be sure of winning?", "o": ["7", "6", "8", "9"], "e": "From 7 the other player can only reach 8 or 9, and then you add 2 or 1 to make 10."},
+{"t": "Which number gives 55 when added to its reverse?", "o": ["23", "35", "45", "52"], "e": "23 + 32 = 55. (35 + 53 = 88, 45 + 54 = 99, 52 + 25 = 77.)"},
+{"t": "Find 5203 − 2745.", "n": 2458, "k": "5203-2745", "e": "Regroup across the 0: 5203 = 4 Th, 11 H, 9 T, 13 O; then 13 − 5 = 8, 9 − 4 = 5, 11 − 7 = 4, 4 − 2 = 2."}
+]},
+{"q": [
+{"t": "December had 8591 park visitors and November had 6415. November had 1587 more than October. How many visitors came in October?", "n": 4828, "k": "6415-1587", "e": "October had fewer than November, so 6415 − 1587. (December’s number is not needed.)"},
+{"t": "State A has 512 tigers. State B has 238 more than A. State C has 129 fewer than B. How many tigers in all three states?", "n": 1883, "k": "512+(512+238)+(512+238-129)", "e": "B = 512 + 238 = 750; C = 750 − 129 = 621; total = 512 + 750 + 621 = 1883."},
+{"t": "A factory makes 2345 bottles of mango juice, 1876 of lemon and 3950 of berry. By how many bottles is mango + lemon more than berry?", "n": 271, "k": "2345+1876-3950", "e": "Mango + lemon = 4221, and 4221 − 3950 = 271."},
+{"t": "Rani deposits ₹3578 using as many ₹500 notes as possible, then ₹50, ₹10, ₹5, ₹2 and ₹1 (no ₹100 notes needed). How many notes and coins does she use in all?", "n": 13, "k": "7+1+2+1+1+1", "e": "7 × ₹500 = ₹3500; the ₹78 left is ₹50 + ₹10 + ₹10 + ₹5 + ₹2 + ₹1. That is 7 + 6 = 13 pieces."},
+{"t": "I think of a number and add 1250. I get 5000. What was my number?", "n": 3750, "k": "5000-1250", "e": "Undo the adding: 5000 − 1250 = 3750."},
+{"t": "A park had 2865 deer last year and 3412 this year. How many more deer are there this year?", "n": 547, "k": "3412-2865", "e": "Count up: 2865 → 2900 is 35, 2900 → 3400 is 500, 3400 → 3412 is 12: 547."},
+{"t": "A town has 4520 cars. Scooters are 1385 more than cars. Cycles are 2760 fewer than scooters. How many cycles?", "n": 3145, "k": "4520+1385-2760", "e": "Scooters = 4520 + 1385 = 5905; cycles = 5905 − 2760 = 3145."},
+{"t": "Find 4990 + 310 without the column method.", "n": 5300, "k": "4990+310", "e": "Move 10 across: 4990 + 10 = 5000, and 300 is left to add: 5300."},
+{"t": "A 2-digit number is added to its reverse. What is the smallest 3-digit sum you can get?", "n": 110, "k": "min(s for s in (10*a+b+10*b+a for a in range(1,10) for b in range(10)) if s>=100)", "e": "Each such sum is (sum of the two digits) × 11. The digits must add to at least 10 for 3 digits, so the smallest is 10 × 11 = 110 (like 19 + 91)."},
+{"t": "Three children collect ₹1865, ₹2790 and ₹1470 for a mela. They need ₹7500. How much more do they need (in ₹)?", "n": 1375, "u": "₹", "k": "7500-(1865+2790+1470)", "e": "Together they have 1865 + 2790 + 1470 = ₹6125, and 7500 − 6125 = 1375."}
+]}
+]
+}

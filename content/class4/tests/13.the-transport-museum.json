@@ -1,0 +1,53 @@
+{
+"title": "13. The Transport Museum",
+"tests": [
+{"q": [
+{"t": "Find 14 × 10.", "n": 140, "k": "14*10", "e": "14 × 10 is 14 Tens = 10 Tens + 4 Tens = 100 + 40."},
+{"t": "Find 8 × 10.", "n": 80, "k": "8*10", "e": "8 groups of ten is 8 Tens."},
+{"t": "Find 5 × 15.", "n": 75, "k": "5*15", "e": "Split 15 into 10 and 5: 5 × 10 = 50 and 5 × 5 = 25; 50 + 25 = 75."},
+{"t": "Find 3 × 14.", "n": 42, "k": "3*14", "e": "Split 14 into two 7s: 3 × 7 = 21, and double 21 is 42."},
+{"t": "A tempo traveller seats 10 people. How many people can 26 tempo travellers seat?", "n": 260, "k": "26*10", "e": "26 × 10 = 26 Tens = 20 Tens + 6 Tens = 260."},
+{"t": "A small bus seats 20 people. How many people can 12 buses seat?", "n": 240, "k": "12*20", "e": "12 × 20 = 12 × 2 Tens = 24 Tens = 240."},
+{"t": "Find 11 × 100.", "n": 1100, "k": "11*100", "e": "11 Hundreds = 10 Hundreds + 1 Hundred = 1000 + 100."},
+{"t": "A farmer has 60 kg of rice and packs 10 kg in each sack. How many sacks?", "n": 6, "k": "60//10", "e": "60 is 6 Tens, so it fills 6 sacks of 10."},
+{"t": "A farmer packs 600 kg of rice in sacks of 100 kg. How many sacks?", "n": 6, "k": "600//100", "e": "600 is 6 Hundreds."},
+{"t": "Find 10 × 100.", "n": 1000, "k": "10*100", "e": "10 Hundreds make 1 Thousand."}
+]},
+{"q": [
+{"t": "Each toy-train coach seats 14 children and there are 15 coaches. How many children can sit?", "n": 210, "k": "15*14", "e": "Split both: 10 × 10 = 100, 10 × 4 = 40, 5 × 10 = 50, 5 × 4 = 20; 100 + 40 + 50 + 20 = 210."},
+{"t": "Find 24 × 40.", "n": 960, "k": "24*40", "e": "24 × 4 = 96, so 24 × 40 is 96 Tens = 960."},
+{"t": "Find 13 × 30.", "n": 390, "k": "13*30", "e": "13 × 3 = 39, so 13 × 30 = 39 Tens = 390."},
+{"t": "Find 70 × 80.", "n": 5600, "k": "70*80", "e": "7 × 8 = 56; 70 × 80 is 56 Tens of Tens, which is 56 Hundreds = 5600."},
+{"t": "Find 11 × 200.", "n": 2200, "k": "11*200", "e": "11 × 2 Hundreds = 22 Hundreds = 2200."},
+{"t": "Find 7 × 500.", "n": 3500, "k": "7*500", "e": "7 × 5 = 35, so 7 × 500 is 35 Hundreds."},
+{"t": "Manku the monkey sees 870 bananas in bunches of 10. How many bunches?", "n": 87, "k": "870//10", "e": "870 is 87 Tens, so there are 87 bunches of ten."},
+{"t": "Rukhma Bi shares ₹1000 equally among 10 grandchildren. How much does each get (in ₹)?", "n": 100, "u": "₹", "k": "1000//10", "e": "1000 is 10 Hundreds, so each of the 10 gets 1 Hundred."},
+{"t": "Find 9 × 15.", "n": 135, "k": "9*15", "e": "9 × 10 = 90 and 9 × 5 = 45; 90 + 45 = 135."},
+{"t": "Find 6 × 14.", "n": 84, "k": "6*14", "e": "6 × 7 = 42, and 14 is double 7, so 6 × 14 is double 42 = 84."}
+]},
+{"q": [
+{"t": "Each coach seats 14 children. How many coaches are needed so that all 324 children get a seat?", "n": 24, "k": "324//14+1", "e": "23 coaches seat 322 children (14 × 23), leaving a remainder of 2, so one more coach is needed: 24."},
+{"t": "960 people row snake boats, 64 in each boat. How many boats?", "n": 15, "k": "960//64", "e": "10 boats take 640 people; the other 320 fill 5 more boats (64 × 5 = 320): 15."},
+{"t": "64 flights each carried 152 people. How many people flew?", "n": 9728, "k": "64*152", "e": "Split: 60 × 152 = 9120 and 4 × 152 = 608; 9120 + 608 = 9728."},
+{"t": "Find 25 × 34.", "n": 850, "k": "25*34", "e": "20 × 34 = 680 and 5 × 34 = 170; 680 + 170 = 850."},
+{"t": "What is 125 ÷ 15?", "o": ["8, remainder 5", "8, remainder 0", "7, remainder 20", "9, remainder 5"], "e": "15 × 8 = 120 and 125 − 120 = 5, which is less than 15, so 5 is the remainder."},
+{"t": "Find 68 × 12.", "n": 816, "k": "68*12", "e": "68 × 10 = 680 and 68 × 2 = 136; 680 + 136 = 816."},
+{"t": "Find 440 ÷ 22.", "n": 20, "k": "440//22", "e": "22 × 10 = 220, and double that is 440, so 440 ÷ 22 = 20."},
+{"t": "Find 18 × 15.", "n": 270, "k": "18*15", "e": "18 × 10 = 180 and 18 × 5 = 90; 180 + 90 = 270."},
+{"t": "Find 43 × 60.", "n": 2580, "k": "43*60", "e": "43 × 6 = 258, so 43 × 60 is 258 Tens = 2580."},
+{"t": "Find 14 × 500.", "n": 7000, "k": "14*500", "e": "14 × 5 = 70, so 14 × 500 = 70 Hundreds = 7000."}
+]},
+{"q": [
+{"t": "34 children and 4 teachers ride a bus where 2 people share each seat. How many seats do they need?", "n": 19, "k": "(34+4)//2", "e": "There are 34 + 4 = 38 people, and 38 ÷ 2 = 19 seats."},
+{"t": "Museum tickets cost ₹245 for a child and ₹480 for an adult. What do 12 children and 3 adults pay in all (in ₹)?", "n": 4380, "u": "₹", "k": "12*245+3*480", "e": "Children: 12 × 245 = 2940. Adults: 3 × 480 = 1440. Total: 2940 + 1440 = 4380."},
+{"t": "A brick kiln makes 115 bricks a day for 30 days. Each brick is sold for ₹2. How much money is that (in ₹)?", "n": 6900, "u": "₹", "k": "115*30*2", "e": "115 × 30 = 3450 bricks, and 3450 × 2 = ₹6900."},
+{"t": "A trip for 8 people: each bus ticket costs ₹60 and the boat ride costs ₹1200 for the whole group. How much does each person spend (in ₹)?", "n": 210, "u": "₹", "k": "60+1200//8", "e": "The boat costs 1200 ÷ 8 = ₹150 per person, plus their own ₹60 bus ticket: 210."},
+{"t": "A ticket costs ₹750. Bujji pays only with ₹200 notes. How much change does he get (in ₹)?", "n": 50, "u": "₹", "k": "4*200-750", "e": "3 notes make only ₹600, so he needs 4 notes = ₹800; 800 − 750 = 50."},
+{"t": "A ticket costs ₹750. Chinnu pays only with ₹5 coins. How many coins does he need?", "n": 150, "k": "750//5", "e": "₹10 needs 2 coins of ₹5, and 750 is 75 Tens, so 75 × 2 = 150 coins."},
+{"t": "A train has 24 coaches and each coach carries 72 passengers. How many passengers can travel?", "n": 1728, "k": "24*72", "e": "20 × 72 = 1440 and 4 × 72 = 288; 1440 + 288 = 1728."},
+{"t": "How many full groups of 9 can be made from 974?", "n": 108, "k": "974//9", "e": "9 × 100 = 900 and 9 × 8 = 72, so 108 groups use 972, leaving 2."},
+{"t": "900 people want to row snake boats, and each boat needs exactly 64 rowers. After filling as many boats as possible, how many people are left over?", "n": 4, "k": "900%64", "e": "14 boats take 64 × 14 = 896 people, and 900 − 896 = 4 are left."},
+{"t": "A school sends 18 buses with 45 children in each and 6 vans with 30 children in each. How many children go in all?", "n": 990, "k": "18*45+6*30", "e": "Buses: 18 × 45 = 810. Vans: 6 × 30 = 180. Total: 810 + 180 = 990."}
+]}
+]
+}

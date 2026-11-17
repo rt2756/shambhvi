@@ -1,0 +1,53 @@
+{
+"title": "12. Ticking Clocks and Turning Calendar",
+"tests": [
+{"q": [
+{"t": "How many days does a leap year have?", "n": 366, "u": "days", "k": "365+1", "e": "A leap year has one extra day, 29 February, added to the usual 365."},
+{"t": "How many days are there in February 2025?", "n": 28, "u": "days", "k": "28", "e": "2025 is not a leap year, so February has its usual 28 days."},
+{"t": "How many days are there in February 2024?", "n": 29, "u": "days", "k": "29", "e": "2024 is a leap year, so February gets the extra day, 29 February."},
+{"t": "How many hours are there in one day?", "n": 24, "u": "hours", "k": "12+12", "e": "12 hours from midnight to noon and 12 more from noon to midnight."},
+{"t": "1 hour = how many minutes?", "n": 60, "u": "minutes", "k": "60", "e": "The minute hand goes all the way round the clock once — past 60 small marks — in 1 hour."},
+{"t": "Half an hour = how many minutes?", "n": 30, "u": "minutes", "k": "60//2", "e": "Half of 60 minutes is 30."},
+{"t": "A quarter of an hour = how many minutes?", "n": 15, "u": "minutes", "k": "60//4", "e": "Split 60 minutes into 4 equal parts: 15 each."},
+{"t": "How is 1:00 PM written on a 24-hour digital clock?", "o": ["13:00", "01:00", "11:00", "10:00"], "e": "After 12 noon the 24-hour clock keeps counting: 12 + 1 = 13."},
+{"t": "In DD/MM/YYYY form, what date is 04/07/2024?", "o": ["4 July 2024", "7 April 2024", "4 April 2024", "7 July 2024"], "e": "DD comes first (day 04), then MM (month 07 = July), then the year."},
+{"t": "1 July is a Monday. What is the date of the next Monday?", "o": ["8 July", "7 July", "2 July", "15 July"], "e": "A week has 7 days, so the same day comes again 7 dates later: 1 + 7 = 8."}
+]},
+{"q": [
+{"t": "Which is the next leap year after 2024?", "n": 2028, "k": "2024+4", "e": "Leap years come every 4 years: 2024 + 4."},
+{"t": "Which leap year came just before 2024?", "n": 2020, "k": "2024-4", "e": "Go back 4 years: 2024 − 4."},
+{"t": "How is 3:00 PM written on a 24-hour clock?", "o": ["15:00", "03:00", "13:00", "16:00"], "e": "Add 12 to afternoon hours: 3 + 12 = 15."},
+{"t": "What is 20:00 hours in AM/PM time?", "o": ["8:00 PM", "8:00 AM", "10:00 PM", "2:00 PM"], "e": "20 − 12 = 8, and any hour after 12 is PM."},
+{"t": "Raghav leaves home at 8:20 AM and comes back at 8:35 AM. How many minutes was he away?", "n": 15, "u": "minutes", "k": "35-20", "e": "From 20 minutes past to 35 minutes past is 35 − 20 = 15 minutes."},
+{"t": "Raghav starts his homework at 10:20 AM and takes 25 minutes. When does he finish?", "o": ["10:45 AM", "10:25 AM", "10:55 AM", "11:45 AM"], "e": "20 minutes + 25 minutes = 45 minutes past 10."},
+{"t": "Muneera starts reading at 4:15 PM and reads for 45 minutes. When does she finish?", "o": ["5:00 PM", "4:45 PM", "4:60 PM", "5:15 PM"], "e": "15 + 45 = 60 minutes, which is a full hour, so it becomes 5:00."},
+{"t": "Three quarters of an hour = how many minutes?", "n": 45, "u": "minutes", "k": "3*15", "e": "One quarter is 15 minutes, so three quarters are 15 + 15 + 15."},
+{"t": "15 July is a Monday. Which day is 22 July?", "o": ["Monday", "Tuesday", "Sunday", "Friday"], "e": "22 is 7 days after 15, and every 7 days the same weekday comes back."},
+{"t": "How is 11:45 PM written on a 24-hour clock?", "o": ["23:45", "11:45", "21:45", "13:45"], "e": "It is after noon, so add 12: 11 + 12 = 23."}
+]},
+{"q": [
+{"t": "Laali was born on 04/07/2014 and Chotu on 04/12/2019. How much older is Laali?", "o": ["5 years and 5 months", "5 years", "4 years and 5 months", "5 years and 7 months"], "e": "From 4 July 2014 to 4 July 2019 is 5 years, and from July to December is 5 more months."},
+{"t": "Laali was born on 04/07/2014. On which date does she turn 5?", "o": ["4 July 2019", "7 April 2019", "4 July 2018", "4 December 2019"], "e": "Her birthday is 4 July every year; 2014 + 5 = 2019."},
+{"t": "How is 5:20 PM written on a 24-hour clock?", "o": ["17:20", "05:20", "15:20", "17:00"], "e": "Afternoon: add 12 to the hour, 5 + 12 = 17; the minutes stay 20."},
+{"t": "A class starts at 9:45 AM and ends at 11:10 AM. How many minutes long is it?", "n": 85, "u": "minutes", "k": "15+60+10", "e": "9:45 → 10:00 is 15 min, 10:00 → 11:00 is 60 min, 11:00 → 11:10 is 10 min: 85."},
+{"t": "How many hours are there from 6 o’clock in the morning to 6 o’clock in the evening?", "n": 12, "u": "hours", "k": "12", "e": "6 AM → 12 noon is 6 hours, and noon → 6 PM is 6 more."},
+{"t": "Today is Wednesday. What is the day after tomorrow?", "o": ["Friday", "Thursday", "Saturday", "Monday"], "e": "Tomorrow is Thursday, and the day after that is Friday."},
+{"t": "2 hours = how many minutes?", "n": 120, "u": "minutes", "k": "2*60", "e": "Each hour is 60 minutes: 60 + 60."},
+{"t": "How many days are there in July and August together?", "n": 62, "u": "days", "k": "31+31", "e": "July has 31 days and so does August."},
+{"t": "15 July is a Monday. July has 31 days. Which day is 15 August?", "o": ["Thursday", "Monday", "Wednesday", "Friday"], "e": "15 July → 15 August is 31 days = 4 weeks + 3 days, so move 3 days on from Monday."},
+{"t": "Parv was born on 29 February 2016. How many times will 29 February come after his birth, up to the end of 2028?", "n": 3, "k": "len([y for y in range(2017,2029) if y%4==0])", "e": "29 February only comes in leap years: 2020, 2024 and 2028."}
+]},
+{"q": [
+{"t": "School assembly ends at 8:15 AM. Then there are 4 periods of 40 minutes each with no break. When does the 4th period end?", "o": ["10:55 AM", "10:15 AM", "12:15 PM", "9:55 AM"], "e": "4 × 40 = 160 minutes = 2 hours 40 minutes; 8:15 + 2 hours = 10:15, + 40 minutes = 10:55."},
+{"t": "A biscuit packet was made on 10 January 2025 and is safe for 6 months. Until which date is it safe?", "o": ["10 July 2025", "10 June 2025", "10 August 2025", "10 January 2026"], "e": "Count 6 months on from January: Feb, Mar, Apr, May, Jun, Jul."},
+{"t": "A train leaves at 21:30 and the journey takes 3 hours 45 minutes. When does it arrive?", "o": ["1:15 AM the next day", "12:75 AM", "11:15 PM", "1:15 PM the next day"], "e": "21:30 + 3 hours = 00:30 (just after midnight), + 45 minutes = 01:15, which is 1:15 AM."},
+{"t": "The doctor sleeps from 10 PM to 5 AM. How many hours does she sleep?", "n": 7, "u": "hours", "k": "2+5", "e": "10 PM → 12 midnight is 2 hours, and midnight → 5 AM is 5 hours."},
+{"t": "A month has 30 days and its 1st is a Sunday. How many Sundays are in that month?", "n": 5, "k": "len(range(1,31,7))", "e": "The Sundays fall on the 1st, 8th, 15th, 22nd and 29th."},
+{"t": "1 January 2025 was a Wednesday. January has 31 days. Which day was 1 February 2025?", "o": ["Saturday", "Wednesday", "Friday", "Sunday"], "e": "31 days = 4 weeks + 3 days, so count 3 days on from Wednesday: Thursday, Friday, Saturday."},
+{"t": "Mini reads for 15 minutes every day for 4 weeks. How many hours does she read in all?", "n": 7, "u": "hours", "k": "15*28//60", "e": "4 weeks = 28 days; 28 × 15 minutes = 420 minutes, and every 60 minutes make an hour: 7 hours."},
+{"t": "Meena was born in 2016. Her brother is 7 years older. How old does her brother turn in 2030?", "n": 21, "u": "years", "k": "2030-(2016-7)", "e": "The brother was born in 2016 − 7 = 2009, and 2030 − 2009 = 21."},
+{"t": "A film starts at 2:45 PM and ends at 5:10 PM. How many minutes long is it?", "n": 145, "u": "minutes", "k": "15+120+10", "e": "2:45 → 3:00 is 15 min, 3:00 → 5:00 is 120 min, 5:00 → 5:10 is 10 min."},
+{"t": "How many leap years are there from 2001 to 2030?", "n": 7, "k": "len([y for y in range(2001,2031) if y%4==0])", "e": "Count every 4th year: 2004, 2008, 2012, 2016, 2020, 2024, 2028."}
+]}
+]
+}

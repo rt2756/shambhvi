@@ -1,0 +1,53 @@
+{
+"title": "1. Shapes Around Us",
+"tests": [
+{"q": [
+{"t": "How many faces does a cube have?", "n": 6, "k": "6", "e": "A cube is like a dice: top, bottom, front, back, left and right — 6 square faces."},
+{"t": "How many corners does a cube have?", "n": 8, "k": "4+4", "e": "4 corners on the top square and 4 on the bottom square make 8."},
+{"t": "How many edges does a cube have?", "n": 12, "k": "4+4+4", "e": "4 edges round the top, 4 round the bottom and 4 standing edges joining them."},
+{"t": "Which shape has one curved face and no edges or corners?", "o": ["Sphere", "Cylinder", "Cone", "Cube"], "e": "A ball (sphere) is curved all over, so there is nowhere for an edge or corner to be."},
+{"t": "An angle smaller than a right angle is called:", "o": ["An acute angle", "An obtuse angle", "A right angle", "A straight angle"], "e": "Acute angles are ‘sharp’ — they fit inside the square corner of a paper."},
+{"t": "The corner of a notebook page makes:", "o": ["A right angle", "An acute angle", "An obtuse angle", "No angle"], "e": "A page corner is a square corner, and a square corner is a right angle."},
+{"t": "A circle has a radius of 4 cm. What is its diameter (in cm)?", "n": 8, "u": "cm", "k": "2*4", "e": "The diameter goes from edge to edge through the centre, so it is two radii: 4 + 4."},
+{"t": "On a dice, which number is on the face opposite 1?", "n": 6, "k": "7-1", "e": "Opposite faces of a dice always add up to 7, and 1 + 6 = 7."},
+{"t": "How many angles does a triangle have?", "n": 3, "k": "3", "e": "A triangle has 3 corners, and each corner makes one angle."},
+{"t": "In every pyramid, the faces that meet at the top point are:", "o": ["Triangles", "Squares", "Circles", "Rectangles"], "e": "Each slanting face of a pyramid narrows to the same top point, so it is a triangle."}
+]},
+{"q": [
+{"t": "How many faces does a triangular prism have?", "n": 5, "k": "2+3", "e": "2 triangle ends + 3 rectangles round the sides = 5 faces."},
+{"t": "How many corners does a square pyramid have?", "n": 5, "k": "4+1", "e": "4 corners on the square base + 1 at the top point."},
+{"t": "How many edges does a triangular prism have?", "n": 9, "k": "3+3+3", "e": "3 edges on each triangle end, plus 3 long edges joining the two ends."},
+{"t": "How many flat faces does a cylinder have?", "n": 2, "k": "2", "e": "A tin can has a flat circle at the top and one at the bottom; the side is curved."},
+{"t": "On a dice, which number is opposite 3?", "n": 4, "k": "7-3", "e": "Opposite faces add up to 7, and 3 + 4 = 7."},
+{"t": "A circle has a diameter of 14 cm. What is its radius (in cm)?", "n": 7, "u": "cm", "k": "14//2", "e": "The radius goes only from the centre to the edge — half of the diameter."},
+{"t": "An angle bigger than a right angle is called:", "o": ["An obtuse angle", "An acute angle", "A right angle", "A small angle"], "e": "Obtuse angles open wider than a square corner."},
+{"t": "How many right angles does a rectangle have?", "n": 4, "k": "4", "e": "All 4 corners of a rectangle are square corners."},
+{"t": "A shape has 5 sides. How many angles does it have?", "n": 5, "k": "5", "e": "Every corner is where two sides meet, so a closed shape has as many angles as sides."},
+{"t": "Which of these is also a prism?", "o": ["Cube", "Cone", "Sphere", "Square pyramid"], "e": "A cube has two matching square ends joined by flat sides — that is a square prism."}
+]},
+{"q": [
+{"t": "A square pyramid has 5 faces, 5 corners and 8 edges. What is Faces + Corners − Edges?", "n": 2, "k": "5+5-8", "e": "5 + 5 − 8 = 2. For these solid shapes the answer always comes out as 2."},
+{"t": "‘I have 5 faces, 6 corners and 9 edges, and 2 of my faces are triangles.’ What am I?", "o": ["Triangular prism", "Square pyramid", "Triangular pyramid", "Cube"], "e": "Two triangle ends with 3 rectangles between them: 5 faces, 6 corners, 9 edges."},
+{"t": "‘I have 2 flat faces, 1 curved face and 2 edges, but no corners.’ What am I?", "o": ["Cylinder", "Cone", "Sphere", "Cube"], "e": "A cylinder’s two flat circles meet the curved side in 2 round edges, with no pointed corner."},
+{"t": "A straw model uses straws for edges and clay balls for corners. It needs 12 straws and 8 clay balls. Which shape is it?", "o": ["Cuboid", "Triangular prism", "Square pyramid", "Triangular pyramid"], "e": "12 edges and 8 corners belong to a cuboid (or cube)."},
+{"t": "How many straws (edges) do you need to make a triangular pyramid?", "n": 6, "k": "3+3", "e": "3 straws for the triangle base and 3 going up to the top point."},
+{"t": "How many edges does a pentagonal pyramid have?", "n": 10, "k": "5+5", "e": "5 edges round the pentagon base and 5 slanting edges up to the top point."},
+{"t": "A dice shows 2 on top. Which number is on the bottom face?", "n": 5, "k": "7-2", "e": "Top and bottom are opposite faces, and opposite faces add to 7: 2 + 5 = 7."},
+{"t": "You make shapes with straws and clay and gently push one side. Which shape does NOT change its shape?", "o": ["Triangle", "Square", "Rectangle", "Pentagon"], "e": "Once the three sides of a triangle are fixed, there is only one way to join them, so it is rigid."},
+{"t": "A wheel has a radius of 35 cm. What is its diameter (in cm)?", "n": 70, "u": "cm", "k": "2*35", "e": "Diameter = two radii laid end to end through the centre: 35 + 35."},
+{"t": "Every square is also a rectangle because:", "o": ["It has 4 sides and 4 right angles", "It has 3 sides", "It has no right angles", "All its sides are different"], "e": "A rectangle only needs 4 sides and 4 square corners — a square has both, with equal sides as a bonus."}
+]},
+{"q": [
+{"t": "Riya makes a hexagonal prism with straws for edges. Each hexagon end needs 6 straws, and 6 more straws join the two ends. How many straws in all?", "n": 18, "k": "6+6+6", "e": "6 for the top hexagon + 6 for the bottom + 6 standing straws = 18."},
+{"t": "Riya’s hexagonal prism uses one clay ball at every corner. How many clay balls does she need?", "n": 12, "k": "6+6", "e": "Each hexagon end has 6 corners, and there are 2 ends: 6 + 6."},
+{"t": "A solid shape has 7 faces and 10 corners. Using Faces + Corners − Edges = 2, how many edges does it have?", "n": 15, "k": "7+10-2", "e": "7 + 10 = 17, and 17 − Edges = 2, so Edges = 15."},
+{"t": "Ankit uses 15 straws and 10 clay balls with no straws or balls left over. Which shape did he make?", "o": ["Pentagonal prism", "Pentagonal pyramid", "Hexagonal prism", "Cube"], "e": "Two pentagon ends use 5 + 5 straws and 5 + 5 balls, and 5 straws join them: 15 straws, 10 balls."},
+{"t": "A dice lies on a table with 5 on top. What is the total of the numbers on its four side faces?", "n": 14, "k": "21-5-2", "e": "All six faces add to 21. Take away the top (5) and the bottom (2, since 5 + 2 = 7): 21 − 7 = 14."},
+{"t": "Three coins, each of radius 2 cm, lie in a straight row touching each other. How long is the row (in cm)?", "n": 12, "u": "cm", "k": "3*2*2", "e": "Each coin is 4 cm across (two radii), and 3 coins in a row are 4 + 4 + 4."},
+{"t": "Meena makes a cube and a square pyramid out of straws. How many straws does she need in all?", "n": 20, "k": "12+8", "e": "A cube has 12 edges and a square pyramid has 8 (4 round the base, 4 up to the top)."},
+{"t": "At 3 o’clock the clock hands make a right angle. At which time do they make an acute angle?", "o": ["1 o’clock", "4 o’clock", "9 o’clock", "6 o’clock"], "e": "At 1 o’clock the hands are close together, a sharp opening smaller than a square corner."},
+{"t": "Two circles have the same centre. The small one has radius 3 cm and the big one has diameter 16 cm. How much longer is the big circle’s radius (in cm)?", "n": 5, "u": "cm", "k": "16//2-3", "e": "Big radius = half of 16 = 8 cm, and 8 − 3 = 5 cm."},
+{"t": "5 matchsticks make 2 triangles side by side sharing one stick. How many matchsticks make 3 triangles in a row, each sharing a side with the next?", "n": 7, "k": "3+2+2", "e": "The first triangle needs 3 sticks; each new one shares a side, so it needs only 2 more: 3 + 2 + 2."}
+]}
+]
+}

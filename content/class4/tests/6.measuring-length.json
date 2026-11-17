@@ -1,0 +1,53 @@
+{
+"title": "6. Measuring Length",
+"tests": [
+{"q": [
+{"t": "1 metre = how many centimetres?", "n": 100, "u": "cm", "k": "100", "e": "A metre scale is marked into 100 equal small parts, and each part is 1 cm."},
+{"t": "Half a metre (1/2 m) = how many centimetres?", "n": 50, "u": "cm", "k": "100//2", "e": "Half of 100 cm is 50 cm."},
+{"t": "A quarter metre (1/4 m) = how many centimetres?", "n": 25, "u": "cm", "k": "100//4", "e": "Split 100 cm into 4 equal parts: 25 cm each."},
+{"t": "2 m = how many centimetres?", "n": 200, "u": "cm", "k": "2*100", "e": "Each metre is 100 cm, so 2 metres are 100 + 100."},
+{"t": "Which unit is best for measuring an eraser?", "o": ["Centimetre", "Metre", "Kilogram", "Litre"], "e": "An eraser is much shorter than a metre, so we use the small unit, cm."},
+{"t": "Which unit is best for measuring the length of a classroom?", "o": ["Metre", "Centimetre", "Gram", "Millilitre"], "e": "A classroom is many metres long; counting centimetres would take far too long."},
+{"t": "1 m 20 cm = how many centimetres?", "n": 120, "u": "cm", "k": "100+20", "e": "1 m is 100 cm, and 20 cm more makes 120 cm."},
+{"t": "The perimeter of a shape is:", "o": ["The length of its boundary", "The space inside it", "How heavy it is", "Its longest side only"], "e": "Perimeter is the distance all the way round the edge."},
+{"t": "A square on a 1 cm dot grid has sides of 3 cm. What is its perimeter (in cm)?", "n": 12, "u": "cm", "k": "4*3", "e": "Walk round all 4 sides: 3 + 3 + 3 + 3."},
+{"t": "400 cm = how many metres?", "n": 4, "u": "m", "k": "400//100", "e": "Every 100 cm makes 1 metre, and 400 has four hundreds."}
+]},
+{"q": [
+{"t": "4 m 60 cm = how many centimetres?", "n": 460, "u": "cm", "k": "4*100+60", "e": "4 m is 400 cm, plus 60 cm is 460 cm."},
+{"t": "550 cm is the same as:", "o": ["5 m 50 cm", "55 m", "5 m 5 cm", "50 m 5 cm"], "e": "500 cm make 5 m, and 50 cm are left over."},
+{"t": "A board is 2 m long. Each border sticker is 20 cm long. How many stickers cover the length exactly?", "n": 10, "k": "200//20", "e": "2 m is 200 cm, and 200 cm holds 10 lengths of 20 cm."},
+{"t": "A rectangle is 5 cm long and 3 cm wide. What is its perimeter (in cm)?", "n": 16, "u": "cm", "k": "5+3+5+3", "e": "Go round all four sides: 5 + 3 + 5 + 3."},
+{"t": "Three quarter-metre ropes are laid end to end. How long are they together (in cm)?", "n": 75, "u": "cm", "k": "3*25", "e": "Each quarter metre is 25 cm: 25 + 25 + 25."},
+{"t": "Two half-metre ropes joined end to end make:", "o": ["1 metre", "2 metres", "1/4 metre", "50 cm"], "e": "Two halves make a whole: 50 cm + 50 cm = 100 cm."},
+{"t": "Ashwin’s scale is broken. A pencil starts at the 3 cm mark and ends at the 11 cm mark. How long is the pencil (in cm)?", "n": 8, "u": "cm", "k": "11-3", "e": "Count the gaps between the marks: from 3 to 11 is 8 centimetres."},
+{"t": "A triangle has sides 4 cm, 5 cm and 6 cm. What is its perimeter (in cm)?", "n": 15, "u": "cm", "k": "4+5+6", "e": "Add the lengths of all the sides."},
+{"t": "Which is longer: 1 m 40 cm or 140 cm?", "o": ["Both are the same length", "1 m 40 cm", "140 cm"], "e": "1 m 40 cm = 100 cm + 40 cm = 140 cm — two ways of writing the same length."},
+{"t": "6 m = how many centimetres?", "n": 600, "u": "cm", "k": "6*100", "e": "6 groups of 100 cm."}
+]},
+{"q": [
+{"t": "Ramu is 1 m 25 cm tall and Shamu is 118 cm tall. How much taller is Ramu (in cm)?", "n": 7, "u": "cm", "k": "125-118", "e": "Change Ramu’s height to cm first: 125 cm − 118 cm = 7 cm."},
+{"t": "A square garden has sides of 5 m. How much fencing goes all the way round it (in m)?", "n": 20, "u": "m", "k": "4*5", "e": "The fence follows the boundary: 4 sides of 5 m."},
+{"t": "A square has a perimeter of 20 cm. How long is each side (in cm)?", "n": 5, "u": "cm", "k": "20//4", "e": "A square has 4 equal sides sharing the 20 cm: 20 ÷ 4."},
+{"t": "Your hand is 15 cm long. A desk is 6 hand-lengths long. How long is the desk (in cm)?", "n": 90, "u": "cm", "k": "6*15", "e": "6 lots of 15 cm: 15 + 15 + 15 + 15 + 15 + 15 = 90."},
+{"t": "A whale is about 30 m long and a crocodile is about 6 m long. About how many crocodiles laid end to end match the whale?", "n": 5, "k": "30//6", "e": "6, 12, 18, 24, 30 — five lengths of 6 m reach 30 m."},
+{"t": "3 m 5 cm = how many centimetres?", "n": 305, "u": "cm", "k": "300+5", "e": "3 m is 300 cm, and 5 cm more is 305 — not 350!"},
+{"t": "In the long jump, Ali jumped 1 m 15 cm and Sara jumped 98 cm. How much farther did Ali jump (in cm)?", "n": 17, "u": "cm", "k": "115-98", "e": "Ali’s jump is 115 cm, and 115 − 98 = 17."},
+{"t": "On a 1 cm grid, a rectangle is 4 cm by 2 cm and a square is 3 cm by 3 cm. Which has the longer boundary?", "o": ["Both have the same perimeter", "The rectangle", "The square"], "e": "Rectangle: 4 + 2 + 4 + 2 = 12 cm. Square: 3 + 3 + 3 + 3 = 12 cm."},
+{"t": "A 5 m rope is cut into pieces of 50 cm each. How many pieces?", "n": 10, "k": "500//50", "e": "5 m is 500 cm, and each metre gives 2 half-metre pieces: 5 × 2 = 10."},
+{"t": "1/2 m and 1/4 m of rope are joined. How long is the rope (in cm)?", "n": 75, "u": "cm", "k": "50+25", "e": "1/2 m is 50 cm and 1/4 m is 25 cm."}
+]},
+{"q": [
+{"t": "A ribbon is 3 m long. Priya cuts off 1 m 40 cm and then 85 cm. How much ribbon is left (in cm)?", "n": 75, "u": "cm", "k": "300-140-85", "e": "Change everything to cm: 300 − 140 = 160, then 160 − 85 = 75."},
+{"t": "A park is a rectangle 25 m long and 15 m wide. Asha walks round it twice. How far does she walk (in m)?", "n": 160, "u": "m", "k": "2*(25+15+25+15)", "e": "Once round is 25 + 15 + 25 + 15 = 80 m, so twice round is 160 m."},
+{"t": "A rectangular garden is 8 m long and 5 m wide. A fence goes all round except a 1 m gate. How long is the fence (in m)?", "n": 25, "u": "m", "k": "8+5+8+5-1", "e": "The whole boundary is 26 m, and the gate leaves 1 m without fence."},
+{"t": "A rectangle has a perimeter of 20 cm. Its long side is 7 cm. How long is its short side (in cm)?", "n": 3, "u": "cm", "k": "(20-7-7)//2", "e": "The two long sides use 14 cm; the other 6 cm is shared by two short sides: 3 cm each."},
+{"t": "Chutki’s plant is 12 cm tall. It grows 2 cm every week. How tall is it after 4 weeks (in cm)?", "n": 20, "u": "cm", "k": "12+4*2", "e": "In 4 weeks it grows 2 + 2 + 2 + 2 = 8 cm, and 12 + 8 = 20."},
+{"t": "A border sticker is 25 cm long. How many stickers go all the way round a square board with 1 m sides?", "n": 16, "k": "4*100//25", "e": "Each 1 m side takes 4 stickers of 25 cm, and there are 4 sides: 4 × 4."},
+{"t": "An ant walks once round the edge of a rectangle 5 cm long and 2 cm wide. How far does it walk (in cm)?", "n": 14, "u": "cm", "k": "5+2+5+2", "e": "The ant walks the perimeter: 5 + 2 + 5 + 2."},
+{"t": "Three children are 1 m 32 cm, 128 cm and 1 m 9 cm tall. How much taller is the tallest than the shortest (in cm)?", "n": 23, "u": "cm", "k": "132-109", "e": "In cm they are 132, 128 and 109 (1 m 9 cm is 109, not 190). 132 − 109 = 23."},
+{"t": "Toy cars rolled down a ramp: Car 1 went 2 m 10 cm, Car 2 went 185 cm, Car 3 went 1 m 98 cm. Which car came second?", "o": ["Car 3", "Car 1", "Car 2"], "e": "In cm: Car 1 = 210, Car 3 = 198, Car 2 = 185. Car 3 is in the middle."},
+{"t": "Lace 2 m long is sewn round the edge of a tablecloth 60 cm long and 40 cm wide. How much lace is left over (in cm)?", "n": 0, "u": "cm", "k": "200-(60+40+60+40)", "e": "The edge is 60 + 40 + 60 + 40 = 200 cm, exactly the 2 m of lace — nothing is left."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "11. Fun with Symmetry",
+"tests": [
+{"q": [
+{"t": "A line that divides a shape into two halves that match exactly when folded is called:", "o": ["A line of symmetry", "A diameter", "An edge", "A boundary"], "e": "If you fold along it and the two halves sit exactly on top of each other, the fold is a line of symmetry."},
+{"t": "How many lines of symmetry does a square have?", "n": 4, "k": "4", "e": "You can fold a square in half 4 ways: across, up-down, and along both corner-to-corner lines."},
+{"t": "How many lines of symmetry does a rectangle (that is not a square) have?", "n": 2, "k": "2", "e": "Only the across and up-down folds work; a corner-to-corner fold does not match up."},
+{"t": "Which capital letter has a line of symmetry?", "o": ["A", "F", "J", "L"], "e": "A standing line down the middle of A gives two matching halves."},
+{"t": "How many lines of symmetry does a circle have?", "o": ["Very many — any line through the centre", "Only 1", "Only 2", "None"], "e": "Every fold through the centre of a circle makes two matching halves."},
+{"t": "Where is the line of symmetry of a butterfly?", "o": ["Down the middle of its body", "Across its wings", "Along one wing edge", "It has none"], "e": "The left wings match the right wings, so the line runs down the body."},
+{"t": "How many lines of symmetry does a triangle with all three sides equal have?", "n": 3, "k": "3", "e": "You can fold from each corner to the middle of the opposite side — 3 ways."},
+{"t": "A paper is folded once and one hole is punched (not on the fold). How many holes do you see when you open it?", "n": 2, "k": "2", "e": "The punch goes through 2 layers of paper, so it makes 2 holes, one on each side of the fold."},
+{"t": "Which tiles can cover a floor with no gaps?", "o": ["Square tiles", "Round tiles", "Oval tiles", "Heart-shaped tiles"], "e": "Squares fit edge to edge; curved tiles always leave gaps between them."},
+{"t": "A mirror is placed along the line of symmetry of half a picture. What do you see?", "o": ["The whole picture", "Nothing", "Only a quarter of it", "A different picture"], "e": "The mirror shows the other half exactly, because the two halves of a symmetrical picture match."}
+]},
+{"q": [
+{"t": "How many lines of symmetry does a regular hexagon (6 equal sides) have?", "n": 6, "k": "6", "e": "3 lines join opposite corners and 3 join the middles of opposite sides."},
+{"t": "A square paper is folded twice (into quarters) and one hole is punched away from the folds. How many holes appear when opened?", "n": 4, "k": "2*2", "e": "Two folds make 4 layers, and the punch goes through all of them."},
+{"t": "Which capital letter has NO line of symmetry?", "o": ["F", "H", "O", "X"], "e": "F has arms only on one side, so no fold makes it match; H, O and X each have lines of symmetry."},
+{"t": "Which word looks exactly the same in a mirror stood upright beside it?", "o": ["WOW", "CAT", "PAT", "NET"], "e": "W and O each have a standing line of symmetry, and WOW reads the same backwards."},
+{"t": "Why is AMBULANCE written back to front on the front of an ambulance?", "o": ["So drivers in front can read it in their mirrors", "Because it looks pretty", "So people inside can read it", "It is a spelling mistake"], "e": "A mirror flips writing left to right, so back-to-front writing shows the right way round in a mirror."},
+{"t": "How many lines of symmetry does a regular pentagon (5 equal sides) have?", "n": 5, "k": "5", "e": "You can fold from each of the 5 corners to the middle of the opposite side."},
+{"t": "Which digit has a standing (up-down) line of symmetry?", "o": ["8", "2", "4", "7"], "e": "The left half of 8 matches its right half; 2, 4 and 7 do not."},
+{"t": "A triangle has exactly two equal sides. How many lines of symmetry does it have?", "n": 1, "k": "1", "e": "Only the fold from the top corner, between the two equal sides, makes the halves match."},
+{"t": "How many lines of symmetry does the capital letter H have?", "n": 2, "k": "2", "e": "H matches when folded up-down (left and right) and also across the middle (top and bottom)."},
+{"t": "Which shape will NOT tile a floor without gaps?", "o": ["Circle", "Square", "Rectangle", "Equal-sided triangle"], "e": "Circles touch only at points, leaving curved gaps between them."}
+]},
+{"q": [
+{"t": "How many lines of symmetry do a square and a rectangle (not a square) have together?", "n": 6, "k": "4+2", "e": "A square has 4 and a rectangle has 2."},
+{"t": "Which capital letter has BOTH a standing and a sleeping line of symmetry?", "o": ["H", "A", "T", "E"], "e": "H matches left–right and top–bottom; A and T only left–right; E only top–bottom."},
+{"t": "A square paper is folded twice. A small corner is cut off at the point where both folds meet. How many holes appear when you open it?", "n": 1, "k": "1", "e": "The point where both folds meet is the centre of the paper, so the four cut pieces join into one hole in the middle."},
+{"t": "Which number looks the same in a mirror stood upright beside it?", "o": ["181", "123", "252", "707"], "e": "1 and 8 each have a standing line of symmetry, and 181 reads the same backwards."},
+{"t": "How many lines of symmetry do a regular hexagon and an equal-sided triangle have together?", "n": 9, "k": "6+3", "e": "A regular hexagon has 6 and an equal-sided triangle has 3."},
+{"t": "When we make a floor pattern with tiles, the tiles must have:", "o": ["No gaps and no overlaps", "Gaps between them", "Overlaps on top of each other", "Only round shapes"], "e": "A good tiling covers every bit of the floor exactly once."},
+{"t": "A paper is folded in half and half a heart is cut along the fold. What do you get when you open it?", "o": ["A whole heart, with the fold as its line of symmetry", "Half a heart", "Two separate hearts", "A circle"], "e": "The cut goes through both layers, so the missing half is cut too, joined at the fold."},
+{"t": "Which capital letter has exactly ONE line of symmetry?", "o": ["A", "H", "X", "O"], "e": "A has only a standing line; H and X have 2, and O has 2 or more."},
+{"t": "How many lines of symmetry does a regular octagon (8 equal sides) have?", "n": 8, "k": "8", "e": "A regular shape has as many lines of symmetry as it has sides: half go corner to corner, half go side-middle to side-middle."},
+{"t": "Which capital letter has ONLY a sleeping (across) line of symmetry?", "o": ["B", "A", "M", "H"], "e": "B’s top half matches its bottom half, but its left and right are different."}
+]},
+{"q": [
+{"t": "Which word, written in capital letters, looks the same in a mirror placed below it?", "o": ["BOX", "CAT", "MAP", "YES"], "e": "B, O and X each have a sleeping line of symmetry, so every letter flips onto itself."},
+{"t": "A square paper is folded twice and 2 holes are punched away from the folds. How many holes appear when opened?", "n": 8, "k": "2*4", "e": "Two folds make 4 layers, and each punch makes 4 holes: 2 × 4."},
+{"t": "A paper is folded in half three times, and one hole is punched through all the layers. How many holes appear when opened?", "n": 8, "k": "2*2*2", "e": "Each fold doubles the layers: 2, then 4, then 8."},
+{"t": "A row of tiles repeats red, blue, green, red, blue, green… What colour is the 20th tile?", "o": ["Blue", "Red", "Green"], "e": "The pattern repeats every 3 tiles; 18 tiles make 6 full repeats, so tile 19 is red and tile 20 is blue."},
+{"t": "A pattern repeats square, triangle, triangle, circle. How many triangles are in the first 20 shapes?", "n": 10, "k": "20//4*2", "e": "Each group of 4 shapes has 2 triangles, and 20 shapes are 5 groups: 5 × 2 = 10."},
+{"t": "Which 4-digit number looks the same in a mirror stood upright beside it?", "o": ["1881", "1818", "1234", "6886"], "e": "1881 reads the same backwards and uses only 1 and 8, which have standing lines of symmetry."},
+{"t": "How many letters of the word MATH have a standing (up-down) line of symmetry?", "n": 4, "k": "4", "e": "M, A, T and H can each be folded down the middle into matching halves."},
+{"t": "A shape has 4 equal sides but no right angles (a diamond — like a square pushed over). How many lines of symmetry does it have?", "n": 2, "k": "2", "e": "It folds along both corner-to-corner lines, but not across the middle as a square would."},
+{"t": "A square tile is cut along ALL of its lines of symmetry. How many pieces do you get?", "n": 8, "k": "8", "e": "The 4 lines all pass through the centre and split the square into 8 equal triangles."},
+{"t": "A paper strip is 6 cm long and 4 cm wide. It is folded in half along a line of symmetry so that its two short ends meet. How long is the folded strip (in cm)?", "n": 3, "u": "cm", "k": "6//2", "e": "Folding the short ends together halves the length: 6 ÷ 2."}
+]}
+]
+}

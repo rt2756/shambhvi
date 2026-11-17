@@ -1,0 +1,53 @@
+{
+"title": "8. Weigh It, Pour It",
+"tests": [
+{"q": [
+{"t": "1 kg = how many grams?", "n": 1000, "u": "g", "k": "1000", "e": "A kilogram is a thousand grams — ‘kilo’ means thousand."},
+{"t": "500 g is the same as:", "o": ["1/2 kg", "1/4 kg", "5 kg", "50 kg"], "e": "Two packets of 500 g make 1000 g = 1 kg, so one packet is half a kilogram."},
+{"t": "250 g is the same as:", "o": ["1/4 kg", "1/2 kg", "2 kg", "25 kg"], "e": "Four packets of 250 g make 1000 g = 1 kg, so one is a quarter of a kilogram."},
+{"t": "1 litre = how many millilitres?", "n": 1000, "u": "ml", "k": "1000", "e": "A litre holds a thousand millilitres, just as a kilogram is a thousand grams."},
+{"t": "How many 500 ml bottles fill a 1 litre bottle?", "n": 2, "k": "1000//500", "e": "500 ml + 500 ml = 1000 ml = 1 litre."},
+{"t": "Which unit is best for weighing a pen?", "o": ["Gram", "Kilogram", "Litre", "Metre"], "e": "A pen is very light, much less than 1 kg, so we use grams."},
+{"t": "How many 250 g packets make 1 kg?", "n": 4, "k": "1000//250", "e": "250 + 250 + 250 + 250 = 1000 g."},
+{"t": "On a pan balance, the pan that goes DOWN holds the object that is:", "o": ["Heavier", "Lighter", "The same weight", "Bigger in size"], "e": "The heavier side pulls its pan down."},
+{"t": "How many 100 g packets make 1 kg?", "n": 10, "k": "1000//100", "e": "10 hundreds make a thousand: 10 × 100 g = 1000 g."},
+{"t": "Which unit is best for measuring the water in a bucket?", "o": ["Litre", "Millilitre", "Kilogram", "Centimetre"], "e": "A bucket holds many litres; millilitres are for small amounts like a spoonful."}
+]},
+{"q": [
+{"t": "How many 250 ml glasses fill a 1 litre jug?", "n": 4, "k": "1000//250", "e": "250 + 250 + 250 + 250 = 1000 ml."},
+{"t": "How many 100 ml cups make 800 ml?", "n": 8, "k": "800//100", "e": "800 is 8 hundreds."},
+{"t": "An eraser weighs 10 g. How many erasers weigh the same as a 50 g haldi packet?", "n": 5, "k": "50//10", "e": "10, 20, 30, 40, 50 — five erasers."},
+{"t": "An eraser weighs 10 g. How many erasers balance a 100 g soap?", "n": 10, "k": "100//10", "e": "10 groups of 10 g make 100 g."},
+{"t": "How many 250 ml bottles make 750 ml?", "n": 3, "k": "750//250", "e": "250 + 250 + 250 = 750."},
+{"t": "1 kg of kaju katli is packed in boxes of 50 g each. How many boxes?", "n": 20, "k": "1000//50", "e": "Two 50 g boxes make 100 g, and 1000 g is 10 hundreds, so 2 × 10 = 20 boxes."},
+{"t": "How many 10 ml dosing cups fill a 250 ml glass?", "n": 25, "k": "250//10", "e": "Each 100 ml takes 10 cups, so 250 ml takes 10 + 10 + 5 = 25 cups."},
+{"t": "2 kg = how many grams?", "n": 2000, "u": "g", "k": "2*1000", "e": "Each kilogram is 1000 g: 1000 + 1000."},
+{"t": "1 litre of oil is put into 200 ml bottles. How many bottles?", "n": 5, "k": "1000//200", "e": "200, 400, 600, 800, 1000 — five bottles."},
+{"t": "Which is heavier: 1 kg of cotton or 1 kg of iron?", "o": ["Both weigh the same", "Iron", "Cotton"], "e": "1 kg is 1 kg whatever it is made of — the cotton just takes up more space."}
+]},
+{"q": [
+{"t": "3 kg 500 g = how many grams?", "n": 3500, "u": "g", "k": "3*1000+500", "e": "3 kg is 3000 g, and 500 g more makes 3500 g."},
+{"t": "1500 ml is the same as:", "o": ["1 l 500 ml", "15 l", "1 l 50 ml", "150 l"], "e": "1000 ml is 1 litre, and 500 ml is left over."},
+{"t": "Half a kilogram and a quarter kilogram together weigh how many grams?", "n": 750, "u": "g", "k": "500+250", "e": "1/2 kg = 500 g and 1/4 kg = 250 g."},
+{"t": "1 kg of sweets is packed into one 500 g box, one 250 g box and the rest in 50 g boxes. How many 50 g boxes?", "n": 5, "k": "(1000-500-250)//50", "e": "500 + 250 = 750 g are packed, leaving 250 g, which fills 5 boxes of 50 g."},
+{"t": "A whole pumpkin weighs 4 kg. About how much does half of it weigh (in kg)?", "n": 2, "u": "kg", "k": "4//2", "e": "Half of 4 kg is 2 kg."},
+{"t": "A 2 litre jug is poured into 250 ml glasses. How many glasses are filled?", "n": 8, "k": "2000//250", "e": "1 litre fills 4 glasses of 250 ml, so 2 litres fill 8."},
+{"t": "A bag has 5 kg of rice. 1 kg 750 g is used. How much is left (in g)?", "n": 3250, "u": "g", "k": "5000-1750", "e": "In grams: 5000 − 1750 = 3250."},
+{"t": "From a 1 litre bottle, 350 ml of water is poured out. How much is left (in ml)?", "n": 650, "u": "ml", "k": "1000-350", "e": "1 litre is 1000 ml, and 1000 − 350 = 650."},
+{"t": "A child takes 10 ml of medicine twice a day for 5 days. How much medicine in all (in ml)?", "n": 100, "u": "ml", "k": "10*2*5", "e": "Each day is 10 + 10 = 20 ml, and 5 days make 100 ml."},
+{"t": "Which is the best estimate for the weight of a cat?", "o": ["About 4 kg", "About 4 g", "About 40 kg", "About 400 kg"], "e": "A cat is easy to lift but heavier than a big bag of sugar — a few kilograms."}
+]},
+{"q": [
+{"t": "Mother buys 2 kg of atta, 500 g of dal and 250 g of tea. What is the total weight (in g)?", "n": 2750, "u": "g", "k": "2000+500+250", "e": "Change kg to g first: 2000 + 500 + 250 = 2750 g."},
+{"t": "A leaking tap wastes 50 ml of water every hour. How much does it waste in one day of 24 hours (in ml)?", "n": 1200, "u": "ml", "k": "24*50", "e": "Every 2 hours waste 100 ml, and 24 hours has 12 such pairs: 12 × 100 = 1200 ml."},
+{"t": "A shop has 5 litres of oil and fills 500 ml bottles. How many bottles can it fill?", "n": 10, "k": "5000//500", "e": "Each litre fills 2 bottles of 500 ml, so 5 litres fill 10."},
+{"t": "A basket full of mangoes weighs 3 kg. The empty basket weighs 400 g. How much do the mangoes weigh (in g)?", "n": 2600, "u": "g", "k": "3000-400", "e": "Take away the basket’s weight: 3000 g − 400 g."},
+{"t": "1 litre of perfume oil fills 3 bottles of 200 ml, and the rest goes into 100 ml bottles. How many 100 ml bottles are needed?", "n": 4, "k": "(1000-3*200)//100", "e": "3 × 200 = 600 ml is used; 400 ml is left, which fills 4 bottles of 100 ml."},
+{"t": "A weightlifter lifts 202 kg in two lifts. Her first lift is 88 kg. What is her second lift (in kg)?", "n": 114, "u": "kg", "k": "202-88", "e": "The two lifts add to 202, so the second is 202 − 88."},
+{"t": "The left pan of a balance has 3 packets of 250 g. The right pan has a 500 g packet. What happens?", "o": ["The left pan goes down", "The right pan goes down", "The pans stay level"], "e": "Left side: 250 + 250 + 250 = 750 g, which is heavier than 500 g."},
+{"t": "Ravi drinks 250 ml of milk in the morning and 250 ml in the evening. How many litres does he drink in 4 days?", "n": 2, "u": "l", "k": "250*2*4//1000", "e": "Each day is 500 ml, so 4 days is 2000 ml = 2 litres."},
+{"t": "1 kg of flour makes 20 rotis. How much flour is needed for 5 rotis (in g)?", "n": 250, "u": "g", "k": "1000*5//20", "e": "5 rotis are a quarter of 20 rotis, so they need a quarter of 1000 g."},
+{"t": "A bucket holds 10 litres. How many 500 ml mugs of water fill it?", "n": 20, "k": "10000//500", "e": "Each litre takes 2 mugs of 500 ml, so 10 litres take 20 mugs."}
+]}
+]
+}

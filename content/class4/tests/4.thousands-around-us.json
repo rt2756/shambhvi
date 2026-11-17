@@ -1,0 +1,53 @@
+{
+"title": "4. Thousands Around Us",
+"tests": [
+{"q": [
+{"t": "900 + ___ = 1000. Find the missing number.", "n": 100, "k": "1000-900", "e": "900 is 9 hundreds; one more hundred makes 10 hundreds, which is 1000."},
+{"t": "10 Hundreds make:", "o": ["1000", "100", "10000", "110"], "e": "Just as 10 Ones make a Ten and 10 Tens make a Hundred, 10 Hundreds make a Thousand."},
+{"t": "Write the number for 4 Ones + 7 Tens.", "n": 74, "k": "7*10+4", "e": "7 Tens is 70, and 4 more Ones make 74 — the tens digit is written first."},
+{"t": "Write the number for 3 Thousands + 4 Hundreds + 5 Tens + 2 Ones.", "n": 3452, "k": "3000+400+50+2", "e": "Put each digit in its place, from Thousands down to Ones: 3 4 5 2."},
+{"t": "What number comes just after 999?", "n": 1000, "k": "999+1", "e": "999 + 1 fills up the ones, tens and hundreds, making one Thousand."},
+{"t": "Which number is bigger?", "o": ["3102", "3012"], "e": "Both have 3 Thousands; then compare Hundreds: 1 Hundred beats 0 Hundreds."},
+{"t": "Which is the expanded form of 4085?", "o": ["4000 + 80 + 5", "4000 + 800 + 5", "400 + 80 + 5", "4000 + 8 + 5"], "e": "4085 has 4 Thousands, 0 Hundreds, 8 Tens and 5 Ones."},
+{"t": "How do we read 2576?", "o": ["Two thousand five hundred seventy-six", "Two thousand seven hundred fifty-six", "Twenty-five hundred six", "Two hundred fifty-seven"], "e": "Read from the left: 2 Thousands, 5 Hundreds, then 76."},
+{"t": "What is the smallest 4-digit number?", "n": 1000, "k": "1000", "e": "999 is the largest 3-digit number, so one more, 1000, is the first with 4 digits."},
+{"t": "What is ten more than 312?", "n": 322, "k": "312+10", "e": "Adding ten adds 1 to the tens digit: 1 Ten becomes 2 Tens."}
+]},
+{"q": [
+{"t": "Write the number for 35 Tens.", "n": 350, "k": "35*10", "e": "30 Tens make 3 Hundreds (300) and 5 Tens make 50."},
+{"t": "Write the number for 2 Hundreds, 13 Tens and 7 Ones.", "n": 337, "k": "200+130+7", "e": "13 Tens = 1 Hundred and 3 Tens, so you have 3 Hundreds, 3 Tens, 7 Ones."},
+{"t": "Ram wrote 7 Thousands 0 Hundreds 2 Tens 4 Ones as 724. What is the correct number?", "n": 7024, "k": "7000+0+20+4", "e": "The 0 must be written to hold the Hundreds place, or the 7 slides down to Hundreds."},
+{"t": "What is the largest 4-digit number?", "n": 9999, "k": "9999", "e": "Put the biggest digit, 9, in every one of the 4 places."},
+{"t": "850 + ___ = 1000. Find the missing number.", "n": 150, "k": "1000-850", "e": "850 → 900 needs 50, and 900 → 1000 needs 100: 50 + 100 = 150."},
+{"t": "Increase 2785 by 10.", "n": 2795, "k": "2785+10", "e": "Adding 10 makes the tens digit go from 8 to 9."},
+{"t": "Which number lies between 2226 and 3226?", "o": ["3216", "3316", "3236", "2216"], "e": "3216 has 3 Thousands, so it is more than 2226; and it has 1 Ten where 3226 has 2 Tens, so it is less than 3226."},
+{"t": "What is the value of the digit 6 in 5648?", "n": 600, "k": "600", "e": "The 6 is in the Hundreds place, so it means 6 Hundreds."},
+{"t": "Decrease 3369 by 2.", "n": 3367, "k": "3369-2", "e": "Only the ones digit changes: 9 − 2 = 7."},
+{"t": "Write the number for 15 Tens and 23 Ones.", "n": 173, "k": "150+23", "e": "15 Tens = 150, and 23 Ones = 23, so 150 + 23."}
+]},
+{"q": [
+{"t": "How many numbers are there strictly between 7000 and 8000 (not counting 7000 and 8000)?", "n": 999, "k": "8000-7000-1", "e": "From 7001 up to 7999 is 999 numbers, just as there are 99 numbers between 700 and 800."},
+{"t": "Write the number for 12 Hundreds, 18 Tens and 2 Ones.", "n": 1382, "k": "1200+180+2", "e": "12 Hundreds = 1200 and 18 Tens = 180, so 1200 + 180 + 2."},
+{"t": "Write the number for 1 Thousand, 5 Hundreds, 10 Tens and 17 Ones.", "n": 1617, "k": "1000+500+100+17", "e": "10 Tens make 1 more Hundred, and 17 Ones are 1 Ten and 7 Ones: 1000 + 600 + 17."},
+{"t": "Which mountain height is the greatest?", "o": ["8611 m", "8586 m", "7816 m", "7138 m"], "e": "Compare Thousands first (8 beats 7), then Hundreds: 6 Hundreds beats 5 Hundreds."},
+{"t": "Write 15 Ones + 9 Tens + 3 Hundreds as a number.", "n": 405, "k": "15+90+300", "e": "15 Ones is 1 Ten and 5 Ones, so 3 Hundreds, 10 Tens, 5 Ones = 4 Hundreds and 5 Ones."},
+{"t": "What is the largest 4-digit number you can make using 2, 3, 4 and 7 once each?", "n": 7432, "k": "int(''.join(sorted('2347',reverse=True)))", "e": "Put the biggest digit in the biggest place: 7, then 4, then 3, then 2."},
+{"t": "What is the smallest 4-digit number you can make using 3, 5, 0 and 8 once each?", "n": 3058, "k": "3058", "e": "0 cannot go first (that would make a 3-digit number), so start with 3, then 0, 5, 8."},
+{"t": "760 + ___ = 1000. Find the missing number.", "n": 240, "k": "1000-760", "e": "760 → 800 needs 40, and 800 → 1000 needs 200: 40 + 200 = 240."},
+{"t": "Which shows the prices ₹1986, ₹1099 and ₹1899 from smallest to biggest?", "o": ["₹1099 < ₹1899 < ₹1986", "₹1986 < ₹1899 < ₹1099", "₹1899 < ₹1099 < ₹1986", "₹1099 < ₹1986 < ₹1899"], "e": "All have 1 Thousand; compare Hundreds: 0 < 8 < 9."},
+{"t": "How many Hundreds are there in 4000?", "n": 40, "k": "4000//100", "e": "Each Thousand is 10 Hundreds, so 4 Thousands are 40 Hundreds."}
+]},
+{"q": [
+{"t": "1000 people are expected for a lunch. 508 came in the first slot and 325 in the second. How many more must come to reach 1000?", "n": 167, "k": "1000-508-325", "e": "508 + 325 = 833 have come, and 1000 − 833 = 167."},
+{"t": "Write the number for 4 Thousands, 0 Hundreds, 13 Tens and 5 Ones.", "n": 4135, "k": "4000+130+5", "e": "13 Tens is 1 Hundred and 3 Tens, so the number is 4 Th, 1 H, 3 T, 5 O."},
+{"t": "A 4-digit number has all four digits the same and lies between 5000 and 6000. What is it?", "n": 5555, "k": "5555", "e": "Between 5000 and 6000 the thousands digit must be 5, so every digit is 5."},
+{"t": "I am a 4-digit number. My thousands digit is 3, my hundreds digit is double that, my tens digit is 0 and my ones digit is one less than my thousands digit. What am I?", "n": 3602, "k": "3000+600+0+2", "e": "Thousands 3, Hundreds 6 (double 3), Tens 0, Ones 2 (one less than 3)."},
+{"t": "How many different 4-digit numbers can be made from 2, 3, 4 and 7 without repeating a digit?", "n": 24, "k": "4*3*2*1", "e": "Any of the 4 digits can start; the other three can then be arranged in 6 ways, and 4 × 6 = 24."},
+{"t": "Gulnaz has 3 tokens of 1000, 14 tokens of 100, 5 tokens of 10 and 12 tokens of 1. How much is that in all?", "n": 4462, "k": "3000+1400+50+12", "e": "14 Hundreds = 1 Thousand 4 Hundreds and 12 Ones = 1 Ten 2 Ones: 4 Th, 4 H, 6 T, 2 O."},
+{"t": "A number line is marked 5500, 5525, 5550, 5575 and so on. Which mark is nearest to 5673?", "o": ["5675", "5650", "5700", "5625"], "e": "5673 is just 2 less than 5675, but 23 more than 5650."},
+{"t": "What is the smallest 4-digit even number with all its digits different?", "n": 1024, "k": "1024", "e": "Start as small as possible: 1, 0, 2 …; the ones digit must be even and unused, so 4 (1023 is odd)."},
+{"t": "How much less than 3000 is 2 Thousands + 9 Hundreds + 9 Tens + 9 Ones?", "n": 1, "k": "3000-2999", "e": "That number is 2999, and 2999 + 1 = 3000."},
+{"t": "How many numbers are there from 1001 to 1100, counting both?", "n": 100, "k": "1100-1001+1", "e": "1001 to 1100 is like counting 1 to 100 with a thousand in front."}
+]}
+]
+}
