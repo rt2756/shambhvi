@@ -1,0 +1,53 @@
+{
+"title": "9. House of Hundreds – II",
+"tests": [
+{"q": [
+{"t": "8 hundreds, 3 tens and 2 ones make which number?", "n": 832, "k": "800+30+2", "e": "Write the hundreds, tens and ones digits in order: 8, 3, 2."},
+{"t": "5 hundreds, 0 tens and 4 ones make which number?", "n": 504, "k": "500+4", "e": "There are no tens, so 0 holds the tens place: 5 0 4."},
+{"t": "7 hundreds and nothing else make which number?", "n": 700, "k": "7*100", "e": "No tens and no ones, so both of those places get a 0."},
+{"t": "What is one more than 999?", "n": 1000, "k": "999+1", "e": "Ones, tens and hundreds are all full, so they roll over to one thousand."},
+{"t": "300 + 60 + 8 = ?", "n": 368, "k": "300+60+8", "e": "3 hundreds, 6 tens and 8 ones: 368."},
+{"t": "Between which two hundreds does 468 lie?", "o": ["400 and 500", "460 and 470", "450 and 500", "300 and 400"], "e": "468 has 4 hundreds, so it is after 400 and before 500."},
+{"t": "400 − 32 = ?", "n": 368, "k": "400-32", "e": "400 − 30 = 370, then 370 − 2 = 368."},
+{"t": "Birbal said there were 963 crows. Which is its number name?", "o": ["Nine hundred sixty-three", "Nine hundred thirty-six", "Six hundred ninety-three", "Ninety-six three"], "e": "9 hundreds, 6 tens (sixty) and 3 ones (three)."},
+{"t": "850 + 10 = ?", "n": 860, "k": "850+10", "e": "Adding 10 adds one ten: 5 tens become 6 tens."},
+{"t": "How many hundreds make 1000?", "n": 10, "u": "hundreds", "k": "1000//100", "e": "Counting in hundreds: 100, 200 … 1000 is ten hundreds."}
+]},
+{"q": [
+{"t": "Between which two tens does 468 lie?", "o": ["460 and 470", "400 and 500", "450 and 500", "468 and 478"], "e": "468 has 46 tens and 8 ones, so it is after 460 and before 470."},
+{"t": "Between which two fifties does 468 lie?", "o": ["450 and 500", "400 and 450", "460 and 470", "400 and 500"], "e": "Fifties go 400, 450, 500 … and 468 is after 450 but before 500."},
+{"t": "A crane is at 667 and wants to reach 700. How many steps forward?", "n": 33, "k": "700-667", "e": "667 + 3 = 670, then + 30 = 700: 3 + 30 = 33."},
+{"t": "A crane is at 667 and wants to reach 650. How many steps back?", "n": 17, "k": "667-650", "e": "667 − 7 = 660, then − 10 = 650: 7 + 10 = 17."},
+{"t": "Adding 25 each time: 850, 875, 900, ___. What comes next?", "n": 925, "k": "900+25", "e": "900 + 25 = 925."},
+{"t": "Adding 100 each time: 330, 430, 530, ___. What comes next?", "n": 630, "k": "530+100", "e": "Adding 100 changes only the hundreds digit: 5 becomes 6."},
+{"t": "290 + 110 = ?", "n": 400, "k": "290+110", "e": "290 + 10 = 300, then + 100 = 400."},
+{"t": "750 + 25 = ?", "n": 775, "k": "750+25", "e": "50 + 25 = 75, so 700 + 75 = 775."},
+{"t": "Which number reads the same from left to right and from right to left?", "o": ["353", "354", "335", "533"], "e": "353 backwards is still 3-5-3. The others change when reversed."},
+{"t": "What is two more than 610?", "n": 612, "k": "610+2", "e": "610 + 2 = 612."}
+]},
+{"q": [
+{"t": "What is the greatest 3-digit number?", "n": 999, "e": "Each place can hold at most 9, so 9 hundreds, 9 tens, 9 ones. One more would be 1000, a 4-digit number."},
+{"t": "You have 6 paper slips. On each you can write 100, 10 or 1. What is the largest number the 6 slips can make?", "n": 600, "k": "6*100", "e": "Write 100 on every slip: 6 hundreds = 600."},
+{"t": "Using the same 6 slips (each 100, 10 or 1), what is the smallest number you can make?", "n": 6, "k": "6*1", "e": "Write 1 on every slip: 1 + 1 + 1 + 1 + 1 + 1 = 6."},
+{"t": "To make 231 with slips of 100, 10 and 1, how many slips do you need?", "n": 6, "u": "slips", "k": "2+3+1", "e": "2 slips of 100, 3 slips of 10 and 1 slip of 1: 2 + 3 + 1 = 6."},
+{"t": "Which number can NOT be made with exactly 6 slips (each 100, 10 or 1)?", "o": ["999", "123", "600", "42"], "e": "999 needs 9 + 9 + 9 = 27 slips. 123 needs 1 + 2 + 3 = 6, 600 needs 6, and 42 needs 4 + 2 = 6."},
+{"t": "Using only the digits 3 and 8 (you may repeat them), what is the largest 3-digit number?", "n": 888, "e": "Use the bigger digit, 8, in every place."},
+{"t": "Make the smallest 3-digit number using the digits 3 and 8, using each at least once.", "n": 338, "e": "Put 3 in the hundreds and tens places to keep it small, then 8 must go in the ones place."},
+{"t": "In word numerals, ‘moon’ means 1 (there is one moon) and ‘eyes’ means 2. What number is ‘eyes moon’, read left to right?", "n": 21, "e": "Each word stands for one digit: eyes = 2 then moon = 1, so 2 1 = 21."},
+{"t": "What is a century plus a half century?", "n": 150, "k": "100+50", "e": "A century is 100 and a half century is half of 100, which is 50: 150."},
+{"t": "Riddle: I am between 400 and 450. My tens digit is 3 and my ones digit is 5. Who am I?", "n": 435, "e": "Between 400 and 450 means 4 hundreds; then 3 tens and 5 ones: 435."}
+]},
+{"q": [
+{"t": "There were 963 crows. 48 flew away and then 25 more came. How many crows now?", "n": 940, "u": "crows", "k": "963-48+25", "e": "963 − 48 = 915, then 915 + 25 = 940."},
+{"t": "Counting on by 15: 905, 920, 935, ___. What comes next?", "n": 950, "k": "935+15", "e": "935 + 15 = 950."},
+{"t": "Put 384, 23, 176 and 905 in order from smallest to largest. Which number is second?", "n": 176, "e": "23 has no hundreds, then 176 (1 hundred), 384 (3), 905 (9). The second is 176."},
+{"t": "A driver shows his rice sacks with 9 hundred tiles, 4 ten tiles and 7 one tiles. He unloads 2 hundred sacks. How many sacks are left?", "n": 747, "u": "sacks", "k": "947-200", "e": "He had 947. Taking away 200 changes only the hundreds digit: 9 becomes 7."},
+{"t": "Riddle: I am between 570 and 630. My tens digit is 1 and my ones digit is 5. Who am I?", "n": 615, "e": "Between 570 and 630 with tens digit 1 can only be in the 600s: 615."},
+{"t": "Which number lies between 595 and 605?", "o": ["599", "594", "606", "610"], "e": "599 is more than 595 and less than 605. The others are outside."},
+{"t": "Between which two hundreds does 750 lie?", "o": ["700 and 800", "750 and 800", "700 and 750", "600 and 700"], "e": "750 has 7 hundreds, so it comes after 700 and before 800 — exactly in the middle."},
+{"t": "How many tens make 1000?", "n": 100, "u": "tens", "k": "1000//10", "e": "100 has 10 tens, and 1000 is ten hundreds: 10 × 10 = 100 tens."},
+{"t": "How many 3-digit numbers between 200 and 300 read the same from both ends?", "n": 10, "e": "They must start and end with 2: 202, 212, 222 … 292 — one for each middle digit 0 to 9."},
+{"t": "Rita has 3 notes of ₹100, 6 notes of ₹10 and 8 coins of ₹1. She needs ₹400. How much more does she need?", "n": 32, "u": "₹", "k": "400-(300+60+8)", "e": "She has 300 + 60 + 8 = ₹368. ₹400 − ₹368 = ₹32."}
+]}
+]
+}

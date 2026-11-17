@@ -1,0 +1,53 @@
+{
+"title": "4. Vacation with My Nani Maa",
+"tests": [
+{"q": [
+{"t": "Nandini has 7 balushahi and Chirag has 5. How many do they have in all?", "n": 12, "u": "balushahi", "k": "7+5", "e": "‘In all’ means put them together: 7 + 3 = 10, then 2 more = 12."},
+{"t": "Chirag got 9 story books and Nandini got 7 puzzle books. How many books in total?", "n": 16, "u": "books", "k": "9+7", "e": "9 + 1 = 10, and 6 more makes 16."},
+{"t": "Find 18 − 9.", "n": 9, "k": "18-9", "e": "18 − 8 = 10, then take 1 more: 9. Check: 9 + 9 = 18."},
+{"t": "They have 15 stamps and get 7 more. How many stamps now?", "n": 22, "u": "stamps", "k": "15+7", "e": "15 + 5 = 20, then 2 more = 22."},
+{"t": "Find 34 + 6.", "n": 40, "k": "34+6", "e": "4 ones + 6 ones make a full ten, so 34 jumps to 40."},
+{"t": "Find 33 − 5.", "n": 28, "k": "33-5", "e": "33 − 3 = 30, then 2 more back = 28."},
+{"t": "Nani Maa’s trick: there are 15 seeds in all and 12 are on the table. How many are hidden under the handkerchief?", "n": 3, "u": "seeds", "k": "15-12", "e": "Seen + hidden = total, so hidden = 15 − 12 = 3."},
+{"t": "They have 22 stamps. Uncle gives them 30 more. How many stamps now?", "n": 52, "u": "stamps", "k": "22+30", "e": "Adding 30 is three jumps of 10: 32, 42, 52."},
+{"t": "A frog sits on bead 7 and jumps forward 10 beads. Which bead does it land on?", "n": 17, "k": "7+10", "e": "Adding 10 adds one ten and keeps the ones digit 7: 17."},
+{"t": "Which word tells you to subtract?", "o": ["take away", "total", "sum", "added to"], "e": "Take away means some are removed. Total, sum and added to all mean add."}
+]},
+{"q": [
+{"t": "They have 52 stamps; 37 show famous people and the rest show monuments. How many show monuments?", "n": 15, "u": "stamps", "k": "52-37", "e": "From 37 jump 3 to 40, then 10 to 50, then 2 to 52: 3 + 10 + 2 = 15."},
+{"t": "Nani Maa plucked 25 red radishes and 36 white radishes. How many radishes in all?", "n": 61, "u": "radishes", "k": "25+36", "e": "20 + 30 = 50 and 5 + 6 = 11, so 50 + 11 = 61."},
+{"t": "A box holds 100 vegetables. 65 are tomatoes and the rest are carrots. How many carrots?", "n": 35, "u": "carrots", "k": "100-65", "e": "65 + 5 = 70, then + 30 = 100, so 5 + 30 = 35."},
+{"t": "Find 42 − 15.", "n": 27, "k": "42-15", "e": "42 − 10 = 32, then 32 − 5 = 27."},
+{"t": "Find 23 + 12.", "n": 35, "k": "23+12", "e": "23 + 10 = 33, then + 2 = 35."},
+{"t": "Nani Maa’s trick: 27 seeds in all, 12 on the table. How many are hidden?", "n": 15, "u": "seeds", "k": "27-12", "e": "Hidden = total − seen = 27 − 12 = 15."},
+{"t": "On the number grid Nandini is at 45. She moves forward 34. Where does she land?", "n": 79, "k": "45+34", "e": "Move up 3 rows (+30) to 75, then right 4 (+4) to 79."},
+{"t": "They have 52 stamps and want 75. How many more do they need?", "n": 23, "u": "stamps", "k": "75-52", "e": "52 + 20 = 72, then + 3 = 75, so 23 more."},
+{"t": "A grasshopper is on 93 and jumps back 10 three times. Where does it land?", "n": 63, "k": "93-3*10", "e": "83, 73, 63 — each jump back takes away one ten."},
+{"t": "In Nani Maa’s magic square one row is 2, 7, 6. What do these add up to?", "n": 15, "k": "2+7+6", "e": "2 + 7 = 9, and 9 + 6 = 15. In this magic square every row adds to 15."}
+]},
+{"q": [
+{"t": "Nandini collected 85 apples and Chirag collected 67. How many apples in all?", "n": 152, "u": "apples", "k": "85+67", "e": "85 + 15 = 100, and 67 − 15 = 52 more: 100 + 52 = 152."},
+{"t": "Nandini collected 85 apples and Chirag 67. How many more did Nandini collect?", "n": 18, "u": "apples", "k": "85-67", "e": "From 67 jump 3 to 70, then 15 to 85: 3 + 15 = 18."},
+{"t": "Babli sold 34 books on Monday and 45 on Tuesday. How many more did she sell on Tuesday?", "n": 11, "u": "books", "k": "45-34", "e": "34 + 10 = 44 and one more is 45: 11 more."},
+{"t": "Team Red made 56 runs before lunch and 65 after lunch. How many runs in all?", "n": 121, "u": "runs", "k": "56+65", "e": "50 + 60 = 110 and 6 + 5 = 11, so 110 + 11 = 121."},
+{"t": "Gehu had 56 plants. Some dried up and 29 are left. How many dried up?", "n": 27, "u": "plants", "k": "56-29", "e": "From 29 jump 1 to 30, then 26 to 56: 1 + 26 = 27."},
+{"t": "Without working it out fully: is 150 − 49 more or less than 100?", "o": ["More than 100", "Less than 100", "Exactly 100"], "e": "150 − 50 is 100. Taking away 1 less than 50 leaves 1 more, so 101."},
+{"t": "Is 134 − 56 more or less than 100?", "o": ["Less than 100", "More than 100", "Exactly 100"], "e": "134 − 34 = 100 already, and we still take away 22 more, so it drops below 100 (it is 78)."},
+{"t": "In a 1 to 9 magic square, every row adds to 15. One row has 4 and 3. What is the missing number?", "n": 8, "k": "15-4-3", "e": "4 + 3 = 7, and 7 + 8 = 15."},
+{"t": "Find 63 + 29.", "n": 92, "k": "63+29", "e": "Adding 29 is adding 30 and taking 1 back: 93 − 1 = 92."},
+{"t": "On the number grid Nandini is at 30 and moves forward 66. Where does she land?", "n": 96, "k": "30+66", "e": "Up 6 rows (+60) to 90, then right 6 to 96."}
+]},
+{"q": [
+{"t": "Rama sold 39 vadas on the first day. The next day she sold 12 more than on the first day. How many vadas did she sell in the two days?", "n": 90, "u": "vadas", "k": "39+(39+12)", "e": "Day 2 = 39 + 12 = 51. Both days = 39 + 51 = 90."},
+{"t": "A box of 100 vegetables has 65 tomatoes; the rest are carrots. Nani Maa gives away 20 carrots. How many carrots are left?", "n": 15, "u": "carrots", "k": "100-65-20", "e": "Carrots = 100 − 65 = 35. After giving 20: 35 − 20 = 15."},
+{"t": "Nandini picked 85 apples and Chirag picked 67. They gave 50 to their neighbours. How many are left?", "n": 102, "u": "apples", "k": "85+67-50", "e": "Together 85 + 67 = 152. Then 152 − 50 = 102."},
+{"t": "They have 52 stamps and want 75. A friend gives them 10. How many more do they still need?", "n": 13, "u": "stamps", "k": "75-52-10", "e": "52 + 10 = 62. From 62 to 75 is 13."},
+{"t": "In the race-to-100 game, each turn adds a number from 1 to 10. The total is 83. What is the fewest turns needed to reach exactly 100?", "n": 2, "u": "turns", "k": "-(-(100-83)//10)", "e": "83 needs 17 more. One turn adds at most 10, so it takes at least 2 turns (for example 10 then 7)."},
+{"t": "In a 1 to 9 magic square, every column adds to 15. A column has 7 and 5. What is the third number?", "n": 3, "k": "15-7-5", "e": "7 + 5 = 12, and 12 + 3 = 15."},
+{"t": "Gehu had 56 plants and 27 dried up. Then she bought 15 new plants. How many plants does she have now?", "n": 44, "u": "plants", "k": "56-27+15", "e": "56 − 27 = 29 left, then 29 + 15 = 44."},
+{"t": "Which one gives MORE than 100?", "o": ["68 + 41", "124 − 30", "45 + 50", "150 − 51"], "e": "68 + 41 = 109. The others are 94, 95 and 99."},
+{"t": "Team Red made 56 runs before lunch and 65 after. Team Blue made 109 runs. Who won, and by how many runs?", "o": ["Team Red, by 12 runs", "Team Blue, by 12 runs", "Team Red, by 21 runs", "Team Blue, by 2 runs"], "k": "56+65-109", "e": "Team Red made 56 + 65 = 121, which is 12 more than 109."},
+{"t": "Babli sold 34 books on Monday and 45 on Tuesday. She wants to sell 100 books in three days. How many must she sell on Wednesday?", "n": 21, "u": "books", "k": "100-34-45", "e": "Two days: 34 + 45 = 79. To reach 100 she needs 100 − 79 = 21."}
+]}
+]
+}

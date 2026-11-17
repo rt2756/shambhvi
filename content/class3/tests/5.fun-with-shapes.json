@@ -1,0 +1,53 @@
+{
+"title": "5. Fun with Shapes",
+"tests": [
+{"q": [
+{"t": "How many sides does a rectangle have?", "n": 4, "u": "sides", "e": "A rectangle has 4 straight sides: top, bottom, left and right."},
+{"t": "How many corners does a triangle have?", "n": 3, "u": "corners", "e": "A triangle has 3 sides, and each pair of sides meets at a corner: 3 corners."},
+{"t": "Which shape has no corners?", "o": ["circle", "square", "triangle", "rectangle"], "e": "A circle is one smooth curved line, so there is nowhere for a corner to form."},
+{"t": "In a square, the four sides are:", "o": ["all equal in length", "all different lengths", "two long and two short", "curved"], "e": "That is what makes a square special: every side is the same length."},
+{"t": "The corner of a page in your book is a:", "o": ["square corner", "round corner", "corner less than a square corner", "corner more than a square corner"], "e": "A page is a rectangle, and all the corners of a rectangle are square corners."},
+{"t": "Which shape has 3 straight sides?", "o": ["triangle", "rectangle", "circle", "square"], "e": "‘Tri’ means three: a triangle has 3 sides."},
+{"t": "A ludo board is shaped like a:", "o": ["square", "circle", "triangle", "cone"], "e": "All four sides of a ludo board are equal and its corners are square corners."},
+{"t": "If you trace around a bangle, you draw a:", "o": ["circle", "square", "triangle", "rectangle"], "e": "A bangle is round, so its outline is a circle."},
+{"t": "How many matchsticks do you need to make one square, one stick for each side?", "n": 4, "u": "matchsticks", "e": "A square has 4 sides, so it needs 4 matchsticks."},
+{"t": "You fold a round paper plate in half one way, then in half another way. The two fold lines meet at the:", "o": ["centre", "edge", "corner", "side"], "e": "Each fold goes through the middle of the circle, so they cross at its centre."}
+]},
+{"q": [
+{"t": "How many sides do 2 rectangles have altogether?", "n": 8, "u": "sides", "k": "2*4", "e": "Each rectangle has 4 sides: 4 + 4 = 8."},
+{"t": "How many corners do a triangle and a square have altogether?", "n": 7, "u": "corners", "k": "3+4", "e": "Triangle 3 + square 4 = 7."},
+{"t": "In a rectangle, which sides are always equal in length?", "o": ["the opposite sides", "all four sides", "no two sides", "only the top and the left side"], "e": "In a rectangle the top matches the bottom and the left matches the right — opposite sides are equal."},
+{"t": "You trace all the faces of a matchbox. What shapes do you get?", "o": ["rectangles", "circles", "triangles", "cones"], "e": "A matchbox is a cuboid, and every face of a cuboid is a rectangle."},
+{"t": "How many matchsticks make 2 squares side by side that share one side?", "n": 7, "u": "matchsticks", "k": "4+3", "e": "The first square needs 4; the second shares a side, so it needs only 3 more: 4 + 3 = 7."},
+{"t": "Which of these is made of a curved line?", "o": ["circle", "triangle", "rectangle", "square"], "e": "A circle is drawn with one curved line; the others use straight lines."},
+{"t": "A square sheet is folded in half so that one edge lies on the opposite edge. What shape is each half?", "o": ["rectangle", "triangle", "circle", "square"], "e": "Folding edge to edge halves one side but not the other, so you get a long rectangle."},
+{"t": "A square sheet is folded corner to opposite corner. What shape is each half?", "o": ["triangle", "rectangle", "circle", "square"], "e": "The fold goes from corner to corner, cutting the square into two triangles."},
+{"t": "Can a cuboid have a face shaped like a triangle?", "o": ["No", "Yes", "Only a big cuboid", "Only a small cuboid"], "e": "Every face of a cuboid is a rectangle (sometimes a square), never a triangle."},
+{"t": "How many corners do 3 triangles have altogether?", "n": 9, "u": "corners", "k": "3*3", "e": "Each triangle has 3 corners: 3 + 3 + 3 = 9."}
+]},
+{"q": [
+{"t": "How many matchsticks make 3 squares in a row, each new square sharing a side with the one before?", "n": 10, "u": "matchsticks", "k": "4+3+3", "e": "The first square needs 4, and each new one needs only 3: 4 + 3 + 3 = 10."},
+{"t": "Squares are made in a row the same way. How many squares can you make with 13 matchsticks?", "n": 4, "u": "squares", "k": "(13-1)//3", "e": "4 + 3 + 3 + 3 = 13, so 4 squares."},
+{"t": "A rectangle is made of sticks: one side uses 6 sticks and the side next to it uses 3 sticks. How many sticks make the whole rectangle?", "n": 18, "u": "sticks", "k": "6+3+6+3", "e": "Opposite sides are equal, so it is 6 + 3 + 6 + 3 = 18."},
+{"t": "One side of a square uses 5 sticks. How many sticks make the whole square?", "n": 20, "u": "sticks", "k": "4*5", "e": "All 4 sides of a square are equal: 5 + 5 + 5 + 5 = 20."},
+{"t": "Which shape has 4 square corners?", "o": ["rectangle", "triangle", "circle", "a shape with 5 equal sides"], "e": "All four corners of a rectangle are square corners."},
+{"t": "A square is cut along both lines from corner to opposite corner. How many triangles do you get?", "n": 4, "u": "triangles", "e": "The two cuts cross in the middle and split the square into 4 triangles."},
+{"t": "A rectangle is covered by square tiles: 3 tiles along the long side and 2 tiles along the short side. How many tiles are used?", "n": 6, "u": "tiles", "k": "3*2", "e": "There are 2 rows of 3 tiles: 3 + 3 = 6."},
+{"t": "A big square is split into 4 small squares (2 rows of 2). How many squares can you see in all, counting the big one?", "n": 5, "u": "squares", "k": "4+1", "e": "4 small squares + 1 big square = 5."},
+{"t": "Which sentence is TRUE?", "o": ["Every square is a rectangle", "Every rectangle is a square", "A triangle has 4 corners", "A circle has one corner"], "e": "A square has opposite sides equal and square corners, so it is a rectangle too — a special one."},
+{"t": "At 3 o’clock, the two hands of a clock make what kind of corner?", "o": ["a square corner", "less than a square corner", "more than a square corner", "no corner"], "e": "One hand points to 12 and the other to 3, standing like the corner of a page."}
+]},
+{"q": [
+{"t": "Murugan made 3 squares in a row with 10 matchsticks. How many matchsticks does he need for 5 squares in a row?", "n": 16, "u": "matchsticks", "k": "4+3*4", "e": "First square 4, then 3 for each of the other 4 squares: 4 + 12 = 16."},
+{"t": "You have 12 matchsticks and make squares in one row, each sharing a side with the one before. How many full squares can you make?", "n": 3, "u": "squares", "k": "(12-1)//3", "e": "3 squares use 10 sticks; a 4th would need 13, so only 3, with 2 sticks left over."},
+{"t": "A triangle pattern: 1 row has 1 small triangle, 2 rows have 4, 3 rows have 9. How many small triangles are there with 4 rows?", "n": 16, "u": "triangles", "k": "1+3+5+7", "e": "Each new row adds the next odd number: 1, then + 3, + 5, + 7 = 16."},
+{"t": "A chocolate bar is 4 squares long and 3 squares wide. 5 squares are eaten. How many squares are left?", "n": 7, "u": "squares", "k": "4*3-5", "e": "3 rows of 4 = 12 squares. 12 − 5 = 7."},
+{"t": "Riddle: I have 4 sides and 4 square corners. My opposite sides are equal, but one pair is longer than the other. Who am I?", "o": ["a rectangle that is not a square", "a square", "a triangle", "a circle"], "e": "If all sides were equal it would be a square; one pair longer means a rectangle."},
+{"t": "How many corners do 2 triangles, 1 square and 1 circle have altogether?", "n": 10, "u": "corners", "k": "2*3+4+0", "e": "Triangles 3 + 3, square 4, circle 0: 6 + 4 + 0 = 10."},
+{"t": "Which shape can NOT be made by joining two equal triangles?", "o": ["a circle", "a square", "a rectangle", "a bigger triangle"], "e": "Triangles have straight sides, so joining them can never make the curved line of a circle."},
+{"t": "4 equal square tiles are joined to make one big square. How many small tiles are along each side of the big square?", "n": 2, "u": "tiles", "e": "The big square is 2 rows of 2 tiles, so each side has 2 tiles."},
+{"t": "How many square corners do one rectangle and one square have altogether?", "n": 8, "u": "corners", "k": "4+4", "e": "All 4 corners of a rectangle and all 4 of a square are square corners: 4 + 4 = 8."},
+{"t": "A rangoli has 3 circles, 4 triangles and 2 squares. How many of these shapes are made only of straight lines?", "n": 6, "u": "shapes", "k": "4+2", "e": "Triangles and squares have straight sides; circles are curved: 4 + 2 = 6."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "10. Fun at Class Party!",
+"tests": [
+{"q": [
+{"t": "Which of these can you use to measure the length of a table?", "o": ["a handspan", "a clock", "a weighing balance", "a measuring cup"], "e": "A handspan is a length — you see how many fit along the table."},
+{"t": "Leena and Adi each measure the same table with their handspans and get different answers. Why?", "o": ["Their handspans are different sizes", "The table changed size", "One of them cannot count", "Tables have no length"], "e": "A bigger hand fits fewer times along the same table."},
+{"t": "Shopkeepers measure cloth with a:", "o": ["metre rod", "clock", "weighing balance", "measuring cup"], "e": "A metre rod is the same length everywhere, so everyone gets a fair amount."},
+{"t": "A one-metre rope is folded in half. Each half is:", "o": ["half a metre", "a quarter metre", "two metres", "one metre"], "e": "Folding in half makes 2 equal parts of the metre."},
+{"t": "That half-metre piece is folded in half again. Each part is now:", "o": ["a quarter metre", "half a metre", "one metre", "three metres"], "e": "Half of a half is a quarter: the metre is now in 4 equal parts."},
+{"t": "How many half metres make 1 metre?", "n": 2, "u": "half metres", "e": "Two equal halves make the whole metre."},
+{"t": "How many quarter metres make 1 metre?", "n": 4, "u": "quarter metres", "e": "Folding a metre in half twice gives 4 equal quarters."},
+{"t": "Which is most likely longer than 1 metre?", "o": ["the height of a classroom door", "a pencil", "an eraser", "a spoon"], "e": "A door is taller than a grown-up, which is much more than a metre."},
+{"t": "Which is most likely shorter than 1 metre?", "o": ["a pencil", "a bus", "a classroom", "a cricket pitch"], "e": "A pencil fits in your hand; a metre is about as long as a big step."},
+{"t": "How can you check if a big table will fit through the door without lifting it?", "o": ["Measure both with a thread and compare", "Weigh the table", "Count the table legs", "Look at the colour"], "e": "A thread can carry the table’s length to the door so you can compare the two."}
+]},
+{"q": [
+{"t": "How many half metres are there in 3 metres?", "n": 6, "u": "half metres", "k": "3*2", "e": "Each metre has 2 half metres: 2 + 2 + 2 = 6."},
+{"t": "How many quarter metres are there in 2 metres?", "n": 8, "u": "quarter metres", "k": "2*4", "e": "Each metre has 4 quarters: 4 + 4 = 8."},
+{"t": "How many cuts do you make to cut a rope into 4 pieces?", "n": 3, "u": "cuts", "e": "Each cut makes one more piece. 1 piece → 2 → 3 → 4 needs 3 cuts."},
+{"t": "Two half-metre ribbons and one 1-metre ribbon are joined. How long is the ribbon now?", "n": 2, "u": "metres", "k": "1+1", "e": "Two halves make 1 metre, and 1 metre more makes 2 metres."},
+{"t": "A table is 4 pencils long. A paper strip is as long as 2 pencils. How many strips long is the table?", "n": 2, "u": "strips", "k": "4//2", "e": "Each strip covers 2 pencil lengths, so 4 pencil lengths need 2 strips."},
+{"t": "Which is the shortest?", "o": ["a quarter metre", "half a metre", "one metre", "two metres"], "e": "A quarter is 1 of 4 equal parts of a metre — smaller than a half."},
+{"t": "A ribbon is 1 metre long. A quarter metre is cut off. How much is left?", "o": ["three quarters of a metre", "half a metre", "a quarter metre", "one metre"], "e": "4 quarters − 1 quarter = 3 quarters."},
+{"t": "Adi’s footstep is longer than Leena’s. Both walk across the same room. Who takes fewer steps?", "o": ["Adi", "Leena", "Both take the same", "We cannot tell"], "e": "Longer steps cover more ground each time, so fewer of them are needed."},
+{"t": "A 1-metre mark is drawn on the wall. Ravi’s head is above it and Sita’s head is below it. Who is taller than 1 metre?", "o": ["Ravi", "Sita", "Both", "Neither"], "e": "Ravi reaches past the 1-metre mark, so he is more than 1 metre tall."},
+{"t": "Which unit gives the same answer for everyone who measures?", "o": ["a metre", "a handspan", "a footstep", "an arm length"], "e": "Hands, feet and arms differ from person to person, but a metre is always the same length."}
+]},
+{"q": [
+{"t": "How many cuts do you make to cut a rope into 6 pieces?", "n": 5, "u": "cuts", "k": "6-1", "e": "Each cut adds one piece, so you need one cut fewer than the number of pieces: 6 − 1 = 5."},
+{"t": "Half a metre and a quarter metre joined together make:", "o": ["three quarters of a metre", "one metre", "half a metre", "two metres"], "e": "Half a metre is 2 quarters; add 1 more quarter to get 3 quarters."},
+{"t": "How many quarter-metre pieces can you cut from 3 metres of rope?", "n": 12, "u": "pieces", "k": "3*4", "e": "Each metre gives 4 quarters: 4 + 4 + 4 = 12."},
+{"t": "A table is 8 of Adi’s handspans long and 10 of Leena’s. Whose handspan is longer?", "o": ["Adi’s", "Leena’s", "They are the same", "We cannot tell"], "e": "Fewer handspans fit along the same table, so each of Adi’s must be longer."},
+{"t": "4 half-metre strips are laid end to end. How long are they together?", "n": 2, "u": "metres", "k": "4//2", "e": "Every 2 half metres make 1 metre, so 4 half metres make 2 metres."},
+{"t": "A table is longer than the door is wide, but the table’s breadth is shorter than the door’s width. Can it go through?", "o": ["Yes, if you turn it so the short side goes first", "No, never", "Only if you cut it", "Only if you lift it over the roof"], "e": "What has to fit is the side that faces the door; the short side fits."},
+{"t": "A paper strip is half a metre long. How many strips make 2 metres?", "n": 4, "u": "strips", "k": "2*2", "e": "2 strips make 1 metre, so 2 metres need 2 + 2 = 4 strips."},
+{"t": "What is the best tool to measure the length of a playground?", "o": ["a metre rope", "a pencil", "a handspan", "an eraser"], "e": "A long, standard rope needs fewer moves and gives a fair answer; a pencil would take ages."},
+{"t": "Shelly’s string is longer than Adi’s. Adi’s string is longer than Leena’s. Whose string is the shortest?", "o": ["Leena’s", "Shelly’s", "Adi’s", "They are all equal"], "e": "Shelly’s > Adi’s > Leena’s, so Leena’s is at the short end."},
+{"t": "Ravi jumps 1 metre. Sita jumps half a metre more than Ravi. How many half metres does Sita jump?", "n": 3, "u": "half metres", "k": "2+1", "e": "1 metre is 2 half metres; one more half makes 3 half metres."}
+]},
+{"q": [
+{"t": "A saree is 5 metres long. Two curtains are cut from it, each 2 metres long. How much saree is left?", "n": 1, "u": "metre", "k": "5-2*2", "e": "The curtains use 2 + 2 = 4 metres. 5 − 4 = 1 metre."},
+{"t": "A 3-metre rope is cut into quarter-metre pieces. How many cuts are made?", "n": 11, "u": "cuts", "k": "3*4-1", "e": "3 metres make 12 quarter pieces, and 12 pieces need one cut fewer: 11 cuts."},
+{"t": "To decorate a board’s border, each long side needs 3 paper strips and each short side needs 2. How many strips for the whole border?", "n": 10, "u": "strips", "k": "3+2+3+2", "e": "A board has 2 long and 2 short sides: 3 + 2 + 3 + 2 = 10."},
+{"t": "Chetan jumps 1 metre. Ben jumps a quarter metre. How many of Ben’s jumps make one of Chetan’s?", "n": 4, "u": "jumps", "e": "4 quarter metres make 1 metre."},
+{"t": "Asha joins 3 half-metre ribbons and 2 quarter-metre ribbons end to end. How long is it?", "n": 2, "u": "metres", "e": "3 halves = 1 metre and a half. 2 quarters = another half. Together: 2 metres."},
+{"t": "Which is the same length as one metre?", "o": ["two half metres", "three quarter metres", "one half metre", "two quarter metres"], "e": "2 halves make a whole metre. 3 quarters is less, and 2 quarters is only a half."},
+{"t": "Tara is 1 metre and a quarter tall. Raj is half a metre shorter than Tara. How tall is Raj?", "o": ["three quarters of a metre", "one metre", "half a metre", "one and a half metres"], "e": "1 metre and a quarter is 5 quarters. Half a metre is 2 quarters. 5 − 2 = 3 quarters."},
+{"t": "A toy bridge is 1 metre tall. Three boxes, each half a metre tall, are stacked. Can the stack go under the bridge?", "o": ["No, the stack is taller than the bridge", "Yes, it fits easily", "Yes, they are exactly the same height", "We cannot tell"], "e": "3 half metres is 1 metre and a half, which is more than 1 metre."},
+{"t": "A 2-metre ribbon: half a metre goes to Asha and a quarter metre goes to Ben. How many quarter metres are left?", "n": 5, "u": "quarter metres", "k": "2*4-2-1", "e": "2 metres = 8 quarters. Asha takes 2 quarters and Ben takes 1: 8 − 3 = 5."},
+{"t": "There are 4 strings of lights 1 metre long and 4 strings half a metre long. How many metres of lights in all?", "n": 6, "u": "metres", "k": "4*1+4//2", "e": "4 one-metre strings = 4 metres. 4 half metres = 2 metres. 4 + 2 = 6."}
+]}
+]
+}

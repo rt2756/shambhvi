@@ -1,0 +1,53 @@
+{
+"title": "3. Double Century",
+"tests": [
+{"q": [
+{"t": "What is one more than 99?", "n": 100, "k": "99+1", "e": "After 99 the ones and the tens are full, so the next number is 1 hundred: 100."},
+{"t": "10 bundles of 10 sticks each make how many sticks?", "n": 100, "u": "sticks", "k": "10*10", "e": "Counting in tens: 10, 20, 30 … 100. Ten tens make one hundred."},
+{"t": "70 and how many more make 100?", "n": 30, "k": "100-70", "e": "From 70, three jumps of 10 (80, 90, 100) reach 100."},
+{"t": "1 bundle of 100, 2 bundles of 10 and 3 loose sticks make which number?", "n": 123, "k": "100+20+3", "e": "1 hundred, 2 tens and 3 ones are written 1 2 3."},
+{"t": "What is one more than 149?", "n": 150, "k": "149+1", "e": "149 has 9 ones; one more fills a ten, giving 150."},
+{"t": "What is one less than 160?", "n": 159, "k": "160-1", "e": "Open one ten from 160 and take away 1: 159."},
+{"t": "Which is the number name of 105?", "o": ["One hundred five", "Fifteen", "One hundred fifty", "Ten five"], "e": "105 is 1 hundred, 0 tens and 5 ones: one hundred five."},
+{"t": "100 and 14 more make which number?", "n": 114, "k": "100+14", "e": "Start at 100 and count on 14: 114."},
+{"t": "In the clap-snap-pat game, a clap is 100, a snap is 10 and a pat is 1. Clap, snap, snap, pat makes which number?", "n": 121, "k": "100+10+10+1", "e": "1 clap = 100, 2 snaps = 20, 1 pat = 1: 100 + 20 + 1 = 121."},
+{"t": "Which number comes between 129 and 131?", "n": 130, "e": "One more than 129 is 130, and one less than 131 is 130."}
+]},
+{"q": [
+{"t": "45 and how many more make 100?", "n": 55, "k": "100-45", "e": "45 + 5 = 50, and 50 + 50 = 100, so 5 + 50 = 55 more."},
+{"t": "How many more than 85 make 100?", "n": 15, "k": "100-85", "e": "85 + 5 = 90, then + 10 = 100: 5 + 10 = 15."},
+{"t": "1 hundred, 7 tens and 2 ones make which number?", "n": 172, "k": "100+70+2", "e": "Write the hundreds, tens and ones digits in order: 1, 7, 2."},
+{"t": "What is 30 more than 150?", "n": 180, "k": "150+30", "e": "Three jumps of 10 from 150: 160, 170, 180."},
+{"t": "Jumping by 5: 100, 105, 110, ___. What comes next?", "n": 115, "k": "110+5", "e": "Each jump adds 5, so 110 + 5 = 115."},
+{"t": "Jumping by 20: 100, 120, 140, ___. What comes next?", "n": 160, "k": "140+20", "e": "Each jump adds 20, so 140 + 20 = 160."},
+{"t": "How many tens are there in 100?", "n": 10, "u": "tens", "k": "100//10", "e": "10, 20, 30 … 100 is ten jumps of 10."},
+{"t": "150 and how many more make 200?", "n": 50, "k": "200-150", "e": "150 is 1 hundred and 5 tens; 5 more tens make another hundred."},
+{"t": "Which number is the biggest?", "o": ["198", "189", "169", "179"], "e": "All have 1 hundred, so look at the tens: 198 has 9 tens, the most."},
+{"t": "What is one less than 200?", "n": 199, "k": "200-1", "e": "Just before 200 comes 199 — like 99 comes just before 100."}
+]},
+{"q": [
+{"t": "140 and how many more make 200?", "n": 60, "k": "200-140", "e": "From 140, jumps of 10 go 150, 160 … 200 — that is 6 tens, or 60."},
+{"t": "Clap, snap snap snap snap, pat pat pat pat pat pat. Clap = 100, snap = 10, pat = 1. Which number is it?", "n": 146, "k": "100+4*10+6", "e": "1 clap, 4 snaps and 6 pats: 100 + 40 + 6 = 146."},
+{"t": "1 hundred, 0 tens and 9 ones make which number?", "n": 109, "k": "100+9", "e": "There are no tens, so a 0 holds the tens place: 1 0 9."},
+{"t": "1 hundred, 6 tens and no ones make which number?", "n": 160, "k": "100+60", "e": "The 0 shows there are no loose ones: 1 6 0."},
+{"t": "Write ‘one hundred and seventy-eight’ in digits.", "n": 178, "k": "100+78", "e": "1 hundred, 7 tens and 8 ones: 178."},
+{"t": "Which one does NOT make 125?", "o": ["100 + 52", "100 + 25", "120 + 5", "1 hundred, 2 tens and 5 ones"], "e": "100 + 52 is 152, because 52 is 5 tens and 2 ones, not 2 tens and 5 ones."},
+{"t": "Counting back by 5: 150, 145, 140, ___. What comes next?", "n": 135, "k": "140-5", "e": "Each step takes away 5: 140 − 5 = 135."},
+{"t": "10 packets of 10 bindis and 6 loose bindis. How many bindis is that?", "n": 106, "u": "bindis", "k": "10*10+6", "e": "10 packets of 10 is 100; add the 6 loose ones."},
+{"t": "How many bundles of 10 sticks make 170 sticks?", "n": 17, "u": "bundles", "k": "170//10", "e": "100 is 10 bundles and 70 is 7 more bundles: 10 + 7 = 17."},
+{"t": "Which number is exactly half-way between 120 and 130?", "n": 125, "k": "(120+130)//2", "e": "120 to 125 is 5 steps and 125 to 130 is also 5 steps."}
+]},
+{"q": [
+{"t": "Raju has 64 marbles and wants 100. His friend gives him 20. How many more does he still need?", "n": 16, "u": "marbles", "k": "100-64-20", "e": "After the gift he has 64 + 20 = 84; 84 + 16 = 100."},
+{"t": "Meena has one full box of 100 bindis and 9 packets of 10. How many more bindis does she need to make 200?", "n": 10, "u": "bindis", "k": "200-(100+90)", "e": "She has 100 + 90 = 190. One more packet of 10 makes 200."},
+{"t": "Start at 112 and make 4 jumps of 20. Where do you land?", "n": 192, "k": "112+4*20", "e": "132, 152, 172, 192 — each jump adds 2 tens."},
+{"t": "Which number is closest to 200?", "o": ["197", "189", "179", "191"], "e": "197 is only 3 away from 200; 191 is 9 away, 189 is 11 away, 179 is 21 away."},
+{"t": "How many numbers are there from 101 to 110, counting both?", "n": 10, "k": "110-101+1", "e": "101, 102 … 110 — just like counting 1 to 10, there are 10."},
+{"t": "On a snakes-and-ladders board you are on 96. Which number on the dice takes you exactly to 100?", "n": 4, "k": "100-96", "e": "96 + 4 = 100."},
+{"t": "A number has 1 hundred. Its tens digit is 5, and its ones digit is 2 more than its tens digit. What is the number?", "n": 157, "k": "100+50+(5+2)", "e": "Ones digit = 5 + 2 = 7, so the number is 1 5 7."},
+{"t": "You must make 145 with only bundles of 10 and loose sticks (no 100 bundle), using as few loose sticks as you can. How many bundles of 10 do you use?", "n": 14, "u": "bundles", "k": "145//10", "e": "145 = 140 + 5, and 140 is 14 tens. That leaves only 5 loose sticks."},
+{"t": "Meera counts 132 seeds. Then she adds 3 handfuls of 20 seeds each. How many seeds does she have now?", "n": 192, "u": "seeds", "k": "132+3*20", "e": "3 handfuls of 20 is 60; 132 + 60 = 192."},
+{"t": "Which one does NOT make 170?", "o": ["100 + 17", "100 + 70", "150 + 20", "200 − 30"], "e": "100 + 17 is 117. The others all reach 170."}
+]}
+]
+}

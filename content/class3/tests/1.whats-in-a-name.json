@@ -1,0 +1,53 @@
+{
+"title": "1. What’s in a Name?",
+"tests": [
+{"q": [
+{"t": "Deba makes one mark on the wall for each cow that goes out. He makes 9 marks. How many cows went out?", "n": 9, "u": "cows", "e": "One mark stands for one cow, so 9 marks mean 9 cows."},
+{"t": "How many letters are there in the word ‘tiger’?", "n": 5, "k": "len('tiger')", "e": "t-i-g-e-r: count one by one, 5 letters."},
+{"t": "Which animal has the longest name (the most letters)?", "o": ["elephant", "goat", "lion", "deer"], "e": "‘elephant’ has 8 letters; the others have only 4."},
+{"t": "Which animal has the shortest name (the fewest letters)?", "o": ["ox", "goat", "deer", "lion"], "e": "‘ox’ has just 2 letters; the others have 4."},
+{"t": "How many letters are there in ‘seventeen’?", "n": 9, "k": "len('seventeen')", "e": "s-e-v-e-n-t-e-e-n: 9 letters."},
+{"t": "Which of these needs electricity to work?", "o": ["Fan", "Pillow", "Chair", "Blanket"], "e": "A fan has a motor that runs on electricity; the others just sit there."},
+{"t": "Which one does NOT eat food?", "o": ["Doll", "Cat", "Parrot", "Cow"], "e": "A doll is not alive, so it does not eat. Cats, parrots and cows do."},
+{"t": "Which is the number name of 43?", "o": ["forty-three", "thirty-four", "four-three", "fourteen-three"], "e": "43 is 4 tens and 3 ones: forty and three."},
+{"t": "Mahesh and Kartik — who has the longer name?", "o": ["Both have the same number of letters", "Mahesh", "Kartik", "We cannot tell"], "e": "M-a-h-e-s-h has 6 letters and K-a-r-t-i-k has 6 letters too."},
+{"t": "7 cows went out, so there are 7 marks. As cows come back, 7 marks are struck out. Did all the cows come back?", "o": ["Yes, all the cows came back", "No, 7 cows are missing", "No, 1 cow is missing", "We cannot tell"], "e": "Each cow that came back struck out one mark. No mark is left, so no cow is missing."}
+]},
+{"q": [
+{"t": "Deba made 15 marks in the morning. In the evening, 12 marks were struck out. How many cows are still outside?", "n": 3, "u": "cows", "k": "15-12", "e": "Each mark left on the wall is a cow that has not come back: 15 − 12 = 3."},
+{"t": "How many letters are there in ‘forty-three’? (Do not count the dash.)", "n": 10, "k": "len('fortythree')", "e": "‘forty’ has 5 letters and ‘three’ has 5 letters: 5 + 5 = 10."},
+{"t": "How many more letters does ‘elephant’ have than ‘lion’?", "n": 4, "k": "len('elephant')-len('lion')", "e": "‘elephant’ has 8 letters and ‘lion’ has 4: 8 − 4 = 4."},
+{"t": "Which number name has exactly 8 letters? (Do not count the dash.)", "o": ["fifty-six", "twelve", "seventy-seven", "one"], "e": "‘fifty’ (5) + ‘six’ (3) = 8. ‘twelve’ has 6, ‘seventy-seven’ has 12, ‘one’ has 3."},
+{"t": "Which is the odd one out?", "o": ["Carrot", "Apple", "Mango", "Banana"], "e": "Apple, mango and banana are fruits; a carrot is a vegetable."},
+{"t": "Hemant has 36 cows and 23 sheep. He makes one mark for each animal. How many marks does he make?", "n": 59, "u": "marks", "k": "36+23", "e": "One mark per animal, so add them: 36 + 23 = 59."},
+{"t": "Which number name has the most letters?", "o": ["seventeen", "twelve", "eleven", "fifteen"], "e": "‘seventeen’ has 9 letters; ‘fifteen’ has 7; ‘twelve’ and ‘eleven’ have 6."},
+{"t": "Names in a group: Asha, Amit, Bina, Arun, Babu. How many names start with A?", "n": 3, "e": "Asha, Amit and Arun start with A — that is 3."},
+{"t": "Names: Ravi, Rita, Sona, Raju, Sam. Which starting letter is used the most?", "o": ["R", "S", "T", "M"], "e": "Ravi, Rita and Raju start with R (3 names); only 2 start with S."},
+{"t": "How many letters are there in ‘twenty’?", "n": 6, "k": "len('twenty')", "e": "t-w-e-n-t-y: 6 letters."}
+]},
+{"q": [
+{"t": "Riddle: I am between 30 and 40. My number name has two words. The second word has 5 letters and ends with ‘n’. Who am I?", "n": 37, "e": "Thirty-___: the 5-letter words are three, seven and eight. Only ‘seven’ ends in n, so it is 37."},
+{"t": "How many letters are there in ‘ninety-nine’? (Do not count the dash.)", "n": 10, "k": "len('ninetynine')", "e": "‘ninety’ has 6 letters and ‘nine’ has 4: 6 + 4 = 10."},
+{"t": "‘fifty-six’ has 8 letters. Which other number name also has 8 letters?", "o": ["forty-two", "fifty-five", "sixty", "seventy-one"], "e": "‘forty’ (5) + ‘two’ (3) = 8. ‘fifty-five’ has 9, ‘sixty’ has 5, ‘seventy-one’ has 10."},
+{"t": "24 marks were made in the morning. In the evening 20 marks were struck out. Later 3 more cows came home and 3 more marks were struck out. How many cows are still missing?", "n": 1, "u": "cow", "k": "24-20-3", "e": "Marks left = cows still out: 24 − 20 = 4, then 4 − 3 = 1."},
+{"t": "Rita sorts 12 toys into ‘things with wheels’ and ‘things without wheels’. 5 toys have wheels. How many have no wheels?", "n": 7, "u": "toys", "k": "12-5", "e": "Every toy goes into exactly one group, so the two groups together make 12: 12 − 5 = 7."},
+{"t": "Which roll number has a number name with exactly 5 letters?", "o": ["7", "11", "13", "10"], "e": "‘seven’ has 5 letters. ‘eleven’ has 6, ‘thirteen’ has 8 and ‘ten’ has 3."},
+{"t": "Four friends are called Ib, Asha, Gopal and Venkat. How many letters are in all four names together?", "n": 17, "k": "len('IbAshaGopalVenkat')", "e": "Ib 2 + Asha 4 + Gopal 5 + Venkat 6 = 17."},
+{"t": "Which list goes from the shortest name to the longest name?", "o": ["Om, Ravi, Sunita, Gurpreet", "Ravi, Om, Sunita, Gurpreet", "Om, Sunita, Ravi, Gurpreet", "Gurpreet, Sunita, Ravi, Om"], "e": "Om has 2 letters, Ravi 4, Sunita 6 and Gurpreet 8."},
+{"t": "How many numbers from 1 to 99 have a number name with only 3 letters?", "n": 4, "e": "Only one, two, six and ten have 3 letters; every other number name is longer."},
+{"t": "In a class, 6 children have one ponytail, 4 have two ponytails and 5 have short hair. How many children are there?", "n": 15, "u": "children", "k": "6+4+5", "e": "Every child is in exactly one hair-style group, so add the groups: 6 + 4 + 5 = 15."}
+]},
+{"q": [
+{"t": "Deep makes one mark for each cow and each goat that goes out: 18 cows and 9 goats. In the evening, 25 marks are struck out. How many animals are still outside?", "n": 2, "u": "animals", "k": "18+9-25", "e": "Marks made = 18 + 9 = 27. Marks left = 27 − 25 = 2, and each mark left is an animal still out."},
+{"t": "Teji’s roll number is 43 (‘forty-three’). Jojo’s roll number is one more. How many letters are in Jojo’s number name?", "n": 9, "k": "len('fortyfour')", "e": "One more than 43 is 44, ‘forty-four’: 5 + 4 = 9 letters."},
+{"t": "Which number name has the most letters?", "o": ["seventy-seven", "eighty-eight", "twenty-four", "ninety-one"], "e": "‘seventy-seven’ has 7 + 5 = 12 letters; ‘eighty-eight’ has 11, ‘twenty-four’ 10, ‘ninety-one’ 9."},
+{"t": "Riddle: I am between 60 and 70. My number name has 9 letters, and my second word starts with ‘n’. Who am I?", "n": 69, "k": "60+9", "e": "‘sixty’ has 5 letters, so the second word has 4. Four, five and nine have 4 letters; only ‘nine’ starts with n."},
+{"t": "Hemant makes marks for his 36 cows in groups of five. How many full groups of five does he make?", "n": 7, "u": "groups", "k": "36//5", "e": "7 fives make 35, which is 1 short of 36. 8 fives would be 40 — too many."},
+{"t": "In a class, 12 names begin with a vowel (A, E, I, O, U) and 19 names begin with another letter. How many more names begin with another letter?", "n": 7, "k": "19-12", "e": "‘How many more’ means find the difference: 19 − 12 = 7."},
+{"t": "Ravi says, ‘Every animal name with 4 letters has an o in it.’ Which name shows that Ravi is wrong?", "o": ["deer", "goat", "lion", "frog"], "e": "‘deer’ has 4 letters but no o. One example that breaks the rule is enough to show it is wrong."},
+{"t": "How many of the number names from 11 to 19 end in ‘teen’?", "n": 7, "e": "13, 14, 15, 16, 17, 18 and 19 end in ‘teen’; eleven and twelve do not."},
+{"t": "Asha’s name has 4 letters, Bina’s has 4 and Charu’s has 5. Dev’s nickname has as many letters as Asha’s and Charu’s names together. How many letters is that?", "n": 9, "k": "4+5", "e": "Only Asha and Charu are counted: 4 + 5 = 9."},
+{"t": "23 cows went out and 23 marks were made. When they came back, marks were struck out until 5 were left. Later 3 more cows came back. How many cows are still missing?", "n": 2, "u": "cows", "k": "5-3", "e": "5 marks left means 5 cows out. 3 come back and strike 3 marks: 5 − 3 = 2."}
+]}
+]
+}

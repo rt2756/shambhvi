@@ -1,0 +1,53 @@
+{
+"title": "11. Filling and Lifting",
+"tests": [
+{"q": [
+{"t": "Milk and water are measured in:", "o": ["litres", "kilograms", "metres", "minutes"], "e": "A litre tells how much liquid a vessel holds."},
+{"t": "How heavy a bag of rice is, is measured in:", "o": ["kilograms", "litres", "metres", "minutes"], "e": "A kilogram tells how heavy something is."},
+{"t": "How many half-litre mugs make 1 litre?", "n": 2, "u": "mugs", "e": "Two equal halves make one whole litre."},
+{"t": "How many quarter-litre glasses make 1 litre?", "n": 4, "u": "glasses", "e": "A litre split into 4 equal parts gives 4 quarter litres."},
+{"t": "Which is the heaviest?", "o": ["a watermelon", "an apple", "a pencil", "a balloon"], "e": "A watermelon is big and full of juice — far heavier than the others."},
+{"t": "On a pan balance, the pan that goes DOWN holds:", "o": ["the heavier thing", "the lighter thing", "nothing", "the same weight"], "e": "The heavier side pulls its pan lower."},
+{"t": "Which holds more water?", "o": ["a bucket", "a glass", "a spoon", "a cup"], "e": "A bucket is much bigger inside, so it holds the most."},
+{"t": "How many half-kilogram packets make 1 kilogram?", "n": 2, "u": "packets", "e": "Two halves make a whole kilogram."},
+{"t": "How many quarter-kilogram packets make 1 kilogram?", "n": 4, "u": "packets", "e": "4 quarters make a whole kilogram."},
+{"t": "To find whose glass held the most milk, Ritu’s sister poured each glass into:", "o": ["same-sized glasses", "different-sized glasses", "a plate", "the sink"], "e": "Only same-sized glasses make a fair comparison: the one with the most glasses filled held the most."}
+]},
+{"q": [
+{"t": "One jug of lemonade fills 4 glasses. How many glasses do 3 jugs fill?", "n": 12, "u": "glasses", "k": "3*4", "e": "4 + 4 + 4 = 12."},
+{"t": "A bowl is filled by 5 ladles. How many ladles fill 2 bowls?", "n": 10, "u": "ladles", "k": "2*5", "e": "5 + 5 = 10."},
+{"t": "3 half-litre bottles of water poured together make:", "o": ["one and a half litres", "three litres", "half a litre", "one litre"], "e": "2 halves make 1 litre, and 1 more half makes one and a half litres."},
+{"t": "To drink the same amount of juice, you need FEWER of which glasses?", "o": ["big glasses", "small glasses", "it is the same", "we cannot say"], "e": "Each big glass holds more, so fewer are needed."},
+{"t": "Which is lighter?", "o": ["a balloon filled with air", "a basketball", "a school bag full of books", "a brick"], "e": "Air weighs very little, so an air balloon is the lightest."},
+{"t": "Two half-kilogram daal packets together weigh:", "o": ["1 kilogram", "half a kilogram", "a quarter kilogram", "2 kilograms"], "e": "Two halves make a whole kilogram."},
+{"t": "A pencil balances 5 coins and an eraser balances 3 coins. The pencil is heavier by how many coins?", "n": 2, "u": "coins", "k": "5-3", "e": "5 − 3 = 2."},
+{"t": "A mug holds half a litre. How many mugs fill a 2-litre bottle?", "n": 4, "u": "mugs", "k": "2*2", "e": "2 mugs fill 1 litre, so 2 litres need 2 + 2 = 4 mugs."},
+{"t": "Which is most likely heavier than 1 kilogram?", "o": ["a school bag full of books", "a pencil", "a feather", "a leaf"], "e": "A full bag holds many books, which together weigh more than a kilogram."},
+{"t": "A bucket holds 10 litres. How many 1-litre bottles of water fill it?", "n": 10, "u": "bottles", "e": "Each bottle adds 1 litre, so 10 bottles make 10 litres."}
+]},
+{"q": [
+{"t": "A glass holds a quarter litre. How many glasses can be filled from 2 litres?", "n": 8, "u": "glasses", "k": "2*4", "e": "1 litre fills 4 quarter-litre glasses, so 2 litres fill 4 + 4 = 8."},
+{"t": "A jug fills 4 glasses, and each glass is filled by 3 ladles. How many ladles fill the jug?", "n": 12, "u": "ladles", "k": "4*3", "e": "4 glasses × 3 ladles each = 12 ladles."},
+{"t": "A spoon balances 2 sand matchboxes and a pencil box balances 7. How many matchboxes balance both together?", "n": 9, "u": "matchboxes", "k": "2+7", "e": "Put both on one pan: 2 + 7 = 9 matchboxes."},
+{"t": "Poured into same-sized glasses, Ritu’s milk fills 3 glasses, Monu’s fills 2 and Nita’s fills 4. Who had the most milk?", "o": ["Nita", "Ritu", "Monu", "All had the same"], "e": "Nita’s milk filled the most equal glasses (4)."},
+{"t": "4 tea packets balance a 1-kilogram salt packet. Each tea packet weighs:", "o": ["a quarter kilogram", "half a kilogram", "1 kilogram", "4 kilograms"], "e": "1 kilogram shared equally among 4 packets: each is a quarter."},
+{"t": "3 balls look the same, but one is heavier. With a pan balance, what is the fewest number of weighings to find it?", "n": 1, "u": "weighing", "e": "Put one ball on each pan. If one pan drops, that ball is heavy; if they balance, the third ball is the heavy one."},
+{"t": "1 kilogram of cotton and 1 kilogram of iron — which is heavier?", "o": ["Both weigh the same", "Iron", "Cotton", "We cannot tell"], "e": "Both weigh 1 kilogram. The cotton just takes up more space."},
+{"t": "Half a litre + a quarter litre + a quarter litre = how many litres?", "n": 1, "u": "litre", "e": "Half is 2 quarters; 2 + 1 + 1 = 4 quarters, which is 1 litre."},
+{"t": "Each child drinks half a litre of milk a day. How many litres do 6 children drink?", "n": 3, "u": "litres", "k": "6//2", "e": "Every 2 children drink 1 litre, and 6 children make 3 such pairs."},
+{"t": "The red ball is heavier than the orange ball. The orange ball is heavier than the green ball. Which is the lightest?", "o": ["green", "red", "orange", "they all weigh the same"], "e": "Red > orange > green, so green is at the light end."}
+]},
+{"q": [
+{"t": "A 2-litre jug of water is poured into 3 quarter-litre glasses. How many quarter litres are left in the jug?", "n": 5, "u": "quarter litres", "k": "2*4-3", "e": "2 litres = 8 quarter litres. 8 − 3 = 5."},
+{"t": "A bag balances 6 books. One book is taken out and 2 books are put in. Now the bag balances how many books?", "n": 7, "u": "books", "k": "6-1+2", "e": "6 − 1 = 5, then 5 + 2 = 7."},
+{"t": "A 1-kilogram salt packet balances 2 daal packets. Each daal packet balances 2 tea packets. How many tea packets balance the salt?", "n": 4, "u": "tea packets", "k": "2*2", "e": "Each of the 2 daal packets can be swapped for 2 tea packets: 2 + 2 = 4."},
+{"t": "Chintu must drink 6 big glasses to win. Each big glass holds half a litre. How many litres is that?", "n": 3, "u": "litres", "k": "6//2", "e": "2 half-litre glasses make 1 litre, so 6 glasses make 3 litres."},
+{"t": "A water drum holds 20 litres. The family uses 3 buckets of 5 litres each. How many litres are left?", "n": 5, "u": "litres", "k": "20-3*5", "e": "3 buckets × 5 litres = 15 litres. 20 − 15 = 5."},
+{"t": "Bag A is heavier than bag B. Bag C is lighter than bag B. Which bag is the heaviest?", "o": ["A", "B", "C", "They all weigh the same"], "e": "A > B and B > C, so A beats both."},
+{"t": "Ravi buys half a kilogram of tomatoes, a quarter kilogram of chillies and a quarter kilogram of ginger. How much do they weigh together?", "o": ["1 kilogram", "half a kilogram", "three quarters of a kilogram", "2 kilograms"], "e": "Half = 2 quarters. 2 + 1 + 1 = 4 quarters = 1 kilogram."},
+{"t": "A ladle fills a quarter of a glass. How many ladles fill 3 glasses?", "n": 12, "u": "ladles", "k": "3*4", "e": "4 ladles fill one glass, so 3 glasses need 4 + 4 + 4 = 12."},
+{"t": "Mother has 2 litres of lemonade and fills 6 quarter-litre glasses. How much lemonade is left?", "o": ["half a litre", "one litre", "a quarter litre", "nothing"], "e": "2 litres = 8 quarters. 8 − 6 = 2 quarters, which is half a litre."},
+{"t": "Making one 1-litre plastic bottle uses about 5 litres of water. About how much water is used to make 4 such bottles?", "n": 20, "u": "litres", "k": "4*5", "e": "5 + 5 + 5 + 5 = 20 litres — a good reason to reuse your own bottle."}
+]}
+]
+}

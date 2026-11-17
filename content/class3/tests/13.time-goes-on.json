@@ -1,0 +1,53 @@
+{
+"title": "13. Time Goes On",
+"tests": [
+{"q": [
+{"t": "How many days are there in a week?", "n": 7, "u": "days", "e": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday — 7 days."},
+{"t": "How many months are there in a year?", "n": 12, "u": "months", "e": "January to December makes 12 months."},
+{"t": "How many days are there in a year (one that is not a leap year)?", "n": 365, "u": "days", "e": "Adding the days of all 12 months gives 365."},
+{"t": "How many minutes are there in one hour?", "n": 60, "u": "minutes", "e": "The minute hand goes all the way round the clock once in 60 minutes, which is 1 hour."},
+{"t": "Which month comes right after June?", "o": ["July", "August", "May", "January"], "e": "The order goes … May, June, July, August …"},
+{"t": "Which month has fewer than 30 days?", "o": ["February", "March", "April", "June"], "e": "February has only 28 days (29 in a leap year). The others have 30 or 31."},
+{"t": "What date is 3 days after July 22?", "n": 25, "e": "Count on 3: July 23, 24, 25."},
+{"t": "‘Half past 8’ is the same as:", "o": ["8:30", "8:15", "8:45", "9:30"], "e": "Half of an hour is 30 minutes, so half past 8 is 30 minutes after 8 o’clock."},
+{"t": "‘Quarter past 8’ is the same as:", "o": ["8:15", "8:30", "8:45", "7:45"], "e": "A quarter of an hour is 15 minutes, so 15 minutes after 8 o’clock."},
+{"t": "Hetal starts breakfast at 7:00 and finishes at 7:15. How many minutes did she take?", "n": 15, "u": "minutes", "k": "15-0", "e": "From 7:00 to 7:15 the minute hand moves 15 minutes."}
+]},
+{"q": [
+{"t": "How many days are there in July?", "n": 31, "u": "days", "e": "July is one of the long months with 31 days."},
+{"t": "July 1 is a Monday. What day is July 8?", "o": ["Monday", "Tuesday", "Sunday", "Wednesday"], "e": "July 8 is exactly 7 days (one week) later, so it is the same day: Monday."},
+{"t": "In a July, the first Sunday is July 7. How many Sundays are there in that month?", "n": 4, "u": "Sundays", "e": "Add 7 each time: 7, 14, 21, 28. The next would be 35 — there is no July 35."},
+{"t": "How many minutes are there in half an hour?", "n": 30, "u": "minutes", "k": "60//2", "e": "Half of 60 minutes is 30 minutes."},
+{"t": "How many minutes are there in a quarter of an hour?", "n": 15, "u": "minutes", "k": "60//4", "e": "60 minutes shared into 4 equal parts gives 15 each."},
+{"t": "Bincy’s birth date is written 2/5/2015 (day/month/year). When was she born?", "o": ["2 May 2015", "5 February 2015", "2 February 2015", "5 May 2015"], "e": "The first number is the day (2) and the second is the month (5th month = May)."},
+{"t": "Bincy was born on 2 May 2015. How old will she be on 2 May 2025?", "n": 10, "u": "years", "k": "2025-2015", "e": "Each birthday adds one year: 2025 − 2015 = 10."},
+{"t": "A school period of 40 minutes starts at 10:00. When does it end?", "o": ["10:40", "10:04", "11:40", "10:30"], "e": "Add 40 minutes to 10:00 and the hour stays 10: 10:40."},
+{"t": "A radish takes about how long to grow?", "o": ["2 or 3 weeks", "2 or 3 minutes", "2 or 3 hours", "2 or 3 years"], "e": "Seeds need many days of sun and water — a radish takes a few weeks."},
+{"t": "Knitting a whole sweater by hand takes about:", "o": ["months", "minutes", "seconds", "an hour"], "e": "A sweater has thousands of stitches, so it takes a long time — Nani took two months."}
+]},
+{"q": [
+{"t": "A school is closed for 15 days. July 8 is the first holiday. On which July date does the school open again?", "n": 23, "k": "8+15", "e": "The holidays are July 8 to July 22 (15 days), so it opens on July 23."},
+{"t": "How many weeks are there in a year?", "o": ["52 weeks and 1 day", "53 weeks", "50 weeks", "12 weeks"], "e": "52 weeks × 7 days = 364 days, and a year has 365, so 1 day is left over."},
+{"t": "Bincy was born on 2 May 2015. How old will she be on her birthday in 2030?", "n": 15, "u": "years", "k": "2030-2015", "e": "2030 − 2015 = 15."},
+{"t": "Bincy was born on 2 May 2015. How many months old was she on 2 August 2015?", "n": 3, "u": "months", "e": "2 May → 2 June → 2 July → 2 August is 3 months."},
+{"t": "Bincy was born on 2 May 2015. Her birth certificate was made on 18 May 2015. How many days after her birth was that?", "n": 16, "u": "days", "k": "18-2", "e": "Both dates are in May, so subtract: 18 − 2 = 16."},
+{"t": "Bincy was born on 2 May 2015. When was her eighth birthday?", "o": ["2 May 2023", "2 May 2022", "8 May 2015", "2 August 2023"], "e": "Add 8 years to 2015: 2023. Birthdays always fall on the same day and month."},
+{"t": "How many hours are there from 9 o’clock in the morning to 1 o’clock in the afternoon?", "n": 4, "u": "hours", "e": "Count the hours: 10, 11, 12, 1 — that is 4 hours."},
+{"t": "At 3 o’clock, where does the minute hand point?", "o": ["12", "3", "6", "9"], "e": "At any ‘o’clock’ time the minute hand points straight up to 12; the hour hand points to the hour."},
+{"t": "At half past 6, where does the minute hand point?", "o": ["6", "12", "3", "9"], "e": "Half past means the minute hand has gone half-way round, from 12 down to 6."},
+{"t": "Hetal is twice as old as her brother, and she is also 10 years older than him. How old is Hetal?", "n": 20, "u": "years", "e": "Twice as old means her age is his age + his age. So the extra 10 years is his age: he is 10 and she is 20."}
+]},
+{"q": [
+{"t": "Today is Wednesday. What day will it be 10 days from today?", "o": ["Saturday", "Friday", "Sunday", "Wednesday"], "e": "7 days later is Wednesday again; 3 more days: Thursday, Friday, Saturday."},
+{"t": "1 March is a Monday. March has 31 days. What day is 1 April?", "o": ["Thursday", "Monday", "Wednesday", "Friday"], "e": "1 April is 31 days later: 4 weeks (28 days) bring us back to Monday, then 3 more days: Thursday."},
+{"t": "A film starts at 4:15 and lasts 2 hours and 30 minutes. When does it end?", "o": ["6:45", "6:15", "5:45", "7:15"], "e": "4:15 + 2 hours = 6:15. Then + 30 minutes = 6:45."},
+{"t": "A mother is 34 years old and her child is 8. How old was the mother when the child was born?", "n": 26, "u": "years", "k": "34-8", "e": "They both get one year older each year, so the difference stays the same: 34 − 8 = 26."},
+{"t": "Nani was 25 years old when Mother was born. Mother is now 34. How old is Nani now?", "n": 59, "u": "years", "k": "25+34", "e": "Nani has lived 34 more years since then: 25 + 34 = 59."},
+{"t": "A train leaves at 7:45 and arrives at 9:00. How many minutes is the journey?", "n": 75, "u": "minutes", "k": "15+60", "e": "7:45 to 8:00 is 15 minutes, and 8:00 to 9:00 is 60 more: 75."},
+{"t": "How many days are there in January and February together (not a leap year)?", "n": 59, "u": "days", "k": "31+28", "e": "January has 31 days and February has 28: 31 + 28 = 59."},
+{"t": "Ravi was born on 15 June 2017. How old is he on 15 June 2026?", "n": 9, "u": "years", "k": "2026-2017", "e": "It is his birthday, so count whole years: 2026 − 2017 = 9."},
+{"t": "In a July, the first Thursday is July 4. How many Thursdays are there in that month?", "n": 4, "u": "Thursdays", "e": "4, 11, 18, 25. The next, 32, is past July 31."},
+{"t": "Starting at 6:00, Asha does 25 minutes of homework, 45 minutes of play and 20 minutes of dinner. When does she finish?", "o": ["7:30", "7:00", "7:20", "8:30"], "e": "25 + 45 + 20 = 90 minutes = 1 hour and 30 minutes. 6:00 + 1 hour 30 minutes = 7:30."}
+]}
+]
+}

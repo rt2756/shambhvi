@@ -1,0 +1,53 @@
+{
+"title": "12. Give and Take",
+"tests": [
+{"q": [
+{"t": "336 + 2 = ?", "n": 338, "k": "336+2", "e": "Only the ones change: 6 + 2 = 8."},
+{"t": "375 + 5 = ?", "n": 380, "k": "375+5", "e": "5 ones + 5 ones = 10 ones, which make 1 more ten: 380."},
+{"t": "387 − 5 = ?", "n": 382, "k": "387-5", "e": "Take 5 from the ones: 7 − 5 = 2."},
+{"t": "Kishan had 364 saplings and brought 52 more. How many does he have now?", "n": 416, "u": "saplings", "k": "364+52", "e": "6 tens + 5 tens = 11 tens = 1 hundred and 1 ten. So 3 + 1 = 4 hundreds, 1 ten, 6 ones: 416."},
+{"t": "Kishan must deliver 230 saplings and has packed 75. How many more must he pack?", "n": 155, "u": "saplings", "k": "230-75", "e": "Open a ten to get 10 ones (10 − 5 = 5), then open a hundred to take 7 tens: 155."},
+{"t": "How many ₹100 notes are equal to one ₹500 note?", "n": 5, "u": "notes", "k": "500//100", "e": "100, 200, 300, 400, 500 — five hundreds."},
+{"t": "456 + 10 = ?", "n": 466, "k": "456+10", "e": "Adding 10 adds one ten: 5 tens become 6 tens."},
+{"t": "265 + 9 = ?", "n": 274, "k": "265+9", "e": "Adding 9 is adding 10 and taking 1 back: 275 − 1 = 274."},
+{"t": "568 − 5 = ?", "n": 563, "k": "568-5", "e": "8 ones − 5 ones = 3 ones."},
+{"t": "Ten ₹10 notes are worth how many rupees?", "n": 100, "u": "₹", "k": "10*10", "e": "Ten tens make one hundred."}
+]},
+{"q": [
+{"t": "Kishan had 456 saplings and gave away 63. How many are left?", "n": 393, "u": "saplings", "k": "456-63", "e": "456 − 60 = 396, then 396 − 3 = 393."},
+{"t": "Kishan had 309 saplings and got 80 more. How many now?", "n": 389, "u": "saplings", "k": "309+80", "e": "Adding 8 tens to 0 tens gives 8 tens: 389."},
+{"t": "Kishan has 270 herb saplings and his friend has 36. How many more does Kishan have?", "n": 234, "u": "saplings", "k": "270-36", "e": "270 − 30 = 240, then 240 − 6 = 234."},
+{"t": "405 + 56 = ?", "n": 461, "k": "405+56", "e": "405 + 50 = 455, then + 6 = 461."},
+{"t": "600 − 82 = ?", "n": 518, "k": "600-82", "e": "600 − 80 = 520, then 520 − 2 = 518."},
+{"t": "825 + 175 = ?", "n": 1000, "k": "825+175", "e": "25 + 75 = 100 and 800 + 100 = 900; 900 + 100 = 1000."},
+{"t": "Peter uncle had ₹465 in the morning and ₹756 by afternoon. How much did he earn?", "n": 291, "u": "₹", "k": "756-465", "e": "From 465 jump 35 to 500, then 256 to 756: 35 + 256 = 291."},
+{"t": "Peter uncle sold rice for ₹640 and sugar for ₹215. How much did he earn?", "n": 855, "u": "₹", "k": "640+215", "e": "600 + 200 = 800, 40 + 15 = 55: 855."},
+{"t": "481 + 19 = ?", "n": 500, "k": "481+19", "e": "81 + 19 = 100, so 400 + 100 = 500."},
+{"t": "519 − 40 = ?", "n": 479, "k": "519-40", "e": "519 − 19 = 500, then 21 more back: 479."}
+]},
+{"q": [
+{"t": "653 − 356 = ?", "n": 297, "k": "653-356", "e": "From 356 jump 4 to 360, 40 to 400, 253 to 653: 4 + 40 + 253 = 297."},
+{"t": "Reena buys groceries for ₹209 and pays with a ₹500 note. How much change does she get?", "n": 291, "u": "₹", "k": "500-209", "e": "500 − 200 = 300, then 300 − 9 = 291."},
+{"t": "Peter uncle earned ₹650 one day and ₹250 the next day. How much in the two days?", "n": 900, "u": "₹", "k": "650+250", "e": "50 + 50 = 100 and 600 + 200 = 800, so 900."},
+{"t": "Shireen has ₹150 in her piggy bank. She adds ₹100 every week for 4 weeks. How much does she have?", "n": 550, "u": "₹", "k": "150+4*100", "e": "4 weeks × ₹100 = ₹400. 150 + 400 = 550."},
+{"t": "Peter uncle saved ₹250, then ₹125, then ₹350. How much did he save in all?", "n": 725, "u": "₹", "k": "250+125+350", "e": "250 + 350 = 600, then 600 + 125 = 725."},
+{"t": "Estimate 156 + 34 to the nearest hundred.", "n": 200, "e": "156 + 34 = 190, which is closer to 200 than to 100."},
+{"t": "Without working it out, which is more?", "o": ["373 + 40", "373 + 23", "373 + 4", "373 + 32"], "e": "They all start with 373, so the one that adds the most (40) is the biggest."},
+{"t": "Without working it out, which is more?", "o": ["345 − 45", "345 − 54", "345 − 55", "345 − 64"], "e": "Taking away less leaves more. 45 is the smallest amount taken away."},
+{"t": "Which is equal to 516 + 100?", "o": ["816 − 200", "615 − 200", "400 + 15", "450 − 50"], "e": "516 + 100 = 616 and 816 − 200 = 616 too."},
+{"t": "You pay ₹55 using ₹20 notes, ₹10 notes and ₹5 coins. What is the fewest pieces you can use?", "n": 4, "u": "pieces", "e": "₹20 + ₹20 + ₹10 + ₹5 = ₹55. Using the biggest notes first keeps the count small."}
+]},
+{"q": [
+{"t": "Reena buys groceries for ₹209 and fruit for ₹145. She pays with a ₹500 note. How much change does she get?", "n": 146, "u": "₹", "k": "500-209-145", "e": "Total = 209 + 145 = 354. Change = 500 − 354 = 146."},
+{"t": "Kishan had 364 saplings, brought 52 more, then delivered 230 to a school. How many does he have now?", "n": 186, "u": "saplings", "k": "364+52-230", "e": "364 + 52 = 416. Then 416 − 230 = 186."},
+{"t": "Peter uncle has ₹465. He earns ₹291 more and then pays ₹200 for rent. How much does he have now?", "n": 556, "u": "₹", "k": "465+291-200", "e": "465 + 291 = 756. Then 756 − 200 = 556."},
+{"t": "A school has 138 boys and 156 girls. 100 children go on a trip. How many stay at school?", "n": 194, "u": "children", "k": "138+156-100", "e": "All children = 138 + 156 = 294. 294 − 100 = 194."},
+{"t": "Using the number cards 0 to 5 (each once), make the biggest 3-digit number.", "n": 543, "e": "Put the biggest cards in the biggest places: 5 hundreds, 4 tens, 3 ones."},
+{"t": "Using the number cards 0 to 5 (each once), make the smallest 3-digit number. It cannot start with 0.", "n": 102, "e": "The hundreds card must be 1 (0 is not allowed there); then 0 for tens and 2 for ones."},
+{"t": "What is the difference between 543 and 102?", "n": 441, "k": "543-102", "e": "Take away hundreds, tens and ones: 5 − 1 = 4, 4 − 0 = 4, 3 − 2 = 1."},
+{"t": "Shireen has ₹150. She adds ₹100 a week for 4 weeks, then buys a toy for ₹275. How much is left?", "n": 275, "u": "₹", "k": "150+4*100-275", "e": "After 4 weeks: 150 + 400 = 550. Then 550 − 275 = 275."},
+{"t": "Which is closest to 765 − 567?", "o": ["200", "100", "300", "400"], "e": "765 − 567 = 198, which is just 2 away from 200."},
+{"t": "A shop has 305 sacks. It sells 128 on Monday and 97 on Tuesday. How many sacks are left?", "n": 80, "u": "sacks", "k": "305-128-97", "e": "Sold: 128 + 97 = 225. Left: 305 − 225 = 80."}
+]}
+]
+}

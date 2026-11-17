@@ -1,0 +1,53 @@
+{
+"title": "7. Raksha Bandhan",
+"tests": [
+{"q": [
+{"t": "Each rakhi needs 2 threads. How many threads are needed for 5 rakhis?", "n": 10, "u": "threads", "k": "5*2", "e": "5 times 2 means 2 + 2 + 2 + 2 + 2 = 10."},
+{"t": "Find 5 × 4.", "n": 20, "k": "5*4", "e": "5 groups of 4: 4, 8, 12, 16, 20."},
+{"t": "A box has 3 rows of 3 laddoos. How many laddoos?", "n": 9, "u": "laddoos", "k": "3*3", "e": "3 rows of 3 is 3 × 3 = 3 + 3 + 3 = 9."},
+{"t": "18 laddoos are shared equally among 9 people. How many does each get?", "n": 2, "u": "laddoos", "k": "18//9", "e": "Give one each to 9 people (9 used), then one more each (18 used): 2 each."},
+{"t": "Find 20 ÷ 5.", "n": 4, "k": "20//5", "e": "20 shared equally into 5 plates gives 4 on each, because 5 × 4 = 20."},
+{"t": "Each cycle needs 2 wheels. How many cycles can get wheels from 12 wheels?", "n": 6, "u": "cycles", "k": "12//2", "e": "Take away 2 wheels for each cycle: 12 → 10 → 8 → 6 → 4 → 2 → 0, that is 6 cycles."},
+{"t": "4 + 4 + 4 + 4 + 4 + 4 is the same as:", "o": ["6 × 4", "4 × 4", "6 + 4", "10 × 4"], "e": "Six fours added together is 6 times 4."},
+{"t": "Skip jumping by 3: 3, 6, 9, ___. What comes next?", "n": 12, "k": "9+3", "e": "Each jump adds 3: 9 + 3 = 12."},
+{"t": "A chicken has 2 legs. How many legs do 5 chickens have?", "n": 10, "u": "legs", "k": "5*2", "e": "5 times 2 is 10."},
+{"t": "16 kaju katlis are shared equally among 4 people. How many does each get?", "n": 4, "u": "kaju katlis", "k": "16//4", "e": "4 × 4 = 16, so each plate gets 4."}
+]},
+{"q": [
+{"t": "A flower bed has 8 rows with 6 plants in each row. How many plants?", "n": 48, "u": "plants", "k": "8*6", "e": "8 groups of 6 is 8 × 6 = 48."},
+{"t": "An idli stand has 6 plates and each plate makes 4 idlis. How many idlis in one go?", "n": 24, "u": "idlis", "k": "6*4", "e": "6 groups of 4: 4, 8, 12, 16, 20, 24."},
+{"t": "30 cookies are shared equally among 5 children. How many does each child get?", "n": 6, "u": "cookies", "k": "30//5", "e": "5 × 6 = 30, so each child gets 6."},
+{"t": "Roro starts at 0 and takes 6 equal jumps to reach 18. How big is each jump?", "n": 3, "k": "18//6", "e": "6 equal jumps make 18, and 6 × 3 = 18."},
+{"t": "Suma saves ₹8 every day. After how many days will she have ₹56?", "n": 7, "u": "days", "k": "56//8", "e": "Count in eights: 8, 16, 24, 32, 40, 48, 56 — 7 days."},
+{"t": "Find 7 × 6.", "n": 42, "k": "7*6", "e": "7 × 5 = 35, and one more 7 makes 42."},
+{"t": "Find 32 ÷ 8.", "n": 4, "k": "32//8", "e": "8, 16, 24, 32 — four eights make 32."},
+{"t": "Skip jumping: 32, 40, 48, 56, ___. What comes next?", "n": 64, "k": "56+8", "e": "Each jump adds 8, so 56 + 8 = 64."},
+{"t": "Find 45 ÷ 5.", "n": 9, "k": "45//5", "e": "5 × 9 = 45, so 45 shared into 5 groups gives 9."},
+{"t": "A spider has 8 legs. How many legs do 5 spiders have?", "n": 40, "u": "legs", "k": "5*8", "e": "5 times 8: 8, 16, 24, 32, 40."}
+]},
+{"q": [
+{"t": "Each wheel of a toy rath needs 5 spokes. How many spokes do 20 wheels need?", "n": 100, "u": "spokes", "k": "20*5", "e": "10 wheels need 50 spokes; 20 wheels need 50 + 50 = 100."},
+{"t": "Find 30 × 5.", "n": 150, "k": "30*5", "e": "Three groups of 10 wheels, each needing 50 spokes: 50 + 50 + 50 = 150."},
+{"t": "One wall-hanging costs ₹42. How much do two cost?", "n": 84, "u": "₹", "k": "2*42", "e": "2 × 42 = 42 + 42 = 84."},
+{"t": "A group of spiders has 32 legs. Each spider has 8 legs. How many spiders?", "n": 4, "u": "spiders", "k": "32//8", "e": "8, 16, 24, 32 — that is 4 spiders."},
+{"t": "Auto-rickshaws in a garage have 36 wheels. Each has 3 wheels. How many autos?", "n": 12, "u": "autos", "k": "36//3", "e": "10 autos have 30 wheels; 2 more have 6: 10 + 2 = 12."},
+{"t": "Micky the mouse sees 48 cow legs in a shed. How many cows are there?", "n": 12, "u": "cows", "k": "48//4", "e": "Each cow has 4 legs: 10 cows have 40 legs and 2 more have 8, so 12 cows."},
+{"t": "Mary has 63 sea-shells. She gives 7 to each of her 5 friends. How many does she have left?", "n": 28, "u": "shells", "k": "63-7*5", "e": "She gives away 5 × 7 = 35. 63 − 35 = 28."},
+{"t": "A frog starts at 0 and jumps only in 7s. What is the biggest number it lands on before crossing 50?", "n": 49, "k": "7*7", "e": "7, 14, 21, 28, 35, 42, 49 — the next jump, 56, is past 50."},
+{"t": "How many ₹50 notes make ₹500?", "n": 10, "u": "notes", "k": "500//50", "e": "Two ₹50 notes make ₹100, and ₹500 is five hundreds: 5 × 2 = 10."},
+{"t": "Without working it out, what is the last digit of 23 × 5?", "n": 5, "e": "In the 5 times table, 5 times an odd number ends in 5, and 5 times an even number ends in 0. 23 is odd."}
+]},
+{"q": [
+{"t": "Karry the crow sees 24 horns of cows in a shed. Each cow has 2 horns and 4 legs. How many legs are in the shed?", "n": 48, "u": "legs", "k": "24//2*4", "e": "24 horns ÷ 2 = 12 cows. 12 cows × 4 legs = 48."},
+{"t": "One rabdi cup costs ₹75. Preeti buys 5 cups and pays with ₹100 notes only. How many ₹100 notes must she give?", "n": 4, "u": "notes", "k": "-(-(5*75)//100)", "e": "5 × 75 = 375. Three notes (₹300) are not enough, so she gives 4 notes (₹400)."},
+{"t": "Preeti pays ₹400 for 5 rabdi cups that cost ₹75 each. How much change does she get?", "n": 25, "u": "₹", "k": "400-5*75", "e": "5 cups cost ₹375. ₹400 − ₹375 = ₹25."},
+{"t": "Dhruv has 112 shells. Each necklace uses 28 shells. How many necklaces can he make?", "n": 4, "u": "necklaces", "k": "112//28", "e": "Keep taking away 28: 112 → 84 → 56 → 28 → 0. That is 4 necklaces."},
+{"t": "Kannu needs 17 shells for each necklace. She has 100 shells. How many full necklaces can she make?", "n": 5, "u": "necklaces", "k": "100//17", "e": "5 necklaces use 85 shells. A 6th would need 102, which is more than 100."},
+{"t": "Dhara’s family has 9 people and each should get 4 jalebis. They have 24. How many more jalebis must they buy?", "n": 12, "u": "jalebis", "k": "9*4-24", "e": "They need 9 × 4 = 36. 36 − 24 = 12 more."},
+{"t": "A spider has 8 legs. How many legs do 23 spiders have?", "n": 184, "u": "legs", "k": "23*8", "e": "20 spiders have 160 legs and 3 spiders have 24: 160 + 24 = 184."},
+{"t": "An auto-rickshaw has 3 wheels. How many wheels do 18 autos have?", "n": 54, "u": "wheels", "k": "18*3", "e": "10 autos have 30 wheels and 8 autos have 24: 30 + 24 = 54."},
+{"t": "There is a line of 55 ants and each ant has 6 legs. How many legs are there?", "n": 330, "u": "legs", "k": "55*6", "e": "50 ants have 300 legs and 5 ants have 30: 300 + 30 = 330."},
+{"t": "Each rakhi needs 1 flower, 2 threads and 4 beads. There are 30 flowers, 30 threads and 30 beads. How many rakhis can be made?", "n": 7, "u": "rakhis", "k": "30//4", "e": "Beads run out first: 7 rakhis use 28 beads, and an 8th would need 32."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "6. House of Hundreds – I",
+"tests": [
+{"q": [
+{"t": "What is 298 and one more?", "n": 299, "k": "298+1", "e": "One more just adds 1 to the ones digit: 8 becomes 9."},
+{"t": "What is 299 and one more?", "n": 300, "k": "299+1", "e": "The ones and tens are full, so they make a new hundred: 300."},
+{"t": "200 and 35 more make which number?", "n": 235, "k": "200+35", "e": "2 hundreds, 3 tens and 5 ones: 235."},
+{"t": "2 hundreds, 1 ten and 1 one make which number?", "n": 211, "k": "200+10+1", "e": "Write the digits in place order: 2, 1, 1."},
+{"t": "Which sign makes this true? 487 ___ 423", "o": [">", "<", "="], "e": "Both have 4 hundreds; 8 tens is more than 2 tens, so 487 is greater. The open mouth faces the bigger number."},
+{"t": "Which is the greatest number?", "o": ["321", "231", "213", "123"], "e": "321 has 3 hundreds; the others have only 2 or 1."},
+{"t": "How many boxes of 10 sweets fit in one box of 100?", "n": 10, "u": "boxes", "k": "100//10", "e": "Ten tens make one hundred."},
+{"t": "What is 15 less than 250?", "n": 235, "k": "250-15", "e": "250 − 10 = 240, then 240 − 5 = 235."},
+{"t": "Increase 147 by ten.", "n": 157, "k": "147+10", "e": "Adding ten changes only the tens digit: 4 tens become 5 tens."},
+{"t": "Decrease 367 by 2.", "n": 365, "k": "367-2", "e": "Take 2 from the ones: 7 − 2 = 5."}
+]},
+{"q": [
+{"t": "Which sign makes this true? 209 ___ 290", "o": ["<", ">", "="], "e": "Both have 2 hundreds. 209 has 0 tens but 290 has 9 tens, so 209 is smaller."},
+{"t": "Which is the smallest number?", "o": ["347", "374", "437", "473"], "e": "347 and 374 have 3 hundreds; of these, 347 has fewer tens (4 tens vs 7 tens)."},
+{"t": "Which is the greatest number?", "o": ["483", "466", "447", "439"], "e": "All have 4 hundreds; 483 has 8 tens, the most."},
+{"t": "How far is 387 from 400?", "n": 13, "k": "400-387", "e": "387 + 3 = 390, then + 10 = 400: 3 + 10 = 13."},
+{"t": "How far is 393 from 400?", "n": 7, "k": "400-393", "e": "Count on from 393: 394 … 400 is 7 steps."},
+{"t": "How many boxes of 10 fit in four boxes of 100?", "n": 40, "u": "boxes", "k": "4*10", "e": "Each box of 100 holds 10 boxes of 10: 10 + 10 + 10 + 10 = 40."},
+{"t": "In the apartment, the house one floor up is always 10 more. What is the house number one floor above 237?", "n": 247, "k": "237+10", "e": "Going up one floor adds 10, so only the tens digit changes."},
+{"t": "Increase 290 by 20.", "n": 310, "k": "290+20", "e": "290 + 10 = 300, then + 10 = 310."},
+{"t": "Decrease 289 by 10.", "n": 279, "k": "289-10", "e": "Taking away ten changes only the tens digit: 8 tens become 7 tens."},
+{"t": "3 hundreds, 0 tens and 6 ones make which number?", "n": 306, "k": "300+6", "e": "No tens, so 0 holds the tens place: 3 0 6."}
+]},
+{"q": [
+{"t": "Make the greatest 3-digit number using 3, 2 and 4, each only once.", "n": 432, "e": "Put the biggest digit in the hundreds place, then the next biggest: 4, 3, 2."},
+{"t": "Make the smallest 3-digit number using 3, 2 and 4, each only once.", "n": 234, "e": "Put the smallest digit in the hundreds place, then the next smallest: 2, 3, 4."},
+{"t": "Make the greatest 3-digit number using only the digits 3, 2 and 4, if you may repeat digits.", "n": 444, "e": "If repeats are allowed, use the biggest digit, 4, in every place."},
+{"t": "Make the smallest 3-digit number using only the digits 3, 2 and 4, if you may repeat digits.", "n": 222, "e": "Use the smallest digit, 2, in every place."},
+{"t": "Riddle: I am greater than 300 but less than 400. My digits are 3, 4 and 0, and I have no tens. Who am I?", "n": 304, "e": "Between 300 and 400 means 3 hundreds; no tens means 0 tens; so the 4 is the ones."},
+{"t": "Which list is in order from smallest to biggest?", "o": ["99, 110, 207, 389, 456", "110, 99, 207, 389, 456", "99, 110, 389, 207, 456", "456, 389, 207, 110, 99"], "e": "99 has no hundreds, so it is smallest; then 1 hundred, 2, 3 and 4 hundreds."},
+{"t": "How many numbers between 200 and 300 have 5 as their tens digit?", "n": 10, "e": "250, 251, 252 … 259 — that is 10 numbers."},
+{"t": "Magical count: ‘six’ has 3 letters → ‘three’ has 5 → ‘five’ has 4 → ‘four’ has 4 … Where does it get stuck?", "o": ["four", "five", "three", "six"], "e": "‘four’ has exactly 4 letters, so it keeps giving four again and again."},
+{"t": "Teji thinks of a number between 200 and 210. 205 is too small and 208 is too big. Which could it be?", "o": ["206 or 207", "204 or 205", "209 or 210", "201 or 202"], "e": "It must be more than 205 and less than 208: only 206 or 207."},
+{"t": "Which number sentence shows 316?", "o": ["300 and 16 more", "300 and 61 more", "30 and 16 more", "16 less than 300"], "e": "300 + 16 = 316. 300 + 61 = 361, and the others are much smaller."}
+]},
+{"q": [
+{"t": "A full tray holds 50 laddoos. Chacha has 4 full trays and one tray with 35 laddoos. How many laddoos does he have?", "n": 235, "u": "laddoos", "k": "4*50+35", "e": "4 trays of 50 is 200 (two fifties make 100). 200 + 35 = 235."},
+{"t": "Arvind packs 342 sweets in boxes of 100, boxes of 10 and loose sweets, using as few boxes as he can. How many boxes (of 100 and of 10 together) does he use?", "n": 7, "u": "boxes", "k": "3+4", "e": "342 = 3 hundreds + 4 tens + 2 ones: 3 + 4 = 7 boxes and 2 loose sweets."},
+{"t": "Riddle: I am less than 200. My digits are 1, 7 and 6, and I have 6 ones. Who am I?", "n": 176, "e": "Less than 200 means 1 hundred; 6 is the ones; so 7 is the tens."},
+{"t": "Riddle: I am between 400 and 500. My tens digit is 2, and my hundreds and ones digits are the same. Who am I?", "n": 424, "e": "Hundreds digit is 4, so the ones digit is 4 too, with 2 in the middle."},
+{"t": "In the apartment, one floor up adds 10 and one house to the right adds 1. Start at 213, go up 3 floors and right 2 houses. Which house are you at?", "n": 245, "k": "213+3*10+2", "e": "Up 3 floors: 213 + 30 = 243. Right 2: 243 + 2 = 245."},
+{"t": "How many different 3-digit numbers can you make with 3, 2 and 4, using each digit once?", "n": 6, "e": "234, 243, 324, 342, 423, 432 — two for each choice of hundreds digit."},
+{"t": "How much bigger is 201 than 199?", "n": 2, "k": "201-199", "e": "199 → 200 → 201 is 2 steps."},
+{"t": "Which reason is correct?", "o": ["432 > 423 because 3 tens are more than 2 tens", "432 < 423 because 2 ones are fewer than 3 ones", "423 > 432 because it ends in 3", "They are equal because they use the same digits"], "e": "Both have 4 hundreds, so compare tens next: 3 tens beat 2 tens. The ones don’t matter now."},
+{"t": "Put 67, 376, 294, 249, 494 in order from biggest to smallest. Which number is third?", "n": 294, "e": "494, 376, 294, 249, 67 — the third one is 294."},
+{"t": "Start at 285. Increase by 10 five times, then decrease by 1 two times. Where do you end?", "n": 333, "k": "285+5*10-2", "e": "Five tens is 50: 285 + 50 = 335. Then 335 − 2 = 333."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "14. The Surajkund Fair",
+"tests": [
+{"q": [
+{"t": "A picture is symmetrical when:", "o": ["you can fold it so one half lies exactly on the other half", "it has many colours", "it is very big", "it has corners"], "e": "Symmetrical means the two halves match exactly when folded on the line."},
+{"t": "Which capital letter is symmetrical when folded down the middle?", "o": ["A", "F", "J", "G"], "e": "The left and right halves of A match. F, J and G look different on each side."},
+{"t": "Which can cover a floor with no gaps and no overlaps?", "o": ["square tiles", "round coins", "circles", "bangles"], "e": "Square sides fit flat against each other; round shapes always leave gaps between them."},
+{"t": "A mala has beads in the order red, red, blue, blue, blue, blue, red, red. Is it symmetrical?", "o": ["Yes", "No"], "e": "Read from either end it is red, red, blue, blue — both halves match."},
+{"t": "Which of these is symmetrical?", "o": ["a butterfly", "the letter F", "the number 7", "the letter J"], "e": "A butterfly’s left wing matches its right wing."},
+{"t": "A painter draws half a symmetrical picture. A mirror is held on the fold line. What do you see?", "o": ["the whole picture", "nothing", "only one colour", "a smaller picture"], "e": "The mirror shows the same half flipped, which is exactly the missing half."},
+{"t": "You walk forward and then turn right two times. Which way are you facing now?", "o": ["back the way you came", "the same way as before", "to your left", "to your right"], "e": "Two right turns make you turn all the way around to face the opposite way."},
+{"t": "Which digit has a line down its middle so both halves match?", "o": ["8", "2", "4", "7"], "e": "The left and right halves of 8 match; 2, 4 and 7 look different on each side."},
+{"t": "If you try to tile a path with circles, what happens?", "o": ["Circles leave gaps", "There are no gaps", "The circles turn into squares", "The path becomes longer"], "e": "Round edges touch only at points, leaving gaps between them."},
+{"t": "To make a cat mask, you fold paper, draw half a cat along the fold and cut it out. When you open it, the two eyes are:", "o": ["the same size, one on each side", "different sizes", "both on one side", "missing"], "e": "Cutting through the folded paper cuts both halves at once, so they match exactly."}
+]},
+{"q": [
+{"t": "Which word looks the same when you hold a mirror beside it?", "o": ["MOM", "PIG", "CAR", "FUN"], "e": "M and O are symmetrical and MOM reads the same both ways, so its mirror image is MOM."},
+{"t": "Which capital letter is NOT symmetrical?", "o": ["F", "A", "H", "T"], "e": "A, H and T can be folded so the halves match; F cannot be folded that way at all."},
+{"t": "In how many ways can you fold a square so that one half lies exactly on the other?", "n": 4, "u": "ways", "e": "Fold edge to edge (2 ways: up-down and left-right) and corner to corner (2 ways): 4."},
+{"t": "In how many ways can you fold a rectangle that is not a square so the halves match exactly?", "n": 2, "u": "ways", "e": "Only edge to edge, up-down or left-right. Folding corner to corner does not match for a long rectangle."},
+{"t": "R is a red bead and B is a blue bead. Which mala is symmetrical?", "o": ["B R R R R R R B", "R R R R R R B B", "B B R R R R R R", "R B R R R R R B"], "e": "B R R R R R R B reads the same from both ends. The others change when you read them backwards."},
+{"t": "In the mirror game, Soni puts a counter 2 boxes to the left of the mirror line. Where must Avi put his?", "o": ["2 boxes to the right of the line", "2 boxes to the left of the line", "4 boxes to the right of the line", "on the line"], "e": "A mirror image is the same distance from the line, but on the other side."},
+{"t": "The painter can show half a picture and use a mirror for the rest. For which thing will this trick NOT work?", "o": ["the letter R", "a butterfly", "the letter A", "a heart shape"], "e": "The mirror trick only works for symmetrical things. The letter R is not symmetrical."},
+{"t": "Which shapes can cover a floor with no gaps?", "o": ["rectangles", "circles", "stars", "ovals"], "e": "Rectangles have straight sides and square corners, so they fit together tightly."},
+{"t": "You stand facing the giant wheel. You make 3 square-corner turns to the right. Where is the giant wheel now?", "o": ["on your right", "on your left", "in front of you", "behind you"], "e": "After 2 right turns the wheel is behind you; one more right turn brings it round to your right side."},
+{"t": "Which of these is NOT symmetrical?", "o": ["the letter L", "a kite shape", "the letter T", "the letter H"], "e": "Fold L any way and the halves don’t match. Kites, T and H can be folded to match."}
+]},
+{"q": [
+{"t": "A mala has 4 red (R) and 4 blue (B) beads. Which one is symmetrical?", "o": ["R B B R R B B R", "R R B B R R B B", "R R R R B B B B", "B R B R B R B R"], "e": "R B B R R B B R reads the same from both ends; the others change when read backwards."},
+{"t": "A symmetrical rangoli has 3 flowers in its left half. How many flowers are in the whole rangoli?", "n": 6, "u": "flowers", "k": "2*3", "e": "The right half matches the left half exactly: 3 + 3 = 6."},
+{"t": "Which word looks the same in a mirror held beside it?", "o": ["TOOT", "BOOK", "LOOP", "SEES"], "e": "T and O are symmetrical and TOOT reads the same both ways. B, K, L, P, S and E are not symmetrical that way."},
+{"t": "A path is 6 square tiles long and 2 tiles wide. How many tiles cover it?", "n": 12, "u": "tiles", "k": "6*2", "e": "2 rows of 6: 6 + 6 = 12."},
+{"t": "A path needs 20 square tiles. Tiles come in packs of 4. How many packs are needed?", "n": 5, "u": "packs", "k": "20//4", "e": "4, 8, 12, 16, 20 — 5 packs."},
+{"t": "In how many ways can you fold the capital letter H so that its halves match?", "n": 2, "u": "ways", "e": "Fold it left-to-right or top-to-bottom; both times the halves match."},
+{"t": "From the entry, the chaupal is 3 steps forward and then 2 steps to the right. To get back without turning around, you go 2 steps ___ and then 3 steps back.", "o": ["left", "right", "forward", "up"], "e": "To undo a move, do the opposite: undo 2 steps right with 2 steps left."},
+{"t": "Which capital letter is symmetrical?", "o": ["W", "N", "S", "Z"], "e": "W’s left and right halves match. N, S and Z have no fold line that matches."},
+{"t": "Two equal triangles make one square tile. How many triangles make a path of 5 such squares?", "n": 10, "u": "triangles", "k": "5*2", "e": "Each square needs 2 triangles: 5 × 2 = 10."},
+{"t": "Which can tile a floor with no gaps and no overlaps?", "o": ["triangles of the same size", "circles of the same size", "circles of different sizes", "coins"], "e": "Equal triangles fit side to side (two make a square); circles always leave gaps."}
+]},
+{"q": [
+{"t": "A mala has 8 beads in a line: 6 blue and 2 red. It must be symmetrical. Where can the 2 red beads go?", "o": ["the 1st and 8th beads", "the 1st and 2nd beads", "the 1st and 7th beads", "the 4th and 8th beads"], "e": "The mirror partner of bead 1 is bead 8 (both at the ends), so they must both be red."},
+{"t": "How many different symmetrical 8-bead malas can be made with 6 blue and 2 red beads?", "n": 4, "u": "malas", "e": "The two reds must be mirror partners: beads 1 and 8, 2 and 7, 3 and 6, or 4 and 5 — that is 4 ways."},
+{"t": "A symmetrical rangoli has 7 petals in its left half and 1 big petal lying right on the fold line. How many petals in all?", "n": 15, "u": "petals", "k": "7*2+1", "e": "Both halves have 7 (7 + 7 = 14), and the one on the line is counted once: 15."},
+{"t": "A square courtyard is 4 tiles by 4 tiles. Only the tiles along the outside edge are coloured. How many tiles are coloured?", "n": 12, "u": "tiles", "k": "4*4-2*2", "e": "There are 4 × 4 = 16 tiles. The inside 2 × 2 = 4 are not on the edge: 16 − 4 = 12."},
+{"t": "You walk on the blue lane, turn right onto the green lane, then turn left. Which way are you facing now, compared with the start?", "o": ["the same way as at the start", "the opposite way", "to the right", "to the left"], "e": "A left turn undoes a right turn, so you face your starting direction again."},
+{"t": "You make 4 square-corner turns to the left, one after another. Which way do you face now?", "o": ["the same way as at the start", "the opposite way", "to the left", "to the right"], "e": "Two left turns face you backwards; two more turn you all the way round again."},
+{"t": "Stalls stand in a row, numbered 1, 2, 3 … Soni is at stall 3. She walks 4 stalls to the right, then 2 stalls back to the left. Which stall is she at?", "n": 5, "k": "3+4-2", "e": "3 + 4 = 7, then 7 − 2 = 5."},
+{"t": "Which of these has exactly ONE fold line where the halves match?", "o": ["the letter A", "the letter H", "a square", "a circle"], "e": "A only folds left-to-right. H has 2 fold lines, a square has 4, and a circle has very many."},
+{"t": "Each of Soni’s tiles is made of 1 square and 2 triangles. How many triangles does she need for 6 tiles?", "n": 12, "u": "triangles", "k": "6*2", "e": "2 triangles per tile: 6 × 2 = 12."},
+{"t": "You write a small letter ‘b’ and hold a mirror beside it. What does the mirror show?", "o": ["d", "p", "q", "b"], "e": "A mirror beside the letter flips left and right, so the round part moves to the other side: d."}
+]}
+]
+}

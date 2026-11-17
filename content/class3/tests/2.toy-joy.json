@@ -1,0 +1,53 @@
+{
+"title": "2. Toy Joy",
+"tests": [
+{"q": [
+{"t": "A ball is shaped like a:", "o": ["sphere", "cube", "cone", "cylinder"], "e": "A ball is round all over and has no flat face — that is a sphere."},
+{"t": "A dice is shaped like a:", "o": ["cube", "cone", "sphere", "cylinder"], "e": "A dice has 6 flat square faces, all the same size — a cube."},
+{"t": "A birthday cap is shaped like a:", "o": ["cone", "cuboid", "cube", "sphere"], "e": "It has a round open bottom and comes to a point at the top — a cone."},
+{"t": "A matchbox is shaped like a:", "o": ["cuboid", "sphere", "cone", "cylinder"], "e": "A matchbox has 6 flat faces shaped like rectangles — a cuboid."},
+{"t": "A tin can is shaped like a:", "o": ["cylinder", "cone", "cube", "sphere"], "e": "It has two flat round ends and a curved side — a cylinder."},
+{"t": "Which shape has no flat face at all?", "o": ["sphere", "cube", "cylinder", "cone"], "e": "A sphere is curved everywhere. The others have at least one flat face."},
+{"t": "How many faces does a dice have?", "n": 6, "u": "faces", "e": "A dice shows the numbers 1 to 6, one number on each face, so it has 6 faces."},
+{"t": "Which shape has a pointed top?", "o": ["cone", "cylinder", "cuboid", "sphere"], "e": "The curved side of a cone comes together at one point."},
+{"t": "On a dice, which number is on the face opposite 1?", "n": 6, "e": "Opposite faces of a dice always add up to 7, and 1 + 6 = 7."},
+{"t": "Which shape can NOT roll at all?", "o": ["cube", "sphere", "cylinder", "cone"], "e": "All the faces of a cube are flat, so it slides but does not roll."}
+]},
+{"q": [
+{"t": "How many flat faces does a cylinder have?", "n": 2, "u": "faces", "e": "A cylinder has a flat circle at the top and one at the bottom; the side is curved."},
+{"t": "How many flat faces does a cone have?", "n": 1, "u": "face", "e": "A cone has one flat circle at the bottom; the rest is one curved face."},
+{"t": "On a dice, which number is on the face opposite 3?", "n": 4, "e": "Opposite faces add up to 7, and 3 + 4 = 7."},
+{"t": "Which shape has only flat faces?", "o": ["cuboid", "cylinder", "cone", "sphere"], "e": "All 6 faces of a cuboid are flat. The others have a curved face."},
+{"t": "Which shape has both flat and curved faces?", "o": ["cylinder", "cube", "cuboid", "sphere"], "e": "A cylinder has 2 flat ends and a curved side. Cubes and cuboids are all flat; a sphere is all curved."},
+{"t": "A toy engine is made of 3 cylinders, 2 cubes and 1 cone. How many shapes are used?", "n": 6, "u": "shapes", "k": "3+2+1", "e": "Add all the parts: 3 + 2 + 1 = 6."},
+{"t": "The line where two faces of a box meet is called:", "o": ["an edge", "a corner", "a face", "a centre"], "e": "Two faces meet along an edge; edges meet at a corner."},
+{"t": "Which shape is a special kind of cuboid?", "o": ["cube", "cone", "cylinder", "sphere"], "e": "A cube is a cuboid whose faces are all equal squares."},
+{"t": "Which shape always has ALL its faces as squares?", "o": ["cube", "cuboid", "cylinder", "cone"], "e": "A cube’s 6 faces are equal squares. A cuboid usually has rectangle faces."},
+{"t": "Jaya puts a cube at the bottom, a cylinder on it and a cone on the very top. Which shape is in the middle?", "o": ["cylinder", "cube", "cone", "sphere"], "e": "Bottom: cube, middle: cylinder, top: cone."}
+]},
+{"q": [
+{"t": "How many corners does a cube have?", "n": 8, "u": "corners", "e": "4 corners round the top face and 4 round the bottom face: 4 + 4 = 8."},
+{"t": "How many edges does a cube have?", "n": 12, "u": "edges", "k": "4+4+4", "e": "4 edges round the top, 4 round the bottom and 4 standing up joining them: 12."},
+{"t": "How many corners does a sphere have?", "n": 0, "e": "A sphere is smooth and round everywhere, so it has no corners."},
+{"t": "Which shape has curved edges but no corners?", "o": ["cylinder", "cube", "cone", "cuboid"], "e": "A cylinder has 2 round edges (top and bottom) but no point anywhere. A cone has a pointed corner."},
+{"t": "Which shape has exactly one corner?", "o": ["cone", "cylinder", "cube", "sphere"], "e": "The tip of a cone is its only corner."},
+{"t": "Which of these can you pile up into a tall, steady tower?", "o": ["Cubes", "Balls", "Marbles", "Eggs"], "e": "Cubes have flat faces that sit flat on each other, so they do not roll off."},
+{"t": "On a dice, which number is on the face opposite 5?", "n": 2, "e": "Opposite faces add up to 7, and 5 + 2 = 7."},
+{"t": "You join two equal cubes face to face. What shape do you get?", "o": ["a cuboid", "a cone", "a cylinder", "a sphere"], "e": "You get a longer box with 6 flat rectangle faces — a cuboid."},
+{"t": "How many flat faces are there in total on 2 cylinders and 1 cone?", "n": 5, "u": "faces", "k": "2*2+1", "e": "Each cylinder has 2 flat faces (2 + 2 = 4) and the cone has 1: 4 + 1 = 5."},
+{"t": "You trace around every face of a cuboid on paper. How many shapes do you draw?", "n": 6, "u": "shapes", "e": "A cuboid has 6 flat faces: top, bottom, front, back, left and right."}
+]},
+{"q": [
+{"t": "A dice shows 3 on top and 1 at the front. Which numbers are at the bottom and at the back?", "o": ["4 at the bottom and 6 at the back", "6 at the bottom and 4 at the back", "3 at the bottom and 1 at the back", "5 at the bottom and 2 at the back"], "e": "Bottom is opposite top: 7 − 3 = 4. Back is opposite front: 7 − 1 = 6."},
+{"t": "How many corners do two separate cubes have altogether?", "n": 16, "u": "corners", "k": "2*8", "e": "Each cube has 8 corners: 8 + 8 = 16."},
+{"t": "Ravi has 3 cubes and 1 cone, not joined. How many corners are there altogether?", "n": 25, "u": "corners", "k": "3*8+1", "e": "3 cubes have 8 + 8 + 8 = 24 corners, and the cone has 1: 24 + 1 = 25."},
+{"t": "Riddle: I have 6 flat faces and 8 corners. My faces are rectangles, and they are not all squares. Who am I?", "o": ["cuboid", "cube", "cylinder", "cone"], "e": "6 flat faces and 8 corners fits a cube or a cuboid; not all squares means a cuboid."},
+{"t": "Riddle: I have 1 flat face, 1 curved face and 1 corner. Who am I?", "o": ["cone", "cylinder", "sphere", "cube"], "e": "A cone: a flat round bottom, a curved side and a pointed tip."},
+{"t": "Which sentence is TRUE?", "o": ["Every cube is a cuboid", "Every cuboid is a cube", "A cone has two flat faces", "A sphere has one edge"], "e": "A cube is a cuboid with all square faces, but most cuboids are not cubes."},
+{"t": "How many flat faces are there altogether on 1 cube, 1 cylinder and 1 cone?", "n": 9, "u": "faces", "k": "6+2+1", "e": "Cube 6 + cylinder 2 + cone 1 = 9."},
+{"t": "You build a big cube that is 2 small cubes long, 2 wide and 2 tall. How many small cubes do you use?", "n": 8, "u": "cubes", "k": "2*2*2", "e": "The bottom layer has 2 rows of 2 = 4 cubes, and the top layer has 4 more: 8."},
+{"t": "A pencil sharpened at one end is like which two shapes joined together?", "o": ["a cylinder and a cone", "a cube and a sphere", "a cuboid and a sphere", "two cones"], "e": "The long round body is a cylinder and the sharpened tip is a cone."},
+{"t": "What do all the numbers on a dice add up to?", "n": 21, "k": "1+2+3+4+5+6", "e": "There are 3 pairs of opposite faces and each pair adds to 7: 7 + 7 + 7 = 21."}
+]}
+]
+}

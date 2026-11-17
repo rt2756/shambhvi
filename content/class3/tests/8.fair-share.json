@@ -1,0 +1,53 @@
+{
+"title": "8. Fair Share",
+"tests": [
+{"q": [
+{"t": "How many halves make one whole?", "n": 2, "u": "halves", "e": "Sharing a whole equally between 2 people gives 2 equal parts, and each part is a half."},
+{"t": "How many quarters make one whole?", "n": 4, "u": "quarters", "e": "Sharing a whole equally among 4 people gives 4 equal parts, and each is a quarter."},
+{"t": "What is half of 8 marbles?", "n": 4, "u": "marbles", "k": "8//2", "e": "Split 8 into 2 equal groups: 4 and 4."},
+{"t": "What is double of 5 marbles?", "n": 10, "u": "marbles", "k": "2*5", "e": "Double means two times as many: 5 + 5 = 10."},
+{"t": "A whole is shared equally among 4 people. Each share is called:", "o": ["a quarter", "a half", "a double", "a whole"], "e": "One of 4 equal parts of a whole is a quarter."},
+{"t": "A whole is shared equally between 2 people. Each share is called:", "o": ["a half", "a quarter", "three quarters", "a double"], "e": "One of 2 equal parts of a whole is a half."},
+{"t": "What is half of 12 marbles?", "n": 6, "u": "marbles", "k": "12//2", "e": "6 + 6 = 12, so half of 12 is 6."},
+{"t": "What is double of 6 marbles?", "n": 12, "u": "marbles", "k": "2*6", "e": "6 + 6 = 12."},
+{"t": "A paratha is cut into two pieces, one big and one small. Is each piece a half?", "o": ["No, halves must be equal", "Yes, any two pieces are halves", "Yes, if the paratha is round", "Only the bigger piece is a half"], "e": "A half is a fair share: both parts must be exactly the same size."},
+{"t": "2 quarters of a chikki make:", "o": ["a half", "a whole", "three quarters", "a quarter"], "e": "4 quarters make a whole, so 2 quarters are half of the whole."}
+]},
+{"q": [
+{"t": "Peehu ties a quarter of her 16 flowers. How many flowers does she tie?", "n": 4, "u": "flowers", "k": "16//4", "e": "A quarter means 4 equal groups: 16 shared into 4 is 4 each."},
+{"t": "Lakshanya ties half of her 16 flowers. How many does she tie?", "n": 8, "u": "flowers", "k": "16//2", "e": "16 split into 2 equal groups is 8 and 8."},
+{"t": "3 quarters and 1 more quarter make:", "o": ["a whole", "a half", "three quarters", "two wholes"], "e": "3 + 1 = 4 quarters, and 4 quarters make one whole."},
+{"t": "What is half of 14?", "n": 7, "k": "14//2", "e": "7 + 7 = 14."},
+{"t": "What is double of 9?", "n": 18, "k": "2*9", "e": "9 + 9 = 18."},
+{"t": "3 marbles is half of how many marbles?", "n": 6, "u": "marbles", "k": "2*3", "e": "If 3 is half, the whole is double of 3: 3 + 3 = 6."},
+{"t": "How many halves are there in 3 wholes?", "n": 6, "u": "halves", "k": "3*2", "e": "Each whole has 2 halves: 2 + 2 + 2 = 6."},
+{"t": "How many quarters are there in 2 wholes?", "n": 8, "u": "quarters", "k": "2*4", "e": "Each whole has 4 quarters: 4 + 4 = 8."},
+{"t": "Which is bigger: half of a chikki or a quarter of the same chikki?", "o": ["half", "a quarter", "both are the same", "we cannot tell"], "e": "Sharing among 2 gives bigger pieces than sharing among 4."},
+{"t": "Amit keeps all the mangoes and gives Bala only the tree. Is that a fair share?", "o": ["No, Bala gets nothing to eat", "Yes, each got one thing", "Yes, the tree is bigger", "No, Bala should get both"], "e": "Fair sharing means both get an equal amount of what is useful — Bala never gets any fruit."}
+]},
+{"q": [
+{"t": "What is a quarter of 20 laddoos?", "n": 5, "u": "laddoos", "k": "20//4", "e": "20 shared into 4 equal groups: 5 in each, because 4 × 5 = 20."},
+{"t": "What is three quarters of 8 marbles?", "n": 6, "u": "marbles", "k": "3*(8//4)", "e": "One quarter of 8 is 2, so three quarters is 2 + 2 + 2 = 6."},
+{"t": "4 marbles is half of how many marbles?", "n": 8, "u": "marbles", "k": "2*4", "e": "The whole is double the half: 4 + 4 = 8."},
+{"t": "Riddle: I have fewer than double of 5 marbles and more than half of 16 marbles. How many do I have?", "n": 9, "u": "marbles", "e": "Double of 5 is 10 and half of 16 is 8. More than 8 but fewer than 10 means 9."},
+{"t": "How many quarters make one half?", "n": 2, "u": "quarters", "e": "A whole is 4 quarters, and half of 4 quarters is 2 quarters."},
+{"t": "Lakshanya ties half of 16 flowers; Peehu ties a quarter of 16. Lakshanya tied ___ the number Peehu tied.", "o": ["double", "half", "the same as", "a quarter of"], "e": "Lakshanya tied 8 and Peehu tied 4, and 8 is double of 4."},
+{"t": "What is three quarters of 12 birds?", "n": 9, "u": "birds", "k": "3*(12//4)", "e": "A quarter of 12 is 3, so three quarters is 3 + 3 + 3 = 9."},
+{"t": "A pizza is cut into 4 equal pieces and Ravi eats 1 piece. What part of the pizza is left?", "o": ["three quarters", "a half", "a quarter", "the whole"], "e": "4 quarters − 1 quarter = 3 quarters."},
+{"t": "Take half of 10, then double the answer. What do you get?", "n": 10, "k": "2*(10//2)", "e": "Half of 10 is 5, double of 5 is 10. Doubling undoes halving."},
+{"t": "There are 12 birds. Shabnam colours 6 of them. What part of the birds did she colour?", "o": ["half", "a quarter", "three quarters", "the whole"], "e": "6 + 6 = 12, so 6 is half of 12."}
+]},
+{"q": [
+{"t": "Kavi has 24 marbles. He gives half to his sister. Then he gives a quarter of what is left to a friend. How many marbles does Kavi have now?", "n": 9, "u": "marbles", "k": "24//2-24//2//4", "e": "Half of 24 is 12, so 12 are left. A quarter of 12 is 3. 12 − 3 = 9."},
+{"t": "Raj has 7 stickers. Mona has double the number Raj has. How many stickers do they have together?", "n": 21, "u": "stickers", "k": "7+2*7", "e": "Mona has 7 + 7 = 14. Together: 7 + 14 = 21."},
+{"t": "Shabnam eats a quarter of a chikki, then another quarter. What part is left?", "o": ["a half", "a quarter", "three quarters", "nothing"], "e": "She ate 2 quarters, which is a half, so the other half is left."},
+{"t": "There are 20 laddoos. Half go to Nani and a quarter of the 20 go to Mama. How many are left?", "n": 5, "u": "laddoos", "k": "20-20//2-20//4", "e": "Half of 20 is 10 and a quarter of 20 is 5. 20 − 10 − 5 = 5."},
+{"t": "Riddle: I am more than half of 14 and less than double of 5. Which of these can I be?", "o": ["8", "6", "10", "12"], "e": "Half of 14 is 7 and double of 5 is 10. I must be bigger than 7 and smaller than 10 — only 8 fits."},
+{"t": "8 mangoes are shared equally between 2 children. One child then gives half of her share to a friend. How many mangoes does she keep?", "n": 2, "u": "mangoes", "k": "8//2//2", "e": "Each child gets 4. Half of 4 is 2."},
+{"t": "A ribbon is folded in half, and then folded in half again. When you open it, how many equal parts are there?", "n": 4, "u": "parts", "k": "2*2", "e": "The first fold makes 2 halves; folding again halves each half: 4 quarters."},
+{"t": "Which is the same as three quarters?", "o": ["a half and a quarter", "two halves", "a quarter and a quarter", "a whole and a quarter"], "e": "A half is 2 quarters, and 2 quarters + 1 quarter = 3 quarters."},
+{"t": "Asha eats half a roti. Bina eats 2 quarters of a roti of the same size. Who eats more?", "o": ["Both eat the same", "Asha", "Bina", "We cannot tell"], "e": "2 quarters make exactly a half."},
+{"t": "Start with 13. Double it, then take half of the answer. What do you get?", "n": 13, "k": "(2*13)//2", "e": "Double of 13 is 26 and half of 26 is 13. Halving undoes doubling."}
+]}
+]
+}
