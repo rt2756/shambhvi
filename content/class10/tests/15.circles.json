@@ -1,0 +1,53 @@
+{
+  "title": "15. Circles",
+  "tests": [
+    {"q": [
+      {"t": "A tangent to a circle is ___ to the radius at the point of contact.", "o": ["perpendicular", "parallel", "equal", "at 45°"], "e": "The radius is the shortest path from the centre to the tangent line, and the shortest path to a line is perpendicular."},
+      {"t": "How many tangents can be drawn to a circle from a point outside it?", "n": 2, "k": "2", "e": "One touching on each side of the circle."},
+      {"t": "A point is 5 cm from the centre of a circle of radius 3 cm. Find the length of the tangent from it.", "n": 4, "u": "cm", "k": "(25-9)**F(1,2)", "e": "Radius ⊥ tangent makes a right triangle: √(25 − 9)."},
+      {"t": "The two tangents from an outside point to a circle are…", "o": ["equal in length", "perpendicular", "parallel", "unequal"], "e": "The two right triangles share the hypotenuse and have equal radii, so they are congruent (RHS)."},
+      {"t": "How many tangents can be drawn at one point on a circle?", "n": 1, "k": "1", "e": "Only one line is perpendicular to the radius at that point."},
+      {"t": "A point is 13 cm from the centre and its tangent is 12 cm long. Find the radius.", "n": 5, "u": "cm", "k": "(169-144)**F(1,2)", "e": "√(169 − 144)."},
+      {"t": "Find the angle between a tangent and the radius at the point of contact (in degrees).", "n": 90, "u": "°", "k": "90", "e": "A tangent is always perpendicular to the radius there."},
+      {"t": "Tangents drawn at the two ends of a diameter are…", "o": ["parallel", "perpendicular", "equal and meeting", "the same line"], "e": "Both are perpendicular to the same diameter."},
+      {"t": "A line meeting a circle at two points is called a…", "o": ["secant", "tangent", "radius", "chord"], "e": "A chord is only the part inside; the full line is a secant. A tangent meets the circle once."},
+      {"t": "How many tangents can be drawn from a point inside a circle?", "n": 0, "k": "0", "e": "Every line through an inside point cuts the circle twice."}
+    ]},
+    {"q": [
+      {"t": "TP and TQ are tangents from T to a circle with centre O. ∠PTQ = 70°. Find ∠POQ.", "n": 110, "u": "°", "k": "180-70", "e": "In quadrilateral OPTQ the angles at P and Q are 90°, so ∠POQ = 360° − 180° − 70°."},
+      {"t": "Quadrilateral ABCD is drawn round a circle with AB = 6, BC = 7 and CD = 4 cm. Find AD.", "n": 3, "u": "cm", "k": "6+4-7", "e": "Equal tangents from each corner give AB + CD = BC + AD."},
+      {"t": "A point is 17 cm from the centre of a circle of radius 8 cm. Find the tangent length.", "n": 15, "u": "cm", "k": "(289-64)**F(1,2)", "e": "√(289 − 64) = √225."},
+      {"t": "Two concentric circles have radii 5 cm and 3 cm. Find the length of a chord of the larger that touches the smaller.", "n": 8, "u": "cm", "k": "2*(25-9)**F(1,2)", "e": "The radius to the touching point bisects the chord at right angles: half-chord = √(25 − 9) = 4."},
+      {"t": "PA and PB are tangents from P to a circle with centre O and radius 5 cm. ∠APB = 60°. Find PA.", "o": ["5√3 cm", "5 cm", "10 cm", "5/√3 cm"], "e": "OP bisects ∠APB, so ∠APO = 30° and tan 30° = OA/PA = 5/PA."},
+      {"t": "PA and PB are tangents from P to a circle with centre O. ∠APB = 80°. Find ∠OAB.", "n": 40, "u": "°", "k": "90-50", "e": "PA = PB, so ∠PAB = (180° − 80°)/2 = 50°. ∠OAP = 90°, so ∠OAB = 40°."},
+      {"t": "The incircle of ΔABC touches the sides at D, E, F, with AF = 4, BD = 6 and CE = 5 cm. Find the perimeter.", "n": 30, "u": "cm", "k": "2*(4+6+5)", "e": "Each tangent length appears twice (AF = AE, BD = BF, CE = CD)."},
+      {"t": "A tangent from a point 25 cm from the centre is 24 cm long. Find the radius.", "n": 7, "u": "cm", "k": "(625-576)**F(1,2)", "e": "√(625 − 576) = √49."},
+      {"t": "A parallelogram drawn round a circle must be a…", "o": ["rhombus", "rectangle", "trapezium", "kite that is not a rhombus"], "e": "AB + CD = BC + AD, and opposite sides are equal, so 2AB = 2BC."},
+      {"t": "A chord 8 cm long is in a circle of radius 5 cm. How far is it from the centre?", "n": 3, "u": "cm", "k": "(25-16)**F(1,2)", "e": "The perpendicular from the centre halves the chord: √(25 − 16)."}
+    ]},
+    {"q": [
+      {"t": "PQ is a 24 cm chord of a circle of radius 13 cm. The tangents at P and Q meet at T. Find TP.", "n": 31.2, "u": "cm", "k": "F(13*12,5)", "e": "OR ⊥ PQ with OR = 5. In right ΔOPT, the triangles OPT and ORP are similar, so TP/OP = PR/OR: TP = 13 × 12/5."},
+      {"t": "Two tangents PA and PB from P to a circle make ∠APB = 120°. Then OP equals…", "o": ["2 AP", "AP", "√3 AP", "AP/2"], "e": "∠APO = 60°, so cos 60° = AP/OP = 1/2."},
+      {"t": "A quadrilateral is drawn round a circle with sides AB = x + 3, BC = 2x, CD = x + 4, DA = 2x − 1. Find x.", "n": 4, "k": "4", "e": "AB + CD = BC + DA: 2x + 7 = 4x − 1."},
+      {"t": "A circle is inscribed in a right triangle with legs 6 cm and 8 cm. Find its radius.", "n": 2, "u": "cm", "k": "F(6+8-10,2)", "e": "The hypotenuse is 10. In a right triangle r = (a + b − c)/2, since the tangents from the right-angle corner equal r."},
+      {"t": "The two tangents from P to a circle of radius 6 cm are at right angles. Find the length of each tangent.", "n": 6, "u": "cm", "k": "6", "e": "OAPB has three right angles, so it is a rectangle with OA = OB — a square."},
+      {"t": "AB is a diameter of a circle with centre O and ∠BAC = 30° for a chord AC. The tangent at C meets AB extended at D. Then BC equals…", "o": ["BD", "AC", "AD", "OD"], "e": "∠ACB = 90° (semicircle), so ∠ABC = 60°. OA = OC gives ∠OCA = 30°, so ∠OCB = 60°; OC ⊥ CD makes ∠BCD = 30°. Then ∠BDC = 60° − 30° = 30°, so ΔBCD is isosceles."},
+      {"t": "TP and TQ are tangents to a circle with centre O and ∠PTQ = 50°. Find ∠OPQ.", "n": 25, "u": "°", "k": "90-65", "e": "∠TPQ = (180° − 50°)/2 = 65° and ∠OPT = 90°, so ∠OPQ = 90° − 65°."},
+      {"t": "Two concentric circles have radii 13 cm and 5 cm. Find the chord of the larger that touches the smaller.", "n": 24, "u": "cm", "k": "2*(169-25)**F(1,2)", "e": "Half-chord = √(169 − 25) = 12."},
+      {"t": "A circle touches all four sides of ABCD with AB = 10, BC = 12 and CD = 9 cm. Find AD.", "n": 7, "u": "cm", "k": "10+9-12", "e": "AB + CD = BC + AD."},
+      {"t": "From an outside point P, the tangent PT is 12 cm and the nearest point of the circle is 8 cm from P. Find the radius.", "n": 5, "u": "cm", "k": "F(144-64,16)", "e": "OP = r + 8 and (r + 8)² = r² + 144, so 16r = 80."}
+    ]},
+    {"q": [
+      {"t": "A circle of radius 2 cm is inscribed in ΔABC, touching BC at D with BD = 4 cm and DC = 6 cm. Find AB + AC.", "n": 14, "u": "cm", "k": "6+8", "e": "Let the tangent from A be x. s = 10 + x. Area = r × s = 2(10 + x) and also √(s × x × 4 × 6). Equating gives x = 2, so AB = 6, AC = 8."},
+      {"t": "Two concentric circles have radii 5 cm and 3 cm. Chord AB of the larger touches the smaller at P; AD is a diameter of the larger. Find BD.", "n": 6, "u": "cm", "k": "2*3", "e": "O and P are midpoints of AD and AB, so OP is half of BD (midpoint theorem). OP = 3."},
+      {"t": "ΔABC has AB = 12, BC = 8 and CA = 10 cm. Its incircle touches AB at F. Find AF.", "n": 7, "u": "cm", "k": "F(12+8+10,2)-8", "e": "Tangent from A = s − (side opposite A) = 15 − 8."},
+      {"t": "A circle is inscribed in a right triangle with legs 9 cm and 40 cm. Find its radius.", "n": 4, "u": "cm", "k": "F(9+40-41,2)", "e": "The hypotenuse is 41, and r = (9 + 40 − 41)/2."},
+      {"t": "PA and PB are tangents from P, with PA = 10 cm. A third tangent at a point C on the minor arc AB meets PA at D and PB at E. Find the perimeter of ΔPDE.", "n": 20, "u": "cm", "k": "10+10", "e": "DC = DA and EC = EB, so PD + DE + PE = PA + PB."},
+      {"t": "TP and TQ are tangents from T to a circle with centre O. ∠PTQ equals…", "o": ["2∠OPQ", "∠OPQ", "3∠OPQ", "90° − ∠OPQ"], "e": "∠TPQ = 90° − ∠PTQ/2 and ∠OPQ = 90° − ∠TPQ = ∠PTQ/2."},
+      {"t": "A circle touches BC at P and the extensions of AB and AC at Q and R. AB = 7, BC = 8 and CA = 9 cm. Find AQ.", "n": 12, "u": "cm", "k": "F(7+8+9,2)", "e": "BQ = BP and CR = CP, so AQ + AR = AB + BC + CA = 24. AQ = AR = 12."},
+      {"t": "A circle is inscribed in quadrilateral ABCD with ∠D = 90°. BC = 30 cm, CD = 20 cm and the tangent from B is 18 cm. Find the radius.", "n": 8, "u": "cm", "k": "20-(30-18)", "e": "Tangent from C = 30 − 18 = 12, so the tangent from D = 20 − 12 = 8. With ∠D = 90° the radii and tangents at D form a square."},
+      {"t": "PA and PB are tangents from P with ∠APB = 60° and PA = 7 cm. Find AB.", "n": 7, "u": "cm", "k": "7", "e": "PA = PB and the angle between is 60°, so ΔPAB is equilateral."},
+      {"t": "A circle has radius 5 cm and P is 13 cm from its centre O. Tangents touch at A and B. Find the area of quadrilateral OAPB.", "n": 60, "u": "cm²", "k": "2*F(1,2)*5*12", "e": "PA = 12. OAPB is two right triangles of area ½ × 5 × 12."}
+    ]}
+  ]
+}

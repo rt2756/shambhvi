@@ -1,0 +1,53 @@
+{
+  "title": "6. T-Ratios of Some Particular Angles",
+  "tests": [
+    {"q": [
+      {"t": "Find sin 30°.", "n": 0.5, "k": "F(1,2)", "e": "Half of an equilateral triangle of side 2 has hypotenuse 2 and side 1 opposite 30°."},
+      {"t": "Find tan 45°.", "n": 1, "k": "1", "e": "A 45° right triangle is isosceles, so opposite = adjacent."},
+      {"t": "Find sin 60°.", "o": ["√3/2", "1/2", "1/√2", "√3"], "e": "In the half-equilateral triangle (1, √3, 2), the side opposite 60° is √3."},
+      {"t": "Find cos 0°.", "n": 1, "k": "1", "e": "As the angle shrinks to 0°, the adjacent side becomes the whole hypotenuse."},
+      {"t": "What is tan 90°?", "o": ["Not defined", "0", "1", "√3"], "e": "tan 90° = sin 90°/cos 90° = 1/0, and we cannot divide by zero."},
+      {"t": "Find sin 90° + cos 90°.", "n": 1, "k": "1+0", "e": "sin 90° = 1 and cos 90° = 0."},
+      {"t": "Find sec 60°.", "n": 2, "k": "2", "e": "cos 60° = 1/2, and sec is its reciprocal."},
+      {"t": "Find cosec 45°.", "o": ["√2", "1/√2", "2", "√3"], "e": "sin 45° = 1/√2, so cosec 45° = √2."},
+      {"t": "Find tan 30°.", "o": ["1/√3", "√3", "1/2", "√3/2"], "e": "In the (1, √3, 2) triangle, opposite 30° is 1 and adjacent is √3."},
+      {"t": "Find 2 sin 30° cos 30°.", "o": ["√3/2", "1/2", "√3", "1"], "e": "2 × 1/2 × √3/2 = √3/2."}
+    ]},
+    {"q": [
+      {"t": "Find sin 60° cos 30° + cos 60° sin 30°.", "n": 1, "k": "F(3,4)+F(1,4)", "e": "(√3/2)(√3/2) + (1/2)(1/2) = 3/4 + 1/4."},
+      {"t": "Find 3 tan² 45° − sin² 60° + cos² 30°.", "n": 3, "k": "3-F(3,4)+F(3,4)", "e": "3 × 1 − 3/4 + 3/4 = 3."},
+      {"t": "Find 4 cos² 60° + 3 sec² 30° − tan² 45°.", "n": 4, "k": "1+4-1", "e": "4 × 1/4 + 3 × 4/3 − 1 = 1 + 4 − 1."},
+      {"t": "If sin(A + B) = 1 and cos(A − B) = 1 (A, B acute), find A in degrees.", "n": 45, "u": "°", "k": "45", "e": "A + B = 90° and A − B = 0°, so A = B = 45°."},
+      {"t": "If tan 2A = √3 (2A acute), find A in degrees.", "n": 30, "u": "°", "k": "30", "e": "tan 60° = √3, so 2A = 60°."},
+      {"t": "Find (1 − tan² 30°)/(1 + tan² 30°).", "n": 0.5, "k": "(1-F(1,3))/(1+F(1,3))", "e": "tan² 30° = 1/3: (2/3)/(4/3) = 1/2."},
+      {"t": "Find sin 45° cos 45° + tan² 60°.", "n": 3.5, "k": "F(1,2)+3", "e": "(1/√2)(1/√2) + 3 = 1/2 + 3."},
+      {"t": "If 2 cos θ = 1 (θ acute), find θ in degrees.", "n": 60, "u": "°", "k": "60", "e": "cos θ = 1/2, and cos 60° = 1/2."},
+      {"t": "ΔABC is right-angled at B with ∠A = 30° and AC = 20 cm. Find BC.", "n": 10, "u": "cm", "k": "20*F(1,2)", "e": "BC is opposite 30°: BC = AC sin 30° = 20 × 1/2."},
+      {"t": "ΔABC is right-angled at B with ∠C = 45° and AB = 6 cm. Find AC.", "o": ["6√2 cm", "6 cm", "12 cm", "3√2 cm"], "e": "A 45° right triangle is isosceles, so BC = 6 too; AC = √(36 + 36) = 6√2."}
+    ]},
+    {"q": [
+      {"t": "If sin(2θ − 10°) = cos 60° (θ acute), find θ in degrees.", "n": 20, "u": "°", "k": "20", "e": "cos 60° = 1/2 = sin 30°, so 2θ − 10° = 30°."},
+      {"t": "If cos(A − B) = √3/2 and sin(A + B) = 1, find A in degrees.", "n": 60, "u": "°", "k": "60", "e": "A − B = 30° and A + B = 90°, so 2A = 120°."},
+      {"t": "Find 2 sin² 30° + cot² 30° − sec² 45°.", "n": 1.5, "k": "F(1,2)+3-2", "e": "2 × 1/4 + 3 − 2 = 3/2."},
+      {"t": "For which acute or zero angle A is sin 2A = 2 sin A?", "o": ["0°", "30°", "45°", "60°"], "e": "Try them: only at 0° do both sides equal 0. At 30°, sin 60° ≈ 0.87 but 2 sin 30° = 1."},
+      {"t": "Find x if x tan 45° cos 60° = sin 60° cot 60°.", "n": 1, "k": "1", "e": "x × 1 × 1/2 = (√3/2)(1/√3) = 1/2, so x = 1."},
+      {"t": "A ladder makes 60° with the ground and its foot is 2.5 m from the wall. Find the ladder’s length.", "n": 5, "u": "m", "k": "F(5,2)*2", "e": "cos 60° = foot distance ÷ ladder: 2.5 ÷ 1/2."},
+      {"t": "ΔABC is right-angled at C with ∠A = 30° and AB = 10 cm. Find AC.", "o": ["5√3 cm", "5 cm", "10√3 cm", "5/√3 cm"], "e": "AC is adjacent to A: AC = AB cos 30° = 10 × √3/2."},
+      {"t": "Find 4 cos³ 30° − 3 cos 30°.", "n": 0, "k": "0", "e": "4 × 3√3/8 − 3√3/2 = 3√3/2 − 3√3/2. (It equals cos 90°.)"},
+      {"t": "Using sin(A + B) = sin A cos B + cos A sin B with A = 45°, B = 30°, find sin 75°.", "o": ["(√6 + √2)/4", "(√6 − √2)/4", "(√3 + 1)/2", "√3/2 + 1/√2"], "e": "(1/√2)(√3/2) + (1/√2)(1/2) = (√3 + 1)/(2√2) = (√6 + √2)/4."},
+      {"t": "If √3 tan θ = 3 sin θ (θ acute), find sin² θ − cos² θ.", "o": ["1/3", "2/3", "−1/3", "1/2"], "k": "F(2,3)-F(1,3)", "e": "Divide by sin θ: √3/cos θ = 3, so cos θ = 1/√3. Then cos² θ = 1/3, sin² θ = 2/3."}
+    ]},
+    {"q": [
+      {"t": "If sin(A + B) = 1 and cos(A − 2B) = 1 (A, B acute), find A in degrees.", "n": 60, "u": "°", "k": "60", "e": "A + B = 90° and A − 2B = 0°. So A = 2B and 3B = 90°: B = 30°, A = 60°."},
+      {"t": "Find (sec² 45° + cot² 60° + 3 tan² 30°)/(cosec² 30° − tan² 60°).", "o": ["10/3", "3", "7/3", "4"], "k": "(2+F(1,3)+1)/(4-3)", "e": "Top: 2 + 1/3 + 1 = 10/3. Bottom: 4 − 3 = 1."},
+      {"t": "If θ = 30°, find 2 tan θ/(1 − tan² θ).", "o": ["√3", "1/√3", "1", "2√3"], "e": "2(1/√3)/(2/3) = 3/√3 = √3 — it is tan 60°, i.e. tan 2θ."},
+      {"t": "If sin(A − B) = 1/2 and cos(A + B) = 0 (A, B acute), find B in degrees.", "n": 30, "u": "°", "k": "30", "e": "A − B = 30° and A + B = 90°: subtract to get 2B = 60°."},
+      {"t": "If cos θ/(1 − sin θ) + cos θ/(1 + sin θ) = 4 (θ acute), find θ in degrees.", "n": 60, "u": "°", "k": "60", "e": "The sum is 2cos θ/(1 − sin² θ) = 2/cos θ = 4, so cos θ = 1/2."},
+      {"t": "A diagonal AC = 12 cm of rectangle ABCD makes 30° with AB. Find the area of the rectangle.", "o": ["36√3 cm²", "72 cm²", "36 cm²", "72√3 cm²"], "e": "AB = 12 cos 30° = 6√3 and BC = 12 sin 30° = 6, so area = 36√3."},
+      {"t": "Find cos² 30° cos² 45° + 4 sec² 60° + ½ cos² 90° − 2 tan² 60°.", "n": 10.375, "k": "F(3,8)+16-6", "e": "3/4 × 1/2 + 4 × 4 + 0 − 2 × 3 = 3/8 + 16 − 6 = 83/8."},
+      {"t": "Find 3 sin 30° − 4 sin³ 30°.", "n": 1, "k": "F(3,2)-F(4,8)", "e": "3/2 − 4/8 = 1. (This is sin 90°.)"},
+      {"t": "ΔPQR is right-angled at Q with PQ = 4 cm and QR = 4√3 cm. Find ∠PRQ in degrees.", "n": 30, "u": "°", "k": "30", "e": "tan R = PQ/QR = 1/√3, so ∠R = 30° (and ∠P = 60°)."},
+      {"t": "Using sin(A − B) = sin A cos B − cos A sin B with A = 45°, B = 30°, find sin 15°.", "o": ["(√6 − √2)/4", "(√6 + √2)/4", "(√3 − 1)/2", "1/4"], "e": "(1/√2)(√3/2) − (1/√2)(1/2) = (√3 − 1)/(2√2) = (√6 − √2)/4."}
+    ]}
+  ]
+}

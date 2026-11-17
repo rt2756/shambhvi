@@ -1,0 +1,53 @@
+{
+  "title": "18. Areas of Circle, Sector and Segment",
+  "tests": [
+    {"q": [
+      {"t": "Find the circumference of a circle of radius 7 cm. (π = 22/7)", "n": 44, "u": "cm", "k": "2*F(22,7)*7", "e": "C = 2πr = 2 × 22/7 × 7."},
+      {"t": "Find the area of a circle of radius 7 cm. (π = 22/7)", "n": 154, "u": "cm²", "k": "F(22,7)*49", "e": "A = πr² = 22/7 × 49."},
+      {"t": "Find the area of a 90° sector of a circle of radius 14 cm. (π = 22/7)", "n": 154, "u": "cm²", "k": "F(90,360)*F(22,7)*196", "e": "A sector is the fraction θ/360° of the circle: ¼ × 22/7 × 196."},
+      {"t": "Find the length of a 60° arc of a circle of radius 21 cm. (π = 22/7)", "n": 22, "u": "cm", "k": "F(60,360)*2*F(22,7)*21", "e": "The arc is the fraction 60/360 = 1/6 of the circumference 132."},
+      {"t": "Find the area of a circle of diameter 28 cm. (π = 22/7)", "n": 616, "u": "cm²", "k": "F(22,7)*196", "e": "r = 14: 22/7 × 196."},
+      {"t": "A circle has circumference 88 cm. Find its radius. (π = 22/7)", "n": 14, "u": "cm", "k": "F(88*7,44)", "e": "2 × 22/7 × r = 88 gives r = 88 × 7/44."},
+      {"t": "Find the area of a semicircle of radius 7 cm. (π = 22/7)", "n": 77, "u": "cm²", "k": "F(1,2)*F(22,7)*49", "e": "Half of 154."},
+      {"t": "Find the area of a quadrant of a circle of radius 7 cm. (π = 22/7)", "n": 38.5, "u": "cm²", "k": "F(1,4)*F(22,7)*49", "e": "A quadrant is a quarter: 154/4."},
+      {"t": "A wheel has diameter 70 cm. How far does it go in one turn? (π = 22/7)", "n": 220, "u": "cm", "k": "F(22,7)*70", "e": "One turn rolls out one circumference: π × 70."},
+      {"t": "Find the perimeter of a semicircle of radius 7 cm. (π = 22/7)", "n": 36, "u": "cm", "k": "F(22,7)*7+14", "e": "Half the circumference (22) plus the straight diameter (14)."}
+    ]},
+    {"q": [
+      {"t": "Find the area of the ring between circles of radii 10.5 cm and 7 cm. (π = 22/7)", "n": 192.5, "u": "cm²", "k": "F(22,7)*(F(441,4)-49)", "e": "Big circle minus small circle: π(110.25 − 49)."},
+      {"t": "Find the area of a 120° sector of a circle of radius 21 cm. (π = 22/7)", "n": 462, "u": "cm²", "k": "F(120,360)*F(22,7)*441", "e": "120° is ⅓ of the circle: ⅓ × 1386."},
+      {"t": "A minute hand is 14 cm long. What area does it sweep in 5 minutes? (π = 22/7)", "o": ["154/3 cm²", "154 cm²", "77/3 cm²", "308/3 cm²"], "k": "F(1,12)*F(22,7)*196", "e": "5 minutes is 30°, i.e. 1/12 of the circle: 616/12."},
+      {"t": "A wheel of diameter 84 cm rolls 792 m. How many turns does it make? (π = 22/7)", "n": 300, "k": "F(79200,1)/(F(22,7)*84)", "e": "Each turn covers π × 84 = 264 cm. 79200 ÷ 264."},
+      {"t": "A square is drawn inside a circle of radius 7 cm with its corners on the circle. Find the area inside the circle but outside the square. (π = 22/7)", "n": 56, "u": "cm²", "k": "F(22,7)*49-98", "e": "The square’s diagonal is the diameter 14, so its area is ½ × 14 × 14 = 98. 154 − 98."},
+      {"t": "A circle’s circumference is 30 cm more than its diameter. Find its radius. (π = 22/7)", "n": 7, "u": "cm", "k": "7", "e": "2πr − 2r = 30: r(44/7 − 2) = r × 30/7 = 30."},
+      {"t": "A circle has circumference 132 cm. Find its area. (π = 22/7)", "n": 1386, "u": "cm²", "k": "F(22,7)*441", "e": "r = 132 × 7/44 = 21; area = 22/7 × 441."},
+      {"t": "Find the perimeter of a 60° sector of a circle of radius 21 cm. (π = 22/7)", "n": 64, "u": "cm", "k": "F(1,6)*2*F(22,7)*21+42", "e": "Arc 22 plus two radii 42."},
+      {"t": "A chord of a circle of radius 21 cm makes a right angle at the centre. Find the area of the minor segment. (π = 22/7)", "n": 126, "u": "cm²", "k": "F(1,4)*F(22,7)*441-F(441,2)", "e": "Segment = sector − triangle: ¼ × 1386 − ½ × 21 × 21 = 346.5 − 220.5."},
+      {"t": "A horse is tied with a 14 m rope to a corner of a large rectangular field. How much area can it graze? (π = 22/7)", "n": 154, "u": "m²", "k": "F(1,4)*F(22,7)*196", "e": "The corner is a right angle, so it can reach a quadrant: ¼ × 616."}
+    ]},
+    {"q": [
+      {"t": "A chord of a circle of radius 21 cm makes 60° at the centre. Find the area of the minor segment. (π = 22/7)", "o": ["(231 − 441√3/4) cm²", "(462 − 441√3/4) cm²", "(231 − 441/2) cm²", "231 cm²"], "e": "Sector = 1/6 × 1386 = 231. The triangle is equilateral (two radii, 60° between), area (√3/4) × 441."},
+      {"t": "A square of side 14 cm has a quadrant of radius 7 cm cut from each corner. Find the area left. (π = 22/7)", "n": 42, "u": "cm²", "k": "196-F(22,7)*49", "e": "Four quarter-circles make one full circle of area 154. 196 − 154."},
+      {"t": "A circle’s area equals the sum of the areas of circles with radii 6 cm and 8 cm. Find its radius.", "n": 10, "u": "cm", "k": "(36+64)**F(1,2)", "e": "πR² = π(36 + 64), so R² = 100."},
+      {"t": "A circle’s circumference equals the sum of the circumferences of circles with radii 15 cm and 11 cm. Find its radius.", "n": 26, "u": "cm", "k": "15+11", "e": "2πR = 2π(15 + 11), so R = 26."},
+      {"t": "A car’s wheels have diameter 70 cm. How many turns does each wheel make per minute at 66 km/h? (π = 22/7)", "n": 500, "k": "F(110000,1)/(F(22,7)*70)", "e": "66 km/h = 1100 m per minute = 110000 cm. Each turn is 220 cm."},
+      {"t": "An equilateral triangle of side 14 cm has a circle of radius 7 cm drawn at each corner. Find the area of the triangle not covered by the circles. (π = 22/7)", "o": ["(49√3 − 77) cm²", "(49√3 − 154) cm²", "(98√3 − 77) cm²", "77 cm²"], "e": "Triangle = (√3/4) × 196 = 49√3. Each corner holds a 60° sector; three of them make half a circle: 77."},
+      {"t": "Find the area of the largest circle that can be cut from a 20 cm × 14 cm rectangle. (π = 22/7)", "n": 154, "u": "cm²", "k": "F(22,7)*49", "e": "Its diameter cannot exceed the shorter side, 14 cm."},
+      {"t": "A clock’s hour hand is 7 cm long. What area does it sweep from 9 a.m. to 12 noon? (π = 22/7)", "n": 38.5, "u": "cm²", "k": "F(1,4)*F(22,7)*49", "e": "3 hours is 3/12 of a full turn = 90°: ¼ × 154."},
+      {"t": "Two circles have areas in the ratio 4 : 9. Find the ratio of their circumferences.", "o": ["2 : 3", "4 : 9", "16 : 81", "3 : 2"], "e": "Area ratio is the square of the radius ratio, so radii are 2 : 3 — and circumference goes with the radius."},
+      {"t": "A sector of a circle of radius 7 cm has perimeter 25 cm. Find its angle in degrees. (π = 22/7)", "n": 90, "u": "°", "k": "F(11,44)*360", "e": "The arc is 25 − 14 = 11, which is 11/44 = ¼ of the circumference."}
+    ]},
+    {"q": [
+      {"t": "A car has two wipers 14 cm long that do not overlap. Each sweeps 135°. Find the total area cleaned. (π = 22/7)", "n": 462, "u": "cm²", "k": "2*F(135,360)*F(22,7)*196", "e": "Each sweeps 135/360 × 616 = 231."},
+      {"t": "A circular brooch of radius 7 cm is divided into 8 equal sectors by 4 diameters. Find the area of each sector. (π = 22/7)", "n": 19.25, "u": "cm²", "k": "F(22,7)*49/8", "e": "154 ÷ 8."},
+      {"t": "A chord of a circle of radius 20 cm makes a right angle at the centre. Find the area of the major segment. (π = 3.14)", "n": 1142, "u": "cm²", "k": "F('3.14')*400-(F('3.14')*100-200)", "e": "Minor segment = 314 − 200 = 114. Major = whole circle 1256 − 114."},
+      {"t": "Four semicircles are drawn inward on the sides of a 14 cm square, making a four-petal flower. Find the area of the flower. (π = 22/7)", "n": 112, "u": "cm²", "k": "4*F(1,2)*F(22,7)*49-196", "e": "The four semicircles (77 each) cover the square and overlap exactly on the petals: 308 − 196."},
+      {"t": "A running track has two straight 100 m parts and semicircular ends. The inner ends have diameter 56 m and the track is 7 m wide. Find its area. (π = 22/7)", "n": 2786, "u": "m²", "k": "2*100*7+F(22,7)*(35**2-28**2)", "e": "Straights 2 × 100 × 7 = 1400. Two semicircular rings make one full ring between radii 28 and 35: 22/7 × 441 = 1386."},
+      {"t": "A chord of a circle of radius 14 cm makes 60° at the centre. Find the area of the minor segment. (π = 22/7)", "o": ["(308/3 − 49√3) cm²", "(616/3 − 49√3) cm²", "(308/3 − 98√3) cm²", "308/3 cm²"], "e": "Sector = 1/6 × 616 = 308/3. The triangle is equilateral of side 14: (√3/4) × 196 = 49√3."},
+      {"t": "A 21 cm pendulum swings through 36°. Find the length of the arc its tip moves along. (π = 22/7)", "n": 13.2, "u": "cm", "k": "F(36,360)*2*F(22,7)*21", "e": "36° is 1/10 of a turn: 1/10 × 2 × 22/7 × 21."},
+      {"t": "Three circles of radius 3.5 cm each touch the other two. Find the area enclosed between them. (π = 22/7)", "o": ["(49√3/4 − 19.25) cm²", "(49√3/4 − 38.5) cm²", "(49√3 − 19.25) cm²", "19.25 cm²"], "e": "The centres form an equilateral triangle of side 7. Its three 60° corner sectors make half a circle: ½ × 38.5."},
+      {"t": "A ring has area 462 cm² and outer radius 14 cm. Find the inner radius. (π = 22/7)", "n": 7, "u": "cm", "k": "7", "e": "Inner circle area = 616 − 462 = 154, so r² = 49."},
+      {"t": "A circle is inscribed in an equilateral triangle of side 12√3 cm. Find its area. (π = 22/7)", "o": ["792/7 cm²", "1584/7 cm²", "396/7 cm²", "792 cm²"], "k": "F(22,7)*36", "e": "The incircle radius is side ÷ (2√3) = 6 (one-third of the height 18). 22/7 × 36."}
+    ]}
+  ]
+}

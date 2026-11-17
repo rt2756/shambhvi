@@ -1,0 +1,53 @@
+{
+  "title": "7. Trigonometric Ratios of Complementary Angles",
+  "tests": [
+    {"q": [
+      {"t": "Find sin 18°/cos 72°.", "n": 1, "k": "1", "e": "18° and 72° add to 90°, so sin 18° = cos 72°."},
+      {"t": "Find cos 48° − sin 42°.", "n": 0, "k": "0", "e": "cos 48° = sin(90° − 48°) = sin 42°."},
+      {"t": "sin(90° − θ) equals…", "o": ["cos θ", "sin θ", "tan θ", "sec θ"], "e": "In a right triangle the two acute angles are θ and 90° − θ; the side opposite one is adjacent to the other."},
+      {"t": "tan(90° − θ) equals…", "o": ["cot θ", "tan θ", "sin θ", "cosec θ"], "e": "Opposite and adjacent swap roles for the other acute angle, so opp/adj becomes adj/opp."},
+      {"t": "If sin A = cos 30° (A acute), find A in degrees.", "n": 60, "u": "°", "k": "60", "e": "cos 30° = sin(90° − 30°) = sin 60°."},
+      {"t": "Find cosec 31° − sec 59°.", "n": 0, "k": "0", "e": "sec 59° = cosec(90° − 59°) = cosec 31°."},
+      {"t": "Find tan 35° × tan 55°.", "n": 1, "k": "1", "e": "tan 55° = cot 35° = 1/tan 35°."},
+      {"t": "If tan A = cot B (A, B acute), find A + B in degrees.", "n": 90, "u": "°", "k": "90", "e": "cot B = tan(90° − B), so A = 90° − B."},
+      {"t": "sec 70° = cosec x°. Find x.", "n": 20, "k": "90-70", "e": "sec θ = cosec(90° − θ)."},
+      {"t": "Write cot 85° + cos 75° using angles between 0° and 45°.", "o": ["tan 5° + sin 15°", "cot 5° + cos 15°", "tan 85° + sin 75°", "tan 5° + cos 15°"], "e": "cot 85° = tan(90° − 85°) and cos 75° = sin(90° − 75°)."}
+    ]},
+    {"q": [
+      {"t": "Find 2 sin 36°/cos 54° − sec 32°/cosec 58°.", "n": 1, "k": "2-1", "e": "sin 36° = cos 54° and sec 32° = cosec 58°, so 2 × 1 − 1."},
+      {"t": "If tan 3A = cot(A − 26°) with 3A acute, find A.", "n": 29, "u": "°", "k": "29", "e": "cot(A − 26°) = tan(116° − A), so 3A = 116° − A and A = 29°."},
+      {"t": "If sec 2A = cosec(A − 36°) with 2A acute, find A.", "n": 42, "u": "°", "k": "42", "e": "cosec(A − 36°) = sec(126° − A), so 2A = 126° − A and A = 42°."},
+      {"t": "Find sin 25° cos 65° + cos 25° sin 65°.", "n": 1, "k": "1", "e": "cos 65° = sin 25° and sin 65° = cos 25°, giving sin² 25° + cos² 25°."},
+      {"t": "Find tan 10° tan 20° tan 70° tan 80°.", "n": 1, "k": "1", "e": "Pair complements: tan 10° tan 80° = 1 and tan 20° tan 70° = 1."},
+      {"t": "A, B, C are the angles of a triangle. sin((B + C)/2) equals…", "o": ["cos(A/2)", "sin(A/2)", "tan(A/2)", "cos A"], "e": "B + C = 180° − A, so (B + C)/2 = 90° − A/2."},
+      {"t": "Find cos² 20° + cos² 70°.", "n": 1, "k": "1", "e": "cos 70° = sin 20°, so it is cos² 20° + sin² 20°."},
+      {"t": "Find sin(50° + θ) − cos(40° − θ).", "n": 0, "k": "0", "e": "(50° + θ) + (40° − θ) = 90°, so the sine of one equals the cosine of the other."},
+      {"t": "Find cosec 39° cos 51° + tan 21° cot 69° − sec² 21°.", "n": 0, "k": "0", "e": "cos 51° = sin 39°, so the first term is 1; cot 69° = tan 21°. That gives 1 + tan² 21° − sec² 21° = 0."},
+      {"t": "If sin 3θ = cos(θ − 6°) with 3θ and θ − 6° acute, find θ.", "n": 24, "u": "°", "k": "24", "e": "Complementary: 3θ + θ − 6° = 90°, so 4θ = 96°."}
+    ]},
+    {"q": [
+      {"t": "Find cos 70°/sin 20° + cos 59°/sin 31° − 2 sin² 45°.", "n": 1, "k": "1+1-1", "e": "Each fraction is 1 (complements), and 2 sin² 45° = 2 × 1/2 = 1: 1 + 1 − 1."},
+      {"t": "Find (tan 20°/cosec 70°)² + (cot 20°/sec 70°)² + 2 tan 15° tan 45° tan 75°.", "n": 3, "k": "1+2", "e": "cosec 70° = sec 20°, so the first is sin² 20°; likewise the second is cos² 20°. tan 15° tan 75° = 1. So 1 + 2."},
+      {"t": "Find tan 1° tan 2° tan 3° … tan 89°.", "n": 1, "k": "1", "e": "Pair tan θ with tan(90° − θ) = cot θ: every pair gives 1, and the middle term is tan 45° = 1."},
+      {"t": "Find cos 1° cos 2° cos 3° … cos 180°.", "n": 0, "k": "0", "e": "One of the factors is cos 90° = 0."},
+      {"t": "If cot θ = tan(2θ − 45°) with both angles acute, find θ.", "n": 45, "u": "°", "k": "45", "e": "cot θ = tan(90° − θ), so 2θ − 45° = 90° − θ and θ = 45°."},
+      {"t": "Find sin² 5° + sin² 10° + sin² 15° + … + sin² 85° + sin² 90°.", "n": 9.5, "k": "8+F(1,2)+1", "e": "Pair sin² θ + sin²(90° − θ) = 1: 5° with 85° … 40° with 50° gives 8. Add sin² 45° = 1/2 and sin² 90° = 1."},
+      {"t": "Write sin 67° + cos 75° using angles between 0° and 45°.", "o": ["cos 23° + sin 15°", "sin 23° + cos 15°", "cos 23° + cos 15°", "sin 67° + sin 15°"], "e": "sin 67° = cos(90° − 67°) and cos 75° = sin(90° − 75°)."},
+      {"t": "If A + B = 90°, simplify √(tan A tan B + tan A cot B) ÷ (sin A sec B).", "o": ["sec A", "tan A", "1", "cosec A"], "e": "tan B = cot A, so tan A tan B = 1, and cot B = tan A. √(1 + tan² A) = sec A. And sec B = cosec A, so sin A sec B = 1."},
+      {"t": "Find cos 38° cos 52° − sin 38° sin 52°.", "n": 0, "k": "0", "e": "cos 52° = sin 38° and sin 52° = cos 38°, so the two terms are equal."},
+      {"t": "In ΔABC, tan((A + B)/2) equals…", "o": ["cot(C/2)", "tan(C/2)", "sin(C/2)", "cos(C/2)"], "e": "(A + B)/2 = 90° − C/2, and tan(90° − x) = cot x."}
+    ]},
+    {"q": [
+      {"t": "Find cosec 25°/sec 65° + 3 tan 12° tan 33° tan 45° tan 57° tan 78° − 2(cos² 40° + cos² 50°).", "n": 2, "k": "1+3-2", "e": "First term 1; the tan product pairs to 1 × 1 × 1, so 3; cos² 40° + cos² 50° = 1, so −2. Total 2."},
+      {"t": "Find cos 58°/sin 32° + sin 22°/cos 68° − (cos 38° cosec 52°)/(tan 18° tan 35° tan 45° tan 72° tan 55°).", "n": 1, "k": "1+1-1", "e": "Each of the first two is 1. cos 38° cosec 52° = 1 and the tan product is 1, so the last fraction is 1."},
+      {"t": "If sec 5A = cosec(A + 30°) with 5A acute, find A.", "n": 10, "u": "°", "k": "10", "e": "sec 5A = cosec(90° − 5A), so 90° − 5A = A + 30° and A = 10°."},
+      {"t": "If sin(θ + 36°) = cos θ with both angles acute, find θ.", "n": 27, "u": "°", "k": "27", "e": "The angles are complementary: θ + 36° + θ = 90°."},
+      {"t": "Find (cos(90° − θ) sec(90° − θ) tan θ)/(cosec(90° − θ) sin(90° − θ) cot(90° − θ)) − tan(90° − θ)/cot θ.", "n": 0, "k": "1-1", "e": "The first fraction is (sin θ cosec θ tan θ)/(sec θ cos θ tan θ) = 1; the second is cot θ/cot θ = 1."},
+      {"t": "If cos 2θ = sin 4θ with both angles acute, find θ.", "n": 15, "u": "°", "k": "15", "e": "Complementary: 2θ + 4θ = 90°."},
+      {"t": "Find tan 7° tan 23° tan 60° tan 67° tan 83°.", "o": ["√3", "1", "1/√3", "3"], "e": "tan 7° tan 83° = 1 and tan 23° tan 67° = 1, leaving tan 60° = √3."},
+      {"t": "Find sin² 1° + sin² 2° + … + sin² 89°.", "n": 44.5, "k": "44+F(1,2)", "e": "Pairs (1°, 89°) … (44°, 46°) each give 1: that is 44, plus sin² 45° = 1/2."},
+      {"t": "If A + B = 90° and sin A = 3/5, find (tan A tan B + tan A cot B)/(sin A sec B) − sin² B/cos² A.", "n": 0.5625, "k": "F(3,4)**2", "e": "tan A tan B = 1, tan A cot B = tan² A, sin A sec B = 1 and sin B = cos A. So sec² A − 1 = tan² A = (3/4)²."},
+      {"t": "Find cosec(65° + θ) − sec(25° − θ) − tan(55° − θ) + cot(35° + θ).", "n": 0, "k": "0", "e": "(65° + θ) + (25° − θ) = 90°, so the first two cancel; (55° − θ) + (35° + θ) = 90°, so the last two cancel."}
+    ]}
+  ]
+}

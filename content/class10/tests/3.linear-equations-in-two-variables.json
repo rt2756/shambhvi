@@ -1,0 +1,53 @@
+{
+  "title": "3. Linear Equations in Two Variables",
+  "tests": [
+    {"q": [
+      {"t": "Solve x + y = 10 and x − y = 2. Find x.", "n": 6, "k": "(10+2)//2", "e": "Add the equations: 2x = 12, so x = 6."},
+      {"t": "Solve x + y = 10 and x − y = 2. Find y.", "n": 4, "k": "(10-2)//2", "e": "Subtract the second from the first: 2y = 8, so y = 4."},
+      {"t": "A pair of linear equations has a₁/a₂ ≠ b₁/b₂. The lines…", "o": ["intersect at exactly one point", "are parallel — no solution", "coincide — infinitely many solutions", "meet at exactly two points"], "e": "Unequal ratios mean the lines have different slopes, so they must cross — and two straight lines cross only once."},
+      {"t": "What are the lines 2x + 3y = 5 and 4x + 6y = 10?", "o": ["Coincident — infinitely many solutions", "Parallel — no solution", "Intersecting at one point", "Perpendicular"], "e": "The second is just the first doubled, so it is the very same line; every point on it is a solution."},
+      {"t": "What are the lines 2x + 3y = 7 and 4x + 6y = 9?", "o": ["Parallel — no solution", "Coincident — infinitely many solutions", "Intersecting at one point", "Perpendicular"], "e": "2/4 = 3/6 but ≠ 7/9: same slope, different line, so they never meet."},
+      {"t": "If x = 2 in 3x + 2y = 12, find y.", "n": 3, "k": "(12-6)//2", "e": "6 + 2y = 12, so 2y = 6 and y = 3."},
+      {"t": "Is (2, 1) a solution of 3x − y = 5?", "o": ["Yes — 6 − 1 = 5", "No — 6 − 1 ≠ 5"], "e": "Put x = 2, y = 1 into the left side: 3 × 2 − 1 = 5, which matches."},
+      {"t": "5 pens and 3 pencils cost ₹50. A pen costs ₹7. What does a pencil cost (in ₹)?", "n": 5, "u": "₹", "k": "(50-35)//3", "e": "5 × 7 = 35, so the 3 pencils cost 15; one pencil is 5."},
+      {"t": "Two numbers add to 25 and differ by 7. Find the larger.", "n": 16, "k": "(25+7)//2", "e": "Add the two facts: 2 × larger = 32, so the larger is 16."},
+      {"t": "kx + 2y = 5 and 3x + y = 1 have a unique solution when…", "o": ["k is anything except 6", "k = 6 only", "k = 3 only", "no value of k"], "e": "Unique solution needs k/3 ≠ 2/1, i.e. k ≠ 6. If k = 6 the lines are parallel."}
+    ]},
+    {"q": [
+      {"t": "For what k do x + 2y = 3 and (k + 1)x + 6y = 5 have no solution?", "n": 2, "k": "2", "e": "No solution needs 1/(k + 1) = 2/6, so k + 1 = 3 and k = 2. Then 2/6 ≠ 3/5, so the lines really are parallel."},
+      {"t": "For what k do 2x + 3y = 7 and kx + 9y = 21 have infinitely many solutions?", "n": 6, "k": "6", "e": "Need 2/k = 3/9 = 7/21 = 1/3, so k = 6."},
+      {"t": "Solve 2x + y = 7 and x − y = 2. Find x.", "n": 3, "k": "9//3", "e": "Add: 3x = 9, so x = 3 (then y = 1)."},
+      {"t": "Solve 3x − 4y = 10 and 4x + 3y = 5. Find y.", "n": -1, "k": "-1", "e": "×3 and ×4: 9x − 12y = 30 and 16x + 12y = 20; add: 25x = 50, x = 2. Then 6 − 4y = 10 gives y = −1."},
+      {"t": "A father is 3 times as old as his son. In 10 years he will be twice as old. Find the son’s age now.", "n": 10, "u": "years", "k": "10", "e": "3s + 10 = 2(s + 10), so 3s + 10 = 2s + 20 and s = 10."},
+      {"t": "A fraction becomes 1/2 if 1 is added to both its numerator and denominator, and 1/3 if 1 is taken from both. Find it.", "o": ["3/7", "4/9", "2/5", "3/8"], "k": "F(3,7)", "e": "y + 1 = 2(x + 1) and y − 1 = 3(x − 1) give y = 2x + 1 = 3x − 2, so x = 3, y = 7."},
+      {"t": "A two-digit number has digit sum 9. Reversing the digits adds 27. Find the number.", "n": 36, "k": "36", "e": "Reversed − original = 9(b − a) = 27, so b − a = 3. With a + b = 9: a = 3, b = 6."},
+      {"t": "Where do the lines x = 2 and y = 3 meet?", "o": ["(2, 3)", "(3, 2)", "(0, 0)", "(2, 0)"], "e": "x = 2 is every point with x-coordinate 2; y = 3 every point with y-coordinate 3. Only (2, 3) is on both."},
+      {"t": "Find the area of the triangle formed by x + y = 4 and the two axes.", "n": 8, "u": "sq units", "k": "F(1,2)*4*4", "e": "The line meets the axes at (4, 0) and (0, 4), so the triangle has legs 4 and 4: ½ × 4 × 4 = 8."},
+      {"t": "2 chairs and 3 tables cost ₹2900; 3 chairs and 2 tables cost ₹2600. Find the price of a table (in ₹).", "n": 700, "u": "₹", "k": "(1100+300)//2", "e": "Add: 5 chairs + 5 tables = 5500, so c + t = 1100. Subtract: t − c = 300. So t = 700."}
+    ]},
+    {"q": [
+      {"t": "Solve 3/x + 2/y = 12 and 2/x + 3/y = 13. Find y.", "o": ["1/3", "3", "1/2", "2"], "k": "F(1,3)", "e": "Let u = 1/x, v = 1/y: 3u + 2v = 12, 2u + 3v = 13. Adding gives u + v = 5, subtracting gives u − v = −1; so v = 3 and y = 1/3."},
+      {"t": "A boat goes 24 km upstream and 36 km downstream in 7 hours, and 36 km upstream and 48 km downstream in 10 hours. Find its speed in still water.", "n": 9, "u": "km/h", "k": "(6+12)//2", "e": "With u = upstream and d = downstream speeds, 24/u + 36/d = 7 and 36/u + 48/d = 10 give u = 6, d = 12. Still-water speed is their average: 9."},
+      {"t": "Five years ago A was three times as old as B. Ten years from now A will be twice as old as B. Find A’s present age.", "n": 50, "u": "years", "k": "50", "e": "A − 5 = 3(B − 5) gives A = 3B − 10; A + 10 = 2(B + 10) gives A = 2B + 10. So B = 20 and A = 50."},
+      {"t": "A person travels 360 km partly by train and partly by car. With 240 km by train it takes 7 h; with 300 km by train it takes 6.5 h. Find the train’s speed.", "n": 60, "u": "km/h", "k": "60", "e": "Let a = 1/train speed, b = 1/car speed: 240a + 120b = 7 and 300a + 60b = 6.5. Solving gives a = 1/60, b = 1/40."},
+      {"t": "A two-digit number is 4 times its digit sum and twice the product of its digits. Find it.", "n": 36, "k": "36", "e": "10a + b = 4(a + b) gives b = 2a. Then 10a + 2a = 2a(2a), so 12a = 4a² and a = 3, b = 6."},
+      {"t": "If a rectangle’s length grows by 3 m and breadth shrinks by 2 m, its area falls by 8 m². If the length shrinks by 2 m and breadth grows by 3 m, the area rises by 12 m². Find the area.", "n": 60, "u": "m²", "k": "10*6", "e": "Expanding: −2l + 3b = −2 and 3l − 2b = 18. Solving gives l = 10, b = 6."},
+      {"t": "Find the area of the triangle formed by the lines y = x, x + y = 6 and the x-axis.", "n": 9, "u": "sq units", "k": "F(1,2)*6*3", "e": "The lines meet at (3, 3); they cut the x-axis at (0, 0) and (6, 0). Base 6, height 3: ½ × 6 × 3."},
+      {"t": "A fraction’s numerator and denominator add to 12. If 3 is added to the denominator, it becomes 1/2. Find the fraction.", "o": ["5/7", "4/8", "7/5", "5/9"], "k": "F(5,7)", "e": "x + y = 12 and 2x = y + 3. Adding: 3x = 15, so x = 5, y = 7."},
+      {"t": "For what value of k do kx + 3y = k − 3 and 12x + ky = k have no solution?", "n": -6, "k": "-6", "e": "No solution needs k/12 = 3/k, so k² = 36, k = ±6. But k = 6 makes 3/6 = 3/6 too (same line), so k = −6."},
+      {"t": "Solve 41x + 53y = 135 and 53x + 41y = 147. Find x.", "n": 2, "k": "2", "e": "Add: 94(x + y) = 282, so x + y = 3. Subtract: 12(x − y) = 12, so x − y = 1. Hence x = 2."}
+    ]},
+    {"q": [
+      {"t": "Solve 10/(x + y) + 2/(x − y) = 4 and 15/(x + y) − 5/(x − y) = −2. Find x.", "n": 3, "k": "3", "e": "Let u = 1/(x + y), v = 1/(x − y): 10u + 2v = 4, 15u − 5v = −2 give u = 1/5, v = 1. So x + y = 5, x − y = 1."},
+      {"t": "A car drives a fixed distance at a steady speed. 5 km/h faster, it would take 3 hours less; 5 km/h slower, it would take 5 hours more. Find the distance.", "n": 300, "u": "km", "k": "20*15", "e": "(v + 5)(t − 3) = vt gives 5t − 3v = 15; (v − 5)(t + 5) = vt gives v − t = 5. So t = 15, v = 20."},
+      {"t": "A two-digit number plus the number with its digits reversed is 66, and the digits differ by 2. How many such numbers are there?", "n": 2, "k": "2", "e": "11(a + b) = 66 gives a + b = 6; with a difference of 2 the digits are 4 and 2 — so 42 and 24 both work."},
+      {"t": "A taxi charges a fixed amount plus a rate per km. 10 km costs ₹105 and 15 km costs ₹155. What does 25 km cost (in ₹)?", "n": 255, "u": "₹", "k": "5+25*10", "e": "5 more km cost ₹50, so ₹10 per km; fixed charge = 105 − 100 = 5. For 25 km: 5 + 250."},
+      {"t": "2 women and 5 men finish a job in 2 days; 4 women and 1 man take 4 days. How many days would one man alone take?", "n": 12, "u": "days", "k": "12", "e": "Daily work: 2w + 5m = 1/2 and 4w + m = 1/4. Double the first and subtract: 9m = 3/4, so m = 1/12."},
+      {"t": "A father’s age plus twice his son’s is 70. Twice the father’s age plus the son’s is 95. Find the son’s age.", "n": 15, "u": "years", "k": "15", "e": "Adding: 3(F + S) = 165, so F + S = 55; subtracting: F − S = 25. So S = 15."},
+      {"t": "For what k do 2x + 3y = 4 and (k + 2)x + 6y = 3k + 2 have infinitely many solutions?", "n": 2, "k": "2", "e": "Need 2/(k + 2) = 3/6 = 4/(3k + 2). The first gives k = 2; check the second: 3k + 2 = 8 ✓."},
+      {"t": "Two items are sold: first at 10% profit and second at 5% loss, total ₹1215; or first at 5% loss and second at 10% profit, total ₹1245. Find the cost price of the first item (in ₹).", "n": 500, "u": "₹", "k": "500", "e": "1.1a + 0.95b = 1215 and 0.95a + 1.1b = 1245. Adding: 2.05(a + b) = 2460, so a + b = 1200; subtracting: 0.15(a − b) = −30, so a − b = −200."},
+      {"t": "Two cars start from P and Q, 120 km apart. Driving the same way they meet in 6 hours; driving towards each other they meet in 1 h 12 min. Find the faster car’s speed.", "n": 60, "u": "km/h", "k": "(20+100)//2", "e": "Same direction: a − b = 120/6 = 20. Towards: a + b = 120/1.2 = 100. So a = 60."},
+      {"t": "Solve x/a − y/b = 0 and ax + by = a² + b².", "o": ["x = a, y = b", "x = b, y = a", "x = a², y = b²", "x = 1, y = 1"], "e": "The first gives y = bx/a. Put it in the second: ax + b²x/a = a² + b², so x(a² + b²)/a = a² + b², giving x = a and then y = b."}
+    ]}
+  ]
+}

@@ -157,10 +157,11 @@ How it is organised (the same three pieces for every class):
 | Runner | `test.html?c=<N>&f=<chapter>&t=<1–4>` | One shared page that runs any test. |
 | Data | `content/class<N>/tests/<n>.<chapter>.json` + `manifest.json` | One file per chapter, holding its four tests. |
 
-Classes 6, 7, 8 and 9 have tests so far. Their chapter lists follow the usual **RS Aggarwal**
+Classes 6, 7, 8, 9 and 10 have tests so far. Their chapter lists follow the usual **RS Aggarwal**
 order for that class (class 6: Number System … Bar Graph, 24 chapters; class 7: Integers …
 Probability, 23 chapters; class 8: Rational Numbers … Probability, 25 chapters; class 9: Number
-Systems … Probability, 19 chapters) — so the class-6, class-8 and class-9 tests do **not** match
+Systems … Probability, 19 chapters; class 10: Real Numbers … Volume and Surface Areas of Solids,
+19 chapters) — so the class-6, class-8, class-9 and class-10 tests do **not** match
 the NCERT chapter names used in those classes' notes. The questions are our own, written in that style — not copied.
 
 A question is multiple choice or a number answer:

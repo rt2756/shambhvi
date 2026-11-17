@@ -1,0 +1,53 @@
+{
+  "title": "19. Volume and Surface Areas of Solids",
+  "tests": [
+    {"q": [
+      {"t": "Find the volume of a cube of side 4 cm.", "n": 64, "u": "cm³", "k": "4**3", "e": "Volume = side × side × side."},
+      {"t": "Find the volume of a cylinder of radius 7 cm and height 10 cm. (π = 22/7)", "n": 1540, "u": "cm³", "k": "F(22,7)*49*10", "e": "Base area × height: 154 × 10."},
+      {"t": "Find the volume of a cone of radius 7 cm and height 12 cm. (π = 22/7)", "n": 616, "u": "cm³", "k": "F(1,3)*F(22,7)*49*12", "e": "A cone holds ⅓ of the cylinder on the same base and height: ⅓ × 154 × 12."},
+      {"t": "Find the volume of a sphere of radius 21 cm. (π = 22/7)", "n": 38808, "u": "cm³", "k": "F(4,3)*F(22,7)*21**3", "e": "V = (4/3)πr³ = 4/3 × 22/7 × 9261."},
+      {"t": "Find the curved surface area of a cylinder of radius 7 cm and height 10 cm. (π = 22/7)", "n": 440, "u": "cm²", "k": "2*F(22,7)*7*10", "e": "Unroll it into a rectangle: circumference 44 × height 10."},
+      {"t": "A cone has radius 6 cm and height 8 cm. Find its slant height.", "n": 10, "u": "cm", "k": "(36+64)**F(1,2)", "e": "Radius, height and slant height make a right triangle: √(36 + 64)."},
+      {"t": "Find the surface area of a sphere of radius 7 cm. (π = 22/7)", "n": 616, "u": "cm²", "k": "4*F(22,7)*49", "e": "S = 4πr² — four times the area of its biggest circle."},
+      {"t": "Find the volume of a 5 cm × 4 cm × 3 cm cuboid.", "n": 60, "u": "cm³", "k": "5*4*3", "e": "length × breadth × height."},
+      {"t": "Find the total surface area of a solid hemisphere of radius 7 cm. (π = 22/7)", "n": 462, "u": "cm²", "k": "3*F(22,7)*49", "e": "Curved part 2πr² plus the flat circle πr²: 3πr²."},
+      {"t": "Find the curved surface area of a cone of radius 7 cm and slant height 10 cm. (π = 22/7)", "n": 220, "u": "cm²", "k": "F(22,7)*7*10", "e": "CSA = πrl = 22/7 × 7 × 10."}
+    ]},
+    {"q": [
+      {"t": "A metal sphere of radius 3 cm is melted into a cylinder of radius 2 cm. Find the cylinder’s height.", "n": 9, "u": "cm", "k": "F(4,3)*27/4", "e": "Volume stays the same: (4/3)π × 27 = π × 4 × h, so 36 = 4h."},
+      {"t": "A toy is a cone of radius 7 cm and height 24 cm on a hemisphere of the same radius. Find its total surface area. (π = 22/7)", "n": 858, "u": "cm²", "k": "F(22,7)*7*25+2*F(22,7)*49", "e": "Slant height = 25. Outside surface = cone’s πrl + hemisphere’s 2πr² = 550 + 308."},
+      {"t": "How many balls of radius 1 cm can be made by melting a ball of radius 3 cm?", "n": 27, "k": "3**3", "e": "Volume goes with r³: 3³/1³."},
+      {"t": "A cylinder and a cone have the same base and height. Find volume of cylinder : volume of cone.", "o": ["3 : 1", "1 : 3", "2 : 1", "1 : 1"], "e": "A cone holds exactly one-third of the matching cylinder."},
+      {"t": "Cubes of sides 3, 4 and 5 cm are melted into one cube. Find its side.", "n": 6, "u": "cm", "k": "round((27+64+125)**(1/3))", "e": "27 + 64 + 125 = 216 = 6³."},
+      {"t": "Two cubes of volume 64 cm³ each are joined end to end. Find the surface area of the cuboid.", "n": 160, "u": "cm²", "k": "2*(32+32+16)", "e": "Each cube has side 4, so the cuboid is 8 × 4 × 4: 2(32 + 32 + 16)."},
+      {"t": "A hemispherical bowl has radius 10.5 cm. Find its inner curved surface area. (π = 22/7)", "n": 693, "u": "cm²", "k": "2*F(22,7)*F(441,4)", "e": "2πr² = 2 × 22/7 × 110.25."},
+      {"t": "A frustum of a cone has end radii 10 cm and 4 cm and height 21 cm. Find its volume. (π = 22/7)", "n": 3432, "u": "cm³", "k": "F(22,7)*21/3*(100+16+40)", "e": "V = (πh/3)(R² + r² + Rr) = 22 × (100 + 16 + 40)."},
+      {"t": "A well of diameter 7 m is dug 20 m deep. Find the volume of earth taken out. (π = 22/7)", "n": 770, "u": "m³", "k": "F(22,7)*F(49,4)*20", "e": "It is a cylinder: 22/7 × 3.5² × 20."},
+      {"t": "Two spheres have radii in the ratio 2 : 3. Find the ratio of their volumes.", "o": ["8 : 27", "4 : 9", "2 : 3", "16 : 81"], "e": "Volume goes with r³."}
+    ]},
+    {"q": [
+      {"t": "A cylindrical bucket of radius 8 cm and height 21 cm is full of sand. It is emptied into a conical heap 28 cm high. Find the heap’s radius.", "n": 12, "u": "cm", "k": "(64*21*3//28)**F(1,2)", "e": "π × 64 × 21 = ⅓ × π × r² × 28, so r² = 64 × 21 × 3/28 = 144."},
+      {"t": "A frustum has end radii 14 cm and 7 cm and slant height 10 cm. Find its curved surface area. (π = 22/7)", "n": 660, "u": "cm²", "k": "F(22,7)*21*10", "e": "CSA = π(R + r)l = 22/7 × 21 × 10."},
+      {"t": "Water flows at 2 m/s through a pipe of inner radius 3.5 cm. How many litres flow in 1 minute? (π = 22/7)", "n": 462, "u": "L", "k": "F(22,7)*F(49,4)*200*60/1000", "e": "Each second a 200 cm long cylinder flows out: 38.5 × 200 = 7700 cm³. In 60 s: 462000 cm³."},
+      {"t": "A capsule is a cylinder with a hemisphere at each end. It is 20 cm long with diameter 6 cm. Find its surface area. (π = 22/7)", "o": ["2640/7 cm²", "1980/7 cm²", "3960/7 cm²", "264 cm²"], "k": "F(22,7)*120", "e": "The cylinder part is 20 − 6 = 14 long. 2π × 3 × 14 + 4π × 9 = 120π."},
+      {"t": "A cone of the same radius (7 cm) and height (24 cm) is hollowed out of a solid cylinder. Find the volume left. (π = 22/7)", "n": 2464, "u": "cm³", "k": "F(2,3)*F(22,7)*49*24", "e": "Cylinder 3696 minus cone ⅓ of it: ⅔ × 3696."},
+      {"t": "A hollow sphere has outer radius 5 cm and inner radius 3 cm. It is melted into a cone of base radius 4 cm. Find the cone’s height.", "n": 24.5, "u": "cm", "k": "F(4*98,16)", "e": "(4/3)π(125 − 27) = ⅓π × 16 × h, so 4 × 98 = 16h."},
+      {"t": "A bucket is a frustum with end radii 20 cm and 10 cm and height 21 cm. How many litres does it hold? (π = 22/7)", "n": 15.4, "u": "L", "k": "F(22,7)*7*700/1000", "e": "V = (πh/3)(400 + 100 + 200) = 22 × 700 = 15400 cm³."},
+      {"t": "A copper rod of radius 1 cm and length 24 cm is drawn into a wire 96 m long. Find the wire’s diameter in mm.", "n": 1, "u": "mm", "k": "F(1,20)*2*10", "e": "π × 1 × 24 = π r² × 9600, so r² = 1/400 and r = 0.05 cm. Diameter 0.1 cm."},
+      {"t": "A cone is cut halfway up its height, parallel to the base. Find volume of small cone : volume of frustum.", "o": ["1 : 7", "1 : 8", "1 : 4", "1 : 3"], "e": "The small cone is half as big in every length, so 1/8 of the volume. The frustum is the other 7/8."},
+      {"t": "How many litres does a 4 m × 3 m × 2 m tank hold?", "n": 24000, "u": "L", "k": "4*3*2*1000", "e": "24 m³, and 1 m³ = 1000 L."}
+    ]},
+    {"q": [
+      {"t": "A tent is a cylinder of radius 7 m and height 3 m with a cone of slant height 10 m on top. Canvas costs ₹50 per m². Find the cost of canvas (in ₹). (π = 22/7)", "n": 17600, "u": "₹", "k": "(2*F(22,7)*7*3+F(22,7)*7*10)*50", "e": "Canvas = 2πrh + πrl = 132 + 220 = 352 m². 352 × 50."},
+      {"t": "A well 14 m across is dug 15 m deep. The earth is spread evenly in a 7 m wide ring around it. How high is the ring? (π = 22/7)", "n": 5, "u": "m", "k": "F(49*15,196-49)", "e": "Earth = π × 49 × 15. The ring runs from radius 7 to 14: area π(196 − 49) = 147π. Height = 735π ÷ 147π."},
+      {"t": "A bucket open at the top is a frustum with radii 20 cm and 8 cm and height 16 cm. Find the metal needed. (π = 22/7)", "o": ["13728/7 cm²", "12320/7 cm²", "17248/7 cm²", "1848 cm²"], "k": "F(22,7)*(28*20+64)", "e": "Slant = √(256 + 144) = 20. Metal = π(R + r)l + πr² (the bottom only) = π(560 + 64)."},
+      {"t": "Marbles of diameter 1.4 cm are dropped into a cylindrical beaker of radius 3.5 cm. How many raise the water by 5.6 cm?", "n": 150, "k": "F(1225,100)*F(56,10)/(F(4,3)*F('0.343'))", "e": "Rise volume π × 12.25 × 5.6; each marble (4/3)π × 0.343. 68.6 ÷ 0.45733…"},
+      {"t": "A cone of radius 6 cm and height 24 cm is melted into a sphere. Find its radius.", "n": 6, "u": "cm", "k": "round((36*24//4)**(1/3))", "e": "⅓π × 36 × 24 = (4/3)πR³, so R³ = 216."},
+      {"t": "A solid is a cylinder of radius 7 cm and height 10 cm topped by a hemisphere of radius 7 cm. Find its volume. (π = 22/7)", "o": ["6776/3 cm³", "2156/3 cm³", "1540 cm³", "8932/3 cm³"], "k": "F(22,7)*49*10+F(2,3)*F(22,7)*343", "e": "Cylinder 1540 + hemisphere (2/3) × 22/7 × 343 = 2156/3."},
+      {"t": "Water flows at 10 km/h through a pipe of diameter 14 cm into a 40 m × 22 m tank. How many hours until the water rises 35 cm? (π = 22/7)", "n": 2, "u": "hours", "k": "F(40*22*35,100)/(F(22,7)*F(49,10000)*10000)", "e": "Flow per hour = 22/7 × 0.07² × 10000 = 154 m³. Needed: 40 × 22 × 0.35 = 308 m³."},
+      {"t": "A hemispherical bowl of radius 9 cm is full of liquid. It is poured into bottles that are cylinders of diameter 3 cm and height 4 cm. How many bottles are filled?", "n": 54, "k": "F(2,3)*729/(F(9,4)*4)", "e": "Bowl = (2/3)π × 729 = 486π. Each bottle = π × 2.25 × 4 = 9π."},
+      {"t": "A cone 30 cm high is cut parallel to its base so that the small cone on top has 1/27 of the volume. How high above the base is the cut?", "n": 20, "u": "cm", "k": "30-30//3", "e": "Volume ratio 1/27 means length ratio 1/3, so the small cone is 10 cm tall. 30 − 10."},
+      {"t": "A solid hemisphere has total surface area 462 cm². Find its volume. (π = 22/7)", "o": ["2156/3 cm³", "4312/3 cm³", "1078 cm³", "1617 cm³"], "k": "F(2,3)*F(22,7)*343", "e": "3πr² = 462 gives r² = 49, r = 7. Volume (2/3) × 22/7 × 343."}
+    ]}
+  ]
+}

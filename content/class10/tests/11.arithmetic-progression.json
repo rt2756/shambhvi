@@ -1,0 +1,53 @@
+{
+  "title": "11. Arithmetic Progression",
+  "tests": [
+    {"q": [
+      {"t": "Find the common difference of 3, 7, 11, …", "n": 4, "k": "7-3", "e": "Each term minus the one before: 7 − 3 = 4."},
+      {"t": "Find the 10th term of 2, 5, 8, …", "n": 29, "k": "2+9*3", "e": "aₙ = a + (n − 1)d = 2 + 9 × 3. From the 1st to the 10th term there are 9 jumps."},
+      {"t": "Is 5, 10, 20, 40, … an AP?", "o": ["No — the differences are not equal", "Yes, d = 5", "Yes, d = 2", "Yes, d = 10"], "e": "The differences are 5, 10, 20 — they grow, so it is not an AP (each term is doubled, not increased by a fixed amount)."},
+      {"t": "Find the sum of the first 10 natural numbers.", "n": 55, "k": "sum(range(1,11))", "e": "Pair first with last: 1 + 10 = 11, and there are 5 such pairs."},
+      {"t": "Find the next term of 1.5, 3, 4.5, …", "n": 6, "k": "F(9,2)+F(3,2)", "e": "d = 1.5, so 4.5 + 1.5."},
+      {"t": "The nth term of an AP with first term a and common difference d is…", "o": ["a + (n − 1)d", "a + nd", "a(n − 1)d", "n(a + d)"], "e": "The first term has no jump added; each later term adds one more d, so the nth term has n − 1 of them."},
+      {"t": "Find the sum of the first 5 terms of 4, 8, 12, …", "n": 60, "k": "4+8+12+16+20", "e": "4 + 8 + 12 + 16 + 20 = 60, or (5/2)(first + last) = 2.5 × 24."},
+      {"t": "An AP has a = 7 and d = −2. Find its 5th term.", "n": -1, "k": "7+4*(-2)", "e": "7 + 4 × (−2) = −1."},
+      {"t": "Find the number that goes between 4 and 10 to make an AP.", "n": 7, "k": "F(4+10,2)", "e": "The middle term of an AP is the average of its neighbours."},
+      {"t": "Find the common difference of 10, 6, 2, …", "n": -4, "k": "6-10", "e": "6 − 10 = −4. A falling AP has a negative d."}
+    ]},
+    {"q": [
+      {"t": "Which term of 3, 8, 13, … is 78?", "n": 16, "k": "(78-3)//5+1", "e": "3 + 5(n − 1) = 78, so n − 1 = 15."},
+      {"t": "How many terms are in 7, 13, 19, …, 205?", "n": 34, "k": "(205-7)//6+1", "e": "(205 − 7)/6 = 33 jumps, so 34 terms."},
+      {"t": "Find the sum of the first 20 odd numbers.", "n": 400, "k": "sum(range(1,40,2))", "e": "The sum of the first n odd numbers is n². (Or (20/2)(1 + 39).)"},
+      {"t": "An AP has 3rd term 12 and 7th term 28. Find its 10th term.", "n": 40, "k": "4+9*4", "e": "Four jumps from term 3 to term 7 add 16, so d = 4 and a = 4. a₁₀ = 4 + 36."},
+      {"t": "Find the sum of the first 10 terms of 2, 7, 12, …", "n": 245, "k": "5*(4+45)", "e": "S = (n/2)(2a + (n − 1)d) = 5 × (4 + 45)."},
+      {"t": "2k + 1, 13 and 5k − 3 are in AP. Find k.", "n": 4, "k": "4", "e": "The middle term is the average: 2 × 13 = (2k + 1) + (5k − 3), so 26 = 7k − 2."},
+      {"t": "How many two-digit numbers are divisible by 3?", "n": 30, "k": "(99-12)//3+1", "e": "They run 12, 15, …, 99: (99 − 12)/3 + 1."},
+      {"t": "Find the sum of the first 15 multiples of 8.", "n": 960, "k": "8*120", "e": "8 + 16 + … + 120 = 8(1 + 2 + … + 15) = 8 × 120."},
+      {"t": "Find the 10th term from the end of 4, 9, 14, …, 254.", "n": 209, "k": "254-9*5", "e": "Counting back from 254 the AP has d = −5: 254 − 9 × 5."},
+      {"t": "The sum of the first n terms of an AP is 3n² + 5n. Find its common difference.", "n": 6, "k": "(3*4+10)-2*8", "e": "a₁ = S₁ = 8, S₂ = 22 so a₂ = 14. d = 14 − 8."}
+    ]},
+    {"q": [
+      {"t": "Find the sum of all three-digit numbers divisible by 7.", "n": 70336, "k": "sum(range(105,995,7))", "e": "They run 105, 112, …, 994: 128 terms. Sum = (128/2)(105 + 994)."},
+      {"t": "How many terms of 15, 13, 11, … must be taken to make 60?", "o": ["6 or 10", "6 only", "10 only", "8"], "e": "(n/2)(30 − 2(n − 1)) = 60 gives n² − 16n + 60 = 0, so n = 6 or 10. Both work: terms 7 to 10 (3, 1, −1, −3) add to 0."},
+      {"t": "The sum of the first n terms of an AP is 4n − n². Find its 15th term.", "n": -25, "k": "(4*15-15**2)-(4*14-14**2)", "e": "aₙ = Sₙ − Sₙ₋₁ = 5 − 2n, so a₁₅ = 5 − 30."},
+      {"t": "Three numbers in AP add to 24 and multiply to 440. Find the largest.", "n": 11, "k": "11", "e": "Call them 8 − d, 8, 8 + d (they add to 24). 8(64 − d²) = 440 gives d = 3: 5, 8, 11."},
+      {"t": "In an AP, 5 times the 5th term equals 9 times the 9th term. Find the 14th term.", "n": 0, "k": "0", "e": "5(a + 4d) = 9(a + 8d) gives a = −13d, so a₁₄ = a + 13d = 0."},
+      {"t": "An AP has 4th term 13 and 9th term 33. Find the sum of its first 15 terms.", "n": 435, "k": "F(15,2)*(2+14*4)", "e": "5d = 20, so d = 4 and a = 1. S₁₅ = (15/2)(2 + 56)."},
+      {"t": "Ravi saves ₹500 in the first month and ₹50 more each month than the month before. How much does he save in the first year (in ₹)?", "n": 9300, "u": "₹", "k": "6*(500+1050)", "e": "12 terms from 500 to 1050: (12/2)(500 + 1050)."},
+      {"t": "Find 1 + 3 + 5 + … + 49.", "n": 625, "k": "sum(range(1,50,2))", "e": "These are the first 25 odd numbers, and their sum is 25²."},
+      {"t": "Which term of 100, 97, 94, … is the first negative term?", "n": 35, "k": "35", "e": "100 − 3(n − 1) < 0 needs n − 1 > 33.3, so n − 1 = 34. (The 35th term is −2.)"},
+      {"t": "An AP has 8th term 12 and 12th term 8. Find its 15th term.", "n": 5, "k": "19-14", "e": "Four jumps lose 4, so d = −1 and a = 19. a₁₅ = 19 − 14."}
+    ]},
+    {"q": [
+      {"t": "The sum of the first 6 terms of an AP is 42 and of the first 10 terms is 110. Find the sum of the first 20 terms.", "n": 420, "k": "10*(4+19*2)", "e": "2a + 5d = 14 and 2a + 9d = 22 give d = 2, a = 2. S₂₀ = 10(4 + 38)."},
+      {"t": "The sums of n terms of two APs are in the ratio (7n + 1) : (4n + 27). Find the ratio of their 11th terms.", "o": ["4 : 3", "3 : 4", "78 : 71", "148 : 71"], "e": "The 11th term ratio equals the ratio of the sums of 21 terms (n = 2 × 11 − 1): 148 : 111 = 4 : 3."},
+      {"t": "Find the sum of all two-digit odd numbers.", "n": 2475, "k": "sum(range(11,100,2))", "e": "11, 13, …, 99: 45 terms. (45/2)(11 + 99)."},
+      {"t": "10 flags stand in a line 3 m apart, the first 2 m from a box. A boy runs from the box, brings back one flag at a time, and drops it in the box. How far does he run in all?", "n": 310, "u": "m", "k": "2*sum(2+3*k for k in range(10))", "e": "The trips are 2 × 2, 2 × 5, 2 × 8, … 10 round trips: 2 × (10/2)(2 + 29) = 310."},
+      {"t": "In an increasing AP, a₂ + a₆ = 10 and a₂ × a₆ = 21. Find the sum of its first 16 terms.", "n": 152, "k": "8*(4+15)", "e": "a₂ and a₆ are 3 and 7, so 4d = 4, d = 1, a = 2. S₁₆ = 8(4 + 15)."},
+      {"t": "Find the sum of the numbers between 200 and 400 that are divisible by 7.", "n": 8729, "k": "sum(range(203,400,7))", "e": "203, 210, …, 399: 29 terms. (29/2)(203 + 399)."},
+      {"t": "The sum of the first n terms of an AP is 3n² + 4n. Find its 25th term.", "n": 151, "k": "(3*625+100)-(3*576+96)", "e": "a₂₅ = S₂₅ − S₂₄ = (1875 + 100) − (1728 + 96)."},
+      {"t": "Three numbers in AP add to 15 and their squares add to 83. Find their product.", "n": 105, "k": "3*5*7", "e": "Write them 5 − d, 5, 5 + d. Squares: 75 + 2d² = 83, so d = 2: 3, 5, 7."},
+      {"t": "The pth, qth and rth terms of an AP are a, b, c. Find a(q − r) + b(r − p) + c(p − q).", "n": 0, "k": "0", "e": "Put a = A + (p − 1)D etc. The A parts give A × 0, and the D parts cancel in pairs."},
+      {"t": "An AP has 40 terms. Its 4th term is 13 and its last term is 121. Find its 25th term.", "n": 76, "k": "4+24*3", "e": "From term 4 to term 40 is 36 jumps of 108, so d = 3 and a = 4. a₂₅ = 4 + 24 × 3."}
+    ]}
+  ]
+}
