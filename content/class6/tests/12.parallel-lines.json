@@ -1,0 +1,53 @@
+{
+"title": "12. Parallel Lines",
+"tests": [
+{"q": [
+{"t": "Parallel lines:", "o": ["Never meet", "Meet at one point", "Meet at two points", "Cross at right angles"], "e": "They stay the same distance apart for ever, so they cannot meet."},
+{"t": "Which symbol means ‘is parallel to’?", "o": ["∥", "⊥", "∠", "≅"], "e": "The two upright strokes look like a pair of parallel lines."},
+{"t": "The distance between two parallel lines is:", "o": ["The same everywhere", "Greatest at the ends", "Zero in the middle", "Always changing"], "e": "If the gap changed, the lines would be getting closer and would meet."},
+{"t": "Which is a good example of parallel lines?", "o": ["Railway tracks", "The hands of a clock", "The letter X", "The corner of a page"], "e": "The rails must stay the same distance apart so the wheels fit."},
+{"t": "The two long edges of a ruler are:", "o": ["Parallel", "Perpendicular", "Intersecting", "Curved"], "e": "A ruler has the same width all along."},
+{"t": "How many lines can be drawn through a point parallel to a given line (the point is not on the line)?", "n": 1, "e": "Only one direction keeps the same distance from the given line."},
+{"t": "Two lines in a plane are both perpendicular to the same line. They are:", "o": ["Parallel to each other", "Perpendicular to each other", "The same line", "Crossing at 45°"], "e": "Both stand upright on the same line, like two fence posts on level ground."},
+{"t": "How many pairs of parallel sides does a rectangle have?", "n": 2, "e": "The two lengths are parallel, and the two breadths are parallel."},
+{"t": "How many points do two parallel lines have in common?", "n": 0, "e": "They never meet, so they share no point."},
+{"t": "How many pairs of parallel sides does a triangle have?", "n": 0, "e": "Every pair of sides of a triangle meets at a vertex."}
+]},
+{"q": [
+{"t": "Which capital letter has NO pair of parallel line segments?", "o": ["V", "N", "H", "Z"], "e": "The two strokes of V meet at the bottom. N, H and Z each have two strokes that never meet."},
+{"t": "How many pairs of parallel sides does a square have?", "n": 2, "e": "Opposite sides are parallel: two pairs."},
+{"t": "How many pairs of parallel sides does a trapezium have?", "n": 1, "e": "Exactly one pair — that is what makes it a trapezium."},
+{"t": "In a cube, how many other edges are parallel to a given edge?", "n": 3, "e": "The cube has 12 edges in 3 directions, 4 in each direction. So each edge has 3 partners."},
+{"t": "Two parallel lines are 4 cm apart at one place. How far apart are they 1 metre further along (in cm)?", "n": 4, "u": "cm", "e": "The distance between parallel lines never changes."},
+{"t": "If line l is parallel to m, and m is parallel to n, then:", "o": ["l is parallel to n", "l is perpendicular to n", "l meets n", "Nothing can be said"], "e": "All three point the same way."},
+{"t": "If l is perpendicular to m, and m is perpendicular to n (all in one plane), then l and n are:", "o": ["Parallel", "Perpendicular", "The same line always", "Crossing at 45°"], "e": "Turning 90° twice brings you back to the same direction."},
+{"t": "Two different lines in a plane are not parallel. They must:", "o": ["Meet at exactly one point", "Never meet", "Meet at two points", "Be curved"], "e": "In a plane, straight lines either keep the same distance (parallel) or get closer and cross once."},
+{"t": "How many pairs of parallel sides does a regular hexagon have?", "n": 3, "e": "Each side is parallel to the one opposite it: 6 sides make 3 pairs."},
+{"t": "How many pairs of parallel sides does a parallelogram have?", "n": 2, "e": "Both pairs of opposite sides are parallel — hence the name."}
+]},
+{"q": [
+{"t": "l, m and n are parallel lines with m between l and n. l is 3 cm from m, and m is 5 cm from n. How far is l from n (in cm)?", "n": 8, "u": "cm", "k": "3+5", "e": "The two gaps lie end to end: 3 + 5."},
+{"t": "How many pairs of parallel sides does a regular octagon have?", "n": 4, "k": "F(8,2)", "e": "Each of the 8 sides is parallel to the opposite side: 4 pairs."},
+{"t": "Which pair of instruments is used to draw a line parallel to a given line?", "o": ["A ruler and a set square", "A protractor and an eraser", "A compass alone", "Two pencils"], "e": "Sliding a set square along a ruler keeps its edge pointing in the same direction."},
+{"t": "How many pairs of parallel faces does a cuboid have?", "n": 3, "e": "Top–bottom, front–back and left–right."},
+{"t": "The rungs of a ladder are:", "o": ["Parallel to each other", "Perpendicular to each other", "Meeting at the top", "Of no fixed direction"], "e": "Each rung is at right angles to the rails, so they are all parallel."},
+{"t": "How many pairs of parallel line segments are there in the capital letter E?", "n": 3, "k": "F(3*2,2)", "e": "E has three horizontal strokes. Any two of them are parallel: 3 pairs."},
+{"t": "How many pairs of parallel sides does a regular pentagon have?", "n": 0, "e": "With an odd number of sides, no side has an opposite side to be parallel to."},
+{"t": "Lines l and m are parallel and 6 cm apart. A third parallel line n is exactly midway between them. How far is n from l (in cm)?", "n": 3, "u": "cm", "k": "F(6,2)", "e": "Midway means half the gap."},
+{"t": "Two lines are parallel. A third line crosses one of them. Must it cross the other too (all in one plane)?", "o": ["Yes", "No", "Only if it is perpendicular", "Only if it is a ray"], "e": "The third line is not parallel to the first, so it cannot be parallel to the second either — it must meet it."},
+{"t": "How many edges of a cuboid are parallel to one given edge (not counting itself)?", "n": 3, "e": "The 12 edges come in three sets of four parallel edges."}
+]},
+{"q": [
+{"t": "5 parallel lines are crossed by 3 other parallel lines. How many parallelograms are formed?", "n": 30, "k": "F(5*4,2)*F(3*2,2)", "e": "Each parallelogram needs 2 lines from the first set (10 ways) and 2 from the second (3 ways): 10 × 3 = 30."},
+{"t": "l, m and n are parallel with m between l and n. l is 2.5 cm from m and 6 cm from n. How far is m from n (in cm)?", "n": 3.5, "u": "cm", "k": "6-F('2.5')", "e": "6 − 2.5 = 3.5."},
+{"t": "In a cube, how many edges neither meet a given edge nor are parallel to it?", "n": 4, "k": "12-1-3-4", "e": "Of the other 11 edges, 3 are parallel and 4 meet it at its ends. That leaves 4."},
+{"t": "4 horizontal lines are crossed by 5 vertical lines. How many crossing points are there?", "n": 20, "k": "4*5", "e": "Every horizontal line meets every vertical line once."},
+{"t": "4 horizontal lines are crossed by 5 vertical lines. How many rectangles are formed?", "n": 60, "k": "F(4*3,2)*F(5*4,2)", "e": "Choose 2 horizontal lines (6 ways) and 2 vertical lines (10 ways): 60."},
+{"t": "How many pairs of parallel edges does a cube have?", "n": 18, "k": "3*F(4*3,2)", "e": "There are 3 directions with 4 parallel edges each. Each set of 4 gives 6 pairs: 3 × 6 = 18."},
+{"t": "Three lines are drawn so that no two are parallel and they do not all pass through one point. How many crossing points are there?", "n": 3, "e": "Each pair crosses once at a different point, forming a triangle."},
+{"t": "How many lines are parallel to a given line and exactly 2 cm away from it (in a plane)?", "n": 2, "e": "One on each side."},
+{"t": "Two parallel lines are crossed by a third line. Into how many regions is the plane divided?", "n": 6, "e": "The two parallel lines make 3 strips, and the crossing line cuts each strip in two."},
+{"t": "Three parallel lines are crossed by two other lines that are parallel to each other. How many crossing points are there?", "n": 6, "k": "3*2", "e": "Each of the 3 meets each of the 2 once."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "17. Quadrilaterals",
+"tests": [
+{"q": [
+{"t": "How many sides does a quadrilateral have?", "n": 4, "e": "‘Quadri’ means four."},
+{"t": "The four angles of a quadrilateral add up to:", "n": 360, "u": "°", "k": "2*180", "e": "A diagonal cuts it into two triangles, each with 180°."},
+{"t": "A quadrilateral with four equal sides and four right angles is a:", "o": ["Square", "Rhombus", "Rectangle", "Trapezium"], "e": "Equal sides alone give a rhombus; right angles alone give a rectangle; both give a square."},
+{"t": "In a rectangle, each angle is:", "n": 90, "u": "°", "e": "‘Rect-angle’ means right angle."},
+{"t": "How many diagonals does a quadrilateral have?", "n": 2, "e": "Each joins a pair of opposite corners."},
+{"t": "A quadrilateral with both pairs of opposite sides parallel is a:", "o": ["Parallelogram", "Trapezium", "Kite", "Triangle"], "e": "That is how a parallelogram is defined."},
+{"t": "A parallelogram with all four sides equal is a:", "o": ["Rhombus", "Rectangle", "Trapezium", "Kite"], "e": "A rhombus is a ‘pushed-over’ square."},
+{"t": "A quadrilateral with exactly one pair of parallel sides is a:", "o": ["Trapezium", "Parallelogram", "Rhombus", "Square"], "e": "Only one pair is parallel."},
+{"t": "How many vertices does a quadrilateral have?", "n": 4, "e": "One at each corner."},
+{"t": "The opposite sides of a rectangle are:", "o": ["Equal and parallel", "Unequal", "Perpendicular", "Curved"], "e": "A rectangle is a special parallelogram."}
+]},
+{"q": [
+{"t": "Three angles of a quadrilateral are 90°, 90° and 100°. Find the fourth (in degrees).", "n": 80, "u": "°", "k": "360-90-90-100", "e": "360 − 280 = 80."},
+{"t": "The diagonals of a rectangle are:", "o": ["Equal in length", "Always perpendicular", "Unequal", "Parallel"], "e": "Each is the long side of a right triangle with the same two sides."},
+{"t": "The diagonals of a rhombus cross at:", "n": 90, "u": "°", "e": "All four sides are equal, so each diagonal is the perpendicular bisector of the other."},
+{"t": "Find the perimeter of a square of side 6 cm (in cm).", "n": 24, "u": "cm", "k": "4*6", "e": "Four equal sides."},
+{"t": "Find the perimeter of a rectangle 8 cm by 5 cm (in cm).", "n": 26, "u": "cm", "k": "2*(8+5)", "e": "Two lengths and two breadths."},
+{"t": "One angle of a parallelogram is 70°. Find the opposite angle (in degrees).", "n": 70, "u": "°", "e": "Opposite angles of a parallelogram are equal."},
+{"t": "One angle of a parallelogram is 70°. Find an adjacent angle (in degrees).", "n": 110, "u": "°", "k": "180-70", "e": "Neighbouring angles of a parallelogram add to 180°."},
+{"t": "A quadrilateral with two pairs of equal ADJACENT sides is a:", "o": ["Kite", "Parallelogram", "Trapezium", "Rectangle"], "e": "In a kite the equal sides are next to each other."},
+{"t": "Is every square a rectangle?", "o": ["Yes — it has four right angles", "No — its sides are equal", "Only large squares", "No — it is a rhombus instead"], "e": "A rectangle only needs four right angles; a square has them, plus equal sides."},
+{"t": "The angles of a quadrilateral are in the ratio 1 : 2 : 3 : 4. Find the smallest (in degrees).", "n": 36, "u": "°", "k": "F(360,10)", "e": "10 parts make 360°, so one part is 36°."}
+]},
+{"q": [
+{"t": "The angles of a quadrilateral are x°, 2x°, 3x° and 4x°. Find the largest (in degrees).", "n": 144, "u": "°", "k": "F(360,10)*4", "e": "10x = 360, x = 36, and 4x = 144."},
+{"t": "Three angles of a quadrilateral are 110°, 85° and 75°. Find the fourth (in degrees).", "n": 90, "u": "°", "k": "360-110-85-75", "e": "360 − 270 = 90."},
+{"t": "One angle of a parallelogram is 3 times its adjacent angle. Find the larger angle (in degrees).", "n": 135, "u": "°", "k": "F(180,4)*3", "e": "x + 3x = 180, so x = 45 and the larger is 135."},
+{"t": "A rhombus has perimeter 48 cm. Find its side (in cm).", "n": 12, "u": "cm", "k": "F(48,4)", "e": "Four equal sides."},
+{"t": "A rectangle has perimeter 50 cm and length 15 cm. Find its breadth (in cm).", "n": 10, "u": "cm", "k": "F(50,2)-15", "e": "Length + breadth = half the perimeter = 25."},
+{"t": "A parallelogram has perimeter 36 cm and one side 10 cm. Find the adjacent side (in cm).", "n": 8, "u": "cm", "k": "F(36,2)-10", "e": "Two adjacent sides make half the perimeter: 18 − 10."},
+{"t": "Which statement is NOT always true?", "o": ["Every rhombus is a square", "Every square is a rhombus", "Every square is a rectangle", "Every rectangle is a parallelogram"], "e": "A rhombus has equal sides but its angles need not be 90°."},
+{"t": "All four angles of a quadrilateral are equal. Find each (in degrees).", "n": 90, "u": "°", "k": "F(360,4)", "e": "360 ÷ 4."},
+{"t": "The diagonals of a square:", "o": ["Are equal and cross at right angles", "Are unequal", "Never meet", "Are parallel"], "e": "A square is both a rectangle (equal diagonals) and a rhombus (perpendicular diagonals)."},
+{"t": "The diagonals of a rectangle are 10 cm long. How far is the point where they cross from each corner (in cm)?", "n": 5, "u": "cm", "k": "F(10,2)", "e": "They are equal and cut each other in half."}
+]},
+{"q": [
+{"t": "The angles of a quadrilateral are (x + 10)°, (2x − 20)°, (x + 30)° and (2x + 10)°. Find the largest angle (in degrees).", "n": 120, "u": "°", "k": "2*55+10", "e": "6x + 30 = 360, so x = 55. The angles are 65°, 90°, 85° and 120°."},
+{"t": "A rectangle has length and breadth in the ratio 3 : 2 and perimeter 60 cm. Find its length (in cm).", "n": 18, "u": "cm", "k": "F(30,5)*3", "e": "Length + breadth = 30 cm, shared 3 : 2 → 18 cm and 12 cm."},
+{"t": "One angle of a rhombus is 60°. Find its largest angle (in degrees).", "n": 120, "u": "°", "k": "180-60", "e": "Adjacent angles add to 180°, so the angles are 60°, 120°, 60°, 120°."},
+{"t": "Two adjacent angles of a parallelogram differ by 30°. Find the larger (in degrees).", "n": 105, "u": "°", "k": "F(180+30,2)", "e": "They add to 180 and differ by 30: 105° and 75°."},
+{"t": "A 2 × 2 grid of small squares is drawn. How many rectangles (including squares) can be found in it?", "n": 9, "k": "F(3*2,2)**2", "e": "The grid has 3 horizontal and 3 vertical lines. Choose 2 of each: 3 × 3 = 9 (four small, four made of two, one large)."},
+{"t": "Three angles of a quadrilateral are equal and the fourth is 60°. Find each of the equal angles (in degrees).", "n": 100, "u": "°", "k": "F(360-60,3)", "e": "The three share 300° equally."},
+{"t": "How many lines of symmetry does a kite have?", "n": 1, "e": "Only the diagonal that runs between the two pairs of equal sides."},
+{"t": "In an isosceles trapezium each angle on the longer parallel side is 65°. Find each angle on the shorter parallel side (in degrees).", "n": 115, "u": "°", "k": "180-65", "e": "The two angles along each slant side add to 180°."},
+{"t": "A square and a rhombus have the same side. Which statement is true?", "o": ["They have the same perimeter", "They always have the same area", "Their diagonals are always equal", "Their angles are always equal"], "e": "Perimeter depends only on the sides (4 × side). The rhombus leans over, so its height and area are smaller."},
+{"t": "Three angles of a quadrilateral are right angles. Find the fourth (in degrees).", "n": 90, "u": "°", "k": "360-270", "e": "360 − 270 = 90. So a quadrilateral can never have exactly three right angles — the fourth is forced to be one too."}
+]}
+]
+}

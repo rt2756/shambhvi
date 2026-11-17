@@ -1,0 +1,53 @@
+{
+"title": "5. Fractions",
+"tests": [
+{"q": [
+{"t": "What is the numerator of 3/5?", "n": 3, "e": "The numerator is the top number: how many parts are taken. The denominator (5) says how many equal parts make the whole."},
+{"t": "Which of these is a proper fraction?", "o": ["2/7", "7/2", "9/9", "5/3"], "e": "A proper fraction is less than 1 whole, so its numerator is smaller than its denominator."},
+{"t": "Write 7/4 as a mixed number.", "o": ["1 3/4", "1 1/4", "3 1/4", "7 1/4"], "k": "F(7,4)", "e": "4 quarters make 1 whole, leaving 3 quarters over."},
+{"t": "Which fraction is equivalent to 1/2?", "o": ["4/8", "2/3", "1/4", "3/5"], "k": "F(1,2)", "e": "Multiply top and bottom by the same number (4): the parts are smaller but there are more of them, so the amount is the same."},
+{"t": "Find 2/9 + 5/9.", "o": ["7/9", "7/18", "10/81", "3/9"], "k": "F(2,9)+F(5,9)", "e": "Same-sized parts (ninths), so just count them: 2 + 5 = 7 ninths."},
+{"t": "Which is greater: 3/8 or 5/8?", "o": ["5/8", "3/8", "They are equal"], "e": "The parts are the same size, and 5 of them is more than 3."},
+{"t": "Find 1/4 of 20.", "n": 5, "k": "F(1,4)*20", "e": "Share 20 into 4 equal groups: 20 ÷ 4 = 5."},
+{"t": "Write 6/8 in lowest terms.", "o": ["3/4", "2/4", "6/8", "1/2"], "k": "F(6,8)", "e": "Divide top and bottom by their HCF, 2."},
+{"t": "Fractions with the same denominator are called:", "o": ["Like fractions", "Unlike fractions", "Unit fractions", "Mixed fractions"], "e": "They are alike in the size of their parts."},
+{"t": "Write 2 1/3 as an improper fraction.", "o": ["7/3", "5/3", "6/3", "3/7"], "k": "2+F(1,3)", "e": "2 wholes are 6 thirds; one more third makes 7 thirds."}
+]},
+{"q": [
+{"t": "Find 1/2 + 1/3.", "o": ["5/6", "2/5", "1/5", "2/6"], "k": "F(1,2)+F(1,3)", "e": "Make the parts the same size first: 3/6 + 2/6 = 5/6. Never add the denominators."},
+{"t": "Find 5/6 − 1/4.", "o": ["7/12", "4/2", "1/3", "4/12"], "k": "F(5,6)-F(1,4)", "e": "LCM of 6 and 4 is 12: 10/12 − 3/12 = 7/12."},
+{"t": "Which is greater: 2/3 or 3/5?", "o": ["2/3", "3/5", "They are equal"], "e": "In fifteenths: 2/3 = 10/15 and 3/5 = 9/15."},
+{"t": "Write 18/42 in lowest terms.", "o": ["3/7", "9/21", "6/14", "2/7"], "k": "F(18,42)", "e": "The HCF of 18 and 42 is 6. Dividing both by 6 gives 3/7."},
+{"t": "If 3/4 = x/20, find x.", "n": 15, "k": "F(3,4)*20", "e": "4 was multiplied by 5 to make 20, so multiply 3 by 5 too."},
+{"t": "Find 2 1/2 + 1 3/4.", "o": ["4 1/4", "3 1/4", "3 4/6", "4 3/4"], "k": "F(5,2)+F(7,4)", "e": "Wholes: 2 + 1 = 3. Parts: 2/4 + 3/4 = 5/4 = 1 1/4. Total 4 1/4."},
+{"t": "Arrange in ascending order: 1/2, 1/4, 3/8", "o": ["1/4, 3/8, 1/2", "1/2, 3/8, 1/4", "3/8, 1/4, 1/2", "1/4, 1/2, 3/8"], "e": "In eighths: 4/8, 2/8, 3/8. So 2/8 < 3/8 < 4/8."},
+{"t": "Find 2/5 of 45.", "n": 18, "k": "F(2,5)*45", "e": "One fifth of 45 is 9; two fifths is 18."},
+{"t": "Find 5 − 2 3/8.", "o": ["2 5/8", "3 5/8", "2 3/8", "3 3/8"], "k": "5-F(19,8)", "e": "5 − 2 = 3, then take away 3/8 more: 2 5/8."},
+{"t": "A fraction whose numerator is 1 is called a:", "o": ["Unit fraction", "Like fraction", "Mixed fraction", "Whole number"], "e": "It stands for one single part (one unit) of the whole."}
+]},
+{"q": [
+{"t": "Find 3 1/3 + 2 1/4 − 1 5/6.", "o": ["3 3/4", "4 3/4", "3 1/4", "3 5/12"], "k": "F(10,3)+F(9,4)-F(11,6)", "e": "In twelfths: 40/12 + 27/12 − 22/12 = 45/12 = 3 9/12 = 3 3/4."},
+{"t": "A rope is 5 m long. A piece 2 3/4 m long is cut off. How much is left?", "o": ["2 1/4 m", "3 1/4 m", "2 3/4 m", "3 3/4 m"], "k": "5-F(11,4)", "e": "5 − 2 = 3; 3 − 3/4 = 2 1/4."},
+{"t": "Ravi reads 3/8 of a book in the morning and 1/4 in the evening. What fraction is still unread?", "o": ["3/8", "5/8", "1/2", "1/8"], "k": "1-F(3,8)-F(1,4)", "e": "Read: 3/8 + 2/8 = 5/8. Left: 8/8 − 5/8 = 3/8."},
+{"t": "What must be added to 2/3 to get 1 1/6?", "o": ["1/2", "5/6", "1/3", "1 5/6"], "k": "F(7,6)-F(2,3)", "e": "7/6 − 4/6 = 3/6 = 1/2."},
+{"t": "Which is the largest: 3/4, 5/6, 7/12 or 2/3?", "o": ["5/6", "3/4", "2/3", "7/12"], "e": "In twelfths: 9/12, 10/12, 7/12, 8/12. The largest is 10/12."},
+{"t": "How many minutes are 2/3 of an hour?", "n": 40, "u": "minutes", "k": "F(2,3)*60", "e": "One third of 60 minutes is 20; two thirds is 40."},
+{"t": "Which fraction lies between 1/2 and 2/3?", "o": ["7/12", "5/12", "3/4", "1/3"], "e": "In twelfths, 1/2 = 6/12 and 2/3 = 8/12; 7/12 sits between them."},
+{"t": "What fraction of an hour is 15 minutes?", "o": ["1/4", "1/15", "15/100", "1/5"], "k": "F(15,60)", "e": "15/60 = 1/4 — a quarter of an hour."},
+{"t": "Find the difference between 5/6 and 5/9.", "o": ["5/18", "0", "5/3", "10/15"], "k": "F(5,6)-F(5,9)", "e": "LCM of 6 and 9 is 18: 15/18 − 10/18 = 5/18."},
+{"t": "Find 7/10 + 11/15.", "o": ["1 13/30", "18/25", "1 1/30", "13/30"], "k": "F(7,10)+F(11,15)", "e": "21/30 + 22/30 = 43/30 = 1 13/30."}
+]},
+{"q": [
+{"t": "Find 1/2 + 1/4 + 1/8 + 1/16.", "o": ["15/16", "4/30", "1", "7/8"], "k": "F(1,2)+F(1,4)+F(1,8)+F(1,16)", "e": "In sixteenths: 8 + 4 + 2 + 1 = 15 sixteenths. Each step fills half of what is left, so it never quite reaches 1."},
+{"t": "A fraction equals 1/3, and its numerator and denominator add up to 12. What is the fraction?", "o": ["3/9", "4/8", "2/10", "5/7"], "k": "F(3,9)", "e": "The denominator is 3 times the numerator: n + 3n = 12, so n = 3 and the fraction is 3/9."},
+{"t": "A tank is 3/4 full. One third of the WATER in it is used. What fraction of the tank is now full?", "o": ["1/2", "5/12", "1/4", "2/3"], "k": "F(3,4)*F(2,3)", "e": "The 3/4 is three equal quarters of water; using one third of it removes one quarter. 3/4 − 1/4 = 1/2."},
+{"t": "A man walks 2/5 km north, then 1 1/2 km north, then 3/4 km back south. How far north of his start is he?", "o": ["1 3/20 km", "2 13/20 km", "1 1/4 km", "3/20 km"], "k": "F(2,5)+F(3,2)-F(3,4)", "e": "In twentieths: 8/20 + 30/20 − 15/20 = 23/20 = 1 3/20."},
+{"t": "Arrange in descending order: 5/8, 7/12, 2/3, 3/4", "o": ["3/4, 2/3, 5/8, 7/12", "3/4, 5/8, 2/3, 7/12", "7/12, 5/8, 2/3, 3/4", "2/3, 3/4, 5/8, 7/12"], "e": "With denominator 24: 15/24, 14/24, 16/24, 18/24. Largest first: 18, 16, 15, 14."},
+{"t": "Find 4 − (1 2/3 + 1 3/4).", "o": ["7/12", "1 7/12", "5/12", "1/12"], "k": "4-(F(5,3)+F(7,4))", "e": "1 2/3 + 1 3/4 = 2 + 17/12 = 3 5/12. Then 4 − 3 5/12 = 7/12."},
+{"t": "What fraction of the numbers from 1 to 20 are prime?", "o": ["2/5", "1/2", "9/20", "7/20"], "k": "F(8,20)", "e": "The primes are 2, 3, 5, 7, 11, 13, 17, 19 — eight of the twenty. 8/20 = 2/5."},
+{"t": "3/7 of a number is 15. Find the number.", "n": 35, "k": "15/F(3,7)", "e": "3 sevenths are 15, so 1 seventh is 5 and all 7 sevenths are 35."},
+{"t": "The sum of two fractions is 3 1/2. One of them is 1 5/6. Find the other.", "o": ["1 2/3", "2 2/3", "1 1/3", "5 1/3"], "k": "F(7,2)-F(11,6)", "e": "21/6 − 11/6 = 10/6 = 1 4/6 = 1 2/3."},
+{"t": "1/5 of a pole is painted red, 1/3 is blue and the remaining 7 m is white. How long is the pole (in m)?", "n": 15, "u": "m", "k": "7/(1-F(1,5)-F(1,3))", "e": "Red and blue: 3/15 + 5/15 = 8/15. White is 7/15 of the pole = 7 m, so 1/15 is 1 m and the pole is 15 m."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "19. Three-Dimensional Shapes",
+"tests": [
+{"q": [
+{"t": "How many faces does a cube have?", "n": 6, "e": "Like a dice: top, bottom and four sides."},
+{"t": "How many edges does a cuboid have?", "n": 12, "e": "4 along the length, 4 along the breadth, 4 along the height."},
+{"t": "How many vertices does a cuboid have?", "n": 8, "e": "4 corners on top and 4 underneath."},
+{"t": "A football has the shape of a:", "o": ["Sphere", "Cylinder", "Cone", "Cube"], "e": "A sphere is perfectly round in every direction."},
+{"t": "An ice-cream cone has the shape of a:", "o": ["Cone", "Cylinder", "Sphere", "Pyramid"], "e": "A circular base narrowing to a point."},
+{"t": "A tin can has the shape of a:", "o": ["Cylinder", "Cone", "Cuboid", "Sphere"], "e": "Two equal circular ends joined by a curved surface."},
+{"t": "A brick has the shape of a:", "o": ["Cuboid", "Cube", "Cylinder", "Prism with triangular ends"], "e": "Six rectangular faces."},
+{"t": "How many flat faces does a sphere have?", "n": 0, "e": "It has one curved surface and nothing flat."},
+{"t": "How many vertices does a cone have?", "n": 1, "e": "Only its pointed tip."},
+{"t": "The faces of a cube are all:", "o": ["Squares", "Rectangles that are not squares", "Triangles", "Circles"], "e": "All edges of a cube are the same length."}
+]},
+{"q": [
+{"t": "How many faces does a triangular prism have?", "n": 5, "e": "2 triangular ends and 3 rectangular sides."},
+{"t": "How many faces does a square pyramid have?", "n": 5, "e": "1 square base and 4 triangular sides."},
+{"t": "How many flat faces does a cylinder have?", "n": 2, "e": "The two circular ends."},
+{"t": "How many edges does a triangular pyramid (tetrahedron) have?", "n": 6, "e": "3 around the base and 3 rising to the top."},
+{"t": "How many vertices does a triangular prism have?", "n": 6, "e": "3 at each triangular end."},
+{"t": "How many curved surfaces does a cone have?", "n": 1, "e": "One curved surface, plus one flat circular base."},
+{"t": "How many edges does a square pyramid have?", "n": 8, "e": "4 around the base and 4 slanting up to the top."},
+{"t": "A cuboid has how many pairs of identical opposite faces?", "n": 3, "e": "Top–bottom, front–back, left–right."},
+{"t": "How many edges meet at each corner of a cuboid?", "n": 3, "e": "One length, one breadth and one height."},
+{"t": "How many faces does a tetrahedron have?", "n": 4, "e": "‘Tetra’ means four — four triangles."}
+]},
+{"q": [
+{"t": "How many edges does a triangular prism have?", "n": 9, "e": "3 on each end (6) plus 3 joining the ends."},
+{"t": "For a cube, find faces + vertices − edges.", "n": 2, "k": "6+8-12", "e": "6 + 8 − 12 = 2. This works for every solid with flat faces (Euler’s rule)."},
+{"t": "How many vertices does a pentagonal pyramid have?", "n": 6, "k": "5+1", "e": "5 on the base plus the top."},
+{"t": "How many faces does a pentagonal prism have?", "n": 7, "k": "5+2", "e": "2 pentagons and 5 rectangles."},
+{"t": "The net of a cube is made of how many squares?", "n": 6, "e": "One for each face."},
+{"t": "A cuboid is 5 cm long, 3 cm wide and 2 cm high. Find the total length of all its edges (in cm).", "n": 40, "u": "cm", "k": "4*(5+3+2)", "e": "There are 4 edges of each size: 4 × (5 + 3 + 2)."},
+{"t": "Find the total length of all the edges of a cube of side 4 cm (in cm).", "n": 48, "u": "cm", "k": "12*4", "e": "12 equal edges."},
+{"t": "On a dice the opposite faces add up to 7. Which number is opposite 2?", "n": 5, "k": "7-2", "e": "7 − 2."},
+{"t": "How many edges does a hexagonal pyramid have?", "n": 12, "k": "2*6", "e": "6 around the base and 6 to the top."},
+{"t": "Looking straight down on a cylinder standing on its end, you see a:", "o": ["Circle", "Rectangle", "Triangle", "Square"], "e": "From above you see only the circular top."}
+]},
+{"q": [
+{"t": "A solid has 7 faces and 10 vertices. How many edges does it have?", "n": 15, "k": "7+10-2", "e": "Faces + vertices − edges = 2, so edges = 7 + 10 − 2."},
+{"t": "A prism has 8 faces. How many sides does its base have?", "n": 6, "k": "8-2", "e": "Two of the faces are the ends; the other 6 are side faces, one for each side of the base."},
+{"t": "A pyramid has 10 edges. How many faces does it have?", "n": 6, "k": "F(10,2)+1", "e": "A pyramid has 2 edges for each side of the base, so the base has 5 sides: 5 triangles + 1 base."},
+{"t": "A 3 × 3 × 3 cube is made from 27 small cubes and painted on the outside. How many small cubes have paint on exactly 3 faces?", "n": 8, "e": "Only the corner cubes show three faces, and a cube has 8 corners."},
+{"t": "A 3 × 3 × 3 painted cube is cut into 27 small cubes. How many have paint on exactly 1 face?", "n": 6, "e": "Only the cube in the middle of each face — one for each of the 6 faces."},
+{"t": "How many small cubes of side 1 cm are needed to build a cube of side 4 cm?", "n": 64, "k": "4**3", "e": "4 along each of length, breadth and height: 4 × 4 × 4."},
+{"t": "What is the total number of dots on a dice?", "n": 21, "k": "sum(range(1,7))", "e": "1 + 2 + 3 + 4 + 5 + 6."},
+{"t": "A wire frame of a cube uses 96 cm of wire. Find the length of each edge (in cm).", "n": 8, "u": "cm", "k": "F(96,12)", "e": "A cube has 12 equal edges: 96 ÷ 12."},
+{"t": "A cone standing on its base is cut straight down through its tip. The cut face is a:", "o": ["Triangle", "Circle", "Rectangle", "Square"], "e": "Two slanting edges meet at the tip, with the base’s diameter along the bottom."},
+{"t": "Two identical cubes are joined face to face. How many faces does the new cuboid have?", "n": 6, "e": "It is a cuboid, and every cuboid has 6 faces — the two joined faces disappear inside and the others merge in pairs."}
+]}
+]
+}

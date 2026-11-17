@@ -1,0 +1,53 @@
+{
+"title": "21. Concept of Perimeter and Area",
+"tests": [
+{"q": [
+{"t": "Find the perimeter of a rectangle 6 cm long and 4 cm wide (in cm).", "n": 20, "u": "cm", "k": "2*(6+4)", "e": "Walk all the way round: two lengths and two breadths = 2 × (6 + 4)."},
+{"t": "Find the perimeter of a square of side 5 cm (in cm).", "n": 20, "u": "cm", "k": "4*5", "e": "Four equal sides."},
+{"t": "Find the area of a rectangle 6 cm by 4 cm (in cm²).", "n": 24, "u": "cm²", "k": "6*4", "e": "4 rows of 6 unit squares: length × breadth."},
+{"t": "Find the area of a square of side 5 cm (in cm²).", "n": 25, "u": "cm²", "k": "5*5", "e": "5 rows of 5 unit squares."},
+{"t": "Find the perimeter of a triangle with sides 3 cm, 4 cm and 5 cm (in cm).", "n": 12, "u": "cm", "k": "3+4+5", "e": "Add all the sides."},
+{"t": "Which unit is used for area?", "o": ["cm²", "cm", "cm³", "kg"], "e": "Area counts unit squares, so it is measured in square units."},
+{"t": "The perimeter of a shape is:", "o": ["The total length of its boundary", "The space inside it", "Its height", "Its longest side"], "e": "‘Peri’ means around and ‘meter’ means measure."},
+{"t": "Find the perimeter of an equilateral triangle of side 7 cm (in cm).", "n": 21, "u": "cm", "k": "3*7", "e": "Three equal sides."},
+{"t": "A shape drawn on squared paper covers 9 full squares of 1 cm². Find its area (in cm²).", "n": 9, "u": "cm²", "e": "Area is the number of unit squares covered."},
+{"t": "Find the perimeter of a regular hexagon of side 3 cm (in cm).", "n": 18, "u": "cm", "k": "6*3", "e": "Six equal sides."}
+]},
+{"q": [
+{"t": "A rectangle has perimeter 30 cm and length 9 cm. Find its breadth (in cm).", "n": 6, "u": "cm", "k": "F(30,2)-9", "e": "Length + breadth = half the perimeter = 15."},
+{"t": "A square has perimeter 36 cm. Find its area (in cm²).", "n": 81, "u": "cm²", "k": "F(36,4)**2", "e": "Side = 36 ÷ 4 = 9. Area = 9 × 9."},
+{"t": "A rectangle has area 72 cm² and length 9 cm. Find its breadth (in cm).", "n": 8, "u": "cm", "k": "F(72,9)", "e": "Breadth = area ÷ length."},
+{"t": "A field is 20 m by 15 m. Find the cost of fencing it at ₹10 per metre (in ₹).", "n": 700, "u": "₹", "k": "2*(20+15)*10", "e": "A fence goes round the edge: perimeter = 70 m, and 70 × 10 = 700."},
+{"t": "A square has area 64 cm². Find its side (in cm).", "n": 8, "u": "cm", "k": "64**F(1,2)", "e": "8 × 8 = 64."},
+{"t": "Find the area of a rectangle 12 m by 7 m (in m²).", "n": 84, "u": "m²", "k": "12*7", "e": "length × breadth."},
+{"t": "How many square tiles of side 1 m are needed to cover a floor 5 m by 4 m?", "n": 20, "k": "5*4", "e": "Each tile covers 1 m², and the floor is 20 m²."},
+{"t": "Find the circumference of a circle of diameter 7 cm (take π = 22/7), in cm.", "n": 22, "u": "cm", "k": "F(22,7)*7", "e": "Circumference = π × diameter = 22/7 × 7."},
+{"t": "A regular pentagon has perimeter 45 cm. Find its side (in cm).", "n": 9, "u": "cm", "k": "F(45,5)", "e": "Five equal sides share 45 cm."},
+{"t": "A rectangle is twice as long as it is wide and has perimeter 36 cm. Find its length (in cm).", "n": 12, "u": "cm", "k": "F(18,3)*2", "e": "Breadth b, length 2b: 2 × 3b = 36, so b = 6 and the length is 12."}
+]},
+{"q": [
+{"t": "A 4 cm by 3 cm rectangle is cut from one corner of a 10 cm by 8 cm rectangle. Find the area of the L-shape left (in cm²).", "n": 68, "u": "cm²", "k": "10*8-4*3", "e": "Whole − cut-out = 80 − 12."},
+{"t": "A wire shaped as a square of side 12 cm is rebent into a rectangle 15 cm long. Find the area of the rectangle (in cm²).", "n": 135, "u": "cm²", "k": "15*(24-15)", "e": "The wire is 48 cm long, so length + breadth = 24 and the breadth is 9. Area = 15 × 9."},
+{"t": "A square has the same area as a rectangle 25 m by 16 m. Find the side of the square (in m).", "n": 20, "u": "m", "k": "(25*16)**F(1,2)", "e": "Area = 400 m², and 20 × 20 = 400."},
+{"t": "How many tiles 20 cm by 10 cm are needed to cover a wall 2 m by 1 m?", "n": 100, "k": "F(200*100,20*10)", "e": "Wall = 200 cm × 100 cm = 20,000 cm². Each tile = 200 cm². 20,000 ÷ 200."},
+{"t": "A wheel has diameter 70 cm. How far does it roll in one turn (take π = 22/7), in cm?", "n": 220, "u": "cm", "k": "F(22,7)*70", "e": "One turn covers its circumference: 22/7 × 70."},
+{"t": "A rectangle has sides in the ratio 3 : 2 and perimeter 50 cm. Find its area (in cm²).", "n": 150, "u": "cm²", "k": "15*10", "e": "Length + breadth = 25, shared 3 : 2 → 15 and 10. Area = 150."},
+{"t": "The side of a square is made 4 times as long. Its area becomes how many times as large?", "n": 16, "k": "4*4", "e": "Both the length and the width are multiplied by 4: 4 × 4."},
+{"t": "A room is 6 m by 4.5 m. Find the cost of carpeting it at ₹200 per m² (in ₹).", "n": 5400, "u": "₹", "k": "6*F('4.5')*200", "e": "Carpet covers the floor: area = 27 m². 27 × 200."},
+{"t": "A rectangle has the same perimeter as a square of side 10 cm, and its length is 13 cm. Find its area (in cm²).", "n": 91, "u": "cm²", "k": "13*(20-13)", "e": "Perimeter = 40, so length + breadth = 20 and breadth = 7. Area = 13 × 7."},
+{"t": "A park is 60 m by 40 m. Ravi jogs round its edge 5 times. How far does he jog (in m)?", "n": 1000, "u": "m", "k": "2*(60+40)*5", "e": "One round = 200 m. Five rounds = 1000 m (1 km)."}
+]},
+{"q": [
+{"t": "A lawn 12 m by 10 m has a path 1 m wide running all round it on the INSIDE. Find the area of the path (in m²).", "n": 40, "u": "m²", "k": "12*10-10*8", "e": "The path takes 1 m off each end, leaving 10 m by 8 m of grass. 120 − 80 = 40."},
+{"t": "A square and a rectangle both have perimeter 48 cm. The rectangle is 16 cm long. How much greater is the square’s area (in cm²)?", "n": 16, "u": "cm²", "k": "12*12-16*8", "e": "Square: side 12, area 144. Rectangle: 16 × 8 = 128. Difference 16."},
+{"t": "A rectangle has area 180 cm² and perimeter 54 cm. Find its length (in cm).", "n": 15, "u": "cm", "k": "max(l for l in range(1,27) if l*(27-l)==180)", "e": "Length + breadth = 27 and length × breadth = 180. The pair 15 and 12 fits both."},
+{"t": "How many square tiles of side 25 cm are needed for a floor 5 m by 4 m?", "n": 320, "k": "F(500*400,25*25)", "e": "20 tiles fit along 5 m and 16 along 4 m: 20 × 16 = 320."},
+{"t": "Three squares of side 4 cm are placed side by side in a row to make a rectangle. Find its perimeter (in cm).", "n": 32, "u": "cm", "k": "2*(12+4)", "e": "The rectangle is 12 cm by 4 cm. The inner edges are hidden, so it is less than 3 × 16."},
+{"t": "A circular garden has radius 14 m. A fence goes round it twice. Find the length of wire needed (take π = 22/7), in m.", "n": 176, "u": "m", "k": "2*2*F(22,7)*14", "e": "One round = 2 × 22/7 × 14 = 88 m. Two rounds = 176 m."},
+{"t": "When each side of a square is increased by 3 cm, its area increases by 39 cm². Find the original side (in cm).", "n": 5, "u": "cm", "k": "[s for s in range(1,50) if (s+3)**2-s*s==39][0]", "e": "Try 5: 8 × 8 − 5 × 5 = 64 − 25 = 39 ✓."},
+{"t": "The length of a rectangle is doubled and its breadth is halved. Its area:", "o": ["Stays the same", "Doubles", "Is halved", "Becomes 4 times"], "e": "2 × length × ½ × breadth = length × breadth."},
+{"t": "A 4 cm by 3 cm rectangle is cut from one corner of a 10 cm by 8 cm rectangle. Find the perimeter of the L-shape left (in cm).", "n": 36, "u": "cm", "k": "2*(10+8)", "e": "The two new inner edges (4 and 3) exactly replace the pieces removed from the outside, so the perimeter is still 2 × (10 + 8)."},
+{"t": "A rectangle has whole-number sides and perimeter 20 cm. What is the greatest area it can have (in cm²)?", "n": 25, "u": "cm²", "k": "max(a*(10-a) for a in range(1,10))", "e": "The sides add to 10: 1 × 9, 2 × 8, 3 × 7, 4 × 6, 5 × 5. The square, 5 × 5 = 25, is the largest."}
+]}
+]
+}

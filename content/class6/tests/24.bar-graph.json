@@ -1,0 +1,53 @@
+{
+"title": "24. Bar Graph",
+"tests": [
+{"q": [
+{"t": "A bar graph shows data using:", "o": ["Bars of equal width", "Pictures", "A circle", "Dots only"], "e": "Every bar has the same width, so only its height (or length) carries the information."},
+{"t": "In a bar graph the value of an item is shown by the bar’s:", "o": ["Height or length", "Width", "Colour", "Name"], "e": "The taller the bar, the bigger the number."},
+{"t": "Scale: 1 unit = 5 children. A bar is 4 units tall. How many children does it show?", "n": 20, "k": "4*5", "e": "4 × 5."},
+{"t": "The gaps between the bars should be:", "o": ["Equal", "Unequal", "Wider for tall bars", "Missing for the first bar"], "e": "Equal spacing keeps the picture fair."},
+{"t": "Pets owned: Dogs 8, Cats 5, Fish 12, Birds 3. Which pet has the tallest bar?", "o": ["Fish", "Dogs", "Cats", "Birds"], "e": "12 is the largest value."},
+{"t": "Pets owned: Dogs 8, Cats 5, Fish 12, Birds 3. How many pets are there in all?", "n": 28, "k": "8+5+12+3", "e": "Add all the bars."},
+{"t": "Pets owned: Dogs 8, Cats 5, Fish 12, Birds 3. How many more fish than cats are there?", "n": 7, "k": "12-5", "e": "12 − 5."},
+{"t": "Scale: 1 cm = 10 students. How tall is the bar for 60 students (in cm)?", "n": 6, "u": "cm", "k": "F(60,10)", "e": "60 ÷ 10."},
+{"t": "Pets owned: Dogs 8, Cats 5, Fish 12, Birds 3. Which pet has the shortest bar?", "o": ["Birds", "Cats", "Dogs", "Fish"], "e": "3 is the smallest value."},
+{"t": "The bars of a bar graph can be drawn:", "o": ["Either upright or sideways", "Only upright", "Only sideways", "Only slanting"], "e": "Vertical and horizontal bar graphs show the same information."}
+]},
+{"q": [
+{"t": "Runs scored: Match 1: 40, Match 2: 65, Match 3: 25, Match 4: 70. Find the total runs.", "n": 200, "k": "40+65+25+70", "e": "Add the four bars."},
+{"t": "Runs scored: Match 1: 40, Match 2: 65, Match 3: 25, Match 4: 70. How many more runs were scored in the best match than in the worst?", "n": 45, "k": "70-25", "e": "70 − 25."},
+{"t": "Runs scored: Match 1: 40, Match 2: 65, Match 3: 25, Match 4: 70. In how many matches were more than 50 runs scored?", "n": 2, "e": "Matches 2 and 4."},
+{"t": "Scale: 1 unit = 4 km. A bar is 6.5 units long. What distance does it show (in km)?", "n": 26, "u": "km", "k": "F('6.5')*4", "e": "6.5 × 4."},
+{"t": "Scale: 1 cm = 25 books. How tall is the bar for 150 books (in cm)?", "n": 6, "u": "cm", "k": "F(150,25)", "e": "150 ÷ 25."},
+{"t": "The largest value in a data set is 400 and the axis can be 8 cm long. Which scale fits best?", "o": ["1 cm = 50", "1 cm = 5", "1 cm = 400", "1 cm = 10"], "e": "400 ÷ 8 = 50 per centimetre, so the tallest bar just fits."},
+{"t": "Two bars are 3 cm and 5 cm tall with the scale 1 cm = 20. Find the difference between the values they show.", "n": 40, "k": "(5-3)*20", "e": "The bars differ by 2 cm, and 2 × 20 = 40."},
+{"t": "Runs scored: Match 1: 40, Match 2: 65, Match 3: 25, Match 4: 70. Find the ratio of runs in Match 1 to Match 3.", "o": ["8 : 5", "5 : 8", "4 : 3", "8 : 13"], "e": "40 : 25, divide both by 5."},
+{"t": "Scale: 1 unit = 10. A bar ends halfway between the marks for 30 and 40. What value does it show?", "n": 35, "k": "F(30+40,2)", "e": "Halfway between 30 and 40."},
+{"t": "A bar graph has bars of height 2, 5, 3 and 6 units with the scale 1 unit = 15. Find the total shown.", "n": 240, "k": "(2+5+3+6)*15", "e": "16 units × 15."}
+]},
+{"q": [
+{"t": "Books borrowed: Mon 30, Tue 45, Wed 20, Thu 55, Fri 50. Find the total for the week.", "n": 200, "k": "30+45+20+55+50", "e": "Add all five bars."},
+{"t": "Books borrowed: Mon 30, Tue 45, Wed 20, Thu 55, Fri 50. On how many days were MORE than 40 books borrowed?", "n": 3, "e": "Tuesday, Thursday and Friday."},
+{"t": "Books borrowed: Mon 30, Tue 45, Wed 20, Thu 55, Fri 50. What fraction of the week’s books were borrowed on Friday?", "o": ["1/4", "1/5", "1/2", "5/11"], "k": "F(50,200)", "e": "50 out of 200 = 1/4."},
+{"t": "Books borrowed: Thu 55, Wed 20. Find the ratio of Thursday’s books to Wednesday’s.", "o": ["11 : 4", "4 : 11", "5 : 2", "11 : 15"], "e": "55 : 20, divide both by 5."},
+{"t": "Scale: 1 cm = 10 books. By how many centimetres does the bar for 55 differ from the bar for 20?", "n": 3.5, "u": "cm", "k": "F(55-20,10)", "e": "35 books ÷ 10 = 3.5 cm."},
+{"t": "Double bar graph (boys, girls): Class 6A (18, 22), Class 6B (25, 15), Class 6C (20, 20). How many girls are there in all?", "n": 57, "k": "22+15+20", "e": "Add only the girls’ bars."},
+{"t": "Double bar graph (boys, girls): Class 6A (18, 22), Class 6B (25, 15), Class 6C (20, 20). In which class is the boys’ bar taller than the girls’?", "o": ["6B", "6A", "6C", "None"], "e": "Only 6B has more boys (25) than girls (15)."},
+{"t": "Double bar graph (boys, girls): Class 6A (18, 22), Class 6B (25, 15), Class 6C (20, 20). How many students are there altogether?", "n": 120, "k": "18+22+25+15+20+20", "e": "40 + 40 + 40."},
+{"t": "Double bar graph (boys, girls): Class 6A (18, 22), Class 6B (25, 15), Class 6C (20, 20). How many more boys than girls are there in all?", "n": 6, "k": "63-57", "e": "63 boys − 57 girls."},
+{"t": "Books borrowed: Mon 30, Tue 45, Wed 20, Thu 55, Fri 50. If the same total were shared equally over the 5 days, how many books would that be each day?", "n": 40, "k": "F(200,5)", "e": "200 ÷ 5."}
+]},
+{"q": [
+{"t": "Trees planted: 2020: 400, 2021: 550, 2022: 500, 2023: 650, 2024: 900. How many were planted in the five years altogether?", "n": 3000, "k": "400+550+500+650+900", "e": "Add the five bars."},
+{"t": "Trees planted: 2020: 400, 2021: 550, 2022: 500, 2023: 650, 2024: 900. In which year did planting FALL compared with the year before?", "o": ["2022", "2021", "2023", "2024"], "e": "From 550 down to 500 — the only bar shorter than the one before it."},
+{"t": "Trees planted: 2020: 400, 2021: 550, 2022: 500, 2023: 650, 2024: 900. Which year had the biggest rise over the year before?", "o": ["2024", "2021", "2023", "2022"], "e": "Rises: 150, −50, 150, 250. The biggest jump is 250, from 2023 to 2024."},
+{"t": "Trees planted: 2020: 400, 2024: 900. Find the ratio of 2020 to 2024.", "o": ["4 : 9", "9 : 4", "2 : 3", "4 : 5"], "e": "400 : 900, divide both by 100."},
+{"t": "Scale: 1 cm = 100 trees. How tall is the bar for 650 trees (in cm)?", "n": 6.5, "u": "cm", "k": "F(650,100)", "e": "650 ÷ 100."},
+{"t": "Trees planted: 2020: 400, 2021: 550, 2022: 500, 2023: 650, 2024: 900. Shared equally, how many trees per year is that?", "n": 600, "k": "F(3000,5)", "e": "3000 ÷ 5."},
+{"t": "Trees planted: 2020: 400, 2021: 550, 2022: 500, 2023: 650, 2024: 900. In how many years were more than 600 trees planted?", "n": 2, "e": "2023 (650) and 2024 (900)."},
+{"t": "Trees planted: 2024: 900. What fraction of the five-year total of 3000 is that?", "o": ["3/10", "1/3", "9/20", "3/5"], "k": "F(900,3000)", "e": "900/3000 = 3/10."},
+{"t": "A bar is 7.5 cm tall and shows 600. What is the scale (how many per cm)?", "n": 80, "k": "600/F('7.5')", "e": "600 ÷ 7.5 = 80 per centimetre."},
+{"t": "With the scale 1 cm = 50 trees, how much taller is the bar for 900 than the bar for 400 (in cm)?", "n": 10, "u": "cm", "k": "F(900-400,50)", "e": "500 trees ÷ 50."}
+]}
+]
+}

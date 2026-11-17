@@ -54,7 +54,7 @@ def check_file(path, problems):
                 problems.append(f"{where}: needs o or n"); continue
             if "k" in q:
                 try:
-                    got = eval(q["k"], {"F": F, "math": math, "__builtins__": {"abs": abs, "round": round, "sum": sum, "min": min, "max": max, "sorted": sorted, "len": len, "pow": pow, "int": int, "range": range, "all": all}})
+                    got = eval(q["k"], {"F": F, "math": math, "__builtins__": {"abs": abs, "round": round, "sum": sum, "min": min, "max": max, "sorted": sorted, "len": len, "pow": pow, "int": int, "range": range, "all": all, "str": str, "set": set}})
                 except Exception as ex:
                     problems.append(f"{where}: k failed: {ex}"); continue
                 if target is None:

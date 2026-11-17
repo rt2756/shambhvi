@@ -1,0 +1,53 @@
+{
+"title": "13. Angles and Their Measurement",
+"tests": [
+{"q": [
+{"t": "How many degrees are there in a right angle?", "n": 90, "u": "°", "e": "A right angle is a quarter of a full turn: 360 ÷ 4."},
+{"t": "How many degrees are there in a straight angle?", "n": 180, "u": "°", "e": "A straight angle is half a full turn — the arms form a straight line."},
+{"t": "How many degrees are there in a complete angle (full turn)?", "n": 360, "u": "°", "e": "One whole turn is divided into 360 equal degrees."},
+{"t": "An angle smaller than 90° is called:", "o": ["Acute", "Obtuse", "Reflex", "Straight"], "e": "Acute means sharp — a narrow opening."},
+{"t": "An angle between 90° and 180° is called:", "o": ["Obtuse", "Acute", "Reflex", "Right"], "e": "Obtuse means blunt — wider than a square corner."},
+{"t": "Which instrument is used to measure an angle?", "o": ["Protractor", "Ruler", "Compass", "Divider"], "e": "It is marked in degrees from 0° to 180°."},
+{"t": "An angle of 45° is:", "o": ["Acute", "Right", "Obtuse", "Straight"], "e": "45° is less than 90°."},
+{"t": "The point where the two arms of an angle meet is called the:", "o": ["Vertex", "Arm", "Degree", "Side"], "e": "The vertex is the corner of the angle."},
+{"t": "An angle greater than 180° but less than 360° is called:", "o": ["Reflex", "Obtuse", "Acute", "Straight"], "e": "A reflex angle bends back past a straight line."},
+{"t": "How many right angles make a straight angle?", "n": 2, "k": "F(180,90)", "e": "90° + 90° = 180°."}
+]},
+{"q": [
+{"t": "How many degrees is one quarter of a revolution?", "n": 90, "u": "°", "k": "F(360,4)", "e": "360 ÷ 4."},
+{"t": "Find three quarters of a straight angle (in degrees).", "n": 135, "u": "°", "k": "F(3,4)*180", "e": "A quarter of 180° is 45°; three quarters is 135°."},
+{"t": "What is the angle between the hands of a clock at 3 o’clock (in degrees)?", "n": 90, "u": "°", "k": "3*30", "e": "Each hour mark is 360 ÷ 12 = 30° apart. From 12 to 3 is three gaps."},
+{"t": "What is the angle between the hands of a clock at 6 o’clock (in degrees)?", "n": 180, "u": "°", "k": "6*30", "e": "The hands point in opposite directions — a straight line."},
+{"t": "An angle of 200° is:", "o": ["Reflex", "Obtuse", "Straight", "Acute"], "e": "It is more than 180°."},
+{"t": "How many minutes (′) make one degree?", "n": 60, "e": "1° = 60′, just as 1 hour = 60 minutes."},
+{"t": "How many right angles are there in one complete turn?", "n": 4, "k": "F(360,90)", "e": "360 ÷ 90 = 4."},
+{"t": "You face north and turn clockwise to face east. Through what angle do you turn (in degrees)?", "n": 90, "u": "°", "e": "North to east is a quarter turn."},
+{"t": "Find two thirds of a right angle (in degrees).", "n": 60, "u": "°", "k": "F(2,3)*90", "e": "A third of 90° is 30°; two thirds is 60°."},
+{"t": "An angle of 135° is:", "o": ["Obtuse", "Acute", "Reflex", "Right"], "e": "It lies between 90° and 180°."}
+]},
+{"q": [
+{"t": "What is the angle between the hands of a clock at 4 o’clock (in degrees)?", "n": 120, "u": "°", "k": "4*30", "e": "Four gaps of 30°."},
+{"t": "What is the angle between the hands of a clock at 2 o’clock (in degrees)?", "n": 60, "u": "°", "k": "2*30", "e": "Two gaps of 30°."},
+{"t": "Through what angle does the hour hand turn in 1 hour (in degrees)?", "n": 30, "u": "°", "k": "F(360,12)", "e": "It takes 12 hours for a full turn: 360 ÷ 12."},
+{"t": "Through what angle does the minute hand turn in 10 minutes (in degrees)?", "n": 60, "u": "°", "k": "F(360,60)*10", "e": "It turns 360° in 60 minutes — 6° a minute. 10 × 6 = 60."},
+{"t": "You face north and turn clockwise to face south-west. Through what angle do you turn (in degrees)?", "n": 225, "u": "°", "k": "180+45", "e": "North to south is 180°, and south-west is another 45° further."},
+{"t": "How many degrees is one twelfth of a revolution?", "n": 30, "u": "°", "k": "F(360,12)", "e": "360 ÷ 12."},
+{"t": "Find the sum of a straight angle and half a right angle (in degrees).", "n": 225, "u": "°", "k": "180+45", "e": "180 + 45."},
+{"t": "Angles of 35° and 55° are placed side by side. Together they make:", "o": ["A right angle", "A straight angle", "An obtuse angle", "A reflex angle"], "e": "35 + 55 = 90°."},
+{"t": "How many degrees are there in 7 right angles?", "n": 630, "u": "°", "k": "7*90", "e": "7 × 90."},
+{"t": "At 5 o’clock, what is the REFLEX angle between the hands (in degrees)?", "n": 210, "u": "°", "k": "360-5*30", "e": "The smaller angle is 5 × 30 = 150°. The reflex angle is the rest of the turn: 360 − 150."}
+]},
+{"q": [
+{"t": "What is the angle between the hands of a clock at 2:30 (in degrees)?", "n": 105, "u": "°", "k": "180-75", "e": "The minute hand is at 6 (180°). The hour hand is halfway from 2 to 3: 60 + 15 = 75°. Difference 105°."},
+{"t": "What is the angle between the hands of a clock at 9:30 (in degrees)?", "n": 105, "u": "°", "k": "285-180", "e": "Minute hand at 180°. Hour hand halfway from 9 to 10: 270 + 15 = 285°. Difference 105°."},
+{"t": "Through what angle does the hour hand turn between 3:00 and 3:40 (in degrees)?", "n": 20, "u": "°", "k": "30*F(40,60)", "e": "It turns 30° in an hour, so in 40 minutes it turns two thirds of that."},
+{"t": "How many minutes does the minute hand take to turn through 150°?", "n": 25, "u": "minutes", "k": "F(150,6)", "e": "It turns 6° each minute: 150 ÷ 6."},
+{"t": "What is the angle between the directions north and north-east (in degrees)?", "n": 45, "u": "°", "e": "North-east is exactly halfway between north and east: half of 90°."},
+{"t": "You face east and turn 135° clockwise. Which direction do you now face?", "o": ["South-west", "South-east", "North-west", "South"], "e": "90° clockwise from east is south; another 45° reaches south-west."},
+{"t": "What is the angle between the hands of a clock at 4:20 (in degrees)?", "n": 10, "u": "°", "k": "130-120", "e": "Minute hand at 4 (120°). Hour hand one third of the way from 4 to 5: 120 + 10 = 130°. Difference 10°."},
+{"t": "Find two fifths of a complete angle (in degrees).", "n": 144, "u": "°", "k": "F(2,5)*360", "e": "One fifth of 360° is 72°; two fifths is 144°."},
+{"t": "Three equal angles fit exactly round a point. Find each (in degrees).", "n": 120, "u": "°", "k": "F(360,3)", "e": "They share the full turn equally: 360 ÷ 3."},
+{"t": "How many times are the hands of a clock at right angles between 12 noon and 12 midnight?", "n": 22, "e": "The minute hand gains a full lap on the hour hand 11 times in 12 hours, and in each lap they are at right angles twice: 11 × 2 = 22."}
+]}
+]
+}

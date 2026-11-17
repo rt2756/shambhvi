@@ -1,0 +1,53 @@
+{
+"title": "2. Factors and Multiples",
+"tests": [
+{"q": [
+{"t": "How many factors does 12 have?", "n": 6, "k": "len([d for d in range(1,13) if 12%d==0])", "e": "Factors come in pairs that multiply to 12: 1 × 12, 2 × 6, 3 × 4. That gives 1, 2, 3, 4, 6, 12."},
+{"t": "What is the third multiple of 7?", "n": 21, "k": "7*3", "e": "Multiples are the times table: 7, 14, 21 …"},
+{"t": "Is 17 a prime number?", "o": ["Yes — its only factors are 1 and 17", "No — it is odd", "No — it is divisible by 7", "Yes — because it ends in 7"], "e": "A prime has exactly two factors, 1 and itself. Nothing else divides 17."},
+{"t": "What is the smallest prime number?", "n": 2, "e": "1 has only one factor, so it is not prime. 2 has exactly two: 1 and 2."},
+{"t": "Find the HCF of 6 and 9.", "n": 3, "k": "math.gcd(6,9)", "e": "Factors of 6: 1, 2, 3, 6. Factors of 9: 1, 3, 9. The highest one they share is 3."},
+{"t": "Find the LCM of 4 and 6.", "n": 12, "k": "4*6//math.gcd(4,6)", "e": "Multiples of 4: 4, 8, 12 … Multiples of 6: 6, 12 … The first one they share is 12."},
+{"t": "The number 1 is:", "o": ["Neither prime nor composite", "Prime", "Composite", "Both prime and composite"], "e": "A prime needs exactly two factors and a composite more than two. 1 has only one factor."},
+{"t": "Which of these is divisible by 2?", "o": ["346", "345", "343", "347"], "e": "A number is divisible by 2 when its last digit is even."},
+{"t": "Which is the only even prime number?", "n": 2, "e": "Every other even number has 2 as an extra factor, so it cannot be prime."},
+{"t": "How many factors does a prime number have?", "n": 2, "e": "Exactly two — 1 and the number itself. That is the definition of prime."}
+]},
+{"q": [
+{"t": "Find the HCF of 36 and 48.", "n": 12, "k": "math.gcd(36,48)", "e": "36 = 2² × 3² and 48 = 2⁴ × 3. Take the common primes with the smaller powers: 2² × 3 = 12."},
+{"t": "Find the LCM of 12 and 18.", "n": 36, "k": "12*18//math.gcd(12,18)", "e": "12 = 2² × 3 and 18 = 2 × 3². Take every prime with the larger power: 2² × 3² = 36."},
+{"t": "Write the prime factorisation of 60.", "o": ["2 × 2 × 3 × 5", "4 × 15", "2 × 3 × 10", "6 × 10"], "k": "2*2*3*5-58", "e": "Keep splitting until every factor is prime: 60 = 2 × 30 = 2 × 2 × 15 = 2 × 2 × 3 × 5."},
+{"t": "Is 2,358 divisible by 9?", "o": ["Yes — the digits add up to 18", "No — it ends in 8", "No — the digits add up to 18", "Yes — it is even"], "k": "2358%9+18", "e": "A number is divisible by 9 when its digit sum is: 2 + 3 + 5 + 8 = 18."},
+{"t": "How many prime numbers are there between 20 and 30?", "n": 2, "k": "len([n for n in range(21,30) if all(n%d for d in range(2,n))])", "e": "Only 23 and 29. The others are even, or divisible by 3 or 5."},
+{"t": "Which pair are twin primes?", "o": ["11 and 13", "7 and 11", "13 and 15", "2 and 3"], "e": "Twin primes are two primes that differ by exactly 2."},
+{"t": "Which pair of numbers is co-prime?", "o": ["8 and 15", "6 and 9", "10 and 15", "12 and 18"], "e": "Co-prime numbers share no factor except 1. 8 = 2 × 2 × 2 and 15 = 3 × 5 have nothing in common."},
+{"t": "Find the LCM of 5 and 8.", "n": 40, "k": "5*8", "e": "They are co-prime, so the LCM is simply their product."},
+{"t": "What is the HCF of any two co-prime numbers?", "n": 1, "e": "Co-prime means the only common factor is 1."},
+{"t": "Is 1331 divisible by 11?", "o": ["Yes — (1 + 3) − (3 + 1) = 0", "No — the digit sum is 8", "No — it is odd", "Yes — it ends in 1"], "e": "Add alternate digits: 1 + 3 = 4 and 3 + 1 = 4. The difference is 0, so 11 divides it (1331 = 11 × 121)."}
+]},
+{"q": [
+{"t": "The HCF of two numbers is 6 and their LCM is 72. One number is 18. Find the other.", "n": 24, "k": "F(6*72,18)", "e": "HCF × LCM = product of the two numbers. 6 × 72 = 432, and 432 ÷ 18 = 24."},
+{"t": "Find the greatest number that divides 43, 91 and 183 leaving the same remainder each time.", "n": 4, "k": "math.gcd(math.gcd(91-43,183-91),183-43)", "e": "If the remainders are equal, the number divides the differences 48, 92 and 140. Their HCF is 4."},
+{"t": "Three bells ring every 6, 8 and 12 minutes. They ring together now. After how many minutes will they next ring together?", "n": 24, "u": "minutes", "k": "24", "e": "The time must be a multiple of all three: LCM of 6, 8, 12 = 24."},
+{"t": "Find the least number which leaves remainder 7 when divided by 12, 16 and 24.", "n": 55, "k": "48+7", "e": "LCM of 12, 16, 24 is 48 — the smallest number all three divide exactly. Add the remainder: 55."},
+{"t": "Find the greatest number that divides 245 and 1029 leaving remainder 5 each time.", "n": 16, "k": "math.gcd(240,1024)", "e": "Take the remainder away first: it must divide 240 and 1024 exactly. HCF(240, 1024) = 16."},
+{"t": "Find the LCM of 15, 20 and 30.", "n": 60, "k": "60", "e": "15 = 3 × 5, 20 = 2² × 5, 30 = 2 × 3 × 5. LCM = 2² × 3 × 5 = 60."},
+{"t": "A floor is 4 m 20 cm by 3 m 60 cm. What is the side of the largest square tile that covers it exactly (in cm)?", "n": 60, "u": "cm", "k": "math.gcd(420,360)", "e": "The tile’s side must divide both 420 cm and 360 cm. The largest such number is their HCF, 60."},
+{"t": "Find the smallest 4-digit number divisible by 18, 24 and 32.", "n": 1152, "k": "min(n for n in range(1000,2000) if n%18==0 and n%24==0 and n%32==0)", "e": "LCM = 288. Its multiples: 288, 576, 864, 1152 — the first with 4 digits."},
+{"t": "How many prime numbers are less than 50?", "n": 15, "k": "len([n for n in range(2,50) if all(n%d for d in range(2,n))])", "e": "2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47."},
+{"t": "43* is divisible by 6. What is the smallest digit that can replace *?", "n": 2, "k": "min(x for x in range(10) if (430+x)%6==0)", "e": "Divisible by 6 means divisible by 2 (even last digit) and by 3 (digit sum 7 + * a multiple of 3). * = 2 gives 432."}
+]},
+{"q": [
+{"t": "What is the least number that must be subtracted from 1000 to get a number divisible by 15, 18 and 24?", "n": 280, "k": "1000%360", "e": "LCM of 15, 18, 24 is 360. The largest multiple below 1000 is 720, so subtract 280."},
+{"t": "Find the largest 3-digit number exactly divisible by 6, 8 and 12.", "n": 984, "k": "max(n for n in range(100,1000) if n%24==0)", "e": "LCM = 24. 999 ÷ 24 leaves remainder 15, so 999 − 15 = 984."},
+{"t": "Two numbers are in the ratio 3 : 4 and their HCF is 5. Find their LCM.", "n": 60, "k": "15*20//5", "e": "The numbers are 3 × 5 = 15 and 4 × 5 = 20. LCM of 15 and 20 = 60."},
+{"t": "Three traffic lights change every 48, 72 and 108 seconds. They change together at 7:00:00. After how many seconds do they next change together?", "n": 432, "u": "seconds", "k": "min(n for n in range(1,2000) if n%48==0 and n%72==0 and n%108==0)", "e": "LCM of 48, 72, 108 = 432 seconds (7 minutes 12 seconds)."},
+{"t": "The product of two numbers is 2160 and their HCF is 12. Find their LCM.", "n": 180, "k": "F(2160,12)", "e": "HCF × LCM = product, so LCM = 2160 ÷ 12 = 180."},
+{"t": "What is the HCF of any two consecutive even numbers?", "n": 2, "k": "math.gcd(14,16)", "e": "Both are divisible by 2. They differ by only 2, so no bigger number can divide both."},
+{"t": "How many factors does 72 have?", "n": 12, "k": "len([d for d in range(1,73) if 72%d==0])", "e": "72 = 2³ × 3². A factor may use 0–3 twos (4 choices) and 0–2 threes (3 choices): 4 × 3 = 12."},
+{"t": "Find the least number which leaves remainders 4, 5 and 6 when divided by 6, 7 and 8.", "n": 166, "k": "min(n for n in range(1,1000) if n%6==4 and n%7==5 and n%8==6)", "e": "Each time the number is 2 short of a multiple (6 − 4 = 7 − 5 = 8 − 6 = 2). So it is LCM − 2 = 168 − 2 = 166."},
+{"t": "Find the sum of all the prime numbers between 1 and 20.", "n": 77, "k": "sum(n for n in range(2,20) if all(n%d for d in range(2,n)))", "e": "2 + 3 + 5 + 7 + 11 + 13 + 17 + 19 = 77."},
+{"t": "Find the greatest 4-digit number divisible by 12, 15 and 20.", "n": 9960, "k": "max(n for n in range(1000,10000) if n%60==0)", "e": "LCM = 60. 9999 ÷ 60 leaves remainder 39, so 9999 − 39 = 9960."}
+]}
+]
+}

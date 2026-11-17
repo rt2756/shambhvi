@@ -1,0 +1,53 @@
+{
+"title": "3. Whole Numbers",
+"tests": [
+{"q": [
+{"t": "What is the smallest whole number?", "n": 0, "e": "Whole numbers are the counting numbers together with 0: 0, 1, 2, 3 …"},
+{"t": "Find 25 + 0.", "n": 25, "e": "Adding nothing changes nothing. 0 is called the additive identity."},
+{"t": "Find 7 × 1.", "n": 7, "e": "One lot of 7 is 7. 1 is called the multiplicative identity."},
+{"t": "Find 15 × 0.", "n": 0, "e": "Zero lots of anything is nothing."},
+{"t": "What is the successor of 49?", "n": 50, "k": "49+1", "e": "The successor is the next number: add 1."},
+{"t": "a + b = b + a. This property is called:", "o": ["Commutative", "Associative", "Distributive", "Closure"], "e": "The numbers can swap places (commute) without changing the sum."},
+{"t": "Find 12 ÷ 1.", "n": 12, "e": "Sharing 12 among one person gives all 12 to that person."},
+{"t": "How many whole numbers lie between 3 and 8?", "n": 4, "k": "len(range(4,8))", "e": "4, 5, 6 and 7. ‘Between’ leaves out 3 and 8 themselves."},
+{"t": "Find 0 ÷ 5.", "n": 0, "e": "Nothing shared among 5 gives nothing each. (But 5 ÷ 0 has no answer.)"},
+{"t": "What is the smallest natural number?", "n": 1, "e": "Natural numbers are the counting numbers, which start at 1."}
+]},
+{"q": [
+{"t": "Find 125 × 8 × 7 in the easiest way.", "n": 7000, "k": "125*8*7", "e": "Group the friendly pair first: 125 × 8 = 1000, then × 7 = 7000. Regrouping is allowed (associative property)."},
+{"t": "Find 37 + 96 + 63 in the easiest way.", "n": 196, "k": "37+96+63", "e": "37 + 63 = 100, then + 96 = 196. The order of adding does not matter."},
+{"t": "Find 25 × 36 × 4.", "n": 3600, "k": "25*36*4", "e": "25 × 4 = 100, then 100 × 36 = 3600."},
+{"t": "Find 99 × 45 using the distributive property.", "n": 4455, "k": "99*45", "e": "99 = 100 − 1, so 100 × 45 − 1 × 45 = 4500 − 45 = 4455."},
+{"t": "What is 9 ÷ 0?", "o": ["Not defined", "0", "9", "1"], "e": "Division asks ‘what times 0 gives 9?’ — nothing does, because anything × 0 is 0."},
+{"t": "Find 8 × (10 + 5).", "n": 120, "k": "8*15", "e": "8 × 10 + 8 × 5 = 80 + 40 = 120. Multiplication spreads over addition."},
+{"t": "Find 786 × 3 + 786 × 7.", "n": 7860, "k": "786*3+786*7", "e": "Take out the common 786: 786 × (3 + 7) = 786 × 10."},
+{"t": "A number divided by 7 gives quotient 12 and remainder 5. Find the number.", "n": 89, "k": "7*12+5", "e": "Dividend = divisor × quotient + remainder = 7 × 12 + 5."},
+{"t": "Find 463 − 463.", "n": 0, "e": "Any number minus itself leaves nothing."},
+{"t": "(15 + 9) + 6 = 15 + (9 + 6). This property is called:", "o": ["Associative", "Commutative", "Distributive", "Identity"], "e": "The grouping (which two you add first) changes, but the sum does not."}
+]},
+{"q": [
+{"t": "Find 998 × 23 using the distributive property.", "n": 22954, "k": "998*23", "e": "(1000 − 2) × 23 = 23,000 − 46 = 22,954."},
+{"t": "Find 4 × 927 × 25.", "n": 92700, "k": "4*927*25", "e": "4 × 25 = 100, then 100 × 927 = 92,700."},
+{"t": "Find 15625 × 16.", "n": 250000, "k": "15625*16", "e": "15625 × 16 = 15625 × 8 × 2 = 1,25,000 × 2 = 2,50,000."},
+{"t": "Find the remainder when the greatest 4-digit number is divided by 35.", "n": 24, "k": "9999%35", "e": "9999 = 35 × 285 + 24."},
+{"t": "A number divided by 46 gives quotient 11 and remainder 15. Find the number.", "n": 521, "k": "46*11+15", "e": "46 × 11 + 15 = 506 + 15 = 521."},
+{"t": "Find 104 × 96.", "n": 9984, "k": "104*96", "e": "(100 + 4) × 96 = 9600 + 384 = 9984."},
+{"t": "Find 738 × 103.", "n": 76014, "k": "738*103", "e": "738 × 100 + 738 × 3 = 73,800 + 2,214 = 76,014."},
+{"t": "Find 81265 × 169 − 81265 × 69.", "n": 8126500, "k": "81265*169-81265*69", "e": "Take out the common number: 81265 × (169 − 69) = 81265 × 100."},
+{"t": "What is the least number that must be added to 1000 to make it divisible by 53?", "n": 7, "k": "(-1000)%53", "e": "1000 = 53 × 18 + 46. It is 46 past a multiple, so 53 − 46 = 7 more reaches the next one."},
+{"t": "Find 1 + 3 + 5 + 7 + 9 + 11.", "n": 36, "k": "sum(range(1,12,2))", "e": "The sum of the first n odd numbers is n × n. Here n = 6, so 36."}
+]},
+{"q": [
+{"t": "Find 9 + 99 + 999 + 9999.", "n": 11106, "k": "9+99+999+9999", "e": "Each is 1 less than a power of ten: (10 + 100 + 1000 + 10000) − 4 = 11,110 − 4."},
+{"t": "Find the largest 5-digit number that is divisible by 73.", "n": 99937, "k": "99999-99999%73", "e": "99,999 ÷ 73 leaves remainder 62. Take that away: 99,937."},
+{"t": "A number is divided by 16. The quotient is 21 and the remainder is the largest it can be. Find the number.", "n": 351, "k": "16*21+15", "e": "A remainder must be smaller than the divisor, so the largest is 15. 16 × 21 + 15 = 351."},
+{"t": "Given that 37 × 3 = 111, find 37 × 27.", "n": 999, "k": "37*27", "e": "27 = 3 × 9, so 37 × 27 = 111 × 9 = 999."},
+{"t": "Find (589 × 78) + (589 × 22) − 5890.", "n": 53010, "k": "589*78+589*22-5890", "e": "589 × (78 + 22) = 58,900. Then 58,900 − 5,890 = 53,010."},
+{"t": "What is the product of the first ten whole numbers?", "n": 0, "e": "The first whole number is 0, and anything multiplied by 0 is 0."},
+{"t": "A milkman sells 32 litres in the morning and 68 litres in the evening at ₹45 a litre. How much does he earn in a day (in ₹)?", "n": 4500, "u": "₹", "k": "(32+68)*45", "e": "Add first: 32 + 68 = 100 litres. 100 × 45 = 4500. (Distributive property in reverse.)"},
+{"t": "Find 1 + 2 + 3 + … + 50.", "n": 1275, "k": "sum(range(1,51))", "e": "Pair them: 1 + 50, 2 + 49 … each pair is 51, and there are 25 pairs. 25 × 51 = 1275."},
+{"t": "In a division sum the remainder is 48. The divisor is 5 times the remainder and 12 times the quotient. Find the dividend.", "n": 4848, "k": "240*20+48", "e": "Divisor = 5 × 48 = 240. Quotient = 240 ÷ 12 = 20. Dividend = 240 × 20 + 48 = 4848."},
+{"t": "What is the least number that must be subtracted from 5000 to make it divisible by 64?", "n": 8, "k": "5000%64", "e": "5000 = 64 × 78 + 8. Removing the remainder 8 leaves an exact multiple."}
+]}
+]
+}
