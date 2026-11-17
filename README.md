@@ -1,4 +1,4 @@
-# Learning Hub — Class 5–10
+# Learning Hub — Class 2–10
 
 CBSE / NCERT revision notes and practice questions, **bucketed by class (5–10)** for maths
 and science, plus class-free vocabulary and a to-do list. The **content lives in plain
@@ -37,7 +37,7 @@ Content is bucketed **by class** (5–10); vocabulary and the to-do list are cla
 | `content/class7/math-questions/*.md` · `science-questions/*.md` | Class 7 practice questions, same chapter numbering as its notes. |
 | `content/class7/saved/` · `content/class7/links/` | The tricky-questions notebook and the reference links. |
 | `content/vocab/` · `content/math-todo/` | Class-free: word power, and the tables/squares/cubes checklist. |
-| `index.html` | **Home** — the class picker (5–10) plus the class-free sections. |
+| `index.html` | **Home** — the class picker (2–10) plus the class-free sections. |
 | `class<N>-math.html` · `class<N>-science.html` | One page per class per subject. |
 | `class7-math-questions.html` · `class7-science-questions.html` · `class7-saved.html` · `class7-links.html` | The extra class-7 pages. |
 | `class7-tests.html` · `test.html` · `content/class7/tests/*.json` | **Chapter tests** — four self-marking tests per chapter (see *Chapter tests* below). |
@@ -157,12 +157,15 @@ How it is organised (the same three pieces for every class):
 | Runner | `test.html?c=<N>&f=<chapter>&t=<1–4>` | One shared page that runs any test. |
 | Data | `content/class<N>/tests/<n>.<chapter>.json` + `manifest.json` | One file per chapter, holding its four tests. |
 
-Classes 6, 7, 8, 9 and 10 have tests so far. Their chapter lists follow the usual **RS Aggarwal**
-order for that class (class 6: Number System … Bar Graph, 24 chapters; class 7: Integers …
-Probability, 23 chapters; class 8: Rational Numbers … Probability, 25 chapters; class 9: Number
-Systems … Probability, 19 chapters; class 10: Real Numbers … Volume and Surface Areas of Solids,
-19 chapters) — so the class-6, class-8, class-9 and class-10 tests do **not** match
-the NCERT chapter names used in those classes' notes. The questions are our own, written in that style — not copied.
+Every class from 2 to 10 has tests. Classes 2–5 follow the current **NCERT** books (class 2:
+*Joyful Mathematics*, 11 chapters; classes 3 and 4: *Maths Mela*, 14 chapters each; class 5:
+*Maths Mela*, 15 chapters). Classes 6–10 follow the usual **RS Aggarwal** order for that class
+(class 6: Number System … Bar Graph, 24 chapters; class 7: Integers … Probability, 23; class 8:
+Rational Numbers … Probability, 25; class 9: Number Systems … Probability, 19; class 10: Real
+Numbers … Volume and Surface Areas of Solids, 19) — so the class-6, 8, 9 and 10 tests do **not**
+match the NCERT chapter names used in those classes' notes. Classes 2–4 have tests only (no notes
+yet); their home cards open the tests page directly. The questions are our own, written in the
+style of the source — not copied.
 
 A question is multiple choice or a number answer:
 
