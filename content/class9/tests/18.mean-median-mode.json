@@ -1,0 +1,53 @@
+{
+"title": "18. Mean, Median and Mode of Ungrouped Data",
+"tests": [
+{"q": [
+{"t": "Find the mean of 4, 6, 8, 10 and 12.", "n": 8, "k": "F(4+6+8+10+12,5)", "e": "Sum 40 ÷ 5 values. The mean is the equal share."},
+{"t": "Find the median of 3, 7, 9, 12 and 15.", "n": 9, "e": "The middle value of the ordered data."},
+{"t": "Find the mode of 2, 3, 3, 4, 5, 3.", "n": 3, "e": "The value that occurs most often."},
+{"t": "Find the mean of the first five natural numbers.", "n": 3, "k": "F(15,5)", "e": "15 ÷ 5."},
+{"t": "Find the median of 2, 4, 6 and 8.", "n": 5, "k": "F(4+6,2)", "e": "With an even count, average the two middle values."},
+{"t": "The mean of 6 numbers is 7. Find their sum.", "n": 42, "k": "6*7", "e": "Sum = mean × number of values."},
+{"t": "The mean of a set of observations equals:", "o": ["Sum of observations ÷ number of observations", "The middle observation", "The most frequent observation", "Largest − smallest"], "e": "It shares the total equally."},
+{"t": "Find the median of 5, 1 and 9.", "n": 5, "e": "Arrange first: 1, 5, 9."},
+{"t": "The value that occurs most frequently in a data set is the:", "o": ["Mode", "Median", "Mean", "Range"], "e": "Mode means the most ‘fashionable’ value."},
+{"t": "Find the range of 12, 7, 19 and 4.", "n": 15, "k": "19-4", "e": "19 − 4."}
+]},
+{"q": [
+{"t": "Find the mean of the first ten natural numbers.", "n": 5.5, "k": "F(55,10)", "e": "55 ÷ 10."},
+{"t": "Find the mean of the first five prime numbers.", "n": 5.6, "k": "F(2+3+5+7+11,5)", "e": "2 + 3 + 5 + 7 + 11 = 28, and 28 ÷ 5."},
+{"t": "Find the median of 41, 43, 127, 99, 61, 92, 71, 58, 57.", "n": 61, "k": "sorted([41,43,127,99,61,92,71,58,57])[4]", "e": "In order: 41, 43, 57, 58, 61, 71, 92, 99, 127. The 5th of 9 is 61."},
+{"t": "The mean of 6, 8, x, 12 and 14 is 10. Find x.", "n": 10, "k": "50-6-8-12-14", "e": "The sum must be 50: x = 50 − 40."},
+{"t": "Find the mode of 14, 25, 14, 28, 18, 17, 18, 14, 23, 22, 14, 18.", "n": 14, "e": "14 occurs four times; 18 occurs three times."},
+{"t": "Values 1, 2 and 3 occur with frequencies 2, 3 and 5. Find the mean.", "n": 2.3, "k": "F(1*2+2*3+3*5,10)", "e": "(2 + 6 + 15) ÷ 10."},
+{"t": "The mean of 5 numbers is 20. If 4 is added to each number, find the new mean.", "n": 24, "k": "20+4", "e": "The total rises by 5 × 4, so the mean rises by 4."},
+{"t": "The mean of 5 numbers is 20. If each number is multiplied by 3, find the new mean.", "n": 60, "k": "20*3", "e": "The total is tripled, so the mean is tripled."},
+{"t": "Find the median of the first eight even natural numbers.", "n": 9, "k": "F(8+10,2)", "e": "2, 4, …, 16: the 4th and 5th are 8 and 10."},
+{"t": "For a data set, mean = 20 and median = 22. Using the empirical relation Mode = 3 Median − 2 Mean, find the mode.", "n": 26, "k": "3*22-2*20", "e": "66 − 40."}
+]},
+{"q": [
+{"t": "The mean of 20 observations is 15. One observation, 20, is replaced by 40. Find the new mean.", "n": 16, "k": "F(300-20+40,20)", "e": "The total rises by 20, so the mean rises by 20 ÷ 20 = 1."},
+{"t": "The mean of 25 observations was found to be 78.4. Later, one observation 96 was found to have been misread as 69. Find the correct mean.", "n": 79.48, "k": "F('78.4')+F(96-69,25)", "e": "The total was 27 too small. 27 ÷ 25 = 1.08, so the mean is 78.4 + 1.08."},
+{"t": "The mean of 11 results is 60. The mean of the first six is 58 and of the last six is 63. Find the sixth result.", "n": 66, "k": "6*58+6*63-11*60", "e": "348 + 378 counts the sixth twice; the true total is 660. 726 − 660."},
+{"t": "The data 24, 25, 26, x + 2, x + 3, 30, 31, 34 is in ascending order and its median is 27.5. Find x.", "n": 25, "k": "F(55-5,2)", "e": "Median = average of the 4th and 5th: (2x + 5) ÷ 2 = 27.5."},
+{"t": "The mean of x, x + 3, x + 6, x + 9 and x + 12 is 10. Find x.", "n": 4, "k": "10-6", "e": "The mean of equally spaced values is the middle one: x + 6 = 10."},
+{"t": "Values 5, 10, 15, 20 have frequencies 2, 5, p, 2 and the mean is 12.5. Find p.", "n": 5, "k": "[p for p in range(1,50) if F(10+50+15*p+40,9+p)==F(25,2)][0]", "e": "(100 + 15p) ÷ (9 + p) = 12.5 → 100 + 15p = 112.5 + 12.5p → p = 5."},
+{"t": "The average of five consecutive even numbers is 30. Find the smallest.", "n": 26, "k": "30-4", "e": "The middle one is 30: 26, 28, 30, 32, 34."},
+{"t": "The mean of 100 items is 50. Each item is doubled and then 5 is subtracted. Find the new mean.", "n": 95, "k": "2*50-5", "e": "The mean follows the same steps: 2 × 50 − 5."},
+{"t": "30 boys have mean mark 60 and 20 girls have mean mark 70. Find the mean mark of all 50.", "n": 64, "k": "F(30*60+20*70,50)", "e": "(1800 + 1400) ÷ 50."},
+{"t": "The mean of 5 numbers is 27. When one number is left out, the mean of the rest is 25. Find the number left out.", "n": 35, "k": "5*27-4*25", "e": "135 − 100."}
+]},
+{"q": [
+{"t": "The mean of 9 observations is 12. The first is increased by 1, the second by 2, and so on up to the ninth by 9. Find the new mean.", "n": 17, "k": "12+F(45,9)", "e": "The total rises by 1 + 2 + … + 9 = 45, so the mean rises by 5."},
+{"t": "The data 2, 4, x, 12, 14 is in ascending order and its mean equals its median. Find x.", "n": 8, "k": "F(32,4)", "e": "Median = x. Mean = (32 + x) ÷ 5 = x, so 4x = 32."},
+{"t": "The sum of the deviations of a set of values from 25 is 25, and from 35 is −25. How many values are there?", "n": 5, "k": "F(50,10)", "e": "Σx − 25n = 25 and Σx − 35n = −25. Subtracting: 10n = 50."},
+{"t": "The sum of the deviations of a set of values from 25 is 25, and from 35 is −25. Find their mean.", "n": 30, "k": "F(25+125,5)", "e": "n = 5 and Σx = 25 + 125 = 150, so the mean is 30."},
+{"t": "For a data set, mode = 50 and mean = 41. Using Mode = 3 Median − 2 Mean, find the median.", "n": 44, "k": "F(50+82,3)", "e": "3 × median = 50 + 82 = 132."},
+{"t": "The mean of 13 observations is 14. The mean of the first seven is 12 and of the last seven is 16. Find the seventh.", "n": 14, "k": "7*12+7*16-13*14", "e": "84 + 112 − 182."},
+{"t": "The mean of the first n natural numbers is 20. Find n.", "n": 39, "k": "2*20-1", "e": "The mean of 1 to n is (n + 1) ÷ 2 = 20."},
+{"t": "The sum of the deviations of all observations from their own mean is always:", "n": 0, "e": "Σ(x − mean) = Σx − n × mean = Σx − Σx."},
+{"t": "The mean of x and 1/x is M. The mean of x² and 1/x² is:", "o": ["2M² − 1", "M²", "2M²", "M² − 1"], "e": "x + 1/x = 2M. Squaring: x² + 2 + 1/x² = 4M², so (x² + 1/x²) ÷ 2 = 2M² − 1."},
+{"t": "A data set of 11 different values has median 40. The four largest values are each increased by 10. Find the new median.", "n": 40, "e": "The median is the 6th value. Only the 8th to 11th change, so the middle one is untouched."}
+]}
+]
+}

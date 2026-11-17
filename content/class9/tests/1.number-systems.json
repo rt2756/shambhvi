@@ -1,0 +1,53 @@
+{
+"title": "1. Number Systems",
+"tests": [
+{"q": [
+{"t": "Which of these is an irrational number?", "o": ["√2", "√4", "0.5", "3/7"], "e": "√2 = 1.41421… never ends and never repeats, so it cannot be written as p/q. √4 = 2 is rational."},
+{"t": "√9 is:", "o": ["A rational number", "An irrational number", "Not a real number", "Neither rational nor irrational"], "e": "√9 = 3 = 3/1. A root is irrational only when it does not come out exactly."},
+{"t": "The decimal expansion of 1/3 is:", "o": ["Non-terminating and repeating", "Terminating", "Non-terminating and non-repeating", "A whole number"], "e": "1/3 = 0.333… The 3 repeats for ever. Every rational number either terminates or repeats."},
+{"t": "Every rational number is:", "o": ["A real number", "A whole number", "An integer", "A natural number"], "e": "The real numbers are all the rationals and all the irrationals together."},
+{"t": "Find 2² × 2³.", "n": 32, "k": "2**5", "e": "Same base, so add the exponents: 2⁵ = 32."},
+{"t": "The number π is:", "o": ["Irrational", "Rational, equal to 22/7", "An integer", "A terminating decimal"], "e": "π = 3.14159… never ends or repeats. 22/7 is only a handy approximation."},
+{"t": "Write 0.25 in the form p/q in lowest terms.", "o": ["1/4", "25/10", "1/25", "2/5"], "k": "F('0.25')", "e": "0.25 = 25/100 = 1/4."},
+{"t": "Find √16 + √9.", "n": 7, "k": "4+3", "e": "4 + 3 = 7. (It is not √25 — roots cannot be added under one sign.)"},
+{"t": "Find 8^(1/3).", "n": 2, "k": "round(8**(1/3))", "e": "The power 1/3 means the cube root: 2 × 2 × 2 = 8."},
+{"t": "How many rational numbers lie between any two different rational numbers?", "o": ["Infinitely many", "None", "Exactly one", "Exactly ten"], "e": "Their average lies between them, and you can keep averaging again and again without end."}
+]},
+{"q": [
+{"t": "Write 0.333… (3 repeating) in the form p/q.", "o": ["1/3", "3/10", "33/100", "3/100"], "k": "F(1,3)", "e": "Let x = 0.333… Then 10x = 3.333…, so 9x = 3 and x = 1/3."},
+{"t": "Rationalise the denominator of 1/√2.", "o": ["√2/2", "2/√2", "√2", "1/2"], "e": "Multiply top and bottom by √2: √2/(√2 × √2) = √2/2. The value is unchanged because √2/√2 = 1."},
+{"t": "Find (√3)².", "n": 3, "e": "Squaring undoes the square root."},
+{"t": "Find √2 × √8.", "n": 4, "k": "16**F(1,2)", "e": "√a × √b = √(ab) = √16 = 4."},
+{"t": "Find 27^(2/3).", "n": 9, "k": "round(27**(1/3))**2", "e": "Cube root first (3), then square: 9."},
+{"t": "Simplify: 3√2 + 5√2", "o": ["8√2", "8√4", "15√2", "8"], "e": "They are like terms — 3 lots of √2 and 5 lots of √2 make 8 lots."},
+{"t": "Write 7/8 as a decimal.", "n": 0.875, "k": "F(7,8)", "e": "7 ÷ 8 = 0.875. It terminates because 8 = 2³ has no prime factor other than 2 or 5."},
+{"t": "Find (5 + √2)(5 − √2).", "n": 23, "k": "25-2", "e": "(a + b)(a − b) = a² − b² = 25 − 2. The roots cancel."},
+{"t": "Find 16^(3/4).", "n": 8, "k": "round(16**(1/4))**3", "e": "Fourth root of 16 is 2; 2³ = 8."},
+{"t": "Which of these is a rational number?", "o": ["(√5)²", "√5", "√5 + 1", "2√5"], "e": "(√5)² = 5. The others still contain √5, so they stay irrational."}
+]},
+{"q": [
+{"t": "Write 0.4777… (only the 7 repeating) in the form p/q.", "o": ["43/90", "47/99", "47/100", "43/99"], "k": "F(43,90)", "e": "Let x = 0.4777… Then 10x = 4.777… and 100x = 47.777… Subtract: 90x = 43."},
+{"t": "Rationalise: 1/(√3 − √2)", "o": ["√3 + √2", "√3 − √2", "(√3 + √2)/5", "1"], "e": "Multiply top and bottom by the conjugate √3 + √2. The bottom becomes 3 − 2 = 1."},
+{"t": "Expand: (√5 + √2)²", "o": ["7 + 2√10", "7", "7 + √10", "10 + 2√7"], "e": "a² + 2ab + b² = 5 + 2√10 + 2."},
+{"t": "Write 1.272727… (27 repeating) in the form p/q.", "o": ["14/11", "127/99", "27/99", "127/100"], "k": "F(14,11)", "e": "Let x = 1.2727… Then 100x = 127.2727…, so 99x = 126 and x = 126/99 = 14/11."},
+{"t": "Find (64/125)^(−2/3).", "o": ["25/16", "16/25", "−16/25", "125/64"], "k": "F(25,16)", "e": "The negative power flips the fraction: (125/64)^(2/3). Cube roots give 5/4, and squaring gives 25/16."},
+{"t": "Simplify: √45 − 3√20 + 4√5", "o": ["√5", "13√5", "−√5", "5√5"], "e": "√45 = 3√5 and √20 = 2√5. So 3√5 − 6√5 + 4√5 = √5."},
+{"t": "Rationalise: 1/(2 + √3)", "o": ["2 − √3", "2 + √3", "(2 − √3)/7", "√3 − 2"], "e": "Multiply by (2 − √3)/(2 − √3). The bottom is 4 − 3 = 1."},
+{"t": "Find 2^(2/3) × 2^(1/3).", "n": 2, "e": "Add the exponents: 2/3 + 1/3 = 1, so the answer is 2¹."},
+{"t": "Which of these rational numbers lies between √2 and √3?", "o": ["1.5", "1.2", "1.8", "2.1"], "e": "√2 ≈ 1.414 and √3 ≈ 1.732. Only 1.5 is between them."},
+{"t": "Find (81/16)^(−3/4).", "o": ["8/27", "27/8", "−27/8", "16/81"], "k": "F(8,27)", "e": "Flip: (16/81)^(3/4). Fourth roots give 2/3, and cubing gives 8/27."}
+]},
+{"q": [
+{"t": "If x = 3 + 2√2, find x + 1/x.", "n": 6, "e": "1/x = 1/(3 + 2√2) = 3 − 2√2 (the denominator becomes 9 − 8 = 1). Adding, the roots cancel: 6."},
+{"t": "If x = 2 + √3, find x² + 1/x².", "n": 14, "k": "4**2-2", "e": "1/x = 2 − √3, so x + 1/x = 4. Squaring: x² + 2 + 1/x² = 16."},
+{"t": "If (√5 − √3)/(√5 + √3) = a − b√15, find a + b.", "n": 5, "k": "4+1", "e": "Multiply top and bottom by (√5 − √3): (5 + 3 − 2√15)/(5 − 3) = 4 − √15. So a = 4 and b = 1."},
+{"t": "Write 0.2353535… (35 repeating) in the form p/q.", "o": ["233/990", "235/999", "235/990", "233/999"], "k": "F(233,990)", "e": "10x = 2.3535… and 1000x = 235.3535… Subtract: 990x = 233."},
+{"t": "Find [5 × (8^(1/3) + 27^(1/3))³]^(1/4).", "n": 5, "k": "round((5*(2+3)**3)**0.25)", "e": "2 + 3 = 5; 5³ = 125; 5 × 125 = 625; the fourth root of 625 is 5."},
+{"t": "Find 1/(1 + √2) + 1/(√2 + √3) + 1/(√3 + √4).", "n": 1, "e": "Rationalising each gives (√2 − 1) + (√3 − √2) + (√4 − √3). The middle terms cancel, leaving √4 − 1 = 1."},
+{"t": "Find √(3 + 2√2).", "o": ["1 + √2", "√3 + √2", "3 + √2", "1 + 2√2"], "e": "(1 + √2)² = 1 + 2√2 + 2 = 3 + 2√2, so the square root is 1 + √2."},
+{"t": "If 2ˣ = 3ʸ = 6⁻ᶻ, find 1/x + 1/y + 1/z.", "n": 0, "e": "Let each equal k. Then 2 = k^(1/x), 3 = k^(1/y) and 6 = k^(−1/z). Since 2 × 3 = 6, 1/x + 1/y = −1/z."},
+{"t": "Simplify: (xᵃ/xᵇ)^(a+b) × (xᵇ/xᶜ)^(b+c) × (xᶜ/xᵃ)^(c+a)", "n": 1, "e": "The exponents are (a² − b²) + (b² − c²) + (c² − a²) = 0, and x⁰ = 1."},
+{"t": "Find 0.333… + 0.444… as a fraction.", "o": ["7/9", "7/10", "77/100", "7/90"], "k": "F(1,3)+F(4,9)", "e": "1/3 + 4/9 = 3/9 + 4/9 = 7/9 (which is 0.777…)."}
+]}
+]
+}

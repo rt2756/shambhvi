@@ -1,0 +1,53 @@
+{
+"title": "10. Quadrilaterals",
+"tests": [
+{"q": [
+{"t": "The angles of a quadrilateral add up to:", "n": 360, "u": "°", "k": "2*180", "e": "A diagonal divides it into two triangles."},
+{"t": "In a parallelogram, opposite sides are:", "o": ["Equal and parallel", "Unequal", "Perpendicular", "Equal but not parallel"], "e": "A diagonal makes two congruent triangles (ASA)."},
+{"t": "The diagonals of a parallelogram:", "o": ["Bisect each other", "Are always equal", "Are always perpendicular", "Are parallel"], "e": "The triangles formed at the crossing point are congruent in pairs."},
+{"t": "The diagonals of a rectangle are:", "o": ["Equal", "Perpendicular", "Unequal", "Parallel"], "e": "Each is the hypotenuse of a right triangle on the same two sides."},
+{"t": "The diagonals of a rhombus bisect each other at:", "n": 90, "u": "°", "e": "All sides are equal, so each diagonal is the perpendicular bisector of the other."},
+{"t": "A parallelogram with all sides equal and all angles 90° is a:", "o": ["Square", "Rhombus only", "Rectangle only", "Trapezium"], "e": "It is both a rhombus and a rectangle."},
+{"t": "In parallelogram ABCD, ∠A = 80°. Find ∠C (in degrees).", "n": 80, "u": "°", "e": "Opposite angles are equal."},
+{"t": "In parallelogram ABCD, ∠A = 80°. Find ∠B (in degrees).", "n": 100, "u": "°", "k": "180-80", "e": "Adjacent angles are supplementary."},
+{"t": "The line segment joining the midpoints of two sides of a triangle is:", "o": ["Parallel to the third side and half of it", "Equal to the third side", "Perpendicular to the third side", "Twice the third side"], "e": "This is the midpoint theorem."},
+{"t": "Three angles of a quadrilateral are 70°, 90° and 110°. Find the fourth (in degrees).", "n": 90, "u": "°", "k": "360-270", "e": "360 − 270."}
+]},
+{"q": [
+{"t": "The angles of a quadrilateral are in the ratio 2 : 3 : 4 : 6. Find the largest (in degrees).", "n": 144, "u": "°", "k": "F(360,15)*6", "e": "15 parts of 24°."},
+{"t": "Adjacent angles of a parallelogram are (3x − 20)° and (x + 40)°. Find the larger angle (in degrees).", "n": 100, "u": "°", "k": "3*40-20", "e": "4x + 20 = 180, so x = 40. Angles 100° and 80°."},
+{"t": "In △ABC, D and E are the midpoints of AB and AC. BC = 12 cm. Find DE (in cm).", "n": 6, "u": "cm", "k": "F(12,2)", "e": "Midpoint theorem: DE = ½ BC."},
+{"t": "The diagonals of a rhombus are 16 cm and 12 cm. Find its side (in cm).", "n": 10, "u": "cm", "k": "(64+36)**F(1,2)", "e": "Half-diagonals 8 and 6 at right angles."},
+{"t": "A rectangle has diagonal 13 cm and one side 5 cm. Find the other side (in cm).", "n": 12, "u": "cm", "k": "(169-25)**F(1,2)", "e": "13² − 5² = 144."},
+{"t": "A parallelogram has perimeter 50 cm and adjacent sides in the ratio 3 : 2. Find the longer side (in cm).", "n": 15, "u": "cm", "k": "F(25,5)*3", "e": "Adjacent sides total 25 cm."},
+{"t": "The quadrilateral formed by joining the midpoints of the sides of ANY quadrilateral is a:", "o": ["Parallelogram", "Rectangle", "Rhombus", "Square"], "e": "Each pair of opposite sides is parallel to (and half of) the same diagonal."},
+{"t": "The bisectors of the angles of a parallelogram enclose a:", "o": ["Rectangle", "Rhombus", "Kite", "Trapezium"], "e": "Bisectors of adjacent (supplementary) angles meet at 90°."},
+{"t": "In parallelogram ABCD, ∠A : ∠B = 2 : 7. Find ∠A (in degrees).", "n": 40, "u": "°", "k": "F(180,9)*2", "e": "∠A + ∠B = 180°: 9 parts of 20°."},
+{"t": "A quadrilateral whose diagonals bisect each other is a:", "o": ["Parallelogram", "Trapezium", "Kite", "Cyclic quadrilateral"], "e": "The triangles at the crossing are congruent (SAS), giving equal alternate angles and so parallel sides."}
+]},
+{"q": [
+{"t": "The midpoints of the sides of a rectangle are joined in order. The figure formed is a:", "o": ["Rhombus", "Rectangle", "Square", "Trapezium"], "e": "Each new side is half a diagonal, and a rectangle’s diagonals are equal — so all four sides are equal."},
+{"t": "The midpoints of the sides of a rhombus are joined in order. The figure formed is a:", "o": ["Rectangle", "Rhombus", "Kite", "Trapezium"], "e": "The new sides are parallel to the diagonals, which are perpendicular — so the angles are 90°."},
+{"t": "A triangle has perimeter 30 cm. Find the perimeter of the triangle formed by joining the midpoints of its sides (in cm).", "n": 15, "u": "cm", "k": "F(30,2)", "e": "Each new side is half of a side of the original."},
+{"t": "The parallel sides of a trapezium are 10 cm and 16 cm. Find the length of the segment joining the midpoints of the non-parallel sides (in cm).", "n": 13, "u": "cm", "k": "F(10+16,2)", "e": "It is the average of the parallel sides."},
+{"t": "In parallelogram ABCD, diagonal AC bisects ∠A. Then ABCD is a:", "o": ["Rhombus", "Rectangle", "Trapezium", "Kite only"], "e": "∠BAC = ∠DAC = ∠BCA (alternate), so AB = BC. Adjacent sides equal makes a rhombus."},
+{"t": "In rhombus ABCD, ∠ABC = 70°. Find ∠ACB (in degrees).", "n": 55, "u": "°", "k": "F(180-70,2)", "e": "BA = BC, so △ABC is isosceles: (180 − 70) ÷ 2."},
+{"t": "The diagonals of rectangle ABCD meet at O and ∠AOD = 120°. Find ∠OAB (in degrees).", "n": 60, "u": "°", "k": "F(180-60,2)", "e": "∠AOB = 60° and OA = OB, so △OAB has base angles (180 − 60) ÷ 2 = 60°."},
+{"t": "△ABC is right-angled at B and D is the midpoint of the hypotenuse AC = 10 cm. Find BD (in cm).", "n": 5, "u": "cm", "k": "F(10,2)", "e": "The midpoint of the hypotenuse is equally far from all three vertices."},
+{"t": "A triangle has area 48 cm². Find the area of the triangle formed by joining the midpoints of its sides (in cm²).", "n": 12, "u": "cm²", "k": "F(48,4)", "e": "The midpoints divide it into 4 congruent triangles."},
+{"t": "In parallelogram ABCD, AB = 10 cm and AD = 6 cm. The bisector of ∠A meets DC at E. Find EC (in cm).", "n": 4, "u": "cm", "k": "10-6", "e": "∠DEA = ∠EAB (alternate) = ∠DAE, so DE = AD = 6. EC = 10 − 6."}
+]},
+{"q": [
+{"t": "In parallelogram ABCD, E and F are the midpoints of AB and CD. Then AECF is a:", "o": ["Parallelogram", "Rhombus always", "Rectangle always", "Trapezium only"], "e": "AE and CF are equal (half of equal sides) and parallel — one pair of opposite sides equal and parallel is enough."},
+{"t": "D, E, F are the midpoints of the sides of △ABC and △DEF has perimeter 18 cm. Find the perimeter of △ABC (in cm).", "n": 36, "u": "cm", "k": "2*18", "e": "Each side of △ABC is twice the matching side of △DEF."},
+{"t": "In trapezium ABCD, AB ∥ DC, AB = 14 cm and DC = 8 cm. E is the midpoint of AD and EF ∥ AB meets BC at F. Find EF (in cm).", "n": 11, "u": "cm", "k": "F(14+8,2)", "e": "F is the midpoint of BC, and EF is the average of the parallel sides."},
+{"t": "ABCD is a square and ABE is an equilateral triangle drawn INSIDE it. Find ∠DEC (in degrees).", "n": 150, "u": "°", "k": "180-2*15", "e": "AE = AD and ∠DAE = 30°, so ∠ADE = 75° and ∠EDC = 15°. Likewise ∠ECD = 15°. ∠DEC = 150°."},
+{"t": "A diagonal of a rectangle makes 25° with one side. Find the acute angle between the diagonals (in degrees).", "n": 50, "u": "°", "k": "2*25", "e": "The half-diagonals are equal, forming an isosceles triangle with base angles 25°. Its exterior angle at the crossing is 50°."},
+{"t": "The midpoints of the sides of a kite are joined in order. The figure formed is a:", "o": ["Rectangle", "Rhombus", "Square always", "Kite"], "e": "The new sides are parallel to the kite’s diagonals, which are perpendicular."},
+{"t": "A quadrilateral has diagonals that are equal and bisect each other. It must be a:", "o": ["Rectangle", "Rhombus", "Kite", "Trapezium"], "e": "Bisecting makes it a parallelogram; equal diagonals make it a rectangle."},
+{"t": "ABCD is a rhombus with ∠A = 60° and side 6 cm. Find the shorter diagonal (in cm).", "n": 6, "u": "cm", "e": "△ABD has AB = AD and ∠A = 60°, so it is equilateral: BD = 6."},
+{"t": "In △ABC, D is the midpoint of AB. A line through D parallel to BC meets AC at E. If AC = 9 cm, find AE (in cm).", "n": 4.5, "u": "cm", "k": "F(9,2)", "e": "Converse of the midpoint theorem: the line bisects the third side."},
+{"t": "In parallelogram ABCD, ∠A = (4x + 13)° and ∠D = (5x − 22)°. Find ∠B (in degrees).", "n": 83, "u": "°", "k": "5*21-22", "e": "∠A and ∠D are adjacent: 9x − 9 = 180, x = 21. ∠D = 83°, and ∠B is opposite ∠D."}
+]}
+]
+}

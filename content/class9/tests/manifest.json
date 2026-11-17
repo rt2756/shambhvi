@@ -1,0 +1,21 @@
+[
+  "1.number-systems.json",
+  "2.polynomials.json",
+  "3.factorisation-of-polynomials.json",
+  "4.linear-equations-in-two-variables.json",
+  "5.coordinate-geometry.json",
+  "6.introduction-to-euclids-geometry.json",
+  "7.lines-and-angles.json",
+  "8.triangles.json",
+  "9.congruence-and-inequalities.json",
+  "10.quadrilaterals.json",
+  "11.areas-of-parallelograms-and-triangles.json",
+  "12.circles.json",
+  "13.geometrical-constructions.json",
+  "14.herons-formula.json",
+  "15.volume-and-surface-area.json",
+  "16.presentation-of-data.json",
+  "17.bar-graph-histogram-frequency-polygon.json",
+  "18.mean-median-mode.json",
+  "19.probability.json"
+]

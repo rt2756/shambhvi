@@ -1,0 +1,53 @@
+{
+"title": "8. Triangles",
+"tests": [
+{"q": [
+{"t": "The angles of a triangle add up to:", "n": 180, "u": "°", "e": "A line through one vertex parallel to the opposite side shows the three angles lying on a straight line."},
+{"t": "Two angles of a triangle are 60° and 80°. Find the third (in degrees).", "n": 40, "u": "°", "k": "180-60-80", "e": "180 − 140."},
+{"t": "An exterior angle of a triangle equals:", "o": ["The sum of the two interior opposite angles", "The adjacent interior angle", "Half the opposite angle", "180°"], "e": "Exterior + adjacent interior = 180° = sum of all three interior angles."},
+{"t": "Each angle of an equilateral triangle is:", "n": 60, "u": "°", "k": "F(180,3)", "e": "Three equal angles share 180°."},
+{"t": "In a right-angled triangle, the two acute angles add up to:", "n": 90, "u": "°", "k": "180-90", "e": "The right angle uses 90° of the 180°."},
+{"t": "In an isosceles triangle, the angles opposite the equal sides are:", "o": ["Equal", "Supplementary", "Complementary", "Right angles"], "e": "The triangle is symmetric about its axis."},
+{"t": "An exterior angle of a triangle is 110° and one interior opposite angle is 50°. Find the other (in degrees).", "n": 60, "u": "°", "k": "110-50", "e": "110 − 50."},
+{"t": "Can all three angles of a triangle be less than 60°?", "o": ["No — the sum would be less than 180°", "Yes, in an acute triangle", "Yes, in a scalene triangle", "Only in a small triangle"], "e": "Three angles below 60° cannot reach 180°."},
+{"t": "The angles of a triangle are x°, x° and 2x°. Find the largest (in degrees).", "n": 90, "u": "°", "k": "F(180,4)*2", "e": "4x = 180, x = 45."},
+{"t": "A triangle can have at most how many obtuse angles?", "n": 1, "e": "Two obtuse angles would already exceed 180°."}
+]},
+{"q": [
+{"t": "The angles of a triangle are in the ratio 3 : 4 : 5. Find the largest (in degrees).", "n": 75, "u": "°", "k": "F(180,12)*5", "e": "12 parts of 15°."},
+{"t": "An exterior angle of a triangle is 125° and the interior opposite angles are in the ratio 2 : 3. Find the larger of them (in degrees).", "n": 75, "u": "°", "k": "F(125,5)*3", "e": "They add to 125°: 5 parts of 25°."},
+{"t": "In △ABC, ∠A + ∠B = 125° and ∠A + ∠C = 113°. Find ∠A (in degrees).", "n": 58, "u": "°", "k": "125+113-180", "e": "Adding: 2∠A + ∠B + ∠C = 238, and ∠A + ∠B + ∠C = 180. Subtract: ∠A = 58°."},
+{"t": "The angles of a triangle are (x − 40)°, (x − 20)° and (x/2 − 10)°. Find the largest angle (in degrees).", "n": 80, "u": "°", "k": "100-20", "e": "2.5x − 70 = 180, so x = 100. Angles: 60°, 80°, 40°."},
+{"t": "The vertex angle of an isosceles triangle is 80°. Find each base angle (in degrees).", "n": 50, "u": "°", "k": "F(180-80,2)", "e": "The other two share 100° equally."},
+{"t": "The three exterior angles of a triangle (one at each vertex) add up to:", "n": 360, "u": "°", "k": "3*180-180", "e": "Three linear pairs total 540°; removing the interior 180° leaves 360°."},
+{"t": "In a right-angled triangle one acute angle is twice the other. Find the smaller (in degrees).", "n": 30, "u": "°", "k": "F(90,3)", "e": "x + 2x = 90."},
+{"t": "In △ABC, ∠A = 60°. The bisectors of ∠B and ∠C meet at O. Find ∠BOC (in degrees).", "n": 120, "u": "°", "k": "90+F(60,2)", "e": "∠BOC = 90° + ½∠A, because the halves of ∠B and ∠C add to ½(180 − 60) = 60°."},
+{"t": "Find each exterior angle of an equilateral triangle (in degrees).", "n": 120, "u": "°", "k": "180-60", "e": "180 − 60."},
+{"t": "In a triangle, one angle is 90° and another is 37°. Find the third (in degrees).", "n": 53, "u": "°", "k": "90-37", "e": "The two acute angles add to 90°."}
+]},
+{"q": [
+{"t": "In △ABC, ∠A − ∠B = 15° and ∠B − ∠C = 30°. Find ∠A (in degrees).", "n": 80, "u": "°", "k": "65+15", "e": "A = B + 15 and C = B − 30: 3B − 15 = 180, so B = 65° and A = 80°."},
+{"t": "In △ABC, ∠A = 70°. The bisectors of the EXTERIOR angles at B and C meet at O. Find ∠BOC (in degrees).", "n": 55, "u": "°", "k": "90-F(70,2)", "e": "For external bisectors, ∠BOC = 90° − ½∠A."},
+{"t": "In △ABC, ∠A = 2∠B = 6∠C. Find ∠A (in degrees).", "n": 108, "u": "°", "k": "F(180,10)*6", "e": "∠A = 6C and ∠B = 3C, so 10C = 180 and C = 18°."},
+{"t": "In △ABC, ∠B = 60° and ∠C = 40°. AD is the altitude and AE the bisector of ∠A. Find ∠DAE (in degrees).", "n": 10, "u": "°", "k": "F(60-40,2)", "e": "∠A = 80°, so ∠BAE = 40°. In right △ABD, ∠BAD = 30°. The difference is 10° — always ½(∠B − ∠C)."},
+{"t": "Two angles of a triangle add up to 116° and differ by 24°. Find the smallest angle of the triangle (in degrees).", "n": 46, "u": "°", "k": "F(116-24,2)", "e": "The two are 70° and 46°; the third is 64°."},
+{"t": "In △ABC the exterior angle at C is 130° and ∠A = ∠B. Find ∠A (in degrees).", "n": 65, "u": "°", "k": "F(130,2)", "e": "∠A + ∠B = 130°."},
+{"t": "The angles of a triangle are three consecutive even numbers of degrees. Find the largest (in degrees).", "n": 62, "u": "°", "k": "F(180,3)+2", "e": "The middle one is 180 ÷ 3 = 60: the angles are 58°, 60°, 62°."},
+{"t": "One angle of a triangle equals the sum of the other two. The triangle is:", "o": ["Right-angled", "Equilateral", "Obtuse-angled", "Acute-angled"], "e": "That angle is half of 180°."},
+{"t": "In △ABC, ∠A = 50° and the exterior angle at B is 115°. Find ∠C (in degrees).", "n": 65, "u": "°", "k": "115-50", "e": "Exterior angle at B = ∠A + ∠C."},
+{"t": "In △ABC, ∠B = 45° and ∠C = 55°. The bisector of ∠A meets BC at D. Find ∠ADC (in degrees).", "n": 85, "u": "°", "k": "45+40", "e": "∠A = 80°, so ∠BAD = 40°. ∠ADC is an exterior angle of △ABD: 45 + 40."}
+]},
+{"q": [
+{"t": "Find the sum of the angles at the five points of a five-pointed star (in degrees).", "n": 180, "u": "°", "e": "Using exterior angles, the five tip angles fit into one triangle’s angle sum: 180°."},
+{"t": "In △ABC, AD bisects ∠A and is also perpendicular to BC. ∠A = 100°. Find ∠B (in degrees).", "n": 40, "u": "°", "k": "90-50", "e": "In right △ABD: ∠BAD = 50°, so ∠B = 40°."},
+{"t": "D is a point on side BC of △ABC with AD = BD = CD. Find ∠BAC (in degrees).", "n": 90, "u": "°", "e": "∠BAD = ∠B and ∠CAD = ∠C (isosceles triangles). So ∠A = ∠B + ∠C, which makes ∠A = 90°."},
+{"t": "In △ABC, AB = AC. D is a point on AC with BD = BC = AD. Find ∠A (in degrees).", "n": 36, "u": "°", "k": "F(180,5)", "e": "Let ∠A = x. Then ∠ABD = x, ∠BDC = 2x = ∠C = ∠B. So x + 2x + 2x = 180."},
+{"t": "Side BC of △ABC is produced both ways. The exterior angles at B and C are 110° and 125°. Find ∠A (in degrees).", "n": 55, "u": "°", "k": "180-70-55", "e": "Interior angles: ∠B = 70° and ∠C = 55°."},
+{"t": "In △ABC, ∠A = 70°. The bisector of ∠B and the bisector of the EXTERIOR angle at C meet at D. Find ∠BDC (in degrees).", "n": 35, "u": "°", "k": "F(70,2)", "e": "Half the exterior angle at C = ½(∠A + ∠B). Subtracting ½∠B leaves ½∠A."},
+{"t": "The angles of a triangle are (5x − 60)°, (2x + 40)° and (3x − 80)°. Find the largest angle (in degrees).", "n": 96, "u": "°", "k": "2*28+40", "e": "10x − 100 = 180, so x = 28. Angles: 80°, 96°, 4°."},
+{"t": "One angle of a triangle is 130°. Find the angle between the bisectors of the other two angles (in degrees).", "n": 155, "u": "°", "k": "90+F(130,2)", "e": "90° + ½ × 130°."},
+{"t": "The exterior angles of a triangle are in the ratio 2 : 3 : 4. Find its smallest INTERIOR angle (in degrees).", "n": 20, "u": "°", "k": "180-F(360,9)*4", "e": "Exterior angles: 80°, 120°, 160°. The largest exterior angle goes with the smallest interior: 20°."},
+{"t": "In △ABC, ∠A = 72° and ∠B = 2∠C. Find ∠B (in degrees).", "n": 72, "u": "°", "k": "F(108,3)*2", "e": "∠B + ∠C = 108° with ∠B = 2∠C: 3∠C = 108, so ∠C = 36° and ∠B = 72°."}
+]}
+]
+}

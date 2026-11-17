@@ -1,0 +1,53 @@
+{
+"title": "14. Areas of Triangles and Quadrilaterals (Heron’s Formula)",
+"tests": [
+{"q": [
+{"t": "For a triangle with sides a, b, c, the semi-perimeter s is:", "o": ["(a + b + c)/2", "a + b + c", "(a + b + c)/3", "abc/2"], "e": "‘Semi’ means half: half of the perimeter."},
+{"t": "Find the semi-perimeter of a triangle with sides 3 cm, 4 cm and 5 cm (in cm).", "n": 6, "u": "cm", "k": "F(3+4+5,2)", "e": "(3 + 4 + 5) ÷ 2."},
+{"t": "Heron’s formula for the area of a triangle is:", "o": ["√(s(s − a)(s − b)(s − c))", "s(s − a)(s − b)(s − c)", "½ × s × a", "√(abc)"], "e": "It gives the area from the three sides alone — no height needed."},
+{"t": "Find the area of a triangle with sides 3 cm, 4 cm and 5 cm (in cm²).", "n": 6, "u": "cm²", "k": "(6*3*2*1)**F(1,2)", "e": "s = 6: √(6 × 3 × 2 × 1) = √36. (It is right-angled: ½ × 3 × 4.)"},
+{"t": "Find the area of a triangle with base 10 cm and height 4 cm (in cm²).", "n": 20, "u": "cm²", "k": "F(1,2)*10*4", "e": "½ × base × height."},
+{"t": "A triangle has perimeter 24 cm. Find its semi-perimeter (in cm).", "n": 12, "u": "cm", "k": "F(24,2)", "e": "Half of 24."},
+{"t": "Find the area of a triangle with sides 6 cm, 8 cm and 10 cm (in cm²).", "n": 24, "u": "cm²", "k": "(12*6*4*2)**F(1,2)", "e": "s = 12: √(12 × 6 × 4 × 2) = √576 = 24."},
+{"t": "Find the area of a right-angled triangle with legs 5 cm and 12 cm (in cm²).", "n": 30, "u": "cm²", "k": "F(1,2)*5*12", "e": "The legs are base and height."},
+{"t": "Find the semi-perimeter of a triangle with sides 7 cm, 8 cm and 9 cm (in cm).", "n": 12, "u": "cm", "k": "F(7+8+9,2)", "e": "24 ÷ 2."},
+{"t": "The area of an equilateral triangle of side a is:", "o": ["(√3/4)a²", "½a²", "√3 a²", "a²/3"], "e": "Its height is (√3/2)a, so the area is ½ × a × (√3/2)a."}
+]},
+{"q": [
+{"t": "Find the area of a triangle with sides 13 cm, 14 cm and 15 cm (in cm²).", "n": 84, "u": "cm²", "k": "(21*8*7*6)**F(1,2)", "e": "s = 21: √(21 × 8 × 7 × 6) = √7056 = 84."},
+{"t": "Find the area of a triangle with sides 5 cm, 5 cm and 6 cm (in cm²).", "n": 12, "u": "cm²", "k": "(8*3*3*2)**F(1,2)", "e": "s = 8: √(8 × 3 × 3 × 2) = √144."},
+{"t": "Find the area of a triangle with sides 9 cm, 10 cm and 17 cm (in cm²).", "n": 36, "u": "cm²", "k": "(18*9*8*1)**F(1,2)", "e": "s = 18: √(18 × 9 × 8 × 1) = √1296."},
+{"t": "A triangle has perimeter 40 cm and two sides 8 cm and 15 cm. Find its area (in cm²).", "n": 60, "u": "cm²", "k": "(20*12*5*3)**F(1,2)", "e": "Third side = 17. s = 20: √(20 × 12 × 5 × 3) = √3600."},
+{"t": "Find the area of a triangle with sides 7 cm, 24 cm and 25 cm (in cm²).", "n": 84, "u": "cm²", "k": "(28*21*4*3)**F(1,2)", "e": "s = 28: √(28 × 21 × 4 × 3) = √7056. (Right-angled: ½ × 7 × 24.)"},
+{"t": "Find the area of an equilateral triangle of side 4 cm.", "o": ["4√3 cm²", "8√3 cm²", "16√3 cm²", "2√3 cm²"], "e": "(√3/4) × 4² = 4√3."},
+{"t": "Find the area of a triangle with sides 10 cm, 10 cm and 12 cm (in cm²).", "n": 48, "u": "cm²", "k": "(16*6*6*4)**F(1,2)", "e": "s = 16: √(16 × 6 × 6 × 4) = √2304."},
+{"t": "Find the area of a triangle with sides 15 cm, 20 cm and 25 cm (in cm²).", "n": 150, "u": "cm²", "k": "(30*15*10*5)**F(1,2)", "e": "s = 30: √(30 × 15 × 10 × 5) = √22500."},
+{"t": "Find the area of a triangle with sides 6 cm, 25 cm and 29 cm (in cm²).", "n": 60, "u": "cm²", "k": "(30*24*5*1)**F(1,2)", "e": "s = 30: √(30 × 24 × 5 × 1) = √3600."},
+{"t": "A triangle has sides 13 cm, 14 cm and 15 cm. Find its altitude to the 14 cm side (in cm).", "n": 12, "u": "cm", "k": "F(2*84,14)", "e": "Area = 84. ½ × 14 × h = 84."}
+]},
+{"q": [
+{"t": "The sides of a triangle are in the ratio 3 : 4 : 5 and its perimeter is 60 cm. Find its area (in cm²).", "n": 150, "u": "cm²", "k": "F(1,2)*15*20", "e": "Sides 15, 20, 25 — a right-angled triangle: ½ × 15 × 20."},
+{"t": "The sides of a triangle are in the ratio 12 : 17 : 25 and its perimeter is 540 cm. Find its area (in cm²).", "n": 9000, "u": "cm²", "k": "(270*150*100*20)**F(1,2)", "e": "Sides 120, 170, 250. s = 270: √(270 × 150 × 100 × 20) = 9000."},
+{"t": "A triangular park has sides 40 m, 24 m and 32 m. Find its area (in m²).", "n": 384, "u": "m²", "k": "F(1,2)*24*32", "e": "24² + 32² = 40², so it is right-angled: ½ × 24 × 32."},
+{"t": "Find the area of an isosceles triangle with equal sides 13 cm and base 10 cm (in cm²).", "n": 60, "u": "cm²", "k": "(18*5*5*8)**F(1,2)", "e": "s = 18: √(18 × 5 × 5 × 8) = √3600."},
+{"t": "Quadrilateral ABCD has AB = 9 cm, BC = 12 cm, CD = 8 cm, DA = 17 cm and diagonal AC = 15 cm. Find its area (in cm²).", "n": 114, "u": "cm²", "k": "F(1,2)*9*12+F(1,2)*8*15", "e": "△ABC (9, 12, 15) is right-angled: 54. △ACD (15, 8, 17) is right-angled: 60."},
+{"t": "A rhombus has side 10 cm and one diagonal 12 cm. Find its area (in cm²).", "n": 96, "u": "cm²", "k": "2*(16*6*6*4)**F(1,2)", "e": "The diagonal cuts it into two triangles with sides 10, 10, 12, each of area 48."},
+{"t": "A triangle has sides 9 cm, 10 cm and 17 cm. Find its longest altitude (in cm).", "n": 8, "u": "cm", "k": "F(2*36,9)", "e": "Area = 36. The longest altitude falls on the shortest side: 2 × 36 ÷ 9."},
+{"t": "Find the area of a triangle with sides 20 cm, 21 cm and 29 cm (in cm²).", "n": 210, "u": "cm²", "k": "F(1,2)*20*21", "e": "400 + 441 = 841 = 29², so it is right-angled."},
+{"t": "An equilateral triangle has area 16√3 cm². Find its side (in cm).", "n": 8, "u": "cm", "k": "64**F(1,2)", "e": "(√3/4)a² = 16√3 gives a² = 64."},
+{"t": "A parallelogram has sides 13 cm and 14 cm and one diagonal 15 cm. Find its area (in cm²).", "n": 168, "u": "cm²", "k": "2*84", "e": "The diagonal splits it into two triangles with sides 13, 14, 15, each of area 84."}
+]},
+{"q": [
+{"t": "Find the area of a triangle with sides 51 cm, 37 cm and 20 cm (in cm²).", "n": 306, "u": "cm²", "k": "(54*3*17*34)**F(1,2)", "e": "s = 54: √(54 × 3 × 17 × 34) = √93636 = 306."},
+{"t": "A triangle has sides 51 cm, 37 cm and 20 cm. Find its altitude to the longest side (in cm).", "n": 12, "u": "cm", "k": "F(2*306,51)", "e": "Area = 306. 2 × 306 ÷ 51."},
+{"t": "Find the area of a triangle with sides 26 cm, 28 cm and 30 cm (in cm²).", "n": 336, "u": "cm²", "k": "(42*16*14*12)**F(1,2)", "e": "These are double 13, 14, 15, so the area is 4 × 84."},
+{"t": "A trapezium has parallel sides 25 cm and 10 cm and non-parallel sides 14 cm and 13 cm. Find its area (in cm²).", "n": 196, "u": "cm²", "k": "F(1,2)*(25+10)*F(2*84,15)", "e": "Cut off a parallelogram to leave a triangle with sides 15, 14, 13 (area 84). Its height on 15 is 11.2 cm. Area = ½ × 35 × 11.2."},
+{"t": "A rhombus has perimeter 80 cm and one diagonal 24 cm. Find its area (in cm²).", "n": 384, "u": "cm²", "k": "F(1,2)*24*32", "e": "Side 20, half-diagonal 12, so the other half is 16 and that diagonal 32. ½ × 24 × 32."},
+{"t": "Each side of a triangle is doubled. By what percent does its area increase?", "n": 300, "u": "%", "k": "(4-1)*100", "e": "s and each of (s − a), (s − b), (s − c) double, so the product under the root is × 16 and the area × 4 — an increase of 300%."},
+{"t": "An isosceles right-angled triangle has area 8 cm². Find the length of each equal side (in cm).", "n": 4, "u": "cm", "k": "16**F(1,2)", "e": "½ × a × a = 8, so a² = 16."},
+{"t": "Find the area of a triangle with sides 41 cm, 15 cm and 28 cm (in cm²).", "n": 126, "u": "cm²", "k": "(42*1*27*14)**F(1,2)", "e": "s = 42: √(42 × 1 × 27 × 14) = √15876 = 126."},
+{"t": "An equilateral triangle has perimeter 60 cm. Find its area.", "o": ["100√3 cm²", "400√3 cm²", "50√3 cm²", "900√3 cm²"], "e": "Side 20: (√3/4) × 400 = 100√3."},
+{"t": "A triangle has sides 13 cm, 14 cm and 15 cm. Find the radius of the circle inscribed in it (in cm).", "n": 4, "u": "cm", "k": "F(84,21)", "e": "Area = r × s (the three small triangles with height r). 84 = r × 21."}
+]}
+]
+}

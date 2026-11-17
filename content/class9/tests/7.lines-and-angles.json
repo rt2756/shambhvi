@@ -1,0 +1,53 @@
+{
+"title": "7. Lines and Angles",
+"tests": [
+{"q": [
+{"t": "Find the complement of 40° (in degrees).", "n": 50, "u": "°", "k": "90-40", "e": "Complementary angles add to 90°."},
+{"t": "Find the supplement of 75° (in degrees).", "n": 105, "u": "°", "k": "180-75", "e": "Supplementary angles add to 180°."},
+{"t": "When two lines intersect, vertically opposite angles are:", "o": ["Equal", "Supplementary", "Complementary", "Unequal"], "e": "Each is 180° minus the same neighbouring angle."},
+{"t": "The angles of a linear pair add up to:", "n": 180, "u": "°", "e": "They lie side by side on a straight line."},
+{"t": "When a transversal cuts two parallel lines, corresponding angles are:", "o": ["Equal", "Supplementary", "Complementary", "Unrelated"], "e": "The transversal meets both parallels at the same slant."},
+{"t": "When a transversal cuts two parallel lines, alternate interior angles are:", "o": ["Equal", "Supplementary", "Complementary", "Right angles"], "e": "Each equals the same corresponding angle."},
+{"t": "When a transversal cuts two parallel lines, co-interior angles add up to:", "n": 180, "u": "°", "e": "One of them and the linear-pair partner of the other are corresponding angles."},
+{"t": "All the angles around a point add up to:", "n": 360, "u": "°", "e": "One full turn."},
+{"t": "An angle greater than 180° and less than 360° is called:", "o": ["Reflex", "Obtuse", "Acute", "Straight"], "e": "It bends back past a straight line."},
+{"t": "One angle of a linear pair is 48°. Find the other (in degrees).", "n": 132, "u": "°", "k": "180-48", "e": "180 − 48."}
+]},
+{"q": [
+{"t": "An angle is 5 times its complement. Find the angle (in degrees).", "n": 75, "u": "°", "k": "F(90,6)*5", "e": "c + 5c = 90, so the complement is 15° and the angle 75°."},
+{"t": "The angles of a linear pair are in the ratio 4 : 5. Find the larger (in degrees).", "n": 100, "u": "°", "k": "F(180,9)*5", "e": "9 parts of 20°."},
+{"t": "(2x + 10)° and (x + 20)° are supplementary. Find x.", "n": 50, "k": "F(180-30,3)", "e": "3x + 30 = 180."},
+{"t": "Vertically opposite angles are (3x − 5)° and (2x + 25)°. Find each angle (in degrees).", "n": 85, "u": "°", "k": "3*30-5", "e": "They are equal: x = 30, angle = 85°."},
+{"t": "Co-interior angles on parallel lines are 3x° and 2x°. Find the larger (in degrees).", "n": 108, "u": "°", "k": "F(180,5)*3", "e": "5x = 180, x = 36."},
+{"t": "An angle is 30° less than its supplement. Find the angle (in degrees).", "n": 75, "u": "°", "k": "F(180-30,2)", "e": "x + (x + 30) = 180."},
+{"t": "A ray stands on a line making three angles x°, 2x° and 3x° on one side. Find x.", "n": 30, "k": "F(180,6)", "e": "6x = 180."},
+{"t": "The complement of (90 − a)° is:", "o": ["a°", "(90 + a)°", "(180 − a)°", "(a − 90)°"], "e": "90 − (90 − a) = a."},
+{"t": "On parallel lines, one of a pair of alternate interior angles is 65°. Find the other (in degrees).", "n": 65, "u": "°", "e": "Alternate interior angles are equal."},
+{"t": "Find the supplement of four-thirds of a right angle (in degrees).", "n": 60, "u": "°", "k": "180-F(4,3)*90", "e": "4/3 × 90 = 120°, and 180 − 120 = 60°."}
+]},
+{"q": [
+{"t": "AB ∥ CD and E is a point between them. ∠ABE = 45° and ∠CDE = 35° (both measured between the parallels). Find ∠BED (in degrees).", "n": 80, "u": "°", "k": "45+35", "e": "A line through E parallel to both splits ∠BED into two parts, alternate to 45° and 35°."},
+{"t": "The supplement of an angle is 4 times its complement. Find the angle (in degrees).", "n": 60, "u": "°", "k": "F(360-180,3)", "e": "180 − x = 4(90 − x) → 3x = 180."},
+{"t": "The bisectors of the two angles of a linear pair meet at an angle of:", "n": 90, "u": "°", "k": "F(180,2)", "e": "The angles total 180°, so their halves total 90°."},
+{"t": "Corresponding angles on parallel lines are (2x + 30)° and (3x − 10)°. Find each angle (in degrees).", "n": 110, "u": "°", "k": "2*40+30", "e": "Equal: x = 40."},
+{"t": "Four angles round a point are in the ratio 1 : 2 : 3 : 4. Find the smallest (in degrees).", "n": 36, "u": "°", "k": "F(360,10)", "e": "10 parts make 360°."},
+{"t": "AB ∥ CD and E is a point between them. ∠ABE = 130° and ∠CDE = 150°. Find ∠BED (in degrees).", "n": 80, "u": "°", "k": "360-130-150", "e": "The line through E parallel to both gives parts 180 − 130 = 50° and 180 − 150 = 30°."},
+{"t": "An angle is 24° more than its complement. Find the angle (in degrees).", "n": 57, "u": "°", "k": "F(90+24,2)", "e": "x + (x − 24) = 90."},
+{"t": "Two supplementary angles differ by 34°. Find the larger (in degrees).", "n": 107, "u": "°", "k": "F(180+34,2)", "e": "x + (x − 34) = 180."},
+{"t": "Find the angle between the hands of a clock at 7:20 (in degrees).", "n": 100, "u": "°", "k": "(7*30+10)-120", "e": "Hour hand: 210 + 10 = 220°. Minute hand: 4 × 30 = 120°. Difference 100°."},
+{"t": "Two lines intersect and one angle is two-thirds of its adjacent angle. Find the smaller angle (in degrees).", "n": 72, "u": "°", "k": "F(180,5)*2", "e": "(2/3)y + y = 180, so y = 108 and the other is 72."}
+]},
+{"q": [
+{"t": "The supplement of an angle is 15° more than 4 times its complement. Find the angle (in degrees).", "n": 65, "u": "°", "k": "F(375-180,3)", "e": "180 − x = 4(90 − x) + 15 → 3x = 195."},
+{"t": "The complement and the supplement of an angle are in the ratio 2 : 7. Find the angle (in degrees).", "n": 54, "u": "°", "k": "F(630-360,5)", "e": "7(90 − x) = 2(180 − x) → 630 − 7x = 360 − 2x → x = 54."},
+{"t": "AB ∥ CD and E is a point between them. ∠ABE = 3x°, ∠CDE = 2x° and ∠BED = 110°. Find x.", "n": 22, "k": "F(110,5)", "e": "∠BED = ∠ABE + ∠CDE: 5x = 110."},
+{"t": "A transversal cuts two parallel lines. The bisectors of a pair of alternate interior angles are:", "o": ["Parallel", "Perpendicular", "The same line", "At 45° to each other"], "e": "The halves of two equal alternate angles are themselves equal alternate angles for the bisectors."},
+{"t": "A transversal cuts two parallel lines. Find the sum of all eight angles formed (in degrees).", "n": 720, "u": "°", "k": "2*360", "e": "Four angles round each of the two crossing points: 360° + 360°."},
+{"t": "Side QR of △PQR is produced to S. ∠PRS = 120° and ∠P = 2∠Q. Find ∠P (in degrees).", "n": 80, "u": "°", "k": "F(120,3)*2", "e": "The exterior angle equals ∠P + ∠Q = 3∠Q = 120°, so ∠Q = 40° and ∠P = 80°."},
+{"t": "A ray of light strikes a flat mirror, making 35° with the mirror. Find the angle between the incoming and the reflected rays (in degrees).", "n": 110, "u": "°", "k": "180-2*35", "e": "The reflected ray also makes 35° with the mirror. On the straight line of the mirror: 180 − 35 − 35."},
+{"t": "Co-interior angles on parallel lines are in the ratio 5 : 7. Find the larger (in degrees).", "n": 105, "u": "°", "k": "F(180,12)*7", "e": "12 parts of 15°."},
+{"t": "AB ∥ CD and E is a point between them. ∠ABE = 40° and ∠BED = 95°. Find ∠CDE (in degrees).", "n": 55, "u": "°", "k": "95-40", "e": "∠BED = ∠ABE + ∠CDE."},
+{"t": "Lines l and m are parallel. A transversal makes an angle of (5x − 20)° with l and its co-interior angle with m is (3x + 40)°. Find the smaller of the two angles (in degrees).", "n": 80, "u": "°", "k": "5*20-20", "e": "8x + 20 = 180, so x = 20. The angles are 80° and 100°."}
+]}
+]
+}
