@@ -1,0 +1,53 @@
+{
+"title": "12. Racing Seconds",
+"tests": [
+{"q": [
+{"t": "1 minute = how many seconds?", "n": 60, "u": "sec", "e": "Each minute is cut into 60 seconds."},
+{"t": "1 hour = how many minutes?", "n": 60, "u": "min", "e": "Each hour is cut into 60 minutes."},
+{"t": "2 hours = how many minutes?", "n": 120, "u": "min", "k": "2*60", "e": "Big unit to small unit: multiply by 60."},
+{"t": "1 hr 10 min = how many minutes?", "n": 70, "u": "min", "k": "60+10", "e": "1 hour = 60 minutes, plus 10."},
+{"t": "Write 02:30 p.m. in 24-hour time.", "o": ["14:30", "02:30", "12:30", "16:30"], "e": "p.m. means after midday, so add 12 hours: 2 + 12 = 14."},
+{"t": "Race times: Akira 1 min 55 sec, Sunita 1 min 56 sec, Mary 1 min 57 sec. Who won?", "o": ["Akira", "Sunita", "Mary"], "e": "The winner takes the LEAST time. Only the seconds tell them apart."},
+{"t": "Blinking your eyes takes about one:", "o": ["Second", "Minute", "Hour", "Day"], "e": "You finish a blink long before you could count to 60."},
+{"t": "How many hours from 09:15 a.m. to 11:15 a.m.?", "n": 2, "u": "hr", "k": "11-9", "e": "The minutes match, so only whole hours have passed."},
+{"t": "12 midnight in 24-hour time is:", "o": ["00:00", "12:00", "24:00", "01:00"], "e": "At midnight the new day has just started, so zero hours of it have passed."},
+{"t": "75 minutes = ?", "o": ["1 hr 15 min", "1 hr 75 min", "7 hr 5 min", "1 hr 5 min"], "e": "60 minutes make 1 hour, and 75 − 60 = 15 minutes are left."}
+]},
+{"q": [
+{"t": "3 hr 15 min = how many minutes?", "n": 195, "u": "min", "k": "3*60+15", "e": "3 × 60 = 180, plus 15."},
+{"t": "10 min 13 sec = how many seconds?", "n": 613, "u": "sec", "k": "10*60+13", "e": "10 × 60 = 600, plus 13."},
+{"t": "320 seconds = ?", "o": ["5 min 20 sec", "3 min 20 sec", "32 min", "5 min 2 sec"], "e": "5 × 60 = 300, and 320 − 300 = 20 seconds left."},
+{"t": "20:45 in 12-hour time is:", "o": ["8:45 p.m.", "8:45 a.m.", "10:45 p.m.", "2:45 p.m."], "e": "Any hour of 13 or more is p.m.: take away 12, so 20 − 12 = 8."},
+{"t": "How long is it from 09:15 a.m. to 11:30 a.m.?", "o": ["2 hr 15 min", "2 hr 45 min", "1 hr 15 min", "2 hr 30 min"], "e": "Count on: 45 min to 10:00, 1 hr to 11:00, 30 min to 11:30. 45 + 30 = 75 min = 1 hr 15 min, plus 1 hr."},
+{"t": "How many minutes from 01:15 p.m. to 01:42 p.m.?", "n": 27, "u": "min", "k": "42-15", "e": "The hour is the same, so just subtract the minutes."},
+{"t": "How many hours from 03:18 p.m. to 08:18 p.m.?", "n": 5, "u": "hr", "k": "8-3", "e": "The minutes match, so exactly whole hours have passed."},
+{"t": "A third of an hour = how many minutes?", "n": 20, "u": "min", "k": "60//3", "e": "60 shares into 3 equal parts of 20 — one reason we use 60."},
+{"t": "17:30 in 12-hour time is:", "o": ["5:30 p.m.", "7:30 p.m.", "5:30 a.m.", "7:30 a.m."], "e": "17 − 12 = 5, and it is after midday, so p.m."},
+{"t": "12 noon in 24-hour time is:", "o": ["12:00", "00:00", "24:00", "00:12"], "e": "At noon 12 hours of the day have passed, so it stays 12:00."}
+]},
+{"q": [
+{"t": "220 minutes = ?", "o": ["3 hr 40 min", "2 hr 20 min", "3 hr 20 min", "22 hr"], "e": "220 ÷ 60 = 3 remainder 40: 3 hours and 40 minutes left over."},
+{"t": "Jyoti leaves at 06:15 p.m. and travels for 1 hr 45 min. When does she arrive?", "o": ["08:00 p.m.", "07:60 p.m.", "07:45 p.m.", "08:15 p.m."], "e": "Add the hour first: 07:15. Then 45 minutes more reaches 08:00."},
+{"t": "Ragini finishes at 09:40 p.m. after working for 1 hr 10 min. When did she start?", "o": ["08:30 p.m.", "08:50 p.m.", "10:50 p.m.", "08:40 p.m."], "e": "Count back: 1 hour to 08:40, then 10 minutes to 08:30."},
+{"t": "Raghav studies 4 subjects for 50 minutes each. How many minutes is that?", "n": 200, "u": "min", "k": "4*50", "e": "4 × 50 = 200 minutes (which is 3 hr 20 min)."},
+{"t": "1,000 seconds = ?", "o": ["16 min 40 sec", "10 min", "100 min", "1 min 40 sec"], "e": "1,000 ÷ 60 = 16 remainder 40."},
+{"t": "How long is it from 09:45 to 11:30 (same morning)?", "o": ["1 hr 45 min", "2 hr 15 min", "1 hr 85 min", "2 hr 45 min"], "e": "Count on: 15 min to 10:00, 1 hr to 11:00, 30 min more. 15 + 30 = 45 min, plus 1 hr."},
+{"t": "Why does an hour have 60 minutes and not 100?", "o": ["60 splits into halves, thirds, quarters, fifths and sixths as whole numbers", "60 is a bigger number than 100", "Clocks have 60 numbers on them", "It was chosen by chance"], "e": "A third of 100 is not a whole number, but a third of 60 is 20."},
+{"t": "12:30 a.m. in 24-hour time is:", "o": ["00:30", "12:30", "24:30", "01:30"], "e": "It is 30 minutes after midnight, and midnight is 00:00."},
+{"t": "A picnic bus leaves at 08:30 a.m. and returns after 4 hr 10 min. When does it return?", "o": ["12:40 p.m.", "12:40 a.m.", "12:10 p.m.", "04:40 p.m."], "e": "08:30 + 4 hr = 12:30, + 10 min = 12:40. It crossed noon, so it is p.m."},
+{"t": "A fifth of an hour = how many minutes?", "n": 12, "u": "min", "k": "60//5", "e": "60 ÷ 5 = 12."}
+]},
+{"q": [
+{"t": "A train leaves at 20:35 and the journey takes 8 hr 25 min. When does it arrive?", "o": ["05:00 the next day", "04:60 the next day", "28:60", "04:35 the next day"], "e": "20:35 + 8 hr = 28:35; take away 24 for the new day → 04:35. Add 25 min → 05:00."},
+{"t": "A film of 2 hr 35 min starts at 6:50 p.m. When does it end?", "o": ["9:25 p.m.", "8:25 p.m.", "9:85 p.m.", "9:15 p.m."], "e": "6:50 + 2 hr = 8:50. Then 10 min to 9:00 and 25 min more: 9:25."},
+{"t": "Race times: 2 min 05 sec, 1 min 58 sec, 2 min 01 sec. How many seconds faster was the winner than the slowest runner?", "n": 7, "u": "sec", "k": "(2*60+5)-(60+58)", "e": "In seconds: 125, 118 and 121. Fastest 118, slowest 125: 125 − 118 = 7."},
+{"t": "A bus leaves at 07:45 and arrives at 13:20. How many minutes is the journey?", "n": 335, "u": "min", "k": "(13*60+20)-(7*60+45)", "e": "Count on: 15 min to 08:00, 5 hr to 13:00, 20 min more = 5 hr 35 min = 335 min."},
+{"t": "School starts at 9:00 a.m. with 5 lessons of 40 min and 2 breaks of 15 min. When does it end?", "o": ["12:50 p.m.", "12:30 p.m.", "1:10 p.m.", "11:50 a.m."], "e": "5 × 40 + 2 × 15 = 230 min = 3 hr 50 min, and 9:00 + 3 hr 50 min = 12:50."},
+{"t": "Someone works out 11:30 − 09:45 in columns and gets 1:85. What went wrong?", "o": ["An hour has 60 minutes, not 100, so 1:85 cannot be a time", "Nothing — the answer is right", "They should have added", "A minute has 100 seconds"], "e": "Minutes borrow 60 from the hours, not 10 or 100. Counting on gives 1 hr 45 min."},
+{"t": "Meena sleeps from 9:30 p.m. to 6:15 a.m. How many minutes does she sleep?", "n": 525, "u": "min", "k": "8*60+45", "e": "Count on: 30 min to 10:00 p.m., 8 hr to 6:00 a.m., 15 min more = 8 hr 45 min = 525 min."},
+{"t": "How many seconds are there in 1 hour?", "n": 3600, "u": "sec", "k": "60*60", "e": "60 minutes, each of 60 seconds: 60 × 60."},
+{"t": "A flight takes off at 23:50 and lands at 02:10 the next day. How many minutes is the flight?", "n": 140, "u": "min", "k": "10+120+10", "e": "10 min to midnight (00:00), 2 hr to 02:00, 10 min more: 140 min."},
+{"t": "Ravi runs one round of 400 m in 1 min 20 sec. How many seconds for 3 rounds at the same speed?", "n": 240, "u": "sec", "k": "3*80", "e": "1 min 20 sec = 80 sec, and 3 × 80 = 240 sec (4 minutes)."}
+]}
+]
+}

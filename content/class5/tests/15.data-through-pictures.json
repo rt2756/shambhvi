@@ -1,0 +1,53 @@
+{
+"title": "15. Data Through Pictures",
+"tests": [
+{"q": [
+{"t": "In a pictograph, 1 teddy picture = 5 toys. There are 8 pictures. How many toys?", "n": 40, "k": "8*5", "e": "Reading a pictograph is multiplying: 8 pictures × 5 toys each."},
+{"t": "What does a pictograph tell you if its key is missing?", "o": ["Nothing exact — each picture could stand for any number", "Exactly how many things there are", "The total is always 10", "Each picture is always 1"], "e": "The key turns pictures into numbers. Without it, 8 pictures could mean 8, 40 or 800."},
+{"t": "1 picture = 10 books. What does HALF a picture stand for?", "n": 5, "u": "books", "k": "10//2", "e": "Half of 10 is 5."},
+{"t": "1 picture = 10 books. A row has 3 whole pictures and a half picture. How many books?", "n": 35, "k": "3*10+5", "e": "30 for the whole pictures and 5 for the half."},
+{"t": "In a bar graph, what does the HEIGHT of a bar show?", "o": ["The number for that item", "How important it is", "Its colour", "Nothing"], "e": "The bar’s height is read off the scale up the side."},
+{"t": "Every bar in a bar graph should start at:", "o": ["0", "1", "The middle", "The top"], "e": "We compare heights, so a bar starting higher up would look shorter than it really is."},
+{"t": "In a TV survey, 4, 9, 11, 7 and 4 children chose the five groups. How many children in all?", "n": 35, "k": "4+9+11+7+4", "e": "Add the groups. They should add back to the number of children asked."},
+{"t": "1 picture = 2 children. A row has 6 pictures. How many children?", "n": 12, "k": "6*2", "e": "6 pictures × 2 children each."},
+{"t": "1 picture = 5 toys. How many pictures do you draw for 40 toys?", "n": 8, "k": "40//5", "e": "Drawing a pictograph is dividing: 40 ÷ 5 = 8."},
+{"t": "Food wasted: Monday 4 kg, Tuesday 6 kg, Wednesday 8 kg, Thursday 3 kg. On which day was the MOST wasted?", "o": ["Wednesday", "Monday", "Tuesday", "Thursday"], "e": "8 kg is the biggest number in the table."}
+]},
+{"q": [
+{"t": "Food wasted in a week: 4 kg, 6 kg, 8 kg, 3 kg and 5 kg. What is the total?", "n": 26, "u": "kg", "k": "4+6+8+3+5", "e": "Add all five days."},
+{"t": "Food wasted: Mon 4 kg, Tue 6 kg, Wed 8 kg, Thu 3 kg, Fri 5 kg. On which day was the LEAST wasted?", "o": ["Thursday", "Monday", "Friday", "Tuesday"], "e": "3 kg is the smallest number."},
+{"t": "1 picture = 3 two-wheelers. Monday has 7 pictures. How many two-wheelers?", "n": 21, "k": "7*3", "e": "7 × 3 = 21."},
+{"t": "Monday had 21 two-wheelers and Wednesday had 12. How many fewer on Wednesday?", "n": 9, "k": "21-12", "e": "‘How many fewer’ means find the difference."},
+{"t": "TV hours: 1/2 hour — 4 children, 1 hour — 9, 1 1/2 hours — 11, 2 hours — 7, more than 2 hours — 4. How many watch LESS THAN 2 hours?", "n": 24, "k": "4+9+11", "e": "Less than 2 leaves out the 2-hour group: 4 + 9 + 11."},
+{"t": "Same TV table. How many watch MORE than half an hour?", "n": 31, "k": "9+11+7+4", "e": "Leave out only the 1/2-hour group: 9 + 11 + 7 + 4."},
+{"t": "Same TV table. How many watch AT MOST 2 hours?", "n": 31, "k": "4+9+11+7", "e": "‘At most 2’ includes the 2-hour group: 4 + 9 + 11 + 7."},
+{"t": "The data are 40, 25 and 30. Which scale (1 picture = ?) shows them all with whole pictures and not too many?", "o": ["5", "3", "50", "1"], "e": "5 divides 40, 25 and 30 exactly (8, 5 and 6 pictures). 1 would need 95 pictures; 3 and 50 don’t divide them."},
+{"t": "7 out of 15 children wear glasses. Is that more than half?", "o": ["No — half of 15 is 7 1/2, and 7 is less", "Yes — 7 is a lot", "Yes — it is exactly half", "No — it is less than 5"], "e": "‘More than half’ needs counting, not a guess."},
+{"t": "How can you show that ‘All the girls wear glasses’ is FALSE?", "o": ["Find one girl without glasses", "Find one girl with glasses", "Count all the boys", "You can never show it"], "e": "‘All’ means every single one, so one exception is enough."}
+]},
+{"q": [
+{"t": "1 picture = 4 books. A row shows 5 1/2 pictures. How many books?", "n": 22, "k": "5*4+2", "e": "5 × 4 = 20, and half a picture is half of 4 = 2."},
+{"t": "1 picture = 4 cars. How many pictures show 18 cars?", "o": ["4 1/2 pictures", "4 pictures", "5 pictures", "18 pictures"], "k": "F(18,4)", "e": "4 pictures show 16 cars, and the last 2 cars are half a picture."},
+{"t": "With 1 picture = 3, why can’t you show 20?", "o": ["20 is not a multiple of 3, and half a picture would be 1 1/2", "20 is too big", "3 is an odd number", "Pictographs can’t show even numbers"], "e": "6 pictures = 18 and 7 = 21, and half a picture means 1 1/2 things."},
+{"t": "26 kg of food was wasted. If 1 kg can feed 3 children, how many children could have been fed?", "n": 78, "k": "26*3", "e": "26 × 3 = 78 — the number becomes a reason to waste less."},
+{"t": "Sheela’s day: sleep 9 hr, school 6 hr, study 2 hr, eating and play 4 hr, and other things. How many hours for other things?", "n": 3, "u": "hr", "k": "24-9-6-2-4", "e": "A day has 24 hours, so the parts must add up to 24."},
+{"t": "Two-wheelers: Monday 21, Wednesday 12, Friday 18. What is the total?", "n": 51, "k": "21+12+18", "e": "Add all three days."},
+{"t": "Two-wheelers: Wednesday 12, Friday 18. How many more on Friday?", "n": 6, "k": "18-12", "e": "Difference = 18 − 12."},
+{"t": "Khichdi was wasted most this week. What is the best way to say what will happen next week?", "o": ["Khichdi will LIKELY be wasted most", "Khichdi WILL be wasted most", "Khichdi will never be wasted", "Nothing can be guessed at all"], "e": "One week of data is a hint, not a certainty — say ‘likely’."},
+{"t": "To show that ‘Some children wear caps’ is FALSE, you must:", "o": ["Check every child and find none with a cap", "Find one child without a cap", "Find one child with a cap", "Count the girls"], "e": "‘Some’ means at least one, so you must check them all."},
+{"t": "Before comparing bars on two different bar graphs, what must you check first?", "o": ["That both use the same scale", "That the bars are the same colour", "That the titles match", "Nothing"], "e": "On a different scale, a shorter bar can stand for a bigger number."}
+]},
+{"q": [
+{"t": "1 picture = 10 fruits. Apples: 6 1/2 pictures, bananas: 9 pictures, mangoes: 4 pictures. How many fruits in all?", "n": 195, "k": "65+90+40", "e": "Apples 65, bananas 90, mangoes 40. 65 + 90 + 40 = 195."},
+{"t": "Same pictograph: how many MORE bananas than mangoes?", "n": 50, "k": "90-40", "e": "9 − 4 = 5 more pictures, and 5 × 10 = 50."},
+{"t": "The data are 12, 18, 30 and 24. Which scale shows ALL of them with whole pictures?", "o": ["6", "4", "5", "12"], "e": "6 divides all four (2, 3, 5, 4 pictures). 4 and 12 don’t divide 18; 5 doesn’t divide 12."},
+{"t": "40 children choose a favourite game: cricket 15, football 9, kabaddi 6, and the rest chess. How many chose chess?", "n": 10, "k": "40-15-9-6", "e": "The groups must add back to 40: 40 − 30 = 10."},
+{"t": "Same survey: 15 of the 40 chose cricket. How many MORE would need to choose cricket for it to be more than half?", "n": 6, "k": "40//2+1-15", "e": "Half of 40 is 20, so more than half needs at least 21. 21 − 15 = 6."},
+{"t": "Library books: 1 picture = 8 books. Monday shows 3 1/2 pictures, Tuesday 5 pictures. How many books on the two days?", "n": 68, "k": "3*8+4+5*8", "e": "Monday 24 + 4 = 28, Tuesday 40. 28 + 40 = 68."},
+{"t": "On Ravi’s graph 1 square = 1 hour, and his study bar is 2 squares tall. On Meena’s graph 1 square = 2 hours, and her study bar is 3 squares tall. How many more hours does Meena study?", "n": 4, "u": "hr", "k": "3*2-2*1", "e": "Ravi: 2 × 1 = 2 hours. Meena: 3 × 2 = 6 hours. Compare the numbers, not the bars."},
+{"t": "A canteen wasted 26 kg in a week of 5 days. If it wastes 2 kg less EACH day, what is the new weekly total?", "n": 16, "u": "kg", "k": "26-2*5", "e": "2 kg less on each of 5 days is 10 kg less: 26 − 10."},
+{"t": "1 picture = 10, and half pictures are allowed. Which number CANNOT be shown?", "o": ["37", "35", "40", "15"], "e": "Half a picture is 5, so only multiples of 5 can be shown."},
+{"t": "Water used each day of a week (litres): 120, 135, 150, 125, 140, 160, 130. On how many days was it MORE than 135?", "n": 3, "k": "len([x for x in [120,135,150,125,140,160,130] if x>135])", "e": "150, 140 and 160. 135 itself is not MORE than 135."}
+]}
+]
+}

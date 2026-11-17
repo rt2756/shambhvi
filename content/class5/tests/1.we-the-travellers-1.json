@@ -1,0 +1,53 @@
+{
+"title": "1. We the Travellers — I",
+"tests": [
+{"q": [
+{"t": "What is the place value of 4 in 45,867?", "o": ["40,000", "4,000", "400", "4"], "k": "40000", "e": "4 sits in the ten-thousands place, so it is worth 4 ten thousands = 40,000."},
+{"t": "How many thousands make 10,000?", "n": 10, "k": "10000//1000", "e": "Every place is ten times the one on its right, so 10 thousands = 1 ten thousand."},
+{"t": "Write ‘twenty-three thousand four hundred five’ in figures.", "o": ["23,405", "23,450", "2,345", "230,405"], "k": "23405", "e": "23 thousands, then 4 hundreds, 0 tens and 5 ones — the 0 holds the empty tens place."},
+{"t": "Which is the number name of 30,602?", "o": ["Thirty thousand six hundred two", "Thirty thousand six hundred twenty", "Three thousand six hundred two", "Thirty-six thousand two"], "e": "Split at the comma: ‘30’ thousand, then ‘602’ = six hundred two."},
+{"t": "Which is greater: 9,999 or 10,000?", "o": ["10,000", "9,999"], "e": "10,000 has five digits and 9,999 has only four — more digits means a bigger number."},
+{"t": "Round 2,346 to the nearest ten.", "n": 2350, "k": "(2346+5)//10*10", "e": "The ones digit is 6 (5 or more), so 2,346 is nearer 2,350 than 2,340."},
+{"t": "Which digit is in the hundreds place of 58,317?", "n": 3, "e": "From the right: 7 ones, 1 ten, 3 hundreds."},
+{"t": "10 hundreds make:", "o": ["1 thousand", "1 hundred", "1 ten thousand", "10 tens"], "e": "10 × 100 = 1,000 — ten of a place make one of the next place to the left."},
+{"t": "What is the smallest five-digit number?", "n": 10000, "e": "The smallest five-digit number starts with 1 and has zeros after it."},
+{"t": "What is the largest four-digit number?", "n": 9999, "e": "Put the biggest digit, 9, in all four places. One more would need a fifth digit."}
+]},
+{"q": [
+{"t": "What number is 7,000 + 400 + 9?", "n": 7409, "k": "7000+400+9", "e": "7 thousands, 4 hundreds, 0 tens, 9 ones — a 0 keeps the empty tens place."},
+{"t": "52,038 = 5 ten thousands + 2 thousands + ___ hundreds + 3 tens + 8 ones. Fill the blank.", "n": 0, "e": "The hundreds digit of 52,038 is 0 — there are no hundreds."},
+{"t": "Round 6,849 to the nearest hundred.", "n": 6800, "k": "(6849+50)//100*100", "e": "Look at the tens digit: 4 is less than 5, so round down to 6,800."},
+{"t": "Round 7,512 to the nearest thousand.", "n": 8000, "k": "(7512+500)//1000*1000", "e": "Look at the hundreds digit: 5 means round up, so 7,512 → 8,000."},
+{"t": "Which is the smallest: 40,347; 40,473; 4,734; 43,047?", "o": ["4,734", "40,347", "40,473", "43,047"], "k": "min(40347,40473,4734,43047)", "e": "4,734 has only four digits; all the others have five."},
+{"t": "Which of these is TRUE?", "o": ["9,990 < 49,014", "9,990 > 49,014", "40,473 < 40,347", "30,100 > 31,000"], "e": "Count digits first: 9,990 has four digits, 49,014 has five, so 9,990 is smaller."},
+{"t": "What is 1 more than 19,999?", "n": 20000, "k": "19999+1", "e": "Every place is full of 9s, so adding 1 carries all the way: 20,000."},
+{"t": "What is 1,000 more than 38,950?", "n": 39950, "k": "38950+1000", "e": "Only the thousands digit goes up by 1: 8 becomes 9."},
+{"t": "In 55,000, what is the difference between the values of the two 5s?", "n": 45000, "k": "50000-5000", "e": "The 5s are worth 50,000 and 5,000, and 50,000 − 5,000 = 45,000."},
+{"t": "What is 10 more than 9,995?", "n": 10005, "k": "9995+10", "e": "9,995 + 5 = 10,000, and 5 more gives 10,005."}
+]},
+{"q": [
+{"t": "Using the digits 3, 0, 7, 1 and 9 once each, make the LARGEST five-digit number.", "n": 97310, "k": "97310", "e": "Put the biggest digit in the biggest place: 9, 7, 3, 1, 0."},
+{"t": "Using the digits 3, 0, 7, 1 and 9 once each, make the SMALLEST five-digit number.", "n": 10379, "k": "10379", "e": "0 cannot go first (it would not be five digits), so start with 1, then 0, 3, 7, 9."},
+{"t": "Which number rounds to 2,400 at the nearest hundred?", "o": ["2,372", "2,341", "2,349", "2,305"], "e": "The tens digit of 2,372 is 7 (5 or more), so it rounds up to 2,400. The others have tens digits below 5."},
+{"t": "Which number rounds to 5,000 at BOTH the nearest hundred and the nearest thousand?", "o": ["5,018", "5,089", "4,940", "5,520"], "e": "5,018 → 5,000 (tens digit 1) and → 5,000 (hundreds digit 0). 5,089 → 5,100, 4,940 → 4,900, 5,520 → 5,500."},
+{"t": "A book has about 250 pages and each page has about 40 words. About how many words are in the book?", "n": 10000, "k": "250*40", "e": "Multiply instead of counting: 250 × 40 = 10,000."},
+{"t": "A spacecraft travels at least 28,000 km in one hour. How do you read 28,000?", "o": ["Twenty-eight thousand", "Two thousand eight hundred", "Two lakh eighty thousand", "Twenty thousand eight"], "e": "Split at the comma: ‘28’ thousand and ‘000’ — so twenty-eight thousand."},
+{"t": "How many hundreds are there in 10,000?", "n": 100, "k": "10000//100", "e": "10 hundreds make 1,000, so 10 × 10 = 100 hundreds make 10,000."},
+{"t": "What is the GREATEST number that rounds to 3,200 at the nearest ten?", "n": 3204, "k": "3204", "e": "3,205 would round up to 3,210, so the biggest number still nearer 3,200 is 3,204."},
+{"t": "What digit must go in the box so that 4▢,512 is greater than 48,900?", "n": 9, "e": "48,512 is less than 48,900, so the thousands digit must be bigger than 8 — it must be 9."},
+{"t": "Ravi says 9,990 is greater than 49,014 because 9 is greater than 4. Why is he wrong?", "o": ["49,014 has more digits, so it is bigger", "9 is smaller than 4", "You compare the last digits first", "Both numbers are equal"], "e": "Count the digits first. A five-digit number is always bigger than a four-digit one."}
+]},
+{"q": [
+{"t": "A car’s meter reads 24,995 km. After 7 more km, what does it read (in km)?", "n": 25002, "u": "km", "k": "24995+7", "e": "24,995 + 5 = 25,000, then 2 more makes 25,002."},
+{"t": "Round 23,456 to the nearest hundred and also to the nearest thousand. How much bigger is the hundred answer?", "n": 500, "k": "23500-23000", "e": "Nearest hundred: 23,500 (tens digit 5). Nearest thousand: 23,000 (hundreds digit 4). Difference = 500."},
+{"t": "Using 5, 2, 8, 0 and 6 once each, make the LARGEST five-digit ODD number.", "n": 86205, "k": "86205", "e": "An odd number must end in 5 here (the only odd digit). Arrange the rest biggest-first: 8, 6, 2, 0, then 5."},
+{"t": "What is the smallest five-digit number with all its digits different?", "n": 10234, "k": "10234", "e": "Start with 1 (0 can’t go first), then use the smallest unused digits: 0, 2, 3, 4."},
+{"t": "How many five-digit numbers are there in all (from 10,000 to 99,999)?", "n": 90000, "k": "99999-10000+1", "e": "99,999 − 10,000 = 89,999, and we add 1 to count both ends: 90,000."},
+{"t": "A number has 6 ten thousands, 0 thousands and 4 hundreds. Its ones digit is 3 and its tens digit is twice the ones digit. What is the number?", "n": 60463, "k": "60000+400+60+3", "e": "Tens digit = 2 × 3 = 6, so the places read 6, 0, 4, 6, 3."},
+{"t": "A shop says it had ‘about 4,000 visitors’, rounded to the nearest thousand. Which could be the real number?", "o": ["4,380", "4,620", "3,420", "4,500"], "e": "4,380 has hundreds digit 3, so it rounds down to 4,000. 4,620 and 4,500 round up to 5,000; 3,420 rounds to 3,000."},
+{"t": "Count from 10,000 to 20,000 in steps of 1,000, saying both 10,000 and 20,000. How many numbers do you say?", "n": 11, "k": "(20000-10000)//1000+1", "e": "10 jumps of 1,000 make 10,000, but you say one more number than the jumps: 11."},
+{"t": "A number rounded to the nearest ten is 7,490. What is the SMALLEST it could be?", "n": 7485, "k": "7485", "e": "7,485 has ones digit 5, so it rounds up to 7,490. 7,484 would round down to 7,480."},
+{"t": "Arrange 30,303; 33,003; 30,330; 33,030 from greatest to smallest. Which comes THIRD?", "o": ["30,330", "33,003", "30,303", "33,030"], "k": "sorted([30303,33003,30330,33030],reverse=True)[2]", "e": "Order: 33,030 > 33,003 > 30,330 > 30,303. Compare from the left and stop at the first difference."}
+]}
+]
+}

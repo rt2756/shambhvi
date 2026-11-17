@@ -1,0 +1,53 @@
+{
+"title": "7. Shapes and Patterns",
+"tests": [
+{"q": [
+{"t": "A shape with ALL its sides equal is called:", "o": ["Regular", "Round", "Curved", "Open"], "e": "That is what ‘regular’ means for a shape — every side the same length."},
+{"t": "How many squares fit around one point, with no gaps?", "n": 4, "e": "Each square corner is a quarter turn, and 4 quarters make a full turn."},
+{"t": "How many equilateral triangles fit around one point, with no gaps?", "n": 6, "e": "Each corner is a sixth of a full turn, so 6 close up exactly."},
+{"t": "How many regular hexagons fit around one point, with no gaps?", "n": 3, "e": "Each hexagon corner is a third of a full turn, so 3 fill the turn."},
+{"t": "Which regular shape does NOT tessellate (cover a floor with no gaps)?", "o": ["Regular pentagon", "Square", "Equilateral triangle", "Regular hexagon"], "e": "3 pentagons around a point leave a gap, but a 4th is too big to fit."},
+{"t": "A tessellation covers a surface:", "o": ["With no gaps and no overlaps", "With gaps between shapes", "With shapes on top of each other", "Using only circles"], "e": "Every bit is covered exactly once — nothing missed, nothing doubled."},
+{"t": "How many squares are in the net of a cube?", "n": 6, "e": "A cube has 6 faces, and each face is one square of the net."},
+{"t": "A shape with four sides is called a:", "o": ["Quadrilateral", "Pentagon", "Triangle", "Hexagon"], "e": "‘Quad’ means four."},
+{"t": "Every point on this shape is the same distance from its centre:", "o": ["Circle", "Square", "Triangle", "Hexagon"], "e": "That is why a compass draws a circle — the pencil keeps the same distance from the point."},
+{"t": "Row 1 of a mat is ‘1 over, 1 under’. What is Row 2?", "o": ["1 under, 1 over", "1 over, 1 under", "2 over, 2 under", "All over"], "e": "Row 2 must be the opposite of Row 1, so the strips hold each other."}
+]},
+{"q": [
+{"t": "How many sides does a hexagon have?", "n": 6, "e": "‘Hexa’ means six."},
+{"t": "How many sides does a pentagon have?", "n": 5, "e": "‘Penta’ means five."},
+{"t": "How many faces does a dodecahedron have?", "n": 12, "e": "‘Dodeca’ means twelve — the name counts the faces."},
+{"t": "How many faces does an icosahedron have?", "n": 20, "e": "‘Icosa’ means twenty — the name counts the faces."},
+{"t": "I have 4 equal sides and 4 right angles. What am I?", "o": ["Square", "Rhombus", "Trapezium", "Kite"], "e": "A rhombus also has 4 equal sides, but only a square also has 4 right angles."},
+{"t": "I have 4 equal sides, but my corners are NOT right angles. What am I?", "o": ["Rhombus", "Square", "Rectangle", "Trapezium"], "e": "A rhombus is like a square that has been pushed over."},
+{"t": "A quadrilateral with just ONE pair of parallel sides is a:", "o": ["Trapezium", "Rectangle", "Square", "Rhombus"], "e": "The others all have two pairs of parallel sides."},
+{"t": "I have 4 right angles and opposite sides equal, but not all sides equal. What am I?", "o": ["Rectangle", "Square", "Rhombus", "Kite"], "e": "A square would need all four sides equal."},
+{"t": "Why is Row 2 of a woven mat the opposite of Row 1?", "o": ["So the strips hold each other and the mat does not fall apart", "To use less paper", "To make it colourful", "It does not matter"], "e": "If both rows went over in the same places, nothing would trap the strips."},
+{"t": "Can circles cover a table with no gaps?", "o": ["No — small gaps are left between them", "Yes, always", "Only big circles can", "Only small circles can"], "e": "Push circles as close as you like and curved gaps remain."}
+]},
+{"q": [
+{"t": "Four squares meet at a point. How big is each square’s corner?", "o": ["A quarter turn", "A half turn", "A sixth of a turn", "A third of a turn"], "e": "4 equal corners share a full turn, so each is 1/4 — a right angle."},
+{"t": "Six equilateral triangles meet at a point. How big is each corner?", "o": ["A sixth of a turn", "A quarter turn", "A third of a turn", "A half turn"], "e": "6 equal corners share one full turn."},
+{"t": "Three regular hexagons meet at a point. How big is each corner?", "o": ["A third of a turn", "A quarter turn", "A sixth of a turn", "A half turn"], "e": "3 equal corners share one full turn."},
+{"t": "Why don’t regular pentagons tessellate?", "o": ["3 leave a gap and a 4th does not fit", "They have too many sides", "They are always too big", "They are not regular"], "e": "A pentagon’s corner is more than a quarter turn but less than a third, so no whole number of them makes a full turn."},
+{"t": "A square is also a special kind of:", "o": ["Rectangle and rhombus", "Trapezium only", "Pentagon", "Triangle"], "e": "It has 4 right angles like a rectangle and 4 equal sides like a rhombus."},
+{"t": "I have two pairs of equal sides, and the equal sides are next to each other. What am I?", "o": ["Kite", "Rectangle", "Parallelogram", "Trapezium"], "e": "In a kite the equal sides meet; in a rectangle or parallelogram they are opposite."},
+{"t": "Row 1 of a mat is ‘2 over, 1 under’. What is Row 2?", "o": ["2 under, 1 over", "2 over, 1 under", "1 over, 1 under", "1 under, 2 over"], "e": "Row 2 is the opposite of Row 1: wherever Row 1 went over, Row 2 goes under."},
+{"t": "Which is TRUE about nets of a cube?", "o": ["Not every arrangement of 6 squares folds into a cube", "Any 6 joined squares fold into a cube", "A cube net has 8 squares", "A cube net has 4 squares"], "e": "In some arrangements two squares try to land on the same face."},
+{"t": "How many more sides does a regular hexagon have than an equilateral triangle?", "n": 3, "k": "6-3", "e": "A hexagon has 6 sides and a triangle has 3."},
+{"t": "Two identical equilateral triangles are joined along one side. What shape do they make?", "o": ["A rhombus", "A square", "A rectangle", "A hexagon"], "e": "All 4 outside sides are equal, but the corners are not right angles."}
+]},
+{"q": [
+{"t": "Around one point you place 2 squares. How many equilateral triangles will fill the rest exactly?", "n": 3, "k": "(1-2*F(1,4))/F(1,6)", "e": "2 squares use 2 quarters = half a turn. The other half is 3 sixths, so 3 triangles."},
+{"t": "Around one point you place 1 regular hexagon. How many equilateral triangles fill the rest?", "n": 4, "k": "(1-F(1,3))/F(1,6)", "e": "A hexagon corner is 1/3 = 2/6, leaving 4/6 — four triangle corners."},
+{"t": "Around one point you place 2 regular hexagons. How many equilateral triangles fill the rest?", "n": 2, "k": "(1-2*F(1,3))/F(1,6)", "e": "2 hexagons use 2/3 of the turn; the last 1/3 = 2/6 fits 2 triangles."},
+{"t": "In a mat, Row 1 starts ‘over’ and every row is the opposite of the row before. What does Row 6 start with?", "o": ["Under", "Over"], "e": "The rows go over, under, over, under, over, under — even rows start ‘under’."},
+{"t": "Row 1 of a mat is ‘2 over, 1 under’, repeated across 12 strips. How many ‘over’s are in Row 1?", "n": 8, "k": "12//3*2", "e": "The pattern repeats every 3 strips, so it repeats 4 times, with 2 overs each time."},
+{"t": "How many more faces does an icosahedron have than a dodecahedron?", "n": 8, "k": "20-12", "e": "Icosa = 20 and dodeca = 12, and 20 − 12 = 8."},
+{"t": "Which clue alone is enough to tell a square from a rhombus?", "o": ["Four right angles", "Four equal sides", "Four sides", "Two pairs of parallel sides"], "e": "Both have four equal sides and parallel sides; only the square has right angles."},
+{"t": "How many sides do 3 regular pentagons and 2 regular hexagons have altogether?", "n": 27, "k": "3*5+2*6", "e": "3 × 5 = 15 and 2 × 6 = 12, and 15 + 12 = 27."},
+{"t": "Rahul places 3 regular hexagons around a point and then tries to add a triangle there. What happens?", "o": ["It overlaps — the 3 hexagons already fill the full turn", "It fits exactly", "It leaves a gap", "The hexagons become pentagons"], "e": "3 thirds already make one full turn, so there is no room left."},
+{"t": "Six squares are joined in one long straight row. Does it fold into a cube?", "o": ["No — some faces land on top of each other", "Yes"], "e": "Folding the row round makes a loop of 4 faces; the last 2 squares cover faces already used, and the top and bottom stay open."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "4. We the Travellers — II",
+"tests": [
+{"q": [
+{"t": "A lorry has 28 litres of fuel and 75 litres more is filled. How many litres now?", "n": 103, "u": "L", "k": "28+75", "e": "8 + 5 = 13 ones: write 3, carry 1 ten. Then 2 + 7 + 1 = 10 tens."},
+{"t": "Find 65 − 18.", "n": 47, "k": "65-18", "e": "5 ones is too few to take 8, so turn 1 ten into 10 ones: 15 − 8 = 7, then 5 − 1 = 4 tens."},
+{"t": "Find 1,855 + 1,862.", "n": 3717, "k": "1855+1862", "e": "Line up the places and carry whenever a column reaches 10."},
+{"t": "Find 46 + 99. (Hint: add 100, then take back 1.)", "n": 145, "k": "46+99", "e": "46 + 100 = 146. We added 1 too many, so give it back: 145."},
+{"t": "If 78 + 164 = 242, what is 242 − 78?", "n": 164, "k": "242-78", "e": "The three numbers are part, part and whole. Take one part from the whole and the other part is left."},
+{"t": "Find 1 + 2 + 3 + 4.", "n": 10, "k": "1+2+3+4", "e": "1 + 4 = 5 and 2 + 3 = 5, so two pairs of 5 make 10."},
+{"t": "The sum of two consecutive numbers (like 7 + 8) is always:", "o": ["Odd", "Even", "A multiple of 10", "Zero"], "e": "One of them is even and the other is odd, and even + odd is always odd."},
+{"t": "Find 500 − 125.", "n": 375, "k": "500-125", "e": "Check by adding back: 375 + 125 = 500."},
+{"t": "Which of these are consecutive numbers?", "o": ["29, 30, 31", "29, 31, 33", "30, 32, 34", "29, 30, 32"], "e": "Consecutive numbers follow one another with no gaps, each 1 more than the last."},
+{"t": "Find 2,000 + 3,500.", "n": 5500, "k": "2000+3500", "e": "2 thousands + 3 thousands 5 hundreds = 5 thousands 5 hundreds."}
+]},
+{"q": [
+{"t": "Find ₹21,880 + ₹38,900.", "n": 60780, "u": "₹", "k": "21880+38900", "e": "Add column by column from the ones, carrying when a column reaches 10."},
+{"t": "Find 7,000 − 2,468.", "n": 4532, "k": "7000-2468", "e": "Check by adding back: 4,532 + 2,468 = 7,000."},
+{"t": "Find 76 + 28. (Hint: add 30, then take back 2.)", "n": 104, "k": "76+28", "e": "76 + 30 = 106, but we added 2 too many: 106 − 2 = 104."},
+{"t": "3 + 4 + 5 = 3 × ▢. What is ▢?", "n": 4, "k": "(3+4+5)//3", "e": "3 is 1 below 4 and 5 is 1 above 4, so the sum is the same as 4 + 4 + 4."},
+{"t": "Find 67 + 68 + 69.", "n": 204, "k": "67+68+69", "e": "Three consecutive numbers: 3 × the middle number = 3 × 68 = 204."},
+{"t": "Find 24 + 25 + 26 + 27.", "n": 102, "k": "24+25+26+27", "e": "Pair the ends: 24 + 27 = 51 and 25 + 26 = 51, so 2 × 51 = 102."},
+{"t": "Find 8,789 + 878.", "n": 9667, "k": "8789+878", "e": "Keep ones under ones: the 8 hundreds of 878 go under the 7 hundreds of 8,789."},
+{"t": "How can you check that 902 − 345 = 557?", "o": ["Add 557 + 345 and see if you get 902", "Add 902 + 345", "Take 345 away from 557", "Add 902 + 557"], "e": "Adding the answer back to what you took away must give the starting number."},
+{"t": "The sum of FOUR consecutive numbers is always:", "o": ["Even", "Odd", "Sometimes odd, sometimes even"], "e": "There are always two odd and two even numbers. Two odds make an even, so the total is even."},
+{"t": "Find 10,000 − 1.", "n": 9999, "k": "10000-1", "e": "One less than the smallest five-digit number is the largest four-digit number."}
+]},
+{"q": [
+{"t": "A tank had 27 litres of fuel. After filling, it shows 81 litres. How many litres were filled?", "n": 54, "u": "L", "k": "81-27", "e": "Find the missing part: whole − part = 81 − 27 = 54."},
+{"t": "Find 48 + 49 + 50 + 51 + 52.", "n": 250, "k": "48+49+50+51+52", "e": "Five consecutive numbers: 5 × middle number = 5 × 50."},
+{"t": "Three consecutive numbers add up to 45. What is the middle number?", "n": 15, "k": "45//3", "e": "The sum of three consecutive numbers is 3 × the middle one, so the middle = 45 ÷ 3."},
+{"t": "Find 45,000 − 17,658.", "n": 27342, "k": "45000-17658", "e": "Borrow across the zeros, then check: 27,342 + 17,658 = 45,000."},
+{"t": "Find 12,345 + 23,456 + 4,321.", "n": 40122, "k": "12345+23456+4321", "e": "Line up the places; 12,345 + 23,456 = 35,801, then + 4,321 = 40,122."},
+{"t": "The sum of THREE consecutive numbers is:", "o": ["Sometimes odd, sometimes even", "Always odd", "Always even"], "e": "1 + 2 + 3 = 6 is even but 2 + 3 + 4 = 9 is odd — it depends where you start."},
+{"t": "Find 237 + 238 + 239 + 240 + 241 + 242.", "n": 1437, "k": "237+238+239+240+241+242", "e": "Pair the ends: each pair makes 479, and there are 3 pairs: 3 × 479 = 1,437."},
+{"t": "▢ − 3,475 = 5,280. What is ▢?", "n": 8755, "k": "5280+3475", "e": "The missing number is the whole, so add the two parts: 5,280 + 3,475."},
+{"t": "Find 999 + 456.", "n": 1455, "k": "999+456", "e": "456 + 1,000 = 1,456, then take back the extra 1."},
+{"t": "Which sum is EVEN?", "o": ["11 + 12 + 13 + 14", "5 + 6", "7 + 8 + 9 + 10 + 11", "9 + 10"], "e": "Four consecutive numbers always add to an even number (here 50). Two consecutive always give odd."}
+]},
+{"q": [
+{"t": "A family drives Delhi to Agra (233 km), Agra to Jaipur (240 km) and Jaipur back to Delhi (281 km). How far did they drive?", "n": 754, "u": "km", "k": "233+240+281", "e": "Add all three legs: 233 + 240 = 473, then + 281 = 754."},
+{"t": "A car’s meter showed 18,476 km at the start of a trip and 21,003 km at the end. How long was the trip?", "n": 2527, "u": "km", "k": "21003-18476", "e": "The trip is the difference between the end and start readings."},
+{"t": "Asha has ₹15,000. She buys a cycle for ₹6,850 and shoes for ₹1,275. How much is left?", "n": 6875, "u": "₹", "k": "15000-6850-1275", "e": "She spent 6,850 + 1,275 = 8,125, and 15,000 − 8,125 = 6,875."},
+{"t": "Five consecutive numbers add up to 100. What is the LARGEST of them?", "n": 22, "k": "100//5+2", "e": "The middle number is 100 ÷ 5 = 20, so the numbers are 18 to 22."},
+{"t": "Two consecutive numbers add up to 91. What is the larger one?", "n": 46, "k": "(91+1)//2", "e": "They are nearly equal halves: 45 + 46 = 91."},
+{"t": "A school has 4,568 girls and 3,987 boys. How many more girls than boys?", "n": 581, "k": "4568-3987", "e": "‘How many more’ means find the difference: 4,568 − 3,987."},
+{"t": "4,▢38 + 2,456 = 7,394. What digit goes in the box?", "n": 9, "k": "(7394-2456)//100%10", "e": "7,394 − 2,456 = 4,938, so the hundreds digit is 9."},
+{"t": "Four consecutive numbers add up to 58. What is the SMALLEST of them?", "n": 13, "k": "(58-6)//4", "e": "The ends and the middle pair each make 58 ÷ 2 = 29, so the numbers are 13, 14, 15, 16."},
+{"t": "A train has 1,250 passengers. At a station 386 get off and 547 get on. How many are on the train now?", "n": 1411, "k": "1250-386+547", "e": "1,250 − 386 = 864, then 864 + 547 = 1,411."},
+{"t": "Riya says 25 + 26 + 27 + 28 is an odd number. Is she right?", "o": ["No — four consecutive numbers always add to an even number", "Yes — it starts with an odd number", "Yes — 25 is odd", "Yes — it ends with an even number"], "e": "Two odds (25, 27) make an even and two evens (26, 28) make an even, so the total (106) is even."}
+]}
+]
+}

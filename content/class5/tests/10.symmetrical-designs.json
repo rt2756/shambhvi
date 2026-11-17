@@ -1,0 +1,53 @@
+{
+"title": "10. Symmetrical Designs",
+"tests": [
+{"q": [
+{"t": "The capital letter A has a line of symmetry that is:", "o": ["Vertical (standing up)", "Horizontal (lying down)", "Slanting", "It has none"], "e": "Fold A down the middle from top to bottom and the two halves match."},
+{"t": "The capital letter E has a line of symmetry that is:", "o": ["Horizontal (lying down)", "Vertical (standing up)", "Slanting", "It has none"], "e": "Fold E across its middle arm and the top half lands on the bottom half."},
+{"t": "How many lines of symmetry does the capital letter H have?", "n": 2, "e": "H folds both down the middle (vertical) and across the middle (horizontal)."},
+{"t": "How many lines of symmetry does the capital letter N have?", "n": 0, "e": "Fold N any way and the slanting stroke goes the wrong way — the halves don’t match."},
+{"t": "When you fold paper and cut out half a letter, the fold becomes the:", "o": ["Line of symmetry", "Edge of the paper", "Centre of turning", "Wrong side"], "e": "Both halves are cut together, so they match exactly on either side of the fold."},
+{"t": "A firki (paper windmill) with 4 blades looks the same after every quarter turn. What is its order of rotational symmetry?", "n": 4, "e": "It looks the same at 1/4, 1/2, 3/4 and full turn — 4 times in one full turn."},
+{"t": "What is the order of rotational symmetry of a square?", "n": 4, "e": "A square looks the same after every quarter turn, and 4 quarter turns fill a circle."},
+{"t": "Does looking the same after a FULL turn count as rotational symmetry?", "o": ["No — every shape looks the same after a full turn", "Yes, always"], "e": "A full turn puts every shape back where it started, so it tells us nothing."},
+{"t": "You fold a paper ONCE and cut a shape through both layers. How many matching pieces do you get?", "n": 2, "e": "One fold makes 2 layers, and the scissors cut both at once."},
+{"t": "Which digit has BOTH a vertical and a horizontal line of symmetry?", "o": ["8", "3", "7", "4"], "e": "8 folds onto itself both top-to-bottom and left-to-right. 3 only folds across the middle."}
+]},
+{"q": [
+{"t": "What is the order of rotational symmetry of an equilateral triangle?", "n": 3, "e": "It looks the same after 1/3 and 2/3 of a turn, and at the full turn — 3 times."},
+{"t": "What is the order of rotational symmetry of a regular hexagon?", "n": 6, "e": "It looks the same after every 1/6 of a turn — 6 times in a full turn."},
+{"t": "What is the order of rotational symmetry of the capital letter S?", "n": 2, "e": "S looks the same after a half turn, so 2 times in a full turn."},
+{"t": "The capital letter A has rotational symmetry of order:", "n": 1, "e": "A only looks the same after a full turn, so order 1 means no rotational symmetry."},
+{"t": "You fold a paper TWICE (in half, then in half again) and cut. How many matching pieces?", "n": 4, "k": "2*2", "e": "Each fold doubles the layers: 2, then 4."},
+{"t": "Which letter has rotational symmetry but NO line of symmetry?", "o": ["N", "A", "H", "T"], "e": "N looks the same after a half turn but cannot be folded onto itself."},
+{"t": "Which letter has NEITHER kind of symmetry?", "o": ["F", "H", "X", "O"], "e": "F cannot be folded or turned (less than a full turn) onto itself."},
+{"t": "The digit 3 (in plain print) has:", "o": ["Only a horizontal line of symmetry", "Only a vertical line of symmetry", "Both lines of symmetry", "No line of symmetry"], "e": "Fold 3 across the middle and the top bump lands on the bottom bump."},
+{"t": "The smallest turn that brings a shape back to the same look is 1/4 of a turn. What is its order?", "n": 4, "k": "1/F(1,4)", "e": "Repeat the 1/4 turn and it keeps working: 4 quarter turns fill the full turn."},
+{"t": "Which letter can be cut out with a quarter fold (folded twice)?", "o": ["X", "A", "E", "K"], "e": "A quarter fold always gives BOTH a vertical and a horizontal line. A, E and K have only one."}
+]},
+{"q": [
+{"t": "Turn the number 609 upside down (a half turn). What does it read?", "o": ["609", "906", "096", "690"], "e": "The 6 lands where the 9 was and becomes a 9, the 9 becomes a 6, and 0 stays 0."},
+{"t": "Which number looks the same after a half turn?", "o": ["69", "66", "99", "16"], "e": "Turned upside down, 69 still reads 69. 66 becomes 99 and 99 becomes 66."},
+{"t": "A design has symmetry at a quarter turn. You add one star. How many MORE stars must you add to keep the symmetry?", "n": 3, "e": "The star must also appear at the 1/4, 1/2 and 3/4 turn positions."},
+{"t": "A design has symmetry at a half turn (and not a quarter turn). You add one dot. How many MORE dots must you add?", "n": 1, "e": "One copy on the opposite side of the centre — the place the dot moves to after a half turn."},
+{"t": "Which letter has BOTH a line of symmetry and rotational symmetry?", "o": ["H", "A", "N", "F"], "e": "H folds onto itself and also looks the same after a half turn."},
+{"t": "The smallest turn that brings a shape back to the same look is 1/3 of a turn. What is its order?", "n": 3, "k": "1/F(1,3)", "e": "Three turns of 1/3 fill the whole circle."},
+{"t": "Which statement is TRUE?", "o": ["A shape can have rotational symmetry without any line of symmetry", "Every shape with a line of symmetry also has rotational symmetry", "Rotational symmetry needs a full turn", "No letter has rotational symmetry"], "e": "N is an example: it turns onto itself but cannot be folded onto itself."},
+{"t": "A carved block is stamped four times round a centre, each a quarter turn from the last. What is the order of rotational symmetry of the print?", "n": 4, "e": "A quarter turn moves each stamp onto the next, so the print matches itself 4 times in a turn."},
+{"t": "The word MOM, written in capitals, has:", "o": ["A vertical line of symmetry", "A horizontal line of symmetry", "No line of symmetry", "Two lines of symmetry"], "e": "A mirror down the middle of the O swaps the two Ms and keeps the O. M has no horizontal fold."},
+{"t": "Which number looks the same in a mirror stood upright down its middle (plain digits)?", "o": ["101", "121", "123", "609"], "e": "1 and 0 are symmetric digits, and 101 reads the same from both ends. A 2 or a 6 flips the wrong way."}
+]},
+{"q": [
+{"t": "What is the SMALLEST turn that makes a square look the same again?", "o": ["1/4 turn", "1/2 turn", "1/8 turn", "1/3 turn"], "e": "A square matches itself after every quarter turn, and nothing smaller works."},
+{"t": "A design has rotational symmetry of order 6. What is the smallest turn that makes it look the same?", "o": ["1/6 turn", "1/3 turn", "1/2 turn", "1/12 turn"], "e": "Order 6 means 6 equal turns fill the circle, so each is 1/6."},
+{"t": "A firki has 3 identical blades, equally spaced. What is its order of rotational symmetry?", "n": 3, "e": "A third of a turn moves each blade onto the next one."},
+{"t": "A pattern must have order 4. A child places 2 red dots on it. How many red dots must the finished pattern have?", "n": 8, "k": "2*4", "e": "Each dot needs copies at the 1/4, 1/2 and 3/4 positions — 4 of each, so 2 × 4 = 8."},
+{"t": "Which number looks the same after a half turn?", "o": ["8698", "6896", "8668", "1981"], "e": "Turn 8698 upside down: the order reverses and 6 and 9 swap, giving 8698 again."},
+{"t": "Which word has a HORIZONTAL line of symmetry through its middle?", "o": ["BOX", "MOM", "TOY", "CAT"], "e": "B, O and X each fold top onto bottom. M, T, Y, C and A do not."},
+{"t": "‘If a shape looks the same after a 1/4 turn, it also looks the same after a 1/2 turn.’ This is:", "o": ["Always true", "Sometimes true", "Never true"], "e": "A 1/2 turn is just two 1/4 turns, and each one keeps the shape the same."},
+{"t": "A shape looks the same after a 1/2 turn but NOT after a 1/4 turn. What is its order?", "n": 2, "e": "The smallest turn that works is 1/2, and two halves fill the circle."},
+{"t": "A rangoli has 8 identical petals, equally spaced round the centre. What is its order of rotational symmetry?", "n": 8, "e": "Each 1/8 turn moves every petal onto the next one."},
+{"t": "Which is TRUE about the letters A and N?", "o": ["A has only reflection symmetry; N has only rotational symmetry", "A has only rotational symmetry; N has only reflection symmetry", "Both have both kinds", "Neither has any symmetry"], "e": "A folds down the middle but doesn’t turn onto itself; N turns (half turn) but doesn’t fold."}
+]}
+]
+}

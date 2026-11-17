@@ -1,0 +1,53 @@
+{
+"title": "14. Maps and Locations",
+"tests": [
+{"q": [
+{"t": "In the morning you face the rising Sun. Which direction are you facing?", "o": ["East", "West", "North", "South"], "e": "The Sun rises in the east."},
+{"t": "The Sun sets in the:", "o": ["West", "East", "North", "South"], "e": "It rises in the east and sets on the opposite side, the west."},
+{"t": "You face east. Which direction is your LEFT hand pointing?", "o": ["North", "South", "West", "East"], "e": "N, E, S, W go clockwise. North is a quarter turn anticlockwise from east — your left."},
+{"t": "You face east. Which direction is your RIGHT hand pointing?", "o": ["South", "North", "West", "East"], "e": "South is a quarter turn clockwise from east — your right."},
+{"t": "You face east. Which direction is behind you?", "o": ["West", "North", "South", "East"], "e": "Behind you is a half turn away, the opposite direction."},
+{"t": "On a map with north at the top, the RIGHT side of the page is:", "o": ["East", "West", "North", "South"], "e": "A quarter turn clockwise from north (up) is east (right)."},
+{"t": "The part of a map that tells you what each symbol means is the:", "o": ["Key", "Scale", "North arrow", "Title"], "e": "The key (legend) explains the symbols and colours."},
+{"t": "On a grid, the point (4, 1) means:", "o": ["4 across, then 1 up", "1 across, then 4 up", "4 across, then 4 up", "1 across, then 1 up"], "e": "The rule is across first, then up."},
+{"t": "Going clockwise, the directions are in which order?", "o": ["North, East, South, West", "North, West, South, East", "North, South, East, West", "East, North, West, South"], "e": "‘Never Eat Soggy Wheat’ — N, E, S, W clockwise."},
+{"t": "You are going north and turn right. Which way are you going now?", "o": ["East", "West", "South", "North"], "e": "A right turn is a quarter turn clockwise, and clockwise from north is east."}
+]},
+{"q": [
+{"t": "You are going east and turn right. Which way now?", "o": ["South", "North", "West", "East"], "e": "One step clockwise from east is south."},
+{"t": "You are going south and turn right. Which way now?", "o": ["West", "East", "North", "South"], "e": "One step clockwise from south is west."},
+{"t": "You are going north and turn left. Which way now?", "o": ["West", "East", "South", "North"], "e": "A left turn is a quarter turn anticlockwise: north → west."},
+{"t": "You are going west and turn left. Which way now?", "o": ["South", "North", "East", "West"], "e": "Anticlockwise from west is south."},
+{"t": "An ant walks along grid lines only east and north, from (0, 0) to (3, 2). How many steps does it take?", "n": 5, "k": "3+2", "e": "It must make 3 steps across and 2 steps up, in any order."},
+{"t": "How many grid steps (east and north only) from (2, 1) to (7, 5)?", "n": 9, "k": "(7-2)+(5-1)", "e": "5 across and 4 up: 5 + 4 = 9."},
+{"t": "Why do maps use north, south, east and west instead of left and right?", "o": ["Left and right change with the way you face; north does not", "Left and right are harder to spell", "Maps have no left side", "North is always to the left"], "e": "Two people back to back point ‘left’ in opposite ways, but they agree on north."},
+{"t": "A metro map mainly shows:", "o": ["Which stations connect, not true distances", "The exact distance between stations", "Where every house is", "How tall the buildings are"], "e": "Lines are drawn straight and neat on purpose, so distances on it are not true."},
+{"t": "In the evening you face the setting Sun. Which way does your LEFT hand point?", "o": ["South", "North", "East", "West"], "e": "You face west. A quarter turn anticlockwise from west is south."},
+{"t": "Are (4, 1) and (1, 4) the same point?", "o": ["No — (4, 1) is 4 across and 1 up; (1, 4) is 1 across and 4 up", "Yes, they use the same numbers", "Yes, the order does not matter", "No, (1, 4) is not on a grid"], "e": "The first number is always across and the second is always up."}
+]},
+{"q": [
+{"t": "You are going north and turn right twice. Which way are you going now?", "o": ["South", "East", "West", "North"], "e": "Two quarter turns make a half turn, which points you the opposite way."},
+{"t": "You are going east and turn left, then left again. Which way now?", "o": ["West", "North", "South", "East"], "e": "Two left turns are a half turn: from east to the opposite, west."},
+{"t": "How many grid steps (east and north only) from (0, 0) to (4, 3)?", "n": 7, "k": "4+3", "e": "4 across + 3 up, whatever order the steps are in."},
+{"t": "How many grid steps (east and north only) from (1, 2) to (5, 6)?", "n": 8, "k": "(5-1)+(6-2)", "e": "4 across and 4 up."},
+{"t": "Start at (2, 3). Move 3 steps east, then 2 steps north. Where are you?", "o": ["(5, 5)", "(5, 3)", "(4, 6)", "(3, 5)"], "e": "East adds to the first number: 2 + 3 = 5. North adds to the second: 3 + 2 = 5."},
+{"t": "Route A has 8 stations and 2 changes. Route B has 11 stations and no change. Each station takes 2 min and each change takes 10 min. Which is quicker?", "o": ["Route B (22 min)", "Route A (36 min)", "They take the same time"], "e": "A: 8 × 2 + 2 × 10 = 36 min. B: 11 × 2 = 22 min. Fewest stations is not always fastest."},
+{"t": "You face south. Which direction is behind you?", "o": ["North", "East", "West", "South"], "e": "Behind you is the opposite direction."},
+{"t": "You are going north and make 3 right turns. Which way are you going?", "o": ["West", "East", "South", "North"], "e": "Clockwise three steps: north → east → south → west."},
+{"t": "On a map, 1 cm stands for 100 m. Two places are 7 cm apart on the map. How far apart are they really, in m?", "n": 700, "u": "m", "k": "7*100", "e": "Each map centimetre is 100 m, so 7 cm is 7 × 100 m."},
+{"t": "On a map, the north arrow points to the LEFT of the page. Which direction is the TOP of the page?", "o": ["East", "North", "West", "South"], "e": "Clockwise from north comes east — and clockwise from the left of the page is the top."}
+]},
+{"q": [
+{"t": "A robot starts at (0, 0) facing north. It moves 3, turns right, moves 4, turns right, moves 1. Where is it?", "o": ["(4, 2)", "(4, 4)", "(3, 4)", "(2, 4)"], "e": "North 3 → (0, 3). Right turn → east, 4 → (4, 3). Right turn → south, 1 → (4, 2)."},
+{"t": "In that robot trip, which way is the robot facing at the end?", "o": ["South", "North", "East", "West"], "e": "North, then right to east, then right to south."},
+{"t": "An ant goes from (2, 1) to (6, 4), then on to (8, 8), using east and north steps. How many steps in all?", "n": 13, "k": "(6-2)+(4-1)+(8-6)+(8-4)", "e": "First leg 4 + 3 = 7. Second leg 2 + 4 = 6. Total 13."},
+{"t": "On a map, 1 cm stands for 50 m. Riya’s school is 6 cm from her home on the map. She walks there and back. How far, in m?", "n": 600, "u": "m", "k": "2*6*50", "e": "One way is 6 × 50 = 300 m; there and back is 600 m."},
+{"t": "You are going west. You turn right, then right again, then left. Which way are you going now?", "o": ["North", "South", "East", "West"], "e": "West → right → north → right → east → left → north."},
+{"t": "Route X has 9 stations and 1 change. Route Y has 6 stations and 2 changes. Each station takes 3 min and each change takes 5 min. How many minutes does the quicker route save?", "n": 4, "u": "min", "k": "(9*3+1*5)-(6*3+2*5)", "e": "X: 27 + 5 = 32 min. Y: 18 + 10 = 28 min. Y saves 4 minutes."},
+{"t": "Pranav faces the rising Sun and then makes a half turn. Which way does he face?", "o": ["West", "East", "North", "South"], "e": "He faced east; a half turn points him the opposite way."},
+{"t": "How many different shortest routes (east and north steps only) are there from (0, 0) to (2, 1)?", "n": 3, "e": "The routes are E E N, E N E and N E E — always 2 east and 1 north, in a different order."},
+{"t": "How many grid steps (along grid lines) between (3, 5) and (5, 3)?", "n": 4, "k": "abs(5-3)+abs(3-5)", "e": "2 steps across and 2 steps up or down: 2 + 2 = 4."},
+{"t": "Riya walks 4 km north, then 3 km east, then 4 km south. Where is she now from where she started?", "o": ["3 km east", "11 km north", "3 km west", "7 km east"], "e": "The 4 km north and 4 km south cancel out, leaving only the 3 km east."}
+]}
+]
+}

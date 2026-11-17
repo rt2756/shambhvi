@@ -1,0 +1,53 @@
+{
+"title": "9. Coconut Farm",
+"tests": [
+{"q": [
+{"t": "Find 35 ÷ 7.", "n": 5, "k": "35//7", "e": "5 × 7 = 35, so 35 split into 7 equal groups gives 5 in each."},
+{"t": "5 × 7 = 35. What is 35 ÷ 5?", "n": 7, "k": "35//5", "e": "One multiplication fact gives two division facts — read the array by rows or by columns."},
+{"t": "Find 400 ÷ 10.", "n": 40, "k": "400//10", "e": "Dividing by 10 moves each digit one place to the right."},
+{"t": "Find 1,000 ÷ 100.", "n": 10, "k": "1000//100", "e": "100 × 10 = 1,000."},
+{"t": "Find 128 ÷ 4. (Hint: halve twice.)", "n": 32, "k": "128//4", "e": "Half of 128 is 64, half of 64 is 32. Halving twice makes 4 equal groups."},
+{"t": "30 ÷ 4 gives quotient 7. What is the remainder?", "n": 2, "k": "30%4", "e": "4 × 7 = 28, and 30 − 28 = 2 is left over."},
+{"t": "In a division, the remainder must always be:", "o": ["Smaller than the divisor", "Bigger than the divisor", "Equal to the divisor", "Zero"], "e": "If it were as big as the divisor, you could share out one more full round."},
+{"t": "Find 860 ÷ 86.", "n": 10, "k": "860//86", "e": "86 × 10 = 860."},
+{"t": "Find 2,000 ÷ 2.", "n": 1000, "k": "2000//2", "e": "Half of 2 thousands is 1 thousand."},
+{"t": "48 coconuts are put into 6 equal heaps. How many in each heap?", "n": 8, "k": "48//6", "e": "6 × 8 = 48."}
+]},
+{"q": [
+{"t": "Find 1,248 ÷ 6.", "n": 208, "k": "1248//6", "e": "Split: 1,200 ÷ 6 = 200 and 48 ÷ 6 = 8; 200 + 8 = 208."},
+{"t": "Find 1,992 ÷ 4.", "n": 498, "k": "1992//4", "e": "1,992 = 2,000 − 8: 500 − 2 = 498."},
+{"t": "Find 168 ÷ 8. (Hint: halve three times.)", "n": 21, "k": "168//8", "e": "168 → 84 → 42 → 21. Three halvings make 8 equal groups."},
+{"t": "582 coconuts are sold equally to 6 customers. How many does each get?", "n": 97, "k": "582//6", "e": "Take away 6 × 90 = 540, leaving 42 = 6 × 7. So 90 + 7 = 97."},
+{"t": "726 ÷ 4 gives quotient 181. What is the remainder?", "n": 2, "k": "726%4", "e": "4 × 181 = 724, and 726 − 724 = 2."},
+{"t": "Find 545 ÷ 5.", "n": 109, "k": "545//5", "e": "Split: 500 ÷ 5 = 100 and 45 ÷ 5 = 9."},
+{"t": "Find 324 ÷ 3.", "n": 108, "k": "324//3", "e": "3 hundreds ÷ 3 = 1 hundred; 2 tens can’t be shared so they become 20 ones; 24 ÷ 3 = 8. Don’t drop the 0!"},
+{"t": "Find 3,005 ÷ 5.", "n": 601, "k": "3005//5", "e": "30 hundreds ÷ 5 = 6 hundreds, no whole tens, then 5 ÷ 5 = 1. The 0 records ‘no tens’."},
+{"t": "352 ÷ 11 = 32. What is 704 ÷ 22?", "n": 32, "k": "704//22", "e": "Both numbers were doubled — twice the coconuts in twice as many groups gives the same in each."},
+{"t": "Find 900 ÷ 15.", "n": 60, "k": "900//15", "e": "15 × 60 = 900, from the fact family of 15 × 60."}
+]},
+{"q": [
+{"t": "4,376 coconuts make oil, 8 coconuts for each litre. How many litres?", "n": 547, "u": "L", "k": "4376//8", "e": "Take away chunks: 8 × 500 = 4,000, 8 × 40 = 320, 8 × 7 = 56. 500 + 40 + 7 = 547."},
+{"t": "What is the quotient of 902 ÷ 16?", "n": 56, "k": "902//16", "e": "16 × 56 = 896, and 902 − 896 = 6 is less than 16."},
+{"t": "What is the remainder of 767 ÷ 26?", "n": 13, "k": "767%26", "e": "26 × 29 = 754, and 767 − 754 = 13."},
+{"t": "342 students go on a trip. Each bus holds 41. How many buses are needed?", "n": 9, "k": "-(-342//41)", "e": "342 ÷ 41 = 8 remainder 14. The 14 children left still need a bus, so 9."},
+{"t": "535 coconuts are packed 25 to a bag. How many bags can be FILLED completely?", "n": 21, "k": "535//25", "e": "535 ÷ 25 = 21 remainder 10. Only 21 bags are full."},
+{"t": "535 coconuts are packed 25 to a bag. How many coconuts are left over?", "n": 10, "k": "535%25", "e": "25 × 21 = 525, and 535 − 525 = 10."},
+{"t": "Find 7,032 ÷ 6.", "n": 1172, "k": "7032//6", "e": "Check by multiplying back: 1,172 × 6 = 7,032."},
+{"t": "Find 648 ÷ 12.", "n": 54, "k": "648//12", "e": "Split: 600 ÷ 12 = 50 and 48 ÷ 12 = 4."},
+{"t": "Which statement is TRUE?", "o": ["48 ÷ 3 = 4 × 4", "20 − 6 = 7 × 3", "89 − 9 = 90 + 0", "8 × 9 = 70 + 1"], "e": "Both sides must have the same value: 48 ÷ 3 = 16 and 4 × 4 = 16."},
+{"t": "What is the quotient of 2,874 ÷ 14?", "n": 205, "k": "2874//14", "e": "14 × 200 = 2,800, leaving 74; 14 × 5 = 70, leaving 4. No whole tens fit, so the tens digit is 0."}
+]},
+{"q": [
+{"t": "Each table needs 4 legs, 1 top and 8 screws. There are 90 legs, 25 tops and 160 screws. How many tables can be made?", "n": 20, "k": "min(90//4,25//1,160//8)", "e": "Legs allow 22, tops 25, screws 20. Every table needs all parts, so the screws set the limit."},
+{"t": "475 people have tickets. A show seats 45 and there are 2 shows a day. How many days are needed?", "n": 6, "k": "-(-(-(-475//45))//2)", "e": "475 ÷ 45 = 10 r 25, so 11 shows. 11 ÷ 2 = 5 r 1, so 6 days."},
+{"t": "1,000 coconuts are packed 12 to a box. How many boxes are needed for all of them?", "n": 84, "k": "-(-1000//12)", "e": "1,000 ÷ 12 = 83 remainder 4. The last 4 still need a box: 84."},
+{"t": "A farmer has 2,450 coconuts. He sells full bags of 50 at ₹600 per bag. How much money does he get?", "n": 29400, "u": "₹", "k": "2450//50*600", "e": "2,450 ÷ 50 = 49 bags, and 49 × 600 = 29,400."},
+{"t": "A number divided by 7 gives quotient 125 and remainder 4. What is the number?", "n": 879, "k": "7*125+4", "e": "N = D × Q + R = 7 × 125 + 4 = 875 + 4."},
+{"t": "Find 9,648 ÷ 48.", "n": 201, "k": "9648//48", "e": "Split: 9,600 ÷ 48 = 200 and 48 ÷ 48 = 1."},
+{"t": "What is the remainder when 1,000 is divided by 7?", "n": 6, "k": "1000%7", "e": "7 × 142 = 994, and 1,000 − 994 = 6."},
+{"t": "‘Halving a number gives an even number.’ This is:", "o": ["Sometimes true", "Always true", "Never true"], "e": "Half of 8 is 4 (even), but half of 6 is 3 (odd)."},
+{"t": "‘Multiplying a number by 2 gives an odd number.’ This is:", "o": ["Never true", "Always true", "Sometimes true"], "e": "Doubling makes two equal groups, so the answer always splits into 2 exactly — it is even."},
+{"t": "3,600 coconuts are shared equally among 8 families. Each family shares its coconuts equally among 3 children. How many does each child get?", "n": 150, "k": "3600//8//3", "e": "3,600 ÷ 8 = 450 per family, then 450 ÷ 3 = 150 per child."}
+]}
+]
+}

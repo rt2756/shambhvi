@@ -1,0 +1,53 @@
+{
+"title": "11. Grandmother’s Quilt",
+"tests": [
+{"q": [
+{"t": "Find the perimeter of a square of side 4 cm.", "n": 16, "u": "cm", "k": "4*4", "e": "Walk round all four equal sides: 4 + 4 + 4 + 4 = 16."},
+{"t": "Find the area of a rectangle 6 cm long and 4 cm wide.", "n": 24, "u": "sq cm", "k": "6*4", "e": "4 rows of 6 unit squares: 6 × 4 = 24 square cm."},
+{"t": "Find the area of a square of side 5 cm.", "n": 25, "u": "sq cm", "k": "5*5", "e": "5 rows of 5 unit squares."},
+{"t": "Find the perimeter of a rectangle 6 cm long and 4 cm wide.", "n": 20, "u": "cm", "k": "2*(6+4)", "e": "Two lengths and two breadths: 6 + 4 + 6 + 4 = 20."},
+{"t": "Area is measured in:", "o": ["Square cm", "cm", "kg", "Litres"], "e": "Area counts unit squares, so its unit is a square unit."},
+{"t": "Which shape CANNOT cover a table without gaps?", "o": ["Circle", "Square", "Rectangle", "Triangle"], "e": "Circles always leave curved gaps between them."},
+{"t": "A patchwork quilt has 6 rows of 4 patches. How many patches?", "n": 24, "k": "6*4", "e": "Don’t count one by one — 6 rows of 4 is 6 × 4."},
+{"t": "A 5-sided shape has all sides 5 cm. What is its perimeter?", "n": 25, "u": "cm", "k": "5*5", "e": "All sides equal, so perimeter = number of sides × one side."},
+{"t": "The perimeter of a shape is:", "o": ["The length all round its border", "The space inside it", "Its longest side", "The number of corners"], "e": "Perimeter is like the lace sewn all round the edge of the quilt."},
+{"t": "What is the area of a square of side 1 cm?", "n": 1, "u": "sq cm", "e": "That is the unit square itself — 1 square centimetre."}
+]},
+{"q": [
+{"t": "A rectangle has perimeter 26 cm. What is its length + breadth?", "n": 13, "u": "cm", "k": "26//2", "e": "The border is length + breadth twice, so halve the perimeter."},
+{"t": "A rectangle has area 64 square m and length 16 m. Find its breadth.", "n": 4, "u": "m", "k": "64//16", "e": "16 × breadth = 64, so breadth = 64 ÷ 16."},
+{"t": "Find the perimeter of a rectangle 1 cm by 12 cm.", "n": 26, "u": "cm", "k": "2*(1+12)", "e": "1 + 12 + 1 + 12 = 26."},
+{"t": "Find the perimeter of a rectangle 3 cm by 4 cm.", "n": 14, "u": "cm", "k": "2*(3+4)", "e": "3 + 4 + 3 + 4 = 14."},
+{"t": "A square has perimeter 20 cm. How long is each side?", "n": 5, "u": "cm", "k": "20//4", "e": "4 equal sides share the 20 cm: 20 ÷ 4 = 5."},
+{"t": "Find the area of a rectangle 3 cm by 5 cm.", "n": 15, "u": "sq cm", "k": "3*5", "e": "3 rows of 5 unit squares."},
+{"t": "Four unit squares are joined in a straight line. What is the perimeter (in units)?", "n": 10, "k": "2*(4+1)", "e": "It is a 4 by 1 rectangle: 4 + 1 + 4 + 1 = 10."},
+{"t": "Four unit squares are joined into a 2 by 2 block. What is the perimeter (in units)?", "n": 8, "k": "2*(2+2)", "e": "2 + 2 + 2 + 2 = 8. Same area as a line of 4, but less edge."},
+{"t": "Which has the BIGGER area: a 1 cm by 12 cm rectangle or a 4 cm by 4 cm square?", "o": ["The 4 cm by 4 cm square", "The 1 cm by 12 cm rectangle", "They are equal"], "e": "12 square cm against 16 square cm — even though the rectangle has a longer border."},
+{"t": "Why do we use squares as the unit for area?", "o": ["They fit in neat rows and columns with no gaps", "They are round", "They are the smallest shape", "They have 3 sides"], "e": "Rows and columns turn counting into multiplying, and squares leave no gaps."}
+]},
+{"q": [
+{"t": "A shape is made of a 10 cm by 4 cm rectangle on top of a 5 cm by 6 cm rectangle. Find its total area.", "n": 70, "u": "sq cm", "k": "10*4+5*6", "e": "Areas of separate pieces add up: 40 + 30 = 70."},
+{"t": "Which rectangle has a perimeter of 18 cm?", "o": ["4 cm by 5 cm", "4 cm by 9 cm", "3 cm by 3 cm", "2 cm by 9 cm"], "e": "Length + breadth must be half of 18 = 9, and only 4 + 5 = 9."},
+{"t": "Of all rectangles with perimeter 16 cm (whole-number sides), what is the BIGGEST area?", "n": 16, "u": "sq cm", "k": "max(a*(8-a) for a in range(1,8))", "e": "L + B = 8. The squarest one, 4 by 4, has the biggest area."},
+{"t": "All of these have area 12 square cm. Which has the SMALLEST perimeter?", "o": ["3 cm by 4 cm", "2 cm by 6 cm", "1 cm by 12 cm"], "e": "Perimeters are 14, 16 and 26 cm. The squarest shape has the least edge."},
+{"t": "A square has area 49 square cm. Find its perimeter.", "n": 28, "u": "cm", "k": "4*7", "e": "7 × 7 = 49, so each side is 7 cm and 4 × 7 = 28."},
+{"t": "A floor 8 m by 6 m is covered with square tiles of side 1 m. How many tiles?", "n": 48, "k": "8*6", "e": "8 tiles in a row and 6 rows: 8 × 6."},
+{"t": "‘A shape with more area always has more perimeter.’ Is this true?", "o": ["No — a 4 by 4 square has more area but less perimeter than a 1 by 12 rectangle", "Yes, always", "Yes, for rectangles", "No, area and perimeter are always equal"], "e": "One counter-example is enough to show an ‘always’ statement is false."},
+{"t": "A rectangle has area 36 square cm and breadth 4 cm. Find its perimeter.", "n": 26, "u": "cm", "k": "2*(36//4+4)", "e": "Length = 36 ÷ 4 = 9, then 9 + 4 + 9 + 4 = 26."},
+{"t": "A quilt is 200 cm long and 150 cm wide. How much lace goes all round it, in cm?", "n": 700, "u": "cm", "k": "2*(200+150)", "e": "Lace goes round the border: 200 + 150 + 200 + 150."},
+{"t": "Two squares of side 3 cm are put side by side to make a rectangle. Find its perimeter.", "n": 18, "u": "cm", "k": "2*(6+3)", "e": "The rectangle is 6 cm by 3 cm: 6 + 3 + 6 + 3 = 18. The shared side is inside, so it is not counted."}
+]},
+{"q": [
+{"t": "A room is 5 m by 4 m. Square tiles of side 1 m cost ₹120 each. What does it cost to tile the floor?", "n": 2400, "u": "₹", "k": "5*4*120", "e": "The floor needs 5 × 4 = 20 tiles, and 20 × 120 = 2,400."},
+{"t": "A garden 12 m by 8 m is fenced with wire going round it 3 times. How much wire, in m?", "n": 120, "u": "m", "k": "3*2*(12+8)", "e": "Once round is 12 + 8 + 12 + 8 = 40 m; three times is 120 m."},
+{"t": "From a rectangle 8 cm by 6 cm, a 3 cm by 2 cm piece is cut from one corner. Find the area left.", "n": 42, "u": "sq cm", "k": "8*6-3*2", "e": "48 − 6 = 42 — the cut-out squares are simply gone."},
+{"t": "For the same shape (8 cm by 6 cm with a 3 cm by 2 cm corner cut out), what is the perimeter?", "n": 28, "u": "cm", "k": "2*(8+6)", "e": "The two new edges of the notch (3 cm and 2 cm) replace the two bits of border cut away, so the perimeter stays 28."},
+{"t": "Two rectangles, each 6 cm by 2 cm, are joined along a long side. How much LESS is the new perimeter than the two perimeters added?", "n": 12, "u": "cm", "k": "2*2*(6+2)-2*(6+4)", "e": "Separately: 16 + 16 = 32. Joined (6 by 4): 20. The 6 cm join is lost from both shapes: 32 − 20 = 12."},
+{"t": "A square field has perimeter 64 m. Find its area.", "n": 256, "u": "sq m", "k": "(64//4)**2", "e": "Side = 64 ÷ 4 = 16 m, and 16 × 16 = 256."},
+{"t": "A rectangle has perimeter 30 cm, and its length is twice its breadth. Find its area.", "n": 50, "u": "sq cm", "k": "10*5", "e": "L + B = 15 and L = 2 × B, so B = 5 and L = 10. Area = 10 × 5."},
+{"t": "A quilt has 9 rows of 12 square patches. Each patch is a square of side 10 cm. What is the area of the quilt, in square cm?", "n": 10800, "u": "sq cm", "k": "9*12*10*10", "e": "9 × 12 = 108 patches, and each patch is 10 × 10 = 100 square cm."},
+{"t": "That quilt is 120 cm long and 90 cm wide. How much lace goes round it, in cm?", "n": 420, "u": "cm", "k": "2*(120+90)", "e": "120 + 90 + 120 + 90 = 420."},
+{"t": "Which rectangle has the same area as a 6 cm by 6 cm square but a BIGGER perimeter?", "o": ["9 cm by 4 cm", "5 cm by 7 cm", "6 cm by 6 cm", "3 cm by 10 cm"], "e": "9 × 4 = 36 like the square, and its perimeter is 26 cm, more than 24 cm. 5 × 7 and 3 × 10 don’t make 36."}
+]}
+]
+}

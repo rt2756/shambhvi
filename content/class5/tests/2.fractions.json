@@ -1,0 +1,53 @@
+{
+"title": "2. Fractions",
+"tests": [
+{"q": [
+{"t": "Which fraction is equal to 1/2?", "o": ["2/4", "2/3", "1/4", "3/4"], "k": "F(1,2)", "e": "Cut each half into 2 pieces: 1 half becomes 2 quarters, so 1/2 = 2/4."},
+{"t": "Which is bigger: 2/5 or 4/5 of the same cake?", "o": ["4/5", "2/5"], "k": "max(F(2,5),F(4,5))", "e": "Same bottom number means same-size pieces, so 4 pieces beat 2 pieces."},
+{"t": "Which is bigger: 1/3 or 1/4 of the same cake?", "o": ["1/3", "1/4"], "k": "max(F(1,3),F(1,4))", "e": "Cutting into 3 gives bigger pieces than cutting into 4."},
+{"t": "How many halves make one whole?", "n": 2, "e": "A whole cut into 2 equal parts gives 2 halves."},
+{"t": "1/3 = ▢/6. What is ▢?", "n": 2, "k": "F(1,3)*6", "e": "The bottom was multiplied by 2 (3 → 6), so the top must be too: 1 × 2 = 2."},
+{"t": "Maa takes 5 pieces, each 1/2 of a paratha. How many parathas is that?", "o": ["2 1/2", "5 1/2", "1 1/2", "2 1/5"], "k": "F(5,2)", "e": "2 halves make 1 whole, so 5 halves = 2 wholes and 1 half left over."},
+{"t": "How many quarters are there in 2 wholes?", "n": 8, "k": "2*4", "e": "Each whole has 4 quarters, so 2 wholes have 4 + 4 = 8."},
+{"t": "6/2 is how many wholes?", "n": 3, "k": "F(6,2)", "e": "2 halves make a whole, and 6 halves make 3 such wholes."},
+{"t": "A pizza is cut into 8 equal slices and Raju eats 3. What fraction did he eat?", "o": ["3/8", "3/5", "5/8", "8/3"], "k": "F(3,8)", "e": "The bottom counts all 8 equal slices; the top counts the 3 he ate."},
+{"t": "In the fraction 3/7, what does the 7 tell us?", "o": ["How many equal parts the whole is cut into", "How many parts are taken", "How many wholes there are", "How big the cake is"], "e": "The bottom number counts the equal pieces in the whole; the top counts the pieces you have."}
+]},
+{"q": [
+{"t": "2/5 = ▢/10. What is ▢?", "n": 4, "k": "F(2,5)*10", "e": "5 × 2 = 10, so multiply the top by 2 as well: 2 × 2 = 4."},
+{"t": "3/4 = 12/▢. What is ▢?", "n": 16, "k": "12/F(3,4)", "e": "3 × 4 = 12 on top, so the bottom is 4 × 4 = 16."},
+{"t": "Which fraction is NOT equal to 1/3?", "o": ["2/4", "2/6", "3/9", "4/12"], "e": "2/6, 3/9 and 4/12 are 1/3 with top and bottom multiplied by the same number. 2/4 is equal to 1/2."},
+{"t": "Which is the biggest: 3/7, 3/5, 3/10, 3/8?", "o": ["3/5", "3/7", "3/10", "3/8"], "k": "max(F(3,7),F(3,5),F(3,10),F(3,8))", "e": "Same top number: the smallest bottom means the biggest pieces."},
+{"t": "Which is the smallest: 5/9, 2/9, 7/9, 4/9?", "o": ["2/9", "5/9", "7/9", "4/9"], "k": "min(F(5,9),F(2,9),F(7,9),F(4,9))", "e": "Same bottom number: the pieces are the same size, so fewest pieces is smallest."},
+{"t": "Write 9/4 as wholes and a part.", "o": ["2 1/4", "4 1/2", "2 3/4", "1 1/4"], "k": "F(9,4)", "e": "4 quarters make a whole. 9 = 4 + 4 + 1, so 2 wholes and 1 quarter."},
+{"t": "7 half-parathas make how many parathas?", "o": ["3 1/2", "2 1/2", "3 1/4", "7 1/2"], "k": "F(7,2)", "e": "6 halves make 3 parathas, and 1 half is left over."},
+{"t": "Are 6/9 and 2/3 equivalent?", "o": ["Yes — divide top and bottom of 6/9 by 3", "No — 6 is not 2", "No — you must add 4 to get 6", "Yes — take 4 away from top and bottom"], "e": "6 ÷ 3 = 2 and 9 ÷ 3 = 3, so 6/9 is just 2/3 cut into smaller pieces."},
+{"t": "1/2 = ▢/100. What is ▢?", "n": 50, "k": "F(1,2)*100", "e": "2 × 50 = 100, so multiply the top by 50 too: 1 × 50 = 50."},
+{"t": "Sevi ate 4/6 of a paratha and Shami ate 4/5 of a same-size paratha. Who ate more?", "o": ["Shami", "Sevi", "Both ate the same"], "e": "Both ate 4 pieces, but fifths are bigger than sixths, so Shami’s 4 pieces were more."}
+]},
+{"q": [
+{"t": "2/5 = 6/▢. What is ▢?", "n": 15, "k": "6/F(2,5)", "e": "2 × 3 = 6 on top, so the bottom is 5 × 3 = 15."},
+{"t": "Which pair of fractions is equivalent?", "o": ["3/5 and 12/20", "2/3 and 3/4", "1/3 and 2/4", "4/12 and 2/4"], "e": "3 × 4 = 12 and 5 × 4 = 20, so 12/20 is 3/5 with each piece cut into 4."},
+{"t": "Tamanna says 1/3 of her big chocolate is more than 1/2 of her small chocolate. Can she be right?", "o": ["Yes — the two wholes are different sizes", "No, 1/2 is always more than 1/3", "Yes, 1/3 is always more than 1/2", "No, 1/2 and 1/3 are equal"], "e": "A fraction is a share of something. We can only compare fractions of the SAME whole."},
+{"t": "Maa takes 5 pieces, each 1/4 of a roti. How many rotis is that?", "o": ["1 1/4", "2 1/2", "1 1/5", "5 1/4"], "k": "F(5,4)", "e": "4 quarters make 1 roti, and 1 quarter is left: 1 1/4."},
+{"t": "How many 1/3 pieces make 2 whole chikkis?", "n": 6, "k": "2*3", "e": "Each chikki gives 3 thirds, so 2 chikkis give 3 + 3 = 6."},
+{"t": "Which fraction is greater than 1?", "o": ["7/6", "6/7", "1/2", "5/8"], "k": "F(7,6)", "e": "When the top is bigger than the bottom, you have more pieces than make one whole."},
+{"t": "11/4 lies between which two whole numbers?", "o": ["2 and 3", "1 and 2", "3 and 4", "11 and 12"], "e": "8 quarters make 2 and 12 quarters make 3; 11 quarters is in between."},
+{"t": "Raju says 1/3 = 2/4 because he added 1 to the top and the bottom. Is he right?", "o": ["No — you must multiply top and bottom by the same number", "Yes — adding the same number is fine", "Yes — 2/4 is a bigger fraction", "No — you must take away 1"], "e": "Adding changes the share. 1/3 = 2/6 (both × 2), but 2/4 = 1/2, which is bigger than 1/3."},
+{"t": "A ribbon is cut into 8 equal parts. 3 parts are red, 4 parts are blue and the rest are yellow. What fraction is yellow?", "o": ["1/8", "7/8", "1/4", "3/8"], "k": "F(8-3-4,8)", "e": "3 + 4 = 7 parts are red or blue, so 8 − 7 = 1 part out of 8 is yellow."},
+{"t": "On a number line marked in halves starting at 0, what is the 7th mark after 0?", "o": ["3 1/2", "7", "2 1/2", "3"], "k": "F(7,2)", "e": "Each mark is 1/2 more. 7 halves = 3 wholes and 1 half."}
+]},
+{"q": [
+{"t": "A cake is cut into 12 equal parts. Asha eats 1/4 of the cake. How many parts does she eat?", "n": 3, "k": "12*F(1,4)", "e": "1/4 = 3/12, because 4 × 3 = 12 — so 1 quarter is 3 of the twelfths."},
+{"t": "Mohan eats 2/6 of a pizza and Leela eats 1/3 of a same-size pizza. Who ate more?", "o": ["They ate the same amount", "Mohan ate more", "Leela ate more"], "e": "2/6 = 1/3 (divide top and bottom by 2), so they ate the same share."},
+{"t": "Put 2/3, 2/5, 2/9 in order from smallest. Which is in the MIDDLE?", "o": ["2/5", "2/3", "2/9"], "k": "sorted([F(2,3),F(2,5),F(2,9)])[1]", "e": "Same top number: the bigger the bottom, the smaller the pieces. 2/9 < 2/5 < 2/3."},
+{"t": "5 cakes are shared equally among 20 children. What fraction of a cake does each child get?", "o": ["1/4", "1/5", "4", "1/20"], "k": "F(5,20)", "e": "Each cake is cut into 4 equal parts to make 20 pieces in all, so each child gets 1/4."},
+{"t": "9 ribbon pieces, each 1/2 m long, are joined end to end. How long is the ribbon?", "o": ["4 1/2 m", "9 m", "4 m", "5 1/2 m"], "k": "F(9,2)", "e": "2 halves make 1 m, so 9 halves = 4 m and 1 half left."},
+{"t": "A full tank of water fills 4 buckets. How many buckets do 2 3/4 tanks fill?", "n": 11, "k": "4*(2+F(3,4))", "e": "2 tanks fill 8 buckets, and 3/4 of a tank fills 3 buckets: 8 + 3 = 11."},
+{"t": "Which fraction lies between 1/2 and 1?", "o": ["3/4", "1/4", "2/5", "5/4"], "k": "F(3,4)", "e": "1/2 = 2/4, and 3/4 is one more quarter but still less than 4/4 = 1."},
+{"t": "3/4 = 15/▢. What is ▢?", "n": 20, "k": "15/F(3,4)", "e": "3 × 5 = 15 on top, so the bottom is 4 × 5 = 20."},
+{"t": "Ravi cuts a chapati into 6 equal pieces and eats 3. Sita cuts a same-size chapati into 4 equal pieces and eats 2. Who ate more?", "o": ["Both ate the same", "Ravi ate more", "Sita ate more"], "e": "3/6 and 2/4 are both equal to 1/2 — each ate half a chapati."},
+{"t": "How many 1/4 kg packets are needed to make 3 kg?", "n": 12, "k": "3*4", "e": "4 quarter-kg packets make 1 kg, so 3 kg needs 4 + 4 + 4 = 12."}
+]}
+]
+}

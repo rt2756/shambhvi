@@ -1,0 +1,53 @@
+{
+"title": "13. Animal Jumps",
+"tests": [
+{"q": [
+{"t": "Which of these is a factor of 12?", "o": ["4", "5", "7", "8"], "e": "12 counters make 3 rows of 4, so 4 divides 12 exactly."},
+{"t": "Which of these is a multiple of 3?", "o": ["12", "13", "14", "16"], "e": "3 × 4 = 12."},
+{"t": "Is 13 a prime number?", "o": ["Yes — the only array is 1 row of 13", "No — it is 3 × 4 + 1", "No — 13 is odd", "No — it has many factors"], "e": "13 counters cannot be put into equal rows except one long line."},
+{"t": "A rabbit jumps 4 at a time, starting from 0. Which number does it land on?", "o": ["20", "18", "22", "14"], "e": "After 5 jumps it is at 4 × 5 = 20. It lands only on multiples of 4."},
+{"t": "A frog jumps 3 at a time and a rabbit 4 at a time, both from 0. Where do they FIRST land together?", "n": 12, "k": "min(set(range(3,100,3))&set(range(4,100,4)))", "e": "Frog: 3, 6, 9, 12. Rabbit: 4, 8, 12. 12 is the first number on both lists."},
+{"t": "A number divisible by 5 ends in:", "o": ["0 or 5", "Only 5", "Any even digit", "1 or 5"], "e": "Every ten is a multiple of 5, so only the ones digit matters: 0 or 5."},
+{"t": "A number divisible by 10 ends in:", "o": ["0", "5", "1", "Any digit"], "e": "Multiples of 10 are whole tens, with nothing in the ones place."},
+{"t": "Which number is divisible by 2?", "o": ["38", "35", "41", "27"], "e": "It ends in 8, an even digit."},
+{"t": "Which number is a factor of EVERY number?", "o": ["1", "2", "0", "10"], "e": "1 × N = N for every number N."},
+{"t": "How many factors does 10 have?", "n": 4, "k": "len([d for d in range(1,11) if 10%d==0])", "e": "1, 2, 5, 10 — from the arrays 1 × 10 and 2 × 5."}
+]},
+{"q": [
+{"t": "How many factors does 20 have?", "n": 6, "k": "len([d for d in range(1,21) if 20%d==0])", "e": "1, 2, 4, 5, 10, 20 — pairs 1 × 20, 2 × 10, 4 × 5."},
+{"t": "What is the first common multiple of 4 and 6?", "n": 12, "k": "min(set(range(4,100,4))&set(range(6,100,6)))", "e": "4, 8, 12 and 6, 12 — they meet at 12, not at 4 × 6 = 24."},
+{"t": "What is the first common multiple of 3 and 6?", "n": 6, "k": "min(set(range(3,100,3))&set(range(6,100,6)))", "e": "6 is itself a multiple of 3, so every 6-jump landing is also a 3-jump landing."},
+{"t": "What is the BIGGEST common factor of 12 and 16?", "n": 4, "k": "max(d for d in range(1,13) if 12%d==0 and 16%d==0)", "e": "Common factors are 1, 2 and 4."},
+{"t": "Which number is prime?", "o": ["37", "39", "35", "33"], "e": "39 = 3 × 13, 35 = 5 × 7, 33 = 3 × 11, but 37 only makes 1 × 37."},
+{"t": "Jumps of 6 and jumps of 8 start at 0. Where do they FIRST meet?", "n": 24, "k": "min(set(range(6,200,6))&set(range(8,200,8)))", "e": "6, 12, 18, 24 and 8, 16, 24 — they meet at 24, not 48."},
+{"t": "How many factors does 25 have?", "n": 3, "k": "len([d for d in range(1,26) if 25%d==0])", "e": "1, 5, 25 — the arrays are 1 × 25 and 5 × 5."},
+{"t": "Which number is a multiple of BOTH 2 and 5?", "o": ["40", "25", "22", "55"], "e": "It ends in 0, so it is a multiple of 10 — and 10 = 2 × 5."},
+{"t": "What common factor of 9 and 21 is bigger than 1?", "n": 3, "k": "max(d for d in range(1,10) if 9%d==0 and 21%d==0)", "e": "9 = 3 × 3 and 21 = 3 × 7."},
+{"t": "What is the only common factor of 14 and 15?", "n": 1, "e": "They are consecutive — a jump bigger than 1 can’t land on two numbers just 1 apart."}
+]},
+{"q": [
+{"t": "How many factors does 54 have?", "n": 8, "k": "len([d for d in range(1,55) if 54%d==0])", "e": "Pairs: 1 × 54, 2 × 27, 3 × 18, 6 × 9 — that is 8 factors."},
+{"t": "How many common factors do 24 and 36 have?", "n": 6, "k": "len([d for d in range(1,25) if 24%d==0 and 36%d==0])", "e": "1, 2, 3, 4, 6 and 12 divide both."},
+{"t": "What is the first common multiple of 9 and 12?", "n": 36, "k": "min(set(range(9,200,9))&set(range(12,200,12)))", "e": "9, 18, 27, 36 and 12, 24, 36."},
+{"t": "What is the first common multiple of 5 and 8?", "n": 40, "k": "min(set(range(5,200,5))&set(range(8,200,8)))", "e": "5 and 8 share no factor except 1, so they first meet at 5 × 8 = 40."},
+{"t": "Mowgli wants to reach Baloo at 30 but NOT land on Sher Khan at 25. Which jump size works?", "o": ["6", "5", "1", "25"], "e": "6 is a factor of 30 but not of 25. Jumps of 1 or 5 would land on 25."},
+{"t": "What jump size bigger than 1 lands on both 21 and 35?", "n": 7, "k": "max(d for d in range(2,22) if 21%d==0 and 35%d==0)", "e": "21 = 3 × 7 and 35 = 5 × 7, so 7 is a common factor."},
+{"t": "Which number is divisible by 10 but NOT by 2?", "o": ["No such number exists", "10", "50", "100"], "e": "10 = 2 × 5, so every multiple of 10 is also a multiple of 2."},
+{"t": "‘Factors of an even number must be even.’ Is this true?", "o": ["No — 3 is a factor of 6", "Yes, always", "Yes, except 1", "No, they are always odd"], "e": "One counter-example is enough to show it is false."},
+{"t": "A spider jumps 3 and a grasshopper jumps 6, both from 0. Their common landings are the multiples of:", "n": 6, "e": "Every 6-jump landing is also a spider landing, because the spider just takes two hops of 3."},
+{"t": "How many multiples of 4 are there from 1 to 50?", "n": 12, "k": "50//4", "e": "4, 8, …, 48 — that is 4 × 1 up to 4 × 12."}
+]},
+{"q": [
+{"t": "A frog jumps 3 and a rabbit jumps 5, both from 0. On how many numbers from 1 to 100 do BOTH land?", "n": 6, "k": "len(set(range(3,101,3))&set(range(5,101,5)))", "e": "They meet at multiples of 15: 15, 30, 45, 60, 75, 90."},
+{"t": "A kangaroo jumps 6 and a rabbit jumps 8, both from 0. Where do they meet for the SECOND time?", "n": 48, "k": "sorted(set(range(6,200,6))&set(range(8,200,8)))[1]", "e": "They first meet at 24, and then every 24 after that: 48."},
+{"t": "What is the BIGGEST jump size that lands on both 24 and 36?", "n": 12, "k": "max(d for d in range(1,25) if 24%d==0 and 36%d==0)", "e": "Common factors are 1, 2, 3, 4, 6, 12 — the biggest is 12."},
+{"t": "What is the smallest number that is a multiple of 2, 3 and 5?", "n": 30, "k": "min(n for n in range(1,100) if n%2==0 and n%3==0 and n%5==0)", "e": "It must end in 0 (for 2 and 5) and be a multiple of 3: 10 and 20 fail, 30 works."},
+{"t": "Can an ODD number have an EVEN factor?", "o": ["Never — an even number times anything is even", "Sometimes", "Always"], "e": "If an even number were a factor, the odd number would be even × something, which is even."},
+{"t": "Which number between 40 and 50 is a multiple of both 3 and 4?", "n": 48, "k": "min(n for n in range(41,50) if n%3==0 and n%4==0)", "e": "Common multiples of 3 and 4 are 12, 24, 36, 48 …"},
+{"t": "36 laddoos are packed into boxes, the same number in each box. There must be more than 1 box and more than 1 laddoo per box. How many ways can this be done?", "n": 7, "k": "len([d for d in range(2,36) if 36%d==0])", "e": "Factors of 36 are 1, 2, 3, 4, 6, 9, 12, 18, 36. Leave out 1 and 36: 7 ways."},
+{"t": "Which number has EXACTLY 3 factors?", "o": ["49", "15", "12", "21"], "e": "49 has 1, 7, 49. 15 and 21 have 4 factors; 12 has 6."},
+{"t": "Two bells ring together at 9:00. One rings every 6 minutes, the other every 10 minutes. After how many minutes do they next ring together?", "n": 30, "u": "min", "k": "min(set(range(6,200,6))&set(range(10,200,10)))", "e": "6, 12, 18, 24, 30 and 10, 20, 30 — the first common multiple is 30."},
+{"t": "Which number is divisible by 2, by 5 AND by 10?", "o": ["90", "45", "66", "75"], "e": "Only a number ending in 0 is divisible by all three."}
+]}
+]
+}
