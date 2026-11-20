@@ -4,7 +4,7 @@
 {"q": [
 {"t": "Find the gerund: <em>Swimming is good exercise.</em>", "o": ["Swimming", "is", "good", "exercise"], "e": "‘Swimming’ is the subject — an -ing form working as a noun."},
 {"t": "Find the infinitive: <em>I want to dance.</em>", "o": ["to dance", "want", "I", "dance only"], "e": "to + V1 = infinitive."},
-{"t": "Find the participle: <em>Look at the barking dog.</em>", "o": ["barking", "Look", "dog", "the"], "e": "‘barking’ describes the dog — a present participle used as an adjective."},
+{"t": "Find the participle: <em>Look at the barking dog.</em>", "o": ["barking", "Look", "dog", "Look at"], "e": "‘barking’ describes the dog — a present participle used as an adjective."},
 {"t": "Find the participle: <em>Don't touch the broken glass.</em>", "o": ["broken", "touch", "glass", "Don't"], "e": "‘broken’ (V3) describes the glass — a past participle."},
 {"t": "Fill in: <em>I enjoy ___ stories.</em>", "o": ["reading", "to read", "read", "reads"], "e": "‘enjoy’ is followed by a gerund (-ing)."},
 {"t": "Fill in: <em>She decided ___ a doctor.</em>", "o": ["to become", "becoming", "become", "became"], "e": "‘decide’ is followed by to + V1."},
@@ -27,7 +27,7 @@
 ]},
 {"q": [
 {"t": "What does <em>He stopped smoking.</em> mean?", "o": ["He gave up the habit of smoking.", "He paused in order to smoke.", "He is smoking now.", "He never smoked."], "e": "stop + gerund = end that activity."},
-{"t": "What does <em>He stopped to smoke.</em> mean?", "o": ["He paused (what he was doing) in order to smoke.", "He gave up smoking.", "He hates smoking.", "He forgot to smoke."], "e": "stop + infinitive = stop in order to do something else."},
+{"t": "What does <em>He stopped to smoke.</em> mean?", "o": ["He paused in order to smoke.", "He gave up the habit of smoking.", "He hates the smell of smoking.", "He forgot that he had to smoke."], "e": "stop + infinitive = stop in order to do something else."},
 {"t": "Fill in: <em>Remember ___ the lights before you leave.</em>", "o": ["to switch off", "switching off", "switch off", "switched off"], "e": "Something still to be done in the future → remember + infinitive."},
 {"t": "Fill in: <em>I clearly remember ___ him at the party.</em>", "o": ["seeing", "to see", "see", "saw"], "e": "Recalling a past action → remember + gerund."},
 {"t": "Join with a participle: <em>He saw the tiger. He ran away.</em>", "o": ["Seeing the tiger, he ran away.", "Seen the tiger, he ran away.", "To see the tiger, he ran away.", "Seeing the tiger, the tiger ran away."], "e": "The present participle phrase belongs to the subject ‘he’ who saw."},
@@ -38,10 +38,10 @@
 {"t": "Fill in: <em>You had better ___ now.</em>", "o": ["leave", "to leave", "leaving", "left"], "e": "‘had better’ is followed by the bare infinitive."}
 ]},
 {"q": [
-{"t": "Find the error: <em>Walking down the road, a stone hit him.</em>", "o": ["The stone was not walking — the participle dangles", "‘Walking’ should be ‘Walked’", "‘hit’ should be ‘hitted’", "No error"], "e": "The participle must belong to the subject after the comma. Correct: Walking down the road, he was hit by a stone."},
+{"t": "Find the error: <em>Walking down the road, a stone hit him.</em>", "o": ["The participle dangles — the stone wasn't walking", "‘Walking’ should be ‘Walked’ (past tense)", "‘hit’ should be ‘hitted’ (regular past)", "No error"], "e": "The participle must belong to the subject after the comma. Correct: Walking down the road, he was hit by a stone."},
 {"t": "Choose the correct sentence.", "o": ["It being a rainy day, we stayed indoors.", "Being a rainy day, we stayed indoors.", "We being a rainy day stayed indoors.", "A rainy day being, we stayed indoors."], "e": "‘We’ were not a rainy day. Adding ‘It’ gives the participle its own subject: It being a rainy day, we stayed indoors."},
 {"t": "What is the function of the infinitive in <em>To err is human.</em>?", "o": ["Subject (noun)", "Purpose (adverb)", "Adjective", "Object"], "e": "‘To err’ is what is human — the subject of ‘is’."},
-{"t": "What is the function of the gerund in <em>She is tired of waiting.</em>?", "o": ["Object of a preposition", "Subject", "Adjective", "Finite verb"], "e": "‘waiting’ follows the preposition ‘of’."},
+{"t": "What is the function of the gerund in <em>She is tired of waiting.</em>?", "o": ["Object of a preposition", "Subject of the sentence", "Adjective describing ‘she’", "Finite verb of the sentence"], "e": "‘waiting’ follows the preposition ‘of’."},
 {"t": "Fill in: <em>He tried ___ the heavy box, but it wouldn't move.</em> (made an effort)", "o": ["to lift", "lifting", "lift", "lifted"], "e": "try + infinitive = make an effort (try + -ing = do it as an experiment)."},
 {"t": "Fill in: <em>I regret ___ you that your application was rejected.</em> (formal: I'm sorry to tell you now)", "o": ["to inform", "informing", "inform", "informed"], "e": "regret + infinitive = being sorry about what you are about to say. regret + -ing = sorry about something already done."},
 {"t": "Join with an infinitive: <em>He is very weak. He cannot walk.</em>", "o": ["He is too weak to walk.", "He is very weak to walk.", "He is weak enough to walk.", "He is too weak walking."], "e": "‘too … to’ = so weak that he cannot. ‘enough to’ would mean he can."},

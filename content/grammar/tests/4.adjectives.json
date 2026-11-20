@@ -17,7 +17,7 @@
 {"t": "Superlative of <em>bad</em>:", "o": ["worst", "baddest", "worse", "most bad"], "e": "bad is irregular: bad, worse, worst."},
 {"t": "Comparative of <em>little</em> (amount):", "o": ["less", "littler", "least", "lesser"], "e": "little, less, least (for amounts)."},
 {"t": "Fill in: <em>This is the ___ of the two pens.</em>", "o": ["better", "best", "good", "more better"], "e": "Only two pens are being compared, so use the comparative even with ‘the’."},
-{"t": "Find the error: <em>She is more cleverer than her brother.</em>", "o": ["‘more cleverer’ should be ‘cleverer’ (or ‘more clever’)", "‘She’ should be ‘Her’", "‘than’ should be ‘then’", "No error"], "e": "-er already means ‘more’. Using both is a double comparative."},
+{"t": "Find the error: <em>She is more cleverer than her brother.</em>", "o": ["‘more cleverer’ should be ‘cleverer’", "‘She’ should be ‘Her’ (object form)", "‘than’ should be ‘then’ (spelling)", "No error"], "e": "-er already means ‘more’. Using both is a double comparative."},
 {"t": "Fill in: <em>I have ___ money left, so I can buy a snack.</em>", "o": ["a little", "little", "few", "a few"], "e": "Money is uncountable. ‘a little’ = some, enough (positive). ‘little’ would mean almost none."},
 {"t": "Fill in: <em>He has ___ friends, so he often feels lonely.</em>", "o": ["few", "a few", "little", "a little"], "e": "‘friends’ is countable, and lonely shows the negative sense ‘almost none’ → few."},
 {"t": "Which word is an adjective? <em>This bag is mine.</em>", "o": ["This", "bag", "is", "mine"], "e": "‘This’ points out which bag — a demonstrative adjective (it comes before the noun)."},
@@ -27,15 +27,15 @@
 ]},
 {"q": [
 {"t": "Change to comparative: <em>Gold is the most precious metal.</em>", "o": ["Gold is more precious than any other metal.", "Gold is more precious than any metal.", "Gold is precious than other metals.", "No metal is more precious than gold is."], "e": "Use ‘any other’ — gold is itself a metal and cannot be more precious than itself."},
-{"t": "Change to positive: <em>Ravi is the cleverest boy in the class.</em>", "o": ["No other boy in the class is as clever as Ravi.", "Ravi is as clever as other boys.", "No boy is cleverer than Ravi.", "Ravi is not as clever as other boys."], "e": "Positive degree uses ‘as … as’. ‘No other boy is as clever as Ravi’ keeps him at the top."},
+{"t": "Change to positive: <em>Ravi is the cleverest boy in the class.</em>", "o": ["No other boy in the class is as clever as Ravi.", "Ravi is as clever as the other boys in the class.", "No boy in the class is cleverer than Ravi is.", "Ravi is not as clever as other boys in the class."], "e": "Positive degree uses ‘as … as’. ‘No other boy is as clever as Ravi’ keeps him at the top."},
 {"t": "Choose the correct order: <em>a ___ table</em>", "o": ["beautiful old wooden", "wooden beautiful old", "old wooden beautiful", "beautiful wooden old"], "e": "Opinion (beautiful) → age (old) → material (wooden)."},
 {"t": "Choose the correct order: <em>She bought a ___ scarf.</em>", "o": ["lovely long silk", "silk long lovely", "long lovely silk", "lovely silk long"], "e": "Opinion → size → material."},
 {"t": "Fill in: <em>Of all the students, Meera is the ___.</em>", "o": ["most hardworking", "more hardworking", "hardworkingest", "most hardest working"], "e": "‘Of all’ → superlative. Long word → ‘most’."},
-{"t": "Find the error: <em>This is the most easiest sum.</em>", "o": ["‘most easiest’ should be ‘easiest’", "‘This’ should be ‘These’", "‘sum’ should be ‘sums’", "No error"], "e": "-est already means ‘most’. Use only one: easiest."},
+{"t": "Find the error: <em>This is the most easiest sum.</em>", "o": ["‘most easiest’ should be ‘easiest’", "‘This’ should be ‘These’ (plural)", "‘sum’ should be ‘sums’ (plural)", "No error"], "e": "-est already means ‘most’. Use only one: easiest."},
 {"t": "Choose the correct word: <em>Let us not walk any ___.</em> (more distance)", "o": ["farther", "farer", "farest", "more far"], "e": "far → farther/further. ‘further’ is also fine; ‘farer’ is not a word."},
 {"t": "Choose the correct sentence.", "o": ["He is senior to me.", "He is senior than me.", "He is more senior than me.", "He is seniorer to me."], "e": "Latin comparatives (senior, junior, superior, inferior, prior) take ‘to’, not ‘than’."},
 {"t": "Fill in: <em>The ___ you study, the ___ you learn.</em>", "o": ["more, more", "most, most", "much, many", "more, most"], "e": "‘The more …, the more …’ — two comparatives show that one grows with the other."},
-{"t": "Which sentence uses an adjective after a linking verb?", "o": ["The soup smells delicious.", "She sang sweetly.", "He ran fast.", "They quickly left."], "e": "‘smells’ links the soup to a quality (delicious) — so an adjective, not an adverb, follows it."}
+{"t": "Which sentence uses an adjective after a linking verb?", "o": ["The soup smells delicious.", "She sang very sweetly.", "He ran fast to school.", "They quickly left home."], "e": "‘smells’ links the soup to a quality (delicious) — so an adjective, not an adverb, follows it."}
 ]},
 {"q": [
 {"t": "Change to superlative: <em>No other planet is as big as Jupiter.</em>", "o": ["Jupiter is the biggest planet.", "Jupiter is bigger than other planets.", "Jupiter is the bigger planet.", "Jupiter is as big as other planets."], "e": "If no planet matches it, Jupiter is at the top — the biggest."},

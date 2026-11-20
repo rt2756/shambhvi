@@ -8,13 +8,13 @@
 {"t": "Fill in: <em>We go to the hills ___ summer.</em>", "o": ["in", "on", "at", "by"], "e": "A season (a longer period) → in."},
 {"t": "Fill in: <em>The cat is hiding ___ the bed.</em>", "o": ["under", "on", "over", "into"], "e": "Directly beneath and covered → under."},
 {"t": "Fill in: <em>She lives ___ Mumbai.</em>", "o": ["in", "at", "on", "into"], "e": "Inside a city (an area) → in."},
-{"t": "Fill in: <em>The sweets were shared ___ the two sisters.</em>", "o": ["between", "among", "with", "in"], "e": "Two people → between."},
+{"t": "Fill in: <em>The sweets were shared ___ the two sisters.</em>", "o": ["between", "among", "within", "inside"], "e": "Two people → between."},
 {"t": "Fill in: <em>He cut the paper ___ scissors.</em>", "o": ["with", "by", "from", "of"], "e": "The tool used → with."},
 {"t": "Fill in: <em>She is afraid ___ dogs.</em>", "o": ["of", "from", "with", "by"], "e": "The fixed pair is ‘afraid of’."},
-{"t": "Fill in: <em>Please wait ___ me.</em>", "o": ["for", "to", "on", "at"], "e": "The fixed pair is ‘wait for’."}
+{"t": "Fill in: <em>Please wait ___ me.</em>", "o": ["for", "to", "after", "about"], "e": "The fixed pair is ‘wait for’."}
 ]},
 {"q": [
-{"t": "Fill in: <em>He jumped ___ the river.</em>", "o": ["into", "in", "at", "on"], "e": "Movement from outside to inside → into."},
+{"t": "Fill in: <em>He jumped ___ the river.</em>", "o": ["into", "in", "onto", "inside of"], "e": "Movement from outside to inside → into."},
 {"t": "Fill in: <em>The money was divided ___ the five children.</em>", "o": ["among", "between", "in", "with"], "e": "More than two → among."},
 {"t": "Fill in: <em>Please sit ___ me.</em> (next to)", "o": ["beside", "besides", "between", "among"], "e": "‘beside’ = next to. ‘besides’ = in addition to."},
 {"t": "Fill in: <em>___ English, she speaks French.</em> (in addition to)", "o": ["Besides", "Beside", "Among", "Between"], "e": "In addition to → Besides."},
@@ -28,7 +28,7 @@
 {"q": [
 {"t": "Find the error: <em>We discussed about the problem.</em>", "o": ["Remove ‘about’", "‘discussed’ should be ‘discuss’", "‘the’ should be ‘a’", "No error"], "e": "‘discuss’ already means ‘talk about’, so no preposition follows it."},
 {"t": "Find the error: <em>He reached to the station late.</em>", "o": ["Remove ‘to’", "‘reached’ should be ‘reach’", "‘late’ should be ‘lately’", "No error"], "e": "‘reach’ takes a direct object: reached the station."},
-{"t": "Fill in: <em>I am angry ___ my brother.</em>", "o": ["with", "at", "on", "to"], "e": "angry with a person (angry at/about a thing)."},
+{"t": "Fill in: <em>I am angry ___ my brother.</em>", "o": ["with", "at", "upon", "against"], "e": "angry with a person (angry at/about a thing)."},
 {"t": "Fill in: <em>Your bag is different ___ mine.</em>", "o": ["from", "than", "with", "to"], "e": "The standard pair is ‘different from’."},
 {"t": "Fill in: <em>He is suffering ___ fever.</em>", "o": ["from", "with", "of", "by"], "e": "The fixed pair is ‘suffer from’."},
 {"t": "Fill in: <em>I congratulate you ___ your success.</em>", "o": ["on", "for", "at", "with"], "e": "The fixed pair is ‘congratulate on’."},

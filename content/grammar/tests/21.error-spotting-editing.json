@@ -21,7 +21,7 @@
 {"t": "Find the error: <em>This is the boy which won the prize.</em>", "o": ["which → who", "boy → boys", "won → win", "No error"], "e": "For a person → who."},
 {"t": "Find the missing word: <em>There ___ many people at the fair.</em>", "o": ["were", "was", "is", "has"], "e": "The real subject ‘many people’ is plural → were (past)."},
 {"t": "Find the missing word: <em>He is ___ best player in our team.</em>", "o": ["the", "a", "an", "most"], "e": "Superlatives take ‘the’."},
-{"t": "Find the error: <em>She is more taller than her sister.</em>", "o": ["more taller → taller", "her → hers", "than → then", "No error"], "e": "Don't use ‘more’ with -er."},
+{"t": "Find the error: <em>She is more taller than her sister.</em>", "o": ["more taller → taller", "her → hers", "than → then", "sister → sisters"], "e": "Don't use ‘more’ with -er."},
 {"t": "Find the error: <em>We discussed about the plan.</em>", "o": ["Remove ‘about’", "discussed → discuss", "the → a", "No error"], "e": "‘discuss’ takes no preposition."},
 {"t": "Find the error: <em>Each of the students have a book.</em>", "o": ["have → has", "Each → All", "students → student", "No error"], "e": "‘Each’ is singular → has."}
 ]},
@@ -34,7 +34,7 @@
 {"t": "Find the missing word: <em>The train had left ___ we reached the station.</em>", "o": ["before", "after", "since", "until"], "e": "The train left first (past perfect), then we reached → before."},
 {"t": "Find the missing word: <em>She asked me ___ I was ready.</em>", "o": ["if", "that", "what", "to"], "e": "A reported yes/no question → if/whether."},
 {"t": "Find the error: <em>Neither Ravi nor his friends was there.</em>", "o": ["was → were", "nor → or", "his → their", "No error"], "e": "Agree with the nearer subject ‘friends’ → were."},
-{"t": "Find the error: <em>The letter was wrote by Meena.</em>", "o": ["wrote → written", "was → were", "by → from", "No error"], "e": "Passive needs V3: written."},
+{"t": "Find the error: <em>The letter was wrote by Meena.</em>", "o": ["wrote → written", "was → were", "by → from", "Meena → Meena's"], "e": "Passive needs V3: written."},
 {"t": "Find the error: <em>Although he was poor, but he was honest.</em>", "o": ["Remove ‘but’", "Although → Because", "was → is", "No error"], "e": "‘Although’ already shows contrast."}
 ]},
 {"q": [
@@ -47,7 +47,7 @@
 {"t": "Find the error: <em>He told that he was busy.</em>", "o": ["told → said", "was → is", "that → if", "No error"], "e": "‘told’ needs a person (told me); otherwise use ‘said’."},
 {"t": "Find the error: <em>The number of students are increasing.</em>", "o": ["are → is", "number → numbers", "increasing → increase", "No error"], "e": "‘The number of’ is one figure → singular."},
 {"t": "Gap-fill with the right tense: <em>By the time the doctor came, the patient ___.</em> (die)", "o": ["had died", "died", "has died", "was dying already"], "e": "The death came before the doctor's arrival — earlier of two past actions → past perfect."},
-{"t": "Find the error: <em>Walking along the beach, a big wave knocked me down.</em>", "o": ["The participle dangles — the wave wasn't walking", "Walking → Walked", "knocked → knock", "No error"], "e": "The phrase must belong to the subject: Walking along the beach, I was knocked down by a big wave."}
+{"t": "Find the error: <em>Walking along the beach, a big wave knocked me down.</em>", "o": ["The participle dangles — the wave wasn't walking", "Walking → Walked, to show the past", "knocked → knock, after ‘a big wave’", "No error"], "e": "The phrase must belong to the subject: Walking along the beach, I was knocked down by a big wave."}
 ]}
 ]
 }

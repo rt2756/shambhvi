@@ -3,7 +3,7 @@
 "tests": [
 {"q": [
 {"t": "Find the adverb: <em>The tortoise walked slowly.</em>", "o": ["slowly", "tortoise", "walked", "The"], "e": "‘slowly’ tells how the tortoise walked."},
-{"t": "Find the adverb: <em>We will leave tomorrow.</em>", "o": ["tomorrow", "We", "leave", "will"], "e": "‘tomorrow’ tells when — an adverb of time."},
+{"t": "Find the adverb: <em>We will leave tomorrow.</em>", "o": ["tomorrow", "We", "leave", "will leave"], "e": "‘tomorrow’ tells when — an adverb of time."},
 {"t": "Find the adverb: <em>Please sit here.</em>", "o": ["here", "Please", "sit", "None"], "e": "‘here’ tells where — an adverb of place."},
 {"t": "Find the adverb: <em>She always smiles.</em>", "o": ["always", "She", "smiles", "None"], "e": "‘always’ tells how often — an adverb of frequency."},
 {"t": "Form the adverb from <em>quick</em>.", "o": ["quickly", "quickness", "quicker", "quicken"], "e": "Add -ly to the adjective: quick → quickly."},
@@ -21,9 +21,9 @@
 {"t": "What does <em>I could hardly hear him.</em> mean?", "o": ["I could almost not hear him.", "I heard him very clearly.", "I tried hard to hear him.", "I heard him loudly."], "e": "‘hardly’ = almost not at all."},
 {"t": "Comparative of <em>fast</em> (adverb):", "o": ["faster", "more fast", "fastly", "more faster"], "e": "Short adverb → add -er."},
 {"t": "Comparative of <em>carefully</em>:", "o": ["more carefully", "carefullier", "carefuller", "most carefully"], "e": "-ly adverbs use ‘more’."},
-{"t": "Find the adverb that modifies an adjective: <em>The film was extremely boring.</em>", "o": ["extremely", "boring", "film", "was"], "e": "‘extremely’ tells how boring — it adds to the adjective."},
+{"t": "Find the adverb that modifies an adjective: <em>The film was extremely boring.</em>", "o": ["extremely", "boring", "film", "was boring"], "e": "‘extremely’ tells how boring — it adds to the adjective."},
 {"t": "Fill in: <em>The box is ___ heavy for me to lift.</em>", "o": ["too", "very", "enough", "so much"], "e": "‘too … to’ means more than is possible: I cannot lift it."},
-{"t": "Fill in: <em>He is old ___ to vote.</em>", "o": ["enough", "too", "very", "so"], "e": "‘enough’ comes after the adjective: old enough."}
+{"t": "Fill in: <em>He is old ___ to vote.</em>", "o": ["enough", "too", "very", "so much"], "e": "‘enough’ comes after the adjective: old enough."}
 ]},
 {"q": [
 {"t": "Choose the correct order: <em>She sang ___.</em>", "o": ["beautifully at the concert last night", "last night beautifully at the concert", "at the concert last night beautifully", "last night at the concert beautifully"], "e": "At the end of a sentence: manner → place → time (how, where, when)."},
@@ -43,7 +43,7 @@
 {"t": "Choose the correct sentence.", "o": ["The flowers smell sweet.", "The flowers smell sweetly.", "The flowers sweetly smell sweet.", "The flowers smells sweet."], "e": "‘smell’ is a linking verb here (the flowers have a sweet smell), so an adjective follows."},
 {"t": "Choose the correct sentence.", "o": ["He hardly ever goes out.", "He hardly never goes out.", "He doesn't hardly go out.", "He goes hardly not out."], "e": "‘hardly’ is already negative; adding ‘never’ or ‘not’ makes a double negative."},
 {"t": "Fill in: <em>Of all the runners, Mohan ran the ___.</em>", "o": ["fastest", "faster", "most fast", "fastly"], "e": "Out of all → superlative of the adverb ‘fast’: fastest."},
-{"t": "Find the error: <em>She is enough intelligent to win.</em>", "o": ["‘enough intelligent’ should be ‘intelligent enough’", "‘is’ should be ‘was’", "‘to win’ should be ‘winning’", "No error"], "e": "‘enough’ comes after an adjective."},
+{"t": "Find the error: <em>She is enough intelligent to win.</em>", "o": ["‘enough intelligent’ should be ‘intelligent enough’", "‘is’ should be ‘was’ (past tense)", "‘to win’ should be ‘winning’ (gerund)", "No error"], "e": "‘enough’ comes after an adjective."},
 {"t": "What kind of adverb is <em>upstairs</em> in <em>He went upstairs.</em>?", "o": ["Place", "Time", "Manner", "Degree"], "e": "It tells where he went."},
 {"t": "Choose the sentence where <em>only</em> means ‘nobody else but Ravi’.", "o": ["Only Ravi ate the cake.", "Ravi only ate the cake.", "Ravi ate only the cake.", "Ravi ate the only cake."], "e": "Put ‘only’ right before the word it limits. ‘Only Ravi’ = no one else."},
 {"t": "Fill in: <em>Seldom ___ such a beautiful sight.</em>", "o": ["have I seen", "I have seen", "I seen have", "seen I have"], "e": "When a negative adverb (seldom, never, hardly) starts a sentence, the helping verb comes before the subject, as in a question."},

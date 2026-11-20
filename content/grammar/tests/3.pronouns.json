@@ -23,7 +23,7 @@
 {"t": "Is <em>himself</em> reflexive or emphatic in <em>The king himself came to see us.</em>?", "o": ["Emphatic", "Reflexive", "Neither", "Both"], "e": "Remove it: ‘The king came to see us’ still works. It only adds force → emphatic."},
 {"t": "Is <em>herself</em> reflexive or emphatic in <em>She cut herself with a knife.</em>?", "o": ["Reflexive", "Emphatic", "Neither", "Both"], "e": "Remove it: ‘She cut with a knife’ breaks. The action turns back on the subject → reflexive."},
 {"t": "Choose the correct sentence.", "o": ["You, he and I will go.", "I, you and he will go.", "He, I and you will go.", "I, he and you will go."], "e": "Polite order: 2nd person (you), 3rd person (he), then yourself (I) last."},
-{"t": "Which is an indefinite pronoun?", "o": ["somebody", "this", "who", "them"], "e": "‘somebody’ does not point to one particular person — it is indefinite."}
+{"t": "Which is an indefinite pronoun?", "o": ["somebody", "this", "whoever", "themselves"], "e": "‘somebody’ does not point to one particular person — it is indefinite."}
 ]},
 {"q": [
 {"t": "Choose the correct option: <em>___ did you invite to the party?</em>", "o": ["Whom", "Who", "Whose", "Which"], "e": "Answer it: ‘I invited him.’ ‘him’ is the object, so use ‘whom’."},
@@ -32,8 +32,8 @@
 {"t": "Choose the correct sentence.", "o": ["Please call Ravi or me if you need help.", "Please call Ravi or myself if you need help.", "Please call Ravi or I if you need help.", "Please call Ravi or mine if you need help."], "e": "Cover ‘Ravi or’: ‘call me’. ‘myself’ is only for reflexive or emphatic use, not a polite ‘me’."},
 {"t": "Choose the correct option: <em>Each of the boys must bring ___ own lunch.</em>", "o": ["his", "their", "theirs", "him"], "e": "‘Each’ means every single one, so the pronoun is singular: his. (‘their’ is now accepted in speech, but school grammar expects ‘his’.)"},
 {"t": "Choose the correct option: <em>Neither of the girls has finished ___ work.</em>", "o": ["her", "their", "hers", "them"], "e": "‘Neither’ = not this one and not that one — one at a time, so singular: her."},
-{"t": "Which word is a pronoun here? <em>This is the house that Jack built.</em>", "o": ["Both ‘This’ and ‘that’", "Only ‘This’", "Only ‘that’", "Neither"], "e": "‘This’ stands in for a noun (demonstrative) and ‘that’ refers back to ‘house’ and joins the clause (relative)."},
-{"t": "Find the error: <em>The players hurt theirselves during practice.</em>", "o": ["‘theirselves’ should be ‘themselves’", "‘players’ should be ‘player’", "‘hurt’ should be ‘hurted’", "No error"], "e": "‘theirselves’ is not a word. The plural reflexive for ‘they’ is ‘themselves’."},
+{"t": "Which word is a pronoun here? <em>This is the house that Jack built.</em>", "o": ["Both ‘This’ and ‘that’", "Only ‘This’ — ‘that’ is a conjunction", "Only ‘that’ — ‘This’ is a determiner", "Neither of them"], "e": "‘This’ stands in for a noun (demonstrative) and ‘that’ refers back to ‘house’ and joins the clause (relative)."},
+{"t": "Find the error: <em>The players hurt theirselves during practice.</em>", "o": ["‘theirselves’ should be ‘themselves’", "‘players’ should be ‘player’ (one)", "‘hurt’ should be ‘hurted’ (past)", "No error in the sentence"], "e": "‘theirselves’ is not a word. The plural reflexive for ‘they’ is ‘themselves’."},
 {"t": "Choose the correct option: <em>These books are ___, not ours.</em>", "o": ["theirs", "their", "their's", "them"], "e": "Standing alone (no noun after it) and parallel to ‘ours’ → theirs, with no apostrophe."},
 {"t": "Choose the correct option: <em>It was ___ who called you.</em>", "o": ["she", "her", "hers", "herself"], "e": "Formal grammar uses the subject form after ‘it was’: ‘It was she (who called)’. She did the calling."}
 ]},
@@ -44,8 +44,8 @@
 {"t": "Choose the correct sentence.", "o": ["Everyone has done his or her best.", "Everyone have done their best.", "Everyone has done their's best.", "Everyone have done his best."], "e": "‘Everyone’ is singular (has), and the matching pronoun is ‘his or her’ in formal grammar."},
 {"t": "Find the error: <em>Let you and I finish this before lunch.</em>", "o": ["‘I’ should be ‘me’", "‘Let’ should be ‘Allow’", "‘you’ should be ‘your’", "No error"], "e": "‘Let’ is a verb and takes the object: ‘Let me’, so ‘Let you and me’. Cover ‘you and’ to check."},
 {"t": "Choose the correct option: <em>He is the only one of the students who ___ passed.</em>", "o": ["has", "have", "are", "were"], "e": "‘who’ refers to ‘the only one’ (singular), so the verb is singular: has."},
-{"t": "Choose the correct option: <em>I enjoy ___ when I'm on holiday.</em>", "o": ["myself", "me", "mine", "I"], "e": "‘enjoy’ needs an object; when the subject enjoys, the object turns back on the subject → reflexive ‘myself’."},
-{"t": "Which sentence uses ‘that’ as a relative pronoun?", "o": ["The film that we saw was scary.", "That film was scary.", "I know that film.", "That was scary."], "e": "Here ‘that’ joins a clause (we saw) and refers back to ‘film’. In the others ‘that’ points (demonstrative)."},
+{"t": "Choose the correct option: <em>I enjoy ___ when I'm on holiday.</em>", "o": ["myself", "me", "mine", "ourselves"], "e": "‘enjoy’ needs an object; when the subject enjoys, the object turns back on the subject → reflexive ‘myself’."},
+{"t": "Which sentence uses ‘that’ as a relative pronoun?", "o": ["The film that we saw was scary.", "That film we saw was very scary.", "I know that film is scary.", "That was a very scary film."], "e": "Here ‘that’ joins a clause (we saw) and refers back to ‘film’. In the others ‘that’ points (demonstrative)."},
 {"t": "Choose the correct option: <em>Neither you nor I ___ to blame.</em>", "o": ["am", "are", "is", "be"], "e": "With neither … nor, the verb agrees with the nearer subject: ‘I am’."},
 {"t": "Choose the correct option: <em>Whose is this umbrella? — It is ___.</em>", "o": ["Rina's", "Rinas", "Rinas'", "Rina's's"], "e": "The answer names the owner: one person, Rina → Rina's (a possessive noun standing for ‘Rina's umbrella’)."}
 ]}

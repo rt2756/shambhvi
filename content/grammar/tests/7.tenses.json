@@ -22,15 +22,15 @@
 {"t": "Fill in: <em>If it ___ tomorrow, we will stay at home.</em>", "o": ["rains", "will rain", "rained", "is raining"], "e": "After ‘if’ (a condition about the future) use simple present. ‘will’ is already in the main part."},
 {"t": "Fill in: <em>By next June, I ___ the course.</em>", "o": ["will have finished", "will finish", "have finished", "finished"], "e": "‘By’ a future point, the action will be complete → future perfect."},
 {"t": "Fill in: <em>She ___ the answer.</em> (= she has this knowledge)", "o": ["knows", "is knowing", "has been knowing", "knowing"], "e": "‘know’ is a stative verb (a state, not an action), so it is not used in the continuous."},
-{"t": "Fill in: <em>Look at those dark clouds. It ___ rain.</em>", "o": ["is going to", "will be", "is", "has"], "e": "A clear sign in front of us → ‘going to’."},
+{"t": "Fill in: <em>Look at those dark clouds. It ___ rain.</em>", "o": ["is going to", "will be going", "is about", "has to be"], "e": "A clear sign in front of us → ‘going to’."},
 {"t": "Fill in: <em>He ___ just ___ the room.</em>", "o": ["has, left", "have, left", "is, leaving", "had, leave"], "e": "‘just’ → present perfect: has + V3."}
 ]},
 {"q": [
-{"t": "Fill in: <em>They ___ in this house for ten years.</em> (and still live here)", "o": ["have been living", "are living", "lived", "had lived"], "e": "Started in the past, still going on, stressing how long → present perfect continuous."},
+{"t": "Fill in: <em>They ___ in this house for ten years.</em> (and still live here)", "o": ["have been living", "are living", "lived", "had been living"], "e": "Started in the past, still going on, stressing how long → present perfect continuous."},
 {"t": "Fill in: <em>At this time tomorrow, I ___ to Shimla.</em>", "o": ["will be travelling", "will travel", "travel", "will have travelled"], "e": "In progress at a future moment → future continuous."},
 {"t": "Fill in: <em>When I reached the hall, the show ___.</em>", "o": ["had already started", "already started", "has already started", "already starts"], "e": "The show started before I reached → the earlier past action takes the past perfect."},
 {"t": "Fill in: <em>Wait here until I ___ back.</em>", "o": ["come", "will come", "came", "am coming back"], "e": "After ‘until’ (also when, before, after, if) use simple present for a future idea."},
-{"t": "Find the error: <em>She is belonging to a rich family.</em>", "o": ["‘is belonging’ should be ‘belongs’", "‘to’ should be ‘in’", "‘rich’ should be ‘richer’", "No error"], "e": "‘belong’ is a stative verb — not used in the continuous."},
+{"t": "Find the error: <em>She is belonging to a rich family.</em>", "o": ["‘is belonging’ should be ‘belongs’", "‘to’ should be ‘in’ (preposition)", "‘rich’ should be ‘richer’ (comparative)", "No error"], "e": "‘belong’ is a stative verb — not used in the continuous."},
 {"t": "Fill in: <em>Did you ___ the letter?</em>", "o": ["post", "posted", "posting", "posts"], "e": "‘did’ already shows the past, so the main verb goes back to V1."},
 {"t": "Fill in: <em>He ___ his keys, so he cannot open the door.</em>", "o": ["has lost", "lost yesterday", "loses", "had been losing"], "e": "The past action has a result now (cannot open the door) → present perfect."},
 {"t": "Fill in: <em>While she ___, she cut her finger.</em>", "o": ["was cooking", "cooked", "has cooked", "is cooking"], "e": "‘While’ marks the background action in progress → past continuous; the short action (cut) is simple past."},
@@ -38,7 +38,7 @@
 {"t": "Fill in: <em>The sun ___ in the west.</em>", "o": ["sets", "is setting always", "set", "has set"], "e": "A universal fact → simple present."}
 ]},
 {"q": [
-{"t": "Fill in: <em>It ___ since morning, and the roads are flooded.</em>", "o": ["has been raining", "is raining", "rained", "rains"], "e": "Started at a past point (since morning) and still going on → present perfect continuous."},
+{"t": "Fill in: <em>It ___ since morning, and the roads are flooded.</em>", "o": ["has been raining", "is raining", "rained", "had been raining"], "e": "Started at a past point (since morning) and still going on → present perfect continuous."},
 {"t": "Fill in: <em>By the time the fire brigade came, the house ___ down.</em>", "o": ["had burnt", "burnt", "has burnt", "was burning"], "e": "The burning was complete before they came → past perfect."},
 {"t": "Fill in: <em>She ___ for an hour when the bus finally came.</em>", "o": ["had been waiting", "has been waiting", "was waited", "waited since"], "e": "In progress for a length of time up to a past point → past perfect continuous."},
 {"t": "Fill in the correct pair: <em>I ___ (read) for two hours before I ___ (feel) sleepy.</em>", "o": ["had been reading, felt", "have been reading, feel", "was reading, had felt", "read, had felt"], "e": "The long earlier action → past perfect continuous; the later event → simple past."},

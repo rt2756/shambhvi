@@ -6,11 +6,11 @@
 {"t": "Fill in: <em>She is poor ___ honest.</em>", "o": ["but", "and", "so", "or"], "e": "A contrast (poor, yet honest) → but."},
 {"t": "Fill in: <em>Would you like rice ___ chapati?</em>", "o": ["or", "and", "but", "so"], "e": "A choice → or."},
 {"t": "Fill in: <em>It was raining, ___ we stayed indoors.</em>", "o": ["so", "but", "or", "because"], "e": "The rain caused us to stay in → so (result)."},
-{"t": "Fill in: <em>He was absent ___ he was ill.</em>", "o": ["because", "so", "but", "or"], "e": "Being ill is the reason → because."},
+{"t": "Fill in: <em>He was absent ___ he was ill.</em>", "o": ["because", "so", "although", "unless"], "e": "Being ill is the reason → because."},
 {"t": "Fill in: <em>Wait here ___ I come back.</em>", "o": ["until", "because", "but", "or"], "e": "Up to the time I come → until."},
 {"t": "Choose the interjection that shows pain.", "o": ["Ouch!", "Hurray!", "Bravo!", "Hello!"], "e": "‘Ouch!’ is what we say when something hurts."},
-{"t": "Choose the interjection that shows joy.", "o": ["Hurray!", "Alas!", "Ouch!", "Ugh!"], "e": "‘Hurray!’ shows joy or celebration."},
-{"t": "Fill in: <em>___! We have won the match.</em>", "o": ["Hurray", "Alas", "Ouch", "Ugh"], "e": "Winning makes us happy → Hurray."},
+{"t": "Choose the interjection that shows joy.", "o": ["Hurray!", "Alas!", "Ouch!", "Oh dear!"], "e": "‘Hurray!’ shows joy or celebration."},
+{"t": "Fill in: <em>___! We have won the match.</em>", "o": ["Hurray", "Alas", "Ouch", "Oh dear"], "e": "Winning makes us happy → Hurray."},
 {"t": "Find the conjunction: <em>I called him but he did not answer.</em>", "o": ["but", "called", "him", "not"], "e": "‘but’ joins the two parts and shows the contrast."}
 ]},
 {"q": [
@@ -41,7 +41,7 @@
 {"t": "Join: <em>He worked hard. He failed.</em> (show contrast in one simple clause)", "o": ["In spite of working hard, he failed.", "In spite of he worked hard, he failed.", "Despite of working hard, he failed.", "Although working hard he failed but."], "e": "‘In spite of’ (or ‘Despite’, never ‘despite of’) is followed by a noun or -ing form, not a full clause."},
 {"t": "Join using ‘no sooner’: <em>The thief saw the police. He ran away.</em>", "o": ["No sooner did the thief see the police than he ran away.", "No sooner the thief saw the police than he ran away.", "No sooner did the thief see the police when he ran away.", "No sooner did the thief saw the police than he ran away."], "e": "‘No sooner’ + did + subject + V1 … than. ‘did’ carries the past, so ‘see’ is V1."},
 {"t": "Fill in: <em>Take an umbrella in case it ___.</em>", "o": ["rains", "will rain", "rained", "would rain"], "e": "Like ‘if’ and ‘unless’, ‘in case’ takes the simple present for a future idea."},
-{"t": "Which sentence uses <em>since</em> as a conjunction of REASON?", "o": ["Since you are busy, I will come later.", "I have lived here since 2010.", "It has rained since morning.", "I haven't seen him since."], "e": "Here ‘since’ = because. In the others it shows time."},
+{"t": "Which sentence uses <em>since</em> as a conjunction of REASON?", "o": ["Since you are busy, I will come later.", "I have lived in this house since 2010.", "It has been raining since early morning.", "I haven't seen him since last summer."], "e": "Here ‘since’ = because. In the others it shows time."},
 {"t": "Which sentence uses <em>as</em> to show TIME?", "o": ["As I was leaving, the phone rang.", "As he was ill, he stayed home.", "Do as I say.", "She is as tall as me."], "e": "‘As I was leaving’ = while I was leaving."},
 {"t": "Fill in: <em>Rina is tall, ___ her brother is short.</em> (comparing two facts)", "o": ["whereas", "because", "unless", "so that"], "e": "‘whereas’ compares two contrasting facts."},
 {"t": "Find the error: <em>Neither the teacher or the students were present.</em>", "o": ["‘or’ should be ‘nor’", "‘were’ should be ‘was’", "‘students’ should be ‘student’", "No error"], "e": "‘Neither’ pairs with ‘nor’. (‘were’ is right — it agrees with the nearer ‘students’.)"},

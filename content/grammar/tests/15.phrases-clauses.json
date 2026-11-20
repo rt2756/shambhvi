@@ -8,7 +8,7 @@
 {"t": "Find the subordinate clause: <em>When the bell rang, the children ran out.</em>", "o": ["When the bell rang", "the children ran out", "the bell", "ran out"], "e": "‘When the bell rang’ cannot stand alone; it depends on the main clause."},
 {"t": "Fill in: <em>The girl ___ won the race is my sister.</em>", "o": ["who", "which", "where", "when"], "e": "A person, subject of ‘won’ → who."},
 {"t": "Fill in: <em>This is the house ___ I was born.</em>", "o": ["where", "who", "which", "whom"], "e": "A place → where."},
-{"t": "What kind of phrase is <em>on the table</em>?", "o": ["Prepositional phrase", "Noun clause", "Verb", "Main clause"], "e": "It starts with a preposition (on) and has no verb."},
+{"t": "What kind of phrase is <em>on the table</em>?", "o": ["Prepositional phrase", "Noun clause", "Subordinate clause", "Main clause"], "e": "It starts with a preposition (on) and has no verb."},
 {"t": "Fill in: <em>I know ___ he is honest.</em>", "o": ["that", "who", "which", "where"], "e": "‘that’ introduces what I know (a noun clause)."},
 {"t": "Fill in: <em>The book ___ I bought is interesting.</em>", "o": ["which", "who", "whom", "whose"], "e": "A thing → which (or that)."},
 {"t": "How many clauses are in: <em>I will call you when I reach.</em>?", "o": ["2", "1", "3", "4"], "e": "I will call you | when I reach — two subject–verb pairs."}
@@ -38,7 +38,7 @@
 {"t": "What kind of clause is underlined? <em>He works hard <u>so that he may succeed</u>.</em>", "o": ["Adverb clause of purpose", "Adverb clause of result", "Noun clause", "Adjective clause"], "e": "‘so that’ tells why he works hard — his purpose."}
 ]},
 {"q": [
-{"t": "What kind of clause is underlined? <em>The fact <u>that he lied</u> upset me.</em>", "o": ["Noun clause (explaining ‘the fact’)", "Adjective clause", "Adverb clause", "Main clause"], "e": "It tells what the fact is (fact = that he lied) — a noun clause in apposition. An adjective clause would describe it (the fact which he told me)."},
+{"t": "What kind of clause is underlined? <em>The fact <u>that he lied</u> upset me.</em>", "o": ["Noun clause", "Adjective clause", "Adverb clause", "Main clause"], "e": "It tells what the fact is (fact = that he lied) — a noun clause in apposition. An adjective clause would describe it (the fact which he told me)."},
 {"t": "What kind of clause is underlined? <em>This is the reason <u>why he left</u>.</em>", "o": ["Adjective clause", "Noun clause", "Adverb clause of reason", "Phrase"], "e": "It describes ‘the reason’ (which reason?) → adjective clause."},
 {"t": "What kind of clause is underlined? <em>I wonder <u>whether she will come</u>.</em>", "o": ["Noun clause", "Adverb clause of condition", "Adjective clause", "Main clause"], "e": "I wonder what? → object of ‘wonder’ → noun clause."},
 {"t": "What kind of clause is underlined? <em>Sit <u>wherever you like</u>.</em>", "o": ["Adverb clause of place", "Noun clause", "Adjective clause", "Adverb clause of time"], "e": "It tells where to sit → adverb clause of place."},
