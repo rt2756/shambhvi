@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English Grammar — Lessons</title>
+<meta name="description" content="English grammar lessons, topic by topic — everything CBSE / NCERT teaches from class 5 to 10, with the why behind every rule.">
+<link rel="stylesheet" href="assets/css/style.css?v=11">
+</head>
+<body>
+  <div class="wrap notes">
+    <header class="hero">
+      <span class="pill">✍️ English · Grammar</span>
+      <h1 class="title"><span class="grad">Grammar</span></h1>
+      <p class="lead">Every grammar topic from CBSE / NCERT classes 5–10, one lesson at a time. Each lesson says which class first teaches it — read the lesson, then take its four tests.</p>
+      <nav class="nav-toggle" aria-label="Layout">
+        <a href="index.html">🏠 Home</a>
+        <a class="active" href="grammar.html">✍️ Lessons</a>
+        <a href="grammar-tests.html">🎯 Tests</a>
+        <a href="vocabulary.html">🔤 Vocabulary</a>
+      </nav>
+    </header>
+
+    <!-- Lessons are loaded from content/grammar/notes/*.md (listed in manifest.json) by assets/js/app.js -->
+    <div id="app" data-content-dir="content/grammar/notes/" data-mode="notes">
+      <div class="empty"><div class="big">⏳</div><strong>Loading lessons…</strong></div>
+    </div>
+  </div>
+
+  <script src="assets/js/marked.min.js"></script>
+  <script src="assets/js/app.js?v=10"></script>
+</body>
+</html>

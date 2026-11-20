@@ -1,0 +1,53 @@
+{
+"title": "8. Modals",
+"tests": [
+{"q": [
+{"t": "Fill in: <em>Birds ___ fly.</em> (ability)", "o": ["can", "must", "should", "may"], "e": "Ability → can."},
+{"t": "Fill in: <em>___ I come in, sir?</em> (polite/formal permission)", "o": ["May", "Must", "Should", "Will"], "e": "Asking permission formally → May."},
+{"t": "Fill in: <em>You ___ see a doctor about that cough.</em> (advice)", "o": ["should", "can", "may", "would"], "e": "Advice → should."},
+{"t": "Fill in: <em>You ___ wear a seat belt. It's the law.</em>", "o": ["must", "might", "could", "may"], "e": "A strong rule/necessity → must."},
+{"t": "Choose the correct sentence.", "o": ["She can swim well.", "She cans swim well.", "She can swims well.", "She can to swim well."], "e": "A modal takes no -s and is followed by V1 without ‘to’."},
+{"t": "Fill in: <em>When I was five, I ___ ride a bicycle.</em> (past ability)", "o": ["could", "can", "may", "shall"], "e": "Past ability → could."},
+{"t": "Fill in: <em>___ we go for a walk?</em> (suggestion)", "o": ["Shall", "Must", "Would", "Ought"], "e": "Suggestions/offers with I/we → Shall."},
+{"t": "Fill in: <em>It ___ rain today. Take an umbrella.</em> (possibility)", "o": ["may", "must", "shall", "ought to"], "e": "Possibility (maybe) → may."},
+{"t": "Fill in: <em>We ___ respect our elders.</em> (moral duty)", "o": ["ought to", "can", "may", "would"], "e": "Moral duty → ought to."},
+{"t": "Which is a polite request?", "o": ["Could you please close the door?", "You must close the door.", "Close the door.", "You can close the door."], "e": "‘Could you …?’ is the softest, politest way to ask."}
+]},
+{"q": [
+{"t": "Fill in: <em>You ___ bring your lunch; food will be served.</em> (not necessary)", "o": ["needn't", "mustn't", "can't", "shouldn't"], "e": "No necessity → needn't. ‘mustn't’ would mean it is forbidden."},
+{"t": "Fill in: <em>You ___ touch that wire. It's live!</em> (forbidden)", "o": ["mustn't", "needn't", "might not", "wouldn't"], "e": "Not allowed → mustn't."},
+{"t": "Fill in: <em>I ___ play cricket every evening, but now I don't.</em>", "o": ["used to", "use to", "would to", "am used to"], "e": "A past habit that has stopped → used to."},
+{"t": "Fill in: <em>Yesterday the lift was broken, so we ___ climb the stairs.</em>", "o": ["had to", "must", "must have", "should"], "e": "‘must’ has no past form — use ‘had to’."},
+{"t": "Fill in: <em>He ___ come, but I'm not sure.</em> (weak possibility)", "o": ["might", "must", "will", "shall"], "e": "Weak possibility → might."},
+{"t": "Fill in: <em>___ you like some tea?</em> (polite offer)", "o": ["Would", "Shall", "Must", "Should"], "e": "‘Would you like …?’ is the polite form for offers."},
+{"t": "Fill in: <em>She ran 10 km. She ___ be tired.</em> (logical certainty)", "o": ["must", "may", "can", "should"], "e": "We are almost sure from the evidence → must."},
+{"t": "Fill in: <em>___ you live long!</em> (a wish/blessing)", "o": ["May", "Can", "Shall", "Must"], "e": "Wishes and blessings use ‘May’."},
+{"t": "Find the error: <em>He can drives a car.</em>", "o": ["‘drives’ should be ‘drive’", "‘can’ should be ‘cans’", "‘a’ should be ‘the’", "No error"], "e": "After a modal, use V1: can drive."},
+{"t": "Fill in: <em>After the course, I ___ speak French fluently.</em>", "o": ["will be able to", "will can", "can will", "could to"], "e": "Two modals can't stand together. For the future of ‘can’, use ‘will be able to’."}
+]},
+{"q": [
+{"t": "Fill in: <em>The ground is wet. It ___ have rained last night.</em>", "o": ["must", "should", "ought", "need"], "e": "Strong guess about the past from evidence → must have + V3."},
+{"t": "Fill in: <em>You ___ have told me earlier. Now it's too late.</em>", "o": ["should", "must", "can", "may"], "e": "Criticising a past action that didn't happen → should have + V3."},
+{"t": "Fill in: <em>He ___ have stolen the money — he was with me all day.</em>", "o": ["can't", "must", "should", "might"], "e": "Sure it did not happen → can't have + V3."},
+{"t": "Fill in: <em>She isn't answering. She ___ have gone to sleep.</em>", "o": ["may", "must not", "should", "ought to"], "e": "A possibility about the past (we are not sure) → may/might have + V3."},
+{"t": "Which sentence shows permission?", "o": ["You may leave now.", "It may rain now.", "You must leave now.", "You should leave now."], "e": "‘You may leave’ = you are allowed to. ‘It may rain’ shows possibility."},
+{"t": "Choose the correct negative: <em>You must stay.</em> → (it is not necessary)", "o": ["You needn't stay.", "You mustn't stay.", "You don't must stay.", "You must not to stay."], "e": "The opposite of ‘must’ (necessary) in meaning is ‘needn't’ (not necessary). ‘mustn't’ means ‘not allowed’."},
+{"t": "Fill in: <em>As children, we ___ sit by the river for hours.</em>", "o": ["would", "will", "shall", "should"], "e": "‘would’ can describe repeated past habits (like ‘used to’)."},
+{"t": "Find the error: <em>You ought respect the law.</em>", "o": ["‘ought’ should be ‘ought to’", "‘respect’ should be ‘respects’", "‘the’ should be ‘a’", "No error"], "e": "‘ought’ is the one modal that needs ‘to’: ought to respect."},
+{"t": "Fill in: <em>Must I finish this today? — No, you ___.</em>", "o": ["needn't", "mustn't", "can't", "shouldn't"], "e": "‘No’ answer to ‘Must I?’ means it is not necessary → needn't. ‘mustn't’ would forbid it."},
+{"t": "Fill in: <em>If I had wings, I ___ fly to you.</em>", "o": ["would", "will", "shall", "must"], "e": "An imagined, unreal situation → would."}
+]},
+{"q": [
+{"t": "Fill in: <em>I ___ have passed if I had studied harder.</em>", "o": ["could", "can", "may", "must"], "e": "A past possibility that did not happen → could have + V3."},
+{"t": "Fill in: <em>You ___ have bought milk; there's plenty in the fridge.</em>", "o": ["needn't", "mustn't", "couldn't", "shouldn't to"], "e": "You bought it, but it was not necessary → needn't have + V3."},
+{"t": "Choose the sentence that means ‘I am almost sure he forgot’.", "o": ["He must have forgotten.", "He may forget.", "He should have forgotten.", "He might forget."], "e": "must have + V3 = a strong conclusion about the past."},
+{"t": "Choose the most polite request.", "o": ["Would you mind opening the window?", "Open the window.", "Can you open the window?", "You will open the window."], "e": "‘Would you mind …ing?’ steps back the furthest, so it sounds the politest."},
+{"t": "Find the error: <em>She will can finish the work tomorrow.</em>", "o": ["‘will can’ should be ‘will be able to’", "‘finish’ should be ‘finishes’", "‘tomorrow’ should be ‘yesterday’", "No error"], "e": "Two modals never stand together; use ‘be able to’ after ‘will’."},
+{"t": "Fill in: <em>He is very rich; he ___ have a big house.</em> (logical guess about now)", "o": ["must", "ought to", "need", "shall"], "e": "A confident guess about the present → must."},
+{"t": "Fill in: <em>The guests ___ arrive at any moment, so let's get ready.</em>", "o": ["may", "must have", "needn't", "should have"], "e": "A possibility in the near future → may (or might)."},
+{"t": "Which sentence shows a past habit?", "o": ["My grandfather would walk five miles every morning.", "My grandfather would walk if he could.", "Would you walk with me?", "My grandfather will walk tomorrow."], "e": "Repeated past action → ‘would’ like ‘used to’. The others show a condition, a request and the future."},
+{"t": "Fill in: <em>You ___ not have spoken so rudely to her. It hurt her.</em>", "o": ["should", "must", "can", "need"], "e": "Criticising a past action that did happen → should not have + V3."},
+{"t": "Fill in: <em>I'm not used ___ up so early.</em>", "o": ["to getting", "to get", "get", "getting to"], "e": "‘be used to’ means ‘be accustomed to’; here ‘to’ is a preposition, so it takes -ing. (Unlike ‘used to + V1’ for past habits.)"}
+]}
+]
+}

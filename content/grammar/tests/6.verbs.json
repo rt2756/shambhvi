@@ -1,0 +1,53 @@
+{
+"title": "6. Verbs — kinds and forms",
+"tests": [
+{"q": [
+{"t": "Find the verb: <em>The children played in the park.</em>", "o": ["played", "children", "park", "in"], "e": "‘played’ is the action the children did."},
+{"t": "Find the helping verb: <em>She is singing a song.</em>", "o": ["is", "singing", "song", "She"], "e": "‘is’ helps the main verb ‘singing’ show the present continuous."},
+{"t": "Past tense (V2) of <em>go</em>:", "o": ["went", "goed", "gone", "going"], "e": "go is irregular: go – went – gone."},
+{"t": "Past participle (V3) of <em>write</em>:", "o": ["written", "wrote", "writed", "writing"], "e": "write – wrote – written."},
+{"t": "Past tense of <em>walk</em>:", "o": ["walked", "walk", "walken", "wolk"], "e": "Regular verb: add -ed."},
+{"t": "Choose the correct form: <em>I have ___ my lunch.</em>", "o": ["eaten", "ate", "eat", "eated"], "e": "After ‘have’ use V3: eat – ate – eaten."},
+{"t": "Which verb is intransitive here? ", "o": ["The baby slept.", "She ate an apple.", "He kicked the ball.", "They built a house."], "e": "‘slept what?’ has no answer — no object, so intransitive."},
+{"t": "Which sentence has a transitive verb?", "o": ["Riya reads a book.", "Riya smiles.", "Riya sleeps.", "Riya runs fast."], "e": "‘reads what?’ → a book. The action passes to an object."},
+{"t": "-ing form of <em>run</em>:", "o": ["running", "runing", "runeing", "runnning"], "e": "Short vowel + single consonant → double it: running."},
+{"t": "Past tense of <em>cry</em>:", "o": ["cried", "cryed", "cryd", "craid"], "e": "Consonant + y → change y to i and add -ed."}
+]},
+{"q": [
+{"t": "Is <em>has</em> a main verb or helping verb in <em>He has a red bicycle.</em>?", "o": ["Main verb", "Helping verb", "Neither", "Modal"], "e": "No other verb follows it — ‘has’ itself means ‘owns’, so it is the main verb."},
+{"t": "Is <em>has</em> a main verb or helping verb in <em>He has finished.</em>?", "o": ["Helping verb", "Main verb", "Linking verb", "Modal"], "e": "‘finished’ carries the meaning; ‘has’ helps form the present perfect."},
+{"t": "Choose the correct form: <em>The bell has ___.</em>", "o": ["rung", "rang", "ringed", "ring"], "e": "ring – rang – rung. After ‘has’ use V3."},
+{"t": "Choose the correct form: <em>They ___ to Goa last year.</em>", "o": ["went", "gone", "have gone", "goes"], "e": "‘last year’ is a finished past time → simple past V2: went."},
+{"t": "Choose the correct form: <em>She has ___ the news.</em>", "o": ["heard", "hear", "heared", "hearing"], "e": "hear – heard – heard."},
+{"t": "Identify the linking verb: <em>The milk smells sour.</em>", "o": ["smells", "milk", "sour", "The"], "e": "‘smells’ links ‘milk’ to the quality ‘sour’."},
+{"t": "Choose the correct word: <em>The flower looks ___.</em>", "o": ["beautiful", "beautifully", "beauty", "beautify"], "e": "‘looks’ is a linking verb here — the word after it describes the flower, so it must be an adjective."},
+{"t": "Past participle of <em>begin</em>:", "o": ["begun", "began", "beginned", "begin"], "e": "begin – began – begun."},
+{"t": "Find the error: <em>I have went to Delhi twice.</em>", "o": ["‘went’ should be ‘gone’", "‘have’ should be ‘has’", "‘twice’ should be ‘two times’", "No error"], "e": "After ‘have’ use V3: gone. ‘went’ (V2) never takes a helper."},
+{"t": "Past tense of <em>stop</em>:", "o": ["stopped", "stoped", "stopt", "stopd"], "e": "Short vowel + single consonant → double the p: stopped."}
+]},
+{"q": [
+{"t": "Is <em>runs</em> transitive or intransitive in <em>My uncle runs a bakery.</em>?", "o": ["Transitive", "Intransitive", "Linking", "Helping"], "e": "runs what? → a bakery. It has an object here, so it is transitive."},
+{"t": "Choose the correct form: <em>The hen has ___ an egg.</em>", "o": ["laid", "lain", "lay", "lied"], "e": "lay (put down) – laid – laid. A hen ‘lays’ (puts down) an egg."},
+{"t": "Choose the correct form: <em>He ___ on the bed all afternoon yesterday.</em>", "o": ["lay", "laid", "lied", "lain"], "e": "lie (rest) – lay – lain. ‘lay’ here is the past of ‘lie’."},
+{"t": "Choose the correct form: <em>The boy ___ to his mother about the broken vase.</em> (did not tell the truth)", "o": ["lied", "lay", "laid", "lain"], "e": "lie (tell an untruth) is regular: lie – lied – lied."},
+{"t": "Which sentence can be changed into the passive?", "o": ["The dog chased the cat.", "The dog ran away.", "The dog barked loudly.", "The dog slept."], "e": "Only a transitive verb (with an object: the cat) can become passive: The cat was chased by the dog."},
+{"t": "Choose the correct form: <em>The thief was ___ by the police.</em>", "o": ["caught", "catched", "catch", "caughten"], "e": "catch – caught – caught. After ‘was’ (passive) use V3."},
+{"t": "Choose the correct sentence.", "o": ["She felt sad after the match.", "She felt sadly after the match.", "She felt sadness after the match is.", "She feeled sad after the match."], "e": "‘felt’ is a linking verb here, so an adjective (sad) follows. feel – felt – felt."},
+{"t": "Choose the correct form: <em>Have you ever ___ a ghost?</em>", "o": ["seen", "saw", "seed", "see"], "e": "see – saw – seen. After ‘have’ use V3."},
+{"t": "-ing form of <em>lie</em>:", "o": ["lying", "lieing", "liing", "lyeing"], "e": "-ie changes to y before -ing: lie → lying, die → dying, tie → tying."},
+{"t": "Which word is a verb? <em>Please water the plants.</em>", "o": ["water", "plants", "Please", "the"], "e": "Here ‘water’ is the action (give water to). The same word can be a noun or a verb depending on its job."}
+]},
+{"q": [
+{"t": "Choose the correct form: <em>The sun had ___ before we reached home.</em>", "o": ["set", "sat", "setted", "sit"], "e": "set – set – set (all three forms the same, like put and cut)."},
+{"t": "Choose the correct form: <em>He has ___ his book on the table.</em>", "o": ["laid", "lain", "lied", "lay"], "e": "He put the book down → ‘lay’ (put) – laid – laid."},
+{"t": "Choose the correct form: <em>The book has ___ on the table for a week.</em>", "o": ["lain", "laid", "lied", "layed"], "e": "The book is resting → ‘lie’ (rest) – lay – lain."},
+{"t": "Choose the correct sentence.", "o": ["The milk tastes sour.", "The milk tastes sourly.", "The milk is tasting sourly.", "The milk taste sour."], "e": "‘tastes’ links milk to a quality → adjective ‘sour’. ‘milk’ is singular → ‘tastes’."},
+{"t": "Choose the correct sentence.", "o": ["She tasted the soup carefully.", "She tasted the soup careful.", "She tasted careful the soup.", "She taste the soup carefully."], "e": "Here ‘tasted’ is an action (transitive), so ‘carefully’ (adverb) tells how she did it."},
+{"t": "Find the error: <em>The river has overflown its banks.</em>", "o": ["‘overflown’ should be ‘overflowed’", "‘has’ should be ‘have’", "‘its’ should be ‘it's’", "No error"], "e": "overflow is regular: overflow – overflowed – overflowed. ‘overflown’ belongs to ‘overfly’ (fly over)."},
+{"t": "Choose the correct form: <em>The guests had ___ before the rain started.</em>", "o": ["arrived", "arrive", "arriven", "arrove"], "e": "arrive is regular — V3 is ‘arrived’."},
+{"t": "In <em>The leaves turned yellow.</em>, the verb <em>turned</em> is:", "o": ["a linking verb", "a transitive verb", "a helping verb", "a modal"], "e": "‘turned’ means ‘became’ here and links leaves to the quality ‘yellow’. Nothing is being turned."},
+{"t": "Choose the correct form: <em>The shirt has ___ after washing.</em>", "o": ["shrunk", "shrank", "shrinked", "shrinken"], "e": "shrink – shrank – shrunk. After ‘has’ use V3."},
+{"t": "How many verbs (main + helping) are in: <em>She must have been sleeping.</em>?", "o": ["4", "1", "2", "3"], "e": "must (modal) + have + been (helpers) + sleeping (main) = 4 words in the verb phrase."}
+]}
+]
+}

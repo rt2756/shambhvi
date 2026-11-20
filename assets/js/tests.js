@@ -29,7 +29,13 @@
     return e;
   }
 
-  function dirFor(cls) { return "content/class" + cls + "/tests/"; }
+  // A set is a class number ("7" -> content/class7/tests/, hub class7-tests.html) or a
+  // class-free name ("grammar" -> content/grammar/tests/, hub grammar-tests.html).
+  var SET_NAMES = { grammar: "English Grammar" };
+  function isClass(set) { return /^\d+$/.test(set); }
+  function dirFor(cls) { return isClass(cls) ? "content/class" + cls + "/tests/" : "content/" + cls + "/tests/"; }
+  function hubFor(cls) { return isClass(cls) ? "class" + cls + "-tests.html" : cls + "-tests.html"; }
+  function labelFor(cls) { return isClass(cls) ? "Class " + cls : (SET_NAMES[cls] || cls); }
   function keyFor(cls, file, t) { return "test:" + cls + ":" + file + ":" + t; }
 
   function loadState(key) {
@@ -140,10 +146,10 @@
 
   function initRun(mount) {
     var p = new URLSearchParams(location.search);
-    var cls = (p.get("c") || "").replace(/[^0-9]/g, "");
+    var cls = (p.get("c") || "").replace(/[^a-z0-9\-]/gi, "");
     var file = (p.get("f") || "").replace(/[^a-z0-9.\-]/gi, "");
     var t = parseInt(p.get("t"), 10) || 1;
-    var hub = "class" + cls + "-tests.html";
+    var hub = hubFor(cls);
     var key = keyFor(cls, file, t);
 
     getJSON(dirFor(cls) + file + ".json")
@@ -159,7 +165,7 @@
         var h = document.getElementById("test-title");
         if (h) h.textContent = data.title;
         var pill = document.getElementById("test-pill");
-        if (pill) pill.textContent = "🎯 Class " + cls + " · Test " + t + " of " + data.tests.length;
+        if (pill) pill.textContent = "🎯 " + labelFor(cls) + " · Test " + t + " of " + data.tests.length;
         var back = document.getElementById("test-back");
         if (back) back.href = hub;
 

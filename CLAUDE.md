@@ -14,6 +14,10 @@ full file map, callout syntax, and how rendering works.
 Classes 5, 6, 8, 9 and 10 currently hold only `0.syllabus.md`, a verified chapter map of
 the year; fill them in one chapter at a time, matching the class-7 depth.
 
+**English grammar** is class-free: `content/grammar/notes/` (21 topic lessons, each saying which
+classes teach it) and `content/grammar/tests/` (4 levels × 10 questions per lesson), shown on
+`grammar.html` and `grammar-tests.html`. Run `python3 tools/check_tests.py grammar` after edits.
+
 Source books are local and gitignored: `ncert_books/class_<N>/*.pdf` (see its `INDEX.md`).
 **Always verify a chapter list or fact against the actual book PDF** rather than recalling
 it — the 2024–26 NCERT rewrites renamed and reordered many chapters.

@@ -37,6 +37,7 @@ Content is bucketed **by class** (5–10); vocabulary and the to-do list are cla
 | `content/class7/math-questions/*.md` · `science-questions/*.md` | Class 7 practice questions, same chapter numbering as its notes. |
 | `content/class7/saved/` · `content/class7/links/` | The tricky-questions notebook and the reference links. |
 | `content/vocab/` · `content/math-todo/` | Class-free: word power, and the tables/squares/cubes checklist. |
+| `content/grammar/notes/*.md` · `content/grammar/tests/*.json` | Class-free **English grammar**: 21 lessons (CBSE / NCERT classes 5–10, mapped in `0.syllabus.md`) + four tests per lesson. Pages: `grammar.html`, `grammar-tests.html`. |
 | `index.html` | **Home** — the class picker (2–10) plus the class-free sections. |
 | `class<N>-math.html` · `class<N>-science.html` | One page per class per subject. |
 | `class7-math-questions.html` · `class7-science-questions.html` · `class7-saved.html` · `class7-links.html` | The extra class-7 pages. |
@@ -182,6 +183,11 @@ A question is multiple choice or a number answer:
 - **`k`** — optional: a formula for the answer. `python3 tools/check_tests.py` works out every
   `k` and compares it with the key, and also checks each file has 4 tests × 10 questions.
   **Run it after any edit.**
+
+**Class-free test sets.** A set can also be a name instead of a class number: `content/grammar/tests/`
+is run as `test.html?c=grammar&f=…`, its hub is `grammar-tests.html` (`data-class="grammar"`), and
+`python3 tools/check_tests.py grammar` checks it. To add another set, give it a label in `SET_NAMES`
+in `assets/js/tests.js`.
 
 To add a class: create `content/class<N>/tests/` with chapter files and a `manifest.json`, copy
 `class7-tests.html` to `class<N>-tests.html`, and change `data-class`.

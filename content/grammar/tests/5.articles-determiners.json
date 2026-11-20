@@ -1,0 +1,53 @@
+{
+"title": "5. Articles & determiners",
+"tests": [
+{"q": [
+{"t": "Fill in: <em>She ate ___ apple.</em>", "o": ["an", "a", "the", "no article"], "e": "‘apple’ starts with a vowel sound, so ‘an’."},
+{"t": "Fill in: <em>He has ___ cat.</em>", "o": ["a", "an", "the", "some"], "e": "‘cat’ starts with a consonant sound and is singular and new → ‘a’."},
+{"t": "Fill in: <em>___ sun rises in the east.</em>", "o": ["The", "A", "An", "No article"], "e": "There is only one sun, so ‘the’."},
+{"t": "Fill in: <em>I waited for ___ hour.</em>", "o": ["an", "a", "the", "no article"], "e": "The h in ‘hour’ is silent; the first sound is ‘ow’, a vowel sound → an."},
+{"t": "Fill in: <em>She studies at ___ university.</em>", "o": ["a", "an", "the", "no article"], "e": "‘university’ begins with a ‘yoo’ sound — a consonant sound → a."},
+{"t": "Fill in: <em>___ Ganga is a holy river.</em>", "o": ["The", "A", "An", "No article"], "e": "Rivers take ‘the’."},
+{"t": "Fill in: <em>He is ___ best player in the team.</em>", "o": ["the", "a", "an", "no article"], "e": "Superlatives take ‘the’ — there is only one best."},
+{"t": "Fill in: <em>___ books on this shelf are mine.</em> (far away)", "o": ["Those", "This", "That", "These"], "e": "Plural (books) and far → those."},
+{"t": "Fill in: <em>Do you have ___ questions?</em>", "o": ["any", "some", "a", "much"], "e": "In questions that are left open, use ‘any’."},
+{"t": "Fill in: <em>We play ___ cricket every evening.</em>", "o": ["no article", "the", "a", "an"], "e": "Names of games take no article."}
+]},
+{"q": [
+{"t": "Fill in: <em>He is ___ honest man.</em>", "o": ["an", "a", "the", "no article"], "e": "Silent h: ‘honest’ begins with an ‘o’ sound → an."},
+{"t": "Fill in: <em>I saw a dog in the park. ___ dog was barking.</em>", "o": ["The", "A", "An", "No article"], "e": "Second mention — the listener now knows which dog → the."},
+{"t": "Fill in: <em>She is ___ European.</em>", "o": ["a", "an", "the", "no article"], "e": "‘European’ starts with a ‘yoo’ sound (a consonant sound) → a."},
+{"t": "Fill in: <em>He wants to become ___ MLA.</em>", "o": ["an", "a", "the", "no article"], "e": "MLA is spoken ‘em-el-ay’, starting with a vowel sound → an."},
+{"t": "Fill in: <em>___ Himalayas are in the north.</em>", "o": ["The", "No article", "A", "An"], "e": "Mountain ranges take ‘the’."},
+{"t": "Fill in: <em>Mount Everest is in ___ Nepal.</em>", "o": ["no article", "the", "a", "an"], "e": "Names of most countries take no article (but: the USA, the UK)."},
+{"t": "Fill in: <em>There is ___ milk in the jug.</em> (enough for tea)", "o": ["a little", "a few", "few", "many"], "e": "Milk is uncountable; ‘a little’ = some, enough."},
+{"t": "Fill in: <em>___ student must carry an ID card.</em>", "o": ["Every", "All", "Both", "Many"], "e": "‘student’ is singular and ‘must’ works for each → Every (or Each). ‘All/Many/Both’ need a plural noun."},
+{"t": "Fill in: <em>She plays ___ guitar beautifully.</em>", "o": ["the", "a", "an", "no article"], "e": "Musical instruments take ‘the’ when we talk of playing them."},
+{"t": "Fill in: <em>Would you like ___ juice?</em>", "o": ["some", "any", "many", "a"], "e": "An offer expects ‘yes’, so use ‘some’ even in a question. Juice is uncountable, so not ‘a’ or ‘many’."}
+]},
+{"q": [
+{"t": "Fill in: <em>He goes to ___ church every Sunday.</em> (to pray)", "o": ["no article", "the", "a", "an"], "e": "Going to a place for its main purpose (praying at church) — no article."},
+{"t": "Fill in: <em>The plumber went to ___ church to fix a pipe.</em>", "o": ["the", "no article", "a", "an"], "e": "He is not going to pray — it is just a building he visits, so ‘the’."},
+{"t": "Fill in: <em>___ USA is a large country.</em>", "o": ["The", "No article", "A", "An"], "e": "‘States’ is a common noun, so the full name takes ‘the’: the USA, the UK."},
+{"t": "Fill in: <em>He gave me ___ one-rupee coin.</em>", "o": ["a", "an", "the", "no article"], "e": "‘one’ begins with a ‘w’ sound — a consonant sound → a."},
+{"t": "Fill in: <em>___ honesty is the best policy.</em>", "o": ["No article", "The", "An", "A"], "e": "An abstract idea in general takes no article."},
+{"t": "Fill in: <em>She reads ___ Hindu every morning.</em> (a newspaper)", "o": ["The", "A", "An", "No article"], "e": "Names of newspapers take ‘the’."},
+{"t": "Fill in: <em>___ of the two roads leads to the station.</em> (one or the other)", "o": ["Either", "Both", "All", "Every"], "e": "‘Either’ = one of two. ‘Both’ would need ‘lead’ and means the two together."},
+{"t": "Fill in: <em>I have read ___ the books in this series.</em>", "o": ["all", "every", "each", "many of"], "e": "‘all the’ + plural noun. ‘every’ and ‘each’ take a singular noun and no ‘the’."},
+{"t": "Find the error: <em>An university was opened in our town.</em>", "o": ["‘An’ should be ‘A’", "‘was’ should be ‘were’", "‘in’ should be ‘at’", "No error"], "e": "It is the sound that matters: ‘yoo-niversity’ starts with a consonant sound → a."},
+{"t": "Fill in: <em>He is ___ only son of his parents.</em>", "o": ["the", "an", "a", "no article"], "e": "‘only’ makes it one particular person → the."}
+]},
+{"q": [
+{"t": "Fill in: <em>It was ___ unique experience.</em>", "o": ["a", "an", "the", "no article"], "e": "‘unique’ starts with a ‘yoo’ sound → a, even though it is spelt with u."},
+{"t": "Fill in: <em>He was taken to ___ hospital after the accident.</em> (as a patient)", "o": ["no article", "a", "an", "the only"], "e": "Going to hospital for its purpose (treatment) — no article (Indian/British use)."},
+{"t": "Fill in: <em>___ Andamans are a group of islands.</em>", "o": ["The", "A", "An", "No article"], "e": "Groups of islands take ‘the’."},
+{"t": "Choose the correct sentence.", "o": ["Neither answer is correct.", "Neither answers is correct.", "Neither answer are correct.", "Neither of answer is correct."], "e": "‘Neither’ + singular noun + singular verb. (With ‘of’: neither of the answers is …)"},
+{"t": "Fill in: <em>I have ___ time to waste.</em> (none at all)", "o": ["no", "a little", "any", "some"], "e": "‘no’ = not any. ‘any’ only works in a negative sentence (I don't have any time)."},
+{"t": "Fill in: <em>Rohan is ___ Einstein of our class.</em>", "o": ["the", "a", "an", "no article"], "e": "Here a famous name is used to mean ‘the genius’ of the class — one particular person, so ‘the’."},
+{"t": "Find the error: <em>The honesty of the boy impressed everyone.</em>", "o": ["No error", "‘The’ before honesty should be removed", "‘boy’ should be ‘boys’", "‘impressed’ should be ‘impress’"], "e": "‘honesty’ usually takes no article, but here it is a particular honesty — of the boy — so ‘the’ is correct."},
+{"t": "Fill in: <em>He has ___ X-ray report with him.</em>", "o": ["an", "a", "the only", "no article"], "e": "‘X’ is spoken ‘eks’, starting with a vowel sound → an."},
+{"t": "Choose the correct sentence.", "o": ["Each of the boys has a bicycle.", "Each of the boys have a bicycle.", "Each of the boy has a bicycle.", "Each boys has a bicycle."], "e": "‘Each of the’ + plural noun, but ‘each’ is the subject — singular verb ‘has’."},
+{"t": "Fill in: <em>___ rich should help ___ poor.</em>", "o": ["The, the", "A, a", "No article, no article", "The, a"], "e": "‘the’ + adjective means all people of that kind: the rich = rich people, the poor = poor people."}
+]}
+]
+}

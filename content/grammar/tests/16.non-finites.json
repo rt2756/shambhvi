@@ -1,0 +1,53 @@
+{
+"title": "16. Gerunds, infinitives & participles",
+"tests": [
+{"q": [
+{"t": "Find the gerund: <em>Swimming is good exercise.</em>", "o": ["Swimming", "is", "good", "exercise"], "e": "‘Swimming’ is the subject — an -ing form working as a noun."},
+{"t": "Find the infinitive: <em>I want to dance.</em>", "o": ["to dance", "want", "I", "dance only"], "e": "to + V1 = infinitive."},
+{"t": "Find the participle: <em>Look at the barking dog.</em>", "o": ["barking", "Look", "dog", "the"], "e": "‘barking’ describes the dog — a present participle used as an adjective."},
+{"t": "Find the participle: <em>Don't touch the broken glass.</em>", "o": ["broken", "touch", "glass", "Don't"], "e": "‘broken’ (V3) describes the glass — a past participle."},
+{"t": "Fill in: <em>I enjoy ___ stories.</em>", "o": ["reading", "to read", "read", "reads"], "e": "‘enjoy’ is followed by a gerund (-ing)."},
+{"t": "Fill in: <em>She decided ___ a doctor.</em>", "o": ["to become", "becoming", "become", "became"], "e": "‘decide’ is followed by to + V1."},
+{"t": "Fill in: <em>He went to the shop ___ milk.</em>", "o": ["to buy", "buying", "buy", "bought"], "e": "Purpose (why did he go?) → to-infinitive."},
+{"t": "Fill in: <em>She is fond of ___.</em>", "o": ["singing", "to sing", "sing", "sang"], "e": "After a preposition (of), use a gerund."},
+{"t": "Fill in: <em>Let him ___.</em>", "o": ["go", "to go", "going", "goes"], "e": "After ‘let’, the infinitive drops ‘to’."},
+{"t": "Fill in: <em>The match was very ___.</em>", "o": ["exciting", "excited", "excite", "excitement"], "e": "The match causes the feeling → -ing."}
+]},
+{"q": [
+{"t": "Fill in: <em>We were ___ after the long walk.</em>", "o": ["tired", "tiring", "tire", "tiredly"], "e": "We feel it → -ed. (The walk was tiring.)"},
+{"t": "Fill in: <em>Would you mind ___ the window?</em>", "o": ["closing", "to close", "close", "closed"], "e": "‘mind’ is followed by a gerund."},
+{"t": "Fill in: <em>He promised ___ on time.</em>", "o": ["to come", "coming", "come", "came"], "e": "‘promise’ is followed by to + V1."},
+{"t": "Fill in: <em>She made me ___.</em>", "o": ["laugh", "to laugh", "laughing", "laughed"], "e": "After ‘make’ + object, use the bare infinitive (no ‘to’)."},
+{"t": "Fill in: <em>He left without ___ goodbye.</em>", "o": ["saying", "to say", "say", "said"], "e": "After a preposition (without), use a gerund."},
+{"t": "Fill in: <em>I look forward to ___ you.</em>", "o": ["meeting", "meet", "met", "be meeting"], "e": "In ‘look forward to’, ‘to’ is a preposition, so a gerund follows."},
+{"t": "Is the underlined word a gerund or participle? <em><u>Running</u> water is clean.</em>", "o": ["Participle", "Gerund", "Infinitive", "Finite verb"], "e": "‘Running’ describes the water → participle (adjective). Test: you can't replace it with ‘it’."},
+{"t": "Is the underlined word a gerund or participle? <em>I like <u>running</u>.</em>", "o": ["Gerund", "Participle", "Infinitive", "Finite verb"], "e": "I like it → noun job → gerund."},
+{"t": "Fill in: <em>It is easy ___ this sum.</em>", "o": ["to solve", "solving", "solve", "solved"], "e": "After an adjective (easy), use to + V1."},
+{"t": "Fill in: <em>He avoided ___ the question.</em>", "o": ["answering", "to answer", "answer", "answered"], "e": "‘avoid’ takes a gerund."}
+]},
+{"q": [
+{"t": "What does <em>He stopped smoking.</em> mean?", "o": ["He gave up the habit of smoking.", "He paused in order to smoke.", "He is smoking now.", "He never smoked."], "e": "stop + gerund = end that activity."},
+{"t": "What does <em>He stopped to smoke.</em> mean?", "o": ["He paused (what he was doing) in order to smoke.", "He gave up smoking.", "He hates smoking.", "He forgot to smoke."], "e": "stop + infinitive = stop in order to do something else."},
+{"t": "Fill in: <em>Remember ___ the lights before you leave.</em>", "o": ["to switch off", "switching off", "switch off", "switched off"], "e": "Something still to be done in the future → remember + infinitive."},
+{"t": "Fill in: <em>I clearly remember ___ him at the party.</em>", "o": ["seeing", "to see", "see", "saw"], "e": "Recalling a past action → remember + gerund."},
+{"t": "Join with a participle: <em>He saw the tiger. He ran away.</em>", "o": ["Seeing the tiger, he ran away.", "Seen the tiger, he ran away.", "To see the tiger, he ran away.", "Seeing the tiger, the tiger ran away."], "e": "The present participle phrase belongs to the subject ‘he’ who saw."},
+{"t": "Join with a participle: <em>She finished her homework. She went out to play.</em>", "o": ["Having finished her homework, she went out to play.", "Finishing her homework, she went out to play later.", "Finished her homework, she went out to play.", "To finish her homework, she went out to play."], "e": "‘Having + V3’ shows that one action was complete before the next began."},
+{"t": "Fill in: <em>The ___ leaves covered the ground.</em> (already on the ground)", "o": ["fallen", "falling", "fell", "fall"], "e": "Leaves that have already fallen → past participle ‘fallen’."},
+{"t": "Find the error: <em>She is used to get up early.</em>", "o": ["‘get’ should be ‘getting’", "‘is’ should be ‘was’", "‘used’ should be ‘use’", "No error"], "e": "In ‘be used to’, ‘to’ is a preposition, so a gerund follows."},
+{"t": "Fill in: <em>I heard her ___ a song.</em>", "o": ["sing", "to sing", "sang", "sung"], "e": "After hear/see/watch + object, use the bare infinitive (or -ing): heard her sing."},
+{"t": "Fill in: <em>You had better ___ now.</em>", "o": ["leave", "to leave", "leaving", "left"], "e": "‘had better’ is followed by the bare infinitive."}
+]},
+{"q": [
+{"t": "Find the error: <em>Walking down the road, a stone hit him.</em>", "o": ["The stone was not walking — the participle dangles", "‘Walking’ should be ‘Walked’", "‘hit’ should be ‘hitted’", "No error"], "e": "The participle must belong to the subject after the comma. Correct: Walking down the road, he was hit by a stone."},
+{"t": "Choose the correct sentence.", "o": ["It being a rainy day, we stayed indoors.", "Being a rainy day, we stayed indoors.", "We being a rainy day stayed indoors.", "A rainy day being, we stayed indoors."], "e": "‘We’ were not a rainy day. Adding ‘It’ gives the participle its own subject: It being a rainy day, we stayed indoors."},
+{"t": "What is the function of the infinitive in <em>To err is human.</em>?", "o": ["Subject (noun)", "Purpose (adverb)", "Adjective", "Object"], "e": "‘To err’ is what is human — the subject of ‘is’."},
+{"t": "What is the function of the gerund in <em>She is tired of waiting.</em>?", "o": ["Object of a preposition", "Subject", "Adjective", "Finite verb"], "e": "‘waiting’ follows the preposition ‘of’."},
+{"t": "Fill in: <em>He tried ___ the heavy box, but it wouldn't move.</em> (made an effort)", "o": ["to lift", "lifting", "lift", "lifted"], "e": "try + infinitive = make an effort (try + -ing = do it as an experiment)."},
+{"t": "Fill in: <em>I regret ___ you that your application was rejected.</em> (formal: I'm sorry to tell you now)", "o": ["to inform", "informing", "inform", "informed"], "e": "regret + infinitive = being sorry about what you are about to say. regret + -ing = sorry about something already done."},
+{"t": "Join with an infinitive: <em>He is very weak. He cannot walk.</em>", "o": ["He is too weak to walk.", "He is very weak to walk.", "He is weak enough to walk.", "He is too weak walking."], "e": "‘too … to’ = so weak that he cannot. ‘enough to’ would mean he can."},
+{"t": "Choose the correct sentence.", "o": ["The news was shocking, and everyone was shocked.", "The news was shocked, and everyone was shocking.", "The news was shocking, and everyone was shocking.", "The news was shocked, and everyone was shocked."], "e": "The news causes the shock (-ing); people feel it (-ed)."},
+{"t": "Fill in: <em>The police found the ___ jewels in a bag.</em>", "o": ["stolen", "stealing", "stole", "steal"], "e": "The jewels had something done to them → past participle ‘stolen’."},
+{"t": "Combine with a gerund: <em>He smokes. It is bad for health.</em>", "o": ["Smoking is bad for his health.", "To smoking is bad for his health.", "Smoked is bad for his health.", "He smoking is bad for health."], "e": "The gerund ‘Smoking’ becomes the subject of the new sentence."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "7. Tenses",
+"tests": [
+{"q": [
+{"t": "Fill in: <em>She ___ to school every day.</em>", "o": ["walks", "walk", "is walk", "walked yesterday"], "e": "A daily habit → simple present. He/she/it takes -s: walks."},
+{"t": "Fill in: <em>Look! The baby ___.</em>", "o": ["is sleeping", "sleeps", "slept", "has slept"], "e": "‘Look!’ shows it is happening right now → present continuous."},
+{"t": "Fill in: <em>We ___ Agra last year.</em>", "o": ["visited", "visit", "have visited", "are visiting"], "e": "‘last year’ is a finished past time → simple past."},
+{"t": "Fill in: <em>I ___ you tomorrow.</em>", "o": ["will call", "called", "am called", "have called"], "e": "‘tomorrow’ → future: will + V1."},
+{"t": "Fill in: <em>Water ___ at 100 °C.</em>", "o": ["boils", "is boiling", "boiled", "will boiled"], "e": "A scientific fact that is always true → simple present."},
+{"t": "Fill in: <em>They ___ football now.</em>", "o": ["are playing", "is playing", "plays", "played"], "e": "‘now’ → present continuous. ‘They’ is plural → are."},
+{"t": "Fill in: <em>I ___ my homework. Can I go out to play?</em>", "o": ["have finished", "finish", "will finish", "was finishing"], "e": "The action is complete and the result matters now (so I can play) → present perfect."},
+{"t": "Which tense is <em>She was cooking.</em>?", "o": ["Past continuous", "Past perfect", "Present continuous", "Simple past"], "e": "was + V-ing → past continuous (in progress at a past time)."},
+{"t": "Which tense is <em>He has eaten.</em>?", "o": ["Present perfect", "Simple past", "Past perfect", "Present continuous"], "e": "has + V3 → present perfect."},
+{"t": "Fill in: <em>My father ___ tea every morning.</em>", "o": ["drinks", "drink", "is drink", "drinking"], "e": "Habit → simple present; ‘my father’ = he → drinks."}
+]},
+{"q": [
+{"t": "Fill in: <em>I have lived here ___ 2018.</em>", "o": ["since", "for", "from", "by"], "e": "2018 is a point in time → since."},
+{"t": "Fill in: <em>She has been waiting ___ two hours.</em>", "o": ["for", "since", "from", "at"], "e": "‘two hours’ is a length of time → for."},
+{"t": "Fill in: <em>I ___ when the phone rang.</em>", "o": ["was sleeping", "slept", "am sleeping", "have slept"], "e": "A longer action in progress (sleeping) interrupted by a short one (rang) → past continuous."},
+{"t": "Fill in: <em>The train ___ before we reached the station.</em>", "o": ["had left", "left", "has left", "was leaving"], "e": "Two past actions: the train leaving came first → past perfect ‘had left’."},
+{"t": "Find the error: <em>I have seen him yesterday.</em>", "o": ["‘have seen’ should be ‘saw’", "‘him’ should be ‘he’", "‘yesterday’ should be ‘tomorrow’", "No error"], "e": "‘yesterday’ is a finished time, so the present perfect cannot be used. Use simple past."},
+{"t": "Fill in: <em>If it ___ tomorrow, we will stay at home.</em>", "o": ["rains", "will rain", "rained", "is raining"], "e": "After ‘if’ (a condition about the future) use simple present. ‘will’ is already in the main part."},
+{"t": "Fill in: <em>By next June, I ___ the course.</em>", "o": ["will have finished", "will finish", "have finished", "finished"], "e": "‘By’ a future point, the action will be complete → future perfect."},
+{"t": "Fill in: <em>She ___ the answer.</em> (= she has this knowledge)", "o": ["knows", "is knowing", "has been knowing", "knowing"], "e": "‘know’ is a stative verb (a state, not an action), so it is not used in the continuous."},
+{"t": "Fill in: <em>Look at those dark clouds. It ___ rain.</em>", "o": ["is going to", "will be", "is", "has"], "e": "A clear sign in front of us → ‘going to’."},
+{"t": "Fill in: <em>He ___ just ___ the room.</em>", "o": ["has, left", "have, left", "is, leaving", "had, leave"], "e": "‘just’ → present perfect: has + V3."}
+]},
+{"q": [
+{"t": "Fill in: <em>They ___ in this house for ten years.</em> (and still live here)", "o": ["have been living", "are living", "lived", "had lived"], "e": "Started in the past, still going on, stressing how long → present perfect continuous."},
+{"t": "Fill in: <em>At this time tomorrow, I ___ to Shimla.</em>", "o": ["will be travelling", "will travel", "travel", "will have travelled"], "e": "In progress at a future moment → future continuous."},
+{"t": "Fill in: <em>When I reached the hall, the show ___.</em>", "o": ["had already started", "already started", "has already started", "already starts"], "e": "The show started before I reached → the earlier past action takes the past perfect."},
+{"t": "Fill in: <em>Wait here until I ___ back.</em>", "o": ["come", "will come", "came", "am coming back"], "e": "After ‘until’ (also when, before, after, if) use simple present for a future idea."},
+{"t": "Find the error: <em>She is belonging to a rich family.</em>", "o": ["‘is belonging’ should be ‘belongs’", "‘to’ should be ‘in’", "‘rich’ should be ‘richer’", "No error"], "e": "‘belong’ is a stative verb — not used in the continuous."},
+{"t": "Fill in: <em>Did you ___ the letter?</em>", "o": ["post", "posted", "posting", "posts"], "e": "‘did’ already shows the past, so the main verb goes back to V1."},
+{"t": "Fill in: <em>He ___ his keys, so he cannot open the door.</em>", "o": ["has lost", "lost yesterday", "loses", "had been losing"], "e": "The past action has a result now (cannot open the door) → present perfect."},
+{"t": "Fill in: <em>While she ___, she cut her finger.</em>", "o": ["was cooking", "cooked", "has cooked", "is cooking"], "e": "‘While’ marks the background action in progress → past continuous; the short action (cut) is simple past."},
+{"t": "Fill in: <em>The patient ___ before the doctor arrived.</em>", "o": ["had died", "died", "has died", "was died"], "e": "Two past actions; the earlier one takes the past perfect."},
+{"t": "Fill in: <em>The sun ___ in the west.</em>", "o": ["sets", "is setting always", "set", "has set"], "e": "A universal fact → simple present."}
+]},
+{"q": [
+{"t": "Fill in: <em>It ___ since morning, and the roads are flooded.</em>", "o": ["has been raining", "is raining", "rained", "rains"], "e": "Started at a past point (since morning) and still going on → present perfect continuous."},
+{"t": "Fill in: <em>By the time the fire brigade came, the house ___ down.</em>", "o": ["had burnt", "burnt", "has burnt", "was burning"], "e": "The burning was complete before they came → past perfect."},
+{"t": "Fill in: <em>She ___ for an hour when the bus finally came.</em>", "o": ["had been waiting", "has been waiting", "was waited", "waited since"], "e": "In progress for a length of time up to a past point → past perfect continuous."},
+{"t": "Fill in the correct pair: <em>I ___ (read) for two hours before I ___ (feel) sleepy.</em>", "o": ["had been reading, felt", "have been reading, feel", "was reading, had felt", "read, had felt"], "e": "The long earlier action → past perfect continuous; the later event → simple past."},
+{"t": "Find the error: <em>When I will grow up, I will be a pilot.</em>", "o": ["‘will grow up’ should be ‘grow up’", "‘will be’ should be ‘am’", "‘a pilot’ should be ‘pilot’", "No error"], "e": "After ‘when’ for a future idea, use simple present: When I grow up …"},
+{"t": "Find the error: <em>He did not went to school.</em>", "o": ["‘went’ should be ‘go’", "‘did not’ should be ‘does not’", "‘to’ should be removed", "No error"], "e": "‘did’ already carries the past tense, so the main verb must be V1."},
+{"t": "Fill in: <em>Hardly had he reached the station when the train ___.</em>", "o": ["left", "had left", "has left", "leaves"], "e": "‘Hardly had … when’: the first action is past perfect, the second (which happened just after) is simple past."},
+{"t": "Fill in: <em>By 2030, scientists ___ a cure for the disease.</em>", "o": ["will have found", "will find already", "have found", "found"], "e": "‘By’ + a future date → completed before then → future perfect."},
+{"t": "Fill in: <em>Rina ___ a novel these days; she ___ three chapters so far.</em>", "o": ["is writing, has written", "writes, wrote", "was writing, had written", "has written, is writing"], "e": "‘these days’ → present continuous; ‘so far’ → present perfect."},
+{"t": "Fill in: <em>I ___ this film before, so I know the ending.</em>", "o": ["have seen", "saw yesterday", "see", "am seeing"], "e": "An experience with no time stated and a result now (I know the ending) → present perfect."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "21. Error spotting & editing",
+"tests": [
+{"q": [
+{"t": "Find the error: <em>She go to school by bus.</em>", "o": ["go → goes", "school → the school", "by → in", "No error"], "e": "She (singular) in the simple present → goes."},
+{"t": "Find the error: <em>I saw a elephant at the zoo.</em>", "o": ["a → an", "saw → seen", "at → in", "No error"], "e": "‘elephant’ starts with a vowel sound → an."},
+{"t": "Find the error: <em>Yesterday we play cricket.</em>", "o": ["play → played", "Yesterday → Tomorrow", "we → us", "No error"], "e": "‘Yesterday’ is past → played."},
+{"t": "Find the error: <em>The children is playing.</em>", "o": ["is → are", "children → child", "playing → play", "No error"], "e": "‘children’ is plural → are."},
+{"t": "Find the error: <em>He can swims very well.</em>", "o": ["swims → swim", "can → cans", "well → good", "No error"], "e": "After a modal, use V1: can swim."},
+{"t": "Find the missing word: <em>She is fond ___ music.</em>", "o": ["of", "in", "at", "with"], "e": "The fixed pair is ‘fond of’."},
+{"t": "Find the missing word: <em>I want ___ become a doctor.</em>", "o": ["to", "for", "be", "that"], "e": "‘want’ is followed by to + V1."},
+{"t": "Find the error: <em>Me and Riya went home.</em>", "o": ["Me → I (Riya and I)", "went → go", "home → to home", "No error"], "e": "It's the subject → I. Politely, put yourself last: Riya and I."},
+{"t": "Find the error: <em>She sings very good.</em>", "o": ["good → well", "sings → sing", "very → too", "No error"], "e": "Describes how she sings → adverb: well."},
+{"t": "Find the missing word: <em>He reached school ___ 8 o'clock.</em>", "o": ["at", "on", "in", "by the"], "e": "Clock time → at."}
+]},
+{"q": [
+{"t": "Find the error: <em>One of my friends live in Pune.</em>", "o": ["live → lives", "friends → friend", "in → at", "No error"], "e": "The subject is ‘One’ → lives."},
+{"t": "Find the error: <em>I have went there twice.</em>", "o": ["went → gone", "have → has", "twice → two", "No error"], "e": "After ‘have’, use V3: gone."},
+{"t": "Find the error: <em>She is good in mathematics.</em>", "o": ["in → at", "is → are", "mathematics → mathematic", "No error"], "e": "The fixed pair is ‘good at’."},
+{"t": "Find the error: <em>He did not came yesterday.</em>", "o": ["came → come", "did → does", "yesterday → today", "No error"], "e": "‘did’ carries the past, so use V1: come."},
+{"t": "Find the error: <em>This is the boy which won the prize.</em>", "o": ["which → who", "boy → boys", "won → win", "No error"], "e": "For a person → who."},
+{"t": "Find the missing word: <em>There ___ many people at the fair.</em>", "o": ["were", "was", "is", "has"], "e": "The real subject ‘many people’ is plural → were (past)."},
+{"t": "Find the missing word: <em>He is ___ best player in our team.</em>", "o": ["the", "a", "an", "most"], "e": "Superlatives take ‘the’."},
+{"t": "Find the error: <em>She is more taller than her sister.</em>", "o": ["more taller → taller", "her → hers", "than → then", "No error"], "e": "Don't use ‘more’ with -er."},
+{"t": "Find the error: <em>We discussed about the plan.</em>", "o": ["Remove ‘about’", "discussed → discuss", "the → a", "No error"], "e": "‘discuss’ takes no preposition."},
+{"t": "Find the error: <em>Each of the students have a book.</em>", "o": ["have → has", "Each → All", "students → student", "No error"], "e": "‘Each’ is singular → has."}
+]},
+{"q": [
+{"t": "Find the error: <em>If it will rain, we will stay home.</em>", "o": ["will rain → rains", "will stay → stay", "home → at home", "No error"], "e": "After ‘if’ for a future idea, use the simple present."},
+{"t": "Find the error: <em>I am knowing the answer.</em>", "o": ["am knowing → know", "the → an", "answer → answers", "No error"], "e": "‘know’ is a stative verb — no continuous form."},
+{"t": "Find the error: <em>The news are very shocking.</em>", "o": ["are → is", "news → new", "shocking → shocked", "No error"], "e": "‘news’ is singular."},
+{"t": "Find the error: <em>He has been working here since five years.</em>", "o": ["since → for", "has → have", "working → worked", "No error"], "e": "‘five years’ is a length of time → for."},
+{"t": "Find the error: <em>I have seen him last week.</em>", "o": ["have seen → saw", "him → he", "last → next", "No error"], "e": "‘last week’ is a finished time → simple past."},
+{"t": "Find the missing word: <em>The train had left ___ we reached the station.</em>", "o": ["before", "after", "since", "until"], "e": "The train left first (past perfect), then we reached → before."},
+{"t": "Find the missing word: <em>She asked me ___ I was ready.</em>", "o": ["if", "that", "what", "to"], "e": "A reported yes/no question → if/whether."},
+{"t": "Find the error: <em>Neither Ravi nor his friends was there.</em>", "o": ["was → were", "nor → or", "his → their", "No error"], "e": "Agree with the nearer subject ‘friends’ → were."},
+{"t": "Find the error: <em>The letter was wrote by Meena.</em>", "o": ["wrote → written", "was → were", "by → from", "No error"], "e": "Passive needs V3: written."},
+{"t": "Find the error: <em>Although he was poor, but he was honest.</em>", "o": ["Remove ‘but’", "Although → Because", "was → is", "No error"], "e": "‘Although’ already shows contrast."}
+]},
+{"q": [
+{"t": "Editing — find the error in this line: <em>Last summer my family visit Shimla for a week.</em>", "o": ["visit → visited", "for → since", "a week → the week", "No error"], "e": "‘Last summer’ sets the past → visited."},
+{"t": "Next line: <em>We stayed in a hotel who was near the Mall Road.</em>", "o": ["who → which", "in → at", "was → were", "No error"], "e": "A hotel is a thing → which (or that)."},
+{"t": "Next line: <em>Every morning we walks up to the ridge.</em>", "o": ["walks → walked", "Every → All", "up → upon", "No error"], "e": "We (plural) and the story is in the past → walked."},
+{"t": "Next line: <em>The view of the mountains were breathtaking.</em>", "o": ["were → was", "The view → A view", "of → from", "No error"], "e": "The subject is ‘view’ (singular); ‘of the mountains’ only describes it."},
+{"t": "Omission — choose the missing word: <em>On the last day, we bought gifts ___ our friends.</em>", "o": ["for", "to", "with", "of"], "e": "Gifts intended for someone → for."},
+{"t": "Find the error: <em>Hardly had I reached the station than the train left.</em>", "o": ["than → when", "had → have", "reached → reach", "No error"], "e": "‘Hardly’ pairs with ‘when’; ‘No sooner’ pairs with ‘than’."},
+{"t": "Find the error: <em>He told that he was busy.</em>", "o": ["told → said", "was → is", "that → if", "No error"], "e": "‘told’ needs a person (told me); otherwise use ‘said’."},
+{"t": "Find the error: <em>The number of students are increasing.</em>", "o": ["are → is", "number → numbers", "increasing → increase", "No error"], "e": "‘The number of’ is one figure → singular."},
+{"t": "Gap-fill with the right tense: <em>By the time the doctor came, the patient ___.</em> (die)", "o": ["had died", "died", "has died", "was dying already"], "e": "The death came before the doctor's arrival — earlier of two past actions → past perfect."},
+{"t": "Find the error: <em>Walking along the beach, a big wave knocked me down.</em>", "o": ["The participle dangles — the wave wasn't walking", "Walking → Walked", "knocked → knock", "No error"], "e": "The phrase must belong to the subject: Walking along the beach, I was knocked down by a big wave."}
+]}
+]
+}

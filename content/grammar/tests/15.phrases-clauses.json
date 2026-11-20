@@ -1,0 +1,53 @@
+{
+"title": "15. Phrases & clauses",
+"tests": [
+{"q": [
+{"t": "Which is a phrase (not a clause)?", "o": ["in the morning", "when the sun rose", "I am hungry", "because she cried"], "e": "‘in the morning’ has no subject–verb pair. The others do (sun rose, I am, she cried)."},
+{"t": "Which is a clause?", "o": ["that she was ill", "under the old tree", "a very tall man", "with great care"], "e": "‘she was’ — a subject and a verb → clause."},
+{"t": "Find the main clause: <em>I stayed home because it was raining.</em>", "o": ["I stayed home", "because it was raining", "it was raining", "stayed home because"], "e": "‘I stayed home’ makes sense on its own."},
+{"t": "Find the subordinate clause: <em>When the bell rang, the children ran out.</em>", "o": ["When the bell rang", "the children ran out", "the bell", "ran out"], "e": "‘When the bell rang’ cannot stand alone; it depends on the main clause."},
+{"t": "Fill in: <em>The girl ___ won the race is my sister.</em>", "o": ["who", "which", "where", "when"], "e": "A person, subject of ‘won’ → who."},
+{"t": "Fill in: <em>This is the house ___ I was born.</em>", "o": ["where", "who", "which", "whom"], "e": "A place → where."},
+{"t": "What kind of phrase is <em>on the table</em>?", "o": ["Prepositional phrase", "Noun clause", "Verb", "Main clause"], "e": "It starts with a preposition (on) and has no verb."},
+{"t": "Fill in: <em>I know ___ he is honest.</em>", "o": ["that", "who", "which", "where"], "e": "‘that’ introduces what I know (a noun clause)."},
+{"t": "Fill in: <em>The book ___ I bought is interesting.</em>", "o": ["which", "who", "whom", "whose"], "e": "A thing → which (or that)."},
+{"t": "How many clauses are in: <em>I will call you when I reach.</em>?", "o": ["2", "1", "3", "4"], "e": "I will call you | when I reach — two subject–verb pairs."}
+]},
+{"q": [
+{"t": "What kind of clause is underlined? <em>I know <u>where she lives</u>.</em>", "o": ["Noun clause", "Adjective clause", "Adverb clause", "Phrase"], "e": "Replace it with ‘it’: I know it. It is the object of ‘know’ → noun clause."},
+{"t": "What kind of clause is underlined? <em>The man <u>who lives next door</u> is a doctor.</em>", "o": ["Adjective clause", "Noun clause", "Adverb clause", "Main clause"], "e": "It describes ‘the man’ → adjective (relative) clause."},
+{"t": "What kind of clause is underlined? <em><u>If it rains</u>, we will stay in.</em>", "o": ["Adverb clause", "Adjective clause", "Noun clause", "Main clause"], "e": "It gives a condition for staying in → adverb clause."},
+{"t": "What kind of clause is underlined? <em><u>What she said</u> surprised everyone.</em>", "o": ["Noun clause", "Adverb clause", "Adjective clause", "Phrase"], "e": "Replace it with ‘It’: It surprised everyone. It is the subject → noun clause."},
+{"t": "What kind of phrase is underlined? <em>He spoke <u>in a loud voice</u>.</em>", "o": ["Adverb phrase", "Adjective phrase", "Noun phrase", "Clause"], "e": "It tells how he spoke (= loudly) → adverb phrase."},
+{"t": "What kind of phrase is underlined? <em>a man <u>of great wealth</u></em>", "o": ["Adjective phrase", "Adverb phrase", "Noun clause", "Main clause"], "e": "It describes the man (= a wealthy man) → adjective phrase."},
+{"t": "Fill in: <em>That is the boy ___ bag was stolen.</em>", "o": ["whose", "who", "whom", "which"], "e": "Belonging (the boy’s bag) → whose."},
+{"t": "Combine: <em>This is the pen. I lost it yesterday.</em>", "o": ["This is the pen which I lost yesterday.", "This is the pen who I lost yesterday.", "This is the pen which I lost it yesterday.", "This is the pen where I lost yesterday."], "e": "‘which’ replaces ‘it’ — don’t keep both."},
+{"t": "Combine: <em>He was ill. He did not go to school.</em>", "o": ["As he was ill, he did not go to school.", "He was ill, who did not go to school.", "He was ill that he did not go to school.", "Although he was ill, he did not go to school."], "e": "Reason → As/Because. ‘Although’ would show contrast, which doesn't fit."},
+{"t": "What kind of clause is underlined? <em>She smiled <u>when she saw me</u>.</em>", "o": ["Adverb clause of time", "Noun clause", "Adjective clause", "Adverb clause of reason"], "e": "It tells when she smiled."}
+]},
+{"q": [
+{"t": "What kind of clause is underlined? <em>I remember the day <u>when we first met</u>.</em>", "o": ["Adjective clause", "Adverb clause", "Noun clause", "Main clause"], "e": "It describes ‘the day’ (which day?) → adjective clause, even though it starts with ‘when’."},
+{"t": "What kind of clause is underlined? <em>Tell me <u>when the train will arrive</u>.</em>", "o": ["Noun clause", "Adjective clause", "Adverb clause", "Phrase"], "e": "Tell me what? → it is the object of ‘tell’ → noun clause."},
+{"t": "What kind of clause is underlined? <em><u>Although he was tired</u>, he kept working.</em>", "o": ["Adverb clause of contrast", "Adverb clause of reason", "Noun clause", "Adjective clause"], "e": "‘Although’ shows a contrast (tired, yet working)."},
+{"t": "Choose the correctly punctuated sentence. (The speaker has only one mother.)", "o": ["My mother, who is a teacher, loves music.", "My mother who is a teacher loves music.", "My mother, that is a teacher, loves music.", "My mother who is a teacher, loves music."], "e": "Only one mother, so the clause is extra information → commas, and ‘who’ (never ‘that’ after a comma)."},
+{"t": "Which sentence means the speaker has MORE than one brother?", "o": ["My brother who lives in Delhi is an engineer.", "My brother, who lives in Delhi, is an engineer.", "My only brother lives in Delhi.", "My brother, an engineer, lives in Delhi."], "e": "No commas → the clause tells us WHICH brother, so there must be others."},
+{"t": "Find the noun clause: <em>It is certain that he will win.</em>", "o": ["that he will win", "It is certain", "he will win the", "certain that"], "e": "‘that he will win’ is the real subject (= ‘That he will win is certain’)."},
+{"t": "Combine using a noun clause: <em>He will pass. I am sure of it.</em>", "o": ["I am sure that he will pass.", "I am sure which he will pass.", "He will pass that I am sure.", "I am sure of that he will pass."], "e": "‘that he will pass’ replaces ‘it’ and becomes the thing I am sure of."},
+{"t": "Combine: <em>I met a man. His son is a pilot.</em>", "o": ["I met a man whose son is a pilot.", "I met a man who his son is a pilot.", "I met a man whom son is a pilot.", "I met a man which son is a pilot."], "e": "‘His’ (belonging) → whose."},
+{"t": "Fill in: <em>The girl ___ I met yesterday is a singer.</em>", "o": ["whom", "whose", "which", "where"], "e": "‘I met her’ — she is the object of ‘met’ → whom (or that/who)."},
+{"t": "What kind of clause is underlined? <em>He works hard <u>so that he may succeed</u>.</em>", "o": ["Adverb clause of purpose", "Adverb clause of result", "Noun clause", "Adjective clause"], "e": "‘so that’ tells why he works hard — his purpose."}
+]},
+{"q": [
+{"t": "What kind of clause is underlined? <em>The fact <u>that he lied</u> upset me.</em>", "o": ["Noun clause (explaining ‘the fact’)", "Adjective clause", "Adverb clause", "Main clause"], "e": "It tells what the fact is (fact = that he lied) — a noun clause in apposition. An adjective clause would describe it (the fact which he told me)."},
+{"t": "What kind of clause is underlined? <em>This is the reason <u>why he left</u>.</em>", "o": ["Adjective clause", "Noun clause", "Adverb clause of reason", "Phrase"], "e": "It describes ‘the reason’ (which reason?) → adjective clause."},
+{"t": "What kind of clause is underlined? <em>I wonder <u>whether she will come</u>.</em>", "o": ["Noun clause", "Adverb clause of condition", "Adjective clause", "Main clause"], "e": "I wonder what? → object of ‘wonder’ → noun clause."},
+{"t": "What kind of clause is underlined? <em>Sit <u>wherever you like</u>.</em>", "o": ["Adverb clause of place", "Noun clause", "Adjective clause", "Adverb clause of time"], "e": "It tells where to sit → adverb clause of place."},
+{"t": "Find the error: <em>The movie which we watched it was boring.</em>", "o": ["Remove ‘it’", "‘which’ should be ‘who’", "‘was’ should be ‘were’", "No error"], "e": "‘which’ already stands for the movie; ‘it’ repeats it."},
+{"t": "Find the error: <em>Delhi, that is the capital of India, is very crowded.</em>", "o": ["‘that’ should be ‘which’", "Remove the commas", "‘is’ should be ‘was’", "No error"], "e": "A non-defining clause (with commas) cannot use ‘that’."},
+{"t": "Change the adjective phrase to a clause: <em>a man of great courage</em>", "o": ["a man who has great courage", "a man when he has courage", "a man that courage is great", "a man because of great courage"], "e": "The phrase describes the man; the clause does the same job with a verb: who has great courage."},
+{"t": "Change the adverb phrase to a clause: <em>On reaching the station, he called me.</em>", "o": ["When he reached the station, he called me.", "Who reached the station, he called me.", "That he reached the station, he called me.", "Because the station, he called me."], "e": "‘On reaching’ = ‘when he reached’ — an adverb clause of time."},
+{"t": "How many subordinate clauses are in: <em>I think that he left before you arrived.</em>?", "o": ["2", "1", "3", "0"], "e": "‘that he left’ (noun clause) and ‘before you arrived’ (adverb clause). ‘I think’ is the main clause."},
+{"t": "Combine into one sentence: <em>He finished his work. Then he went home.</em>", "o": ["After he had finished his work, he went home.", "He finished his work which he went home.", "He finished his work that he went home.", "Although he finished his work, he went home."], "e": "‘After’ shows time order; the earlier action takes the past perfect."}
+]}
+]
+}

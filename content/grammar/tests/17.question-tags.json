@@ -1,0 +1,53 @@
+{
+"title": "17. Question tags",
+"tests": [
+{"q": [
+{"t": "Add the tag: <em>She is your sister, ___?</em>", "o": ["isn't she", "is she", "doesn't she", "isn't it"], "e": "Positive statement → negative tag; reuse ‘is’; she → she."},
+{"t": "Add the tag: <em>They are not ready, ___?</em>", "o": ["are they", "aren't they", "do they", "are not they"], "e": "Negative statement → positive tag."},
+{"t": "Add the tag: <em>You can swim, ___?</em>", "o": ["can't you", "can you", "don't you", "won't you"], "e": "Reuse the modal ‘can’, make it negative."},
+{"t": "Add the tag: <em>He plays the guitar, ___?</em>", "o": ["doesn't he", "isn't he", "don't he", "does he"], "e": "No helping verb → use does (he plays → does)."},
+{"t": "Add the tag: <em>You went to the party, ___?</em>", "o": ["didn't you", "don't you", "weren't you", "did you"], "e": "Simple past with no helper → did; positive → negative tag."},
+{"t": "Add the tag: <em>It was cold yesterday, ___?</em>", "o": ["wasn't it", "was it", "didn't it", "isn't it"], "e": "Reuse ‘was’; positive → negative."},
+{"t": "Add the tag: <em>Ravi will come, ___?</em>", "o": ["won't he", "will he", "doesn't he", "wouldn't he"], "e": "will → won't (will not)."},
+{"t": "Add the tag: <em>The girls have finished, ___?</em>", "o": ["haven't they", "have they", "didn't they", "haven't she"], "e": "Reuse ‘have’; the girls → they."},
+{"t": "Add the tag: <em>She doesn't like milk, ___?</em>", "o": ["does she", "doesn't she", "is she", "did she"], "e": "Negative statement → positive tag, reusing ‘does’."},
+{"t": "Add the tag: <em>We should leave now, ___?</em>", "o": ["shouldn't we", "should we", "don't we", "shall we"], "e": "Reuse ‘should’ and make it negative."}
+]},
+{"q": [
+{"t": "Add the tag: <em>I am right, ___?</em>", "o": ["aren't I", "amn't I", "am I not you", "isn't I"], "e": "‘amn't’ is not used; the tag for ‘I am’ is ‘aren't I’."},
+{"t": "Add the tag: <em>Let's go for a walk, ___?</em>", "o": ["shall we", "will we", "don't we", "let's we"], "e": "‘Let's’ is a suggestion → shall we."},
+{"t": "Add the tag: <em>Open the window, ___?</em>", "o": ["will you", "do you", "shall we", "don't you"], "e": "A command takes ‘will you’ (or ‘won't you’) to sound polite."},
+{"t": "Add the tag: <em>She never tells lies, ___?</em>", "o": ["does she", "doesn't she", "is she", "did she"], "e": "‘never’ makes the statement negative → positive tag."},
+{"t": "Add the tag: <em>Nobody came to the party, ___?</em>", "o": ["did they", "didn't they", "did he", "didn't he"], "e": "‘Nobody’ is negative → positive tag; nobody → they."},
+{"t": "Add the tag: <em>This is your book, ___?</em>", "o": ["isn't it", "isn't this", "is it", "doesn't it"], "e": "this/that → it in the tag."},
+{"t": "Add the tag: <em>There is a bank nearby, ___?</em>", "o": ["isn't there", "isn't it", "is there", "doesn't there"], "e": "‘there’ stays ‘there’ in the tag."},
+{"t": "Add the tag: <em>Everyone is here, ___?</em>", "o": ["aren't they", "isn't he", "isn't everyone", "are they"], "e": "everyone / someone → they (with ‘are’)."},
+{"t": "Add the tag: <em>He hardly studies, ___?</em>", "o": ["does he", "doesn't he", "is he", "hardly does he"], "e": "‘hardly’ is negative in meaning → positive tag."},
+{"t": "Add the tag: <em>You had a good time, ___?</em>", "o": ["didn't you", "hadn't you", "had you", "did you"], "e": "‘had’ here is a main verb (= enjoyed), so use ‘did’."}
+]},
+{"q": [
+{"t": "Add the tag: <em>Don't make a noise, ___?</em>", "o": ["will you", "won't you", "do you", "don't you"], "e": "A negative command takes ‘will you’."},
+{"t": "Add the tag: <em>Nothing is impossible, ___?</em>", "o": ["is it", "isn't it", "is nothing", "aren't they"], "e": "‘Nothing’ is negative → positive tag; nothing → it."},
+{"t": "Add the tag: <em>Few people came to the meeting, ___?</em>", "o": ["did they", "didn't they", "did people", "came they"], "e": "‘Few’ (without ‘a’) means hardly any → negative → positive tag."},
+{"t": "Add the tag: <em>A few students passed, ___?</em>", "o": ["didn't they", "did they", "passed they", "didn't he"], "e": "‘A few’ = some (positive) → negative tag."},
+{"t": "Add the tag: <em>He has finished his work, ___?</em>", "o": ["hasn't he", "doesn't he", "didn't he", "has he"], "e": "‘has’ is a helping verb here → reuse it."},
+{"t": "Add the tag: <em>She has a big house, ___?</em>", "o": ["doesn't she", "hasn't she", "isn't she", "has she"], "e": "‘has’ = owns (main verb) → use ‘does’ (‘hasn't she’ is British but less common in school answers)."},
+{"t": "Add the tag: <em>I'm not late, ___?</em>", "o": ["am I", "aren't I", "am not I", "are I"], "e": "Negative statement → positive tag: am I."},
+{"t": "Add the tag: <em>The baby seldom cries, ___?</em>", "o": ["does it", "doesn't it", "does she not", "doesn't she"], "e": "‘seldom’ is negative in meaning → positive tag. A baby (sex unknown) → it."},
+{"t": "Add the tag: <em>Somebody knocked at the door, ___?</em>", "o": ["didn't they", "didn't he", "did they", "didn't somebody"], "e": "somebody → they; positive past → didn't."},
+{"t": "Add the tag: <em>You used to live here, ___?</em>", "o": ["didn't you", "usedn't you", "weren't you", "don't you"], "e": "‘used to’ forms its question with ‘did’ → didn't you."}
+]},
+{"q": [
+{"t": "Add the tag: <em>Neither of them came, ___?</em>", "o": ["did they", "didn't they", "did he", "came they"], "e": "‘Neither’ is negative → positive tag; neither of them → they."},
+{"t": "Add the tag: <em>Let us go, ___?</em> (asking the listener to allow us)", "o": ["will you", "shall we", "won't we", "don't you"], "e": "‘Let us’ (asking permission from you) → will you. ‘Let's’ (a suggestion) → shall we."},
+{"t": "Add the tag: <em>Hardly anyone came, ___?</em>", "o": ["did they", "didn't they", "did anyone", "came they"], "e": "‘Hardly anyone’ is negative → positive tag; anyone → they."},
+{"t": "Add the tag: <em>He'd better go, ___?</em>", "o": ["hadn't he", "wouldn't he", "didn't he", "isn't he"], "e": "He'd better = He had better → tag reuses ‘had’."},
+{"t": "Add the tag: <em>She'd like some tea, ___?</em>", "o": ["wouldn't she", "hadn't she", "didn't she", "shouldn't she"], "e": "She'd like = She would like → wouldn't she."},
+{"t": "Find the error: <em>He never comes on time, doesn't he?</em>", "o": ["‘doesn't he’ should be ‘does he’", "‘never’ should be ‘always not’", "‘comes’ should be ‘come’", "No error"], "e": "‘never’ makes the statement negative, so the tag must be positive."},
+{"t": "Find the error: <em>Everybody enjoyed the show, didn't he?</em>", "o": ["‘he’ should be ‘they’", "‘didn't’ should be ‘did’", "‘enjoyed’ should be ‘enjoy’", "No error"], "e": "everybody → they in the tag."},
+{"t": "Add the tag: <em>There's no milk left, ___?</em>", "o": ["is there", "isn't there", "is it", "isn't it"], "e": "‘no milk’ makes it negative → positive tag; there stays there."},
+{"t": "Add the tag: <em>One should obey the law, ___?</em>", "o": ["shouldn't one", "shouldn't he", "should one", "don't we"], "e": "‘one’ is repeated in the tag: shouldn't one."},
+{"t": "Add the tag: <em>Have a sweet, ___?</em> (a friendly offer)", "o": ["won't you", "don't you", "haven't you", "shall we"], "e": "Invitations and offers in the imperative take ‘won't you’."}
+]}
+]
+}

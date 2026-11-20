@@ -1,0 +1,53 @@
+{
+"title": "10. Adverbs",
+"tests": [
+{"q": [
+{"t": "Find the adverb: <em>The tortoise walked slowly.</em>", "o": ["slowly", "tortoise", "walked", "The"], "e": "‘slowly’ tells how the tortoise walked."},
+{"t": "Find the adverb: <em>We will leave tomorrow.</em>", "o": ["tomorrow", "We", "leave", "will"], "e": "‘tomorrow’ tells when — an adverb of time."},
+{"t": "Find the adverb: <em>Please sit here.</em>", "o": ["here", "Please", "sit", "None"], "e": "‘here’ tells where — an adverb of place."},
+{"t": "Find the adverb: <em>She always smiles.</em>", "o": ["always", "She", "smiles", "None"], "e": "‘always’ tells how often — an adverb of frequency."},
+{"t": "Form the adverb from <em>quick</em>.", "o": ["quickly", "quickness", "quicker", "quicken"], "e": "Add -ly to the adjective: quick → quickly."},
+{"t": "Fill in: <em>She sings ___.</em>", "o": ["beautifully", "beautiful", "beauty", "beautify"], "e": "It tells how she sings (a verb) → adverb."},
+{"t": "Fill in: <em>He is a ___ driver.</em>", "o": ["careful", "carefully", "care", "carefulness"], "e": "It describes ‘driver’ (a noun) → adjective."},
+{"t": "What kind of adverb is <em>very</em> in <em>very tall</em>?", "o": ["Degree", "Time", "Place", "Manner"], "e": "‘very’ tells how much — degree."},
+{"t": "Fill in: <em>She speaks English ___.</em>", "o": ["well", "good", "goodly", "better than"], "e": "‘well’ is the adverb of ‘good’ — it tells how she speaks."},
+{"t": "Find the adverb: <em>The children went outside.</em>", "o": ["outside", "children", "went", "The"], "e": "‘outside’ tells where they went."}
+]},
+{"q": [
+{"t": "Choose the correct sentence.", "o": ["She is always late.", "She always is late.", "Always she is late.", "She is late always is."], "e": "Frequency adverbs go after am/is/are/was/were."},
+{"t": "Choose the correct sentence.", "o": ["He often goes to the library.", "He goes often to the library always.", "He goes to often the library.", "Often he go to the library."], "e": "Frequency adverbs go before the main verb."},
+{"t": "Which word is an adjective, not an adverb?", "o": ["friendly", "quickly", "softly", "loudly"], "e": "‘friendly’ describes a noun (a friendly dog) even though it ends in -ly."},
+{"t": "Fill in: <em>He works very ___ to pass the exam.</em> (with a lot of effort)", "o": ["hard", "hardly", "harder than", "hardness"], "e": "‘hard’ = with effort. ‘hardly’ means ‘almost not’."},
+{"t": "What does <em>I could hardly hear him.</em> mean?", "o": ["I could almost not hear him.", "I heard him very clearly.", "I tried hard to hear him.", "I heard him loudly."], "e": "‘hardly’ = almost not at all."},
+{"t": "Comparative of <em>fast</em> (adverb):", "o": ["faster", "more fast", "fastly", "more faster"], "e": "Short adverb → add -er."},
+{"t": "Comparative of <em>carefully</em>:", "o": ["more carefully", "carefullier", "carefuller", "most carefully"], "e": "-ly adverbs use ‘more’."},
+{"t": "Find the adverb that modifies an adjective: <em>The film was extremely boring.</em>", "o": ["extremely", "boring", "film", "was"], "e": "‘extremely’ tells how boring — it adds to the adjective."},
+{"t": "Fill in: <em>The box is ___ heavy for me to lift.</em>", "o": ["too", "very", "enough", "so much"], "e": "‘too … to’ means more than is possible: I cannot lift it."},
+{"t": "Fill in: <em>He is old ___ to vote.</em>", "o": ["enough", "too", "very", "so"], "e": "‘enough’ comes after the adjective: old enough."}
+]},
+{"q": [
+{"t": "Choose the correct order: <em>She sang ___.</em>", "o": ["beautifully at the concert last night", "last night beautifully at the concert", "at the concert last night beautifully", "last night at the concert beautifully"], "e": "At the end of a sentence: manner → place → time (how, where, when)."},
+{"t": "Fill in: <em>I haven't seen her ___.</em> (recently)", "o": ["lately", "late", "later", "latest"], "e": "‘lately’ = recently. ‘late’ = not on time."},
+{"t": "Fill in: <em>I have ___ been to Japan.</em>", "o": ["never", "ever not", "no", "not ever never"], "e": "With a helping verb, the frequency adverb goes after the first helper: have never been."},
+{"t": "Superlative of <em>badly</em>:", "o": ["worst", "baddest", "most badly", "worse"], "e": "badly – worse – worst (irregular)."},
+{"t": "Find the error: <em>She dances very good.</em>", "o": ["‘good’ should be ‘well’", "‘very’ should be ‘too’", "‘dances’ should be ‘dance’", "No error"], "e": "It describes how she dances (verb) → adverb ‘well’."},
+{"t": "Is <em>fast</em> an adjective or adverb in <em>He ran fast.</em>?", "o": ["Adverb", "Adjective", "Noun", "Verb"], "e": "It tells how he ran → adverb. (In ‘a fast car’ it is an adjective.)"},
+{"t": "Fill in: <em>The tea is ___ hot to drink.</em>", "o": ["too", "very", "enough", "much"], "e": "‘too … to’ shows that something cannot happen. ‘very hot to drink’ is wrong."},
+{"t": "Find the adverb that modifies another adverb: <em>She spoke rather softly.</em>", "o": ["rather", "softly", "spoke", "She"], "e": "‘rather’ tells how softly — it modifies the adverb ‘softly’."},
+{"t": "Choose the correct sentence.", "o": ["He is clever enough to solve it.", "He is enough clever to solve it.", "He is clever too to solve it.", "He enough is clever to solve it."], "e": "‘enough’ goes after the adjective."},
+{"t": "Fill in: <em>He is a ___ runner; he runs ___.</em>", "o": ["fast, fast", "fastly, fast", "fast, fastly", "quick, quick"], "e": "‘fast’ is both the adjective and the adverb; ‘fastly’ is not a word."}
+]},
+{"q": [
+{"t": "Find the adverb: <em>The lovely girl answered the question confidently.</em>", "o": ["confidently", "lovely", "girl", "question"], "e": "‘lovely’ describes the girl (adjective); ‘confidently’ describes how she answered."},
+{"t": "Choose the correct sentence.", "o": ["I am feeling well today.", "I am feeling good today well.", "I am feeling wellly today.", "I am well feeling today."], "e": "‘well’ here means healthy — used after a linking verb as an adjective."},
+{"t": "Choose the correct sentence.", "o": ["The flowers smell sweet.", "The flowers smell sweetly.", "The flowers sweetly smell sweet.", "The flowers smells sweet."], "e": "‘smell’ is a linking verb here (the flowers have a sweet smell), so an adjective follows."},
+{"t": "Choose the correct sentence.", "o": ["He hardly ever goes out.", "He hardly never goes out.", "He doesn't hardly go out.", "He goes hardly not out."], "e": "‘hardly’ is already negative; adding ‘never’ or ‘not’ makes a double negative."},
+{"t": "Fill in: <em>Of all the runners, Mohan ran the ___.</em>", "o": ["fastest", "faster", "most fast", "fastly"], "e": "Out of all → superlative of the adverb ‘fast’: fastest."},
+{"t": "Find the error: <em>She is enough intelligent to win.</em>", "o": ["‘enough intelligent’ should be ‘intelligent enough’", "‘is’ should be ‘was’", "‘to win’ should be ‘winning’", "No error"], "e": "‘enough’ comes after an adjective."},
+{"t": "What kind of adverb is <em>upstairs</em> in <em>He went upstairs.</em>?", "o": ["Place", "Time", "Manner", "Degree"], "e": "It tells where he went."},
+{"t": "Choose the sentence where <em>only</em> means ‘nobody else but Ravi’.", "o": ["Only Ravi ate the cake.", "Ravi only ate the cake.", "Ravi ate only the cake.", "Ravi ate the only cake."], "e": "Put ‘only’ right before the word it limits. ‘Only Ravi’ = no one else."},
+{"t": "Fill in: <em>Seldom ___ such a beautiful sight.</em>", "o": ["have I seen", "I have seen", "I seen have", "seen I have"], "e": "When a negative adverb (seldom, never, hardly) starts a sentence, the helping verb comes before the subject, as in a question."},
+{"t": "Fill in: <em>She did ___ in the test than I expected.</em>", "o": ["better", "more good", "weller", "best"], "e": "Comparative of the adverb ‘well’ is ‘better’."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "19. Word building",
+"tests": [
+{"q": [
+{"t": "Add a prefix to make the opposite of <em>happy</em>.", "o": ["unhappy", "dishappy", "imhappy", "nonhappy"], "e": "un- means ‘not’: unhappy."},
+{"t": "Add a prefix to make the opposite of <em>like</em>.", "o": ["dislike", "unlike only", "inlike", "mislike"], "e": "dis- shows the opposite action: dislike."},
+{"t": "What does the prefix <em>re-</em> mean in <em>rewrite</em>?", "o": ["again", "not", "before", "wrongly"], "e": "re- = again: write again."},
+{"t": "Which is a compound word?", "o": ["sunflower", "running", "happiness", "quickly"], "e": "sun + flower — two words joined into one. The others are words + suffixes."},
+{"t": "Choose the synonym of <em>big</em>.", "o": ["large", "tiny", "thin", "short"], "e": "Synonym = similar meaning: big ≈ large."},
+{"t": "Choose the antonym of <em>ancient</em>.", "o": ["modern", "old", "historic", "aged"], "e": "Antonym = opposite: ancient ↔ modern."},
+{"t": "Choose the correct homophone: <em>I can ___ the birds singing.</em>", "o": ["hear", "here", "heer", "hare"], "e": "hear = with your ears; here = this place."},
+{"t": "Choose the correct homophone: <em>She has ___ brothers.</em>", "o": ["two", "to", "too", "tow"], "e": "two = the number 2."},
+{"t": "Add a suffix to make a noun from <em>kind</em>.", "o": ["kindness", "kindly", "kindful", "kinder"], "e": "-ness makes a noun: kindness."},
+{"t": "Add a suffix to <em>care</em> to mean ‘without care’.", "o": ["careless", "careful", "caring", "cared"], "e": "-less = without."}
+]},
+{"q": [
+{"t": "Make the opposite of <em>possible</em>.", "o": ["impossible", "unpossible", "inpossible", "dispossible"], "e": "in- becomes im- before p, so it's easier to say: impossible."},
+{"t": "Make the opposite of <em>legal</em>.", "o": ["illegal", "inlegal", "unlegal", "dislegal"], "e": "in- becomes il- before l: illegal."},
+{"t": "Make the opposite of <em>regular</em>.", "o": ["irregular", "inregular", "unregular", "disregular"], "e": "in- becomes ir- before r: irregular."},
+{"t": "What does <em>mis-</em> mean in <em>misunderstand</em>?", "o": ["wrongly", "again", "not at all", "before"], "e": "mis- = wrongly: understand wrongly."},
+{"t": "Choose the correct spelling.", "o": ["misspell", "mispell", "missspell", "mispel"], "e": "mis + spell — keep every letter of both parts: two s's."},
+{"t": "Make an adjective from <em>danger</em>.", "o": ["dangerous", "dangerful", "dangerly", "dangerness"], "e": "-ous makes an adjective: dangerous."},
+{"t": "Make a noun from <em>decide</em>.", "o": ["decision", "decidement", "decidation", "decisive"], "e": "decide → decision. ‘decisive’ is an adjective."},
+{"t": "Choose the correct homophone: <em>The ___ was lovely for a picnic.</em>", "o": ["weather", "whether", "wether", "wheather"], "e": "weather = rain, sun, etc. whether = if."},
+{"t": "Choose the correct homophone: <em>Use ___ to make chapatis.</em>", "o": ["flour", "flower", "flore", "flor"], "e": "flour = ground wheat; flower = a bloom."},
+{"t": "Choose the synonym of <em>courageous</em>.", "o": ["brave", "afraid", "careful", "clever"], "e": "courageous ≈ brave."}
+]},
+{"q": [
+{"t": "Which word does NOT belong with the others?", "o": ["creative", "creation", "creator", "creativity"], "e": "creative is an adjective; the other three are nouns."},
+{"t": "Use the correct form: <em>Her ___ surprised everyone.</em> (succeed)", "o": ["success", "succeed", "successful", "successfully"], "e": "After ‘Her’ we need a noun: success."},
+{"t": "Use the correct form: <em>He answered ___.</em> (confident)", "o": ["confidently", "confident", "confidence", "confide"], "e": "It describes how he answered → adverb (-ly)."},
+{"t": "Use the correct form: <em>We must ___ the road.</em> (wide)", "o": ["widen", "width", "widely", "wideness"], "e": "After ‘must’ we need a verb; -en makes a verb: widen."},
+{"t": "Choose the correct spelling.", "o": ["dissatisfied", "disatisfied", "dissatisfyed", "disattisfied"], "e": "dis + satisfied: keep both s's."},
+{"t": "Choose the correct homophone: <em>The car was ___ at the red light.</em>", "o": ["stationary", "stationery", "stationairy", "stationry"], "e": "stationary (with a) = standing still. stationery (with e) = envelopes, pens, paper."},
+{"t": "Choose the correct homophone: <em>The ___ of the school gave a speech.</em>", "o": ["principal", "principle", "princepal", "principel"], "e": "principal = head of a school. principle = a rule or belief."},
+{"t": "Choose the antonym of <em>generous</em>.", "o": ["mean", "kind", "giving", "rich"], "e": "generous (happy to give) ↔ mean (unwilling to give)."},
+{"t": "What does <em>inter-</em> mean in <em>international</em>?", "o": ["between", "inside", "against", "under"], "e": "inter- = between: between nations."},
+{"t": "Make a noun from <em>child</em> meaning ‘the time of being a child’.", "o": ["childhood", "childship", "childness", "childdom"], "e": "-hood marks a state or time of life: childhood."}
+]},
+{"q": [
+{"t": "Which pair are NOT antonyms?", "o": ["ascend – climb", "victory – defeat", "permanent – temporary", "include – exclude"], "e": "ascend and climb both mean go up — they are synonyms."},
+{"t": "Use the correct form: <em>The ___ of the bridge took two years.</em> (construct)", "o": ["construction", "construct", "constructive", "constructively"], "e": "After ‘The’ and before ‘of’ we need a noun: construction."},
+{"t": "Use the correct form: <em>It was ___ to cross the river in the flood.</em> (possible)", "o": ["impossible", "possibility", "possibly", "impossibility"], "e": "After ‘was’ we need an adjective, and the flood shows the meaning is ‘not possible’."},
+{"t": "Use the correct form: <em>She is famous for her ___.</em> (generous)", "o": ["generosity", "generous", "generously", "generousness"], "e": "After ‘her’ a noun is needed: generous → generosity."},
+{"t": "Which word has a prefix meaning ‘against’?", "o": ["antiseptic", "anticipate", "ancient", "answer"], "e": "anti- = against (antiseptic works against germs). In ‘anticipate’, ‘anti’ is not the prefix."},
+{"t": "Choose the correct spelling.", "o": ["unnatural", "unatural", "unnaturall", "unaturall"], "e": "un + natural: keep both n's."},
+{"t": "Choose the correct spelling.", "o": ["beginner", "beginer", "begginer", "beginnor"], "e": "Short stressed final syllable (be-GIN) → double the n before a vowel suffix."},
+{"t": "Choose the correct set of homophones: <em>I ___ that the ___ car was his.</em>", "o": ["knew, new", "new, knew", "know, new", "knew, knew"], "e": "knew = past of know; new = not old."},
+{"t": "Choose the synonym of <em>enormous</em>.", "o": ["huge", "minute", "narrow", "light"], "e": "enormous ≈ huge, gigantic. ‘minute’ (my-NEWT) means tiny."},
+{"t": "Which word has BOTH a prefix and a suffix?", "o": ["unbreakable", "breakfast", "breaking", "outbreak"], "e": "un- (prefix) + break + -able (suffix)."}
+]}
+]
+}

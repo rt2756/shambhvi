@@ -1,0 +1,53 @@
+{
+"title": "11. Prepositions",
+"tests": [
+{"q": [
+{"t": "Fill in: <em>The book is ___ the table.</em>", "o": ["on", "in", "at", "into"], "e": "Resting on a surface → on."},
+{"t": "Fill in: <em>The school starts ___ 8 o'clock.</em>", "o": ["at", "on", "in", "by"], "e": "An exact clock time → at."},
+{"t": "Fill in: <em>My birthday is ___ Monday.</em>", "o": ["on", "in", "at", "by"], "e": "A day → on."},
+{"t": "Fill in: <em>We go to the hills ___ summer.</em>", "o": ["in", "on", "at", "by"], "e": "A season (a longer period) → in."},
+{"t": "Fill in: <em>The cat is hiding ___ the bed.</em>", "o": ["under", "on", "over", "into"], "e": "Directly beneath and covered → under."},
+{"t": "Fill in: <em>She lives ___ Mumbai.</em>", "o": ["in", "at", "on", "into"], "e": "Inside a city (an area) → in."},
+{"t": "Fill in: <em>The sweets were shared ___ the two sisters.</em>", "o": ["between", "among", "with", "in"], "e": "Two people → between."},
+{"t": "Fill in: <em>He cut the paper ___ scissors.</em>", "o": ["with", "by", "from", "of"], "e": "The tool used → with."},
+{"t": "Fill in: <em>She is afraid ___ dogs.</em>", "o": ["of", "from", "with", "by"], "e": "The fixed pair is ‘afraid of’."},
+{"t": "Fill in: <em>Please wait ___ me.</em>", "o": ["for", "to", "on", "at"], "e": "The fixed pair is ‘wait for’."}
+]},
+{"q": [
+{"t": "Fill in: <em>He jumped ___ the river.</em>", "o": ["into", "in", "at", "on"], "e": "Movement from outside to inside → into."},
+{"t": "Fill in: <em>The money was divided ___ the five children.</em>", "o": ["among", "between", "in", "with"], "e": "More than two → among."},
+{"t": "Fill in: <em>Please sit ___ me.</em> (next to)", "o": ["beside", "besides", "between", "among"], "e": "‘beside’ = next to. ‘besides’ = in addition to."},
+{"t": "Fill in: <em>___ English, she speaks French.</em> (in addition to)", "o": ["Besides", "Beside", "Among", "Between"], "e": "In addition to → Besides."},
+{"t": "Fill in: <em>I have known him ___ 2015.</em>", "o": ["since", "for", "from", "by"], "e": "A point in time → since."},
+{"t": "Fill in: <em>Submit your project ___ Friday.</em> (no later than)", "o": ["by", "till", "since", "in"], "e": "‘by’ = not later than."},
+{"t": "Fill in: <em>The poem was written ___ Tagore.</em>", "o": ["by", "with", "from", "of"], "e": "The doer in the passive → by."},
+{"t": "Fill in: <em>She is good ___ drawing.</em>", "o": ["at", "in", "on", "for"], "e": "The fixed pair is ‘good at’."},
+{"t": "Fill in: <em>He is interested ___ science.</em>", "o": ["in", "on", "at", "for"], "e": "The fixed pair is ‘interested in’."},
+{"t": "Fill in: <em>The train passed ___ a long tunnel.</em>", "o": ["through", "across", "over", "along"], "e": "Inside a 3-D space from one end to the other → through."}
+]},
+{"q": [
+{"t": "Find the error: <em>We discussed about the problem.</em>", "o": ["Remove ‘about’", "‘discussed’ should be ‘discuss’", "‘the’ should be ‘a’", "No error"], "e": "‘discuss’ already means ‘talk about’, so no preposition follows it."},
+{"t": "Find the error: <em>He reached to the station late.</em>", "o": ["Remove ‘to’", "‘reached’ should be ‘reach’", "‘late’ should be ‘lately’", "No error"], "e": "‘reach’ takes a direct object: reached the station."},
+{"t": "Fill in: <em>I am angry ___ my brother.</em>", "o": ["with", "at", "on", "to"], "e": "angry with a person (angry at/about a thing)."},
+{"t": "Fill in: <em>Your bag is different ___ mine.</em>", "o": ["from", "than", "with", "to"], "e": "The standard pair is ‘different from’."},
+{"t": "Fill in: <em>He is suffering ___ fever.</em>", "o": ["from", "with", "of", "by"], "e": "The fixed pair is ‘suffer from’."},
+{"t": "Fill in: <em>I congratulate you ___ your success.</em>", "o": ["on", "for", "at", "with"], "e": "The fixed pair is ‘congratulate on’."},
+{"t": "Fill in: <em>She insisted ___ paying the bill.</em>", "o": ["on", "for", "at", "to"], "e": "‘insist on’; and after a preposition the verb takes -ing (paying)."},
+{"t": "Fill in: <em>The bird flew ___ the house.</em> (from one side to the other, higher up)", "o": ["over", "under", "through", "into"], "e": "Higher than and across → over."},
+{"t": "Fill in: <em>He swam ___ the river.</em> (to the other side)", "o": ["across", "through", "along", "into"], "e": "From one side to the other of a surface → across."},
+{"t": "Fill in: <em>I agree ___ your plan.</em>", "o": ["to", "with", "on", "for"], "e": "agree to a plan or proposal; agree with a person."}
+]},
+{"q": [
+{"t": "Fill in: <em>The patient died ___ cancer.</em>", "o": ["of", "from", "by", "with"], "e": "die of a disease (die from an injury/cause outside the body)."},
+{"t": "Find the error: <em>She resembles to her mother.</em>", "o": ["Remove ‘to’", "‘resembles’ should be ‘resemble’", "‘her’ should be ‘hers’", "No error"], "e": "‘resemble’ takes a direct object: She resembles her mother."},
+{"t": "Fill in: <em>He has been ill ___ last Monday.</em>", "o": ["since", "for", "from", "by"], "e": "‘last Monday’ is a point in time and the illness continues → since."},
+{"t": "Fill in: <em>Darjeeling is famous ___ its tea.</em>", "o": ["for", "of", "with", "by"], "e": "The fixed pair is ‘famous for’."},
+{"t": "Fill in: <em>The heavy rain prevented us ___ going out.</em>", "o": ["from", "to", "of", "against"], "e": "The fixed pattern is ‘prevent someone from doing’."},
+{"t": "Fill in: <em>I will be back ___ an hour.</em> (before an hour has passed)", "o": ["within", "since", "by", "till"], "e": "‘within’ = before the end of that period."},
+{"t": "Fill in: <em>She is married ___ a doctor.</em>", "o": ["to", "with", "by", "for"], "e": "The fixed pair is ‘married to’ (but ‘She married a doctor’, with no preposition)."},
+{"t": "Fill in: <em>I prefer walking ___ driving.</em>", "o": ["to", "than", "over than", "from"], "e": "‘prefer A to B’."},
+{"t": "Fill in: <em>He walked ___ the room and sat down.</em>", "o": ["into", "in", "inside of", "at"], "e": "Movement from outside to inside → into."},
+{"t": "Choose the correct sentence.", "o": ["The thief entered the house through the window.", "The thief entered into the house through the window.", "The thief entered in the house by the window.", "The thief entered to the house through window."], "e": "‘enter’ takes a direct object (entered the house); ‘through’ the window (passing inside an opening)."}
+]}
+]
+}

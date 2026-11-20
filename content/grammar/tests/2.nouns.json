@@ -1,0 +1,53 @@
+{
+"title": "2. Nouns",
+"tests": [
+{"q": [
+{"t": "Which word is a noun? <em>The happy child sang loudly.</em>", "o": ["child", "happy", "sang", "loudly"], "e": "‘child’ names a person — you can say ‘the child’. ‘happy’ describes, ‘sang’ is an action, ‘loudly’ tells how."},
+{"t": "Which is a proper noun?", "o": ["Mumbai", "city", "river", "teacher"], "e": "Mumbai names one particular city, so it is proper and takes a capital letter."},
+{"t": "Choose the collective noun: <em>a ___ of sheep</em>", "o": ["flock", "herd", "swarm", "pack"], "e": "Sheep (and birds) come in a flock. Cows come in a herd, bees in a swarm, wolves in a pack."},
+{"t": "Which is an abstract noun?", "o": ["kindness", "kitten", "kitchen", "king"], "e": "Kindness is a quality — you can feel it but not touch it."},
+{"t": "What is the plural of <em>box</em>?", "o": ["boxes", "boxs", "boxies", "boxen"], "e": "Words ending in x take -es; ‘boxs’ can’t be said clearly, so -es adds the extra sound."},
+{"t": "What is the plural of <em>baby</em>?", "o": ["babies", "babys", "babyes", "babies'"], "e": "Consonant (b) + y → change y to i and add -es."},
+{"t": "What is the plural of <em>child</em>?", "o": ["children", "childs", "childes", "childrens"], "e": "‘child’ has an old irregular plural: children (already plural — never ‘childrens’)."},
+{"t": "What is the feminine of <em>king</em>?", "o": ["queen", "kingess", "princess", "lady"], "e": "king → queen. (prince → princess.)"},
+{"t": "Choose the correct one: <em>This is ___ bag.</em> (it belongs to Riya)", "o": ["Riya's", "Riyas", "Riyas'", "Riya"], "e": "One owner, Riya, so add ’s."},
+{"t": "Which noun is uncountable?", "o": ["milk", "bottle", "glass", "cup"], "e": "You can’t count ‘one milk, two milks’; you count the container: a glass of milk."}
+]},
+{"q": [
+{"t": "What is the plural of <em>leaf</em>?", "o": ["leaves", "leafs", "leafes", "leavs"], "e": "Most nouns ending in f change f to v and add -es: leaf → leaves, wolf → wolves."},
+{"t": "What is the plural of <em>roof</em>?", "o": ["roofs", "rooves", "roofes", "roof"], "e": "roof is an exception to the f → ves rule: roofs (also chiefs, cliffs)."},
+{"t": "What is the plural of <em>potato</em>?", "o": ["potatoes", "potatos", "potatoies", "potato"], "e": "Many nouns ending in consonant + o add -es: potatoes, tomatoes, heroes."},
+{"t": "Choose the correct sentence.", "o": ["She gave me some good advice.", "She gave me some good advices.", "She gave me a good advice.", "She gave me many good advices."], "e": "‘advice’ is uncountable — no plural and no ‘a’. Say ‘some advice’ or ‘a piece of advice’."},
+{"t": "Choose the correct word: <em>There isn't ___ sugar left.</em>", "o": ["much", "many", "a few", "several"], "e": "Sugar is uncountable, so use ‘much’. ‘many’ and ‘a few’ go with countable plurals."},
+{"t": "Which is a material noun?", "o": ["silver", "spoon", "shine", "shop"], "e": "Silver is a substance things are made of. A spoon is a thing (common noun) that may be made of silver."},
+{"t": "Choose the correct possessive: <em>The ___ hostel is near the gate.</em> (many girls)", "o": ["girls'", "girl's", "girls's", "girls"], "e": "The owners are ‘girls’ (plural, already ending in s) — add just the apostrophe after the s."},
+{"t": "Choose the correct possessive: <em>This is the ___ section of the library.</em>", "o": ["children's", "childrens'", "childrens", "children'"], "e": "‘children’ is plural but does not end in s, so add ’s, just like a singular."},
+{"t": "Form the abstract noun from <em>brave</em>.", "o": ["bravery", "braveness", "bravity", "bravely"], "e": "brave → bravery. (‘bravely’ is an adverb, not a noun.)"},
+{"t": "Which noun is of COMMON gender?", "o": ["doctor", "nephew", "actress", "table"], "e": "A doctor can be a man or a woman. ‘table’ is neuter (neither); nephew is masculine; actress feminine."}
+]},
+{"q": [
+{"t": "Choose the correct verb: <em>Mathematics ___ my favourite subject.</em>", "o": ["is", "are", "were", "have been"], "e": "Mathematics looks plural (ends in s) but is the name of one subject, so it takes a singular verb."},
+{"t": "Choose the correct verb: <em>My new scissors ___ very sharp.</em>", "o": ["are", "is", "was", "has been"], "e": "Scissors have two matching blades and are always plural. (‘A pair of scissors is …’ — then the verb follows ‘pair’.)"},
+{"t": "Which sentence is correct?", "o": ["We bought new furniture for the room.", "We bought new furnitures for the room.", "We bought a new furniture for the room.", "We bought many furnitures for the room."], "e": "Furniture is uncountable: no -s, no ‘a’. To count it, say ‘pieces of furniture’."},
+{"t": "Identify the kind of the underlined noun: <em>The <u>jury</u> has given its verdict.</em>", "o": ["Collective", "Abstract", "Proper", "Material"], "e": "A jury is a group of people acting as one unit — a collective noun."},
+{"t": "Which is the correct plural?", "o": ["sons-in-law", "son-in-laws", "sons-in-laws", "son-in-law's"], "e": "In compound nouns the main word takes the plural. A son-in-law is a kind of son, so ‘sons’ changes."},
+{"t": "What is the plural of <em>mouse</em> (the animal)?", "o": ["mice", "mouses", "mices", "meese"], "e": "mouse → mice, like louse → lice: an old vowel change."},
+{"t": "Identify the abstract noun: <em>His childhood was spent in the village.</em>", "o": ["childhood", "village", "His", "spent"], "e": "Childhood is a stage of life — an idea, not something you can touch."},
+{"t": "Which sentence uses the apostrophe correctly?", "o": ["The cat licked its paw.", "The cat licked it's paw.", "The cat licked its' paw.", "The cats' licked it's paw."], "e": "Belonging ‘its’ has no apostrophe. ‘it’s’ always means ‘it is’ or ‘it has’."},
+{"t": "Choose the feminine form of <em>host</em>.", "o": ["hostess", "hostress", "hostine", "hosta"], "e": "host → hostess (like actor → actress, waiter → waitress)."},
+{"t": "Which noun is ALWAYS uncountable?", "o": ["information", "message", "letter", "report"], "e": "You can have three messages or letters, but not ‘three informations’. Say ‘three pieces of information’."}
+]},
+{"q": [
+{"t": "Choose the correct sentence.", "o": ["The news is very encouraging.", "The news are very encouraging.", "The newses are very encouraging.", "A news is very encouraging."], "e": "‘news’ ends in s but is singular and uncountable: ‘The news is …’, ‘a piece of news’."},
+{"t": "Choose the correct sentence.", "o": ["I met James's sister yesterday.", "I met Jame's sister yesterday.", "I met Jameses sister yesterday.", "I met James sister' yesterday."], "e": "The owner is ‘James’ (one person). Keep the full name and add ’s: James's. (James' is also seen, but never Jame's — that would make the name ‘Jame’.)"},
+{"t": "Which group contains ONLY uncountable nouns?", "o": ["luggage, rice, honesty", "luggage, bag, rice", "honesty, idea, rice", "water, bottle, milk"], "e": "bag, idea and bottle can all be counted (two bags, many ideas). luggage, rice and honesty cannot."},
+{"t": "Choose the correct one: <em>I have two ___ to give you.</em>", "o": ["pieces of advice", "advices", "advice", "advises"], "e": "Advice is uncountable, so you count the ‘pieces’. ‘advise’ (with s) is the verb."},
+{"t": "Identify the kind of noun: <em>A <u>Shakespeare</u> is not born every day.</em>", "o": ["Proper noun used as a common noun", "Abstract noun", "Collective noun", "Material noun"], "e": "Here ‘a Shakespeare’ means ‘a great writer like Shakespeare’ — any one of a kind. A proper noun used like this behaves as a common noun (note the ‘a’)."},
+{"t": "Choose the correct plural: <em>Both my ___ are doctors.</em>", "o": ["brothers-in-law", "brother-in-laws", "brothers-in-laws", "brother's-in-law"], "e": "Pluralise the main noun (brother); ‘in-law’ just describes it."},
+{"t": "Which is the correct plural of <em>photo</em>?", "o": ["photos", "photoes", "photies", "photo's"], "e": "Short forms (photo from photograph, piano from pianoforte) just add -s."},
+{"t": "Choose the correct sentence.", "o": ["The cattle are grazing in the field.", "The cattle is grazing in the field.", "The cattles are grazing in the field.", "A cattle is grazing in the field."], "e": "‘cattle’ has no singular form and is always treated as plural: ‘The cattle are …’. One animal is ‘a cow’."},
+{"t": "Form the abstract noun from the verb <em>decide</em>.", "o": ["decision", "decidance", "decidement", "decisive"], "e": "decide → decision (like divide → division). ‘decisive’ is an adjective."},
+{"t": "In <em>a two-hour journey</em>, why is it <em>hour</em> and not <em>hours</em>?", "o": ["‘two-hour’ is used as an adjective, and adjectives have no plural", "it is a spelling exception", "‘hour’ is uncountable", "it should be ‘hours’ — this is wrong"], "e": "Joined with a hyphen, ‘two-hour’ describes the journey. English adjectives never take -s, so: a ten-rupee note, a five-year-old girl."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "18. Punctuation",
+"tests": [
+{"q": [
+{"t": "Which sentence is correctly punctuated?", "o": ["Where are you going?", "Where are you going.", "where are you going?", "Where are you going!"], "e": "A question starts with a capital and ends with ‘?’."},
+{"t": "Which word needs a capital letter? <em>we visited jaipur last summer.</em>", "o": ["we and jaipur", "only summer", "only last", "visited and summer"], "e": "The first word of a sentence and a proper noun (Jaipur). Seasons take no capital."},
+{"t": "Choose the correct contraction of <em>do not</em>.", "o": ["don't", "do'nt", "dont'", "d'not"], "e": "The apostrophe goes where the letter ‘o’ of ‘not’ was removed."},
+{"t": "Choose the correct one: <em>___ raining outside.</em>", "o": ["It's", "Its", "Its'", "It is'"], "e": "It's = It is."},
+{"t": "Choose the correctly punctuated list.", "o": ["I bought apples, bananas and grapes.", "I bought apples bananas and grapes.", "I bought, apples, bananas, and, grapes.", "I bought apples; bananas; and grapes."], "e": "Commas separate items in a list."},
+{"t": "Which mark ends an exclamation?", "o": ["!", "?", ".", ","], "e": "Strong feeling → exclamation mark."},
+{"t": "Which word should ALWAYS have a capital letter?", "o": ["I", "me", "my", "mine"], "e": "The pronoun ‘I’ is always a capital, wherever it is in a sentence."},
+{"t": "Choose the correct one: <em>The dog wagged ___ tail.</em>", "o": ["its", "it's", "its'", "it is"], "e": "Belonging ‘its’ has no apostrophe."},
+{"t": "Choose the correct one: <em>Ravi said, ___</em>", "o": ["“I am hungry.”", "I am hungry.", "“i am hungry”", "“I am hungry”."], "e": "Spoken words go in quotation marks, start with a capital, and the full stop goes inside."},
+{"t": "Choose the correctly punctuated sentence.", "o": ["Riya, please close the door.", "Riya please, close the door.", "Riya please close, the door.", "Riya please close the door,"], "e": "Speaking to someone by name → comma after the name."}
+]},
+{"q": [
+{"t": "Choose the correct one: <em>___ coming to the party tonight.</em> (they are)", "o": ["They're", "Their", "There", "Theyre"], "e": "They're = They are."},
+{"t": "Choose the correct one: <em>The children lost ___ ball.</em>", "o": ["their", "there", "they're", "thier"], "e": "Belonging → their."},
+{"t": "Choose the correct one: <em>Is this ___ bag?</em>", "o": ["your", "you're", "youre", "your's"], "e": "Belonging → your. you're = you are."},
+{"t": "Choose the correctly punctuated sentence.", "o": ["However, the plan failed.", "However the plan, failed.", "However the plan failed,", "However; the plan, failed."], "e": "An introductory word is followed by a comma."},
+{"t": "Choose the correctly punctuated sentence.", "o": ["When the rain stopped, we went out.", "When the rain stopped we, went out.", "When, the rain stopped we went out.", "When the rain, stopped we went out."], "e": "Put a comma after an introductory clause."},
+{"t": "Choose the correctly punctuated sentence.", "o": ["She asked, “Are you coming?”", "She asked, “Are you coming”?", "She asked “are you coming?”", "She asked, “Are you coming.”"], "e": "The question mark belongs to the spoken words, so it goes inside the quotation marks."},
+{"t": "Choose the correct one: <em>The ___ room is upstairs.</em> (many boys share it)", "o": ["boys'", "boy's", "boys", "boys's"], "e": "Plural owner ending in s → apostrophe after the s."},
+{"t": "Which sentence uses a colon correctly?", "o": ["Bring three things: a pen, a notebook and water.", "Bring: three things a pen, a notebook and water.", "Bring three: things a pen, a notebook and water.", "Bring three things a pen: a notebook and water."], "e": "A colon introduces the list after a complete idea."},
+{"t": "Which needs a hyphen?", "o": ["a ten year old boy", "the boy is ten", "ten boys", "a boy of ten"], "e": "‘ten-year-old’ joins words into one describing idea before the noun."},
+{"t": "Find the error: <em>I like mango's and banana's.</em>", "o": ["Plurals don't take apostrophes: mangoes and bananas", "‘like’ should be ‘likes’", "‘and’ needs a comma", "No error"], "e": "Apostrophes show missing letters or belonging, never a plural."}
+]},
+{"q": [
+{"t": "Which sentence is a comma splice (wrong)?", "o": ["It was late, we went home.", "It was late, so we went home.", "It was late; we went home.", "Since it was late, we went home."], "e": "Two full sentences joined by only a comma — add a joiner (so), a semicolon, or a full stop."},
+{"t": "Choose the correctly punctuated sentence. (He has one brother.)", "o": ["His brother, who is a pilot, lives in Goa.", "His brother who is a pilot, lives in Goa.", "His brother, who is a pilot lives in Goa.", "His, brother who is a pilot, lives in Goa."], "e": "Extra information about the only brother → commas on both sides."},
+{"t": "Choose the correctly punctuated sentence.", "o": ["“I am tired,” said Ravi.", "“I am tired.” said Ravi.", "“I am tired” said Ravi.", "“I am tired”, said Ravi."], "e": "When the speech comes first, end it with a comma inside the quotes; the sentence ends after ‘Ravi’."},
+{"t": "Which sentence uses a semicolon correctly?", "o": ["I was tired; I went to bed early.", "I was tired; and went to bed.", "I was; tired I went to bed.", "I was tired; because it was late."], "e": "A semicolon joins two complete, closely linked sentences without a joining word."},
+{"t": "How does the comma change the meaning? <em>Let's eat, Grandma!</em> vs <em>Let's eat Grandma!</em>", "o": ["With the comma we're talking to Grandma; without it, Grandma is the food.", "There is no difference.", "The comma makes it a question.", "Without the comma it is more polite."], "e": "A comma before a name shows you are speaking to that person."},
+{"t": "Which word should NOT have a capital letter here? <em>My Mother loves Diwali in November.</em>", "o": ["Mother", "My", "Diwali", "November"], "e": "‘mother’ after ‘my’ is an ordinary noun. (It takes a capital only when used as a name: ‘Thank you, Mother.’)"},
+{"t": "Choose the correct contraction of <em>will not</em>.", "o": ["won't", "willn't", "wo'nt", "will'nt"], "e": "‘will not’ has an irregular short form: won't."},
+{"t": "Choose the correctly punctuated date.", "o": ["India became independent on 15 August, 1947.", "India became independent on 15, August 1947.", "India became independent on, 15 August 1947.", "India became independent on 15 August 1947,."], "e": "A comma separates the day–month from the year."},
+{"t": "Which sentence uses the question mark WRONGLY?", "o": ["I wonder where she is?", "Where is she?", "Is she here?", "She is here, isn't she?"], "e": "‘I wonder where she is’ is a statement (indirect question), so it ends with a full stop."},
+{"t": "Choose the correct one: <em>The ___ toys were everywhere.</em> (toys of the children)", "o": ["children's", "childrens'", "childrens", "children'"], "e": "Plural not ending in s → add ’s."}
+]},
+{"q": [
+{"t": "Punctuate: <em>yes said the teacher you may go</em>", "o": ["“Yes,” said the teacher, “you may go.”", "“Yes” said the teacher “you may go.”", "Yes, said the teacher, you may go.", "“Yes,” said the teacher. “You may go”"], "e": "Each spoken part is in quotes; commas separate the speech from ‘said the teacher’; the sentence continues so ‘you’ stays small."},
+{"t": "Which version means the writer has only ONE sister?", "o": ["My sister, Meena, is a nurse.", "My sister Meena is a nurse.", "My sister Meena, is a nurse.", "My, sister Meena is a nurse."], "e": "Commas around ‘Meena’ show it is just extra information — there is only one sister. Without commas, ‘Meena’ tells you WHICH sister."},
+{"t": "Find the error: <em>Its time to go; the bus is here.</em>", "o": ["‘Its’ should be ‘It's’", "the semicolon should be a comma", "‘the’ should be ‘The’", "No error"], "e": "It's = It is. (The semicolon correctly joins two linked sentences.)"},
+{"t": "Choose the correctly punctuated sentence.", "o": ["The teacher said, “Read ‘The Road Not Taken’ for homework.”", "The teacher said, “Read “The Road Not Taken” for homework.”", "The teacher said “Read The Road Not Taken for homework”.", "The teacher said, Read ‘The Road Not Taken’ for homework."], "e": "A title inside a quotation uses single quotes, so the two sets don't clash."},
+{"t": "Which sentence correctly uses a dash?", "o": ["He was — I'm sure of it — very angry.", "He was — I'm sure of it very angry.", "He — was I'm sure of it — very angry.", "He was I'm — sure of it — very angry."], "e": "A pair of dashes marks off a sudden extra thought; the sentence still works without it."},
+{"t": "Choose the correct one: <em>___ going to win, and ___ team will lift the cup ___.</em>", "o": ["They're, their, there", "Their, there, they're", "There, they're, their", "They're, there, their"], "e": "they're = they are; their = belonging; there = place."},
+{"t": "Which needs NO comma?", "o": ["I know that he is honest.", "Yes I know him.", "Ravi come here.", "However he was late."], "e": "‘that he is honest’ is the object of ‘know’ — it is part of the main idea. The others need commas after Yes, Ravi and However."},
+{"t": "Choose the correct possessive: <em>This is ___ book.</em> (it belongs to Charles)", "o": ["Charles's", "Charle's", "Charles", "Charles'es"], "e": "Keep the whole name (Charles) and add ’s. (Charles' is also seen; Charle's is wrong — it makes the name ‘Charle’.)"},
+{"t": "Which sentence uses brackets correctly?", "o": ["The Taj Mahal (built by Shah Jahan) is in Agra.", "The Taj Mahal built (by Shah Jahan is) in Agra.", "(The Taj Mahal) built by Shah Jahan is in Agra.", "The Taj Mahal (built by Shah Jahan is in Agra)."], "e": "Brackets wrap extra information that can be removed: The Taj Mahal is in Agra."},
+{"t": "Punctuate: <em>what a lovely surprise exclaimed mother</em>", "o": ["“What a lovely surprise!” exclaimed Mother.", "“What a lovely surprise,” exclaimed mother!", "What a lovely surprise! exclaimed Mother.", "“What a lovely surprise” exclaimed Mother!"], "e": "The exclamation mark belongs inside the quotes; ‘Mother’ is used as a name, so it takes a capital."}
+]}
+]
+}

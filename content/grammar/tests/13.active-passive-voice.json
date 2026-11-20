@@ -1,0 +1,53 @@
+{
+"title": "13. Active & passive voice",
+"tests": [
+{"q": [
+{"t": "Is this active or passive? <em>The cat chased the mouse.</em>", "o": ["Active", "Passive", "Neither", "Both"], "e": "The doer (cat) is the subject → active."},
+{"t": "Is this active or passive? <em>The window was broken by Ravi.</em>", "o": ["Passive", "Active", "Neither", "Both"], "e": "The thing acted on (window) is the subject, with was + V3 → passive."},
+{"t": "Passive of <em>She writes a letter.</em>", "o": ["A letter is written by her.", "A letter was written by her.", "A letter is wrote by her.", "A letter written by she."], "e": "Simple present → is/are + V3; she → her."},
+{"t": "Passive of <em>Ravi broke the glass.</em>", "o": ["The glass was broken by Ravi.", "The glass is broken by Ravi.", "The glass was broke by Ravi.", "The glass broken by Ravi."], "e": "Simple past → was/were + V3: was broken."},
+{"t": "Passive of <em>They play football.</em>", "o": ["Football is played by them.", "Football are played by them.", "Football was played by they.", "Football is play by them."], "e": "Football (singular) is played; they → them."},
+{"t": "Passive of <em>He will help you.</em>", "o": ["You will be helped by him.", "You will helped by him.", "You will be help by him.", "You are helped by him."], "e": "Future → will be + V3; he → him."},
+{"t": "Which verb form is used in every passive?", "o": ["V3 (past participle)", "V2 (past tense)", "V1 (base form)", "the -ing form"], "e": "Passive = a form of ‘be’ + V3."},
+{"t": "Passive of <em>The teacher praised the students.</em>", "o": ["The students were praised by the teacher.", "The students was praised by the teacher.", "The students are praised by the teacher.", "The students praised the teacher."], "e": "Past → was/were; ‘students’ is plural → were."},
+{"t": "Active of <em>The song was sung by Meera.</em>", "o": ["Meera sang the song.", "Meera sings the song.", "Meera has sung the song.", "The song sang Meera."], "e": "was + V3 → simple past. The doer, Meera, becomes the subject."},
+{"t": "Which sentence CANNOT be changed into the passive?", "o": ["The baby slept.", "The baby drank the milk.", "The baby broke the toy.", "The baby pulled my hair."], "e": "‘slept’ has no object, so there is nothing to make the subject."}
+]},
+{"q": [
+{"t": "Passive of <em>She is cooking dinner.</em>", "o": ["Dinner is being cooked by her.", "Dinner is cooked by her.", "Dinner was being cooked by her.", "Dinner is been cooked by her."], "e": "Present continuous → is/are being + V3."},
+{"t": "Passive of <em>They have finished the work.</em>", "o": ["The work has been finished by them.", "The work have been finished by them.", "The work has finished by them.", "The work was finished by them."], "e": "Present perfect → has/have been + V3; ‘work’ is singular → has."},
+{"t": "Passive of <em>He had posted the letters.</em>", "o": ["The letters had been posted by him.", "The letters have been posted by him.", "The letters had posted by him.", "The letters were posted by him."], "e": "Past perfect → had been + V3."},
+{"t": "Passive of <em>The workers were building a bridge.</em>", "o": ["A bridge was being built by the workers.", "A bridge was built by the workers.", "A bridge were being built by the workers.", "A bridge is being built by the workers."], "e": "Past continuous → was/were being + V3; ‘a bridge’ is singular → was."},
+{"t": "Passive of <em>You must obey the rules.</em>", "o": ["The rules must be obeyed by you.", "The rules must obeyed by you.", "The rules must be obey by you.", "The rules are must obeyed."], "e": "Modal + be + V3."},
+{"t": "Passive of <em>Someone has stolen my bicycle.</em>", "o": ["My bicycle has been stolen.", "My bicycle has been stolen by someone.", "My bicycle was stolen by someone.", "My bicycle has stolen."], "e": "A vague doer (someone) is usually dropped."},
+{"t": "Passive of <em>We can solve this problem.</em>", "o": ["This problem can be solved by us.", "This problem can solved by us.", "This problem can be solve by us.", "This problem could be solved by we."], "e": "can + be + V3; we → us."},
+{"t": "Passive of <em>The boy is flying a kite.</em>", "o": ["A kite is being flown by the boy.", "A kite is being flew by the boy.", "A kite is flown by the boy.", "A kite was being flown by the boy."], "e": "fly – flew – flown. Present continuous → is being + V3."},
+{"t": "Active of <em>The thief was caught by the police.</em>", "o": ["The police caught the thief.", "The police catches the thief.", "The police have caught the thief.", "The thief caught the police."], "e": "was + V3 → simple past. Police (plural subject) caught."},
+{"t": "Passive of <em>Rice is grown in Bengal by farmers.</em> — why can ‘by farmers’ be dropped?", "o": ["The doer is obvious and unimportant.", "Passive never uses ‘by’.", "‘farmers’ is a plural noun.", "Rice is uncountable."], "e": "We all know farmers grow rice; the spotlight is on the rice, so the doer can go."}
+]},
+{"q": [
+{"t": "Passive of <em>Did she bake the cake?</em>", "o": ["Was the cake baked by her?", "Did the cake baked by her?", "Was the cake bake by her?", "Is the cake baked by her?"], "e": "A question stays a question: Was + subject + V3?"},
+{"t": "Passive of <em>Who wrote this poem?</em>", "o": ["By whom was this poem written?", "Who was this poem written?", "By who this poem was written?", "Whom was this poem written by him?"], "e": "‘Who’ (the doer) becomes ‘By whom’ and goes to the front."},
+{"t": "Passive of <em>Open the window.</em>", "o": ["Let the window be opened.", "The window is opened.", "Let the window opened.", "The window be open."], "e": "Commands → Let + object + be + V3."},
+{"t": "Passive of <em>Please help me.</em>", "o": ["You are requested to help me.", "Let me be helped.", "I am helped please.", "Please be helped by me."], "e": "A polite request becomes ‘You are requested to …’."},
+{"t": "Passive of <em>He gave me a pen.</em>", "o": ["I was given a pen by him.", "I was gave a pen by him.", "Me was given a pen by him.", "A pen gave to me by him."], "e": "Either object can become the subject; me → I. gave → was given."},
+{"t": "Passive of <em>I know her.</em>", "o": ["She is known to me.", "She is known by me.", "She was known by I.", "She knows me."], "e": "‘know’ takes ‘to’ in the passive: is known to me."},
+{"t": "Passive of <em>The news shocked us.</em>", "o": ["We were shocked at the news.", "We are shocked by the news.", "We were shocked to the news.", "Us were shocked by the news."], "e": "‘shocked’ usually takes ‘at’ (or ‘by’); us → we; past → were."},
+{"t": "Passive of <em>They will have completed the road by May.</em>", "o": ["The road will have been completed by May.", "The road will be completed by May by them.", "The road will have completed by May.", "The road would have been completed by May."], "e": "Future perfect → will have been + V3."},
+{"t": "Passive of <em>What did he say?</em>", "o": ["What was said by him?", "What was he said?", "What did said by him?", "What is said by him?"], "e": "‘What’ is the object; it becomes the subject: What was said by him?"},
+{"t": "Find the error: <em>The letter has been wrote by her.</em>", "o": ["‘wrote’ should be ‘written’", "‘has’ should be ‘have’", "‘been’ should be ‘be’", "No error"], "e": "Passive always needs V3: written."}
+]},
+{"q": [
+{"t": "Passive of <em>Don't touch the wire.</em>", "o": ["Let the wire not be touched.", "The wire is not touched.", "Let not the wire touched.", "The wire must touched not."], "e": "Negative commands → Let + object + not + be + V3 (or ‘The wire should not be touched’)."},
+{"t": "Passive of <em>Why did you insult him?</em>", "o": ["Why was he insulted by you?", "Why did he insulted by you?", "Why was him insulted by you?", "Why he was insulted by you?"], "e": "Why + was + subject + V3? him → he."},
+{"t": "Passive of <em>The jug contains milk.</em>", "o": ["Milk is contained in the jug.", "Milk is contained by the jug.", "Milk was contained by the jug.", "The jug is contained by milk."], "e": "‘contain’ takes ‘in’ in the passive."},
+{"t": "Passive of <em>People say that he is honest.</em>", "o": ["It is said that he is honest.", "That he is honest is said by people.", "He was said honest.", "It was said by people he is honest."], "e": "With say/believe/think, start with ‘It is said that …’ (or ‘He is said to be honest’)."},
+{"t": "Active of <em>The match is being watched by millions.</em>", "o": ["Millions are watching the match.", "Millions watched the match.", "Millions watch the match.", "Millions have watched the match."], "e": "is being + V3 → present continuous; millions (plural) → are watching."},
+{"t": "Passive of <em>They made him captain.</em>", "o": ["He was made captain.", "He is made captain by them.", "Captain was made him.", "He was make captain."], "e": "him → he; made → was made. The rest (‘captain’) stays after the verb."},
+{"t": "Passive of <em>Somebody should have told her.</em>", "o": ["She should have been told.", "She should be told.", "She should have told.", "She should had been told."], "e": "modal + have been + V3. The vague doer is dropped; her → she."},
+{"t": "Which sentence is best kept in the passive?", "o": ["The pyramids were built thousands of years ago.", "The cat was fed by me.", "The ball was kicked by Ravi.", "The song was sung by me."], "e": "Nobody knows exactly who built them, and the pyramids are the topic — the passive suits it."},
+{"t": "Passive of <em>We must take care of the old.</em>", "o": ["The old must be taken care of.", "The old must be taken care.", "Care must be taken of by us the old.", "The old must taken care of."], "e": "Keep the full verb phrase ‘take care of’, ending with ‘of’."},
+{"t": "Passive of <em>The children are making a lot of noise.</em>", "o": ["A lot of noise is being made by the children.", "A lot of noise are being made by the children.", "A lot of noise is made by the children.", "A lot of noise was being made by the children."], "e": "‘A lot of noise’ is singular (uncountable) → is being made."}
+]}
+]
+}

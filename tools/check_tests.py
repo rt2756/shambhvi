@@ -3,6 +3,7 @@
 
     python3 tools/check_tests.py            # every class
     python3 tools/check_tests.py 7          # one class
+    python3 tools/check_tests.py grammar    # the class-free grammar set
 
 Structure: every file in the manifest exists, has 4 tests of 10 questions, each question is
 either multiple choice ("o", right answer first, no duplicate options) or numeric ("n"), and
@@ -65,21 +66,24 @@ def check_file(path, problems):
     return sum(len(t.get("q", [])) for t in tests), checked
 
 def main():
-    classes = sys.argv[1:] or sorted(
-        re.search(r"class(\d+)", d).group(1) for d in glob.glob(os.path.join(ROOT, "content/class*/tests")))
+    # a set is a class number (content/class<N>/tests) or a class-free name (content/<name>/tests)
+    sets = sys.argv[1:] or sorted(
+        re.search(r"content/(?:class)?([^/]+)/tests", d.replace(os.sep, "/")).group(1)
+        for d in glob.glob(os.path.join(ROOT, "content/*/tests")))
     problems, total, checked = [], 0, 0
-    for c in classes:
-        d = os.path.join(ROOT, f"content/class{c}/tests")
+    for c in sets:
+        label = f"class{c}" if c.isdigit() else c
+        d = os.path.join(ROOT, f"content/{label}/tests")
         manifest = json.load(open(os.path.join(d, "manifest.json")))
         on_disk = {os.path.basename(p) for p in glob.glob(os.path.join(d, "*.json"))} - {"manifest.json"}
-        for extra in sorted(on_disk - set(manifest)): problems.append(f"class{c}: {extra} not in manifest")
+        for extra in sorted(on_disk - set(manifest)): problems.append(f"{label}: {extra} not in manifest")
         for f in manifest:
             p = os.path.join(d, f)
-            if not os.path.exists(p): problems.append(f"class{c}: manifest lists missing {f}"); continue
+            if not os.path.exists(p): problems.append(f"{label}: manifest lists missing {f}"); continue
             try:
                 n, k = check_file(p, problems); total += n; checked += k
             except json.JSONDecodeError as ex:
-                problems.append(f"class{c}/{f}: bad JSON: {ex}")
+                problems.append(f"{label}/{f}: bad JSON: {ex}")
     for p in problems: print("✗", p)
     print(f"{total} questions, {checked} answer keys recomputed, {len(problems)} problems")
     sys.exit(1 if problems else 0)

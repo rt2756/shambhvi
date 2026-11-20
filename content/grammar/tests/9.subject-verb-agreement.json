@@ -1,0 +1,53 @@
+{
+"title": "9. Subject–verb agreement",
+"tests": [
+{"q": [
+{"t": "Fill in: <em>The dog ___ loudly.</em>", "o": ["barks", "bark", "are barking", "were barking"], "e": "One dog → singular verb (with -s)."},
+{"t": "Fill in: <em>The children ___ in the garden.</em>", "o": ["are playing", "is playing", "plays", "was playing"], "e": "‘children’ is plural → are."},
+{"t": "Fill in: <em>She ___ a new bicycle.</em>", "o": ["has", "have", "are having", "were"], "e": "She (singular) → has."},
+{"t": "Fill in: <em>Riya and Sam ___ best friends.</em>", "o": ["are", "is", "was", "has"], "e": "Two subjects joined by ‘and’ → plural."},
+{"t": "Fill in: <em>My brother ___ in Delhi.</em>", "o": ["lives", "live", "are living", "have lived"], "e": "Singular subject → lives."},
+{"t": "Fill in: <em>There ___ a cat on the wall.</em>", "o": ["is", "are", "were", "have"], "e": "The real subject (a cat) comes after ‘there’; it is singular → is."},
+{"t": "Fill in: <em>There ___ many books on the shelf.</em>", "o": ["are", "is", "was", "has"], "e": "The real subject is ‘many books’ (plural) → are."},
+{"t": "Fill in: <em>Everyone ___ happy today.</em>", "o": ["is", "are", "were", "have"], "e": "everyone = every single one → singular."},
+{"t": "Fill in: <em>The birds ___ south in winter.</em>", "o": ["fly", "flies", "is flying", "has flown"], "e": "Plural subject → plural verb (no -s)."},
+{"t": "Fill in: <em>He ___ not like spinach.</em>", "o": ["does", "do", "are", "have"], "e": "He (singular) → does."}
+]},
+{"q": [
+{"t": "Fill in: <em>The box of pencils ___ on the desk.</em>", "o": ["is", "are", "were", "have been"], "e": "The subject is ‘box’; ‘of pencils’ only describes it."},
+{"t": "Fill in: <em>One of my friends ___ a doctor.</em>", "o": ["is", "are", "were", "have been"], "e": "The subject is ‘one’ → singular."},
+{"t": "Fill in: <em>Each of the students ___ a laptop.</em>", "o": ["has", "have", "are having", "were having"], "e": "‘Each’ is singular, whatever comes after ‘of’."},
+{"t": "Fill in: <em>Neither Ravi nor his sisters ___ coming.</em>", "o": ["are", "is", "was", "has"], "e": "With neither … nor, the verb agrees with the nearer subject: sisters → are."},
+{"t": "Fill in: <em>Either the students or the teacher ___ responsible.</em>", "o": ["is", "are", "were", "have"], "e": "Nearer subject is ‘the teacher’ → singular."},
+{"t": "Fill in: <em>The news ___ very good.</em>", "o": ["is", "are", "were", "have been"], "e": "‘news’ is singular despite the -s."},
+{"t": "Fill in: <em>My new trousers ___ too long.</em>", "o": ["are", "is", "was", "has"], "e": "‘trousers’ is always plural."},
+{"t": "Fill in: <em>The furniture in this room ___ old.</em>", "o": ["is", "are", "were", "have been"], "e": "‘furniture’ is uncountable → singular."},
+{"t": "Fill in: <em>Mathematics ___ my favourite subject.</em>", "o": ["is", "are", "were", "have"], "e": "The name of one subject → singular."},
+{"t": "Fill in: <em>The police ___ arrested the thief.</em>", "o": ["have", "has", "is", "was"], "e": "‘police’ is always treated as plural."}
+]},
+{"q": [
+{"t": "Fill in: <em>The principal, along with the teachers, ___ attending the meeting.</em>", "o": ["is", "are", "were", "have"], "e": "‘along with the teachers’ does not add to the subject. The subject is ‘the principal’ → is."},
+{"t": "Fill in: <em>Bread and butter ___ my favourite breakfast.</em>", "o": ["is", "are", "were", "have been"], "e": "Bread and butter is one dish, one idea → singular."},
+{"t": "Fill in: <em>Ten kilometres ___ a long distance to walk.</em>", "o": ["is", "are", "were", "have"], "e": "A distance thought of as one amount → singular."},
+{"t": "Fill in: <em>The number of students in the class ___ forty.</em>", "o": ["is", "are", "were", "have"], "e": "‘The number’ is one figure → singular."},
+{"t": "Fill in: <em>A number of students ___ absent today.</em>", "o": ["are", "is", "was", "has"], "e": "‘A number of’ means ‘many’ → plural."},
+{"t": "Fill in: <em>A pair of shoes ___ lying under the bed.</em>", "o": ["is", "are", "were", "have"], "e": "The subject is ‘pair’ (one) → singular."},
+{"t": "Fill in: <em>The team ___ won the cup.</em>", "o": ["has", "have", "are", "were"], "e": "The team acting as one unit → singular."},
+{"t": "Fill in: <em>Not only the players but also the coach ___ happy.</em>", "o": ["was", "were", "are", "have"], "e": "With not only … but also, agree with the nearer subject: the coach → was."},
+{"t": "Find the error: <em>The quality of these mangoes are excellent.</em>", "o": ["‘are’ should be ‘is’", "‘these’ should be ‘this’", "‘mangoes’ should be ‘mango’", "No error"], "e": "The subject is ‘quality’ (singular); ‘of these mangoes’ only describes it."},
+{"t": "Fill in: <em>Five hundred rupees ___ too much for this shirt.</em>", "o": ["is", "are", "were", "have been"], "e": "A sum of money as one amount → singular."}
+]},
+{"q": [
+{"t": "Fill in: <em>Many a student ___ failed this test.</em>", "o": ["has", "have", "are", "were"], "e": "‘Many a’ + singular noun takes a singular verb."},
+{"t": "Fill in: <em>She is one of the girls who ___ in the choir.</em>", "o": ["sing", "sings", "is singing", "has sung"], "e": "‘who’ refers to ‘the girls’ (plural) — the girls sing, and she is one of them."},
+{"t": "Fill in: <em>She is the only one of the girls who ___ the violin.</em>", "o": ["plays", "play", "are playing", "have played"], "e": "Now ‘who’ refers to ‘the only one’ (singular) → plays."},
+{"t": "Fill in: <em>The jury ___ divided in their opinions.</em>", "o": ["are", "is", "was", "has"], "e": "Members acting separately (divided, their) → plural."},
+{"t": "Fill in: <em>The secretary and treasurer ___ arrived.</em> (one person holding both jobs)", "o": ["has", "have", "are", "were"], "e": "One ‘the’ for both titles = one person → singular."},
+{"t": "Fill in: <em>Neither of the answers ___ correct.</em>", "o": ["is", "are", "were", "have been"], "e": "‘Neither’ is singular, even with ‘of the answers’."},
+{"t": "Fill in: <em>“Gulliver's Travels” ___ a famous book.</em>", "o": ["is", "are", "were", "have been"], "e": "The title of one book → singular."},
+{"t": "Find the error: <em>Either you or he are to blame.</em>", "o": ["‘are’ should be ‘is’", "‘he’ should be ‘him’", "‘to blame’ should be ‘blamed’", "No error"], "e": "Agree with the nearer subject ‘he’ → is."},
+{"t": "Find the error: <em>The cattle is grazing in the field.</em>", "o": ["‘is’ should be ‘are’", "‘grazing’ should be ‘grazed’", "‘the field’ should be ‘field’", "No error"], "e": "‘cattle’ is always plural."},
+{"t": "Fill in: <em>Physics as well as chemistry ___ taught by Mr Rao.</em>", "o": ["is", "are", "were", "have been"], "e": "‘as well as chemistry’ does not add to the subject; ‘Physics’ (one subject) → is."}
+]}
+]
+}
