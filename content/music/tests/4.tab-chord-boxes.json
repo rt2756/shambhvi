@@ -1,0 +1,53 @@
+{
+"title": "4. Reading TAB & chord boxes",
+"tests": [
+{"q": [
+{"t": "How many lines does guitar TAB have?", "o": ["6", "5", "4", "12"], "e": "One line for each of the six strings.", "k": "6"},
+{"t": "In TAB, the <strong>top</strong> line is…", "o": ["the thin high e string", "the thick low E string", "the A string", "the 12th fret"], "e": "TAB puts the highest-sounding string on top."},
+{"t": "In TAB, what does a number on a line mean?", "o": ["Which fret to press", "Which finger to use", "How many times to play", "How loud to play"], "e": "The number is the fret on that string."},
+{"t": "In TAB, what does <strong>0</strong> mean?", "o": ["Play the string open", "Don't play the string", "Play it very softly", "Use the thumb"], "e": "0 = no fret pressed — the open string."},
+{"t": "Which way do you read TAB?", "o": ["Left to right", "Right to left", "Top to bottom", "Bottom to top"], "e": "Like a sentence: left to right."},
+{"t": "Two numbers stacked straight on top of each other mean…", "o": ["play them at the same time", "play the top one twice", "skip both of them", "play them very slowly"], "e": "Stacked notes are played together — that is how TAB shows a chord."},
+{"t": "In a chord box, an <strong>x</strong> above a string means…", "o": ["don't play that string", "play it open", "press fret 10", "play it twice"], "e": "x = don't play. o = play it open."},
+{"t": "In a chord box, an <strong>o</strong> above a string means…", "o": ["play that string open", "don't play it", "press it with finger 0", "mute it"], "e": "o = open: play the string with no finger on it."},
+{"t": "In a chord box, a number on a dot means…", "o": ["which finger to use", "which fret to press", "how many times to strum", "which string to skip"], "e": "In chord boxes the number is a finger (1 index … 4 little). The fret is shown by the row."},
+{"t": "What does TAB <strong>not</strong> show?", "o": ["How long each note lasts", "Which string to play", "Which fret to press", "Which notes go together"], "e": "TAB shows where, not how long. Listen to the song to get the rhythm."}
+]},
+{"q": [
+{"t": "In TAB, what does <code>5h7</code> mean?", "o": ["Pick fret 5, then hammer onto fret 7", "Pick fret 7, then pull off to fret 5", "Slide from fret 5 to fret 7", "Bend fret 5 up to fret 7"], "e": "h = hammer-on: pick the first note, then slam a finger onto the higher fret without picking again."},
+{"t": "In TAB, what does <code>7p5</code> mean?", "o": ["Pick fret 7, then pull off to fret 5", "Pick fret 5, then hammer onto fret 7", "Play fret 7 five times", "Play fret 7 with finger 5"], "e": "p = pull-off: pick the higher note, then flick that finger off so the lower note sounds."},
+{"t": "In TAB, <code>5/7</code> means…", "o": ["slide from fret 5 up to fret 7", "play fret 5 and fret 7 together", "fret 5 divided by 7", "pull off from 7 to 5"], "e": "/ = slide up without lifting the finger."},
+{"t": "What does <code>PM</code> mean in TAB?", "o": ["Palm mute", "Play more", "Pick middle", "Pinky only"], "e": "Rest the side of the picking hand on the strings near the bridge for a short, chunky sound."},
+{"t": "In a chord box, which side is the thick low E string?", "o": ["Left", "Right", "Top", "Bottom"], "e": "The chord box is the neck standing up and facing you, so the thick string is on the left."},
+{"t": "In a chord box, the thick line across the top is…", "o": ["the nut", "the 12th fret", "the low E string", "the bridge"], "e": "The thick line is the nut, the top end of the neck."},
+{"t": "In TAB a '2' means fret 2. In a chord box a '2' means…", "o": ["finger 2 (middle)", "fret 2", "string 2", "strum twice"], "e": "This is the big mix-up: in a chord box the number is the finger."},
+{"t": "In this TAB, which string is played?<br><code>e|-----|<br>B|--3--|<br>G|-----|</code>", "o": ["The B string", "The high e string", "The G string", "The low E string"], "e": "The 3 is on the B line, so play the B string at fret 3."},
+{"t": "In the Em chord, which strings have fingers on them?", "o": ["A and D", "D and G", "B and high e", "Low E and A"], "e": "Em: fret 2 on the A string (finger 2) and fret 2 on the D string (finger 3). Everything else is open."},
+{"t": "Why does TAB put the high e string on the top line?", "o": ["Higher notes go higher on the page", "It is the thickest string", "It is played first", "It is nearest your face"], "e": "Like all written music, TAB puts higher-sounding notes higher up."}
+]},
+{"q": [
+{"t": "Which note does this play?<br><code>e|-----|<br>B|--1--|</code>", "o": ["C", "B", "C♯", "D"], "e": "B string fret 1: B → C."},
+{"t": "Which note does this play?<br><code>e|--3--|<br>B|-----|</code>", "o": ["G", "F", "G♯", "A"], "e": "High e fret 3: E → F (1) → F♯ (2) → G (3)."},
+{"t": "Which note does this play?<br><code>G|--2--|<br>D|-----|</code>", "o": ["A", "G♯", "B", "A♯"], "e": "G string fret 2: G → G♯ → A."},
+{"t": "What notes does <code>B|-1-3-|</code> then <code>e|-0-|</code> play?", "o": ["C, D, E", "B, C, E", "C, D, F", "A, B, C"], "e": "B fret 1 = C, B fret 3 = D, open high e = E."},
+{"t": "Am in a chord box: x o (fret 2: finger 2 on D, finger 3 on G) (fret 1: finger 1 on B) o. Which string is <strong>not</strong> played?", "o": ["Low E", "A", "B", "High e"], "e": "The x is over the low E, so strum from the A string down."},
+{"t": "In the Am chord, finger 1 goes on…", "o": ["the B string, fret 1", "the A string, fret 1", "the D string, fret 2", "the G string, fret 1"], "e": "Am: finger 1 on B fret 1, finger 2 on D fret 2, finger 3 on G fret 2."},
+{"t": "Em written as TAB, from low E to high e, is…", "o": ["0 2 2 0 0 0", "0 0 2 2 0 0", "2 2 0 0 0 0", "0 2 2 1 0 0"], "e": "Low E open, A fret 2, D fret 2, then G, B and e open."},
+{"t": "Am written as TAB, from low E to high e, is…", "o": ["x 0 2 2 1 0", "0 2 2 1 0 0", "x 0 2 2 0 0", "x 2 2 1 0 0"], "e": "Low E not played, A open, D fret 2, G fret 2, B fret 1, high e open."},
+{"t": "Why can't you learn a song's rhythm from TAB alone?", "o": ["TAB shows where notes are, not how long", "TAB only shows chords", "TAB has no numbers for open strings", "TAB is read right to left"], "e": "TAB gives string and fret, but not note lengths — listen to the song for that."},
+{"t": "Why is the chord box drawn with the thick string on the left?", "o": ["It's how the neck looks held upright facing you", "Because thick strings are played first", "So it matches TAB exactly", "No reason — it is random"], "e": "Hold the guitar up with the neck pointing at the ceiling: the thick string is on your left."}
+]},
+{"q": [
+{"t": "Which TAB shows the open low E and open A played <strong>together</strong>?", "o": ["A on fret 0 directly above E on fret 0", "E on fret 0, then A on fret 0 to its right", "Two zeros side by side on the E line", "A 0 on the high e and a 0 on the B"], "e": "Notes played together are stacked straight up and down."},
+{"t": "This TAB: <code>B|-3-1-|</code> after <code>e|-0-|</code>. What notes, in order?", "o": ["E, D, C", "E, C, D", "C, D, E", "E, D, B"], "e": "Open e = E, B fret 3 = D, B fret 1 = C. That is the start of Hot Cross Buns."},
+{"t": "In <code>G|-0-0-|</code> then <code>B|-3-3-|</code>, what are the notes?", "o": ["G, G, D, D", "G, G, C, C", "G, G, B, B", "D, D, G, G"], "e": "Open G = G. B fret 3: B → C → C♯ → D. That is the start of Twinkle Twinkle."},
+{"t": "A chord box shows a dot with '3' in the fret-2 row on the D string. What do you do?", "o": ["Ring finger on the D string, fret 2", "Ring finger on the D string, fret 3", "Middle finger on the D string, fret 3", "Index finger on fret 3"], "e": "The number is the finger (3 = ring). The row tells you the fret (2)."},
+{"t": "What is the difference between a hammer-on and a slide?", "o": ["A hammer-on drops a new finger; a slide moves the same finger", "A hammer-on goes down; a slide goes up", "They are the same thing", "A slide needs a new pick stroke"], "e": "Hammer-on: a second finger comes down. Slide: one finger keeps pressing and travels along the string."},
+{"t": "Why does a pull-off make the lower note sound without picking?", "o": ["Flicking the finger off plucks the string", "The amp plays it automatically", "The lower note was already ringing loudly", "The pickup remembers the note"], "e": "As the finger leaves, it catches the string slightly — that flick is a tiny pluck, so the note below sounds."},
+{"t": "A TAB line reads <code>A|-3-|</code> and <code>E|-3-|</code> stacked. Which notes sound together?", "o": ["C and G", "C and F", "B and G", "D and A"], "e": "A fret 3: A → A♯ → B → C. Low E fret 3: E → F → F♯ → G. So C and G together."},
+{"t": "Which TAB line plays the notes A – B – C going up on one string?", "o": ["A|-0-2-3-|", "A|-0-1-2-|", "A|-0-2-4-|", "E|-0-2-3-|"], "e": "A string: open = A, fret 2 = B (a whole step), fret 3 = C (B→C is a half step)."},
+{"t": "In a chord box, a dot is in the fret-1 row but there is no number in it. What does that tell you?", "o": ["Which fret and string, but not which finger", "Which finger, but not which fret", "Don't play that string", "Play that string open"], "e": "The position of the dot shows the string and fret. The number, when given, is the finger — without it, choose the comfortable one."},
+{"t": "You see a 2 on a line. How do you know whether it means fret 2 or finger 2?", "o": ["TAB = fret; chord box = finger", "It always means fret", "It always means finger", "Bigger numbers mean fingers"], "e": "In TAB, numbers are frets. In a chord box, numbers are fingers — the box's rows show the frets."}
+]}
+]
+}

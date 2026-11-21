@@ -1,0 +1,53 @@
+{
+"title": "6. Time signatures & tempo",
+"tests": [
+{"q": [
+{"t": "What is a <em>bar</em>?", "o": ["A group of beats", "One single note", "A guitar string", "A loud chord"], "e": "Beats are grouped into bars (measures), marked by bar lines."},
+{"t": "In a time signature, the <strong>top</strong> number tells you…", "o": ["how many beats in each bar", "how fast to play", "which string to start on", "how many bars in the song"], "e": "Top = beats per bar."},
+{"t": "In a time signature, a <strong>bottom</strong> number of 4 means…", "o": ["a quarter note gets one beat", "4 bars in the song", "play 4 times", "play at 4 BPM"], "e": "4 = quarter note (¼ of a whole)."},
+{"t": "How many beats are in each bar of 4/4?", "o": ["4", "3", "2", "8"], "e": "Top number 4 → 4 beats a bar.", "k": "4"},
+{"t": "How many beats are in each bar of 3/4?", "o": ["3", "4", "2", "6"], "e": "Top number 3 → 3 beats a bar.", "k": "3"},
+{"t": "Which time signature is a waltz?", "o": ["3/4", "4/4", "2/4", "5/4"], "e": "A waltz sways in threes: ONE two three."},
+{"t": "What does BPM stand for?", "o": ["Beats per minute", "Bars per music", "Beats per measure", "Big pick movement"], "e": "BPM = beats per minute, the speed on the metronome."},
+{"t": "At 60 BPM, how long does each beat last?", "o": ["1 second", "60 seconds", "½ second", "2 seconds"], "e": "60 beats in 60 seconds → 1 second each.", "k": "60/60"},
+{"t": "What is the big C sometimes written instead of 4/4?", "o": ["Common time", "C major", "Clef", "Chord"], "e": "C stands for common time, another name for 4/4."},
+{"t": "Which beat of a bar usually feels strongest?", "o": ["Beat 1", "Beat 2", "The last beat", "They're all the same"], "e": "Beat 1 is the landmark — 'ONE two three four'."}
+]},
+{"q": [
+{"t": "Which is <strong>faster</strong>?", "o": ["120 BPM", "80 BPM", "60 BPM", "40 BPM"], "e": "More beats per minute = faster."},
+{"t": "At 120 BPM, how long is each beat?", "o": ["½ second", "2 seconds", "1 second", "120 seconds"], "e": "60 ÷ 120 = ½ second.", "k": "F(60,120)"},
+{"t": "At 30 BPM, how long is each beat?", "o": ["2 seconds", "½ second", "30 seconds", "1 second"], "e": "60 ÷ 30 = 2 seconds.", "k": "F(60,30)"},
+{"t": "In 3/4, which single note fills a whole bar?", "o": ["Dotted half note", "Whole note", "Half note", "Quarter note"], "e": "Dotted half = 3 beats, exactly one 3/4 bar."},
+{"t": "Why can't a whole note fit in a 3/4 bar?", "o": ["It lasts 4 beats; the bar holds 3", "It is too high", "It needs two strings", "3/4 has no notes"], "e": "4 beats is more than the 3 the bar holds."},
+{"t": "Which song is in 3/4?", "o": ["Happy Birthday", "Twinkle Twinkle", "Ode to Joy", "Jingle Bells"], "e": "Happy Birthday sways in threes. The others are in 4/4."},
+{"t": "What does <em>Andante</em> mean?", "o": ["At walking pace", "Very fast", "Very slow", "Getting louder"], "e": "Andante = walking pace, roughly 76–108 BPM."},
+{"t": "What does <em>Presto</em> mean?", "o": ["Very fast", "Very slow", "Walking pace", "Very quiet"], "e": "Presto = very fast."},
+{"t": "In Indian music, the first, strongest beat of a taal is called…", "o": ["Sam", "Sa", "Taal", "Raag"], "e": "Sam is the landmark beat, like beat 1 of a bar."},
+{"t": "Why do musicians group beats into bars?", "o": ["So you always know where 'one' is", "To make songs shorter", "So songs can be faster", "Only to make music look neat"], "e": "Bars give landmarks: 'start at bar 9' and a strong beat 1 to stay in place."}
+]},
+{"q": [
+{"t": "How many beats does Keherwa taal have?", "o": ["8", "6", "16", "4"], "e": "Keherwa = 8 beats (4 + 4).", "k": "8"},
+{"t": "How many beats does Teentaal have?", "o": ["16", "8", "12", "6"], "e": "Teentaal = 16 beats (4 + 4 + 4 + 4).", "k": "16"},
+{"t": "Dadra taal (6 beats, 3 + 3) is most like…", "o": ["6/8", "4/4", "2/4", "3/4 played once"], "e": "6/8 is also 6 beats felt as two groups of 3."},
+{"t": "A song is 4/4 at 60 BPM. How long is one bar?", "o": ["4 seconds", "1 second", "60 seconds", "15 seconds"], "e": "4 beats × 1 second = 4 seconds.", "k": "4*1"},
+{"t": "A song is 3/4 at 120 BPM. How long is one bar?", "o": ["1½ seconds", "3 seconds", "½ second", "2 seconds"], "e": "Each beat = ½ second; 3 × ½ = 1½ seconds.", "k": "3*F(1,2)"},
+{"t": "Which bar is complete in 4/4?", "o": ["half + quarter + 2 eighths", "whole + quarter", "3 quarters", "dotted half + half"], "e": "2 + 1 + ½ + ½ = 4. The others: 5, 3, 5."},
+{"t": "Which bar is complete in 3/4?", "o": ["quarter + half", "2 halves", "whole note", "4 quarters"], "e": "1 + 2 = 3. The others: 4, 4, 4."},
+{"t": "6/8 has 6 eighth-note beats. How is it usually felt?", "o": ["As 2 groups of 3", "As 3 groups of 2", "As 6 equal strong beats", "As 1 long beat"], "e": "ONE two three FOUR five six — two rolling groups of three."},
+{"t": "What is the difference between 4/4 and 80 BPM?", "o": ["4/4 groups the beats; 80 BPM sets the speed", "They mean the same thing", "4/4 is the speed; 80 BPM is the grouping", "80 BPM only works in 3/4"], "e": "Time signature = how beats are grouped. Tempo = how fast they go."},
+{"t": "Why can most Keherwa film songs be strummed in 4/4?", "o": ["Keherwa is 8 beats as 4 + 4", "Keherwa has no beat", "4/4 can play any rhythm", "Keherwa is always fast"], "e": "8 beats in groups of 4 is the same as two bars of 4/4."}
+]},
+{"q": [
+{"t": "A 4/4 song has 32 bars. How many beats is that?", "o": ["128", "32", "36", "64"], "e": "32 × 4 = 128 beats.", "k": "32*4"},
+{"t": "That 32-bar 4/4 song is played at 64 BPM. How long is it?", "o": ["2 minutes", "1 minute", "4 minutes", "32 seconds"], "e": "128 beats ÷ 64 beats per minute = 2 minutes.", "k": "F(128,64)"},
+{"t": "At 90 BPM, how long is one beat?", "o": ["⅔ second", "1½ seconds", "90 seconds", "½ second"], "e": "60 ÷ 90 = ⅔ second.", "k": "F(60,90)"},
+{"t": "One beat lasts ¾ of a second. What is the BPM?", "o": ["80", "75", "45", "90"], "e": "60 ÷ ¾ = 80 beats per minute.", "k": "60/F(3,4)"},
+{"t": "In 2/4, how many eighth notes fill one bar?", "o": ["4", "2", "8", "6"], "e": "2 beats × 2 eighths per beat = 4.", "k": "2*2"},
+{"t": "In 3/4, a bar has a half note. What fills the rest of the bar?", "o": ["One quarter note", "One half note", "A whole rest", "Three eighths"], "e": "3 − 2 = 1 beat left, which is one quarter note."},
+{"t": "How many full cycles of Keherwa fit into one Teentaal cycle?", "o": ["2", "4", "8", "16"], "e": "16 ÷ 8 = 2.", "k": "16/8"},
+{"t": "In 6/8, what note gets one beat?", "o": ["Eighth note", "Quarter note", "Half note", "Sixteenth note"], "e": "Bottom number 8 = eighth note."},
+{"t": "Why does a bottom number of 4 mean a quarter note?", "o": ["A quarter note is ¼ of a whole note", "There are 4 strings involved", "It's played 4 times", "It's just a random code"], "e": "It is a fraction: 4/4 = four quarters per bar; 3/4 = three quarters."},
+{"t": "You speed up from 60 BPM to 120 BPM. What happens to each beat?", "o": ["It lasts half as long", "It lasts twice as long", "It stays the same", "It gets louder"], "e": "Twice as many beats share the same minute, so each lasts half as long: 1 s → ½ s."}
+]}
+]
+}

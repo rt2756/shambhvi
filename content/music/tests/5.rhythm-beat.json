@@ -1,0 +1,53 @@
+{
+"title": "5. Rhythm & beat",
+"tests": [
+{"q": [
+{"t": "What is the <em>beat</em>?", "o": ["The steady pulse you clap along to", "The loudest note in a song", "The highest note in a song", "The last note of a song"], "e": "The beat is the steady pulse — clap, clap, clap — that note lengths are measured against."},
+{"t": "How many beats does a whole note last?", "o": ["4", "2", "1", "½"], "e": "Whole = 4 beats.", "k": "4"},
+{"t": "How many beats does a half note last?", "o": ["2", "4", "1", "3"], "e": "Half of a whole note: 4 ÷ 2 = 2 beats.", "k": "2"},
+{"t": "How many beats does a quarter note last?", "o": ["1", "4", "2", "¼"], "e": "A quarter of a whole note: 4 ÷ 4 = 1 beat.", "k": "1"},
+{"t": "How long is an eighth note?", "o": ["½ beat", "8 beats", "2 beats", "1 beat"], "e": "Half of a quarter note: ½ beat. Two eighths fill one beat."},
+{"t": "How do you count eighth notes out loud?", "o": ["1 & 2 & 3 & 4 &", "1 2 3 4", "1 e & a 2 e & a", "1 – 2 – 3 – 4"], "e": "The '&' falls exactly halfway between two beats."},
+{"t": "What is a rest?", "o": ["A counted beat of silence", "A very long note", "A break to tune up", "A loud note"], "e": "A rest is silence that you still count, so the next note comes in on time."},
+{"t": "What does a tie do?", "o": ["Joins two notes into one longer note", "Makes a note shorter", "Means play both notes twice", "Means skip a note"], "e": "Play once, then hold for the length of both notes."},
+{"t": "In strumming, ↓ means…", "o": ["strum down", "strum up", "don't strum", "mute the strings"], "e": "↓ = down-strum, ↑ = up-strum."},
+{"t": "Down-strums usually fall on…", "o": ["the numbers (1, 2, 3, 4)", "the '&'s", "only beat 1", "random beats"], "e": "The hand goes down on the beat and up on the '&', like a pendulum."}
+]},
+{"q": [
+{"t": "Which note is drawn as a filled oval with a stem and one flag?", "o": ["Eighth note", "Quarter note", "Half note", "Whole note"], "e": "One flag (or one beam) = eighth note."},
+{"t": "Which note is drawn as a hollow oval with a stem?", "o": ["Half note", "Whole note", "Quarter note", "Eighth note"], "e": "Hollow + stem = half note. Hollow with no stem = whole note."},
+{"t": "How many quarter notes make one whole note?", "o": ["4", "2", "8", "16"], "e": "4 × 1 beat = 4 beats.", "k": "4"},
+{"t": "How many eighth notes make one half note?", "o": ["4", "2", "8", "6"], "e": "A half note is 2 beats; each eighth is ½ beat: 2 ÷ ½ = 4.", "k": "2/F(1,2)"},
+{"t": "How many beats does a dotted half note last?", "o": ["3", "2", "2½", "4"], "e": "A dot adds half the note's length: 2 + 1 = 3.", "k": "2+1"},
+{"t": "How do you count sixteenth notes?", "o": ["1 e & a 2 e & a", "1 & 2 & 3 & 4 &", "1 2 3 4", "1 – 2 – 3 – 4"], "e": "Four sixteenths in each beat: 1 e & a."},
+{"t": "A half note + a quarter + a quarter = how many beats?", "o": ["4", "3", "5", "2"], "e": "2 + 1 + 1 = 4.", "k": "2+1+1"},
+{"t": "Why should you count out loud while playing?", "o": ["It keeps the beat steady", "It makes the guitar louder", "It tunes the strings", "It is only for teachers"], "e": "In your head the beat drifts — faster on easy bits, slower on hard bits. Counting out loud holds it steady."},
+{"t": "Why do we count rests instead of skipping them?", "o": ["So the next note comes in on time", "Rests are louder than notes", "So you can tune during them", "We don't — rests are skipped"], "e": "Silence is part of the rhythm. Skip the count and the next note comes too early."},
+{"t": "Why are notes called 'half', 'quarter' and 'eighth'?", "o": ["They are fractions of a whole note", "They are played by fewer fingers", "They are quieter notes", "They use fewer strings"], "e": "A quarter note is ¼ of a whole note; an eighth is ⅛ of it."}
+]},
+{"q": [
+{"t": "How many beats does a dotted quarter note last?", "o": ["1½", "2", "1", "3"], "e": "1 + half of 1 = 1½.", "k": "F(3,2)"},
+{"t": "A half note tied to a quarter note lasts…", "o": ["3 beats", "2 beats", "1½ beats", "4 beats"], "e": "A tie adds the two: 2 + 1 = 3.", "k": "2+1"},
+{"t": "Three eighth notes last how many beats?", "o": ["1½", "3", "1", "2"], "e": "3 × ½ = 1½.", "k": "3*F(1,2)"},
+{"t": "How many sixteenth notes make one quarter note?", "o": ["4", "2", "8", "16"], "e": "Each sixteenth is ¼ beat: 1 ÷ ¼ = 4.", "k": "1/F(1,4)"},
+{"t": "Four eighth notes + one half note = how many beats?", "o": ["4", "3", "6", "5"], "e": "4 × ½ = 2, plus 2 = 4.", "k": "4*F(1,2)+2"},
+{"t": "In <em>Jingle Bells</em>, 'bells' is a half note starting on beat 3. Until which count does it ring?", "o": ["Through beat 4", "Only beat 3", "Through beat 1 of the next bar", "Through beat 2"], "e": "A half note lasts 2 beats: 3 and 4."},
+{"t": "A dot adds…", "o": ["half the length of that note", "half a beat, always", "one beat, always", "the same length again"], "e": "A dot after a half note adds 1; a dot after a quarter adds ½. It depends on the note."},
+{"t": "Strum pattern ↓ ↓↑ ↓ ↓↑ — on which counts are the up-strums?", "o": ["2& and 4&", "1& and 3&", "on 2 and 4", "on every &"], "e": "Pattern: 1 (↓), 2 (↓) & (↑), 3 (↓), 4 (↓) & (↑)."},
+{"t": "Why does your strumming hand keep moving even on strums you skip?", "o": ["So every strum lands on time", "To make the guitar louder", "To stay warm", "It doesn't need to"], "e": "A hand that never stops is like a clock — you just choose when it touches the strings."},
+{"t": "On an electric guitar, what must you do during a rest?", "o": ["Stop the strings ringing", "Turn up the amp", "Keep strumming softly", "Tune the guitar"], "e": "A rest is silence, so mute the strings with either hand."}
+]},
+{"q": [
+{"t": "How many sixteenth notes fit in a whole note?", "o": ["16", "8", "4", "32"], "e": "4 beats × 4 sixteenths per beat = 16.", "k": "4*4"},
+{"t": "A dotted half note + a quarter note = how many beats?", "o": ["4", "3", "3½", "5"], "e": "3 + 1 = 4.", "k": "3+1"},
+{"t": "A dotted quarter + an eighth = how many beats?", "o": ["2", "1½", "2½", "1"], "e": "1½ + ½ = 2.", "k": "F(3,2)+F(1,2)"},
+{"t": "Which group adds up to exactly 4 beats?", "o": ["dotted half + quarter", "whole + quarter", "half + dotted half", "3 quarters"], "e": "3 + 1 = 4. The others: 5, 5, 3."},
+{"t": "Which group adds up to exactly 3 beats?", "o": ["half + 2 eighths", "2 halves", "whole note", "dotted half + eighth"], "e": "2 + ½ + ½ = 3. The others: 4, 4, 3½."},
+{"t": "How many beats does a dotted eighth note last?", "o": ["¾", "1½", "½", "1"], "e": "½ + half of ½ (= ¼) = ¾ beat.", "k": "F(3,4)"},
+{"t": "Two half notes tied together last…", "o": ["4 beats", "2 beats", "3 beats", "8 beats"], "e": "2 + 2 = 4 — played once and held.", "k": "2+2"},
+{"t": "Which rest equals a half note in length?", "o": ["Half rest (2 beats)", "Quarter rest", "Whole rest", "Eighth rest"], "e": "Every note length has a matching rest of the same length."},
+{"t": "In 1 e & a, where does the 'a' fall?", "o": ["Three-quarters of the way through the beat", "Exactly on the beat", "Halfway through the beat", "On the next beat"], "e": "1 = start, e = ¼, & = ½, a = ¾ of the way through the beat."},
+{"t": "Why do we need dots and ties at all?", "o": ["Plain notes only halve, so 3 or 1½ beats need them", "To make notes louder", "To show which string to play", "To mark the end of a song"], "e": "Plain notes are 4, 2, 1, ½ … To get lengths in between, add a dot or join two notes with a tie."}
+]}
+]
+}

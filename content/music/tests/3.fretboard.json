@@ -1,0 +1,53 @@
+{
+"title": "3. The guitar fretboard",
+"tests": [
+{"q": [
+{"t": "Name the open strings from thickest to thinnest.", "o": ["E A D G B E", "E B G D A E", "A B C D E F", "E A D G C E"], "e": "Every Amateur Does Get Better Eventually: E A D G B E."},
+{"t": "Which string is string number 1?", "o": ["The thinnest (high e)", "The thickest (low E)", "The A string", "The G string"], "e": "String 1 is the highest-sounding string — the thin one nearest the floor."},
+{"t": "Which string is string number 6?", "o": ["The thickest (low E)", "The thinnest (high e)", "The D string", "The B string"], "e": "String 6 is the lowest-sounding, thickest string."},
+{"t": "Which finger is finger 1?", "o": ["Index", "Thumb", "Middle", "Little"], "e": "Index 1, middle 2, ring 3, little 4. The thumb is T."},
+{"t": "Which finger is finger 4?", "o": ["Little (pinky)", "Ring", "Index", "Thumb"], "e": "Index 1, middle 2, ring 3, little 4."},
+{"t": "Each fret raises the note by…", "o": ["one half step", "one whole step", "one octave", "one letter"], "e": "Fret to fret is always one half step."},
+{"t": "Where should you press the string?", "o": ["Just behind the fret", "On top of the metal fret", "In the middle between two frets", "Anywhere — it makes no difference"], "e": "Just behind the fret needs the least pressure and doesn't buzz."},
+{"t": "Which fret has the double dot?", "o": ["12", "5", "7", "9"], "e": "The double dot marks the 12th fret — the octave."},
+{"t": "What note is the 12th fret of the A string?", "o": ["A", "E", "G", "B"], "e": "Fret 12 is one octave above the open string, so it has the same name: A."},
+{"t": "Where does your thumb go on the fretting hand?", "o": ["Behind the neck", "On the front of the frets", "On the strings", "On the pickups"], "e": "The thumb sits behind the neck, roughly behind your middle finger, so the fingers can curve over."}
+]},
+{"q": [
+{"t": "What note is fret 1 of the low E string?", "o": ["F", "F♯", "E♯", "G"], "e": "E to F is only a half step, so fret 1 is F."},
+{"t": "What note is fret 3 of the low E string?", "o": ["G", "F♯", "G♯", "A"], "e": "E → F (1) → F♯ (2) → G (3)."},
+{"t": "What note is fret 5 of the low E string?", "o": ["A", "G", "A♯", "B"], "e": "E, F, F♯, G, G♯, A — fret 5 is A."},
+{"t": "What note is fret 2 of the A string?", "o": ["B", "A♯", "C", "C♯"], "e": "A → A♯ (1) → B (2)."},
+{"t": "What note is fret 3 of the A string?", "o": ["C", "B", "C♯", "D"], "e": "A → A♯ (1) → B (2) → C (3). B to C is one fret."},
+{"t": "What note is fret 1 of the B string?", "o": ["C", "B♯ (a new note)", "C♯", "A♯"], "e": "B to C is a half step, so fret 1 is C."},
+{"t": "What note is fret 3 of the B string?", "o": ["D", "C♯", "D♯", "C"], "e": "B → C (1) → C♯ (2) → D (3)."},
+{"t": "Why do the frets get closer together further up the neck?", "o": ["Each one shortens a shorter string by the same fraction", "To make room for the pickups", "So that the high frets sound louder", "They are placed at random"], "e": "Each fret shortens the string by the same fraction for one half step. A fraction of a shorter string is a smaller distance."},
+{"t": "Why do musicians call the thin string 'string 1'?", "o": ["It plays the highest note", "It is nearest your face", "It was put on first", "It is the loudest"], "e": "Strings are numbered from the highest note, so the thin high e is string 1."},
+{"t": "Why should your fingers be curved, pressing with the tips?", "o": ["A flat finger would mute the next string", "Fingertips are stronger than palms", "It makes the guitar louder", "So the thumb can reach the strings"], "e": "A curved finger touches only its own string. A flat one lies across the next string and stops it ringing."}
+]},
+{"q": [
+{"t": "What note is fret 3 of the D string?", "o": ["F", "E", "F♯", "G"], "e": "D → D♯ (1) → E (2) → F (3). E to F is one fret."},
+{"t": "What note is fret 2 of the G string?", "o": ["A", "G♯", "A♯", "B"], "e": "G → G♯ (1) → A (2)."},
+{"t": "What note is fret 7 of the low E string?", "o": ["B", "A♯", "C", "A"], "e": "E F F♯ G G♯ A A♯ B — fret 7 is B."},
+{"t": "What note is fret 8 of the low E string?", "o": ["C", "B", "C♯", "D"], "e": "Fret 7 is B, and B to C is one fret, so fret 8 is C."},
+{"t": "What note is fret 5 of the A string?", "o": ["D", "C♯", "D♯", "E"], "e": "A A♯ B C C♯ D — fret 5 is D, the same as the open D string."},
+{"t": "Fret 5 of the low E string sounds the same as which open string?", "o": ["A", "D", "G", "B"], "e": "E up 5 half steps is A — the next string."},
+{"t": "Fret 5 of the D string sounds the same as which open string?", "o": ["G", "A", "B", "E"], "e": "D D♯ E F F♯ G — 5 half steps up is G, the next string."},
+{"t": "To match the open B string, which fret of the G string do you press?", "o": ["4", "5", "3", "7"], "e": "G → B is only 4 half steps (G G♯ A A♯ B), so it is the 4th fret, not the 5th.", "k": "4"},
+{"t": "On the A string, which fret gives G?", "o": ["10", "7", "9", "11"], "e": "A A♯ B C C♯ D D♯ E F F♯ G — G is 10 half steps up.", "k": "10"},
+{"t": "Fret 13 of a string gives the same note name as…", "o": ["fret 1", "fret 3", "the open string", "fret 12"], "e": "From fret 12 the pattern starts again, one octave up. So fret 13 = fret 1 + 12."}
+]},
+{"q": [
+{"t": "What note is fret 6 of the B string?", "o": ["F", "E", "F♯", "G"], "e": "B C C♯ D D♯ E F — fret 6 is F."},
+{"t": "What note is fret 4 of the D string?", "o": ["F♯", "F", "G", "E"], "e": "D D♯ E F F♯ — fret 4 is F♯."},
+{"t": "What note is fret 7 of the G string?", "o": ["D", "C♯", "D♯", "E"], "e": "G G♯ A A♯ B C C♯ D — fret 7 is D."},
+{"t": "On the low E string, which fret gives D?", "o": ["10", "9", "11", "12"], "e": "Fret 8 is C, fret 9 is C♯, fret 10 is D.", "k": "10"},
+{"t": "On the high e string, which fret gives the note G?", "o": ["3", "2", "4", "5"], "e": "The high e has the same notes as the low E: E F F♯ G — fret 3.", "k": "3"},
+{"t": "What note is fret 15 of the low E string?", "o": ["G", "F", "A", "D♯"], "e": "15 − 12 = 3, and fret 3 of the E string is G."},
+{"t": "Most strings are tuned 5 half steps apart. Which neighbours are only 4 apart?", "o": ["G and B", "E and A", "D and G", "B and high e"], "e": "G → B is G♯, A, A♯, B = 4 half steps. All the other neighbours are 5."},
+{"t": "You have no tuner but the low E is right. How do you tune the A string?", "o": ["Match it to fret 5 of the low E", "Match it to fret 12 of the low E", "Match it to fret 4 of the low E", "Match it to the open low E"], "e": "Fret 5 of the low E is A, so the open A string should sound exactly the same."},
+{"t": "Which note appears on the low E string at fret 1 <strong>and</strong> on the D string at fret 3?", "o": ["F", "G", "E", "F♯"], "e": "Low E fret 1 = F. D string: D D♯ E F — fret 3 = F."},
+{"t": "Why is it easier for a beginner to play the spider at frets 5–8 than at frets 1–4?", "o": ["The frets are narrower there", "Those notes are louder", "Those frets need no pressing", "Fret 5 is the octave"], "e": "Frets get closer together up the neck, so four fingers reach four frets without a big stretch."}
+]}
+]
+}

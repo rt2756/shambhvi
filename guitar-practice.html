@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guitar Practice — Week by Week</title>
+<meta name="description" content="A 30-minute-a-day electric guitar plan for a complete beginner, week by week, with tick-off practice days.">
+<link rel="stylesheet" href="assets/css/style.css?v=12">
+</head>
+<body>
+  <div class="wrap notes">
+    <header class="hero">
+      <span class="pill">🎸 Music · Guitar practice</span>
+      <h1 class="title"><span class="grad">Guitar Practice</span></h1>
+      <p class="lead">Thirty minutes a day, one week at a time. Tick each day off as you go — your ticks are saved on this device.</p>
+      <nav class="nav-toggle" aria-label="Layout">
+        <a href="index.html">🏠 Home</a>
+        <a href="music.html">🎼 Theory</a>
+        <a class="active" href="guitar-practice.html">🎸 Practice</a>
+        <a href="music-tests.html">🎯 Tests</a>
+      </nav>
+    </header>
+
+    <!-- Weeks are loaded from content/music/practice/*.md (listed in manifest.json) by assets/js/app.js -->
+    <div id="app" data-content-dir="content/music/practice/" data-mode="todo">
+      <div class="empty"><div class="big">⏳</div><strong>Loading practice plan…</strong></div>
+    </div>
+  </div>
+
+  <script src="assets/js/marked.min.js"></script>
+  <script src="assets/js/app.js?v=10"></script>
+</body>
+</html>

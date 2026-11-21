@@ -1,0 +1,53 @@
+{
+"title": "7. Intervals",
+"tests": [
+{"q": [
+{"t": "What is an interval?", "o": ["The distance between two notes", "A pause in the music", "A type of chord", "A guitar string"], "e": "An interval measures how far apart two notes are."},
+{"t": "On the guitar, the easiest way to measure an interval is to…", "o": ["count the frets (half steps)", "count the strings", "listen to the volume", "count the pickups"], "e": "One fret = one half step, so count frets from the lower note to the higher one."},
+{"t": "How many half steps are in an octave?", "o": ["12", "8", "7", "10"], "e": "An octave = all 12 notes.", "k": "12"},
+{"t": "How many half steps are in a perfect 5th?", "o": ["7", "5", "8", "4"], "e": "Perfect 5th = 7 half steps (C → G).", "k": "7"},
+{"t": "How many half steps are in a major 3rd?", "o": ["4", "3", "5", "2"], "e": "Major 3rd = 4 half steps (C → E).", "k": "4"},
+{"t": "How many half steps are in a minor 3rd?", "o": ["3", "4", "2", "5"], "e": "Minor 3rd = 3 half steps (C → E♭).", "k": "3"},
+{"t": "C → D is a…", "o": ["major 2nd", "minor 2nd", "major 3rd", "unison"], "e": "C(1) D(2) = a 2nd. C → C♯ → D = 2 half steps = major 2nd."},
+{"t": "C → G is a…", "o": ["perfect 5th", "perfect 4th", "major 3rd", "octave"], "e": "C D E F G = 5 letters → a 5th. 7 half steps = perfect 5th."},
+{"t": "Which interval sounds like the same note, higher?", "o": ["Octave", "Perfect 5th", "Minor 2nd", "Major 3rd"], "e": "The octave doubles the shakes per second — same note name."},
+{"t": "Which interval is in the first jump of <em>Twinkle Twinkle</em> (twin-kle → twin-kle)?", "o": ["Perfect 5th", "Octave", "Major 2nd", "Minor 3rd"], "e": "In C: C C → G G. C to G is a perfect 5th."}
+]},
+{"q": [
+{"t": "How many half steps are in a perfect 4th?", "o": ["5", "4", "6", "7"], "e": "Perfect 4th = 5 half steps (C → F).", "k": "5"},
+{"t": "C → F is a…", "o": ["perfect 4th", "perfect 5th", "major 3rd", "tritone"], "e": "C D E F = 4 letters → a 4th. 5 half steps = perfect 4th."},
+{"t": "C → E♭ is a…", "o": ["minor 3rd", "major 3rd", "major 2nd", "perfect 4th"], "e": "3 letters (C D E), but only 3 half steps → minor 3rd."},
+{"t": "C → C♯ is a…", "o": ["minor 2nd", "major 2nd", "unison", "minor 3rd"], "e": "1 half step = minor 2nd."},
+{"t": "When naming an interval by letters, the first note counts as…", "o": ["1", "0", "2", "it isn't counted"], "e": "C → D: C is 1, D is 2 → a 2nd."},
+{"t": "A major 3rd and a minor 3rd both span 3 letters. What is different?", "o": ["The major one is one half step bigger", "The minor one is one half step bigger", "They are exactly the same", "The major one has more letters"], "e": "Major 3rd = 4 half steps; minor 3rd = 3. 'Minor' means smaller."},
+{"t": "Which interval sounds the most clashing?", "o": ["Minor 2nd", "Octave", "Perfect 5th", "Perfect 4th"], "e": "Two notes only a half step apart bump into each other — a buzzy clash."},
+{"t": "How many half steps are in a tritone?", "o": ["6", "5", "7", "3"], "e": "Tritone = 6 half steps — exactly half an octave.", "k": "6"},
+{"t": "In sargam, Sa → Pa is a…", "o": ["perfect 5th", "perfect 4th", "major 3rd", "octave"], "e": "Sa = 1, Pa = 5 → a perfect 5th, like C → G."},
+{"t": "In sargam, Sa → Ma is a…", "o": ["perfect 4th", "perfect 5th", "major 2nd", "minor 3rd"], "e": "Sa = 1, Ma = 4 → a perfect 4th, like C → F."}
+]},
+{"q": [
+{"t": "A → C is a…", "o": ["minor 3rd", "major 3rd", "perfect 4th", "major 2nd"], "e": "A B C = 3 letters. A → A♯ → B → C = 3 half steps → minor 3rd."},
+{"t": "E → G♯ is a…", "o": ["major 3rd", "minor 3rd", "perfect 4th", "tritone"], "e": "E F G = 3 letters. E → F → F♯ → G → G♯ = 4 half steps → major 3rd."},
+{"t": "D → A is a…", "o": ["perfect 5th", "perfect 4th", "major 6th", "minor 6th"], "e": "D E F G A = 5 letters, 7 half steps → perfect 5th."},
+{"t": "G → C is a…", "o": ["perfect 4th", "perfect 5th", "major 3rd", "tritone"], "e": "G A B C = 4 letters, 5 half steps → perfect 4th."},
+{"t": "C → A is a…", "o": ["major 6th", "minor 6th", "perfect 5th", "minor 7th"], "e": "C D E F G A = 6 letters, 9 half steps → major 6th."},
+{"t": "On the E, A and D strings, a perfect 5th above a note is…", "o": ["next string up, 2 frets higher", "same fret, next string up", "two strings up, 2 frets higher", "same string, 5 frets higher"], "e": "Next string = 5 half steps; + 2 frets = 7 = perfect 5th."},
+{"t": "On the E, A and D strings, a perfect 4th above a note is…", "o": ["same fret, next string up", "next string up, 2 frets higher", "same string, 4 frets higher", "two strings up, same fret"], "e": "Neighbouring strings are tuned a perfect 4th (5 half steps) apart."},
+{"t": "Low E string fret 3 is G. Where is the G one octave higher?", "o": ["D string, fret 5", "A string, fret 5", "D string, fret 3", "G string, fret 3"], "e": "Octave shape: two strings up, 2 frets higher → D string fret 5."},
+{"t": "Why do a perfect 5th's notes blend so smoothly?", "o": ["Their shakes line up as 3 : 2", "They are the same note", "They are on the same string", "They are always loud"], "e": "Small-number ratios line up often, so the notes don't clash."},
+{"t": "Why does a minor 2nd sound clashing?", "o": ["Its shakes rarely line up (about 16 : 15)", "It is too high to hear", "It uses two strings", "It is always played loudly"], "e": "Big-number ratios line up rarely; in between, the waves keep bumping — a clash."}
+]},
+{"q": [
+{"t": "B → F is a…", "o": ["tritone", "perfect 5th", "perfect 4th", "minor 6th"], "e": "B → C(1) → C♯(2) → D(3) → D♯(4) → E(5) → F(6). 6 half steps = tritone, not a perfect 5th."},
+{"t": "F → E is a…", "o": ["major 7th", "minor 7th", "octave", "major 6th"], "e": "F to E = 7 letters, 11 half steps → major 7th."},
+{"t": "A → G is a…", "o": ["minor 7th", "major 7th", "major 6th", "octave"], "e": "A to G = 7 letters, 10 half steps → minor 7th."},
+{"t": "E → C is a…", "o": ["minor 6th", "major 6th", "perfect 5th", "minor 7th"], "e": "E F G A B C = 6 letters. 8 half steps → minor 6th."},
+{"t": "What note is a major 3rd above D?", "o": ["F♯", "F", "E", "G"], "e": "D + 4 half steps: D♯, E, F, F♯."},
+{"t": "What note is a perfect 5th above B?", "o": ["F♯", "F", "E", "G"], "e": "B + 7: C, C♯, D, D♯, E, F, F♯."},
+{"t": "G string fret 2 is A. Where is the perfect 5th (E) on the B string?", "o": ["Fret 5", "Fret 4", "Fret 2", "Fret 7"], "e": "G → B is only 4 half steps, so add 3 frets (not 2): 4 + 3 = 7. B string fret 5 = E."},
+{"t": "D string fret 2 is E. Where is the octave on the B string?", "o": ["Fret 5", "Fret 4", "Fret 3", "Fret 7"], "e": "D → B is 5 + 4 = 9 half steps; add 3 frets for 12. Fret 5 of the B string = E."},
+{"t": "Why are the 3rds called 'major' and 'minor' and not 'perfect'?", "o": ["They come in two sizes, one half step apart", "They sound perfectly smooth", "They are only used in sad songs", "They are bigger than octaves"], "e": "3rds (and 2nds, 6ths, 7ths) have a bigger (major) and smaller (minor) form."},
+{"t": "Why does the octave shape change when it crosses onto the B string?", "o": ["G → B is 4 half steps, not 5", "The B string is thicker", "Frets are wider there", "The B string is tuned to C"], "e": "Losing one half step between strings means you add one extra fret to make up for it."}
+]}
+]
+}

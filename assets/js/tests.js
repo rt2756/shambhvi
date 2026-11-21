@@ -31,7 +31,7 @@
 
   // A set is a class number ("7" -> content/class7/tests/, hub class7-tests.html) or a
   // class-free name ("grammar" -> content/grammar/tests/, hub grammar-tests.html).
-  var SET_NAMES = { grammar: "English Grammar" };
+  var SET_NAMES = { grammar: "English Grammar", music: "Music Theory" };
   function isClass(set) { return /^\d+$/.test(set); }
   function dirFor(cls) { return isClass(cls) ? "content/class" + cls + "/tests/" : "content/" + cls + "/tests/"; }
   function hubFor(cls) { return isClass(cls) ? "class" + cls + "-tests.html" : cls + "-tests.html"; }

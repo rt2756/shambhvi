@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Theory — Lessons</title>
+<meta name="description" content="Music theory for a beginner guitarist — sound, notes, the fretboard, TAB, rhythm, scales and chords, with the why behind every rule.">
+<link rel="stylesheet" href="assets/css/style.css?v=12">
+</head>
+<body>
+  <div class="wrap notes">
+    <header class="hero">
+      <span class="pill">🎼 Music · Theory</span>
+      <h1 class="title"><span class="grad">Music Theory</span></h1>
+      <p class="lead">The ideas behind the guitar, one short lesson at a time — read a lesson, try it on the guitar, then take its four tests.</p>
+      <nav class="nav-toggle" aria-label="Layout">
+        <a href="index.html">🏠 Home</a>
+        <a class="active" href="music.html">🎼 Theory</a>
+        <a href="guitar-practice.html">🎸 Practice</a>
+        <a href="music-tests.html">🎯 Tests</a>
+      </nav>
+    </header>
+
+    <!-- Lessons are loaded from content/music/notes/*.md (listed in manifest.json) by assets/js/app.js -->
+    <div id="app" data-content-dir="content/music/notes/" data-mode="notes">
+      <div class="empty"><div class="big">⏳</div><strong>Loading lessons…</strong></div>
+    </div>
+  </div>
+
+  <script src="assets/js/marked.min.js"></script>
+  <script src="assets/js/app.js?v=10"></script>
+</body>
+</html>

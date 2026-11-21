@@ -1,0 +1,53 @@
+{
+"title": "8. The major scale",
+"tests": [
+{"q": [
+{"t": "What is the step pattern of every major scale?", "o": ["W W H W W W H", "W H W W H W W", "H W W W H W W", "W W W H W W H"], "e": "Whole, whole, half, whole, whole, whole, half."},
+{"t": "What are the notes of the C major scale?", "o": ["C D E F G A B C", "C D E F♯ G A B C", "C D E♭ F G A B C", "C D E F G A B♭ C"], "e": "C major uses only the plain letters — no sharps or flats."},
+{"t": "On the guitar, a whole step (W) is…", "o": ["2 frets", "1 fret", "3 frets", "half a fret"], "e": "Whole step = 2 half steps = 2 frets."},
+{"t": "How many sharps or flats does C major have?", "o": ["0", "1", "2", "7"], "e": "None — the half steps land on E–F and B–C.", "k": "0"},
+{"t": "Which sharp does G major have?", "o": ["F♯", "C♯", "G♯", "D♯"], "e": "G A B C D E F♯ G."},
+{"t": "In sargam, what are the 7 notes?", "o": ["Sa Re Ga Ma Pa Dha Ni", "Do Re Mi Fa So La Ti", "C D E F G A B", "Sa Pa Ma Ga Re Ni Dha"], "e": "Sa Re Ga Ma Pa Dha Ni, then Sa again."},
+{"t": "In solfège, step 5 is…", "o": ["so", "fa", "la", "mi"], "e": "do(1) re(2) mi(3) fa(4) so(5)."},
+{"t": "Step 1 of a scale is called the…", "o": ["tonic (home note)", "octave", "sharp", "beat"], "e": "The tonic is home — tunes usually end there."},
+{"t": "How many different notes are in a major scale (before it repeats)?", "o": ["7", "8", "12", "5"], "e": "7 notes; the 8th is the first note again, an octave up.", "k": "7"},
+{"t": "In sargam, which note matches step 1?", "o": ["Sa", "Re", "Pa", "Ni"], "e": "Sa is home, like do."}
+]},
+{"q": [
+{"t": "In C major, which steps are the half steps?", "o": ["E → F and B → C", "C → D and F → G", "D → E and A → B", "G → A and B → C"], "e": "The pattern's half steps (3→4 and 7→8) land on E–F and B–C."},
+{"t": "Why does C major need no sharps or flats?", "o": ["Its half steps land on E–F and B–C", "C is the lowest note", "It is the easiest to play", "C has no sharp"], "e": "The pattern's two half steps match the two natural half steps exactly."},
+{"t": "What are the notes of G major?", "o": ["G A B C D E F♯ G", "G A B C D E F G", "G A B♭ C D E F G", "G A B C♯ D E F♯ G"], "e": "Follow W W H W W W H from G: the rule forces F♯."},
+{"t": "Why does G major have F♯ and not F?", "o": ["E → F is only a half step; the pattern needs a whole step", "F is too low for G major", "Sharps sound better", "Every scale must have one sharp"], "e": "Step 6 → 7 must be W. E → F is H, so go one further to F♯."},
+{"t": "What is step 7 of C major?", "o": ["B", "A", "C", "G"], "e": "C(1) D(2) E(3) F(4) G(5) A(6) B(7)."},
+{"t": "What is step 5 of G major?", "o": ["D", "C", "E", "B"], "e": "G(1) A(2) B(3) C(4) D(5)."},
+{"t": "What are the notes of D major?", "o": ["D E F♯ G A B C♯ D", "D E F G A B C D", "D E F♯ G A B C D", "D E♭ F G A B♭ C D"], "e": "W W H W W W H from D gives F♯ and C♯."},
+{"t": "Why does step 7 (ti / Ni) pull towards home?", "o": ["It is only a half step below home", "It is the loudest note", "It is a whole step below home", "It is the same note as home"], "e": "A half step is a tense, close gap, so the 7th sounds like it wants to move up to the tonic."},
+{"t": "Which interval is step 1 → step 5 of any major scale?", "o": ["Perfect 5th", "Major 3rd", "Perfect 4th", "Octave"], "e": "W W H W = 2 + 2 + 1 + 2 = 7 half steps = perfect 5th."},
+{"t": "Which interval is step 1 → step 3 of any major scale?", "o": ["Major 3rd", "Minor 3rd", "Perfect 4th", "Major 2nd"], "e": "W W = 2 + 2 = 4 half steps = major 3rd."}
+]},
+{"q": [
+{"t": "What are the notes of A major?", "o": ["A B C♯ D E F♯ G♯ A", "A B C D E F G A", "A B C♯ D E F G A", "A B♭ C D E F G A"], "e": "W W H W W W H from A: three sharps — F♯, C♯, G♯."},
+{"t": "What are the notes of F major?", "o": ["F G A B♭ C D E F", "F G A B C D E F", "F G A A♯ C D E F", "F G♯ A B♭ C D E F"], "e": "A → B would be a whole step, but the pattern needs a half step there → B♭."},
+{"t": "Why does F major use B♭ and not A♯?", "o": ["Each letter is used once, and A is already there", "A♯ is not a real note", "Flats sound softer", "B♭ is higher than A♯"], "e": "A major scale uses every letter once. With A already used, the next note must be some kind of B."},
+{"t": "How many sharps does E major have?", "o": ["4", "3", "2", "5"], "e": "E F♯ G♯ A B C♯ D♯ E — F♯, G♯, C♯, D♯.", "k": "4"},
+{"t": "How many sharps does D major have?", "o": ["2", "1", "3", "0"], "e": "D E F♯ G A B C♯ D.", "k": "2"},
+{"t": "In the G major scale shape (starting low E fret 3), what is the 3rd note?", "o": ["B, on A string fret 2", "C, on A string fret 3", "B, on E string fret 7", "A, on E string fret 5"], "e": "G (E3), A (E5), B (A2)."},
+{"t": "You slide the G major shape up 2 frets. Which scale do you get?", "o": ["A major", "B major", "G♯ major", "C major"], "e": "Starting note moves from G to A (2 half steps), and the shape keeps the same step pattern."},
+{"t": "Why can one scale shape be moved to make any major scale?", "o": ["Every major scale has the same step pattern", "All scales use the same notes", "Frets are all the same width", "Only on electric guitars"], "e": "Same pattern → same distances → same shape; only the starting fret changes."},
+{"t": "What is step 4 of D major?", "o": ["G", "F♯", "A", "E"], "e": "D(1) E(2) F♯(3) G(4)."},
+{"t": "In C major, which sargam note is G?", "o": ["Pa", "Ma", "Dha", "Ga"], "e": "C D E F G = Sa Re Ga Ma Pa."}
+]},
+{"q": [
+{"t": "Using W W H W W W H, what is step 7 of E major?", "o": ["D♯", "D", "C♯", "E♭"], "e": "E F♯ G♯ A B C♯ D♯ — and it can't be E♭ because each letter is used once and E is already there."},
+{"t": "What is step 3 of B♭ major?", "o": ["D", "C", "D♭", "E♭"], "e": "B♭ + W = C, + W = D."},
+{"t": "Which scale is: E♭ F G A♭ B♭ C D E♭?", "o": ["E♭ major", "C major", "F major", "B♭ major"], "e": "Starts and ends on E♭ and follows W W H W W W H."},
+{"t": "A scale goes C D E F♯ G A B C. Why is it <strong>not</strong> C major?", "o": ["F♯ makes step 3→4 a whole step", "It has too many notes", "It doesn't end on C", "B should be B♭"], "e": "C major needs a half step at 3→4 (E → F). E → F♯ is a whole step, so the pattern is broken."},
+{"t": "How many half steps from step 1 to step 8 of a major scale?", "o": ["12", "7", "8", "14"], "e": "W W H W W W H = 2+2+1+2+2+2+1 = 12 — one octave.", "k": "2+2+1+2+2+2+1"},
+{"t": "How many half steps from step 1 to step 4?", "o": ["5", "4", "6", "3"], "e": "W W H = 2 + 2 + 1 = 5 — a perfect 4th.", "k": "2+2+1"},
+{"t": "How many half steps from step 1 to step 6?", "o": ["9", "8", "10", "7"], "e": "W W H W W = 2+2+1+2+2 = 9 — a major 6th.", "k": "2+2+1+2+2"},
+{"t": "What is the 6th note of A major?", "o": ["F♯", "F", "G♯", "E"], "e": "A B C♯ D E F♯ — step 6 is F♯."},
+{"t": "A tune in G major stops on F♯. Why does it sound unfinished?", "o": ["F♯ is step 7, a half step below home", "F♯ is out of tune", "F♯ isn't in G major", "Tunes can't end on sharps"], "e": "Step 7 leans hard towards home (G), so stopping there feels like an unanswered question."},
+{"t": "Which order of scales adds exactly one new sharp each time?", "o": ["C, G, D, A, E", "C, D, E, F, G", "C, F, B♭, E♭, A", "G, C, D, A, E"], "e": "C (0), G (1: F♯), D (2: + C♯), A (3: + G♯), E (4: + D♯). Each starts a perfect 5th above the last."}
+]}
+]
+}

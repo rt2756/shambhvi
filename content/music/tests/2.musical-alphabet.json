@@ -1,0 +1,53 @@
+{
+"title": "2. The musical alphabet",
+"tests": [
+{"q": [
+{"t": "How many letters does the musical alphabet use?", "o": ["7", "12", "26", "8"], "e": "A B C D E F G — then it starts again at A.", "k": "7"},
+{"t": "Which letter comes after G?", "o": ["A", "H", "G♯ only", "There is none"], "e": "The letters go round in a circle: after G comes A again, one octave higher. (G♯ sits between G and A, but the next <em>letter</em> is A.)"},
+{"t": "What does a sharp (♯) do to a note?", "o": ["Raises it by a half step", "Lowers it by a half step", "Makes it louder", "Makes it longer"], "e": "Sharp = one half step up."},
+{"t": "What does a flat (♭) do to a note?", "o": ["Lowers it by a half step", "Raises it by a half step", "Makes it softer", "Makes it shorter"], "e": "Flat = one half step down."},
+{"t": "How many different notes are there in one octave?", "o": ["12", "7", "8", "10"], "e": "7 letters plus 5 sharps/flats in between = 12 notes.", "k": "12"},
+{"t": "On a guitar, a half step is…", "o": ["1 fret", "2 frets", "half a fret", "12 frets"], "e": "Each fret raises the note by one half step."},
+{"t": "On a guitar, a whole step is…", "o": ["2 frets", "1 fret", "4 frets", "12 frets"], "e": "A whole step = two half steps = two frets."},
+{"t": "Which pair has <strong>no</strong> note in between?", "o": ["E and F", "C and D", "F and G", "A and B"], "e": "B–C and E–F are already a half step apart, so nothing fits in between."},
+{"t": "What is the note just above C?", "o": ["C♯", "D", "B", "C♭"], "e": "One half step above C is C♯ (also called D♭)."},
+{"t": "C♯ and D♭ are…", "o": ["the same note with two names", "two different notes", "an octave apart", "not real notes"], "e": "One half step above C and one half step below D land on the same note."}
+]},
+{"q": [
+{"t": "Which pair has no note in between?", "o": ["B and C", "G and A", "D and E", "A and B"], "e": "B–C and E–F are the two natural half steps."},
+{"t": "What is another name for G♯?", "o": ["A♭", "G♭", "F♯", "A♯"], "e": "G♯ is one step above G and one step below A, so it is also A♭."},
+{"t": "What is another name for E♭?", "o": ["D♯", "E♯", "F♭", "D♭"], "e": "One step below E is the same note as one step above D: D♯ = E♭."},
+{"t": "What is one half step above E?", "o": ["F", "E♯ (a new note)", "F♯", "D♯"], "e": "E to F is already a half step, so the next note above E is F."},
+{"t": "What is one half step above B?", "o": ["C", "B♯ (a new note)", "C♯", "A♯"], "e": "B to C is already a half step, so the next note above B is C."},
+{"t": "What is one whole step above C?", "o": ["D", "C♯", "E", "D♯"], "e": "C → C♯ (1) → D (2). Two half steps = one whole step."},
+{"t": "What is one whole step above E?", "o": ["F♯", "F", "G", "E♯"], "e": "E → F (1) → F♯ (2). Careful: E to F is only a half step."},
+{"t": "Going <strong>down</strong>, we usually name the in-between notes as…", "o": ["flats", "sharps", "naturals", "octaves"], "e": "Going down: E, E♭, D, D♭, C … Going up we use sharps."},
+{"t": "On a piano, the black keys are the…", "o": ["sharps and flats", "letters A to G", "octaves", "loud notes"], "e": "White keys are the 7 letters; black keys are the 5 sharps/flats in between."},
+{"t": "How many sharps/flats are there in one octave?", "o": ["5", "7", "12", "2"], "e": "12 notes − 7 letters = 5 in-between notes.", "k": "12-7"}
+]},
+{"q": [
+{"t": "What is 3 half steps above G?", "o": ["A♯", "A", "B", "G♯"], "e": "G → G♯ (1) → A (2) → A♯ (3)."},
+{"t": "What is 2 half steps above B?", "o": ["C♯", "C", "D", "B♯"], "e": "B → C (1) → C♯ (2). B to C is only one half step."},
+{"t": "What is 4 half steps above C?", "o": ["E", "D♯", "F", "D"], "e": "C → C♯ (1) → D (2) → D♯ (3) → E (4)."},
+{"t": "What is 2 half steps below C?", "o": ["A♯ / B♭", "B", "A", "C♭"], "e": "Going down: C → B (1) → B♭ (2). B♭ is the same note as A♯."},
+{"t": "How many half steps from E up to A?", "o": ["5", "4", "3", "6"], "e": "E → F (1) → F♯ (2) → G (3) → G♯ (4) → A (5).", "k": "5"},
+{"t": "How many half steps from A up to C?", "o": ["3", "2", "4", "5"], "e": "A → A♯ (1) → B (2) → C (3).", "k": "3"},
+{"t": "How many half steps from C up to the next C?", "o": ["12", "7", "8", "11"], "e": "One octave = all 12 notes.", "k": "12"},
+{"t": "Why is there no note between E and F?", "o": ["E–F was already a small gap when the letters were named", "Nobody has found a note there yet", "The guitar cannot play it", "F is too high to have a sharp"], "e": "The 7 letters came from an old scale where B–C and E–F were already half steps. The extra notes only fitted into the big gaps."},
+{"t": "Which of these is <strong>not</strong> a new note of its own?", "o": ["E♯", "F♯", "C♯", "G♯"], "e": "E♯ is just F, because E to F is already a half step."},
+{"t": "Each half step makes the note shake about how many times faster?", "o": ["About 1.06 times", "2 times", "12 times", "About 1.5 times"], "e": "12 half steps double the frequency, so each one is a small step of about × 1.06."}
+]},
+{"q": [
+{"t": "What is 7 half steps above C?", "o": ["G", "F", "G♯", "A"], "e": "C, C♯, D, D♯, E, F, F♯, G — the 7th step is G."},
+{"t": "What is 5 half steps above B?", "o": ["E", "D♯", "F", "E♭"], "e": "B → C (1) → C♯ (2) → D (3) → D♯ (4) → E (5)."},
+{"t": "What is 3 half steps below F?", "o": ["D", "D♯", "C♯", "E♭"], "e": "Going down: F → E (1) → E♭ (2) → D (3)."},
+{"t": "How many half steps from F up to the next C?", "o": ["7", "5", "6", "8"], "e": "F → F♯ → G → G♯ → A → A♯ → B → C: 7 steps.", "k": "7"},
+{"t": "How many half steps from G up to the next D?", "o": ["7", "5", "6", "8"], "e": "G → G♯ → A → A♯ → B → C → C♯ → D: 7 steps.", "k": "7"},
+{"t": "How many <strong>whole</strong> steps make one octave?", "o": ["6", "12", "7", "8"], "e": "12 half steps ÷ 2 = 6 whole steps.", "k": "12/2"},
+{"t": "Which group are all the <strong>same note</strong>?", "o": ["B♯, C", "E, F♭, F", "A♯, A♭", "C♯, C♭"], "e": "B♯ = one half step above B = C. (F♭ is E, not F; A♯ and A♭ are on opposite sides of A.)"},
+{"t": "Seven half steps up makes the shakes about × 1.5. Why do these two notes blend so well?", "o": ["3 shakes match 2 shakes, so they line up often", "They are the same note", "They are both on open strings", "1.5 is close to 12"], "e": "A simple ratio (3:2) means the shakes of the two notes keep lining up, which our ears hear as smooth. It is the sound of a power chord."},
+{"t": "A note is called A♯ going up. What would you call it going down?", "o": ["B♭", "A♭", "B♯", "G♯"], "e": "The note between A and B is A♯ going up and B♭ going down."},
+{"t": "Starting on E, which list climbs by half steps correctly?", "o": ["E, F, F♯, G", "E, E♯, F, F♯", "E, F♯, G, G♯", "E, F, G, G♯"], "e": "E → F is a half step (no E♯ in between), then F♯, then G."}
+]}
+]
+}

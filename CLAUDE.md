@@ -18,6 +18,11 @@ the year; fill them in one chapter at a time, matching the class-7 depth.
 classes teach it) and `content/grammar/tests/` (4 levels × 10 questions per lesson), shown on
 `grammar.html` and `grammar-tests.html`. Run `python3 tools/check_tests.py grammar` after edits.
 
+**Music** is class-free too: `content/music/notes/` (theory lessons, written for a complete-beginner
+electric guitarist), `content/music/practice/` (30-minute-a-day plan, one file per week, tick-off
+checklists) and `content/music/tests/`, shown on `music.html`, `guitar-practice.html` and
+`music-tests.html`. TAB and chord boxes go in fenced code blocks. Run `python3 tools/check_tests.py music` after edits.
+
 Source books are local and gitignored: `ncert_books/class_<N>/*.pdf` (see its `INDEX.md`).
 **Always verify a chapter list or fact against the actual book PDF** rather than recalling
 it — the 2024–26 NCERT rewrites renamed and reordered many chapters.

@@ -21,6 +21,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def lead_number(s):
     """'−3', '₹1,250', '2 3/4 m', '3/8', '12.5%' -> Fraction, else None."""
     s = re.sub(r"<[^>]+>", "", str(s)).replace("−", "-").replace("₹", "").replace(",", "").strip()
+    for glyph, frac in (("½", "1/2"), ("¼", "1/4"), ("¾", "3/4"), ("⅓", "1/3"), ("⅔", "2/3")):   # '1½' -> '1 1/2'
+        s = re.sub(r"(\d)" + glyph, r"\1 " + frac, s).replace(glyph, frac)
     m = re.match(r"^(-?\d+) (\d+)/(\d+)", s)
     if m:
         w = int(m.group(1)); f = F(int(m.group(2)), int(m.group(3)))
