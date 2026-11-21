@@ -1,0 +1,53 @@
+{
+"title": "12. Strumming patterns",
+"tests": [
+{"q": [
+{"t": "In 4/4, how many slots does the strum grid have per bar (counting 1 & 2 & …)?", "o": ["8", "4", "6", "16"], "e": "4 beats × 2 (number and &) = 8.", "k": "4*2"},
+{"t": "On which slots does the hand move down?", "o": ["The numbers", "The &s", "Only beat 1", "Only beat 4"], "e": "Down on numbers, up on &s — always."},
+{"t": "In a strum grid, what does a dot (.) mean?", "o": ["The hand moves but misses the strings", "Stop the hand completely", "Strum extra loud", "Play one string only"], "e": "The hand keeps swinging; it just doesn't touch."},
+{"t": "What is the 'everyday strum'?", "o": ["Down, down-up, up-down-up", "Down, down, down, down", "Up, up, up, up", "Down-up only on beat 1"], "e": "↓ . ↓ ↑ . ↑ ↓ ↑"},
+{"t": "An accent (>) means…", "o": ["strum louder", "strum softer", "skip that strum", "palm mute"], "e": "Accents are the strums you hit harder."},
+{"t": "The backbeat is on beats…", "o": ["2 and 4", "1 and 3", "1 only", "3 and 4"], "e": "The snare drum in rock and pop lands on 2 and 4."},
+{"t": "What does PM mean?", "o": ["Palm mute", "Pick more", "Play melody", "Pause music"], "e": "Rest the side of the picking hand on the strings by the bridge."},
+{"t": "What is a 'chuck'?", "o": ["A dry percussive strum on muted strings", "A very loud chord", "A bend on one string", "A slide up the neck"], "e": "Fretting fingers lie lightly on the strings — strum gives a 'chk' like a snare."},
+{"t": "Which strum fits 3/4 time?", "o": ["↓ . ↓ ↑ ↓ ↑", "↓ . ↓ ↑ . ↑ ↓ ↑", "↓ ↑ ↓ ↑ ↓ ↑ ↓ ↑", "↓ ↓ ↓ ↓"], "e": "Only 3 beats (6 slots): 1, 2 &, 3 &."},
+{"t": "What's the first step to learn a new pattern?", "o": ["Say it while clapping the beat", "Play it fast", "Add distortion", "Play it with three chords"], "e": "Say it, then mute and strum, then add one chord, then the changes."}
+]},
+{"q": [
+{"t": "Why does the hand keep moving on missed strums?", "o": ["To keep the timing steady", "To warm up", "To make the strings louder", "It doesn't — it stops"], "e": "A hand that never stops is a clock: each strum lands in the right place."},
+{"t": "In the everyday strum, which beat is missed?", "o": ["Beat 3", "Beat 1", "Beat 2", "Beat 4"], "e": "↓ . ↓ ↑ . ↑ ↓ ↑ — the down on 3 is skipped."},
+{"t": "Missing a strong beat and playing around it is called…", "o": ["syncopation", "an accent", "a palm mute", "a tempo"], "e": "Syncopation — the surprise makes the rhythm dance."},
+{"t": "Why are up-strums usually lighter?", "o": ["They catch only the top 3–4 strings", "They are always muted", "They use a different pick", "They are on the bass strings"], "e": "Strong downs + light ups = bounce."},
+{"t": "Why accent beats 2 and 4 in rock?", "o": ["To lock in with the snare drum", "Because beat 1 is silent", "To slow the song down", "To tune the guitar"], "e": "The backbeat matches the snare, and it balances the naturally strong beat 1."},
+{"t": "Why mute the strings when first learning a pattern?", "o": ["So you focus only on rhythm", "Muted strings are easier to tune", "It makes the pattern faster", "Chords don't work with patterns"], "e": "Taking chords away leaves just one thing to learn: the rhythm."},
+{"t": "Why does palm muting sound 'chunky'?", "o": ["The palm stops ringing and soaks up high overtones", "It makes the notes higher", "It adds distortion", "It plays more strings"], "e": "Short, low, punchy notes — the rock rhythm sound."},
+{"t": "Palm-muted power chord chugs are usually played with…", "o": ["all down-strokes", "all up-strokes", "only up-strums", "fingers, not a pick"], "e": "Downs hit the low strings harder and more evenly."},
+{"t": "How many bars of the everyday strum fit in one cycle of Keherwa (8 beats)?", "o": ["2", "1", "4", "8"], "e": "Keherwa = 8 beats = two bars of 4/4.", "k": "8/4"},
+{"t": "Your palm mute gives a dead thud with no note. What should you do?", "o": ["Slide the palm back toward the bridge", "Press the palm harder", "Turn up the gain", "Strum upward"], "e": "Too far onto the strings kills the pitch. Move back until the note just comes through."}
+]},
+{"q": [
+{"t": "Write the everyday strum on the 8-slot grid (1 & 2 & 3 & 4 &).", "o": ["↓ . ↓ ↑ . ↑ ↓ ↑", "↓ ↑ ↓ ↑ ↓ ↑ ↓ ↑", "↓ . ↓ ↑ ↓ . ↓ ↑", "↓ . ↓ . ↓ . ↓ ."], "e": "Down, down-up, (miss) up-down-up."},
+{"t": "Pattern ↓ . ↓ ↑ ↓ . ↓ ↑ has how many strums that touch the strings?", "o": ["6", "8", "4", "5"], "e": "Two dots out of 8 slots, so 6 strums.", "k": "8-2"},
+{"t": "The everyday strum (↓ . ↓ ↑ . ↑ ↓ ↑) has how many up-strums?", "o": ["3", "2", "4", "1"], "e": "Up on 2&, 3&, 4&.", "k": "3"},
+{"t": "In the everyday strum, the 'up' just after the missed beat 3 is on…", "o": ["3&", "4", "2&", "4&"], "e": "1 ↓, 2 ↓, 2& ↑, 3 miss, 3& ↑, 4 ↓, 4& ↑."},
+{"t": "A 3/4 waltz strum has how many slots per bar?", "o": ["6", "8", "3", "4"], "e": "3 beats × 2 = 6.", "k": "3*2"},
+{"t": "Where do chucks usually go?", "o": ["Beats 2 and 4", "Beats 1 and 3", "Every &", "Only beat 1"], "e": "A chuck on 2 and 4 plays the backbeat — the guitar becomes the drum."},
+{"t": "What do your fretting fingers do for a chuck?", "o": ["Lie lightly on the strings without pressing", "Press a full chord hard", "Lift completely off", "Bend a string"], "e": "Light touch mutes the strings, so the strum is a dry 'chk'."},
+{"t": "Why does every pattern fit the same down-up grid?", "o": ["The hand is a pendulum: down on numbers, up on &s", "All songs use the same pattern", "Up-strums are not allowed on numbers", "Grids are only for beginners"], "e": "Once the motion is automatic, a new pattern is just a new choice of where to touch."},
+{"t": "Why does starting at 60 BPM and adding 5 at a time work?", "o": ["Fingers learn what is repeated correctly", "Fast first is always better", "60 BPM is the only real tempo", "Metronomes stop above 65"], "e": "Repeat it right slowly; speed comes from accurate repetition."},
+{"t": "You speed up the everyday strum but it keeps falling apart on beat 3. Best fix?", "o": ["Slow down 5 BPM and keep the hand swinging", "Stop the hand on beat 3", "Strum beat 3 anyway", "Switch to all down-strums"], "e": "The hand must keep swinging through the miss; go slower until it's steady."}
+]},
+{"q": [
+{"t": "At 80 BPM in 4/4, how many strum-grid slots pass in one minute?", "o": ["160", "80", "320", "40"], "e": "80 beats × 2 slots = 160.", "k": "80*2"},
+{"t": "At 60 BPM, how long is one slot of the 8-slot grid?", "o": ["½ second", "1 second", "¼ second", "2 seconds"], "e": "One beat = 1 s; each beat has 2 slots, so ½ s each."},
+{"t": "Which pattern has a strum on every slot?", "o": ["↓ ↑ ↓ ↑ ↓ ↑ ↓ ↑", "↓ . ↓ ↑ . ↑ ↓ ↑", "↓ . ↓ . ↓ . ↓ .", "↓ . ↓ ↑ ↓ . ↓ ↑"], "e": "All 8 slots touched — straight eighth notes."},
+{"t": "In ↓ . x ↑ ↓ . x ↑, what happens on beats 2 and 4?", "o": ["A chuck (muted strum)", "A full chord", "Nothing", "An up-strum"], "e": "x = chuck, landing on the backbeat."},
+{"t": "Which pattern is the same as the Week 4 'down, down-up'?", "o": ["↓ . ↓ ↑ ↓ . ↓ ↑", "↓ . ↓ ↑ . ↑ ↓ ↑", "↓ ↑ ↓ ↑ ↓ ↑ ↓ ↑", "↓ . ↓ . ↓ . ↓ ."], "e": "1 (↓), 2 (↓) & (↑), 3 (↓), 4 (↓) & (↑)."},
+{"t": "Why are palm-muted chugs sometimes switched to down-up at high speed?", "o": ["All-downs can't keep up when it's very fast", "Up-strums are louder", "Palm muting needs up-strums", "Down-strums go out of tune"], "e": "Downs give the heaviest sound, but alternate picking doubles how fast you can go."},
+{"t": "A pattern has accents on the & slots instead of the numbers. What effect does that have?", "o": ["It sounds syncopated and off-beat", "It sounds exactly like the backbeat", "It slows the tempo", "It makes the chord minor"], "e": "Stressing between the beats is syncopation — a jumpy, off-beat feel."},
+{"t": "In the everyday strum, how many down-strums touch the strings?", "o": ["3", "4", "2", "5"], "e": "Beats 1, 2 and 4 (beat 3 is missed).", "k": "3"},
+{"t": "You play the waltz strum (↓ . ↓ ↑ ↓ ↑) at 90 BPM. How many seconds is one bar?", "o": ["2", "3", "1½", "1"], "e": "3 beats × (60 ÷ 90) s = 3 × ⅔ = 2 seconds.", "k": "3*F(60,90)"},
+{"t": "Why is syncopation exciting to listen to?", "o": ["It breaks the expected pattern, so the off-beats stand out", "It is always louder", "It uses more strings", "It speeds up the song"], "e": "Your ear expects strong beats; when one is skipped, the notes around it pop out."}
+]}
+]
+}

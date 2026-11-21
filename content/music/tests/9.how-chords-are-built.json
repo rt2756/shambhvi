@@ -1,0 +1,53 @@
+{
+"title": "9. How chords are built",
+"tests": [
+{"q": [
+{"t": "What is a chord?", "o": ["Three or more different notes played together", "One note played loudly", "Two notes played one after another", "A note held for a long time"], "e": "A chord is several different notes sounding at once. Three notes = a triad."},
+{"t": "A triad has how many different notes?", "o": ["3", "2", "4", "6"], "e": "Tri = three.", "k": "3"},
+{"t": "A power chord is made of…", "o": ["the root and the perfect 5th", "the root and the major 3rd", "three notes a half step apart", "all six open strings"], "e": "Root + 5th — no 3rd. Written with a 5, like G5."},
+{"t": "How is a power chord written?", "o": ["With a 5, like E5", "With an m, like Em", "With a 7, like E7", "With a ♯, like E♯"], "e": "The 5 stands for the 5th — the only note added to the root."},
+{"t": "In a major or minor chord, which note decides the mood?", "o": ["The 3rd", "The root", "The 5th", "The octave"], "e": "Major 3rd → bright; minor 3rd → sad. The root and 5th are the same in both."},
+{"t": "What does <strong>Am</strong> mean?", "o": ["A minor", "A major", "A power chord", "A seventh"], "e": "Small m = minor."},
+{"t": "What does a chord name with <strong>just a letter</strong>, like G, mean?", "o": ["G major", "G minor", "G power chord", "G note only"], "e": "A letter on its own means a major chord."},
+{"t": "What are the notes of C major?", "o": ["C E G", "C E♭ G", "C D E", "C F G"], "e": "Steps 1, 3, 5 of the C major scale."},
+{"t": "Which chords are used most in rock with distortion?", "o": ["Power chords", "Minor chords only", "Diminished chords", "Open G chords"], "e": "Power chords stay clear under distortion because of the simple 3 : 2 ratio."},
+{"t": "Em is played on six strings. How many <strong>different</strong> notes does it have?", "o": ["3", "6", "2", "4"], "e": "E, G and B — the others are the same notes in other octaves.", "k": "3"}
+]},
+{"q": [
+{"t": "A major triad stacks which half steps?", "o": ["4 then 3", "3 then 4", "4 then 4", "3 then 3"], "e": "Root → major 3rd (4) → 5th (3 more) = 7."},
+{"t": "A minor triad stacks which half steps?", "o": ["3 then 4", "4 then 3", "3 then 3", "5 then 2"], "e": "Root → minor 3rd (3) → 5th (4 more) = 7."},
+{"t": "What are the notes of A minor?", "o": ["A C E", "A C♯ E", "A D E", "A B C"], "e": "A, +3 = C, +4 = E."},
+{"t": "What are the notes of A major?", "o": ["A C♯ E", "A C E", "A D F♯", "A B C♯"], "e": "A, +4 = C♯, +3 = E."},
+{"t": "What are the notes of G major?", "o": ["G B D", "G B♭ D", "G C D", "G A B"], "e": "G, +4 = B, +3 = D."},
+{"t": "What are the notes of E minor?", "o": ["E G B", "E G♯ B", "E A B", "E F♯ G"], "e": "E, +3 = G, +4 = B."},
+{"t": "E and Em differ only on the G string. Why?", "o": ["That string carries the 3rd", "That string is the root", "That string is out of tune", "The G string is the loudest"], "e": "G (minor 3rd) vs G♯ (major 3rd) — the 3rd is the one note that changes."},
+{"t": "Which shape plays a power chord with the root on the low E string?", "o": ["A string, 2 frets higher than the root", "Same fret on the A string", "D string, same fret", "A string, 2 frets lower"], "e": "The perfect-5th shape: next string up, 2 frets higher."},
+{"t": "Why is a power chord called 'neither major nor minor'?", "o": ["It has no 3rd", "It has two 3rds", "It is too loud to tell", "It uses open strings"], "e": "The 3rd decides major or minor — a power chord leaves it out."},
+{"t": "Cm and CM mean…", "o": ["C minor and C major", "the same chord", "C major and C minor", "two power chords"], "e": "Small m = minor; capital M = major. Read carefully!"}
+]},
+{"q": [
+{"t": "What are the notes of D major?", "o": ["D F♯ A", "D F A", "D G A", "D E F♯"], "e": "D, +4 = F♯, +3 = A."},
+{"t": "What are the notes of D minor?", "o": ["D F A", "D F♯ A", "D G B♭", "D E F"], "e": "D, +3 = F, +4 = A."},
+{"t": "What are the notes of F major?", "o": ["F A C", "F A♭ C", "F G A", "F B♭ C"], "e": "F, +4 = A, +3 = C."},
+{"t": "What are the notes of E major?", "o": ["E G♯ B", "E G B", "E A B", "E G♯ C"], "e": "E, +4 = G♯, +3 = B."},
+{"t": "Which power chord has its root at fret 3 of the low E string?", "o": ["G5", "F5", "A5", "C5"], "e": "Low E fret 3 = G, so G5 (G + D)."},
+{"t": "Which power chord has its root at fret 5 of the low E string?", "o": ["A5", "G5", "B5", "D5"], "e": "Low E fret 5 = A, so A5 (A + E)."},
+{"t": "What two notes make G5?", "o": ["G and D", "G and B", "G and C", "G and E"], "e": "Root G + perfect 5th (7 half steps up) = D."},
+{"t": "Why does a power chord stay clear under distortion?", "o": ["Its 3 : 2 ratio keeps the overtones lined up", "It uses thicker strings", "Distortion skips power chords", "It is quieter than other chords"], "e": "Distortion adds many overtones; with a simple ratio they still line up, so no mud."},
+{"t": "Why does a major chord tend to sound bright?", "o": ["Its major 3rd matches the root's own overtones", "It is always louder", "It uses more strings", "It is higher in pitch"], "e": "One strong overtone of every note is a major 3rd above — a major chord agrees with it. (Habit plays a part too.)"},
+{"t": "Why do guitar chords repeat some notes?", "o": ["Doubling makes the chord fuller, not different", "To make it a different chord", "Because there are only 3 strings", "To make it minor"], "e": "Repeating notes in other octaves adds weight — the chord name depends only on the set of note names."}
+]},
+{"q": [
+{"t": "What are the notes of B minor?", "o": ["B D F♯", "B D♯ F♯", "B D F", "B C♯ D"], "e": "B, +3 = D, +4 = F♯."},
+{"t": "What are the notes of C minor?", "o": ["C E♭ G", "C E G", "C E♭ G♭", "C D G"], "e": "C, +3 = E♭, +4 = G."},
+{"t": "What are the notes of B major?", "o": ["B D♯ F♯", "B D F♯", "B D♯ F", "B C♯ D♯"], "e": "B, +4 = D♯, +3 = F♯."},
+{"t": "Which chord is A C E?", "o": ["A minor", "C major", "A major", "E minor"], "e": "Root A, A → C = 3 (minor 3rd), A → E = 7. A minor."},
+{"t": "Which chord is D F♯ A?", "o": ["D major", "D minor", "F♯ minor", "A major"], "e": "Root D, D → F♯ = 4 (major 3rd), D → A = 7. D major."},
+{"t": "Which chord is G B♭ D?", "o": ["G minor", "G major", "B♭ major", "D minor"], "e": "G → B♭ = 3 (minor 3rd), G → D = 7. G minor."},
+{"t": "You change C E G into C E♭ G. What has happened?", "o": ["Major became minor", "Minor became major", "It became a power chord", "Nothing — same chord"], "e": "Lowering the 3rd by a half step turns major into minor."},
+{"t": "A power chord with the root on the A string at fret 3 is…", "o": ["C5", "B5", "D5", "G5"], "e": "A string fret 3 = C. So C5 (C + G)."},
+{"t": "In the open D chord (x x 0 2 3 2), which string carries the 3rd (F♯)?", "o": ["High e", "B string", "G string", "D string"], "e": "D string = D, G string fret 2 = A, B string fret 3 = D, high e fret 2 = F♯."},
+{"t": "Using steps 1-3-5 of the D major scale (D E F♯ G A B C♯), the D chord is…", "o": ["D F♯ A", "D E F♯", "D G B", "D F A"], "e": "Steps 1, 3, 5 = D, F♯, A."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "11. Keys & chord families",
+"tests": [
+{"q": [
+{"t": "What is a song's <em>key</em>?", "o": ["Its home scale", "Its speed", "Its loudest chord", "Its time signature"], "e": "A song in G mostly uses the notes of the G major scale, with G as home."},
+{"t": "In Roman numerals, a <strong>capital</strong> numeral (like IV) means…", "o": ["a major chord", "a minor chord", "a power chord", "a loud chord"], "e": "Capitals = major; small (like vi) = minor."},
+{"t": "In the key of C, what is the I chord?", "o": ["C", "G", "F", "Am"], "e": "I is built on step 1 — the home chord."},
+{"t": "In the key of C, what is the V chord?", "o": ["G", "F", "Am", "Dm"], "e": "Step 5 of C major is G."},
+{"t": "In the key of C, what is the IV chord?", "o": ["F", "G", "Em", "Dm"], "e": "Step 4 of C major is F."},
+{"t": "In the key of G, what is the I chord?", "o": ["G", "C", "D", "Em"], "e": "Home in G is G."},
+{"t": "Which chord feels like 'home'?", "o": ["I", "IV", "V", "vi"], "e": "I is the tonic chord — resting, finished."},
+{"t": "Which chord creates tension that wants to go home?", "o": ["V", "I", "vi", "iii"], "e": "V contains step 7, a half step below home, so it pulls back to I."},
+{"t": "Which key is easiest for beginners because its main chords are all open chords?", "o": ["G", "F", "B♭", "E♭"], "e": "G, Am, C, D, Em — all open chords."},
+{"t": "The I – V – vi – IV progression in G is…", "o": ["G D Em C", "G C D G", "G Em C D", "Em C G D"], "e": "I = G, V = D, vi = Em, IV = C."}
+]},
+{"q": [
+{"t": "What is the pattern of chords in every major key?", "o": ["Major, minor, minor, Major, Major, minor, dim", "Major, Major, minor, minor, Major, minor, dim", "minor, Major, Major, minor, minor, Major, dim", "All major"], "e": "I ii iii IV V vi vii°."},
+{"t": "In the key of C, what is the vi chord?", "o": ["Am", "A", "Em", "Dm"], "e": "Step 6 is A; using only C-scale notes gives A C E = A minor."},
+{"t": "In the key of C, what is the ii chord?", "o": ["Dm", "D", "Em", "F"], "e": "D F A — D minor."},
+{"t": "In the key of G, what is the IV chord?", "o": ["C", "D", "Am", "Em"], "e": "G A B C — step 4 is C."},
+{"t": "In the key of G, what is the V chord?", "o": ["D", "C", "Em", "Bm"], "e": "Step 5 of G major is D."},
+{"t": "In the key of G, what is the vi chord?", "o": ["Em", "Am", "E", "Bm"], "e": "Step 6 of G is E; E G B = E minor."},
+{"t": "The I – IV – V chords in the key of A are…", "o": ["A D E", "A C E", "A D G", "A B E"], "e": "A(1) B C♯ D(4) E(5)."},
+{"t": "What is the relative minor of C major?", "o": ["A minor", "C minor", "E minor", "D minor"], "e": "The vi chord. Am uses the same notes as C major."},
+{"t": "What is the relative minor of G major?", "o": ["E minor", "G minor", "A minor", "B minor"], "e": "vi of G is Em."},
+{"t": "Why can a few chords be shared by thousands of songs?", "o": ["Melody, rhythm and words make each song different", "Most songs are copies", "There are only four chords in music", "Chords don't matter in songs"], "e": "The chords are the floor; what's built on top makes each song unique."}
+]},
+{"q": [
+{"t": "In the key of D, what are I, IV and V?", "o": ["D G A", "D F♯ A", "D E A", "D G B"], "e": "D(1) E F♯ G(4) A(5)."},
+{"t": "In the key of D, what is the vi chord?", "o": ["Bm", "B", "F♯m", "Em"], "e": "Step 6 of D major is B; B D F♯ = B minor."},
+{"t": "In the key of E, what is the V chord?", "o": ["B", "A", "C♯m", "G♯m"], "e": "E F♯ G♯ A B — step 5 is B."},
+{"t": "In the key of A, what is the vi chord?", "o": ["F♯m", "F♯", "E", "Bm"], "e": "A B C♯ D E F♯ — step 6 is F♯, which makes a minor chord."},
+{"t": "Why is the ii chord in C (D F A) minor?", "o": ["D → F is only 3 half steps", "D → F is 4 half steps", "D is a minor note", "Because it's on step 2"], "e": "Using only C-scale notes, D to F is a minor 3rd."},
+{"t": "Why is the V chord in C (G B D) major?", "o": ["G → B is 4 half steps", "G → B is 3 half steps", "G is always major", "Because it is loud"], "e": "G to B is a major 3rd, so the chord is major."},
+{"t": "Why does V pull back to I?", "o": ["V contains step 7, a half step below home", "V is louder than I", "V is always the last chord", "V has no 3rd"], "e": "In C, G contains B; B leans into C, so G → C sounds like coming home."},
+{"t": "A song uses G, C, D and Em and ends on G. What key is it most likely in?", "o": ["G", "C", "D", "E minor"], "e": "All four chords are in the G family, and it ends on G."},
+{"t": "A song uses A, D, E and F♯m. What key is it most likely in?", "o": ["A", "D", "E", "F♯ minor"], "e": "All are in the A family: I, IV, V, vi."},
+{"t": "G – D – Em – C and Em – C – G – D use the same chords. Why do they feel different?", "o": ["Different starting chord sets a different 'home'", "They are in different keys", "One is faster", "One is louder"], "e": "Starting on G (major) feels bright; starting on Em (relative minor) feels sad."}
+]},
+{"q": [
+{"t": "Using only C-scale notes, the chord built on B is B D F. Why is it 'diminished'?", "o": ["B → F is 6 half steps, not 7", "B → D is a major 3rd", "B is not in C major", "It has four notes"], "e": "A normal 5th is 7 half steps; B → F is only 6, so the 5th is 'diminished' (made smaller)."},
+{"t": "In the key of F (F G A B♭ C D E), what is the IV chord?", "o": ["B♭", "B", "C", "Dm"], "e": "Step 4 of F major is B♭."},
+{"t": "In the key of F, what is the V chord?", "o": ["C", "B♭", "G", "Am"], "e": "Step 5 of F major is C."},
+{"t": "In the key of E, what is the iii chord?", "o": ["G♯m", "G♯", "F♯m", "C♯m"], "e": "E F♯ G♯ — step 3 is G♯, which makes a minor chord."},
+{"t": "Which chord is <strong>not</strong> in the key of G?", "o": ["F", "Am", "Em", "C"], "e": "G major has F♯, not F, so an F chord doesn't belong."},
+{"t": "Which chord is <strong>not</strong> in the key of C?", "o": ["D", "Dm", "F", "Am"], "e": "D major needs F♯, which isn't in C major. Dm (D F A) is the ii chord."},
+{"t": "Am is the relative minor of C. Which scale has the same notes as C major but starts on A?", "o": ["A minor", "A major", "C minor", "E minor"], "e": "A B C D E F G A — the natural minor scale on A."},
+{"t": "What is the relative minor of D major?", "o": ["B minor", "D minor", "F♯ minor", "E minor"], "e": "vi of D is Bm (D E F♯ G A B)."},
+{"t": "What is the relative <strong>major</strong> of E minor?", "o": ["G major", "E major", "C major", "B major"], "e": "Em is the vi of G, so G is its relative major."},
+{"t": "A song in C stops on G and feels unfinished. Which chord would finish it?", "o": ["C", "F", "Am", "Dm"], "e": "G is V in C; it resolves to I — C."}
+]}
+]
+}

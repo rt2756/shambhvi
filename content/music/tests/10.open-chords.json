@@ -1,0 +1,53 @@
+{
+"title": "10. Open chords",
+"tests": [
+{"q": [
+{"t": "What is an open chord?", "o": ["A chord that uses some open strings", "A chord with no fingers at all", "A chord played very loudly", "A power chord"], "e": "Open chords sit in the first frets and let some strings ring open."},
+{"t": "Em in TAB (low E → high e) is…", "o": ["0 2 2 0 0 0", "0 2 2 1 0 0", "x 0 2 2 1 0", "3 2 0 0 0 3"], "e": "Fingers on the A and D strings at fret 2."},
+{"t": "E major in TAB (low E → high e) is…", "o": ["0 2 2 1 0 0", "0 2 2 0 0 0", "x 0 2 2 2 0", "0 0 2 2 1 0"], "e": "Like Em plus finger 1 on G string fret 1."},
+{"t": "From which string do you strum the D chord?", "o": ["The D string", "The low E string", "The A string", "The B string"], "e": "D's root is the open D string — strum the top four strings."},
+{"t": "From which string do you strum the C chord?", "o": ["The A string", "The low E string", "The D string", "The G string"], "e": "C's root is at fret 3 of the A string."},
+{"t": "Which chord is played x 0 2 2 1 0?", "o": ["Am", "A", "C", "Dm"], "e": "A open, D 2, G 2, B 1, high e open = A C E = A minor."},
+{"t": "Which chord is played x 0 2 2 2 0?", "o": ["A", "Am", "D", "E"], "e": "Three fingers at fret 2 on D, G and B = A major."},
+{"t": "Which chord is played 3 2 0 0 0 3?", "o": ["G", "C", "Em", "D"], "e": "Low E fret 3 = G, A fret 2 = B, high e fret 3 = G → G major."},
+{"t": "How many strings do you strum for E, Em and G?", "o": ["All six", "Five", "Four", "Three"], "e": "Their roots are on the low E string, so all six ring."},
+{"t": "Which pair differ by only <strong>one finger moving one fret</strong>?", "o": ["E and Em", "G and C", "A and D", "C and D"], "e": "Em → E: just add finger 1 on the G string, fret 1."}
+]},
+{"q": [
+{"t": "Which chord is played x x 0 2 3 2?", "o": ["D", "Dm", "G", "A"], "e": "D, A, D, F♯ = D major."},
+{"t": "Which chord is played x x 0 2 3 1?", "o": ["Dm", "D", "Am", "F"], "e": "D, A, D, F = D minor."},
+{"t": "Which chord is played x 3 2 0 1 0?", "o": ["C", "Am", "G", "F"], "e": "C, E, G, C, E = C major."},
+{"t": "A and Am differ on which string?", "o": ["B string", "G string", "D string", "High e string"], "e": "B string fret 2 = C♯ (A major); fret 1 = C (A minor)."},
+{"t": "D and Dm differ on which string?", "o": ["High e string", "B string", "G string", "D string"], "e": "High e fret 2 = F♯ (D major); fret 1 = F (D minor)."},
+{"t": "In every major/minor pair (E/Em, A/Am, D/Dm), the note that changes is the…", "o": ["3rd", "root", "5th", "octave"], "e": "Major 3rd ↔ minor 3rd. Everything else stays."},
+{"t": "Changing C ↔ Am, which fingers can stay down?", "o": ["Fingers 1 and 2", "Fingers 2 and 3", "Only finger 3", "None of them"], "e": "Finger 1 (B fret 1) and finger 2 (D fret 2) are in both. Only finger 3 moves."},
+{"t": "Why should the low E string be left out of the D chord?", "o": ["It would put a non-root note at the bottom", "It is out of tune in D", "It is too quiet", "D has no E string"], "e": "A chord sounds steadiest with its root as the lowest note. D's root is the D string."},
+{"t": "Why look for fingers that can stay down when changing chords?", "o": ["Fewer moving fingers = faster changes", "It makes chords louder", "It tunes the guitar", "It's needed for distortion"], "e": "Each finger that stays is one less thing to place in time."},
+{"t": "Am and E use the same finger shape. How?", "o": ["E is the Am shape moved one string over", "E is Am played one fret higher", "They use different fingers", "E is Am with an extra finger"], "e": "Move the whole Am shape one string toward the thick strings and you have E."}
+]},
+{"q": [
+{"t": "What notes are in the open G chord (3 2 0 0 0 3)?", "o": ["G B D", "G C E", "G B E", "G A D"], "e": "G, B, D, G, B, G — only three note names."},
+{"t": "What notes are in the open C chord (x 3 2 0 1 0)?", "o": ["C E G", "C F A", "C E A", "C D G"], "e": "C, E, G, C, E."},
+{"t": "What note does the A string play in the G chord (fret 2)?", "o": ["B", "A♯", "C", "C♯"], "e": "A → A♯ (1) → B (2). B is the 3rd of G."},
+{"t": "What note does the B string play in the C chord (fret 1)?", "o": ["C", "B", "C♯", "D"], "e": "B → C at fret 1 — the root again."},
+{"t": "What note does the D string play in the C chord (fret 2)?", "o": ["E", "D♯", "F", "E♭"], "e": "D → D♯ → E. E is the 3rd of C."},
+{"t": "What is the lowest note of the C chord?", "o": ["C (A string fret 3)", "E (open low E)", "G (open G)", "A (open A)"], "e": "The low E is not played, so the lowest note is C on the A string."},
+{"t": "In the A chord, the high e string is open. Which chord note is it?", "o": ["E — the 5th", "A — the root", "C♯ — the 3rd", "It's not a chord note"], "e": "A major = A C♯ E. E is the 5th."},
+{"t": "In the D chord, which string plays the 5th (A)?", "o": ["G string, fret 2", "B string, fret 3", "High e, fret 2", "D string, open"], "e": "G → G♯ → A at fret 2."},
+{"t": "Why is the 'x' over the low E in Am?", "o": ["E is not the root — A should be lowest", "E is not in the Am chord", "The low E is too loud", "Am has only four notes"], "e": "E is in Am (A C E), but as the lowest note it makes the chord unsteady. Starting on the A root sounds solid."},
+{"t": "Your C chord has a dead high e string. What is the most likely cause?", "o": ["Finger 1 is lying on it", "The high e is out of tune", "You strummed from the A string", "The amp gain is too low"], "e": "Finger 1 on the B string often touches the high e. Arch it so it lands on its tip."}
+]},
+{"q": [
+{"t": "Which open chord has its root on the D string?", "o": ["D", "A", "C", "E"], "e": "The open D string is the root of D and Dm."},
+{"t": "Which open chord has its root on the A string at fret 3?", "o": ["C", "A", "Am", "G"], "e": "A string fret 3 = C."},
+{"t": "Which of these chords contains the note G♯?", "o": ["E", "Em", "G", "C"], "e": "E major = E G♯ B."},
+{"t": "Which of these chords contains the note F♯?", "o": ["D", "Dm", "C", "Am"], "e": "D major = D F♯ A."},
+{"t": "Which of these chords contains the note B?", "o": ["G", "C", "Dm", "A"], "e": "G = G B D. (C = C E G, Dm = D F A, A = A C♯ E — no B.)"},
+{"t": "G (G B D) and Em (E G B) share which notes?", "o": ["G and B", "G and D", "E and B", "B and D"], "e": "Two notes in common — that's why G and Em sound close and swap well."},
+{"t": "C (C E G) and Am (A C E) share which notes?", "o": ["C and E", "A and G", "C and G", "E and A"], "e": "Two shared notes — and the fingers for them (1 and 2) stay down when you change."},
+{"t": "You play D but it sounds muddy with a low E in it. What happened?", "o": ["The low E string rang", "The high e is out of tune", "Finger 3 is on fret 2", "D doesn't use the B string"], "e": "The open low E isn't the root of D. Start the strum on the D string or mute the low E with your thumb."},
+{"t": "Which chord change needs <strong>only one finger</strong> to move?", "o": ["C ↔ Am", "G ↔ C", "A ↔ D", "D ↔ E"], "e": "C ↔ Am: fingers 1 and 2 stay; only finger 3 moves."},
+{"t": "Why does A minor sound sadder than A major, though they look almost the same?", "o": ["Its 3rd is a half step lower (C instead of C♯)", "It uses fewer strings", "It is played on lower frets", "It has no root"], "e": "A minor 3rd (3 half steps) instead of a major 3rd (4) — the whole difference in mood."}
+]}
+]
+}
