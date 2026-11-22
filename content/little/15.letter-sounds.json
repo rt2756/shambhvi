@@ -1,0 +1,203 @@
+{
+ "title": "Letter sounds",
+ "emoji": "🗣️",
+ "group": "words",
+ "parent": [
+  {
+   "learn": "Each letter has a name and a sound: the letter B is called “bee” but says /b/.",
+   "why": "We read by sounds, not names. c-a-t read by names is “see-ay-tee”; read by sounds it is /k/-/a/-/t/ — “cat”."
+  },
+  {
+   "learn": "Hear the first sound of a word: “ball” starts with /b/.",
+   "why": "Picking out the first sound is the first step to spelling and reading a whole word."
+  },
+  {
+   "learn": "Then the last sound, then the middle.",
+   "why": "The middle (a vowel) is the hardest to hear; the child is ready for it once first and last sounds are easy."
+  },
+  {
+   "learn": "Say words slowly, stretching them: “ssss-uuuu-nnnn”.",
+   "why": "Stretching makes each sound separate, so the child can hear all of them."
+  }
+ ],
+ "ask": [
+  "What sound does your name start with?",
+  "I spy with my little eye something starting with /m/…",
+  "Find three things in the kitchen that start with /p/.",
+  "What is the last sound in “cat”?",
+  "Say “sun” slowly, stretching each sound.",
+  "Does “dog” start with /d/ or /b/?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "Which picture starts with the sound of b?",
+    "o": [
+     "🏀 ball",
+     "🐱 cat",
+     "🐟 fish",
+     "🍎 apple"
+    ],
+    "h": "Say them: b-b-ball. Ball starts with /b/."
+   },
+   {
+    "t": "Which picture starts with the sound of c, like in cat?",
+    "o": [
+     "🚗 car",
+     "🐶 dog",
+     "🐟 fish",
+     "☀️ sun"
+    ],
+    "h": "c-c-car. Car starts with the same sound as cat."
+   },
+   {
+    "t": "Which picture starts with the sound of s?",
+    "o": [
+     "☀️ sun",
+     "🐶 dog",
+     "🍌 banana",
+     "🐐 goat"
+    ],
+    "h": "sss-sun. Sun starts with /s/."
+   },
+   {
+    "t": "Which picture starts with the sound of m?",
+    "o": [
+     "🐒 monkey",
+     "🐯 tiger",
+     "🍌 banana",
+     "🦆 duck"
+    ],
+    "h": "mmm-monkey. Monkey starts with /m/."
+   },
+   {
+    "t": "Which picture starts with the sound of t?",
+    "o": [
+     "🐯 tiger",
+     "🦁 lion",
+     "🐸 frog",
+     "🐻 bear"
+    ],
+    "h": "t-t-tiger. Tiger starts with /t/."
+   }
+  ],
+  [
+   {
+    "t": "Apple starts with which letter?",
+    "p": "🍎",
+    "o": [
+     "a",
+     "e",
+     "p",
+     "b"
+    ],
+    "h": "a-a-apple. The first sound is /a/.",
+    "x": true
+   },
+   {
+    "t": "Fish starts with which letter?",
+    "p": "🐟",
+    "o": [
+     "f",
+     "s",
+     "h",
+     "v"
+    ],
+    "h": "fff-fish. The first sound is /f/.",
+    "x": true
+   },
+   {
+    "t": "Lion starts with which letter?",
+    "p": "🦁",
+    "o": [
+     "l",
+     "n",
+     "i",
+     "r"
+    ],
+    "h": "lll-lion. The first sound is /l/.",
+    "x": true
+   },
+   {
+    "t": "Egg starts with which letter?",
+    "p": "🥚",
+    "o": [
+     "e",
+     "a",
+     "g",
+     "i"
+    ],
+    "h": "e-e-egg. The first sound is /e/.",
+    "x": true
+   },
+   {
+    "t": "Goat starts with which letter?",
+    "p": "🐐",
+    "o": [
+     "g",
+     "j",
+     "q",
+     "t"
+    ],
+    "h": "g-g-goat. The first sound is /g/.",
+    "x": true
+   }
+  ],
+  [
+   {
+    "t": "Which word starts with the same sound as dog?",
+    "p": "🐶",
+    "o": [
+     "🦆 duck",
+     "🐮 cow",
+     "🐷 pig",
+     "🐱 cat"
+    ],
+    "h": "d-d-dog, d-d-duck: both start with /d/."
+   },
+   {
+    "t": "Which word starts with the same sound as snake?",
+    "p": "🐍",
+    "o": [
+     "⭐ star",
+     "🌙 moon",
+     "🐝 bee",
+     "🍞 bread"
+    ],
+    "h": "sss-snake, sss-star: both start with /s/."
+   },
+   {
+    "t": "Which word ends with the sound t?",
+    "o": [
+     "🐱 cat",
+     "🐶 dog",
+     "🐷 pig",
+     "🐟 fish"
+    ],
+    "h": "Stretch it: c-a-t. The last sound is /t/."
+   },
+   {
+    "t": "Which word ends with the sound n?",
+    "o": [
+     "☀️ sun",
+     "🐱 cat",
+     "🛏️ bed",
+     "🐷 pig"
+    ],
+    "h": "Stretch it: s-u-n. The last sound is /n/."
+   },
+   {
+    "t": "What is the middle sound in cat?",
+    "p": "🐱",
+    "o": [
+     "a",
+     "e",
+     "i",
+     "o"
+    ],
+    "h": "Stretch it slowly: c-aaa-t. The middle sound is /a/.",
+    "x": true
+   }
+  ]
+ ]
+}

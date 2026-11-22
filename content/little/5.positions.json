@@ -1,0 +1,180 @@
+{
+ "title": "Where is it? In, on, under, left, right",
+ "emoji": "📍",
+ "group": "maths",
+ "parent": [
+  {
+   "learn": "Inside – outside, on – under, above – below.",
+   "why": "These words say where something is. The child needs them to follow directions like “put it under the bed”."
+  },
+  {
+   "learn": "In front of – behind, near – far.",
+   "why": "In a queue, the person in front goes first. Far things look smaller — that is why the moon looks tiny."
+  },
+  {
+   "learn": "First, middle, last in a row.",
+   "why": "Order words help with queues, stories and later with ordinal numbers (1st, 2nd, 3rd)."
+  },
+  {
+   "learn": "Left and right.",
+   "why": "We read and write from left to right, so knowing left is needed for reading. A trick: hold up both hands, thumb out — the left hand makes an “L”."
+  }
+ ],
+ "ask": [
+  "Put the teddy under the table. Now on the table. Now behind it.",
+  "What is above your head right now?",
+  "Raise your right hand. Touch your left ear.",
+  "Who is in front of you in the line? Who is behind?",
+  "Is the window near or far from you?",
+  "Line up three toys: which is first, middle, last?",
+  "What is inside your school bag?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "The bird flies high in the sky. Is it up or down?",
+    "p": "🐦\n\n🌳",
+    "o": [
+     "⬆️ Up",
+     "⬇️ Down"
+    ],
+    "h": "The sky is above us — up."
+   },
+   {
+    "t": "Fish live ___ the water.",
+    "o": [
+     "in",
+     "on",
+     "under the bed"
+    ],
+    "h": "Fish swim inside the water: in."
+   },
+   {
+    "t": "When it rains, we stand ___ the umbrella.",
+    "p": "☂️",
+    "o": [
+     "under",
+     "on",
+     "behind"
+    ],
+    "h": "The umbrella is above us and we stay dry below it: under."
+   },
+   {
+    "t": "Our feet go ___ our socks.",
+    "o": [
+     "inside",
+     "outside",
+     "on top of"
+    ],
+    "h": "The sock covers the foot, so the foot is inside."
+   },
+   {
+    "t": "The roof is on the ___ of the house.",
+    "p": "🏠",
+    "o": [
+     "top",
+     "bottom",
+     "inside"
+    ],
+    "h": "The roof covers the house from above — the top."
+   }
+  ],
+  [
+   {
+    "t": "In a queue, Asha is first and Bina is next. Who is in front?",
+    "o": [
+     "Asha",
+     "Bina"
+    ],
+    "h": "First in the queue means in front of everyone."
+   },
+   {
+    "t": "The moon looks small because it is very ___",
+    "p": "🌙",
+    "o": [
+     "far",
+     "near",
+     "heavy"
+    ],
+    "h": "Things far away look smaller. The moon is very far from us."
+   },
+   {
+    "t": "At night you sleep ___ a blanket.",
+    "o": [
+     "under",
+     "on",
+     "beside"
+    ],
+    "h": "The blanket is on top of you; you are under it."
+   },
+   {
+    "t": "What is the opposite of near?",
+    "o": [
+     "far",
+     "close",
+     "next to"
+    ],
+    "h": "Near means close by; far means a long way away."
+   },
+   {
+    "t": "Which is nearer to you?",
+    "o": [
+     "👃 your nose",
+     "🌙 the moon"
+    ],
+    "h": "Your nose is on your face — the nearest thing of all!"
+   }
+  ],
+  [
+   {
+    "t": "Which fruit is on the left?",
+    "p": "🍎 🍌 🍇",
+    "o": [
+     "🍎",
+     "🍌",
+     "🍇"
+    ],
+    "h": "We start on the left, like reading. The apple comes first."
+   },
+   {
+    "t": "Which fruit is in the middle?",
+    "p": "🍎 🍌 🍇",
+    "o": [
+     "🍌",
+     "🍎",
+     "🍇"
+    ],
+    "h": "The banana has one fruit on each side, so it is in the middle."
+   },
+   {
+    "t": "Which fruit is on the right?",
+    "p": "🍎 🍌 🍇",
+    "o": [
+     "🍇",
+     "🍎",
+     "🍌"
+    ],
+    "h": "The grapes are at the right end, last when reading."
+   },
+   {
+    "t": "Which animal is just after the cat?",
+    "p": "🐶 🐱 🐭 🐰",
+    "o": [
+     "🐭",
+     "🐶",
+     "🐰"
+    ],
+    "h": "Reading left to right: dog, cat, mouse, rabbit. The mouse comes right after the cat."
+   },
+   {
+    "t": "We read and write from…",
+    "o": [
+     "left to right",
+     "right to left",
+     "bottom to top"
+    ],
+    "h": "English words go from the left side of the page to the right."
+   }
+  ]
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "title": "Tens and ones",
+ "emoji": "🧮",
+ "group": "maths",
+ "parent": [
+  {
+   "learn": "Ten ones make one ten.",
+   "why": "Bundling 10 sticks with a rubber band makes big piles easy to count: count the bundles in tens, then the loose sticks."
+  },
+  {
+   "learn": "34 means 3 tens and 4 ones.",
+   "why": "The left digit counts tens, the right digit counts ones. This is why 34 and 43 are different numbers."
+  },
+  {
+   "learn": "Pairs that make 10.",
+   "why": "1+9, 2+8, 3+7, 4+6, 5+5. Knowing them by heart makes adding past 10 easy (see Adding)."
+  },
+  {
+   "learn": "10 more means one more ten.",
+   "why": "25 and 10 more: the tens digit goes up by one, the ones stay — 35."
+  }
+ ],
+ "ask": [
+  "Bundle 10 straws or sticks with a rubber band. Make 2 bundles and 3 loose ones: how many?",
+  "How many fingers do 2 people have? Count in tens.",
+  "What is 6 + 4? 7 + 3? 8 + 2?",
+  "In 47, what does the 4 mean?",
+  "What is 10 more than 25?",
+  "Write the number with 5 tens and 2 ones."
+ ],
+ "rounds": [
+  [
+   {
+    "t": "7 + ___ = 10",
+    "o": [
+     "3",
+     "4",
+     "2",
+     "17"
+    ],
+    "h": "7 and 3 more makes ten. Count on from 7: 8, 9, 10 — that's 3.",
+    "k": "10-7"
+   },
+   {
+    "t": "5 + ___ = 10",
+    "o": [
+     "5",
+     "4",
+     "6",
+     "15"
+    ],
+    "h": "5 and 5 — one full hand each — make ten.",
+    "k": "10-5"
+   },
+   {
+    "t": "How many fingers on two hands?",
+    "p": "🖐️🖐️",
+    "o": [
+     "10",
+     "5",
+     "8",
+     "12"
+    ],
+    "h": "5 on each hand: 5 + 5 = 10.",
+    "k": "5+5"
+   },
+   {
+    "t": "One bundle has 10 sticks. How many sticks in 2 bundles?",
+    "p": "🎋🎋",
+    "o": [
+     "20",
+     "12",
+     "2",
+     "11"
+    ],
+    "h": "Two tens: 10, 20.",
+    "k": "10*2"
+   },
+   {
+    "t": "9 + ___ = 10",
+    "o": [
+     "1",
+     "0",
+     "2",
+     "19"
+    ],
+    "h": "9 needs just 1 more to make 10.",
+    "k": "10-9"
+   }
+  ],
+  [
+   {
+    "t": "1 ten and 4 ones make…",
+    "o": [
+     "14",
+     "41",
+     "5",
+     "104"
+    ],
+    "h": "1 ten is 10, and 4 ones more is 14.",
+    "k": "10+4",
+    "x": true
+   },
+   {
+    "t": "2 tens and 0 ones make…",
+    "o": [
+     "20",
+     "2",
+     "200",
+     "12"
+    ],
+    "h": "2 tens is 20, and no ones.",
+    "k": "20",
+    "x": true
+   },
+   {
+    "t": "3 tens and 5 ones make…",
+    "o": [
+     "35",
+     "53",
+     "8",
+     "305"
+    ],
+    "h": "3 tens is 30, and 5 ones more is 35.",
+    "k": "30+5",
+    "x": true
+   },
+   {
+    "t": "16 is 1 ten and ___ ones.",
+    "o": [
+     "6",
+     "1",
+     "16",
+     "7"
+    ],
+    "h": "16 − 10 = 6, so 6 ones are left after the ten.",
+    "k": "16-10"
+   },
+   {
+    "t": "How many tens are in 50?",
+    "o": [
+     "5",
+     "50",
+     "10",
+     "0"
+    ],
+    "h": "10, 20, 30, 40, 50 — five tens.",
+    "k": "50//10"
+   }
+  ],
+  [
+   {
+    "t": "4 tens and 7 ones make…",
+    "o": [
+     "47",
+     "74",
+     "11",
+     "407"
+    ],
+    "h": "4 tens is 40, and 7 more is 47.",
+    "k": "40+7",
+    "x": true
+   },
+   {
+    "t": "In 62, the 6 means…",
+    "o": [
+     "6 tens",
+     "6 ones",
+     "nothing"
+    ],
+    "h": "The left digit counts tens, so the 6 is 6 tens (60).",
+    "x": true
+   },
+   {
+    "t": "Which number has 8 tens and 1 one?",
+    "o": [
+     "81",
+     "18",
+     "9",
+     "801"
+    ],
+    "h": "8 tens is 80, plus 1 is 81. 18 is 1 ten and 8 ones.",
+    "k": "80+1",
+    "x": true
+   },
+   {
+    "t": "What is 10 more than 25?",
+    "o": [
+     "35",
+     "26",
+     "15",
+     "125"
+    ],
+    "h": "10 more adds one ten: 2 tens become 3 tens, the 5 ones stay — 35.",
+    "k": "25+10"
+   },
+   {
+    "t": "99 + 1 = ?",
+    "o": [
+     "100",
+     "90",
+     "98",
+     "991"
+    ],
+    "h": "9 ones + 1 makes a new ten, and 9 tens + 1 ten makes ten tens: 100.",
+    "k": "99+1"
+   }
+  ]
+ ]
+}

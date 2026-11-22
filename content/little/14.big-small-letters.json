@@ -1,0 +1,201 @@
+{
+ "title": "Big and small letters",
+ "emoji": "🔡",
+ "group": "words",
+ "parent": [
+  {
+   "learn": "Every letter has a capital (big) and a small form: A a, B b.",
+   "why": "Most writing uses small letters, so the child needs both shapes for the same sound."
+  },
+  {
+   "learn": "Capitals start names and sentences.",
+   "why": "A capital letter tells the reader “a new sentence starts here” or “this is someone's name”."
+  },
+  {
+   "learn": "Tricky pairs: b and d, p and q.",
+   "why": "They are the same shape facing different ways. Trick for b and d: make a “bed” with two fists, thumbs up — the left is b, the right is d."
+  },
+  {
+   "learn": "Some small letters are tall (b, d, h, k, l, t), some hang below the line (g, j, p, q, y).",
+   "why": "Writing on four-line notebooks needs this, and the outline of a word helps the eye read it."
+  }
+ ],
+ "ask": [
+  "Write your name. Which letter is a capital?",
+  "Find a capital letter and its small letter in a book.",
+  "Show me small b and small d with your hands (the bed trick).",
+  "Which small letters hang below the line?",
+  "Match the fridge-magnet letters: big with small.",
+  "Write the small letters a to e."
+ ],
+ "rounds": [
+  [
+   {
+    "t": "Which is the small letter for A?",
+    "o": [
+     "a",
+     "e",
+     "o",
+     "d"
+    ],
+    "h": "Capital A and small a make the same sound.",
+    "x": true
+   },
+   {
+    "t": "Which is the capital letter for b?",
+    "o": [
+     "B",
+     "D",
+     "P",
+     "R"
+    ],
+    "h": "Small b grows into capital B.",
+    "x": true
+   },
+   {
+    "t": "Which is the small letter for M?",
+    "o": [
+     "m",
+     "n",
+     "w",
+     "u"
+    ],
+    "h": "Small m has two humps, like a small M.",
+    "x": true
+   },
+   {
+    "t": "Which is the capital letter for e?",
+    "o": [
+     "E",
+     "F",
+     "C",
+     "B"
+    ],
+    "h": "Small e and capital E are the same letter.",
+    "x": true
+   },
+   {
+    "t": "Which is the small letter for S?",
+    "o": [
+     "s",
+     "z",
+     "c",
+     "a"
+    ],
+    "h": "S and s are the same shape — just big and small.",
+    "x": true
+   }
+  ],
+  [
+   {
+    "t": "Which is the small letter for D?",
+    "o": [
+     "d",
+     "b",
+     "p",
+     "q"
+    ],
+    "h": "Make the “bed” with your fists: the right fist is d, with the bump in front of the stick.",
+    "x": true
+   },
+   {
+    "t": "Which is the small letter for G?",
+    "o": [
+     "g",
+     "q",
+     "j",
+     "y"
+    ],
+    "h": "Small g has a round top and a tail that curls back.",
+    "x": true
+   },
+   {
+    "t": "Which is the capital letter for r?",
+    "o": [
+     "R",
+     "P",
+     "K",
+     "B"
+    ],
+    "h": "Small r grows into capital R.",
+    "x": true
+   },
+   {
+    "t": "Which pair is the same letter?",
+    "o": [
+     "T t",
+     "T f",
+     "L t",
+     "T i"
+    ],
+    "h": "T and t are both the letter t.",
+    "x": true
+   },
+   {
+    "t": "Which is the capital letter for q?",
+    "o": [
+     "Q",
+     "O",
+     "P",
+     "G"
+    ],
+    "h": "Q is like O with a little tail.",
+    "x": true
+   }
+  ],
+  [
+   {
+    "t": "A name starts with a…",
+    "o": [
+     "capital letter",
+     "small letter",
+     "number"
+    ],
+    "h": "Names always start with a capital: Ravi, Asha, Delhi."
+   },
+   {
+    "t": "Which name is written correctly?",
+    "o": [
+     "Ravi",
+     "ravi",
+     "rAVI",
+     "raVi"
+    ],
+    "h": "Only the first letter of a name is a capital: Ravi.",
+    "x": true
+   },
+   {
+    "t": "Which small letter hangs below the line?",
+    "o": [
+     "g",
+     "a",
+     "c",
+     "e"
+    ],
+    "h": "g has a tail that goes down below the line.",
+    "x": true
+   },
+   {
+    "t": "Which small letter is tall?",
+    "o": [
+     "h",
+     "n",
+     "o",
+     "u"
+    ],
+    "h": "h has a tall stick that reaches up.",
+    "x": true
+   },
+   {
+    "t": "Which sentence starts correctly?",
+    "o": [
+     "The cat sat.",
+     "the cat sat.",
+     "tHe cat sat."
+    ],
+    "h": "A sentence starts with a capital letter and only the first letter is big.",
+    "x": true
+   }
+  ]
+ ]
+}

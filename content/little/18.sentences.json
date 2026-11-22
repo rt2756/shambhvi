@@ -1,0 +1,201 @@
+{
+ "title": "Little sentences",
+ "emoji": "✏️",
+ "group": "words",
+ "parent": [
+  {
+   "learn": "Sight words: I, a, the, is, can, see, my, go, to, and.",
+   "why": "These words come in almost every sentence and many can't be sounded out (like “the”), so they are learnt by sight."
+  },
+  {
+   "learn": "A sentence starts with a capital letter and ends with a full stop.",
+   "why": "The capital says “start here” and the full stop says “this idea is finished” — so the reader knows where to pause."
+  },
+  {
+   "learn": "Leave spaces between words.",
+   "why": "Without spaces, “Icanrun” is hard to read; spaces show where one word ends and the next begins."
+  },
+  {
+   "learn": "One and many: cat → cats.",
+   "why": "Adding -s tells the reader there is more than one — English often shows “many” this way."
+  }
+ ],
+ "ask": [
+  "Read with me: “I can see a cat.”",
+  "Find the word “the” on this page. How many times is it there?",
+  "Say a sentence about your toy.",
+  "One dog, two…? One ball, three…?",
+  "Point to the full stop in this sentence.",
+  "Put these words in order: run / I / can."
+ ],
+ "rounds": [
+  [
+   {
+    "t": "“I can see a cat.” What can I see?",
+    "o": [
+     "🐱 a cat",
+     "🐶 a dog",
+     "🐟 a fish",
+     "🐥 a chick"
+    ],
+    "h": "The last word tells us: a cat."
+   },
+   {
+    "t": "Which word is “the”?",
+    "o": [
+     "the",
+     "then",
+     "he",
+     "tea"
+    ],
+    "h": "t-h-e: the. It is a sight word — learn it by its look.",
+    "x": true
+   },
+   {
+    "t": "Which word is “is”?",
+    "o": [
+     "is",
+     "it",
+     "si",
+     "in"
+    ],
+    "h": "i-s: is, as in “It is hot”.",
+    "x": true
+   },
+   {
+    "t": "Which word is “can”?",
+    "o": [
+     "can",
+     "car",
+     "man",
+     "cap"
+    ],
+    "h": "c-a-n: can, as in “I can run”.",
+    "x": true
+   },
+   {
+    "t": "Which word is “my”?",
+    "o": [
+     "my",
+     "me",
+     "may",
+     "by"
+    ],
+    "h": "m-y: my, as in “my bag”.",
+    "x": true
+   }
+  ],
+  [
+   {
+    "t": "One cat, two…",
+    "p": "🐱🐱",
+    "o": [
+     "cats",
+     "cat",
+     "catt",
+     "a cat"
+    ],
+    "h": "More than one: add s — cats."
+   },
+   {
+    "t": "One apple, many…",
+    "p": "🍎🍎🍎",
+    "o": [
+     "apples",
+     "apple",
+     "appls",
+     "an apple"
+    ],
+    "h": "More than one: add s — apples."
+   },
+   {
+    "t": "A sentence ends with a…",
+    "o": [
+     "full stop .",
+     "comma ,",
+     "letter A",
+     "number 1"
+    ],
+    "h": "The full stop shows the idea is finished."
+   },
+   {
+    "t": "Fill in: I ___ a ball.",
+    "p": "⚽",
+    "o": [
+     "have",
+     "has",
+     "is",
+     "am"
+    ],
+    "h": "“I have a ball.” With “I” we say have.",
+    "x": true
+   },
+   {
+    "t": "Fill in: The sun is ___",
+    "p": "☀️",
+    "o": [
+     "hot",
+     "cold",
+     "wet",
+     "sad"
+    ],
+    "h": "The sun gives heat, so it is hot."
+   }
+  ],
+  [
+   {
+    "t": "Which one is a sentence?",
+    "o": [
+     "The dog can run.",
+     "dog run the can",
+     "run.",
+     "The"
+    ],
+    "h": "It starts with a capital, ends with a full stop, and makes sense.",
+    "x": true
+   },
+   {
+    "t": "“Ravi has a red bag.” What colour is the bag?",
+    "o": [
+     "🔴 red",
+     "🔵 blue",
+     "🟢 green",
+     "🟡 yellow"
+    ],
+    "h": "The sentence says “a red bag”."
+   },
+   {
+    "t": "“Tom is in the bus.” Where is Tom?",
+    "o": [
+     "🚌 in the bus",
+     "🏠 at home",
+     "🏫 at school",
+     "🌳 in a tree"
+    ],
+    "h": "The sentence says “in the bus”."
+   },
+   {
+    "t": "Put the words in order: cat / The / sleeps",
+    "o": [
+     "The cat sleeps.",
+     "Cat the sleeps.",
+     "Sleeps cat the.",
+     "The sleeps cat."
+    ],
+    "h": "Who? The cat. Does what? Sleeps. The capital T shows “The” goes first.",
+    "x": true
+   },
+   {
+    "t": "How many words are in “I like mangoes.”?",
+    "o": [
+     "3",
+     "2",
+     "4",
+     "12"
+    ],
+    "h": "Count the gaps: I / like / mangoes — 3 words.",
+    "k": "3"
+   }
+  ]
+ ]
+}

@@ -1,0 +1,196 @@
+{
+ "title": "Before, after, between",
+ "emoji": "🪜",
+ "group": "maths",
+ "parent": [
+  {
+   "learn": "After means one more.",
+   "why": "Each step forward on the number line adds one, so the number after 6 is 6 + 1 = 7."
+  },
+  {
+   "learn": "Before means one less.",
+   "why": "Stepping back one place takes one away, so the number before 6 is 5."
+  },
+  {
+   "learn": "Between is the number in the middle.",
+   "why": "5 and 7 have one number between them: 6, which is one after 5 and one before 7."
+  },
+  {
+   "learn": "Count on from any number, not always from 1.",
+   "why": "Starting at 12 and saying “13, 14, 15” is faster than starting at 1 — and counting on is exactly how adding works later."
+  },
+  {
+   "learn": "After 29 comes 30, after 39 comes 40.",
+   "why": "When the ones reach 9, one more fills a whole ten, so the tens go up by one and the ones start again at 0."
+  }
+ ],
+ "ask": [
+  "What number comes after 4? Before 10?",
+  "What number is between 6 and 8?",
+  "Start at 12 and count on to 20.",
+  "Look at the calendar: today is the 14th — what will tomorrow be?",
+  "Count back from 20 to 10.",
+  "What comes after 39? After 59?",
+  "In the lift, which floor comes after 3?",
+  "I am thinking of the number just before 50. What is it?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "What comes after 3?",
+    "p": "1  2  3  ❓",
+    "o": [
+     "4",
+     "2",
+     "5",
+     "3"
+    ],
+    "h": "After means one more: 3 and one more is 4."
+   },
+   {
+    "t": "What comes before 5?",
+    "o": [
+     "4",
+     "6",
+     "3",
+     "5"
+    ],
+    "h": "Before means one less: one less than 5 is 4."
+   },
+   {
+    "t": "What comes after 7?",
+    "o": [
+     "8",
+     "6",
+     "9",
+     "10"
+    ],
+    "h": "One more than 7 is 8."
+   },
+   {
+    "t": "Which number is between 1 and 3?",
+    "o": [
+     "2",
+     "4",
+     "0",
+     "5"
+    ],
+    "h": "1, 2, 3 — the 2 sits in the middle."
+   },
+   {
+    "t": "What comes before 2?",
+    "o": [
+     "1",
+     "3",
+     "0",
+     "4"
+    ],
+    "h": "One less than 2 is 1."
+   }
+  ],
+  [
+   {
+    "t": "What comes after 12?",
+    "o": [
+     "13",
+     "11",
+     "14",
+     "21"
+    ],
+    "h": "One more than 12 is 13."
+   },
+   {
+    "t": "What comes before 15?",
+    "o": [
+     "14",
+     "16",
+     "13",
+     "51"
+    ],
+    "h": "One less than 15 is 14."
+   },
+   {
+    "t": "Which number is between 17 and 19?",
+    "o": [
+     "18",
+     "16",
+     "20",
+     "81"
+    ],
+    "h": "17, 18, 19 — 18 is in the middle."
+   },
+   {
+    "t": "What comes after 19?",
+    "o": [
+     "20",
+     "18",
+     "21",
+     "10"
+    ],
+    "h": "19 and one more fills the second ten: 20."
+   },
+   {
+    "t": "What comes next? 10, 11, 12, ___",
+    "o": [
+     "13",
+     "14",
+     "21",
+     "11"
+    ],
+    "h": "Each number is one more: 12 + 1 = 13."
+   }
+  ],
+  [
+   {
+    "t": "What comes after 29?",
+    "o": [
+     "30",
+     "28",
+     "20",
+     "40"
+    ],
+    "h": "The 9 ones and one more make a new ten: 2 tens become 3 tens, so 30."
+   },
+   {
+    "t": "What comes before 50?",
+    "o": [
+     "49",
+     "51",
+     "40",
+     "59"
+    ],
+    "h": "One less than 50 is 49: four tens and nine ones."
+   },
+   {
+    "t": "Which number is between 67 and 69?",
+    "o": [
+     "68",
+     "66",
+     "70",
+     "86"
+    ],
+    "h": "67, 68, 69 — 68 is in the middle."
+   },
+   {
+    "t": "What comes after 99?",
+    "o": [
+     "100",
+     "98",
+     "90",
+     "1000"
+    ],
+    "h": "99 and one more makes ten tens, which is one hundred: 100."
+   },
+   {
+    "t": "Count back: 25, 24, 23, ___",
+    "o": [
+     "22",
+     "24",
+     "21",
+     "32"
+    ],
+    "h": "Counting back takes one away each time: 23 − 1 = 22."
+   }
+  ]
+ ]
+}

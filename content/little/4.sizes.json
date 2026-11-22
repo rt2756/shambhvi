@@ -1,0 +1,165 @@
+{
+ "title": "Big, small, long, short, heavy, light",
+ "emoji": "🐘",
+ "group": "maths",
+ "parent": [
+  {
+   "learn": "Size words come in pairs: big–small, long–short, tall–short, heavy–light.",
+   "why": "Each word only makes sense when comparing two things. A dog is big next to a mouse but small next to an elephant."
+  },
+  {
+   "learn": "To see which is longer, line the ends up.",
+   "why": "If one pencil starts further back, it can look shorter than it is. Starting both at the same line makes the comparison fair."
+  },
+  {
+   "learn": "Heavy and light are felt, not seen.",
+   "why": "A big balloon is light and a small stone is heavy, so size alone does not tell weight — hold one in each hand to check."
+  },
+  {
+   "learn": "Measure with hand-spans, steps or paper clips.",
+   "why": "Counting how many spans long something is turns “long” into a number. Different hands give different numbers — that is why we later use a ruler."
+  }
+ ],
+ "ask": [
+  "Which is longer: your shoe or Papa's shoe? Put them side by side.",
+  "Who is taller: you or the door handle?",
+  "Hold a book and a pencil. Which is heavier?",
+  "How many hand-spans long is the table?",
+  "How many of your steps from the door to your bed?",
+  "Find something in the room that is longer than your arm.",
+  "Which holds more water: a bucket or a cup?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "Which is bigger?",
+    "o": [
+     "🐘",
+     "🐭"
+    ],
+    "h": "An elephant is much bigger than a mouse."
+   },
+   {
+    "t": "Which is smaller?",
+    "o": [
+     "🍒",
+     "🍉"
+    ],
+    "h": "A cherry is tiny next to a watermelon."
+   },
+   {
+    "t": "Which is taller?",
+    "o": [
+     "🦒",
+     "🐕"
+    ],
+    "h": "A giraffe's long neck makes it taller than a dog."
+   },
+   {
+    "t": "Which is heavier?",
+    "o": [
+     "🐘",
+     "🪶"
+    ],
+    "h": "An elephant is heavy; a feather is so light it floats."
+   },
+   {
+    "t": "Which is longer?",
+    "o": [
+     "🐍 snake",
+     "🐛 caterpillar"
+    ],
+    "h": "A snake is much longer than a caterpillar."
+   }
+  ],
+  [
+   {
+    "t": "Which is lighter?",
+    "o": [
+     "🎈 balloon",
+     "🧱 brick"
+    ],
+    "h": "A balloon is full of air and floats — very light. A brick is heavy."
+   },
+   {
+    "t": "Which is shorter?",
+    "o": [
+     "✏️ pencil",
+     "🚪 door"
+    ],
+    "h": "A pencil fits in your hand; a door is taller than you."
+   },
+   {
+    "t": "Which holds more water?",
+    "o": [
+     "🪣 bucket",
+     "☕ cup"
+    ],
+    "h": "A bucket is much bigger inside, so it holds more."
+   },
+   {
+    "t": "Which is heavier to carry?",
+    "o": [
+     "🎒 a bag full of books",
+     "🎒 an empty bag"
+    ],
+    "h": "Books add weight. The empty bag is the same bag with nothing in it."
+   },
+   {
+    "t": "Which is the tallest?",
+    "o": [
+     "🏢 building",
+     "🏠 house",
+     "🌳 tree",
+     "🐈 cat"
+    ],
+    "h": "A tall building has many floors — taller than a house, tree or cat."
+   }
+  ],
+  [
+   {
+    "t": "A table is 6 hand-spans long. A bed is 10 hand-spans long. Which is longer?",
+    "o": [
+     "🛏️ the bed",
+     "the table"
+    ],
+    "h": "10 spans is more than 6 spans, so the bed is longer."
+   },
+   {
+    "t": "Rani's pencil is 5 clips long. Sam's pencil is 7 clips long. Whose is shorter?",
+    "o": [
+     "Rani's",
+     "Sam's"
+    ],
+    "h": "5 clips is fewer than 7 clips, so Rani's pencil is shorter."
+   },
+   {
+    "t": "A big man walks across the room in 8 steps. Will a small child need more steps or fewer?",
+    "o": [
+     "More steps",
+     "Fewer steps",
+     "The same"
+    ],
+    "h": "A child's steps are smaller, so it takes more of them to cover the same room."
+   },
+   {
+    "t": "A big balloon and a small stone. Which is heavier?",
+    "o": [
+     "🪨 the stone",
+     "🎈 the balloon"
+    ],
+    "h": "Size does not tell weight. The balloon is mostly air; the stone is solid."
+   },
+   {
+    "t": "Which ribbon is the longest?",
+    "o": [
+     "9 clips long",
+     "3 clips long",
+     "6 clips long",
+     "4 clips long"
+    ],
+    "h": "9 is the biggest number of clips, so that ribbon is the longest."
+   }
+  ]
+ ]
+}

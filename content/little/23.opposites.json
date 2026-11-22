@@ -1,0 +1,185 @@
+{
+ "title": "Opposites",
+ "emoji": "↔️",
+ "group": "world",
+ "parent": [
+  {
+   "learn": "Opposites are pairs of words that mean very different things: hot–cold, up–down.",
+   "why": "Learning words in pairs teaches both meanings at once, and helps compare things (“the tea is hot, the ice is cold”)."
+  },
+  {
+   "learn": "Act them out: open and close the door, walk fast and slow.",
+   "why": "Doing the action makes the meaning clear without any explanation."
+  },
+  {
+   "learn": "Use them to describe things around the house.",
+   "why": "Describing (“the bag is full, the box is empty”) builds vocabulary for speaking and, later, writing."
+  }
+ ],
+ "ask": [
+  "What is the opposite of big? Of happy?",
+  "Show me fast walking. Now slow walking.",
+  "Open your hand. Now close it.",
+  "Is the cup full or empty?",
+  "Is the light on or off?",
+  "Push the chair. Now pull it."
+ ],
+ "rounds": [
+  [
+   {
+    "t": "The opposite of “hot” is…",
+    "p": "🔥",
+    "o": [
+     "cold",
+     "warm",
+     "fire"
+    ],
+    "h": "Hot and cold are opposites — as different as can be."
+   },
+   {
+    "t": "The opposite of “up” is…",
+    "p": "⬆️",
+    "o": [
+     "down",
+     "top",
+     "high"
+    ],
+    "h": "Up and down are opposites — as different as can be."
+   },
+   {
+    "t": "The opposite of “big” is…",
+    "p": "🐘",
+    "o": [
+     "small",
+     "huge",
+     "fat"
+    ],
+    "h": "Big and small are opposites — as different as can be."
+   },
+   {
+    "t": "The opposite of “day” is…",
+    "p": "☀️",
+    "o": [
+     "night",
+     "morning",
+     "sun"
+    ],
+    "h": "Day and night are opposites — as different as can be."
+   },
+   {
+    "t": "The opposite of “happy” is…",
+    "p": "😀",
+    "o": [
+     "sad",
+     "smile",
+     "funny"
+    ],
+    "h": "Happy and sad are opposites — as different as can be."
+   }
+  ],
+  [
+   {
+    "t": "The opposite of “open” is…",
+    "p": "🚪",
+    "o": [
+     "closed",
+     "door",
+     "wide"
+    ],
+    "h": "Open and closed are opposites — as different as can be."
+   },
+   {
+    "t": "The opposite of “fast” is…",
+    "p": "🐇",
+    "o": [
+     "slow",
+     "quick",
+     "run"
+    ],
+    "h": "Fast and slow are opposites — as different as can be."
+   },
+   {
+    "t": "The opposite of “wet” is…",
+    "p": "💧",
+    "o": [
+     "dry",
+     "rain",
+     "water"
+    ],
+    "h": "Wet and dry are opposites — as different as can be."
+   },
+   {
+    "t": "The opposite of “full” is…",
+    "p": "🥛",
+    "o": [
+     "empty",
+     "glass",
+     "more"
+    ],
+    "h": "Full and empty are opposites — as different as can be."
+   },
+   {
+    "t": "The opposite of “in” is…",
+    "p": "📦",
+    "o": [
+     "out",
+     "inside",
+     "box"
+    ],
+    "h": "In and out are opposites — as different as can be."
+   }
+  ],
+  [
+   {
+    "t": "The opposite of “tall” is…",
+    "p": "🦒",
+    "o": [
+     "short",
+     "long",
+     "big"
+    ],
+    "h": "Tall and short are opposites — as different as can be."
+   },
+   {
+    "t": "The opposite of “heavy” is…",
+    "p": "🧱",
+    "o": [
+     "light",
+     "hard",
+     "big"
+    ],
+    "h": "Heavy and light are opposites — as different as can be."
+   },
+   {
+    "t": "The opposite of “old” is…",
+    "p": "👴",
+    "o": [
+     "new",
+     "big",
+     "grey"
+    ],
+    "h": "Old and new are opposites — as different as can be."
+   },
+   {
+    "t": "The opposite of “push” is…",
+    "p": "🛒",
+    "o": [
+     "pull",
+     "press",
+     "move"
+    ],
+    "h": "Push and pull are opposites — as different as can be."
+   },
+   {
+    "t": "The opposite of “first” is…",
+    "p": "🥇",
+    "o": [
+     "last",
+     "one",
+     "best"
+    ],
+    "h": "First and last are opposites — as different as can be."
+   }
+  ]
+ ]
+}

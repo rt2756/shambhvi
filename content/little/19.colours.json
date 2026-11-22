@@ -1,0 +1,194 @@
+{
+ "title": "Colours",
+ "emoji": "🎨",
+ "group": "world",
+ "parent": [
+  {
+   "learn": "Names of the main colours: red, blue, yellow, green, orange, purple, pink, black, white, brown.",
+   "why": "Colour words help describe and sort things — the first step in noticing differences."
+  },
+  {
+   "learn": "Things in nature have usual colours: sky blue, leaves green, banana yellow.",
+   "why": "Knowing these lets the child spot when something has changed — a brown leaf is dry, a black banana is old."
+  },
+  {
+   "learn": "Mixing colours makes new ones: red + yellow = orange, blue + yellow = green, red + blue = purple.",
+   "why": "Paints mix because each one carries its colour into the mixture — the child can see it happen with watercolours."
+  }
+ ],
+ "ask": [
+  "Find something red in the room. Now something green.",
+  "What colour is your shirt?",
+  "Mix a little blue and yellow paint (or crayons). What colour comes?",
+  "What colour is the sky at night?",
+  "Sort your crayons by colour.",
+  "What colours are in a rainbow?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "Which one is red?",
+    "o": [
+     "🔴",
+     "🔵",
+     "🟢",
+     "🟡"
+    ],
+    "h": "Red like a tomato or a fire engine."
+   },
+   {
+    "t": "Which one is yellow?",
+    "o": [
+     "🟡",
+     "🔴",
+     "🟣",
+     "🔵"
+    ],
+    "h": "Yellow like the sun or a banana."
+   },
+   {
+    "t": "What colour is the sky on a sunny day?",
+    "o": [
+     "🔵 blue",
+     "🟢 green",
+     "🔴 red",
+     "🟤 brown"
+    ],
+    "h": "On a clear sunny day the sky is blue."
+   },
+   {
+    "t": "What colour are leaves?",
+    "p": "🍃",
+    "o": [
+     "🟢 green",
+     "🔵 blue",
+     "🟣 purple",
+     "⚫ black"
+    ],
+    "h": "Most fresh leaves are green."
+   },
+   {
+    "t": "What colour is a ripe banana?",
+    "p": "🍌",
+    "o": [
+     "🟡 yellow",
+     "🔴 red",
+     "🔵 blue",
+     "⚪ white"
+    ],
+    "h": "A ripe banana is yellow."
+   }
+  ],
+  [
+   {
+    "t": "What colour is milk?",
+    "p": "🥛",
+    "o": [
+     "⚪ white",
+     "🟤 brown",
+     "🟢 green",
+     "🔴 red"
+    ],
+    "h": "Milk is white."
+   },
+   {
+    "t": "What colour is a crow?",
+    "o": [
+     "⚫ black",
+     "⚪ white",
+     "🟡 yellow",
+     "🔵 blue"
+    ],
+    "h": "Crows are black birds."
+   },
+   {
+    "t": "What colour is a carrot?",
+    "p": "🥕",
+    "o": [
+     "🟠 orange",
+     "🔵 blue",
+     "🟣 purple",
+     "⚫ black"
+    ],
+    "h": "Carrots are orange."
+   },
+   {
+    "t": "What colour is a ripe tomato?",
+    "p": "🍅",
+    "o": [
+     "🔴 red",
+     "🔵 blue",
+     "⚪ white",
+     "🟣 purple"
+    ],
+    "h": "A ripe tomato is red."
+   },
+   {
+    "t": "Which one is purple?",
+    "o": [
+     "🟣",
+     "🔴",
+     "🟢",
+     "🟡"
+    ],
+    "h": "Purple like a brinjal or grapes."
+   }
+  ],
+  [
+   {
+    "t": "Red and yellow mixed together make…",
+    "p": "🔴 ➕ 🟡",
+    "o": [
+     "🟠 orange",
+     "🟢 green",
+     "🟣 purple",
+     "🔵 blue"
+    ],
+    "h": "Red and yellow paint make orange — like the colour of an orange!"
+   },
+   {
+    "t": "Blue and yellow mixed together make…",
+    "p": "🔵 ➕ 🟡",
+    "o": [
+     "🟢 green",
+     "🟠 orange",
+     "🟣 purple",
+     "🔴 red"
+    ],
+    "h": "Blue and yellow paint make green."
+   },
+   {
+    "t": "Red and blue mixed together make…",
+    "p": "🔴 ➕ 🔵",
+    "o": [
+     "🟣 purple",
+     "🟢 green",
+     "🟠 orange",
+     "🟡 yellow"
+    ],
+    "h": "Red and blue paint make purple."
+   },
+   {
+    "t": "White and red mixed together make…",
+    "p": "⚪ ➕ 🔴",
+    "o": [
+     "pink",
+     "black",
+     "green",
+     "blue"
+    ],
+    "h": "A little red in white makes pink."
+   },
+   {
+    "t": "Which colours does a traffic light have?",
+    "p": "🚦",
+    "o": [
+     "🔴🟡🟢 red, yellow, green",
+     "🔵🟣⚪ blue, purple, white",
+     "🟤⚫🟠 brown, black, orange"
+    ],
+    "h": "Red means stop, yellow means wait, green means go."
+   }
+  ]
+ ]
+}

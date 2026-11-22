@@ -1,0 +1,217 @@
+{
+ "title": "Reading 3-letter words",
+ "emoji": "📖",
+ "group": "words",
+ "parent": [
+  {
+   "learn": "Blend the sounds: c-a-t → cat.",
+   "why": "Blending is reading. Once the child can join sounds, they can read words they have never seen before."
+  },
+  {
+   "learn": "The middle letter is usually a vowel (a, e, i, o, u).",
+   "why": "The vowel is the “voice” of the word: cat, bed, pig, dog, sun. Changing it changes the word: cat → cot → cut."
+  },
+  {
+   "learn": "Change one letter to make a new word.",
+   "why": "cat → hat → hot → hop. Each change shows that every letter in a word matters."
+  },
+  {
+   "learn": "Start with -at, -an, -in, -op word families.",
+   "why": "A family shares an ending, so learning one word teaches five: cat, hat, mat, rat, bat."
+  }
+ ],
+ "ask": [
+  "Read these slowly with me: c-a-t, d-o-g, s-u-n.",
+  "I'll say sounds, you say the word: p-i-g. b-u-s.",
+  "Change the c in cat to h — what word now?",
+  "Find a 3-letter word in a storybook and read it.",
+  "Write the word “sun”.",
+  "How many words can you make ending in -at?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "c – a – t makes which word?",
+    "p": "🐱",
+    "o": [
+     "cat",
+     "cut",
+     "cot",
+     "act"
+    ],
+    "h": "Join the sounds: c-a-t, cat.",
+    "x": true
+   },
+   {
+    "t": "d – o – g makes which word?",
+    "p": "🐶",
+    "o": [
+     "dog",
+     "dig",
+     "god",
+     "bog"
+    ],
+    "h": "Join the sounds: d-o-g, dog.",
+    "x": true
+   },
+   {
+    "t": "s – u – n makes which word?",
+    "p": "☀️",
+    "o": [
+     "sun",
+     "son",
+     "sin",
+     "nut"
+    ],
+    "h": "Join the sounds: s-u-n, sun.",
+    "x": true
+   },
+   {
+    "t": "Which word matches the picture?",
+    "p": "🐷",
+    "o": [
+     "pig",
+     "peg",
+     "big",
+     "pin"
+    ],
+    "h": "Sound it out: p-i-g — pig.",
+    "x": true
+   },
+   {
+    "t": "Which word matches the picture?",
+    "p": "🚌",
+    "o": [
+     "bus",
+     "bat",
+     "bun",
+     "box"
+    ],
+    "h": "Sound it out: b-u-s — bus.",
+    "x": true
+   }
+  ],
+  [
+   {
+    "t": "Which word matches the picture?",
+    "p": "🦊",
+    "o": [
+     "fox",
+     "box",
+     "fix",
+     "six"
+    ],
+    "h": "Sound it out: f-o-x — fox.",
+    "x": true
+   },
+   {
+    "t": "Which word matches the picture?",
+    "p": "🥚",
+    "o": [
+     "egg",
+     "leg",
+     "bag",
+     "peg"
+    ],
+    "h": "Sound it out: e-g-g — egg.",
+    "x": true
+   },
+   {
+    "t": "Which word matches the picture?",
+    "p": "☕",
+    "o": [
+     "cup",
+     "cap",
+     "cop",
+     "pup"
+    ],
+    "h": "Sound it out: c-u-p — cup.",
+    "x": true
+   },
+   {
+    "t": "Which word matches the picture?",
+    "p": "🐀",
+    "o": [
+     "rat",
+     "red",
+     "rag",
+     "ran"
+    ],
+    "h": "Sound it out: r-a-t — rat.",
+    "x": true
+   },
+   {
+    "t": "Which word matches the picture?",
+    "p": "🧢",
+    "o": [
+     "cap",
+     "cup",
+     "map",
+     "cat"
+    ],
+    "h": "Sound it out: c-a-p — cap.",
+    "x": true
+   }
+  ],
+  [
+   {
+    "t": "Change the c in “cat” to h. What is the new word?",
+    "p": "🎩",
+    "o": [
+     "hat",
+     "cat",
+     "hot",
+     "cut"
+    ],
+    "h": "Keep -at, put h in front: h-a-t, hat.",
+    "x": true
+   },
+   {
+    "t": "Change the middle letter of “pin” to a. What is the new word?",
+    "o": [
+     "pan",
+     "pen",
+     "pun",
+     "pin"
+    ],
+    "h": "p-a-n: keep p and n, swap i for a.",
+    "x": true
+   },
+   {
+    "t": "Which is a real word?",
+    "o": [
+     "sit",
+     "tsi",
+     "ist",
+     "sti"
+    ],
+    "h": "s-i-t, sit — like “sit on a chair”.",
+    "x": true
+   },
+   {
+    "t": "Which letter is missing? d _ g",
+    "p": "🐶",
+    "o": [
+     "o",
+     "a",
+     "i",
+     "u"
+    ],
+    "h": "d-o-g is dog.",
+    "x": true
+   },
+   {
+    "t": "Which letter is missing? b _ d",
+    "p": "🛏️",
+    "o": [
+     "e",
+     "a",
+     "i",
+     "o"
+    ],
+    "h": "b-e-d is bed.",
+    "x": true
+   }
+  ]
+ ]
+}

@@ -1,0 +1,194 @@
+{
+ "title": "Fruits, vegetables and food",
+ "emoji": "🍎",
+ "group": "world",
+ "parent": [
+  {
+   "learn": "Fruits and vegetables come from plants.",
+   "why": "Plants make the food we eat. Fruits hold the plant's seeds; vegetables are other parts like roots (carrot), leaves (spinach) or stems."
+  },
+  {
+   "learn": "Some food comes from animals: milk from cows, eggs from hens, honey from bees.",
+   "why": "This shows food does not come from the shop — the shop only sells what farms produce."
+  },
+  {
+   "learn": "Healthy food and junk food.",
+   "why": "Fruit, vegetables, dal and milk help the body grow strong. Chips, sweets and cola fill you up but give little the body needs."
+  },
+  {
+   "learn": "Drink clean water.",
+   "why": "Dirty water can carry germs that cause illness; clean water keeps the body working."
+  }
+ ],
+ "ask": [
+  "Name three fruits and three vegetables in our kitchen.",
+  "Which vegetable grows under the ground?",
+  "Where does milk come from?",
+  "Is a samosa healthy food or a treat?",
+  "What did you eat for breakfast today?",
+  "Which fruit do you like best? What colour is it?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "Which one is a fruit?",
+    "o": [
+     "🍎 apple",
+     "🥕 carrot",
+     "🥔 potato",
+     "🧅 onion"
+    ],
+    "h": "An apple is a fruit — it has seeds inside."
+   },
+   {
+    "t": "Which one is a vegetable?",
+    "o": [
+     "🥕 carrot",
+     "🍌 banana",
+     "🍇 grapes",
+     "🍊 orange"
+    ],
+    "h": "A carrot is a vegetable — it is the root of the plant."
+   },
+   {
+    "t": "Which fruit is long and yellow?",
+    "o": [
+     "🍌 banana",
+     "🍎 apple",
+     "🍇 grapes",
+     "🍉 watermelon"
+    ],
+    "h": "A banana is long, curved and yellow."
+   },
+   {
+    "t": "Which fruit is called the king of fruits in India?",
+    "o": [
+     "🥭 mango",
+     "🍎 apple",
+     "🍌 banana",
+     "🍇 grapes"
+    ],
+    "h": "The mango is India's national fruit — the king of fruits."
+   },
+   {
+    "t": "Which one grows under the ground?",
+    "o": [
+     "🥔 potato",
+     "🍎 apple",
+     "🍌 banana",
+     "🍅 tomato"
+    ],
+    "h": "Potatoes grow in the soil, under the ground."
+   }
+  ],
+  [
+   {
+    "t": "Milk comes from a…",
+    "p": "🥛",
+    "o": [
+     "🐄 cow",
+     "🐔 hen",
+     "🐝 bee",
+     "🐟 fish"
+    ],
+    "h": "Cows (and buffaloes and goats) give milk."
+   },
+   {
+    "t": "Eggs come from a…",
+    "p": "🥚",
+    "o": [
+     "🐔 hen",
+     "🐄 cow",
+     "🐐 goat",
+     "🐶 dog"
+    ],
+    "h": "Hens lay eggs."
+   },
+   {
+    "t": "Which one is healthy food?",
+    "o": [
+     "🍎 apple",
+     "🍬 sweets",
+     "🍟 chips",
+     "🥤 cola"
+    ],
+    "h": "Fruit helps the body grow strong; the others are treats."
+   },
+   {
+    "t": "Which fruit is green outside, red inside, with black seeds?",
+    "o": [
+     "🍉 watermelon",
+     "🍌 banana",
+     "🍊 orange",
+     "🍋 lemon"
+    ],
+    "h": "A watermelon is green outside and red inside."
+   },
+   {
+    "t": "Which one is NOT a fruit?",
+    "o": [
+     "🥦 broccoli",
+     "🍓 strawberry",
+     "🍍 pineapple",
+     "🍒 cherry"
+    ],
+    "h": "Broccoli is a vegetable — it is the flower part of the plant."
+   }
+  ],
+  [
+   {
+    "t": "Honey is made by…",
+    "p": "🍯",
+    "o": [
+     "🐝 bees",
+     "🐄 cows",
+     "🐔 hens",
+     "🐟 fish"
+    ],
+    "h": "Bees collect nectar from flowers and turn it into honey."
+   },
+   {
+    "t": "Rice and wheat are grown by…",
+    "p": "🌾",
+    "o": [
+     "🧑‍🌾 farmers",
+     "👩‍🏫 teachers",
+     "👮 police",
+     "🧑‍✈️ pilots"
+    ],
+    "h": "Farmers grow rice and wheat in their fields."
+   },
+   {
+    "t": "Which fruit do we peel before eating?",
+    "o": [
+     "🍌 banana",
+     "🍇 grapes",
+     "🍓 strawberry",
+     "🍒 cherry"
+    ],
+    "h": "We peel off the banana skin; grapes, strawberries and cherries are eaten with their skin."
+   },
+   {
+    "t": "Which meal do we eat in the morning?",
+    "p": "🌅",
+    "o": [
+     "breakfast",
+     "lunch",
+     "dinner"
+    ],
+    "h": "Breakfast is the first meal of the day."
+   },
+   {
+    "t": "Why should we drink clean water?",
+    "p": "💧",
+    "o": [
+     "To stay healthy",
+     "To feel sleepy",
+     "To get dirty",
+     "To grow a tail"
+    ],
+    "h": "Clean water has no germs, so it keeps us healthy."
+   }
+  ]
+ ]
+}

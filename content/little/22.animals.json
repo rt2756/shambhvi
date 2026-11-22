@@ -1,0 +1,198 @@
+{
+ "title": "Animals",
+ "emoji": "🐾",
+ "group": "world",
+ "parent": [
+  {
+   "learn": "Animal sounds and names.",
+   "why": "Matching a sound to an animal is listening practice, and children love it — a good starting point."
+  },
+  {
+   "learn": "Animal homes: bird–nest, bee–hive, dog–kennel, lion–den, spider–web.",
+   "why": "Every animal needs shelter from rain, heat and danger, and builds or finds a home that suits it."
+  },
+  {
+   "learn": "Baby animals: cow–calf, dog–puppy, cat–kitten, hen–chick.",
+   "why": "Many baby animals have their own names; it shows that animals grow up just like people."
+  },
+  {
+   "learn": "Pet, farm and wild animals.",
+   "why": "Pets live with us, farm animals give us food or help with work, and wild animals look after themselves in forests and jungles."
+  }
+ ],
+ "ask": [
+  "What sound does a cow make? A cat? A duck?",
+  "Where does a bird live?",
+  "What is a baby dog called?",
+  "Name an animal that can fly, one that can swim and one that can climb.",
+  "Is a tiger a pet or a wild animal?",
+  "Which animals have you seen near our home?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "Which animal says “moo”?",
+    "o": [
+     "🐄",
+     "🐶",
+     "🐱",
+     "🦆"
+    ],
+    "h": "The cow says moo."
+   },
+   {
+    "t": "Which animal says “woof woof”?",
+    "o": [
+     "🐶",
+     "🐄",
+     "🐱",
+     "🐑"
+    ],
+    "h": "The dog barks: woof woof."
+   },
+   {
+    "t": "Which animal says “quack quack”?",
+    "o": [
+     "🦆",
+     "🐔",
+     "🐶",
+     "🐄"
+    ],
+    "h": "The duck says quack."
+   },
+   {
+    "t": "Which animal can fly?",
+    "o": [
+     "🐦",
+     "🐘",
+     "🐄",
+     "🐟"
+    ],
+    "h": "Birds have wings to fly."
+   },
+   {
+    "t": "Which animal lives in water?",
+    "o": [
+     "🐟",
+     "🐈",
+     "🐐",
+     "🐓"
+    ],
+    "h": "Fish live and breathe in water."
+   }
+  ],
+  [
+   {
+    "t": "A bird lives in a…",
+    "p": "🐦",
+    "o": [
+     "nest",
+     "hive",
+     "kennel",
+     "den"
+    ],
+    "h": "Birds build nests of twigs and grass."
+   },
+   {
+    "t": "A bee lives in a…",
+    "p": "🐝",
+    "o": [
+     "hive",
+     "nest",
+     "kennel",
+     "stable"
+    ],
+    "h": "Bees live together in a hive."
+   },
+   {
+    "t": "A pet dog lives in a…",
+    "p": "🐶",
+    "o": [
+     "kennel",
+     "hive",
+     "den",
+     "web"
+    ],
+    "h": "A kennel is a little house for a dog."
+   },
+   {
+    "t": "A lion lives in a…",
+    "p": "🦁",
+    "o": [
+     "den",
+     "nest",
+     "hive",
+     "kennel"
+    ],
+    "h": "Lions rest in a den."
+   },
+   {
+    "t": "A spider makes a…",
+    "p": "🕷️",
+    "o": [
+     "web",
+     "nest",
+     "hive",
+     "den"
+    ],
+    "h": "Spiders spin webs from silk."
+   }
+  ],
+  [
+   {
+    "t": "A baby cow is called a…",
+    "p": "🐄",
+    "o": [
+     "calf",
+     "puppy",
+     "kitten",
+     "chick"
+    ],
+    "h": "A baby cow is a calf."
+   },
+   {
+    "t": "A baby dog is called a…",
+    "p": "🐶",
+    "o": [
+     "puppy",
+     "calf",
+     "kitten",
+     "cub"
+    ],
+    "h": "A baby dog is a puppy."
+   },
+   {
+    "t": "A baby cat is called a…",
+    "p": "🐱",
+    "o": [
+     "kitten",
+     "puppy",
+     "calf",
+     "chick"
+    ],
+    "h": "A baby cat is a kitten."
+   },
+   {
+    "t": "A baby hen is called a…",
+    "p": "🐔",
+    "o": [
+     "chick",
+     "kitten",
+     "puppy",
+     "calf"
+    ],
+    "h": "A baby hen is a chick."
+   },
+   {
+    "t": "Which one is a wild animal?",
+    "o": [
+     "🐯 tiger",
+     "🐄 cow",
+     "🐐 goat",
+     "🐶 dog"
+    ],
+    "h": "Tigers live in forests and look after themselves; the others live with people."
+   }
+  ]
+ ]
+}

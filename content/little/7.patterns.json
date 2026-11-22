@@ -1,0 +1,190 @@
+{
+ "title": "Patterns",
+ "emoji": "🔁",
+ "group": "maths",
+ "parent": [
+  {
+   "learn": "A pattern has a part that repeats.",
+   "why": "In 🔴🔵🔴🔵 the part “🔴🔵” repeats. Once you find that part, you know what comes next — that is predicting, the heart of maths."
+  },
+  {
+   "learn": "Say the pattern aloud: “red, blue, red, blue…”.",
+   "why": "Hearing the rhythm makes the repeating part easy to notice, especially before the child can read."
+  },
+  {
+   "learn": "Number patterns can grow: 2, 4, 6, 8.",
+   "why": "Here the same amount (2) is added each time. Skip counting like this makes adding and tables quicker later."
+  },
+  {
+   "learn": "Make your own patterns with beads, blocks or claps.",
+   "why": "Making a pattern shows the child really understands the rule, not just spotting it."
+  }
+ ],
+ "ask": [
+  "Clap, clap, stamp, clap, clap, stamp — what comes next?",
+  "Make a pattern with spoons and forks.",
+  "Find a pattern on your clothes, the floor tiles or a curtain.",
+  "Count in twos: 2, 4, 6 … how far can you go?",
+  "Count in tens: 10, 20, 30 … up to 100.",
+  "Red, red, blue, red, red, blue — what comes next?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "What comes next?",
+    "p": "🔴🔵🔴🔵🔴❓",
+    "o": [
+     "🔵",
+     "🔴",
+     "🟢"
+    ],
+    "h": "Red, blue, red, blue… after red comes blue."
+   },
+   {
+    "t": "What comes next?",
+    "p": "🍎🍌🍎🍌❓",
+    "o": [
+     "🍎",
+     "🍌",
+     "🍇"
+    ],
+    "h": "Apple, banana, apple, banana… after banana comes apple."
+   },
+   {
+    "t": "What comes next?",
+    "p": "⭐⭐🌙⭐⭐🌙⭐⭐❓",
+    "o": [
+     "🌙",
+     "⭐",
+     "☀️"
+    ],
+    "h": "Star, star, moon repeats. After two stars comes the moon."
+   },
+   {
+    "t": "What comes next?",
+    "p": "🐶🐱🐶🐱❓",
+    "o": [
+     "🐶",
+     "🐱",
+     "🐭"
+    ],
+    "h": "Dog, cat, dog, cat… next is dog."
+   },
+   {
+    "t": "What comes next?",
+    "p": "🟥🟨🟥🟨❓",
+    "o": [
+     "🟥",
+     "🟨",
+     "🟦"
+    ],
+    "h": "Red, yellow, red, yellow… next is red."
+   }
+  ],
+  [
+   {
+    "t": "What comes next?",
+    "p": "🔺🔺⚪🔺🔺⚪🔺❓",
+    "o": [
+     "🔺",
+     "⚪",
+     "🟦"
+    ],
+    "h": "Triangle, triangle, circle repeats. After one triangle comes another triangle."
+   },
+   {
+    "t": "What is missing?",
+    "p": "🍓🥝🍓❓🍓🥝",
+    "o": [
+     "🥝",
+     "🍓",
+     "🍋"
+    ],
+    "h": "Strawberry, kiwi, strawberry, kiwi… the gap is a kiwi."
+   },
+   {
+    "t": "Clap, clap, stamp… what comes next?",
+    "p": "👏👏🦶 👏👏🦶 👏❓",
+    "o": [
+     "👏",
+     "🦶"
+    ],
+    "h": "The pattern is clap, clap, stamp. After one clap comes the second clap."
+   },
+   {
+    "t": "What comes next? 1, 2, 1, 2, 1, ___",
+    "o": [
+     "2",
+     "1",
+     "3"
+    ],
+    "h": "1, 2 repeats. After 1 comes 2."
+   },
+   {
+    "t": "What comes next? A, B, A, B, A, ___",
+    "o": [
+     "B",
+     "A",
+     "C"
+    ],
+    "h": "A, B repeats. After A comes B.",
+    "x": true
+   }
+  ],
+  [
+   {
+    "t": "What comes next? 2, 4, 6, 8, ___",
+    "o": [
+     "10",
+     "9",
+     "12",
+     "7"
+    ],
+    "h": "Each number is 2 more than the one before: 8 + 2 = 10.",
+    "k": "8+2"
+   },
+   {
+    "t": "What comes next? 5, 10, 15, ___",
+    "o": [
+     "20",
+     "16",
+     "25",
+     "30"
+    ],
+    "h": "Counting in fives: 15 + 5 = 20.",
+    "k": "15+5"
+   },
+   {
+    "t": "What comes next? 10, 20, 30, ___",
+    "o": [
+     "40",
+     "31",
+     "50",
+     "300"
+    ],
+    "h": "Counting in tens: 30 + 10 = 40.",
+    "k": "30+10"
+   },
+   {
+    "t": "What comes next?",
+    "p": "🌕🌕🌑🌕🌕🌑🌕🌕❓",
+    "o": [
+     "🌑",
+     "🌕"
+    ],
+    "h": "Full, full, dark repeats. After two full moons comes a dark one."
+   },
+   {
+    "t": "What comes next? 20, 19, 18, ___",
+    "o": [
+     "17",
+     "19",
+     "16",
+     "81"
+    ],
+    "h": "Counting back by one: 18 − 1 = 17.",
+    "k": "18-1"
+   }
+  ]
+ ]
+}

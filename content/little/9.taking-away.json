@@ -1,0 +1,207 @@
+{
+ "title": "Taking away",
+ "emoji": "➖",
+ "group": "maths",
+ "parent": [
+  {
+   "learn": "Taking away means some go away; count what is left.",
+   "why": "5 birds, 2 fly off — the birds still sitting are the answer. The sign − means “take away”."
+  },
+  {
+   "learn": "Count back to take away.",
+   "why": "For 9 − 3, start at 9 and step back three: 8, 7, 6. It is adding run backwards."
+  },
+  {
+   "learn": "Check by adding back.",
+   "why": "If 9 − 3 = 6, then 6 + 3 should give 9 again. Putting back what left must return to the start."
+  },
+  {
+   "learn": "Taking away 0 changes nothing; taking away all leaves 0.",
+   "why": "If nobody leaves, the group stays the same. If everyone leaves, nobody is left: 0."
+  }
+ ],
+ "ask": [
+  "You have 5 grapes. Eat 2. How many left?",
+  "Hold up 6 fingers, fold down 1. How many still up?",
+  "There are 4 people in the room. 1 goes out. How many now?",
+  "10 − 5 = ? Use your two hands.",
+  "If you have 3 biscuits and eat all of them, how many are left?",
+  "Make up a taking-away story with your toys."
+ ],
+ "rounds": [
+  [
+   {
+    "t": "There were 3 biscuits. One was eaten. How many are left?",
+    "p": "🍪🍪❌",
+    "o": [
+     "2",
+     "3",
+     "1",
+     "4"
+    ],
+    "h": "Start at 3 and count back 1.",
+    "k": "3-1"
+   },
+   {
+    "t": "5 birds. 2 flew away. How many are left?",
+    "p": "🐦🐦🐦❌❌",
+    "o": [
+     "3",
+     "2",
+     "7",
+     "4"
+    ],
+    "h": "Start at 5 and count back 2.",
+    "k": "5-2"
+   },
+   {
+    "t": "4 − 1 = ?",
+    "o": [
+     "3",
+     "4",
+     "5",
+     "2"
+    ],
+    "h": "Start at 4 and count back 1.",
+    "k": "4-1"
+   },
+   {
+    "t": "3 − 3 = ?",
+    "o": [
+     "0",
+     "3",
+     "6",
+     "1"
+    ],
+    "h": "Take all 3 away and nothing is left: 0.",
+    "k": "3-3"
+   },
+   {
+    "t": "5 balloons. 1 popped. How many are left?",
+    "p": "🎈🎈🎈🎈❌",
+    "o": [
+     "4",
+     "5",
+     "6",
+     "3"
+    ],
+    "h": "Start at 5 and count back 1.",
+    "k": "5-1"
+   }
+  ],
+  [
+   {
+    "t": "9 − 4 = ?",
+    "o": [
+     "5",
+     "4",
+     "13",
+     "6"
+    ],
+    "h": "Start at 9 and count back 4.",
+    "k": "9-4"
+   },
+   {
+    "t": "10 − 3 = ?",
+    "o": [
+     "7",
+     "6",
+     "8",
+     "13"
+    ],
+    "h": "Start at 10 and count back 3.",
+    "k": "10-3"
+   },
+   {
+    "t": "8 laddoos on a plate. You eat 2. How many are left?",
+    "o": [
+     "6",
+     "5",
+     "10",
+     "7"
+    ],
+    "h": "Count back 2 from 8: 7, 6.",
+    "k": "8-2"
+   },
+   {
+    "t": "7 − 0 = ?",
+    "o": [
+     "7",
+     "0",
+     "6",
+     "70"
+    ],
+    "h": "Taking away nothing leaves all 7.",
+    "k": "7-0"
+   },
+   {
+    "t": "6 − 5 = ?",
+    "o": [
+     "1",
+     "11",
+     "2",
+     "0"
+    ],
+    "h": "Start at 6 and count back 5.",
+    "k": "6-5"
+   }
+  ],
+  [
+   {
+    "t": "15 − 5 = ?",
+    "o": [
+     "10",
+     "20",
+     "11",
+     "5"
+    ],
+    "h": "15 is 1 ten and 5 ones. Take away the 5 ones and 1 ten is left: 10.",
+    "k": "15-5"
+   },
+   {
+    "t": "18 − 3 = ?",
+    "o": [
+     "15",
+     "21",
+     "14",
+     "16"
+    ],
+    "h": "Start at 18 and count back 3.",
+    "k": "18-3"
+   },
+   {
+    "t": "12 − 4 = ?",
+    "o": [
+     "8",
+     "16",
+     "7",
+     "9"
+    ],
+    "h": "First take 2 to reach 10, then 2 more: 8.",
+    "k": "12-4"
+   },
+   {
+    "t": "20 pencils in a box. 10 are given away. How many are left?",
+    "o": [
+     "10",
+     "30",
+     "2",
+     "11"
+    ],
+    "h": "2 tens take away 1 ten leaves 1 ten: 10.",
+    "k": "20-10"
+   },
+   {
+    "t": "14 − 7 = ?",
+    "o": [
+     "7",
+     "21",
+     "6",
+     "8"
+    ],
+    "h": "7 + 7 = 14, so 14 − 7 = 7.",
+    "k": "14-7"
+   }
+  ]
+ ]
+}

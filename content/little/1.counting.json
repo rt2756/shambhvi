@@ -1,0 +1,222 @@
+{
+ "title": "Counting 1 to 20",
+ "emoji": "🔢",
+ "group": "maths",
+ "parent": [
+  {
+   "learn": "Say one number for each thing, touching it as you go.",
+   "why": "Little children often say numbers faster than they point. Touching each thing once joins one number-word to one object, so nothing is skipped or counted twice."
+  },
+  {
+   "learn": "The last number you say tells how many there are.",
+   "why": "Counting answers the question “how many?”. The last number is the size of the whole group, not the name of the last thing."
+  },
+  {
+   "learn": "Read and write the numerals 0 to 20.",
+   "why": "A numeral is a short way to write an amount. Matching 5 to five things joins the word, the symbol and the amount."
+  },
+  {
+   "learn": "See small amounts at a glance, like the dots on a dice.",
+   "why": "Seeing 3 or 5 without counting (it is called subitising) makes adding quicker later: if you see 5 at once, 5 + 2 is just “6, 7”."
+  },
+  {
+   "learn": "Zero means none.",
+   "why": "An empty plate still has a number of sweets on it: 0. Zero is where counting starts on the number line."
+  }
+ ],
+ "ask": [
+  "Bring me 5 spoons. (Does the child stop at 5?)",
+  "How many chairs are in this room?",
+  "Count the stairs as we climb them.",
+  "Put 7 grapes on a plate — how many? Now eat one — how many now?",
+  "Show me 8 fingers.",
+  "Count backwards from 10 like a rocket — 10, 9, 8 … blast off!",
+  "Write a number from 0 to 20 on paper: what number is this?",
+  "Clap 6 times. Now jump 4 times.",
+  "Empty the toy box: how many toys are in it now?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "How many apples?",
+    "p": "🍎🍎🍎",
+    "o": [
+     "3",
+     "4",
+     "2",
+     "5"
+    ],
+    "h": "Touch each one and say one number: 1, 2, 3 … The last number you say is how many.",
+    "c": "🍎"
+   },
+   {
+    "t": "How many fish?",
+    "p": "🐟🐟🐟🐟🐟",
+    "o": [
+     "5",
+     "6",
+     "4",
+     "7"
+    ],
+    "h": "Touch each one and say one number: 1, 2, 3 … The last number you say is how many.",
+    "c": "🐟"
+   },
+   {
+    "t": "How many stars?",
+    "p": "⭐⭐⭐⭐⭐\n⭐⭐",
+    "o": [
+     "7",
+     "8",
+     "6",
+     "9"
+    ],
+    "h": "Touch each one and say one number: 1, 2, 3 … The last number you say is how many.",
+    "c": "⭐"
+   },
+   {
+    "t": "How many balloons?",
+    "p": "🎈🎈🎈🎈",
+    "o": [
+     "4",
+     "5",
+     "3",
+     "6"
+    ],
+    "h": "Touch each one and say one number: 1, 2, 3 … The last number you say is how many.",
+    "c": "🎈"
+   },
+   {
+    "t": "Which number is six?",
+    "o": [
+     "6",
+     "9",
+     "8",
+     "3"
+    ],
+    "h": "Six is one more than five. It is written 6.",
+    "x": true
+   }
+  ],
+  [
+   {
+    "t": "How many chicks?",
+    "p": "🐥🐥🐥🐥🐥\n🐥🐥🐥",
+    "o": [
+     "8",
+     "9",
+     "7",
+     "10"
+    ],
+    "h": "Touch each one and say one number: 1, 2, 3 … The last number you say is how many.",
+    "c": "🐥"
+   },
+   {
+    "t": "How many flowers?",
+    "p": "🌸🌸🌸🌸🌸\n🌸🌸🌸🌸🌸",
+    "o": [
+     "10",
+     "11",
+     "9",
+     "12"
+    ],
+    "h": "Touch each one and say one number: 1, 2, 3 … The last number you say is how many.",
+    "c": "🌸"
+   },
+   {
+    "t": "How many cars?",
+    "p": "🚗🚗🚗🚗🚗\n🚗🚗🚗🚗",
+    "o": [
+     "9",
+     "10",
+     "8",
+     "11"
+    ],
+    "h": "Touch each one and say one number: 1, 2, 3 … The last number you say is how many.",
+    "c": "🚗"
+   },
+   {
+    "t": "The basket is empty. How many mangoes are in it?",
+    "p": "🧺",
+    "o": [
+     "0",
+     "1",
+     "10",
+     "2"
+    ],
+    "h": "Empty means nothing is there, and nothing is zero: 0."
+   },
+   {
+    "t": "How many fingers are on one hand?",
+    "p": "🖐️",
+    "o": [
+     "5",
+     "4",
+     "10",
+     "6"
+    ],
+    "h": "Count them: thumb 1, then 2, 3, 4, 5. One hand has 5 fingers."
+   }
+  ],
+  [
+   {
+    "t": "How many sweets?",
+    "p": "🍬🍬🍬🍬🍬\n🍬🍬🍬🍬🍬\n🍬🍬",
+    "o": [
+     "12",
+     "13",
+     "11",
+     "14"
+    ],
+    "h": "Each full row has 5. Count the rows in fives (5, 10, 15 …), then count on the rest one by one.",
+    "c": "🍬"
+   },
+   {
+    "t": "How many balls?",
+    "p": "⚽⚽⚽⚽⚽\n⚽⚽⚽⚽⚽\n⚽⚽⚽⚽⚽",
+    "o": [
+     "15",
+     "16",
+     "14",
+     "17"
+    ],
+    "h": "Each full row has 5. Count the rows in fives (5, 10, 15 …), then count on the rest one by one.",
+    "c": "⚽"
+   },
+   {
+    "t": "How many butterflies?",
+    "p": "🦋🦋🦋🦋🦋\n🦋🦋🦋🦋🦋\n🦋🦋🦋🦋🦋\n🦋🦋🦋",
+    "o": [
+     "18",
+     "19",
+     "17",
+     "20"
+    ],
+    "h": "Each full row has 5. Count the rows in fives (5, 10, 15 …), then count on the rest one by one.",
+    "c": "🦋"
+   },
+   {
+    "t": "How many ladybirds?",
+    "p": "🐞🐞🐞🐞🐞\n🐞🐞🐞🐞🐞\n🐞🐞🐞🐞🐞\n🐞🐞🐞🐞🐞",
+    "o": [
+     "20",
+     "21",
+     "19",
+     "22"
+    ],
+    "h": "Each full row has 5. Count the rows in fives (5, 10, 15 …), then count on the rest one by one.",
+    "c": "🐞"
+   },
+   {
+    "t": "Which number is seventeen?",
+    "o": [
+     "17",
+     "71",
+     "70",
+     "7"
+    ],
+    "h": "Seventeen is ten and seven more: a 1 for the ten, then a 7. 71 is seventy-one.",
+    "x": true
+   }
+  ]
+ ]
+}

@@ -1,0 +1,195 @@
+{
+ "title": "Shapes around us",
+ "emoji": "🔺",
+ "group": "maths",
+ "parent": [
+  {
+   "learn": "Circle: round, no corners, no straight sides.",
+   "why": "Every point on a circle's edge is the same distance from the middle. That is why wheels are circles — they roll smoothly."
+  },
+  {
+   "learn": "Triangle: 3 straight sides and 3 corners.",
+   "why": "“Tri” means three. Count the sides with a finger to check."
+  },
+  {
+   "learn": "Square: 4 sides, all the same length. Rectangle: 4 sides, opposite sides the same.",
+   "why": "Both have 4 corners. A square is a rectangle whose sides are all equal — like a stretched square becomes a rectangle."
+  },
+  {
+   "learn": "Find shapes in real things: clock (circle), door (rectangle), pizza slice (triangle).",
+   "why": "Shapes are not just drawings; spotting them at home makes the idea stick."
+  },
+  {
+   "learn": "Some solid things roll, some slide.",
+   "why": "A ball has a curved surface, so it rolls. A box has flat faces, so it slides. Flat faces sit still; curved ones roll."
+  }
+ ],
+ "ask": [
+  "Find something round in this room.",
+  "Find something shaped like a rectangle.",
+  "Draw a triangle. How many corners does it have?",
+  "Which of these rolls: a ball or a book? Try it!",
+  "What shape is a roti? A chapati box?",
+  "Make a square with 4 pencils.",
+  "Count the corners of this book."
+ ],
+ "rounds": [
+  [
+   {
+    "t": "Which is a circle?",
+    "o": [
+     "⚪",
+     "🟥",
+     "🔺",
+     "⭐"
+    ],
+    "h": "A circle is round all the way, with no corners."
+   },
+   {
+    "t": "Which is a triangle?",
+    "o": [
+     "🔺",
+     "🟦",
+     "⚪",
+     "⭐"
+    ],
+    "h": "A triangle has 3 sides and 3 corners."
+   },
+   {
+    "t": "Which is a square?",
+    "o": [
+     "🟦",
+     "🔺",
+     "⚪",
+     "⭐"
+    ],
+    "h": "A square has 4 equal sides and 4 corners."
+   },
+   {
+    "t": "Which is a star?",
+    "o": [
+     "⭐",
+     "⚪",
+     "🟥",
+     "🔺"
+    ],
+    "h": "A star has pointy tips all around."
+   },
+   {
+    "t": "Which one is round like a circle?",
+    "o": [
+     "🍪 biscuit",
+     "📘 book",
+     "🚪 door",
+     "📱 phone"
+    ],
+    "h": "A round biscuit has no corners — like a circle."
+   }
+  ],
+  [
+   {
+    "t": "How many corners does a triangle have?",
+    "o": [
+     "3",
+     "4",
+     "2",
+     "0"
+    ],
+    "h": "Touch each corner: 1, 2, 3."
+   },
+   {
+    "t": "How many sides does a square have?",
+    "o": [
+     "4",
+     "3",
+     "5",
+     "2"
+    ],
+    "h": "Top, bottom, left side, right side: 4."
+   },
+   {
+    "t": "How many corners does a circle have?",
+    "o": [
+     "0",
+     "1",
+     "4",
+     "2"
+    ],
+    "h": "A circle is round all the way round. It has no corners at all: 0."
+   },
+   {
+    "t": "Which is shaped like a triangle?",
+    "o": [
+     "🍕 pizza slice",
+     "⚽ ball",
+     "🚪 door",
+     "🍩 doughnut"
+    ],
+    "h": "A slice of pizza has 3 sides, coming to a point."
+   },
+   {
+    "t": "Which is shaped like a rectangle?",
+    "o": [
+     "🚪 door",
+     "🍕 pizza slice",
+     "⚽ ball",
+     "🍩 doughnut"
+    ],
+    "h": "A door has 4 straight sides — two long and two short."
+   }
+  ],
+  [
+   {
+    "t": "Which one can roll?",
+    "o": [
+     "⚽ ball",
+     "📦 box",
+     "📘 book",
+     "🧱 brick"
+    ],
+    "h": "A ball is curved all over, so it rolls."
+   },
+   {
+    "t": "Which slides but does not roll?",
+    "o": [
+     "📦 box",
+     "⚽ ball",
+     "🍊 orange",
+     "🛞 wheel"
+    ],
+    "h": "A box has flat faces, so it slides instead of rolling."
+   },
+   {
+    "t": "The faces of a dice are shaped like…",
+    "p": "🎲",
+    "o": [
+     "squares",
+     "circles",
+     "triangles"
+    ],
+    "h": "Each face of a dice has 4 equal sides: a square."
+   },
+   {
+    "t": "How many sides do 2 triangles have in all?",
+    "o": [
+     "6",
+     "3",
+     "5",
+     "8"
+    ],
+    "h": "Each triangle has 3 sides: 3 + 3 = 6.",
+    "k": "3+3"
+   },
+   {
+    "t": "How many corners does a rectangle have?",
+    "o": [
+     "4",
+     "2",
+     "3",
+     "5"
+    ],
+    "h": "A rectangle, like a door, has 4 corners."
+   }
+  ]
+ ]
+}

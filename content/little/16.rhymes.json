@@ -1,0 +1,193 @@
+{
+ "title": "Rhyming words",
+ "emoji": "🎵",
+ "group": "words",
+ "parent": [
+  {
+   "learn": "Rhyming words end with the same sound: cat, hat, bat.",
+   "why": "Only the first sound changes; the ending “-at” stays. Hearing that shows the child that words are made of parts."
+  },
+  {
+   "learn": "Change the first sound to make a new word.",
+   "why": "cat → hat → mat → rat. This is how word families work, and it lets a child read many new words from one they know."
+  },
+  {
+   "learn": "Sing nursery rhymes and stop before the rhyming word.",
+   "why": "Letting the child fill the gap (“Twinkle, twinkle, little star, how I wonder what you…”) trains the ear to expect the rhyme."
+  }
+ ],
+ "ask": [
+  "What rhymes with cat? Say as many as you can.",
+  "Do “sun” and “fun” rhyme? Do “sun” and “sit”?",
+  "Sing “Twinkle, Twinkle” and stop before the last word of each line.",
+  "Make a silly rhyme with your name.",
+  "Which word does not rhyme: hen, pen, ten, cup?",
+  "What rhymes with bee?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "Which word rhymes with cat?",
+    "p": "🐱",
+    "o": [
+     "🎩 hat",
+     "🐶 dog",
+     "☀️ sun",
+     "🐟 fish"
+    ],
+    "h": "cat — hat: both end in “-at”."
+   },
+   {
+    "t": "Which word rhymes with sun?",
+    "o": [
+     "run",
+     "sit",
+     "bed",
+     "pig"
+    ],
+    "h": "sun — run: both end in “-un”."
+   },
+   {
+    "t": "Which word rhymes with dog?",
+    "p": "🐶",
+    "o": [
+     "🐸 frog",
+     "🐱 cat",
+     "☀️ sun",
+     "☕ cup"
+    ],
+    "h": "dog — frog: both end in “-og”."
+   },
+   {
+    "t": "Which word rhymes with bee?",
+    "p": "🐝",
+    "o": [
+     "🌳 tree",
+     "🚌 bus",
+     "🖊️ pen",
+     "🎂 cake"
+    ],
+    "h": "bee — tree: both end in “-ee”."
+   },
+   {
+    "t": "Which word rhymes with bell?",
+    "p": "🔔",
+    "o": [
+     "well",
+     "ball",
+     "bat",
+     "box"
+    ],
+    "h": "bell — well: both end in “-ell”. Ball starts the same but ends differently."
+   }
+  ],
+  [
+   {
+    "t": "Which two words rhyme?",
+    "o": [
+     "cake – lake",
+     "cake – cup",
+     "sun – sit",
+     "bat – bus"
+    ],
+    "h": "cake and lake both end in “-ake”."
+   },
+   {
+    "t": "Which word does NOT rhyme with pin?",
+    "o": [
+     "pan",
+     "tin",
+     "bin",
+     "win"
+    ],
+    "h": "tin, bin, win all end in “-in”. pan ends in “-an”."
+   },
+   {
+    "t": "Which word rhymes with car?",
+    "p": "🚗",
+    "o": [
+     "⭐ star",
+     "🐱 cat",
+     "☕ cup",
+     "🌙 moon"
+    ],
+    "h": "car — star: both end in “-ar”."
+   },
+   {
+    "t": "Which word rhymes with red?",
+    "o": [
+     "🛏️ bed",
+     "🐀 rat",
+     "🏃 run",
+     "🪵 log"
+    ],
+    "h": "red — bed: both end in “-ed”."
+   },
+   {
+    "t": "Twinkle, twinkle, little star, how I wonder what you ___",
+    "p": "⭐",
+    "o": [
+     "are",
+     "is",
+     "see",
+     "go"
+    ],
+    "h": "star — are: the rhyme finishes the line."
+   }
+  ],
+  [
+   {
+    "t": "Which word rhymes with nest?",
+    "o": [
+     "best",
+     "net",
+     "nut",
+     "neck"
+    ],
+    "h": "nest — best: both end in “-est”. net starts the same but ends differently."
+   },
+   {
+    "t": "Which word is in the same family as man?",
+    "o": [
+     "fan",
+     "men",
+     "mat",
+     "map"
+    ],
+    "h": "man and fan both end in “-an”."
+   },
+   {
+    "t": "Which one does not rhyme? hen, pen, ten, hat",
+    "o": [
+     "hat",
+     "hen",
+     "pen",
+     "ten"
+    ],
+    "h": "hen, pen, ten end in “-en”; hat ends in “-at”."
+   },
+   {
+    "t": "Which word rhymes with king?",
+    "p": "👑",
+    "o": [
+     "💍 ring",
+     "🪁 kite",
+     "🦵 kick",
+     "🪙 coin"
+    ],
+    "h": "king — ring: both end in “-ing”."
+   },
+   {
+    "t": "Which word rhymes with light?",
+    "p": "💡",
+    "o": [
+     "🪁 kite",
+     "🛗 lift",
+     "🦁 lion",
+     "🦵 leg"
+    ],
+    "h": "light — kite: both end with the “-ite” sound, even though they are spelt differently."
+   }
+  ]
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "title": "My day and the week",
+ "emoji": "📅",
+ "group": "maths",
+ "parent": [
+  {
+   "learn": "Parts of the day: morning, afternoon, evening, night.",
+   "why": "The sun rises in the morning and sets in the evening; this daily cycle is how we first understand time."
+  },
+  {
+   "learn": "What happens before and after.",
+   "why": "We wake up before we go to school. Putting events in order is the first step to planning and to telling stories."
+  },
+  {
+   "learn": "The 7 days of the week, in order.",
+   "why": "The week repeats like a pattern: after Sunday, Monday comes again. Knowing the order lets the child work out tomorrow and yesterday."
+  },
+  {
+   "learn": "Today, tomorrow, yesterday.",
+   "why": "Tomorrow is the day after today; yesterday is the day before. These are just “after” and “before” for days."
+  },
+  {
+   "learn": "Some things take a long time, some a short time.",
+   "why": "Sleeping takes many hours; blinking takes less than a second. Comparing durations comes before reading a clock."
+  }
+ ],
+ "ask": [
+  "What did you do this morning? What will you do tonight?",
+  "What do you do first: brush your teeth or eat breakfast?",
+  "Say the days of the week.",
+  "What day is today? What day will tomorrow be?",
+  "What day was yesterday?",
+  "Which takes longer: having a bath or eating a biscuit?",
+  "Which day do you like best? Why?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "When does the sun come up?",
+    "o": [
+     "🌅 Morning",
+     "🌙 Night",
+     "🌇 Evening"
+    ],
+    "h": "The sun rises in the morning and the day begins."
+   },
+   {
+    "t": "When do we go to sleep?",
+    "o": [
+     "🌙 Night",
+     "🌅 Morning",
+     "☀️ Afternoon"
+    ],
+    "h": "When it gets dark at night, we sleep."
+   },
+   {
+    "t": "What do we do first?",
+    "o": [
+     "⏰ Wake up",
+     "🏫 Go to school"
+    ],
+    "h": "We have to wake up before we can go to school."
+   },
+   {
+    "t": "The moon and stars come out at…",
+    "p": "🌙⭐",
+    "o": [
+     "night",
+     "morning",
+     "afternoon"
+    ],
+    "h": "We see the moon and stars in the dark night sky."
+   },
+   {
+    "t": "We eat lunch in the…",
+    "p": "🍛",
+    "o": [
+     "afternoon",
+     "night",
+     "early morning"
+    ],
+    "h": "Lunch is the middle meal, around the middle of the day."
+   }
+  ],
+  [
+   {
+    "t": "How many days are in a week?",
+    "o": [
+     "7",
+     "5",
+     "10",
+     "12"
+    ],
+    "h": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday: 7 days.",
+    "k": "7"
+   },
+   {
+    "t": "Which day comes after Monday?",
+    "o": [
+     "Tuesday",
+     "Sunday",
+     "Friday",
+     "Thursday"
+    ],
+    "h": "Monday, then Tuesday."
+   },
+   {
+    "t": "Which day comes before Friday?",
+    "o": [
+     "Thursday",
+     "Saturday",
+     "Monday",
+     "Sunday"
+    ],
+    "h": "Thursday, then Friday."
+   },
+   {
+    "t": "Sunday comes after…",
+    "o": [
+     "Saturday",
+     "Monday",
+     "Friday",
+     "Wednesday"
+    ],
+    "h": "Saturday, then Sunday — the end of the week."
+   },
+   {
+    "t": "Which day is a holiday for most schools?",
+    "o": [
+     "Sunday",
+     "Tuesday",
+     "Wednesday",
+     "Thursday"
+    ],
+    "h": "Most schools are closed on Sunday."
+   }
+  ],
+  [
+   {
+    "t": "Today is Wednesday. Tomorrow will be…",
+    "o": [
+     "Thursday",
+     "Tuesday",
+     "Friday",
+     "Monday"
+    ],
+    "h": "Tomorrow is the next day: after Wednesday comes Thursday."
+   },
+   {
+    "t": "Yesterday was Sunday. Today is…",
+    "o": [
+     "Monday",
+     "Saturday",
+     "Tuesday",
+     "Friday"
+    ],
+    "h": "Today is the day after yesterday: after Sunday comes Monday."
+   },
+   {
+    "t": "Which takes longer?",
+    "o": [
+     "😴 Sleeping at night",
+     "🪥 Brushing teeth"
+    ],
+    "h": "We sleep for many hours; brushing takes only a few minutes."
+   },
+   {
+    "t": "Which takes less time?",
+    "o": [
+     "👁️ Blinking your eyes",
+     "🍛 Eating lunch"
+    ],
+    "h": "A blink is over in a moment; lunch takes a while."
+   },
+   {
+    "t": "A clock tells us the…",
+    "p": "🕐",
+    "o": [
+     "time",
+     "weather",
+     "colour"
+    ],
+    "h": "We look at a clock to know what time it is."
+   }
+  ]
+ ]
+}

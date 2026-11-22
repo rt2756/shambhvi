@@ -39,6 +39,7 @@ Content is bucketed **by class** (5–10); vocabulary and the to-do list are cla
 | `content/vocab/` · `content/math-todo/` | Class-free: word power, and the tables/squares/cubes checklist. |
 | `content/grammar/notes/*.md` · `content/grammar/tests/*.json` | Class-free **English grammar**: 21 lessons (CBSE / NCERT classes 5–10, mapped in `0.syllabus.md`) + four tests per lesson. Pages: `grammar.html`, `grammar-tests.html`. |
 | `content/music/notes/*.md` · `content/music/practice/*.md` · `content/music/tests/*.json` | Class-free **music theory + electric-guitar practice**: theory lessons (map in `0.syllabus.md`), a week-by-week 30-min practice plan with tick-off days (`data-mode="todo"`), and four tests per lesson. Pages: `music.html`, `guitar-practice.html`, `music-tests.html`. Check with `python3 tools/check_tests.py music`. |
+| `little.html` · `assets/js/little.js` · `content/little/*.json` | **Little Learners** (ages 4–6, pre-school → Class 1): 24 topics × 3 rounds × 5 tap-the-picture questions, read aloud, plus grown-up notes (with the *why*) and spoken questions. Edit `tools/build_little.py`, then run it and `python3 tools/check_little.py`. |
 | `index.html` | **Home** — the class picker (2–10) plus the class-free sections. |
 | `class<N>-math.html` · `class<N>-science.html` | One page per class per subject. |
 | `class7-math-questions.html` · `class7-science-questions.html` · `class7-saved.html` · `class7-links.html` | The extra class-7 pages. |

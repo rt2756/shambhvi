@@ -1,0 +1,199 @@
+{
+ "title": "My body and senses",
+ "emoji": "🧒",
+ "group": "world",
+ "parent": [
+  {
+   "learn": "Names of body parts: head, eyes, ears, nose, mouth, hands, fingers, legs, feet.",
+   "why": "Knowing the names lets the child tell you where it hurts and follow instructions like “wash your hands”."
+  },
+  {
+   "learn": "Five senses: eyes see, ears hear, nose smells, tongue tastes, skin feels.",
+   "why": "These are the only ways we learn about the world — every fact the child knows came in through one of them."
+  },
+  {
+   "learn": "Wash hands before eating and after the toilet.",
+   "why": "Germs are too small to see but can make us ill. Soap and water wash them away before they get into the mouth."
+  },
+  {
+   "learn": "Our body needs food, water, sleep and play.",
+   "why": "Food and water give energy and help us grow; sleep lets the body rest and repair."
+  }
+ ],
+ "ask": [
+  "Touch your nose. Now your knees. Now your elbows.",
+  "Close your eyes: what can you hear?",
+  "Smell this (a flower, a spice). Is it nice?",
+  "Taste this: is it sweet, salty or sour?",
+  "Touch this ice cube: hot or cold?",
+  "Why do we wash our hands before eating?",
+  "How many fingers do you have in all?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "We see with our…",
+    "o": [
+     "👀 eyes",
+     "👂 ears",
+     "👃 nose",
+     "👄 mouth"
+    ],
+    "h": "Our eyes let us see colours and shapes."
+   },
+   {
+    "t": "We hear with our…",
+    "o": [
+     "👂 ears",
+     "👀 eyes",
+     "👃 nose",
+     "✋ hands"
+    ],
+    "h": "Sounds go into our ears."
+   },
+   {
+    "t": "We smell with our…",
+    "o": [
+     "👃 nose",
+     "👂 ears",
+     "👀 eyes",
+     "🦶 feet"
+    ],
+    "h": "We breathe in smells through our nose."
+   },
+   {
+    "t": "How many fingers are on one hand?",
+    "p": "✋",
+    "o": [
+     "5",
+     "4",
+     "10",
+     "6"
+    ],
+    "h": "Thumb and four fingers: 5.",
+    "k": "5"
+   },
+   {
+    "t": "We walk with our…",
+    "o": [
+     "🦵 legs",
+     "👂 ears",
+     "👃 nose",
+     "👀 eyes"
+    ],
+    "h": "Legs and feet carry us when we walk and run."
+   }
+  ],
+  [
+   {
+    "t": "We taste food with our…",
+    "o": [
+     "👅 tongue",
+     "👃 nose",
+     "👂 ears",
+     "✋ hands"
+    ],
+    "h": "The tongue tells sweet, salty and sour."
+   },
+   {
+    "t": "We feel hot and cold with our…",
+    "o": [
+     "skin",
+     "ears",
+     "eyes",
+     "hair"
+    ],
+    "h": "Our skin feels touch, heat and cold."
+   },
+   {
+    "t": "How many eyes do we have?",
+    "o": [
+     "2",
+     "1",
+     "3",
+     "4"
+    ],
+    "h": "One on each side of the nose: 2.",
+    "k": "2"
+   },
+   {
+    "t": "Which body part helps you hold a pencil?",
+    "p": "✏️",
+    "o": [
+     "✋ hand",
+     "🦶 foot",
+     "👂 ear",
+     "👃 nose"
+    ],
+    "h": "Fingers on the hand hold and grip things."
+   },
+   {
+    "t": "We chew food with our…",
+    "o": [
+     "🦷 teeth",
+     "👀 eyes",
+     "👂 ears",
+     "🦵 legs"
+    ],
+    "h": "Teeth cut and grind food so we can swallow it."
+   }
+  ],
+  [
+   {
+    "t": "You smell a flower with your…",
+    "p": "🌸",
+    "o": [
+     "👃 nose",
+     "👀 eyes",
+     "👂 ears",
+     "👅 tongue"
+    ],
+    "h": "Smell is the sense of the nose."
+   },
+   {
+    "t": "You hear a bell with your…",
+    "p": "🔔",
+    "o": [
+     "👂 ears",
+     "👀 eyes",
+     "👃 nose",
+     "✋ hands"
+    ],
+    "h": "A ringing sound goes into the ears."
+   },
+   {
+    "t": "Why do we wash our hands before eating?",
+    "p": "🧼",
+    "o": [
+     "To wash away germs",
+     "To make them cold",
+     "To make them big",
+     "For no reason"
+    ],
+    "h": "Germs on our hands could go into our mouth with the food. Soap washes them off."
+   },
+   {
+    "t": "Which sense tells you that ice is cold?",
+    "p": "🧊",
+    "o": [
+     "touch",
+     "smell",
+     "hearing",
+     "sight"
+    ],
+    "h": "Our skin feels the cold when we touch the ice."
+   },
+   {
+    "t": "How many senses do we have?",
+    "o": [
+     "5",
+     "2",
+     "10",
+     "3"
+    ],
+    "h": "Seeing, hearing, smelling, tasting, touching: 5.",
+    "k": "5"
+   }
+  ]
+ ]
+}

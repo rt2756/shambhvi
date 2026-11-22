@@ -1,0 +1,198 @@
+{
+ "title": "Money",
+ "emoji": "🪙",
+ "group": "maths",
+ "parent": [
+  {
+   "learn": "Know the Indian coins (₹1, ₹2, ₹5, ₹10, ₹20) and notes (₹10, ₹20, ₹50, ₹100).",
+   "why": "The number printed on the coin or note is what it is worth — not its size. A bigger coin is not always worth more."
+  },
+  {
+   "learn": "Add coins to make an amount.",
+   "why": "₹5 and ₹2 is ₹7: adding money is the same adding as with apples, just with a ₹ sign."
+  },
+  {
+   "learn": "The same amount can be made in different ways.",
+   "why": "₹10 can be one ₹10 coin, two ₹5 coins, or five ₹2 coins. This is what “change” at the shop is about."
+  },
+  {
+   "learn": "Change is what you get back.",
+   "why": "If something costs ₹6 and you pay ₹10, the shopkeeper gives back ₹10 − ₹6 = ₹4. Change is taking away."
+  }
+ ],
+ "ask": [
+  "Look at a ₹5 coin: what number is on it?",
+  "Play shop at home: a toffee costs ₹2. Pay me.",
+  "Give me ₹10 using only ₹5 coins.",
+  "You have ₹5. Can you buy a ₹10 toy?",
+  "A banana is ₹3 and an apple is ₹4. How much for both?",
+  "I pay ₹10 for a ₹7 pen. What change do I get?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "Which is worth the most?",
+    "o": [
+     "₹10",
+     "₹1",
+     "₹2",
+     "₹5"
+    ],
+    "h": "10 is the biggest number, so the ₹10 coin is worth the most."
+   },
+   {
+    "t": "Which is worth less: ₹2 or ₹5?",
+    "o": [
+     "₹2",
+     "₹5"
+    ],
+    "h": "2 is less than 5."
+   },
+   {
+    "t": "We use money to…",
+    "o": [
+     "buy things 🛒",
+     "eat 🍽️",
+     "sleep 😴"
+    ],
+    "h": "We pay money at the shop to buy what we need."
+   },
+   {
+    "t": "Two ₹1 coins make…",
+    "o": [
+     "₹2",
+     "₹1",
+     "₹11",
+     "₹3"
+    ],
+    "h": "₹1 + ₹1 = ₹2.",
+    "k": "1+1"
+   },
+   {
+    "t": "A ₹5 coin and a ₹1 coin make…",
+    "o": [
+     "₹6",
+     "₹5",
+     "₹4",
+     "₹51"
+    ],
+    "h": "₹5 + ₹1 = ₹6.",
+    "k": "5+1"
+   }
+  ],
+  [
+   {
+    "t": "₹5 + ₹5 = ?",
+    "o": [
+     "₹10",
+     "₹55",
+     "₹5",
+     "₹9"
+    ],
+    "h": "Five and five make ten.",
+    "k": "5+5"
+   },
+   {
+    "t": "₹2 + ₹2 + ₹2 = ?",
+    "o": [
+     "₹6",
+     "₹4",
+     "₹222",
+     "₹8"
+    ],
+    "h": "2, 4, 6 — counting in twos.",
+    "k": "2+2+2"
+   },
+   {
+    "t": "A toffee costs ₹2. You have ₹5. Can you buy it?",
+    "p": "🍬",
+    "o": [
+     "Yes",
+     "No"
+    ],
+    "h": "₹5 is more than ₹2, so you have enough — and some left over."
+   },
+   {
+    "t": "A ball costs ₹10. You have ₹5. How much more do you need?",
+    "p": "⚽",
+    "o": [
+     "₹5",
+     "₹10",
+     "₹15",
+     "₹0"
+    ],
+    "h": "From 5 to 10 is 5 more: 10 − 5 = 5.",
+    "k": "10-5"
+   },
+   {
+    "t": "Which note is the biggest amount?",
+    "o": [
+     "₹100",
+     "₹10",
+     "₹50",
+     "₹20"
+    ],
+    "h": "100 is more than 50, 20 or 10."
+   }
+  ],
+  [
+   {
+    "t": "A pencil costs ₹5 and an eraser costs ₹3. How much for both?",
+    "p": "✏️ ➕ 🧽",
+    "o": [
+     "₹8",
+     "₹2",
+     "₹53",
+     "₹7"
+    ],
+    "h": "Put the prices together: ₹5 + ₹3 = ₹8.",
+    "k": "5+3"
+   },
+   {
+    "t": "A chocolate costs ₹6. You pay ₹10. How much change do you get back?",
+    "p": "🍫",
+    "o": [
+     "₹4",
+     "₹16",
+     "₹6",
+     "₹3"
+    ],
+    "h": "Change = what you paid − the price: 10 − 6 = 4.",
+    "k": "10-6"
+   },
+   {
+    "t": "₹10 + ₹10 + ₹5 = ?",
+    "o": [
+     "₹25",
+     "₹20",
+     "₹15",
+     "₹30"
+    ],
+    "h": "10, 20, and 5 more is 25.",
+    "k": "10+10+5"
+   },
+   {
+    "t": "How many ₹2 coins make ₹10?",
+    "o": [
+     "5",
+     "2",
+     "10",
+     "8"
+    ],
+    "h": "Count in twos up to 10: 2, 4, 6, 8, 10 — that is 5 coins.",
+    "k": "10//2"
+   },
+   {
+    "t": "One ₹20 note is the same as how many ₹10 notes?",
+    "o": [
+     "2",
+     "10",
+     "20",
+     "1"
+    ],
+    "h": "₹10 + ₹10 = ₹20, so two ₹10 notes.",
+    "k": "20//10"
+   }
+  ]
+ ]
+}

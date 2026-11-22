@@ -1,0 +1,198 @@
+{
+ "title": "Letters A to Z",
+ "emoji": "🔠",
+ "group": "words",
+ "parent": [
+  {
+   "learn": "English has 26 letters, in a fixed order A to Z.",
+   "why": "The order matters for later — dictionaries, names on lists — and makes “what comes next” questions possible."
+  },
+  {
+   "learn": "Point to each letter while singing the ABC song.",
+   "why": "Singing alone blurs “L-M-N-O-P” into one sound; pointing joins each sung name to one letter shape."
+  },
+  {
+   "learn": "Know letters out of order, not just in the song.",
+   "why": "In books letters are mixed up, so the child must recognise M by its shape, not by where it comes in the song."
+  },
+  {
+   "learn": "Watch out for look-alikes: M and W, N and Z, E and F.",
+   "why": "Some letters are the same shape turned or with a line missing; noticing the difference is real reading skill."
+  },
+  {
+   "learn": "Vowels: A, E, I, O, U.",
+   "why": "Almost every English word has one of these. Class 1 uses them to read words like c-a-t."
+  }
+ ],
+ "ask": [
+  "Sing the ABC song while pointing at the letters.",
+  "Find the letter that starts your name.",
+  "What letter comes after D?",
+  "Spot the letter M on a packet or a sign.",
+  "Write the letters A to E.",
+  "What is the last letter of the alphabet?",
+  "Which letters are in the word MAMA?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "Which one is the letter A?",
+    "o": [
+     "A",
+     "H",
+     "V",
+     "B"
+    ],
+    "h": "A looks like a pointed roof with a bar across.",
+    "x": true
+   },
+   {
+    "t": "Which one is the letter M?",
+    "o": [
+     "M",
+     "W",
+     "N",
+     "H"
+    ],
+    "h": "M has two pointed tops, like two hills. W is M upside down.",
+    "x": true
+   },
+   {
+    "t": "What is the first letter of the alphabet?",
+    "o": [
+     "A",
+     "Z",
+     "B",
+     "M"
+    ],
+    "h": "The alphabet starts A, B, C…"
+   },
+   {
+    "t": "What is the last letter of the alphabet?",
+    "o": [
+     "Z",
+     "A",
+     "Y",
+     "X"
+    ],
+    "h": "…X, Y, Z. Z is last."
+   },
+   {
+    "t": "Which one is the letter S?",
+    "o": [
+     "S",
+     "Z",
+     "C",
+     "5"
+    ],
+    "h": "S curves like a snake. 5 is a number, not a letter.",
+    "x": true
+   }
+  ],
+  [
+   {
+    "t": "Which letter comes after B?",
+    "o": [
+     "C",
+     "A",
+     "D",
+     "E"
+    ],
+    "h": "A, B, C — C comes right after B."
+   },
+   {
+    "t": "Which letter comes before E?",
+    "o": [
+     "D",
+     "F",
+     "C",
+     "B"
+    ],
+    "h": "…C, D, E — D is just before E."
+   },
+   {
+    "t": "Which letter is between G and I?",
+    "o": [
+     "H",
+     "J",
+     "F",
+     "K"
+    ],
+    "h": "G, H, I — H is in the middle."
+   },
+   {
+    "t": "Which letter comes after R?",
+    "o": [
+     "S",
+     "Q",
+     "T",
+     "P"
+    ],
+    "h": "…Q, R, S — S comes after R."
+   },
+   {
+    "t": "What is missing? A B C ___ E",
+    "o": [
+     "D",
+     "F",
+     "G",
+     "B"
+    ],
+    "h": "A, B, C, D, E — the gap is D.",
+    "x": true
+   }
+  ],
+  [
+   {
+    "t": "How many letters are in the English alphabet?",
+    "o": [
+     "26",
+     "24",
+     "10",
+     "52"
+    ],
+    "h": "A to Z is 26 letters. Count them while singing the song.",
+    "k": "26"
+   },
+   {
+    "t": "Which letter comes after M?",
+    "o": [
+     "N",
+     "L",
+     "O",
+     "W"
+    ],
+    "h": "…L, M, N — N comes after M."
+   },
+   {
+    "t": "Which letter comes before T?",
+    "o": [
+     "S",
+     "U",
+     "R",
+     "V"
+    ],
+    "h": "…R, S, T — S is just before T."
+   },
+   {
+    "t": "Which comes first in the alphabet: P or K?",
+    "o": [
+     "K",
+     "P"
+    ],
+    "h": "…J, K, L, M, N, O, P. K comes before P."
+   },
+   {
+    "t": "Which one is a vowel?",
+    "o": [
+     "E",
+     "B",
+     "T",
+     "M"
+    ],
+    "h": "The vowels are A, E, I, O, U. E is one of them.",
+    "x": true
+   }
+  ]
+ ]
+}

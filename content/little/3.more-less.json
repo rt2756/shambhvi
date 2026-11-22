@@ -1,0 +1,173 @@
+{
+ "title": "More, less, same",
+ "emoji": "⚖️",
+ "group": "maths",
+ "parent": [
+  {
+   "learn": "Compare two groups by pairing them up.",
+   "why": "Match each thing in one group with one in the other. The group with things left over has more — you don't even need to count."
+  },
+  {
+   "learn": "Use the words more, fewer (less) and same.",
+   "why": "These words come before signs like > and <; the child needs the idea first and the symbol later."
+  },
+  {
+   "learn": "A bigger number means more.",
+   "why": "Numbers come in counting order. A number said later in counting is always more than one said earlier."
+  },
+  {
+   "learn": "For two-digit numbers, look at the tens first.",
+   "why": "One ten is more than any pile of up to 9 loose ones, so 45 is less than 54: four tens is less than five tens."
+  }
+ ],
+ "ask": [
+  "Give two plates of biscuits: which plate has more? How do you know?",
+  "Are there more spoons or more forks in the drawer?",
+  "Who has more fingers up: you (3) or me (5)?",
+  "Which is more, 7 or 4?",
+  "Make your pile the same as mine.",
+  "Which is bigger, 45 or 54? Why?",
+  "Are there fewer people or fewer chairs at the dinner table?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "Which side has more?",
+    "o": [
+     "🍎🍎🍎🍎",
+     "🍎🍎"
+    ],
+    "h": "Pair them up: two apples on the left have no partner, so the left has more."
+   },
+   {
+    "t": "Which side has less?",
+    "o": [
+     "🐟",
+     "🐟🐟🐟"
+    ],
+    "h": "One fish is less than three fish."
+   },
+   {
+    "t": "Are these the same number? 🌸🌸🌸 and 🌼🌼🌼",
+    "o": [
+     "Yes, the same",
+     "No"
+    ],
+    "h": "Pair each pink flower with a yellow one — none are left over, so they are the same: 3 and 3."
+   },
+   {
+    "t": "Which are more: dogs or cats?",
+    "p": "🐶🐶🐶🐶🐶\n🐱🐱🐱",
+    "o": [
+     "🐶 Dogs",
+     "🐱 Cats"
+    ],
+    "h": "5 dogs and 3 cats: 5 is more than 3."
+   },
+   {
+    "t": "Which has more?",
+    "o": [
+     "🍪🍪🍪🍪🍪",
+     "🍪🍪🍪",
+     "🍪",
+     "🍪🍪"
+    ],
+    "h": "Count each plate: 5, 3, 1, 2. Five is the most."
+   }
+  ],
+  [
+   {
+    "t": "Which number is bigger: 7 or 4?",
+    "o": [
+     "7",
+     "4"
+    ],
+    "h": "When counting, 7 comes after 4, so 7 is bigger."
+   },
+   {
+    "t": "Which number is smaller: 9 or 6?",
+    "o": [
+     "6",
+     "9"
+    ],
+    "h": "6 comes before 9 when counting, so it is smaller."
+   },
+   {
+    "t": "Ravi has 5 sweets. Meena has 8 sweets. Who has more?",
+    "o": [
+     "Meena",
+     "Ravi"
+    ],
+    "h": "8 is more than 5, so Meena has more."
+   },
+   {
+    "t": "Which is the biggest number?",
+    "o": [
+     "10",
+     "3",
+     "6",
+     "8"
+    ],
+    "h": "10 comes last when we count, so it is the biggest."
+   },
+   {
+    "t": "Who has fewer chicks: Asha or Ben?",
+    "p": "Asha: 🐥🐥🐥🐥🐥🐥\nBen: 🐥🐥🐥🐥",
+    "o": [
+     "Ben",
+     "Asha"
+    ],
+    "h": "Asha has 6, Ben has 4. 4 is fewer than 6."
+   }
+  ],
+  [
+   {
+    "t": "Which is bigger: 45 or 54?",
+    "o": [
+     "54",
+     "45"
+    ],
+    "h": "Look at the tens: 54 has 5 tens, 45 has only 4 tens. So 54 is bigger.",
+    "x": true
+   },
+   {
+    "t": "Which is smaller: 38 or 83?",
+    "o": [
+     "38",
+     "83"
+    ],
+    "h": "38 has 3 tens, 83 has 8 tens. Fewer tens means smaller.",
+    "x": true
+   },
+   {
+    "t": "Which is the biggest?",
+    "o": [
+     "91",
+     "19",
+     "29",
+     "90"
+    ],
+    "h": "91 and 90 both have 9 tens. Then the ones: 1 is more than 0, so 91."
+   },
+   {
+    "t": "Mohan has 12 marbles and Sita has 12 marbles. Who has more?",
+    "o": [
+     "Both have the same",
+     "Mohan",
+     "Sita"
+    ],
+    "h": "12 and 12 are equal — the same number."
+   },
+   {
+    "t": "Which is the smallest?",
+    "o": [
+     "17",
+     "70",
+     "71",
+     "27"
+    ],
+    "h": "17 has just 1 ten. All the others have more tens."
+   }
+  ]
+ ]
+}

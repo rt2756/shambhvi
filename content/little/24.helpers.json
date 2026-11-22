@@ -1,0 +1,189 @@
+{
+ "title": "People who help us",
+ "emoji": "🧑‍🚒",
+ "group": "world",
+ "parent": [
+  {
+   "learn": "Helpers and their jobs: doctor, teacher, farmer, police officer, firefighter, postman, driver.",
+   "why": "Knowing who does what tells the child whom to go to for help, and that many people work so we can have food, safety and school."
+  },
+  {
+   "learn": "Where they work: doctor–hospital, teacher–school, farmer–field.",
+   "why": "Linking a job with a place helps the child understand their town and neighbourhood."
+  },
+  {
+   "learn": "If lost, ask a police officer or a shopkeeper — and know a parent's phone number.",
+   "why": "These are safe grown-ups in a known place. India's emergency number is 112."
+  }
+ ],
+ "ask": [
+  "Who helps us when we are ill?",
+  "Who brings letters and parcels to our home?",
+  "What does a farmer grow?",
+  "What would you like to be when you grow up? What will you do?",
+  "If you get lost in a shop, whom will you ask for help?",
+  "Can you say Mummy's or Papa's phone number?"
+ ],
+ "rounds": [
+  [
+   {
+    "t": "Who teaches us at school?",
+    "o": [
+     "👩‍🏫 teacher",
+     "👨‍🍳 cook",
+     "👨‍🌾 farmer",
+     "👮 police officer"
+    ],
+    "h": "A teacher helps us learn at school."
+   },
+   {
+    "t": "Who helps us when we are ill?",
+    "o": [
+     "👩‍⚕️ doctor",
+     "👨‍🏫 teacher",
+     "👷 builder",
+     "👨‍🍳 cook"
+    ],
+    "h": "A doctor checks us and gives medicine."
+   },
+   {
+    "t": "Who grows our food?",
+    "o": [
+     "👨‍🌾 farmer",
+     "👩‍⚕️ doctor",
+     "👮 police officer",
+     "🧑‍✈️ pilot"
+    ],
+    "h": "Farmers grow rice, wheat, fruits and vegetables."
+   },
+   {
+    "t": "Who puts out fires?",
+    "o": [
+     "🧑‍🚒 firefighter",
+     "👩‍🏫 teacher",
+     "👨‍🌾 farmer",
+     "👨‍🍳 cook"
+    ],
+    "h": "Firefighters use water to put out fires."
+   },
+   {
+    "t": "Who brings letters to our home?",
+    "o": [
+     "📮 postman",
+     "👨‍⚕️ doctor",
+     "👨‍🍳 cook",
+     "👨‍🌾 farmer"
+    ],
+    "h": "The postman delivers letters and parcels."
+   }
+  ],
+  [
+   {
+    "t": "Who drives a bus?",
+    "p": "🚌",
+    "o": [
+     "driver",
+     "tailor",
+     "barber",
+     "farmer"
+    ],
+    "h": "A driver drives buses, cars and trucks."
+   },
+   {
+    "t": "Who cuts our hair?",
+    "p": "💇",
+    "o": [
+     "barber",
+     "driver",
+     "doctor",
+     "postman"
+    ],
+    "h": "A barber cuts hair."
+   },
+   {
+    "t": "Who makes tables and chairs from wood?",
+    "p": "🪑",
+    "o": [
+     "carpenter",
+     "tailor",
+     "cook",
+     "pilot"
+    ],
+    "h": "A carpenter works with wood."
+   },
+   {
+    "t": "Who keeps us safe and helps on the roads?",
+    "o": [
+     "👮 police officer",
+     "👨‍🍳 cook",
+     "💇 barber",
+     "👨‍🌾 farmer"
+    ],
+    "h": "The police keep us safe and control traffic."
+   },
+   {
+    "t": "Who stitches our clothes?",
+    "p": "🧵",
+    "o": [
+     "tailor",
+     "carpenter",
+     "driver",
+     "doctor"
+    ],
+    "h": "A tailor sews clothes with a needle or sewing machine."
+   }
+  ],
+  [
+   {
+    "t": "A cobbler mends…",
+    "o": [
+     "👞 shoes",
+     "🚗 cars",
+     "📚 books",
+     "🪑 chairs"
+    ],
+    "h": "A cobbler repairs shoes and sandals."
+   },
+   {
+    "t": "A pilot flies an…",
+    "o": [
+     "✈️ aeroplane",
+     "🚂 train",
+     "🚌 bus",
+     "🚲 bicycle"
+    ],
+    "h": "A pilot flies aeroplanes."
+   },
+   {
+    "t": "Where does a doctor work?",
+    "o": [
+     "🏥 hospital",
+     "🏫 school",
+     "🌾 field",
+     "✈️ airport"
+    ],
+    "h": "Doctors work in hospitals and clinics."
+   },
+   {
+    "t": "Where does a teacher work?",
+    "o": [
+     "🏫 school",
+     "🏥 hospital",
+     "🌾 field",
+     "🚒 fire station"
+    ],
+    "h": "Teachers teach in schools."
+   },
+   {
+    "t": "If you get lost in a market, whom should you ask for help?",
+    "o": [
+     "👮 a police officer",
+     "a stranger in a car",
+     "nobody",
+     "a dog"
+    ],
+    "h": "A police officer is a safe grown-up whose job is to help."
+   }
+  ]
+ ]
+}
