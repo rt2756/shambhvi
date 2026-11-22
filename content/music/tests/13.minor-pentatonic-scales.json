@@ -1,0 +1,53 @@
+{
+"title": "13. Minor & pentatonic scales",
+"tests": [
+{"q": [
+{"t": "How many notes does a pentatonic scale have?", "o": ["5", "7", "6", "12"], "e": "Penta = five.", "k": "5"},
+{"t": "What are the notes of A minor pentatonic?", "o": ["A C D E G", "A B C D E", "A C♯ E F♯ G", "A C D F G"], "e": "A natural minor without B and F."},
+{"t": "A natural minor uses the same notes as which major scale?", "o": ["C major", "A major", "G major", "E major"], "e": "Am is the relative minor of C — same notes, A as home."},
+{"t": "What are the notes of A natural minor?", "o": ["A B C D E F G", "A B C♯ D E F♯ G♯", "A C D E G", "A B C D E F♯ G"], "e": "The C major notes starting on A."},
+{"t": "At which fret does Box 1 of A minor pentatonic start?", "o": ["5", "3", "7", "12"], "e": "Low E fret 5 = A, the root.", "k": "5"},
+{"t": "Which finger plays all the fret-5 notes in Box 1?", "o": ["Finger 1", "Finger 2", "Finger 3", "Finger 4"], "e": "Finger 1 holds fret 5; fingers 3 and 4 cover frets 7 and 8."},
+{"t": "Why is the pentatonic great for improvising?", "o": ["It has no half-step clashes", "It has more notes", "It is only played fast", "It uses only open strings"], "e": "With the half-step notes removed, almost any note fits the chords."},
+{"t": "What does a bend do to a note?", "o": ["Raises its pitch", "Lowers its pitch", "Makes it shorter", "Mutes it"], "e": "Pushing the string tightens it — higher pitch."},
+{"t": "What is vibrato?", "o": ["A small, even wobble in pitch", "A very fast strum", "A muted note", "Playing two strings together"], "e": "Like a singer's voice on a long note."},
+{"t": "Which raag uses the same notes as the major pentatonic?", "o": ["Bhupali", "Yaman", "Bhairavi", "Kafi"], "e": "Bhupali = S R G P D — steps 1, 2, 3, 5, 6."}
+]},
+{"q": [
+{"t": "What is the step pattern of the natural minor scale?", "o": ["W H W W H W W", "W W H W W W H", "W W W H W W H", "H W W H W W W"], "e": "A–B W, B–C H, C–D W, D–E W, E–F H, F–G W, G–A W."},
+{"t": "Which two notes are dropped from A natural minor to make A minor pentatonic?", "o": ["B and F", "C and G", "D and E", "A and E"], "e": "B and F each sit a half step from a neighbour (B–C, E–F)."},
+{"t": "What is the step 1 → step 3 interval in a natural minor scale?", "o": ["Minor 3rd (3 half steps)", "Major 3rd (4 half steps)", "Perfect 4th", "Major 2nd"], "e": "A → C = 3 half steps — that's what makes it sound dark."},
+{"t": "In Box 1, which note is at fret 5 of the low E string?", "o": ["A", "G", "C", "E"], "e": "E F F♯ G G♯ A — the root."},
+{"t": "In Box 1, the B string uses frets 5 and 8 (not 5 and 7). Why?", "o": ["The G–B gap is only 4 half steps", "The B string is thicker", "Fret 7 is out of tune", "It's a random choice"], "e": "Crossing onto the B string shifts shapes up one fret."},
+{"t": "Where are the A roots in Box 1?", "o": ["Low E fret 5, D fret 7, high e fret 5", "A fret 5, G fret 5, B fret 5", "Only on the low E string", "B fret 8 and G fret 7"], "e": "Three A's — end phrases on them to sound 'finished'."},
+{"t": "What are the notes of C major pentatonic?", "o": ["C D E G A", "C D E F G", "C E G A B", "C D F G A"], "e": "C major without F and B."},
+{"t": "C major pentatonic and A minor pentatonic have…", "o": ["the same five notes", "no notes in common", "only C in common", "different numbers of notes"], "e": "They're relatives — same notes, different home."},
+{"t": "Why use three fingers for a bend?", "o": ["For strength and control, so it lands in tune", "So it sounds louder", "Because one finger is not allowed", "To mute other strings"], "e": "One finger alone can't push a whole step steadily."},
+{"t": "What does <code>7b(9)</code> mean in TAB?", "o": ["Bend fret 7 until it sounds like fret 9", "Play fret 7 then fret 9", "Slide from 7 to 9", "Play fret 7 nine times"], "e": "Bend up until the pitch matches fret 9 — a whole step."}
+]},
+{"q": [
+{"t": "What are the notes of E minor pentatonic?", "o": ["E G A B D", "E F♯ G A B", "E G♯ A B D", "E G A C D"], "e": "E natural minor (E F♯ G A B C D) without F♯ and C."},
+{"t": "Box 1 starting at fret 3 of the low E string gives which minor pentatonic?", "o": ["G", "F", "A", "C"], "e": "Low E fret 3 = G."},
+{"t": "Box 1 starting at fret 7 gives which minor pentatonic?", "o": ["B", "A", "C", "D"], "e": "Low E fret 7 = B."},
+{"t": "In Box 1, what note is at fret 7 of the D string?", "o": ["A", "G", "B", "F♯"], "e": "D → … → A is 7 half steps. A root."},
+{"t": "In Box 1, what note is at fret 8 of the B string?", "o": ["G", "F♯", "A", "E"], "e": "B → C → C♯ → D → D♯ → E → F → F♯ → G (8)."},
+{"t": "Bending the G string at fret 7 up a whole step should match…", "o": ["fret 9", "fret 8", "fret 10", "fret 12"], "e": "A whole step = 2 frets: 7 + 2 = 9.", "k": "9"},
+{"t": "Why does Raag Bhupali sound calm?", "o": ["It has no half-step gaps", "It is always slow", "It uses komal notes", "It has 7 notes"], "e": "No Ma and no Ni — so none of the tense half steps (G–M, N–S')."},
+{"t": "When improvising over Am–G, why does ending on A sound finished?", "o": ["A is the home note of A minor", "A is the highest note", "A is an open string", "A is in every chord"], "e": "Ending on the root sounds like coming home."},
+{"t": "Why leave gaps between phrases in a solo?", "o": ["It sounds like speaking, not typing", "Gaps make it louder", "So you can retune", "Solos must have rests every bar"], "e": "Space lets each phrase be heard — like a conversation."},
+{"t": "A natural minor vs C major: the notes are the same. What makes them sound different?", "o": ["Which note is treated as home", "The speed", "The guitar's pickup", "The number of notes"], "e": "Starting and resting on A moves the half steps to steps 2→3 and 5→6, giving the minor sound."}
+]},
+{"q": [
+{"t": "What are the notes of D minor pentatonic?", "o": ["D F G A C", "D E F A B♭", "D F♯ G A C♯", "D F G B♭ C"], "e": "D natural minor (D E F G A B♭ C) without E and B♭."},
+{"t": "What are the notes of G major pentatonic?", "o": ["G A B D E", "G A B C D", "G B C D F♯", "G A C D E"], "e": "G major (G A B C D E F♯) without C and F♯."},
+{"t": "G major pentatonic shares its notes with which minor pentatonic?", "o": ["E minor pentatonic", "G minor pentatonic", "A minor pentatonic", "B minor pentatonic"], "e": "Em is G's relative minor — same five notes."},
+{"t": "Where on the low E string does Box 1 of D minor pentatonic start?", "o": ["Fret 10", "Fret 5", "Fret 7", "Fret 2"], "e": "D is at fret 10 of the low E.", "k": "10"},
+{"t": "Box 1 at fret 12 and the open E minor pentatonic shape play…", "o": ["the same notes, one octave apart", "different keys", "major and minor", "the same pitch exactly"], "e": "Fret 12 = open string an octave up, so it's E minor pentatonic again."},
+{"t": "Why does bending a string raise its pitch?", "o": ["It stretches the string tighter", "It makes the string shorter", "It makes the string thicker", "It changes the pickup"], "e": "Tighter strings shake faster (lesson 1)."},
+{"t": "A natural minor: which steps have the half steps?", "o": ["2→3 and 5→6", "3→4 and 7→8", "1→2 and 4→5", "6→7 and 7→8"], "e": "B–C (2→3) and E–F (5→6)."},
+{"t": "Bhupali with Sa = G would be which notes?", "o": ["G A B D E", "G A B C D", "G B C D E", "G A C D E"], "e": "S R G P D = steps 1, 2, 3, 5, 6 of G major."},
+{"t": "Why does a long note held dead still sound lifeless?", "o": ["It lacks the gentle pitch movement of a voice", "It is out of tune", "It is too quiet", "It uses the wrong pickup"], "e": "Vibrato adds the expressive wobble singers use."},
+{"t": "You bend fret 8 on the B string a whole step. What note should you reach?", "o": ["A", "G♯", "B", "G"], "e": "Fret 8 = G; a whole step up is A (like fret 10)."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "14. Sargam ↔ Western & Indian tunes",
+"tests": [
+{"q": [
+{"t": "What are the 7 main swaras?", "o": ["Sa Re Ga Ma Pa Dha Ni", "Do Re Mi Fa So La Ti", "Sa Ga Re Ma Dha Pa Ni", "C D E F G A B"], "e": "Sa Re Ga Ma Pa Dha Ni, then Sa again."},
+{"t": "In Indian music, Sa is…", "o": ["whatever note you choose as home", "always C", "always A", "the highest note"], "e": "Singers tune Sa to their own voice."},
+{"t": "With Sa = C, what is Pa?", "o": ["G", "F", "A", "E"], "e": "Pa is the 5th: C → G."},
+{"t": "With Sa = C, what is Ga?", "o": ["E", "D", "F", "E♭"], "e": "Shuddh Ga is the major 3rd: C → E."},
+{"t": "What does <em>komal</em> mean?", "o": ["Lowered (flat)", "Raised (sharp)", "Very loud", "Upper octave"], "e": "Komal = soft — a half step lower."},
+{"t": "What does <em>teevra</em> mean?", "o": ["Raised (sharp)", "Lowered (flat)", "Very soft", "Lower octave"], "e": "Teevra = sharp — only Ma can be teevra."},
+{"t": "Which two swaras never change?", "o": ["Sa and Pa", "Re and Ga", "Ma and Ni", "Dha and Ni"], "e": "Sa and Pa are achal (fixed)."},
+{"t": "How many swaras are there counting komal and teevra?", "o": ["12", "7", "10", "22"], "e": "7 shuddh + 4 komal + 1 teevra = 12 — the same as the 12 Western notes.", "k": "7+4+1"},
+{"t": "What instrument plays the drone of Sa and Pa?", "o": ["Tanpura", "Tabla", "Harmonium", "Flute"], "e": "The tanpura holds Sa and Pa steadily under the music."},
+{"t": "Bilawal thaat is the same as which Western scale?", "o": ["Major scale", "Natural minor", "Pentatonic", "Chromatic"], "e": "S R G M P D N — all shuddh = major."}
+]},
+{"q": [
+{"t": "With Sa = C, what is teevra Ma?", "o": ["F♯", "F", "G", "E"], "e": "Ma = F; teevra raises it a half step to F♯."},
+{"t": "With Sa = C, what is komal Ni?", "o": ["B♭", "B", "A", "A♭"], "e": "Ni = B; komal lowers it to B♭."},
+{"t": "With Sa = C, what is komal Ga?", "o": ["E♭", "E", "D", "F"], "e": "Ga = E; komal = E♭."},
+{"t": "With Sa = C, what is Dha?", "o": ["A", "A♭", "G", "B"], "e": "Dha is the 6th: C → A."},
+{"t": "Why are Sa and Pa fixed?", "o": ["They are the drone — home and its perfect 5th", "They are the loudest", "They are hard to sing", "They have no names"], "e": "The smoothest pair after the octave — the steady floor of every raag."},
+{"t": "Raag Bhupali uses which swaras?", "o": ["S R G P D", "S R G M P D N", "S G M P N", "S r g M P d n"], "e": "No Ma, no Ni."},
+{"t": "What is the <em>aaroh</em> of a raag?", "o": ["Its notes going up", "Its notes going down", "Its rhythm cycle", "Its drone"], "e": "Aaroh = ascent; avroh = descent."},
+{"t": "Raag Yaman uses which special swara?", "o": ["Teevra Ma", "Komal Re", "Komal Ga", "Komal Ni"], "e": "Teevra Ma gives Yaman its bright, lifted sound."},
+{"t": "A dot <strong>below</strong> a swara means…", "o": ["lower octave (mandra)", "upper octave (taar)", "komal", "hold it longer"], "e": "Dot below = mandra; dot above = taar."},
+{"t": "Why does sargam work like scale step numbers?", "o": ["Each name is a position from home", "Each name is a fixed pitch", "It only has 5 notes", "It is written in TAB"], "e": "Sa = step 1, Pa = step 5, wherever Sa is."}
+]},
+{"q": [
+{"t": "With Sa = D, what is Ga?", "o": ["F♯", "F", "E", "G"], "e": "4 half steps up from D: D♯, E, F, F♯."},
+{"t": "With Sa = D, what is Pa?", "o": ["A", "G", "B", "A♭"], "e": "7 half steps up from D = A."},
+{"t": "With Sa = E, what is Re?", "o": ["F♯", "F", "G", "E♯"], "e": "2 half steps up from E: F, F♯."},
+{"t": "With Sa = A, what is Ma?", "o": ["D", "C♯", "D♯", "E"], "e": "5 half steps up from A: A♯, B, C, C♯, D."},
+{"t": "Asavari thaat (S R g M P d n) is the same as…", "o": ["the natural minor scale", "the major scale", "Lydian", "the pentatonic"], "e": "Komal Ga, Dha and Ni = the minor 3rd, 6th and 7th."},
+{"t": "Kalyan thaat is the major scale with…", "o": ["teevra Ma", "komal Ni", "komal Ga", "komal Re"], "e": "S R G M' P D N — Western name Lydian."},
+{"t": "Khamaj thaat is the major scale with…", "o": ["komal Ni", "teevra Ma", "komal Dha", "komal Re"], "e": "S R G M P D n — Mixolydian."},
+{"t": "Why does Bhupali sound calm?", "o": ["Leaving out Ma and Ni removes the half steps", "It's always played slowly", "It uses komal notes", "It has no Sa"], "e": "Ga–Ma and Ni–Sa are the half steps; without Ma and Ni none remain."},
+{"t": "Yaman's aaroh starts from the lower Ni. With Sa = C, that note is…", "o": ["B", "A", "C♯", "B♭"], "e": "Ni = B, one octave down (A string fret 2 on the guitar)."},
+{"t": "Why does playing a komal Ga as shuddh Ga ruin a tune?", "o": ["It changes a minor 3rd into a major 3rd", "It makes it louder", "It changes the rhythm", "It doesn't matter"], "e": "Minor 3rd vs major 3rd — the whole mood flips."}
+]},
+{"q": [
+{"t": "With Sa = G, what is komal Ni?", "o": ["F", "F♯", "E", "G♭"], "e": "Ni = F♯ (11 up); komal = F (10 up)."},
+{"t": "With Sa = E, what is teevra Ma?", "o": ["A♯", "A", "B", "G♯"], "e": "Ma = A (5 up); teevra = A♯ (6 up)."},
+{"t": "With Sa = C, Bhupali's notes are…", "o": ["C D E G A", "C D F G A", "C E F G B", "C D E F G"], "e": "S R G P D → C D E G A."},
+{"t": "With Sa = C, Yaman's aaroh (,N R G M' D N S') is…", "o": ["B D E F♯ A B C", "B D E F A B C", "C D E F♯ G A B", "B C D E F♯ A C"], "e": "Lower Ni B, then Re D, Ga E, teevra Ma F♯, Dha A, Ni B, Sa C."},
+{"t": "Bhairavi thaat (S r g M P d n) — how many swaras are komal?", "o": ["4", "3", "2", "5"], "e": "Re, Ga, Dha and Ni are all komal.", "k": "4"},
+{"t": "Kafi thaat (S R g M P D n) matches which Western scale?", "o": ["Dorian", "Lydian", "Major", "Phrygian"], "e": "Komal Ga and Ni with shuddh Dha = Dorian."},
+{"t": "In sargam, the interval Sa → teevra Ma is how many half steps?", "o": ["6", "5", "7", "4"], "e": "Ma is 5; teevra adds 1 = 6 — a tritone.", "k": "6"},
+{"t": "Why choose Sa = E on the guitar?", "o": ["Sa is the open low E — lots of open strings", "E is the only allowed Sa", "It avoids all sharps in every raag", "E is the highest note"], "e": "An open-string Sa can ring as a drone while you play."},
+{"t": "A raag isn't only a set of notes. What else defines it?", "o": ["Rules about how to move through the notes", "Its tempo only", "Which instrument plays it", "Its loudness"], "e": "E.g. Yaman's aaroh starts from lower Ni and moves around Sa."},
+{"t": "Why do some thaats match Western scales exactly?", "o": ["Both pick 7 of the same 12 notes", "Indian music copied Western music", "They have different numbers of notes", "Only by accident of tuning"], "e": "Same 7 out of 12 → same scale, two names."}
+]}
+]
+}

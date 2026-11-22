@@ -1,0 +1,53 @@
+{
+"title": "15. Staff notation — the basics",
+"tests": [
+{"q": [
+{"t": "How many lines does a music staff have?", "o": ["5", "6", "4", "7"], "e": "Five lines (TAB has six — one per string).", "k": "5"},
+{"t": "On the staff, a note placed higher sounds…", "o": ["higher", "lower", "louder", "longer"], "e": "Higher on the staff = higher pitch."},
+{"t": "What clef does guitar music use?", "o": ["Treble clef", "Bass clef", "No clef", "Tenor clef"], "e": "The treble (G) clef."},
+{"t": "The treble clef's curl marks which note?", "o": ["G", "C", "F", "E"], "e": "It wraps around line 2 and names it G — that's why it's also called the G clef."},
+{"t": "The lines from bottom to top are…", "o": ["E G B D F", "F A C E", "G B D F A", "C E G B D"], "e": "Every Good Boy Does Fine."},
+{"t": "The spaces from bottom to top spell…", "o": ["FACE", "EGBDF", "CAGE", "BEAD"], "e": "F A C E."},
+{"t": "What are the short extra lines above or below the staff called?", "o": ["Ledger lines", "Bar lines", "Clef lines", "Staff lines"], "e": "Ledger lines extend the staff."},
+{"t": "What divides the staff into bars?", "o": ["Bar lines", "Ledger lines", "Clefs", "Rests"], "e": "Vertical bar lines."},
+{"t": "A hollow oval with no stem is a…", "o": ["whole note", "half note", "quarter note", "eighth note"], "e": "4 beats."},
+{"t": "What does the symbol ♯ before a note do?", "o": ["Raises it a half step", "Lowers it a half step", "Makes it louder", "Repeats it"], "e": "Sharp = one half step up."}
+]},
+{"q": [
+{"t": "Which note sits on the middle (3rd) line?", "o": ["B", "C", "A", "D"], "e": "Lines E G B D F — the middle one is B."},
+{"t": "Which note sits on the top line?", "o": ["F", "E", "G", "D"], "e": "The 5th line is F."},
+{"t": "Which note sits in the bottom space?", "o": ["F", "E", "G", "A"], "e": "Spaces F A C E — the bottom is F."},
+{"t": "One ledger line below the staff is…", "o": ["middle C", "low E", "G", "A"], "e": "Middle C sits on the first ledger line below."},
+{"t": "What does a natural sign ♮ do?", "o": ["Cancels a sharp or flat", "Raises a note", "Means play louder", "Ends the song"], "e": "♮ returns the note to its plain letter."},
+{"t": "What does a key signature with one ♯ on the F line mean?", "o": ["Play every F as F♯", "Play only the first F as F♯", "Play every note sharp", "The song is in F"], "e": "A key signature applies to every note of that letter."},
+{"t": "One sharp (F♯) in the key signature usually means the key of…", "o": ["G major", "F major", "C major", "D major"], "e": "G major has just one sharp, F♯."},
+{"t": "Guitar music is written…", "o": ["one octave higher than it sounds", "exactly as it sounds", "one octave lower than it sounds", "in bass clef"], "e": "It keeps the guitar's low notes on the staff."},
+{"t": "Why does the staff use both lines and spaces?", "o": ["To fit 9 notes on 5 lines", "To show loudness", "To show which string", "Only for decoration"], "e": "Lines and spaces together pack more notes into a readable space."},
+{"t": "Which tells you the note's length: its position or its shape?", "o": ["Its shape", "Its position", "Its colour", "Neither"], "e": "Position = pitch; shape = length."}
+]},
+{"q": [
+{"t": "The open high e string is written…", "o": ["in the top space", "on the top line", "on the middle line", "below the staff"], "e": "The top space is E."},
+{"t": "The open B string is written…", "o": ["on the middle line", "in the top space", "on line 2", "on line 4"], "e": "The middle line is B."},
+{"t": "The open G string is written…", "o": ["on line 2", "on the middle line", "in the bottom space", "on the top line"], "e": "Line 2 is G — where the clef curls."},
+{"t": "A note on the top line (F) is played on…", "o": ["high e, fret 1", "B string, fret 1", "high e, open", "G string, fret 3"], "e": "E → F is one fret on the high e string."},
+{"t": "A note on line 4 (D) is played on…", "o": ["B string, fret 3", "D string, open", "high e, fret 2", "G string, fret 2"], "e": "B → C → C♯ → D: B string fret 3."},
+{"t": "A note in space 3 (C) is played on…", "o": ["B string, fret 1", "A string, fret 3", "G string, fret 5", "high e, fret 8"], "e": "Written C in space 3 sounds an octave lower — B string fret 1."},
+{"t": "The open D string is written…", "o": ["in the space just below the staff", "on the bottom line", "on line 4", "on middle C"], "e": "Written D sits just under the bottom line."},
+{"t": "Why is guitar music written an octave higher than it sounds?", "o": ["So low notes don't need lots of ledger lines", "Because guitars are tuned high", "To make it look harder", "It isn't"], "e": "Writing an octave up keeps most guitar notes on the staff."},
+{"t": "What does <code>:||</code> mean?", "o": ["Repeat the section", "End the song", "Change key", "Play softer"], "e": "Go back to the matching ||: (or the start) and play again."},
+{"t": "Why use a key signature instead of marking each sharp?", "o": ["It saves writing the same sharp many times", "Sharps can't be written next to notes", "It makes the song faster", "It changes the clef"], "e": "One mark at the start covers every F in a G-major song, and shows the key."}
+]},
+{"q": [
+{"t": "Ode to Joy starts E E F G. Where is the G written?", "o": ["Just above the top line", "On line 2", "On the top line", "In the bottom space"], "e": "Top space E, top line F, then the space above it G."},
+{"t": "A note on line 2 with a ♯ in front is…", "o": ["G♯", "G♭", "F♯", "A"], "e": "Line 2 is G; ♯ raises it to G♯."},
+{"t": "A note in space 2 with a ♭ in front is…", "o": ["A♭", "A♯", "G", "B♭"], "e": "Space 2 is A; ♭ lowers it to A♭."},
+{"t": "The open A string is written…", "o": ["on the second ledger line below", "on the first ledger line below", "in the bottom space", "on line 2"], "e": "Below middle C (ledger 1) comes B, then A on ledger 2."},
+{"t": "In G major, a note on the top line with no sign in front is played as…", "o": ["F♯", "F", "G", "E"], "e": "The key signature makes every F an F♯."},
+{"t": "A ♮ is written before an F in a G-major song. You play…", "o": ["F", "F♯", "F♭", "G"], "e": "The natural sign cancels the key signature's sharp for that note."},
+{"t": "How many notes (lines + spaces) fit on the five-line staff itself?", "o": ["9", "5", "10", "7"], "e": "5 lines + 4 spaces = 9.", "k": "5+4"},
+{"t": "A filled oval with a stem on the middle line is…", "o": ["a quarter-note B", "a half-note B", "a quarter-note C", "a whole-note B"], "e": "Filled + stem = quarter; middle line = B."},
+{"t": "A hollow oval with a stem in the top space is…", "o": ["a half-note E", "a whole-note E", "a quarter-note F", "a half-note F"], "e": "Hollow + stem = half; top space = E."},
+{"t": "Why tie open strings to staff positions first?", "o": ["They give landmarks; other notes are steps from them", "They are the only notes on the staff", "Open strings are always sharp", "It is required by the treble clef"], "e": "Known landmarks make every other note a short step away."}
+]}
+]
+}
