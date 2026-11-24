@@ -40,7 +40,7 @@ Content is bucketed **by class** (5–10); vocabulary and the to-do list are cla
 | `content/grammar/notes/*.md` · `content/grammar/tests/*.json` | Class-free **English grammar**: 21 lessons (CBSE / NCERT classes 5–10, mapped in `0.syllabus.md`) + four tests per lesson. Pages: `grammar.html`, `grammar-tests.html`. |
 | `content/music/notes/*.md` · `content/music/practice/*.md` · `content/music/tests/*.json` | Class-free **music theory + electric-guitar practice**: theory lessons (map in `0.syllabus.md`), a week-by-week 30-min practice plan with tick-off days (`data-mode="todo"`), and four tests per lesson. Pages: `music.html`, `guitar-practice.html`, `music-tests.html`. Check with `python3 tools/check_tests.py music`. |
 | `little.html` · `assets/js/little.js` · `content/little/*.json` | **Little Learners** (ages 4–6, pre-school → Class 1): 24 topics × 3 rounds × 5 tap-the-picture questions, read aloud, plus grown-up notes (with the *why*) and spoken questions. Edit `tools/build_little.py`, then run it and `python3 tools/check_little.py`. |
-| `say-along.html` · `assets/js/say-along.js` | **Say-along** (part of Little Learners): counting (from / to / count by 1s, 2s, 5s, 10s), the alphabet (A for Apple…) and times tables 1–10, one big item at a time, read aloud by the browser — tables as “six twos are twelve”. Slow / normal / fast; space = play/pause, ← → = step. Everything is in the JS file. |
+| `say-along.html` · `assets/js/say-along.js` | **Say-along** (part of Little Learners): one big item at a time, read aloud, then it flies to its place on a board (hundred chart, A–Z / वर्णमाला chart, tables side by side, week / year). Six modes: counting (from / to / up or down / count by 1s 2s 5s 10s / digits-then-number / with the English number name), the alphabet (A for Apple…), times tables 1–20 (“six twos are twelve”), **वर्णमाला** and **गिनती 1–100** read in Hindi (needs a Hindi voice on the device), and days & months. Each has 👩‍🏫 Teach me and 🙋 Ask me (👀 Show answer reveals). Slow → very fast; space = play/pause, ← → = step. All data is in the JS file. |
 | `index.html` | **Home** — the class picker (2–10) plus the class-free sections. |
 | `class<N>-math.html` · `class<N>-science.html` | One page per class per subject. |
 | `class7-math-questions.html` · `class7-science-questions.html` · `class7-saved.html` · `class7-links.html` | The extra class-7 pages. |
@@ -50,6 +50,7 @@ Content is bucketed **by class** (5–10); vocabulary and the to-do list are cla
 | `assets/js/app.js` | Loads a manifest + `.md` files and builds the page; one engine drives every layout (chosen by `#app`'s `data-mode`). |
 | `assets/js/marked.min.js` | The Markdown parser (vendored — `marked` v12.0.2). |
 | `assets/css/style.css` | All the styling, in one commented stylesheet. |
+| `assets/js/theme.js` | Light / dark mode for every page: loaded in each page's `<head>`, follows the device setting until 🌙 / ☀️ (next to the page links) is pressed, then remembers it. Dark colours are the `html[data-theme="dark"]` block at the end of `style.css` — use the colour variables (`var(--card)` etc.), not `#fff`, so new styles get a dark version for free. |
 | `.nojekyll` | Tells GitHub Pages to serve the files as-is (no Jekyll). |
 
 ### Adding a class page
