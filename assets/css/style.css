@@ -322,3 +322,115 @@ pre code{ background:none; padding:0; border-radius:0; font-size:.88em; line-hei
   .ll-opt{ font-size:1.1rem; min-height:64px; } .ll-opt.big{ font-size:2rem; }
   .ll-playname{ display:none; }
 }
+
+/* ---------- Say-along (say-along.html): one big thing at a time, read aloud ---------- */
+.sa-entry .ll-grid{ margin-bottom:.4em; } .ll-in .sa-entry{ display:none; }
+.sa-tabs{ display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:12px; }
+.sa-tab{ font:inherit; font-size:1.15rem; font-weight:800; padding:14px 8px; border-radius:16px; cursor:pointer;
+  color:var(--ink); background:#fff; border:2px solid var(--line); box-shadow:0 4px 14px rgba(70,50,130,.06); }
+.sa-tab:hover{ border-color:var(--brand); }
+.sa-tab.on{ border-color:var(--brand); background:var(--eg-bg); color:var(--brand-ink); }
+.sa-settings{ display:flex; flex-direction:column; gap:10px; margin-bottom:12px; }
+.sa-row{ display:flex; flex-wrap:wrap; align-items:center; gap:10px 16px; }
+.sa-chips{ display:flex; flex-wrap:wrap; gap:6px; }
+.sa-field{ display:flex; align-items:center; gap:6px; font-weight:700; color:var(--soft); }
+.sa-field select{ font:inherit; font-weight:800; color:var(--ink); padding:6px 10px; border-radius:10px;
+  border:2px solid var(--line); background:#fff; cursor:pointer; }
+.sa-note{ color:var(--soft); font-weight:600; }
+.sa-speeds{ margin-left:auto; }
+.sa-chip{ font:inherit; font-weight:800; padding:6px 12px; border-radius:999px; cursor:pointer;
+  color:var(--ink); background:#fff; border:2px solid var(--line); }
+.sa-chip.on{ border-color:var(--brand); background:var(--eg-bg); color:var(--brand-ink); }
+.sa-stage{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
+  min-height:min(58vh,440px); background:#fff; border:1px solid var(--line); border-radius:24px; padding:18px;
+  box-shadow:0 8px 22px rgba(70,50,130,.08); }
+.sa-big{ font-size:clamp(4.5rem,22vw,11rem); font-weight:900; line-height:1.05; letter-spacing:.02em;
+  font-variant-numeric:tabular-nums; white-space:nowrap; }
+.sa-pair{ display:flex; justify-content:center; align-items:baseline; gap:.45em; }
+.sa-stage.long .sa-big{ font-size:clamp(2.6rem,12.5vw,8rem); }
+.sa-stage.title .sa-big, .sa-stage.done .sa-big{ font-size:clamp(2.6rem,10vw,5rem); color:var(--brand-ink); }
+.sa-pic{ font-size:clamp(3.5rem,14vw,6.5rem); line-height:1.1; }
+.sa-word{ font-size:clamp(1.8rem,7vw,3.2rem); font-weight:800; color:var(--ink); margin-top:.1em; }
+.sa-stage.ready .sa-big, .sa-stage.ready .sa-pic, .sa-stage.ready .sa-word{ opacity:.35; }
+.sa-ans{ color:var(--soft); } .sa-ans.shown{ color:var(--tip); }
+.sa-stage.asking{ cursor:pointer; }
+.sa-hint{ margin-top:.6em; font-weight:800; color:var(--brand-ink); font-size:1.2rem; }
+.sa-controls{ display:flex; flex-wrap:wrap; justify-content:center; gap:12px; margin:14px 0 6px; }
+.sa-btn{ font:inherit; font-size:1.5rem; font-weight:800; min-width:64px; height:64px; padding:0 16px; border-radius:18px;
+  cursor:pointer; color:var(--ink); background:#fff; border:2px solid var(--line); box-shadow:0 4px 12px rgba(80,60,160,.12); }
+.sa-btn:hover{ border-color:var(--brand); }
+.sa-btn.main{ min-width:160px; color:#fff; background:var(--brand); border-color:var(--brand); }
+.sa-btn.main.on{ background:#fff; color:var(--brand-ink); }
+.sa-btn.show{ font-size:1.15rem; color:var(--tip); border-color:var(--tip); background:var(--tip-bg); }
+.sa-btn:disabled{ opacity:.4; cursor:default; }
+.sa-btn[hidden]{ display:none; }
+@media (max-width:520px){
+  .sa-tab{ font-size:1rem; padding:12px 4px; }
+  .sa-speeds{ margin-left:0; }
+  .sa-settings{ gap:8px; } .sa-row{ gap:8px 10px; }
+  .sa-chip{ font-size:.85rem; padding:5px 9px; }
+  .sa-stage{ min-height:min(48vh,380px); }
+  .sa-btn{ min-width:54px; height:56px; font-size:1.3rem; } .sa-btn.main{ min-width:130px; }
+}
+
+/* Say-along board: the page goes full width — the big card on the left, and on the right
+   the whole range (1–100, A–Z, or the tables side by side) that each item settles into */
+.sa-page .wrap{ max-width:1500px; }
+.sa-main{ display:grid; grid-template-columns:minmax(320px,5fr) 6fr; gap:20px; align-items:start; }
+.sa-left{ position:sticky; top:12px; min-width:0; }
+.sa-board{ display:grid; grid-template-columns:repeat(var(--cols,10),minmax(0,1fr)); gap:5px;
+  background:#fff; border:1px solid var(--line); border-radius:20px; padding:12px; box-shadow:0 8px 22px rgba(70,50,130,.06); }
+.sa-cell{ display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:44px; padding:3px 2px;
+  border:1.5px dashed var(--line); border-radius:10px; font-weight:900; font-variant-numeric:tabular-nums;
+  font-size:clamp(.9rem,1.5vw,1.35rem); line-height:1.1; text-align:center; color:var(--ink); transition:border-color .2s; }
+.sa-cell > span{ visibility:hidden; }
+.sa-cell.on{ border-style:solid; border-color:var(--line); background:#fbfaff; }
+.sa-cell.on > span{ visibility:visible; }
+.sa-cell.now{ border:2.5px solid var(--brand); background:var(--eg-bg); }
+.sa-cell.ghost{ border-color:transparent; color:#d9d3e8; font-weight:700; }
+.sa-cell.head{ border:0; color:var(--brand-ink); font-size:.85rem; font-weight:800; min-height:28px; }
+.sa-board-abc .sa-cell{ min-height:72px; }
+.sa-cell-pic{ font-size:1.5rem; line-height:1.2; }
+.sa-cell-pair{ letter-spacing:.06em; word-spacing:.2em; }
+.sa-board-tables .sa-cell{ font-size:clamp(.7rem,calc(5.4rem / var(--cols)),1.15rem); white-space:nowrap; min-height:38px; }
+.sa-fly{ z-index:50; pointer-events:none; display:flex; align-items:center; justify-content:center; white-space:nowrap; }
+@media (max-width:900px){
+  .sa-main{ grid-template-columns:1fr; }
+  .sa-left{ position:static; }
+  .sa-cell{ min-height:34px; font-size:.85rem; border-radius:8px; }
+  .sa-board{ gap:3px; padding:8px; }
+  .sa-board-tables .sa-cell{ font-size:clamp(.55rem,calc(11vw / var(--cols)),.9rem); }
+}
+/* size the big card's text to the left column, not the whole window */
+.sa-page .sa-left{ container-type:inline-size; }
+.sa-page .sa-big{ font-size:clamp(3.5rem,30cqi,11rem); }
+.sa-page .sa-stage.long .sa-big{ font-size:clamp(2rem,11cqi,7rem); }
+.sa-page .sa-stage.title .sa-big, .sa-page .sa-stage.done .sa-big{ font-size:clamp(2.2rem,12cqi,5rem); }
+.sa-page .sa-pic{ font-size:clamp(3rem,16cqi,6.5rem); }
+
+/* ---------- Say-along dark theme: html[data-theme="dark"], set by say-along.js (🌙 / ☀️) ---------- */
+:root{ --sa-c0:#e53935; --sa-c1:#ef6c00; --sa-c2:#2e7d32; --sa-c3:#00838f; --sa-c4:#1565c0; --sa-c5:#8e24aa; }
+html[data-theme="dark"]{
+  color-scheme:dark;
+  --ink:#ece8f7; --soft:#a49cba; --bg1:#17131f; --bg2:#0f1422;
+  --brand:#8b74ff; --brand-ink:#b8aaff; --card:#1f1b2c; --line:#3a3350;
+  --tip:#5ee08f; --tip-bg:#173326; --warn:#ff8a7a; --warn-bg:#3a1f1c;
+  --eg:#b8aaff; --eg-bg:#2b2450; --note:#7ab4ff; --note-bg:#172a45;
+  --star:#f5c04a; --star-bg:#3a2f12; --star-ink:#f5d27a;
+  /* the big numbers and letters: brighter versions of the same six colours */
+  --sa-c0:#ff6b6b; --sa-c1:#ffa94d; --sa-c2:#69db7c; --sa-c3:#3bc9db; --sa-c4:#74a9ff; --sa-c5:#da77f2;
+}
+html[data-theme="dark"] .pill, html[data-theme="dark"] .nav-toggle, html[data-theme="dark"] .sa-tab,
+html[data-theme="dark"] .sa-chip, html[data-theme="dark"] .sa-field select, html[data-theme="dark"] .sa-stage,
+html[data-theme="dark"] .sa-btn, html[data-theme="dark"] .sa-board, html[data-theme="dark"] .ll-parent,
+html[data-theme="dark"] .sa-btn.main.on{ background:var(--card); box-shadow:none; }
+html[data-theme="dark"] .sa-tab.on, html[data-theme="dark"] .sa-chip.on{ background:var(--eg-bg); }
+html[data-theme="dark"] .sa-btn.main{ background:var(--brand); color:#fff; }
+html[data-theme="dark"] .sa-btn.main.on{ color:var(--brand-ink); }
+html[data-theme="dark"] .sa-btn.show{ background:var(--tip-bg); }
+html[data-theme="dark"] .sa-cell.on{ background:#272139; }
+html[data-theme="dark"] .sa-cell.now{ background:var(--eg-bg); }
+html[data-theme="dark"] .sa-cell.ghost{ color:#4d4566; }
+.sa-theme{ font:inherit; font-size:1.05rem; width:40px; height:40px; border-radius:50%; border:1px solid var(--line);
+  background:var(--card); cursor:pointer; margin-left:4px; vertical-align:middle; }
+.sa-theme:hover{ border-color:var(--brand); }

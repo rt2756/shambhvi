@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Say-along — Little Learners</title>
+<meta name="description" content="Listen, look and say it together: counting, the alphabet and times tables, one big number or letter at a time, read aloud at a slow, steady pace. For ages 4–6.">
+<link rel="stylesheet" href="assets/css/style.css?v=21">
+<script>/* apply the saved theme (or the system one) before the page paints, so it never flashes white */
+try { document.documentElement.setAttribute("data-theme", localStorage.getItem("sa-theme") ||
+  (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")); } catch (e) {}</script>
+</head>
+<body class="ll-in sa-page">
+  <div class="wrap questions">
+    <header class="hero">
+      <span class="pill">🔊 Pre-school → Class 1 · say it together</span>
+      <h1 class="title"><span class="grad">Say-along</span></h1>
+      <nav class="nav-toggle" aria-label="Layout">
+        <a href="index.html">🏠 Home</a>
+        <a href="little.html">🧸 Little Learners</a>
+        <a class="active" href="say-along.html">🔊 Say-along</a>
+      </nav>
+    </header>
+
+    <div id="sa">
+      <div class="empty"><div class="big">⏳</div><strong>Loading…</strong></div>
+    </div>
+  </div>
+
+  <script src="assets/js/say-along.js?v=10"></script>
+</body>
+</html>
