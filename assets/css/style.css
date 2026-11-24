@@ -328,8 +328,8 @@ pre code{ background:none; padding:0; border-radius:0; font-size:.88em; line-hei
 }
 
 /* ---------- Say-along (say-along.html): one big thing at a time, read aloud ---------- */
-.sa-entry .ll-grid{ margin-bottom:.4em; } .ll-in .sa-entry{ display:none; }
-.sa-tabs{ display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:12px; }
+.sa-entry .ll-grid{ margin-bottom:.4em; } .sa-words-grid .ll-card-emoji{ font-size:2rem; } .ll-in .sa-entry{ display:none; }
+.sa-tabs{ display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-bottom:12px; }
 .sa-tab{ font:inherit; font-size:1.15rem; font-weight:800; padding:14px 8px; border-radius:16px; cursor:pointer;
   color:var(--ink); background:var(--card); border:2px solid var(--line); box-shadow:0 4px 14px rgba(70,50,130,.06); }
 .sa-tab:hover{ border-color:var(--brand); }
@@ -369,6 +369,7 @@ pre code{ background:none; padding:0; border-radius:0; font-size:.88em; line-hei
 .sa-btn:disabled{ opacity:.4; cursor:default; }
 .sa-btn[hidden]{ display:none; }
 @media (max-width:520px){
+  .sa-tabs{ grid-template-columns:repeat(auto-fit,minmax(100px,1fr)); gap:8px; }
   .sa-tab{ font-size:1rem; padding:12px 4px; }
   .sa-speeds{ margin-left:0; }
   .sa-settings{ gap:8px; } .sa-row{ gap:8px 10px; }
@@ -394,6 +395,15 @@ pre code{ background:none; padding:0; border-radius:0; font-size:.88em; line-hei
 .sa-cell.ghost{ border-color:transparent; color:var(--ghost); font-weight:700; }
 .sa-cell.head{ border:0; color:var(--brand-ink); font-size:.85rem; font-weight:800; min-height:28px; }
 .sa-board-abc .sa-cell{ min-height:72px; }
+.sa-board-words .sa-cell{ min-height:84px; }
+.sa-cell-word{ font-size:clamp(.7rem,1.1vw,.95rem); font-weight:800; line-height:1.15; }
+.sa-board-words .sa-cell-pic{ font-size:clamp(1.6rem,2.6vw,2.2rem); }
+.sa-svg{ width:1em; height:1em; display:inline-block; vertical-align:middle; }
+.sa-stage.words .sa-big{ font-size:clamp(2.4rem,9vw,5.5rem); white-space:normal; }
+.sa-stage.words .sa-pic{ font-size:clamp(5rem,20vw,9rem); }
+.sa-stage.words .sa-word{ font-size:clamp(1.5rem,5vw,2.4rem); }
+.sa-fact{ font-size:clamp(1.05rem,3.6vw,1.5rem); font-weight:700; color:var(--soft); margin-top:.5em; max-width:28em; }
+.sa-hi{ color:var(--brand-ink); }
 .sa-cell-pic{ font-size:1.5rem; line-height:1.2; }
 .sa-cell-pair{ letter-spacing:.06em; word-spacing:.2em; }
 .sa-board-tables .sa-cell{ font-size:clamp(.7rem,calc(5.4rem / var(--cols)),1.15rem); white-space:nowrap; min-height:38px; }

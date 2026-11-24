@@ -1,11 +1,13 @@
 /* Say-along — the screen shows one big thing at a time and reads it aloud, then moves on.
-   Part of Little Learners (ages 4–6). One page, say-along.html, six modes chosen by ?m=:
+   Part of Little Learners (ages 4–6). One page, say-along.html, seven modes chosen by ?m=:
      count   1, 2, 3 … (from / to / count-by / up or down)   say: "21"  (or "2 … 1 … 21")
      abc     A a  🍎 Apple                                     say: "Ay" … "Ay for Apple"
      tables  6 × 2 = 12  (tables 1–20)                         say: "6 twos are 12"
      varna   क  🕊️ कबूतर  (Hindi alphabet, in Hindi)            say: "क" … "क से कबूतर"
      ginti   21  इक्कीस  (Hindi numbers 1–100, in Hindi)        say: "इक्कीस"
      cal     Monday … / January …                              say: "Monday"
+     words   👃 Nose  (picture words, ?t= picks the topic)      say: "Nose" … "We smell and breathe with our nose"
+             25 topics — body, animals, birds, vehicles, shapes, … — data in words-data.js
    Every mode has two styles:
      👩‍🏫 Teach me  shows and says each one in turn.
      🙋 Ask me    hides the next one ("5 → ?", "B → ?", "3 × 5 = ?"), asks for it, and waits —
@@ -147,6 +149,14 @@
         ["Some books spell a few differently (छः / छह, चवालीस / चौवालीस).", "Both are right — use whichever your child's school book uses."]
       ]
     },
+    words: {
+      name: "Picture words", emoji: "🖼️",
+      why: [
+        ["Say the word together, then the line after it (“We see with our eyes”).", "The line says what the thing does or what makes it what it is, so the word comes with a meaning — the child can explain it, not only name it."],
+        ["🙋 Ask me shows just the picture and asks “What is this?”", "Saying the name before hearing it makes the child pull the word out of memory — that is what makes it stick. Use 🔀 Mixed up once the order is known, so they can’t just remember what comes next."],
+        ["Turn on हिंदी to hear the Hindi word too.", "Most Indian children learn both; hearing the two names for one picture shows they mean the same thing."]
+      ]
+    },
     cal: {
       name: "Days & months", emoji: "📅",
       why: [
@@ -157,6 +167,15 @@
     }
   };
   function lang() { return MODES[mode].lang || "en"; }
+
+  var WORDS = window.SA_WORDS || [];
+  function topic(k) { return WORDS.filter(function (t) { return t.k === k; })[0] || WORDS[0]; }
+  // a picture is an emoji, or an SVG drawing (flat shapes)
+  function picEl(cls, pic) {
+    var e = el("span", cls);
+    if (/^<svg/.test(pic)) e.innerHTML = pic; else e.textContent = pic;
+    return e;
+  }
 
   function el(tag, cls, text) {
     var e = document.createElement(tag);
@@ -234,6 +253,18 @@
                  say: l[1] ? [l[0], l[0] + " से " + l[1]] : l[0], cell: "v" + l[0] };
       }), ask, function (p) { return p.l; }, function (p) { return p.l + " के बाद क्या आता है?"; });
     }
+    if (mode === "words") {
+      var tp = topic(s.t);
+      var list = tp.items.map(function (w, i) {
+        var say = [w[1]];
+        if (s.fact === "on") say.push(w[3]);
+        if (s.hindi === "on") say.push({ t: w[2], lang: "hi" });
+        return { big: w[1], pic: w[0], hi: s.hindi === "on" ? w[2] : null, fact: s.fact === "on" ? w[3] : null,
+                 say: say, cell: "w" + i, wordItem: true };
+      });
+      if (s.order === "mixed") list = shuffle(list);
+      return ask ? list.map(function (p) { return { ask: true, qPic: p.pic, qLine: "", qSay: tp.q, answer: p }; }) : list;
+    }
     if (mode === "cal") {
       var names = s.what === "months" ? MONTHS : DAYS;
       return askChain(names.map(function (w) {
@@ -297,6 +328,10 @@
           for (var f = row.length % 5; f && f < 5; f++) b.cells.push({ filler: true });
         });
       });
+    } else if (mode === "words") {
+      var tw = topic(s.t);
+      b.cols = tw.items.length > 12 ? 6 : 4;
+      tw.items.forEach(function (w, i) { b.cells.push({ key: "w" + i, pic: w[0], word: w[1] }); });
     } else if (mode === "cal") {
       var names = s.what === "months" ? MONTHS : DAYS;
       b.cols = s.what === "months" ? 4 : 7;
@@ -370,7 +405,9 @@
     }
     if (!synth) { safety = setTimeout(fin, 900); return; }
     synth.cancel();
-    var l = lang(), v = voices[l];
+    // a part can be { t, lang } to be read in another language (a Hindi word in an English mode)
+    var l = text && text.lang ? text.lang : lang(), v = voices[l];
+    if (text && text.t != null) text = text.t;
     var u = new SpeechSynthesisUtterance(text);
     if (v) u.voice = v;
     u.lang = v ? v.lang : (l === "hi" ? "hi-IN" : "en-IN");
@@ -390,7 +427,8 @@
     tables: { from: 2, to: 5, style: "teach", order: "order" },
     varna:  { style: "teach" },
     ginti:  { from: 1, to: 100, dir: "up", style: "teach", digits: "latin" },
-    cal:    { style: "teach", what: "days" }
+    cal:    { style: "teach", what: "days" },
+    words:  { style: "teach", t: "body", fact: "on", hindi: "off", order: "order" }
   };
   var items = [], idx = 0, playing = false, token = 0, timer = null;
   var revealed = false;   // Ask me: has the current answer been shown yet?
@@ -402,7 +440,8 @@
   // a Hindi mode on a device with no Hindi voice: say so, rather than read Hindi badly or not at all
   function updateVoiceNote() {
     if (!voiceNote) return;
-    voiceNote.hidden = !(synth && lang() === "hi" && !voices.hi);
+    var wantsHindi = lang() === "hi" || (mode === "words" && settings.words.hindi === "on");
+    voiceNote.hidden = !(synth && wantsHindi && !voices.hi);
   }
 
   /* ---------- board drawing and settling ---------- */
@@ -420,7 +459,10 @@
       else if (c.ghost) d = el("div", "sa-cell ghost", c.text);
       else {
         d = el("div", "sa-cell");
-        if (c.pair) {
+        if (c.word) {
+          d.appendChild(picEl("sa-cell-pic", c.pic));
+          d.appendChild(el("span", "sa-cell-word", c.word));
+        } else if (c.pair) {
           d.appendChild(el("span", "sa-cell-pic", c.pic));
           d.appendChild(el("span", "sa-cell-pair", c.pair[0] + " " + c.pair[1]));
         } else if (c.letter) {
@@ -479,12 +521,17 @@
     var asking = waiting(it), show = it.ask && !asking ? it.answer : it;
     var text = asking ? it.qLine + "?" : show.big;
     stage.className = "sa-stage" + (ready ? " ready" : "") + (show.title ? " title" : "") +
-      (!show.title && (text.length > 6 || show.w) ? " long" : "") +   // "6 × 10 = 60", "Wednesday" need a smaller size
+      (!show.title && (text.length > 6 || show.w) ? " long" : "") +
+      (show.wordItem || it.qPic ? " words" : "") +   // "6 × 10 = 60", "Wednesday" need a smaller size
       (asking && !ready ? " asking" : "") + (lang() === "hi" ? " hindi" : "");
 
     var big = el("div", "sa-big");
     if (!show.title) big.style.color = COLORS[i % COLORS.length];
-    if (asking) {
+    if (asking && it.qPic) {
+      // picture words: show the picture, hide the word
+      stage.appendChild(picEl("sa-pic", it.qPic));
+      big.appendChild(el("span", "sa-ans", "?"));
+    } else if (asking) {
       big.appendChild(document.createTextNode(it.qLine));
       big.appendChild(el("span", "sa-ans", "?"));
     } else if (show.pair) {
@@ -498,9 +545,11 @@
     } else {
       big.textContent = show.big;
     }
-    if (!asking && show.pic) stage.appendChild(el("div", "sa-pic", show.pic));
+    if (!asking && show.pic) stage.appendChild(picEl("sa-pic", show.pic));
     stage.appendChild(big);
     if (!asking && show.word) stage.appendChild(el("div", "sa-word", show.word));
+    if (!asking && show.hi) stage.appendChild(el("div", "sa-word sa-hi", show.hi));
+    if (!asking && show.fact) stage.appendChild(el("div", "sa-fact", show.fact));
     if (ready) stage.appendChild(el("div", "sa-hint", "Press ▶ to start"));
   }
 
@@ -669,6 +718,15 @@
     }
     settingsBox.appendChild(row1);
     showBtn.hidden = s.style !== "ask";
+    if (mode === "words") {
+      var rowT = el("div", "sa-row");
+      rowT.appendChild(chips("sa-topics", WORDS.map(function (t) { return [t.k, t.emoji + " " + t.name]; }), s.t, function (v) {
+        s.t = v; history.replaceState(null, "", "say-along.html?m=words&t=" + v);
+        document.title = topic(v).name + " — Say-along — Little Learners";
+        drawSettings(); drawWhy(); rebuild();
+      }));
+      settingsBox.appendChild(rowT);
+    }
 
     var row2 = el("div", "sa-row");
     if (mode === "count") {
@@ -695,6 +753,16 @@
       row2.appendChild(chips("sa-what", [["days", "📆 Days of the week"], ["months", "🗓️ Months of the year"]], s.what, function (v) {
         s.what = v; drawSettings(); rebuild();
       }));
+    } else if (mode === "words") {
+      row2.appendChild(chips("sa-wordopt", [["on", "💡 + what it is"], ["off", "Just the word"]], s.fact, function (v) {
+        s.fact = v; drawSettings(); rebuild();
+      }));
+      row2.appendChild(chips("sa-hindi", [["off", "English"], ["on", "+ हिंदी"]], s.hindi, function (v) {
+        s.hindi = v; drawSettings(); updateVoiceNote(); rebuild();
+      }));
+      row2.appendChild(select("Order", [["order", "In order"], ["mixed", "🔀 Mixed up"]], s.order, function (v) {
+        s.order = v; rebuild();
+      }));
     } else if (mode === "varna") {
       row2.appendChild(el("span", "sa-note", "स्वर and व्यंजन, each with a picture word — read in Hindi"));
     } else {
@@ -709,7 +777,9 @@
     whyBox.innerHTML = "";
     whyBox.appendChild(el("summary", null, "📘 For the grown-up: how to use it, and why"));
     var ul = el("ul");
-    MODES[mode].why.forEach(function (w) {
+    var tips = MODES[mode].why;
+    if (mode === "words") tips = [topic(settings.words.t).tip].concat(tips);
+    tips.forEach(function (w) {
       var li = el("li");
       li.appendChild(el("strong", null, w[0]));
       var why = el("div", "ll-why");
@@ -724,8 +794,8 @@
   function setMode(m, push) {
     if (!MODES[m]) m = "count";
     mode = m;
-    if (push) history.replaceState(null, "", "say-along.html?m=" + m);
-    document.title = MODES[m].name + " — Say-along — Little Learners";
+    if (push) history.replaceState(null, "", "say-along.html?m=" + m + (m === "words" ? "&t=" + settings.words.t : ""));
+    document.title = (m === "words" ? topic(settings.words.t).name : MODES[m].name) + " — Say-along — Little Learners";
     Array.prototype.forEach.call(document.querySelectorAll(".sa-tab"), function (t) {
       t.classList.toggle("on", t.getAttribute("data-m") === m);
     });
@@ -803,7 +873,9 @@
       else if (e.key === "ArrowLeft") jump(-1);
     });
 
-    setMode(new URLSearchParams(location.search).get("m") || "count", false);
+    var q = new URLSearchParams(location.search);
+    if (q.get("t") && WORDS.some(function (t) { return t.k === q.get("t"); })) settings.words.t = q.get("t");
+    setMode(q.get("m") || "count", false);
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);

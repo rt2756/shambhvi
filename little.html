@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Little Learners — tap-and-learn games</title>
 <meta name="description" content="Picture games for ages 4–6 (pre-school up to Class 1): numbers, letters and the world around us — read aloud, tap to answer, collect stars. Plus notes and spoken questions for grown-ups.">
-<link rel="stylesheet" href="assets/css/style.css?v=22">
+<link rel="stylesheet" href="assets/css/style.css?v=25">
 <script src="assets/js/theme.js?v=1"></script>
 </head>
 <body>
@@ -30,6 +30,10 @@
         <a class="ll-card" href="say-along.html?m=ginti"><span class="ll-card-emoji">१</span><strong>गिनती</strong><span class="ll-card-stars">एक, दो, तीन … सौ</span></a>
         <a class="ll-card" href="say-along.html?m=cal"><span class="ll-card-emoji">📅</span><strong>Days &amp; months</strong><span class="ll-card-stars">Sunday … December</span></a>
       </div>
+
+      <h2 class="ll-group">🖼️ Picture words — everything to know before Class 1</h2>
+      <p class="sa-note">Each word is read aloud with what it is (“We see with our eyes”), and in Hindi too if you like. 🙋 Ask me shows only the picture.</p>
+      <div class="ll-grid sa-words-grid" id="ll-words"></div>
     </div>
 
     <div id="ll">
@@ -37,6 +41,25 @@
     </div>
   </div>
 
+  <script src="assets/js/words-data.js?v=1"></script>
+  <script>
+    // one card per Picture words topic, built from words-data.js
+    (function () {
+      var box = document.getElementById("ll-words");
+      (window.SA_WORDS || []).forEach(function (t) {
+        var a = document.createElement("a");
+        a.className = "ll-card";
+        a.href = "say-along.html?m=words&t=" + t.k;
+        [["ll-card-emoji", t.emoji], [null, t.name], ["ll-card-stars", t.sub]].forEach(function (p, i) {
+          var e = document.createElement(i === 1 ? "strong" : "span");
+          if (p[0]) e.className = p[0];
+          e.textContent = p[1];
+          a.appendChild(e);
+        });
+        box.appendChild(a);
+      });
+    })();
+  </script>
   <script src="assets/js/little.js?v=2"></script>
 </body>
 </html>
