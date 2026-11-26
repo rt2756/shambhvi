@@ -1,0 +1,52 @@
+{
+"title": "5. Exploring Mixtures and their Separation",
+"tests": [
+{"q": [
+{"t": "Concentration is…", "o": ["Amount of solute in a given amount of solution", "Amount of solvent only", "Temperature of a solution", "Colour of a solution"], "e": "Expressed as % m/m, % m/v or % v/v."},
+{"t": "Maximum solute that dissolves in 100 g of solvent at a given temperature is…", "o": ["Solubility", "Concentration", "Density", "Saturation point"], "e": "Temperature must always be stated."},
+{"t": "Forming crystals from a saturated solution is…", "o": ["Crystallization", "Distillation", "Sublimation", "Chromatography"], "e": "Based on solubility changing with temperature."},
+{"t": "A solid turning directly into vapour is…", "o": ["Sublimation", "Evaporation", "Melting", "Deposition"], "e": "Camphor sublimes; sand doesn't."},
+{"t": "Two immiscible liquids are separated with a…", "o": ["Separating funnel", "Filter paper", "Condenser only", "Magnet"], "e": "The denser layer runs off first."},
+{"t": "Distillation separates liquids by…", "o": ["Different boiling points", "Colour", "Density", "Magnetism"], "e": "Works when boiling points differ by ~25 °C or more."},
+{"t": "A hospital saline drip is usually…", "o": ["0.9 % m/v sodium chloride", "9 % salt", "50 % glucose", "Pure water"], "e": "Safe for blood."},
+{"t": "Brass is about…", "o": ["80% copper, 20% zinc", "80% copper, 20% tin", "Iron and carbon", "Pure copper"], "e": "Bronze is copper + tin."},
+{"t": "Who developed ORS treatment?", "o": ["Dilip Mahalanabis", "C.V. Raman", "Homi Bhabha", "Asima Chatterjee"], "e": "For dehydration from diarrhoea and cholera."},
+{"t": "Alum added to muddy water makes particles…", "o": ["Clump together (coagulate)", "Dissolve", "Evaporate", "Float"], "e": "Alum is the coagulant."}
+]},
+{"q": [
+{"t": "In % m/v, the denominator is 100 mL of…", "o": ["Solution", "Solvent", "Solute", "Water always"], "e": "The denominator is always the solution."},
+{"t": "% v/v is used for…", "o": ["Two miscible liquids, e.g. vinegar", "Solids in solids", "Gases only", "Suspensions"], "e": "Perfumes, cosmetics, vinegar."},
+{"t": "Milk in water passes filter paper and doesn't settle but scatters a laser beam. It is a…", "o": ["Colloid", "True solution", "Suspension", "Pure substance"], "e": "Scattering reveals tiny dispersed particles."},
+{"t": "Faster evaporation gives…", "o": ["Smaller crystals", "Larger crystals", "No crystals", "Liquid"], "e": "Particles have less time to arrange."},
+{"t": "Fractional distillation separates liquids whose boiling points differ by…", "o": ["Less than 25 °C", "More than 100 °C", "Exactly 25 °C", "Zero"], "e": "Simple distillation needs a bigger gap."},
+{"t": "In paper chromatography, the starting line is drawn in pencil because…", "o": ["Pen ink would itself run", "Pencil is darker", "It's tradition", "Pencil dissolves"], "e": "Ink would ruin the result."},
+{"t": "The solvent level must start ___ the spot.", "o": ["Below", "Above", "Exactly at", "Far above"], "e": "Otherwise the ink dissolves into the liquid."},
+{"t": "Why does mustard oil float on water?", "o": ["It's less dense", "It's heavier", "It's a gas", "It's magnetic"], "e": "Less dense floats on denser."},
+{"t": "Why discard the middle part in a separating funnel?", "o": ["It contains both liquids mixed", "It's dirty", "It's the densest", "It's empty"], "e": "To get both fractions pure."},
+{"t": "Can an alloy be separated by physical methods?", "o": ["No — mixed at the particle level", "Yes, by filtering", "Yes, by magnet", "Yes, by sieving"], "e": "Alloys are homogeneous mixtures."}
+]},
+{"q": [
+{"t": "10 g of salt in 100 g of solution. % m/m?", "n": 10, "u": "%", "k": "F(10,100)*100", "e": "10 ÷ 100 × 100 = 10%."},
+{"t": "5 g glucose in 100 mL of solution. % m/v?", "n": 5, "u": "%", "k": "F(5,100)*100", "e": "A 5% glucose solution."},
+{"t": "20 g sugar dissolved in 80 g water. % m/m of the solution?", "n": 20, "u": "%", "k": "F(20,100)*100", "e": "Solution = 20 + 80 = 100 g; 20/100 = 20%."},
+{"t": "How much NaCl in 500 mL of 0.9% m/v saline (g)?", "n": 4.5, "u": "g", "k": "F('0.9')*5", "e": "0.9 g per 100 mL × 5 = 4.5 g."},
+{"t": "Potassium nitrate solubility rises from 21 to 167 g per 100 g water. It is ideal for…", "o": ["Crystallization by cooling", "Distillation", "Sublimation", "Magnet separation"], "e": "Big drop in solubility on cooling deposits crystals."},
+{"t": "Sodium chloride's solubility barely changes with temperature. So to get salt, use…", "o": ["Evaporation", "Cooling only", "Chromatography", "Separating funnel"], "e": "Cooling won't crystallise much."},
+{"t": "A centrifuge separates faster than waiting because…", "o": ["Spinning applies a far larger effective force", "It heats the sample", "It adds chemicals", "It filters"], "e": "Even the finest particles are moved."},
+{"t": "If two immiscible liquids had the same density…", "o": ["No layers would form", "They'd separate faster", "They'd react", "They'd become miscible"], "e": "Neither could float on the other."},
+{"t": "Camphor + sand can be separated by…", "o": ["Sublimation", "Filtration", "Distillation", "Chromatography"], "e": "Camphor sublimes; sand doesn't."},
+{"t": "Why must temperature be stated with solubility?", "o": ["Solubility changes with temperature", "It looks scientific", "Temperature is always 25 °C", "It doesn't matter"], "e": "Saturated at 20 °C isn't saturated at 50 °C."}
+]},
+{"q": [
+{"t": "How would you fairly test 'slow cooling gives bigger crystals'?", "o": ["Split one hot saturated solution in two; cool one slowly, one fast", "Use two different solutions", "Cool both in the fridge", "Heat both"], "e": "Change only the cooling rate."},
+{"t": "Mitti ka Ittar of Kannauj uses…", "o": ["Deg-Bhapka distillation", "Chromatography", "Sublimation", "Crystallization"], "e": "Captures the scent of first rain."},
+{"t": "Why are some sugary home drinks not ORS?", "o": ["The right ingredients need the right concentration", "ORS has no sugar", "ORS is a medicine only", "Any sugar water works"], "e": "Concentration matters."},
+{"t": "Stainless steel contains about how much chromium?", "o": ["16–18%", "80%", "0.03%", "50%"], "e": "Chromium resists corrosion."},
+{"t": "Chromatography means…", "o": ["Writing with colour", "Measuring time", "Heating colour", "Colour mixing"], "e": "Greek chroma + graphein."},
+{"t": "A component that clings to the paper in chromatography…", "o": ["Lags behind", "Moves fastest", "Disappears", "Evaporates"], "e": "One that prefers the solvent moves farther."},
+{"t": "Deposition is…", "o": ["Vapour turning directly to solid", "Solid to liquid", "Liquid to gas", "Liquid to solid"], "e": "The reverse of sublimation."},
+{"t": "Why does coagulation help purify water?", "o": ["Tiny particles clump into ones big enough to settle or filter", "It dissolves mud", "It kills all germs", "It evaporates water"], "e": "Many small become one big."},
+{"t": "Why is the paperfuge useful?", "o": ["Hand-powered cheap blood centrifuge", "Makes paper", "Measures temperature", "Distils water"], "e": "Borrows a spinning toy's idea."},
+{"t": "Ammonium chloride solubility is 24 g at 0 °C and 66 g at 100 °C. A saturated solution at 100 °C with 100 g water is cooled to 0 °C. Crystals formed (g)?", "n": 42, "u": "g", "k": "66-24", "e": "66 − 24 = 42 g come out of solution."}
+]}
+]}

@@ -32,10 +32,24 @@
   // A set is a class number ("7" -> content/class7/tests/, hub class7-tests.html) or a
   // class-free name ("grammar" -> content/grammar/tests/, hub grammar-tests.html).
   var SET_NAMES = { grammar: "English Grammar", music: "Music Theory" };
+  // A science set is "<N>-science" -> content/class<N>/science-tests/, hub class<N>-science-tests.html.
   function isClass(set) { return /^\d+$/.test(set); }
-  function dirFor(cls) { return isClass(cls) ? "content/class" + cls + "/tests/" : "content/" + cls + "/tests/"; }
-  function hubFor(cls) { return isClass(cls) ? "class" + cls + "-tests.html" : cls + "-tests.html"; }
-  function labelFor(cls) { return isClass(cls) ? "Class " + cls : (SET_NAMES[cls] || cls); }
+  function sciClass(set) { var m = /^(\d+)-science$/.exec(set); return m ? m[1] : null; }
+  function dirFor(cls) {
+    var s = sciClass(cls);
+    if (s) return "content/class" + s + "/science-tests/";
+    return isClass(cls) ? "content/class" + cls + "/tests/" : "content/" + cls + "/tests/";
+  }
+  function hubFor(cls) {
+    var s = sciClass(cls);
+    if (s) return "class" + s + "-science-tests.html";
+    return isClass(cls) ? "class" + cls + "-tests.html" : cls + "-tests.html";
+  }
+  function labelFor(cls) {
+    var s = sciClass(cls);
+    if (s) return "Class " + s + " Science";
+    return isClass(cls) ? "Class " + cls : (SET_NAMES[cls] || cls);
+  }
   function keyFor(cls, file, t) { return "test:" + cls + ":" + file + ":" + t; }
 
   function loadState(key) {

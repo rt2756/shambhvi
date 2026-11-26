@@ -1,0 +1,52 @@
+{
+"title": "11. Keeping Time with the Skies",
+"tests": [
+{"q": [
+{"t": "The Moon shines by…", "o": ["Reflecting sunlight", "Its own light", "Earth's light", "Starlight"], "e": "It emits no light of its own."},
+{"t": "The full Moon is called…", "o": ["Purnima", "Amavasya", "Krishna Paksha", "Adhika Maasa"], "e": "Amavasya is the new Moon."},
+{"t": "The new Moon is called…", "o": ["Amavasya", "Purnima", "Shukla Paksha", "Uttarayan"], "e": "Only the dark half faces us."},
+{"t": "One full Moon to the next takes about…", "o": ["29.5 days", "7 days", "365 days", "24 hours"], "e": "The basis of the month."},
+{"t": "The Earth's revolution around the Sun takes about…", "o": ["365¼ days", "29.5 days", "24 hours", "100 days"], "e": "The basis of the year."},
+{"t": "The mean solar day is…", "o": ["24 hours", "12 hours", "29.5 days", "1 week"], "e": "Highest Sun to highest Sun, averaged."},
+{"t": "The calendar used worldwide today is the…", "o": ["Gregorian (solar) calendar", "Lunar calendar", "Indian National Calendar only", "Luni-solar calendar"], "e": "Months total 365 days."},
+{"t": "The Moon rises about how many minutes later each day?", "n": 50, "u": "min", "e": "Because it has moved along its orbit."},
+{"t": "Who is the Father of the Indian Space Programme?", "o": ["Vikram Sarabhai", "Meghnad Saha", "C.V. Raman", "Aryabhata"], "e": "He pioneered India's first satellite effort."},
+{"t": "The Moon is Earth's…", "o": ["Natural satellite", "Artificial satellite", "Planet", "Star"], "e": "Human-made satellites are artificial."}
+]},
+{"q": [
+{"t": "What causes the Moon's phases?", "o": ["Changing positions of Sun, Moon and Earth", "Earth's shadow", "Clouds", "The Moon changing shape"], "e": "The Earth's shadow causes eclipses, not phases."},
+{"t": "More than half of the lit portion visible is called…", "o": ["Gibbous", "Crescent", "New Moon", "Half"], "e": "Crescent is less than half."},
+{"t": "The waning period (bright part shrinking) is…", "o": ["Krishna Paksha", "Shukla Paksha", "Uttarayan", "Purnima"], "e": "Waxing is Shukla Paksha."},
+{"t": "A lunar eclipse can only happen on…", "o": ["A full Moon day", "A new Moon day", "Any day", "Half Moon days"], "e": "A solar eclipse needs a new Moon."},
+{"t": "Why don't eclipses happen every month?", "o": ["The Moon's orbit is slightly tilted", "The Moon stops", "The Sun moves", "Clouds hide them"], "e": "The Moon usually passes above or below the shadow line."},
+{"t": "A waxing Moon is easiest to spot at…", "o": ["Sunset", "Sunrise", "Midnight", "Noon"], "e": "A waning Moon at sunrise."},
+{"t": "On full Moon day, the Moon is…", "o": ["Opposite the Sun", "Next to the Sun", "Overhead at noon", "Invisible"], "e": "As the Sun rises, the full Moon sets."},
+{"t": "A lunar year of 12 months is about how many days?", "n": 354, "u": "days", "e": "12 × 29.5 ≈ 354."},
+{"t": "The extra month added in luni-solar calendars is…", "o": ["Adhika Maasa", "Purnima", "Chaitra", "Amavasya"], "e": "The intercalary month."},
+{"t": "The Indian National Calendar year begins on…", "o": ["22 March", "1 January", "15 August", "21 June"], "e": "The day after the spring equinox (21 March in leap years)."}
+]},
+{"q": [
+{"t": "A lunar year is about how many days shorter than the seasonal year (365 − 354)?", "n": 11, "u": "days", "k": "365-354", "e": "So seasons drift against lunar months."},
+{"t": "Is 2024 a leap year?", "o": ["Yes — divisible by 4", "No", "Only in India", "Only every 400 years"], "e": "2024 ÷ 4 = 506."},
+{"t": "Is 1900 a leap year?", "o": ["No — century years must be divisible by 400", "Yes", "Only in India", "Yes, divisible by 4"], "e": "1900 is skipped; 2000 was a leap year."},
+{"t": "Why does the Moon rise ~50 minutes later each day?", "o": ["It moves along its orbit, so Earth must turn a bit more", "Earth slows down", "Clocks are wrong", "The Sun pulls it back"], "e": "That's why the Moon is sometimes seen by day."},
+{"t": "Why does everyone on Earth see nearly the same phase on a day?", "o": ["Earth's rotation is much faster than the Moon's revolution", "The Moon is huge", "Phases are fixed", "Everyone is in one country"], "e": "The Moon barely moves during one rotation."},
+{"t": "The shadow of a vertical stick is shortest when…", "o": ["The Sun is highest", "At sunrise", "At sunset", "At night"], "e": "Used to find the solar day."},
+{"t": "Why do Diwali and Holi shift by less than a month each year?", "o": ["Adhika Maasa keeps the luni-solar calendar near the seasons", "They follow the Gregorian calendar", "They are solar", "They never shift"], "e": "The correction applies every few years."},
+{"t": "Why does Eid-ul-Fitr drift about 11 days earlier each year?", "o": ["It follows a purely lunar calendar with no correction", "It is solar", "It follows Diwali", "Moon sightings vary randomly"], "e": "Over time it can fall in any month."},
+{"t": "Makar Sankranti falls on nearly the same Gregorian date because it follows a…", "o": ["Solar sidereal calendar", "Lunar calendar", "Luni-solar calendar", "Random choice"], "e": "Also Pongal, Bihu, Vaisakhi."},
+{"t": "The sidereal year is longer than the tropical year by about…", "o": ["20 minutes", "1 day", "11 days", "1 hour"], "e": "So sidereal-calendar festivals slowly drift."}
+]},
+{"q": [
+{"t": "In the ball-and-lamp model, the ball held towards the lamp shows…", "o": ["New Moon", "Full Moon", "Half Moon", "Gibbous"], "e": "You see the dark side."},
+{"t": "Uttarayan is the Sun's apparent movement…", "o": ["Northward, December to June", "Southward, June to December", "Westward daily", "Eastward yearly"], "e": "Dakshinayan is southward."},
+{"t": "In summer the Sun rises…", "o": ["A little north of East", "Exactly East", "A little south of East", "In the West"], "e": "Extremes at the solstices."},
+{"t": "Who chaired the 1952 Calendar Reform Committee?", "o": ["Meghnad Saha", "Vikram Sarabhai", "Aryabhata", "C.V. Raman"], "e": "Known for the Saha equation."},
+{"t": "Most artificial satellites orbit about 800 km up, taking about how many minutes per orbit?", "n": 100, "u": "min", "e": "Much faster than the Moon."},
+{"t": "Why are satellites seen just after sunset?", "o": ["The sky is dark for you but the satellite still catches sunlight", "They glow", "They come down at night", "They flash"], "e": "Look for a steady moving point of light."},
+{"t": "'The Moon rises when the Sun sets' is true…", "o": ["Only on a full Moon day", "Every day", "Never", "Only on new Moon"], "e": "Otherwise moonrise is at a different time."},
+{"t": "In Amant calendars, a month ends on…", "o": ["The new Moon", "The full Moon", "The 1st", "The equinox"], "e": "Purnimant months end on the full Moon."},
+{"t": "Space junk is a problem because…", "o": ["It can collide with working satellites", "It makes rain", "It cools Earth", "It blocks the Sun"], "e": "Small pieces burn up; larger ones crowd space."},
+{"t": "Why can a festival's date differ across India?", "o": ["It depends on the lunar phase at local sunrise", "States choose randomly", "Clocks differ", "Different calendars per city"], "e": "Sunrise is earlier in the east."}
+]}
+]}

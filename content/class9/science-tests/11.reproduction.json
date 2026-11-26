@@ -1,0 +1,52 @@
+{
+"title": "11. Reproduction: How Life Continues",
+"tests": [
+{"q": [
+{"t": "Reproduction involving only one parent is…", "o": ["Asexual", "Sexual", "Pollination", "Fertilisation"], "e": "Offspring are clones."},
+{"t": "Genetically identical offspring are called…", "o": ["Clones", "Hybrids", "Gametes", "Zygotes"], "e": "Produced by mitosis."},
+{"t": "Bread mould reproduces by…", "o": ["Spore formation", "Budding", "Grafting", "Seeds"], "e": "Spores in the air land on moist bread."},
+{"t": "The male part of a flower is the…", "o": ["Stamen", "Pistil", "Sepal", "Petal"], "e": "Anther + filament; makes pollen."},
+{"t": "The female part of a flower is the…", "o": ["Pistil", "Stamen", "Sepal", "Petal"], "e": "Stigma + style + ovary."},
+{"t": "Transfer of pollen from anther to stigma is…", "o": ["Pollination", "Fertilisation", "Germination", "Grafting"], "e": "Needed for fruit formation."},
+{"t": "Human body cells have how many chromosomes?", "n": 46, "e": "Gametes have 23."},
+{"t": "Gamete formation by meiosis is…", "o": ["Gametogenesis", "Mitosis", "Budding", "Pollination"], "e": "Takes place in testes and ovaries."},
+{"t": "Who proved new life always comes from pre-existing life?", "o": ["Louis Pasteur", "Mendel", "Darwin", "Hooke"], "e": "Disproving spontaneous generation."},
+{"t": "Who is the Father of Indian Embryology?", "o": ["P. Maheshwari", "M.S. Swaminathan", "Birbal Sahni", "J.C. Bose"], "e": "In-vitro fertilisation in flowering plants."}
+]},
+{"q": [
+{"t": "The central process behind all asexual reproduction is…", "o": ["Mitosis", "Meiosis", "Pollination", "Fertilisation"], "e": "Daughter cells identical to the parent."},
+{"t": "The main advantage of asexual reproduction is…", "o": ["It's fast and needs no partner", "More variation", "Bigger offspring", "Seeds last longer"], "e": "Rapid population growth when conditions are good."},
+{"t": "Why does meiosis halve the chromosome number?", "o": ["So the number doesn't double every generation", "To make cells smaller", "To speed growth", "By accident"], "e": "Two halves rebuild a full set."},
+{"t": "Why are siblings different?", "o": ["Random mixing of chromosomes in meiosis", "Different food", "Mitosis", "Cloning"], "e": "Each gets a unique combination."},
+{"t": "Why refrigerate food?", "o": ["Low temperature slows mould spores growing", "Kills all spores", "Adds moisture", "Removes air"], "e": "Spores need warmth (25–35 °C) and moisture."},
+{"t": "Tissue culture uses the shoot tip because the meristem is usually…", "o": ["Virus-free", "Coloured", "Old", "Dead"], "e": "So diseased plants are eliminated."},
+{"t": "Why cut other branches of plant A after grafting?", "o": ["So its energy goes into the graft", "To make it shorter", "To stop pests", "For decoration"], "e": "And wrap the graft against pests."},
+{"t": "In layering, roots develop in about…", "o": ["10–15 days", "1 day", "1 year", "1 hour"], "e": "Then the twig is cut free."},
+{"t": "Cross-pollination generates more…", "o": ["Variation", "Clones", "Pollen", "Spores"], "e": "It combines material from two individuals."},
+{"t": "The scrotum keeps the testes…", "o": ["Slightly cooler than body temperature", "Warmer", "Wet", "At body temperature"], "e": "Necessary for sperm formation."}
+]},
+{"q": [
+{"t": "Wind-pollinated flowers have…", "o": ["Light pollen in huge amounts and feathery stigmas", "Bright petals and nectar", "Sticky large pollen", "No pollen"], "e": "Wind can't aim, so quantity matters."},
+{"t": "Insect-pollinated flowers have…", "o": ["Bright colours, nectar, fragrance, sticky pollen", "Feathery stigmas", "Tiny dull flowers", "Underwater pollen"], "e": "Colour and scent are advertising."},
+{"t": "Wind pollination: about 1,000,000 pollen grains for 200 seeds. Grains per seed?", "n": 5000, "k": "F(1000000,200)", "e": "Much less efficient than insects (~30 per seed)."},
+{"t": "In the pea experiment, which treatment fails to form fruit?", "o": ["Stamens removed from the bud before opening", "Open flower with stamens removed", "Untouched flower", "Petals removed"], "e": "Pea pollinates inside the bud."},
+{"t": "Why do fish and frogs lay thousands of eggs?", "o": ["External fertilisation in water — most are lost", "They live long", "Eggs are small", "They care for each"], "e": "Quantity over care."},
+{"t": "Internal fertilisation means…", "o": ["Fewer eggs, better protected", "More eggs", "No eggs", "Eggs in water"], "e": "The strategy shifts to care."},
+{"t": "Why does a larval stage exist?", "o": ["The egg carries only enough yolk to make a feeding larva", "Larvae are prettier", "To hide", "No reason"], "e": "The mother can't supply yolk for thousands of eggs."},
+{"t": "Ovulation in a 28-day cycle happens around day…", "n": 14, "e": "The ovary releases a mature egg."},
+{"t": "Females have sex chromosomes ___; males ___.", "o": ["XX; XY", "XY; XX", "XX; XX", "YY; XY"], "e": "The mother always gives X."},
+{"t": "Which gamete determines a baby's biological sex?", "o": ["The father's", "The mother's", "Both equally", "Neither"], "e": "Sperm carries X or Y."}
+]},
+{"q": [
+{"t": "Why is prenatal sex determination banned in India?", "o": ["To prevent sex-selective abortion and protect the sex ratio", "It's inaccurate", "It's expensive", "It harms the mother"], "e": "Imbalanced ratios harm society."},
+{"t": "Which contraceptive also prevents STIs?", "o": ["Condoms", "Oral pills", "Copper-T", "Surgical methods"], "e": "The only method that does both."},
+{"t": "India's first test-tube baby (1978) was pioneered by…", "o": ["Subhash Mukhopadhyay", "P. Maheshwari", "Homi Bhabha", "C.V. Raman"], "e": "In Kolkata."},
+{"t": "Sexual maturity vs emotional maturity:", "o": ["Emotional maturity takes longer", "They happen together", "Emotional comes first", "Neither develops"], "e": "Physical capability isn't readiness."},
+{"t": "Sperm are tiny and eggs large because…", "o": ["Sperm must travel; eggs must nourish", "By chance", "Eggs are older", "Sperm are mature"], "e": "Each built for its job."},
+{"t": "Menstruation usually lasts…", "o": ["3 to 7 days", "28 days", "1 day", "14 days"], "e": "The uterine lining is shed."},
+{"t": "From about which week of pregnancy is the embryo called a foetus?", "n": 9, "e": "Major organs form in the first two months."},
+{"t": "Fungi are useful because they…", "o": ["Degrade wastes and remove heavy metals", "Only spoil food", "Make oxygen", "Pollinate"], "e": "They grow fast by spores."},
+{"t": "KVKs under ICAR help farmers with…", "o": ["Modern grafting and high-yield techniques", "Space science", "Vaccines", "Mining"], "e": "Krishi Vigyan Kendras."},
+{"t": "A farmer finds one excellent mango tree. Best way to get many identical trees?", "o": ["Grafting or other vegetative propagation", "Planting its seeds", "Cross-pollination", "Spore formation"], "e": "Seeds would vary; clones keep the desired traits."}
+]}
+]}

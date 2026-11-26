@@ -1,0 +1,52 @@
+{
+"title": "4. Metals and Non-metals",
+"tests": [
+{"q": [
+{"t": "The shine of a polished metal is called…", "o": ["Lustre", "Sonority", "Ductility", "Malleability"], "e": "Lustre is the shine of metals when polished (metallic lustre)."},
+{"t": "A metal that can be beaten into thin sheets is…", "o": ["Malleable", "Ductile", "Sonorous", "Brittle"], "e": "Malleable means it can be hammered flat. Aluminium foil is an example."},
+{"t": "A metal that can be drawn into wires is…", "o": ["Ductile", "Malleable", "Lustrous", "Brittle"], "e": "Ductile means it can be stretched into wires, like copper wire."},
+{"t": "A school bell rings when struck. This property is called…", "o": ["Sonority", "Lustre", "Ductility", "Conduction"], "e": "Sonorous metals make a ringing sound when struck."},
+{"t": "Which metal is a liquid at room temperature?", "o": ["Mercury", "Iron", "Copper", "Sodium"], "e": "Mercury is the metal that is liquid at room temperature, which is why it was used in thermometers."},
+{"t": "Which two things are both needed for iron to rust?", "o": ["Air and water", "Only water", "Only air", "Oil and water"], "e": "The three-bottle experiment shows rust forms only when both air (oxygen) and water are present."},
+{"t": "Coating iron with zinc to stop rusting is called…", "o": ["Galvanisation", "Corrosion", "Neutralisation", "Combustion"], "e": "Galvanisation puts a zinc layer on iron, keeping air and water away from it."},
+{"t": "Sodium is stored in…", "o": ["Kerosene", "Water", "Open air", "Vinegar"], "e": "Sodium reacts strongly with air and water. Kerosene keeps both away."},
+{"t": "Phosphorus is stored in…", "o": ["Water", "Kerosene", "Open air", "Sand"], "e": "Phosphorus catches fire in air, so it is kept under water."},
+{"t": "Non-metals like coal and sulfur break when hammered. They are…", "o": ["Brittle", "Malleable", "Ductile", "Sonorous"], "e": "Brittle substances break into pieces instead of flattening."}
+]},
+{"q": [
+{"t": "Which are the most malleable metals?", "o": ["Gold and silver", "Iron and copper", "Sodium and potassium", "Mercury and zinc"], "e": "Gold and silver can be beaten into extremely thin sheets — silver foil on sweets is one example."},
+{"t": "Which metals are soft enough to cut with a knife?", "o": ["Sodium and potassium", "Iron and copper", "Gold and silver", "Aluminium and zinc"], "e": "Sodium and potassium are exceptions — metals that are very soft."},
+{"t": "Which non-metal conducts electricity?", "o": ["Graphite (carbon)", "Sulfur", "Oxygen", "Phosphorus"], "e": "Graphite, a form of carbon used as pencil lead, conducts electricity — the odd one out among non-metals."},
+{"t": "Why do cooking pans have wooden or plastic handles?", "o": ["Wood and plastic are poor conductors of heat", "They are shinier", "They are malleable", "They rust less than metal"], "e": "The metal pan conducts heat into the food; the handle is a poor conductor, so it stays cool enough to hold."},
+{"t": "Magnesium oxide dissolved in water turns red litmus blue. So magnesium oxide is…", "o": ["Basic", "Acidic", "Neutral", "A non-metal oxide"], "e": "Red → blue means a base. Metal oxides are basic."},
+{"t": "Sulfur dioxide dissolved in water turns blue litmus red. So it is…", "o": ["Acidic", "Basic", "Neutral", "A metal oxide"], "e": "Blue → red means an acid. Non-metal oxides are acidic."},
+{"t": "What colour flame does magnesium ribbon burn with?", "o": ["Dazzling white", "Blue", "Green", "No flame"], "e": "Magnesium burns with a dazzling white flame and leaves white magnesium oxide powder."},
+{"t": "Plastic, glass and wood are…", "o": ["Neither metals nor non-metals", "Metals", "Non-metals", "Elements"], "e": "'Metal' and 'non-metal' sort elements. Plastic, glass and wood are not elements, so they are neither."},
+{"t": "The green coating on old copper and black coating on silver are examples of…", "o": ["Corrosion", "Galvanisation", "Ductility", "Lustre"], "e": "Corrosion is the slow eating away of a metal surface by air, water or other substances. Rusting is corrosion of iron."},
+{"t": "Guitar strings are made of metal because metals are…", "o": ["Ductile", "Brittle", "Dull", "Liquid"], "e": "Metals can be drawn into thin, strong wires — they are ductile."}
+]},
+{"q": [
+{"t": "In the rusting experiment, why is silica gel put in bottle A?", "o": ["To remove moisture from the air", "To add oxygen", "To add water", "To make the nail shiny"], "e": "Silica gel dries the air, so bottle A has air but no water. The nail there does not rust."},
+{"t": "Why is the water in bottle B boiled and covered with oil?", "o": ["To remove air and keep it out", "To make the water hotter", "To add oxygen", "To dissolve the nail"], "e": "Boiling drives out dissolved air; the oil layer stops air getting back in. So bottle B has water but no air."},
+{"t": "Only bottle C (air + water) rusted. What does this prove?", "o": ["Both air and water are needed", "Only water is needed", "Only air is needed", "Oil causes rusting"], "e": "Each other bottle removed one ingredient and didn't rust. So rusting needs both together."},
+{"t": "How does painting an iron gate prevent rusting?", "o": ["It keeps air and water off the iron", "It removes iron", "It makes iron a non-metal", "It cools the iron"], "e": "Rust needs air and water to touch iron. Paint forms a barrier between them."},
+{"t": "An element X is burned and its oxide turns blue litmus red. X is most likely a…", "o": ["Non-metal", "Metal", "Mixture", "Liquid metal"], "e": "An acidic oxide comes from a non-metal."},
+{"t": "An element Y is shiny, rings when struck and its oxide is basic. Y is a…", "o": ["Metal", "Non-metal", "Compound", "Plastic"], "e": "Lustre, sonority and a basic oxide are all signs of a metal."},
+{"t": "Wood does not flatten and does not shatter when hammered. Which is correct?", "o": ["Wood is neither malleable nor brittle", "Wood is brittle", "Wood is malleable", "Wood is a metal"], "e": "Not being malleable doesn't automatically mean brittle. Wood does neither."},
+{"t": "Why do electricians wear rubber gloves and shoes?", "o": ["Rubber is a poor conductor of electricity", "Rubber is sonorous", "Rubber is a metal", "Rubber is ductile"], "e": "Current can't easily pass through rubber, so it protects the electrician."},
+{"t": "1 gram of gold can be drawn into a wire about how long?", "o": ["2 km", "2 cm", "2 m", "20 km"], "e": "Gold is so ductile that a single gram makes a wire around 2 km long."},
+{"t": "Sulfur burns in air to form a gas. In water this gas forms…", "o": ["Sulfurous acid", "Magnesium oxide", "Lime water", "Rust"], "e": "Sulfur dioxide dissolves in water to make sulfurous acid — a non-metal oxide giving an acid."}
+]},
+{"q": [
+{"t": "Sodium is kept in kerosene but phosphorus in water. What do both choices have in common?", "o": ["Each keeps the substance away from what it reacts with", "Both react with kerosene", "Both are metals", "Both are liquids"], "e": "Sodium reacts with air and water, so kerosene shields it. Phosphorus reacts with air, so water shields it."},
+{"t": "A bridge near the sea rusts faster than one in a desert. The best reason:", "o": ["Sea air holds more moisture", "Desert air has no oxygen", "Sea air is colder", "Sand protects iron"], "e": "Rusting needs air and water. The moist sea air supplies plenty of water."},
+{"t": "Mercury is a metal but liquid. Sodium is a metal but soft. What do these tell us?", "o": ["Not every metal has every typical property", "They are not metals", "All metals are liquid", "Metals are always soft"], "e": "They are exceptions — useful reminders that the usual metal properties have exceptions."},
+{"t": "You have two unlabelled grey powders. Burning each and testing the oxide in water with litmus: P's oxide turns red litmus blue. P is…", "o": ["A metal", "A non-metal", "Neither", "Cannot tell"], "e": "A basic oxide (red → blue) comes from a metal."},
+{"t": "Why is the Iron Pillar of Delhi famous?", "o": ["It has barely rusted for over 1600 years", "It is made of gold", "It is liquid", "It was built last century"], "e": "Despite standing in the open for centuries it shows very little rust — evidence of advanced ancient Indian metal-working."},
+{"t": "Which property would you use to tell a metal spoon from a plastic one in the dark, using only sound?", "o": ["Sonority", "Lustre", "Ductility", "Malleability"], "e": "Strike them: the metal rings, the plastic gives a dull sound."},
+{"t": "Why does a nail kept in oil not rust?", "o": ["Oil keeps air and water off the iron", "Oil contains zinc", "Oil turns iron into copper", "Oil adds moisture"], "e": "Like paint and grease, oil covers the surface so air and water can't reach the iron."},
+{"t": "Which pair is matched WRONGLY?", "o": ["Coal — malleable", "Copper — ductile", "Bell — sonorous", "Silver — lustrous"], "e": "Coal is a non-metal and brittle, not malleable."},
+{"t": "How many elements are known so far?", "n": 118, "e": "Scientists have found 118 elements — substances that can't be broken into simpler ones."},
+{"t": "Rain in an area with factories burning sulfur-rich coal is acidic. Why?", "o": ["Sulfur dioxide dissolves in rain to form an acid", "Coal is a metal", "Metal oxides are acidic", "Rain is always acidic"], "e": "Burning sulfur gives sulfur dioxide, a non-metal oxide. In water it forms an acid, making the rain acidic."}
+]}
+]}

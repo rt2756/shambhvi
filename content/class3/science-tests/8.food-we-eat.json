@@ -1,0 +1,52 @@
+{
+"title": "8. Food We Eat",
+"tests": [
+{"q": [
+{"t": "How many food items are in Chhappan bhog?", "n": 56, "e": "Chhappan means fifty-six."},
+{"t": "Shirin liked to eat only…", "o": ["Rice and potatoes", "Fruits", "Dal and roti", "Sweets"], "e": "So she often fell sick."},
+{"t": "The champion told Shirin to eat…", "o": ["Many kinds of food", "Only rice", "Only sweets", "Nothing"], "e": "Vegetables, fruits, grains, pulses and nuts."},
+{"t": "A meal with many kinds of healthy food is a…", "o": ["Balanced diet", "Snack", "Junk food", "Fast"], "e": "It keeps the body strong."},
+{"t": "Which fruit comes in summer?", "o": ["Mango", "Apple", "Orange only in winter", "None"], "e": "Mangoes and melons in summer; apples in winter."},
+{"t": "Why do we drink more water in summer?", "o": ["We sweat and lose water", "Water is cheaper", "It's colder", "To grow taller"], "e": "Water is life."},
+{"t": "Carrot, radish and beetroot are which plant part?", "o": ["Roots", "Leaves", "Fruits", "Flowers"], "e": "They grow under the soil."},
+{"t": "Spinach and methi are which plant part?", "o": ["Leaves", "Roots", "Stems", "Seeds"], "e": "Leafy vegetables."},
+{"t": "Which food comes from animals?", "o": ["Milk", "Rice", "Spinach", "Apple"], "e": "Also curd, ghee, paneer, honey, eggs."},
+{"t": "Which is best to eat often?", "o": ["Food cooked at home", "Only snacks", "Only sweets", "Only cold drinks"], "e": "Home food is fresh and healthy."}
+]},
+{"q": [
+{"t": "Potato and ginger are which plant part?", "o": ["Stems", "Roots", "Leaves", "Flowers"], "e": "They are underground stems."},
+{"t": "Guava, sapota and mango are…", "o": ["Fruits", "Roots", "Leaves", "Stems"], "e": "We eat many fruits."},
+{"t": "Which grain list is correct?", "o": ["Rice, ragi, jowar, wheat, bajra", "Carrot, radish, beet", "Milk, curd, ghee", "Apple, mango, guava"], "e": "Eat many kinds of grains."},
+{"t": "Which is a summer drink?", "o": ["Aam panna", "Hot soup", "Hot cocoa", "Stew"], "e": "Also nimbu pani and tender coconut water."},
+{"t": "In winter we like to eat…", "o": ["Warm food, soups and stews", "Kulfi only", "Ice only", "Nothing"], "e": "Warm food keeps us comfortable."},
+{"t": "Which two common ingredients come from neither plants nor animals?", "o": ["Salt and water", "Sugar and milk", "Rice and dal", "Honey and egg"], "e": "Salt comes from seawater or rocks."},
+{"t": "How many tastes are in Chhappan bhog?", "n": 6, "e": "Sweet, spicy, astringent, sour, salty, bitter."},
+{"t": "After changing her food, Shirin…", "o": ["Ran faster and won a medal", "Fell sick more", "Stopped running", "Ate less"], "e": "Healthy food plus practice."},
+{"t": "Lassi uses curd from milk and sugar from…", "o": ["Sugarcane", "Wheat", "Spinach", "Salt"], "e": "Plant and animal ingredients together."},
+{"t": "Why should we not waste food?", "o": ["Food takes effort to grow and many people need it", "It's heavy", "It's free", "It's boring"], "e": "Take only what you'll eat."}
+]},
+{"q": [
+{"t": "Why do we eat different kinds of food?", "o": ["Different foods help the body in different ways", "For colour only", "Because shops sell them", "No reason"], "e": "A balanced diet keeps us strong."},
+{"t": "Why eat seasonal foods?", "o": ["They're fresh and suit the weather", "They're always costly", "They're rare", "They have no taste"], "e": "Mangoes in summer, apples in winter."},
+{"t": "Shirin practised a lot but fell sick often because…", "o": ["She didn't eat a variety of food", "She ran too fast", "She slept too much", "She drank water"], "e": "Practice needs good food too."},
+{"t": "Which plate is most balanced?", "o": ["Roti, dal, vegetables, salad and curd", "Chips and soda", "Only rice", "Only sweets"], "e": "Grains, pulses, vegetables and milk products."},
+{"t": "Onion is which plant part?", "o": ["Stem", "Root", "Fruit", "Flower"], "e": "A bulb is a kind of stem."},
+{"t": "Pulses and dry fruits are…", "o": ["Seeds", "Roots", "Leaves", "Stems"], "e": "Seeds store food."},
+{"t": "Why drink water often while playing?", "o": ["We lose water when we sweat", "It's a game rule", "To get tired", "No reason"], "e": "Stay hydrated."},
+{"t": "Bamboo shoots are which plant part?", "o": ["Stems", "Roots", "Fruits", "Seeds"], "e": "Young bamboo stems."},
+{"t": "If your friend didn't bring lunch, what's kind to do?", "o": ["Share your food", "Laugh", "Eat faster", "Tell the teacher only"], "e": "Sharing shows care."},
+{"t": "Which of these is a plant-and-animal food?", "o": ["Lassi", "Spinach", "Apple", "Salt"], "e": "Curd (animal) + sugar (plant)."}
+]},
+{"q": [
+{"t": "Which is TRUE?", "o": ["Some foods are sweet, sour, spicy or bitter", "All foods taste the same", "We eat only one plant part", "Animals give us rice"], "e": "Many tastes, many foods."},
+{"t": "How can you tell if food is healthy?", "o": ["It's fresh, home-cooked and varied", "It's in a shiny packet", "It's very sugary", "It's fried always"], "e": "Variety and freshness matter."},
+{"t": "Which shows the plant parts we eat correctly?", "o": ["Carrot—root, spinach—leaf, potato—stem", "Carrot—leaf, spinach—root", "Potato—fruit, mango—root", "Onion—flower"], "e": "Learn by grouping."},
+{"t": "One way to reduce food waste at home is…", "o": ["Cook and serve only what is needed", "Throw leftovers", "Cook extra always", "Buy too much"], "e": "Plan meals."},
+{"t": "Sugarcane juice is good in summer because it…", "o": ["Gives water and energy", "Is hot", "Is salty", "Is solid"], "e": "Refreshing drink."},
+{"t": "A guest comes suddenly. A good choice is…", "o": ["Fresh home food and water", "Leftover chips", "Nothing", "Only soda"], "e": "Welcoming guests with care."},
+{"t": "Which crops grow in fields?", "o": ["Wheat, rice and pulses", "Milk", "Honey", "Eggs"], "e": "Farmers grow them."},
+{"t": "If a balanced thali has 5 parts and you eat 3, how many parts are missing?", "n": 2, "k": "5-3", "e": "Eat all parts for balance."},
+{"t": "Honey comes from…", "o": ["Bees", "Cows", "Trees directly", "Salt"], "e": "An animal-based food."},
+{"t": "People in different parts of India eat…", "o": ["Different dishes based on local crops and customs", "Exactly the same food", "Only rice", "Only bread"], "e": "Discover new foods."}
+]}
+]}

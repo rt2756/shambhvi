@@ -1,0 +1,52 @@
+{
+"title": "9. Different Lands, Different Lives",
+"tests": [
+{"q": [
+{"t": "Gurpreet visited Amritsar, which is in the…", "o": ["Plains", "Desert", "Mountains", "Coast"], "e": "Large fertile fields."},
+{"t": "Ritika visited the desert of…", "o": ["Rajasthan", "Kerala", "Sikkim", "Odisha"], "e": "The land of endless sand."},
+{"t": "Chandni visited a beach in…", "o": ["Odisha (Puri)", "Punjab", "Rajasthan", "Sikkim"], "e": "A coastal city."},
+{"t": "Nayan visited the mountains of…", "o": ["Sikkim", "Goa", "Rajasthan", "Punjab"], "e": "In the Himalayas."},
+{"t": "A desert is a place with…", "o": ["Very little rainfall", "Lots of rain", "Snow all year", "Thick forests"], "e": "Dry land."},
+{"t": "The 'ship of the desert' is the…", "o": ["Camel", "Horse", "Elephant", "Donkey"], "e": "It can travel far on sand with little water."},
+{"t": "The cactus stores water in its…", "o": ["Stem", "Leaves", "Flowers", "Roots only"], "e": "Survives with little water."},
+{"t": "Many people in coastal regions depend on…", "o": ["Fishing", "Mining", "Desert farming", "Snow sports"], "e": "The sea gives livelihood."},
+{"t": "The Golden Temple is in…", "o": ["Amritsar", "Puri", "Jaisalmer", "Gangtok"], "e": "Sri Harmandir Sahib."},
+{"t": "Langar at the Golden Temple serves…", "o": ["Free meals to all", "Paid meals", "Only sweets", "Only tea"], "e": "Run by volunteers."}
+]},
+{"q": [
+{"t": "Punjab's favourite food is…", "o": ["Makki di roti and sarson da saag", "Dal-bati-churma", "Dalma", "Momos"], "e": "With lassi."},
+{"t": "A popular Rajasthani dish is…", "o": ["Dal-bati-churma", "Makki di roti", "Pakhala", "Rasagola only"], "e": "Also ker sangri."},
+{"t": "Odisha's traditional dishes include…", "o": ["Dalma, pakhala, chhena poda", "Ker sangri", "Sarson da saag", "Idli only"], "e": "Coastal food."},
+{"t": "Desert houses store water in…", "o": ["Tankas (water tanks)", "Wells on roofs", "Rivers", "Plastic bags"], "e": "Water is scarce."},
+{"t": "Jaisalmer Fort is made of…", "o": ["Golden sandstone", "Marble", "Bricks", "Wood"], "e": "People still live in it."},
+{"t": "Rath Yatra is a chariot festival in…", "o": ["Puri", "Amritsar", "Jaisalmer", "Gangtok"], "e": "Chariots of Jagannath, Subhadra and Balabhadra."},
+{"t": "Which shell is blown during pooja?", "o": ["Shankh (conch)", "Oyster", "Snail shell", "Crab shell"], "e": "Found on Puri's beaches."},
+{"t": "Which plants grow in deserts?", "o": ["Cactus, khejri and babool", "Pine and deodar", "Coconut and mangrove", "Tea bushes"], "e": "They need little water."},
+{"t": "Mountains are usually…", "o": ["Cold, with steep slopes", "Hot and flat", "Sandy", "Under water"], "e": "Many Himalayan peaks are snowy."},
+{"t": "Coastal regions often face…", "o": ["Strong winds and cyclones", "Sandstorms", "Snowfall", "Drought only"], "e": "Odisha prepares with early warnings."}
+]},
+{"q": [
+{"t": "Why is water scarce in the desert?", "o": ["Very little rain falls", "People waste it", "Camels drink it all", "It freezes"], "e": "Plants and people adapt."},
+{"t": "Why do desert plants survive?", "o": ["They need very little water and some store it", "They get lots of rain", "They have no roots", "They're plastic"], "e": "Adaptations."},
+{"t": "Why are plains good for farming?", "o": ["Rich, fertile soil and flat land", "Sand", "Snow", "Rocks"], "e": "Many people farm there."},
+{"t": "How has Odisha saved people during cyclones?", "o": ["Early warnings and advance preparation", "Ignoring them", "Building on beaches", "Luck"], "e": "It won awards."},
+{"t": "Why keep beaches clean?", "o": ["Waste harms sea creatures like turtles", "For photos only", "It doesn't matter", "Waste is food for fish"], "e": "Protect sea life."},
+{"t": "How is coastal life different from desert life?", "o": ["Coast: fishing and plenty of water; desert: scarce water and camels", "They're the same", "Desert has more fish", "Coast has no water"], "e": "Land shapes life."},
+{"t": "Mountain people wear…", "o": ["Warm woollen clothes", "Thin cotton only", "Swimsuits", "Nothing special"], "e": "Because it's cold."},
+{"t": "Desert men wear colourful turbans and play…", "o": ["Khartal and sarangi", "Guitar", "Piano", "Drums only"], "e": "Folk music."},
+{"t": "Desert houses are made of mud and…", "o": ["Thatched roofs", "Glass", "Steel", "Snow"], "e": "Keeps cool inside."},
+{"t": "Sambalpuri is a type of…", "o": ["Saree from Odisha", "Food", "Dance", "Fort"], "e": "Chandni's mother bought one."}
+]},
+{"q": [
+{"t": "Which sea creature has five arms?", "o": ["Starfish", "Crab", "Dolphin", "Turtle"], "e": "Found in coastal waters."},
+{"t": "Which coastal animal breathes air and is a mammal?", "o": ["Dolphin", "Crab", "Starfish", "Seaweed"], "e": "Dolphins surface to breathe."},
+{"t": "Which pair matches land type and region?", "o": ["Desert — Rajasthan", "Coast — Punjab", "Mountains — Odisha", "Plains — Sikkim"], "e": "Remember each child's trip."},
+{"t": "Why do houses differ across regions?", "o": ["Climate and local materials differ", "Random", "Same everywhere", "Only for colour"], "e": "Lands shape lives."},
+{"t": "Which film shot the Jaisalmer Fort?", "o": ["Sonar Kella by Satyajit Ray", "Sholay", "Lagaan", "None"], "e": "The 'golden fortress'."},
+{"t": "How can communities prepare for cyclones?", "o": ["Follow warnings, keep emergency kits, move to shelters", "Go to the beach", "Ignore warnings", "Stay on rooftops"], "e": "Preparation saves lives."},
+{"t": "Why are camels suited to deserts?", "o": ["They walk on sand and need little water", "They swim", "They love snow", "They're small"], "e": "Adapted to dry lands."},
+{"t": "Which trees grow near the sea?", "o": ["Coconut palms", "Pine", "Cactus", "Deodar"], "e": "Different from deserts and plains."},
+{"t": "'Jee aayan nu puttar' means…", "o": ["Welcome my dear child", "Goodbye", "Thank you", "Good night"], "e": "Gurpreet's grandmother's Punjabi greeting."},
+{"t": "Which landform has the coldest climate usually?", "o": ["Mountains", "Plains", "Coast", "Desert by day"], "e": "Higher means colder."}
+]}
+]}

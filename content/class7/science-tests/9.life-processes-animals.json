@@ -1,0 +1,52 @@
+{
+"title": "9. Life Processes in Animals",
+"tests": [
+{"q": [
+{"t": "The food pipe is also called the…", "o": ["Oesophagus", "Windpipe", "Small intestine", "Rectum"], "e": "The oesophagus carries food from the mouth to the stomach."},
+{"t": "Saliva breaks down…", "o": ["Starch into sugar", "Protein into fat", "Fat into water", "Sugar into starch"], "e": "Saliva contains a digestive juice that turns starch into simpler sugar."},
+{"t": "Which is the longest part of the alimentary canal?", "o": ["Small intestine", "Large intestine", "Stomach", "Oesophagus"], "e": "The small intestine is about 6 m long."},
+{"t": "Iodine solution turns blue-black with…", "o": ["Starch", "Sugar", "Water", "Fat"], "e": "This is the iodine test for starch."},
+{"t": "Where are digested nutrients absorbed into the blood?", "o": ["Small intestine", "Mouth", "Oesophagus", "Rectum"], "e": "The small intestine's walls pass digested food into the blood."},
+{"t": "The large intestine mainly absorbs…", "o": ["Water and some salts", "Proteins", "Starch", "Bile"], "e": "It takes back water and salts, making the waste semi-solid."},
+{"t": "Breathing out is called…", "o": ["Exhalation", "Inhalation", "Respiration", "Digestion"], "e": "Inhaling brings air in; exhaling sends it out."},
+{"t": "Tiny air sacs in the lungs are called…", "o": ["Alveoli", "Gills", "Villi", "Ribs"], "e": "Alveoli are thin-walled sacs where gases are exchanged with blood."},
+{"t": "Fish breathe using…", "o": ["Gills", "Lungs", "Skin only", "Alveoli"], "e": "Gills take in oxygen dissolved in water."},
+{"t": "Which organ pumps blood around the body?", "o": ["Heart", "Lungs", "Liver", "Stomach"], "e": "The heart pumps blood through blood vessels."}
+]},
+{"q": [
+{"t": "Chewing rice for a long time makes it taste sweet because…", "o": ["Saliva turns starch into sugar", "Rice contains sugar only", "Teeth add sugar", "The tongue is sweet"], "e": "Digestion starts in the mouth: saliva breaks starch down into sugar."},
+{"t": "In the stomach, mucus…", "o": ["Protects the lining from acid", "Digests fat", "Kills bacteria", "Absorbs water"], "e": "Mucus coats the stomach wall so the acid doesn't damage it."},
+{"t": "Stomach acid helps digestion and also…", "o": ["Kills harmful bacteria", "Digests starch", "Absorbs nutrients", "Makes bile"], "e": "The acid helps break down proteins and kills germs in food."},
+{"t": "Bile is made by the…", "o": ["Liver", "Pancreas", "Stomach", "Large intestine"], "e": "The liver makes bile, which is sent into the small intestine."},
+{"t": "Bile breaks fats into…", "o": ["Tiny droplets", "Sugar", "Protein", "Starch"], "e": "Breaking fat into droplets makes it easier for juices to digest."},
+{"t": "Breathing is a ___ process; respiration is a ___ process.", "o": ["physical; chemical", "chemical; physical", "chemical; chemical", "physical; physical"], "e": "Breathing moves air in and out. Respiration breaks down glucose in cells to release energy."},
+{"t": "Respiration: glucose + oxygen → ?", "o": ["Carbon dioxide + water + energy", "Starch + water", "Oxygen + energy", "Glucose + carbon dioxide"], "e": "Cells use oxygen to break glucose down, releasing energy with CO₂ and water."},
+{"t": "During inhalation, the diaphragm moves…", "o": ["Down", "Up", "Sideways", "It doesn't move"], "e": "The diaphragm moves down and the ribs up and out, making more space so air is drawn in."},
+{"t": "Cows bring partly digested food back to the mouth to chew again. This is…", "o": ["Rumination", "Egestion", "Absorption", "Respiration"], "e": "Ruminants like cows and buffaloes chew the cud."},
+{"t": "Birds grind food in the…", "o": ["Gizzard", "Teeth", "Alveoli", "Rectum"], "e": "Birds have no teeth; the muscular gizzard, often with swallowed grit, grinds food."}
+]},
+{"q": [
+{"t": "In the iodine test, chewed rice shows little or no blue-black colour. Why?", "o": ["Saliva changed the starch into sugar", "Rice has no starch", "Iodine was used up", "Chewing adds iodine"], "e": "Plain rice (lots of starch) turns blue-black; chewed rice has had its starch broken down."},
+{"t": "Why can we swallow even when lying down?", "o": ["Wave-like contractions push food along", "Gravity always helps", "The tongue pumps it", "Food floats"], "e": "The walls of the canal contract and relax in a wave, pushing food whatever way you lie."},
+{"t": "Why does the small intestine have finger-like projections?", "o": ["To increase surface area for absorption", "To store food", "To make bile", "To produce acid"], "e": "More surface touching the food means more nutrients absorbed."},
+{"t": "Why is bile mildly basic?", "o": ["To neutralise acid coming from the stomach", "To kill bacteria", "To digest starch", "To absorb water"], "e": "Food arrives acidic from the stomach; a basic juice neutralises it."},
+{"t": "Why should we breathe through the nose rather than the mouth?", "o": ["Hair and mucus in the nose trap dust", "The nose is warmer", "The mouth has no air", "The nose makes oxygen"], "e": "Nasal hairs and mucus filter dust and dirt before air reaches the lungs."},
+{"t": "Exhaled air turns lime water milky but ordinary air doesn't (quickly). This shows exhaled air has…", "o": ["More carbon dioxide", "More oxygen", "No oxygen", "More nitrogen"], "e": "Exhaled air has about 4–5% CO₂ versus about 0.04% in inhaled air."},
+{"t": "In the bottle model of breathing, the rubber sheet represents the…", "o": ["Diaphragm", "Lungs", "Windpipe", "Ribs"], "e": "Balloons are the lungs; the rubber sheet is the diaphragm."},
+{"t": "Adult frogs exchange gases using…", "o": ["Lungs on land and skin in water", "Gills only", "Lungs only", "Alveoli in water"], "e": "Tadpoles use gills; adults use lungs on land and their skin in water."},
+{"t": "Earthworms breathe through their…", "o": ["Moist skin", "Gills", "Lungs", "Mouth"], "e": "Gases pass through the earthworm's moist skin."},
+{"t": "Why is the large intestine called 'large' though it is shorter?", "o": ["It is wider", "It is longer", "It digests more", "It is heavier"], "e": "About 1.5 m long but wider than the 6 m small intestine."}
+]},
+{"q": [
+{"t": "Inhaled air has about 21% oxygen and exhaled about 16–17%. What does this show?", "o": ["Not all the oxygen is used up", "We use all the oxygen", "We make oxygen", "Oxygen isn't needed"], "e": "Some oxygen is left in exhaled air — that's why mouth-to-mouth resuscitation can work."},
+{"t": "Put these in order: stomach, mouth, small intestine, oesophagus, large intestine.", "o": ["Mouth → oesophagus → stomach → small intestine → large intestine", "Mouth → stomach → oesophagus → small → large", "Oesophagus → mouth → stomach → large → small", "Mouth → oesophagus → small → stomach → large"], "e": "Food passes mouth, food pipe, stomach, then small and finally large intestine."},
+{"t": "Pancreatic juice breaks down…", "o": ["Carbohydrates, proteins and fats", "Only fats", "Only starch", "Nothing — it only neutralises"], "e": "It is basic (neutralises acid) and digests all three main food components."},
+{"t": "A person with celiac disease should avoid…", "o": ["Gluten (wheat, barley, rye)", "Millets", "Rice", "Vegetables"], "e": "Gluten damages their small intestine lining. Millets like jowar, bajra and ragi are naturally gluten-free."},
+{"t": "During exhalation, the space in the chest…", "o": ["Decreases and air is forced out", "Increases and air comes in", "Stays the same", "Fills with water"], "e": "Ribs move down and in, diaphragm moves up — less space pushes air out."},
+{"t": "Why do fibre-rich foods help digestion?", "o": ["They make stool easier to pass", "They are digested in the mouth", "They add acid", "They stop absorption"], "e": "Fibre adds bulk and helps waste move through the large intestine."},
+{"t": "How did William Beaumont study digestion?", "o": ["Through a permanent hole in a patient's stomach", "By swallowing a camera", "Using X-rays", "By studying cows"], "e": "Alexis St. Martin's healed gunshot wound left a small opening; Beaumont watched digestion through it."},
+{"t": "Why does a bird swallow small stones?", "o": ["To help the gizzard grind food", "For calcium", "To sink in water", "To digest them"], "e": "Grit inside the muscular gizzard helps grind food, since birds have no teeth."},
+{"t": "Which is a harm of passive smoking?", "o": ["Non-smokers breathe in the smoke and get harmed", "It only affects the smoker", "It improves lungs", "It has no effect on children"], "e": "Smoke from others harms nearby people, especially children, pregnant women and the elderly."},
+{"t": "Why are alveoli well suited to gas exchange?", "o": ["Thin walls surrounded by fine blood vessels", "Thick walls", "Filled with water", "No blood supply"], "e": "Gases cross thin walls quickly into and out of the many nearby blood vessels."}
+]}
+]}

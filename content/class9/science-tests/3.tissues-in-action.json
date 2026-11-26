@@ -1,0 +1,52 @@
+{
+"title": "3. Tissues in Action",
+"tests": [
+{"q": [
+{"t": "A group of similar cells working together for a function is a…", "o": ["Tissue", "Organ", "Organ system", "Organelle"], "e": "Tissues exist because of division of labour."},
+{"t": "Growth in length of roots and shoots is due to…", "o": ["Apical meristem", "Lateral meristem", "Intercalary meristem", "Parenchyma"], "e": "At the tips."},
+{"t": "Growth in girth of a stem is due to…", "o": ["Lateral meristem", "Apical meristem", "Intercalary meristem", "Xylem"], "e": "A ring of dividing cells."},
+{"t": "Xylem carries…", "o": ["Water and minerals", "Food", "Hormones only", "Air"], "e": "Phloem carries food."},
+{"t": "Which tissue connects muscle to bone?", "o": ["Tendon", "Ligament", "Cartilage", "Blood"], "e": "Ligaments connect bone to bone."},
+{"t": "Which tissue connects bone to bone?", "o": ["Ligament", "Tendon", "Cartilage", "Nerve"], "e": "It gives stability and prevents dislocation."},
+{"t": "Which muscle never tires?", "o": ["Cardiac muscle", "Skeletal muscle", "Smooth muscle", "All tire equally"], "e": "Many mitochondria and rich blood supply."},
+{"t": "The part of a neuron that receives signals is the…", "o": ["Dendrites", "Axon", "Cell body", "Axon terminal"], "e": "The axon carries the message away."},
+{"t": "Mostly dead plant tissue with lignin, giving hardness, is…", "o": ["Sclerenchyma", "Parenchyma", "Collenchyma", "Meristem"], "e": "The woody structure."},
+{"t": "Meristematic tissue becoming specialised permanent tissue is…", "o": ["Differentiation", "Division", "Osmosis", "Transpiration"], "e": "Cells take on specific roles."}
+]},
+{"q": [
+{"t": "Why are plant and animal tissues different?", "o": ["Plants can't move — they need strength and make food in place", "Plants are green", "Animals are bigger", "No real reason"], "e": "Every difference traces back to that."},
+{"t": "Root tips cut by 1 cm stop growing. This proves…", "o": ["Roots grow only from their tips", "Roots grow all along", "Cutting helps growth", "Roots don't grow"], "e": "All growth cells were in the removed tip."},
+{"t": "Why does grass regrow after grazing?", "o": ["Its intercalary meristem is at the base", "It has deep roots only", "Animals don't eat the tips", "It grows from leaves"], "e": "The growth zone is below the bite."},
+{"t": "Why do meristematic cells lack large vacuoles?", "o": ["Their volume is needed for division machinery", "They store water elsewhere", "They're dead", "They're too old"], "e": "Vacuoles are storage, not machinery."},
+{"t": "Collenchyma is thickened at the corners with…", "o": ["Pectin, giving flexibility", "Lignin, giving hardness", "Starch", "Cellulose only"], "e": "Tendrils and stems bend without breaking."},
+{"t": "Why does a fresh twig bend but a dry twig break?", "o": ["Fresh has living collenchyma with pectin", "Dry has more water", "Fresh is dead", "Dry has pectin"], "e": "Pectin gives rubber-like flexibility."},
+{"t": "Xylem and phloem are called complex tissues because…", "o": ["They contain several cell types", "They are hard to see", "They are dead", "They are in roots only"], "e": "Different cell types work together."},
+{"t": "The only living part of xylem is…", "o": ["Xylem parenchyma", "Tracheids", "Vessels", "Xylem fibres"], "e": "It stores substances."},
+{"t": "Companion cells in phloem…", "o": ["Regulate sieve tubes' sugar loading and unloading", "Carry water", "Give strength", "Make lignin"], "e": "They are specialised parenchyma."},
+{"t": "Epithelium lining the lungs and blood vessels is…", "o": ["A single layer of thin flat cells", "Many layers", "Tall pillar cells", "Ciliated only"], "e": "Thin for fast diffusion."}
+]},
+{"q": [
+{"t": "Why can xylem cells be dead but phloem cells can't?", "o": ["Xylem is pulled by transpiration; phloem must actively load sugars", "Xylem is newer", "Phloem is outside", "Both are dead"], "e": "Phloem needs living machinery."},
+{"t": "How does transpiration pull water up?", "o": ["Evaporation at leaves pulls the connected water column up", "Roots pump it", "Gravity pushes it", "Sunlight lifts it"], "e": "Water molecules stick together, like sucking through a straw."},
+{"t": "Why is a thick cuticle bad underwater?", "o": ["Underwater plants need to exchange through their surface", "It makes them sink", "It attracts fish", "It blocks light"], "e": "In deserts, sealing saves water."},
+{"t": "Tree rings form because…", "o": ["Lateral meristem works fast in good seasons, slowly in harsh ones", "Trees are painted", "Bark peels", "Rain marks them"], "e": "One ring = one cycle of seasons."},
+{"t": "Why is skin many-layered but lung lining single-layered?", "o": ["Skin protects; lung lining must allow fast exchange", "Both protect", "Lungs are larger", "Skin breathes"], "e": "You can't be thin and protective at once."},
+{"t": "Absorbing epithelium in the small intestine is…", "o": ["Single layer of tall pillar-like cells", "Many flat layers", "Dead cells", "Ciliated flat cells"], "e": "Built for uptake of nutrients."},
+{"t": "All connective tissues share the plan of…", "o": ["Cells scattered in a matrix", "Tightly packed cells", "Only dead cells", "Branched fibres"], "e": "The matrix makes blood and bone different."},
+{"t": "Cartilage at bone ends…", "o": ["Cushions them for shock absorption", "Connects muscle to bone", "Carries blood", "Makes red cells"], "e": "Soft and flexible."},
+{"t": "Why are cardiac fibres branched?", "o": ["So the contraction spreads and the chamber squeezes as one", "To store fat", "To reach the brain", "For flexibility only"], "e": "The heart beats as a unit."},
+{"t": "Coconut husk fibres are hard because they are…", "o": ["Sclerenchyma with lignin", "Collenchyma", "Parenchyma", "Meristem"], "e": "Coriander stalks are collenchyma — soft."}
+]},
+{"q": [
+{"t": "Why does a cut hedge grow back bushier?", "o": ["Intercalary and side growth points take over", "It dies back", "Roots grow", "Cutting adds cells"], "e": "Regrowth after cutting."},
+{"t": "Why does a neuron have many short dendrites and one long axon?", "o": ["Many inputs collected, one message delivered far", "For decoration", "To store energy", "To divide fast"], "e": "The shape is the function."},
+{"t": "Joints allow movement but bones are moved by…", "o": ["Muscles pulling via tendons", "Ligaments", "Cartilage", "Nerves directly"], "e": "Muscles do the pulling."},
+{"t": "Parenchyma in aquatic plants can be specialised to…", "o": ["Hold air and help floating", "Make lignin", "Carry water up", "Divide endlessly"], "e": "Intercellular spaces filled with air."},
+{"t": "Bone marrow transplants work because the marrow has…", "o": ["Stem cells that make new cells", "Dead cells", "Only fat", "Nerve cells"], "e": "Used for blood cancers."},
+{"t": "During exercise, the brain signals the heart to…", "o": ["Beat faster to meet oxygen demand", "Stop", "Slow down", "Relax fully"], "e": "Muscles take instructions from nervous tissue."},
+{"t": "Who developed a complete plant through anther culture with Maheshwari?", "o": ["Sipra Guha Mukherjee", "Janaki Ammal", "B.G.L. Swamy", "Asima Chatterjee"], "e": "A breakthrough in plant tissue culture."},
+{"t": "Cork forms as the plant ages because…", "o": ["Cells below the epidermis divide to form a protective layer", "The epidermis grows thicker", "Bark is painted", "Roots push it"], "e": "It replaces the single-layered epidermis."},
+{"t": "The three plant tissue systems are…", "o": ["Dermal, ground, vascular", "Apical, lateral, intercalary", "Xylem, phloem, cork", "Root, stem, leaf"], "e": "Outer cover, main body, conducting."},
+{"t": "Specialisation of tissues increases…", "o": ["Efficiency", "Size only", "Number of cells only", "Waste"], "e": "Division of labour."}
+]}
+]}

@@ -1,0 +1,52 @@
+{
+"title": "3. Celebrating Festivals",
+"tests": [
+{"q": [
+{"t": "Rishi travelled to visit his Mama near which mountains?", "o": ["The Himalayas", "The Western Ghats", "The Aravallis", "The Vindhyas"], "e": "Himalaya means 'home of snow'."},
+{"t": "What flower did Nonikaa show Rishi?", "o": ["Tulip", "Rose", "Lotus", "Sunflower"], "e": "Kashmir has a tulip festival."},
+{"t": "What did they eat for lunch?", "o": ["Haakh with hot rice", "Pizza", "Dosa", "Noodles"], "e": "Haakh is a Kashmiri leafy vegetable."},
+{"t": "The red flowers that bloom in spring near Rishi's home are…", "o": ["Buransh (Rhododendron)", "Roses", "Tulips", "Marigolds"], "e": "Placed at doorsteps with mustard flowers."},
+{"t": "Vishu is celebrated in…", "o": ["Kerala", "Punjab", "Assam", "Gujarat"], "e": "With yellow amaltas flowers."},
+{"t": "The highest mountain in the world is…", "o": ["Mount Everest", "Kanchenjunga", "K2", "Nanda Devi"], "e": "About 8,848 metres, in Nepal."},
+{"t": "Spring is a celebration of…", "o": ["Nature — flowers, new leaves, sunshine", "Snow", "Rain only", "Darkness"], "e": "After harsh winters."},
+{"t": "Thekua is made during…", "o": ["Chhath Puja", "Christmas", "Onam", "Eid"], "e": "A sweet offering."},
+{"t": "Plum cake is made during…", "o": ["Christmas", "Holi", "Bihu", "Ugadi"], "e": "A winter festival."},
+{"t": "Seviyan is made during…", "o": ["Eid-ul-Fitr", "Onam", "Holi", "Chhath"], "e": "A sweet vermicelli dish."}
+]},
+{"q": [
+{"t": "Gujiya is made during…", "o": ["Holi", "Onam", "Christmas", "Eid"], "e": "A spring festival of colours."},
+{"t": "Sadya is a feast during…", "o": ["Onam", "Bihu", "Holi", "Chhath"], "e": "Served on banana leaves in Kerala."},
+{"t": "Pitha is made during…", "o": ["Bihu", "Christmas", "Ugadi", "Eid"], "e": "An Assamese rice cake."},
+{"t": "Holige is made during…", "o": ["Ugadi", "Holi", "Onam", "Chhath"], "e": "A sweet flatbread."},
+{"t": "Mountain roads with sharp bends are called…", "o": ["Hairpin turns", "Straight roads", "Highways", "Bridges"], "e": "They turn back like a hairpin."},
+{"t": "A 'No Horn' sign means…", "o": ["Don't honk", "Stop", "Go fast", "Park here"], "e": "Often near hospitals and schools."},
+{"t": "A 'School Ahead' sign tells drivers to…", "o": ["Slow down and watch for children", "Speed up", "Honk loudly", "Park"], "e": "Keeps children safe."},
+{"t": "Sarhul is a spring festival of…", "o": ["Jharkhand", "Kerala", "Kashmir", "Goa"], "e": "Offerings to the Earth and Sun."},
+{"t": "In Sarhul, people walk to which tree?", "o": ["Sakhua (sal)", "Mango", "Coconut", "Banyan"], "e": "Carrying germinated grains and sakhua flowers."},
+{"t": "Vishu Kani is seen at…", "o": ["Sunrise on the Malayali new year", "Midnight", "Sunset", "Noon"], "e": "Believed to bring a fruitful year."}
+]},
+{"q": [
+{"t": "Why are many festivals celebrated in spring?", "o": ["Flowers bloom and new leaves grow after winter", "It's the coldest time", "Schools close", "It rains a lot"], "e": "Nature feels new and joyful."},
+{"t": "How do festivals bring people together?", "o": ["Families and neighbours share food, dance and sing", "People stay home alone", "Shops close", "Everyone sleeps"], "e": "Celebrations unite communities."},
+{"t": "Rishi went from a concrete road to a…", "o": ["Narrow mud road", "River", "Highway", "Railway"], "e": "Village roads are often mud roads."},
+{"t": "Which safety rule is for cycling?", "o": ["Wear a helmet and keep to the side", "Ride with no hands", "Ride in the middle", "Ride at night without light"], "e": "Protects you on the road."},
+{"t": "Why do roads have signboards?", "o": ["To give drivers and walkers safety information", "For decoration", "To sell things", "To block roads"], "e": "Signs speak without words."},
+{"t": "A speed breaker sign warns of…", "o": ["A bump to slow vehicles", "A bridge", "A hospital", "A park"], "e": "Slow down."},
+{"t": "Which flowers did Rishi already know?", "o": ["Rose, marigold and hibiscus", "Tulip and orchid", "Lotus only", "None"], "e": "He learnt the tulip from Nonikaa."},
+{"t": "Mama's wife is called…", "o": ["Mami", "Chachi", "Bua", "Mausi"], "e": "Chiya and Nonikaa are Rishi's cousins."},
+{"t": "Sarhul offerings are made to…", "o": ["The Earth and the Sun", "The Moon only", "The river", "Mountains"], "e": "With reverence and gratitude."},
+{"t": "Which instruments are played in Sarhul?", "o": ["Dhol and nagada drums", "Guitar", "Piano", "Violin"], "e": "Local musical instruments."}
+]},
+{"q": [
+{"t": "Mount Everest is about 8,848 m tall. Roughly how many kilometres is that (nearest whole)?", "n": 9, "u": "km", "k": "round(F(8848,1000))", "e": "8,848 m ≈ 8.8 km, about 9 km."},
+{"t": "Which festival-food pair is correct?", "o": ["Bihu — Pitha", "Christmas — Gujiya", "Eid — Thekua", "Onam — Plum cake"], "e": "Christmas: plum cake; Eid: seviyan; Onam: sadya."},
+{"t": "Why might the same season have different festivals in different states?", "o": ["Each place has its own customs, crops and flowers", "Everyone celebrates the same", "Seasons are different", "No reason"], "e": "Buransh, tulips and amaltas all bloom in spring."},
+{"t": "Which sign would you put near a hospital?", "o": ["No Horn", "Men at Work", "No U-Turn", "Speed up"], "e": "Patients need quiet."},
+{"t": "'Men at Work' signs warn of…", "o": ["Road repair work ahead", "A school", "A temple", "A market"], "e": "Drive carefully."},
+{"t": "What helps you feel happy in nature?", "o": ["Seeing flowers, trees and sunshine", "Staying indoors always", "Noise", "Litter"], "e": "Rishi felt happy among colourful flowers."},
+{"t": "Which fills the blank: Chiya and Nonikaa live in a village near the ___.", "o": ["Mountains", "Sea", "Desert", "City centre"], "e": "Near the Himalayas."},
+{"t": "Which festival is NOT in spring?", "o": ["Christmas", "Vishu", "Sarhul", "Holi"], "e": "Christmas is in winter."},
+{"t": "Amaltas flowers are…", "o": ["Yellow", "Red", "Blue", "Purple"], "e": "Used for Vishu Kani."},
+{"t": "Do all families celebrate festivals the same way?", "o": ["No — with different food, dress and customs", "Yes, exactly", "Nobody celebrates", "Only in cities"], "e": "Variety is what makes festivals special."}
+]}
+]}

@@ -1,0 +1,52 @@
+{
+"title": "12. Magnetic Effects of Electric Current",
+"tests": [
+{"q": [
+{"t": "Magnetic field lines emerge from the…", "o": ["North pole", "South pole", "Middle", "Nowhere"], "e": "And enter at the south pole."},
+{"t": "Can two field lines cross?", "o": ["No", "Yes", "Only at poles", "Only inside"], "e": "The field would have two directions there."},
+{"t": "Closely spaced field lines mean the field is…", "o": ["Stronger", "Weaker", "Zero", "Reversed"], "e": "Strongest near the poles."},
+{"t": "The direction of field around a straight current is given by…", "o": ["Right-hand thumb rule", "Fleming's left-hand rule", "Ohm's law", "Snell's law"], "e": "Thumb along current, fingers curl with field."},
+{"t": "A coil of many turns of wire is a…", "o": ["Solenoid", "Fuse", "Resistor", "Galvanometer"], "e": "Its field resembles a bar magnet's."},
+{"t": "The force on a current-carrying conductor in a field is given by…", "o": ["Fleming's left-hand rule", "Right-hand thumb rule", "Ohm's law", "Joule's law"], "e": "Thumb shows force (motion)."},
+{"t": "The wire that protects from shocks via metal bodies of appliances is the…", "o": ["Earth wire", "Live wire", "Neutral wire", "Fuse"], "e": "Green insulation."},
+{"t": "Live wire insulation is usually…", "o": ["Red/brown", "Black/blue", "Green", "White"], "e": "Neutral is black/blue; earth is green."},
+{"t": "Potential difference between live and neutral in India is…", "o": ["220 V", "110 V", "12 V", "1000 V"], "e": "AC at 50 Hz."},
+{"t": "Too many appliances on one socket causes…", "o": ["Overloading", "Earthing", "Short-circuit always", "Magnetism"], "e": "Current exceeds safe limit."}
+]},
+{"q": [
+{"t": "The field inside a long solenoid is…", "o": ["Uniform", "Zero", "Circular", "Random"], "e": "Parallel straight lines."},
+{"t": "A soft iron core in a solenoid makes an…", "o": ["Electromagnet", "Permanent magnet only", "Insulator", "Fuse"], "e": "Strong when current flows."},
+{"t": "Magnetic field around a straight wire forms…", "o": ["Concentric circles", "Straight lines", "Spirals", "No pattern"], "e": "Centred on the wire."},
+{"t": "Field strength near a straight wire increases with…", "o": ["More current", "More distance", "Less current", "Thicker insulation"], "e": "Decreases with distance."},
+{"t": "Force on a conductor is maximum when current is…", "o": ["Perpendicular to the field", "Parallel to the field", "Zero", "Alternating"], "e": "Zero force when parallel."},
+{"t": "Reversing current in a conductor in a field reverses the…", "o": ["Force direction", "Field of the magnet", "Resistance", "Voltage"], "e": "Fleming's rule."},
+{"t": "A short-circuit happens when…", "o": ["Live and neutral touch directly", "A fuse melts", "The earth works", "Appliances are off"], "e": "Current rises enormously."},
+{"t": "Why is earthing important?", "o": ["Leaked current goes to the ground, not through you", "It saves energy", "It increases voltage", "It's decoration"], "e": "Metal bodies stay at earth potential."},
+{"t": "MRI scans rely on…", "o": ["Magnetic fields in the body", "X-rays", "Sound", "Heat"], "e": "Weak currents in the body make magnetic fields."},
+{"t": "An electric motor converts electrical energy into…", "o": ["Mechanical energy", "Light", "Heat only", "Chemical energy"], "e": "Using force on current in a field."}
+]},
+{"q": [
+{"t": "Current flows upward in a vertical wire. Field, seen from above, goes…", "o": ["Anticlockwise", "Clockwise", "Upward", "Nowhere"], "e": "Right-hand thumb rule."},
+{"t": "In Fleming's left-hand rule, the forefinger points along the…", "o": ["Magnetic field", "Current", "Force", "Voltage"], "e": "Middle finger: current; thumb: force."},
+{"t": "Field at the centre of a circular loop increases with…", "o": ["More turns and more current", "Bigger radius", "Less current", "Fewer turns"], "e": "Fields of turns add up."},
+{"t": "Why do field lines of a bar magnet form closed loops?", "o": ["Magnetic poles always come in pairs", "Lines end at poles", "They're drawn that way", "Iron filings"], "e": "Inside the magnet they go S to N."},
+{"t": "A fuse should be connected in the…", "o": ["Live wire", "Neutral wire", "Earth wire", "Any wire"], "e": "So it cuts off the high-potential side."},
+{"t": "Power rating 2 kW at 220 V. Current (A, nearest whole)?", "n": 9, "u": "A", "k": "round(2000/220)", "e": "I = P/V ≈ 9.1 A."},
+{"t": "Which fuse would suit that heater?", "o": ["10 A", "5 A", "1 A", "0.5 A"], "e": "Just above normal current."},
+{"t": "Oersted discovered that…", "o": ["A current deflects a compass needle", "Magnets make light", "Wires heat up", "Current needs voltage"], "e": "Electricity and magnetism are linked."},
+{"t": "A compass placed inside a current-carrying solenoid points…", "o": ["Along the axis", "Perpendicular", "Randomly", "Nowhere"], "e": "Uniform field along the axis."},
+{"t": "A loudspeaker works because…", "o": ["Current in a coil in a magnetic field makes it move", "Heat from wires", "Light from coils", "Sound from magnets alone"], "e": "Force on a current."}
+]},
+{"q": [
+{"t": "An electron beam moves east in a field pointing down. Force on it is towards…", "o": ["South", "North", "West", "Up"], "e": "Current is opposite to electron flow, so it points west. With the field down, Fleming's left-hand rule gives a force towards the south."},
+{"t": "Doubling current in a straight wire makes the field at a point…", "o": ["Double", "Half", "Four times", "Unchanged"], "e": "B ∝ I."},
+{"t": "Moving farther from a straight wire makes the field…", "o": ["Weaker", "Stronger", "Unchanged", "Reversed"], "e": "B ∝ 1/r."},
+{"t": "Why must AC appliances with metal bodies have three-pin plugs?", "o": ["The third pin connects to earth", "For extra current", "For style", "To use less power"], "e": "Safety against shock."},
+{"t": "Direct current (DC) flows…", "o": ["In one direction", "Back and forth", "Randomly", "Not at all"], "e": "AC reverses periodically."},
+{"t": "Frequency of AC in India is…", "o": ["50 Hz", "60 Hz", "220 Hz", "10 Hz"], "e": "Reverses every 1/100 s."},
+{"t": "What is the advantage of AC over DC?", "o": ["Can be transmitted over long distances with less loss", "Never reverses", "Is safer always", "Has no voltage"], "e": "Transformers step voltage up/down."},
+{"t": "If a wire carrying current is parallel to the field, the force is…", "o": ["Zero", "Maximum", "Half", "Reversed"], "e": "Needs a perpendicular component."},
+{"t": "A solenoid's polarity can be reversed by…", "o": ["Reversing the current", "Adding turns", "Heating it", "Removing the core"], "e": "Like an electromagnet."},
+{"t": "Two parallel wires with current in the same direction…", "o": ["Attract", "Repel", "Do nothing", "Melt"], "e": "Each sits in the other's field."}
+]}
+]}

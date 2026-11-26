@@ -1,0 +1,52 @@
+{
+"title": "11. Making Things",
+"tests": [
+{"q": [
+{"t": "Pots are made from…", "o": ["Clay", "Plastic", "Glass", "Iron"], "e": "Mini's Appooppan is a potter."},
+{"t": "A potter's oven is called a…", "o": ["Kiln", "Chulha", "Tandoor", "Mould"], "e": "Very hot fire bakes the pot."},
+{"t": "A potter shapes clay on a…", "o": ["Spinning wheel", "Sewing machine", "Bicycle", "Loom"], "e": "The potter's wheel."},
+{"t": "A clay cup is called a…", "o": ["Kulhad", "Surahi", "Gullak", "Matka"], "e": "Gullak is a piggy bank."},
+{"t": "Bricks are made of…", "o": ["Mud/clay", "Wood", "Glass", "Plastic"], "e": "Shaped in moulds, then baked."},
+{"t": "Bricks become hard after…", "o": ["Baking in a kiln", "Washing", "Freezing", "Painting"], "e": "Like pots."},
+{"t": "Rohan's father builds…", "o": ["Buildings with bricks", "Pots", "Toys", "Boats"], "e": "In Jaipur."},
+{"t": "At construction sites workers wear…", "o": ["Helmets with straps, safety vests, sturdy shoes", "Slippers", "Nothing special", "Party clothes"], "e": "Safety first."},
+{"t": "Spots on a leopard and stripes on a squirrel are…", "o": ["Patterns in nature", "Paint", "Dirt", "Shadows"], "e": "Artists take ideas from them."},
+{"t": "Mini's favourite clay item was her…", "o": ["Piggy bank", "Pot", "Cup", "Brick"], "e": "She decorated it and saved money."}
+]},
+{"q": [
+{"t": "Why does the potter add water to clay?", "o": ["To get the right softness — not too wet or dry", "To clean it", "To colour it", "To make it hard"], "e": "Then he kneads it like dough."},
+{"t": "Why is a pot baked in a kiln?", "o": ["To make it hard and strong", "To colour it", "To make it soft", "To make it wet"], "e": "Unbaked clay crumbles."},
+{"t": "Bricks get their shape from…", "o": ["Moulds", "The wheel", "Hands only", "Stones"], "e": "Like idli or kulfi moulds."},
+{"t": "Mud houses in warm areas keep the inside…", "o": ["Cool", "Hot", "Wet", "Noisy"], "e": "Mud keeps heat out."},
+{"t": "Cow dung on walls and floors helps by…", "o": ["Keeping heat out and insects away", "Making it slippery", "Adding colour only", "Making it wet"], "e": "A traditional material."},
+{"t": "How do you make clay at home?", "o": ["Sieve muddy soil, soak in water, pour off top water, knead", "Melt plastic", "Grind stones", "Boil sand"], "e": "Do it with elders."},
+{"t": "Where do pot artists get ideas for patterns?", "o": ["Nature", "Only books", "Television", "Nowhere"], "e": "Leaves, animals, flowers."},
+{"t": "Which animal has a striped pattern?", "o": ["Zebra", "Elephant", "Crow", "Frog"], "e": "Tigers too."},
+{"t": "Which materials can houses be made of?", "o": ["Bricks, mud, wood, grass, stone", "Only glass", "Only plastic", "Only paper"], "e": "Different places, different houses."},
+{"t": "Neem leaves on a branch show a…", "o": ["Pattern", "Random mess", "Colour change only", "Nothing"], "e": "Repeated shapes."}
+]},
+{"q": [
+{"t": "Order the pot-making steps:", "o": ["Wet clay → pound and knead → shape on wheel → dry → bake in kiln", "Bake → shape → wet", "Shape → wet → bake → knead", "Dry → wet → shape"], "e": "Each step needs the one before."},
+{"t": "Why are mud houses better for the environment?", "o": ["They use natural local materials", "They use plastic", "They need much energy", "They're tall"], "e": "Less harm, cool inside."},
+{"t": "In 'Make a Wall', which arrangement is sturdier?", "o": ["Bricks overlapping (staggered)", "Bricks stacked straight in columns", "Both equal", "Neither"], "e": "Overlapping spreads the load."},
+{"t": "Why do people wear helmets at construction sites?", "o": ["To protect the head from falling objects", "For fashion", "To keep warm", "To hear better"], "e": "Safety rules save lives."},
+{"t": "Why do we have different kinds of houses?", "o": ["Different climates and local materials", "Random choice", "Same everywhere", "Only for colour"], "e": "Houses suit their place."},
+{"t": "Mini was too young for the wheel, so she…", "o": ["Made patterns and coloured pots", "Built the kiln", "Dug clay", "Sold pots"], "e": "Everyone can help."},
+{"t": "Statues can be made of…", "o": ["Clay, stone or metal", "Only water", "Only paper", "Air"], "e": "Ask about statues in your town."},
+{"t": "Why remove pebbles and leaves when making clay?", "o": ["To make smooth clay", "To make it heavy", "For colour", "No reason"], "e": "Use a sieve."},
+{"t": "Which is a potter's product?", "o": ["Birdbath", "Steel spoon", "Plastic bottle", "Glass window"], "e": "Pots, cups, piggy banks, birdbaths."},
+{"t": "Bricks are used to build…", "o": ["Houses, schools and hospitals", "Clothes", "Food", "Toys only"], "e": "Brick by brick."}
+]},
+{"q": [
+{"t": "A wall needs 10 rows of 8 bricks. How many bricks?", "n": 80, "k": "10*8", "e": "10 × 8 = 80."},
+{"t": "A potter makes 6 pots a day. How many in 5 days?", "n": 30, "k": "6*5", "e": "6 × 5 = 30."},
+{"t": "What would happen if there were no patterns in nature?", "o": ["Artists would lose many ideas, and animals some camouflage", "Nothing", "More colours", "Animals would vanish"], "e": "Patterns are useful and beautiful."},
+{"t": "Why must clay be neither too watery nor too dry?", "o": ["Too wet collapses, too dry cracks", "For taste", "For colour", "For smell"], "e": "The right mix holds its shape."},
+{"t": "Idli moulds and brick moulds both…", "o": ["Give shape to a soft material", "Cook food", "Bake pots", "Make glass"], "e": "Same idea, different use."},
+{"t": "Which is a safety rule at home?", "o": ["Don't touch electric sockets with wet hands", "Play with fire", "Climb on high shelves", "Run with scissors"], "e": "Safety rules protect us."},
+{"t": "Which is a traditional cooling house material?", "o": ["Mud and grass", "Tin sheets", "Glass walls", "Plastic"], "e": "Natural materials."},
+{"t": "Who might you interview about making toys?", "o": ["A local craftsperson or toy maker", "A pilot", "A cat", "Nobody"], "e": "Share what you learn."},
+{"t": "Why do bricks and pots both go into a kiln?", "o": ["Baking hardens clay", "To dry paint", "To cool them", "To make them soft"], "e": "Same science."},
+{"t": "Which makes a pot look more beautiful?", "o": ["Painted patterns", "Cracks", "Mud", "Water"], "e": "Families decorate pots together."}
+]}
+]}

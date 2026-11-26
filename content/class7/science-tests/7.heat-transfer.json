@@ -1,0 +1,52 @@
+{
+"title": "7. Heat Transfer in Nature",
+"tests": [
+{"q": [
+{"t": "Heat always flows from…", "o": ["A hotter object to a colder one", "A colder object to a hotter one", "Liquids to solids only", "Nowhere — it stays put"], "e": "Heat moves from the hotter part to the colder part, until they are equally warm."},
+{"t": "Heat moving along a metal spoon in hot tea is…", "o": ["Conduction", "Convection", "Radiation", "Evaporation"], "e": "In solids, each particle passes heat to its neighbour without moving — conduction."},
+{"t": "Heat from the Sun reaches the Earth by…", "o": ["Radiation", "Conduction", "Convection", "Condensation"], "e": "Space is empty — there's no medium. Only radiation can carry heat without one."},
+{"t": "Heating water in a pot spreads heat through the water mainly by…", "o": ["Convection", "Radiation", "Conduction only", "Transpiration"], "e": "Hot water rises and cool water sinks, carrying heat round — convection."},
+{"t": "Which is a good conductor of heat?", "o": ["Copper", "Wood", "Clay", "Plastic"], "e": "Metals like copper conduct heat well, which is why pans are made of metal."},
+{"t": "During the day, the breeze blowing from sea to land is the…", "o": ["Sea breeze", "Land breeze", "Monsoon", "Cyclone"], "e": "A breeze is named by where it comes from. In the day it blows from the sea."},
+{"t": "Water turning into vapour when heated by the Sun is…", "o": ["Evaporation", "Condensation", "Precipitation", "Conduction"], "e": "Evaporation turns liquid water into water vapour."},
+{"t": "Water vapour cooling to form clouds is…", "o": ["Condensation", "Evaporation", "Transpiration", "Radiation"], "e": "Cooling makes vapour condense into tiny droplets, forming clouds."},
+{"t": "Rain, snow and hail falling from clouds is called…", "o": ["Precipitation", "Evaporation", "Convection", "Condensation"], "e": "Precipitation is any water falling from clouds back to the Earth."},
+{"t": "Which colour clothes keep you cooler in summer?", "o": ["Light colours", "Dark colours", "Black only", "Colour doesn't matter"], "e": "Light colours reflect most of the heat falling on them; dark ones absorb it."}
+]},
+{"q": [
+{"t": "In the pin experiment, which pin falls first?", "o": ["The one nearest the flame", "The one furthest away", "All at once", "None falls"], "e": "Heat travels gradually along the strip, so the wax nearest the flame melts first."},
+{"t": "What do the pins falling one by one prove?", "o": ["Heat moves gradually through the material", "Heat appears everywhere at once", "The pins are magnetic", "Wax is a conductor"], "e": "If heat appeared everywhere at once, all would fall together. Falling in order shows heat travelling."},
+{"t": "In conduction, the particles of the solid…", "o": ["Stay in place and pass heat on", "Move from hot to cold end", "Fly into the air", "Melt"], "e": "Only the heat travels, passed neighbour to neighbour — the particles don't leave their positions."},
+{"t": "In convection, heat moves by…", "o": ["The movement of the heated particles themselves", "Particles passing heat without moving", "No medium at all", "Light only"], "e": "Hot liquid or gas actually moves, carrying heat with it."},
+{"t": "Why does hot air rise?", "o": ["It expands and becomes lighter", "It becomes heavier", "It turns into water", "Cold air pushes it down"], "e": "Heated air expands, takes up more space and becomes lighter, so it rises; cooler, heavier air sinks."},
+{"t": "Why do woollen clothes keep us warm?", "o": ["They trap air, a poor conductor", "Wool produces heat", "Wool is a metal", "Wool absorbs sunlight only"], "e": "Air trapped in the wool's pores stops body heat escaping."},
+{"t": "Why does tea stay hot longer in a clay cup than a steel cup?", "o": ["Clay is a poor conductor", "Clay is a metal", "Steel is a poor conductor", "Clay radiates more"], "e": "Clay doesn't let heat out easily; steel conducts it away quickly."},
+{"t": "Which heats up faster in the Sun?", "o": ["Soil", "Water", "Both equally", "Neither"], "e": "Soil heats faster than water — and cools faster too. That's what drives land and sea breezes."},
+{"t": "At night, the breeze blows from land to sea. It is called…", "o": ["Land breeze", "Sea breeze", "Trade wind", "Convection current"], "e": "Named by where it comes from: from the land."},
+{"t": "Water evaporating from the leaves of plants is…", "o": ["Transpiration", "Condensation", "Precipitation", "Radiation"], "e": "Transpiration is evaporation of water from plants, another source of water vapour."}
+]},
+{"q": [
+{"t": "Why are two thin blankets warmer than one thick blanket?", "o": ["Air trapped between them insulates", "Thin blankets make heat", "They are heavier", "Thick blankets conduct"], "e": "The air layer between the blankets is an extra poor conductor, blocking heat loss."},
+{"t": "Why do coastal houses face their windows towards the sea?", "o": ["To catch the cool sea breeze in the day", "To see ships", "To block wind", "To keep out light"], "e": "During the day cool air flows from the sea to the land."},
+{"t": "Explain the sea breeze. During the day…", "o": ["Land heats faster, warm air above it rises, cool sea air moves in", "Sea heats faster and its air rises", "Land cools faster", "Clouds push air"], "e": "The warmer land heats the air above it; it rises and cooler air from over the sea flows in."},
+{"t": "In the potassium permanganate experiment, coloured water…", "o": ["Rises in the middle, comes down the sides", "Sinks in the middle", "Stays at the bottom", "Spreads evenly at once"], "e": "Water heated at the bottom-centre rises; cooler water at the sides sinks to replace it — a convection loop."},
+{"t": "You sit near a campfire and feel warm on your face. This heat reaches you by…", "o": ["Radiation", "Conduction", "Convection", "Evaporation"], "e": "Heat travels directly from the fire to you, without needing the air to carry it."},
+{"t": "A pan of water on a flame: flame → pan is ___, through the water is ___.", "o": ["conduction; convection", "convection; conduction", "radiation; conduction", "convection; radiation"], "e": "Heat passes through the solid pan by conduction, then spreads through the water as it moves — convection."},
+{"t": "Why do hollow bricks keep homes comfortable?", "o": ["Trapped air inside is a poor conductor", "They are made of metal", "They let in more sunlight", "They are heavier"], "e": "Air inside the bricks slows heat flow in both directions — warm in winter, cool in summer."},
+{"t": "A partially inflated balloon left in the Sun grows bigger. Why?", "o": ["Air inside heats and expands", "Air leaks in", "The rubber melts", "Sunlight adds air"], "e": "Heated air takes up more space, so it pushes the balloon out."},
+{"t": "Why does a hot cup of milk cool even if nothing touches it?", "o": ["All hot objects radiate heat", "Milk evaporates completely", "Cold enters it", "It is a conductor"], "e": "Every object radiates heat; a hot one gives out more than it gets, so it cools."},
+{"t": "Why do wet clothes dry faster on a sunny day?", "o": ["The Sun's heat speeds up evaporation", "Sunlight removes the colour", "Clouds absorb the water", "Wind stops"], "e": "More heat means water evaporates faster from the clothes."}
+]},
+{"q": [
+{"t": "Why does the breeze reverse between day and night at the coast?", "o": ["Land heats and cools faster than sea", "The Moon pulls the air", "The sea gets hotter in the day", "Wind changes randomly"], "e": "By day land is warmer so air rises there (sea breeze); by night land is cooler so air rises over the sea (land breeze)."},
+{"t": "Which process can work in empty space?", "o": ["Radiation", "Conduction", "Convection", "All three"], "e": "Conduction and convection need particles. Radiation needs no medium."},
+{"t": "The bukhari stove warms a room and cooks food. It uses…", "o": ["Conduction, convection and radiation", "Only radiation", "Only conduction", "Only convection"], "e": "The iron body conducts, warm air circulates by convection, and heat radiates to people nearby."},
+{"t": "Why are houses in Mori block (Uttarakhand) built with two wooden layers filled with mud and dung?", "o": ["Wood and mud are poor conductors, keeping heat in", "They are cheaper than metal", "To absorb rain", "To let wind through"], "e": "Poor conductors stop heat escaping in the cold mountains."},
+{"t": "Smoke from an incense stick rises because…", "o": ["It is warmer than the surrounding air", "It is heavier", "It is pulled by the ceiling", "It is a solid"], "e": "Smoke is hot gas plus tiny particles — warmer and lighter than the surrounding air, so convection carries it up."},
+{"t": "In the pin experiment, a wooden strip is used instead. What happens?", "o": ["The pins don't fall", "All fall at once", "They fall faster", "The wood melts"], "e": "Wood is a poor conductor, so heat doesn't reach the wax to melt it."},
+{"t": "Which statement about the water cycle is TRUE?", "o": ["It conserves the total water on Earth", "It creates new water", "It destroys water", "It only happens in rivers"], "e": "The cycle moves and replenishes water but the total amount stays the same."},
+{"t": "Where does well and handpump water come from?", "o": ["Rainwater that seeps into the ground", "The sea directly", "Clouds", "Pipes from rivers only"], "e": "Precipitation soaks into the ground and is stored as groundwater."},
+{"t": "Who gave methods for predicting seasonal rainfall in Brihatsamhita?", "o": ["Varahamihira", "Aryabhata", "C.V. Raman", "Kalpana Chawla"], "e": "Varahamihira of Ujjaini (6th century CE) used clouds, winds and the positions of stars and the Moon."},
+{"t": "You want to keep ice from melting for long on a picnic. Which box is best?", "o": ["A box with thick walls containing trapped air", "A thin steel box", "A black box in the sun", "An open bowl"], "e": "Trapped air is a poor conductor and slows heat flowing in. Steel conducts heat in; black absorbs heat."}
+]}
+]}

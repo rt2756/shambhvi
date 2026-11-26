@@ -1,0 +1,52 @@
+{
+"title": "5. Our Vibrant Country",
+"tests": [
+{"q": [
+{"t": "Independence Day marks…", "o": ["India becoming free", "The Constitution starting", "A harvest", "A sports day"], "e": "Independence Day (15 August) celebrates freedom from foreign rule."},
+{"t": "Republic Day marks…", "o": ["The Constitution coming into force", "Freedom from foreign rule", "Gandhiji's birthday", "New Year"], "e": "Republic Day (26 January) marks the rules by which India governs itself."},
+{"t": "The saffron band on the flag stands for…", "o": ["Strength and courage", "Peace and truth", "Growth", "Duty"], "e": "Saffron (top) = strength and courage."},
+{"t": "The white band stands for…", "o": ["Peace and truth", "Courage", "Growth", "Wealth"], "e": "White (middle) = peace and truth."},
+{"t": "The green band stands for…", "o": ["Growth and prosperity", "Peace", "Courage", "Duty"], "e": "Green (bottom) = growth and prosperity."},
+{"t": "The Ashoka Chakra stands for…", "o": ["Duty (dharma)", "Wealth", "Rain", "Sport"], "e": "The blue wheel stands for dharma — duty."},
+{"t": "The National Emblem shows…", "o": ["Three lions", "A tiger", "A peacock", "An elephant"], "e": "Three lions on a circular platform, with the Ashoka Chakra below."},
+{"t": "Wild Asiatic lions live only in…", "o": ["The Gir forests of Gujarat", "Kerala", "Assam", "Delhi"], "e": "Careful protection brought their numbers back to several hundred."},
+{"t": "About how many languages are spoken in India?", "o": ["More than a thousand", "About ten", "Two", "Exactly 22"], "e": "More than a thousand languages, each with its own stories and songs."},
+{"t": "UPI is…", "o": ["India's digital payment system", "A dance", "A drum", "A river"], "e": "UPI is the world's largest digital payment system."}
+]},
+{"q": [
+{"t": "Why does a note have a hidden watermark of Gandhiji?", "o": ["It's built into the paper and hard to copy", "For decoration", "To make it heavier", "To save ink"], "e": "A watermark can't be printed later, so it proves the note is genuine."},
+{"t": "Why do notes have raised marks?", "o": ["So people who can't see can tell them apart by touch", "To look pretty", "To stop folding", "To count faster"], "e": "Good design works for everyone who must use it."},
+{"t": "Which app reads out the value of a note?", "o": ["MANI", "UPI", "Aadhaar", "MAPS"], "e": "The MANI app identifies currency notes aloud."},
+{"t": "A symbol works only if…", "o": ["Everybody agrees on its meaning", "It is colourful", "It is large", "It is new"], "e": "A symbol nobody recognises is just a picture."},
+{"t": "India's Constitution is…", "o": ["The longest written constitution in the world", "The shortest", "Not written", "Only one page"], "e": "It is the longest written constitution of any country."},
+{"t": "Why are there two national days, not one?", "o": ["Freedom and the rules that make freedom work are different", "To have more holidays", "Two leaders chose", "By accident"], "e": "Independence answered 'who decides'; the Constitution answered 'how we decide'."},
+{"t": "Why does a forest survive without help, but a garden of one plant can fail?", "o": ["In a forest different living things do each other's work", "Forests get more rain", "Gardens have no soil", "Forests have no animals"], "e": "Variety is the working system — one disease can end a one-plant garden."},
+{"t": "Why are drums so different across India?", "o": ["Each region used its own local materials and music", "They were designed by one person", "By random chance", "They are all identical"], "e": "Different wood, clay, hides and music shaped each region's drum."},
+{"t": "Cloth wrapped round the head in a desert mainly…", "o": ["Protects from heat", "Is only for fashion", "Makes you taller", "Keeps rain off"], "e": "Much headgear is practical — protecting from heat or cold."},
+{"t": "The mridangam belongs to…", "o": ["Carnatic music", "Hindustani music", "Western rock", "Folk dance only"], "e": "Mridangam is Carnatic; sitar and shehnai are Hindustani."}
+]},
+{"q": [
+{"t": "Freedom does not mean everyone can do whatever they like, because…", "o": ["A country with no rules is unsafe for the weakest", "Freedom is not real", "Rules are fun", "Kings make rules"], "e": "Rules protect people so freedom can work."},
+{"t": "Why did Republic Day come about two and a half years after Independence?", "o": ["Writing the Constitution took that long", "There was a war", "Nobody remembered", "It was a mistake"], "e": "The rulebook took that long to write and agree."},
+{"t": "When a language is lost, what is lost?", "o": ["Songs, stories and ideas only ever said in it", "Only a list of words", "Nothing", "Only spellings"], "e": "A language carries a whole culture, not just labels."},
+{"t": "Translation apps can't fully replace learning a language because…", "o": ["They can't tell you how a word feels to a speaker", "They are always wrong", "They cost money", "They don't exist"], "e": "The best reason to learn another language is to understand, not just be understood."},
+{"t": "Lion numbers rose from a few dozen to several hundred because of…", "o": ["Careful protection", "Hunting", "Zoos abroad", "Cutting forests"], "e": "Protection of the Gir forests helped them recover."},
+{"t": "Your Aadhaar card carries which symbol?", "o": ["The National Emblem", "The tiger", "The peacock", "The lotus"], "e": "The three-lion emblem appears on official documents."},
+{"t": "A school emblem that needs a paragraph of explanation is…", "o": ["Not yet a good symbol", "Perfect", "Too simple", "Illegal"], "e": "A symbol should say a big idea at a glance."},
+{"t": "A child learning coding and Bharatanatyam shows…", "o": ["New things can sit alongside old ones", "Old things must go", "New things are bad", "Only one can be learnt"], "e": "Modern changes add to tradition rather than replacing it."},
+{"t": "'Diversity makes our country stronger' is like a forest because…", "o": ["Many skills and traditions solve problems in many ways", "All people are the same", "Forests are quiet", "Gardens grow faster"], "e": "Variety is a strength in both."},
+{"t": "Which is India's biggest digital ID system?", "o": ["Aadhaar", "UPI", "MANI", "ISRO"], "e": "Aadhaar is the world's biggest digital ID."}
+]},
+{"q": [
+{"t": "Which pair of music styles and instruments is correct?", "o": ["Sitar — Hindustani", "Mridangam — Hindustani", "Shehnai — Carnatic", "Sitar — Carnatic"], "e": "Sitar and shehnai are Hindustani; mridangam is Carnatic."},
+{"t": "A watermark becomes visible when held to light because…", "o": ["Thinner parts of the paper let more light through", "It glows", "Ink appears with heat", "It is printed on top"], "e": "The paper is made thicker and thinner in a pattern."},
+{"t": "India is the world's largest…", "o": ["Democracy", "Desert", "Island", "Ocean"], "e": "India is the world's largest democracy."},
+{"t": "Which is NOT one of the flag's meanings?", "o": ["Green — courage", "Saffron — courage", "White — peace", "Chakra — duty"], "e": "Green stands for growth and prosperity, not courage."},
+{"t": "Why do national symbols get taught and displayed repeatedly?", "o": ["Everyone must agree on their meaning", "To fill walls", "Because they change", "For tourists only"], "e": "The agreeing is the whole mechanism of a symbol."},
+{"t": "If one kind of tree fails in a forest…", "o": ["The others carry on", "The forest ends", "All trees die", "Animals leave forever"], "e": "Variety means one failure doesn't end everything."},
+{"t": "Ayurveda and yoga are…", "o": ["Thousands of years old and still practised", "Modern inventions", "Digital systems", "Types of drums"], "e": "Old traditions continue alongside modern science."},
+{"t": "The 'threads' metaphor for India means…", "o": ["Many threads make a strong, colourful fabric", "One thread is strongest", "Threads must be cut", "Cloth is weak"], "e": "Many different threads woven together are stronger than one."},
+{"t": "Why is using money a 'design' question?", "o": ["Money must work for every citizen", "Money must be pretty", "Money must be heavy", "Design doesn't matter"], "e": "Raised marks make notes usable by people who can't see."},
+{"t": "The three lions of the emblem stand for…", "o": ["Strength, courage and confidence", "Rain and rivers", "Music and dance", "Food and farming"], "e": "They stand in for those ideas on official documents."}
+]}
+]}

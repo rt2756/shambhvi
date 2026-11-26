@@ -1,0 +1,52 @@
+{
+"title": "8. How Things are Made",
+"tests": [
+{"q": [
+{"t": "Paper is made from…", "o": ["Trees (wood pulp)", "Plastic", "Sand", "Metal"], "e": "Drawing books and newspapers come from trees."},
+{"t": "Recycling paper helps save…", "o": ["Trees", "Plastic", "Gold", "Oil"], "e": "Pihu saw this in the newspaper."},
+{"t": "In making recycled paper, fenugreek (methi) seeds are used as…", "o": ["A binding material", "Colour", "Perfume", "Food"], "e": "They help hold the pulp together."},
+{"t": "Recycled paper feels…", "o": ["Rough", "Silky", "Wet always", "Shiny"], "e": "Unlike a smooth drawing book."},
+{"t": "Turmeric colours paper…", "o": ["Yellow", "Red", "Green", "Blue"], "e": "A natural dye."},
+{"t": "Ancient Indians wrote on palm leaves called…", "o": ["Talapatra", "Patang", "Kagaz", "Pothi"], "e": "Before paper was common."},
+{"t": "Tissue paper is used for cleaning because it is…", "o": ["Thin, soft and absorbs water", "Thick and hard", "Waterproof", "Shiny"], "e": "Use matches property."},
+{"t": "Cardboard is used for boxes because it is…", "o": ["Thick and hard", "Thin and soft", "Transparent", "Absorbent"], "e": "Strong for packing."},
+{"t": "Braille helps visually challenged people read by…", "o": ["Feeling patterns of tiny bumps", "Hearing", "Colours", "Smell"], "e": "Special Braille paper."},
+{"t": "How many Rs of waste management are there?", "n": 5, "e": "Refuse, Reduce, Reuse, Repurpose, Recycle."}
+]},
+{"q": [
+{"t": "Saying 'no' to single-use paper cups is…", "o": ["Refuse", "Recycle", "Reuse", "Repurpose"], "e": "Don't create the waste at all."},
+{"t": "Using both sides of paper is…", "o": ["Reduce", "Refuse", "Recycle", "Repurpose"], "e": "Use less."},
+{"t": "Using a gift bag again is…", "o": ["Reuse", "Recycle", "Refuse", "Reduce"], "e": "Multiple uses."},
+{"t": "Making toys from old newspapers is…", "o": ["Repurpose", "Refuse", "Reduce", "Reuse"], "e": "A new, creative use."},
+{"t": "Turning old newspapers into handmade paper is…", "o": ["Recycle", "Refuse", "Reuse", "Reduce"], "e": "Processed into something new."},
+{"t": "First step of making recycled paper:", "o": ["Tear newspaper and soak in water", "Roll it out", "Dry it", "Colour it"], "e": "Soak overnight with methi seeds."},
+{"t": "After mashing the pulp, you…", "o": ["Spread and roll it thin, then dry", "Burn it", "Freeze it", "Drink it"], "e": "Your paper is ready."},
+{"t": "Natural dyes come from…", "o": ["Leaves, flowers, roots, seeds, stems", "Plastic", "Petrol", "Metal"], "e": "Safe to use."},
+{"t": "Making paper needs many trees plus lots of…", "o": ["Water and energy", "Plastic", "Sand", "Gold"], "e": "So use paper responsibly."},
+{"t": "Paper can also be made from…", "o": ["Banana fibre", "Glass", "Iron", "Stone"], "e": "Saves trees."}
+]},
+{"q": [
+{"t": "Maya doesn't use a plastic straw for coconut water. Which R?", "o": ["Refuse", "Recycle", "Reuse", "Repurpose"], "e": "She says no to waste."},
+{"t": "Rohan uses blank pages of old notebooks. Which R?", "o": ["Reduce (or reuse)", "Refuse", "Recycle", "Burn"], "e": "Avoiding wastage of paper."},
+{"t": "Sara gives her old books to younger students. Which R?", "o": ["Reuse", "Recycle", "Refuse", "Repurpose"], "e": "The books get used again."},
+{"t": "Kabir paints an old bottle as a flower vase. Which R?", "o": ["Repurpose", "Refuse", "Reduce", "Recycle"], "e": "A new use for an old thing."},
+{"t": "Priya makes a bag from old clothes. Which R?", "o": ["Repurpose", "Refuse", "Reduce", "Recycle"], "e": "Creative new use."},
+{"t": "A shopkeeper makes envelopes from old newspapers. Which R?", "o": ["Repurpose", "Refuse", "Reduce", "Recycle by factory"], "e": "New use without processing."},
+{"t": "Why must each paper piece get the same quantity of dye in the experiment?", "o": ["To compare colours fairly", "To save dye", "For fun", "No reason"], "e": "A fair test changes one thing."},
+{"t": "Which natural ingredient gives a green colour?", "o": ["Spinach", "Turmeric", "Beetroot", "Rice"], "e": "Beetroot gives pinkish-red."},
+{"t": "Why is the 5Rs plan helpful?", "o": ["It reduces waste and pollution and saves resources", "It makes more waste", "It's only for factories", "It costs more"], "e": "Small changes help."},
+{"t": "People also wrote on cloth and…", "o": ["Wooden boards", "Plastic", "Glass", "Steel"], "e": "Before paper."}
+]},
+{"q": [
+{"t": "Arrange recycled-paper steps:", "o": ["Soak → mash → roll out → dry", "Dry → soak → mash", "Roll → soak → dry → mash", "Mash → dry → soak"], "e": "Each step depends on the one before."},
+{"t": "Which R should come first if possible?", "o": ["Refuse", "Recycle", "Repurpose", "Reuse"], "e": "Best waste is no waste."},
+{"t": "If one notebook saves 10 sheets by using both sides, how many sheets do 6 notebooks save?", "n": 60, "k": "10*6", "e": "Small habits add up."},
+{"t": "Why is natural dye safer than artificial dye?", "o": ["It comes from plants", "It's brighter", "It's cheaper always", "It lasts forever"], "e": "Plant parts are safe."},
+{"t": "Henna on paper gives a…", "o": ["Brownish-orange colour", "Blue", "White", "Black always"], "e": "Try the experiment."},
+{"t": "Which paper type is best for a school project chart?", "o": ["Chart or art paper", "Tissue paper", "Newspaper", "Braille paper"], "e": "Thick and smooth."},
+{"t": "Why does a paper pot feel rough?", "o": ["It's made from recycled paper pulp", "It's sand", "It's plastic", "It's metal"], "e": "Recycled fibres are coarse."},
+{"t": "Using a cloth bag at the grocery store is…", "o": ["Reuse", "Recycle", "Refuse", "Repurpose"], "e": "The textbook calls it reuse."},
+{"t": "How can we reduce paper waste at school?", "o": ["Write on both sides and use rough books", "Tear pages", "Throw half-used notebooks", "Print everything"], "e": "Use responsibly."},
+{"t": "How does recycling paper help the environment?", "o": ["Fewer trees cut, less water and energy used", "More trees cut", "More pollution", "No effect"], "e": "Save trees."}
+]}
+]}

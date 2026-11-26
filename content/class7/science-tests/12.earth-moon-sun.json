@@ -1,0 +1,52 @@
+{
+"title": "12. Earth, Moon and the Sun",
+"tests": [
+{"q": [
+{"t": "The Earth turning about its own axis is called…", "o": ["Rotation", "Revolution", "Eclipse", "Orbit"], "e": "Rotation is spinning about an axis; revolution is going around another object."},
+{"t": "About how long does the Earth take for one rotation?", "o": ["24 hours", "365 days", "1 month", "12 hours"], "e": "One rotation takes about 24 hours — one day."},
+{"t": "About how long does the Earth take to revolve around the Sun?", "o": ["365 days and 6 hours", "24 hours", "28 days", "100 days"], "e": "One revolution takes about 365¼ days — one year."},
+{"t": "Day and night happen because of the Earth's…", "o": ["Rotation", "Revolution", "Tilt only", "Size"], "e": "As the Earth spins, places turn into and out of the sunlight."},
+{"t": "The path of the Earth around the Sun is called its…", "o": ["Orbit", "Axis", "Shadow", "Equator"], "e": "The path of revolution is the orbit."},
+{"t": "Which star appears to stay still in the sky?", "o": ["The Pole Star (Dhruva Tara)", "The Sun", "Sirius", "Every star"], "e": "The Earth's axis points very close to the Pole Star, so it barely seems to move."},
+{"t": "In a solar eclipse, which body blocks the Sun?", "o": ["The Moon", "The Earth", "Venus", "Mars"], "e": "Sun → Moon → Earth: the Moon's shadow falls on the Earth."},
+{"t": "In a lunar eclipse, which body's shadow falls on the Moon?", "o": ["The Earth", "The Sun", "Venus", "Jupiter"], "e": "Sun → Earth → Moon: the Earth's shadow falls on the Moon."},
+{"t": "Is it safe to look at a solar eclipse with the naked eye?", "o": ["No — it can damage the eyes", "Yes", "Only with sunglasses", "Only with binoculars"], "e": "The Sun is still intense enough to cause blindness. Use proper eclipse goggles or projection."},
+{"t": "Is a lunar eclipse safe to watch with the naked eye?", "o": ["Yes", "No", "Only with goggles", "Only through a telescope"], "e": "You're looking at the dim Moon, not the Sun, so it's safe."}
+]},
+{"q": [
+{"t": "The Earth rotates from…", "o": ["West to East", "East to West", "North to South", "South to North"], "e": "Because the Earth turns West→East, the Sun appears to rise in the East."},
+{"t": "Why does the Sun appear to rise in the East?", "o": ["The Earth rotates West to East", "The Sun moves East to West around us", "The Earth's orbit is oval", "The Moon pushes it"], "e": "Like trees seeming to move past a merry-go-round, the Sun seems to move because we turn."},
+{"t": "The main cause of seasons is…", "o": ["The tilt of the Earth's axis", "The Earth's distance from the Sun", "The Moon", "Clouds"], "e": "The tilt changes how concentrated sunlight is and how long the day is."},
+{"t": "What is the longest day in the Northern Hemisphere?", "o": ["About 21 June", "About 22 December", "About 21 March", "About 23 September"], "e": "21 June, the summer solstice."},
+{"t": "On an equinox, day and night are each about…", "o": ["12 hours", "24 hours", "6 hours", "18 hours"], "e": "Equal day and night — 'equinox' means equal night."},
+{"t": "When India has winter, Australia has…", "o": ["Summer", "Winter", "Monsoon", "Spring"], "e": "The Southern Hemisphere always has the opposite season."},
+{"t": "During a total lunar eclipse, the Moon looks…", "o": ["Dark red", "Bright white", "Blue", "Completely invisible always"], "e": "The fully shadowed Moon takes on a dark red colour."},
+{"t": "Why do we see different stars in different months?", "o": ["The Earth's night side faces a different direction as it revolves", "Stars move around", "The Earth stops rotating", "The Moon hides them"], "e": "As the Earth goes round the Sun, the night sky points to a different part of space."},
+{"t": "Who explained the Earth's rotation using a boat example in the Aryabhatiya?", "o": ["Aryabhata", "Varahamihira", "Galileo", "Newton"], "e": "Just as a man in a moving boat sees the shore move back, we see stationary stars moving west."},
+{"t": "Which pendulum demonstrated the Earth's rotation?", "o": ["Foucault pendulum", "Huygens clock", "Simple pendulum in a classroom", "Galileo's lamp"], "e": "Léon Foucault's long pendulum gave the first simple demonstration; one hangs in India's new Parliament."}
+]},
+{"q": [
+{"t": "In June, why is the Northern Hemisphere hotter?", "o": ["It is tilted towards the Sun — concentrated rays and longer days", "It is closer to the Sun", "The orbit is oval", "The Moon reflects heat"], "e": "Tilt towards the Sun means sunlight hits more directly (less spread out) and for more than 12 hours."},
+{"t": "When is the Earth closest to the Sun?", "o": ["January", "June", "March", "September"], "e": "In January — during northern winter. This proves distance isn't what causes seasons."},
+{"t": "Why are seasons not very marked in south India?", "o": ["It is near the equator, where day length stays about 12 h", "It is closer to the Sun", "It has no tilt", "It rains all year"], "e": "Near the equator, day length and sun intensity change little through the year."},
+{"t": "How can the small Moon cover the huge Sun?", "o": ["The Moon is much closer, so their apparent sizes are similar", "The Moon is bigger", "The Sun shrinks", "Light bends round the Moon"], "e": "Apparent size depends on real size and distance — like your thumb covering a far-away head."},
+{"t": "Why is a total solar eclipse seen from only a small area?", "o": ["The Moon's shadow on Earth is small", "The Sun is small", "Clouds block it", "The Earth's shadow is small"], "e": "The Moon's shadow covers only a narrow strip of Earth."},
+{"t": "Why can many more people see a lunar eclipse?", "o": ["Everyone on the night side can see the Moon", "It lasts a year", "It happens in daytime", "The Moon is luminous"], "e": "The Earth's big shadow covers the whole Moon, visible to the entire night side."},
+{"t": "At the North Pole, the Sun rises around 21 March and sets around…", "o": ["22 September", "22 December", "21 June", "21 March next day"], "e": "Six months of continuous daylight, then six months of darkness."},
+{"t": "Venus is much bigger than the Moon. During a transit of Venus it looks like…", "o": ["A small black dot on the Sun", "It covers the Sun", "A red disc", "It can't be seen"], "e": "Venus is so far away its apparent size is tiny."},
+{"t": "A safe way to view a solar eclipse:", "o": ["Project the Sun's image on a wall with a mirror", "Sunglasses", "Binoculars", "A telescope without filters"], "e": "Projection, certified eclipse goggles, or a planetarium event are safe."},
+{"t": "Why does a solar eclipse last only a few minutes at one place?", "o": ["The shadow sweeps across due to Earth's rotation and Moon's motion", "The Sun moves away", "Clouds cover it", "The Moon stops"], "e": "The Moon's shadow keeps moving across the Earth's surface."}
+]},
+{"q": [
+{"t": "A friend says 'summer happens because the tilted hemisphere is closer to the Sun'. Why is this wrong?", "o": ["The distance difference is far too small to matter", "The tilted part is farther away", "The Earth has no tilt", "The Sun moves closer"], "e": "Tilt changes the angle and day length of sunlight, not the distance in any meaningful way."},
+{"t": "Arrange for a solar eclipse:", "o": ["Sun → Moon → Earth", "Sun → Earth → Moon", "Moon → Sun → Earth", "Earth → Sun → Moon"], "e": "The Moon must sit between the Sun and the Earth."},
+{"t": "A lunar eclipse can only happen at…", "o": ["Full moon", "New moon", "Half moon", "Any time"], "e": "The Earth must be between the Sun and Moon, which is when the Moon's lit side faces us — full moon."},
+{"t": "Why does the Pole Star seem not to move?", "o": ["The Earth's axis points almost at it", "It is the closest star", "It is not a star", "It orbits with Earth"], "e": "Stars near the axis direction barely move as the Earth spins; the rest circle around it."},
+{"t": "Aryabhata's value for one rotation was about…", "o": ["23 h 56 min", "24 h exactly", "12 h", "365 days"], "e": "About 23 h 56 min 4.1 s — very close to today's value."},
+{"t": "On 22 December in the Northern Hemisphere:", "o": ["Shortest day, longest night", "Longest day", "Equal day and night", "No sunrise anywhere"], "e": "It's the winter solstice."},
+{"t": "A cricket team tours Australia in December. Which clothes to pack?", "o": ["Summer clothes", "Heavy woollens", "Raincoats only", "No clothes needed"], "e": "In December the Southern Hemisphere is tilted towards the Sun — summer."},
+{"t": "Which observatory has recorded data about the Sun since 1899?", "o": ["Kodaikanal Solar Observatory", "Jantar Mantar", "ISRO Sriharikota", "Nainital Zoo"], "e": "Kodaikanal Solar Observatory in the Palani hills, run by the Indian Institute of Astrophysics."},
+{"t": "Who is called the father of modern Indian astronomy?", "o": ["M.K. Vainu Bappu", "C.V. Raman", "Homi Bhabha", "Vikram Sarabhai"], "e": "Vainu Bappu set up telescopes at Kavalur and Nainital and discovered a comet."},
+{"t": "Which combination causes seasons?", "o": ["Tilted axis plus the Earth revolving around the Sun", "Rotation alone", "The Moon's orbit", "The Earth's oval orbit"], "e": "The tilt stays fixed in space; as the Earth revolves, first one hemisphere then the other leans towards the Sun."}
+]}
+]}

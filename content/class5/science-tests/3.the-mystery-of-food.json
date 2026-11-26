@@ -1,0 +1,52 @@
+{
+"title": "3. The Mystery of Food",
+"tests": [
+{"q": [
+{"t": "The coloured patches on spoiled food are…", "o": ["Colonies of microbes", "Stains", "Burnt food", "Dust"], "e": "Mould is alive — thousands of tiny microbes."},
+{"t": "Microbes are…", "o": ["Living things too small to see without a microscope", "Big insects", "Chemicals", "Plants only"], "e": "They are tiny living things found almost everywhere."},
+{"t": "Turning milk into curd is the work of…", "o": ["Microbes", "Salt", "Sugar", "Heat only"], "e": "Helpful microbes ferment milk into curd."},
+{"t": "Drying chillies in the sun preserves them by removing…", "o": ["Moisture", "Colour", "Taste", "Air"], "e": "Microbes need water to grow; dry food stays safe."},
+{"t": "Which teeth cut and bite food?", "o": ["Incisors", "Molars", "Canines", "Premolars"], "e": "Incisors are flat, sharp-edged and at the front."},
+{"t": "Which teeth grind food?", "o": ["Molars", "Incisors", "Canines", "None"], "e": "Large, flat molars at the back grind food."},
+{"t": "Which teeth tear food?", "o": ["Canines", "Molars", "Incisors", "Premolars"], "e": "Pointed canines tear food."},
+{"t": "A cavity is…", "o": ["A hole in a tooth", "A type of food", "A microbe", "Saliva"], "e": "Acid made by microbes dissolves the tooth surface, forming a hole."},
+{"t": "A fridge keeps food fresh by…", "o": ["Slowing microbes with cold", "Killing all microbes", "Adding salt", "Drying it"], "e": "Cold slows microbes down but does not kill them."},
+{"t": "Idli batter rises overnight because of…", "o": ["Gas bubbles made by microbes", "Air pumped in", "Salt", "Water"], "e": "Microbes feed on the batter and release gas that gets trapped."}
+]},
+{"q": [
+{"t": "Why does oil on top of a pickle keep it from spoiling?", "o": ["It keeps air away from the food", "Oil kills all microbes", "Oil adds taste", "Oil dries the food"], "e": "The oil layer is a seal — most spoilage microbes need air."},
+{"t": "Why does ghee keep for months but butter spoils quickly?", "o": ["Ghee has had its water boiled off", "Ghee is colder", "Butter has no water", "Ghee has sugar"], "e": "No water means no microbes."},
+{"t": "Salting fish preserves it because salt…", "o": ["Draws water out", "Adds air", "Makes it warmer", "Adds microbes"], "e": "Without moisture, microbes can't grow."},
+{"t": "Jam lasts long because of…", "o": ["Lots of sugar removing available moisture", "Oil", "Freezing", "Light"], "e": "Sugaring, like salting, takes away the moisture microbes need."},
+{"t": "Why do cavities form?", "o": ["Microbes turn leftover sugar into acid", "Sweets are hard", "Teeth are weak", "Water dissolves teeth"], "e": "Acid from microbes slowly dissolves the tooth surface."},
+{"t": "Why are cutting teeth at the front?", "o": ["Food arrives there and must be bitten off", "They are stronger", "The jaw hinge is there", "No reason"], "e": "A thin sharp edge at the front bites off food as it enters."},
+{"t": "Why are grinding teeth at the back?", "o": ["The bite is strongest near the jaw hinge", "They are smaller", "They need less force", "Food is softer there"], "e": "Like a nutcracker: closer to the pivot, greater force."},
+{"t": "A matka keeps water cool because…", "o": ["Water seeping out evaporates and takes away heat", "Clay is cold", "It has ice inside", "It blocks sunlight only"], "e": "Evaporation from the pot's surface cools the water inside."},
+{"t": "Why not talk or laugh with food in your mouth?", "o": ["Food can go into the air passage and cause choking", "It is rude only", "It spoils the taste", "It makes food cold"], "e": "Food and air share a passage; laughing opens the air route at the wrong time."},
+{"t": "Curd helps an upset stomach because its microbes…", "o": ["Support the helpful microbes in the gut", "Kill all germs", "Add sugar", "Cool the stomach"], "e": "Its microbes reinforce the useful ones already in the gut."}
+]},
+{"q": [
+{"t": "Every preservation method works by…", "o": ["Removing something microbes need", "Adding colour", "Making food heavier", "Adding more microbes"], "e": "Once you know what microbes need — moisture, air, warmth — you can work out any method."},
+{"t": "Why does bread spoil in two days but pickle lasts two months?", "o": ["Bread is moist and exposed; pickle is sealed with oil and salt", "Bread is older", "Pickle has no food", "Bread is colder"], "e": "The pickle denies microbes air and moisture; bread gives them both."},
+{"t": "Frozen food keeps longer than refrigerated food because…", "o": ["Freezing locks the water so microbes can't use it", "Freezing kills all microbes", "Fridges are warmer than room", "Frozen food has no microbes"], "e": "Microbes can't use frozen water, but they're still alive — thawed food spoils fast."},
+{"t": "A piece of mango sticks out above the oil in a pickle jar. What may happen?", "o": ["It spoils and can spoil the rest", "Nothing", "It becomes sweeter", "It dries perfectly"], "e": "Without the oil seal, air reaches it and microbes grow."},
+{"t": "Idli batter left in a cold room doesn't rise. Why?", "o": ["Microbes slow down in the cold", "There's no air in cold rooms", "Cold kills the batter", "Salt stops it"], "e": "The same reason a fridge preserves food: cold slows microbes."},
+{"t": "Which is more harmful for teeth?", "o": ["A sweet sucked slowly all afternoon", "A sweet eaten quickly and rinsed", "Water", "A carrot"], "e": "The danger is how long sugar stays on the teeth."},
+{"t": "Why does a far-travelled mango often taste less good?", "o": ["It was picked before it was ripe", "It is a different fruit", "It's heavier", "It has more water"], "e": "Fruit that travels for days must be picked unripe to survive the journey."},
+{"t": "Fermentation and spoilage are both microbes breaking down food. The difference is…", "o": ["Whether we wanted it", "One uses heat", "One has no microbes", "One is in plants"], "e": "We call it fermentation when we want it, spoilage when we don't."},
+{"t": "Chewing food properly helps digestion because it…", "o": ["Makes small pieces and releases saliva", "Cools the food", "Adds microbes", "Removes water"], "e": "Small pieces give more surface for juices, and saliva starts digestion."},
+{"t": "Spices like pepper and turmeric help preserve food by…", "o": ["Making conditions hostile to microbes", "Freezing it", "Removing air", "Adding water"], "e": "They slow microbe growth."}
+]},
+{"q": [
+{"t": "A new method blows hot, dry air over fruit slices. Will it preserve them? Why?", "o": ["Yes — it removes moisture", "No — air helps microbes", "No — heat adds water", "Yes — it adds sugar"], "e": "Drying removes the water microbes need — you can predict this from the rule."},
+{"t": "Why is canned food safe for a long time?", "o": ["It is airtight and keeps new microbes out", "It is frozen", "It has no food", "It is salty"], "e": "Canning removes air and seals out new microbes."},
+{"t": "By the time you can see mould, spoilage is…", "o": ["Already far advanced", "Just beginning", "Over", "Harmless"], "e": "One microbe is invisible; you see the colony only after thousands have grown."},
+{"t": "The tongue's job while eating is to…", "o": ["Pass food back from cutting to grinding teeth", "Cut food", "Grind food", "Make acid"], "e": "It moves food from incisors to canines to premolars to molars."},
+{"t": "Why does brushing prevent cavities?", "o": ["It removes food before microbes make acid", "It whitens teeth", "It adds sugar", "It kills teeth"], "e": "No leftover sugar means microbes can't make acid."},
+{"t": "Hunting wasps store paralysed prey for their larvae. This is an example of…", "o": ["Animals preserving food", "Fermentation", "Cooking", "Freezing"], "e": "Hunting wasps preserved food long before humans did."},
+{"t": "Vasco da Gama crossed oceans to reach India partly for…", "o": ["Black pepper", "Rice", "Salt", "Sugar"], "e": "Black pepper was hugely valuable, partly because it helped preserve food."},
+{"t": "Taking food out of the fridge and leaving it warm…", "o": ["Lets microbes speed up again", "Kills microbes", "Preserves it more", "Makes no difference"], "e": "Cold only slowed them; warmth wakes them up."},
+{"t": "Which pair is matched correctly?", "o": ["Pickling in oil — removes air", "Drying — removes air", "Refrigeration — removes moisture", "Salting — adds water"], "e": "Oil seals out air. Drying and salting remove moisture; refrigeration lowers temperature."},
+{"t": "Gulping food without chewing can cause indigestion because…", "o": ["The stomach gets work that should have been half done", "Food gets colder", "Saliva becomes acid", "Teeth break"], "e": "Without chewing and saliva, digestion starts late and is less complete."}
+]}
+]}

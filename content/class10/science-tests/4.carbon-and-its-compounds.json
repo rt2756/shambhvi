@@ -1,0 +1,52 @@
+{
+"title": "4. Carbon and its Compounds",
+"tests": [
+{"q": [
+{"t": "Carbon forms bonds mainly by…", "o": ["Sharing electrons (covalent)", "Losing 4 electrons", "Gaining 4 electrons", "Ionic bonds"], "e": "Gaining or losing 4 needs too much energy."},
+{"t": "The ability of carbon to bond with other carbon atoms is…", "o": ["Catenation", "Tetravalency", "Isomerism", "Combustion"], "e": "Forms long chains and rings."},
+{"t": "Carbon's valency is…", "n": 4, "e": "Tetravalency."},
+{"t": "Hydrocarbons with only single bonds are…", "o": ["Saturated (alkanes)", "Unsaturated", "Alkenes", "Alkynes"], "e": "General formula CₙH₂ₙ₊₂."},
+{"t": "Alkenes contain a…", "o": ["Double bond", "Triple bond", "Only single bonds", "Ring always"], "e": "CₙH₂ₙ."},
+{"t": "Ethanol's formula is…", "o": ["CH₃CH₂OH", "CH₃COOH", "CH₄", "C₂H₄"], "e": "An alcohol."},
+{"t": "Ethanoic acid is commonly called…", "o": ["Acetic acid", "Formic acid", "Citric acid", "Lactic acid"], "e": "5–8% solution is vinegar."},
+{"t": "The functional group –OH is…", "o": ["Alcohol", "Aldehyde", "Ketone", "Carboxylic acid"], "e": "–COOH is carboxylic acid."},
+{"t": "Compounds with the same formula but different structures are…", "o": ["Isomers", "Isotopes", "Homologues", "Allotropes"], "e": "E.g. butane and isobutane."},
+{"t": "Soap molecules have a hydrophilic head and a…", "o": ["Hydrophobic tail", "Hydrophilic tail", "Metal tail", "No tail"], "e": "They form micelles."}
+]},
+{"q": [
+{"t": "Successive members of a homologous series differ by…", "o": ["CH₂", "CH₄", "C₂H₂", "OH"], "e": "And 14 u in molecular mass."},
+{"t": "Why are covalent compounds poor conductors?", "o": ["They form no ions", "They are metals", "They are hot", "They have ions"], "e": "Low melting and boiling points too."},
+{"t": "Adding hydrogen to unsaturated oils using a nickel catalyst is…", "o": ["Hydrogenation (addition)", "Substitution", "Oxidation", "Combustion"], "e": "Makes vanaspati ghee."},
+{"t": "Methane + chlorine in sunlight undergoes…", "o": ["Substitution", "Addition", "Hydrogenation", "Neutralisation"], "e": "Saturated compounds substitute."},
+{"t": "Ethanol + sodium gives…", "o": ["Hydrogen gas", "Oxygen", "CO₂", "Chlorine"], "e": "And sodium ethoxide."},
+{"t": "Ethanoic acid + sodium carbonate gives…", "o": ["CO₂", "H₂", "O₂", "No reaction"], "e": "Plus salt and water."},
+{"t": "Acid + alcohol giving a sweet-smelling compound is…", "o": ["Esterification", "Saponification", "Hydrogenation", "Combustion"], "e": "Esters smell fruity."},
+{"t": "Ester + NaOH giving soap is…", "o": ["Saponification", "Esterification", "Addition", "Substitution"], "e": "Soap-making."},
+{"t": "Unsaturated hydrocarbons burn with a…", "o": ["Yellow sooty flame", "Clean blue flame", "No flame", "Green flame"], "e": "Saturated ones burn with a clean blue flame."},
+{"t": "Why do detergents work in hard water but soaps don't?", "o": ["Soaps form scum with Ca/Mg ions", "Detergents are soaps", "Hard water is acidic", "Soaps are too strong"], "e": "Detergents don't form insoluble scum."}
+]},
+{"q": [
+{"t": "Name of CH₃CH₂CH₃:", "o": ["Propane", "Ethane", "Butane", "Propene"], "e": "Three carbons, single bonds."},
+{"t": "Name of C₂H₄:", "o": ["Ethene", "Ethane", "Ethyne", "Methane"], "e": "Two carbons, one double bond."},
+{"t": "Molecular formula of butane (alkane, n = 4): number of hydrogens?", "n": 10, "k": "2*4+2", "e": "CₙH₂ₙ₊₂ → C₄H₁₀."},
+{"t": "Molecular formula of propene (alkene, n = 3): number of hydrogens?", "n": 6, "k": "2*3", "e": "CₙH₂ₙ → C₃H₆."},
+{"t": "Methane and ethane differ in molecular mass by (u)?", "n": 14, "u": "u", "k": "(2*12+6)-(12+4)", "e": "30 − 16 = 14 (one CH₂)."},
+{"t": "Ethanol heated with hot concentrated H₂SO₄ at 443 K gives…", "o": ["Ethene (dehydration)", "Ethanoic acid", "Methane", "Ethyne"], "e": "Conc. H₂SO₄ removes water."},
+{"t": "Ethanol oxidised by alkaline KMnO₄ gives…", "o": ["Ethanoic acid", "Ethene", "Methanol", "Ethane"], "e": "KMnO₄ is an oxidising agent."},
+{"t": "Glacial acetic acid is so called because…", "o": ["Pure ethanoic acid freezes in cold weather", "It's from glaciers", "It's blue", "It's ice-cold"], "e": "Melting point 290 K."},
+{"t": "Benzene is a…", "o": ["Ring of six carbons", "Straight chain", "Single carbon", "Alkane"], "e": "C₆H₆, with alternating double bonds."},
+{"t": "In micelles, soap tails point…", "o": ["Inward, towards the oil", "Outward to water", "Randomly", "Up"], "e": "Ionic heads face water."}
+]},
+{"q": [
+{"t": "Why can't carbon form C⁴⁺ or C⁴⁻ easily?", "o": ["Too much energy to lose or gain 4 electrons", "It's too heavy", "It's a metal", "It has no electrons"], "e": "C⁴⁻ would make 10 electrons hold 6 protons' grip weakly."},
+{"t": "Why are there millions of carbon compounds?", "o": ["Catenation and tetravalency", "Carbon is common", "Carbon is metallic", "Carbon is radioactive"], "e": "Chains, branches, rings with many elements."},
+{"t": "Isomers of butane: how many?", "n": 2, "e": "n-butane and isobutane."},
+{"t": "How do you distinguish ethanol from ethanoic acid?", "o": ["Add NaHCO₃ — acid fizzes", "Smell only", "Colour", "Weight"], "e": "Carbonate gives CO₂ with acids."},
+{"t": "Why is denatured alcohol made?", "o": ["Additives make it unfit to drink", "To make it stronger", "To colour it", "To freeze it"], "e": "Methanol and dyes added."},
+{"t": "Methanol consumption is dangerous because it can cause…", "o": ["Blindness and death", "Strength", "Sleep only", "Nothing"], "e": "It's oxidised to methanal in the liver."},
+{"t": "Why do cooking vessels blacken from a yellow flame?", "o": ["Incomplete combustion leaves soot", "Metal melts", "Gas is blue", "Food burns"], "e": "Adjust air holes for a blue flame."},
+{"t": "Functional group of aldehydes:", "o": ["–CHO", "–OH", "–COOH", "–CO–"], "e": "Ketone is –CO–."},
+{"t": "Name of CH₃CHO:", "o": ["Ethanal", "Ethanol", "Methanal", "Ethanoic acid"], "e": "Two carbons, aldehyde."},
+{"t": "Why are animal fats healthier replaced by unsaturated vegetable oils?", "o": ["Saturated fats are linked to heart problems", "Unsaturated oils are solid", "Animal fats have no energy", "They're the same"], "e": "Choose unsaturated oils for cooking."}
+]}
+]}

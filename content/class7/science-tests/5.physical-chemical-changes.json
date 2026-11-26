@@ -1,0 +1,52 @@
+{
+"title": "5. Physical and Chemical Changes",
+"tests": [
+{"q": [
+{"t": "The main test for a chemical change is…", "o": ["A new substance is formed", "It can be undone", "It is slow", "It gets hot"], "e": "Chemical change means one or more new substances form. That's the whole test."},
+{"t": "Melting ice is a…", "o": ["Physical change", "Chemical change", "Combustion", "Corrosion"], "e": "Ice becomes water — still the same substance, just a different state. No new substance."},
+{"t": "Curdling of milk is a…", "o": ["Chemical change", "Physical change", "Weathering", "Erosion"], "e": "Curd is a new substance with different taste and properties, so it is chemical."},
+{"t": "Folding a sheet of paper is a…", "o": ["Physical change", "Chemical change", "Combustion", "Reaction"], "e": "Only the shape changes; it is still paper."},
+{"t": "Lime water turns milky with…", "o": ["Carbon dioxide", "Oxygen", "Water", "Nitrogen"], "e": "Carbon dioxide reacts with lime water to form white calcium carbonate — the standard CO₂ test."},
+{"t": "Burning of a substance in oxygen giving heat and light is…", "o": ["Combustion", "Rusting", "Erosion", "Melting"], "e": "Combustion is a reaction with oxygen that releases heat and/or light."},
+{"t": "The lowest temperature at which a substance catches fire is its…", "o": ["Ignition temperature", "Boiling point", "Melting point", "Freezing point"], "e": "Below its ignition temperature a fuel won't catch fire, even with oxygen around."},
+{"t": "Which is NOT one of the three things a fire needs?", "o": ["Water", "Fuel", "Oxygen", "Heat"], "e": "The fire triangle is fuel, oxygen and heat. Water is used to put fires out."},
+{"t": "Ripening of fruit is a…", "o": ["Desirable chemical change", "Undesirable physical change", "Physical change", "Weathering"], "e": "New substances (sugars, flavours) form, and we want it to happen."},
+{"t": "Rusting of iron is a…", "o": ["Chemical change", "Physical change", "Reversible change", "Desirable change"], "e": "Rust is a new substance (iron oxide), so rusting is chemical — and unwanted."}
+]},
+{"q": [
+{"t": "Crushing chalk into powder cannot be undone. What kind of change is it?", "o": ["Physical", "Chemical", "Combustion", "Corrosion"], "e": "It's still chalk, just smaller pieces. Being irreversible doesn't make a change chemical."},
+{"t": "What is the white substance that makes lime water milky?", "o": ["Calcium carbonate", "Calcium hydroxide", "Magnesium oxide", "Salt"], "e": "Calcium hydroxide + carbon dioxide → calcium carbonate + water. Calcium carbonate doesn't dissolve, so the water looks milky."},
+{"t": "Vinegar and baking soda fizz. The gas turns lime water milky. The gas is…", "o": ["Carbon dioxide", "Oxygen", "Hydrogen", "Steam"], "e": "Only carbon dioxide turns lime water milky."},
+{"t": "A candle under a glass tumbler goes out after a while. Which part of the fire triangle was removed?", "o": ["Oxygen", "Fuel", "Heat", "Light"], "e": "The trapped air's oxygen gets used up, and no fresh air can come in."},
+{"t": "If someone's clothes catch fire, why wrap them in a thick blanket?", "o": ["It cuts off the oxygen", "It adds fuel", "It cools them below 0 °C", "It makes more heat"], "e": "Without oxygen, the fire triangle breaks and the fire dies."},
+{"t": "Why should the blanket NOT be synthetic?", "o": ["It can melt and stick to the skin", "It burns too slowly", "It lets in too much air", "It is too heavy"], "e": "Synthetic fibres melt with heat and can stick to the skin, causing worse burns."},
+{"t": "In a burning candle, melting of wax is ___ and burning of wax vapour is ___.", "o": ["physical; chemical", "chemical; physical", "chemical; chemical", "physical; physical"], "e": "Melting only changes state. Burning makes new substances like carbon dioxide and water."},
+{"t": "Breaking of rocks in place by heat, cold, roots and water is called…", "o": ["Weathering", "Erosion", "Combustion", "Galvanisation"], "e": "Weathering breaks rock down where it is. Erosion is moving the pieces away."},
+{"t": "Carrying away of broken rock and soil by wind and water is called…", "o": ["Erosion", "Weathering", "Rusting", "Ignition"], "e": "Erosion carries the pieces away. 'Weathering breaks it, erosion carries it.'"},
+{"t": "Fireflies make light without heat. This is called…", "o": ["Bioluminescence", "Combustion", "Ignition", "Erosion"], "e": "Bioluminescence is light made by a chemical change in living things, with very little heat."}
+]},
+{"q": [
+{"t": "Paper doesn't burn in sunlight, but burns under a magnifying glass. Which leg of the fire triangle did the glass supply?", "o": ["Heat", "Oxygen", "Fuel", "Water"], "e": "Fuel (paper) and oxygen (air) were already there. Focused sunlight raised the paper past its ignition temperature."},
+{"t": "Blowing into tap water through a straw only makes bubbles. Why is this a physical change?", "o": ["No new substance forms", "It can't be undone", "It is fast", "Water changes colour"], "e": "The water stays clear; nothing new is made."},
+{"t": "Which is an undesirable change?", "o": ["Food going bad in storage", "Milk turning to curd", "Cooking rice", "Making compost"], "e": "Spoiled food is unwanted. The others are things we deliberately do."},
+{"t": "Decomposing food waste into compost is…", "o": ["A desirable change", "An undesirable change", "A physical change", "Not a change"], "e": "The same decay that spoils stored food is useful in a compost pit. Whether a change is desirable depends on the situation."},
+{"t": "Basalt rock gets a red layer over time. This is…", "o": ["Chemical weathering — iron forms iron oxide", "Physical weathering", "Erosion", "Combustion"], "e": "Iron in the rock reacts with air and water to form red iron oxide — a new substance, so it's chemical."},
+{"t": "Water freezing in rock cracks splits the rock. This is…", "o": ["Physical weathering", "Chemical weathering", "Combustion", "Corrosion"], "e": "Ice takes up more room than water and pushes the crack apart. The rock is still the same material."},
+{"t": "Why are river pebbles smooth and round?", "o": ["Erosion by flowing water rubs them", "They were made smooth", "Chemical change", "They melted"], "e": "As water carries them, they knock and rub against each other — erosion wears off the sharp edges."},
+{"t": "A lit matchstick sets paper on fire instantly because…", "o": ["It is hotter than paper's ignition temperature", "It adds oxygen", "It removes fuel", "Paper is a metal"], "e": "The flame heats the paper beyond its ignition temperature in an instant."},
+{"t": "Which is a reversible change?", "o": ["Melting wax", "Burning paper", "Cooking an egg", "Making popcorn"], "e": "Melted wax can solidify again. The others can't be undone."},
+{"t": "Magnesium + oxygen → magnesium oxide + heat + light. This reaction is…", "o": ["Combustion, a chemical change", "A physical change", "Erosion", "Weathering"], "e": "Magnesium reacts with oxygen to form a new substance, giving heat and light — that is combustion."}
+]},
+{"q": [
+{"t": "Ice melting and chalk crushing are both physical. One is reversible, one isn't. What does this show?", "o": ["Reversibility is a separate question from physical/chemical", "All physical changes are reversible", "Chalk crushing is chemical", "Melting is chemical"], "e": "Use 'is a new substance formed?' to sort physical/chemical. 'Can it be undone?' is a different question."},
+{"t": "Lime water in a dish under a burning candle and tumbler turns milky. What does this prove?", "o": ["Burning wax produced carbon dioxide", "The candle made oxygen", "Wax is a metal", "Lime water caught fire"], "e": "Lime water turns milky only with CO₂. The carbon in the wax combined with oxygen in the air to make it."},
+{"t": "A forest fire is stopped by cutting a wide strip of trees ahead of it. Which leg of the triangle is removed?", "o": ["Fuel", "Oxygen", "Heat", "Light"], "e": "With no trees to burn in the strip, the fire runs out of fuel."},
+{"t": "Water is thrown on burning wood. Mainly, which leg is attacked?", "o": ["Heat — it cools below ignition temperature", "Fuel — it removes the wood", "Oxygen only", "None"], "e": "Water absorbs heat and cools the wood below its ignition temperature (it also blocks some air)."},
+{"t": "Which pair is BOTH a chemical change?", "o": ["Rusting and cooking", "Melting and boiling", "Folding and cutting", "Inflating and crushing"], "e": "Rust and cooked food are both new substances. The other pairs only change shape or state."},
+{"t": "Sediment from erosion settles in the sea and hardens over thousands of years into…", "o": ["New rock", "Soil only", "Lava", "Lime water"], "e": "Layers of sediment slowly harden into new rock — this cannot be reversed."},
+{"t": "Why did Faraday think a candle was perfect for teaching science?", "o": ["Melting, vaporising and burning all happen in one flame", "Candles never change", "Candles are metals", "Candles have no smell"], "e": "A single candle shows physical changes (melting, evaporation) and a chemical change (burning) together."},
+{"t": "A student says 'combustion always makes a flame'. Which example disagrees?", "o": ["Paper charring under a magnifying glass before it flames", "A lit candle", "A gas stove", "A bonfire"], "e": "Combustion releases heat and/or light. Paper can smoulder and char before any flame appears."},
+{"t": "Which test would you do to show a gas is carbon dioxide?", "o": ["Pass it through lime water", "Smell it", "Use red litmus only", "Burn magnesium in it"], "e": "If lime water turns milky, the gas is carbon dioxide."},
+{"t": "Sun-dried mud cracking and wind blowing away the dust are, in order…", "o": ["Weathering, then erosion", "Erosion, then weathering", "Both erosion", "Both chemical"], "e": "First the soil/rock breaks up in place (weathering), then wind carries it away (erosion)."}
+]}
+]}

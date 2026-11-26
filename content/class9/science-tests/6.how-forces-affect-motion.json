@@ -1,0 +1,52 @@
+{
+"title": "6. How Forces Affect Motion",
+"tests": [
+{"q": [
+{"t": "The SI unit of force is the…", "o": ["Newton (N)", "Joule", "Watt", "Pascal"], "e": "Small n in the name, capital N as symbol."},
+{"t": "Balanced forces have a net force of…", "o": ["Zero", "Infinity", "Their sum", "Double"], "e": "The object's motion doesn't change."},
+{"t": "The tendency to resist a change in motion is…", "o": ["Inertia", "Friction", "Momentum", "Weight"], "e": "Newton built the first law on it."},
+{"t": "F = ?", "o": ["ma", "m/a", "a/m", "mv"], "e": "Newton's second law."},
+{"t": "Momentum = ?", "o": ["Mass × velocity", "Mass × acceleration", "Force × time only", "Velocity ÷ mass"], "e": "It points along the velocity."},
+{"t": "Every action has an equal and opposite reaction is Newton's…", "o": ["Third law", "First law", "Second law", "Law of gravitation"], "e": "The pair act on different objects."},
+{"t": "Friction acts…", "o": ["Opposite to motion or applied force", "Along the motion", "Upward always", "Only in water"], "e": "Between surfaces in contact."},
+{"t": "Holding a 100 g mass, your palm applies about…", "o": ["1 N", "100 N", "10 N", "0.01 N"], "e": "That's what 1 N feels like."},
+{"t": "Weight = ?", "o": ["mg", "m/g", "m + g", "g/m"], "e": "Gravitational force on a mass."},
+{"t": "Who argued, through thought experiments, that motion continues without impediments?", "o": ["Galileo", "Aristotle", "Archimedes", "Aryabhata"], "e": "Newton built on this."}
+]},
+{"q": [
+{"t": "Newton's first law: an object in motion continues with constant velocity unless…", "o": ["A net force acts", "It gets tired", "Time passes", "It is heavy"], "e": "No force is needed to keep moving."},
+{"t": "Why do moving things on Earth stop?", "o": ["Friction acts on them", "Motion needs force to continue", "They run out of energy by law", "Gravity pushes back"], "e": "Friction must be countered."},
+{"t": "A box starts moving only when your push…", "o": ["Exceeds friction", "Equals friction", "Is less than friction", "Is zero"], "e": "Then a net force acts."},
+{"t": "Doubling the net force on the same mass makes acceleration…", "o": ["Double", "Half", "Same", "Four times"], "e": "a ∝ F."},
+{"t": "Doubling the mass with the same force makes acceleration…", "o": ["Half", "Double", "Same", "Zero"], "e": "a ∝ 1/m."},
+{"t": "One newton is the force that gives…", "o": ["1 kg an acceleration of 1 m/s²", "1 g an acceleration of 1 m/s²", "1 kg a speed of 1 m/s", "1 kg a weight of 1 N"], "e": "From F = ma."},
+{"t": "Action and reaction don't cancel because…", "o": ["They act on two different objects", "They're unequal", "They're in the same direction", "They're not real"], "e": "Balanced forces act on the same object."},
+{"t": "When walking, the ground pushes your feet…", "o": ["Forwards", "Backwards", "Up only", "Not at all"], "e": "Your feet push the ground back; friction pushes you forward."},
+{"t": "A rocket rises because…", "o": ["Expelled gas pushes it upward", "Air pushes it", "Gravity reverses", "It's light"], "e": "Third law, with upward force exceeding weight."},
+{"t": "Does g depend on the object's mass?", "o": ["No", "Yes", "Only for heavy objects", "Only in space"], "e": "Heavier objects feel more force but also more inertia."}
+]},
+{"q": [
+{"t": "Force on a 2 kg mass accelerating at 3 m/s² (N)?", "n": 6, "u": "N", "k": "2*3", "e": "F = ma = 2 × 3 = 6 N."},
+{"t": "A 10 N force on a 5 kg mass. Acceleration (m/s²)?", "n": 2, "u": "m/s²", "k": "F(10,5)", "e": "a = F/m = 2 m/s²."},
+{"t": "Weight of a 50 kg person (g = 9.8) in N?", "n": 490, "u": "N", "k": "50*F('9.8')", "e": "W = mg = 490 N."},
+{"t": "Forces of 8 N right and 5 N left act on a box. Net force (N, right positive)?", "n": 3, "u": "N", "k": "8-5", "e": "Net = 8 − 5 = 3 N to the right."},
+{"t": "Momentum of a 2 kg ball at 5 m/s (kg m/s)?", "n": 10, "u": "kg m/s", "k": "2*5", "e": "p = mv = 10."},
+{"t": "Why does a fielder pull hands back when catching?", "o": ["Increases stopping time, reducing force", "Looks stylish", "Increases force", "Speeds up the ball"], "e": "Longer time → smaller acceleration → smaller force."},
+{"t": "Airbags protect by…", "o": ["Increasing the time to stop the body", "Pushing the body forward", "Reducing mass", "Stopping the car"], "e": "Same principle as pulling hands back."},
+{"t": "Cracking a coconut on a hard floor works because…", "o": ["It stops in a very short time, so the force is very large", "The floor is soft", "It lands slowly", "Mass increases"], "e": "Short stopping time → huge force."},
+{"t": "A smooth coconut trunk is harder to climb because…", "o": ["Less friction to push the climber up", "It's taller", "It's heavier", "Gravity is stronger"], "e": "Friction pushes the climber up as legs push down."},
+{"t": "Chandrayaan-3 slowed for soft landing by firing its engine…", "o": ["In the direction of motion", "Backward", "Sideways", "Not at all"], "e": "Exhaust pushed back on the craft, slowing it."}
+]},
+{"q": [
+{"t": "Two boxes 2 kg and 3 kg tied together are pulled with 10 N on a smooth floor. Acceleration (m/s²)?", "n": 2, "u": "m/s²", "k": "F(10,2+3)", "e": "Treat as one system of 5 kg: a = 10/5 = 2."},
+{"t": "A 60 kg skater pushes a 40 kg skater with 120 N. Acceleration of the 40 kg skater (m/s²)?", "n": 3, "u": "m/s²", "k": "F(120,40)", "e": "a = 120/40 = 3."},
+{"t": "And of the 60 kg skater (m/s²)?", "n": 2, "u": "m/s²", "k": "F(120,60)", "e": "Equal force, unequal acceleration: 120/60 = 2."},
+{"t": "On a position–time graph, constant velocity is a…", "o": ["Sloping straight line", "Horizontal line", "Curve", "Vertical line"], "e": "On a velocity–time graph it's a horizontal line."},
+{"t": "In the cart experiment, doubling force gives slightly less than double acceleration because of…", "o": ["Friction and measurement error", "Gravity doubling", "Mass changing", "Newton being wrong"], "e": "Real experiments have friction."},
+{"t": "The fuller second law states force equals…", "o": ["Rate of change of momentum", "Momentum", "Mass × speed", "Velocity ÷ time"], "e": "F = Δp/Δt."},
+{"t": "Two magnets push each other. The forces are…", "o": ["Equal and opposite", "Unequal", "In the same direction", "Zero"], "e": "Third law applies to non-contact forces too."},
+{"t": "Why do shoes have grooves?", "o": ["More friction so feet don't slip backwards", "Decoration", "Less weight", "Air flow"], "e": "Friction moves you forward."},
+{"t": "A ball rolls farther on glass than on carpet. Why reason to 'no friction'?", "o": ["The trend suggests it would roll forever", "Glass has no friction", "Carpet is magnetic", "It's not science"], "e": "Thought experiments reason from trends."},
+{"t": "A ball of mass 0.5 kg goes from 20 m/s to 0 in 0.1 s. Average force (N)?", "n": 100, "u": "N", "k": "F(1,2)*20/F(1,10)", "e": "F = m Δv / Δt = 0.5 × 20 / 0.1 = 100 N."}
+]}
+]}

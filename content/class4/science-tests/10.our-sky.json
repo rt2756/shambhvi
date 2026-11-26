@@ -1,0 +1,52 @@
+{
+"title": "10. Our Sky",
+"tests": [
+{"q": [
+{"t": "The brightest object in the sky is the…", "o": ["Sun", "Moon", "A star", "A cloud"], "e": "So bright other stars can't be seen by day."},
+{"t": "The Sun gives us…", "o": ["Light and heat", "Rain only", "Snow", "Darkness"], "e": "Energy for life."},
+{"t": "The Sun appears to rise in the…", "o": ["East", "West", "North", "South"], "e": "And set in the west."},
+{"t": "Shadows at noon are…", "o": ["Short", "Long", "Invisible always", "Twice as long"], "e": "The Sun is overhead."},
+{"t": "Shadows in the morning and evening are…", "o": ["Long", "Short", "The same as noon", "Absent"], "e": "The Sun is low."},
+{"t": "A full Moon is called…", "o": ["Poornima", "Amavasya", "Ekadashi", "Sankranti"], "e": "A complete circle."},
+{"t": "A night with no Moon visible is…", "o": ["Amavasya", "Poornima", "Diwali only", "Eid"], "e": "New Moon."},
+{"t": "Diwali is celebrated on…", "o": ["A night with no Moon", "A full Moon night", "A sunny afternoon", "Any day"], "e": "New Moon of Kartika."},
+{"t": "A device that tells time using shadows is a…", "o": ["Sundial", "Thermometer", "Compass", "Clock with batteries"], "e": "Samrat Yantra is a giant sundial."},
+{"t": "India's Vikram Lander landed on the Moon on…", "o": ["23 August 2023", "15 August 1947", "26 January 2020", "1 July 2023"], "e": "Chandrayaan mission."}
+]},
+{"q": [
+{"t": "Who built the Jantar Mantar observatories?", "o": ["Raja Jai Singh", "Ashoka", "Akbar", "Shivaji"], "e": "In Jaipur, Ujjain, Delhi, Varanasi, Mathura."},
+{"t": "Moving an object closer to the torch makes its shadow…", "o": ["Bigger", "Smaller", "Disappear", "Coloured"], "e": "It blocks more light."},
+{"t": "Changing the direction of the torch changes…", "o": ["The direction of the shadow", "Nothing", "The colour of the shadow", "The object"], "e": "Shadows fall away from light."},
+{"t": "Why are morning and evening shadows in opposite directions?", "o": ["The Sun is in the east in the morning and west in the evening", "The Earth stops", "Clouds move", "Random"], "e": "Shadows fall away from the Sun."},
+{"t": "Raksha Bandhan and Buddha Poornima are on…", "o": ["Full Moon days", "No-Moon days", "Sundays only", "Any day"], "e": "Poornima."},
+{"t": "Eid is celebrated when…", "o": ["The Moon is seen on the first night after a New Moon", "It's a full Moon", "It's noon", "It rains"], "e": "The crescent Moon."},
+{"t": "Ancient people used the Moon's shapes to…", "o": ["Count days — the first calendars", "Grow plants", "Make light", "Cook food"], "e": "Moon phases repeat."},
+{"t": "Why can't we see stars during the day?", "o": ["The Sun is too bright", "Stars go away", "Stars sleep", "Clouds hide them always"], "e": "They're still there."},
+{"t": "At noon the Sun is…", "o": ["Nearly overhead", "Rising", "Setting", "Hidden"], "e": "Shortest shadows."},
+{"t": "Shadow puppetry is…", "o": ["An old Indian art using shadows", "A sport", "A dance only", "A food"], "e": "Make shapes with your hands."}
+]},
+{"q": [
+{"t": "At 8 am your shadow points west. At 4 pm it points…", "o": ["East", "West", "North", "Nowhere"], "e": "The Sun moves to the west, so the shadow flips."},
+{"t": "Is your shadow the same length at 8 am and 12 noon?", "o": ["No — longer in the morning", "Yes", "Longer at noon", "No shadow at 8 am"], "e": "Low Sun makes long shadows."},
+{"t": "The Moon sometimes looks like the letter…", "o": ["C", "Z", "X", "T"], "e": "A crescent."},
+{"t": "Does the Moon really change shape?", "o": ["No — we see different lit parts of it", "Yes, it shrinks", "It breaks", "It's eaten"], "e": "Shapes repeat in a pattern."},
+{"t": "Which festivals are linked to the Sun?", "o": ["Chhath Puja and Pongal", "Eid and Diwali", "Karva Chauth only", "None"], "e": "Many festivals follow sky events."},
+{"t": "Karva Chauth is linked to…", "o": ["Moonrise", "Sunrise", "Rain", "Stars only"], "e": "A Moon festival."},
+{"t": "Saptarshi is a…", "o": ["Pattern of seven stars", "Planet", "Moon phase", "Comet"], "e": "Seven Sages."},
+{"t": "How do birds behave at sunset?", "o": ["Fly back to their nests", "Wake up", "Start hunting at noon", "Nothing"], "e": "Activities change through the day."},
+{"t": "Why are shadows formed?", "o": ["An object blocks light", "Light passes through", "Objects glow", "Air moves"], "e": "No light, no shadow."},
+{"t": "The sky colour at sunrise is often…", "o": ["Orange", "Black", "Green", "Purple always"], "e": "It changes through the day."}
+]},
+{"q": [
+{"t": "Riddle: one colour but not one size, appears with light. What is it?", "o": ["A shadow", "The Moon", "A rainbow", "A cloud"], "e": "Always dark, changes size."},
+{"t": "A stick's shadow is 2 m at 8 am, 0.5 m at noon. Which is longer and why?", "o": ["8 am — the Sun is low", "Noon — the Sun is high", "Same", "Can't tell"], "e": "Low Sun, long shadows."},
+{"t": "If the Moon is full tonight, roughly how many days until the next full Moon?", "o": ["About 30", "About 7", "About 365", "1"], "e": "About a month (29.5 days)."},
+{"t": "Which is a difference between day and night?", "o": ["Sun visible in the day; Moon and stars at night", "Both the same", "Sun at night", "Stars only by day"], "e": "Look at the sky."},
+{"t": "Owls and bats are active at…", "o": ["Night", "Noon only", "Morning only", "Never"], "e": "Animal activities change."},
+{"t": "Why did people build sundials?", "o": ["To tell time from shadows", "To see stars", "To grow plants", "For decoration only"], "e": "Before clocks."},
+{"t": "Samrat Yantra is in…", "o": ["Jantar Mantar, Jaipur", "Puri", "Amritsar", "Gangtok"], "e": "It tells time accurately."},
+{"t": "A shadow on a cloudy day is…", "o": ["Faint or absent", "Darker", "Coloured", "Longer"], "e": "Needs strong light."},
+{"t": "Which question could Meera ask about the Sun's movement?", "o": ["Does the Sun really move, or does the Earth?", "Is the Sun cold?", "Is the Sun square?", "Does the Sun eat?"], "e": "Good questions start science."},
+{"t": "Moving the torch farther from a stick makes the shadow…", "o": ["Smaller", "Bigger", "Disappear always", "Coloured"], "e": "Closer means bigger."}
+]}
+]}

@@ -1,0 +1,52 @@
+{
+"title": "13. Earth as a System",
+"tests": [
+{"q": [
+{"t": "The central idea: a disturbance in one sphere…", "o": ["Leads to changes in others", "Stays local", "Has no effect", "Only affects the atmosphere"], "e": "That's what makes Earth a system."},
+{"t": "The Sun's radiation reaching Earth's surface is…", "o": ["Insolation", "Albedo", "Solar constant", "Coriolis effect"], "e": "It warms surface and air."},
+{"t": "The fraction of radiation a surface reflects is its…", "o": ["Albedo", "Insolation", "Density", "Intensity"], "e": "Latin for whiteness."},
+{"t": "All weather occurs in the…", "o": ["Troposphere", "Stratosphere", "Ozone layer", "Exosphere"], "e": "0–12 km."},
+{"t": "The ozone layer is in the…", "o": ["Stratosphere", "Troposphere", "Hydrosphere", "Crust"], "e": "12–50 km."},
+{"t": "Ozone absorbs…", "o": ["Ultraviolet radiation", "Visible light", "Radio waves", "Sound"], "e": "Protecting life."},
+{"t": "Planetary winds in the Northern Hemisphere are deflected to the…", "o": ["Right", "Left", "Up", "Not at all"], "e": "The Coriolis deflection; left in the south."},
+{"t": "Which bacteria fix nitrogen in legume root nodules?", "o": ["Rhizobium", "Nitrobacter", "Pseudomonas", "Lactobacillus"], "e": "N₂ → ammonia."},
+{"t": "What percentage of global carbon is in the oceans?", "n": 71, "u": "%", "e": "The largest reservoir."},
+{"t": "The Montreal Protocol reduced…", "o": ["CFCs", "CO₂", "Nitrogen", "Water vapour"], "e": "The ozone layer is now slowly recovering."}
+]},
+{"q": [
+{"t": "High albedo surfaces…", "o": ["Reflect more and stay cool", "Absorb more and heat up", "Make wind", "Have no effect"], "e": "Snow reflects 80–90%."},
+{"t": "Why are polar regions so cold?", "o": ["Snow and ice reflect much radiation, and rays spread over larger areas", "They're far from the Sun", "No air", "They're dark all year"], "e": "High albedo plus low ray angle."},
+{"t": "Why are cities warmer than nearby villages (urban heat island)?", "o": ["Concrete and asphalt absorb and retain heat", "More sunlight falls on cities", "Cities are lower", "People breathe heat"], "e": "Human land use alters local climate."},
+{"t": "In the troposphere, temperature with height…", "o": ["Decreases (~6.5 °C per km)", "Increases", "Stays the same", "Doubles"], "e": "It's heated from the surface."},
+{"t": "Why is the stratosphere calm?", "o": ["Temperature rises with height, so no vertical mixing", "It has no air", "It's very cold", "Ozone stops wind"], "e": "Warm air is already on top."},
+{"t": "Why does the equator get more heat than the poles?", "o": ["Rays strike more directly, concentrated on a smaller area", "It's closer to the Sun", "It has more water", "Days are longer always"], "e": "Earth is spherical."},
+{"t": "Ocean currents reduce temperature differences by…", "o": ["Transporting heat from equator towards poles", "Freezing water", "Making waves", "Stopping wind"], "e": "E.g. the North Atlantic Drift."},
+{"t": "Why do matter cycles exist?", "o": ["Earth gets energy but no new supply of matter", "Matter is created daily", "Energy cycles too", "For fun"], "e": "Atoms must be reused."},
+{"t": "Nitrogen gas can't be used directly by plants because…", "o": ["Its triple bond makes it unreactive", "It's toxic", "It's too heavy", "It's a liquid"], "e": "It must first be fixed."},
+{"t": "Denitrification by Pseudomonas turns nitrates into…", "o": ["Nitrogen gas", "Ammonia", "Nitrite", "Protein"], "e": "Completing the cycle."}
+]},
+{"q": [
+{"t": "Melting ice causes more warming because…", "o": ["Low-albedo ocean replaces high-albedo ice, absorbing more", "Ice makes heat", "Water reflects more", "It cools Earth"], "e": "A feedback loop."},
+{"t": "Maximum insolation at the surface under clear sky is about…", "o": ["1 kW/m²", "1 W/m²", "100 kW/m²", "10 MW/m²"], "e": "Lower than the solar constant at the top of the atmosphere."},
+{"t": "1 kW for 1 hour = how many joules?", "n": 3600000, "u": "J", "k": "1000*3600", "e": "3.6 × 10⁶ J = one unit of electricity."},
+{"t": "Atmospheric CO₂ rose from about 315 to 420 ppm. Increase (ppm)?", "n": 105, "u": "ppm", "k": "420-315", "e": "About 33–35% since 1960."},
+{"t": "Why is fossil fuel burning a carbon-cycle problem?", "o": ["Carbon stored over millions of years is released very fast", "It removes CO₂", "It's part of the fast cycle", "It makes oxygen"], "e": "A time-scale mismatch."},
+{"t": "Nitrification converts…", "o": ["Ammonia → nitrite → nitrate", "Nitrate → N₂", "N₂ → ammonia", "Protein → ammonia"], "e": "By Nitrosomonas then Nitrobacter."},
+{"t": "Ammonification is done by…", "o": ["Decomposers returning ammonia from dead matter", "Lightning", "Rhizobium", "Plants"], "e": "Bacteria and fungi."},
+{"t": "The Haber–Bosch process makes…", "o": ["Ammonia from atmospheric nitrogen", "Oxygen", "CFCs", "Coal"], "e": "Most fertilisers today; energy-intensive."},
+{"t": "Less winter snowfall can lead to…", "o": ["Less lake water and less grass in summer", "More floods only", "No change", "More ice"], "e": "Cryosphere → hydrosphere → biosphere."},
+{"t": "Who mapped solar insolation across India in the 1950s?", "o": ["Anna Mani", "K.R. Ramanathan", "Homi Bhabha", "Meghnad Saha"], "e": "With S. Rangarajan."}
+]},
+{"q": [
+{"t": "UV wavelengths range from…", "o": ["100 nm to 400 nm", "400 to 700 nm", "1 to 10 m", "700 nm to 1 mm"], "e": "Higher energy than visible light."},
+{"t": "Which radiation provides energy for photosynthesis?", "o": ["Visible light", "Radio waves", "Gamma rays", "Microwaves"], "e": "The primary source of food for most organisms."},
+{"t": "Gamma rays and X-rays from the Sun are…", "o": ["Mostly filtered by the upper atmosphere", "Absorbed by plants", "Harmless", "Reflected by oceans"], "e": "Very high energy, harmful."},
+{"t": "EM waves differ from sound because they…", "o": ["Need no medium", "Need a medium", "Are slower", "Are longitudinal"], "e": "Sound is mechanical."},
+{"t": "Warmer Arabian Sea water can lead to…", "o": ["Monsoon fluctuations — floods and droughts", "Less evaporation", "Snow in Kerala", "No change"], "e": "Nothing stays local."},
+{"t": "Why is the troposphere highest above the equator?", "o": ["Stronger heating pushes it up", "Gravity is weaker", "Oceans push it", "It's colder"], "e": "Lowest above the poles."},
+{"t": "K.R. Ramanathan climbed the Himalayas in 1934 to measure…", "o": ["Ozone levels", "Snow depth", "Wind speed", "Rainfall"], "e": "He found them lower than expected."},
+{"t": "Carbon makes up about what % of the dry weight of living things?", "n": 49, "u": "%", "e": "Life is carbon-based."},
+{"t": "Why is some CO₂ necessary?", "o": ["It keeps Earth warm enough for life", "Plants hate it", "It blocks UV", "It makes ozone"], "e": "The balance is critical."},
+{"t": "The water cycle links all five spheres because it involves…", "o": ["Glaciers, oceans, air, soil and living things", "Only rivers", "Only clouds", "Only oceans"], "e": "Cryo-, hydro-, atmo-, geo- and biosphere."}
+]}
+]}

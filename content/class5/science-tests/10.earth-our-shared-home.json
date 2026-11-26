@@ -1,0 +1,52 @@
+{
+"title": "10. Earth — Our Shared Home",
+"tests": [
+{"q": [
+{"t": "Who was the first Indian to see the Earth from space?", "o": ["Rakesh Sharma", "Kalpana Chawla", "Shubhanshu Shukla", "Vikram Sarabhai"], "e": "Wing Commander Rakesh Sharma — he said India looked 'Saare Jahaan Se Achcha'."},
+{"t": "Who was the first Indian to reach the International Space Station?", "o": ["Shubhanshu Shukla", "Rakesh Sharma", "A.P.J. Abdul Kalam", "C.V. Raman"], "e": "Group Captain Shubhanshu Shukla."},
+{"t": "The Earth looks blue from space because…", "o": ["About three-quarters of it is water", "The sky is blue", "It is painted", "Ice covers it"], "e": "Most of its surface is ocean."},
+{"t": "From space, can you see country borders?", "o": ["No", "Yes, clearly", "Only India's", "Only at night"], "e": "Borders are agreements on maps, not physical lines."},
+{"t": "DIGIPIN gives each place a…", "o": ["10-character digital code", "Postcard", "Flag", "Phone number"], "e": "It helps postmen and ambulances find you fast."},
+{"t": "Chilli first came to India from…", "o": ["South America", "China", "Africa", "Europe"], "e": "Portuguese travellers brought it 400–500 years ago."},
+{"t": "Marigold came to India from…", "o": ["Mexico", "Japan", "Brazil", "Egypt"], "e": "It became part of Indian temples, weddings and Diwali."},
+{"t": "Yoga travelled from…", "o": ["India to the whole world", "Brazil to India", "China to India", "Mexico to India"], "e": "Practised in India for over 3,000 years, now almost everywhere."},
+{"t": "Vasudhaiva Kutumbakam means…", "o": ["The world is one family", "India is the best", "Save water", "Plant trees"], "e": "All people, animals, plants, rivers and the air belong to one family."},
+{"t": "Rosy starlings fly to India in…", "o": ["Winter", "Summer", "Monsoon", "Never"], "e": "They come from Russia and Mongolia every winter."}
+]},
+{"q": [
+{"t": "Why do borders vanish when seen from space?", "o": ["They were never physical", "They are too small", "Clouds hide them", "Astronauts can't see"], "e": "A border is an agreement between people, drawn on a map."},
+{"t": "Why does a written address end in 'Earth'?", "o": ["It is the largest true box in a set of nested boxes", "As a joke", "For aliens", "It's required"], "e": "Every address is nested boxes, and the biggest is shared by everyone."},
+{"t": "Why is a code like DIGIPIN better than 'behind the big neem tree'?", "o": ["A code identifies a place and can't be misread", "It is longer", "It is prettier", "Trees move"], "e": "A description can be misread; a code cannot."},
+{"t": "Why does the rosy starling migrate?", "o": ["No single place suits it all year", "It is lost", "It likes flying", "It is chased"], "e": "Its northern home is great in summer and lethal in winter."},
+{"t": "How does the rosy starling help Indian farmers?", "o": ["It eats crop-damaging insects", "It plants seeds", "It brings rain", "It pollinates rice"], "e": "A bird that spends half its life in Mongolia protects an Indian crop."},
+{"t": "Before chilli, Indian food was made hot with…", "o": ["Black pepper", "Salt", "Sugar", "Turmeric"], "e": "Pepper is genuinely Indian and was called 'black gold'."},
+{"t": "Why did chilli take over so fast in India?", "o": ["It grew easily, was cheaper than pepper and gave more heat", "It was forced on people", "Pepper vanished", "It is sweet"], "e": "Traditions absorb what suits them."},
+{"t": "What did India give the world about sugar?", "o": ["The method of making jaggery and sugar from sugarcane", "The sugarcane plant from Mexico", "Honey", "Chocolate"], "e": "Before that, the world sweetened food with honey."},
+{"t": "Which Indian cattle breeds supply most of Brazil's milk?", "o": ["Gir, Kankrej and Ongole", "Jersey and Holstein", "Yak", "Buffalo only"], "e": "More than three-quarters of Brazil's milk comes from them."},
+{"t": "India gave the world the idea of…", "o": ["Zero as a written number", "The potato", "The chilli", "The marigold"], "e": "India gave zero and received the potato and chilli."}
+]},
+{"q": [
+{"t": "'Nature has no boundaries' means problems like smoke…", "o": ["Cross borders, so countries must work together", "Stay inside one country", "Disappear at borders", "Are not real"], "e": "No country can clean its own air alone."},
+{"t": "Why did Indian cows succeed so well in Brazil?", "o": ["They were already bred for heat, humidity and insects", "Brazil is cold", "They were given special food", "European breeds were banned"], "e": "An animal suited to one place thrives in another with the same conditions."},
+{"t": "Indian cows might fail in a very cold country because…", "o": ["They are adapted to hot, humid conditions", "They don't like snow colour", "They can't swim", "Cold has no grass"], "e": "Adaptation fits a place; different conditions can make it fail."},
+{"t": "Why did both Mexico and India choose marigolds for festivals?", "o": ["Bright, cheap, easy to grow and long-lasting", "One copied the other", "It was a law", "They are sweet"], "e": "When distant peoples pick the same thing, the reasons are usually practical."},
+{"t": "Migration is…", "o": ["A solution to a problem staying still can't solve", "Random wandering", "Getting lost", "Only for birds"], "e": "The same route is flown generation after generation."},
+{"t": "What does the chilli story teach?", "o": ["What feels most 'ours' may have arrived recently", "Indian food never changes", "Chilli is Indian", "Trade is harmful"], "e": "Traditions are not frozen — they absorb."},
+{"t": "Why is the 'world is one family' idea earned by this chapter?", "o": ["It showed evidence first — birds, plants, ideas and cows travelling", "It just said so", "It is an old saying only", "It ignores evidence"], "e": "The evidence came first and the saying came last."},
+{"t": "A river polluted upstream in one state arrives dirty in another. This shows…", "o": ["Environmental problems cross boundaries", "Rivers stop at borders", "Pollution vanishes", "Each state has its own river"], "e": "Nature has no boundaries."},
+{"t": "Earth is special because…", "o": ["It is the only planet we know with life", "It is the biggest planet", "It is closest to the Sun", "It has no water"], "e": "For thousands of years it has supported life."},
+{"t": "The Ministry of Environment logo reminds us that…", "o": ["Caring for nature is caring for ourselves", "Nature is separate from us", "Forests are for wood only", "Cities matter most"], "e": "It shows the balance between nature and human life."}
+]},
+{"q": [
+{"t": "Which is the best way to care for the Earth?", "o": ["Pick one thing you'll really do every day", "Make a long list nobody keeps", "Do nothing", "Only talk about it"], "e": "One well-chosen daily habit beats a long ignored list."},
+{"t": "Which travelled India → Brazil deliberately?", "o": ["Gir cattle", "Chilli", "Marigold", "Rosy starlings"], "e": "Portuguese traders took Indian cattle to Brazil."},
+{"t": "Which travelled South America → India?", "o": ["Chilli", "Yoga", "Sugar", "Gir cattle"], "e": "Chilli arrived 400–500 years ago."},
+{"t": "Which shows 'ideas travel'?", "o": ["Yoga spreading worldwide", "Rosy starlings", "Marigold", "Cattle"], "e": "Yoga was carried by travellers, scholars and teachers."},
+{"t": "Nobody's kitchen is 'entirely home-grown' because…", "o": ["Every culture includes things from elsewhere", "Kitchens are imported", "Food is all foreign", "Spices are banned"], "e": "Every culture is partly made of things that came from somewhere else."},
+{"t": "An astronaut sees land masses and seas but not your village. Why?", "o": ["It is far too small from that height", "Villages are underground", "Clouds always hide it", "It isn't on maps"], "e": "From space you see only broad shapes."},
+{"t": "Which pair is matched correctly?", "o": ["Sugar — India to the world", "Chilli — India to the world", "Yoga — Mexico to India", "Marigold — India to Mexico"], "e": "Sugar-making knowledge spread from India."},
+{"t": "Why must almost every country talk to every other about the environment?", "o": ["No country can solve it alone", "It's a game", "To trade cows", "To share sugar"], "e": "Both problems and solutions cross borders."},
+{"t": "'Saare Jahaan Se Achcha' was said by…", "o": ["Rakesh Sharma", "Shubhanshu Shukla", "Neil Armstrong", "Kalpana Chawla"], "e": "He said it when asked how India looked from space."},
+{"t": "If you list where things in your house first came from, you'll find…", "o": ["Many came from other places", "Everything is from your town", "Nothing has an origin", "Only food is foreign"], "e": "Clothes, food, games and trees often came from far away."}
+]}
+]}

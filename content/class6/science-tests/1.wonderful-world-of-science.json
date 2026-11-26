@@ -1,0 +1,52 @@
+{
+"title": "1. The Wonderful World of Science",
+"tests": [
+{"q": [
+{"t": "Science is best described as…", "o": ["A way of thinking, observing and doing things", "Memorising facts", "Only doing experiments", "Only for scientists"], "e": "Science is a step-by-step way to find answers to questions."},
+{"t": "What is the first step of the scientific method?", "o": ["Observe", "Test", "Analyse", "Guess"], "e": "Observe → Question → Guess → Test → Analyse."},
+{"t": "What is the last step of the scientific method?", "o": ["Analyse", "Observe", "Question", "Guess"], "e": "After testing, you analyse what the result means."},
+{"t": "Your pen stops writing. 'Why did my pen stop?' is the…", "o": ["Question", "Observation", "Test", "Analysis"], "e": "Noticing it stopped is the observation; asking why is the question."},
+{"t": "'The ink is finished' is a…", "o": ["Guess (possible answer)", "Observation", "Test", "Result"], "e": "It's a possible answer you can test."},
+{"t": "Opening the pen to check the refill is the…", "o": ["Test", "Question", "Guess", "Observation"], "e": "You test the guess by checking."},
+{"t": "Who can do science?", "o": ["Anyone who follows the scientific method", "Only scientists", "Only adults", "Only teachers"], "e": "Scientists follow the method — but so can anyone."},
+{"t": "Where can science be found?", "o": ["Everywhere — kitchen, playground, ocean, space", "Only in labs", "Only in books", "Only in space"], "e": "Science is everywhere around us."},
+{"t": "The only planet we know that supports life is…", "o": ["Earth", "Mars", "Venus", "Jupiter"], "e": "That's why we must protect Earth's environment."},
+{"t": "Science is compared to a…", "o": ["Giant, unending jigsaw puzzle", "Finished book", "Closed box", "Short race"], "e": "Every discovery adds a piece — and raises more questions."}
+]},
+{"q": [
+{"t": "Order the steps: Test, Observe, Analyse, Question, Guess.", "o": ["Observe, Question, Guess, Test, Analyse", "Question, Observe, Test, Guess, Analyse", "Guess, Test, Observe, Question, Analyse", "Observe, Guess, Question, Analyse, Test"], "e": "Observe → Question → Guess → Test → Analyse."},
+{"t": "The refill is NOT empty. What should you do?", "o": ["Make a new guess and test it", "Give up", "Say the first guess was right", "Buy a new pen without thinking"], "e": "A wrong guess removes one possibility; guess again."},
+{"t": "Why is a wrong guess not a failure?", "o": ["It removes one possibility", "It proves you're right", "Scientists never guess wrong", "It ends the experiment"], "e": "Each wrong guess narrows down the answer."},
+{"t": "Sometimes a puzzle piece is in the wrong place. In science this means…", "o": ["New discoveries can change our understanding", "Science is useless", "Scientists cheat", "Nothing ever changes"], "e": "Being willing to move a piece is part of doing science well."},
+{"t": "Every new discovery usually…", "o": ["Raises more questions", "Ends all questions", "Proves everything", "Stops science"], "e": "The puzzle is unending."},
+{"t": "Measuring body temperature during a fever belongs to which topic?", "o": ["Heat", "Food", "Beyond Earth", "Living world"], "e": "Heat covers hot and cold and measuring temperature."},
+{"t": "Learning how to separate materials belongs to which topic?", "o": ["Materials", "Water", "Food", "Living world"], "e": "Materials: what things are made of and how to separate them."},
+{"t": "The Sun, Moon and stars belong to which topic?", "o": ["Beyond Earth", "Heat", "Water", "Food"], "e": "The book's last topic looks outward to space."},
+{"t": "Groundbreaking discoveries often come from…", "o": ["Unexpected places", "Only big labs", "Only books", "Nowhere"], "e": "Science is everywhere, so discoveries can come from anywhere."},
+{"t": "The scientific method is a…", "o": ["Loop you can repeat", "One-time step", "Guessing game only", "List of facts"], "e": "If the guess is wrong, go back and guess again."}
+]},
+{"q": [
+{"t": "A torch doesn't light. Which is a good 'guess' step?", "o": ["The batteries may be dead", "The torch is dark", "Why doesn't it light?", "I'll open it"], "e": "A guess is a possible answer that can be tested."},
+{"t": "In the torch example, which is the 'test'?", "o": ["Put new batteries in and switch on", "Notice it's dark", "Ask why", "Think it's broken"], "e": "Testing checks whether the guess explains the problem."},
+{"t": "With new batteries the torch still doesn't light. Analysis:", "o": ["The battery guess was wrong; try another guess", "Batteries are always the problem", "Science failed", "Stop investigating"], "e": "Go back and guess again — maybe the bulb is broken."},
+{"t": "Why does the book cover such different topics?", "o": ["Everything in nature connects", "To fill pages", "Teachers chose randomly", "They don't connect"], "e": "Living things, food, water, heat and materials all link up."},
+{"t": "Which is an observation?", "o": ["The plant's leaves are turning yellow", "Maybe it needs water", "Why are they yellow?", "I'll water it tomorrow"], "e": "An observation is what you notice."},
+{"t": "Which is a question?", "o": ["Why are the leaves turning yellow?", "The leaves are yellow", "It needs sunlight", "I moved it to the window"], "e": "A question asks why or how."},
+{"t": "Moving the plant into sunlight to see if it improves is a…", "o": ["Test", "Observation", "Question", "Guess"], "e": "You're checking the guess that it needs light."},
+{"t": "What makes someone a scientist?", "o": ["Following the scientific method", "Wearing a lab coat", "Being old", "Knowing many facts"], "e": "It's the method, not the costume."},
+{"t": "Why should we protect Earth's environment?", "o": ["It's the only planet known to support life", "It's very big", "Other planets are better", "It doesn't need protection"], "e": "We have nowhere else to live."},
+{"t": "If a discovery shows an old idea was wrong, a good scientist…", "o": ["Changes their understanding", "Ignores the discovery", "Hides it", "Gets angry"], "e": "Moving a misplaced puzzle piece is part of good science."}
+]},
+{"q": [
+{"t": "Your milk smells sour. Which order of thinking is scientific?", "o": ["Notice smell → ask why → guess it's old → check the date → decide", "Throw it away and forget it", "Guess first, then notice", "Check date, then ask nothing"], "e": "That follows Observe → Question → Guess → Test → Analyse."},
+{"t": "Two guesses for a dead pen: 'ink finished' and 'ink dried'. Which do you test first?", "o": ["The easiest to check — look at the refill", "Neither", "Both at once without looking", "Whichever sounds better"], "e": "Testing removes possibilities one by one; start with the easy check."},
+{"t": "Why isn't science 'only doing experiments'?", "o": ["It also needs observing, questioning, guessing and analysing", "Experiments are banned", "Experiments are boring", "It is only reading"], "e": "The experiment is just the test step in a longer process."},
+{"t": "A friend says 'science is finished — we know everything'. What would you reply?", "o": ["Every discovery raises new questions", "Yes, it's finished", "Only maths is unfinished", "Science never started"], "e": "The jigsaw puzzle is unending."},
+{"t": "Which topic would explain why it rains?", "o": ["Water", "Materials", "Food", "Heat only"], "e": "The water topic covers rain, freezing and boiling."},
+{"t": "Which step answers 'was my guess right?'", "o": ["Analyse", "Observe", "Question", "Guess"], "e": "Analysing the test result tells you."},
+{"t": "A good guess must be…", "o": ["Testable", "Long", "Always correct", "Written in English"], "e": "You must be able to check it, or the method can't continue."},
+{"t": "The scientific method is useful in daily life because…", "o": ["It helps solve everyday problems step by step", "It is only for exams", "It needs a lab", "It is too slow"], "e": "You already use it when something stops working."},
+{"t": "Which is NOT part of science?", "o": ["Refusing to change your mind with new evidence", "Observing carefully", "Asking questions", "Testing guesses"], "e": "Science requires changing ideas when evidence shows they're wrong."},
+{"t": "After analysing, if the guess was right, you have…", "o": ["Found an answer to your question", "Failed", "Nothing", "To start with a new observation always"], "e": "A confirmed guess answers the question — until new evidence appears."}
+]}
+]}

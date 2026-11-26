@@ -1,0 +1,52 @@
+{
+"title": "2. Acids, Bases and Salts",
+"tests": [
+{"q": [
+{"t": "Phenolphthalein in a base turns…", "o": ["Pink", "Colourless", "Red", "Yellow"], "e": "It's colourless in acid."},
+{"t": "Methyl orange in acid turns…", "o": ["Red", "Yellow", "Pink", "Blue"], "e": "Yellow in base."},
+{"t": "Acids release which ions in water?", "o": ["H⁺ (as H₃O⁺)", "OH⁻", "Na⁺", "Cl⁻ only"], "e": "That defines an acid."},
+{"t": "A base that dissolves in water is an…", "o": ["Alkali", "Acid", "Salt", "Indicator"], "e": "All alkalis are bases, not all bases are alkalis."},
+{"t": "pH 7 is…", "o": ["Neutral", "Acidic", "Basic", "Strongly acidic"], "e": "Below 7 acidic, above 7 basic."},
+{"t": "Lower pH means…", "o": ["Higher H⁺ concentration", "Lower H⁺ concentration", "More OH⁻", "Neutral"], "e": "The scale runs backwards."},
+{"t": "Baking soda is…", "o": ["Sodium hydrogencarbonate", "Sodium carbonate", "Calcium sulfate", "Sodium chloride"], "e": "NaHCO₃."},
+{"t": "Washing soda is…", "o": ["Na₂CO₃·10H₂O", "NaHCO₃", "CaSO₄·½H₂O", "NaCl"], "e": "Sodium carbonate decahydrate."},
+{"t": "Plaster of Paris is…", "o": ["CaSO₄·½H₂O", "CaSO₄·2H₂O", "CaCO₃", "CaOCl₂"], "e": "Gypsum is the dihydrate."},
+{"t": "The chlor-alkali process makes NaOH, Cl₂ and…", "o": ["H₂", "O₂", "CO₂", "N₂"], "e": "From brine by electrolysis."}
+]},
+{"q": [
+{"t": "Always add…", "o": ["Acid to water", "Water to acid", "Both at once", "Acid to acid"], "e": "Dissolving is highly exothermic; water into acid can splash."},
+{"t": "Metal + acid gives salt and…", "o": ["Hydrogen", "Oxygen", "CO₂", "Water only"], "e": "Hydrogen burns with a pop."},
+{"t": "Metal carbonate + acid gives salt, water and…", "o": ["CO₂", "H₂", "O₂", "Cl₂"], "e": "CO₂ turns lime water milky."},
+{"t": "Excess CO₂ through lime water makes the milkiness…", "o": ["Disappear", "Thicker", "Turn red", "Stay the same"], "e": "Soluble calcium hydrogencarbonate forms."},
+{"t": "Metal oxides are ___; non-metal oxides are ___.", "o": ["basic; acidic", "acidic; basic", "neutral; neutral", "basic; basic"], "e": "Known from how they behave."},
+{"t": "Glucose and alcohol contain hydrogen but aren't acids because…", "o": ["They don't release H⁺ ions in water", "They're solids", "They're sweet", "They're bases"], "e": "No ions, no current."},
+{"t": "Strong vs weak acids differ in…", "o": ["How much of the acid ionises", "How much acid is added", "Colour", "Temperature"], "e": "Concentration is how much is added."},
+{"t": "Onion smell disappearing in a solution shows it's…", "o": ["Basic", "Acidic", "Neutral", "Salty"], "e": "Olfactory indicator."},
+{"t": "Baking powder contains baking soda plus…", "o": ["Tartaric acid", "Salt", "Sugar", "Vinegar"], "e": "The acid prevents a bitter sodium carbonate taste."},
+{"t": "Why must Plaster of Paris be kept dry?", "o": ["Moisture sets it into gypsum", "It melts", "It burns", "It dissolves"], "e": "It hardens with water."}
+]},
+{"q": [
+{"t": "Solution A pH 2, solution B pH 5. Which has more H⁺?", "o": ["A", "B", "Equal", "Can't tell"], "e": "Lower pH, more H⁺."},
+{"t": "Sodium carbonate solution is basic because…", "o": ["It comes from a strong base and weak acid", "It has H⁺", "It's neutral", "Carbon is basic"], "e": "The stronger parent wins."},
+{"t": "NaCl solution has pH about…", "n": 7, "e": "Strong acid + strong base → neutral salt."},
+{"t": "Why is an antacid (baking soda) taken for acidity?", "o": ["It's mildly basic and neutralises stomach acid", "It's acidic", "It's sugar", "It cools the stomach"], "e": "Neutralisation."},
+{"t": "Tooth decay starts when mouth pH falls below about…", "n": 5.5, "e": "Bacteria make acid from sugar."},
+{"t": "An ant sting is treated with baking soda because the sting contains…", "o": ["Methanoic acid", "A base", "Salt", "Citric acid"], "e": "A base neutralises it."},
+{"t": "Water of crystallisation in copper sulfate crystals (CuSO₄·5H₂O): how many water molecules?", "n": 5, "e": "Heating drives it off, turning crystals white."},
+{"t": "CaSO₄·½H₂O means…", "o": ["Two formula units share one water molecule", "Half a water molecule exists", "It's wet", "It has no water"], "e": "Half a molecule can't exist."},
+{"t": "Bleaching powder is made by passing chlorine over…", "o": ["Dry slaked lime", "Sodium chloride", "Water", "Limestone"], "e": "Gives CaOCl₂."},
+{"t": "With only red litmus, you identify a base (turns blue). How do you then find the acid?", "o": ["Use the blue strip on the remaining solutions", "Taste them", "Impossible", "Smell them"], "e": "An indicator works both ways."}
+]},
+{"q": [
+{"t": "Why can't H⁺ exist alone in water?", "o": ["It attaches to water forming H₃O⁺", "It evaporates", "It's too heavy", "It turns into OH⁻"], "e": "A bare proton."},
+{"t": "Why do acid solutions conduct electricity?", "o": ["They contain free ions", "They are hot", "They have electrons", "They contain metal"], "e": "Conduction needs free ions."},
+{"t": "1 M HCl and 1 M acetic acid have the same concentration but HCl is…", "o": ["Stronger — more H⁺ ions", "Weaker", "Equally strong", "A base"], "e": "Strength ≠ concentration."},
+{"t": "A basic solution contains…", "o": ["Some H⁺, but far more OH⁻", "No H⁺ at all", "Only H⁺", "No ions"], "e": "H⁺ hasn't vanished."},
+{"t": "Zinc with NaOH gives sodium zincate and…", "o": ["Hydrogen", "Oxygen", "Water only", "CO₂"], "e": "Some metals react with bases too."},
+{"t": "Heating baking soda gives sodium carbonate, water and…", "o": ["CO₂", "H₂", "O₂", "Cl₂"], "e": "2NaHCO₃ → Na₂CO₃ + H₂O + CO₂."},
+{"t": "NaCl and KCl belong to the same family because they share…", "o": ["The chloride radical", "Sodium", "Potassium", "Colour"], "e": "Salts sharing a radical form a family."},
+{"t": "Soil too acidic for a crop is treated with…", "o": ["Quicklime or slaked lime", "Vinegar", "Sulfuric acid", "Sugar"], "e": "A base neutralises it."},
+{"t": "Washing soda is used to…", "o": ["Remove permanent hardness of water", "Make cakes", "Set bones", "Bleach only"], "e": "Also in glass, soap and paper industries."},
+{"t": "Rain water with pH below 5.6 is called…", "o": ["Acid rain", "Neutral rain", "Basic rain", "Fresh rain"], "e": "It harms aquatic life."}
+]}
+]}

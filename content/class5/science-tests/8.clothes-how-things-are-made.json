@@ -1,0 +1,52 @@
+{
+"title": "8. Clothes — How Things Are Made",
+"tests": [
+{"q": [
+{"t": "Which bird builds a woven hanging nest out of grass?", "o": ["Baya weaver", "Crow", "Pigeon", "Tailorbird"], "e": "The male baya weaver threads grass over and under."},
+{"t": "Hand-weaving is done on an instrument called a…", "o": ["Loom", "Charkha", "Needle", "Kiln"], "e": "Cloth from a hand loom is called handloom fabric."},
+{"t": "A charkha is used for…", "o": ["Spinning thread", "Weaving cloth", "Stitching", "Dyeing"], "e": "It twists fibres into thread, faster than fingers."},
+{"t": "Pashmina comes from…", "o": ["Kashmir", "Tamil Nadu", "Odisha", "Gujarat"], "e": "Wool from the Changthangi goat of Ladakh."},
+{"t": "Kanjeevaram sarees come from…", "o": ["Tamil Nadu", "Kashmir", "Punjab", "Assam"], "e": "Kanjeevaram is a Tamil Nadu silk tradition."},
+{"t": "Silk is made by…", "o": ["Silk moth caterpillars", "Plants", "Goats", "Machines only"], "e": "The caterpillar spins a cocoon of one long silk thread."},
+{"t": "Phulkari embroidery is from…", "o": ["Punjab", "Kerala", "Assam", "Goa"], "e": "Phulkari is Punjab's famous embroidery."},
+{"t": "Chikankari is from…", "o": ["Lucknow", "Kolkata", "Chennai", "Jaipur"], "e": "Chikan embroidery comes from Lucknow, Uttar Pradesh."},
+{"t": "Which bird sews its nest with a leaf?", "o": ["Tailorbird", "Baya weaver", "Peacock", "Eagle"], "e": "It pokes holes in a leaf edge and pulls fibre through."},
+{"t": "Which fibre is natural?", "o": ["Cotton", "Nylon", "Polyester", "Acrylic"], "e": "Cotton grows on a plant; the others are synthetic."}
+]},
+{"q": [
+{"t": "Why does a woven mat hold together but stacked strips slide apart?", "o": ["Each woven strip is trapped by the strips around it", "Weaving uses glue", "Strips are heavier", "Stacking uses more strips"], "e": "Every thread both grips and is gripped."},
+{"t": "In weaving, each row must be…", "o": ["The opposite of the row above", "The same as the row above", "Skipped", "Made of a different material"], "e": "If two rows matched, nothing would be trapped."},
+{"t": "Why does twisting cotton make it strong?", "o": ["It presses short fibres together so they can't slide", "It makes fibres longer", "It adds glue", "It makes it heavier"], "e": "Friction between tightly pressed fibres holds the thread together."},
+{"t": "Why doesn't silk need spinning like cotton?", "o": ["It comes as one long continuous strand", "It is synthetic", "It is short", "It is woven by moths"], "e": "The cocoon is wound from a single strand, hundreds of metres long."},
+{"t": "Why is silk so shiny?", "o": ["It is smooth with no short fibre-ends to scatter light", "It is wet", "It is painted", "It is plastic"], "e": "A smooth surface reflects light evenly."},
+{"t": "A problem with most synthetic fibres:", "o": ["They don't rot, so stay as waste for long", "They can't be coloured", "They are weak", "They grow slowly"], "e": "Synthetic waste can last for decades."},
+{"t": "Indian muslin was called 'woven air' because…", "o": ["It was so fine a saree passed through a ring", "It floated", "It was made of air", "It was invisible"], "e": "Its fineness amazed the world."},
+{"t": "Why did Gandhiji make spinning a symbol of freedom?", "o": ["Making your own cloth meant not depending on others", "Spinning was fun", "It was easy", "It used machines"], "e": "That is what atmanirbhar — self-reliant — means."},
+{"t": "Bandhani is made by…", "o": ["Tying small parts of cloth before dyeing", "Painting with a brush", "Machine printing", "Embroidery"], "e": "Tied spots resist the dye and become dots."},
+{"t": "Handloom uses no…", "o": ["Electricity", "Thread", "Hands", "Skill"], "e": "That makes it eco-friendly and possible anywhere."}
+]},
+{"q": [
+{"t": "A running stitch is cut in one place. What happens?", "o": ["The seam can pull out in both directions", "Nothing", "Only a tiny flaw", "It gets stronger"], "e": "One thread does the whole job — like a chain failing at one link."},
+{"t": "A woven cloth with one broken thread…", "o": ["Still holds — just a small flaw", "Falls apart", "Unravels completely", "Turns into thread"], "e": "Thousands of threads each held by neighbours — like a net."},
+{"t": "Why are seams knotted at both ends?", "o": ["So the thread can't pull out", "For decoration", "To make them heavier", "To save thread"], "e": "Knots stop a single-thread seam from unravelling."},
+{"t": "Which question should we ask when choosing a fibre?", "o": ["Which suits this job, and what happens to it afterwards?", "Which is always best?", "Which is newest?", "Which is most expensive?"], "e": "Neither natural nor synthetic is simply better."},
+{"t": "Why is a nylon rope better than cotton for a boat?", "o": ["Nylon won't rot in water", "Cotton is shinier", "Nylon grows on trees", "Cotton is synthetic"], "e": "Synthetic fibres can be chosen for strength and water resistance."},
+{"t": "Why is cotton comfortable in hot weather?", "o": ["It breathes", "It is waterproof", "It is shiny", "It doesn't rot"], "e": "Cotton lets air and sweat move, keeping you cool."},
+{"t": "Kantha began as…", "o": ["Stitching worn-out cloths into a quilt", "A machine design", "Silk weaving", "A dye"], "e": "Its beauty grew out of thrift."},
+{"t": "Why did each region develop its own embroidery?", "o": ["Local cloth, threads, dyes and images were different", "A king ordered it", "By chance", "To confuse buyers"], "e": "An embroidery is a record of a place — like the drums in Chapter 5."},
+{"t": "Why must a weaving pattern be kept alive by weavers?", "o": ["If the last weaver stops, the pattern is gone", "It's written in books", "Machines remember it", "Patterns are not important"], "e": "Many traditions exist only in the hands of their weavers."},
+{"t": "A Patola saree from Patan can take…", "o": ["6 months to a year", "One hour", "One day", "One week"], "e": "It's extremely detailed handwork."}
+]},
+{"q": [
+{"t": "A rope of any length can be made from fibres a few centimetres long because…", "o": ["Twist keeps fibres pressed and gripping", "Fibres are glued", "Fibres grow longer", "Ropes are woven by birds"], "e": "Thread is thousands of short fibres held by friction."},
+{"t": "Why is passing on an old shirt more than a small kindness?", "o": ["All the land, water and work in it isn't wasted", "Old shirts are new", "It saves space only", "It is required by law"], "e": "Everything spent making it is still in it — only its size is used up."},
+{"t": "A life cycle is…", "o": ["The pattern of being born, growing, reproducing and dying", "Riding a bicycle", "Only for moths", "A weaving pattern"], "e": "Every living thing has one; they differ in the stages."},
+{"t": "Which statement about the baya weaver is true?", "o": ["Young birds' first nests are rough — weaving must be learnt", "Females build the nest", "Nests are glued", "Nests sit on the ground"], "e": "Even weaving improves with practice."},
+{"t": "How many people does handloom employ in India?", "o": ["Over 45 lakh", "About 100", "Only men in cities", "None today"], "e": "One of the largest cottage industries in the world."},
+{"t": "Mill cloth and handloom: which is true?", "o": ["Both exist; they are good at different things", "Only mill cloth matters", "Handloom is faster", "Mills use no machines"], "e": "Mills are fast and cheap; handloom keeps traditions and uses no electricity."},
+{"t": "Which country first cultivated cotton and made cloth from it?", "o": ["India", "China", "England", "Egypt only"], "e": "India's cotton changed textiles worldwide."},
+{"t": "How could you guess a cloth is silk or a synthetic rather than cotton?", "o": ["It looks shiny and feels smooth", "It is rough", "It is thick", "It is dull"], "e": "Smooth fibres reflect light evenly; cotton and wool scatter it."},
+{"t": "Ikat weaving is from…", "o": ["Odisha and Gujarat", "Kashmir", "Punjab", "Meghalaya"], "e": "Ikat is made in Odisha and Gujarat."},
+{"t": "Why is synthetic cloth waste a stronger reason to reuse clothes?", "o": ["It doesn't rot and stays as waste for decades", "It rots too fast", "It is valuable", "It is natural"], "e": "Throwing it away creates long-lasting waste."}
+]}
+]}

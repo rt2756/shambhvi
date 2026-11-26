@@ -1,0 +1,52 @@
+{
+"title": "4. Growing up with Nature",
+"tests": [
+{"q": [
+{"t": "Palash is called the…", "o": ["Flame of the forest", "King of trees", "Queen of flowers", "Snow tree"], "e": "Its orange-red flowers make the forest look aflame."},
+{"t": "In Gujarat, Palash is called…", "o": ["Kesuda", "Buransh", "Amaltas", "Gulmohar"], "e": "Local names differ."},
+{"t": "Reena and Amit's village was becoming fully…", "o": ["Solar-powered", "Coal-powered", "Wind-free", "Electric-free"], "e": "Electricity from sunlight."},
+{"t": "Village houses were made of…", "o": ["Clay, hay and cow dung", "Glass and steel", "Plastic", "Paper"], "e": "Natural materials."},
+{"t": "Grandmother's wall paint was made of…", "o": ["Rice flour and water", "Plastic paint", "Oil only", "Ink"], "e": "A natural dye."},
+{"t": "Gond art is…", "o": ["Painting with natural colours showing nature", "A dance", "A song", "A sport"], "e": "Trees, animals, birds and people."},
+{"t": "The Jenu Kurubas are known for collecting…", "o": ["Honey", "Fish", "Wood", "Salt"], "e": "Jenu means honey in Kannada."},
+{"t": "Neem oil mixture rubbed on skin keeps away…", "o": ["Mosquitoes", "Cold", "Sunlight", "Water"], "e": "A natural repellent."},
+{"t": "Sacred groves are…", "o": ["Forest patches protected by communities", "Farms", "City parks", "Zoos"], "e": "Trees and wildlife are preserved."},
+{"t": "Vat Purnima is associated with which tree?", "o": ["Banyan", "Mango", "Neem", "Coconut"], "e": "People worship the banyan."}
+]},
+{"q": [
+{"t": "Earthen pots for storing grain were lined with…", "o": ["Neem leaves", "Plastic", "Paper", "Cloth only"], "e": "Neem keeps insects away."},
+{"t": "Bamboo baskets were coated outside with…", "o": ["Cow dung", "Paint", "Oil", "Wax"], "e": "Protects grains from pests."},
+{"t": "A Tumri from Uttarakhand is made from…", "o": ["A dried bottle gourd", "Clay", "Metal", "Plastic"], "e": "Traditional container."},
+{"t": "Why did the Jenu Kurubas sing to bees?", "o": ["To apologise and show respect", "To scare them", "To call them", "For fun"], "e": "Respect for nature."},
+{"t": "To make a natural dye you boil…", "o": ["Flowers, leaves or roots like beetroot and marigold", "Plastic", "Stones", "Sand"], "e": "Then strain the liquid."},
+{"t": "How long do you boil plant parts for dye?", "o": ["30 minutes to an hour", "1 minute", "1 day", "1 week"], "e": "With an adult's help."},
+{"t": "Tulsi leaves are used for…", "o": ["Healthcare/remedies", "Building", "Fuel", "Clothes"], "e": "A medicinal plant."},
+{"t": "Which belongs in a first-aid box?", "o": ["Bandage and antiseptic", "Toys", "Candy", "Pencils"], "e": "For quick help after injury."},
+{"t": "Hari Jiroti involves…", "o": ["Planting fruit-bearing trees", "Worshipping banyan", "Elephant awareness", "Kite flying"], "e": "Festivals linked to nature."},
+{"t": "Kaziranga Elephant Festival spreads awareness about…", "o": ["Elephants", "Tigers", "Fish", "Birds"], "e": "In Assam."}
+]},
+{"q": [
+{"t": "Why are houses of natural materials good?", "o": ["They're cool and kind to the environment", "They're shiny", "They're plastic", "They're hot"], "e": "Local, natural and comfortable."},
+{"t": "Why line grain pots with neem?", "o": ["Neem keeps insects and pests away", "It adds taste", "It colours grain", "No reason"], "e": "A traditional preservative."},
+{"t": "What happens when we overuse wood?", "o": ["Forests deplete", "More trees grow", "Nothing", "Rain increases"], "e": "Overuse harms nature."},
+{"t": "What happens when we overuse water?", "o": ["Water sources dry up", "More rain", "Rivers grow", "Nothing"], "e": "Use water wisely."},
+{"t": "Why is first aid important?", "o": ["It helps an injured person quickly before more help arrives", "It replaces doctors", "It's for fun", "It isn't"], "e": "Quick care prevents worse harm."},
+{"t": "Without electricity for two days, life would…", "o": ["Change a lot — no fans, lights, charging", "Stay same", "Be easier", "Have more TV"], "e": "Electricity powers daily life."},
+{"t": "Solar panels make electricity from…", "o": ["Sunlight", "Wind", "Coal", "Water"], "e": "Clean energy."},
+{"t": "Cotton from nature is used for…", "o": ["Clothing", "Eating", "Fuel", "Medicine"], "e": "Nature meets daily needs."},
+{"t": "Which is a way to care for nature?", "o": ["Plant trees and keep water for birds", "Use more plastic", "Waste paper", "Cut trees"], "e": "Also clean-up drives."},
+{"t": "Why do communities protect sacred groves?", "o": ["To preserve trees and wildlife and gather", "To cut wood", "To build roads", "To hunt"], "e": "Tradition of respecting nature."}
+]},
+{"q": [
+{"t": "Which list is all natural things used daily?", "o": ["Fruits, cotton, neem", "Plastic, glass, steel", "Phones, cars, TVs", "Cement, paint, rubber gloves"], "e": "Collected from nature."},
+{"t": "Ajwain (carom seeds) are commonly used for…", "o": ["Stomach ache/digestion", "Building houses", "Painting", "Lighting lamps"], "e": "A kitchen remedy."},
+{"t": "Why does the dye-making step need an elder?", "o": ["Boiling water can cause burns", "Plants are poisonous always", "It's boring", "No reason"], "e": "Safety first."},
+{"t": "Overusing sea products can…", "o": ["Reduce fish and sea life", "Increase fish", "Clean the sea", "Nothing"], "e": "Use resources sustainably."},
+{"t": "Which shows respect for nature in festivals?", "o": ["Worshipping trees and planting new ones", "Cutting trees for decoration", "Burning plastic", "Hunting"], "e": "Our rich tradition."},
+{"t": "If you soak cloth in dye overnight, you then…", "o": ["Squeeze it and dry it next morning", "Throw it", "Boil it again", "Freeze it"], "e": "The colour sets."},
+{"t": "Prayers at the village festival were offered to God and…", "o": ["Mother nature", "The city", "Machines", "Shops"], "e": "Gratitude to nature."},
+{"t": "Dhol and nagada are…", "o": ["Drums", "Flutes", "Dances", "Foods"], "e": "Traditional instruments."},
+{"t": "Designing a herbal garden means growing…", "o": ["Useful herbs like tulsi and mint", "Plastic plants", "Only cactus", "Weeds"], "e": "Plants with healing uses."},
+{"t": "'Vasudhaiva Kutumbakam' means…", "o": ["The world is one family", "Save water", "Plant trees", "Eat healthy"], "e": "The spirit of this unit."}
+]}
+]}

@@ -1,0 +1,52 @@
+{
+"title": "4. Exploring Magnets",
+"tests": [
+{"q": [
+{"t": "Naturally occurring magnets are called…", "o": ["Lodestones", "Bar magnets", "Compasses", "Ring magnets"], "e": "Lodestones were used by early sailors."},
+{"t": "Which is a magnetic material?", "o": ["Iron", "Copper", "Wood", "Plastic"], "e": "Iron, nickel and cobalt are magnetic."},
+{"t": "Which metal is NOT magnetic?", "o": ["Aluminium", "Iron", "Nickel", "Cobalt"], "e": "Not every metal is magnetic — copper, aluminium, gold, silver are not."},
+{"t": "Where on a bar magnet do most iron filings stick?", "o": ["Near the two ends (poles)", "In the middle", "Evenly everywhere", "Nowhere"], "e": "Attraction is strongest at the poles."},
+{"t": "A freely suspended magnet comes to rest…", "o": ["Along the north–south direction", "East–west", "In any direction", "Upside down"], "e": "The Earth behaves like a giant magnet."},
+{"t": "Like poles…", "o": ["Repel", "Attract", "Do nothing", "Stick together"], "e": "N–N or S–S push apart."},
+{"t": "Unlike poles…", "o": ["Attract", "Repel", "Do nothing", "Break"], "e": "N–S pull together."},
+{"t": "A magnetic compass contains a…", "o": ["Freely rotating magnetic needle", "Battery", "Thermometer", "Mirror"], "e": "The needle settles north–south over a direction dial."},
+{"t": "The north-pointing end of a compass needle is usually painted…", "o": ["Red", "Blue", "Green", "Black"], "e": "Red marks the north end."},
+{"t": "Which is a common magnet shape?", "o": ["U-shaped", "Star-shaped", "Heart-shaped", "Spiral"], "e": "Bar, U-shaped and ring magnets are common."}
+]},
+{"q": [
+{"t": "A bar magnet is broken in two. Each piece has…", "o": ["Both a North and a South pole", "Only a North pole", "Only a South pole", "No poles"], "e": "A single pole can't exist; poles always come in pairs."},
+{"t": "Why does a suspended magnet point north–south?", "o": ["The Earth behaves like a giant magnet", "Wind pushes it", "Sunlight pulls it", "Gravity"], "e": "The magnet lines up with the Earth's magnetism."},
+{"t": "An iron bar is suspended. It comes to rest…", "o": ["In any direction", "Always north–south", "Always east–west", "Upside down"], "e": "Only a magnet settles north–south."},
+{"t": "What is the sure test for a magnet?", "o": ["Repulsion", "Attraction", "Colour", "Weight"], "e": "Iron is attracted by both poles; only a magnet can be repelled."},
+{"t": "If two objects repel each other…", "o": ["Both must be magnets", "Neither is a magnet", "Only one is a magnet", "They are made of wood"], "e": "Only magnets push each other away (like poles)."},
+{"t": "A magnet attracts a compass needle through a sheet of cardboard. This shows…", "o": ["Magnetic effect acts through non-magnetic materials", "Cardboard is magnetic", "The needle is broken", "Cardboard blocks magnets"], "e": "Wood, cardboard, plastic and glass don't block the effect."},
+{"t": "To make a magnet from a needle, stroke it…", "o": ["30–40 times with one pole, in the same direction", "Back and forth randomly", "Once only", "With both poles alternately"], "e": "Always the same pole, same direction, lifting at the end."},
+{"t": "The matsya-yantra was…", "o": ["A magnetised fish-shaped iron floating in oil", "A water clock", "A telescope", "A plough"], "e": "An ancient Indian navigation compass."},
+{"t": "Bring a magnet's North pole near a compass's North end. The needle…", "o": ["Moves away", "Moves closer", "Doesn't move", "Spins forever"], "e": "Like poles repel."},
+{"t": "Why does a fridge magnet hold paper on the fridge?", "o": ["Its effect passes through the paper to the iron door", "Paper is magnetic", "Glue", "The paper is wet"], "e": "Magnetic effect acts through non-magnetic paper."}
+]},
+{"q": [
+{"t": "You have a plain iron bar and a magnet that look alike. How can you tell which is which using only them?", "o": ["Touch one's end to the other's middle — a magnet's end attracts strongly", "Weigh them", "Look at colours", "Smell them"], "e": "A magnet's pole pulls on the iron's middle; the iron's end barely pulls the magnet's middle, where attraction is weakest."},
+{"t": "Why can't attraction alone prove an object is a magnet?", "o": ["A magnet attracts plain iron too", "Magnets never attract", "Attraction only works on wood", "Iron repels magnets"], "e": "Iron is attracted by both poles."},
+{"t": "A ring magnet is cut into 4 pieces. How many poles in total?", "n": 8, "k": "4*2", "e": "Each piece has a North and a South pole: 4 × 2 = 8."},
+{"t": "How do you set a compass to read directions?", "o": ["Rotate the box until N on the dial lines up with the needle", "Shake it", "Point the needle east", "Hold a magnet near"], "e": "Then all directions read correctly off the dial."},
+{"t": "Why should a compass be kept away from magnets?", "o": ["The magnet would pull the needle off north", "It makes the compass heavy", "It breaks glass", "Magnets heat it"], "e": "A nearby magnet's effect is stronger than the Earth's, giving wrong directions."},
+{"t": "How do you test whether your stroked needle became a magnet?", "o": ["See if it picks up pins or iron filings", "Weigh it", "Put it in water", "Heat it"], "e": "A magnetised needle attracts small iron objects."},
+{"t": "Why float the magnetised needle on a cork in water?", "o": ["So it can turn freely to point north–south", "To cool it", "To clean it", "To make it heavy"], "e": "Floating lets it rotate freely, like a suspended magnet."},
+{"t": "Which list is all magnetic?", "o": ["Iron, nickel, cobalt", "Iron, copper, gold", "Aluminium, nickel, silver", "Wood, iron, glass"], "e": "Iron, nickel and cobalt (and some mixtures) are magnetic."},
+{"t": "Which pair would attract?", "o": ["North and South", "North and North", "South and South", "Wood and North"], "e": "Unlike poles attract."},
+{"t": "Ancient sailors used lodestones to…", "o": ["Find direction at sea", "Catch fish", "Cook food", "Build boats"], "e": "A suspended lodestone points north–south."}
+]},
+{"q": [
+{"t": "Three bars A, B, C. A repels B. A attracts C. C attracts B. What can you conclude?", "o": ["A and B are magnets; C may be plain iron", "All three are magnets for sure", "None are magnets", "Only C is a magnet"], "e": "Repulsion proves A and B are magnets. Attraction alone can't prove C is a magnet."},
+{"t": "A magnet's North pole repels end X of a bar. End X is…", "o": ["A North pole", "A South pole", "Plain iron", "Wood"], "e": "Only like poles repel."},
+{"t": "Placing a glass sheet between a magnet and a compass changes the needle's deflection…", "o": ["Not appreciably", "A lot", "It reverses", "It stops working"], "e": "Glass is non-magnetic; the effect passes through."},
+{"t": "A gold ring is not pulled by a magnet. Why?", "o": ["Gold is not a magnetic material", "Gold is too heavy", "The magnet is weak", "Gold is a non-metal"], "e": "Being a metal doesn't make something magnetic."},
+{"t": "In the needle-making method, why lift the magnet at the end of each stroke?", "o": ["So every stroke goes the same direction", "To rest your hand", "To cool it", "To reverse poles"], "e": "Stroking back would undo the alignment."},
+{"t": "The end of a suspended magnet that points north is called…", "o": ["North-seeking pole", "South-seeking pole", "Middle", "East pole"], "e": "It seeks north, so it's called the North pole."},
+{"t": "A magnetic pencil box stays shut through its plastic lid. Why?", "o": ["The magnetic effect passes through plastic", "Plastic is magnetic", "The lid is glued", "Air pressure"], "e": "Non-magnetic materials don't block magnetism."},
+{"t": "Can you get a magnet with only a North pole by cutting it very small?", "o": ["No — every piece has both poles", "Yes", "Only with iron", "Only if heated"], "e": "However small, both poles appear."},
+{"t": "Which object would a magnet NOT pick up?", "o": ["A copper coin", "An iron nail", "A steel pin", "A nickel washer"], "e": "Copper is non-magnetic."},
+{"t": "Bring a magnet's South pole near a compass's North end. The needle…", "o": ["Moves closer", "Moves away", "Doesn't change", "Turns to east"], "e": "Unlike poles attract."}
+]}
+]}

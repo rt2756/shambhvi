@@ -1,0 +1,52 @@
+{
+"title": "8. Measurement of Time and Motion",
+"tests": [
+{"q": [
+{"t": "What is the SI unit of time?", "o": ["Second (s)", "Minute (min)", "Hour (h)", "Day"], "e": "The second, symbol s, is the SI unit of time. Minutes and hours are larger units built from it."},
+{"t": "How many seconds are there in 1 minute?", "n": 60, "u": "s", "k": "60", "e": "60 s = 1 min."},
+{"t": "How many minutes are there in 1 hour?", "n": 60, "u": "min", "k": "60", "e": "60 min = 1 h."},
+{"t": "Speed = ?", "o": ["Distance ÷ time", "Time ÷ distance", "Distance × time", "Distance + time"], "e": "Speed tells how much distance is covered in each unit of time, so divide distance by time."},
+{"t": "What is the SI unit of speed?", "o": ["m/s", "km", "s", "m"], "e": "Distance in metres divided by time in seconds gives metres per second."},
+{"t": "The time taken for one complete oscillation of a pendulum is its…", "o": ["Time period", "Speed", "Mean position", "Length"], "e": "The time period is the time for one oscillation."},
+{"t": "The position where a pendulum hangs at rest is its…", "o": ["Mean position", "Extreme position", "Time period", "Bob"], "e": "At rest the bob hangs straight down — the mean position."},
+{"t": "A sundial tells time using…", "o": ["The position of a shadow", "Flowing water", "Burning wax", "Swinging bob"], "e": "As the Sun moves across the sky, the shadow moves and marks the time."},
+{"t": "Which device measures distance travelled by a vehicle?", "o": ["Odometer", "Speedometer", "Sundial", "Pendulum"], "e": "The odometer records distance (km); the speedometer shows speed (km/h)."},
+{"t": "Motion along a straight line is called…", "o": ["Linear motion", "Periodic motion", "Circular motion", "Random motion"], "e": "Linear means along a line."}
+]},
+{"q": [
+{"t": "A car travels 100 km in 2 h. What is its speed in km/h?", "n": 50, "u": "km/h", "k": "100/2", "e": "Speed = distance ÷ time = 100 ÷ 2 = 50 km/h."},
+{"t": "A bus moves at 50 km/h for 3 h. How far does it travel (km)?", "n": 150, "u": "km", "k": "50*3", "e": "Distance = speed × time = 50 × 3 = 150 km."},
+{"t": "A train at 90 km/h covers 360 km. How many hours does it take?", "n": 4, "u": "h", "k": "360/90", "e": "Time = distance ÷ speed = 360 ÷ 90 = 4 h."},
+{"t": "The time period of a pendulum depends on its…", "o": ["Length", "Mass of the bob", "Colour", "Material of the bob"], "e": "Changing the length changes the time period; changing the bob's mass doesn't."},
+{"t": "Two pendulums of the same length but different bob masses. Their time periods are…", "o": ["The same", "Heavier one is longer", "Lighter one is longer", "Cannot be compared"], "e": "The time period does not depend on mass, so equal lengths give equal periods."},
+{"t": "Why measure 20 oscillations and divide, instead of timing one?", "o": ["It reduces the effect of reaction-time error", "It makes the pendulum faster", "One oscillation can't be timed", "It changes the period"], "e": "Your start/stop error is spread across many swings, so the answer per swing is more accurate."},
+{"t": "Which way of writing a speed is correct?", "o": ["4 m/s", "4m/s.", "4 M/S", "4 mtr/sec"], "e": "Lowercase units, a space after the number, no full stop. 'sec' is not correct; use s."},
+{"t": "An object covers equal distances in equal intervals of time along a straight line. Its motion is…", "o": ["Uniform linear motion", "Non-uniform linear motion", "Periodic motion", "Circular motion"], "e": "Constant speed in a straight line — equal distances in equal times — is uniform."},
+{"t": "A train speeding up as it leaves a station is in…", "o": ["Non-uniform motion", "Uniform motion", "Periodic motion", "No motion"], "e": "Its speed keeps changing, so it covers unequal distances in equal times."},
+{"t": "Who noticed a swinging church lamp and timed it with his pulse?", "o": ["Galileo", "Huygens", "Newton", "Aryabhata"], "e": "Galileo observed each swing took the same time. Huygens later built the pendulum clock."}
+]},
+{"q": [
+{"t": "School is 3.6 km away and you reach it in 15 min. What is your speed in m/s?", "n": 4, "u": "m/s", "k": "3600/(15*60)", "e": "3.6 km = 3600 m; 15 min = 900 s. Speed = 3600 ÷ 900 = 4 m/s."},
+{"t": "A cyclist goes 6 km in 30 min. What is the speed in km/h?", "n": 12, "u": "km/h", "k": "6/F(1,2)", "e": "30 min = ½ h. Speed = 6 ÷ ½ = 12 km/h."},
+{"t": "A pendulum completes 20 oscillations in 40 s. What is its time period (s)?", "n": 2, "u": "s", "k": "F(40,20)", "e": "Time period = total time ÷ number of oscillations = 40 ÷ 20 = 2 s."},
+{"t": "Distances covered by a car every minute: 1 km, 1 km, 1 km, 1 km. The motion is…", "o": ["Uniform", "Non-uniform", "Periodic", "Circular"], "e": "Equal distances in equal times → uniform."},
+{"t": "Distances every minute: 0.5 km, 1 km, 1.2 km, 0.8 km. The motion is…", "o": ["Non-uniform", "Uniform", "At rest", "Periodic"], "e": "Unequal distances in equal times → speed changing → non-uniform."},
+{"t": "How many minutes did the ghati of the Ghatika-yantra last?", "n": 24, "u": "min", "e": "The sinking bowl took 24 minutes to fill and sink — one ghati."},
+{"t": "How many ghatis made a day?", "n": 60, "k": "24*60/24", "e": "A day is 24 h = 1440 min. 1440 ÷ 24 = 60 ghatis."},
+{"t": "Why did the outflow water clock become inaccurate?", "o": ["Water flowed slower as the level dropped", "Water froze", "The vessel shrank", "Sunlight changed"], "e": "Less water above the hole means less push, so the flow slowed and the clock fell behind."},
+{"t": "Every clock, from sundial to atomic clock, is built on…", "o": ["Some process that repeats regularly", "Burning fuel", "Electricity", "Magnetism"], "e": "A repeating process marks equal intervals of time — that is what any clock counts."},
+{"t": "Why is 'speed' in daily life usually average speed?", "o": ["Objects speed up and slow down along the way", "Speed is always constant", "Speedometers are wrong", "Time can't be measured"], "e": "Total distance ÷ total time smooths all the changes into one number."}
+]},
+{"q": [
+{"t": "A runner covers 400 m in 50 s. What is the average speed in m/s?", "n": 8, "u": "m/s", "k": "400/50", "e": "Speed = 400 ÷ 50 = 8 m/s."},
+{"t": "A car moves at 20 m/s. How far does it go in 2 minutes (m)?", "n": 2400, "u": "m", "k": "20*120", "e": "2 min = 120 s. Distance = 20 × 120 = 2400 m."},
+{"t": "A train runs 120 km in the first 2 h and 180 km in the next 3 h. What is its average speed (km/h)?", "n": 60, "u": "km/h", "k": "F(120+180, 2+3)", "e": "Total distance 300 km ÷ total time 5 h = 60 km/h. (Don't average the two speeds — divide totals.)"},
+{"t": "Convert 72 km/h to m/s.", "n": 20, "u": "m/s", "k": "F(72*1000, 3600)", "e": "72 km = 72 000 m; 1 h = 3600 s. 72 000 ÷ 3600 = 20 m/s."},
+{"t": "A train goes A→B speeding up, B→C steady, C→D slowing. Which part is uniform?", "o": ["B to C", "A to B", "C to D", "All of it"], "e": "Only B→C has constant speed."},
+{"t": "You double the mass of a pendulum's bob but keep the length. The time period…", "o": ["Stays the same", "Doubles", "Halves", "Becomes zero"], "e": "The time period depends on length, not on mass."},
+{"t": "A pendulum clock is running too slow. What must you change?", "o": ["Its length", "The bob's mass", "The bob's colour", "Nothing can help"], "e": "Only the length controls the time period. (A shorter pendulum swings faster.)"},
+{"t": "Huygens' early pendulum clocks gained or lost about how much each day?", "o": ["10 seconds", "10 hours", "1 second in millions of years", "1 minute per hour"], "e": "About 10 seconds a day. Atomic clocks today lose one second in millions of years."},
+{"t": "Which statement is FALSE?", "o": ["Uniform motion is common in everyday life", "Atomic clocks are extremely accurate", "Speed = distance ÷ time", "Pendulum motion is periodic"], "e": "Truly constant speed for long is rare — uniform motion is an idealisation."},
+{"t": "Ravi walks 1.5 km in 15 min; Meena walks 2 km in 25 min. Who is faster?", "o": ["Ravi (6 km/h vs 4.8 km/h)", "Meena (4.8 km/h vs 6 km/h)", "Both are equal", "Can't be compared"], "e": "Ravi: 1.5 ÷ ¼ h = 6 km/h. Meena: 2 ÷ (5/12) h = 4.8 km/h. Ravi covers more distance per hour."}
+]}
+]}

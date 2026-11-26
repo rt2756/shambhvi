@@ -1,0 +1,52 @@
+{
+"title": "6. Happy and Healthy Living",
+"tests": [
+{"q": [
+{"t": "Who grows the grain we eat?", "o": ["Farmers", "Doctors", "Pilots", "Teachers"], "e": "The journey starts in the farm."},
+{"t": "Which help a grain grow?", "o": ["Soil, water and sunlight", "Stone and fire", "Plastic", "Nothing"], "e": "Nature plays a big role."},
+{"t": "Mindful eating means…", "o": ["Paying attention to what and how you eat", "Eating fast", "Eating while watching TV", "Skipping meals"], "e": "Chew slowly and enjoy each bite."},
+{"t": "In the mindful eating activity, students got a…", "o": ["Peanut", "Mango", "Biscuit", "Candy"], "e": "With their eyes closed."},
+{"t": "Teeth help by…", "o": ["Chewing food into small pieces", "Tasting", "Smelling", "Swallowing only"], "e": "The tongue tastes and moves food."},
+{"t": "Why shouldn't we waste food?", "o": ["Many people and much effort brought it to us", "It's heavy", "It's cheap", "No reason"], "e": "Every grain is precious."},
+{"t": "Why does the body need sleep?", "o": ["To remove tiredness and feel fresh", "To get hungry", "To grow fat", "It doesn't"], "e": "Sleep is as important as food and exercise."},
+{"t": "A comforting hug from your mother is a…", "o": ["Safe touch", "Unsafe touch", "Punishment", "Game"], "e": "It makes you feel happy."},
+{"t": "If a touch makes you uncomfortable, you should…", "o": ["Say No and tell a trusted adult", "Keep quiet", "Feel guilty", "Hide"], "e": "Speak up — it's okay."},
+{"t": "The textbook on physical education is…", "o": ["Khel Yoga", "Our Wondrous World", "Maths Mela", "Curiosity"], "e": "Has many games and exercises."}
+]},
+{"q": [
+{"t": "Which festivals thank Mother Nature for food?", "o": ["Makar Sankranti, Onam, Lohri", "Only birthdays", "New Year only", "None"], "e": "Also Akshay Tritya and Raja Utsav."},
+{"t": "Earthworms help grain grow by…", "o": ["Loosening and enriching the soil", "Eating grain", "Making rain", "Nothing"], "e": "Small helpers in the journey."},
+{"t": "Cattle help farmers by…", "o": ["Ploughing and giving manure", "Cooking", "Selling grain", "Driving trucks"], "e": "Animals contribute too."},
+{"t": "Shopkeepers help the grain journey by…", "o": ["Selling grain to families", "Growing it", "Cooking it", "Eating it"], "e": "Many hands bring food."},
+{"t": "What happens without enough sleep?", "o": ["We feel tired, sleepy and irritable", "We feel fresher", "We focus better", "Nothing"], "e": "Hard to play or work."},
+{"t": "Yoga helps…", "o": ["Posture and keeps us happy and active", "Only sleep", "Only eating", "Nothing"], "e": "Practise easy poses."},
+{"t": "If someone offers more food than you need, you should…", "o": ["Politely take only what you'll eat", "Take it and throw extra", "Eat until sick", "Refuse all food"], "e": "Avoid waste."},
+{"t": "An unsafe touch can come from…", "o": ["Someone you know or a stranger", "Only strangers", "Only family", "Nobody"], "e": "It's about how it makes you feel."},
+{"t": "Running, jumping, cycling and skipping keep us…", "o": ["Strong and energetic", "Tired always", "Sick", "Sleepy"], "e": "Exercise daily."},
+{"t": "Gratitude for food means…", "o": ["Remembering and thanking everyone who helped", "Eating fast", "Wasting food", "Complaining"], "e": "It makes food taste better."}
+]},
+{"q": [
+{"t": "If soil were missing, what would happen to a grain?", "o": ["It couldn't grow", "It would grow faster", "Nothing", "It would fly"], "e": "Soil holds and feeds the plant."},
+{"t": "If the farmer were missing…", "o": ["No one would sow and harvest the grain", "Grain would grow itself into food", "More grain", "Nothing"], "e": "Farmers' hard work matters."},
+{"t": "Why is resting after exercise important?", "o": ["The body recovers and gets strong", "It isn't", "To get lazy", "To eat more"], "e": "Rest restores energy."},
+{"t": "What role does the tongue play in eating?", "o": ["Tastes and moves food", "Chews hard food", "Grinds nuts", "Swallows only"], "e": "It feels the texture too."},
+{"t": "If you don't like a food on your plate, a good choice is…", "o": ["Take a little and try it", "Throw it away", "Hide it", "Waste it"], "e": "Avoid waste; try new tastes."},
+{"t": "Which habit helps healthy living?", "o": ["Less TV and mobile, more play", "More screen time", "Late nights", "Skipping breakfast"], "e": "Plan healthy habits."},
+{"t": "Which is a sign of a good sleep?", "o": ["Feeling fresh in the day", "Feeling lazy", "Feeling sleepy", "Feeling irritable"], "e": "Track your sleep."},
+{"t": "Mindful eating helps us…", "o": ["Enjoy food and make healthier choices", "Eat faster", "Eat more junk", "Skip meals"], "e": "Focus on each bite."},
+{"t": "Who should you tell if you feel unsafe?", "o": ["A trusted adult like a parent or teacher", "Nobody", "A stranger", "Only friends online"], "e": "You don't have to feel guilty."},
+{"t": "Eating right, at the right time, in the right way plus exercise and rest lead to…", "o": ["Happy, healthy living", "Illness", "Tiredness", "Nothing"], "e": "Care for body and mind."}
+]},
+{"q": [
+{"t": "You slept at 9 pm and woke at 6 am. Hours of sleep?", "n": 9, "u": "hours", "k": "12-9+6", "e": "3 hours to midnight + 6 = 9 hours."},
+{"t": "You slept at 10 pm and woke at 6 am. Hours of sleep?", "n": 8, "u": "hours", "k": "12-10+6", "e": "2 + 6 = 8 hours."},
+{"t": "If you waste 2 rotis a day, how many in a week?", "n": 14, "k": "2*7", "e": "Small waste adds up."},
+{"t": "Which is NOT part of the grain's journey?", "o": ["Tiger", "Soil", "Farmer", "Water"], "e": "Tigers don't help grow grain."},
+{"t": "Which are helpers in the grain journey?", "o": ["Farmer, earthworm, water, cook", "Tiger, hills, fire", "Stone, wood, bat", "None"], "e": "People, animals and nature."},
+{"t": "Why do we say 'every grain is precious'?", "o": ["It took soil, water, sun and many people to make", "It's made of gold", "It's rare", "It's expensive only"], "e": "Respect for effort."},
+{"t": "A good daily plan includes…", "o": ["Waking early, yoga, balanced meals, play, reading, good sleep", "Only TV", "Skipping meals", "No sleep"], "e": "Make your own plan."},
+{"t": "Which situation would make a child feel comfortable?", "o": ["Grandparent reading a story", "A stranger offering a ride", "Someone touching in a way that feels wrong", "Being pushed"], "e": "Trust your feelings."},
+{"t": "Why chew food slowly?", "o": ["It helps digestion and enjoyment", "To waste time", "It tastes worse", "No reason"], "e": "Mindful eating."},
+{"t": "If you play a lot and don't sleep, the next day you'd likely feel…", "o": ["Tired and unable to focus", "Super energetic", "Hungry only", "Nothing different"], "e": "Rest restores energy."}
+]}
+]}

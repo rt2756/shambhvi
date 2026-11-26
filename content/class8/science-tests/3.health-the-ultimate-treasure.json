@@ -1,0 +1,52 @@
+{
+"title": "3. Health: the Ultimate Treasure",
+"tests": [
+{"q": [
+{"t": "According to WHO, health is complete well-being in which three areas?", "o": ["Physical, mental and social", "Physical only", "Mental and spiritual", "Social and financial"], "e": "And not merely the absence of disease."},
+{"t": "A disease-causing organism is a…", "o": ["Pathogen", "Vector", "Vaccine", "Antibiotic"], "e": "Bacteria, viruses, fungi, worms, protozoa."},
+{"t": "Diseases that spread from person to person are…", "o": ["Communicable", "Non-communicable", "Deficiency", "Chronic only"], "e": "Typhoid, dengue, flu, TB, malaria."},
+{"t": "Which is a non-communicable disease?", "o": ["Diabetes", "Typhoid", "Malaria", "Chickenpox"], "e": "NCDs don't spread person to person."},
+{"t": "Malaria is caused by…", "o": ["Protozoa", "Bacteria", "Virus", "Worms"], "e": "Carried by mosquitoes."},
+{"t": "Tuberculosis is caused by…", "o": ["Bacteria", "Virus", "Protozoa", "Fungi"], "e": "It affects the lungs."},
+{"t": "Dengue is caused by a…", "o": ["Virus", "Bacterium", "Worm", "Protozoan"], "e": "Called 'break bone fever'."},
+{"t": "Antibiotics kill…", "o": ["Bacteria", "Viruses", "Protozoa", "All germs"], "e": "They work only against bacterial infections."},
+{"t": "Who discovered penicillin in 1928?", "o": ["Alexander Fleming", "Edward Jenner", "Louis Pasteur", "Robert Hooke"], "e": "From a mould on a petri dish."},
+{"t": "Who made the first vaccine (smallpox)?", "o": ["Edward Jenner", "Alexander Fleming", "Kamal Ranadive", "Oersted"], "e": "Using cowpox material."}
+]},
+{"q": [
+{"t": "What you FEEL, like pain, is a…", "o": ["Symptom", "Sign", "Vector", "Pathogen"], "e": "Symptoms are reported by you."},
+{"t": "What can be SEEN or measured, like fever or rash, is a…", "o": ["Sign", "Symptom", "Vaccine", "Vector"], "e": "Signs can be checked by someone else."},
+{"t": "A vector is…", "o": ["An insect or animal that carries a pathogen", "A germ", "A medicine", "A vaccine"], "e": "The mosquito delivers the protozoan that causes malaria."},
+{"t": "Cholera and typhoid spread through…", "o": ["Contaminated food and water", "Air", "Mosquito bites", "Animal bites"], "e": "Boil water and eat cooked food."},
+{"t": "Common cold and TB spread through…", "o": ["Air (coughing, sneezing)", "Water", "Mosquitoes", "Food"], "e": "Cover your mouth and nose."},
+{"t": "Rabies spreads through…", "o": ["A rabid animal's bite", "Air", "Water", "Mosquitoes"], "e": "Animal bite is its route."},
+{"t": "Vaccines are…", "o": ["Preventive, not curative", "Curative", "Antibiotics", "Painkillers"], "e": "They stop disease before it happens."},
+{"t": "Immunity is…", "o": ["The body's natural ability to fight disease", "A type of germ", "A medicine", "A vector"], "e": "The immune system does it."},
+{"t": "Chronic diseases last more than about…", "o": ["3 months", "3 days", "1 week", "1 hour"], "e": "Cancer, diabetes, asthma."},
+{"t": "Ayurveda's daily routine is called…", "o": ["Dinacharya", "Ritucharya", "Pranayama", "Variolation"], "e": "Ritucharya is the seasonal routine."}
+]},
+{"q": [
+{"t": "Why doesn't an antibiotic cure a cold?", "o": ["A cold is viral; antibiotics target bacterial cells", "Colds are bacterial", "Antibiotics are too weak", "Colds cure themselves only at night"], "e": "A virus isn't a cell — nothing for the antibiotic to attack."},
+{"t": "How does antibiotic resistance develop?", "o": ["Resistant bacteria survive and take over", "Antibiotics turn into bacteria", "Viruses eat antibiotics", "The body rejects medicine"], "e": "Vulnerable bacteria die; the few resistant ones multiply."},
+{"t": "Two behaviours that cause antibiotic resistance:", "o": ["Taking them when not needed; not finishing the course", "Washing hands; sleeping", "Eating fruit; exercising", "Getting vaccinated; boiling water"], "e": "Use only when prescribed, correct dose, full duration."},
+{"t": "The prevention for each disease always attacks…", "o": ["Its route of spread", "The germ directly", "The patient", "Nothing"], "e": "Air → cover mouth; water → boil; vector → stop the insect."},
+{"t": "How does a vaccine work?", "o": ["It trains the immune system to recognise a germ", "It kills all germs", "It's an antibiotic", "It cures illness"], "e": "Without you having to catch the disease."},
+{"t": "Why does getting vaccinated protect others too?", "o": ["Fewer infected people means fewer chances to spread", "Vaccines spread", "Others get a dose", "It doesn't"], "e": "Community protection."},
+{"t": "Jenner's observation: milkmaids who had cowpox…", "o": ["Never got smallpox", "Always got smallpox", "Had no immunity", "Were vaccinated already"], "e": "That led to his hypothesis and the first vaccine."},
+{"t": "A student with no friends develops headaches and sleeplessness. Which health failed?", "o": ["Social and mental", "Only physical from germs", "None", "Only diet"], "e": "Nothing infected him — loneliness made him unwell."},
+{"t": "Why do NCDs now cause most deaths in India?", "o": ["More processed food, less exercise, longer lives", "More germs", "More mosquitoes", "Fewer hospitals"], "e": "Lifestyle change drives them."},
+{"t": "Removing still water helps prevent…", "o": ["Dengue and malaria", "TB", "Typhoid", "Cold"], "e": "Mosquitoes breed in still water."}
+]},
+{"q": [
+{"t": "Why did Fleming's accidental discovery happen?", "o": ["He noticed and investigated instead of discarding the dish", "Pure luck only", "He planned it", "Mould was added deliberately"], "e": "Noticing and investigating made it science."},
+{"t": "Scurvy, anaemia and goitre are…", "o": ["Non-communicable deficiency diseases", "Communicable", "Viral", "Vector-borne"], "e": "Caused by lacking specific nutrients."},
+{"t": "A tetanus shot uses…", "o": ["An inactivated bacterial toxin", "Live bacteria", "Antibiotics", "A virus"], "e": "Harmless parts can train immunity."},
+{"t": "Variolation in traditional India involved…", "o": ["Scratching skin with smallpox material for mild infection", "Drinking herbs", "Mosquito nets", "Boiling water"], "e": "Practitioners were called teekedaars."},
+{"t": "Who helped develop the Rotavirus vaccine?", "o": ["Maharaj Kishan Bhan", "Kamal Ranadive", "Edward Jenner", "Salim Ali"], "e": "It protects children from diarrhoea."},
+{"t": "Kamal Ranadive studied links between viruses, hormones and…", "o": ["Cancer", "Malaria", "Scurvy", "Dengue"], "e": "And showed tobacco, diet and pollution raise risk."},
+{"t": "Bhadrak district's sanitation campaign led to…", "o": ["Fewer cases of diarrhoea and infection", "More disease", "More open defecation", "No change"], "e": "Toilets broke the water-borne route."},
+{"t": "Giving antibiotics to healthy cattle is harmful because…", "o": ["It spreads resistant bacteria", "Cattle get sick", "Milk tastes bad", "It's expensive only"], "e": "Resistance spreads via animals and food."},
+{"t": "Ascariasis is caused by…", "o": ["Roundworms", "Virus", "Mosquitoes", "Fungi"], "e": "Worms living as parasites in the intestine."},
+{"t": "'Prevention is better than cure' is a conclusion because…", "o": ["Avoiding disease is cheaper and easier than treating it", "It rhymes", "Cures don't exist", "Doctors say so"], "e": "Clean water, nets, masks and vaccines prevent most diseases here."}
+]}
+]}

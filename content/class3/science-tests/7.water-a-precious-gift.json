@@ -1,0 +1,52 @@
+{
+"title": "7. Water — A Precious Gift",
+"tests": [
+{"q": [
+{"t": "What comes down but never goes up?", "o": ["Rain", "Smoke", "A kite", "A balloon"], "e": "The riddle at the start of the chapter."},
+{"t": "Water in wells comes from…", "o": ["Water stored under the ground", "Taps", "The sky directly", "Tanks"], "e": "Rainwater soaks into soil and is stored underground."},
+{"t": "Water flowing in a stream later joins…", "o": ["Rivers", "Clouds", "Wells only", "Taps"], "e": "Then seas and oceans."},
+{"t": "Surya and Barkha followed the pipes and found…", "o": ["A tank on the roof", "A river in the house", "A cloud", "A well in the kitchen"], "e": "Taps get water from tanks through pipes."},
+{"t": "Which can be used to draw water from a well?", "o": ["A pulley, hand pump or electric pump", "A spoon", "A fan", "A broom"], "e": "Different ways to lift water."},
+{"t": "Which is a vessel to store water?", "o": ["Clay surahi", "Basket", "Sieve", "Paper bag"], "e": "Also brass, copper, steel pots and bottles."},
+{"t": "After we use water for cleaning, it becomes…", "o": ["Dirty", "Cleaner", "Sweet", "Ice"], "e": "We can't drink or cook with it."},
+{"t": "Waste water can be reused for…", "o": ["Watering plants or flushing toilets", "Drinking", "Cooking", "Making tea"], "e": "Reuse saves water."},
+{"t": "A birdbath is…", "o": ["A shallow plate of water for birds", "A bird's nest", "A bird cage", "A pond for fish"], "e": "Helps birds in hot summers."},
+{"t": "Why is water called a precious gift?", "o": ["We cannot survive without it", "It costs a lot", "It's rare everywhere", "It's sweet"], "e": "Water is essential for life."}
+]},
+{"q": [
+{"t": "What happens to rainwater that falls on soil?", "o": ["Some soaks in and is stored underground", "It all disappears", "It turns into stone", "It flies up"], "e": "It recharges wells and helps plants."},
+{"t": "What happens to puddles on a hard road when the sun comes out?", "o": ["They dry up", "They grow", "They freeze", "They turn into rivers"], "e": "Sunshine dries water on hard surfaces."},
+{"t": "Why do families store water in buckets?", "o": ["Water doesn't come all the time", "To wash buckets", "For fun", "To make it dirty"], "e": "Like when a pipeline bursts."},
+{"t": "Why should we thank people who bring us water?", "o": ["It is hard work that helps us live", "It's a rule", "They ask", "No reason"], "e": "Many people carry water every day."},
+{"t": "Water tankers bring water from…", "o": ["Wells, rivers or lakes", "The sky", "Factories", "Shops"], "e": "Find out where yours comes from."},
+{"t": "Why should we not add too much soap to water?", "o": ["It makes water dirty and harms nature", "Soap is costly", "Soap is food", "Soap makes water clean forever"], "e": "Take care of this precious gift."},
+{"t": "In some dry places, people have to…", "o": ["Walk long distances for water", "Use taps everywhere", "Get water from clouds", "Never drink"], "e": "Every drop counts."},
+{"t": "Keeping pots of water outside homes in summer helps…", "o": ["Thirsty people and animals", "Mosquitoes only", "Nobody", "Plants only"], "e": "A kind tradition."},
+{"t": "Can you always guess correctly if it will rain?", "o": ["No — sometimes right, sometimes wrong", "Yes, always", "Never", "Only at night"], "e": "Clues like dark clouds help."},
+{"t": "Which is a clue that it may rain?", "o": ["Dark clouds", "Clear blue sky", "Bright sunshine", "Dry wind only"], "e": "Ask elders for more clues."}
+]},
+{"q": [
+{"t": "Order water's journey: rain → ? → our homes.", "o": ["Rivers, lakes, wells and groundwater", "Clouds again", "Shops", "Factories"], "e": "Sources fill, then we bring water home."},
+{"t": "Why is rainwater that sinks into soil so important?", "o": ["It refills our water sources and helps plants", "It makes mud only", "It's dirty", "It floods homes"], "e": "It recharges wells."},
+{"t": "Why is rain sometimes slanting?", "o": ["Wind pushes it", "Gravity changes", "Clouds tilt", "It's tired"], "e": "Observe and guess."},
+{"t": "Which uses the most water?", "o": ["A long shower", "Brushing teeth with a mug", "Drinking a glass", "Washing hands quickly"], "e": "Save water by using less."},
+{"t": "Why did people long ago make containers?", "o": ["There were no pipes or taps", "For decoration only", "To sell", "For games"], "e": "Storing water was necessary."},
+{"t": "Which is NOT a source of water?", "o": ["A plastic bucket", "A river", "A well", "A lake"], "e": "A bucket only stores water."},
+{"t": "Which action reduces water use?", "o": ["Turning off the tap while brushing", "Leaving taps open", "Washing the car daily", "Playing with the hose"], "e": "Reduce and reuse."},
+{"t": "Why must everyone get clean drinking water?", "o": ["Dirty water makes people sick", "It's tasty", "It's free", "It's cold"], "e": "Clean water is a basic need."},
+{"t": "Rainwater collected in a vessel may look…", "o": ["Clean or dirty depending on where it fell", "Always pink", "Always clean", "Like milk"], "e": "Observe and record."},
+{"t": "Who works to deliver letters and keep streets clean, and deserves water at our door?", "o": ["Postal and sanitation workers", "Cartoons", "Birds", "Kings"], "e": "Offer them clean water."}
+]},
+{"q": [
+{"t": "If you use 2 mugs to brush twice a day, how many mugs in a week?", "n": 28, "k": "2*2*7", "e": "2 mugs × 2 times × 7 days."},
+{"t": "A family stores 2 buckets of 10 litres each. How many litres?", "n": 20, "u": "L", "k": "2*10", "e": "Storage helps when water stops."},
+{"t": "Which shows the best use of waste water from washing vegetables?", "o": ["Water the plants", "Throw it away", "Drink it", "Cook rice in it"], "e": "It's clean enough for plants."},
+{"t": "Why is water considered sacred in many places?", "o": ["It is absolutely essential for survival", "It's blue", "It's heavy", "It's rare in oceans"], "e": "Respect for what gives life."},
+{"t": "How does water from a river reach a city tap?", "o": ["Big pipes carry it to tanks, then smaller pipes to taps", "Birds carry it", "It rains in the tap", "It flows uphill by itself"], "e": "Follow the pipes."},
+{"t": "Which vessels were common long ago?", "o": ["Clay and brass pots", "Plastic bottles", "Steel tanks only", "Glass jars only"], "e": "Ask elders about old vessels."},
+{"t": "A borewell takes water from…", "o": ["Deep underground", "The roof", "The sky", "The sea"], "e": "Pumped up with motors."},
+{"t": "Which keeps water clean in storage?", "o": ["Covering the vessel", "Leaving it open", "Adding soap", "Putting it in the sun with dust"], "e": "Covers keep out dirt and insects."},
+{"t": "Rain makes many people happy because…", "o": ["It fills water sources and helps crops", "It stops school", "It's noisy", "It's cold only"], "e": "But too much rain can cause floods."},
+{"t": "What should you do in hot summer for animals?", "o": ["Keep a bowl of water outside", "Chase them away", "Nothing", "Give them soda"], "e": "Animals need water too."}
+]}
+]}

@@ -1,0 +1,52 @@
+{
+"title": "2. Journey of a River",
+"tests": [
+{"q": [
+{"t": "The place where a river begins is its…", "o": ["Source", "Mouth", "Delta", "Tributary"], "e": "The source is usually on high ground."},
+{"t": "The place where a river meets the sea is its…", "o": ["Mouth", "Source", "Tributary", "Dam"], "e": "The mouth is where the river ends."},
+{"t": "A smaller river that joins a bigger one is a…", "o": ["Tributary", "Delta", "Source", "Reservoir"], "e": "Tributaries add their water to the main river."},
+{"t": "The fan of many small channels at a river's mouth is a…", "o": ["Delta", "Source", "Dam", "Glacier"], "e": "A river splits into many channels as it drops soil near the sea."},
+{"t": "The Godavari is called…", "o": ["Dakshina Ganga", "Uttara Ganga", "Little Ganga", "Sea Ganga"], "e": "It flows through southern India and is the second longest Indian river."},
+{"t": "A giant wall that blocks a river to store water is a…", "o": ["Dam", "Delta", "Bridge", "Canal"], "e": "A dam stores water in a reservoir behind it."},
+{"t": "A river that flows all year round is…", "o": ["Perennial", "Seasonal", "Dry", "Salty"], "e": "Perennial rivers have water even in the dry season."},
+{"t": "Mangrove forests grow where…", "o": ["River water meets sea water", "In deserts", "On mountain tops", "In dry fields"], "e": "Mangroves survive salty, muddy, waterlogged ground at deltas."},
+{"t": "Which animal is India's national aquatic animal?", "o": ["Ganges river dolphin", "Crocodile", "Turtle", "Shark"], "e": "The Ganges river dolphin is blind and finds its way by sound."},
+{"t": "Which programme works to clean the Ganga?", "o": ["Namami Gange", "Swachh Shala", "Jal Jeevan", "Green India"], "e": "Namami Gange aims to keep the river healthy for people and wildlife."}
+]},
+{"q": [
+{"t": "Why does a river get bigger as it flows?", "o": ["Tributaries and rain keep adding water", "The sea pushes water in", "It is pumped", "It gets wider by itself"], "e": "Every joining stream adds water and none takes it away."},
+{"t": "Why does a river drop soil at its mouth?", "o": ["The water slows down and can't carry its load", "The sea adds soil", "The soil gets heavier", "Fish push it"], "e": "Slow water can't carry soil, so it settles and builds the delta."},
+{"t": "Why do some rivers keep flowing in the dry season?", "o": ["They are fed by melting snow or groundwater", "They are bigger", "They are near the sea", "They are salty"], "e": "A river fed only by rain stops when the rain stops."},
+{"t": "Why were ancient cities built beside rivers?", "o": ["Water is heavy and hard to carry far", "Rivers were pretty", "No reason", "To avoid floods"], "e": "People needed water close by; rivers also gave fertile soil, fish and boat routes."},
+{"t": "Which is a benefit of a dam?", "o": ["Water stored for the dry season", "Forests drowned", "Homes flooded", "Less silt downstream"], "e": "A dam stores water for irrigation, electricity and the dry months."},
+{"t": "Which is a cost of a dam?", "o": ["People upstream lose their homes", "Electricity is made", "Crops get water", "Floods are controlled"], "e": "The reservoir floods land upstream, displacing people and wildlife."},
+{"t": "Sugar dissolved in water can't be seen. Why is this important for safety?", "o": ["Harmful chemicals can be invisible too", "Sugar is harmful", "Clear water is always safe", "Sugar floats"], "e": "'It looks clean' is not evidence that water is safe to drink."},
+{"t": "Moving water only knee-deep can…", "o": ["Knock an adult over", "Never hurt anyone", "Be safely walked through", "Stop a flood"], "e": "That's why we're told not to walk through flood water."},
+{"t": "In 2019, Chennai ran special water trains because…", "o": ["Its reservoirs dried up", "It was flooded", "Trains were cheap", "Rivers were too clean"], "e": "Drought left the city with too little water."},
+{"t": "Why does the Ganges dolphin suffer in noisy, polluted water?", "o": ["It is blind and finds its way by sound", "It needs clear water to see", "It eats plastic", "It lives on land"], "e": "Noise interferes with the sound it uses to navigate."}
+]},
+{"q": [
+{"t": "How does cutting trees make floods worse?", "o": ["Rain reaches the river all at once instead of slowly", "Trees make more rain", "Trees block rivers", "It makes the river longer"], "e": "Same rain, different timing: without trees, the water rushes down together."},
+{"t": "Fertiliser washed into a river forms a 'green blanket'. Why do fish die?", "o": ["Rotting plants use up the oxygen in the water", "Fertiliser is poisonous to fish", "The water turns salty", "The fish eat too much"], "e": "Algae grow fast, block sunlight, die and rot — rotting uses up dissolved oxygen."},
+{"t": "Why is building a dam a hard decision?", "o": ["People who gain and people who lose are different", "Dams are always bad", "Dams are always good", "Dams are cheap"], "e": "Benefits go downstream; costs fall upstream on others."},
+{"t": "Which reduces the harm of a dam?", "o": ["Resettling displaced families properly", "Ignoring upstream villages", "Blocking all river flow", "Cutting more forest"], "e": "Planned costs like resettlement, minimum flow and fish ladders reduce harm."},
+{"t": "Fish ladders at dams help…", "o": ["Migrating fish get past the dam", "Fish climb trees", "Make electricity", "Store water"], "e": "They give fish a route around the dam wall."},
+{"t": "Why does drought often make people move permanently, but floods usually don't?", "o": ["A drought has no known end date", "Floods last longer", "Droughts bring water", "Floods are gentle"], "e": "Flood water goes down and people rebuild; a drought can go on with nothing to wait for."},
+{"t": "Oil poured in water floats; sugar dissolves. Harmful soapy waste behaves like…", "o": ["The sugar — it dissolves invisibly", "The oil — it floats", "Neither", "Ice"], "e": "Many harmful substances dissolve and leave water looking clean."},
+{"t": "Which is NOT a problem caused by floods?", "o": ["More groundwater in drought areas", "Spread of diseases", "Lost crops", "Broken roads"], "e": "Flood problems include dirty water, disease, lost crops, broken roads and closed schools."},
+{"t": "A tributary joins a main river rather than the other way round because…", "o": ["The land tilts towards the main river", "It is smaller", "It is cleaner", "It is younger"], "e": "Water flows downhill; the land slopes towards the larger river."},
+{"t": "The Coringa forest grows at the Godavari delta. What type of forest is it?", "o": ["Mangrove", "Desert", "Pine", "Bamboo"], "e": "Mangroves survive where fresh and salty water mix."}
+]},
+{"q": [
+{"t": "A river carries soil all the way down. Where does most of it settle?", "o": ["Where the water slows near the mouth", "At the source", "In the fastest parts", "It never settles"], "e": "Slow water drops its load — building banks and islands at the mouth."},
+{"t": "A river covered in green algae looks full of life. Why is it actually dying?", "o": ["Too much plant growth uses up oxygen and blocks light", "Algae are poisonous", "Green water is salty", "Fish hate green"], "e": "The harm came from too much of a good thing in the wrong place."},
+{"t": "Which household habit best saves water?", "o": ["Fixing leaking taps", "Leaving taps running", "Washing cars daily with a hose", "Paving the garden"], "e": "Unnoticed losses like leaks are always bigger than the ones you see."},
+{"t": "Bengaluru flooded in 2022 while Chennai had drought in 2019. What does this teach?", "o": ["We must prepare for both too little and too much water", "Only floods matter", "Only droughts matter", "Rivers never change"], "e": "Both extremes happen in the same country within a few years."},
+{"t": "A town gets its water from a seasonal river. Its biggest problem would be…", "o": ["No water for months in the dry season", "Too much salt", "Constant floods", "No fish"], "e": "A seasonal river stops flowing when the rains end."},
+{"t": "Why is the river below a dam often poorer for farmers?", "o": ["Less water and silt reach the land", "More silt arrives", "The water gets saltier", "It floods more"], "e": "The dam holds back both water and the fertile silt."},
+{"t": "Which is the best evidence that water may be unsafe though it looks clear?", "o": ["Sugar dissolves completely and can't be seen", "Oil floats", "Ice melts", "Sand settles"], "e": "If sugar can hide in clear water, so can harmful chemicals."},
+{"t": "Dams make electricity using…", "o": ["Falling water", "Sunlight", "Wind", "Burning coal"], "e": "Water falling from the reservoir turns turbines."},
+{"t": "During a flood warning, which is the safest choice?", "o": ["Move to higher ground", "Walk through flood water", "Touch fallen wires", "Go near the riverbank"], "e": "Getting higher keeps you away from rising, fast-moving water."},
+{"t": "The Godavari has many tributaries. Rain falling anywhere in its valley…", "o": ["Eventually drains into the same river", "Goes straight to the sea", "Stays in place", "Evaporates immediately"], "e": "The whole valley collects water into one main channel."}
+]}
+]}

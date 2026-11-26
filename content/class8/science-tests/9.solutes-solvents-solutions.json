@@ -1,0 +1,52 @@
+{
+"title": "9. Solutes, Solvents and Solutions",
+"tests": [
+{"q": [
+{"t": "A solution is a…", "o": ["Uniform mixture", "Non-uniform mixture", "Compound", "Element"], "e": "Components evenly distributed."},
+{"t": "In salt water, salt is the…", "o": ["Solute", "Solvent", "Solution", "Precipitate"], "e": "The substance that dissolves."},
+{"t": "In salt water, water is the…", "o": ["Solvent", "Solute", "Mixture only", "Residue"], "e": "The substance it dissolves in."},
+{"t": "A solution in which no more solute dissolves at that temperature is…", "o": ["Saturated", "Unsaturated", "Dilute", "Pure"], "e": "Extra solute settles at the bottom."},
+{"t": "For most solids, solubility ___ with temperature.", "o": ["Increases", "Decreases", "Stays the same", "Becomes zero"], "e": "Heat a saturated solution and more dissolves."},
+{"t": "For gases, solubility ___ as temperature rises.", "o": ["Decreases", "Increases", "Stays the same", "Doubles"], "e": "Cold water holds more oxygen."},
+{"t": "Density = ?", "o": ["Mass ÷ Volume", "Volume ÷ Mass", "Mass × Volume", "Weight × Area"], "e": "Mass in a unit volume."},
+{"t": "The SI unit of density is…", "o": ["kg/m³", "g", "m³", "N"], "e": "g/mL or g/cm³ is handy for liquids."},
+{"t": "1 mL of water has a mass of about…", "o": ["1 g", "10 g", "1 kg", "0.1 g"], "e": "Water's density ≈ 1 g/mL."},
+{"t": "For water, read the measuring cylinder at the…", "o": ["Bottom of the meniscus", "Top of the meniscus", "Side", "Bottom of the cylinder"], "e": "Top of meniscus for coloured liquids."}
+]},
+{"q": [
+{"t": "When two liquids mix, the solvent is the one present in…", "o": ["Larger amount", "Smaller amount", "Coloured form", "Either"], "e": "The smaller amount is the solute."},
+{"t": "In gulab jamun chashni (lots of sugar, little water), the solvent is…", "o": ["Water", "Sugar", "Both", "Neither"], "e": "Sugar is the solid being dissolved."},
+{"t": "Which is more concentrated: 4 spoons in 50 mL or 2 spoons in 100 mL?", "o": ["4 spoons in 50 mL", "2 spoons in 100 mL", "Equal", "Can't tell"], "e": "4 per 50 is 4 times as much per mL of water."},
+{"t": "Why is warming lakes dangerous for fish?", "o": ["Warm water holds less dissolved oxygen", "Fish dislike heat only", "Warm water is denser", "It adds salt"], "e": "Fish may suffocate though nothing was added."},
+{"t": "Why does oil float on water?", "o": ["Oil is less dense than water", "Oil is heavier", "Water pushes it up only", "Oil is a gas"], "e": "Oil ≈ 0.91 g/mL < water 1 g/mL."},
+{"t": "Relative density has…", "o": ["No units", "kg/m³", "g/mL", "N"], "e": "It's a ratio compared to water."},
+{"t": "Density depends on…", "o": ["Temperature and pressure", "Shape", "Size", "Colour"], "e": "Not on shape or size."},
+{"t": "Why tare the balance with the watch glass on it?", "o": ["So the container's mass is subtracted automatically", "To heat it", "To clean it", "To calibrate gravity"], "e": "You read the object alone."},
+{"t": "To measure 70 mL, which cylinder is best?", "o": ["100 mL", "50 mL", "250 mL", "500 mL"], "e": "Smallest that holds the whole amount — one step, finest division."},
+{"t": "Heating makes density…", "o": ["Decrease", "Increase", "Stay the same", "Double"], "e": "Particles spread apart; same mass, larger volume."}
+]},
+{"q": [
+{"t": "An aluminium block: mass 27 g, volume 10 cm³. Density (g/cm³)?", "n": 2.7, "u": "g/cm³", "k": "F(27,10)", "e": "27 ÷ 10 = 2.7 g/cm³."},
+{"t": "A 1 L pack of oil weighs 910 g. Density (g/mL)?", "n": 0.91, "u": "g/mL", "k": "F(910,1000)", "e": "910 ÷ 1000 = 0.91 g/mL."},
+{"t": "A notebook 25 cm × 18 cm × 2 cm. Volume (cm³)?", "n": 900, "u": "cm³", "k": "25*18*2", "e": "Length × width × height."},
+{"t": "Water rises from 50 mL to 55 mL when a stone is lowered in. Stone's volume (cm³)?", "n": 5, "u": "cm³", "k": "55-50", "e": "The stone displaces its own volume."},
+{"t": "That stone has mass 16.4 g. Density (g/cm³)?", "n": 3.28, "u": "g/cm³", "k": "F('16.4')/5", "e": "16.4 ÷ 5 = 3.28 — denser than water, so it sinks."},
+{"t": "A cylinder has 10 divisions between marks 10 mL apart. Least count (mL)?", "n": 1, "u": "mL", "k": "F(10,10)", "e": "10 ÷ 10 = 1 mL."},
+{"t": "A solution saturated at 20 °C is heated to 50 °C. It becomes…", "o": ["Unsaturated", "Supersaturated", "More saturated", "A gas"], "e": "Solubility rises with temperature."},
+{"t": "Too much sugar won't dissolve in your tea. Best fix?", "o": ["Heat the tea", "Cool the tea", "Add ice", "Stir less"], "e": "Hotter water dissolves more sugar."},
+{"t": "Why does a steel ship float though steel is denser than water?", "o": ["Its shape encloses air, lowering average density", "Steel floats", "Seawater is magnetic", "Ships are hollow steel balls"], "e": "Density alone doesn't decide floating."},
+{"t": "Why are measuring cylinders tall and narrow?", "o": ["Small volume change gives a large height change — precise reading", "To save glass", "To look nice", "To hold more"], "e": "Graduations are far apart."}
+]},
+{"q": [
+{"t": "A 250 mL cylinder typically has a least count of…", "o": ["2 mL", "0.1 mL", "1 mL", "5 mL"], "e": "100 mL: 1 mL; 500 mL: 5 mL."},
+{"t": "1 kg/m³ equals…", "o": ["1 g/L", "1 g/mL", "1000 g/mL", "1 kg/L"], "e": "1000 g in 1000 L."},
+{"t": "Earth's layers get denser inward because…", "o": ["Pressure and temperature rise sharply, compacting materials", "The core is hollow", "Gravity is weaker inside", "Water collects there"], "e": "Crust is lightest; inner core densest."},
+{"t": "Pressure mainly affects the density of…", "o": ["Gases", "Solids", "Liquids", "All equally"], "e": "Gas particles have spaces that can be squeezed."},
+{"t": "Most balances actually measure ___, though marked in grams.", "o": ["Weight", "Volume", "Density", "Pressure"], "e": "Only a two-pan balance truly compares masses."},
+{"t": "A 100 g block of density 0.5 g/cm³ has volume (cm³)…", "n": 200, "u": "cm³", "k": "100/F(1,2)", "e": "Volume = mass ÷ density = 100 ÷ 0.5 = 200 cm³."},
+{"t": "Will that block float on water?", "o": ["Yes — 0.5 < 1 g/cm³", "No", "Only if hot", "Only in oil"], "e": "Less dense than water floats."},
+{"t": "Why is bamboo good for rafts?", "o": ["It's light and hollow, so it floats easily", "It's dense", "It's metal", "It sinks slowly"], "e": "Low average density."},
+{"t": "Who developed anti-epileptic and anti-malarial drugs from plant extracts?", "o": ["Asima Chatterjee", "Kamal Ranadive", "Janaki Ammal", "Anna Mani"], "e": "She used solvents to isolate compounds."},
+{"t": "'Dilute' and 'concentrated' are…", "o": ["Relative terms", "Absolute amounts", "Units", "Temperatures"], "e": "Dilute compared to what?"}
+]}
+]}

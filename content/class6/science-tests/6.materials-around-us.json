@@ -1,0 +1,52 @@
+{
+"title": "6. Materials Around Us",
+"tests": [
+{"q": [
+{"t": "Any substance used to make an object is called a…", "o": ["Material", "Matter", "Property", "Unit"], "e": "Paper, wood, glass, metal and plastic are materials."},
+{"t": "Arranging objects into groups is called…", "o": ["Classification", "Solubility", "Lustre", "Measurement"], "e": "Grouping is based on a common property."},
+{"t": "Shiny materials are called…", "o": ["Lustrous", "Opaque", "Soluble", "Soft"], "e": "Metals are usually lustrous."},
+{"t": "Glass and water are…", "o": ["Transparent", "Translucent", "Opaque", "Lustrous"], "e": "You can see clearly through them."},
+{"t": "Butter paper and frosted glass are…", "o": ["Translucent", "Transparent", "Opaque", "Soluble"], "e": "You see objects, but not clearly."},
+{"t": "Wood and metal sheets are…", "o": ["Opaque", "Transparent", "Translucent", "Soluble"], "e": "You can't see through them."},
+{"t": "Sugar in water is…", "o": ["Soluble", "Insoluble", "Opaque", "Lustrous"], "e": "It dissolves and disappears."},
+{"t": "Sand in water is…", "o": ["Insoluble", "Soluble", "Transparent", "Gaseous"], "e": "It stays visible however long you stir."},
+{"t": "Anything that occupies space and has mass is…", "o": ["Matter", "Material only", "Energy", "Light"], "e": "Even air is matter."},
+{"t": "The space occupied by a material is its…", "o": ["Volume", "Mass", "Lustre", "Hardness"], "e": "Measured in litres, millilitres or cubic metres."}
+]},
+{"q": [
+{"t": "Which two properties do ALL materials have?", "o": ["Mass and volume", "Lustre and hardness", "Transparency and solubility", "Colour and smell"], "e": "Not everything is shiny or soluble, but everything has mass and takes up space."},
+{"t": "Is air matter?", "o": ["Yes — it occupies space and has mass", "No — it is invisible", "Only when windy", "Only when cold"], "e": "Being invisible doesn't stop it being matter."},
+{"t": "Why do metals sometimes look dull?", "o": ["Air and moisture act on their surface", "They are not metals", "They are soft", "They are soluble"], "e": "A freshly cut surface shows the lustre best."},
+{"t": "'All that glitters is not gold' means…", "o": ["Not everything shiny is a metal", "Gold doesn't shine", "Everything shiny is gold", "Metals never shine"], "e": "Some surfaces are made shiny by polishing or coatings."},
+{"t": "Rubber is harder than sponge but softer than iron. This shows hardness is…", "o": ["Relative", "Absolute", "The same for all", "Unmeasurable"], "e": "'Hard' only makes sense as 'harder than what?'"},
+{"t": "Oil and water left undisturbed…", "o": ["Form separate layers", "Mix completely", "Turn solid", "Disappear"], "e": "Some liquids don't mix with water."},
+{"t": "Why is oxygen dissolving in water important?", "o": ["Water animals and plants need it to survive", "It makes water taste sweet", "It makes water blue", "It is not important"], "e": "Fish breathe dissolved oxygen."},
+{"t": "Why is a tumbler not made of cloth?", "o": ["It must hold water", "Cloth is too heavy", "Cloth is lustrous", "Cloth is magnetic"], "e": "We choose materials based on properties and purpose."},
+{"t": "The SI unit of volume is…", "o": ["Cubic metre (m³)", "Litre", "Kilogram", "Metre"], "e": "1 m³ = 1000 L."},
+{"t": "Which is written correctly?", "o": ["7 kg", "7 kgs", "7 Kg.", "7kg"], "e": "Lowercase, no 's', no full stop, with a space."}
+]},
+{"q": [
+{"t": "How many litres are in 1 m³?", "n": 1000, "u": "L", "k": "1000", "e": "1 m³ = 1000 L."},
+{"t": "A 500 mL bottle holds how many litres?", "n": 0.5, "u": "L", "k": "F(500,1000)", "e": "1 L = 1000 mL, so 500 mL = 0.5 L."},
+{"t": "How do you make ORS without a packet?", "o": ["6 tsp sugar + ½ tsp salt in 1 L boiled, cooled water", "1 tsp salt only", "Sugar in milk", "Salt in hot oil"], "e": "ORS treats dehydration from diarrhoea."},
+{"t": "Why are different balls made for different sports?", "o": ["Each sport needs a different bounce", "For colour only", "To confuse players", "No reason"], "e": "Material is chosen for the property needed."},
+{"t": "A pen made of plastic, metal and ink shows…", "o": ["One object can have several materials", "One material makes one object", "Pens are matter-less", "Plastic is metal"], "e": "Objects are often made of several materials."},
+{"t": "Why is classification useful?", "o": ["It helps us study patterns in properties", "It makes things heavier", "It's only for shops", "It has no use"], "e": "Grouping helps us observe patterns."},
+{"t": "Baked clay is called…", "o": ["Terracotta", "Porcelain", "Glass", "Lodestone"], "e": "Clay baked in kilns becomes terracotta."},
+{"t": "How old is the earliest pottery in the Indian subcontinent?", "o": ["7,000–8,000 years", "100 years", "500 years", "50,000 years"], "e": "Found at Lahuradewa and Mehrgarh."},
+{"t": "Mass tells us…", "o": ["The quantity of matter", "The space taken up", "Shininess", "Colour"], "e": "More mass = heavier. Units: g and kg."},
+{"t": "Chalk powder in water is…", "o": ["Insoluble", "Soluble", "Transparent", "A gas"], "e": "It stays visible and doesn't dissolve."}
+]},
+{"q": [
+{"t": "Which is NOT a property every material has?", "o": ["Lustre", "Mass", "Volume", "Occupying space"], "e": "Many materials are not shiny, but all have mass and volume."},
+{"t": "A scratch test with a key leaves a mark on wood but not on steel. So…", "o": ["Steel is harder than wood", "Wood is harder", "They're equally hard", "Steel is soluble"], "e": "Hard materials are difficult to scratch."},
+{"t": "Why is water so important in the body's working?", "o": ["It dissolves a large number of materials", "It is opaque", "It is hard", "It is lustrous"], "e": "Water carries dissolved substances around the body."},
+{"t": "Two identical tumblers with water to different levels hold different…", "o": ["Volumes", "Materials", "Lustres", "Hardness"], "e": "Volume is the space occupied."},
+{"t": "Which is written correctly for millilitre?", "o": ["250 mL", "250 ML", "250 ml.", "250mls"], "e": "Lowercase m, capital L, a space, no s, no full stop."},
+{"t": "A silver-coloured shiny spoon could be plastic. Why?", "o": ["Surfaces can be coated to shine", "Plastic is always metal", "All shiny things are metals", "Silver is plastic"], "e": "Not everything shiny is a metal."},
+{"t": "A grocer keeps spices together and pulses together. This is…", "o": ["Classification", "Solubility", "Measurement", "Filtration"], "e": "Grouping by a common property."},
+{"t": "Ayurveda describes matter using how many properties (guṇa)?", "n": 20, "e": "20 properties in ten pairs of opposites."},
+{"t": "Two students group objects differently — one by colour, one by material. Which is correct?", "o": ["Both are valid", "Only colour", "Only material", "Neither"], "e": "The useful question is which property matters for your purpose."},
+{"t": "1.5 L = how many mL?", "n": 1500, "u": "mL", "k": "F('1.5')*1000", "e": "1 L = 1000 mL."}
+]}
+]}

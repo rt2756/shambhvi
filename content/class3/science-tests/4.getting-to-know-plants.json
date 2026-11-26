@@ -1,0 +1,52 @@
+{
+"title": "4. Getting to Know Plants",
+"tests": [
+{"q": [
+{"t": "Plants with a big woody trunk and branches are…", "o": ["Trees", "Herbs", "Grasses", "Creepers"], "e": "Mango, banyan, peepal."},
+{"t": "Medium plants with several woody stems close to the ground are…", "o": ["Shrubs", "Trees", "Herbs", "Climbers"], "e": "Rose, hibiscus, tulsi."},
+{"t": "Small plants with soft green stems are…", "o": ["Herbs", "Trees", "Shrubs", "Bamboo"], "e": "Mint, tomato, coriander."},
+{"t": "A money plant that climbs a wall is a…", "o": ["Climber", "Creeper", "Tree", "Shrub"], "e": "Thin stem, needs support."},
+{"t": "A pumpkin plant that spreads on the ground is a…", "o": ["Creeper", "Climber", "Tree", "Herb"], "e": "It creeps along the ground."},
+{"t": "The tallest grass is…", "o": ["Bamboo", "Wheat", "Rice", "Mint"], "e": "A special grass that lives many years."},
+{"t": "Sugar is made from the stem of…", "o": ["Sugarcane", "Bamboo", "Mango", "Rose"], "e": "Sugarcane is a tall grass."},
+{"t": "The hard outer covering of a tree trunk is…", "o": ["Bark", "Leaf", "Root", "Flower"], "e": "Each tree's bark has a pattern."},
+{"t": "Which part of a plant goes into the soil?", "o": ["Roots", "Leaves", "Flowers", "Fruits"], "e": "Roots hold the plant and take in water."},
+{"t": "The biggest flower, seen in Mizoram, is…", "o": ["Rafflesia", "Lotus", "Sunflower", "Rose"], "e": "As big as an umbrella!"}
+]},
+{"q": [
+{"t": "Rice, wheat, bajra and ragi are seeds of…", "o": ["Grasses", "Trees", "Climbers", "Shrubs"], "e": "Large grasses give us grains."},
+{"t": "Dals like toor, moong and masoor are seeds of…", "o": ["Shrubs", "Grasses", "Trees", "Creepers"], "e": "Pulses grow on shrubs."},
+{"t": "Grass leaves are…", "o": ["Long, thin and flat", "Round and thick", "Needle-like only", "Huge"], "e": "Grass stems are hollow."},
+{"t": "Is tulsi a tree, shrub or herb?", "o": ["Shrub", "Tree", "Grass", "Creeper"], "e": "It has woody stems close to the ground."},
+{"t": "Is a tomato plant a tree, shrub or herb?", "o": ["Herb", "Tree", "Shrub", "Climber"], "e": "Its stem is soft and green."},
+{"t": "Jasmine and bottle gourd are…", "o": ["Climbers", "Trees", "Grasses", "Shrubs"], "e": "They climb on supports."},
+{"t": "Watermelon is a…", "o": ["Creeper", "Tree", "Climber", "Shrub"], "e": "It spreads on the ground."},
+{"t": "Jamun fruits change colour from green to red to…", "o": ["Purple", "Yellow", "Blue", "White"], "e": "Ripe jamuns are purple."},
+{"t": "What does a stem do?", "o": ["Holds the plant up and carries water", "Makes seeds", "Smells nice only", "Nothing"], "e": "It connects roots to leaves."},
+{"t": "Why do we rub a leaf to smell it?", "o": ["Rubbing releases its smell", "To clean it", "To colour it", "To break it"], "e": "Tulsi, mint and curry leaves smell different."}
+]},
+{"q": [
+{"t": "What happens to a money plant with nothing to climb?", "o": ["It creeps along the ground", "It dies at once", "It becomes a tree", "It flies"], "e": "Some plants act as climbers or creepers depending on support."},
+{"t": "How can you identify a tree by its bark?", "o": ["Rub crayon on paper pressed on the bark to see its pattern", "Taste it", "Smell flowers", "Count leaves"], "e": "Each bark has a unique pattern."},
+{"t": "Which part helped you tell a tree from a shrub?", "o": ["The stem/trunk", "The fruit colour", "The smell", "The roots only"], "e": "Trees have one big trunk; shrubs many woody stems."},
+{"t": "Why might cut fruit be easier to smell than whole fruit?", "o": ["Cutting releases more smell", "Whole fruit has no smell", "Cut fruit is bigger", "No difference"], "e": "Try the blindfold experiment."},
+{"t": "What would happen if there were no plants?", "o": ["No food, shade or fresh air for animals and us", "Nothing", "More food", "More birds"], "e": "Plants give food, shade and air."},
+{"t": "How does a root help a plant grow?", "o": ["Takes in water from soil and holds the plant firm", "Makes flowers", "Catches sunlight", "Makes noise"], "e": "Without roots, plants fall and dry up."},
+{"t": "Some climbers take food from…", "o": ["The plant they climb on", "The air only", "Animals", "Nothing"], "e": "Like a guest that eats from the host."},
+{"t": "Khejri, chinar and amaltas are…", "o": ["Trees", "Herbs", "Grasses", "Creepers"], "e": "All have woody trunks."},
+{"t": "Mustard and coriander are…", "o": ["Herbs", "Trees", "Shrubs", "Climbers"], "e": "Soft green stems."},
+{"t": "How can you make friends with a plant?", "o": ["Name it, water it and observe it", "Pull its leaves", "Ignore it", "Step on it"], "e": "Care and observation."}
+]},
+{"q": [
+{"t": "Snake gourd grows on a support. It is a…", "o": ["Climber", "Creeper", "Tree", "Herb"], "e": "It winds up a support."},
+{"t": "Which group is all grasses?", "o": ["Wheat, bamboo, sugarcane", "Mango, neem, peepal", "Rose, hibiscus, tulsi", "Pumpkin, watermelon, gourd"], "e": "Grasses include grains and tall canes."},
+{"t": "Why does bamboo count as special among grasses?", "o": ["It lives longer than just a year", "It has flowers like roses", "It's short", "It creeps"], "e": "Many grasses live only one season."},
+{"t": "Parts of a plant are root, stem, leaf, flower, fruit and…", "o": ["Seed", "Bark only", "Soil", "Water"], "e": "Seeds grow into new plants."},
+{"t": "Why do new leaves and flowers appear at certain times?", "o": ["Plants change with the seasons", "Randomly", "Only when watered once", "Never"], "e": "Observing a plant friend over months shows this."},
+{"t": "Ber (jujube) is a…", "o": ["Tree or shrub with fruits", "Grass", "Creeper", "Herb"], "e": "Name plants in your own language too."},
+{"t": "A person who can't see can still recognise fruits by…", "o": ["Smell", "Colour", "Shape from far", "Bark"], "e": "Raj's brother smells fruits nearby."},
+{"t": "What lives on tree bark?", "o": ["Insects, small plants and other animals", "Nothing", "Only birds", "Fish"], "e": "Look closely!"},
+{"t": "Which plant is a shrub giving us curry flavour?", "o": ["Curry leaf", "Mint", "Wheat", "Pumpkin"], "e": "Curry leaf is a shrub."},
+{"t": "Leaves of peepal, mango, lotus and khejri differ in…", "o": ["Shape, size and colour", "Nothing", "Only smell", "Only weight"], "e": "Observe and draw them."}
+]}
+]}

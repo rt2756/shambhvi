@@ -1,0 +1,52 @@
+{
+"title": "12. Beyond Earth",
+"tests": [
+{"q": [
+{"t": "Stars shine with…", "o": ["Their own light", "Reflected sunlight", "Moonlight", "No light"], "e": "Stars make their own light."},
+{"t": "The star closest to us is…", "o": ["The Sun", "Sirius", "Polaris", "Proxima Centauri"], "e": "The Sun is a star — the closest one."},
+{"t": "The brightest star in the night sky is…", "o": ["Sirius", "Polaris", "Betelgeuse", "Aldebaran"], "e": "Sirius, in Canis Major."},
+{"t": "Which planet is called the Red Planet?", "o": ["Mars", "Venus", "Jupiter", "Mercury"], "e": "Its soil is reddish."},
+{"t": "Which planet is closest to the Sun?", "o": ["Mercury", "Venus", "Earth", "Mars"], "e": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."},
+{"t": "How many natural satellites does Earth have?", "n": 1, "e": "One — the Moon. Mars has 2."},
+{"t": "The Moon takes about how many days to revolve around the Earth?", "n": 27, "u": "days", "e": "About 27 days."},
+{"t": "Constellation Orion is imagined as a…", "o": ["Hunter", "Bull", "Dog", "Bear"], "e": "Three stars in the middle form his belt."},
+{"t": "The Pole Star is called…", "o": ["Dhruva tārā", "Saptaṛiṣhi", "Rohiṇī", "Kṛittikā"], "e": "It appears nearly stationary in the north."},
+{"t": "Excessive artificial light at night is…", "o": ["Light pollution", "Moonlight", "Starlight", "Sunlight"], "e": "It hides most stars in cities."}
+]},
+{"q": [
+{"t": "How many constellations does the IAU list?", "n": 88, "e": "The entire sky is divided into 88 regions."},
+{"t": "Why did ancient people recognise star patterns?", "o": ["For navigation", "For fun only", "To tell time of birth", "To make maps of Earth"], "e": "Sailors and travellers used stars to find direction."},
+{"t": "Venus is called the Morning or Evening Star, but it is…", "o": ["A planet, not a star", "A star", "A moon", "A comet"], "e": "It shines brightly at dawn and dusk."},
+{"t": "How can you tell a planet from a star with the naked eye?", "o": ["Stars twinkle a lot; planets don't", "Planets twinkle more", "Stars are red", "Planets move fast"], "e": "That's the easiest test."},
+{"t": "The inner four planets are…", "o": ["Small and rocky", "Large and gassy", "Made of ice only", "Ringed"], "e": "Mercury, Venus, Earth, Mars."},
+{"t": "The outer four planets are…", "o": ["Large, mostly gas and ice, with rings", "Small and rocky", "Moons", "Stars"], "e": "Jupiter, Saturn, Uranus, Neptune."},
+{"t": "The asteroid belt lies between…", "o": ["Mars and Jupiter", "Earth and Mars", "Venus and Earth", "Saturn and Uranus"], "e": "Many rocky asteroids orbit there."},
+{"t": "A comet's tail forms because…", "o": ["Its frozen material evaporates near the Sun", "It's on fire", "It's a rocket", "Wind blows it"], "e": "Moving away from the Sun, it grows dim."},
+{"t": "Sirius is in the constellation…", "o": ["Canis Major", "Orion", "Taurus", "Ursa Minor"], "e": "Orion's dog."},
+{"t": "The Pole Star belongs to…", "o": ["Ursa Minor (Little Dipper)", "Ursa Major", "Orion", "Taurus"], "e": "The Big Dipper (Saptaṛiṣhi) is in Ursa Major."}
+]},
+{"q": [
+{"t": "Why does the Sun look huge but other stars look like dots?", "o": ["The Sun is much closer", "The Sun is the biggest star", "Other stars are tiny", "Stars are behind clouds"], "e": "Some stars are bigger than the Sun but far away."},
+{"t": "Why is Venus hotter than Mercury though farther from the Sun?", "o": ["Its atmosphere traps heat", "It's closer", "It's bigger", "It has volcanoes only"], "e": "An atmosphere can trap heat."},
+{"t": "How do you find the Pole Star from the Big Dipper?", "o": ["Extend the line through the two end stars of its cup about 5 times their gap", "Look south", "Find the brightest star", "Follow Orion's belt"], "e": "That leads to a not-very-bright star — Polaris."},
+{"t": "Why do Moon craters last so long?", "o": ["No atmosphere, water or life to erode them", "They are made of steel", "The Moon is new", "They are refilled"], "e": "On Earth, wind and water would wear them down."},
+{"t": "Why can't the Pole Star be seen from the Southern Hemisphere?", "o": ["It lies above the north", "It sets at night", "It's too dim", "It's behind the Sun"], "e": "It's useful for north only in the Northern Hemisphere."},
+{"t": "1 astronomical unit (au) is about…", "o": ["The Sun–Earth distance", "The Earth–Moon distance", "The Earth's diameter", "1 km"], "e": "About 150 million km."},
+{"t": "Why was Pluto reclassified as a dwarf planet in 2006?", "o": ["More similar small objects were found and 'planet' was redefined", "It disappeared", "It moved closer", "It became a star"], "e": "The IAU redefined the word."},
+{"t": "Chandrayaan-3 made India the first country to land near the Moon's…", "o": ["South pole", "North pole", "Equator", "Far side"], "e": "Vikram lander with Pragyan rover, 23 August 2023."},
+{"t": "23 August is celebrated as…", "o": ["National Space Day", "World Water Day", "Earth Day", "Science Day"], "e": "Marking Chandrayaan-3's landing."},
+{"t": "Why wait about half an hour in the dark before stargazing?", "o": ["Eyes adjust to darkness", "Stars come out later", "Moon must set", "Clouds clear"], "e": "Adjusted eyes see far more stars."}
+]},
+{"q": [
+{"t": "The Sun's diameter is about how many times the Earth's?", "n": 100, "e": "About 100 times bigger in diameter."},
+{"t": "The Moon's diameter is about what fraction of the Earth's?", "o": ["A quarter", "Half", "Same", "One-hundredth"], "e": "About ¼ the size."},
+{"t": "The Moon is about how far from Earth?", "o": ["384,000 km", "150 million km", "1,000 km", "38 km"], "e": "Our nearest neighbour in space."},
+{"t": "Proxima Centauri is about 269,000 au away. This means it is…", "o": ["269,000 times as far as the Sun", "Closer than the Sun", "Same as the Moon", "In our Solar System"], "e": "It's the nearest star after the Sun."},
+{"t": "Planets get most energy from the Sun, so generally…", "o": ["The farther away, the colder", "The farther, the hotter", "All are the same", "Distance doesn't matter"], "e": "Except where an atmosphere traps heat, like Venus."},
+{"t": "Why is Earth called the Blue Planet?", "o": ["Much of its surface is covered with water", "Its sky is blue", "It's cold", "Its soil is blue"], "e": "From space it appears blue."},
+{"t": "Orion is best seen from India during…", "o": ["December to April", "June to August", "Only in monsoon", "Never"], "e": "After sunset in those months."},
+{"t": "To find Sirius from Orion, extend the belt line towards the…", "o": ["East", "West", "North", "Down to the ground"], "e": "The belt's three stars point to Sirius."},
+{"t": "Today a constellation means…", "o": ["A defined region of the sky", "Only a star pattern", "A planet group", "A galaxy"], "e": "Originally a pattern, now one of 88 regions."},
+{"t": "Chandrayaan-4 aims to…", "o": ["Bring back lunar soil and rock samples", "Land on Mars", "Orbit the Sun", "Find water on Venus"], "e": "A sample-return mission."}
+]}
+]}

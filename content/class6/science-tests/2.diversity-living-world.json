@@ -1,0 +1,52 @@
+{
+"title": "2. Diversity in the Living World",
+"tests": [
+{"q": [
+{"t": "The variety of plants and animals in a region is its…", "o": ["Biodiversity", "Habitat", "Adaptation", "Venation"], "e": "Biodiversity is the variety of life in a region."},
+{"t": "A mango plant is a…", "o": ["Tree", "Shrub", "Herb", "Creeper"], "e": "Tall, with a hard, thick, woody stem."},
+{"t": "A rose plant is a…", "o": ["Shrub", "Tree", "Herb", "Climber"], "e": "Medium height, hard thinner stem, branches near the ground."},
+{"t": "A tomato plant is a…", "o": ["Herb", "Tree", "Shrub", "Climber"], "e": "Short, with a soft green stem."},
+{"t": "A pumpkin plant that spreads along the ground is a…", "o": ["Creeper", "Climber", "Tree", "Shrub"], "e": "Weak stem that creeps along the ground."},
+{"t": "A money plant that needs support is a…", "o": ["Climber", "Creeper", "Herb", "Tree"], "e": "Weak stem that climbs with support."},
+{"t": "The place where a plant or animal lives is its…", "o": ["Habitat", "Adaptation", "Venation", "Cotyledon"], "e": "A habitat provides food, water, air and shelter."},
+{"t": "A cactus stores water in its…", "o": ["Thick fleshy stem", "Leaves", "Flowers", "Thin roots"], "e": "That helps it survive in the desert."},
+{"t": "Frogs live…", "o": ["Both on land and in water", "Only on land", "Only in water", "Only in trees"], "e": "Amphibians live in both."},
+{"t": "Who is called the 'Birdman of India'?", "o": ["Salim Ali", "Janaki Ammal", "C.V. Raman", "Jagadish Bose"], "e": "He documented birds and their habitats across India."}
+]},
+{"q": [
+{"t": "Net-like veins on a leaf are called…", "o": ["Reticulate venation", "Parallel venation", "Taproot", "Fibrous"], "e": "Like hibiscus — a net either side of a middle vein."},
+{"t": "Banana and grass leaves have…", "o": ["Parallel venation", "Reticulate venation", "No veins", "Taproots"], "e": "Their veins run side by side."},
+{"t": "One main root with side roots is a…", "o": ["Taproot", "Fibrous root", "Climber", "Cotyledon"], "e": "Mustard and hibiscus have taproots."},
+{"t": "Grass has…", "o": ["Fibrous roots", "A taproot", "No roots", "Woody roots"], "e": "A bunch of similar thin roots."},
+{"t": "A chickpea seed splits into two parts. It is a…", "o": ["Dicot", "Monocot", "Herb", "Fibrous"], "e": "Di = two cotyledons."},
+{"t": "Maize has a single cotyledon. It is a…", "o": ["Monocot", "Dicot", "Shrub", "Taproot"], "e": "Mono = one."},
+{"t": "Why is a deodar tree cone-shaped with sloping branches?", "o": ["Snow slides off", "To catch rain", "To store water", "To attract birds"], "e": "It's adapted to snowy mountains."},
+{"t": "Special features that help living things survive in a place are…", "o": ["Adaptations", "Habitats", "Biodiversity", "Venations"], "e": "Adaptations suit an organism to its habitat."},
+{"t": "Ponds, rivers and oceans are…", "o": ["Aquatic habitats", "Terrestrial habitats", "Deserts", "Mountains"], "e": "Aquatic = in water."},
+{"t": "Project Tiger began in…", "o": ["1973", "2022", "1947", "1900"], "e": "To protect the Bengal tiger. Cheetah reintroduction began in 2022."}
+]},
+{"q": [
+{"t": "A plant has parallel venation. Its roots are most likely…", "o": ["Fibrous", "Taproot", "Woody", "Absent"], "e": "Monocot → parallel venation → fibrous roots travel together."},
+{"t": "A plant has a taproot. Its leaves most likely show…", "o": ["Reticulate venation", "Parallel venation", "No veins", "Needle shape"], "e": "Dicot → reticulate → taproot."},
+{"t": "Why is it useful that these features travel together?", "o": ["You can predict roots from leaves without digging", "It makes plants grow faster", "It is just coincidence", "It is not useful"], "e": "One look at a leaf tells you about the roots and seed."},
+{"t": "Camels in Rajasthan have long legs with wide hooves to…", "o": ["Walk on sand without sinking", "Climb mountains", "Swim", "Store water"], "e": "Wide hooves spread the weight on soft sand."},
+{"t": "Ladakh camels have two humps and long hair because…", "o": ["They live in a cold desert", "They live in hot sand", "They swim", "They are young"], "e": "Long hair keeps them warm; humps store food for winter."},
+{"t": "Camels lose very little water because they…", "o": ["Don't sweat and make little urine and dry dung", "Drink seawater", "Sweat a lot", "Live in rivers"], "e": "That lets them go many days without drinking."},
+{"t": "Rhododendrons on windy peaks are shorter with smaller leaves to…", "o": ["Survive heavy winds", "Store water", "Catch snow", "Grow fruit"], "e": "Smaller and shorter means less wind damage."},
+{"t": "Two students group the same plants differently. Which is true?", "o": ["Both can be right — they chose different features", "One must be wrong", "Grouping is impossible", "Only height counts"], "e": "The useful question is which feature answers your question."},
+{"t": "Why does biodiversity vary from region to region?", "o": ["Conditions vary, so different adaptations survive", "Animals choose randomly", "Plants move around", "It doesn't vary"], "e": "Only living things with the right adaptations survive in each place."},
+{"t": "Why did the Great Indian Bustard decline?", "o": ["Habitat loss from human activities", "Too much food", "Cold weather", "It migrated away"], "e": "Damaging a habitat destroys home, food and resources."}
+]},
+{"q": [
+{"t": "Wheat has parallel-veined leaves. Predict its seed type and roots:", "o": ["Monocot, fibrous roots", "Dicot, taproot", "Monocot, taproot", "Dicot, fibrous roots"], "e": "Parallel venation goes with monocot seeds and fibrous roots."},
+{"t": "Sadabahar has net-like veins. Predict:", "o": ["Dicot with a taproot", "Monocot with fibrous roots", "Monocot with a taproot", "No roots"], "e": "Reticulate → dicot → taproot."},
+{"t": "A tree and a shrub both have hard brown stems. How can you tell them apart?", "o": ["A shrub branches close to the ground; a tree higher up", "By leaf colour", "A tree is always green", "They can't be told apart"], "e": "Trees branch higher up the thick trunk."},
+{"t": "Why do plants and animals in a habitat depend on each other?", "o": ["Trees give food and shelter; animals spread seeds", "They don't", "Only animals need plants", "Only plants need animals"], "e": "Every member has a role."},
+{"t": "A Ladakh camel's humps shrink in late winter because…", "o": ["The stored food is being used up", "They are cold", "It is ill", "Snow presses them"], "e": "Humps store food for the lean season."},
+{"t": "Janaki Ammal helped save which place?", "o": ["Silent Valley", "Gir forest", "Sundarbans", "Keoladeo"], "e": "The Save Silent Valley movement stopped a dam on the Kunthipuzha river in Kerala."},
+{"t": "Salim Ali helped preserve…", "o": ["Keoladeo National Park, Bharatpur", "Silent Valley", "Gir", "Kaziranga"], "e": "He also helped preserve Ranganathittu Bird Sanctuary."},
+{"t": "A fish has a streamlined body and fins because it…", "o": ["Moves through water", "Lives in deserts", "Climbs trees", "Flies"], "e": "This shape slips easily through water."},
+{"t": "A pigeon walks and flies using…", "o": ["Legs and wings", "Fins", "Its body only", "Wings only"], "e": "Animals can be grouped by movement and body parts used."},
+{"t": "A snake moves by…", "o": ["Crawling using its body", "Walking on legs", "Flying", "Swimming with fins"], "e": "Snakes have no legs; they crawl."}
+]}
+]}

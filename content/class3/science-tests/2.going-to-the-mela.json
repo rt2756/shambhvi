@@ -1,0 +1,52 @@
+{
+"title": "2. Going to the Mela",
+"tests": [
+{"q": [
+{"t": "How did Nita's family travel to the mela?", "o": ["By bus", "By aeroplane", "By boat", "On foot only"], "e": "The mela was a little far from home."},
+{"t": "Who needed help to walk because her legs hurt?", "o": ["Dadiji", "Nita", "Sneha", "Radha"], "e": "The family took care of her."},
+{"t": "Where did Dadiji sit in the bus?", "o": ["A seat reserved for older people", "On the floor", "Next to the driver", "On the roof"], "e": "Buses keep seats for elders."},
+{"t": "Who sells tickets on a bus?", "o": ["The conductor", "The driver", "A police officer", "A doctor"], "e": "\"Five full and four half tickets please.\""},
+{"t": "What did Mohan Chacha bring for Dadiji at the mela?", "o": ["A wheelchair", "A bicycle", "A bag", "A toy"], "e": "It helped her move around."},
+{"t": "What is a 'Lost and Found' booth for?", "o": ["Helping people find lost children or things", "Selling toys", "Food", "Rides"], "e": "Volunteers help there."},
+{"t": "What must you do before eating?", "o": ["Wash your hands", "Run around", "Sleep", "Buy toys"], "e": "Clean hands keep germs out of food."},
+{"t": "Where should food waste go?", "o": ["In the dustbin", "On the ground", "In the river", "Under a stall"], "e": "Keeps the mela clean."},
+{"t": "Which animal was with the police officer?", "o": ["A police dog", "A horse", "A cat", "An elephant"], "e": "Police dogs help keep people safe."},
+{"t": "Kumbh Mela is held once every…", "o": ["12 years", "1 year", "5 years", "100 years"], "e": "It's the world's biggest gathering."}
+]},
+{"q": [
+{"t": "Why should you not put your hands or head out of a bus window?", "o": ["It's unsafe — you could get hurt", "It's rude", "It's cold", "The bus stops"], "e": "Vehicles pass very close."},
+{"t": "Why are an ambulance and fire engine parked at a mela?", "o": ["To help quickly if someone is hurt or there's a fire", "To give rides", "To sell food", "For decoration"], "e": "Being ready saves lives."},
+{"t": "How did Nita walk Dadiji to the bus stop?", "o": ["Slowly, watching vehicles both ways", "Running fast", "With eyes closed", "On the road middle"], "e": "Careful walking keeps everyone safe."},
+{"t": "What does a map at the mela entrance show?", "o": ["Where the stalls are", "The weather", "Bus times", "Prices"], "e": "It helps you find your way."},
+{"t": "Mohan Chacha came by city bus and then…", "o": ["An autorickshaw", "A train only", "A boat", "A horse"], "e": "Different transport for different distances."},
+{"t": "Which rides did the children enjoy?", "o": ["Merry-go-round and giant wheel", "Roller coaster and boat", "Aeroplane", "Elephant ride"], "e": "Both go round and round."},
+{"t": "A halwai makes…", "o": ["Sweets", "Toys", "Bangles", "Mehendi"], "e": "Also called a confectioner."},
+{"t": "Kumbh Mela happens on the banks of which rivers?", "o": ["Ganga, Yamuna, Godavari, Shipra", "Only the Ganga", "Brahmaputra", "Narmada only"], "e": "At Haridwar, Prayagraj, Nashik and Ujjain."},
+{"t": "Children travel on…", "o": ["Half tickets", "Full tickets always", "No tickets", "Free passes always"], "e": "Four half tickets were bought for them."},
+{"t": "Who put on a show with puppets and tricks?", "o": ["Puppeteer and magician", "Police", "Doctor", "Conductor"], "e": "Melas have many performers."}
+]},
+{"q": [
+{"t": "Why did the family carry water bottles?", "o": ["To stay hydrated on the trip", "To water plants", "To wash the bus", "To sell"], "e": "Good preparation for a trip."},
+{"t": "How can we care for elders while travelling?", "o": ["Hold their hand, find them a seat, walk slowly", "Leave them behind", "Make them run", "Ignore them"], "e": "Like Nita did for Dadiji."},
+{"t": "If you get lost at a mela, the best place to go is…", "o": ["The Lost and Found booth", "Outside the gate alone", "Any stranger's car", "Hide somewhere"], "e": "Volunteers help reunite families."},
+{"t": "Which shows good behaviour in a bus?", "o": ["Sitting in your seat", "Jumping around", "Shouting", "Leaning out"], "e": "Rohit's father reminded the children."},
+{"t": "Which vehicle carries sick or hurt people?", "o": ["Ambulance", "Fire engine", "Autorickshaw", "Tractor"], "e": "It rushes them to hospital."},
+{"t": "Which vehicle puts out fires?", "o": ["Fire engine", "Ambulance", "Police jeep", "Bus"], "e": "Firefighters work on it."},
+{"t": "In a sketch map, a house closer to the ground means…", "o": ["A shorter walk", "A longer walk", "No difference", "It's bigger"], "e": "Maps show distances."},
+{"t": "Why did everyone eat together after washing hands?", "o": ["Hands carry germs that can make you sick", "Water tastes good", "It's a game", "To wake up"], "e": "Hygiene."},
+{"t": "What things are sold at a mela?", "o": ["Toys, bangles, sweets and food", "Cars", "Houses", "Cows only"], "e": "Many stalls with many things."},
+{"t": "Phirkis, spinning tops and puppets are…", "o": ["Toys", "Food", "Vehicles", "Signs"], "e": "Bought at the toy stall."}
+]},
+{"q": [
+{"t": "5 full tickets and 4 half tickets — how many people in total?", "n": 9, "k": "5+4", "e": "Each ticket is for one person."},
+{"t": "If a half ticket is ₹10 and a full ticket ₹20, what do 4 half tickets cost (₹)?", "n": 40, "u": "₹", "k": "4*10", "e": "4 × 10 = 40."},
+{"t": "Why are melas fun for families?", "o": ["People meet, play, eat and enjoy together", "They are quiet", "Nobody goes", "Only shopping"], "e": "Families near and far come together."},
+{"t": "Which is a safety helper at a mela?", "o": ["Volunteer at the Lost and Found booth", "Bangle seller", "Magician", "Mehendi artist"], "e": "Police, firefighters and medical attendants help too."},
+{"t": "How did Rohit's father help?", "o": ["Bought tickets for everyone", "Drove the bus", "Sold toys", "Carried Dadiji"], "e": "Families help each other."},
+{"t": "How did the families in the community show they help each other?", "o": ["They travelled together and cared for Dadiji", "They went separately", "They argued", "They left Dadiji home"], "e": "That's what makes a community."},
+{"t": "If you had to walk from the police station to the parade ground, you'd use a…", "o": ["Map or sketch of the route", "Clock", "Thermometer", "Calendar"], "e": "Maps show the way."},
+{"t": "Which of these is NOT safe at a mela?", "o": ["Wandering off alone", "Holding an adult's hand", "Staying with your group", "Knowing a meeting point"], "e": "You could get lost."},
+{"t": "Gol gappas, chaat and jalebis are…", "o": ["Foods eaten at the mela", "Toys", "Rides", "Animals"], "e": "Delicious mela snacks."},
+{"t": "Melas long ago were probably different. How can you find out?", "o": ["Ask elders in your family", "Guess", "Ask a toy", "You can't"], "e": "Elders remember the old days."}
+]}
+]}

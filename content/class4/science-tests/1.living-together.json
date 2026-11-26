@@ -1,0 +1,52 @@
+{
+"title": "1. Living Together",
+"tests": [
+{"q": [
+{"t": "Van Mahotsav is a festival for…", "o": ["Planting trees", "Kites", "Harvest", "Lights"], "e": "Also called the Tree Planting Festival."},
+{"t": "Van Mahotsav is celebrated from…", "o": ["1 to 7 July", "1 to 7 January", "15 August", "2 October"], "e": "During the rainy season."},
+{"t": "Where did Chandan's village elders gather to talk?", "o": ["Under a big banyan tree", "In a shop", "At the river", "In a bus"], "e": "At the corner of the playground."},
+{"t": "Who treats patients and prescribes medicine?", "o": ["Doctor", "Mason", "Postman", "Police"], "e": "At a health centre or hospital."},
+{"t": "Who provides safety in a community?", "o": ["Police", "Shopkeeper", "Farmer", "Tailor"], "e": "They help keep people safe."},
+{"t": "A mason mends walls using…", "o": ["Bricks, cement and a trowel", "Scissors", "Paint only", "Seeds"], "e": "Each job has its tools."},
+{"t": "Who brought saplings for the park?", "o": ["Noor, from her plant nursery", "Sameer", "Babita", "John"], "e": "Everyone contributed."},
+{"t": "Sameer offered to fix the…", "o": ["Benches", "Street light", "Road", "Bridge"], "e": "With wood and nails."},
+{"t": "Babita offered to repair the…", "o": ["Street light", "Benches", "Bridge", "Hospital"], "e": "Next to the park."},
+{"t": "After the feast, banana leaves were…", "o": ["Buried in a pit", "Burnt", "Thrown in the river", "Left in the park"], "e": "They become manure."}
+]},
+{"q": [
+{"t": "Why are parks, schools and hospitals important?", "o": ["Everyone in the community uses them", "They are decorations", "Only rich people use them", "They're not important"], "e": "Public places serve all."},
+{"t": "Why does planting trees help the elders' morning walk?", "o": ["Better air and shade", "Trees make noise", "Trees block paths", "No reason"], "e": "Mallika's idea."},
+{"t": "Where was the community bridge built?", "o": ["Kanker, Chhattisgarh", "Delhi", "Kerala", "Punjab"], "e": "Over the Chinar river."},
+{"t": "The community bridge was built in…", "o": ["Two days using bamboo and stones", "Two years with steel", "One hour", "By the government only"], "e": "In the 2024 rainy season."},
+{"t": "Leaves buried in a pit become…", "o": ["Manure that improves soil", "Plastic", "Stone", "Water"], "e": "Nature's recycling."},
+{"t": "An ant colony is like a community because…", "o": ["Each ant has a special job", "Ants live alone", "Ants don't work", "Ants fight always"], "e": "Food collectors, nurses, guards."},
+{"t": "Bees also live as a community with roles like…", "o": ["Gathering food and building hives", "Swimming", "Digging tunnels", "Singing"], "e": "Teamwork."},
+{"t": "Bhela Ghar is a hut built for…", "o": ["Magh Bihu (Uruka) in Assam", "Diwali", "Onam", "Pongal"], "e": "Made of bamboo and hay."},
+{"t": "In Sikkim, farm helpers who harvest together are called…", "o": ["Khetala", "Mason", "Teekedaar", "Volunteer"], "e": "Specialists in agriculture."},
+{"t": "Uruka is celebrated on…", "o": ["14 January", "1 July", "26 January", "25 December"], "e": "First day of Magh Bihu."}
+]},
+{"q": [
+{"t": "Why is it important for communities to come together in need?", "o": ["Problems get solved faster together", "One person can do everything", "It's a rule only", "It isn't"], "e": "Like the Kanker bridge."},
+{"t": "What would happen if the bridge wasn't built?", "o": ["Children couldn't reach school in floods", "Nothing", "More fish", "Roads would be dry"], "e": "Floods cut villages off."},
+{"t": "How do roads help a community?", "o": ["Connect people and move goods", "Block movement", "Only for decoration", "Make noise only"], "e": "Connections between places."},
+{"t": "Why did the children decide to take care of the park later?", "o": ["They felt it belonged to everyone", "They were forced", "To play alone", "No reason"], "e": "Shared spaces need shared care."},
+{"t": "What's your role as a member of your school community?", "o": ["Help keep it clean, follow rules, help others", "Nothing", "Only study", "Only play"], "e": "Everyone has a role."},
+{"t": "Which is a public place?", "o": ["Playground", "Your bedroom", "Your kitchen", "Your cupboard"], "e": "Shared by everyone."},
+{"t": "How were groups organised at Van Mahotsav?", "o": ["Cleaning, planting, watering, cooking", "Only eating", "Only playing", "Only singing"], "e": "Teamwork with roles."},
+{"t": "Why do we ask people about their work?", "o": ["To learn their tools, skills and challenges", "To tease them", "To waste time", "No reason"], "e": "Interviews teach a lot."},
+{"t": "Which shows interdependence?", "o": ["Farmers grow food; shopkeepers sell it; we buy it", "Living alone", "Never sharing", "Ignoring neighbours"], "e": "We all depend on each other."},
+{"t": "A community feast on banana leaves is good for nature because…", "o": ["Leaves rot into manure, unlike plastic plates", "Leaves are plastic", "It's cheaper only", "No reason"], "e": "Zero plastic waste."}
+]},
+{"q": [
+{"t": "Van Mahotsav lasts from 1 to 7 July. How many days?", "n": 7, "k": "7-1+1", "e": "Count both ends."},
+{"t": "If 12 families each plant 3 saplings, how many saplings?", "n": 36, "k": "12*3", "e": "12 × 3 = 36."},
+{"t": "If a school has a bus driver, teachers and a caretaker, what does the caretaker do?", "o": ["Keeps the school clean and safe", "Teaches maths", "Drives the bus", "Cooks only"], "e": "Each role matters."},
+{"t": "How would life change if your locality had no health centre?", "o": ["Sick people would have to travel far for treatment", "Nothing", "Better health", "More shops"], "e": "Public services matter."},
+{"t": "What can you do to keep public places clean?", "o": ["Use dustbins and avoid littering", "Throw wrappers", "Break benches", "Write on walls"], "e": "Respect shared spaces."},
+{"t": "Which pair is matched correctly?", "o": ["Shopkeeper — sells daily needs", "Police — sells clothes", "Doctor — builds walls", "Mason — treats illness"], "e": "Match people to work."},
+{"t": "What made the Van Mahotsav park beautiful?", "o": ["Saplings, clean paths, painted walls", "Plastic flowers", "More garbage", "Cutting trees"], "e": "Teamwork made it inviting."},
+{"t": "Why plant trees in the rainy season?", "o": ["Rain helps saplings grow roots", "It's cold", "Trees dislike sun", "Schools close"], "e": "Water helps young plants."},
+{"t": "How do festivals bring communities together?", "o": ["People plan, work, eat and celebrate together", "People stay apart", "Only shopping", "Only sleeping"], "e": "Shared joy builds bonds."},
+{"t": "A group of children made a poster to…", "o": ["Invite neighbours to Van Mahotsav", "Sell toys", "Advertise a film", "Complain"], "e": "Communication helps teamwork."}
+]}
+]}

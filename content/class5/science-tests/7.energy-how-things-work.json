@@ -1,0 +1,52 @@
+{
+"title": "7. Energy — How Things Work",
+"tests": [
+{"q": [
+{"t": "Can we see energy itself?", "o": ["No — we only see what it does", "Yes, always", "Only at night", "Only in the sun"], "e": "We see things move, shine, sound, warm or cool — the signs of energy."},
+{"t": "A plucked rubber band makes sound because it…", "o": ["Vibrates", "Gets hot", "Shines", "Stops moving"], "e": "Sound needs vibration — moving rapidly to and fro."},
+{"t": "What is the fuel for our bodies?", "o": ["Food", "Water only", "Air only", "Sleep"], "e": "Every movement is paid for out of what we eat."},
+{"t": "In an oil lamp, what is the fuel?", "o": ["The oil", "The wick", "The diya", "The matchstick"], "e": "The wick only carries oil up to the flame."},
+{"t": "Most electricity in India is made by burning…", "o": ["Coal", "Wood", "Paper", "Oil lamps"], "e": "Coal power makes lots of smoke and harmful gases."},
+{"t": "Which is a clean energy source?", "o": ["Sunlight", "Coal", "Wood", "Kerosene"], "e": "Sun, wind and flowing water give energy without smoke."},
+{"t": "The main source of energy for life on Earth is…", "o": ["The Sun", "The Moon", "Coal", "Batteries"], "e": "Follow almost any energy chain back and you reach the Sun."},
+{"t": "An LED bulb compared to an old bulb…", "o": ["Gives the same light using less electricity", "Uses more electricity", "Gives no light", "Is always dimmer"], "e": "That is energy efficiency — same work, less energy."},
+{"t": "Why do torches and phones need batteries?", "o": ["To store energy for when no supply is attached", "To make them heavier", "For decoration", "To cool them"], "e": "Batteries keep energy until it's needed."},
+{"t": "What should you do if you see a fallen electric wire?", "o": ["Stay away and tell an adult", "Touch it to check", "Move it with a stick", "Step over it"], "e": "A live wire looks exactly like a dead one, so never touch."}
+]},
+{"q": [
+{"t": "A balloon flies forward when air rushes out backwards because…", "o": ["The air pushes back on the balloon as it leaves", "The room pushes it", "Air is pulling it", "It is lighter"], "e": "Everything that pushes gets pushed back — that's how rockets work."},
+{"t": "A dry wick burns out in seconds; an oiled wick burns long. Why?", "o": ["The oil is the real fuel", "The dry wick is broken", "Oil makes it cold", "The diya is different"], "e": "A lamp burns as long as it is fed oil."},
+{"t": "Why do we feel tired when hungry?", "o": ["Our fuel supply is running low", "Food makes us sleepy", "Hunger is just a feeling", "Our brain stops"], "e": "Tiredness is what running low on fuel feels like."},
+{"t": "Why is electricity so useful?", "o": ["It can turn into almost any other form of energy", "It is free", "It can't be dangerous", "It makes no heat"], "e": "The same wires can run a fan, iron, bulb, bell or fridge."},
+{"t": "Why are coal and wood not 'clean'?", "o": ["They must be burnt, which always makes smoke and ash", "They are dirty to touch", "They are heavy", "They are expensive"], "e": "Burning always produces something — smoke, gases, ash."},
+{"t": "Why are Sun and wind called renewable?", "o": ["The supply renews itself", "They are new", "They are cheap", "They are clean only"], "e": "The Sun rises again; coal, once burnt, is gone forever."},
+{"t": "Thicker or looser rubber bands give a…", "o": ["Lower note", "Higher note", "No sound", "Louder only"], "e": "They vibrate more slowly, giving a lower note."},
+{"t": "Which uses the Sun's energy directly?", "o": ["Drying papads in the sun", "Burning coal", "A gas stove", "A diesel car"], "e": "Sun-drying uses sunlight with nothing in between."},
+{"t": "A gharaat is a…", "o": ["Village watermill", "Windmill", "Solar cooker", "Coal stove"], "e": "It grinds grain using flowing water."},
+{"t": "The tides are driven mainly by…", "o": ["The Moon", "The Sun only", "Wind", "Coal"], "e": "Tides are the chief exception to 'everything traces back to the Sun'."}
+]},
+{"q": [
+{"t": "A magnifying glass burns paper because it…", "o": ["Concentrates sunlight onto a tiny spot", "Makes sunlight hotter", "Creates new energy", "Blocks light"], "e": "The same energy lands on a much smaller area. Concentrating is not creating."},
+{"t": "Trace the energy chain: you run after eating a chapati. Where did the energy first come from?", "o": ["The Sun, which grew the wheat", "The chapati only", "The stove", "Your legs"], "e": "The plant grew using sunlight; follow the chain back and you reach the Sun."},
+{"t": "Petrol's energy came originally from…", "o": ["Sunlight captured by ancient living things", "The Moon", "The petrol pump", "Wind"], "e": "Petrol formed from very ancient living things that grew in sunlight."},
+{"t": "The hardest part of using clean energy is…", "o": ["Storing it until needed", "Capturing it", "Paying for sunlight", "Finding wind"], "e": "The Sun doesn't shine at night, so better batteries matter."},
+{"t": "Switching off a fan in an empty room is…", "o": ["Removing waste, not going without", "A sacrifice", "Bad for the fan", "Unnecessary"], "e": "No comfort was being delivered to anyone."},
+{"t": "Why do smoke-free stoves matter?", "o": ["Smoke in a closed kitchen harms health", "They cook faster only", "They are prettier", "They use coal"], "e": "Cleaner fuel is a health question first."},
+{"t": "Why does a rocket move in empty space with nothing to push against?", "o": ["It pushes on its own exhaust", "Air pushes it", "Gravity pulls it forward", "It doesn't move"], "e": "Like the balloon, it pushes gas out and is pushed the other way."},
+{"t": "Families in Ladakh keep cattle on the ground floor because…", "o": ["The animals' body heat warms the home above", "Cattle like stairs", "It's cleaner", "For safety from floods"], "e": "A traditional use of energy from living bodies."},
+{"t": "Vaastu shastra placed rooms and windows to…", "o": ["Make best use of natural light, wind and heat", "Use more electricity", "Keep homes dark", "Block air"], "e": "Good placement keeps homes bright and airy without electricity."},
+{"t": "Coal is useful even though dirty because…", "o": ["It is energy already stored", "It is renewable", "It is clean", "It never runs out"], "e": "It sits in a heap until burnt — no storage problem."}
+]},
+{"q": [
+{"t": "The Sun gives the Earth in one hour more energy than…", "o": ["All humans use in a whole year", "One city uses in a day", "A candle", "A battery"], "e": "That's how enormous the Sun's supply is."},
+{"t": "Which shows energy as movement?", "o": ["A balloon flying across a room", "A cup warming in the sun", "A plucked band humming", "A bulb glowing"], "e": "The balloon moves; the others show heat, sound and light."},
+{"t": "An electric iron turns electricity into mainly…", "o": ["Heat", "Sound", "Movement", "Cold"], "e": "Electricity becomes whatever the plugged-in device needs."},
+{"t": "Bhadla Solar Park in Rajasthan is…", "o": ["One of the world's largest solar plants", "A coal mine", "A wind farm in the sea", "A dam"], "e": "It captures sunlight on a huge scale."},
+{"t": "Why are safety rules about electricity 'stay away', not 'be careful'?", "o": ["Electricity gives no warning", "Wires are always safe", "Adults like rules", "It's slow"], "e": "You can't inspect your way to safety."},
+{"t": "Ancient traders from Gujarat sailed to Africa using…", "o": ["Wind", "Coal", "Electricity", "Petrol"], "e": "Sails catch wind — clean energy used for centuries."},
+{"t": "Which change is energy efficiency?", "o": ["Replacing old bulbs with LEDs", "Leaving lights on", "Using two bulbs instead of one", "Using a bigger fan"], "e": "Same light, less electricity."},
+{"t": "Your brain uses energy…", "o": ["Even when you are asleep", "Only when awake", "Only when running", "Never"], "e": "It never stops working."},
+{"t": "Which is the best reason solar power needs batteries for a village?", "o": ["People want light at night when there's no sun", "Batteries make sunlight", "Panels only work at night", "Batteries are free"], "e": "Energy must be kept until it's needed."},
+{"t": "A solar cooker uses mirrors to…", "o": ["Concentrate sunlight onto the pot", "Make the sun bigger", "Store coal", "Block heat"], "e": "Same principle as the magnifying glass."}
+]}
+]}

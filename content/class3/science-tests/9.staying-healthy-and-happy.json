@@ -1,0 +1,52 @@
+{
+"title": "9. Staying Healthy and Happy",
+"tests": [
+{"q": [
+{"t": "How many times a day should we brush our teeth?", "n": 2, "e": "After waking up and before bed."},
+{"t": "How many glasses of water should we drink daily?", "o": ["6–8", "1", "20", "None"], "e": "Water keeps the body working well."},
+{"t": "How many hours should we sleep at least?", "n": 8, "u": "hours", "e": "Sleep helps body and mind recover."},
+{"t": "When should we wash hands with soap?", "o": ["After the toilet and after coming home", "Only once a week", "Never", "Only before sleeping"], "e": "Soap removes germs."},
+{"t": "Moyna's Dadu cleans his teeth with…", "o": ["Neem or babool twigs (datun)", "A spoon", "Sand", "Salt only"], "e": "An Indian tradition."},
+{"t": "Which twig did Moyna find too bitter?", "o": ["Neem", "Babool", "Mango", "Banyan"], "e": "She preferred babool."},
+{"t": "Monkeys groom each other to…", "o": ["Keep insects off their bodies", "Play only", "Fight", "Sleep"], "e": "Animals keep clean too."},
+{"t": "Exercise makes our heart…", "o": ["Work harder and better", "Stop", "Shrink", "Sleep"], "e": "That's why we breathe fast while running."},
+{"t": "Which is a safe place to play?", "o": ["A park", "A busy road", "A construction site", "A roof without railings"], "e": "Safe spaces prevent accidents."},
+{"t": "A stranger offers you sweets. You should say…", "o": ["No, thank you", "Yes please", "Go with them", "Ask for more"], "e": "Don't interact with strangers without a trusted adult."}
+]},
+{"q": [
+{"t": "Reetha and shikakai are used to wash…", "o": ["Hair", "Clothes only", "Floors", "Teeth"], "e": "Traditional natural cleaners."},
+{"t": "The home-cleaner uses orange or lemon peels and…", "o": ["White vinegar", "Milk", "Oil", "Sugar"], "e": "Kept in the sun for two weeks."},
+{"t": "Why do our cheeks turn red and we sweat after running?", "o": ["Exercise makes the body warm and heart work harder", "We're sick", "It's cold", "We ate too much"], "e": "A sign of exercise."},
+{"t": "Why should we rinse our mouth after eating?", "o": ["To remove food bits that harm teeth", "To get hungry", "For fun", "It's not needed"], "e": "Prevents cavities."},
+{"t": "Birds clean their feathers using…", "o": ["Their beaks", "Water only", "Leaves", "Claws only"], "e": "Animals keep themselves clean."},
+{"t": "Harpreet's grandmother keeps her mind active by playing…", "o": ["Chess", "Football", "Kabaddi", "Running races"], "e": "Both mind and body should be active."},
+{"t": "Which is unsafe to play on?", "o": ["A roof without railings", "A schoolground", "A park", "An open field with adults"], "e": "You could fall."},
+{"t": "If a stranger says your mother sent them, you should…", "o": ["Say no and stay with a trusted adult", "Go with them", "Get in the car", "Ask for sweets"], "e": "Families can use a secret password."},
+{"t": "Trimmed, clean nails help because…", "o": ["Dirt and germs can hide under long nails", "They look shiny", "They grow faster", "No reason"], "e": "Germs can reach your mouth."},
+{"t": "Feelings like sleepy, hungry or tired are the body's way of…", "o": ["Telling us something is needed", "Being naughty", "Nothing", "Making noise"], "e": "Listen to your body."}
+]},
+{"q": [
+{"t": "Moyna's day: 8 h sleep, 2 h eat, 6 h school, 2 h play, 2 h help, 1 h TV, 1 h toilet, 2 h other. Total hours?", "n": 24, "u": "hours", "k": "8+2+6+2+2+1+1+2", "e": "A full day is 24 hours."},
+{"t": "In Moyna's day, which takes the most time?", "o": ["Sleeping", "Eating", "Playing", "TV"], "e": "8 hours."},
+{"t": "The modern toothbrush idea came from…", "o": ["The Indian datun tradition", "Space science", "Cars", "Sports"], "e": "Twigs of neem, karanj, babool."},
+{"t": "Why does chewing a twig clean teeth?", "o": ["It becomes a brush that removes food bits and massages gums", "It is sweet", "It whitens with paint", "It doesn't"], "e": "Dadu's explanation."},
+{"t": "The body needs exercises for heart and breathing, strength, and…", "o": ["Flexibility", "Sleep only", "Eating", "Watching TV"], "e": "Three main types."},
+{"t": "Skipping rope helps…", "o": ["Build stamina and fitness", "Make you sleepy", "Improve eyesight only", "Nothing"], "e": "Count your jumps!"},
+{"t": "Why make your own cleaner from peels?", "o": ["It's eco-friendly and reuses waste", "It's poisonous", "It's expensive", "It's sticky"], "e": "Natural and safe."},
+{"t": "Which is NOT part of a healthy daily routine?", "o": ["Skipping sleep to watch TV", "Brushing twice", "Playing outside", "Drinking water"], "e": "Good sleep is essential."},
+{"t": "Walk like a duck, jump like a frog are…", "o": ["Fun exercises", "Dances only", "Punishments", "Chores"], "e": "Moving the body is fun."},
+{"t": "Kabaddi and kho-kho are…", "o": ["Outdoor games", "Board games", "Video games", "Card games"], "e": "Traditional Indian sports."}
+]},
+{"q": [
+{"t": "Moyna spends 2 hours playing out of 24. How many hours are NOT playing?", "n": 22, "u": "hours", "k": "24-2", "e": "24 − 2 = 22."},
+{"t": "If a circle is split into 24 slices for 24 hours, 8 slices are coloured for sleep. What fraction is sleep?", "o": ["One-third", "Half", "One-quarter", "All"], "e": "8 out of 24 = 1/3."},
+{"t": "Which week-table result suggests better health?", "o": ["More outdoor play and good sleep make you feel good", "More phone time makes you healthier", "Skipping breakfast helps", "Sleeping less is better"], "e": "Find patterns in your week."},
+{"t": "Why shouldn't you play near a construction site?", "o": ["Falling objects and machines can hurt you", "It's boring", "It's too clean", "It's a park"], "e": "Stay safe."},
+{"t": "What helps both mind and body?", "o": ["Being active — walking, playing, chess", "Only sitting", "Only sleeping", "Only TV"], "e": "Like Harpreet's grandmother."},
+{"t": "How did people wash hair long ago?", "o": ["With reetha and shikakai", "With shampoo bottles only", "With oil only", "They didn't"], "e": "Ask your grandparents."},
+{"t": "How long is the peel-cleaner kept in the sun?", "o": ["About two weeks", "One hour", "One year", "One day"], "e": "Shake it now and then."},
+{"t": "How much peel-cleaner goes in a bucket of water?", "o": ["One cup", "The whole jar", "One drop", "None"], "e": "For floors and bathrooms."},
+{"t": "Which is the best response if a stranger offers a ride home?", "o": ["\"No, I know my way back home\" and tell a trusted adult", "Get in", "Take sweets", "Give your address"], "e": "Stay safe."},
+{"t": "Why do we breathe faster after running?", "o": ["The body needs more air when working hard", "We're scared", "Air is thin", "No reason"], "e": "Exercise strengthens heart and lungs."}
+]}
+]}

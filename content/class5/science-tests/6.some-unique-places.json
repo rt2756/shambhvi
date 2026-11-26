@@ -1,0 +1,52 @@
+{
+"title": "6. Some Unique Places",
+"tests": [
+{"q": [
+{"t": "India's southernmost point is…", "o": ["Indira Point", "Kanyakumari", "Chennai", "Goa"], "e": "Indira Point in the Andaman and Nicobar Islands. Kanyakumari is the southern tip of the mainland."},
+{"t": "A species found in one place and nowhere else is…", "o": ["Endemic", "Extinct", "Common", "Migratory"], "e": "Endemic means belonging only to that one place."},
+{"t": "The world's largest mangrove forest is…", "o": ["The Sundarbans", "Silent Valley", "Gir", "Western Ghats"], "e": "The Sundarbans, where the Ganga meets the sea."},
+{"t": "Coral reefs are built by…", "o": ["Tiny sea animals", "Plants", "Rocks only", "Fish"], "e": "Corals are tiny animals whose skeletons build up into reefs."},
+{"t": "The Seven Sisters plus Sikkim make up…", "o": ["Northeast India", "South India", "The Western Ghats", "The islands"], "e": "These eight states form Northeast India."},
+{"t": "Living root bridges are found in…", "o": ["Meghalaya", "Rajasthan", "Kerala", "Goa"], "e": "They are grown by training living tree roots across streams."},
+{"t": "Silent Valley is in…", "o": ["Kerala", "Assam", "Gujarat", "Punjab"], "e": "It is a rainforest saved from a dam by the Save Silent Valley Movement."},
+{"t": "On a ferry, who should wear a life jacket?", "o": ["Everyone, even strong swimmers", "Only children", "Only non-swimmers", "Nobody"], "e": "Falling into open water is sudden, cold and rough."},
+{"t": "The Hargila is a…", "o": ["Stork", "Tiger", "Fish", "Tree"], "e": "The Greater Adjutant Stork, protected by women in Assam."},
+{"t": "Bhut Jolokia is…", "o": ["One of the world's hottest chillies", "A river", "A dance", "A bird"], "e": "Grown in the Northeast, it is even used to keep elephants away."}
+]},
+{"q": [
+{"t": "Why do tall island trees have buttress roots?", "o": ["Soil is shallow, so they widen their base", "To store water", "To catch fish", "For decoration"], "e": "Like card triangles on a paper tube, a wide base stops toppling."},
+{"t": "Why do mangrove roots stick up out of the mud?", "o": ["To take in air — the mud has almost none", "To catch insects", "To drink seawater", "To scare animals"], "e": "Roots must breathe; these are the roots' snorkels."},
+{"t": "Why are coral reefs so full of life?", "o": ["They give hollows and ledges to hide, feed and breed", "The water is warmer", "Fish are fed there", "They glow"], "e": "Like a forest on land, a reef provides structure."},
+{"t": "Why do islands have so many endemic species?", "o": ["They are cut off, so life changes to suit them alone", "They are bigger", "Animals are taken there", "It rains more"], "e": "Isolation means living things can't easily leave or arrive."},
+{"t": "Why are houses in the Northeast often on bamboo stilts?", "o": ["People build with local materials suited to the climate", "Bamboo is imported", "It's the law", "For fun"], "e": "Local materials and climate shape local designs."},
+{"t": "A biodiversity hotspot is a place…", "o": ["Rich in species found nowhere else, and under threat", "That is very hot", "With few species", "With no threats"], "e": "Both halves matter: rich in unique life AND threatened."},
+{"t": "The Western Ghats run through…", "o": ["Gujarat to Tamil Nadu on India's west side", "Only Assam", "Only Rajasthan", "The Andaman Islands"], "e": "Gujarat, Maharashtra, Goa, Karnataka, Kerala and Tamil Nadu."},
+{"t": "Why is Silent Valley called 'silent'?", "o": ["It lacks the constant buzzing of cicadas", "No animals live there", "People are not allowed to speak", "It has no wind"], "e": "Unlike most rainforests, cicadas don't fill it with sound."},
+{"t": "The Apatani of Arunachal Pradesh grow…", "o": ["Rice and fish in the same field", "Only tea", "Wheat in deserts", "Coral"], "e": "A clever system with no machines or fertilisers."},
+{"t": "Protected areas are places where…", "o": ["Trees can't be cut and animals can't be harmed", "Factories are built", "Hunting is allowed", "Dams must be built"], "e": "The government keeps them safe."}
+]},
+{"q": [
+{"t": "Why is a mangrove belt called the cheapest sea wall?", "o": ["It tires out storm waves, repairs itself and costs nothing", "It is made of concrete", "It blocks all water", "It is short"], "e": "Waves lose energy pushing through thousands of trunks and roots."},
+{"t": "Why is losing an endemic species so serious?", "o": ["It is lost from the whole world", "It can be found elsewhere", "It returns quickly", "It doesn't matter"], "e": "There's no other population anywhere to replace it."},
+{"t": "Why does a damaged reef take decades to recover?", "o": ["It is built from skeletons of many generations of tiny animals", "Water is too cold", "Fish eat it", "It is made of glass"], "e": "Reefs grow very slowly."},
+{"t": "Why do so many rivers start in the Western Ghats?", "o": ["High hills catch lots of rain that runs downhill", "The sea pushes water up", "Glaciers melt there", "Wells overflow"], "e": "High ground catches rain, which then flows down — Chapter 1's rule."},
+{"t": "Why do forests keep a river flowing all year?", "o": ["Roots and leaves let water soak in and release it slowly", "Trees make water", "Forests stop rain", "Trees drink rivers"], "e": "Strip the forest and the same rain becomes a June flood and an April dry bed."},
+{"t": "How was the Hargila saved?", "o": ["People came to want the bird through songs, cloth and children's help", "Strict laws alone", "Moving it to a zoo", "Cutting nesting trees"], "e": "You can't protect an animal that the people living beside it want gone."},
+{"t": "Living root bridges are special because they…", "o": ["Get stronger with age", "Are made of steel", "Are built in one day", "Float"], "e": "They are grown, not built, and strengthen over years."},
+{"t": "The Sundarbans masks worn on the back of the head are meant to…", "o": ["Confuse tigers, which usually attack from behind", "Keep off rain", "Scare birds", "Show festival dress"], "e": "A face looking back may stop a tiger attacking."},
+{"t": "How did people of North Sentinel Island possibly survive the 2004 tsunami?", "o": ["By reading signs in nature", "Using phones", "With boats", "By luck only"], "e": "Changes in wind, sea and animal behaviour may have warned them."},
+{"t": "Why do classroom maps make people think Kanyakumari is India's southern tip?", "o": ["Islands are squeezed into a box in a corner", "Kanyakumari is an island", "Maps are always wrong", "Indira Point is in the north"], "e": "Islands drawn small in a box look like an afterthought."}
+]},
+{"q": [
+{"t": "A paper tube topples; with card triangles glued at its base it stands. Which tree part does this model?", "o": ["Buttress roots", "Leaves", "Breathing roots", "Bark"], "e": "Widening the footing means it must lean much further to tip."},
+{"t": "Mangroves solve two problems. One is lack of air. The other is…", "o": ["Salt", "Too much sunlight", "Cold", "Snow"], "e": "Most plants can't survive salty ground; mangroves can."},
+{"t": "The Save Silent Valley Movement showed that…", "o": ["Ordinary people acting together can change a decision", "Dams are always built", "Forests can't be saved", "Only scientists matter"], "e": "Villagers, students, scientists and writers stopped the dam."},
+{"t": "Why do schoolchildren help survey mangoes in the Western Ghats?", "o": ["Local people know special trees that aren't in any book", "They like mangoes", "Experts can't count", "Mangoes are endemic everywhere"], "e": "Over 200 kinds of mango have been recorded with local help."},
+{"t": "A place with many species but no threat is…", "o": ["Not a hotspot", "A hotspot", "A protected area automatically", "An island"], "e": "A hotspot must be both unusually rich AND threatened."},
+{"t": "Which is India's hotspot?", "o": ["The Western Ghats", "The Thar desert only", "Delhi", "Mumbai city"], "e": "Western Ghats, the Himalaya, the Northeast and the islands are hotspots."},
+{"t": "Why is a life jacket important even for strong swimmers?", "o": ["It keeps you afloat when injured, cold or panicking", "It looks nice", "It's only for kids", "Swimming is not allowed"], "e": "Open water is nothing like a pool."},
+{"t": "Cities far away drink water that fell on the Western Ghats. So protecting these hills…", "o": ["Protects water for millions of people", "Only helps monkeys", "Doesn't matter to cities", "Stops rain"], "e": "The forest turns rain into rivers that flow all year."},
+{"t": "The Silent Valley dam story connects to Chapter 2's dam question because…", "o": ["Benefits and costs both were real; people argued which mattered more", "Dams have no costs", "Dams have no benefits", "It was in a desert"], "e": "It was settled in public about which mattered more."},
+{"t": "Sangai deer live in…", "o": ["Keibul Lamjao, Manipur", "The Sundarbans", "Gir", "Silent Valley"], "e": "The only floating national park, made of phumdis."}
+]}
+]}

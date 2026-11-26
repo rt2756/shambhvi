@@ -1,0 +1,52 @@
+{
+"title": "6. Adolescence",
+"tests": [
+{"q": [
+{"t": "Adolescence is roughly between which ages?", "o": ["10 to 19 years", "1 to 5 years", "20 to 30 years", "5 to 9 years"], "e": "Adolescence starts around 10–12 and lasts to about 19 — the stage between childhood and adulthood."},
+{"t": "The stage when the body changes to become capable of reproduction is called…", "o": ["Puberty", "Infancy", "Old age", "Menstruation"], "e": "Puberty is the set of body changes that prepare it for adulthood and reproduction."},
+{"t": "The voice box is also called the…", "o": ["Larynx", "Stomach", "Lung", "Heart"], "e": "The larynx is the voice box. It grows during puberty, changing the voice."},
+{"t": "The bump in a boy's throat caused by a larger voice box is called the…", "o": ["Adam's apple", "Tonsil", "Acne", "Larynx bone"], "e": "When the larynx grows larger in boys it can show as a visible bump — the Adam's apple."},
+{"t": "Pimples during adolescence are caused by…", "o": ["Increased oily secretions clogging pores", "Eating sugar only", "Too much sleep", "Cold weather"], "e": "More oil is made by skin glands; clogged pores get infected and show as pimples. The condition is called acne."},
+{"t": "The menstrual cycle usually repeats about every…", "o": ["28–30 days", "7 days", "1 year", "2 days"], "e": "About 28–30 days is typical, though 21–35 days is also common and healthy."},
+{"t": "Which nutrient helps in the formation of blood?", "o": ["Iron", "Calcium", "Fat", "Fibre"], "e": "Iron is needed to make blood. Spinach, kidney beans, raisins and figs are good sources."},
+{"t": "Milk, curd and paneer are important for…", "o": ["Bone growth", "Formation of blood", "Better eyesight only", "Making hair"], "e": "They provide calcium and protein, which build strong bones."},
+{"t": "Using phones or the internet to harass someone is called…", "o": ["Cyberbullying", "Puberty", "Substance abuse", "Hygiene"], "e": "Cyberbullying includes spreading rumours, misleading messages or sharing someone's personal information without consent."},
+{"t": "If you are cyberbullied, what should you do?", "o": ["Tell parents or teachers", "Keep it secret", "Bully them back", "Delete all your photos and stay quiet"], "e": "Don't feel scared or helpless — trusted adults can help you handle it."}
+]},
+{"q": [
+{"t": "Voice change, facial hair in boys and breast development in girls are called…", "o": ["Secondary sexual characteristics", "Primary growth", "Menstruation", "Acne"], "e": "They tell males and females apart but are not themselves part of reproduction — they signal that puberty has started."},
+{"t": "Why does the voice change more in boys than in girls?", "o": ["The larynx grows larger in boys", "Girls have no larynx", "Boys eat more", "Girls' voice box shrinks"], "e": "The larynx grows in both, but more in boys, giving a deeper voice."},
+{"t": "Two classmates of the same age are very different in height. This is…", "o": ["Completely normal", "A sign of illness", "Caused by acne", "Wrong — everyone grows equally"], "e": "The timing and amount of change varies from person to person. Every variation is normal."},
+{"t": "Menstruation usually lasts…", "o": ["3 to 7 days", "28 days", "1 day only", "2 weeks"], "e": "The bleeding phase usually lasts 3–7 days within the roughly month-long cycle."},
+{"t": "Menstruation stops naturally at about what age?", "o": ["45–55 years", "20–25 years", "30 years", "70 years"], "e": "Menstrual cycles stop naturally around 45–55 years."},
+{"t": "Which vitamin cannot be made by our body and must come from food?", "o": ["Vitamin B12", "Vitamin D", "Vitamin K", "None — the body makes all"], "e": "B12 must come from the diet; lack of it (or iron) can cause anaemia."},
+{"t": "How should used sanitary pads be disposed of?", "o": ["Wrapped in newspaper, in a dustbin", "Thrown in the toilet", "Left in the open", "Burnt indoors"], "e": "Wrapping and binning keeps the surroundings clean and protects community health."},
+{"t": "Why are substances like tobacco and alcohol especially harmful?", "o": ["They are addictive and damage body and mind", "They make you taller", "They improve memory", "They have no effect"], "e": "They harm physical and mental health and create a strong urge to use them again — addiction."},
+{"t": "Who worked out the structure of vitamin B12?", "o": ["Dorothy Hodgkin", "Marie Curie", "C.V. Raman", "Michael Faraday"], "e": "Dorothy Hodgkin did, and won the Nobel Prize in Chemistry in 1964."},
+{"t": "Why does adolescence exist as a stage at all?", "o": ["The body must mature before it can reproduce", "To make us taller only", "To change our voice only", "It has no purpose"], "e": "No living thing can reproduce right after birth — like a seed growing into a mature plant. Adolescence is the preparation period."}
+]},
+{"q": [
+{"t": "A girl's cycle is 33 days long. Is that healthy?", "o": ["Yes — 21 to 35 days is normal", "No — it must be exactly 28", "No — it should be 7 days", "Only if it's under 20"], "e": "The cycle varies between people; anywhere from 21 to 35 days is common and healthy."},
+{"t": "A boy has no Adam's apple at 16. What does this mean?", "o": ["It's a normal variation", "He hasn't reached puberty at all", "He is ill", "His voice box is missing"], "e": "Some people never show an Adam's apple; the changes vary and are all normal."},
+{"t": "Which is the scientific view on keeping menstruating girls apart from others?", "o": ["It has no scientific basis", "It prevents disease", "It is medically needed", "It improves health"], "e": "Menstruation is a natural, healthy process. Such taboos only cause fear and shame."},
+{"t": "An adolescent girl feels tired and pale. Which deficiency is a likely cause?", "o": ["Iron or vitamin B12", "Calcium", "Fat", "Water"], "e": "Low iron or B12 can cause anaemia — a blood problem that brings tiredness and paleness."},
+{"t": "Which food would best help someone with iron deficiency?", "o": ["Spinach and raisins", "Butter", "Sugar", "White rice only"], "e": "Spinach, kidney beans, raisins and figs are good sources of iron."},
+{"t": "Why is understanding mood swings useful?", "o": ["You can pause and choose your response", "It stops all emotions", "It makes you taller", "It ends puberty"], "e": "Knowing emotions drive behaviour lets you pause and decide, instead of just reacting."},
+{"t": "Which is a positive way to channel strong emotions?", "o": ["Music, sport or helping others", "Shouting at friends", "Skipping meals", "Avoiding everyone"], "e": "Creativity and compassion turn strong feelings into strengths."},
+{"t": "Why is peer pressure especially strong in adolescence?", "o": ["It's a stage of curiosity and wanting to fit in", "Adults stop giving advice", "Hormones stop working", "School finishes"], "e": "Curiosity, excitement and the wish to fit in make peers' influence strong. Knowing this in advance makes saying no easier."},
+{"t": "Which online habit is safest?", "o": ["Think before posting and keep personal details private", "Share your address with new friends", "Send photos to strangers", "Use the same password everywhere and share it"], "e": "Protecting privacy online keeps you safe from misuse and bullying."},
+{"t": "Regular exercise in adolescence mainly helps by…", "o": ["Building stamina and boosting mood", "Stopping growth", "Causing acne", "Replacing food"], "e": "Exercise keeps both the body and mind fit."}
+]},
+{"q": [
+{"t": "Which of these is NOT a secondary sexual characteristic?", "o": ["Growth in height", "Facial hair in boys", "Breast development in girls", "Deeper voice in boys"], "e": "Height increases from birth in everyone; it doesn't distinguish males from females. The others do."},
+{"t": "Acne is the ___; pimples are ___.", "o": ["condition; how it shows", "pimple; a disease", "voice change; hair", "vitamin; mineral"], "e": "Acne is the skin condition; pimples are the visible spots it causes."},
+{"t": "Why is a balanced diet most important during adolescence?", "o": ["Rapid growth needs fuel and building material", "You stop growing", "Only to avoid acne", "Food doesn't matter then"], "e": "Growth is fastest in adolescence, so the body needs proteins, calcium, iron and energy."},
+{"t": "Which pair matches the nutrient to its job correctly?", "o": ["Calcium — bones", "Iron — bones", "Protein — blood only", "Calcium — blood"], "e": "Calcium builds bones; iron is for blood; protein is for growth and strength."},
+{"t": "Which is a government scheme for menstrual hygiene?", "o": ["Menstrual Hygiene Scheme (MHS)", "Swachh Bharat Rail", "Digital India", "Make in India"], "e": "MHS, RKSK, Suvidha and state schemes like Shuchi support adolescent health and hygiene."},
+{"t": "A friend posts a false rumour about a classmate online. This is…", "o": ["Cyberbullying", "A joke with no harm", "Good digital habit", "Privacy protection"], "e": "Spreading false rumours online to harass someone is cyberbullying."},
+{"t": "Why are biodegradable pads recommended?", "o": ["They break down naturally and are eco-friendly", "They are made of plastic", "They last for years", "They can't be thrown away"], "e": "Biodegradable materials decompose naturally, so they don't pile up as waste."},
+{"t": "Which describes what happens to growth in height over a life?", "o": ["Continuous from birth, fastest in adolescence", "Only in adolescence", "Stops at 5", "Fastest in old age"], "e": "Growth is continuous from birth but most rapid in adolescence."},
+{"t": "Stages of life in order:", "o": ["Infancy → childhood → adolescence → adulthood → old age", "Childhood → infancy → adulthood → adolescence → old age", "Adolescence → infancy → childhood → adulthood → old age", "Infancy → adolescence → childhood → old age → adulthood"], "e": "Infancy comes first, then childhood, adolescence, adulthood and finally old age."},
+{"t": "Someone offers you gutka 'just to try once'. The best scientific reason to refuse:", "o": ["It is addictive — trying once can start regular use", "It is only bad for adults", "It has no effect", "It tastes bad"], "e": "Addiction creates a strong urge to repeat, leading to substance abuse that damages health."}
+]}
+]}

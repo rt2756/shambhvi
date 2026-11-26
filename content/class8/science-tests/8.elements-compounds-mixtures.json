@@ -1,0 +1,52 @@
+{
+"title": "8. Elements, Compounds and Mixtures",
+"tests": [
+{"q": [
+{"t": "In a mixture, each substance…", "o": ["Retains its own properties", "Loses its properties", "Becomes a new substance", "Turns into an element"], "e": "Components don't react chemically."},
+{"t": "A pure substance that can't be broken into simpler substances is an…", "o": ["Element", "Compound", "Mixture", "Alloy"], "e": "Elements are building blocks of matter."},
+{"t": "Elements combined chemically in a fixed ratio form a…", "o": ["Compound", "Mixture", "Alloy", "Solution only"], "e": "With entirely new properties."},
+{"t": "Brass is copper +…", "o": ["Zinc", "Tin", "Iron", "Nickel"], "e": "Bronze is copper + tin."},
+{"t": "Air is a…", "o": ["Uniform mixture", "Compound", "Element", "Non-uniform mixture"], "e": "Mainly nitrogen and oxygen."},
+{"t": "How many elements are known?", "n": 118, "e": "Most are solid."},
+{"t": "Which two elements are liquid at room temperature?", "o": ["Mercury and bromine", "Oxygen and nitrogen", "Iron and gold", "Gallium and caesium"], "e": "Mercury is a metal; bromine a non-metal."},
+{"t": "Water is made of hydrogen and oxygen in the ratio…", "o": ["2 : 1", "1 : 1", "1 : 2", "3 : 1"], "e": "Two hydrogen atoms per oxygen atom."},
+{"t": "Common salt is…", "o": ["Sodium chloride", "Sodium carbonate", "Calcium chloride", "Iron sulfide"], "e": "Sodium + chlorine in 1 : 1."},
+{"t": "Silicon and boron are…", "o": ["Metalloids", "Metals", "Non-metals only", "Gases"], "e": "Intermediate properties."}
+]},
+{"q": [
+{"t": "Which is a non-uniform mixture?", "o": ["Sand and water", "Sugar in water", "Air", "Vinegar"], "e": "Components visible and unevenly spread."},
+{"t": "Alloys are…", "o": ["Uniform mixtures of metals", "Compounds", "Elements", "Non-uniform mixtures"], "e": "Stainless steel = iron + nickel + chromium + carbon."},
+{"t": "Lime water turning milky in air proves air contains…", "o": ["Carbon dioxide", "Oxygen", "Nitrogen", "Dust"], "e": "The standard CO₂ test."},
+{"t": "Is dust part of air's composition?", "o": ["No — it's a suspended pollutant", "Yes", "Only in cities", "Only in summer"], "e": "Its amount varies with time and place."},
+{"t": "In science, 'pure substance' means…", "o": ["Same type of particles throughout", "Nothing cheap added", "Expensive", "Natural"], "e": "Can't be separated by physical processes."},
+{"t": "A packet of 'pure' milk is scientifically a…", "o": ["Mixture", "Pure substance", "Element", "Compound"], "e": "It contains water, fats, proteins and more."},
+{"t": "Splitting water by electricity, the gas with the larger volume gives…", "o": ["A pop sound — hydrogen", "Brighter flame — oxygen", "No effect", "Milky lime water"], "e": "Hydrogen collects twice as much as oxygen."},
+{"t": "The gas that makes a flame glow brighter is…", "o": ["Oxygen", "Hydrogen", "Nitrogen", "Carbon dioxide"], "e": "Oxygen supports combustion."},
+{"t": "Most atoms of elements combine into stable particles called…", "o": ["Molecules", "Cells", "Mixtures", "Alloys"], "e": "Two hydrogen atoms make a hydrogen molecule."},
+{"t": "Ancient Indian metal mixtures were called…", "o": ["Mishraloha", "Parmanu", "Krimi", "Dhokra"], "e": "Described in Charaka and Susruta Samhitas."}
+]},
+{"q": [
+{"t": "Iron + sulfur just mixed (Sample A). A magnet…", "o": ["Attracts the iron filings out", "Attracts nothing", "Attracts sulfur", "Melts"], "e": "Iron keeps its magnetic property in a mixture."},
+{"t": "Iron + sulfur heated to a black mass (Sample B). A magnet…", "o": ["Attracts nothing", "Pulls out iron", "Pulls out sulfur", "Splits it"], "e": "Iron sulfide is a new, non-magnetic substance."},
+{"t": "Why isn't iron sulfide magnetic?", "o": ["Iron has chemically combined into a new substance", "The magnet is weak", "Sulfur blocks magnets", "Heating destroyed iron atoms"], "e": "Iron isn't present as iron any more."},
+{"t": "Salt dissolved in water can be recovered by evaporation because…", "o": ["Salt water is a mixture", "Salt is an element", "Water is a compound", "Salt is a gas"], "e": "Mixtures separate physically."},
+{"t": "Can salt be split into sodium and chlorine by a physical method?", "o": ["No — it's a compound", "Yes, by evaporation", "Yes, by filtering", "Yes, by a magnet"], "e": "Don't confuse the two separations."},
+{"t": "Heating sugar gives black charcoal and water droplets. So sugar contains…", "o": ["Carbon, hydrogen and oxygen", "Only carbon", "Only water", "Iron"], "e": "So sugar is a compound, not an element."},
+{"t": "Why must the droplets in the sugar test come from the sugar?", "o": ["The heated tube couldn't condense water from air", "It rained", "Sugar is wet", "Air is wet"], "e": "Water vapour from the sugar condensed near the cooler open end."},
+{"t": "Hydrogen is a fuel, oxygen supports burning, but water…", "o": ["Puts out fire", "Explodes", "Burns brightly", "Is a fuel too"], "e": "A compound's properties differ completely from its elements'."},
+{"t": "Why can't the gases from splitting water be water vapour?", "o": ["Vapour would have condensed back to water", "Vapour is invisible", "Vapour is heavier", "Batteries make no vapour"], "e": "They stayed as gases."},
+{"t": "How many of the known elements are gases at room temperature?", "n": 11, "e": "All non-metals — oxygen, nitrogen, helium…"}
+]},
+{"q": [
+{"t": "Mixture vs compound: which describes a compound?", "o": ["Fixed ratio, new properties, not physically separable", "Any ratio, keeps properties, physically separable", "Any ratio, new properties", "Fixed ratio, keeps properties"], "e": "Compounds form by chemical change."},
+{"t": "Sample B in HCl gives a gas with a rotten-egg smell, while Sample A gives odourless hydrogen. This shows…", "o": ["B is a new substance (iron sulfide)", "A and B are the same", "Sulfur reacts in A", "HCl is a mixture"], "e": "Different products prove different substances."},
+{"t": "Why waft a gas towards your nose instead of smelling directly?", "o": ["Some gases are harmful", "It smells better", "It's faster", "No reason"], "e": "Safety first."},
+{"t": "Native minerals like gold and sulfur are…", "o": ["Pure elements", "Compounds", "Mixtures", "Alloys"], "e": "Most minerals are compounds, e.g. quartz, calcite."},
+{"t": "Most rocks are…", "o": ["Mixtures of minerals", "Pure elements", "Single compounds", "Gases"], "e": "Visible with eye, magnifier or microscope."},
+{"t": "Gallium would melt in your hand because it melts near…", "o": ["30 °C", "0 °C", "100 °C", "1000 °C"], "e": "Caesium too."},
+{"t": "Why is stainless steel used instead of pure iron?", "o": ["It's stronger and more durable", "It's an element", "It's cheaper than iron always", "It's a gas"], "e": "Alloys get designed properties."},
+{"t": "Baking powder (baking soda + tartaric acid) is a…", "o": ["Non-uniform solid–solid mixture", "Compound", "Element", "Uniform alloy"], "e": "Two solids simply mixed."},
+{"t": "Classify: sugar, soil, baking soda, fruit juice.", "o": ["Pure, mixture, pure, mixture", "Mixture, pure, mixture, pure", "All pure", "All mixtures"], "e": "Sugar and baking soda are pure substances (compounds)."},
+{"t": "Adulteration is…", "o": ["Illegally adding cheaper substances to increase quantity", "Making alloys", "Splitting water", "Separating mixtures"], "e": "It degrades quality and can harm health."}
+]}
+]}

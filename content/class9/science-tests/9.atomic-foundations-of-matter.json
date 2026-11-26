@@ -1,0 +1,52 @@
+{
+"title": "9. Atomic Foundations of Matter",
+"tests": [
+{"q": [
+{"t": "Matter can neither be created nor destroyed in a chemical reaction. This is the law of…", "o": ["Conservation of mass", "Constant proportions", "Motion", "Reflection"], "e": "Mass before = mass after."},
+{"t": "In a compound, elements combine in a fixed ratio by mass. This is the law of…", "o": ["Constant proportions", "Conservation of mass", "Gravitation", "Octaves"], "e": "Also called Proust's law."},
+{"t": "A bond formed by sharing electrons is…", "o": ["Covalent", "Ionic", "Metallic", "Magnetic"], "e": "The shared pair attracts both nuclei."},
+{"t": "A bond formed by transfer of electrons is…", "o": ["Ionic", "Covalent", "Hydrogen", "Double"], "e": "Opposite ions attract."},
+{"t": "A positively charged ion is a…", "o": ["Cation", "Anion", "Molecule", "Neutron"], "e": "Anions are negative."},
+{"t": "Ferric ion is…", "o": ["Fe³⁺", "Fe²⁺", "Fe⁺", "Fe"], "e": "-ic is the higher charge; ferrous is Fe²⁺."},
+{"t": "Nitrogen molecule has a…", "o": ["Triple bond", "Single bond", "Double bond", "Ionic bond"], "e": "Nitrogen (2,5) needs 3 electrons."},
+{"t": "Which exists as single atoms?", "o": ["Helium", "Oxygen", "Hydrogen", "Chlorine"], "e": "Its atoms are already stable."},
+{"t": "Cinnabar was known in India as…", "o": ["Hingula", "Parmanu", "Mishraloha", "Krimi"], "e": "A red pigment; mercury sulfide."},
+{"t": "A postulate is…", "o": ["An assumption accepted without formal proof", "A proven law", "An experiment", "A measurement"], "e": "Dalton's theory starts from postulates."}
+]},
+{"q": [
+{"t": "Baking soda + vinegar in an open flask: final mass is lower because…", "o": ["CO₂ gas escapes", "Mass is destroyed", "The balance is wrong", "Vinegar evaporates only"], "e": "A leak, not a broken law."},
+{"t": "In a closed flask with a balloon, the mass…", "o": ["Stays the same", "Decreases", "Increases a lot", "Becomes zero"], "e": "Nothing leaves."},
+{"t": "Why does the law of constant proportions hold for compounds but not mixtures?", "o": ["Fixed ratio comes from bonding; mixtures have none", "Mixtures are heavier", "Compounds are liquid", "It holds for both"], "e": "Mixtures can be any ratio."},
+{"t": "Why do atoms bond?", "o": ["The combined system has lower energy", "They are forced by heat", "They have opposite colours", "Randomly"], "e": "Lower energy is more stable."},
+{"t": "Atoms with fewer than 4 valence electrons tend to…", "o": ["Donate electrons", "Gain electrons", "Share only", "Do nothing"], "e": "The cheaper route."},
+{"t": "Why don't ionic solids conduct but their solutions do?", "o": ["Ions are fixed in the solid; free to move in solution", "Solids have no ions", "Water conducts alone", "Solutions have electrons"], "e": "Conduction needs free charged particles."},
+{"t": "Do molten ionic compounds conduct?", "o": ["Yes — melting frees the ions", "No", "Only when cold", "Only if covalent"], "e": "Same reason as solutions."},
+{"t": "Sugar dissolves in water but doesn't conduct because…", "o": ["It dissolves as neutral molecules, no ions", "It's ionic", "It's insoluble", "It's a metal"], "e": "Sugar is covalent."},
+{"t": "Ionic compounds have high melting points because…", "o": ["Inter-ionic attractions are strong", "They are light", "They are gases", "They have no bonds"], "e": "Much energy is needed to break the lattice."},
+{"t": "Burning ethanol in an open beaker leaves no residue. Is mass conservation violated?", "o": ["No — products are gases that escape", "Yes", "Only partly", "Ethanol has no mass"], "e": "CO₂ and water vapour leave."}
+]},
+{"q": [
+{"t": "Formula of calcium chloride (Ca²⁺, Cl⁻):", "o": ["CaCl₂", "CaCl", "Ca₂Cl", "Ca₂Cl₂"], "e": "Cross over charges."},
+{"t": "Formula of magnesium oxide (Mg²⁺, O²⁻):", "o": ["MgO", "Mg₂O₂", "MgO₂", "Mg₂O"], "e": "Mg₂O₂ simplifies to MgO."},
+{"t": "Formula of aluminium hydroxide:", "o": ["Al(OH)₃", "AlOH₃", "Al₃OH", "AlOH"], "e": "Brackets mean three whole hydroxide ions."},
+{"t": "Formula of calcium carbonate:", "o": ["CaCO₃", "Ca(CO₃)₂", "Ca₂CO₃", "Ca(CO₃)"], "e": "No brackets with only one polyatomic ion."},
+{"t": "Molecular mass of H₂O (H = 1, O = 16) in u?", "n": 18, "u": "u", "k": "2*1+16", "e": "2 + 16 = 18 u."},
+{"t": "Molecular mass of CO₂ (C = 12, O = 16) in u?", "n": 44, "u": "u", "k": "12+2*16", "e": "12 + 32 = 44 u."},
+{"t": "Formula unit mass of NaCl (Na = 23, Cl = 35.5) in u?", "n": 58.5, "u": "u", "k": "23+F('35.5')", "e": "23 + 35.5 = 58.5 u."},
+{"t": "Molecular mass of NH₃ (N = 14, H = 1) in u?", "n": 17, "u": "u", "k": "14+3", "e": "14 + 3 = 17 u."},
+{"t": "Name N₂O₅:", "o": ["Dinitrogen pentoxide", "Nitrogen pentaoxide", "Dinitrogen oxide", "Nitrogen dioxide"], "e": "Prefixes show the counts."},
+{"t": "Why don't ionic compounds have molecular masses?", "o": ["They form 3-D crystals, not molecules", "They're too light", "They're gases", "They have no mass"], "e": "We use formula unit mass instead."}
+]},
+{"q": [
+{"t": "Formula unit mass of Ca(NO₃)₂ (Ca = 40, N = 14, O = 16) in u?", "n": 164, "u": "u", "k": "40+2*(14+3*16)", "e": "NO₃ = 62; 40 + 2 × 62 = 164 u."},
+{"t": "Molecular mass of H₂SO₄ (H = 1, S = 32, O = 16) in u?", "n": 98, "u": "u", "k": "2+32+4*16", "e": "2 + 32 + 64 = 98 u."},
+{"t": "Water always has H : O by mass of 1 : 8. In 18 g water, mass of oxygen (g)?", "n": 16, "u": "g", "k": "F(8,9)*18", "e": "8/9 of 18 = 16 g."},
+{"t": "Carbon and oxygen combine 3 : 8 by mass in CO₂. With 6 g carbon, oxygen needed (g)?", "n": 16, "u": "g", "k": "F(8,3)*6", "e": "6 × 8/3 = 16 g."},
+{"t": "A reading differs by ±1 in the last digit. This means…", "o": ["Within experimental error, not a law violation", "The law is wrong", "Mass was created", "Restart physics"], "e": "Measurements have uncertainty."},
+{"t": "How does Dalton's theory explain conservation of mass?", "o": ["Atoms are not created or destroyed, only rearranged", "Atoms grow", "Mass turns to energy", "Atoms vanish"], "e": "A good theory unifies separate laws."},
+{"t": "Sulfur (6 valence electrons) forms which ion?", "o": ["S²⁻", "S⁶⁺", "S⁺", "S²⁺"], "e": "Gains two to complete the octet."},
+{"t": "In NaCl crystals, each Na⁺ is surrounded by…", "o": ["Six Cl⁻ ions", "One Cl⁻", "Two Na⁺", "No ions"], "e": "A repeating 3-D lattice."},
+{"t": "Cupric ion is…", "o": ["Cu²⁺", "Cu⁺", "Cu³⁺", "Cu"], "e": "Cuprous is Cu⁺."},
+{"t": "Cinnabar gave the same mercury : sulfur ratio across civilisations. This illustrates…", "o": ["The law of constant proportions", "Conservation of energy", "Isotopes", "Chromatography"], "e": "A law of nature found independently."}
+]}
+]}

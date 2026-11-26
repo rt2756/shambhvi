@@ -1,0 +1,52 @@
+{
+"title": "10. This World of Things",
+"tests": [
+{"q": [
+{"t": "Tables and chairs are often made of…", "o": ["Wood", "Glass", "Water", "Cloth"], "e": "Wood comes from trees."},
+{"t": "Door hinges and nails are made of…", "o": ["Metal", "Wood", "Glass", "Paper"], "e": "Metals are dug out of the Earth from ore."},
+{"t": "Glass is mostly made of…", "o": ["Sand", "Wood", "Milk", "Leaves"], "e": "Surprising but true!"},
+{"t": "Things you can see through clearly are…", "o": ["Transparent", "Opaque", "Translucent", "Shiny"], "e": "Like window glass."},
+{"t": "Things you cannot see through at all are…", "o": ["Opaque", "Transparent", "Translucent", "Liquid"], "e": "Like wood."},
+{"t": "Things you can see through only partly are…", "o": ["Translucent", "Opaque", "Transparent", "Solid"], "e": "Like butter paper or frosted glass."},
+{"t": "Water is a…", "o": ["Liquid", "Solid", "Gas", "Metal"], "e": "It flows and takes the shape of its container."},
+{"t": "A stone is a…", "o": ["Solid", "Liquid", "Gas", "Smoke"], "e": "It keeps its shape."},
+{"t": "Air is a…", "o": ["Gas", "Solid", "Liquid", "Metal"], "e": "It floats in and out of a cup."},
+{"t": "Should you look at the Sun directly?", "o": ["No — it harms your eyes", "Yes", "Only through glass", "Only at noon"], "e": "Never look at the Sun continuously."}
+]},
+{"q": [
+{"t": "Mixtures of metals like steel and brass are called…", "o": ["Alloys", "Ores", "Gases", "Plastics"], "e": "Steel, brass and bronze."},
+{"t": "Electric switches are usually made of…", "o": ["Plastic", "Wood", "Glass", "Cloth"], "e": "Plastic is safe to touch."},
+{"t": "A metal spoon usually feels…", "o": ["Smooth, shiny and cold", "Rough and warm", "Soft", "Sticky"], "e": "Metals feel cool to touch."},
+{"t": "Why are clothes made of fabric, not wood?", "o": ["Fabric is soft and flexible", "Wood is soft", "Fabric is hard", "Wood is transparent"], "e": "Imagine wooden clothes!"},
+{"t": "Why is a paper umbrella a bad idea?", "o": ["Paper tears when wet", "Paper is heavy", "Paper is metal", "Paper is transparent"], "e": "Choose materials that suit the job."},
+{"t": "Why can't walls be made of water?", "o": ["Water flows and doesn't keep its shape", "Water is too hard", "Water is a gas", "Water is opaque"], "e": "Walls need solids."},
+{"t": "Ice is a…", "o": ["Solid", "Liquid", "Gas", "Metal"], "e": "Frozen water keeps its shape."},
+{"t": "Steam is a…", "o": ["Gas", "Liquid", "Solid", "Metal"], "e": "Water turned into vapour."},
+{"t": "Honey and ink are…", "o": ["Liquids", "Solids", "Gases", "Metals"], "e": "They flow."},
+{"t": "Smoke is a…", "o": ["Gas (with tiny particles)", "Solid", "Liquid", "Metal"], "e": "It spreads out."}
+]},
+{"q": [
+{"t": "Why could Khushi touch the glass but see the flowers?", "o": ["Glass is a transparent solid", "There was no glass", "Glass is a liquid", "Flowers were inside"], "e": "Transparent things let light through."},
+{"t": "Looking at white paper through blue plastic, it looks…", "o": ["Bluish", "Red", "Unchanged", "Black always"], "e": "Coloured transparent things change how colours look."},
+{"t": "Tapping a spoon on metal, wood and glass makes…", "o": ["Different sounds", "No sound", "The same sound", "Light"], "e": "Each material sounds different."},
+{"t": "Wood comes from ___; metals come from ___.", "o": ["trees; ores in the Earth", "sand; trees", "animals; sea", "clouds; rocks"], "e": "Know the sources."},
+{"t": "Which material is transparent?", "o": ["Clear glass", "Wood", "Brick", "Cardboard"], "e": "Clear plastic is too."},
+{"t": "Which object fits a material that is NOT suitable?", "o": ["A rubber table", "A wooden door", "A glass window", "A metal spoon"], "e": "A rubber table would bend."},
+{"t": "Sand, sponge and clay can be confusing because…", "o": ["They're solids but can pour or squish", "They're gases", "They're liquids", "They're metals"], "e": "Not every object fits neatly."},
+{"t": "Bees make wax for their…", "o": ["Honeycomb", "Nest of twigs", "Hive door of metal", "Eggs only"], "e": "Wax can also be made artificially."},
+{"t": "Mercury in a thermometer is a…", "o": ["Liquid metal", "Gas", "Plastic", "Wood"], "e": "A special metal that flows."},
+{"t": "Rubber can come from…", "o": ["Rubber trees (and also be made artificially)", "Rocks only", "Sand", "Glass"], "e": "Natural and made materials."}
+]},
+{"q": [
+{"t": "Which group is all solids?", "o": ["Stone, spoon, bottle, ice", "Water, ink, honey", "Smoke, steam, air", "Water, stone, steam"], "e": "They keep their shape."},
+{"t": "Which group is all liquids?", "o": ["Ink, honey, water", "Ice, stone, bag", "Smoke, steam", "Spoon, bottle"], "e": "They flow."},
+{"t": "Order from most see-through to least: wood, clear glass, butter paper.", "o": ["Clear glass, butter paper, wood", "Wood, glass, paper", "Butter paper, wood, glass", "Glass, wood, butter paper"], "e": "Transparent → translucent → opaque."},
+{"t": "Which things in a classroom come from nature directly?", "o": ["Wood from trees", "Plastic switches", "Glass bulbs", "Steel alloys"], "e": "Others are made by people from natural materials."},
+{"t": "Why are some old materials not used now?", "o": ["New materials replaced them", "They vanished", "They were magic", "No reason"], "e": "Ask your grandparents."},
+{"t": "Light bulbs are made mainly of…", "o": ["Glass", "Wood", "Cloth", "Rubber"], "e": "Glass lets light through."},
+{"t": "Why are curtains made of cloth?", "o": ["Cloth is soft and flexible", "Cloth is rigid", "Cloth is transparent", "Cloth is metal"], "e": "It can be folded and moved."},
+{"t": "Which material could you recognise with eyes closed by its cold feel?", "o": ["Metal", "Cloth", "Wool", "Paper"], "e": "Metals feel cold."},
+{"t": "How many states of matter does the chapter name?", "n": 3, "e": "Solid, liquid, gas."},
+{"t": "Which word describes clear plastic film?", "o": ["Transparent", "Opaque", "Metallic", "Rough"], "e": "You can see through it."}
+]}
+]}

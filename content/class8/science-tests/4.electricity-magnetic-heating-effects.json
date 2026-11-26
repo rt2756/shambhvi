@@ -1,0 +1,52 @@
+{
+"title": "4. Electricity: Magnetic and Heating Effects",
+"tests": [
+{"q": [
+{"t": "When current flows through a wire, a compass under it…", "o": ["Deflects", "Stays still", "Melts", "Spins forever"], "e": "The current produces a magnetic field."},
+{"t": "When the current stops, the magnetic field…", "o": ["Disappears", "Stays forever", "Gets stronger", "Reverses"], "e": "It vanishes the instant current stops."},
+{"t": "Who discovered the magnetic effect of current in 1820?", "o": ["Oersted", "Volta", "Galvani", "Faraday"], "e": "Hans Christian Oersted, in Denmark."},
+{"t": "A current-carrying coil that acts as a magnet is an…", "o": ["Electromagnet", "Permanent magnet", "Lodestone", "Compass"], "e": "Switch on: magnet; switch off: not."},
+{"t": "Opposition to the flow of current is called…", "o": ["Resistance", "Magnetism", "Voltage", "Conduction"], "e": "Resistance turns some electrical energy into heat."},
+{"t": "Heating elements are usually made of…", "o": ["Nichrome", "Copper", "Plastic", "Glass"], "e": "High resistance heats strongly."},
+{"t": "Connecting wires in appliances are usually…", "o": ["Copper", "Nichrome", "Iron", "Rubber"], "e": "Low resistance so they stay cool."},
+{"t": "Which uses the heating effect?", "o": ["Electric kettle", "Electric bell", "Loudspeaker", "Fan motor"], "e": "Also irons, heaters, hair dryers."},
+{"t": "A dry cell's electrolyte is a…", "o": ["Thick moist paste", "Liquid acid", "Gas", "Solid metal"], "e": "Hence 'dry'."},
+{"t": "Today's most common rechargeable battery is…", "o": ["Lithium-ion", "Dry cell", "Voltaic cell", "Lemon cell"], "e": "It depends on lithium and cobalt."}
+]},
+{"q": [
+{"t": "How does a compass show current is flowing?", "o": ["Its needle (a tiny magnet) deflects in the field", "It lights up", "It heats", "It beeps"], "e": "Nothing else changed — only the current."},
+{"t": "Why do most electromagnets have an iron core?", "o": ["It makes them much stronger", "It looks nice", "It cools them", "It stops current"], "e": "A coil with an iron nail picks up clips."},
+{"t": "Which increases an electromagnet's strength?", "o": ["More turns in the coil", "Fewer cells", "Removing the core", "Thinner wire only"], "e": "Also more current and an iron core."},
+{"t": "How do you reverse an electromagnet's poles?", "o": ["Reverse the direction of current", "Add more turns", "Remove the core", "Heat it"], "e": "Current direction decides polarity."},
+{"t": "Why are lifting cranes fitted with electromagnets, not permanent magnets?", "o": ["A permanent magnet could never let go", "Permanent magnets are weak", "Electromagnets are lighter", "Cranes need heat"], "e": "Switch off to release."},
+{"t": "A compass's north pole is attracted to end A of an electromagnet. End A is…", "o": ["A south pole", "A north pole", "Neutral", "Not magnetic"], "e": "Unlike poles attract."},
+{"t": "Why does a nichrome wire heat up more than copper of the same size?", "o": ["Nichrome has much higher resistance", "Copper has no current", "Nichrome is thicker", "Copper is magnetic"], "e": "More resistance → more heat."},
+{"t": "Outside a cell, current flows from…", "o": ["Positive to negative terminal", "Negative to positive", "Middle outward", "Randomly"], "e": "Through the circuit from + to −."},
+{"t": "In a lemon cell, the electrodes are…", "o": ["Copper wire and iron nail", "Lemon juice and peel", "Two copper wires", "LED legs"], "e": "Lemon juice is the electrolyte."},
+{"t": "A 'dead' cell is one in which…", "o": ["The chemicals are used up", "The terminals broke", "It got wet", "It's cold"], "e": "It can no longer supply electricity."}
+]},
+{"q": [
+{"t": "Volta replaced the frog's leg with salt-soaked paper and still got current. This showed electricity came from…", "o": ["The metals + liquid", "The frog", "The air", "The paper"], "e": "One substitution settled the dispute and led to the first battery."},
+{"t": "What made Volta's test a good experiment?", "o": ["He changed only one thing", "He changed everything", "He used more frogs", "He guessed"], "e": "Removing the frog alone, the effect survived."},
+{"t": "Why must Oersted's result be repeated by others?", "o": ["A result becomes accepted only when others can reproduce it", "To waste time", "He made mistakes", "It was secret"], "e": "Reproducibility is key to science."},
+{"t": "Why is the Earth a magnet?", "o": ["Moving liquid iron in the core creates electric currents", "It is made of lodestone", "The Moon magnetises it", "Sunlight"], "e": "Currents generate a field, as in a wire."},
+{"t": "Why did dry cells replace Voltaic cells for daily use?", "o": ["A paste can't spill, so cells can be sealed and carried", "They are cheaper always", "They last forever", "They're rechargeable"], "e": "A glass jar of acid isn't portable."},
+{"t": "Heat produced in a wire depends on…", "o": ["Material, thickness, length, current and time", "Only colour", "Only length", "Only the switch"], "e": "Two cells heat it more than one."},
+{"t": "Why must wires and sockets be rated for the current?", "o": ["Overheating can melt plastic and start fires", "To look neat", "To save money", "For magnetism"], "e": "The heating effect can be a hazard."},
+{"t": "Why do phone batteries need charging more often after a year or two?", "o": ["They slowly wear out over charge cycles", "Phones get heavier", "Chargers weaken", "Lithium leaks out daily"], "e": "Rechargeables don't last forever."},
+{"t": "In the electromagnet activity, the wire ends also got warm. This shows…", "o": ["Magnetic and heating effects happen together", "The magnet is broken", "Only heating happens", "Copper is magnetic"], "e": "The same current produced field and heat."},
+{"t": "In a lemon cell chain, the LED doesn't glow. First try…", "o": ["Reversing the LED", "Adding salt to the LED", "Removing a lemon", "Heating it"], "e": "An LED conducts only with its longer wire to positive."}
+]},
+{"q": [
+{"t": "Three advantages of an electromagnet over a permanent magnet:", "o": ["Switch on/off, adjust strength, reverse poles", "Always on, fixed, heavy", "Cheaper, shinier, smaller", "No current needed"], "e": "All controlled electrically, with no moving parts."},
+{"t": "An electromagnet with 1 cell lifts 3 clips. With 3 cells (same coil) it likely lifts…", "o": ["More clips", "Fewer clips", "None", "Exactly 3"], "e": "More cells → more current → stronger field."},
+{"t": "Which metal tends to act as the negative electrode with copper?", "o": ["Zinc", "Silver", "Gold", "Copper"], "e": "Copper is usually positive, zinc negative."},
+{"t": "Galvani thought electricity came from…", "o": ["The frog", "The metals", "The air", "Lightning"], "e": "Volta showed it came from metals + liquid."},
+{"t": "Why is the heating effect a problem in transmission lines?", "o": ["It wastes energy as heat", "It magnetises birds", "It cools wires", "It makes current stronger"], "e": "Energy is lost along the way."},
+{"t": "A moving magnet can produce a current. This principle makes possible…", "o": ["Power generators", "Dry cells", "Heaters", "Compasses"], "e": "The link runs both ways."},
+{"t": "Steel plants use electric furnaces to…", "o": ["Melt and recycle scrap steel", "Make magnets", "Cool steel", "Store current"], "e": "A large-scale use of the heating effect."},
+{"t": "Why are solid-state batteries promising?", "o": ["Safer, faster to charge and longer lasting", "They use liquid acid", "They are single-use", "They need frogs"], "e": "They replace liquid or paste electrolyte with a solid."},
+{"t": "Which device uses the magnetic effect?", "o": ["Electric bell", "Toaster", "Immersion rod", "Room heater"], "e": "Bells, motors, fans, loudspeakers."},
+{"t": "Migratory birds navigate using…", "o": ["Earth's magnetic field", "Electric current", "Heat", "Moonlight only"], "e": "Earth's field also shields us from harmful space particles."}
+]}
+]}

@@ -1,0 +1,52 @@
+{
+"title": "9. Light — Reflection and Refraction",
+"tests": [
+{"q": [
+{"t": "Angle of incidence equals…", "o": ["Angle of reflection", "Angle of refraction", "90°", "Zero"], "e": "First law of reflection."},
+{"t": "Focal length f and radius of curvature R are related by…", "o": ["f = R/2", "f = 2R", "f = R", "f = R²"], "e": "Focus is halfway to the centre of curvature."},
+{"t": "Mirror formula:", "o": ["1/v + 1/u = 1/f", "1/v − 1/u = 1/f", "v + u = f", "v/u = f"], "e": "For lenses it's 1/v − 1/u = 1/f."},
+{"t": "Which mirror is used as a car's rear-view mirror?", "o": ["Convex", "Concave", "Plane", "Any"], "e": "Erect, diminished, wide view."},
+{"t": "Which mirror is used in torches and shaving?", "o": ["Concave", "Convex", "Plane", "None"], "e": "Converges light; magnifies close objects."},
+{"t": "Light bending when passing from one medium to another is…", "o": ["Refraction", "Reflection", "Dispersion", "Scattering"], "e": "Due to change in speed."},
+{"t": "Refractive index n = ?", "o": ["c / v", "v / c", "c × v", "c − v"], "e": "Speed in vacuum ÷ speed in medium."},
+{"t": "The SI unit of power of a lens is the…", "o": ["Dioptre", "Watt", "Metre", "Joule"], "e": "P = 1/f (f in metres)."},
+{"t": "A convex lens has ___ power.", "o": ["Positive", "Negative", "Zero", "Infinite"], "e": "Concave lenses have negative power."},
+{"t": "Light going from air into glass bends…", "o": ["Towards the normal", "Away from the normal", "Not at all", "Backwards"], "e": "It slows down in glass."}
+]},
+{"q": [
+{"t": "Object beyond C of a concave mirror. Image is…", "o": ["Between F and C, real, inverted, diminished", "At infinity", "Virtual, erect", "Same size at C"], "e": "Standard ray diagram result."},
+{"t": "Object between F and the pole of a concave mirror. Image is…", "o": ["Virtual, erect, enlarged behind mirror", "Real, inverted", "At F", "At C"], "e": "Shaving mirror use."},
+{"t": "Object at C of a concave mirror. Image is…", "o": ["At C, real, inverted, same size", "At F", "At infinity", "Virtual"], "e": "Symmetric case."},
+{"t": "A ray parallel to the principal axis after reflection from a concave mirror passes through…", "o": ["The focus", "The centre of curvature", "The pole", "Nowhere"], "e": "Ray rule 1."},
+{"t": "In the sign convention, distances measured against incident light are…", "o": ["Negative", "Positive", "Zero", "Ignored"], "e": "Object distance u is usually negative."},
+{"t": "Magnification m = ?", "o": ["h'/h = −v/u (mirror)", "u/v", "f/u", "h/h'"], "e": "For lenses m = v/u."},
+{"t": "Negative magnification means the image is…", "o": ["Real and inverted", "Virtual and erect", "Same size", "Enlarged always"], "e": "Positive m: virtual, erect."},
+{"t": "Refractive index of glass ≈ 1.5 means light travels in glass…", "o": ["1.5 times slower than in vacuum", "1.5 times faster", "At the same speed", "Not at all"], "e": "v = c/1.5 = 2 × 10⁸ m/s."},
+{"t": "A pencil in water looks bent due to…", "o": ["Refraction", "Reflection", "Dispersion", "Scattering"], "e": "Light changes direction at the surface."},
+{"t": "A ray through the optical centre of a lens…", "o": ["Goes undeviated", "Bends to the focus", "Reflects back", "Stops"], "e": "Ray rule for lenses."}
+]},
+{"q": [
+{"t": "Concave mirror f = −15 cm, object u = −30 cm. Image distance v (cm)?", "n": -30, "u": "cm", "k": "1/(F(1,-15)-F(1,-30))", "e": "1/v = 1/f − 1/u = −1/15 + 1/30 = −1/30 → v = −30 cm (at C)."},
+{"t": "Convex lens f = +10 cm, object u = −20 cm. Image distance v (cm)?", "n": 20, "u": "cm", "k": "1/(F(1,10)+F(1,-20))", "e": "1/v = 1/f + 1/u = 1/10 − 1/20 = 1/20 → v = 20 cm."},
+{"t": "Power of a convex lens of focal length 0.5 m (D)?", "n": 2, "u": "D", "k": "F(1,F(1,2))", "e": "P = 1/f = 2 D."},
+{"t": "Power of a concave lens of focal length 25 cm (D)?", "n": -4, "u": "D", "k": "F(1,F(-25,100))", "e": "f = −0.25 m → P = −4 D."},
+{"t": "Speed of light in glass of n = 1.5 (c = 3 × 10⁸ m/s), in units of 10⁸ m/s?", "n": 2, "k": "F(3,F(3,2))", "e": "v = c/n = 2 × 10⁸ m/s."},
+{"t": "Convex mirror f = +20 cm, u = −20 cm. v (cm)?", "n": 10, "u": "cm", "k": "1/(F(1,20)-F(1,-20))", "e": "1/v = 1/20 + 1/20 = 1/10 → v = +10 cm (virtual, behind)."},
+{"t": "Lens with v = 20 cm, u = −20 cm. Magnification?", "n": -1, "k": "F(20,-20)", "e": "m = v/u = −1: real, inverted, same size."},
+{"t": "Image formed by a concave lens is always…", "o": ["Virtual, erect, diminished", "Real, inverted", "Enlarged", "At infinity"], "e": "Like a convex mirror."},
+{"t": "A convex lens with object at 2F forms the image at…", "o": ["2F on the other side, same size", "F", "Infinity", "Same side"], "e": "Real, inverted, same size."},
+{"t": "Light enters a glass slab and emerges…", "o": ["Parallel to the incident ray, laterally shifted", "Along the same line", "Perpendicular", "Reflected back"], "e": "Lateral displacement."}
+]},
+{"q": [
+{"t": "Concave mirror f = −10 cm, object at −5 cm. v (cm)?", "n": 10, "u": "cm", "k": "1/(F(1,-10)-F(1,-5))", "e": "1/v = −1/10 + 1/5 = 1/10 → v = +10 cm (virtual, behind mirror)."},
+{"t": "Magnification for that mirror (m = −v/u)?", "n": 2, "k": "-F(10,-5)", "e": "m = −10/−5 = +2: erect, twice as large."},
+{"t": "Convex lens f = 15 cm, object at −10 cm. v (cm)?", "n": -30, "u": "cm", "k": "1/(F(1,15)+F(1,-10))", "e": "1/v = 1/15 − 1/10 = −1/30 → v = −30 cm (virtual, same side) — a magnifier."},
+{"t": "Two lenses of +2 D and −0.5 D in contact. Net power (D)?", "n": 1.5, "u": "D", "k": "2-F(1,2)", "e": "Powers add."},
+{"t": "Refractive index of diamond is 2.42. Light in diamond travels…", "o": ["Slower than in glass", "Faster than in glass", "Faster than in vacuum", "At c"], "e": "Higher n = slower light."},
+{"t": "Light going from glass to air bends…", "o": ["Away from the normal", "Towards the normal", "Not at all", "Back into glass always"], "e": "Speeds up."},
+{"t": "Why does a swimming pool look shallower than it is?", "o": ["Refraction bends light away from the normal as it leaves water", "Reflection", "Dispersion", "Scattering"], "e": "The bottom appears raised."},
+{"t": "Snell's law states sin i / sin r is…", "o": ["Constant for a pair of media", "Always 1", "Always zero", "Variable"], "e": "Equal to the relative refractive index."},
+{"t": "A doctor prescribes +1.5 D. The lens is…", "o": ["Convex, f ≈ 0.67 m", "Concave", "Plane", "Convex, f = 1.5 m"], "e": "f = 1/1.5 m."},
+{"t": "Concave mirrors in solar furnaces are used because they…", "o": ["Concentrate sunlight at the focus", "Spread light", "Form virtual images", "Absorb light"], "e": "Intense heat at F."}
+]}
+]}

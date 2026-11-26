@@ -1,0 +1,52 @@
+{
+"title": "8. Journey Inside the Atom",
+"tests": [
+{"q": [
+{"t": "Who discovered the electron?", "o": ["J.J. Thomson", "Rutherford", "Bohr", "Dalton"], "e": "Nobel Prize 1906."},
+{"t": "Thomson's model pictured the atom as…", "o": ["A sphere of positive charge with electrons spread through it", "A tiny nucleus with orbits", "Solid indivisible ball", "Only electrons"], "e": "Sometimes called the plum pudding model."},
+{"t": "Rutherford's gold foil experiment used…", "o": ["Alpha particles", "Electrons", "Neutrons", "Light"], "e": "Fired at thin gold foil."},
+{"t": "Atomic number Z is the number of…", "o": ["Protons", "Neutrons", "Nucleons", "Shells"], "e": "It decides the element's identity."},
+{"t": "Mass number A is the number of…", "o": ["Protons + neutrons", "Protons only", "Electrons", "Neutrons only"], "e": "Together called nucleons."},
+{"t": "Charge on a neutron is…", "o": ["0", "+1", "−1", "+2"], "e": "Electron −1, proton +1."},
+{"t": "Atoms of the same element with different neutrons are…", "o": ["Isotopes", "Isobars", "Ions", "Molecules"], "e": "Same Z, different A."},
+{"t": "Atoms of different elements with the same mass number are…", "o": ["Isobars", "Isotopes", "Isomers", "Allotropes"], "e": "Different Z, same A."},
+{"t": "Who is the Father of Nuclear Physics?", "o": ["Ernest Rutherford", "J.J. Thomson", "Niels Bohr", "Homi Bhabha"], "e": "Nobel Prize 1908."},
+{"t": "Who is the father of the Indian nuclear programme?", "o": ["Homi J. Bhabha", "Vikram Sarabhai", "Meghnad Saha", "C.V. Raman"], "e": "He established atomic energy research in India."}
+]},
+{"q": [
+{"t": "Cathode rays were the same for every material. This showed electrons…", "o": ["Are part of all atoms", "Belong to one metal", "Are made by gas", "Don't exist"], "e": "The same particle from every material."},
+{"t": "In the gold foil experiment, most alpha particles…", "o": ["Passed straight through", "Bounced back", "Were absorbed", "Stuck to the foil"], "e": "The atom is mostly empty space."},
+{"t": "A few alpha particles bounced back. This showed…", "o": ["A tiny, dense, positive nucleus", "Atoms are solid", "Electrons are heavy", "Gold is magnetic"], "e": "Thomson's model couldn't explain it."},
+{"t": "Rutherford's model couldn't explain…", "o": ["Why atoms are stable", "The nucleus", "Alpha scattering", "Electrons"], "e": "Accelerating electrons should radiate and spiral in."},
+{"t": "Bohr explained stability by proposing…", "o": ["Stationary orbits where electron energy stays constant", "No electrons", "Electrons inside the nucleus", "Positive electrons"], "e": "Asserted as a postulate, not derived."},
+{"t": "Number of neutrons = ?", "o": ["A − Z", "A + Z", "Z − A", "A × Z"], "e": "Mass number minus atomic number."},
+{"t": "Maximum electrons in the K shell?", "n": 2, "e": "Formula 2n² with n = 1."},
+{"t": "Maximum electrons in the L shell?", "n": 8, "k": "2*2**2", "e": "2n² = 2 × 4 = 8."},
+{"t": "The outermost shell can hold at most…", "n": 8, "e": "Octet rule caps it at 8."},
+{"t": "Co is cobalt; CO is…", "o": ["Carbon monoxide", "Cobalt oxide", "Copper", "Calcium"], "e": "Capital/small letters matter."}
+]},
+{"q": [
+{"t": "Sodium (Z = 11). Electronic configuration:", "o": ["2, 8, 1", "2, 9", "2, 8, 2", "8, 2, 1"], "e": "K = 2, L = 8, M = 1."},
+{"t": "Valency of sodium (2, 8, 1)?", "n": 1, "e": "Loses 1 electron to get an octet."},
+{"t": "Chlorine (Z = 17) configuration:", "o": ["2, 8, 7", "2, 7, 8", "2, 8, 8", "2, 8, 6"], "e": "17 = 2 + 8 + 7."},
+{"t": "Valency of chlorine (2, 8, 7)?", "n": 1, "k": "8-7", "e": "Gains 1 electron: 8 − 7 = 1."},
+{"t": "An atom has A = 23, Z = 11. Neutrons?", "n": 12, "k": "23-11", "e": "A − Z = 12."},
+{"t": "Carbon (Z = 6, A = 12). Neutrons?", "n": 6, "k": "12-6", "e": "Light atoms often have equal protons and neutrons."},
+{"t": "Isotopes have similar chemical properties because they have…", "o": ["Same electrons and configuration", "Same mass", "Same neutrons", "Same boiling point"], "e": "Chemistry depends on valence electrons."},
+{"t": "Why do heavier atoms need more neutrons?", "o": ["To keep many repelling protons apart and bound", "For colour", "To increase charge", "They don't"], "e": "Iron has 26 protons and 30 neutrons."},
+{"t": "Why could neutrons easily penetrate nuclei?", "o": ["They're uncharged, so not repelled", "They're tiny", "They're fast", "They're negative"], "e": "Opening a new era of nuclear science."},
+{"t": "Deuterium has how many neutrons?", "n": 1, "e": "Protium 0, deuterium 1, tritium 2."}
+]},
+{"q": [
+{"t": "Chlorine: 75% ³⁵Cl and 25% ³⁷Cl. Average atomic mass (u)?", "n": 35.5, "u": "u", "k": "F(3,4)*35+F(1,4)*37", "e": "0.75 × 35 + 0.25 × 37 = 35.5 u."},
+{"t": "Does any single chlorine atom have mass 35.5 u?", "o": ["No — it's an average", "Yes", "Only ³⁵Cl", "Only ³⁷Cl"], "e": "It describes the element as it occurs."},
+{"t": "Magnesium (Z = 12). Valency?", "n": 2, "e": "2, 8, 2 — loses 2 electrons."},
+{"t": "Argon (2, 8, 8) is unreactive because…", "o": ["Its outer shell is a complete octet", "It's a metal", "It has no electrons", "It's heavy"], "e": "Complete shells are stable."},
+{"t": "Why does potassium (Z = 19) start the N shell instead of filling M to 9?", "o": ["The outermost shell can hold at most 8", "M is full at 8 always", "N is lower energy always", "Random"], "e": "M can hold 18, but not as the outermost shell."},
+{"t": "If an atom were a cricket ground, the nucleus would be like…", "o": ["A pepper grain at the centre", "A football", "Half the ground", "A tennis ball"], "e": "The atom is mostly empty space."},
+{"t": "How did Kanada's idea differ from Dalton's?", "o": ["Dalton's was scientific and testable with proportions", "Kanada had experiments", "Dalton had no atoms", "They were the same"], "e": "Kanada didn't specify combining proportions."},
+{"t": "Thomson's model failed because…", "o": ["It couldn't explain large-angle deflections", "It had too many protons", "It was too new", "Electrons weren't found"], "e": "A failed prediction moves science forward."},
+{"t": "Why are shells named K, L, M, N?", "o": ["From Barkla's X-ray work, leaving room for earlier letters", "Random letters", "Named after scientists", "Alphabetical from A"], "e": "He didn't start at A in case of earlier lines."},
+{"t": "Today electrons are understood as…", "o": ["Not following fixed orbits — described by probability clouds", "Planets in fixed orbits", "Stationary dots", "Inside the nucleus"], "e": "Even Bohr's model was incomplete."}
+]}
+]}

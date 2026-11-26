@@ -1,0 +1,52 @@
+{
+"title": "4. Our School — a Happy Place",
+"tests": [
+{"q": [
+{"t": "Wet waste like food peels goes in which colour bin?", "o": ["Green", "Blue", "Red", "Black"], "e": "Green bin = wet waste — things that rot."},
+{"t": "Dry waste like paper and plastic goes in which colour bin?", "o": ["Blue", "Green", "Yellow", "Brown"], "e": "Blue bin = dry waste — things that don't rot."},
+{"t": "Which tile gets hotter in the sun?", "o": ["Black", "White", "Both the same", "Neither"], "e": "Black absorbs most sunlight and turns it into heat; white reflects it."},
+{"t": "During a fire, under smoke you should…", "o": ["Crawl low with your mouth covered", "Stand up tall", "Run fast", "Hide in a closet"], "e": "Smoke rises, so the cleanest air is near the floor."},
+{"t": "After escaping a fire, you should…", "o": ["Never go back inside", "Go back for your bag", "Hide in the bathroom", "Run home alone"], "e": "Conditions change in seconds; going back is very dangerous."},
+{"t": "With no footpath, you should walk…", "o": ["Facing the traffic", "With your back to traffic", "In the middle of the road", "Zig-zag"], "e": "Facing it, you can see vehicles coming and step aside."},
+{"t": "Swachh Bharat Swachh Vidyalaya is about…", "o": ["Clean toilets, safe water and hygiene in schools", "Building roads", "Planting rice", "Space travel"], "e": "It is part of the Swachh Bharat Mission for clean schools."},
+{"t": "Old newspapers should be…", "o": ["Sold to a recycler", "Thrown in the green bin", "Burnt", "Buried"], "e": "Recyclers buy them — a trade where both sides gain."},
+{"t": "Ice stupas in Ladakh are…", "o": ["Towers of ice that melt slowly in summer for water", "Temples", "Fridges", "Mountains"], "e": "They store winter water as ice and release it when needed."},
+{"t": "Which keeps a room cool without electricity?", "o": ["A white roof", "A black roof", "Closing all windows in summer", "A tin sheet"], "e": "White reflects sunlight, so less of it becomes heat."}
+]},
+{"q": [
+{"t": "Why are water and electricity wasted so easily?", "o": ["Nobody notices them leaving", "They are cheap", "They are heavy", "Rules allow it"], "e": "A dripping tap or fan in an empty room looks normal, so waste happens by default."},
+{"t": "Why mix-ups of wet and dry waste are bad:", "o": ["Then neither can be composted or recycled", "Wet waste becomes dry", "Bins get heavy", "It looks untidy only"], "e": "Separated, both halves are useful; mixed, both are rubbish."},
+{"t": "Who should separate waste?", "o": ["The person throwing it, at that moment", "The sanitation worker later", "Nobody", "The recycler"], "e": "Nobody can un-mix waste afterwards."},
+{"t": "Why do explorer teams get specific questions instead of 'look around'?", "o": ["A question tells you what to look for", "To save time only", "Teachers like questions", "Looking is not allowed"], "e": "Like scientists, you decide what you are observing for."},
+{"t": "A dripping tap wastes a lot because…", "o": ["It keeps dripping day and night", "Each drop is big", "It drips only in school hours", "It is noisy"], "e": "The drop is tiny, but it repeats every second, even when nobody is there."},
+{"t": "Which saves more water?", "o": ["Fixing one leaking tap", "Turning the tap off while brushing for 2 minutes", "Both exactly the same", "Neither"], "e": "A leak works all day and night; a brushing habit acts for two minutes."},
+{"t": "Why is the air under a tree cooler than under a tin sheet?", "o": ["Water evaporating from leaves takes heat away", "Trees are made of ice", "Tin is cold", "Trees block wind"], "e": "A tree gives shade AND cools by evaporation."},
+{"t": "Why practise fire drills when there's no fire?", "o": ["So the actions become automatic", "To miss lessons", "To test the alarm only", "It is a rule with no reason"], "e": "In an emergency people do what they've done before."},
+{"t": "Why shouldn't you hide in a bathroom during a fire?", "o": ["Rescuers can't find you and there's no way out", "Bathrooms are dirty", "Water may splash", "It's too small"], "e": "Hiding traps you and hides you from rescuers."},
+{"t": "A good school gate signboard should be…", "o": ["Readable by a driver in one second", "Long and detailed", "Small and hidden", "Written in tiny letters"], "e": "One clear message in few words or a symbol."}
+]},
+{"q": [
+{"t": "Why does white paint keep a roof cool?", "o": ["It reflects sunlight so it never becomes heat", "It blocks air", "It is cold paint", "It absorbs heat"], "e": "Light bounces away instead of being taken in."},
+{"t": "A tree, a white roof and a good window are better than a fan because…", "o": ["They keep working for years without electricity", "Fans are noisy", "They are cheaper to switch on", "Fans heat rooms"], "e": "Design choices made once keep cooling for free."},
+{"t": "Why do light-coloured clothes feel better in summer?", "o": ["They reflect more sunlight", "They are thinner", "They absorb more heat", "They are cleaner"], "e": "Like the white tile, light colours reflect much of the light."},
+{"t": "Why tell staff at once if a classmate is missing after a fire?", "o": ["Rescuers need to know who and where", "To get them in trouble", "To finish the drill", "It doesn't matter"], "e": "A quick head count tells rescuers exactly whom to look for."},
+{"t": "Why 'move quickly but do not run' in a fire drill?", "o": ["Running causes falls and blocked doorways", "Running is slow", "It is impolite", "Fire chases runners"], "e": "Panic and pushing cause more harm than walking quickly."},
+{"t": "A butterfly garden works because…", "o": ["Certain plants attract certain butterflies", "Butterflies like any plant", "Butterflies are trained", "Gardens are warm"], "e": "Plant the right flowers, and you give butterflies a reason to come."},
+{"t": "Which question is most valuable after an investigation?", "o": ["Did anything surprise you?", "Was it boring?", "Who finished first?", "What time is it?"], "e": "A surprise shows you had a belief that was wrong — that's where learning happens."},
+{"t": "Why must sharp glass not be mixed with other waste?", "o": ["It can injure sanitation workers", "It's heavy", "It rots", "It smells"], "e": "Separating waste protects the people who handle it."},
+{"t": "A friend scribbles on a bench and you only watch. What did your silence teach?", "o": ["That it is acceptable", "Nothing", "That it is wrong", "That benches are free"], "e": "Behaviour spreads by example — the watcher matters as much as the doer."},
+{"t": "The Jal Shakti Abhiyan is a campaign to…", "o": ["Save and protect water", "Build roads", "Plant only rice", "Make electricity"], "e": "It encourages planting trees, catching rainwater and using water wisely."}
+]},
+{"q": [
+{"t": "Two glasses of water: one under a tree, one in the sun. After an hour, the one in the sun is…", "o": ["Much warmer", "Cooler", "The same", "Frozen"], "e": "The tree's canopy stops sunlight before it reaches the glass."},
+{"t": "A test before acting in public: would it be okay if…", "o": ["Everyone did it?", "Nobody saw?", "It was quick?", "A friend did it?"], "e": "One person cutting a queue barely matters; everyone doing it means there's no queue."},
+{"t": "Why helmets for motorcyclists and miners?", "o": ["To protect the head", "For fashion", "To keep hair tidy", "To hear better"], "e": "Like other headgear, they have a practical protective job."},
+{"t": "A green school starts with…", "o": ["Looking and noticing", "Making strict rules first", "Buying machines", "Closing the school"], "e": "You can't fix what nobody has noticed."},
+{"t": "Which is wet waste?", "o": ["Banana peel", "Glass bottle", "Plastic wrapper", "Newspaper"], "e": "Wet waste is anything that rots."},
+{"t": "Which is dry waste?", "o": ["Metal can", "Leftover rice", "Vegetable peel", "Garden leaves"], "e": "Dry waste doesn't rot — paper, plastic, glass, metal, cloth."},
+{"t": "A row of trees along a street…", "o": ["Lowers the temperature of the whole street", "Only shades the strip under it", "Makes the street hotter", "Has no effect"], "e": "Shade plus evaporation cools the surrounding air."},
+{"t": "Why help others in a fire only if it is safe?", "o": ["A second person in danger helps nobody", "Helping is wrong", "Others can manage", "It's a race"], "e": "If you get trapped too, rescuers have two people to save."},
+{"t": "Which measure makes a school gate safer?", "o": ["A marked crossing and staggered exit times", "More cars at the gate", "No adults on duty", "Removing speed breakers"], "e": "Fewer crowds, slower vehicles and marked crossings reduce danger."},
+{"t": "Wet patches around school are a problem because…", "o": ["Mosquitoes can breed there", "They are slippery only", "They help plants", "They cool the school"], "e": "Water watchers look for standing water where mosquitoes breed."}
+]}
+]}

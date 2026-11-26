@@ -1,0 +1,52 @@
+{
+"title": "3. Metals and Non-metals",
+"tests": [
+{"q": [
+{"t": "Which metal is liquid at room temperature?", "o": ["Mercury", "Sodium", "Gallium", "Iron"], "e": "Bromine is the liquid non-metal."},
+{"t": "The best conductors of electricity are…", "o": ["Silver and copper", "Lead and mercury", "Sodium and potassium", "Iodine and carbon"], "e": "Lead and mercury are poor conductors among metals."},
+{"t": "Metals that react with both acids and bases form ___ oxides.", "o": ["Amphoteric", "Basic only", "Acidic only", "Neutral"], "e": "E.g. aluminium oxide, zinc oxide."},
+{"t": "Sodium is stored in…", "o": ["Kerosene", "Water", "Air", "Alcohol"], "e": "It reacts violently with air and water."},
+{"t": "Which metal does not react with water at all?", "o": ["Copper", "Sodium", "Calcium", "Magnesium"], "e": "Also gold, silver, lead."},
+{"t": "A naturally occurring compound from which a metal can be profitably extracted is an…", "o": ["Ore", "Alloy", "Mineral only", "Amalgam"], "e": "All ores are minerals, not all minerals are ores."},
+{"t": "Rust is…", "o": ["Hydrated iron(III) oxide", "Iron sulfide", "Iron carbonate", "Pure iron"], "e": "Needs air and moisture."},
+{"t": "Coating iron with zinc is…", "o": ["Galvanisation", "Electroplating with gold", "Alloying", "Smelting"], "e": "Zinc protects even when scratched."},
+{"t": "An alloy of mercury is called an…", "o": ["Amalgam", "Ore", "Slag", "Gangue"], "e": "Used in dental fillings once."},
+{"t": "Brass is copper +…", "o": ["Zinc", "Tin", "Lead", "Iron"], "e": "Bronze is copper + tin; solder is lead + tin."}
+]},
+{"q": [
+{"t": "Which non-metal conducts electricity?", "o": ["Graphite", "Sulfur", "Iodine", "Phosphorus"], "e": "An exception."},
+{"t": "Which non-metal is lustrous?", "o": ["Iodine", "Sulfur", "Carbon (coal)", "Oxygen"], "e": "Iodine has a shine."},
+{"t": "Metal + dilute HCl gives salt and…", "o": ["Hydrogen", "Oxygen", "Chlorine", "Water"], "e": "Except unreactive metals like copper."},
+{"t": "Why is hydrogen not given off when metals react with nitric acid?", "o": ["HNO₃ is a strong oxidiser — it oxidises H₂ to water", "Nitric acid has no hydrogen", "Metals don't react", "Hydrogen dissolves"], "e": "Except Mg and Mn with very dilute HNO₃."},
+{"t": "The reactivity series places at the top…", "o": ["Potassium", "Gold", "Copper", "Iron"], "e": "K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au."},
+{"t": "Ionic compounds have high melting points because…", "o": ["Strong forces between ions", "They're gases", "They're covalent", "They're soft"], "e": "Lots of energy to break the lattice."},
+{"t": "Ionic compounds conduct electricity when…", "o": ["Molten or dissolved", "Solid", "Cold", "Never"], "e": "Ions are then free to move."},
+{"t": "Metals low in the reactivity series (like gold) are found…", "o": ["Free in nature", "Only as oxides", "Only as sulfides", "Never"], "e": "They don't react easily."},
+{"t": "Converting a carbonate ore to oxide by heating in limited air is…", "o": ["Calcination", "Roasting", "Smelting", "Refining"], "e": "Roasting is for sulfide ores in excess air."},
+{"t": "Pure metal is obtained from impure metal by…", "o": ["Electrolytic refining", "Galvanisation", "Calcination", "Rusting"], "e": "Impure metal is the anode; pure metal deposits on the cathode."}
+]},
+{"q": [
+{"t": "Why does calcium float when it reacts with water?", "o": ["Hydrogen bubbles stick to it", "It's lighter than water always", "It's oily", "It's a gas"], "e": "Ca + 2H₂O → Ca(OH)₂ + H₂."},
+{"t": "Magnesium reacts with…", "o": ["Hot water", "Cold water vigorously", "No water", "Only ice"], "e": "It floats due to hydrogen bubbles."},
+{"t": "Iron reacts with steam to give…", "o": ["Fe₃O₄ and H₂", "Fe(OH)₃", "FeCl₂", "No reaction"], "e": "Metals like Al, Zn, Fe react only with steam."},
+{"t": "Formation of NaCl: sodium ___ an electron, chlorine ___ one.", "o": ["loses; gains", "gains; loses", "shares; shares", "loses; loses"], "e": "Na⁺ and Cl⁻ attract."},
+{"t": "Highly reactive metals like Na, Mg, Al are extracted by…", "o": ["Electrolysis of molten chlorides/oxides", "Heating with carbon", "Heating alone", "Found free"], "e": "Carbon can't reduce them."},
+{"t": "Moderately reactive metals (Zn, Fe) are extracted by…", "o": ["Reduction with carbon after converting to oxide", "Electrolysis only", "Heating alone", "Found free"], "e": "ZnO + C → Zn + CO."},
+{"t": "Mercury from cinnabar (HgS) is obtained by…", "o": ["Heating alone in air", "Electrolysis", "Carbon reduction", "Galvanising"], "e": "Low-reactivity metals."},
+{"t": "The thermit reaction (Fe₂O₃ + 2Al) is used to…", "o": ["Join railway tracks", "Make glass", "Purify water", "Bleach cloth"], "e": "So hot that molten iron forms."},
+{"t": "Silver articles turn black due to…", "o": ["Silver sulfide from sulfur in air", "Rust", "Oxygen only", "Water"], "e": "Copper turns green with basic copper carbonate."},
+{"t": "Pure gold is 24 carat. 22 carat gold is alloyed with…", "o": ["Copper or silver for hardness", "Iron", "Mercury", "Zinc"], "e": "Pure gold is too soft."}
+]},
+{"q": [
+{"t": "Why is aluminium, though reactive, used for cooking pans?", "o": ["A protective oxide layer forms on it", "It doesn't react", "It's heavy", "It's magnetic"], "e": "The layer stops further reaction."},
+{"t": "Ionic compounds are soluble in water but not in kerosene because…", "o": ["Water separates ions; kerosene can't", "Kerosene is heavier", "Water is hot", "Kerosene is ionic"], "e": "Water is polar."},
+{"t": "Electronic configuration of Mg²⁺ (Z = 12):", "o": ["2, 8", "2, 8, 2", "2, 8, 8", "2, 6"], "e": "It loses 2 electrons."},
+{"t": "Why are food cans tin-coated rather than zinc-coated?", "o": ["Zinc is more reactive and could react with food", "Tin is cheaper", "Zinc rusts", "Tin is magnetic"], "e": "Tin is less reactive."},
+{"t": "In electrolytic refining of copper, impure copper is the…", "o": ["Anode", "Cathode", "Electrolyte", "Slag"], "e": "Pure copper builds up on the cathode."},
+{"t": "The impurities (gangue) in an ore are removed during…", "o": ["Enrichment/concentration", "Refining", "Galvanising", "Rusting"], "e": "Before extraction."},
+{"t": "Which metal would displace iron from FeSO₄?", "o": ["Zinc", "Copper", "Silver", "Gold"], "e": "Zinc is above iron."},
+{"t": "Stainless steel resists rust because it contains…", "o": ["Chromium and nickel", "Copper", "Lead", "Tin only"], "e": "Alloying changes properties."},
+{"t": "Non-metals form ___ oxides.", "o": ["Acidic or neutral", "Basic", "Amphoteric only", "No"], "e": "E.g. SO₂ acidic, CO neutral."},
+{"t": "Why don't non-metals displace hydrogen from acids?", "o": ["They can't give electrons to H⁺", "They're too heavy", "They're liquids", "They do always"], "e": "They tend to gain electrons."}
+]}
+]}

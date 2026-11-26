@@ -1,0 +1,52 @@
+{
+"title": "1. Water — the Essence of Life",
+"tests": [
+{"q": [
+{"t": "Most of the water on Earth is…", "o": ["Salty", "Fresh", "Frozen", "Underground"], "e": "Almost all of it is ocean water, which is salty."},
+{"t": "If all the Earth's water were a 200 ml glass, the freshwater would be about…", "o": ["One teaspoon (5 ml)", "Half the glass", "The whole glass", "One bucket"], "e": "Only about 5 ml out of 200 ml — a tiny part of all water is fresh."},
+{"t": "Ice turning into water is called…", "o": ["Melting", "Freezing", "Condensation", "Evaporation"], "e": "Heating ice turns it to water — melting."},
+{"t": "Water turning into vapour is called…", "o": ["Evaporation", "Melting", "Freezing", "Condensation"], "e": "Heated water changes into invisible water vapour."},
+{"t": "Water vapour turning back into water is called…", "o": ["Condensation", "Evaporation", "Melting", "Boiling"], "e": "Cooling vapour turns it back to liquid — condensation."},
+{"t": "Water stored deep under the ground is called…", "o": ["Groundwater", "Surface water", "Seawater", "Rainwater"], "e": "Rain soaks down through soil and rock and is stored as groundwater."},
+{"t": "Rivers, lakes and ponds hold…", "o": ["Surface water", "Groundwater", "Seawater", "Glaciers"], "e": "Water on the surface of the land is surface water."},
+{"t": "Fish breathe using…", "o": ["Gills", "Lungs", "Skin only", "Fins"], "e": "Gills take oxygen dissolved in water."},
+{"t": "Lotus and water lily are…", "o": ["Rooted floating plants", "Free-floating plants", "Desert plants", "Trees"], "e": "Their roots are in the pond bed; leaves and flowers float on top."},
+{"t": "Water always flows…", "o": ["Downhill", "Uphill", "In straight lines only", "Towards mountains"], "e": "Water flows downhill, following the shape of the land."}
+]},
+{"q": [
+{"t": "Why can't we drink seawater?", "o": ["Its salt makes the body lose more water", "It is too cold", "It has no water", "It is poisonous to touch"], "e": "The body must pass out the extra salt dissolved in water, so drinking seawater dries you out."},
+{"t": "Water drops appear on the outside of a steel glass holding ice. Where do they come from?", "o": ["Water vapour in the air", "Inside the glass", "The steel", "The ice leaking"], "e": "The cold glass cools the air touching it; cool air can't hold as much vapour, so it condenses on the glass."},
+{"t": "A saucer of water in sunlight disappears in three days. What happened?", "o": ["It evaporated into the air", "It was destroyed", "It turned into ice", "The saucer absorbed it"], "e": "Water that vanishes has always gone somewhere — here, into the air as vapour."},
+{"t": "Why does a city full of concrete get less groundwater?", "o": ["Rain can't soak through concrete", "It rains less in cities", "Concrete makes water salty", "Groundwater is pumped in"], "e": "Rain runs off paved surfaces into drains instead of sinking into the ground."},
+{"t": "Which surface lets rain soak in best?", "o": ["Open soil or a lawn", "A concrete road", "A paved courtyard", "A tin roof"], "e": "Soil has gaps between its particles for water to sink through."},
+{"t": "Johads in Rajasthan are…", "o": ["Small earthen dams that help rain recharge groundwater", "Deep wells", "Water tanks on roofs", "Canals"], "e": "They catch rainwater and let it seep down."},
+{"t": "Why doesn't a lotus leaf get soaked?", "o": ["It has a waxy coating", "It is very thick", "It is made of plastic", "It is always dry"], "e": "Like crayon wax on paper, the coating makes water roll off."},
+{"t": "Which river in India reaches no sea at all?", "o": ["Luni", "Ganga", "Godavari", "Narmada"], "e": "The Luni ends in the marshy Rann of Kutch because there's no downhill path to the sea."},
+{"t": "Keibul Lamjao in Manipur is special because it is…", "o": ["The only floating national park", "The largest desert", "A frozen lake", "An underground river"], "e": "It is made of floating mats called phumdis and is home to the Sangai deer."},
+{"t": "Mist on a window in winter is an example of…", "o": ["Condensation", "Evaporation", "Melting", "Freezing"], "e": "Warm, moist air touches the cold glass and the vapour turns to droplets."}
+]},
+{"q": [
+{"t": "The water cycle keeps going forever. Does that mean water is unlimited for us?", "o": ["No — it may not be here, now and clean when we need it", "Yes — we can never run short", "Yes — the cycle creates new water", "No — the cycle destroys water"], "e": "The total never falls, but the cycle takes time and doesn't put water where and when we want it. That's what a drought is."},
+{"t": "In the sealed-bag experiment, droplets form on the upper inside of the bag. This shows…", "o": ["Water evaporates and condenses, recycling itself", "New water is made", "The bag leaks", "Sunlight turns into water"], "e": "Nothing gets in or out, yet water moves — it is recycled, not created."},
+{"t": "Why does a fish die in air and a dog drown in water?", "o": ["Each breathing organ works in only one medium", "Air is poisonous to fish", "Water has no oxygen", "Dogs can't swim"], "e": "Gills need water around them; lungs need air. Each animal is built for its habitat."},
+{"t": "Mustard seeds poured on crumpled paper collect in the low bits. What does this model?", "o": ["Water collecting in hollows to form lakes", "Rain falling", "Rivers flowing uphill", "Groundwater"], "e": "Like the seeds, water follows the land's shape and collects in low places."},
+{"t": "Why do some Indian rivers flow to the Bay of Bengal and others to the Arabian Sea?", "o": ["The land slopes different ways from where they start", "The seas pull them", "Some rivers are salty", "It depends on the rain colour"], "e": "A mountain ridge sends rain down one side or the other."},
+{"t": "In a pond food chain, the small fish are removed. What happens to the big fish?", "o": ["They starve", "They grow bigger", "Nothing changes", "They turn into small fish"], "e": "Every arrow is 'is eaten by'; the big fish lose their food."},
+{"t": "Wular Lake helps prevent floods by…", "o": ["Storing extra river water during heavy rain", "Draining into the sea", "Freezing", "Blocking rain"], "e": "It holds the extra water so less rushes downstream."},
+{"t": "Hiware Bazar in Maharashtra became 'water-positive' through…", "o": ["Rainwater harvesting and careful water use", "Building factories", "Paving roads", "Importing water"], "e": "Saving rain and using water carefully refilled its groundwater."},
+{"t": "A water scorpion lives underwater but breathes…", "o": ["Through a tail tube reaching the surface", "Through gills", "Without air", "Through its legs"], "e": "Its tube works like a snorkel to the air above."},
+{"t": "Why does a pond heron have long thin legs?", "o": ["To stand in shallow water", "To run fast", "To climb trees", "To dig"], "e": "Long legs keep its body dry while it wades and hunts fish."}
+]},
+{"q": [
+{"t": "Two raindrops land a metre apart on a mountain ridge. They can end up in seas far apart because…", "o": ["Each flows downhill on its own side of the ridge", "Wind blows them", "They evaporate", "They freeze"], "e": "The ridge divides the land's slope; each drop follows its own downhill path."},
+{"t": "A city keeps pumping groundwater out while paving more land. What will happen?", "o": ["Groundwater will run low", "Groundwater will rise", "Nothing", "Rain will increase"], "e": "Taking out more than goes in can only end one way."},
+{"t": "Why is 'the Earth has plenty of water' a dangerous belief?", "o": ["Very little of it is fresh and usable", "There is no water at all", "Water is always dirty", "Rain has stopped"], "e": "It has plenty of water but very little we can drink or use."},
+{"t": "Ocean water is still useful because…", "o": ["It is home to sea life and feeds the water cycle", "We can drink it", "It is fresh", "It never evaporates"], "e": "Seas support huge life and their evaporation gives us rain."},
+{"t": "Which change needs cooling?", "o": ["Condensation", "Melting", "Evaporation", "Boiling"], "e": "Vapour → water and water → ice both need cooling."},
+{"t": "Water hyacinth is a problem in ponds because it…", "o": ["Floats freely and spreads very fast", "Is rooted deep", "Eats fish", "Is salty"], "e": "It drifts and multiplies fast, covering the water."},
+{"t": "A change anywhere in a food chain affects…", "o": ["Both those above and below it", "Only those above", "Only those below", "Nobody"], "e": "Remove one link and the change travels in both directions."},
+{"t": "Over long times, flowing water…", "o": ["Wears away and reshapes the land", "Never changes the land", "Builds mountains", "Makes rocks heavier"], "e": "Rivers carve valleys and gorges in the land they flow over."},
+{"t": "The fishing cat has partly webbed paws. This helps it…", "o": ["Dive and catch fish", "Climb trees", "Run in deserts", "Dig burrows"], "e": "Webbing helps it swim — an adaptation for wetland life."},
+{"t": "Dew on grass in the morning forms because…", "o": ["Cool grass makes vapour in the air condense", "Grass sweats", "It rained", "Soil pushes water up"], "e": "At dawn the cool surface turns invisible vapour into droplets."}
+]}
+]}

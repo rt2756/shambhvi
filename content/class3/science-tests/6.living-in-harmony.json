@@ -1,0 +1,52 @@
+{
+"title": "6. Living in Harmony",
+"tests": [
+{"q": [
+{"t": "Who saw a monkey eating a mango and throwing the seed?", "o": ["Shambhu", "Raj", "Bela", "Rishi"], "e": "He was walking in the forest with his father."},
+{"t": "What can grow from a mango seed?", "o": ["A new mango plant", "A stone", "A bird", "Nothing"], "e": "Animals help spread seeds."},
+{"t": "Which do we get from plants?", "o": ["Fruits, vegetables, wood, medicine, fibre", "Milk only", "Eggs", "Wool"], "e": "Plants give us many things."},
+{"t": "From cows, buffaloes and goats we get…", "o": ["Milk", "Wood", "Cotton", "Paper"], "e": "And loving company."},
+{"t": "Squirrels accidentally plant trees by…", "o": ["Burying nuts and forgetting them", "Watering seeds", "Digging wells", "Eating leaves"], "e": "Forgotten nuts grow into trees."},
+{"t": "Should we hurt animals even if we don't like them?", "o": ["No", "Yes", "Only insects", "Only at night"], "e": "Animals usually hurt only when they feel threatened."},
+{"t": "We take care of animals by giving them…", "o": ["Water, food and shelter", "Noise", "Plastic", "Nothing"], "e": "And kindness."},
+{"t": "Plants give animals…", "o": ["Food and shelter", "Milk", "Money", "Toys"], "e": "Like the mango tree full of birds and monkeys."},
+{"t": "Grey Wagtails visit Valparai in…", "o": ["Winter", "Summer", "Monsoon only", "Never"], "e": "They come from the mountains to warmer places."},
+{"t": "How do children in Valparai welcome Grey Wagtails?", "o": ["With posters and sweets", "By chasing them", "With nets", "They ignore them"], "e": "A celebration of birds."}
+]},
+{"q": [
+{"t": "How do animals help plants?", "o": ["By spreading seeds and making soil fertile with their waste", "By cutting them", "By eating all seeds", "They don't"], "e": "Plants then grow near and far."},
+{"t": "'Dispersing seeds' means…", "o": ["Spreading seeds to new places", "Eating seeds", "Burning seeds", "Hiding seeds forever"], "e": "Monkeys, birds and squirrels do it."},
+{"t": "'Fertile soil' means soil that…", "o": ["Helps plants grow well", "Is dry", "Is hard", "Has no life"], "e": "Animal waste adds nutrients."},
+{"t": "Why do uninvited animals like ants come into homes?", "o": ["Looking for food and shelter", "To play", "To sleep only", "By magic"], "e": "Keep food covered."},
+{"t": "What can you do with a plant friend when you feel sad?", "o": ["Talk to it about your feelings", "Pull its leaves", "Ignore it", "Cut it"], "e": "It helps you share feelings."},
+{"t": "Fibre for clothes comes from…", "o": ["Plants like cotton", "Stones", "Plastic only", "Water"], "e": "Plants give fibre."},
+{"t": "Which do plants give us that we breathe?", "o": ["Fresh air", "Smoke", "Dust", "Nothing"], "e": "Trees keep air fresh."},
+{"t": "Why do we treat cows and goats with kindness?", "o": ["They give us milk and company", "They are toys", "They are dangerous", "No reason"], "e": "We need each other."},
+{"t": "Grey Wagtails are called…", "o": ["Vaalatti kuruvi in Tamil", "Mynah", "Koel", "Bulbul"], "e": "They wag their tails up and down."},
+{"t": "Why do Grey Wagtails come south in winter?", "o": ["It's warmer there", "It's colder there", "To eat snow", "To swim"], "e": "Mountains get very cold."}
+]},
+{"q": [
+{"t": "How do animals and plants depend on us?", "o": ["We give them water, food, shelter and protection", "They don't", "We cut them", "We scare them"], "e": "Caring keeps harmony."},
+{"t": "In the ant experiment, which food do ants usually go to first?", "o": ["Sweet food like sugar or jaggery", "Nothing", "Stones", "Water"], "e": "Ants love sweet things."},
+{"t": "Why keep the three foods one foot apart in a line?", "o": ["So you can clearly see which one ants choose", "To feed birds", "For decoration", "To trap ants"], "e": "A fair test."},
+{"t": "Ants carrying food are…", "o": ["Taking it back to their nest", "Throwing it away", "Eating alone", "Playing"], "e": "They share it with the colony."},
+{"t": "Living in harmony with nature means…", "o": ["Balance and kindness among people, plants and animals", "Cutting all trees", "Keeping all animals in cages", "Ignoring nature"], "e": "Everyone helps each other."},
+{"t": "Which shows harmony?", "o": ["Planting a tree and giving birds water", "Throwing stones at dogs", "Breaking branches", "Littering"], "e": "Kind actions help all."},
+{"t": "Name an animal with four legs.", "o": ["Cow", "Crow", "Ant", "Spider"], "e": "Crow has 2, ant 6, spider 8."},
+{"t": "Why should young children make friends with a tree?", "o": ["It builds care and empathy", "Trees talk back", "It's a rule", "To climb only"], "e": "Caring for a plant teaches kindness."},
+{"t": "What does the mango tree in the story give animals?", "o": ["Home, shade and food", "Milk", "Water only", "Nothing"], "e": "Birds, squirrels and monkeys live there."},
+{"t": "Why might a scared dog bark at us?", "o": ["It feels threatened", "It's always angry", "It wants homework", "No reason"], "e": "Stay calm and don't tease animals."}
+]},
+{"q": [
+{"t": "Which correctly orders animals from smallest to largest?", "o": ["Ant, sparrow, dog, elephant", "Elephant, dog, ant, sparrow", "Dog, ant, elephant, sparrow", "Sparrow, elephant, ant, dog"], "e": "Compare sizes you know."},
+{"t": "If all trees in a forest were cut, what would happen to monkeys and birds?", "o": ["They'd lose food and homes", "Nothing", "They'd be happier", "They'd grow trees"], "e": "Plants and animals depend on each other."},
+{"t": "A dog eating chapati near your house, and you giving it water, is an example of…", "o": ["People caring for animals", "Animals caring for plants", "Seeds spreading", "Migration"], "e": "Care in daily life."},
+{"t": "Why do Grey Wagtails return to Valparai every year?", "o": ["It's warm with food during cold months", "They get lost", "Children feed sweets", "They live there all year"], "e": "Seasonal visitors."},
+{"t": "Which animals did elders keep at home long ago? How can you find out?", "o": ["Ask your elders", "Guess", "Ask a tree", "You can't"], "e": "Elders have stories."},
+{"t": "A squirrel forgets where it buried nuts. This helps…", "o": ["New trees grow", "Squirrels starve always", "Nuts rot uselessly always", "Birds fly"], "e": "Nature keeps balance."},
+{"t": "Medicines from plants include…", "o": ["Tulsi and neem uses", "Plastic", "Stones", "Iron"], "e": "Plants have healing uses."},
+{"t": "How many legs does a butterfly have?", "n": 6, "e": "It's an insect."},
+{"t": "Animals waste making soil fertile helps…", "o": ["Plants grow better", "Soil become plastic", "Rain stop", "Animals disappear"], "e": "A cycle of help."},
+{"t": "Which best describes 'We Need Each Other'?", "o": ["People, plants and animals all depend on one another", "Only people matter", "Plants need nothing", "Animals live alone"], "e": "That's harmony."}
+]}
+]}

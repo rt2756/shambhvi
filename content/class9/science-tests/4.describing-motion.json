@@ -1,0 +1,52 @@
+{
+"title": "4. Describing Motion Around Us",
+"tests": [
+{"q": [
+{"t": "Net change in position is…", "o": ["Displacement", "Distance", "Speed", "Acceleration"], "e": "It has value and direction."},
+{"t": "The SI unit of displacement is…", "o": ["Metre", "m/s", "m/s²", "Second"], "e": "Same as distance."},
+{"t": "You walk round a park and return to the start. Displacement is…", "o": ["Zero", "The path length", "Twice the path", "Negative"], "e": "No net change in position."},
+{"t": "Rate of change of velocity is…", "o": ["Acceleration", "Speed", "Displacement", "Distance"], "e": "SI unit m/s²."},
+{"t": "The SI unit of acceleration is…", "o": ["m/s²", "m/s", "m", "N"], "e": "Change in velocity per second."},
+{"t": "On a position–time graph, the slope gives…", "o": ["Velocity", "Acceleration", "Distance", "Time"], "e": "Change in position ÷ change in time."},
+{"t": "The area under a velocity–time graph gives…", "o": ["Displacement", "Acceleration", "Speed", "Time"], "e": "Velocity × time = displacement."},
+{"t": "Acceleration due to gravity g is about…", "o": ["9.8 m/s²", "98 m/s²", "1 m/s²", "0.98 m/s²"], "e": "Directed downward."},
+{"t": "Motion in a circle at constant speed is…", "o": ["Uniform circular motion", "Uniform linear motion", "At rest", "Not accelerated"], "e": "Speed constant, direction changes."},
+{"t": "36 km/h = ? m/s", "n": 10, "u": "m/s", "k": "36*F(5,18)", "e": "Multiply by 5/18."}
+]},
+{"q": [
+{"t": "The magnitude of displacement is always ___ the distance travelled.", "o": ["Less than or equal to", "Greater than", "Equal to", "Twice"], "e": "The shortcut can't be longer than the route."},
+{"t": "Fuel used depends on…", "o": ["Total distance", "Displacement", "Final position", "Direction"], "e": "The engine works for every metre."},
+{"t": "A bus cruising at constant 100 km/h on a straight road has acceleration…", "o": ["Zero", "100 km/h²", "9.8 m/s²", "Negative"], "e": "Velocity isn't changing."},
+{"t": "Velocity decreasing means acceleration is…", "o": ["Opposite to velocity", "Along velocity", "Zero", "Upward"], "e": "Negative sign if velocity is positive."},
+{"t": "Why is uniform circular motion accelerated?", "o": ["Direction of velocity keeps changing", "Speed increases", "It slows down", "It isn't"], "e": "Velocity changes if magnitude or direction changes."},
+{"t": "Velocity in circular motion points along the…", "o": ["Tangent", "Radius inward", "Radius outward", "Centre"], "e": "A released marble flies off along the tangent."},
+{"t": "The kinematic equations apply only when…", "o": ["Acceleration is constant", "Velocity is zero", "Motion is circular", "Time is zero"], "e": "Otherwise none applies."},
+{"t": "v = u + at. If u = 0, a = 2 m/s², t = 5 s, v = ?", "n": 10, "u": "m/s", "k": "0+2*5", "e": "0 + 2 × 5 = 10 m/s."},
+{"t": "A car goes 100 m in 20 s. Average speed (m/s)?", "n": 5, "u": "m/s", "k": "F(100,20)", "e": "100 ÷ 20 = 5 m/s."},
+{"t": "72 km/h = ? m/s", "n": 20, "u": "m/s", "k": "72*F(5,18)", "e": "72 × 5/18 = 20."}
+]},
+{"q": [
+{"t": "A car accelerates from 10 m/s to 30 m/s in 5 s. Acceleration (m/s²)?", "n": 4, "u": "m/s²", "k": "F(30-10,5)", "e": "(30 − 10) ÷ 5 = 4 m/s²."},
+{"t": "s = ut + ½at². u = 0, a = 4 m/s², t = 3 s. s (m)?", "n": 18, "u": "m", "k": "0*3+F(1,2)*4*9", "e": "½ × 4 × 9 = 18 m."},
+{"t": "v² = u² + 2as. u = 0, a = 2 m/s², s = 25 m. v (m/s)?", "n": 10, "u": "m/s", "k": "math.sqrt(0+2*2*25)", "e": "v² = 100 → v = 10 m/s."},
+{"t": "A ball dropped from rest falls for 2 s (g = 9.8). Speed (m/s)?", "n": 19.6, "u": "m/s", "k": "F('9.8')*2", "e": "v = gt = 9.8 × 2 = 19.6 m/s."},
+{"t": "Doubling the speed makes the braking distance…", "o": ["Four times as long", "Twice as long", "Half", "The same"], "e": "Distance depends on speed squared."},
+{"t": "At 10 m/s, a 0.5 s reaction time adds how many metres before braking?", "n": 5, "u": "m", "k": "10*F(1,2)", "e": "Speed × time = 5 m."},
+{"t": "A person walks 4 m east then 3 m north. Displacement magnitude (m)?", "n": 5, "u": "m", "k": "math.sqrt(16+9)", "e": "√(16 + 9) = 5 m. Distance is 7 m."},
+{"t": "A runner does one full lap of a 400 m track in 50 s. Average velocity is…", "o": ["0 m/s", "8 m/s", "400 m/s", "50 m/s"], "e": "Displacement is zero; speed is 8 m/s."},
+{"t": "Speed equals magnitude of velocity only when…", "o": ["Motion is in one direction throughout", "Always", "Never", "Speed is zero"], "e": "Then distance equals displacement."},
+{"t": "Why must you not change the origin mid-problem?", "o": ["Signs and positions would become inconsistent", "It's a rule only", "Origins move", "It changes gravity"], "e": "Choose once, stick with it."}
+]},
+{"q": [
+{"t": "Two walkers 210 yojanas apart walk towards each other at 9 and 5 yojanas/day. When do they meet (days)?", "n": 15, "u": "days", "k": "F(210,9+5)", "e": "The gap shrinks at 9 + 5 = 14 per day: 210 ÷ 14 = 15."},
+{"t": "A train slows from 20 m/s to 0 in 10 s. Acceleration (m/s²)?", "n": -2, "u": "m/s²", "k": "F(0-20,10)", "e": "(0 − 20) ÷ 10 = −2 m/s²."},
+{"t": "How far does that train travel while stopping (m)?", "n": 100, "u": "m", "k": "F(20+0,2)*10", "e": "Average velocity 10 m/s × 10 s = 100 m."},
+{"t": "A velocity–time graph is a horizontal line at 5 m/s for 4 s. Displacement (m)?", "n": 20, "u": "m", "k": "5*4", "e": "Area = 5 × 4 = 20 m."},
+{"t": "A position–time graph is a horizontal line. The object is…", "o": ["At rest", "Moving uniformly", "Accelerating", "Moving backwards"], "e": "Position isn't changing."},
+{"t": "A steeper straight line on a position–time graph means…", "o": ["Greater velocity", "Less velocity", "Acceleration", "Rest"], "e": "Slope = velocity."},
+{"t": "A ball thrown up at 19.6 m/s (g = 9.8). Time to reach the top (s)?", "n": 2, "u": "s", "k": "F('19.6')/F('9.8')", "e": "Velocity drops by 9.8 each second: 19.6 ÷ 9.8 = 2 s."},
+{"t": "Constant acceleration means velocity changes by…", "o": ["Equal amounts in equal time intervals", "Doubling each second", "Random amounts", "Nothing"], "e": "For all choices of interval."},
+{"t": "Is a car turning a corner at constant 40 km/h accelerating?", "o": ["Yes — its direction changes", "No — speed is constant", "Only if braking", "Only on a hill"], "e": "Everyday speech misses this."},
+{"t": "A graph is NOT a route map because it shows…", "o": ["How position changes with time", "The path taken", "Speed only", "The road"], "e": "Position vs time, not a map."}
+]}
+]}

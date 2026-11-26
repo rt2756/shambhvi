@@ -1,0 +1,52 @@
+{
+"title": "10. Life Processes in Plants",
+"tests": [
+{"q": [
+{"t": "The process by which plants make food using sunlight is…", "o": ["Photosynthesis", "Respiration", "Transpiration", "Digestion"], "e": "Photo = light, synthesis = making. Plants make food using light energy."},
+{"t": "The green pigment in leaves is…", "o": ["Chlorophyll", "Starch", "Xylem", "Glucose"], "e": "Chlorophyll captures sunlight for photosynthesis."},
+{"t": "Plants store food in the form of…", "o": ["Starch", "Oxygen", "Water", "Chlorophyll"], "e": "Glucose made in leaves is turned into starch for storage."},
+{"t": "Which gas do plants take in for photosynthesis?", "o": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"], "e": "Carbon dioxide + water → glucose + oxygen."},
+{"t": "Which gas is released during photosynthesis?", "o": ["Oxygen", "Carbon dioxide", "Nitrogen", "Steam"], "e": "Oxygen is given out as photosynthesis makes glucose."},
+{"t": "Tiny pores on leaves are called…", "o": ["Stomata", "Xylem", "Phloem", "Alveoli"], "e": "Stomata let gases move in and out of the leaf."},
+{"t": "Xylem carries…", "o": ["Water and minerals", "Food", "Oxygen only", "Starch"], "e": "Xylem carries water and minerals up from the roots."},
+{"t": "Phloem carries…", "o": ["Food", "Water from roots", "Soil", "Sunlight"], "e": "Phloem carries food made in the leaves to other parts. (Ph for 'phood'.)"},
+{"t": "Which part of a plant is called its 'food factory'?", "o": ["Leaf", "Root", "Flower", "Seed"], "e": "Leaves are broad, flat and green — built to catch light and make food."},
+{"t": "Iodine turns blue-black in the presence of…", "o": ["Starch", "Glucose", "Water", "Oxygen"], "e": "This test shows whether a leaf has made and stored starch."}
+]},
+{"q": [
+{"t": "In the three-pot experiment, which pot grows best?", "o": ["The one with sunlight and water", "Sunlight only", "Water only", "Neither"], "e": "Plants need both sunlight and water."},
+{"t": "Why is a leaf boiled in alcohol before the iodine test?", "o": ["To remove its green colour", "To add starch", "To kill germs", "To make it stronger"], "e": "Without decolouring, the green would hide the blue-black colour."},
+{"t": "Why is the alcohol heated in a water bath, not over a flame?", "o": ["Alcohol is highly flammable", "Alcohol freezes", "Water is cheaper", "Flames make starch"], "e": "Alcohol catches fire easily, so it must not be heated directly."},
+{"t": "A variegated leaf (green + white patches) is tested. Which parts turn blue-black?", "o": ["Only the green parts", "Only the white parts", "All parts", "No parts"], "e": "Only parts with chlorophyll make starch. This shows chlorophyll is needed."},
+{"t": "A plant kept in the dark for 36 h gives no blue-black. What does this show?", "o": ["Sunlight is needed", "Water is needed", "Oxygen is needed", "Chlorophyll is not needed"], "e": "No light → no photosynthesis → no starch."},
+{"t": "Photosynthesis word equation:", "o": ["Carbon dioxide + water → glucose + oxygen", "Glucose + oxygen → carbon dioxide + water", "Oxygen + water → glucose", "Starch → glucose + oxygen"], "e": "Plants use CO₂ and water, with sunlight and chlorophyll, to make glucose and release oxygen."},
+{"t": "Red ink in water rises into a white flower. Through which tissue?", "o": ["Xylem", "Phloem", "Stomata", "Chlorophyll"], "e": "Water and dissolved substances travel up through xylem."},
+{"t": "Plants respire…", "o": ["All the time, in all parts", "Only in sunlight", "Only in leaves", "Never"], "e": "Every living part of the plant respires day and night to release energy."},
+{"t": "Plant respiration: glucose + oxygen → ?", "o": ["Carbon dioxide + water + energy", "Glucose + water", "Starch + oxygen", "Oxygen + energy"], "e": "Same as in animals: glucose is broken down using oxygen to release energy."},
+{"t": "Stomata are mostly found on…", "o": ["The lower surface of leaves", "Roots", "Flowers", "Seeds"], "e": "Most stomata are on the lower surface, seen by peeling a thin layer under a microscope."}
+]},
+{"q": [
+{"t": "Why is the plant destarched (kept in dark 2–3 days) before the CO₂ experiment?", "o": ["So old stored starch doesn't give a false result", "To kill the plant", "To make chlorophyll", "To add carbon dioxide"], "e": "Any starch found afterwards must then be freshly made during the experiment."},
+{"t": "In the CO₂ experiment, why is caustic soda put in the bottle?", "o": ["It absorbs carbon dioxide", "It gives oxygen", "It adds water", "It makes starch"], "e": "The half-leaf inside gets no CO₂, so it can't make starch."},
+{"t": "Gas collected from a water plant in sunlight makes a glowing matchstick flare up. The gas is…", "o": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"], "e": "Oxygen helps burning, so it makes the flame flare."},
+{"t": "Germinating seeds in a sealed flask turn lime water milky. This shows they…", "o": ["Respire and release carbon dioxide", "Photosynthesise", "Release oxygen", "Absorb lime water"], "e": "CO₂ turns lime water milky, so the seeds were respiring."},
+{"t": "Why is the seed flask kept in the dark?", "o": ["So photosynthesis can't happen", "Seeds die in light", "Lime water needs dark", "To keep it warm"], "e": "In light, photosynthesis would use up CO₂ and confuse the result. Darkness tests only respiration."},
+{"t": "Some leaves are red but still make starch. Why?", "o": ["They have chlorophyll hidden by other pigments", "Red pigment makes food", "They don't need light", "They use roots"], "e": "Other pigments mask the green, but chlorophyll is still there working."},
+{"t": "Which direction does phloem carry food?", "o": ["From leaves to all parts", "Only upward from roots", "Only to leaves", "Nowhere"], "e": "Food is made in the leaves and sent everywhere, including roots and seeds for storage."},
+{"t": "Which is TRUE only of photosynthesis, not respiration?", "o": ["It needs sunlight and chlorophyll", "It releases energy", "It happens in all parts", "It uses oxygen"], "e": "Photosynthesis needs light and chlorophyll, and happens only in green parts."},
+{"t": "In the three-pot experiment, why change only one thing per pot?", "o": ["So any difference is due to that one thing", "To save water", "To make it quicker", "It doesn't matter"], "e": "If two things change, you can't tell which caused the result."},
+{"t": "Who studied how water, temperature and colour of light affect photosynthesis?", "o": ["R.H. Dastur", "C.V. Raman", "J.C. Bose", "P.C. Ray"], "e": "Rustom Hormusji Dastur, head of Botany at the Royal Institute of Science, Bombay."}
+]},
+{"q": [
+{"t": "In the CO₂ test, the half-leaf outside the bottle turns blue-black but the half inside doesn't. The conclusion:", "o": ["Carbon dioxide is needed for photosynthesis", "Light is not needed", "Oxygen is needed", "Caustic soda makes starch"], "e": "Both halves had light, water and chlorophyll; only the inside half lacked CO₂, and it made no starch."},
+{"t": "Photosynthesis and respiration in a plant: which statement is correct?", "o": ["They are opposite processes", "They are the same process", "Both need sunlight", "Both make glucose"], "e": "Photosynthesis makes glucose and releases O₂; respiration uses glucose and O₂ to release energy and CO₂."},
+{"t": "A non-green root cell needs energy. Where does its food come from?", "o": ["Phloem brings food from the leaves", "It makes its own", "Xylem brings food", "From the soil directly"], "e": "Roots can't photosynthesise; phloem delivers food made in leaves."},
+{"t": "Why are leaves broad and flat?", "o": ["To catch more sunlight", "To store water", "To hold soil", "To attract insects only"], "e": "A larger surface catches more light for photosynthesis."},
+{"t": "Which pot in the three-pot experiment may die?", "o": ["Sunlight but no water", "Sunlight and water", "Water but no sunlight", "None"], "e": "Without water the plant can't make food or stay alive; it may die."},
+{"t": "Stomata let in ___ during photosynthesis and let in ___ during respiration.", "o": ["carbon dioxide; oxygen", "oxygen; carbon dioxide", "water; light", "glucose; starch"], "e": "The gas exchange reverses between the two processes."},
+{"t": "Glucose made by photosynthesis is useful because…", "o": ["It is an instant energy source and can be stored as starch", "It is a gas", "It makes chlorophyll", "It absorbs CO₂"], "e": "Glucose gives quick energy; extra is converted to starch for storage."},
+{"t": "A green stem also tests positive for starch. Why?", "o": ["Green parts have chlorophyll and photosynthesise", "Stems store all food", "Roots send starch", "Iodine is wrong"], "e": "Any green part with chlorophyll can make food."},
+{"t": "If the stem of the red-ink twig is cut, the red colour is seen…", "o": ["Inside the stem, in the xylem", "Only on the outside", "Only in the roots", "Nowhere"], "e": "The colour travels in the xylem tubes inside the stem."},
+{"t": "Which is the best evidence that plants respire?", "o": ["Germinating seeds turn lime water milky in the dark", "Leaves turn blue-black with iodine", "Red ink rises in the stem", "Leaves are green"], "e": "CO₂ given out in the dark (no photosynthesis) can only come from respiration."}
+]}
+]}

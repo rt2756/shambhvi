@@ -1,0 +1,52 @@
+{
+"title": "3. Mindful Eating",
+"tests": [
+{"q": [
+{"t": "Carbohydrates are mainly…", "o": ["Energy-giving", "Body-building", "Protective", "Waste-removing"], "e": "Carbs (and fats) give energy."},
+{"t": "Proteins are mainly…", "o": ["Body-building", "Energy only", "Protective only", "Useless"], "e": "Proteins help growth and repair."},
+{"t": "Vitamins and minerals are…", "o": ["Protective nutrients", "Energy-giving", "Body-building", "Roughage"], "e": "They protect against disease."},
+{"t": "Which test shows starch?", "o": ["Iodine turns blue-black", "Paper gets oily", "Violet colour", "Fizzing"], "e": "Iodine + starch = blue-black."},
+{"t": "Which test shows fat?", "o": ["An oily patch on paper", "Blue-black colour", "Violet colour", "Lime water milky"], "e": "Fat leaves a translucent oily patch."},
+{"t": "Which test shows protein?", "o": ["Violet colour with copper sulfate and caustic soda", "Blue-black with iodine", "Oily patch", "Red litmus"], "e": "Protein turns violet."},
+{"t": "Scurvy is caused by lack of…", "o": ["Vitamin C", "Vitamin A", "Iron", "Iodine"], "e": "Bleeding gums and slow healing."},
+{"t": "Night blindness is caused by lack of…", "o": ["Vitamin A", "Vitamin C", "Calcium", "Vitamin D"], "e": "Carrots, papaya and mango supply vitamin A."},
+{"t": "Goitre is caused by lack of…", "o": ["Iodine", "Iron", "Vitamin D", "Protein"], "e": "Swelling at the front of the neck; iodised salt prevents it."},
+{"t": "Anaemia is caused by lack of…", "o": ["Iron", "Iodine", "Vitamin C", "Fat"], "e": "Weakness and shortness of breath."}
+]},
+{"q": [
+{"t": "Rickets (soft, bent bones) is caused by lack of…", "o": ["Vitamin D", "Vitamin C", "Iron", "Iodine"], "e": "Sunlight helps the body make vitamin D."},
+{"t": "Beriberi is caused by lack of…", "o": ["Vitamin B1", "Vitamin A", "Calcium", "Iron"], "e": "Swelling and tingling in hands and feet."},
+{"t": "Which vitamin can the body make with sunlight?", "o": ["Vitamin D", "Vitamin C", "Vitamin A", "Vitamin B1"], "e": "Vitamin D is special."},
+{"t": "Why does a marathon runner drink glucose water?", "o": ["Glucose gives instant energy", "It builds muscles", "It's cold", "It has vitamins"], "e": "Glucose is quickly used for energy."},
+{"t": "Peanuts test positive for…", "o": ["Both protein and fat", "Only starch", "Only fat", "Nothing"], "e": "One food can contain several nutrients."},
+{"t": "Roughage helps by…", "o": ["Getting rid of undigested food", "Giving energy", "Building muscles", "Making vitamins"], "e": "It gives no nutrients but helps stools pass smoothly."},
+{"t": "A balanced diet contains…", "o": ["All nutrients, roughage and water in the right amounts", "Only carbohydrates", "Only proteins", "Junk food"], "e": "Right amounts for proper growth."},
+{"t": "Junk food is high in…", "o": ["Sugar and fat calories", "Protein and fibre", "Vitamins", "Minerals"], "e": "But very low in proteins, vitamins, minerals and fibre."},
+{"t": "Traditional food of a state is usually based on…", "o": ["Crops grown there", "Random choice", "Foreign recipes", "Colour of soil only"], "e": "Different soils and climates grow different crops."},
+{"t": "Salt comes from…", "o": ["Seawater or rocks", "Plants", "Animals", "Milk"], "e": "It comes from neither plants nor animals."}
+]},
+{"q": [
+{"t": "Why are laddoos with ghee and nuts eaten in winter?", "o": ["Fat gives energy that keeps you warm", "They are cold", "They have vitamin C", "They are light"], "e": "Fat is stored energy."},
+{"t": "How did James Lind help sailors with scurvy (1746)?", "o": ["Noticed lemons and oranges cured them", "Gave them salt", "Gave them meat", "Kept them in sun"], "e": "Citrus supplies the missing vitamin C."},
+{"t": "Why was goitre common in the Himalayan region?", "o": ["Iodine was missing from the soil, food and water", "It was too cold", "Too much salt", "No sunlight"], "e": "Iodised salt reduced the problem."},
+{"t": "Why should fruit be washed before cutting, not after?", "o": ["Washing cut fruit loses nutrients", "It's easier", "Cutting cleans it", "Water spoils whole fruit"], "e": "Cut pieces lose some vitamins in water."},
+{"t": "Why include uncooked vegetables and fruits?", "o": ["Cooking at high heat destroys some vitamin C", "Cooked food has no taste", "Raw food has more fat", "Cooking adds junk"], "e": "Some nutrients are lost with heat."},
+{"t": "Per 100 g, roasted chana compared with potato wafers has…", "o": ["Less fat, more protein and more fibre", "More fat", "Less protein", "Less fibre"], "e": "Chana: 6.26 g fat, 18.64 g protein, 16.8 g fibre. Wafers: 35 g fat, 7 g protein, 4.8 g fibre."},
+{"t": "Why do you and your grandparents need different diets?", "o": ["Needs vary with age, activity and health", "Food has changed", "Grandparents don't eat", "No reason"], "e": "Requirements depend on age, gender, activity, health and lifestyle."},
+{"t": "Polar bears survive winter sleep without eating because of…", "o": ["A thick layer of stored fat", "Eating snow", "Vitamin C", "Their fur only"], "e": "Fat is stored energy for hibernation."},
+{"t": "Why must you not touch copper sulfate and caustic soda?", "o": ["They are harmful chemicals", "They are sticky", "They are expensive", "They smell nice"], "e": "If spilled, wash immediately with water."},
+{"t": "Chulha → gas stove and sil-batta → electric grinder happened because of…", "o": ["Technology, transport and communication", "Laws", "Weather", "Nothing"], "e": "Culinary practices changed with development."}
+]},
+{"q": [
+{"t": "How many times more fibre does roasted chana have than potato wafers (16.8 vs 4.8)?", "n": 3.5, "k": "F(168,48)", "e": "16.8 ÷ 4.8 = 3.5 — over three times the fibre."},
+{"t": "A child has bleeding gums and wounds that heal slowly. Which food helps most?", "o": ["Amla or guava", "Rice", "Ghee", "Potato wafers"], "e": "Symptoms of scurvy — vitamin C is needed."},
+{"t": "A child has soft, bent bones. Which helps?", "o": ["Sunlight, milk and eggs", "Sugar", "Lemon juice", "Iodised salt"], "e": "Rickets — vitamin D from sunlight and food."},
+{"t": "A food gives a violet colour and an oily patch. It contains…", "o": ["Protein and fat", "Starch only", "Starch and fat", "Nothing"], "e": "Violet = protein; oily patch = fat."},
+{"t": "What does water do in the body?", "o": ["Helps absorb nutrients and remove waste", "Gives energy", "Builds muscles", "Makes vitamins"], "e": "Water removes waste through sweat and urine."},
+{"t": "Who analysed over 500 Indian foods for nutrition?", "o": ["Coluthur Gopalan", "Salim Ali", "James Lind", "C.V. Raman"], "e": "His work led to the Mid Day Meal Programme, now PM POSHAN."},
+{"t": "Frequent junk food can lead to…", "o": ["Obesity and health problems", "Better eyesight", "Stronger bones", "More energy forever"], "e": "High calories with few nutrients."},
+{"t": "Which is a plant source of protein?", "o": ["Pulses", "Paneer", "Egg", "Fish"], "e": "Pulses, beans, peas, nuts, soya and mushrooms."},
+{"t": "Why is locally grown, plant-based food recommended?", "o": ["Good for the body and the environment", "It is always cheaper", "It has no nutrients", "It tastes the same"], "e": "Less transport and nourishing food."},
+{"t": "Punjab's makki di roti and sarson da saag are made from…", "o": ["Maize and mustard greens grown there", "Rice and coconut", "Bamboo and soya", "Ragi"], "e": "Traditional food follows local crops."}
+]}
+]}

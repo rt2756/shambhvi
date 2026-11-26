@@ -1,0 +1,52 @@
+{
+"title": "7. How do Organisms Reproduce?",
+"tests": [
+{"q": [
+{"t": "Amoeba reproduces by…", "o": ["Binary fission", "Budding", "Spores", "Seeds"], "e": "Splits into two."},
+{"t": "Plasmodium (malaria parasite) reproduces by…", "o": ["Multiple fission", "Binary fission", "Budding", "Fragmentation"], "e": "Divides into many at once."},
+{"t": "Hydra reproduces asexually by…", "o": ["Budding", "Binary fission", "Seeds", "Spores"], "e": "Also regeneration."},
+{"t": "Spirogyra reproduces by…", "o": ["Fragmentation", "Budding", "Seeds", "Spores only"], "e": "Each piece grows into a new filament."},
+{"t": "Planaria can regrow a whole body from a piece. This is…", "o": ["Regeneration", "Budding", "Fission", "Pollination"], "e": "Specialised cells rebuild tissues."},
+{"t": "Bryophyllum reproduces through buds on its…", "o": ["Leaves", "Roots only", "Flowers", "Seeds"], "e": "Vegetative propagation."},
+{"t": "Rhizopus (bread mould) reproduces by…", "o": ["Spores in sporangia", "Seeds", "Budding", "Fission"], "e": "Spores have thick protective walls."},
+{"t": "Fusion of male and female gametes is…", "o": ["Fertilisation", "Pollination", "Germination", "Fission"], "e": "Forms a zygote."},
+{"t": "The ovary of a flower develops into the…", "o": ["Fruit", "Seed", "Petal", "Root"], "e": "Ovules become seeds."},
+{"t": "The developing embryo gets nutrition from the mother through the…", "o": ["Placenta", "Ovary", "Oviduct", "Cervix"], "e": "A disc embedded in the uterine wall."}
+]},
+{"q": [
+{"t": "Why are copies of DNA never exact?", "o": ["Copying reactions make small errors", "DNA is fake", "Cells don't copy", "On purpose only"], "e": "This creates variation."},
+{"t": "Why is variation useful for a species?", "o": ["Some individuals may survive changing conditions", "It makes them look nice", "It stops reproduction", "No use"], "e": "Survival of the species."},
+{"t": "Why must sexual reproduction involve meiosis?", "o": ["To halve chromosome number in gametes", "To double it", "To make clones", "To grow faster"], "e": "Fusion restores the full number."},
+{"t": "Self-pollination transfers pollen to the stigma of…", "o": ["The same flower", "Another plant", "A leaf", "A root"], "e": "Cross-pollination goes to another flower."},
+{"t": "After fertilisation, the zygote develops into the…", "o": ["Embryo", "Fruit", "Petal", "Pollen"], "e": "Inside the seed."},
+{"t": "Vegetative propagation is useful because…", "o": ["Plants are identical to a desirable parent and grow faster", "It makes seeds", "It creates variation", "It needs pollination"], "e": "Bananas, oranges, roses grown this way."},
+{"t": "Fertilisation in humans normally occurs in the…", "o": ["Oviduct (fallopian tube)", "Uterus", "Vagina", "Ovary"], "e": "Then the zygote implants in the uterus."},
+{"t": "Which contraceptive also protects against STDs?", "o": ["Condom", "Oral pill", "Copper-T", "Surgical method"], "e": "A barrier method."},
+{"t": "HIV-AIDS and gonorrhoea are examples of…", "o": ["Sexually transmitted diseases", "Deficiency diseases", "Genetic diseases", "Viral only"], "e": "Gonorrhoea is bacterial; HIV viral."},
+{"t": "Female foeticide is…", "o": ["Illegal in India", "Allowed", "Encouraged", "A medical treatment"], "e": "Prenatal sex determination is banned."}
+]},
+{"q": [
+{"t": "Why must a cell divide rather than just push out a copy of DNA?", "o": ["The copy needs its own cell apparatus", "DNA can't be copied", "Cells are too small", "To grow bigger"], "e": "Both cells need machinery."},
+{"t": "Why are spores well suited to survival?", "o": ["Thick walls protect them until conditions are right", "They're large", "They swim", "They photosynthesise"], "e": "They can wait out bad conditions."},
+{"t": "Why are gametes of two kinds — one mobile, one with food?", "o": ["One must travel, the other must nourish the embryo", "Random", "To look different", "Both swim"], "e": "Division of labour."},
+{"t": "Why does a pollen tube grow from stigma to ovary?", "o": ["To carry the male gamete to the egg", "To make fruit colour", "To store food", "To grow roots"], "e": "Fertilisation follows."},
+{"t": "Which is a unisexual flower?", "o": ["Papaya", "Hibiscus", "Mustard", "Rose"], "e": "Hibiscus and mustard are bisexual."},
+{"t": "Testes are outside the body because…", "o": ["Sperm need a lower temperature", "There's no room inside", "For protection", "No reason"], "e": "A cooler place."},
+{"t": "If the egg is not fertilised, the uterine lining…", "o": ["Breaks down and is shed (menstruation)", "Stays forever", "Becomes a placenta", "Becomes an egg"], "e": "Cycle repeats roughly monthly."},
+{"t": "A copper-T prevents pregnancy by…", "o": ["Being placed in the uterus", "Blocking oviducts surgically", "Changing hormones", "Covering the penis"], "e": "It may cause side effects."},
+{"t": "Why is binary fission in Leishmania in a definite plane?", "o": ["It has a whip-like structure at one end", "It's round", "It's in water", "Random"], "e": "Orientation matters."},
+{"t": "Regeneration is NOT the same as reproduction for most organisms because…", "o": ["Most can't regrow a whole individual from any piece", "It's faster", "It needs seeds", "It's sexual"], "e": "Only simple organisms like Planaria and Hydra do this."}
+]},
+{"q": [
+{"t": "Seed parts: the future shoot is the…", "o": ["Plumule", "Radicle", "Cotyledon", "Seed coat"], "e": "The radicle becomes the root."},
+{"t": "Cotyledons in a seed…", "o": ["Store food for the embryo", "Make pollen", "Attract insects", "Become fruit"], "e": "The packed lunch."},
+{"t": "The time from fertilisation to birth in humans is about…", "o": ["9 months", "3 months", "1 year", "1 month"], "e": "Gestation."},
+{"t": "Surgical blocking of the vas deferens prevents…", "o": ["Sperm transfer", "Egg release", "Menstruation", "STDs"], "e": "A permanent method."},
+{"t": "Why can a population reproducing asexually be wiped out more easily?", "o": ["All individuals are alike and vulnerable to the same threat", "They're bigger", "They reproduce slowly", "They're plants"], "e": "Little variation."},
+{"t": "Puberty brings changes mainly due to…", "o": ["Sex hormones", "Insulin", "Adrenaline", "Thyroxin"], "e": "Testosterone and oestrogen."},
+{"t": "Why are oral contraceptive pills sometimes avoided?", "o": ["They change hormone balance and may have side effects", "They block tubes", "They're barriers", "They're surgical"], "e": "Hormonal methods."},
+{"t": "Fission in Amoeba vs Plasmodium:", "o": ["Binary vs multiple", "Multiple vs binary", "Both budding", "Both spores"], "e": "Amoeba: two; Plasmodium: many."},
+{"t": "Grafting/layering plants lack seeds in banana because…", "o": ["Banana has lost the capacity to produce seeds", "Seeds are hidden", "It's a tree", "It's an animal"], "e": "Propagated vegetatively."},
+{"t": "DNA copying is the basic event in reproduction because…", "o": ["It passes the body design blueprint to offspring", "It makes energy", "It digests food", "It makes cells bigger"], "e": "Proteins built from DNA shape the body."}
+]}
+]}

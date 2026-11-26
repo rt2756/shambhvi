@@ -1,0 +1,52 @@
+{
+"title": "1. The Investigative World of Science",
+"tests": [
+{"q": [
+{"t": "In Class 8, science is mainly about…", "o": ["Investigating — designing experiments", "Memorising facts", "Only wonder", "Copying answers"], "e": "Class 6: wonder; Class 7: evolves; Class 8: investigates."},
+{"t": "The goal this year is to learn…", "o": ["How to find new facts", "Many new facts", "Only definitions", "Nothing new"], "e": "Learning how to investigate matters more than facts."},
+{"t": "In the book's pictures, the root stands for…", "o": ["Careful observation and evidence", "Curiosity", "Imagination only", "Guessing"], "e": "The root is the solid foundation; the kite is curiosity."},
+{"t": "The kite stands for…", "o": ["Curiosity taking flight", "Evidence", "Tradition", "Measurement"], "e": "Investigation needs both root and kite."},
+{"t": "The most important rule in experimenting is to…", "o": ["Change one thing at a time", "Change everything at once", "Never take notes", "Skip measurements"], "e": "Then any difference can be blamed on that one thing."},
+{"t": "Which is a testable question?", "o": ["What changes the way a puri puffs up?", "Why is cooking interesting?", "Is food nice?", "Who likes puris?"], "e": "An experiment could answer it."},
+{"t": "Can a kitchen be a place to do science?", "o": ["Yes", "No — only labs", "Only with a microscope", "Only for adults"], "e": "You don't need a laboratory."},
+{"t": "'How long did the puri take to puff?' gives an observation that is…", "o": ["A number", "Yes/no", "A colour", "A guess"], "e": "Numbers let you compare how much."},
+{"t": "Why keep notes on everything?", "o": ["To answer questions you hadn't thought of and let others repeat it", "To fill the notebook", "Because teachers say", "To waste time"], "e": "Notes record surprises and make experiments repeatable."},
+{"t": "Do scientists fully understand why a puri puffs?", "o": ["No — not fully", "Yes, completely", "It's in every book", "Puris don't puff"], "e": "An everyday question isn't necessarily easy or answered."}
+]},
+{"q": [
+{"t": "In the puri experiment, oil temperature is something you…", "o": ["Can change (control)", "Only observe", "Cannot change", "Measure with a ruler"], "e": "It's one of the variables you control."},
+{"t": "'Did it puff?' is something you…", "o": ["Observe", "Control", "Change", "Guess"], "e": "It's the result you observe."},
+{"t": "To test oil temperature, dough circles should have…", "o": ["Same thickness, flour and dropping method", "Different thicknesses", "Different flours", "Random sizes"], "e": "Keep everything else the same."},
+{"t": "If you change thickness AND flour together, you…", "o": ["Can't tell which caused the result", "Get a better result", "Save time correctly", "Prove both matter"], "e": "Two changes at once hide the cause."},
+{"t": "Why are numbers more useful than yes/no observations?", "o": ["They let you compare how much", "They're shorter", "They're always right", "They look better"], "e": "'Took 5 s vs 12 s' tells more than 'puffed vs puffed'."},
+{"t": "Observation without imagination…", "o": ["Never asks a new question", "Is perfect", "Always finds answers", "Is the kite"], "e": "You need both root and kite."},
+{"t": "Imagination without observation…", "o": ["Never checks if the answer is true", "Is science", "Is evidence", "Always works"], "e": "Ideas must be tested against what you see."},
+{"t": "The investigation cycle is…", "o": ["Question → experiment → observation → better question", "Answer → stop", "Guess → done", "Read → copy"], "e": "Results raise new questions."},
+{"t": "Which habit is first in the list?", "o": ["Start from something you actually noticed", "Copy a heading", "Change many things", "Ignore surprises"], "e": "Real investigations start from real observations."},
+{"t": "Why does this book's chapter order matter?", "o": ["The chapters connect as a chain", "It's alphabetical", "It's random", "It's by length"], "e": "Electricity → forces → pressure → weather → particles."}
+]},
+{"q": [
+{"t": "Testing the effect of flour type, what must stay the same?", "o": ["Thickness, size, oil temperature, dropping method", "Only the flour", "Nothing", "Only the oil"], "e": "Vary one thing; keep the rest fixed."},
+{"t": "A student tests puri size and oil temperature at once and says 'size matters'. What's wrong?", "o": ["Two things changed — can't tell which mattered", "Nothing", "Size never matters", "Oil can't be heated"], "e": "Change one thing at a time."},
+{"t": "Which list is all things you CONTROL in the puri test?", "o": ["Thickness, size, flour, oil temperature", "Puffing time, puff yes/no", "Smell, splatter", "Colour of plate"], "e": "Puffing time and yes/no are observations."},
+{"t": "Why record the smell and splatter even when testing temperature?", "o": ["They might answer questions you hadn't thought of", "They decide the result", "They are the variable", "They are required"], "e": "Notes catch surprises."},
+{"t": "Sharpening a question means…", "o": ["Making it specific enough for an experiment to settle", "Making it longer", "Making it vague", "Asking many at once"], "e": "'What changes puffing?' not 'why is cooking interesting?'"},
+{"t": "Which chapter question is 'Why does sugar disappear into tea?'", "o": ["Solutes, solvents, solutions", "Exploring forces", "Health", "Our home, Earth"], "e": "Chapter 9."},
+{"t": "Which chapter asks 'How did watching the Moon give us calendars?'", "o": ["Keeping time with the skies", "Light", "Forces", "Electricity"], "e": "Chapter 11."},
+{"t": "A good experiment lets someone else…", "o": ["Repeat exactly what you did", "Copy your answer", "Skip steps", "Ignore notes"], "e": "Clear notes make experiments repeatable."},
+{"t": "Weather leads to asking what air is made of. Which chapter follows?", "o": ["Particulate nature of matter", "Health", "Light", "Our home Earth"], "e": "The chain of connections."},
+{"t": "Why expect an answer to produce a better question?", "o": ["Each answer opens new things to investigate", "Answers are wrong", "Questions never end by rule", "To make work longer"], "e": "That's how science moves forward."}
+]},
+{"q": [
+{"t": "You want to know if a seed's soaking time affects how fast it sprouts. What do you vary?", "o": ["Only soaking time", "Soaking time and seed type", "Soil and light", "Everything"], "e": "One variable at a time."},
+{"t": "In that seed test, what do you measure?", "o": ["Time taken to sprout", "Soaking time", "Seed type", "Pot colour"], "e": "That's the outcome you observe."},
+{"t": "Which question can an experiment settle?", "o": ["Does salt make water boil at a different temperature?", "Is water beautiful?", "Why do people like rain?", "Is science fun?"], "e": "It's specific and measurable."},
+{"t": "Two puris at different oil temperatures puff in 4 s and 9 s. What can you conclude if all else was equal?", "o": ["Oil temperature affects puffing time", "Flour matters", "Nothing", "Size matters"], "e": "Only temperature differed."},
+{"t": "Why is 'scientists don't fully know why a puri puffs' encouraging?", "o": ["Everyday questions can still be open for you to investigate", "Science has failed", "Puris are magic", "It's not true"], "e": "Real investigations are possible anywhere."},
+{"t": "Which pair best describes good investigation?", "o": ["Observation + imagination", "Memory + speed", "Copying + guessing", "Luck + talent"], "e": "Root and kite."},
+{"t": "You get an odd result. A good scientist…", "o": ["Records it and asks why", "Erases it", "Ignores it", "Changes the numbers"], "e": "Surprises are worth recording."},
+{"t": "Which is NOT one of the habits worth keeping?", "o": ["Change several things to save time", "Vary one thing at a time", "Record everything", "Separate control from measure"], "e": "Changing several at once hides the cause."},
+{"t": "Testing 'does dough thickness matter?' needs at least how many different thicknesses to compare?", "n": 2, "e": "You need at least two values to see a difference."},
+{"t": "Why separate what you control from what you measure?", "o": ["So you know what caused what", "To make lists longer", "Because both are the same", "It doesn't matter"], "e": "Causes go in, results come out."}
+]}
+]}

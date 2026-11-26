@@ -1,0 +1,52 @@
+{
+"title": "5. Life Processes",
+"tests": [
+{"q": [
+{"t": "Organisms that make their own food are…", "o": ["Autotrophs", "Heterotrophs", "Parasites", "Saprophytes"], "e": "Green plants."},
+{"t": "Pores on leaves for gas exchange are…", "o": ["Stomata", "Alveoli", "Villi", "Nephrons"], "e": "Opened and closed by guard cells."},
+{"t": "Digestion of starch begins in the…", "o": ["Mouth (salivary amylase)", "Stomach", "Small intestine", "Large intestine"], "e": "Starch → sugar."},
+{"t": "Bile is made by the…", "o": ["Liver", "Pancreas", "Stomach", "Gall bladder"], "e": "Stored in the gall bladder."},
+{"t": "Finger-like projections in the small intestine are…", "o": ["Villi", "Alveoli", "Nephrons", "Stomata"], "e": "Increase surface for absorption."},
+{"t": "Anaerobic respiration in yeast gives…", "o": ["Ethanol and CO₂", "Lactic acid", "CO₂ and water", "Oxygen"], "e": "Fermentation."},
+{"t": "The energy currency of the cell is…", "o": ["ATP", "Glucose", "Protein", "Water"], "e": "Adenosine triphosphate."},
+{"t": "The human heart has how many chambers?", "n": 4, "e": "Two atria, two ventricles."},
+{"t": "The functional unit of the kidney is the…", "o": ["Nephron", "Neuron", "Alveolus", "Villus"], "e": "It filters blood."},
+{"t": "Water is carried up in plants through…", "o": ["Xylem", "Phloem", "Stomata", "Veins of animals"], "e": "Food moves in phloem."}
+]},
+{"q": [
+{"t": "Photosynthesis needs carbon dioxide, water, chlorophyll and…", "o": ["Sunlight", "Oxygen", "Glucose", "Nitrogen"], "e": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂."},
+{"t": "Mucus in the stomach…", "o": ["Protects the lining from acid", "Digests protein", "Kills germs", "Makes bile"], "e": "HCl and pepsin are the other secretions."},
+{"t": "Pepsin digests…", "o": ["Proteins", "Fats", "Starch", "Fibre"], "e": "Works in acidic medium."},
+{"t": "Bile helps digest fats by…", "o": ["Emulsifying them into droplets", "Digesting them chemically", "Absorbing them", "Making them solid"], "e": "Also makes the medium alkaline."},
+{"t": "Muscle cramps after hard running are due to…", "o": ["Lactic acid from anaerobic respiration", "Ethanol", "Excess oxygen", "Too much water"], "e": "Oxygen runs short."},
+{"t": "Why do aquatic animals breathe faster than land animals?", "o": ["Water holds far less dissolved oxygen than air", "They're bigger", "Water is cold", "They swim"], "e": "They must pass more water over gills."},
+{"t": "Why does the heart keep oxygenated and deoxygenated blood separate?", "o": ["Efficient oxygen supply for warm-blooded animals", "It looks neat", "Blood would freeze", "No reason"], "e": "Double circulation."},
+{"t": "Arteries carry blood…", "o": ["Away from the heart", "To the heart", "Only to lungs", "Only to kidneys"], "e": "Veins carry it to the heart."},
+{"t": "Platelets help in…", "o": ["Clotting blood", "Carrying oxygen", "Fighting germs only", "Digestion"], "e": "Prevent blood loss."},
+{"t": "Transpiration helps plants by…", "o": ["Creating a pull that lifts water", "Making food", "Storing water", "Attracting insects"], "e": "Also cools the plant."}
+]},
+{"q": [
+{"t": "Destarched variegated leaf in sunlight shows starch only in green parts. This proves…", "o": ["Chlorophyll is needed", "Light isn't needed", "CO₂ isn't needed", "Water isn't needed"], "e": "One of three classic experiments."},
+{"t": "Guard cells close stomata when…", "o": ["Water is scarce", "Light is bright", "CO₂ is high", "It rains"], "e": "To reduce water loss."},
+{"t": "Amoeba takes in food by…", "o": ["Engulfing it with pseudopodia", "Photosynthesis", "Absorbing through roots", "Teeth"], "e": "Holozoic nutrition."},
+{"t": "Cuscuta is an example of…", "o": ["Parasitic nutrition", "Autotrophic", "Saprophytic", "Holozoic"], "e": "It takes food from a host plant."},
+{"t": "Aerobic respiration in mitochondria breaks pyruvate into…", "o": ["CO₂ and water with much energy", "Ethanol and CO₂", "Lactic acid", "Glucose"], "e": "Far more energy than anaerobic."},
+{"t": "Why do alveoli have a huge surface area?", "o": ["To maximise gas exchange", "To store air", "To make sound", "To filter dust"], "e": "Spread out, about 80 m²."},
+{"t": "Haemoglobin carries…", "o": ["Oxygen", "Glucose", "CO₂ only", "Urea"], "e": "It has high affinity for oxygen."},
+{"t": "Why do ventricles have thicker walls than atria?", "o": ["They pump blood to organs and lungs", "They store blood", "They're older", "They're smaller"], "e": "Need more force."},
+{"t": "Lymph carries digested fat and…", "o": ["Drains excess tissue fluid back to blood", "Pumps blood", "Makes urine", "Carries oxygen"], "e": "It has white cells for immunity."},
+{"t": "Urine is mostly water plus…", "o": ["Urea and salts", "Glucose always", "Protein", "Blood cells"], "e": "Useful substances are reabsorbed."}
+]},
+{"q": [
+{"t": "In the nephron, filtration happens in the…", "o": ["Bowman's capsule (glomerulus)", "Collecting duct", "Ureter", "Bladder"], "e": "Then selective reabsorption along the tubule."},
+{"t": "Dialysis is needed when…", "o": ["Kidneys fail", "Lungs fail", "Heart is strong", "Liver is healthy"], "e": "An artificial kidney filters blood."},
+{"t": "Fishes have a heart with how many chambers?", "n": 2, "e": "Single circulation."},
+{"t": "Amphibians and most reptiles have how many heart chambers?", "n": 3, "e": "Some mixing of blood."},
+{"t": "Translocation in phloem uses energy from…", "o": ["ATP", "Transpiration pull", "Gravity", "Sunlight directly"], "e": "Active transport of sugars."},
+{"t": "Why is the small intestine of herbivores longer than of carnivores?", "o": ["Cellulose takes longer to digest", "They eat more", "Meat is harder", "No reason"], "e": "Grass needs more time."},
+{"t": "Plants get rid of wastes by…", "o": ["Shedding leaves, storing in bark, resins", "Urine", "Sweat", "Kidneys"], "e": "Some wastes stored in old xylem."},
+{"t": "Valves in the heart and veins…", "o": ["Prevent backflow of blood", "Pump blood", "Store oxygen", "Make cells"], "e": "Blood flows one way."},
+{"t": "Blood pressure in arteries is higher than in veins because…", "o": ["Arteries receive blood pumped directly from the heart", "Veins are wider only", "Veins have no blood", "Arteries are thinner"], "e": "Thick elastic walls withstand it."},
+{"t": "Glucose → pyruvate happens in the…", "o": ["Cytoplasm", "Mitochondria", "Nucleus", "Chloroplast"], "e": "First step of all respiration."}
+]}
+]}

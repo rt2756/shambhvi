@@ -1,0 +1,52 @@
+{
+"title": "9. Rhythms of Nature",
+"tests": [
+{"q": [
+{"t": "The Sun appears to rise in the…", "o": ["East", "West", "North", "South"], "e": "Because the Earth turns, the Sun appears to rise in the east and set in the west."},
+{"t": "Does the Sun really move across the sky each day?", "o": ["No — the Earth is turning", "Yes", "Only in summer", "Only at noon"], "e": "The Earth rotates once in about 24 hours."},
+{"t": "The Earth spins once in about…", "o": ["24 hours", "365 days", "1 week", "1 month"], "e": "One rotation = one day."},
+{"t": "The Earth goes round the Sun once in a…", "o": ["Year", "Day", "Month", "Week"], "e": "One trip round the Sun takes a year."},
+{"t": "A globe is a…", "o": ["Model of the Earth", "Map of a city", "Star", "Clock"], "e": "A ball-shaped model showing land and sea."},
+{"t": "How much of the Earth is in daylight at any moment?", "o": ["Half", "All of it", "A quarter", "None"], "e": "Light falls only on the half facing the Sun."},
+{"t": "Varsha is the season of…", "o": ["Monsoon rain", "Winter", "Spring", "Summer"], "e": "Varsha (Jun–Aug) brings heavy rain."},
+{"t": "Vasanta is…", "o": ["Spring", "Winter", "Monsoon", "Autumn"], "e": "Vasanta (Feb–Apr): flowers bloom and new leaves appear."},
+{"t": "Which village is called India's 'First Village of the Sunrise'?", "o": ["Dong, Arunachal Pradesh", "Kanyakumari", "Leh", "Jaisalmer"], "e": "It is the first Indian land the Sun's rays touch each morning."},
+{"t": "The wettest inhabited place on Earth is…", "o": ["Mawsynram, Meghalaya", "Thar Desert", "Delhi", "Chennai"], "e": "India also has one of the driest places — the Thar Desert."}
+]},
+{"q": [
+{"t": "Why does the Sun seem to move when it's the Earth that turns?", "o": ["We are standing on the thing that turns", "The Sun is close", "Clouds move it", "The Moon pulls it"], "e": "Like trees seeming to slide backwards from a moving bus."},
+{"t": "Why don't we feel the Earth spinning?", "o": ["The turn is smooth and everything turns with us", "It doesn't spin", "It is too slow to exist", "We are asleep"], "e": "You only feel movement when something changes."},
+{"t": "When it is day in India, it is night…", "o": ["On the opposite side of the globe", "Everywhere", "Nowhere", "Only in Delhi"], "e": "The far half of the ball is in its own shadow."},
+{"t": "Seasons happen because the Earth…", "o": ["Is tilted as it travels round the Sun", "Spins faster in summer", "Gets closer to the Moon", "Stops in winter"], "e": "Your half leans towards the Sun for part of the year, away for the rest."},
+{"t": "Why do seasons repeat every year?", "o": ["The journey round the Sun takes a year and starts again", "By chance", "Clouds remember", "The Moon controls them"], "e": "A season is a position in a journey."},
+{"t": "The monsoon is…", "o": ["A wind that changes direction with the season", "A type of cloud", "A festival", "A desert"], "e": "Moist air blows in from the sea in summer, out in winter."},
+{"t": "Why does moist air blow inland in summer?", "o": ["Land gets hotter than the sea", "Sea gets hotter than land", "Mountains push it", "Rivers pull it"], "e": "Land heats faster than water."},
+{"t": "Pongal and Makar Sankranti are celebrated in winter because…", "o": ["The harvest is in", "It's the hottest time", "It rains most", "Schools are closed"], "e": "They are thanksgiving festivals after the harvest."},
+{"t": "Holi is celebrated in…", "o": ["Spring", "Monsoon", "Winter", "Summer"], "e": "Flowers bloom and the cold ends."},
+{"t": "Why do scientists measure over time instead of trusting impressions?", "o": ["Some changes are too slow or fast for us to notice", "Impressions are always right", "Measuring is fun", "Nothing changes"], "e": "'Nothing is changing' often means 'nothing changes at my speed'."}
+]},
+{"q": [
+{"t": "Why are coastal places milder than inland ones?", "o": ["The sea warms and cools slowly", "The sea is always hot", "Inland is closer to the Sun", "Coasts have no wind"], "e": "Inland places swing to fierce extremes."},
+{"t": "Why is one side of a mountain range wet and the other dry?", "o": ["Mountains force moist air up, so it rains on one side", "One side faces the Moon", "Rivers flow differently", "Snow blocks rain"], "e": "Air drops its rain going up; little is left for the far side."},
+{"t": "Why are so many festivals right after a harvest?", "o": ["Food to spare, work finished, everyone free", "It's random", "It's always cold then", "Kings decided"], "e": "Those three things must line up for a big celebration."},
+{"t": "Animals behaving differently before rain are…", "o": ["Reacting to changes in air, moisture and pressure", "Predicting the future", "Being lazy", "Copying people"], "e": "They react slightly earlier than people notice."},
+{"t": "What makes a cycle a cycle?", "o": ["The last step leads back to the first", "It has an end", "It happens once", "It is always fast"], "e": "So there is no end — and it repeats."},
+{"t": "Why is a cycle useful to farmers?", "o": ["It makes the future predictable", "It stops change", "It brings rain every day", "It removes seasons"], "e": "Farmers can plan sowing months ahead."},
+{"t": "Why does Dong see sunrise before western India?", "o": ["India turns eastern edge first", "It is higher", "It is closer to the Sun", "It has no clouds"], "e": "The Earth rotates west to east, so the east meets the Sun first."},
+{"t": "Winter in Kerala is mild while in Kashmir it's very cold mainly because…", "o": ["Kashmir is much further north (and high)", "Kerala has no winter", "Kashmir is near the sea", "Kerala is a desert"], "e": "How far north or south a place is changes its seasons."},
+{"t": "Shishir is…", "o": ["Winter", "Spring", "Monsoon", "Summer"], "e": "Shishir (Dec–Feb): cold, short days, mist and fog."},
+{"t": "In winter the monsoon winds…", "o": ["Reverse, blowing out and dry", "Bring heavy rain", "Stop forever", "Blow from the Moon"], "e": "The land is cooler than the sea, so the wind direction flips."}
+]},
+{"q": [
+{"t": "A mountain rising and a valley deepening are invisible to us because…", "o": ["They change far too slowly", "They don't change", "They are too fast", "They are underground"], "e": "Changes slower than our memory span become invisible."},
+{"t": "An insect's wing flap is also hard to see because it is…", "o": ["Too fast", "Too slow", "Invisible", "Not moving"], "e": "Changes much faster than our eyes can follow are missed too."},
+{"t": "In the torch-and-globe demo, a sticker on India moves from the dark half into the light. That is…", "o": ["Sunrise for India", "Sunset", "Midnight", "An eclipse"], "e": "Rotation carries you into the lit half — sunrise."},
+{"t": "'Change is not the opposite of order' means…", "o": ["Nature's changes repeat so reliably we can build lives around them", "Nothing changes", "Order is random", "Seasons are unpredictable"], "e": "In nature, the changing IS the order."},
+{"t": "Sharad brings…", "o": ["Clear skies and ripening crops", "Heavy rain", "Snow", "New leaves"], "e": "Sharad (Aug–Oct): rain eases, crops ripen."},
+{"t": "Baisakhi, Vishu and Rongali Bihu mark…", "o": ["New year and harvest", "Mid-winter", "Monsoon floods", "Exams"], "e": "A new farming year begins."},
+{"t": "Why does it rain so much in India in one season rather than spread across the year?", "o": ["The monsoon winds bring sea air only in summer", "Clouds only form in June", "The Sun stops", "Rivers overflow"], "e": "The seasonal reversal of winds gives a distinct rainy season."},
+{"t": "A season is better described as…", "o": ["A position in the Earth's journey round the Sun", "A random weather change", "A festival", "A month name"], "e": "That's why seasons are so reliable."},
+{"t": "Birds migrating to the same place every year is an example of…", "o": ["Nature working in cycles", "Random wandering", "Getting lost", "Climate change"], "e": "Cycles let birds return to a place they left a year ago."},
+{"t": "Which is NOT a reason regions in India differ in seasons?", "o": ["The colour of the soil", "How far north or south", "Closeness to the sea", "Mountains"], "e": "The three main reasons are latitude, the sea and mountains."}
+]}
+]}

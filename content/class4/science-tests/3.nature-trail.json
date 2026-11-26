@@ -1,0 +1,52 @@
+{
+"title": "3. Nature Trail",
+"tests": [
+{"q": [
+{"t": "Where did the students go on the nature trail?", "o": ["Pachmarhi, Madhya Pradesh", "Ooty", "Shimla", "Goa"], "e": "With Abha Didi, a nature scientist."},
+{"t": "A nature scientist studies…", "o": ["Plants and animals", "Cars", "Buildings", "Money"], "e": "Abha Didi guided the trail."},
+{"t": "Should we feed animals in a forest or zoo?", "o": ["No", "Yes", "Only chips", "Only bread"], "e": "Human food can harm them."},
+{"t": "An elephant uses its long trunk to…", "o": ["Take food and water", "Fly", "Dig only", "See"], "e": "A special feature."},
+{"t": "A sparrow's short strong beak helps it…", "o": ["Crack seeds", "Catch fish", "Drink nectar", "Tear meat"], "e": "Beak shape tells food habits."},
+{"t": "The spectacled monkey is the state animal of…", "o": ["Tripura", "Kerala", "Punjab", "Rajasthan"], "e": "White patches around eyes look like glasses."},
+{"t": "Gaur look like buffaloes but are…", "o": ["Stronger with shorter horns", "Smaller", "Birds", "Water animals"], "e": "Seen near the pond."},
+{"t": "A hornbill is named for…", "o": ["The horn-like headgear on its forehead", "Its loud horn sound", "Its horn-shaped tail", "Eating horns"], "e": "Long tail and large curved beak."},
+{"t": "How many legs does an insect have?", "n": 6, "e": "Three pairs of legs."},
+{"t": "Lines on a leaf are called…", "o": ["Veins", "Roots", "Stems", "Bark"], "e": "Different leaves have different vein patterns."}
+]},
+{"q": [
+{"t": "An eagle has a sharp curved beak and claws to…", "o": ["Catch prey", "Crack seeds", "Drink nectar", "Swim"], "e": "Built for hunting."},
+{"t": "A sunbird's long beak helps it…", "o": ["Drink nectar from flowers", "Crack nuts", "Catch fish", "Tear meat"], "e": "Like a straw."},
+{"t": "Owls can see well at…", "o": ["Night", "Noon only", "Never", "Underwater"], "e": "Sharp eyesight."},
+{"t": "Fish move using…", "o": ["Fins", "Legs", "Wings", "Trunks"], "e": "They swim."},
+{"t": "The gharial has a long, narrow snout to…", "o": ["Catch fish", "Dig soil", "Eat grass", "Climb trees"], "e": "A type of crocodile."},
+{"t": "Turtles have strong shells for safety and webbed feet to…", "o": ["Swim easily", "Climb trees", "Fly", "Dig deep"], "e": "Water adaptations."},
+{"t": "Frogs can live…", "o": ["On land and in water", "Only in water", "Only in trees", "Only underground"], "e": "Amphibians."},
+{"t": "An insect has how many pairs of antennae?", "n": 1, "e": "To sense its surroundings."},
+{"t": "Flies and grasshoppers can have how many pairs of wings?", "n": 2, "e": "Not all insects have wings."},
+{"t": "The Indian Giant Squirrel found in Pachmarhi is…", "o": ["Big and red-coloured", "Tiny and grey", "Striped and blue", "White"], "e": "Compare with squirrels near you."}
+]},
+{"q": [
+{"t": "Why shouldn't we bring polythene bags into a forest?", "o": ["Animals may eat them and plastic pollutes", "They're heavy", "They're colourful", "No reason"], "e": "Safety rules protect nature."},
+{"t": "Footprints in mud near a pond tell us…", "o": ["Which animals came to drink", "The weather", "Time of day", "Nothing"], "e": "Tracks are clues."},
+{"t": "Picking grains with a toothpick and nuts with tongs shows that…", "o": ["Different beaks suit different foods", "Birds use tools", "Spoons are best always", "Nothing"], "e": "Beak shape matches food."},
+{"t": "In the Web of Life game, removing one player shows…", "o": ["The web weakens — everything is connected", "Nothing changes", "The web gets stronger", "Only that player matters"], "e": "Interdependence."},
+{"t": "If deer disappeared, tigers would…", "o": ["Lose food", "Be happier", "Eat grass", "Not change"], "e": "Food chains link animals."},
+{"t": "Which is a rule in a forest?", "o": ["Do not tease animals", "Throw garbage anywhere", "Pluck flowers", "Make loud noise"], "e": "Be careful and respectful."},
+{"t": "A leaf autograph is made by…", "o": ["Rubbing crayon over paper on a leaf", "Painting leaves", "Burning leaves", "Folding leaves"], "e": "Vein patterns appear."},
+{"t": "Which bird is colourful?", "o": ["Peacock", "Crow", "Owl", "Pigeon"], "e": "Some birds are bright; others are plain."},
+{"t": "A crab moves by…", "o": ["Walking", "Flying", "Jumping", "Swimming only"], "e": "Often sideways."},
+{"t": "Why are forest rules important?", "o": ["They keep both us and nature safe", "To spoil fun", "For tourists only", "They aren't"], "e": "Protect plants and animals."}
+]},
+{"q": [
+{"t": "An insect has 3 pairs of legs. How many legs do 4 insects have?", "n": 24, "k": "4*3*2", "e": "Each has 6; 4 × 6 = 24."},
+{"t": "A bird with a hooked beak and sharp claws probably eats…", "o": ["Small animals", "Nectar", "Seeds only", "Grass"], "e": "Like an eagle."},
+{"t": "A bird with a long thin beak probably eats…", "o": ["Nectar from flowers", "Meat", "Nuts", "Fish only"], "e": "Like a sunbird."},
+{"t": "How do plants and animals depend on each other?", "o": ["Plants give food and shelter; animals spread seeds and pollen", "They don't", "Only animals need plants", "Only plants need animals"], "e": "The web of life."},
+{"t": "Which pair looks similar but is different?", "o": ["Pigeon and dove", "Tiger and fish", "Elephant and ant", "Crow and cow"], "e": "Also crocodile and alligator."},
+{"t": "Which is NOT an insect?", "o": ["Spider", "Ant", "Butterfly", "Praying mantis"], "e": "Spiders have eight legs."},
+{"t": "A banyan tree has roots that…", "o": ["Hang down and touch the ground", "Grow only upward", "Float", "Are hidden in leaves"], "e": "Prop roots."},
+{"t": "Which tells a bird's eating habits best?", "o": ["Its beak and claws", "Its colour", "Its song", "Its size only"], "e": "Observe beaks!"},
+{"t": "As a nature guide, you should…", "o": ["Learn plant and animal features to explain them", "Scare animals", "Pick flowers", "Throw waste"], "e": "Plan a nature walk."},
+{"t": "Why are there no pets allowed in forests?", "o": ["They can disturb or harm wild animals", "Pets get lost only", "No reason", "Forests are for pets"], "e": "Keep wildlife safe."}
+]}
+]}

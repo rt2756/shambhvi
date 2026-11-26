@@ -1,0 +1,52 @@
+{
+"title": "1. Chemical Reactions and Equations",
+"tests": [
+{"q": [
+{"t": "Which is a sign that a chemical reaction has happened?", "o": ["A gas is evolved", "The substance is cut", "The substance is folded", "The substance is weighed"], "e": "Also colour change, temperature change, precipitate."},
+{"t": "A balanced equation has equal numbers of each…", "o": ["Atom on both sides", "Molecule on both sides", "Compound on both sides", "Colour"], "e": "Mass is conserved."},
+{"t": "When balancing, you may change the…", "o": ["Coefficients", "Formulae", "Subscripts", "Symbols"], "e": "The formula IS the substance."},
+{"t": "Two or more substances forming one is…", "o": ["Combination", "Decomposition", "Displacement", "Double displacement"], "e": "E.g. CaO + H₂O → Ca(OH)₂."},
+{"t": "One substance breaking into two or more is…", "o": ["Decomposition", "Combination", "Displacement", "Redox only"], "e": "Usually needs energy."},
+{"t": "A reaction that releases heat is…", "o": ["Exothermic", "Endothermic", "Decomposition always", "Neutral"], "e": "Respiration is exothermic."},
+{"t": "Gain of oxygen is…", "o": ["Oxidation", "Reduction", "Neutralisation", "Precipitation"], "e": "Or loss of hydrogen."},
+{"t": "Loss of oxygen is…", "o": ["Reduction", "Oxidation", "Combination", "Corrosion"], "e": "Or gain of hydrogen."},
+{"t": "An insoluble solid formed in a solution is a…", "o": ["Precipitate", "Solvent", "Catalyst", "Indicator"], "e": "BaSO₄ is a classic example."},
+{"t": "Fats and oils going stale by oxidation is…", "o": ["Rancidity", "Corrosion", "Combustion", "Sublimation"], "e": "Prevented by antioxidants, nitrogen packing, refrigeration."}
+]},
+{"q": [
+{"t": "Iron nail in copper sulfate solution: the solution turns…", "o": ["From blue to pale green", "From green to blue", "Red", "Colourless to blue"], "e": "Fe displaces Cu; brown copper coats the nail."},
+{"t": "Why does iron displace copper?", "o": ["Iron is more reactive", "Copper is more reactive", "Iron is heavier", "Copper is magnetic"], "e": "More reactive displaces less reactive."},
+{"t": "Electrolysis of water: hydrogen volume is ___ oxygen volume.", "o": ["Twice", "Half", "Equal to", "Four times"], "e": "2H₂O → 2H₂ + O₂."},
+{"t": "Why are combination reactions usually exothermic?", "o": ["Making bonds releases energy", "Breaking bonds releases energy", "They are slow", "They need light"], "e": "Decomposition breaks bonds, absorbing energy."},
+{"t": "Whitewash gives a shiny finish because slaked lime reacts with CO₂ to form…", "o": ["Calcium carbonate", "Calcium oxide", "Calcium chloride", "Calcium sulfate"], "e": "Over two or three days."},
+{"t": "Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl is a…", "o": ["Double displacement (precipitation) reaction", "Combination reaction", "Decomposition", "Displacement"], "e": "Partners exchanged; BaSO₄ precipitates."},
+{"t": "Oxidation and reduction always…", "o": ["Happen together (redox)", "Happen separately", "Need light", "Need water"], "e": "Oxygen must come from somewhere and go somewhere."},
+{"t": "In CuO + H₂ → Cu + H₂O, which is oxidised?", "o": ["H₂", "CuO", "Cu", "H₂O"], "e": "Hydrogen gains oxygen."},
+{"t": "Rusting of iron is an example of…", "o": ["Corrosion", "Rancidity", "Neutralisation", "Sublimation"], "e": "Destroys bridges, cars, ships."},
+{"t": "Chips packets are flushed with nitrogen to…", "o": ["Keep oxygen away and prevent rancidity", "Add flavour", "Make them heavier", "Keep them cold"], "e": "Every method attacks fat–oxygen contact."}
+]},
+{"q": [
+{"t": "Balance: H₂ + O₂ → H₂O. Coefficient of H₂O?", "n": 2, "e": "2H₂ + O₂ → 2H₂O."},
+{"t": "Balance: Fe + H₂O → Fe₃O₄ + H₂. Coefficient of H₂O?", "n": 4, "e": "3Fe + 4H₂O → Fe₃O₄ + 4H₂."},
+{"t": "Balance: Mg + O₂ → MgO. Coefficient of Mg?", "n": 2, "e": "2Mg + O₂ → 2MgO."},
+{"t": "Heating ferrous sulfate crystals is a…", "o": ["Decomposition reaction", "Combination reaction", "Displacement", "Neutralisation"], "e": "2FeSO₄ → Fe₂O₃ + SO₂ + SO₃."},
+{"t": "Silver chloride turns grey in sunlight. This is…", "o": ["Photolytic decomposition", "Combination", "Displacement", "Electrolysis"], "e": "Light breaks AgCl into Ag and Cl₂."},
+{"t": "Decomposition of calcium carbonate (to make quicklime) is…", "o": ["Endothermic — needs heat", "Exothermic", "A displacement", "A precipitation"], "e": "CaCO₃ → CaO + CO₂ on heating."},
+{"t": "Why does a precipitation reaction go to completion?", "o": ["The precipitate leaves the solution", "It's fast", "It's hot", "It needs light"], "e": "Once formed it can't go back."},
+{"t": "Burning of natural gas is…", "o": ["Exothermic combination with oxygen", "Endothermic", "Decomposition", "Displacement"], "e": "CH₄ + 2O₂ → CO₂ + 2H₂O + heat."},
+{"t": "Mg ribbon is cleaned before burning to remove…", "o": ["The oxide layer", "Water", "Dust only", "Hydrogen"], "e": "So it can react with oxygen."},
+{"t": "A test tube of zinc + dilute H₂SO₄ gives a gas that burns with a pop. The gas is…", "o": ["Hydrogen", "Oxygen", "CO₂", "Chlorine"], "e": "Zn + H₂SO₄ → ZnSO₄ + H₂."}
+]},
+{"q": [
+{"t": "Balance: Al + O₂ → Al₂O₃. Coefficient of O₂?", "n": 3, "e": "4Al + 3O₂ → 2Al₂O₃."},
+{"t": "Balance: CH₄ + O₂ → CO₂ + H₂O. Coefficient of O₂?", "n": 2, "e": "CH₄ + 2O₂ → CO₂ + 2H₂O."},
+{"t": "In ZnO + C → Zn + CO, the substance reduced is…", "o": ["ZnO", "C", "Zn", "CO"], "e": "ZnO loses oxygen."},
+{"t": "Why can't you change H₂O to H₂O₂ to balance an equation?", "o": ["It would be a different substance", "It's too long", "Oxygen can't be added", "It's allowed"], "e": "H₂O₂ is hydrogen peroxide."},
+{"t": "Copper powder heated in air turns black because it forms…", "o": ["Copper oxide (oxidation)", "Copper sulfate", "Carbon", "Rust"], "e": "2Cu + O₂ → 2CuO."},
+{"t": "Passing H₂ over hot black CuO turns it brown. This is…", "o": ["Reduction of CuO", "Oxidation of CuO", "Combination", "Precipitation"], "e": "CuO loses oxygen to become Cu."},
+{"t": "Why are you warm? Because respiration is…", "o": ["Exothermic", "Endothermic", "A decomposition with no heat", "A precipitation"], "e": "Glucose + oxygen → CO₂ + water + energy."},
+{"t": "A strategy for balancing: leave free elements like O₂ until…", "o": ["Last", "First", "Never", "The middle"], "e": "They can be adjusted without disturbing others."},
+{"t": "Which reaction type is Zn + CuSO₄ → ZnSO₄ + Cu?", "o": ["Displacement", "Double displacement", "Combination", "Decomposition"], "e": "Zinc pushes copper out."},
+{"t": "State symbols (s), (l), (g), (aq) make an equation…", "o": ["More informative", "Balanced", "Unbalanced", "Wrong"], "e": "They show physical states."}
+]}
+]}

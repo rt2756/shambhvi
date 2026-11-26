@@ -1,0 +1,52 @@
+{
+"title": "5. Plants and Animals Live Together",
+"tests": [
+{"q": [
+{"t": "Where there are plants, there are usually…", "o": ["Animals too", "No animals", "Only fish", "Only people"], "e": "Animals live on, around and under plants."},
+{"t": "Which bird stitches leaves to build its nest?", "o": ["Tailorbird", "Crow", "Owl", "Pigeon"], "e": "Like a tailor with needle and thread."},
+{"t": "Which bird makes holes in tree trunks?", "o": ["Woodpecker", "Sunbird", "Parrot", "Duck"], "e": "It pecks the trunk."},
+{"t": "Sunbirds and butterflies drink…", "o": ["Nectar from flowers", "Milk", "Water only", "Leaves"], "e": "Nectar is sweet juice in flowers."},
+{"t": "Owls use tree hollows to…", "o": ["Bring up their young", "Store water", "Sing", "Make honey"], "e": "Hollows give safe shelter."},
+{"t": "Caterpillars eat…", "o": ["Leaves", "Meat", "Stones", "Nectar only"], "e": "They munch leaves for food."},
+{"t": "Soil is the…", "o": ["Topmost layer of the Earth's surface", "Bottom of the sea", "Sky", "A plant"], "e": "Made of broken rock and old plant and animal parts."},
+{"t": "Which creatures appear when soil is wet after rain?", "o": ["Earthworms and millipedes", "Fish", "Camels", "Eagles"], "e": "They come out in damp soil."},
+{"t": "What do squirrels and crows use twigs for?", "o": ["Building nests", "Eating", "Playing music", "Making fire"], "e": "Plants give shelter."},
+{"t": "Camels eat…", "o": ["Leaves of plants", "Fish", "Stones", "Insects only"], "e": "Plants give animals food."}
+]},
+{"q": [
+{"t": "Soil is made of…", "o": ["Tiny broken rocks, old leaves, roots and dead insects", "Only water", "Only sand", "Plastic"], "e": "Living things live in it too."},
+{"t": "Why do animals live near plants?", "o": ["Plants give food, shelter and rest", "Plants are noisy", "Plants chase them", "No reason"], "e": "Plants and animals live together."},
+{"t": "Bats and leopards use tree branches to…", "o": ["Rest and shelter", "Make nests of leaves", "Drink nectar", "Dig"], "e": "Branches are resting places."},
+{"t": "Monkeys love eating…", "o": ["Fruits", "Stones", "Fish", "Grass only"], "e": "They also drop seeds."},
+{"t": "Ants on top of soil may be found with…", "o": ["Termites, beetles and grasshoppers", "Whales", "Elephants inside soil", "Sharks"], "e": "Small creatures move between grass and leaves."},
+{"t": "Barbets and squirrels use tree hollows for…", "o": ["Nesting and hiding", "Swimming", "Cooking", "Flying lessons"], "e": "Hollows are homes."},
+{"t": "Cupping your hands behind your ears helps you…", "o": ["Hear bird sounds more clearly", "See birds", "Smell flowers", "Feel soil"], "e": "It collects more sound."},
+{"t": "A pigeon's sound is…", "o": ["Gutru gu", "Caw caw", "Meow", "Moo"], "e": "Each bird has its own sound."},
+{"t": "When do you hear more bird sounds?", "o": ["Early morning", "Midnight", "Never", "Only in rain"], "e": "Birds are most active at dawn."},
+{"t": "Ants building nests use…", "o": ["Leaves", "Stones only", "Plastic", "Paper"], "e": "Some ants weave leaves together."}
+]},
+{"q": [
+{"t": "Put in order: caterpillar → ? → butterfly.", "o": ["Cocoon", "Egg", "Tadpole", "Seed"], "e": "It stops eating, forms a cocoon, then emerges as a butterfly."},
+{"t": "What does a caterpillar do just before forming a cocoon?", "o": ["Stops eating", "Flies", "Lays eggs", "Swims"], "e": "Then it changes inside."},
+{"t": "Why do new plants appear in the rainy season?", "o": ["Seeds in the soil sprout when it rains", "They fall from clouds", "People plant all of them", "They were always tall"], "e": "Seeds wait in soil for water."},
+{"t": "Why do some insects appear only after rain?", "o": ["They wait in the soil for wet conditions", "Rain makes them", "They come from the sky", "They don't"], "e": "Wet soil brings them out."},
+{"t": "How might soil after rain be different?", "o": ["Darker, damper and with a different smell", "Exactly the same", "Drier", "Full of plastic"], "e": "Test and compare."},
+{"t": "Soil far from plants may have…", "o": ["Fewer leaves and insects", "More leaves", "More earthworms always", "More flowers"], "e": "Plants add leaves and attract life."},
+{"t": "If you hear no birds, a possible reason is…", "o": ["Few trees or too much noise nearby", "Birds can't sing", "It's spring", "Too many trees"], "e": "Birds need plants and quiet."},
+{"t": "An elephant eats…", "o": ["Grass and leaves", "Insects", "Fish", "Stones"], "e": "A big plant eater."},
+{"t": "A frog resting on a leaf shows that plants give…", "o": ["A place to rest", "Milk", "Fire", "Money"], "e": "Plants support animal life."},
+{"t": "Which animal lives under the ground?", "o": ["Earthworm", "Eagle", "Butterfly", "Monkey"], "e": "It moves through soil."}
+]},
+{"q": [
+{"t": "How many legs does an insect like an ant have?", "n": 6, "e": "All insects have six legs."},
+{"t": "How many legs does a spider have?", "n": 8, "e": "Spiders are not insects."},
+{"t": "How many legs does a bird have?", "n": 2, "e": "Plus two wings."},
+{"t": "Which list shows animals using plants for food?", "o": ["Caterpillar, monkey, camel", "Owl, bat, squirrel", "Tailorbird, ant, crow", "Fish, whale, shark"], "e": "They eat leaves or fruits."},
+{"t": "Which list shows animals using plants for shelter?", "o": ["Owl, squirrel, tailorbird", "Caterpillar, camel", "Cow, goat", "Fish, frog in water"], "e": "Hollows, twigs and stitched leaves."},
+{"t": "Why look at your plant friend in different months?", "o": ["To see how it and its visitors change", "It doesn't change", "To pull leaves", "To dig it up"], "e": "Observation over time."},
+{"t": "Lantana flowers attract…", "o": ["Butterflies", "Fish", "Snakes", "Cows only"], "e": "Butterflies drink nectar."},
+{"t": "A stink bug on a leaf is a…", "o": ["Colourful insect", "Bird", "Plant", "Worm"], "e": "Insects live on plants."},
+{"t": "Which is TRUE about soil?", "o": ["Many creatures live in it, some too small to see", "It's always empty", "It's made only of water", "Nothing grows in it"], "e": "Soil is alive!"},
+{"t": "After it rains, collect soil from the same place to…", "o": ["Compare fairly with dry soil", "Make mud pies", "Find gold", "Plant a tree"], "e": "Same place makes the comparison fair."}
+]}
+]}

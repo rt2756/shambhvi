@@ -1,0 +1,52 @@
+{
+"title": "12. Taking Charge of Waste",
+"tests": [
+{"q": [
+{"t": "The green dustbin is for…", "o": ["Peels, leaves, food waste", "Plastic and glass", "Batteries", "Metal tins"], "e": "Things that rot easily."},
+{"t": "The blue dustbin is for…", "o": ["Metal, glass, plastic and paper", "Fruit peels", "Leaves", "Egg shells"], "e": "Things that can be recycled."},
+{"t": "Making new things from thrown-away materials is…", "o": ["Recycling", "Reducing", "Burning", "Littering"], "e": "Metal, glass, plastic, paper."},
+{"t": "The first rule of managing waste is to…", "o": ["Reduce", "Burn", "Bury", "Throw"], "e": "Create less waste."},
+{"t": "National Cleanliness Day is on…", "o": ["30 January", "15 August", "2 October", "1 May"], "e": "Take a cleanliness pledge."},
+{"t": "Silluk in Arunachal Pradesh is a…", "o": ["Zero waste village", "Big city", "Garbage dump", "Factory town"], "e": "It won an award for managing waste."},
+{"t": "Which cities are known for being clean?", "o": ["Indore and Mysuru", "None", "Only Delhi", "Only villages"], "e": "Models for others."},
+{"t": "Instead of plastic bags, use…", "o": ["Cloth bags", "More plastic", "Paper only once", "Nothing"], "e": "Reduce plastic."},
+{"t": "Using a steel bottle again and again is…", "o": ["Reusing", "Recycling", "Littering", "Burning"], "e": "No new bottle needed."},
+{"t": "Green-bin waste added to soil becomes…", "o": ["Compost", "Plastic", "Glass", "Stone"], "e": "Food for plants."}
+]},
+{"q": [
+{"t": "Why is burning plastic harmful?", "o": ["It releases harmful gases", "It makes compost", "It's clean", "It's safe"], "e": "People can fall ill."},
+{"t": "Why is plastic mixed with food dangerous for cows?", "o": ["They can eat it and die", "They like it", "It makes milk", "It's healthy"], "e": "Keep plastic out of food waste."},
+{"t": "Dirty puddles and wastewater increase…", "o": ["Mosquitoes and disease", "Flowers", "Clean water", "Birds only"], "e": "Mosquitoes breed there."},
+{"t": "Grandparents made quilts from old sarees. This is…", "o": ["Reusing", "Recycling", "Reducing", "Wasting"], "e": "Nothing thrown away."},
+{"t": "Paper used on one side can be…", "o": ["Reused for rough work", "Burnt", "Thrown away", "Eaten"], "e": "Use both sides."},
+{"t": "Sharing old toys and books with those who need them helps…", "o": ["Reduce waste and help others", "Make more waste", "Nobody", "Only shops"], "e": "Kind and green."},
+{"t": "Where does a used plastic milk packet go?", "o": ["Blue bin", "Green bin", "On the road", "In the river"], "e": "It can be recycled."},
+{"t": "Where do eggshells go?", "o": ["Green bin", "Blue bin", "Drain", "Nowhere"], "e": "They rot and mix with soil."},
+{"t": "Broken glass should be…", "o": ["Wrapped in paper or cloth before throwing", "Thrown loose", "Left on the floor", "Hidden"], "e": "Protects sanitation workers."},
+{"t": "Which villages separate waste into many bins?", "o": ["Waste-managing villages like Silluk", "None", "Only cities", "Only forests"], "e": "Easier to send for recycling."}
+]},
+{"q": [
+{"t": "Why are there two coloured dustbins?", "o": ["Rotting and recyclable waste need different handling", "For decoration", "One is spare", "No reason"], "e": "Green: compost; blue: recycle."},
+{"t": "How is waste created?", "o": ["By daily activities like packaging and peeling", "It falls from the sky", "Only factories", "Only animals"], "e": "We all create waste."},
+{"t": "The more we buy, the more we…", "o": ["Throw away", "Save", "Recycle automatically", "Grow"], "e": "Buy only what we need."},
+{"t": "A newspaper paper bag is an example of…", "o": ["Reusing waste creatively", "Buying new", "Burning", "Littering"], "e": "No scissors, no glue."},
+{"t": "What happens to dry leaves and animal waste in a forest?", "o": ["They rot and enrich the soil", "They pile up forever", "They turn to plastic", "They fly away"], "e": "Nature recycles."},
+{"t": "Which shows a zero-waste birthday?", "o": ["Steel plates, cloth decorations, no plastic", "Plastic cups and balloons", "Paper plates thrown away", "Lots of wrappers"], "e": "Avoid waste before it's made."},
+{"t": "Chhota Narena was one of the first…", "o": ["Waste-free villages", "Big cities", "Factories", "Rivers"], "e": "A model village."},
+{"t": "'Want not, waste not' means…", "o": ["Use only what you need and don't waste", "Want everything", "Waste everything", "Buy more"], "e": "The chapter's aim."},
+{"t": "Which mission works for a clean India?", "o": ["Swachh Bharat Mission", "Space Mission", "Water Mission only", "Food Mission"], "e": "Ask parents about it."},
+{"t": "Why thank sanitation workers?", "o": ["They keep our surroundings clean", "They make waste", "They sell things", "No reason"], "e": "Gift them something made from waste."}
+]},
+{"q": [
+{"t": "Sort: plastic bottle, leaves, onion peels, light bulb, rotten fruit. How many go in the green bin?", "n": 3, "e": "Leaves, onion peels, rotten fruit."},
+{"t": "From the same list, how many go in the blue bin?", "n": 2, "e": "Plastic bottle and light bulb (wrapped)."},
+{"t": "Which is the correct order of the 3Rs as given?", "o": ["Reduce, Reuse, Recycle", "Recycle, Reduce, Reuse", "Reuse, Burn, Bury", "Throw, Burn, Recycle"], "e": "Reduce first."},
+{"t": "A cloth item could replace which plastic item?", "o": ["Plastic shopping bag", "Plastic switch", "Plastic pen refill", "Plastic chair"], "e": "Cloth bags reuse many times."},
+{"t": "Which keeps a classroom clean?", "o": ["Putting waste in the right bin", "Dropping wrappers", "Leaving food on desks", "Throwing paper"], "e": "Everyone helps."},
+{"t": "Which tool is used for cleaning?", "o": ["Broom", "Pencil", "Spoon", "Ball"], "e": "Mops, dustpans, brushes too."},
+{"t": "Why do clean villages have fewer sick people?", "o": ["Less garbage means fewer germs and mosquitoes", "They have more doctors only", "Luck", "No reason"], "e": "Cleanliness keeps us healthy."},
+{"t": "Gift wrapping with old newspaper is…", "o": ["Eco-friendly", "Wasteful", "Harmful", "Expensive"], "e": "Reduces waste."},
+{"t": "If a family makes 2 bags of waste a day, how many in a week?", "n": 14, "k": "2*7", "e": "That's why reducing matters."},
+{"t": "If everyone in a town separates waste, the town can…", "o": ["Recycle more and stay clean", "Make more garbage", "Burn more", "Nothing"], "e": "Like Silluk and Indore."}
+]}
+]}

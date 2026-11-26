@@ -1,0 +1,52 @@
+{
+"title": "2. The Invisible Living World",
+"tests": [
+{"q": [
+{"t": "All living beings are made of…", "o": ["Cells", "Atoms only", "Water only", "Tissues only"], "e": "A cell is to an organism what a brick is to a wall."},
+{"t": "Who first described 'cells' in cork (1665)?", "o": ["Robert Hooke", "Leeuwenhoek", "Newton", "Darwin"], "e": "In his book Micrographia."},
+{"t": "Who is the Father of Microbiology?", "o": ["Antonie van Leeuwenhoek", "Robert Hooke", "Louis Pasteur", "Salim Ali"], "e": "First to see and describe bacteria and blood cells."},
+{"t": "Which part controls the cell's activities?", "o": ["Nucleus", "Cell wall", "Vacuole", "Cytoplasm"], "e": "The cell's control room."},
+{"t": "Which part is found in plant cells but not animal cells?", "o": ["Cell wall", "Cell membrane", "Nucleus", "Cytoplasm"], "e": "Plants also have chloroplasts and a large vacuole."},
+{"t": "Chloroplasts contain…", "o": ["Chlorophyll", "Bacteria", "Bile", "Starch only"], "e": "They make food by photosynthesis."},
+{"t": "Living things too small to see with the naked eye are…", "o": ["Microorganisms", "Tissues", "Organs", "Seeds"], "e": "Also called microbes."},
+{"t": "Yeast is a…", "o": ["Fungus", "Bacterium", "Virus", "Alga"], "e": "A unicellular fungus."},
+{"t": "Lactobacillus turns milk into…", "o": ["Curd", "Bread", "Biogas", "Butter"], "e": "It makes lactic acid."},
+{"t": "Rhizobium bacteria live in the root nodules of…", "o": ["Legumes", "Wheat", "Grass", "Mango"], "e": "Beans, peas, lentils."}
+]},
+{"q": [
+{"t": "Why are cells stained before viewing?", "o": ["To increase contrast", "To kill them", "To make them grow", "To dry them"], "e": "Cells are nearly transparent."},
+{"t": "Why is glycerin added to the slide?", "o": ["Stops cells drying and clears the image", "Stains the cells", "Kills germs", "Adds colour"], "e": "It keeps the specimen moist."},
+{"t": "Why lower the coverslip at an angle?", "o": ["To avoid trapping air bubbles", "To break it", "To stain cells", "To dry the slide"], "e": "Bubbles look like dark circles and hide the cells."},
+{"t": "Onion peel cells look…", "o": ["Nearly rectangular, packed with no gaps", "Round and loose", "Long and branched", "Spindle-shaped"], "e": "The cell wall gives them a firm shape."},
+{"t": "Cheek cells look…", "o": ["Polygon-shaped", "Rectangular with walls", "Branched", "Tube-like"], "e": "Thin and flat — a protective lining."},
+{"t": "Nerve cells are long and branched to…", "o": ["Carry messages quickly to distant parts", "Store food", "Make the body rigid", "Photosynthesise"], "e": "Shape follows function."},
+{"t": "Bacteria differ from all other groups because they have…", "o": ["No well-defined nucleus", "A cell wall", "Chlorophyll", "Many cells"], "e": "Genetic material sits loose in the nucleoid."},
+{"t": "Viruses are…", "o": ["Acellular and multiply only inside living cells", "Bacteria", "Fungi", "Algae"], "e": "They aren't made of cells."},
+{"t": "Biogas is mostly…", "o": ["Methane", "Oxygen", "Nitrogen", "Hydrogen"], "e": "Made by microbes decomposing waste without oxygen."},
+{"t": "Microalgae release how much of Earth's oxygen?", "o": ["More than half", "None", "A tenth", "All of it"], "e": "They photosynthesise in water, soil and air."}
+]},
+{"q": [
+{"t": "Why does dough with yeast rise?", "o": ["Yeast respires, releasing CO₂ bubbles", "Sugar expands", "Water boils", "Flour grows"], "e": "The gas makes the dough fluffy."},
+{"t": "Why add warm water, not cold, to yeast dough?", "o": ["Yeast grows well in warmth", "Cold kills flour", "Warm water is sweeter", "It's faster to mix"], "e": "Cold slows yeast right down."},
+{"t": "Why doesn't curd set in cold milk in a fridge?", "o": ["Lactobacillus grows well only in warmth", "Cold milk has no sugar", "Fridges kill milk", "Curd needs light"], "e": "Bacteria multiply slowly in cold."},
+{"t": "Yeast makes ___; Lactobacillus makes ___.", "o": ["alcohol and CO₂; lactic acid", "lactic acid; CO₂", "methane; oxygen", "oxygen; nitrogen"], "e": "Both are fermentation with different products."},
+{"t": "Why do farmers grow legumes in rotation with other crops?", "o": ["Rhizobium adds usable nitrogen to the soil", "Legumes need no water", "They kill pests", "They grow fastest"], "e": "The leftover nitrogen enriches soil for the next crop."},
+{"t": "Plants can't use nitrogen gas directly. Rhizobium…", "o": ["Converts it into a usable form", "Removes it", "Turns it into oxygen", "Stores it in leaves"], "e": "That's nitrogen fixation."},
+{"t": "Why don't microbes spoil pickles and murabbas?", "o": ["High salt or sugar stops their growth", "They're cold", "They're sealed in glass only", "Microbes like them"], "e": "Salt and sugar act as preservatives."},
+{"t": "Peels buried under soil for weeks become manure because…", "o": ["Microbes decompose them into simpler nutrients", "Soil dissolves them", "Sunlight burns them", "Worms make them bigger"], "e": "Decomposition returns nutrients to the soil."},
+{"t": "Levels of organisation from small to large:", "o": ["Cell → tissue → organ → organ system → organism", "Organ → cell → tissue → organism", "Tissue → cell → organ", "Organism → organ → cell"], "e": "Similar cells make tissues; tissues make organs…"},
+{"t": "The largest known single cell is…", "o": ["The yolk of an ostrich egg", "A nerve cell", "An onion cell", "A bacterium"], "e": "130–170 mm across."}
+]},
+{"q": [
+{"t": "Three differences between plant and animal cells:", "o": ["Cell wall, chloroplasts, large vacuole", "Nucleus, membrane, cytoplasm", "Mitochondria, nucleus, wall", "Size, colour, smell"], "e": "Plants have all three; animals lack them or have tiny vacuoles."},
+{"t": "Without decomposers, what would happen?", "o": ["Dead matter would pile up and nutrients never return", "Plants would grow faster", "Nothing", "More oxygen"], "e": "Decomposition makes the nutrient cycle a cycle."},
+{"t": "Why is a bean farmer less in need of nitrogen fertiliser than a wheat farmer?", "o": ["Rhizobium in bean roots fixes nitrogen", "Beans don't need nitrogen", "Wheat makes nitrogen", "Beans grow in water"], "e": "Legumes partner with nitrogen-fixing bacteria."},
+{"t": "What advantage do multicellular organisms have?", "o": ["Specialised cells each do one job well", "They're smaller", "They don't need food", "They have no nucleus"], "e": "One cell must do every job; many cells can specialise."},
+{"t": "Ananda Mohan Chakrabarty developed a bacterium that…", "o": ["Breaks down oil spills", "Makes bread", "Makes curd", "Causes disease"], "e": "Patented in 1980."},
+{"t": "An electron microscope magnifies about…", "o": ["10,00,000 times", "10 times", "300 times", "1000 times"], "e": "Revealing structures an ordinary microscope can't."},
+{"t": "Which is unicellular?", "o": ["Amoeba", "Mould", "Mango tree", "Human"], "e": "Bacteria, Amoeba, Paramecium, yeast are unicellular."},
+{"t": "Which microbe group contains chlorophyll?", "o": ["Algae", "Fungi", "Bacteria", "Protozoa"], "e": "Algae make their own food."},
+{"t": "Spirulina is called a superfood because it…", "o": ["Is over 60% protein with vitamin B12", "Is pure sugar", "Is a fat", "Is a virus"], "e": "Very little fat or sugar."},
+{"t": "Ancient Indian texts called tiny entities…", "o": ["Krimi", "Cells", "Atoms", "Germs"], "e": "Both Drishya (visible) and Adrishya (invisible)."}
+]}
+]}

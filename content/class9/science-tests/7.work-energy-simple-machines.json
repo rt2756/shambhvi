@@ -1,0 +1,52 @@
+{
+"title": "7. Work, Energy and Simple Machines",
+"tests": [
+{"q": [
+{"t": "Work done by a constant force = force × …", "o": ["Displacement in the direction of the force", "Time", "Speed", "Mass"], "e": "Only the displacement along the force counts."},
+{"t": "The SI unit of work is the…", "o": ["Joule (J)", "Newton", "Watt", "Pascal"], "e": "Same as energy."},
+{"t": "Kinetic energy = ?", "o": ["½mv²", "mgh", "mv", "ma"], "e": "Energy of motion."},
+{"t": "Gravitational potential energy near Earth = ?", "o": ["mgh", "½mv²", "mv", "F/a"], "e": "Valid where g is nearly constant."},
+{"t": "Does work have direction?", "o": ["No — it is a signed number", "Yes, always", "Only upward", "Only for friction"], "e": "Force and displacement have direction; work doesn't."},
+{"t": "The capacity to do work is…", "o": ["Energy", "Force", "Power", "Momentum"], "e": "Measured in joules."},
+{"t": "Energy stored in fuels and food is…", "o": ["Chemical energy", "Nuclear energy", "Sound energy", "Light energy"], "e": "Stored in bonds between atoms."},
+{"t": "Energy stored because of deformation or position is…", "o": ["Potential energy", "Kinetic energy", "Heat", "Sound"], "e": "A stretched band or a raised ball."},
+{"t": "The joule is named after…", "o": ["James Prescott Joule", "Isaac Newton", "James Watt", "Galileo"], "e": "He related mechanical and thermal energy."},
+{"t": "On a force–displacement graph, work done is the…", "o": ["Area under the line", "Slope", "Height only", "Intercept"], "e": "Works even for varying forces."}
+]},
+{"q": [
+{"t": "You hold a heavy bag still for 10 minutes. Work done on the bag is…", "o": ["Zero", "Large", "Negative", "Infinite"], "e": "No displacement — though your muscles use internal energy."},
+{"t": "Carrying a bag horizontally at constant velocity, work done by your upward force is…", "o": ["Zero", "Positive", "Negative", "mgh"], "e": "Force is perpendicular to displacement."},
+{"t": "A goalkeeper stopping a ball does ___ work on the ball.", "o": ["Negative", "Positive", "Zero", "Infinite"], "e": "Force opposite to the ball's displacement."},
+{"t": "Work–energy theorem: net work done equals the change in…", "o": ["Kinetic energy", "Mass", "Potential energy only", "Momentum only"], "e": "Holds even for non-constant forces."},
+{"t": "Doubling velocity makes kinetic energy…", "o": ["Four times", "Double", "Half", "Same"], "e": "KE depends on v²."},
+{"t": "Moving an object horizontally changes its potential energy by…", "o": ["Nothing", "mgh", "Doubling it", "Halving it"], "e": "Height is unchanged."},
+{"t": "A pendulum at its lowest point has maximum…", "o": ["Kinetic energy", "Potential energy", "Height", "Friction"], "e": "Potential is max at the ends."},
+{"t": "Why does a real pendulum slowly stop?", "o": ["Friction and air resistance remove mechanical energy", "Gravity stops", "Mass decreases", "Energy is destroyed"], "e": "It goes into heat, not stored."},
+{"t": "Speed at the bottom of a frictionless slide depends only on…", "o": ["Height", "Mass", "Shape of the slide", "Colour"], "e": "Mass cancels: v = √(2gh)."},
+{"t": "Is work done against friction stored as potential energy?", "o": ["No — it's lost as heat", "Yes", "Only on slopes", "Only for springs"], "e": "Only some internal forces store energy."}
+]},
+{"q": [
+{"t": "A 10 N force moves a box 3 m along it. Work (J)?", "n": 30, "u": "J", "k": "10*3", "e": "W = Fs = 30 J."},
+{"t": "KE of a 2 kg ball at 3 m/s (J)?", "n": 9, "u": "J", "k": "F(1,2)*2*9", "e": "½ × 2 × 9 = 9 J."},
+{"t": "PE of a 5 kg mass raised 2 m (g = 10) (J)?", "n": 100, "u": "J", "k": "5*10*2", "e": "mgh = 100 J."},
+{"t": "A 1 kg ball dropped from 5 m (g = 10). Speed just before landing (m/s)?", "n": 10, "u": "m/s", "k": "math.sqrt(2*10*5)", "e": "mgh = ½mv² → v = √(2gh) = 10 m/s."},
+{"t": "KE of a 1000 kg car at 20 m/s (J)?", "n": 200000, "u": "J", "k": "F(1,2)*1000*400", "e": "½ × 1000 × 400 = 200,000 J."},
+{"t": "If that car's speed doubles to 40 m/s, KE (J)?", "n": 800000, "u": "J", "k": "F(1,2)*1000*1600", "e": "Four times: 800,000 J."},
+{"t": "Net work of 50 J on a ball at rest gives it KE of (J)?", "n": 50, "u": "J", "k": "50", "e": "Work–energy theorem."},
+{"t": "A ball raised higher makes a deeper dent in sand when dropped because…", "o": ["More work was done raising it, so more energy stored", "It's heavier up there", "Sand is softer", "Gravity increases"], "e": "The dent measures stored energy."},
+{"t": "Why are energy methods often easier than Newton's laws?", "o": ["Only start and end states matter", "They ignore energy", "They need more steps", "They're less accurate"], "e": "No need to track every slope."},
+{"t": "A sand ramp stops runaway trucks by…", "o": ["Friction removing energy and climbing converting KE to PE", "Magnets", "Pushing them back", "Cooling the brakes"], "e": "Two independent ways at once."}
+]},
+{"q": [
+{"t": "Power is…", "o": ["Rate of doing work", "Total work", "Force × time", "Energy × time"], "e": "SI unit: watt (J/s)."},
+{"t": "A machine does 600 J of work in 30 s. Power (W)?", "n": 20, "u": "W", "k": "F(600,30)", "e": "P = W/t = 20 W."},
+{"t": "A lever lifts a 600 N load with a 200 N effort. Mechanical advantage?", "n": 3, "k": "F(600,200)", "e": "MA = load ÷ effort = 3."},
+{"t": "Efficiency of a machine is…", "o": ["Useful work out ÷ work in", "Work in ÷ work out", "Always 100%", "Load × effort"], "e": "Always less than 100% due to friction."},
+{"t": "A machine puts out 80 J for 100 J input. Efficiency (%)?", "n": 80, "u": "%", "k": "F(80,100)*100", "e": "80/100 × 100 = 80%."},
+{"t": "Simple machines make work easier by…", "o": ["Changing the size or direction of force", "Creating energy", "Reducing total work below zero", "Removing gravity"], "e": "They don't create energy."},
+{"t": "Can a machine give out more work than put in?", "o": ["No — energy is conserved", "Yes, with a long lever", "Yes, always", "Only pulleys"], "e": "Less effort means a longer distance."},
+{"t": "Lifting a 20 kg box 1.5 m (g = 10). Work done against gravity (J)?", "n": 300, "u": "J", "k": "20*10*F(3,2)", "e": "mgh = 300 J."},
+{"t": "A 50 kg climber goes up 10 m in 20 s (g = 10). Power (W)?", "n": 250, "u": "W", "k": "F(50*10*10,20)", "e": "mgh/t = 5000/20 = 250 W."},
+{"t": "Mechanical energy is conserved when…", "o": ["No external forces like friction act", "There is friction", "The object is at rest only", "Always, in every case"], "e": "Total energy is always conserved; mechanical only without losses."}
+]}
+]}

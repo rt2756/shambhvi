@@ -1,0 +1,52 @@
+{
+"title": "8. A Journey through States of Water",
+"tests": [
+{"q": [
+{"t": "Ice, water and water vapour are…", "o": ["Three states of the same substance", "Three different substances", "All gases", "All solids"], "e": "Melt ice and you get water; it is the same substance."},
+{"t": "Which keeps its own shape?", "o": ["Ice", "Water", "Water vapour", "Steam"], "e": "Solids have a fixed shape."},
+{"t": "Which takes the shape of its container but has a fixed volume?", "o": ["Water", "Ice", "Water vapour", "Air"], "e": "Liquids flow but keep their volume."},
+{"t": "Which spreads out into all available space?", "o": ["Water vapour", "Ice", "Water", "Stone"], "e": "Gases fill the space they're in."},
+{"t": "Water changing into vapour is…", "o": ["Evaporation", "Condensation", "Melting", "Freezing"], "e": "It happens even at room temperature."},
+{"t": "Vapour changing into water is…", "o": ["Condensation", "Evaporation", "Melting", "Freezing"], "e": "It happens when vapour touches a cold surface."},
+{"t": "Solid changing to liquid is…", "o": ["Melting", "Freezing", "Evaporation", "Condensation"], "e": "Supply heat to melt."},
+{"t": "Liquid changing to solid is…", "o": ["Freezing", "Melting", "Condensation", "Evaporation"], "e": "Cool it to freeze."},
+{"t": "Is water vapour visible?", "o": ["No", "Yes", "Only in winter", "Only at night"], "e": "The visible 'steam' is tiny droplets that have already condensed."},
+{"t": "Evaporation causes…", "o": ["Cooling", "Heating", "Freezing", "Nothing"], "e": "Evaporating water takes heat away."}
+]},
+{"q": [
+{"t": "Clothes dry faster on a…", "o": ["Hot, sunny, windy day", "Rainy day", "Cold, still day", "Humid day"], "e": "Heat and wind speed up evaporation."},
+{"t": "Clothes dry slowly on a rainy day because…", "o": ["The air is humid", "It's dark", "Clothes are thicker", "Wind is strong"], "e": "Air already holding much vapour slows evaporation."},
+{"t": "Humidity is…", "o": ["The amount of water vapour in the air", "Wind speed", "Temperature", "Rain amount"], "e": "High humidity means slower evaporation."},
+{"t": "Water in a flat plate dries faster than in a bottle cap because…", "o": ["More surface area is exposed", "The plate is hotter", "The cap is waterproof", "Plates absorb water"], "e": "Bigger exposed surface → faster evaporation."},
+{"t": "Dew on plants in the morning is caused by…", "o": ["Condensation", "Evaporation", "Rain", "Melting"], "e": "Vapour condenses on the cool leaves."},
+{"t": "Water on a steel plate disappears but nothing seeps through. Where did it go?", "o": ["It became water vapour", "It soaked into the steel", "It was destroyed", "It froze"], "e": "It evaporated into the air."},
+{"t": "Why does a matka keep water cool?", "o": ["Water seeps out and evaporates, taking heat away", "Clay is cold", "It contains ice", "It blocks sunlight"], "e": "Its porous surface allows evaporation."},
+{"t": "Why does sitting under a fan feel cool?", "o": ["It makes sweat evaporate faster", "It makes cold air", "It blows ice", "It lowers the room's temperature a lot"], "e": "Faster evaporation means more cooling."},
+{"t": "Why can you smell food from outside the kitchen?", "o": ["Gases spread into all available space", "Smells travel through walls", "Food is loud", "Liquids spread"], "e": "The smell is in the air, which spreads."},
+{"t": "Coconut oil solidifying in winter is…", "o": ["Freezing", "Melting", "Evaporation", "Condensation"], "e": "Cooling turns the liquid to solid."}
+]},
+{"q": [
+{"t": "A covered glass of iced water on a balance gains mass over 30 minutes. This proves…", "o": ["Water was gained from the air", "Water leaked out", "Ice got heavier", "The balance broke"], "e": "If water seeped out, mass would stay the same; it increased, so water came from outside."},
+{"t": "Why doesn't a stainless steel pot cool water like a matka?", "o": ["It isn't porous", "Steel is hot", "It's shiny", "It's heavy"], "e": "No seeping, so no evaporation from its surface."},
+{"t": "Why does sprinkling water on a roof cool it in summer?", "o": ["The water evaporates and takes heat away", "Water is always cold", "It blocks the sun", "It makes wind"], "e": "Evaporation causes cooling."},
+{"t": "Why does hand sanitiser feel cold?", "o": ["It evaporates quickly, taking heat", "It's stored in a fridge", "It contains ice", "It's a gas"], "e": "Fast evaporation = strong cooling."},
+{"t": "An Atmospheric Water Generator makes drinking water by…", "o": ["Cooling humid air so vapour condenses", "Boiling seawater", "Melting ice", "Filtering soil"], "e": "Same effect as droplets on an iced glass."},
+{"t": "Drops form inside a plate covering a boiling pan due to…", "o": ["Condensation", "Evaporation", "Melting", "Freezing"], "e": "Vapour meets the cooler plate."},
+{"t": "Which factor SLOWS evaporation?", "o": ["High humidity", "More wind", "Higher temperature", "More surface area"], "e": "Humid air already holds a lot of vapour."},
+{"t": "Oxygen and carbon dioxide are examples of…", "o": ["Gases", "Liquids", "Solids", "Mixtures of solids"], "e": "They have no fixed shape and spread out."},
+{"t": "The 'steam' you see over a hot pan is…", "o": ["Vapour partly condensed into tiny droplets", "Pure water vapour", "Smoke", "Air"], "e": "Pure vapour is invisible; droplets make it visible."},
+{"t": "Wax, oil and ghee can also exist as…", "o": ["Solids and liquids", "Only solids", "Only gases", "Nothing else"], "e": "Many substances change state with heating and cooling."}
+]},
+{"q": [
+{"t": "Put a cap of water in sun and one in shade. Which dries first, and why?", "o": ["Sun — higher temperature speeds evaporation", "Shade — cooler air", "Both same", "Neither dries"], "e": "Heat increases evaporation."},
+{"t": "Name the change: puddles disappearing after rain.", "o": ["Evaporation", "Condensation", "Freezing", "Melting"], "e": "Water turns to vapour even without boiling."},
+{"t": "A student says the outside of an iced glass gets wet because water seeps through. Which test proves them wrong?", "o": ["Weighing the covered glass — mass increases", "Tasting the drops", "Looking at it", "Shaking it"], "e": "A mass increase can only come from outside."},
+{"t": "Which change needs heat to be supplied?", "o": ["Melting", "Freezing", "Condensation", "All of them"], "e": "Melting and evaporation take in heat."},
+{"t": "Which change happens when vapour is cooled?", "o": ["Condensation", "Melting", "Evaporation", "Freezing of ice"], "e": "Gas → liquid on cooling."},
+{"t": "Why are wet clothes spread out rather than kept folded to dry?", "o": ["More surface area speeds evaporation", "They look nice", "Folding makes them wet", "Wind can't blow"], "e": "Exposed surface area matters."},
+{"t": "Sweat drying makes you feel cooler because…", "o": ["Evaporation takes heat from your skin", "Sweat is cold", "Skin gets thinner", "Air gets warmer"], "e": "Evaporation causes cooling."},
+{"t": "Which state has a fixed volume but no fixed shape?", "o": ["Liquid", "Solid", "Gas", "None"], "e": "A liquid fills the bottom of its container."},
+{"t": "Is there water vapour in a dry room?", "o": ["Yes — vapour exists at room temperature, invisibly", "No", "Only near a stove", "Only in rain"], "e": "Vapour is always in the air around us."},
+{"t": "Which pair are opposite changes?", "o": ["Evaporation and condensation", "Melting and evaporation", "Freezing and condensation", "Melting and condensation"], "e": "Liquid → gas and gas → liquid."}
+]}
+]}

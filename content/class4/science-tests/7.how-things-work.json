@@ -1,0 +1,52 @@
+{
+"title": "7. How Things Work",
+"tests": [
+{"q": [
+{"t": "Which object spins well?", "o": ["A coin", "An eraser", "A stone", "A book"], "e": "Coins and bangles spin; erasers don't spin properly."},
+{"t": "As a spinning coin slows down, it starts to…", "o": ["Shake/wobble", "Spin faster", "Float", "Glow"], "e": "Observe and wonder why."},
+{"t": "A charkha is used to…", "o": ["Twist cotton fibre into thread", "Grind wheat", "Pump water", "Cook food"], "e": "Mahatma Gandhi used one."},
+{"t": "A popular Indian wooden top is the…", "o": ["Lattu", "Phirki", "Gilli", "Kite"], "e": "Tops have been used for thousands of years."},
+{"t": "Which floats in water?", "o": ["A leaf", "An iron nail", "A stone", "A coin"], "e": "Light, flat things often float."},
+{"t": "Which sinks in water?", "o": ["An iron nail", "A leaf", "An empty bottle with lid", "A paper boat"], "e": "But weight alone doesn't decide."},
+{"t": "Aluminium foil spread flat in water…", "o": ["Floats", "Sinks", "Dissolves", "Burns"], "e": "Shape matters."},
+{"t": "Aluminium foil pressed tightly into a ball…", "o": ["Sinks", "Floats", "Flies", "Grows"], "e": "Little trapped air."},
+{"t": "Which object spins in your house?", "o": ["Ceiling fan", "Table", "Door", "Wall"], "e": "Also potter's wheels."},
+{"t": "A square card spinner looks ___ when spinning fast.", "o": ["Circular", "Square", "Triangular", "Invisible"], "e": "Fast spinning blurs the corners."}
+]},
+{"q": [
+{"t": "A spinner with the toothpick at the centre…", "o": ["Stays upright and spins well", "Falls immediately", "Doesn't move", "Floats"], "e": "It's the same from all sides — balanced."},
+{"t": "A spinner with the toothpick away from the centre…", "o": ["Wobbles and doesn't spin well", "Spins best", "Flies", "Spins forever"], "e": "It's unbalanced."},
+{"t": "Can we decide floating or sinking just by heavy or light?", "o": ["No — shape and other factors matter", "Yes, always", "Only for metals", "Only for wood"], "e": "A heavy ship floats; a tiny pebble sinks."},
+{"t": "An empty bottle with a closed lid…", "o": ["Floats", "Sinks", "Explodes", "Dissolves"], "e": "Trapped air helps it float."},
+{"t": "A bottle full of water with a closed lid…", "o": ["Sinks or barely floats", "Floats high", "Flies", "Spins"], "e": "No air inside to help."},
+{"t": "An empty steel bowl (katori) placed upright…", "o": ["Floats", "Sinks immediately", "Dissolves", "Melts"], "e": "Cup shape traps air, though steel is heavy."},
+{"t": "Aluminium foil shaped like a cup…", "o": ["Floats", "Sinks", "Breaks", "Spins"], "e": "Like a boat."},
+{"t": "A paper boat that flips over was probably…", "o": ["Unbalanced", "Too colourful", "Too dry", "Too new"], "e": "Balance matters."},
+{"t": "Colours on a spinner, when spun fast, appear to…", "o": ["Mix together", "Disappear always", "Separate", "Stay exactly the same"], "e": "Try different colourings."},
+{"t": "Why do we guess before dropping an object in water?", "o": ["To test our idea against what happens", "For fun only", "It's a rule", "No reason"], "e": "Predict, then observe."}
+]},
+{"q": [
+{"t": "Why does a pencil not spin well on its tip?", "o": ["It's hard to balance", "It's too light", "It's wooden", "It's round"], "e": "Spinning needs balance around a point."},
+{"t": "Why did a piece of foil ball not pressed tightly float?", "o": ["It still trapped air", "It became lighter", "Water pushed it", "It's magic"], "e": "Press tightly to remove air."},
+{"t": "A heavy steel bowl floats but a light pebble sinks. This shows…", "o": ["Shape and trapped air matter, not just weight", "Steel is lighter", "Pebbles are heavy", "Water is magic"], "e": "Floating depends on several factors."},
+{"t": "To make a boat from clay float, you should shape it…", "o": ["Into a hollow boat or bowl shape", "Into a ball", "Into a cube", "Into a stick"], "e": "Hollow shapes trap air."},
+{"t": "Which change can make a spinner spin better?", "o": ["Putting the toothpick exactly at the centre", "Bending the card", "Using a heavy stone", "Removing the toothpick"], "e": "Balance improves spinning."},
+{"t": "What do I observe, I wonder, I think mean?", "o": ["See, ask questions, then guess reasons", "Read, write, copy", "Sleep, eat, play", "Nothing"], "e": "A scientist's way of exploring."},
+{"t": "A wooden spinner (top) spins because…", "o": ["It's balanced around its pointed tip", "It's heavy", "It's painted", "It's long"], "e": "Symmetry helps balance."},
+{"t": "Paper boats get soggy after a while because…", "o": ["Paper absorbs water", "Paper is metal", "Water is hot", "Wind blows"], "e": "Try other materials for longer-lasting boats."},
+{"t": "Which material would make a longer-lasting toy boat?", "o": ["Plastic bottle or ice-cream sticks", "Tissue paper", "Sugar", "Bread"], "e": "Materials that don't soak up water."},
+{"t": "Potter's wheels work by…", "o": ["Spinning to shape clay evenly", "Floating", "Sinking", "Melting clay"], "e": "Remember Class 3!"}
+]},
+{"q": [
+{"t": "Of these, how many float: leaf, iron nail, empty bottle with lid, stone?", "n": 2, "e": "Leaf and empty bottle."},
+{"t": "Which pair shows a heavy thing floating and a light thing sinking?", "o": ["Steel bowl floats; small pebble sinks", "Leaf floats; nail sinks", "Bottle floats; leaf floats", "Stone sinks; nail sinks"], "e": "Weight isn't the only factor."},
+{"t": "You want foil to sink. What do you do?", "o": ["Press it tightly into a ball", "Spread it flat", "Make a cup", "Fold a boat"], "e": "Remove trapped air."},
+{"t": "Why test boats made of different materials?", "o": ["To find which design floats and carries more", "To waste paper", "For colour", "No reason"], "e": "Design and test."},
+{"t": "A spinner coloured half red, half yellow looks…", "o": ["Orange-ish when spinning fast", "Blue", "Black", "Green always"], "e": "Colours blend."},
+{"t": "Which can spin: coin, bangle, pencil, eraser, wooden top. How many spin well?", "n": 3, "e": "Coin, bangle and top."},
+{"t": "If a spinner wobbles, which is the best fix to try first?", "o": ["Move the toothpick to the exact centre", "Paint it", "Make it wet", "Throw it"], "e": "Change one thing at a time."},
+{"t": "Huge ships float because…", "o": ["Their hollow shape holds lots of air", "They are made of wood only", "They're light", "Water is thick"], "e": "Same idea as the cup-shaped foil."},
+{"t": "Which would sink: coin or plastic bottle cap?", "o": ["Coin", "Cap", "Both float", "Neither"], "e": "Small dense metal sinks."},
+{"t": "Why is exploring with toys a kind of science?", "o": ["You observe, guess and test", "Toys are machines", "It isn't", "Toys know answers"], "e": "Curiosity drives discovery."}
+]}
+]}

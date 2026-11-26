@@ -1,0 +1,52 @@
+{
+"title": "10. The Human Eye and the Colourful World",
+"tests": [
+{"q": [
+{"t": "The image in the human eye forms on the…", "o": ["Retina", "Cornea", "Iris", "Pupil"], "e": "Real and inverted; the brain flips it."},
+{"t": "The size of the pupil is controlled by the…", "o": ["Iris", "Retina", "Lens", "Cornea"], "e": "Regulates light entering."},
+{"t": "The ability of the eye lens to adjust its focal length is…", "o": ["Power of accommodation", "Myopia", "Dispersion", "Scattering"], "e": "Ciliary muscles change lens shape."},
+{"t": "The near point of a normal eye is about…", "o": ["25 cm", "1 m", "2.5 cm", "Infinity"], "e": "The far point is infinity."},
+{"t": "Near-sightedness is…", "o": ["Myopia", "Hypermetropia", "Presbyopia", "Cataract"], "e": "Distant objects look blurred."},
+{"t": "Myopia is corrected with a…", "o": ["Concave lens", "Convex lens", "Bifocal only", "Prism"], "e": "Diverging lens."},
+{"t": "Hypermetropia is corrected with a…", "o": ["Convex lens", "Concave lens", "Plane glass", "Prism"], "e": "Converging lens."},
+{"t": "Splitting of white light into colours is…", "o": ["Dispersion", "Reflection", "Scattering", "Refraction only at a slab"], "e": "Seen with a prism."},
+{"t": "The colour that bends the least in a prism is…", "o": ["Red", "Violet", "Blue", "Green"], "e": "Violet bends most."},
+{"t": "The sky is blue due to…", "o": ["Scattering of light", "Reflection from the sea", "Dispersion", "Refraction"], "e": "Blue scatters more than red."}
+]},
+{"q": [
+{"t": "Myopia can be caused by…", "o": ["Eyeball too long or lens too curved", "Eyeball too short", "Weak lens", "Old age only"], "e": "Image forms in front of the retina."},
+{"t": "Hypermetropia: image forms…", "o": ["Behind the retina", "In front of the retina", "On the cornea", "On the iris"], "e": "Near objects look blurred."},
+{"t": "Presbyopia is due to…", "o": ["Weakening ciliary muscles with age", "Long eyeball", "Cataract", "Dust"], "e": "Often needs bifocals."},
+{"t": "Why do stars twinkle?", "o": ["Atmospheric refraction keeps changing their apparent position and brightness", "They flash", "Clouds move", "Dispersion"], "e": "Planets don't twinkle — they're extended sources."},
+{"t": "The Sun appears ~2 minutes before actual sunrise because of…", "o": ["Atmospheric refraction", "Scattering", "Dispersion", "Reflection"], "e": "Also delayed sunset."},
+{"t": "A rainbow forms by dispersion, refraction and…", "o": ["Internal reflection in raindrops", "Scattering only", "Absorption", "Diffraction only"], "e": "Seen opposite the Sun."},
+{"t": "Danger signals are red because red…", "o": ["Is scattered least and travels farthest", "Is brightest", "Bends most", "Is cheapest"], "e": "Visible through fog and smoke."},
+{"t": "The Sun appears reddish at sunrise and sunset because…", "o": ["Light travels a longer path; blue is scattered away", "The Sun is cooler", "Clouds are red", "Dispersion"], "e": "Mostly red reaches us."},
+{"t": "Cataract is…", "o": ["Clouding of the eye lens", "Long eyeball", "Weak muscles", "Blue sky"], "e": "Treated by surgery."},
+{"t": "Why do we have two eyes rather than one?", "o": ["Wider field of view and depth perception", "To see colours", "To blink", "No reason"], "e": "Three-dimensional view."}
+]},
+{"q": [
+{"t": "A myopic person's far point is 80 cm. Corrective lens focal length (cm)?", "n": -80, "u": "cm", "e": "A concave lens with f = −(far point)."},
+{"t": "Power of that lens (D)?", "n": -1.25, "u": "D", "k": "F(1,F(-80,100))", "e": "P = 1/(−0.8) = −1.25 D."},
+{"t": "A myopic person's far point is 2 m. Power of corrective lens (D)?", "n": -0.5, "u": "D", "k": "F(1,-2)", "e": "f = −2 m → P = −0.5 D."},
+{"t": "Why does the sky look dark to astronauts in space?", "o": ["No atmosphere to scatter light", "The Sun is dimmer", "Space is black paint", "Dispersion"], "e": "Scattering needs particles."},
+{"t": "Why are clouds white?", "o": ["Large water droplets scatter all colours equally", "They reflect the sea", "They're cold", "They absorb blue"], "e": "Small particles scatter blue more."},
+{"t": "A second inverted prism after the first…", "o": ["Recombines the colours into white light", "Makes more colours", "Blocks light", "Makes it red"], "e": "Newton's experiment."},
+{"t": "Ciliary muscles relax when looking at…", "o": ["Distant objects (lens thin)", "Near objects", "Bright light", "The dark"], "e": "Lens becomes thinner, longer focal length."},
+{"t": "Light from a star bends as it enters the atmosphere because…", "o": ["Air density (refractive index) changes with height", "Gravity", "Clouds", "Dispersion"], "e": "Its apparent position shifts."},
+{"t": "Why don't planets twinkle?", "o": ["They're closer, extended sources — variations average out", "They're stars", "They're too bright", "They have no light"], "e": "Many point sources together."},
+{"t": "The Tyndall effect is…", "o": ["Scattering of light by colloidal particles", "Dispersion by a prism", "Reflection from mirrors", "Twinkling"], "e": "Seen in a sunbeam through a dusty room."}
+]},
+{"q": [
+{"t": "A hypermetropic person's near point is 1 m. To read at 25 cm, lens focal length to the nearest cm? (u = −25, v = −100)", "n": 33, "u": "cm", "k": "round(1/(F(1,-100)-F(1,-25)))", "e": "1/f = 1/v − 1/u = −1/100 + 1/25 = 3/100 → f ≈ +33.3 cm."},
+{"t": "Power of that lens (D)?", "n": 3, "u": "D", "k": "F(3,1)", "e": "1/f = 3/100 per cm = 3 D."},
+{"t": "Order of colours in a spectrum (VIBGYOR) starts with…", "o": ["Violet", "Red", "Blue", "Green"], "e": "Violet, indigo, blue, green, yellow, orange, red."},
+{"t": "Why does a prism disperse light?", "o": ["Different colours bend by different amounts", "It reflects colours", "It absorbs white light", "It makes colours"], "e": "Each colour has a different speed in glass."},
+{"t": "Bifocal lenses have…", "o": ["Concave upper, convex lower", "Convex upper, concave lower", "Two concave", "Two convex"], "e": "Distance above, reading below."},
+{"t": "Night blindness is linked to lack of…", "o": ["Vitamin A (rod cells)", "Vitamin C", "Iron", "Iodine"], "e": "Rods sense dim light."},
+{"t": "Cone cells respond to…", "o": ["Colour", "Dim light only", "Sound", "Heat"], "e": "Rods respond to light intensity."},
+{"t": "The blind spot has no…", "o": ["Light-sensitive cells", "Blood", "Lens", "Iris"], "e": "Where the optic nerve leaves."},
+{"t": "Why is a rainbow always seen with the Sun behind you?", "o": ["Light is internally reflected back towards you from raindrops", "Rainbows are random", "The Sun must be in front", "Scattering"], "e": "Opposite the Sun."},
+{"t": "If Earth had no atmosphere, the day would be…", "o": ["About 4 minutes shorter", "Longer", "Same", "Endless"], "e": "No advance sunrise or delayed sunset."}
+]}
+]}

@@ -1,0 +1,52 @@
+{
+"title": "13. Our Home: Earth",
+"tests": [
+{"q": [
+{"t": "All mountains, rivers and living things exist on the thin outer layer called the…", "o": ["Crust", "Core", "Mantle", "Atmosphere"], "e": "As thin as an apple's skin compared to the apple."},
+{"t": "Which is the hottest planet?", "o": ["Venus", "Mercury", "Mars", "Jupiter"], "e": "About 450 °C, due to its thick CO₂ atmosphere."},
+{"t": "Trapping of heat by gases like carbon dioxide is the…", "o": ["Greenhouse effect", "Ozone effect", "Magnetic effect", "Water cycle"], "e": "It keeps Earth warm enough for life."},
+{"t": "The range of distances where water stays liquid is the…", "o": ["Habitable (Goldilocks) zone", "Ozone layer", "Crust", "Orbit"], "e": "Not too hot, not too cold."},
+{"t": "The ozone layer blocks…", "o": ["Harmful UV rays", "All sunlight", "Rain", "Oxygen"], "e": "Ozone is a three-atom oxygen molecule."},
+{"t": "All the water on Earth is the…", "o": ["Hydrosphere", "Geosphere", "Biosphere", "Atmosphere"], "e": "About 70% of Earth's surface."},
+{"t": "All living beings and where they live make up the…", "o": ["Biosphere", "Hydrosphere", "Geosphere", "Crust"], "e": "Land, water and air."},
+{"t": "A single parent producing exact copies is…", "o": ["Asexual reproduction", "Sexual reproduction", "Pollination", "Fertilisation"], "e": "Bacteria, amoeba, hydra budding."},
+{"t": "Reproductive cells carrying half the genetic material are…", "o": ["Gametes", "Genes", "Buds", "Spores only"], "e": "Sperm and eggs in animals."},
+{"t": "Climate change, biodiversity loss and pollution together are the…", "o": ["Triple planetary crisis", "Greenhouse effect", "Water cycle", "Earth Summit"], "e": "The three biggest environmental challenges."}
+]},
+{"q": [
+{"t": "Why is Venus hotter than Mercury, though farther from the Sun?", "o": ["Its thick CO₂ atmosphere traps heat", "It is closer", "It has volcanoes only", "It is larger"], "e": "A strong greenhouse effect."},
+{"t": "Without the greenhouse effect, Earth would be…", "o": ["Too cold", "Too hot", "The same", "Wetter"], "e": "It isn't bad in itself — too much is the danger."},
+{"t": "Why is Earth's size important?", "o": ["Its gravity can hold an atmosphere", "It makes days long", "It makes water salty", "It creates the Moon"], "e": "Smaller planets lose their gases."},
+{"t": "Mars's atmosphere compared to Earth's is…", "o": ["About 100 times thinner", "Thicker", "The same", "Pure oxygen"], "e": "Mercury has none at all."},
+{"t": "Earth's magnetic field protects us from…", "o": ["Cosmic rays and solar wind", "Rain", "Sunlight", "Meteors only"], "e": "It pushes many high-energy particles away."},
+{"t": "Why does a nearly circular orbit help life?", "o": ["Sunlight and heat stay nearly steady all year", "It makes Earth spin", "It creates tides", "It adds water"], "e": "No extreme seasonal swings."},
+{"t": "Bamboo and sugarcane spread by…", "o": ["Vegetative propagation", "Seeds only", "Spores", "Pollination"], "e": "That's why you rarely see their seeds."},
+{"t": "Hydra reproduces by…", "o": ["Budding", "Seeds", "Laying eggs", "Gametes only"], "e": "Tiny buds break off and become new individuals."},
+{"t": "The Montreal Protocol (1987) reduced…", "o": ["CFCs, helping the ozone layer recover", "Carbon dioxide", "Plastic", "Water use"], "e": "A genuine success story."},
+{"t": "The Paris Agreement aims to limit warming to below…", "o": ["1.5 °C", "10 °C", "0 °C", "5 °C"], "e": "As of 2025 the world isn't on track."}
+]},
+{"q": [
+{"t": "Why don't children have double the genetic material of each parent?", "o": ["Each gamete carries only half", "Parents share genes", "Genes disappear", "Only one parent gives genes"], "e": "Two halves make one complete set."},
+{"t": "Why do brothers and sisters look different?", "o": ["Each gamete carries a different mix of instructions", "They eat differently", "They are adopted", "Genes are random each day"], "e": "The instructions mix differently every time."},
+{"t": "Reproduction does two jobs:", "o": ["Keeps each kind continuing and lets life adapt", "Only makes copies", "Only changes life", "Stops evolution"], "e": "Small changes over generations can produce new features."},
+{"t": "Camels developing humps to store fat is an example of…", "o": ["Change helping survival over generations", "Asexual reproduction", "Pollution", "Greenhouse effect"], "e": "Small changes that helped them survive deserts."},
+{"t": "Atmospheric greenhouse vs plant greenhouse:", "o": ["Gases absorb Earth's radiation; glass traps warm air", "They work identically", "Both use ozone", "Neither traps heat"], "e": "Both keep warm, by different mechanisms."},
+{"t": "Why does burning fossil fuels add CO₂ Earth can't cope with?", "o": ["It releases carbon locked underground for millions of years", "Fossil fuels are new", "Plants make too much", "Oceans release it"], "e": "Plants and plankton can't absorb all the extra."},
+{"t": "If grasses vanished from a grassland, tigers would…", "o": ["Lose food as herbivores decline", "Thrive", "Eat grass", "Be unaffected"], "e": "Biodiversity loss travels up the chain."},
+{"t": "Geodiversity is…", "o": ["Variety of landforms, rocks and soils", "Variety of animals", "Variety of gases", "Number of planets"], "e": "It creates unique habitats."},
+{"t": "Fish and frogs fertilise eggs…", "o": ["In water", "Inside the female", "On land", "In nests"], "e": "Sperm and eggs released into water."},
+{"t": "India's Mangalyaan (2013) studied…", "o": ["Mars's atmosphere, surface and past water", "The Moon's poles", "Venus's clouds", "The Sun"], "e": "Whether Mars was ever suitable for life."}
+]},
+{"q": [
+{"t": "Why don't dogs lay eggs or hens give live birth?", "o": ["Each body is built around one strategy for feeding the embryo", "By chance", "Dogs are bigger", "Hens are birds of prey"], "e": "Eggs pack food in advance; live birth supplies it continuously."},
+{"t": "In birds, the embryo is fed by…", "o": ["Food packed into the egg", "The mother's blood", "Water", "Sunlight"], "e": "It must last until hatching."},
+{"t": "In most mammals, the embryo develops…", "o": ["Inside the mother's body, fed by her", "In water", "In a laid egg", "On land alone"], "e": "The mother supplies food and oxygen until birth."},
+{"t": "Mars lies at the edge of the habitable zone. What has been found?", "o": ["No proof of life, but signs it may once have had water", "Proof of life", "Oceans today", "Forests"], "e": "Science stays open to new evidence."},
+{"t": "Planaria are studied to understand…", "o": ["Regeneration", "Photosynthesis", "Eclipses", "Magnetism"], "e": "They regrow from body fragments."},
+{"t": "Cutting a forest can change…", "o": ["Rainfall, soil, air quality and animals", "Only the trees", "Nothing", "Only the animals"], "e": "Everything works together in balance."},
+{"t": "Which statement about the greenhouse effect is correct?", "o": ["Too much of it causes dangerous warming", "It is always harmful", "It cools Earth", "Only Venus has it"], "e": "The right amount keeps Earth habitable."},
+{"t": "Soil nutrients like nitrogen and potassium come from…", "o": ["Breakdown of rocks and remains of living things", "Rain only", "Sunlight", "The core"], "e": "The crust provides almost everything life needs."},
+{"t": "Which action helps protect the climate?", "o": ["Using solar and wind energy", "Burning more coal", "Cutting forests", "Wasting energy"], "e": "Also energy efficiency and greener travel."},
+{"t": "Soil pollution from excess fertilisers can…", "o": ["Reduce crop yield and spread harm through food chains", "Increase biodiversity", "Clean water", "Add ozone"], "e": "Poor waste disposal does the same."}
+]}
+]}

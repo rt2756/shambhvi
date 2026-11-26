@@ -1,0 +1,52 @@
+{
+"title": "5. Exploring Forces",
+"tests": [
+{"q": [
+{"t": "A force is a…", "o": ["Push or pull", "Type of energy", "Speed", "Mass"], "e": "It results from two objects interacting."},
+{"t": "The SI unit of force is the…", "o": ["Newton (N)", "Kilogram", "Pascal", "Metre"], "e": "Named after Isaac Newton."},
+{"t": "How many objects must interact for a force to exist?", "n": 2, "e": "At least two — each feels a force from the other."},
+{"t": "The force that slows a rolling ball is…", "o": ["Friction", "Magnetism", "Gravity upward", "Electrostatic force"], "e": "It acts opposite to motion."},
+{"t": "Friction acts…", "o": ["Opposite to the direction of motion", "In the direction of motion", "Upward always", "Only in water"], "e": "That's why it slows things down."},
+{"t": "Which is a non-contact force?", "o": ["Gravitational force", "Friction", "Muscular force", "A push with a stick"], "e": "Magnetic and electrostatic forces are non-contact too."},
+{"t": "Weight is…", "o": ["The force with which Earth pulls an object", "The amount of matter", "Volume", "Density"], "e": "Its SI unit is the newton."},
+{"t": "Mass is measured in…", "o": ["Kilograms", "Newtons", "Pascals", "Metres"], "e": "Mass is the amount of matter."},
+{"t": "The upward force of a liquid on an object is…", "o": ["Buoyant force (upthrust)", "Friction", "Weight", "Gravity"], "e": "All liquids exert it."},
+{"t": "Like charges…", "o": ["Repel", "Attract", "Do nothing", "Cancel gravity"], "e": "Unlike charges attract."}
+]},
+{"q": [
+{"t": "A ball rolling on the ground stops on its own. This proves…", "o": ["A force (friction) acted", "No force acted", "Gravity vanished", "The ball was charged"], "e": "Whenever speed changes, a force must be acting."},
+{"t": "A book rests on a table. Forces on it are…", "o": ["Balanced — gravity down, table up", "Zero — no forces", "Only gravity", "Only the table's push"], "e": "At rest means forces balance, not absence of force."},
+{"t": "Why is friction greater on rough surfaces?", "o": ["Surface irregularities lock together more", "Rough surfaces are heavier", "Gravity is stronger there", "Air is thicker"], "e": "Even smooth surfaces have tiny bumps."},
+{"t": "Why are aeroplanes and trains streamlined?", "o": ["To reduce friction from air", "To look nice", "To increase gravity", "To add weight"], "e": "Friction acts in gases and liquids too."},
+{"t": "Gravitational force is…", "o": ["Always attractive", "Always repulsive", "Sometimes repulsive", "Only on Earth"], "e": "Unlike magnetic and electrostatic forces."},
+{"t": "A rubbed balloon and the woollen cloth that rubbed it…", "o": ["Attract", "Repel", "Do nothing", "Both become uncharged"], "e": "They get opposite charges."},
+{"t": "Two balloons rubbed with the same cloth…", "o": ["Repel", "Attract", "Stick together", "Fall"], "e": "Both get the same kind of charge."},
+{"t": "A 1 kg object weighs about how many newtons on Earth?", "n": 10, "u": "N", "e": "About 10 N."},
+{"t": "The same 1 kg object on the Moon has mass…", "o": ["1 kg", "0.16 kg", "6 kg", "0 kg"], "e": "Mass doesn't change with place; weight does (1.6 N)."},
+{"t": "An object floats when…", "o": ["Buoyant force equals gravity", "Gravity is greater", "It has no weight", "It is made of metal"], "e": "If gravity is greater, it sinks."}
+]},
+{"q": [
+{"t": "A spring balance has 5 divisions between 0 N and 1 N. Least count (N)?", "n": 0.2, "u": "N", "k": "F(1,5)", "e": "1 ÷ 5 = 0.2 N."},
+{"t": "A spring balance has 10 divisions between two marks 2 N apart. Least count (N)?", "n": 0.2, "u": "N", "k": "F(2,10)", "e": "2 ÷ 10 = 0.2 N."},
+{"t": "Why is slipping easier on a wet floor?", "o": ["Water fills irregularities, reducing friction", "Water increases gravity", "Water is sticky", "Floors become rough"], "e": "Surfaces can no longer lock together."},
+{"t": "Why is pedalling uphill harder?", "o": ["You work against gravity pulling you down the slope", "Air is thinner", "Friction disappears", "The bicycle gets heavier"], "e": "Plus friction."},
+{"t": "At the top of a vertical throw, a ball…", "o": ["Stops momentarily, then falls", "Keeps rising forever", "Moves sideways", "Speeds up"], "e": "Its motion reverses there."},
+{"t": "Why does a mug feel lighter in water?", "o": ["Buoyant force partly cancels gravity", "It loses mass", "Water pulls it down", "Gravity stops"], "e": "Upthrust pushes up."},
+{"t": "Archimedes' principle: the buoyant force equals…", "o": ["The weight of liquid displaced", "The object's mass", "The volume of the container", "Gravity on Earth"], "e": "If displaced weight is less than the object's weight, it sinks."},
+{"t": "Why does pumice float?", "o": ["Trapped gas bubbles make it less dense than water", "It is wood", "It is magnetic", "It is hollow metal"], "e": "Lava cooled quickly, trapping bubbles."},
+{"t": "Rubbed plastic picks up paper bits. This is…", "o": ["Electrostatic force", "Magnetic force", "Friction", "Gravity"], "e": "A charged object attracts uncharged ones."},
+{"t": "Ring magnets with like poles facing: the upper one…", "o": ["Floats above the lower", "Sticks to it", "Falls off", "Turns into iron"], "e": "Repulsion holds it up without contact."}
+]},
+{"q": [
+{"t": "A 5 kg bag weighs about how many newtons on Earth (1 kg ≈ 10 N)?", "n": 50, "u": "N", "k": "5*10", "e": "5 × 10 = 50 N."},
+{"t": "A 1 kg mass weighs 1.6 N on the Moon. What would a 10 kg mass weigh there (N)?", "n": 16, "u": "N", "k": "10*F('1.6')", "e": "10 × 1.6 = 16 N."},
+{"t": "On which body does 1 kg weigh the most (from the table)?", "o": ["Jupiter (25.4 N)", "Earth (10 N)", "Venus (9 N)", "Moon (1.6 N)"], "e": "Stronger gravity → more weight; mass stays 1 kg."},
+{"t": "'The weight of the wheat bag is 10 kg' is scientifically…", "o": ["Wrong — kg is a unit of mass", "Correct", "Correct in newtons", "Wrong — it should be pascals"], "e": "In science use mass in kg, weight in N."},
+{"t": "Which shows a force changing direction?", "o": ["A bat hitting a moving ball", "Pressing a balloon", "Pushing a box from rest", "A book on a table"], "e": "The ball's direction changes."},
+{"t": "Which shows a force changing shape?", "o": ["Rolling a chapati", "Hitting a ball", "Holding a bicycle back", "Throwing upward"], "e": "Force can change shape."},
+{"t": "Static electricity and current electricity are…", "o": ["The same charges — static at rest, current when moving", "Unrelated", "Opposites", "Magnetic forces"], "e": "Moving charges are an electric current."},
+{"t": "Muscular force inside the body helps…", "o": ["Circulate blood by heart muscles", "Make gravity", "Create friction", "Charge balloons"], "e": "Also pushes food along the alimentary canal."},
+{"t": "Never hang an object heavier than a spring balance's maximum because…", "o": ["It can damage the spring", "It gives a better reading", "It changes gravity", "It floats"], "e": "Check the range first."},
+{"t": "Why does a bicycle speed up downhill without pedalling?", "o": ["Gravity pulls it down the slope", "Friction pushes it", "Air pulls it", "It has no mass"], "e": "Gravity does the work."}
+]}
+]}

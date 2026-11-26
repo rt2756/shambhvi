@@ -1,0 +1,52 @@
+{
+"title": "2. Cell: the Building Block of Life",
+"tests": [
+{"q": [
+{"t": "The limit of resolution of the human eye is…", "o": ["0.1 mm", "1 mm", "1 µm", "1 cm"], "e": "Smaller details merge together."},
+{"t": "1 mm = how many µm?", "n": 1000, "u": "µm", "e": "And 1 µm = 1000 nm."},
+{"t": "Total magnification = ?", "o": ["Eyepiece × objective", "Eyepiece + objective", "Objective ÷ eyepiece", "Eyepiece only"], "e": "Multiply the two lens magnifications."},
+{"t": "Diffusion of water across a selectively permeable membrane is…", "o": ["Osmosis", "Diffusion only", "Respiration", "Mitosis"], "e": "A special case of diffusion."},
+{"t": "Cells with no well-defined nucleus are…", "o": ["Prokaryotic", "Eukaryotic", "Plant cells", "Animal cells"], "e": "E.g. bacteria."},
+{"t": "The powerhouse of the cell is the…", "o": ["Mitochondrion", "Ribosome", "Golgi body", "Lysosome"], "e": "It releases energy."},
+{"t": "Rough ER has ___ attached.", "o": ["Ribosomes", "Chloroplasts", "Lysosomes", "Vacuoles"], "e": "It makes and secretes proteins."},
+{"t": "Colourless plastids that store starch are…", "o": ["Leucoplasts", "Chloroplasts", "Chromoplasts", "Mitochondria"], "e": "Leukos = white."},
+{"t": "Cell division giving gametes with half the chromosomes is…", "o": ["Meiosis", "Mitosis", "Osmosis", "Diffusion"], "e": "Mitosis keeps the number the same."},
+{"t": "Who proposed that new cells form only from pre-existing cells (1855)?", "o": ["Rudolf Virchow", "Schleiden", "Schwann", "Hooke"], "e": "Completing the classical cell theory."}
+]},
+{"q": [
+{"t": "A potato piece in plain water…", "o": ["Swells and gains weight", "Shrinks", "Dissolves", "Stays the same"], "e": "Water enters by osmosis."},
+{"t": "A potato piece in 20% salt solution…", "o": ["Shrinks and loses weight", "Swells", "Dissolves", "Stays the same"], "e": "Water leaves towards the more concentrated side."},
+{"t": "In osmosis, water moves towards…", "o": ["The more concentrated solution", "The more dilute solution", "Pure water", "The cell wall only"], "e": "Where there is less water."},
+{"t": "Why do plants need a cell wall?", "o": ["They can't move, so need rigidity against wind and rain", "To photosynthesise", "To move", "To store fat"], "e": "Animals' flexible cells support movement."},
+{"t": "Smooth ER makes and stores…", "o": ["Fats and hormones", "Proteins", "Starch", "DNA"], "e": "Rough ER makes proteins."},
+{"t": "Chromoplasts give flowers and fruits bright colours to…", "o": ["Attract pollinators and seed dispersers", "Make food", "Store starch", "Scare animals"], "e": "Chroma = colour."},
+{"t": "Why do mature human RBCs have no nucleus?", "o": ["To hold more haemoglobin and carry more oxygen", "They lost it by accident", "To divide faster", "To store fat"], "e": "The cost: they can't divide or repair."},
+{"t": "Why do plants wilt without water?", "o": ["Vacuoles lose water and cell pressure drops", "Cell walls dissolve", "Chloroplasts leave", "Roots die instantly"], "e": "The vacuole keeps the cell firm."},
+{"t": "Body growth happens mainly by…", "o": ["Cells dividing into more cells", "Cells getting bigger forever", "Cells merging", "Water entering"], "e": "Cells can only grow to a certain size."},
+{"t": "Schleiden (1838) showed ___ are made of cells.", "o": ["All plants", "All animals", "All rocks", "All viruses"], "e": "Schwann (1839) showed it for animals."}
+]},
+{"q": [
+{"t": "Why does a cell have many small mitochondria rather than one giant one?", "o": ["Many small ones give more total membrane area", "Giant ones explode", "Small ones divide faster only", "No reason"], "e": "More surface area, more energy production."},
+{"t": "Why are mitochondrial cristae folded?", "o": ["To increase surface area for reactions", "For decoration", "To store water", "To make DNA"], "e": "More reaction space in the same volume."},
+{"t": "Mitochondria and plastids have their own DNA. This suggests…", "o": ["They were once free-living single-celled organisms", "They are viruses", "They came from food", "They make the nucleus"], "e": "A shared evolutionary history."},
+{"t": "Why is magnification without resolution useless?", "o": ["Enlarging a blur only gives a bigger blur", "Resolution is colour", "It always works", "Magnification needs no light"], "e": "Resolution is the real limit."},
+{"t": "Why do chromosomes condense only at division?", "o": ["Loose thread is easy to read but hard to share out", "To hide DNA", "To make proteins", "By accident"], "e": "Winding makes them easy to separate."},
+{"t": "Why must gametes have half the chromosomes?", "o": ["Otherwise every generation would double the number", "To be smaller", "To swim faster", "To avoid mitosis"], "e": "Two halves make a full set."},
+{"t": "Contact inhibition means…", "o": ["Division stops when cells touch neighbours", "Cells divide faster when touched", "Cells merge", "Cells die on contact"], "e": "Cancer cells lose this brake."},
+{"t": "Programmed cell death in the embryo forms…", "o": ["Fingers, by removing cells between them", "The heart", "Bones", "Hair"], "e": "Without it we'd have webbed hands."},
+{"t": "Plant cell shrinks in salt solution but keeps its outer shape because…", "o": ["The rigid cell wall holds the shape", "It has no membrane", "Salt enters", "Vacuole grows"], "e": "Only membrane and cytoplasm pull inward."},
+{"t": "Venter's synthetic-DNA experiment showed…", "o": ["DNA controls a cell's structure and activities", "A cell was created from scratch", "Cells don't need DNA", "Viruses are cells"], "e": "Only the DNA was synthetic."}
+]},
+{"q": [
+{"t": "Eyepiece 10× and objective 40×. Total magnification?", "n": 400, "u": "×", "k": "10*40", "e": "10 × 40 = 400×."},
+{"t": "Eyepiece 15× and objective 10×. Total magnification?", "n": 150, "u": "×", "k": "15*10", "e": "15 × 10 = 150×."},
+{"t": "10 cells sit side by side across 0.5 mm. Width of one cell (µm)?", "n": 50, "u": "µm", "k": "F(500,10)", "e": "0.5 mm = 500 µm; 500 ÷ 10 = 50 µm."},
+{"t": "Why weigh potato pieces before the osmosis experiment?", "o": ["The change in weight is the result", "To cook them", "To dry them", "No reason"], "e": "Equal starting sizes make changes comparable."},
+{"t": "Why look at the root TIP for dividing cells?", "o": ["That's where growth is happening", "It's softest", "It's green", "Roots don't divide elsewhere ever"], "e": "Squashing spreads the cells for viewing."},
+{"t": "Totipotency (Haberlandt, 1902) means…", "o": ["Any living plant cell can grow into a whole plant", "Cells can't divide", "Animal cells regrow limbs", "Cells live forever"], "e": "The basis of plant tissue culture."},
+{"t": "Errors in meiosis can cause…", "o": ["Genetic disorders and reduced fertility", "Tumours only", "Better growth", "Nothing"], "e": "Mitosis errors can cause tumours."},
+{"t": "Do plant cells show contact inhibition?", "o": ["No — rigid walls give a different growth pattern", "Yes", "Only in roots", "Only in flowers"], "e": "It's an animal cell feature."},
+{"t": "Lysosomal enzymes in sperm help by…", "o": ["Breaking down the egg's outer layer", "Making energy", "Storing food", "Swimming"], "e": "Allowing fertilisation."},
+{"t": "Why have organelles at all?", "o": ["So many processes can run at once in separate compartments", "To make cells heavier", "For colour", "To slow the cell"], "e": "A cell is like a tiny factory."}
+]}
+]}

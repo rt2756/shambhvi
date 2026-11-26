@@ -1,0 +1,52 @@
+{
+"title": "10. Sound Waves",
+"tests": [
+{"q": [
+{"t": "Sound is produced by…", "o": ["Vibrations", "Light", "Heat only", "Magnetism"], "e": "Periodic to-and-fro motion."},
+{"t": "Can sound travel through a vacuum?", "o": ["No", "Yes", "Only loud sound", "Only high pitch"], "e": "It needs a medium."},
+{"t": "A region of higher density in a sound wave is a…", "o": ["Compression", "Rarefaction", "Trough", "Wavelength"], "e": "Rarefactions are lower density."},
+{"t": "Sound waves in air are…", "o": ["Longitudinal", "Transverse", "Electromagnetic", "Not waves"], "e": "Particles vibrate parallel to the wave direction."},
+{"t": "The SI unit of frequency is the…", "o": ["Hertz (Hz)", "Metre", "Second", "Decibel"], "e": "Oscillations per second."},
+{"t": "Sound travels fastest in…", "o": ["Solids", "Liquids", "Gases", "Vacuum"], "e": "Steel ~5000 m/s, water ~1500, air ~340."},
+{"t": "Pitch depends on…", "o": ["Frequency", "Amplitude", "Speed", "Medium only"], "e": "Higher frequency = higher pitch."},
+{"t": "Loudness depends mainly on…", "o": ["Amplitude", "Frequency", "Wavelength", "Speed"], "e": "Larger amplitude = louder."},
+{"t": "The human audible range is about…", "o": ["20 Hz to 20 kHz", "1 Hz to 10 Hz", "20 kHz to 200 kHz", "0 to 20 Hz"], "e": "It shrinks with age."},
+{"t": "Sound above 20 kHz is…", "o": ["Ultrasonic", "Infrasonic", "Audible", "Light"], "e": "Used in ultrasonography."}
+]},
+{"q": [
+{"t": "In a sound wave, the particles of the medium…", "o": ["Vibrate about their mean positions", "Travel with the wave", "Stay perfectly still", "Move sideways"], "e": "Energy is transferred, not particles."},
+{"t": "A bell in a jar being emptied of air: you see it ring but the sound fades because…", "o": ["The medium is removed", "The bell stops", "Glass blocks sound", "Light is faster"], "e": "The source didn't change; the medium did."},
+{"t": "Frequency and time period are…", "o": ["Inversely related", "Equal", "Unrelated", "Directly proportional"], "e": "ν = 1/T."},
+{"t": "Speed of sound v = ?", "o": ["νλ", "ν/λ", "λ/ν only", "ν + λ"], "e": "One wavelength per time period."},
+{"t": "A thin rubber band compared to a thick one gives…", "o": ["Higher frequency", "Lower frequency", "Same frequency", "No sound"], "e": "It vibrates faster."},
+{"t": "Why does intensity fall with distance?", "o": ["Energy spreads over a larger area", "Energy is destroyed", "Air absorbs it all", "Frequency drops"], "e": "Same energy, spread thinner."},
+{"t": "Light differs from sound because light…", "o": ["Can travel through a vacuum", "Needs a medium", "Is longitudinal", "Is slower"], "e": "Light is a transverse, non-mechanical wave."},
+{"t": "Two sounds are heard separately if the gap is at least…", "o": ["0.1 s", "1 s", "0.01 s", "10 s"], "e": "That's why echoes need distance."},
+{"t": "Reverberation is caused by…", "o": ["Multiple reflections in a large hall", "One echo", "Absorption", "Vacuum"], "e": "Reflections closer than 0.05 s."},
+{"t": "Bats and dolphins locate objects by…", "o": ["Echolocation", "Light", "Smell only", "Magnetism"], "e": "Using reflected sound."}
+]},
+{"q": [
+{"t": "A sound has frequency 500 Hz and wavelength 0.68 m. Speed (m/s)?", "n": 340, "u": "m/s", "k": "500*F('0.68')", "e": "v = νλ = 340 m/s."},
+{"t": "Frequency 200 Hz. Time period (s)?", "n": 0.005, "u": "s", "k": "F(1,200)", "e": "T = 1/ν = 0.005 s."},
+{"t": "Speed 340 m/s, frequency 170 Hz. Wavelength (m)?", "n": 2, "u": "m", "k": "F(340,170)", "e": "λ = v/ν = 2 m."},
+{"t": "An echo returns after 2 s; sound speed 340 m/s. Distance to the wall (m)?", "n": 340, "u": "m", "k": "340*2/2", "e": "Sound goes there and back: 340 × 2 ÷ 2 = 340 m."},
+{"t": "Minimum distance for an echo in air (340 m/s, 0.1 s) (m)?", "n": 17, "u": "m", "k": "340*F(1,10)/2", "e": "34 m round trip ÷ 2 = 17 m."},
+{"t": "Sonar pulse returns from the seabed in 4 s (1500 m/s in water). Depth (m)?", "n": 3000, "u": "m", "k": "1500*4/2", "e": "1500 × 4 ÷ 2 = 3000 m."},
+{"t": "If frequency doubles in the same medium, wavelength…", "o": ["Halves", "Doubles", "Stays the same", "Becomes zero"], "e": "Speed depends on the medium only."},
+{"t": "Why does music sound right in a hall?", "o": ["All frequencies travel at the same speed", "High notes are faster", "Low notes are faster", "Walls fix it"], "e": "Notes of a chord arrive together."},
+{"t": "On a density–distance graph, a crest represents…", "o": ["Middle of a compression", "Middle of a rarefaction", "The wave going up", "Silence"], "e": "Maximum density."},
+{"t": "Why are longitudinal seismic waves detected first?", "o": ["They travel faster", "They're louder", "They're transverse", "They're closer"], "e": "Seismographs pick them up first."}
+]},
+{"q": [
+{"t": "Intensity vs loudness:", "o": ["Intensity is measurable; loudness depends on the listener", "They are identical", "Loudness is measurable; intensity isn't", "Neither is real"], "e": "Two people can hear the same intensity differently."},
+{"t": "Normal conversation is about…", "o": ["60 dB", "6 dB", "160 dB", "0 dB"], "e": "Firecrackers exceed 100 dB."},
+{"t": "Infrasonic waves are useful for detecting…", "o": ["Earthquakes, volcanoes and severe storms", "Kidney stones", "Babies in the womb", "Colours"], "e": "They travel long distances."},
+{"t": "Ultrasound can break…", "o": ["Kidney stones", "Bones", "Glass windows only", "Clouds"], "e": "Into pieces small enough to pass out."},
+{"t": "A microphone converts…", "o": ["Sound vibrations into electrical signals", "Electricity into sound", "Light into sound", "Heat into sound"], "e": "A speaker does the opposite."},
+{"t": "The cochlea in the ear…", "o": ["Converts vibrations into electrical signals", "Amplifies sound", "Is the eardrum", "Makes sound"], "e": "Tiny bones amplify; the cochlea converts."},
+{"t": "Two ears help the brain…", "o": ["Locate the direction of a sound", "Hear louder only", "Hear ultrasound", "Make echoes"], "e": "By comparing which ear hears first."},
+{"t": "The Gol Gumbaz whispering gallery is in…", "o": ["Bijapur, Karnataka", "Delhi", "Jaipur", "Kolkata"], "e": "A whisper is heard multiple times."},
+{"t": "C.V. Raman also studied…", "o": ["Acoustics of Indian drums", "Rockets", "Vaccines", "Atoms only"], "e": "Besides the Raman Effect."},
+{"t": "The syaahi on a tabla…", "o": ["Alters the membrane's vibration for rich sounds", "Is decoration", "Stops vibration", "Makes it louder only"], "e": "Studied by Raman."}
+]}
+]}

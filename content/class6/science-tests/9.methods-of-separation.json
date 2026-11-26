@@ -1,0 +1,52 @@
+{
+"title": "9. Methods of Separation",
+"tests": [
+{"q": [
+{"t": "Two or more substances mixed together form a…", "o": ["Mixture", "Element", "Filtrate", "Residue"], "e": "Separation methods use differences between components."},
+{"t": "Removing small stones from rice by hand is…", "o": ["Handpicking", "Sieving", "Winnowing", "Filtration"], "e": "Works when the unwanted bits are few."},
+{"t": "Beating stalks to separate grain is…", "o": ["Threshing", "Winnowing", "Sieving", "Decantation"], "e": "Traditionally against a wooden log."},
+{"t": "Using wind to blow husk away from grain is…", "o": ["Winnowing", "Threshing", "Sieving", "Evaporation"], "e": "Light husk flies; heavy grain falls."},
+{"t": "Separating bran from flour with a mesh is…", "o": ["Sieving", "Winnowing", "Filtration", "Handpicking"], "e": "Fine particles pass; bigger ones stay."},
+{"t": "Settling of heavy insoluble solid at the bottom is…", "o": ["Sedimentation", "Decantation", "Filtration", "Evaporation"], "e": "Like tea leaves settling in a pot."},
+{"t": "Pouring off liquid leaving the settled solid is…", "o": ["Decantation", "Sedimentation", "Sieving", "Threshing"], "e": "Tilt gently and pour."},
+{"t": "What stays on the filter paper is the…", "o": ["Residue", "Filtrate", "Mixture", "Solution"], "e": "The liquid that passes through is the filtrate."},
+{"t": "Salt is obtained from seawater by…", "o": ["Evaporation", "Filtration", "Sieving", "Winnowing"], "e": "Water evaporates in shallow pits, leaving salt."},
+{"t": "A soop is a…", "o": ["Bamboo tray used for winnowing", "Sieve", "Filter paper", "Log"], "e": "Grain is dropped from it into the wind."}
+]},
+{"q": [
+{"t": "Winnowing separates on the basis of…", "o": ["Weight (heavy vs light)", "Colour", "Solubility", "Magnetism"], "e": "Light parts blow away."},
+{"t": "Sieving separates on the basis of…", "o": ["Particle size", "Weight", "Colour", "Taste"], "e": "Small particles pass through holes."},
+{"t": "Why doesn't winnowing work in a closed room?", "o": ["There's no moving air to carry husk away", "Grain is too heavy", "Husk sticks", "It's dark"], "e": "Winnowing needs moving air."},
+{"t": "Why is handpicking a bad method for a lot of husk?", "o": ["It only works when unwanted bits are few", "Husk is invisible", "Hands are slow at everything", "It isn't allowed"], "e": "It would take forever."},
+{"t": "Why doesn't decantation separate completely?", "o": ["Some solid still comes with the poured liquid", "It removes all the liquid", "It dissolves the solid", "It needs wind"], "e": "For a clean separation, filter."},
+{"t": "Why does cloth work as a filter?", "o": ["There are small pores between its threads", "It's waterproof", "It's magnetic", "It dissolves mud"], "e": "Particles larger than the pores are stopped."},
+{"t": "Why can't a filter catch salt dissolved in water?", "o": ["Dissolved salt has broken up completely in the water", "Salt is too heavy", "Filters only stop salt", "Salt floats"], "e": "Use evaporation for dissolved solids."},
+{"t": "White patches on dark clothes after sweating are…", "o": ["Salt left after sweat evaporated", "Dust", "Soap", "Mould"], "e": "Same as getting salt from seawater."},
+{"t": "Sambhar Lake in Rajasthan is a source of…", "o": ["Common salt", "Sugar", "Iron", "Oil"], "e": "Salt is obtained there by evaporation."},
+{"t": "Modern threshers do…", "o": ["Threshing and winnowing together", "Only sieving", "Only filtration", "Evaporation"], "e": "Both steps at once."}
+]},
+{"q": [
+{"t": "Which method for separating sand from water completely?", "o": ["Filtration", "Winnowing", "Handpicking", "Threshing"], "e": "Sand is insoluble; a filter catches it."},
+{"t": "Which method to get sugar back from sugar solution?", "o": ["Evaporation", "Filtration", "Sieving", "Decantation"], "e": "Sugar is dissolved; evaporate the water."},
+{"t": "Oil and water can be separated by…", "o": ["Decantation", "Sieving", "Winnowing", "Threshing"], "e": "Oil forms a separate layer and can be poured off."},
+{"t": "Pebbles and sand at a construction site are separated by…", "o": ["Sieving", "Filtration", "Evaporation", "Winnowing"], "e": "Solid–solid mixture of different sizes."},
+{"t": "For sieving to work, the hole size must be…", "o": ["Between the sizes of the two particles", "Bigger than all particles", "Smaller than all particles", "Any size"], "e": "Otherwise nothing gets separated."},
+{"t": "A tea strainer stops tea leaves but not mud. Why?", "o": ["Mud particles are smaller than its holes", "Mud is soluble", "Tea leaves dissolve", "Strainers attract leaves"], "e": "Filter choice depends on particle size."},
+{"t": "Muddy water needs a filter that is…", "o": ["Finer, like cloth or filter paper", "Coarser, like a sieve", "Made of wood", "A magnet"], "e": "Smaller pores catch finer particles."},
+{"t": "Washing rice and pouring off the water uses…", "o": ["Sedimentation and decantation", "Winnowing", "Evaporation", "Threshing"], "e": "Rice settles; water is poured off."},
+{"t": "Why does Ayurveda dry medicinal plants in shade?", "o": ["To evaporate excess water but keep the medicine", "To filter them", "To winnow them", "To dissolve them"], "e": "An everyday use of evaporation."},
+{"t": "Roasted peanuts rubbed and blown — the skins fly off. This is…", "o": ["Winnowing", "Sieving", "Filtration", "Handpicking"], "e": "Light skins blown away by moving air."}
+]},
+{"q": [
+{"t": "A mixture of sand, salt and water. Order of methods to get dry salt:", "o": ["Filter out sand, then evaporate the water", "Evaporate first, then filter", "Winnow, then sieve", "Handpick the salt"], "e": "Filtration removes insoluble sand; evaporation recovers dissolved salt."},
+{"t": "A mixture of iron filings and sand could be separated by…", "o": ["Using a magnet", "Winnowing", "Evaporation", "Filtration"], "e": "Iron is magnetic; sand isn't — a difference to exploit."},
+{"t": "Every separation method works by exploiting…", "o": ["A difference between the components", "The colour of the container", "The time of day", "The weight of the person"], "e": "Size, weight, solubility, magnetism…"},
+{"t": "Black peppers removed from pulao by hand. Why handpicking?", "o": ["They're few, and differ in colour and size", "They're dissolved", "They're light", "They're magnetic"], "e": "Handpicking suits a few easily seen items."},
+{"t": "Charcoal, sand and cotton can all act as…", "o": ["Filters", "Sieves for grain", "Magnets", "Indicators"], "e": "Different filter materials for different particle sizes."},
+{"t": "Seawater is kept in shallow pits rather than deep tanks because…", "o": ["More surface area speeds evaporation", "Deep tanks are illegal", "Salt sinks", "Shallow water is saltier"], "e": "Large exposed surface evaporates faster."},
+{"t": "Chalk powder in water: decantation or filtration for a clean result?", "o": ["Filtration", "Decantation", "Neither", "Winnowing"], "e": "Decantation leaves some solid; filtration separates completely."},
+{"t": "The liquid that passes through a filter is called…", "o": ["Filtrate", "Residue", "Sediment", "Husk"], "e": "Residue stays on the filter."},
+{"t": "Boiling a salt solution in a china dish leaves…", "o": ["Salt behind", "Nothing", "Water behind", "Sand"], "e": "Water boils away; salt remains."},
+{"t": "Which separation uses BOTH a difference in weight and moving air?", "o": ["Winnowing", "Sieving", "Filtration", "Evaporation"], "e": "Heavy grain falls; light husk is carried by wind."}
+]}
+]}

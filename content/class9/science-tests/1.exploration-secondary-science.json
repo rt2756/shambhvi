@@ -1,0 +1,52 @@
+{
+"title": "1. Exploration: Secondary Science",
+"tests": [
+{"q": [
+{"t": "Science is about what we know and…", "o": ["How we know it", "Who knows it", "When we forget it", "Nothing else"], "e": "The method matters as much as the facts."},
+{"t": "A model in science is…", "o": ["A simplified view focusing on what matters for a question", "An exact copy of reality", "A toy", "A mistake"], "e": "Leaving things out is deliberate."},
+{"t": "In science, a theory is…", "o": ["A well-tested explanation, not a guess", "An untested guess", "An opinion", "A rumour"], "e": "Theories are backed by evidence."},
+{"t": "The speed of light is called c from the Latin…", "o": ["Celeritas (speed)", "Centum", "Caelum", "Calor"], "e": "Symbols often come from history."},
+{"t": "A prediction in science is…", "o": ["A reasoned expectation based on evidence", "A wild guess", "A wish", "A fact already proven"], "e": "It can be tested against observations."},
+{"t": "When predictions don't match observations, scientists…", "o": ["Re-examine assumptions, models or measurements", "Ignore the data", "Change the observations", "Give up"], "e": "Evidence decides, not opinion."},
+{"t": "Using SI units everywhere helps by…", "o": ["Avoiding conversion errors", "Making numbers bigger", "Making maths harder", "Nothing"], "e": "The airplane fuel story shows the danger."},
+{"t": "An equation is…", "o": ["A compact statement of how things are related", "Only a calculation tool", "Something to memorise", "A model of the Sun"], "e": "Maths is a language of science."},
+{"t": "Is any scientific theory final?", "o": ["No — none is beyond question", "Yes, all are final", "Only physics theories", "Only old ones"], "e": "Openness to correction is a strength."},
+{"t": "Divisions into physics, chemistry and biology are…", "o": ["Made by us to organise knowledge", "Natural boundaries", "Fixed laws", "Not useful"], "e": "Nature has no such boundaries."}
+]},
+{"q": [
+{"t": "In modelling a hit cricket ball, which detail matters?", "o": ["Speed it was hit at", "Brand of the bat", "Colour of the ball", "Grass on the field"], "e": "Mass, speed and direction matter for the question."},
+{"t": "Omissions in a model are…", "o": ["Done on purpose to keep it simple", "Mistakes", "Laziness", "Unscientific"], "e": "They focus on what matters."},
+{"t": "Meghnad Saha simplified stars to explain…", "o": ["Why a star's colour relates to its temperature", "Why stars twinkle", "How stars form planets", "Star names"], "e": "One simplification gave a powerful result."},
+{"t": "Why do weather forecasts sometimes go wrong?", "o": ["Many factors change and small differences grow", "Scientists guess randomly", "Weather has no rules", "Satellites lie"], "e": "Temperature, pressure, humidity, wind all vary."},
+{"t": "Failures of a theory are…", "o": ["A strength of science", "A weakness", "Embarrassing and hidden", "Impossible"], "e": "They push science forward."},
+{"t": "To check a viral claim, ask…", "o": ["What mechanism would cause it, and is there evidence?", "How many shares it has", "Who posted it", "Does it sound good?"], "e": "A general method for any claim."},
+{"t": "Estimation is valuable because it…", "o": ["Tells you whether a result is reasonable", "Gives exact answers", "Replaces measurement", "Is faster than thinking"], "e": "Approximate is often enough early on."},
+{"t": "Two independent estimates landing close together suggest…", "o": ["Neither is wildly wrong", "Both are exact", "Both are wrong", "Estimation is useless"], "e": "A cross-check."},
+{"t": "Simple yes/no questions are usually…", "o": ["Less useful than ones about measurable data", "The best questions", "Unscientific", "Always testable"], "e": "Measurable data goes further."},
+{"t": "Real-world problems like climate change need…", "o": ["Several disciplines at once", "Only physics", "Only biology", "No science"], "e": "Science has no real boundaries."}
+]},
+{"q": [
+{"t": "The aircraft fuel error happened because…", "o": ["Fuel density was used in the wrong units", "The plane was too heavy", "Fuel leaked", "A pilot miscounted"], "e": "Mixing units led to far too little fuel."},
+{"t": "Which shows a testable claim?", "o": ["It rains more in July than January here, per past records", "Rain is nice", "Will it rain?", "Rain is magic"], "e": "Uses measurable data and past patterns."},
+{"t": "Scientists reject ideas based on…", "o": ["Evidence", "Opinion", "Belief", "Popularity"], "e": "Nature itself corrects us."},
+{"t": "When predictions match observations…", "o": ["Confidence in the idea grows", "The idea is proven forever", "Science stops", "We stop testing"], "e": "But no theory is final."},
+{"t": "Which best describes using maths in science?", "o": ["Understanding relationships, not memorising equations", "Memorising formulas", "Avoiding numbers", "Only calculating"], "e": "Equations express relationships."},
+{"t": "Science values careful reasoning…", "o": ["Perhaps more than accurate calculation", "Less than calculation", "Not at all", "Only in biology"], "e": "Estimation is part of reasoning."},
+{"t": "A good model is judged by…", "o": ["Whether it answers the question it was built for", "How detailed it is", "How pretty it is", "Its size"], "e": "Simplicity is a feature, not a bug."},
+{"t": "Prediction drives…", "o": ["Further exploration", "Showing off", "The end of science", "Nothing"], "e": "Mismatches open new questions."},
+{"t": "Science is shaped by…", "o": ["Curiosity, creativity, collaboration", "Memorising facts only", "One genius alone", "Luck only"], "e": "It's a human activity."},
+{"t": "Scientific thinking matters even if you stop studying science because it…", "o": ["Helps you understand technology and judge claims", "Is required by law", "Makes exams easier only", "Doesn't matter"], "e": "Useful in whatever you do."}
+]},
+{"q": [
+{"t": "Estimate: roughly how many seconds in a day?", "o": ["About 86,000", "About 8,600", "About 860,000", "About 1,000"], "e": "24 × 60 × 60 = 86,400."},
+{"t": "Estimate: roughly how many heartbeats in an hour (about 70 per minute)?", "o": ["About 4,000", "About 400", "About 40,000", "About 70"], "e": "70 × 60 = 4,200."},
+{"t": "A claim says a phone app cures fever by sound. The first scientific question is…", "o": ["What mechanism could make this work?", "How popular is it?", "Is the app free?", "Is the sound pleasant?"], "e": "No plausible mechanism and no evidence means reject."},
+{"t": "Why is a model of a cricket hit that ignores the grass still useful?", "o": ["Grass barely affects the question asked", "Grass is irrelevant everywhere", "Models must ignore everything", "It isn't useful"], "e": "Omit what doesn't matter for the question."},
+{"t": "A theory makes a prediction that fails repeatedly. Scientists should…", "o": ["Revise or reject the theory", "Keep it anyway", "Hide the data", "Blame the instruments always"], "e": "Evidence wins."},
+{"t": "Which is the best description of a scientific law vs theory?", "o": ["Laws describe patterns; theories explain them", "Laws are guesses; theories are facts", "They are the same", "Theories are weaker than opinions"], "e": "Both are evidence-based."},
+{"t": "Estimate the height of a 10-storey building (about 3 m per floor).", "n": 30, "u": "m", "k": "10*3", "e": "10 × 3 m ≈ 30 m."},
+{"t": "1 km is how many metres? (SI prefix check)", "n": 1000, "u": "m", "e": "kilo = 1000."},
+{"t": "Why is openness to correction a strength?", "o": ["Errors get fixed as evidence grows", "It makes science unreliable", "Nothing is ever known", "It slows progress"], "e": "Self-correction is the engine of science."},
+{"t": "The magnifying glass and compass on page numbers symbolise…", "o": ["Close observation and finding direction", "Measurement only", "Travel", "Decoration"], "e": "Seeing carefully and exploring."}
+]}
+]}

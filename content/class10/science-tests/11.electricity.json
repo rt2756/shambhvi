@@ -1,0 +1,52 @@
+{
+"title": "11. Electricity",
+"tests": [
+{"q": [
+{"t": "Electric current is the rate of flow of…", "o": ["Charge", "Energy", "Resistance", "Voltage"], "e": "I = Q/t."},
+{"t": "The SI unit of current is the…", "o": ["Ampere", "Volt", "Ohm", "Watt"], "e": "1 A = 1 C/s."},
+{"t": "The SI unit of potential difference is the…", "o": ["Volt", "Ampere", "Ohm", "Coulomb"], "e": "1 V = 1 J/C."},
+{"t": "Ohm's law:", "o": ["V = IR", "V = I/R", "I = VR", "R = VI"], "e": "At constant temperature."},
+{"t": "The SI unit of resistance is the…", "o": ["Ohm (Ω)", "Volt", "Ampere", "Joule"], "e": "1 Ω = 1 V/A."},
+{"t": "An ammeter is connected in…", "o": ["Series", "Parallel", "Either", "Neither"], "e": "A voltmeter goes in parallel."},
+{"t": "Resistors in series: total resistance = ?", "o": ["R₁ + R₂ + …", "1/R₁ + 1/R₂", "R₁ × R₂", "R₁ − R₂"], "e": "Adds up."},
+{"t": "Electric power P = ?", "o": ["VI", "V/I", "I/V", "V + I"], "e": "Also I²R and V²/R."},
+{"t": "The commercial unit of electrical energy is the…", "o": ["Kilowatt-hour (kWh)", "Watt", "Joule", "Volt"], "e": "1 kWh = 3.6 × 10⁶ J."},
+{"t": "Household appliances are connected in…", "o": ["Parallel", "Series", "Neither", "Alternately"], "e": "Each gets full voltage and can be switched separately."}
+]},
+{"q": [
+{"t": "Resistance of a wire is directly proportional to its…", "o": ["Length", "Area", "Thickness", "Colour"], "e": "R = ρL/A."},
+{"t": "Resistance is inversely proportional to the wire's…", "o": ["Cross-sectional area", "Length", "Resistivity", "Temperature"], "e": "Thicker wire, less resistance."},
+{"t": "Resistivity depends on…", "o": ["The material (and temperature)", "Length", "Area", "Shape"], "e": "Not on dimensions."},
+{"t": "Why are heating elements made of alloys like nichrome?", "o": ["High resistivity and don't oxidise easily at high temperature", "Low resistance", "Cheap copper", "Magnetic"], "e": "They get hot without burning."},
+{"t": "Joule's law of heating: H = ?", "o": ["I²Rt", "IRt", "VIR", "I/Rt"], "e": "Heat produced in a resistor."},
+{"t": "A fuse works by…", "o": ["Melting when current is too high", "Increasing voltage", "Storing charge", "Cooling wires"], "e": "Breaks the circuit."},
+{"t": "Why is tungsten used in bulb filaments?", "o": ["Very high melting point", "Low resistance", "It's cheap", "It's magnetic"], "e": "3380 °C."},
+{"t": "Resistors in parallel: 1/R = ?", "o": ["1/R₁ + 1/R₂ + …", "R₁ + R₂", "R₁R₂", "R₁ − R₂"], "e": "Total is less than the smallest."},
+{"t": "In a series circuit, the current is…", "o": ["The same through every component", "Different in each", "Zero", "Divided"], "e": "Voltage divides."},
+{"t": "In a parallel circuit, the voltage across each branch is…", "o": ["The same", "Divided", "Zero", "Doubled"], "e": "Current divides."}
+]},
+{"q": [
+{"t": "A current of 2 A flows for 5 s. Charge (C)?", "n": 10, "u": "C", "k": "2*5", "e": "Q = It = 10 C."},
+{"t": "V = 12 V, R = 4 Ω. Current (A)?", "n": 3, "u": "A", "k": "F(12,4)", "e": "I = V/R = 3 A."},
+{"t": "Resistors 2 Ω, 3 Ω, 5 Ω in series. Total (Ω)?", "n": 10, "u": "Ω", "k": "2+3+5", "e": "Add them."},
+{"t": "Two 6 Ω resistors in parallel. Total (Ω)?", "n": 3, "u": "Ω", "k": "1/(F(1,6)+F(1,6))", "e": "1/R = 1/6 + 1/6 = 1/3."},
+{"t": "A bulb uses 220 V and 0.5 A. Power (W)?", "n": 110, "u": "W", "k": "220*F(1,2)", "e": "P = VI = 110 W."},
+{"t": "A 1000 W heater runs 3 hours. Energy (kWh)?", "n": 3, "u": "kWh", "k": "1*3", "e": "1 kW × 3 h = 3 kWh."},
+{"t": "Work done moving 2 C across 6 V (J)?", "n": 12, "u": "J", "k": "2*6", "e": "W = QV."},
+{"t": "Heat in a 10 Ω resistor with 2 A for 5 s (J)?", "n": 200, "u": "J", "k": "2**2*10*5", "e": "H = I²Rt = 4 × 10 × 5."},
+{"t": "If the length of a wire is doubled, its resistance…", "o": ["Doubles", "Halves", "Stays the same", "Quadruples"], "e": "R ∝ L."},
+{"t": "If the wire is made twice as thick in area, resistance…", "o": ["Halves", "Doubles", "Same", "Quadruples"], "e": "R ∝ 1/A."}
+]},
+{"q": [
+{"t": "Resistors 4 Ω and 12 Ω in parallel. Total (Ω)?", "n": 3, "u": "Ω", "k": "1/(F(1,4)+F(1,12))", "e": "1/R = 3/12 + 1/12 = 4/12."},
+{"t": "A 100 W bulb on 220 V. Resistance (Ω)?", "n": 484, "u": "Ω", "k": "F(220**2,100)", "e": "R = V²/P = 48400/100."},
+{"t": "Cost of running a 2 kW AC for 5 h at ₹6 per kWh (₹)?", "n": 60, "u": "₹", "k": "2*5*6", "e": "10 kWh × ₹6."},
+{"t": "1 kWh = how many joules (in units of 10⁶)?", "n": 3.6, "k": "F(1000*3600,10**6)", "e": "1000 W × 3600 s."},
+{"t": "Why is parallel wiring used at home rather than series?", "o": ["Each device gets full voltage and works independently", "It uses less wire", "It increases resistance", "Series is illegal"], "e": "In series one fault stops all."},
+{"t": "A wire of resistance 10 Ω is stretched to double its length (volume constant). New resistance (Ω)?", "n": 40, "u": "Ω", "k": "10*4", "e": "L doubles, A halves → R × 4."},
+{"t": "Three 3 Ω resistors: all parallel gives (Ω)?", "n": 1, "u": "Ω", "k": "1/(3*F(1,3))", "e": "1/R = 1/3 × 3 = 1."},
+{"t": "Power dissipated in a 5 Ω resistor with 2 A (W)?", "n": 20, "u": "W", "k": "2**2*5", "e": "P = I²R."},
+{"t": "Ohm's law holds only when…", "o": ["Temperature stays constant", "Current is zero", "Voltage is zero", "Always for bulbs"], "e": "Resistance changes with temperature."},
+{"t": "Why are copper and aluminium used for transmission wires?", "o": ["Low resistivity", "High resistivity", "They're magnetic", "They melt easily"], "e": "Less energy lost as heat."}
+]}
+]}

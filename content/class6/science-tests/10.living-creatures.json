@@ -1,0 +1,52 @@
+{
+"title": "10. Living Creatures and their Characteristics",
+"tests": [
+{"q": [
+{"t": "A seed turning into a sprout is called…", "o": ["Germination", "Excretion", "Respiration", "Reproduction"], "e": "Germination is the start of a new plant."},
+{"t": "Anything that prompts a living being to respond is a…", "o": ["Stimulus", "Nutrient", "Seed", "Stomata"], "e": "A thorn or a hot cup are stimuli."},
+{"t": "Producing new ones of one's own kind is…", "o": ["Reproduction", "Excretion", "Nutrition", "Growth"], "e": "It is necessary for the continuity of life."},
+{"t": "Plants take air in and out through…", "o": ["Stomata", "Roots only", "Flowers", "Bark only"], "e": "Tiny pores on leaves."},
+{"t": "Touch-me-not (chhui-mui) folding its leaves shows…", "o": ["Response to stimuli", "Excretion", "Reproduction", "Nutrition"], "e": "Touch is the stimulus; folding is the response."},
+{"t": "Sweat is a form of…", "o": ["Excretion", "Nutrition", "Reproduction", "Respiration"], "e": "It removes water and salts."},
+{"t": "Drosera is a plant that…", "o": ["Traps insects", "Grows in deserts", "Has no leaves", "Lives underwater"], "e": "It is insectivorous, using sticky hairs."},
+{"t": "Which is non-living even though it moves?", "o": ["A car", "A dog", "A plant", "A bird"], "e": "It can't grow, reproduce, respire or respond."},
+{"t": "Which TWO are essential for germination?", "o": ["Water and air", "Sunlight and water", "Sunlight and air", "Soil and sunlight"], "e": "Sunlight is not essential for most seeds."},
+{"t": "The tiny plant inside a seed is the…", "o": ["Embryo", "Seed coat", "Stomata", "Root"], "e": "Water helps the embryo develop."}
+]},
+{"q": [
+{"t": "Why is movement alone not proof of life?", "o": ["Non-living things like cars also move", "Living things never move", "Only animals move", "Movement is rare"], "e": "The test is the whole set of characteristics."},
+{"t": "Why are plants living though they don't walk?", "o": ["They show all other characteristics, and parts move", "They are green", "They are tall", "They make noise"], "e": "Flowers open, climbers wind around supports."},
+{"t": "Plants excrete excess water and minerals as…", "o": ["Droplets on leaves", "Sweat", "Urine", "Seeds"], "e": "Seen on grasses and roses."},
+{"t": "Amla leaves closing after sunset show…", "o": ["Response to stimuli", "Growth", "Excretion", "Death"], "e": "Darkness is the stimulus."},
+{"t": "Pot A (sunlight, no water) seeds don't germinate because…", "o": ["Water is needed to soften the seed coat", "They need more light", "Air is missing", "Soil is wrong"], "e": "Without water, the embryo can't develop."},
+{"t": "Pot C (moist soil, dark) seeds germinate. This shows…", "o": ["Sunlight isn't essential for germination", "Darkness kills seeds", "Water isn't needed", "Air isn't needed"], "e": "Most seeds don't need light to germinate."},
+{"t": "After germination, the seedling needs sunlight to…", "o": ["Grow further", "Stay a seed", "Excrete", "Stop growing"], "e": "Light is needed for further growth."},
+{"t": "A living being is called dead when…", "o": ["It can't show life characteristics despite having resources", "It is still", "It sleeps", "It's in the dark"], "e": "Even with food, air and water, it shows no life processes."},
+{"t": "A child outgrowing old clothes shows…", "o": ["Growth", "Excretion", "Response", "Death"], "e": "Growth is a characteristic of living things."},
+{"t": "Climbers winding round supports show plants can…", "o": ["Move their parts", "Walk", "Excrete sweat", "Breathe through lungs"], "e": "Plant movement is slow but real."}
+]},
+{"q": [
+{"t": "Pot B has excess standing water. Why don't its seeds germinate?", "o": ["Water drives out the air from soil spaces", "Too little water", "No light", "Too much light"], "e": "The seeds drown despite plenty of water."},
+{"t": "Why is Pot B 'the clever one'?", "o": ["It has more water than D yet fails, showing air matters", "It has no water", "It's in the dark", "It germinates fastest"], "e": "Too much water excludes air."},
+{"t": "Why do air spaces in soil matter?", "o": ["Seeds use the air and roots grow easily", "They hold sunlight", "They store food", "They make it heavier"], "e": "Air between soil particles supports germination and root growth."},
+{"t": "Seeds of Coleus and Petunia…", "o": ["Need light to germinate", "Need darkness", "Need no water", "Need no air"], "e": "They are exceptions; covering them stops sprouting."},
+{"t": "Seeds of Calendula and Zinnia…", "o": ["Need darkness and must be well covered", "Need light", "Need no water", "Grow in water"], "e": "Another exception to the general rule."},
+{"t": "How does Drosera trap insects?", "o": ["Sticky hairs move inward around the insect", "It bites", "It closes like a box instantly", "It uses roots"], "e": "Saucer-shaped leaves with sticky-tipped hairs."},
+{"t": "Which experiment pot germinates AND is the 'complete' set-up?", "o": ["D — moist soil in sunlight", "A — no water", "B — excess water", "None"], "e": "D has water, air and light."},
+{"t": "Which shows respiration in animals?", "o": ["Breathing in and out", "Sweating", "Growing taller", "Running"], "e": "Respiration involves air going in and out."},
+{"t": "Why is reproduction necessary?", "o": ["For the continuity of life", "To grow taller", "To excrete waste", "To respond"], "e": "Without it, a kind of living thing would die out."},
+{"t": "A robot can move and respond to sound. Is it living?", "o": ["No — it can't grow, reproduce or respire", "Yes", "Only when switched on", "Only if it's big"], "e": "It doesn't show all the characteristics."}
+]},
+{"q": [
+{"t": "In the four-pot experiment, why change only one condition per pot?", "o": ["So any difference is due to that condition", "To save soil", "To make it quicker", "It doesn't matter"], "e": "Otherwise you can't tell which condition caused the result."},
+{"t": "Which pots DON'T germinate?", "o": ["A and B", "C and D", "A and C", "B and D"], "e": "A lacks water, B lacks air."},
+{"t": "A gardener overwaters seeds in a pot with no drainage. Likely result?", "o": ["Seeds fail — no air", "Faster germination", "Bigger plants", "No effect"], "e": "Standing water excludes air, like Pot B."},
+{"t": "Why does water help germination?", "o": ["Softens seed coat and lets embryo develop", "Provides light", "Adds air", "Kills germs"], "e": "Water enables the processes of growth."},
+{"t": "A stone is still, doesn't grow, eat or reproduce. It is…", "o": ["Non-living", "Living", "Dead", "Sleeping"], "e": "It never showed life characteristics — non-living, not dead."},
+{"t": "A dried leaf on the ground is…", "o": ["Dead — it was once living", "Non-living — never alive", "Living", "Germinating"], "e": "It once showed life characteristics."},
+{"t": "Pulling your hand away from a hot cup is…", "o": ["A response to a stimulus", "Excretion", "Growth", "Nutrition"], "e": "The heat is the stimulus."},
+{"t": "Plants differ from animals in nutrition because they…", "o": ["Make their own food", "Eat insects only", "Don't need food", "Eat soil"], "e": "Animals eat food; plants make it (Drosera also traps insects)."},
+{"t": "How many characteristics must a living being show?", "o": ["All of them together", "Only one", "Any two", "Only movement"], "e": "No single characteristic is enough."},
+{"t": "A seed kept in a dry jar for years doesn't sprout. Is it dead?", "o": ["Not necessarily — it lacks water and air to germinate", "Yes, definitely", "It is non-living", "It is a stone"], "e": "Given the right water and air, many seeds sprout."}
+]}
+]}

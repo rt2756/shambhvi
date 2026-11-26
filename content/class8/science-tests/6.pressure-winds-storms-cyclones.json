@@ -1,0 +1,52 @@
+{
+"title": "6. Pressure, Winds, Storms and Cyclones",
+"tests": [
+{"q": [
+{"t": "Pressure = ?", "o": ["Force ÷ Area", "Force × Area", "Area ÷ Force", "Mass × Area"], "e": "Force spread over an area."},
+{"t": "The SI unit of pressure is the…", "o": ["Pascal (N/m²)", "Newton", "Kilogram", "Metre"], "e": "1 Pa = 1 N/m²."},
+{"t": "Air moves from…", "o": ["High pressure to low pressure", "Low to high pressure", "Cold to hot only", "Up to down only"], "e": "It stops when pressures equal."},
+{"t": "During the day the breeze blows from…", "o": ["Sea to land", "Land to sea", "Mountains to sea", "Nowhere"], "e": "Land heats faster, air rises over land."},
+{"t": "The calm centre of a cyclone is the…", "o": ["Eye", "Surge", "Tail", "Front"], "e": "Lowest pressure, calm wind."},
+{"t": "Cyclones form over…", "o": ["Warm ocean waters", "Deserts", "Cold lakes", "Mountains"], "e": "Warm water fuels them."},
+{"t": "Thunder is caused by…", "o": ["Lightning rapidly heating and expanding air", "Clouds colliding", "Rain falling", "Wind"], "e": "The air expands violently."},
+{"t": "Air is normally an electrical…", "o": ["Insulator", "Conductor", "Magnet", "Battery"], "e": "Until charge builds up enough to break down."},
+{"t": "1 hectopascal (hPa) equals how many Pa?", "n": 100, "u": "Pa", "e": "Same as 1 millibar."},
+{"t": "Which agency gives cyclone warnings in India?", "o": ["IMD", "ISRO only", "NASA", "WHO"], "e": "The India Meteorological Department."}
+]},
+{"q": [
+{"t": "Why do broad bag straps hurt less?", "o": ["Same weight over a larger area means less pressure", "They are lighter", "They reduce weight", "They add force"], "e": "Pressure = force ÷ area."},
+{"t": "Why does a nail's pointed end go in easily?", "o": ["Small area gives high pressure", "It's heavier", "It's sharper metal", "It's magnetic"], "e": "Concentrating force increases pressure."},
+{"t": "Liquid pressure depends on…", "o": ["The height of the column", "The amount of liquid", "The container's colour", "The container's width"], "e": "Equal heights in wide and narrow pipes give equal bulges."},
+{"t": "Why are overhead water tanks placed high?", "o": ["Taller column → greater pressure at taps", "To keep water cool", "For safety only", "To save space"], "e": "More height above the tap, stronger flow."},
+{"t": "Water spurts from holes in all sides of a bottle. This shows liquids exert pressure…", "o": ["In all directions", "Only downward", "Only upward", "Only sideways"], "e": "That's why leaky pipe joints fountain."},
+{"t": "Why is a dam's base broader than its top?", "o": ["Water pressure is greatest at the bottom", "To look strong", "To hold more water", "For roads"], "e": "Pressure increases with depth."},
+{"t": "Why aren't we crushed by atmospheric pressure?", "o": ["Pressure inside our bodies balances it", "Air has no weight", "Skin is very thick", "Gravity cancels it"], "e": "Internal pressure equals atmospheric pressure."},
+{"t": "A rubber sucker sticks because…", "o": ["Outside air pressure is higher than inside", "It's glued", "It's magnetic", "Inside pressure is higher"], "e": "Pressing pushes air out from underneath."},
+{"t": "Blowing between two hanging balloons makes them…", "o": ["Move towards each other", "Move apart", "Burst", "Stay still"], "e": "Fast air lowers pressure between them."},
+{"t": "During a high-wind storm you should…", "o": ["Keep doors and windows open", "Close everything tightly", "Go on the roof", "Stand under a tree"], "e": "Reduces the pressure difference across the roof."}
+]},
+{"q": [
+{"t": "A force of 100 N acts on 2 m². Pressure (Pa)?", "n": 50, "u": "Pa", "k": "F(100,2)", "e": "100 ÷ 2 = 50 Pa."},
+{"t": "A force of 600 N acts on 3 m². Pressure (Pa)?", "n": 200, "u": "Pa", "k": "F(600,3)", "e": "600 ÷ 3 = 200 Pa."},
+{"t": "Same force, area halved. Pressure becomes…", "o": ["Double", "Half", "Same", "Zero"], "e": "Pressure = force ÷ area."},
+{"t": "Why does a tap on the first floor run harder than one on the second floor (roof tank)?", "o": ["More column height above it", "It's closer to the ground", "Less friction", "Bigger pipe"], "e": "Pressure depends on height of the column."},
+{"t": "Why do roofs blow off in storms?", "o": ["Fast wind lowers pressure above; normal pressure below pushes up", "Wind pushes down", "Rain is heavy", "Lightning hits"], "e": "A large pressure difference lifts a weak roof."},
+{"t": "What is the engine of a cyclone?", "o": ["Heat released when vapour condenses", "The Moon", "Lightning", "Cold air"], "e": "That's why they weaken over land."},
+{"t": "What makes a cyclone spin?", "o": ["The Earth's rotation", "Lightning", "Trees", "Tides"], "e": "Without rotation, air would just rise."},
+{"t": "A storm surge is…", "o": ["A wall of seawater 3–12 m pushed ashore", "Heavy hail", "A lightning strike", "A calm period"], "e": "It floods coastal areas."},
+{"t": "During lightning, you should…", "o": ["Crouch low in an open area", "Lie flat", "Stand under a tree", "Use a metal-rod umbrella"], "e": "Minimise ground contact; avoid tall objects."},
+{"t": "A lightning conductor works by…", "o": ["Giving charge an easy path into the ground", "Attracting rain", "Blocking wind", "Storing charge"], "e": "Pointed top above the building; bottom buried deep."}
+]},
+{"q": [
+{"t": "Air over 15 cm × 15 cm pushes with about 2250 N. What is this pressure in Pa? (area = 0.0225 m²)", "n": 100000, "u": "Pa", "k": "F(2250)/F('0.0225')", "e": "2250 ÷ 0.0225 = 100,000 Pa — about atmospheric pressure."},
+{"t": "Two pipes of different widths filled to the same height. Their balloons bulge…", "o": ["Equally", "Wide pipe more", "Narrow pipe more", "Neither"], "e": "Pressure depends on height, not quantity."},
+{"t": "Why is an unfolded sheet on the paper plate harder to lift?", "o": ["Air pushes on a larger area — more force", "It's heavier", "It sticks", "It has more friction"], "e": "Same pressure × more area = more force."},
+{"t": "Why does a land breeze blow at night?", "o": ["Land cools faster, so warmer air rises over the sea", "Sea cools faster", "Wind changes randomly", "The Moon pulls it"], "e": "Low pressure forms over the sea."},
+{"t": "Why do cyclones weaken over land?", "o": ["No warm ocean water to supply heat", "Land is magnetic", "Trees stop them completely", "They lose spin"], "e": "Their engine is condensation heat from evaporated seawater."},
+{"t": "Why does seawater rushing inland harm farms for years?", "o": ["Salt makes soil less fertile", "It's too cold", "It adds nutrients", "It dries quickly"], "e": "Saltwater damages farmland."},
+{"t": "Kalboishakhi is a thunderstorm in…", "o": ["West Bengal, Bihar, Jharkhand", "Kerala", "Punjab", "Gujarat"], "e": "Bordoisila is in Assam."},
+{"t": "Cyclone Amphan (2020) had peak winds of about…", "o": ["270 km/h", "27 km/h", "2700 km/h", "70 km/h"], "e": "Extremely destructive winds."},
+{"t": "Why is it safer inside a bus or car during lightning?", "o": ["It's comparatively safe from strikes", "Cars attract lightning away", "Tyres are magnets", "It isn't safer"], "e": "Stay inside a vehicle rather than in the open."},
+{"t": "The bigger the pressure difference, the…", "o": ["Faster the wind", "Slower the wind", "Colder the wind", "Less rain"], "e": "That's why winds vary day to day."}
+]}
+]}

@@ -1,0 +1,52 @@
+{
+"title": "8. Heredity",
+"tests": [
+{"q": [
+{"t": "The transmission of traits from parents to offspring is…", "o": ["Heredity", "Variation", "Evolution", "Fission"], "e": "Studied first by Mendel."},
+{"t": "Mendel worked with…", "o": ["Garden pea plants", "Fruit flies", "Mice", "Wheat"], "e": "With clear contrasting traits."},
+{"t": "A trait that shows in the F₁ generation is…", "o": ["Dominant", "Recessive", "Hidden", "Mutant"], "e": "Tall over short in peas."},
+{"t": "A trait hidden in F₁ that reappears in F₂ is…", "o": ["Recessive", "Dominant", "New", "Lost"], "e": "Needs two copies to show."},
+{"t": "In a monohybrid cross, the F₂ phenotype ratio is…", "o": ["3 : 1", "1 : 1", "9 : 3 : 3 : 1", "1 : 2 : 1"], "e": "Tall : short."},
+{"t": "In a dihybrid cross, the F₂ phenotype ratio is…", "o": ["9 : 3 : 3 : 1", "3 : 1", "1 : 1", "1 : 2 : 1"], "e": "Two traits assort independently."},
+{"t": "Genes are located on…", "o": ["Chromosomes", "Cell walls", "Ribosomes", "Vacuoles"], "e": "Made of DNA."},
+{"t": "Human females have sex chromosomes…", "o": ["XX", "XY", "YY", "X only"], "e": "Males are XY."},
+{"t": "The sex of a human child is decided by…", "o": ["The father's chromosome (X or Y)", "The mother", "Temperature", "Diet"], "e": "Mother always gives X."},
+{"t": "In some reptiles, sex is decided by…", "o": ["Incubation temperature of the egg", "X and Y chromosomes", "Diet", "Light"], "e": "E.g. some turtles."}
+]},
+{"q": [
+{"t": "Tall pea (TT) × short (tt). F₁ plants are…", "o": ["All tall (Tt)", "All short", "Half tall", "Medium height"], "e": "T is dominant."},
+{"t": "F₁ Tt × Tt. Genotype ratio TT : Tt : tt is…", "o": ["1 : 2 : 1", "3 : 1", "1 : 1", "9 : 3 : 3 : 1"], "e": "Phenotype 3 tall : 1 short."},
+{"t": "In F₂ of 400 plants (3 : 1), how many are short?", "n": 100, "k": "F(400,4)", "e": "¼ of 400."},
+{"t": "Why do traits not blend (medium height) in F₁?", "o": ["Each trait is controlled by discrete factors; one dominates", "They do blend", "Plants mix colours", "Random"], "e": "Mendel's key insight."},
+{"t": "How do genes control traits?", "o": ["They code for proteins, e.g. enzymes for growth hormone", "By colour", "By size of DNA", "By sunlight"], "e": "Less enzyme → shorter plant."},
+{"t": "Each gamete carries how many copies of each gene?", "n": 1, "e": "The zygote gets two — one from each parent."},
+{"t": "Why must genes be on chromosomes in pairs?", "o": ["Each parent contributes one set, and gametes carry one", "For colour", "To fit", "They're not"], "e": "Meiosis separates them."},
+{"t": "Round yellow (RRYY) × wrinkled green (rryy). F₁ seeds are…", "o": ["All round yellow", "All wrinkled green", "Mixed 9:3:3:1", "Round green"], "e": "Round and yellow are dominant."},
+{"t": "The dihybrid F₂ shows new combinations (round green, wrinkled yellow). This proves…", "o": ["Traits are inherited independently", "Traits are linked", "Blending", "Mutation"], "e": "Independent assortment."},
+{"t": "Variations are greatest in…", "o": ["Sexual reproduction", "Asexual reproduction", "Fission", "Budding"], "e": "Mixing of two parents' DNA."}
+]},
+{"q": [
+{"t": "In a 9 : 3 : 3 : 1 F₂ of 160 seeds, how many are round yellow?", "n": 90, "k": "F(9,16)*160", "e": "9/16 × 160 = 90."},
+{"t": "In that F₂ of 160, how many are wrinkled green?", "n": 10, "k": "F(1,16)*160", "e": "1/16 × 160 = 10."},
+{"t": "Tt × tt gives tall : short in ratio…", "o": ["1 : 1", "3 : 1", "1 : 0", "9 : 3"], "e": "Half Tt, half tt."},
+{"t": "A plant with genotype Tt has phenotype…", "o": ["Tall", "Short", "Medium", "Unknown"], "e": "T dominates."},
+{"t": "Probability of a child being a boy is…", "o": ["50%", "25%", "75%", "100%"], "e": "Half the sperm carry Y."},
+{"t": "Why are there roughly equal numbers of boys and girls?", "o": ["Sperm with X and Y are made in equal numbers", "Mothers decide", "Random diet", "Climate"], "e": "Each egg has X."},
+{"t": "Snails can change sex. This shows sex determination…", "o": ["Isn't genetic in every species", "Is always XY", "Is decided by diet", "Doesn't happen"], "e": "Different species use different mechanisms."},
+{"t": "A short pea (tt) must have received…", "o": ["t from each parent", "T from one parent", "T from both", "No genes"], "e": "Recessive shows only when homozygous."},
+{"t": "Mendel's success came partly from…", "o": ["Counting offspring and using clear contrasting traits", "Guessing", "Using one plant", "Ignoring numbers"], "e": "A mathematical approach."},
+{"t": "Two tall plants produce some short offspring. The parents must be…", "o": ["Both Tt", "Both TT", "One TT, one tt", "Both tt"], "e": "Each carried a hidden t."}
+]},
+{"q": [
+{"t": "In TtYy × TtYy (dihybrid), fraction showing both recessive traits?", "o": ["1/16", "1/4", "9/16", "3/16"], "e": "¼ × ¼."},
+{"t": "Fraction showing at least one dominant trait in a dihybrid F₂?", "n": 0.9375, "k": "F(15,16)", "e": "1 − 1/16 = 15/16 = 0.9375."},
+{"t": "Can acquired traits (like a cut tail in mice) be inherited?", "o": ["No — they don't change germ-cell DNA", "Yes always", "Only in mice", "Only in plants"], "e": "Only DNA changes in reproductive cells pass on."},
+{"t": "A Y chromosome is ___ than X.", "o": ["Shorter", "Longer", "Same", "Absent in men"], "e": "Males have a mismatched pair."},
+{"t": "Humans have how many pairs of chromosomes?", "n": 23, "e": "22 pairs autosomes + 1 pair sex chromosomes."},
+{"t": "A tall plant's genotype is unknown. Cross it with tt. If all offspring are tall, it is…", "o": ["TT", "Tt", "tt", "Unknown"], "e": "Tt would give half short."},
+{"t": "Phenotype means…", "o": ["Observable trait", "Gene makeup", "Chromosome number", "DNA sequence"], "e": "Genotype is the gene combination."},
+{"t": "Genes for different traits assort independently because…", "o": ["They're on different chromosomes (in Mendel's peas)", "They're the same gene", "They blend", "They're dominant"], "e": "Each pair separates independently."},
+{"t": "Why are siblings of the same parents different?", "o": ["Different combinations of parental genes", "Different diet only", "Cloning", "No reason"], "e": "Meiosis reshuffles."},
+{"t": "The 3 : 1 ratio appears only when…", "o": ["Large numbers of offspring are counted", "One seed is counted", "Plants are cloned", "Traits blend"], "e": "Ratios are statistical."}
+]}
+]}

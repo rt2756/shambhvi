@@ -1,0 +1,52 @@
+{
+"title": "13. Our Environment",
+"tests": [
+{"q": [
+{"t": "Living and non-living components interacting form an…", "o": ["Ecosystem", "Food chain", "Habitat only", "Population"], "e": "Biotic + abiotic."},
+{"t": "Green plants are…", "o": ["Producers", "Consumers", "Decomposers", "Herbivores"], "e": "They make food from sunlight."},
+{"t": "Bacteria and fungi that break down dead matter are…", "o": ["Decomposers", "Producers", "Herbivores", "Carnivores"], "e": "They return nutrients to the soil."},
+{"t": "Each step in a food chain is a…", "o": ["Trophic level", "Ecosystem", "Biome", "Web"], "e": "Producer → herbivore → carnivore."},
+{"t": "How much energy passes to the next trophic level?", "o": ["About 10%", "About 90%", "100%", "50%"], "e": "The 10% law."},
+{"t": "Accumulation of harmful chemicals up a food chain is…", "o": ["Biological magnification", "Decomposition", "Photosynthesis", "Recycling"], "e": "Top consumers get the most."},
+{"t": "Ozone (O₃) protects us from…", "o": ["Ultraviolet radiation", "Visible light", "Heat", "Sound"], "e": "In the upper atmosphere."},
+{"t": "Ozone depletion is mainly caused by…", "o": ["CFCs", "CO₂", "Oxygen", "Water vapour"], "e": "Used in refrigerators and aerosols."},
+{"t": "Which is biodegradable?", "o": ["Vegetable peels", "Plastic bags", "Glass", "Aluminium foil"], "e": "Broken down by microbes."},
+{"t": "Which is non-biodegradable?", "o": ["Polythene", "Paper", "Cotton cloth", "Fruit"], "e": "Persists for a very long time."}
+]},
+{"q": [
+{"t": "Why are food chains usually only 3–4 steps long?", "o": ["Energy drops so much there's too little for higher levels", "Animals get bored", "Plants stop growing", "No reason"], "e": "90% lost at each step."},
+{"t": "Why does a food web make an ecosystem stable?", "o": ["Animals have alternative food sources", "It has fewer animals", "Energy increases", "It removes decomposers"], "e": "Interconnected chains."},
+{"t": "Where is most energy lost at each trophic level?", "o": ["As heat in life processes", "In the soil", "In sunlight", "In water"], "e": "Used for respiration and movement."},
+{"t": "Which organisms would have the most pesticide in their bodies?", "o": ["Top predators", "Plants", "Herbivores", "Decomposers"], "e": "Biological magnification."},
+{"t": "Why is ozone in the lower atmosphere harmful?", "o": ["It's a poisonous pollutant", "It blocks UV", "It's oxygen", "It's harmless"], "e": "Protective only in the upper atmosphere."},
+{"t": "Ozone forms when UV splits O₂ into…", "o": ["Oxygen atoms that join O₂", "Hydrogen", "Water", "CO₂"], "e": "O + O₂ → O₃."},
+{"t": "The 1987 agreement to freeze CFC production is…", "o": ["Montreal Protocol", "Kyoto Protocol", "Paris Agreement", "Earth Summit"], "e": "UNEP-led."},
+{"t": "Why is a pond ecosystem self-sustaining?", "o": ["Producers, consumers and decomposers recycle matter", "It never changes", "It has no animals", "It needs constant feeding"], "e": "Natural ecosystems."},
+{"t": "A garden or crop field is a…", "o": ["Human-made ecosystem", "Natural ecosystem", "Food web only", "Not an ecosystem"], "e": "Needs human management."},
+{"t": "Why are kulhads (clay cups) being reconsidered for disposable use?", "o": ["Making them in bulk uses fertile topsoil", "They are plastic", "They're too heavy", "They break"], "e": "Every choice has costs."}
+]},
+{"q": [
+{"t": "Plants capture about how much of the sunlight falling on leaves?", "o": ["About 1%", "About 10%", "About 50%", "100%"], "e": "Converted to food energy."},
+{"t": "If producers have 10,000 J, how much reaches the third trophic level (J)?", "n": 100, "u": "J", "k": "10000*F(1,10)*F(1,10)", "e": "10,000 → 1,000 → 100 J."},
+{"t": "If a herbivore gets 500 J, how much reaches the carnivore that eats it (J)?", "n": 50, "u": "J", "k": "500*F(1,10)", "e": "10% passes on."},
+{"t": "Energy flow in an ecosystem is…", "o": ["Unidirectional", "Cyclic", "Reversible", "Random"], "e": "It doesn't come back to producers."},
+{"t": "Why are herbivores more numerous than carnivores?", "o": ["More energy is available at lower levels", "Herbivores live longer", "Carnivores eat plants", "No reason"], "e": "Pyramid of numbers."},
+{"t": "Removing all organisms of one trophic level would…", "o": ["Disrupt the whole ecosystem", "Make no difference", "Improve it", "Only affect plants"], "e": "Levels above and below are affected."},
+{"t": "Why are decomposers essential?", "o": ["They recycle nutrients into the soil", "They make oxygen", "They eat plants", "They make energy"], "e": "Without them dead matter piles up."},
+{"t": "Which waste-disposal practice is best for biodegradable kitchen waste?", "o": ["Composting", "Burning", "Dumping in rivers", "Mixing with plastic"], "e": "Turns waste into manure."},
+{"t": "Why are disposable plastic cups a problem?", "o": ["They're non-biodegradable and pile up", "They're too cheap", "They biodegrade fast", "They make food taste bad"], "e": "Persistent waste."},
+{"t": "Why are 'zero waste' or reusable steel cups better?", "o": ["They avoid repeated disposal", "They are disposable", "They're heavy", "They're biodegradable"], "e": "Reduce and reuse."}
+]},
+{"q": [
+{"t": "Producers 20,000 J. Energy at the 4th trophic level (J)?", "n": 20, "u": "J", "k": "20000*F(1,10)**3", "e": "20,000 → 2,000 → 200 → 20 J."},
+{"t": "A pesticide at 0.02 ppm in water reaches 2 ppm in fish. Magnification factor?", "n": 100, "k": "F(2,F(2,100))", "e": "2 ÷ 0.02 = 100 times."},
+{"t": "Why do humans, at the top of many food chains, carry pesticide residues?", "o": ["Chemicals accumulate up the chain and aren't broken down", "Humans spray them", "They come from air only", "They don't"], "e": "Non-biodegradable chemicals."},
+{"t": "Which is the correct food chain?", "o": ["Grass → deer → lion", "Lion → deer → grass", "Deer → grass → lion", "Grass → lion → deer"], "e": "Producer first."},
+{"t": "Which pair are both biodegradable?", "o": ["Cow dung and paper", "Plastic and glass", "DDT and polythene", "Aluminium and plastic"], "e": "Microbes break them down."},
+{"t": "Why is CFC use reduced in refrigerators?", "o": ["CFCs release chlorine that destroys ozone", "They're too cold", "They're flammable", "They're expensive"], "e": "One chlorine atom destroys many ozone molecules."},
+{"t": "Consumers are classified as herbivores, carnivores, omnivores and…", "o": ["Parasites", "Producers", "Decomposers", "Autotrophs"], "e": "Parasites feed on hosts."},
+{"t": "Why should we separate waste into biodegradable and non-biodegradable?", "o": ["Each needs different handling — compost vs recycle", "Rules only", "To fill two bins", "No reason"], "e": "Mixed waste is hard to process."},
+{"t": "Which change helps reduce waste most?", "o": ["Reduce use in the first place", "Burn more", "Bury more plastic", "Use more disposables"], "e": "Reduce, reuse, recycle."},
+{"t": "An aquarium is a…", "o": ["Human-made ecosystem", "Natural ecosystem", "Food chain only", "Not an ecosystem"], "e": "It needs regular care."}
+]}
+]}

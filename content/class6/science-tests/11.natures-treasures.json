@@ -1,0 +1,52 @@
+{
+"title": "11. Nature's Treasures",
+"tests": [
+{"q": [
+{"t": "Which gas makes up most of the air?", "o": ["Nitrogen", "Oxygen", "Carbon dioxide", "Argon"], "e": "Nitrogen is about 78%."},
+{"t": "About what percentage of air is oxygen?", "n": 21, "u": "%", "e": "Oxygen is about 21%."},
+{"t": "Moving air is called…", "o": ["Wind", "Oxygen", "Water", "Fog"], "e": "Fast or gentle, moving air is wind."},
+{"t": "The main source of energy on Earth is…", "o": ["The Sun", "Coal", "Wind", "Water"], "e": "Sunlight drives plant food-making and the water cycle."},
+{"t": "Most of Earth's water is…", "o": ["Salty, in oceans", "Fresh, in rivers", "Underground", "In clouds"], "e": "Ocean water is unfit for most uses."},
+{"t": "Collecting and storing rainwater is…", "o": ["Rainwater harvesting", "Evaporation", "Filtration", "Irrigation"], "e": "An age-old practice in India."},
+{"t": "World Water Day is on…", "o": ["22 March", "5 June", "15 August", "1 January"], "e": "22 March each year."},
+{"t": "Petrol and diesel are obtained from…", "o": ["Petroleum", "Water", "Wood", "Air"], "e": "Kerosene comes from petroleum too."},
+{"t": "Which machine uses wind to generate electricity?", "o": ["Windmill", "Solar panel", "Battery", "Dam"], "e": "Many windmills together make a wind farm."},
+{"t": "Soil is formed by…", "o": ["Breaking down of rocks over thousands of years", "Rain alone in a day", "Plants only", "Factories"], "e": "Sun, water and living organisms break rocks apart."}
+]},
+{"q": [
+{"t": "Why is oxygen so essential?", "o": ["We can't survive without it for even a few minutes", "It is tasty", "It makes us taller", "It's coloured"], "e": "We can last days without food or water, but not minutes without oxygen."},
+{"t": "Why is freshwater scarcer than it looks?", "o": ["Most of it is in ice or underground, hard to access", "There is none", "It all turned salty", "It evaporates daily"], "e": "Only a small fraction is in ponds, rivers, lakes and wells."},
+{"t": "Stepwells in Rajasthan are called…", "o": ["Bawadi", "Vav", "Johad", "Kund"], "e": "In Gujarat they're called Vav."},
+{"t": "Why do stepwells collect seepage water too?", "o": ["Their walls are lined with stone blocks allowing seepage", "They are deep only", "They have pumps", "They're waterproof"], "e": "Water from nearby lakes and rivers seeps in."},
+{"t": "How does a grazing cow get energy from the Sun?", "o": ["The grass it eats grew using sunlight", "It sunbathes", "It drinks sunlight", "It doesn't"], "e": "Energy passes Sun → plant → animal."},
+{"t": "Plant roots help soil by…", "o": ["Holding it and preventing it washing away", "Making it salty", "Removing nutrients", "Making it dry"], "e": "Fallen leaves also decay and enrich the soil."},
+{"t": "The Chipko movement involved…", "o": ["Women hugging trees to stop felling", "Planting rice", "Building dams", "Digging wells"], "e": "Early 1970s, Uttarakhand."},
+{"t": "Van Mahotsav is…", "o": ["A week-long tree-planting festival in July", "A water festival", "A harvest festival", "A sports event"], "e": "It raises green cover across India."},
+{"t": "Earthworms help soil by…", "o": ["Turning and loosening it", "Making it hard", "Removing water", "Eating rocks"], "e": "They are natural soil-loosening agents."},
+{"t": "Why do soils from different places have different colours?", "o": ["They contain different materials", "They're painted", "Sunlight colours them", "They're all the same"], "e": "Some soils suit certain crops; some make good bricks."}
+]},
+{"q": [
+{"t": "Air is 78% nitrogen and 21% oxygen. What percentage is everything else?", "n": 1, "u": "%", "k": "100-78-21", "e": "100 − 78 − 21 = 1% (argon, CO₂, others)."},
+{"t": "Water covers about what fraction of the Earth's surface?", "o": ["Two-thirds", "One-tenth", "One-half", "All of it"], "e": "About two-thirds — mostly salty oceans."},
+{"t": "Why must forests be used responsibly?", "o": ["It takes many years to grow a new forest", "Trees grow in a day", "Forests have no animals", "They're not useful"], "e": "Forests need time to regenerate."},
+{"t": "Why must rocks be conserved?", "o": ["They take thousands to millions of years to form", "They are light", "They grow back fast", "They're useless"], "e": "What takes ages to form can't be replaced once used up."},
+{"t": "A basic mobile phone contains about how many minerals?", "o": ["A dozen", "One", "Hundreds", "None"], "e": "Including gold, silver, copper and cobalt."},
+{"t": "Slate is used for…", "o": ["Roofing", "Making glass", "Fuel", "Food"], "e": "Laterite is used for building blocks."},
+{"t": "Which is a way to save water?", "o": ["Fix leakages", "Leave taps running", "Throw trash in rivers", "Pave all soil"], "e": "Also turn off taps, recycle and harvest water."},
+{"t": "Muppandal in Tamil Nadu is famous for…", "o": ["A wind farm", "A stepwell", "A coal mine", "A solar cooker"], "e": "One of India's leading wind farms."},
+{"t": "A solar water heater uses…", "o": ["Energy from the Sun directly", "Coal", "Wind", "Petrol"], "e": "So do solar cookers."},
+{"t": "Why is polluted water dangerous?", "o": ["It's unfit for consumption by living beings", "It tastes sweet", "It's too cold", "It evaporates"], "e": "Trash and waste from homes and industries pollute water."}
+]},
+{"q": [
+{"t": "'Diversity of life forms ensures food for every living being' means…", "o": ["Every animal depends on other life forms", "Animals don't eat", "Only plants matter", "Animals eat only grass"], "e": "A varied forest feeds many kinds of animals."},
+{"t": "Which resource will NOT be replaced once used up in our lifetimes?", "o": ["Fossil fuels", "Sunlight", "Wind", "Rainwater"], "e": "Fossil fuels took ages to form."},
+{"t": "Why does forest cover decrease?", "o": ["Large-scale cutting of trees by humans", "Too much rain", "Animals eat trees", "Sunlight burns them"], "e": "Human activities are the main cause."},
+{"t": "A firki rotating in wind works on the same idea as a…", "o": ["Windmill", "Solar panel", "Dam", "Stepwell"], "e": "Moving air turns the blades."},
+{"t": "Which list are all treasures from nature?", "o": ["Air, water, sunlight, soil", "Plastic, glass, steel", "Phones, cars, roads", "Paper, ink, pens"], "e": "Nature's treasures are needed for survival."},
+{"t": "Fallen leaves help new plants by…", "o": ["Decaying and adding nutrients to soil", "Blocking sunlight", "Holding water forever", "Nothing"], "e": "Recycling in nature."},
+{"t": "Aluminium, gold, copper and iron are extracted from…", "o": ["Minerals", "Water", "Air", "Wood"], "e": "Rocks are made of minerals."},
+{"t": "Why are wells and ponds important freshwater sources?", "o": ["They're among the few easily accessible sources", "They're salty", "They're frozen", "They're the largest"], "e": "Most freshwater is locked in ice or deep underground."},
+{"t": "Humans have used rock for thousands of years to make…", "o": ["Hand axes and arrowheads", "Plastic", "Glass bottles", "Electricity"], "e": "Rock was an early tool material."},
+{"t": "Solar panels convert sunlight into…", "o": ["Electricity", "Water", "Wind", "Soil"], "e": "Another way the Sun's energy is used."}
+]}
+]}

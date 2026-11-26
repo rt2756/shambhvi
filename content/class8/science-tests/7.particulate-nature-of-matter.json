@@ -1,0 +1,52 @@
+{
+"title": "7. Particulate Nature of Matter",
+"tests": [
+{"q": [
+{"t": "Matter is made of…", "o": ["A very large number of extremely small particles", "One large piece", "Air only", "Water only"], "e": "Too small to see even with an ordinary microscope."},
+{"t": "The gaps between particles are called…", "o": ["Interparticle spaces", "Holes", "Pores", "Cells"], "e": "Dissolved sugar goes into them."},
+{"t": "The forces holding particles together are…", "o": ["Interparticle attractions", "Gravity", "Magnetism", "Friction"], "e": "Their strength decides the state."},
+{"t": "Which has a definite shape AND definite volume?", "o": ["Solid", "Liquid", "Gas", "Fluid"], "e": "Particles in fixed positions."},
+{"t": "Which has definite volume but no definite shape?", "o": ["Liquid", "Solid", "Gas", "None"], "e": "Particles move within a limited space."},
+{"t": "Which has neither definite shape nor volume?", "o": ["Gas", "Liquid", "Solid", "Ice"], "e": "Gas fills all available space."},
+{"t": "Liquids and gases together are called…", "o": ["Fluids", "Solids", "Particles", "Mixtures"], "e": "Both flow."},
+{"t": "Ice melts at…", "o": ["0 °C", "100 °C", "133 °C", "1538 °C"], "e": "Iron melts at 1538 °C."},
+{"t": "Who first proposed the idea of Parmanu?", "o": ["Acharya Kanad", "Aryabhata", "Charaka", "Newton"], "e": "In the Vaisheshika Sutras."},
+{"t": "Heating makes particles move…", "o": ["Faster", "Slower", "Not at all", "Backwards"], "e": "That explains melting, boiling, evaporation and diffusion."}
+]},
+{"q": [
+{"t": "Ground chalk powder is still chalk. Grinding is a…", "o": ["Physical change", "Chemical change", "New substance", "Melting"], "e": "Only size changes."},
+{"t": "Sugar dissolved in water can't be seen because…", "o": ["It broke into particles too small to see", "It disappeared", "It sank", "It evaporated"], "e": "The particles spread through the water."},
+{"t": "In solids, particles can only…", "o": ["Vibrate about fixed positions", "Move freely", "Fly apart", "Stay perfectly still"], "e": "Strong attractions hold them in place."},
+{"t": "A high melting point means…", "o": ["Strong interparticle forces", "Weak forces", "No forces", "Light particles"], "e": "Iron's 1538 °C shows very strong attractions."},
+{"t": "Evaporation happens…", "o": ["At any temperature, at the surface", "Only at boiling point", "Throughout the liquid", "Only in sunlight"], "e": "Boiling is at boiling point, throughout, fast."},
+{"t": "Why can a gas be compressed but water can't?", "o": ["Gas particles have lots of space between them", "Water is heavier", "Gas is hotter", "Water has no particles"], "e": "Liquid particles are already close together."},
+{"t": "Potassium permanganate spreads fastest in…", "o": ["Hot water", "Cold water", "Room temperature water", "Ice"], "e": "Faster particle motion in hot water."},
+{"t": "Incense fragrance fills a room because…", "o": ["Air particles constantly move and spread it", "Fans push it", "It is heavy", "Walls reflect it"], "e": "Particles are always moving."},
+{"t": "Smoke spreading from jar A into empty jar B shows gases…", "o": ["Fill all available space", "Stay in one place", "Sink", "Are solids"], "e": "Negligible attractions let particles move freely."},
+{"t": "Moving your finger through water and it closes behind shows liquids…", "o": ["Flow and their particles move", "Are solids", "Have fixed shape", "Can be cut permanently"], "e": "You displace water only temporarily."}
+]},
+{"q": [
+{"t": "Sugar dissolves and the water level drops back. This proves…", "o": ["There are spaces between water particles", "Sugar vanished", "Water evaporated", "Sugar is a gas"], "e": "Sugar particles slip into the gaps."},
+{"t": "Sand in water raises the level and stays raised because…", "o": ["Sand doesn't dissolve and takes up space", "Sand dissolves", "Sand is a gas", "Water expands"], "e": "It settles rather than filling interparticle spaces."},
+{"t": "What is in the space between particles of a solid?", "o": ["Nothing at all", "Air", "Water", "Dust"], "e": "Not air — empty space."},
+{"t": "Ice floats on water because…", "o": ["Ice's particles are farther apart than water's", "Ice is heavier", "Water pushes it", "Ice has air bubbles only"], "e": "Ice is an exception to the usual rule."},
+{"t": "Why doesn't sand dissolve in water?", "o": ["Its particles are held too strongly for water to pull out", "It is too big", "Water is too cold", "Sand is a gas"], "e": "Water can't pull its particles apart."},
+{"t": "Which has maximum interparticle spacing?", "o": ["Gas", "Liquid", "Solid", "All equal"], "e": "And minimum attraction."},
+{"t": "Urea melts at 133 °C and ice at 0 °C. Which has stronger interparticle forces?", "o": ["Urea", "Ice", "Same", "Can't tell"], "e": "Higher melting point = stronger forces."},
+{"t": "How does soap clean oil?", "o": ["One end attaches to oil, the other mixes with water", "It dissolves fabric", "It heats oil", "It freezes oil"], "e": "Oil is lifted off and washed away."},
+{"t": "SPM in pollution reports means…", "o": ["Suspended dust particles in air", "Constituent particles", "Atoms", "Molecules of water"], "e": "'Particle' means different things in different contexts."},
+{"t": "What determines the physical state of matter?", "o": ["The thermal energy of the particles", "Colour", "Container", "Shape"], "e": "Along with interparticle attractions."}
+]},
+{"q": [
+{"t": "Why can you pile sand but not water?", "o": ["Sand is solid; water's particles move freely", "Sand is lighter", "Water is a gas", "Sand is wet"], "e": "A solid keeps its shape."},
+{"t": "How does invisible air add weight to a balloon?", "o": ["Air is matter — its particles have mass", "It doesn't", "Rubber gets heavier", "Gravity changes"], "e": "Invisible doesn't mean massless."},
+{"t": "Which three are true of liquids?", "o": ["Definite volume, take container's shape, practically incompressible", "Definite shape, definite volume, compressible", "No volume, no shape, compressible", "Definite shape, no volume, rigid"], "e": "Slightly weaker attractions than solids."},
+{"t": "Even a slight increase in interparticle distance makes the attraction…", "o": ["Drop drastically", "Increase", "Stay the same", "Reverse"], "e": "Strength depends strongly on distance."},
+{"t": "A gas jar of iodine vapour shows violet spreading into an empty jar. This demonstrates…", "o": ["Gas particles move freely", "Iodine is a solid", "Jars are porous", "Light moves"], "e": "Like smoke, a visible stand-in."},
+{"t": "Arrange by interparticle attraction, highest first:", "o": ["Solid > liquid > gas", "Gas > liquid > solid", "Liquid > solid > gas", "All equal"], "e": "Strongest in solids, negligible in gases."},
+{"t": "Boiling happens…", "o": ["Throughout the liquid at the boiling point", "Only at the surface", "At any temperature", "Slowly"], "e": "Bubbles form inside."},
+{"t": "Water particles pull potassium permanganate particles out of the grain, then…", "o": ["Hit them repeatedly, spreading them", "Freeze them", "Destroy them", "Push them down"], "e": "No stirring needed."},
+{"t": "Why does a pressed syringe of air spring back when released?", "o": ["The compressed gas particles push back", "Air is solid", "The syringe is magnetic", "Water pushes it"], "e": "Squeezed particles push outward."},
+{"t": "Which observation does NOT support 'particles are always moving'?", "o": ["Chalk powder stays chalk", "Perfume spreads across a room", "Colour spreads in still water", "Smoke fills a jar"], "e": "Grinding chalk shows small particles, not motion."}
+]}
+]}

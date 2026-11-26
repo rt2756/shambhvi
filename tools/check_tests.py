@@ -4,6 +4,7 @@
     python3 tools/check_tests.py            # every class
     python3 tools/check_tests.py 7          # one class
     python3 tools/check_tests.py grammar    # the class-free grammar set
+    python3 tools/check_tests.py 7-science  # one class's science tests
 
 Structure: every file in the manifest exists, has 4 tests of 10 questions, each question is
 either multiple choice ("o", right answer first, no duplicate options) or numeric ("n"), and
@@ -69,13 +70,17 @@ def check_file(path, problems):
 
 def main():
     # a set is a class number (content/class<N>/tests) or a class-free name (content/<name>/tests)
+    # a science set is "<N>-science" (content/class<N>/science-tests)
     sets = sys.argv[1:] or sorted(
         re.search(r"content/(?:class)?([^/]+)/tests", d.replace(os.sep, "/")).group(1)
-        for d in glob.glob(os.path.join(ROOT, "content/*/tests")))
+        for d in glob.glob(os.path.join(ROOT, "content/*/tests"))) + sorted(
+        re.search(r"content/class(\d+)/science-tests", d.replace(os.sep, "/")).group(1) + "-science"
+        for d in glob.glob(os.path.join(ROOT, "content/class*/science-tests")))
     problems, total, checked = [], 0, 0
     for c in sets:
-        label = f"class{c}" if c.isdigit() else c
-        d = os.path.join(ROOT, f"content/{label}/tests")
+        sci = re.fullmatch(r"(\d+)-science", c)
+        label = f"class{sci.group(1)}/science-tests" if sci else (f"class{c}/tests" if c.isdigit() else f"{c}/tests")
+        d = os.path.join(ROOT, f"content/{label}")
         manifest = json.load(open(os.path.join(d, "manifest.json")))
         on_disk = {os.path.basename(p) for p in glob.glob(os.path.join(d, "*.json"))} - {"manifest.json"}
         for extra in sorted(on_disk - set(manifest)): problems.append(f"{label}: {extra} not in manifest")

@@ -1,0 +1,52 @@
+{
+"title": "6. Control and Coordination",
+"tests": [
+{"q": [
+{"t": "The basic unit of the nervous system is the…", "o": ["Neuron", "Nephron", "Alveolus", "Villus"], "e": "Dendrite → cell body → axon."},
+{"t": "The gap between two neurons is the…", "o": ["Synapse", "Axon", "Dendrite", "Myelin"], "e": "Signals cross by chemicals."},
+{"t": "A quick, automatic response to a stimulus is a…", "o": ["Reflex action", "Thought", "Hormone", "Tropism"], "e": "Pulling hand from a flame."},
+{"t": "Reflex arcs are formed in the…", "o": ["Spinal cord", "Cerebrum", "Heart", "Kidney"], "e": "Faster than going to the brain."},
+{"t": "The part of the brain for thinking and voluntary actions is the…", "o": ["Forebrain (cerebrum)", "Cerebellum", "Medulla", "Pons"], "e": "Largest part."},
+{"t": "Balance and posture are controlled by the…", "o": ["Cerebellum", "Cerebrum", "Medulla", "Hypothalamus"], "e": "Part of the hindbrain."},
+{"t": "Plant growth towards light is…", "o": ["Phototropism", "Geotropism", "Hydrotropism", "Chemotropism"], "e": "Shoots bend towards light."},
+{"t": "The fight-or-flight hormone is…", "o": ["Adrenaline", "Insulin", "Thyroxin", "Auxin"], "e": "From the adrenal glands."},
+{"t": "Insulin is made by the…", "o": ["Pancreas", "Thyroid", "Adrenal gland", "Pituitary"], "e": "Regulates blood sugar."},
+{"t": "Iodine is needed to make…", "o": ["Thyroxin", "Insulin", "Adrenaline", "Auxin"], "e": "Lack causes goitre."}
+]},
+{"q": [
+{"t": "Dendrites…", "o": ["Receive information", "Release hormones", "Store memory", "Make blood"], "e": "The axon carries the signal on."},
+{"t": "Breathing and blood pressure are controlled by the…", "o": ["Medulla", "Cerebrum", "Cerebellum", "Spinal cord"], "e": "Involuntary actions in the hindbrain."},
+{"t": "The brain is protected by…", "o": ["Skull and fluid-filled membranes", "Ribs", "Muscles only", "Skin only"], "e": "The spinal cord by the vertebral column."},
+{"t": "Touch-me-not leaves fold due to…", "o": ["Changes in water content of cells", "Growth", "Muscles", "Nerves"], "e": "No growth involved — immediate response."},
+{"t": "Roots growing downward show…", "o": ["Positive geotropism", "Negative geotropism", "Phototropism", "Hydrotropism"], "e": "Shoots show negative geotropism."},
+{"t": "Pollen tube growing towards the ovule is…", "o": ["Chemotropism", "Phototropism", "Geotropism", "Thigmotropism"], "e": "Response to chemicals."},
+{"t": "Auxin makes a shoot bend towards light by…", "o": ["Making the shaded side grow faster", "Making the lit side grow faster", "Killing cells", "Stopping growth"], "e": "Auxin moves to the shade."},
+{"t": "Which plant hormone promotes cell division?", "o": ["Cytokinin", "Abscisic acid", "Auxin only", "Ethylene"], "e": "Found in fruits and seeds."},
+{"t": "Which plant hormone inhibits growth and causes wilting of leaves?", "o": ["Abscisic acid", "Gibberellin", "Cytokinin", "Auxin"], "e": "A stress hormone."},
+{"t": "Growth hormone is secreted by the…", "o": ["Pituitary gland", "Thyroid", "Pancreas", "Adrenal"], "e": "Deficiency causes dwarfism."}
+]},
+{"q": [
+{"t": "Why is chemical signalling (hormones) needed besides nerves?", "o": ["Nerves reach only connected cells; hormones reach all cells", "Nerves are slow", "Hormones are faster", "Nerves don't exist in some organs"], "e": "Also nerves can't keep firing continuously."},
+{"t": "Adrenaline increases heart rate to…", "o": ["Supply more oxygen to muscles", "Slow digestion only", "Cool the body", "Make you sleep"], "e": "Prepares body for action."},
+{"t": "Blood sugar rises → pancreas releases more insulin → sugar falls. This is…", "o": ["Feedback mechanism", "Reflex arc", "Tropism", "Synapse"], "e": "Keeps levels balanced."},
+{"t": "Diabetes is caused by lack of…", "o": ["Insulin", "Thyroxin", "Adrenaline", "Growth hormone"], "e": "Blood sugar stays high."},
+{"t": "How does muscle actually contract?", "o": ["Special proteins change shape and arrangement", "Water leaves", "Bones push it", "Blood pulls it"], "e": "In response to nerve impulses."},
+{"t": "Testosterone is made by the…", "o": ["Testes", "Ovaries", "Pancreas", "Thyroid"], "e": "Oestrogen by ovaries."},
+{"t": "Path of a reflex arc:", "o": ["Receptor → sensory neuron → spinal cord → motor neuron → effector", "Brain → receptor → muscle", "Muscle → brain → receptor", "Effector → receptor"], "e": "Quick automatic response."},
+{"t": "Why are reflexes useful?", "o": ["Very fast response to danger", "They involve thinking", "They're slow and careful", "They make hormones"], "e": "No time to think."},
+{"t": "Gibberellins help in…", "o": ["Stem growth", "Wilting", "Leaf fall", "Root bending only"], "e": "Promote growth."},
+{"t": "Tendrils coiling around a support show…", "o": ["Thigmotropism (response to touch)", "Phototropism", "Geotropism", "Hydrotropism"], "e": "Side touching grows slower."}
+]},
+{"q": [
+{"t": "A stimulus is converted into an electrical impulse at the…", "o": ["Dendrite tip of the neuron", "Axon end", "Synapse", "Muscle"], "e": "Then travels along the axon."},
+{"t": "At the axon end, the impulse causes release of…", "o": ["Chemicals that cross the synapse", "Blood", "Hormones into blood only", "Water"], "e": "Starting a new impulse in the next neuron."},
+{"t": "Which is NOT an involuntary action?", "o": ["Writing", "Heartbeat", "Breathing", "Salivation"], "e": "Writing is voluntary."},
+{"t": "Hypothalamus controls the pituitary by releasing…", "o": ["Releasing hormones", "Insulin", "Bile", "Auxin"], "e": "E.g. growth hormone releasing factor."},
+{"t": "Excess growth hormone in childhood causes…", "o": ["Gigantism", "Dwarfism", "Goitre", "Diabetes"], "e": "Deficiency causes dwarfism."},
+{"t": "Plant cells change shape by changing…", "o": ["Water content", "Muscle", "Nerves", "Bones"], "e": "Plants have no muscles."},
+{"t": "Hormonal action is ___ than nervous action.", "o": ["Slower but longer-lasting", "Faster", "The same speed", "Electrical"], "e": "Hormones travel in blood."},
+{"t": "Which endocrine gland is also an exocrine gland?", "o": ["Pancreas", "Pituitary", "Thyroid", "Adrenal"], "e": "Makes digestive juice and insulin."},
+{"t": "Changes at puberty are caused by…", "o": ["Testosterone and oestrogen", "Insulin", "Adrenaline", "Auxin"], "e": "Sex hormones."},
+{"t": "The light-sensing reaction in shoots relies on auxin made at the…", "o": ["Shoot tip", "Root tip only", "Leaves only", "Flowers"], "e": "It diffuses to the shaded side."}
+]}
+]}

@@ -1,0 +1,52 @@
+{
+"title": "7. Temperature and its Measurement",
+"tests": [
+{"q": [
+{"t": "A device that measures temperature is a…", "o": ["Thermometer", "Barometer", "Compass", "Speedometer"], "e": "Thermo = heat; meter = measure."},
+{"t": "The SI unit of temperature is…", "o": ["Kelvin (K)", "Degree Celsius", "Degree Fahrenheit", "Metre"], "e": "Kelvin is the SI unit; °C is commonly used."},
+{"t": "Normal human body temperature is taken as…", "o": ["37.0 °C", "100 °C", "0 °C", "25 °C"], "e": "It's the average of many healthy people."},
+{"t": "37.0 °C equals…", "o": ["98.6 °F", "100 °F", "37 °F", "212 °F"], "e": "Fahrenheit is rarely used in science now."},
+{"t": "Which thermometer measures body temperature?", "o": ["Clinical thermometer", "Laboratory thermometer", "Weather vane", "Compass"], "e": "Clinical thermometers are for the human body."},
+{"t": "Why have digital thermometers replaced mercury ones?", "o": ["Mercury is extremely toxic", "Mercury is cheap", "Digital ones are heavier", "Mercury is red"], "e": "Mercury is hard to dispose of safely if the thermometer breaks."},
+{"t": "Can touch reliably tell how hot something is?", "o": ["No", "Yes, always", "Only with the left hand", "Only in summer"], "e": "Touch reports change from what your hand was used to."},
+{"t": "A typical laboratory thermometer range is…", "o": ["−10 °C to 110 °C", "35 °C to 42 °C", "0 °C to 10 °C", "100 °C to 200 °C"], "e": "Wide enough for ice and boiling water."},
+{"t": "The liquid in a lab thermometer is usually…", "o": ["Alcohol coloured red, or mercury", "Water", "Milk", "Oil"], "e": "Red colour makes alcohol easy to see."},
+{"t": "Which symbol is written WITHOUT a degree sign?", "o": ["K", "°C", "°F", "All need it"], "e": "Kelvin is written as K, never °K."}
+]},
+{"q": [
+{"t": "Right hand in warm water, left in ice water, then both in tap water. The right hand feels the tap water…", "o": ["Cool", "Warm", "Hot", "Nothing"], "e": "Touch reports a change; coming from warm, tap water feels cool."},
+{"t": "In the same experiment the left hand feels the tap water…", "o": ["Warm", "Cool", "Freezing", "Nothing"], "e": "Coming from ice water, the same tap water feels warm."},
+{"t": "Kelvin temperature = Celsius temperature + ?", "n": 273.15, "e": "K = °C + 273.15."},
+{"t": "Why can't a clinical thermometer measure boiling water?", "o": ["100 °C is outside its range", "It's waterproof", "It's too long", "It only measures cold"], "e": "Clinical range is about 35–42 °C."},
+{"t": "Why shouldn't you hold a thermometer by its tip?", "o": ["Your hand's warmth would affect the reading", "It's dirty", "It might break", "It's sharp"], "e": "The tip senses temperature."},
+{"t": "Armpit readings are…", "o": ["About 0.5–1 °C lower than actual body temperature", "Higher", "Exactly the same", "Twice as high"], "e": "Used for small children and the elderly."},
+{"t": "Human body temperature normally stays between…", "o": ["35 °C and 42 °C", "0 °C and 100 °C", "20 °C and 30 °C", "50 °C and 60 °C"], "e": "It doesn't normally go below 35 or above 42."},
+{"t": "Why were non-contact thermometers used during COVID-19?", "o": ["They reduce the risk of spreading disease", "They are cheaper", "They measure faster only", "They use mercury"], "e": "No touching means less chance of passing infection."},
+{"t": "Why isn't pulse rate alone a reliable fever test?", "o": ["Other things also change pulse rate", "Pulse never changes", "It's too hard to feel", "Fever has no effect on pulse"], "e": "Exercise, fear and more can raise pulse."},
+{"t": "Who said 'Wrong measurements are worse than no measurements at all'?", "o": ["Anna Mani", "C.V. Raman", "Marie Curie", "Galileo"], "e": "Anna Mani, an Indian physicist and meteorologist."}
+]},
+{"q": [
+{"t": "Between 0 °C and 10 °C there are 10 small divisions. Each division is (°C)?", "n": 1, "u": "°C", "k": "F(10,10)", "e": "10 ÷ 10 = 1 °C."},
+{"t": "Between 20 °C and 30 °C there are 5 divisions. Each division is (°C)?", "n": 2, "u": "°C", "k": "F(10,5)", "e": "10 ÷ 5 = 2 °C."},
+{"t": "Convert 27 °C to kelvin.", "n": 300.15, "u": "K", "k": "27+F('273.15')", "e": "27 + 273.15 = 300.15 K."},
+{"t": "Why must a lab thermometer's bulb not touch the beaker?", "o": ["You'd measure the glass, not the liquid", "It might break", "It cools", "It's a rule only"], "e": "The bulb must be surrounded by the liquid."},
+{"t": "Why read a lab thermometer while still in the liquid?", "o": ["The column starts changing as soon as it's lifted out", "It glows in liquid", "The scale disappears", "It's easier to hold"], "e": "Out of the liquid, it begins to show air temperature."},
+{"t": "While water boils with heating continuing, its temperature…", "o": ["Stays constant", "Keeps rising", "Falls", "Doubles"], "e": "Heat goes into changing state, not raising temperature."},
+{"t": "While ice melts, its temperature…", "o": ["Stays constant", "Rises steadily", "Falls", "Jumps to 100 °C"], "e": "Heat goes into melting."},
+{"t": "A healthy person reads 36.7 °C. This is…", "o": ["Normal — 37.0 °C is only an average", "A fever", "Dangerously low", "Impossible"], "e": "Healthy people vary slightly around 37.0 °C."},
+{"t": "Body temperature is influenced by…", "o": ["Age, time of day and activity", "Eye colour", "Height only", "Nothing"], "e": "So 'normal' varies a little."},
+{"t": "Before measuring, a digital clinical thermometer should be…", "o": ["Washed at the tip and reset", "Heated", "Shaken in water", "Held by the tip"], "e": "Clean, reset, place under tongue, wait for beep."}
+]},
+{"q": [
+{"t": "A reading is 310 K. In °C (use K = °C + 273), it is…", "n": 37, "u": "°C", "k": "310-273", "e": "310 − 273 = 37 °C — normal body temperature."},
+{"t": "A lab thermometer has 4 divisions between 30 °C and 40 °C. What is the smallest value it reads (°C)?", "n": 2.5, "u": "°C", "k": "F(10,4)", "e": "10 ÷ 4 = 2.5 °C."},
+{"t": "Why do two hands disagree about the same water?", "o": ["Touch reports change from each hand's starting condition", "The water changes", "One hand is broken", "Water is two temperatures"], "e": "That's why we need thermometers."},
+{"t": "Which is written correctly?", "o": ["25 °C", "25°c.", "25 Degree Celsius", "25 °K"], "e": "Capital symbol, space, no full stop; no degree sign with K."},
+{"t": "Why must your eye be in line with the top of the liquid column?", "o": ["Looking from an angle gives a wrong reading", "It's more comfortable", "Light changes the liquid", "Rules say so"], "e": "Same idea as reading a scale."},
+{"t": "A thermometer is held tilted in a beaker. What's wrong?", "o": ["It should be held vertically", "Nothing", "It should touch the bottom", "It should be out of water"], "e": "Hold it vertically for a correct reading."},
+{"t": "Why is the Fahrenheit scale rarely used in science now?", "o": ["Celsius and Kelvin are the standard scales", "It's wrong", "It's illegal", "It's too new"], "e": "Scientific work mostly uses °C and K."},
+{"t": "What are the scales named after?", "o": ["The scientists who developed them", "Cities", "Planets", "Rivers"], "e": "Celsius, Fahrenheit and Kelvin were scientists."},
+{"t": "To measure the temperature of ice, which thermometer?", "o": ["Laboratory thermometer", "Clinical thermometer", "Either", "Neither"], "e": "0 °C is outside the clinical range."},
+{"t": "A temperature of −5 °C can be read on a lab thermometer with range −10 °C to 110 °C?", "o": ["Yes", "No", "Only if heated", "Only in kelvin"], "e": "−5 °C lies within −10 to 110 °C."}
+]}
+]}

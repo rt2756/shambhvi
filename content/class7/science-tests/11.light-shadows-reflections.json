@@ -1,0 +1,52 @@
+{
+"title": "11. Light: Shadows and Reflections",
+"tests": [
+{"q": [
+{"t": "Objects that give out their own light are called…", "o": ["Luminous", "Non-luminous", "Opaque", "Translucent"], "e": "Luminous objects emit light — the Sun, stars, fire, fireflies, lamps."},
+{"t": "Is the Moon luminous?", "o": ["No — it reflects sunlight", "Yes — it makes its own light", "Only at full moon", "Only in winter"], "e": "Moonlight is reflected sunlight."},
+{"t": "Light travels in…", "o": ["Straight lines", "Curves", "Circles", "Zig-zags"], "e": "Experiments with aligned holes and bent pipes show light goes straight."},
+{"t": "Glass that lets almost all light pass is…", "o": ["Transparent", "Translucent", "Opaque", "Luminous"], "e": "Transparent materials let light through almost completely."},
+{"t": "Tracing paper lets some light through. It is…", "o": ["Translucent", "Transparent", "Opaque", "Luminous"], "e": "Translucent materials let light pass partially."},
+{"t": "Cardboard blocks light completely. It is…", "o": ["Opaque", "Transparent", "Translucent", "Luminous"], "e": "Opaque objects let no light through and cast the darkest shadows."},
+{"t": "A shadow is…", "o": ["A dark patch where light does not reach", "A reflection", "A luminous patch", "A coloured image"], "e": "An object blocks light, leaving a dark area behind it."},
+{"t": "The bouncing back of light from a shiny surface is…", "o": ["Reflection", "Shadow", "Absorption", "Refraction"], "e": "Reflection changes the direction of light at a shiny surface."},
+{"t": "The image in a pinhole camera is…", "o": ["Upside down", "Erect", "Laterally inverted only", "Invisible"], "e": "Rays cross at the pinhole, so the image is inverted."},
+{"t": "A periscope uses how many plane mirrors?", "n": 2, "e": "Two mirrors in a Z-shaped box let you see objects not directly in view."}
+]},
+{"q": [
+{"t": "What three things are needed to see a shadow?", "o": ["A light source, an object, and a screen", "A mirror, a lens and light", "Only light", "An object and a mirror"], "e": "Light must be blocked by an object, and the shadow must fall on a screen (wall, ground)."},
+{"t": "A red ball and a blue ball of the same size cast shadows. The shadows are…", "o": ["Both dark — same colour", "Red and blue", "Both red", "Both white"], "e": "A shadow is the absence of light, so it has no colour of its own."},
+{"t": "Moving an object closer to the light source makes its shadow…", "o": ["Bigger", "Smaller", "Disappear", "Coloured"], "e": "The object blocks a wider cone of light, so the shadow grows."},
+{"t": "In a plane mirror, the image is…", "o": ["Erect and the same size", "Upside down and smaller", "Bigger", "Only on a screen"], "e": "A plane mirror image is erect, same size, laterally inverted, and can't be caught on a screen."},
+{"t": "You raise your left hand in front of a mirror. Your image raises its…", "o": ["Right hand", "Left hand", "Both hands", "No hand"], "e": "Plane mirrors swap left and right — lateral inversion."},
+{"t": "Why is 'AMBULANCE' painted reversed on ambulances?", "o": ["So it reads correctly in a rear-view mirror", "For decoration", "It's a spelling mistake", "To confuse drivers"], "e": "The mirror's lateral inversion flips it back to normal for the driver ahead."},
+{"t": "In the three-matchbox experiment, moving one box sideways makes the light spot…", "o": ["Disappear", "Brighter", "Bigger", "Change colour"], "e": "The holes are no longer in a straight line, and light can't bend to get through."},
+{"t": "A candle is visible through a straight pipe but not a bent one. This shows…", "o": ["Light travels in straight lines", "Light bends easily", "Pipes absorb light", "Candles are non-luminous"], "e": "If light could curve, you'd see the candle through the bent pipe too."},
+{"t": "A kaleidoscope uses mirrors arranged in a…", "o": ["Triangle", "Z-shape", "Circle", "Straight line"], "e": "Three mirror strips in a triangle make reflections of reflections."},
+{"t": "Why must LED lamps be disposed of properly?", "o": ["They should be recycled, not thrown in garbage", "They explode", "They give off heat", "They are luminous"], "e": "At end of life, LED lamps should go for proper disposal or recycling."}
+]},
+{"q": [
+{"t": "Why is a pinhole camera image upside down?", "o": ["Light from top goes down through the hole, and from bottom goes up", "The hole is curved", "The screen is upside down", "Light bends at the pinhole"], "e": "Light travels in straight lines, so rays from the top and bottom cross at the pinhole and swap places."},
+{"t": "Can a plane mirror image be obtained on a screen?", "o": ["No", "Yes", "Only in sunlight", "Only if the mirror is large"], "e": "The image only appears to be behind the mirror; no light actually meets there."},
+{"t": "You stand 2 m in front of a plane mirror. How far is your image behind the mirror (m)?", "n": 2, "u": "m", "e": "The image is as far behind the mirror as the object is in front."},
+{"t": "In the last question, how far are you from your image (m)?", "n": 4, "u": "m", "k": "2+2", "e": "2 m to the mirror + 2 m behind it = 4 m."},
+{"t": "A translucent object casts a shadow that is…", "o": ["Lighter than an opaque object's", "Darker than an opaque object's", "Coloured", "Absent always"], "e": "Some light still passes through, so the shadow is lighter."},
+{"t": "Which pair is matched correctly?", "o": ["Mirror image — laterally inverted; pinhole image — upside down", "Mirror image — upside down; pinhole — erect", "Both erect", "Both upside down"], "e": "Different causes: reflection swaps left–right; crossing rays at the pinhole flip top–bottom."},
+{"t": "Where is a periscope useful?", "o": ["Submarines, to see above water", "Microscopes", "Cooking", "Reading books"], "e": "Two mirrors let you see objects not directly visible, like above water from a submarine."},
+{"t": "The shadow of an object can change shape when you…", "o": ["Tilt the object", "Change its colour", "Paint it red", "Make it heavier"], "e": "The shape depends on the object's outline as seen from the light — tilting changes that outline."},
+{"t": "Why can you see a book that doesn't make its own light?", "o": ["It reflects light into your eyes", "It is luminous", "It absorbs all light", "It is transparent"], "e": "Non-luminous objects are seen by the light they reflect."},
+{"t": "Which is non-luminous?", "o": ["The Moon", "The Sun", "A firefly", "A candle flame"], "e": "The Moon only reflects sunlight."}
+]},
+{"q": [
+{"t": "An object moves from near the light towards the screen. Its shadow becomes…", "o": ["Smaller and sharper", "Bigger and blurrier", "Coloured", "Unchanged"], "e": "Closer to the screen, the object blocks less of the spreading light, so the shadow is smaller and sharper."},
+{"t": "The word 'MOM' seen in a plane mirror reads…", "o": ["MOM (it looks the same)", "WOW", "MOM upside down", "OMO"], "e": "M and O are symmetric left-to-right, and the word is a palindrome, so lateral inversion leaves it unchanged."},
+{"t": "A pinhole camera is pointed at a tree. The image on the screen shows the tree…", "o": ["Upside down, in its colours", "Erect, in black and white", "Upside down, black and white", "Erect and coloured"], "e": "The image is inverted and shows the colours of the object."},
+{"t": "Why does a shadow reveal only the outline of an object?", "o": ["It is just the area where light is blocked", "It is a photograph", "It reflects colours", "It is luminous"], "e": "Light either reaches a place or not; the shadow shows the blocked area only."},
+{"t": "Which Indian art form uses shadows?", "o": ["Tholu Bommalata (shadow puppetry)", "Madhubani painting", "Kathak", "Rangoli"], "e": "Shadow puppetry places cut-out puppets between a lamp and a screen."},
+{"t": "What is the Aranmula Kannadi?", "o": ["A traditional metal mirror from Kerala", "A pinhole camera", "A periscope", "A type of shadow puppet"], "e": "It is a polished metal-surface mirror, made for centuries before glass mirrors."},
+{"t": "Why does the kaleidoscope show a new pattern every turn?", "o": ["Reflections of reflections of moving bangle pieces", "The mirrors change colour", "Light bends", "It is luminous"], "e": "Moving the pieces changes every reflected copy, forming a new pattern."},
+{"t": "A student says a shadow has the colour of the object. Which observation disproves this?", "o": ["A red and a green ball both cast dark shadows", "Shadows are bigger near the light", "Opaque objects cast shadows", "Mirrors reflect light"], "e": "Different-coloured objects give the same dark shadow."},
+{"t": "Using a mirror, a sunlit spot is thrown onto a dark wall. Tilting the mirror…", "o": ["Moves the spot", "Removes the light", "Makes light curve", "Makes the spot coloured"], "e": "Light still travels straight; the mirror sends it in a new direction as you tilt it."},
+{"t": "Why should you never point a laser at someone's eyes?", "o": ["It can seriously damage the eyes", "It is luminous", "It makes shadows", "It is opaque"], "e": "A concentrated beam can injure the eye."}
+]}
+]}

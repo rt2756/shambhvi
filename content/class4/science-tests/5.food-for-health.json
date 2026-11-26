@@ -1,0 +1,52 @@
+{
+"title": "5. Food for Health",
+"tests": [
+{"q": [
+{"t": "Ugadi Pachadi has how many tastes?", "n": 6, "e": "Sweet, sour, salty, pungent, bitter, astringent."},
+{"t": "The six tastes in Ayurveda are called…", "o": ["Shad rasa", "Chhappan bhog", "Thali", "Masala"], "e": "Balanced tastes are good for health."},
+{"t": "Which food is sour?", "o": ["Tamarind", "Jaggery", "Salt", "Neem"], "e": "Jaggery sweet, neem bitter."},
+{"t": "Which food is bitter?", "o": ["Neem", "Jaggery", "Tamarind", "Salt"], "e": "Bitter tastes are part of shad rasa."},
+{"t": "Raw mango tastes…", "o": ["Astringent (and sour)", "Sweet only", "Salty", "Pungent only"], "e": "Astringent = kasaila."},
+{"t": "Rice, wheat, potato and banana are…", "o": ["Energy-giving foods", "Body-building foods", "Protective foods", "Junk food"], "e": "They give energy."},
+{"t": "Pulses, milk, eggs and peanuts are…", "o": ["Body-building foods", "Energy foods only", "Protective foods", "Junk food"], "e": "They build muscles and help us grow."},
+{"t": "Fruits and vegetables like amla and spinach are…", "o": ["Protective foods", "Body-building", "Energy only", "Junk"], "e": "They protect from diseases."},
+{"t": "Chips, soft drinks and burgers are…", "o": ["Junk food", "Protective food", "Body-building food", "Millets"], "e": "High in oil, salt and sugar."},
+{"t": "Millets like jowar and bajra are rich in…", "o": ["Nutrients", "Plastic", "Sugar only", "Nothing"], "e": "Called super foods."}
+]},
+{"q": [
+{"t": "Why eat many kinds of food?", "o": ["No single food has all the nutrients", "For colour only", "Shops sell them", "No reason"], "e": "Variety builds health."},
+{"t": "A balanced plate has the most of…", "o": ["Protective foods (fruits and vegetables)", "Junk food", "Sweets", "Oil"], "e": "Then body-building, then some energy foods."},
+{"t": "Water helps the body by…", "o": ["Digesting food and removing waste", "Making us sleepy", "Adding fat", "Nothing"], "e": "Through urine, sweat and faeces."},
+{"t": "Water-rich fruits include…", "o": ["Watermelon and cucumber", "Nuts", "Bread", "Rice"], "e": "They help keep water in the body."},
+{"t": "Idli is cooked by…", "o": ["Steaming", "Frying", "Grilling", "Baking"], "e": "Idiyappam too."},
+{"t": "Samosa is cooked by…", "o": ["Frying", "Steaming", "Boiling", "Raw"], "e": "Deep-fried."},
+{"t": "Which food is eaten without cooking?", "o": ["Fruit chaat", "Samosa", "Idli", "Kheer"], "e": "Salads too."},
+{"t": "A chef is…", "o": ["A professional cook", "A farmer", "A doctor", "A teacher"], "e": "French for head of the kitchen."},
+{"t": "A solar cooker cooks using…", "o": ["Sunlight", "Gas", "Coal", "Wood"], "e": "No smoke or ash."},
+{"t": "Surbhi's grandmother ate jowar and bajra roti in…", "o": ["Winter", "Summer", "Monsoon", "Never"], "e": "Jau roti in summer."}
+]},
+{"q": [
+{"t": "What happens if we eat food from only one group every day?", "o": ["The body misses nutrients and may fall sick", "We stay perfectly healthy", "We grow faster", "Nothing"], "e": "Balance matters."},
+{"t": "Why avoid junk food?", "o": ["Too much oil, salt and sugar harms health", "It's expensive only", "It's cold", "It tastes bad"], "e": "Fresh home food is better."},
+{"t": "Why check a food label?", "o": ["To see expiry date and ingredients", "For pictures", "For colour", "No reason"], "e": "Avoid expired food."},
+{"t": "Honey 'Packed on 08.03.2025, Best before 07.03.2026'. Is it safe on 1 January 2026?", "o": ["Yes", "No", "Only if cold", "Can't tell"], "e": "It's before the best-before date."},
+{"t": "Which thali food is protective?", "o": ["Spinach sabzi", "Puri", "Rice", "Ghee"], "e": "Green vegetables protect."},
+{"t": "Ugadi Pachadi is from…", "o": ["Andhra Pradesh, Karnataka, Telangana", "Punjab", "Kashmir", "Assam"], "e": "Eaten at Ugadi."},
+{"t": "Green chilli tastes…", "o": ["Pungent", "Sweet", "Sour", "Salty"], "e": "Pungent = teekha."},
+{"t": "Ghee and oil give…", "o": ["Energy", "Protection", "Body-building only", "Nothing"], "e": "Energy-providing foods."},
+{"t": "A food diary helps you…", "o": ["Find which food groups are missing", "Draw only", "Count money", "Sleep"], "e": "Then add them."},
+{"t": "Roasted corn is cooked by…", "o": ["Roasting", "Steaming", "Boiling", "Frying"], "e": "Over heat."}
+]},
+{"q": [
+{"t": "A food has sweet, salty and bitter tastes. How many of the six is that?", "n": 3, "e": "Three of shad rasa."},
+{"t": "Which group does dal belong to?", "o": ["Body-building", "Energy only", "Protective", "Junk"], "e": "Pulses build the body."},
+{"t": "Which group does an orange belong to?", "o": ["Protective", "Body-building", "Energy only", "Junk"], "e": "Fruits protect from disease."},
+{"t": "Why is a solar cooker good for the environment?", "o": ["No smoke or ash", "It uses coal", "It's noisy", "It uses gas"], "e": "Clean energy."},
+{"t": "Why should all family members know how to cook?", "o": ["Everyone can share the work and feed themselves", "Only to win contests", "Cooking is dangerous", "No reason"], "e": "Shared responsibility."},
+{"t": "Kheer is cooked by…", "o": ["Boiling", "Frying", "Grilling", "Steaming"], "e": "Rice boiled in milk."},
+{"t": "Which list is all millet foods?", "o": ["Jowar upma, ragi laddu, bajre ki khichdi", "Pizza, burger, chips", "Rice, potato, bread", "Milk, egg, fish"], "e": "Super foods."},
+{"t": "If a thali has 4 protective, 2 body-building and 1 energy item, how many items total?", "n": 7, "k": "4+2+1", "e": "Most are protective."},
+{"t": "Which drink is healthiest?", "o": ["Water", "Soft drink", "Sugary juice packet", "Energy drink"], "e": "Plain water keeps us healthy."},
+{"t": "'Colours on Plate, Wellness in Life' means…", "o": ["Eat many colourful foods for good health", "Paint your plate", "Eat only red food", "Avoid vegetables"], "e": "Variety = wellness."}
+]}
+]}

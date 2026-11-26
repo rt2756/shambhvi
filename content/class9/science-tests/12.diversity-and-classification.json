@@ -1,0 +1,52 @@
+{
+"title": "12. Patterns in Life: Diversity and Classification",
+"tests": [
+{"q": [
+{"t": "Species found naturally in one region only are…", "o": ["Endemic", "Exotic", "Extinct", "Invasive"], "e": "Restricted to that region."},
+{"t": "Who proposed the five kingdom classification (1969)?", "o": ["Whittaker", "Linnaeus", "Haeckel", "Copeland"], "e": "He added Fungi."},
+{"t": "Linnaeus (1758) used how many kingdoms?", "n": 2, "e": "Plantae and Animalia."},
+{"t": "Unicellular prokaryotes belong to…", "o": ["Monera", "Protista", "Fungi", "Plantae"], "e": "Bacteria and cyanobacteria."},
+{"t": "Fungal cell walls are made of…", "o": ["Chitin", "Cellulose", "Lignin", "Pectin"], "e": "Plant walls are cellulose."},
+{"t": "Plant cell walls are made of…", "o": ["Cellulose", "Chitin", "Protein", "Calcium"], "e": "Plantae: multicellular autotrophs."},
+{"t": "Sponges belong to phylum…", "o": ["Porifera", "Cnidaria", "Annelida", "Mollusca"], "e": "Cellular level, no tissues."},
+{"t": "Insects, crabs and spiders belong to…", "o": ["Arthropoda", "Mollusca", "Annelida", "Echinodermata"], "e": "Jointed appendages and exoskeleton."},
+{"t": "Binomial nomenclature was introduced by…", "o": ["Carolus Linnaeus", "Darwin", "Whittaker", "Aristotle"], "e": "Two-part Latin names."},
+{"t": "The three domain system was proposed by…", "o": ["Carl Woese (1977)", "Linnaeus", "Haeckel", "Mendel"], "e": "Based on genetic data."}
+]},
+{"q": [
+{"t": "A biodiversity hotspot must have…", "o": ["Many endemic species AND significant habitat loss", "Only many species", "Only habitat loss", "Tigers"], "e": "Both conditions."},
+{"t": "Why is yeast in Fungi, not Protista, though unicellular?", "o": ["Its cell wall is chitin", "It's green", "It's large", "It makes spores only"], "e": "Criteria are applied in order."},
+{"t": "Bryophytes are called the amphibians of the plant kingdom because…", "o": ["They need water to reproduce", "They live in water only", "They croak", "They have lungs"], "e": "Male cells must swim to the female."},
+{"t": "Why can a thallus plant live only in water?", "o": ["No roots or transport tissue — every cell needs contact with water", "It's too heavy", "It needs fish", "It makes seeds"], "e": "Vascular tissue solved this."},
+{"t": "The main criterion for classifying animals is the presence of a…", "o": ["Notochord", "Shell", "Wing", "Tail"], "e": "Chordates vs non-chordates."},
+{"t": "Lichens are a partnership between…", "o": ["An alga and a fungus", "A plant and an insect", "Two bacteria", "A moss and a fern"], "e": "Symbiotic."},
+{"t": "Lichens are useful as indicators of…", "o": ["Air quality", "Soil depth", "Rainfall", "Temperature only"], "e": "They change colour with pollutants."},
+{"t": "Most fungi are saprophytes, meaning they feed on…", "o": ["Dead organic matter", "Living hosts", "Sunlight", "Rocks"], "e": "Crucial decomposers."},
+{"t": "Cyanobacteria were among the first to…", "o": ["Produce oxygen by photosynthesis", "Eat animals", "Live on land", "Form fossils"], "e": "Oxygen accumulated ~2.5 billion years ago."},
+{"t": "Older rock layers generally contain…", "o": ["Simpler organisms", "More complex organisms", "No fossils", "Only plants"], "e": "Newer layers show more complex forms."}
+]},
+{"q": [
+{"t": "Each new classification system was forced by…", "o": ["Organisms the previous one couldn't place", "Fashion", "Politics", "Random change"], "e": "Like the atomic models."},
+{"t": "Flatworms (Platyhelminthes) were first to show…", "o": ["Bilateral symmetry", "Segmentation", "Exoskeleton", "Notochord"], "e": "Organ level of organisation."},
+{"t": "Roundworms (Nematoda) have…", "o": ["Two openings — mouth and anus", "No openings", "One opening", "Segments"], "e": "Organ system level."},
+{"t": "Earthworms (Annelida) show…", "o": ["Segmentation and a body cavity", "Exoskeleton", "Shells", "Tentacles"], "e": "Moist soil dwellers."},
+{"t": "Starfish (Echinodermata) have…", "o": ["An internal calcium carbonate skeleton", "An exoskeleton", "No skeleton", "A backbone"], "e": "Endoskeleton."},
+{"t": "Snails and octopuses are…", "o": ["Mollusca", "Arthropoda", "Annelida", "Porifera"], "e": "Soft body, muscular foot."},
+{"t": "Why is the seed a breakthrough?", "o": ["It protects the embryo with stored food", "It makes plants taller", "It replaces roots", "It photosynthesises"], "e": "Protection and a packed lunch."},
+{"t": "A good classification reveals…", "o": ["How organisms are related", "Only their colours", "Only their size", "Where they're sold"], "e": "Similar features suggest common ancestors."},
+{"t": "Why must parasitic worm infection be prevented by hygiene?", "o": ["They enter through contaminated food and water", "They fly", "They come from air", "They're harmless"], "e": "Boiled water, cooked food, handwashing."},
+{"t": "Who founded the institute of palaeosciences in Lucknow?", "o": ["Birbal Sahni", "Janaki Ammal", "Salim Ali", "P. Maheshwari"], "e": "Studied fossil plants."}
+]},
+{"q": [
+{"t": "Arrange Linnaeus → ? → Copeland → Whittaker:", "o": ["Haeckel", "Woese", "Aristotle", "Darwin"], "e": "Haeckel (1866) added Protista."},
+{"t": "Copeland's fourth kingdom (1938) was…", "o": ["Monera", "Fungi", "Protista", "Archaea"], "e": "For bacteria."},
+{"t": "1 kg of sponge can filter up to how many litres of seawater a day?", "n": 24000, "u": "L", "e": "Remarkable for an animal with no tissues."},
+{"t": "Why are large old trees vital for hornbills?", "o": ["They nest only in big old cavities", "They eat bark", "They hate young trees", "For shade"], "e": "Such trees can't be replaced quickly."},
+{"t": "Which correctly follows binomial rules?", "o": ["Nasikabatrachus sahyadrensis", "nasikabatrachus Sahyadrensis", "NASIKABATRACHUS SAHYADRENSIS", "Nasikabatrachus Sahyadrensis"], "e": "Genus capitalised, species lower case, italicised."},
+{"t": "In the hierarchy, at each lower level organisms share…", "o": ["More features in common", "Fewer features", "No features", "The same number"], "e": "Like a more specific address."},
+{"t": "Mammary glands in mammals improve…", "o": ["Survival of the young", "Flight", "Breathing in water", "Swimming"], "e": "An adaptation from structural change."},
+{"t": "A field of one crop variety is risky because…", "o": ["One weakness can wipe out everything", "It grows too fast", "It's too colourful", "Pests avoid it"], "e": "Farmers conserve diverse varieties."},
+{"t": "The Sangai deer is threatened because…", "o": ["The phumdis of Loktak Lake are degenerating", "It's hunted for horns only", "It migrates away", "It's invasive"], "e": "It's on the IUCN Red List."},
+{"t": "Why do classification systems keep changing?", "o": ["New evidence like DNA reveals new relationships", "Scientists disagree randomly", "Animals change monthly", "They don't change"], "e": "That's how science works."}
+]}
+]}

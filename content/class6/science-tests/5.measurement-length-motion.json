@@ -1,0 +1,52 @@
+{
+"title": "5. Measurement of Length and Motion",
+"tests": [
+{"q": [
+{"t": "The SI unit of length is the…", "o": ["Metre (m)", "Centimetre", "Kilometre", "Inch"], "e": "The metre, symbol m."},
+{"t": "1 km = how many m?", "n": 1000, "u": "m", "k": "1000", "e": "Kilo means thousand."},
+{"t": "1 m = how many cm?", "n": 100, "u": "cm", "k": "100", "e": "Centi means hundredth."},
+{"t": "1 cm = how many mm?", "n": 10, "u": "mm", "k": "10", "e": "10 millimetres make a centimetre."},
+{"t": "Every measurement has two parts: a number and a…", "o": ["Unit", "Scale", "Name", "Colour"], "e": "'13 handspans' = number 13, unit handspan."},
+{"t": "A swing moves in…", "o": ["Oscillatory motion", "Linear motion", "Circular motion", "No motion"], "e": "It moves to and fro about a fixed position."},
+{"t": "A merry-go-round moves in…", "o": ["Circular motion", "Linear motion", "Oscillatory motion", "Random motion"], "e": "Along a circular path."},
+{"t": "A falling orange moves in…", "o": ["Linear motion", "Circular motion", "Oscillatory motion", "Periodic motion"], "e": "Along a straight line."},
+{"t": "To measure the girth of a tree, use a…", "o": ["Flexible measuring tape", "15 cm scale", "Metre scale", "Thermometer"], "e": "A rigid scale can't wrap around."},
+{"t": "Which is written correctly?", "o": ["9.4 cm", "9.4cm.", "9.4 cms", "9.4 CM"], "e": "Lowercase, no s, no full stop, space before the unit."}
+]},
+{"q": [
+{"t": "Why do five friends get different results measuring a table in handspans?", "o": ["Their handspans are different sizes", "The table changes", "They can't count", "Handspans are SI units"], "e": "Body-part units differ from person to person."},
+{"t": "The smallest division on a 15 cm scale is…", "o": ["1 mm", "1 cm", "1 m", "0.1 mm"], "e": "So 1 mm is the smallest length you can measure with it."},
+{"t": "Where should your eye be when reading a scale?", "o": ["Directly above the point", "At an angle", "Far away", "Below the scale"], "e": "Looking at an angle gives a wrong reading."},
+{"t": "A scale's zero is broken. One end of a pencil is at 1.0 cm, the other at 10.4 cm. Length (cm)?", "n": 9.4, "u": "cm", "k": "F('10.4')-1", "e": "10.4 − 1.0 = 9.4 cm."},
+{"t": "A point from which distance is measured is called a…", "o": ["Reference point", "Zero point", "Unit", "Pole"], "e": "Everyone agrees only when measuring from the same reference point."},
+{"t": "An object is in motion if its position changes with time relative to…", "o": ["A reference point", "Its own colour", "The Sun only", "Nothing"], "e": "Motion is always relative to something."},
+{"t": "Motion that repeats after a fixed time interval is…", "o": ["Periodic motion", "Linear motion", "Random motion", "Rest"], "e": "Both circular and oscillatory motion are periodic."},
+{"t": "How do you measure a curved line?", "o": ["Lay a thread along it, straighten and measure", "Use a rigid scale directly", "Guess", "Use a compass"], "e": "The thread follows the curve; then measure it straight."},
+{"t": "1 inch = ?", "o": ["2.54 cm", "10 cm", "1 cm", "25.4 cm"], "e": "The inch is an older unit still used by some."},
+{"t": "An ancient Indian unit of length based on finger width is…", "o": ["Angula", "Yojana", "Dhanusa", "Metre"], "e": "Still used by traditional carpenters and tailors."}
+]},
+{"q": [
+{"t": "How many mm in 3.5 cm?", "n": 35, "u": "mm", "k": "F('3.5')*10", "e": "1 cm = 10 mm, so 3.5 × 10 = 35 mm."},
+{"t": "How many cm in 2.3 m?", "n": 230, "u": "cm", "k": "F('2.3')*100", "e": "1 m = 100 cm, so 2.3 × 100 = 230 cm."},
+{"t": "How many m in 4.5 km?", "n": 4500, "u": "m", "k": "F('4.5')*1000", "e": "1 km = 1000 m."},
+{"t": "Deepa sits in a moving bus. Relative to the bus, other passengers are…", "o": ["At rest", "In motion", "Flying", "Oscillating"], "e": "Their positions don't change relative to the bus."},
+{"t": "Relative to a building outside, the same passengers are…", "o": ["In motion", "At rest", "Oscillating", "Circular"], "e": "Both answers are correct — it depends on the reference point."},
+{"t": "Kilometre stones read 'Delhi 70 km' then 'Delhi 60 km'. The reference point is…", "o": ["Delhi", "The car", "The stone", "The driver"], "e": "Distances are stated relative to Delhi."},
+{"t": "Which pair are both periodic?", "o": ["Circular and oscillatory", "Linear and circular", "Linear and oscillatory", "Only linear"], "e": "Both repeat their path after fixed intervals."},
+{"t": "Which would you measure in kilometres?", "o": ["A railway track between cities", "Thickness of a page", "A pencil", "Your hand"], "e": "Use km for large lengths."},
+{"t": "Why did countries adopt SI units?", "o": ["So measurements of the same length don't differ", "To make maths harder", "For fun", "To replace numbers"], "e": "Standard units give everyone the same result."},
+{"t": "A pressed metal strip springing up and down shows…", "o": ["Oscillatory motion", "Linear motion", "Circular motion", "Rest"], "e": "It moves to and fro about a fixed position."}
+]},
+{"q": [
+{"t": "A pencil's ends read 2.0 cm and 13.7 cm on a scale. Length (cm)?", "n": 11.7, "u": "cm", "k": "F('13.7')-2", "e": "13.7 − 2.0 = 11.7 cm."},
+{"t": "How many mm in 1 m?", "n": 1000, "u": "mm", "k": "100*10", "e": "100 cm × 10 mm = 1000 mm."},
+{"t": "1 mm = ? cm", "n": 0.1, "u": "cm", "k": "F(1,10)", "e": "10 mm = 1 cm, so 1 mm = 0.1 cm."},
+{"t": "Two friends disagree on whether the garden or school is closer. Both are right because…", "o": ["They measure from different reference points (their homes)", "One is lying", "Distances change", "Gardens move"], "e": "Use the same reference point to agree."},
+{"t": "Which is NOT a correct way to write a length?", "o": ["5 kms", "5 km", "12 m", "3 mm"], "e": "Never add 's' for plural."},
+{"t": "An eraser whirled on a thread moves in…", "o": ["Circular motion", "Linear motion", "Oscillatory motion", "No motion"], "e": "It goes round a circular path."},
+{"t": "A march-past is an example of…", "o": ["Linear motion", "Circular motion", "Oscillatory motion", "Periodic motion only"], "e": "Soldiers march in straight lines."},
+{"t": "Ruled markings found at Harappan sites suggest…", "o": ["Ancient Indians used measuring scales", "They had no measurement", "They used metres", "They used inches"], "e": "Possible scales excavated from Harappan sites."},
+{"t": "Visually challenged students measure with…", "o": ["Scales with raised markings felt by touch", "Coloured scales", "No scales", "Thermometers"], "e": "Raised markings can be read by touch."},
+{"t": "A pendulum swinging is both oscillatory and…", "o": ["Periodic", "Linear", "Circular", "At rest"], "e": "It repeats its to-and-fro after fixed intervals."}
+]}
+]}

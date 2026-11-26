@@ -1,0 +1,52 @@
+{
+"title": "12. How Nature Works in Harmony",
+"tests": [
+{"q": [
+{"t": "The living components of a habitat are…", "o": ["Biotic", "Abiotic", "Physical", "Chemical"], "e": "Plants, animals, microorganisms."},
+{"t": "Which is abiotic?", "o": ["Sunlight", "Fungus", "Frog", "Grass"], "e": "Air, water, soil, sunlight, temperature."},
+{"t": "A group of the same type of organism in a habitat is a…", "o": ["Population", "Community", "Ecosystem", "Food web"], "e": "E.g. all fish of one kind in a pond."},
+{"t": "Different populations sharing a habitat form a…", "o": ["Community", "Population", "Species", "Trophic level"], "e": "All the plants, animals and microbes together."},
+{"t": "A community plus the abiotic components is an…", "o": ["Ecosystem", "Population", "Organism", "Habitat only"], "e": "All interacting."},
+{"t": "Green plants are…", "o": ["Producers (autotrophs)", "Consumers", "Decomposers", "Parasites"], "e": "They make their own food."},
+{"t": "Fungi and bacteria that feed on dead matter are…", "o": ["Decomposers (saprotrophs)", "Producers", "Herbivores", "Carnivores"], "e": "Sapro = rotten."},
+{"t": "A deer is a…", "o": ["Herbivore", "Carnivore", "Omnivore", "Producer"], "e": "Eats only plants."},
+{"t": "A crow is an…", "o": ["Omnivore", "Herbivore", "Carnivore", "Producer"], "e": "Eats both plants and animals."},
+{"t": "Interconnected food chains form a…", "o": ["Food web", "Pyramid", "Population", "Habitat"], "e": "More realistic than a single chain."}
+]},
+{"q": [
+{"t": "Honeybee and flower — both benefit. This is…", "o": ["Mutualism", "Commensalism", "Parasitism", "Competition"], "e": "Bee gets nectar; flower gets pollinated."},
+{"t": "Orchid on a tree — orchid benefits, tree unaffected. This is…", "o": ["Commensalism", "Mutualism", "Parasitism", "Predation"], "e": "One benefits, the other is unaffected."},
+{"t": "Tick on a dog is…", "o": ["Parasitism", "Mutualism", "Commensalism", "Decomposition"], "e": "One benefits, the other is harmed."},
+{"t": "Why do elephants enter villages?", "o": ["Their forest habitats have shrunk or changed", "They like people", "They are lost", "They are trained"], "e": "Corridors help them travel safely."},
+{"t": "An ecosystem is ___ a community.", "o": ["Bigger than", "Part of", "Smaller than", "The same as"], "e": "Ecosystem > community > population."},
+{"t": "In a crop field pyramid, which is most numerous?", "o": ["Millet plants", "Mice", "Eagles", "Snakes"], "e": "Most at the base, fewest at the top."},
+{"t": "Why does a number pyramid narrow upwards?", "o": ["Many lower organisms are needed to feed one above", "Top animals are bigger", "Plants are small", "Eagles fly"], "e": "Each level supports fewer individuals."},
+{"t": "Plants affect abiotic components by…", "o": ["Releasing oxygen and holding soil", "Making sunlight", "Creating rocks", "Changing gravity"], "e": "Dependence runs both ways."},
+{"t": "The world's largest mangrove forest is…", "o": ["The Sundarbans", "Chilika", "Manas", "Jim Corbett"], "e": "Between India and Bangladesh."},
+{"t": "Decomposition is important because it…", "o": ["Returns nutrients to the soil", "Makes oxygen", "Kills plants", "Creates sunlight"], "e": "In nature, nothing is wasted."}
+]},
+{"q": [
+{"t": "In the fish-and-flowers study, the pond with fish had…", "o": ["Fewer dragonflies, more pollinators, more seeds", "More dragonflies", "Fewer seeds", "No flowers"], "e": "Fish eat dragonfly larvae; dragonflies eat pollinators."},
+{"t": "Overfishing a pond would likely…", "o": ["Raise dragonflies, cut pollinators, lower seed production", "Increase seeds", "Have no effect on plants", "Remove dragonflies"], "e": "An indirect effect through three steps."},
+{"t": "A day-active rodent and a night-active snake share a forest. This shows…", "o": ["Organisms coexist by using resources differently", "They compete fiercely", "One must leave", "Snakes don't eat"], "e": "Same place, different conditions and times."},
+{"t": "If all decomposers disappeared…", "o": ["Dead matter would pile up and soil would lose fertility", "Plants would grow faster", "Nothing would change", "More oxygen"], "e": "Nutrients would stay locked in dead matter."},
+{"t": "India banned frog leg export because…", "o": ["Fewer frogs led to more insect pests", "Frogs were poisonous", "Frogs were too expensive", "Nobody wanted them"], "e": "Frogs eat insects; removing them upset the balance."},
+{"t": "Why is a food web more resilient than a single chain?", "o": ["Predators with several food sources can switch", "It has fewer animals", "It has no producers", "It's simpler"], "e": "One prey vanishing doesn't doom them."},
+{"t": "Ecosystem balance is…", "o": ["Dynamic — constantly adjusting", "Fixed forever", "Impossible", "Only in zoos"], "e": "It can be disrupted by natural or human changes."},
+{"t": "Competition in an ecosystem…", "o": ["Controls population size and keeps balance", "Always destroys it", "Never happens", "Only among plants"], "e": "Prevents one species multiplying too far."},
+{"t": "Overuse of pesticides eventually raises pest numbers because…", "o": ["It kills natural predators of pests", "Pests like pesticides", "It adds food", "It cools soil"], "e": "Some pests also develop resistance."},
+{"t": "Monoculture harms because it…", "o": ["Reduces biodiversity and harms pollinators", "Increases biodiversity", "Saves water always", "Adds humus"], "e": "Growing one crop repeatedly degrades soil."}
+]},
+{"q": [
+{"t": "Arrange trophic levels: tiger, grass, deer.", "o": ["Grass → deer → tiger", "Tiger → deer → grass", "Deer → grass → tiger", "Grass → tiger → deer"], "e": "Producer → herbivore → carnivore."},
+{"t": "A fish gets food (biotic) from small organisms and oxygen (abiotic) from…", "o": ["Water", "Sunlight directly", "Soil", "Rocks"], "e": "A habitat supplies both kinds of needs."},
+{"t": "What would happen if a habitat had only one type of organism?", "o": ["Fierce competition and scarcity", "Perfect balance", "Unlimited food", "No change"], "e": "All would need the same resources."},
+{"t": "Mangroves protect coastal villages from tsunamis by…", "o": ["Slowing water and breaking wave force", "Pushing water back", "Absorbing all water", "Raising land"], "e": "Villages behind intact mangroves suffer less."},
+{"t": "Why are synthetic fertilisers overused a problem?", "o": ["They reduce soil microbes and humus, causing erosion", "They add humus", "They protect pollinators", "They save groundwater"], "e": "Without humus the soil doesn't bind."},
+{"t": "Vrikshayurveda advocates nourishing soil with…", "o": ["Organic manure like Kunapa Jala", "Pesticides", "Plastic", "Salt"], "e": "An ancient emphasis on soil health."},
+{"t": "Migratory birds help ecosystems by…", "o": ["Pollinating and dispersing seeds along their routes", "Eating all insects", "Causing floods", "Blocking sunlight"], "e": "They link habitats far apart."},
+{"t": "A.J.T. Johnsingh pioneered…", "o": ["Modern wildlife tracking systems", "Calendar reform", "Vaccines", "Space programmes"], "e": "His work in Bandipur studied wildlife movement."},
+{"t": "Human-made ecosystems like farms differ from natural ones because they…", "o": ["Need constant human management", "Never need care", "Have no organisms", "Are always balanced"], "e": "Unlike natural ecosystems they don't sustain themselves."},
+{"t": "Which pair is matched correctly?", "o": ["Shikra — carnivore", "Squirrel — carnivore", "Fox — herbivore", "Hare — omnivore"], "e": "Shikra is a bird of prey."}
+]}
+]}

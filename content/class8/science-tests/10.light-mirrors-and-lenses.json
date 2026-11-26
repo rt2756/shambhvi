@@ -1,0 +1,52 @@
+{
+"title": "10. Light: Mirrors and Lenses",
+"tests": [
+{"q": [
+{"t": "A mirror whose reflecting surface curves inwards is…", "o": ["Concave", "Convex", "Plane", "A lens"], "e": "Like the inside of a spoon."},
+{"t": "A mirror whose reflecting surface bulges outwards is…", "o": ["Convex", "Concave", "Plane", "A lens"], "e": "Like the back of a spoon."},
+{"t": "A convex mirror always gives an image that is…", "o": ["Erect and diminished", "Inverted and enlarged", "Same size", "Inverted only"], "e": "No exceptions."},
+{"t": "Vehicle side-view mirrors are…", "o": ["Convex", "Concave", "Plane", "Lenses"], "e": "Wide view of the road behind."},
+{"t": "Torch and headlight reflectors are…", "o": ["Concave mirrors", "Convex mirrors", "Plane mirrors", "Concave lenses"], "e": "They concentrate light."},
+{"t": "Angle of incidence equals…", "o": ["Angle of reflection", "90°", "Angle with the mirror", "Zero always"], "e": "The first law: i = r."},
+{"t": "Angles of incidence and reflection are measured from the…", "o": ["Normal", "Mirror surface", "Ceiling", "Object"], "e": "The most common mistake is measuring from the mirror."},
+{"t": "A lens thicker in the middle is…", "o": ["Convex", "Concave", "Plane", "A mirror"], "e": "Concave lenses are thicker at the edges."},
+{"t": "A convex lens ___ parallel light.", "o": ["Converges", "Diverges", "Reflects", "Blocks"], "e": "Called a converging lens."},
+{"t": "A magnifying glass is a…", "o": ["Convex lens", "Concave lens", "Convex mirror", "Plane mirror"], "e": "It makes print look bigger."}
+]},
+{"q": [
+{"t": "A ray makes 40° with the normal. Angle with the mirror (°)?", "n": 50, "u": "°", "k": "90-40", "e": "90 − 40 = 50°."},
+{"t": "Light falls along the normal. Angle of reflection (°)?", "n": 0, "u": "°", "e": "It comes straight back."},
+{"t": "Second law: incident ray, normal and reflected ray…", "o": ["Lie in the same plane", "Are always parallel", "Meet at 90°", "Are equal in length"], "e": "Bending the paper hides the reflected beam."},
+{"t": "A concave mirror with an object close gives an image that is…", "o": ["Erect and enlarged", "Inverted and small", "Same size", "Always diminished"], "e": "That's why it's used as a dental mirror."},
+{"t": "A concave mirror ___ parallel beams.", "o": ["Converges", "Diverges", "Keeps parallel", "Absorbs"], "e": "Convex mirrors diverge."},
+{"t": "Why do road safety mirrors at bends use convex mirrors?", "o": ["Erect image over a wide area", "Enlarged image", "They burn paper", "Cheaper"], "e": "Drivers can see round the corner."},
+{"t": "You see things ___ a lens but ___ a mirror.", "o": ["through; in", "in; through", "behind; through", "on; in"], "e": "Light passes through a lens."},
+{"t": "A concave lens gives an image that is always…", "o": ["Erect and diminished", "Inverted", "Enlarged", "Same size"], "e": "Like a convex mirror."},
+{"t": "A water drop on waxed glass makes letters look bigger because it acts as a…", "o": ["Convex lens", "Concave lens", "Plane mirror", "Prism"], "e": "Its surface curves outwards."},
+{"t": "Which can burn paper with sunlight?", "o": ["Concave mirror and convex lens", "Convex mirror and concave lens", "Plane mirror only", "None"], "e": "Both concentrate light to a point."}
+]},
+{"q": [
+{"t": "An image is always same-size and erect. The mirror is…", "o": ["Plane", "Concave", "Convex", "A lens"], "e": "Identify mirrors by their images."},
+{"t": "An image flips upside down as you move away. The mirror is…", "o": ["Concave", "Convex", "Plane", "Any"], "e": "Only a concave mirror changes like that."},
+{"t": "Why the warning 'Objects in mirror are closer than they appear'?", "o": ["A convex mirror's small image makes things seem farther", "The mirror is broken", "It enlarges", "It's a plane mirror"], "e": "We read 'small' as 'far away'."},
+{"t": "Why is a convex mirror still worth using on vehicles?", "o": ["It gives a much wider view behind", "It gives exact distances", "It enlarges", "It's flat"], "e": "Wide view matters more."},
+{"t": "A convex lens behaves like a…", "o": ["Concave mirror", "Convex mirror", "Plane mirror", "Concave lens"], "e": "Both converge light."},
+{"t": "Why do curved mirrors converge or diverge rays though each ray obeys i = r?", "o": ["The normal points differently at each point", "They break the law", "Light bends in air", "Rays curve"], "e": "The shape changes the normal's direction."},
+{"t": "Coating on the outer curved surface makes a…", "o": ["Concave mirror", "Convex mirror", "Plane mirror", "Lens"], "e": "Reflection then happens from the inner curve."},
+{"t": "Your eye contains a…", "o": ["Convex lens that changes shape", "Concave mirror", "Plane mirror", "Concave lens"], "e": "That lets you switch focus near and far."},
+{"t": "Bifocal glasses have a line across them because…", "o": ["They hold two lens strengths — distance and reading", "They are cracked", "For decoration", "They are mirrors"], "e": "Upper for distance, lower for reading."},
+{"t": "Solar concentrators use mirrors and lenses to…", "o": ["Concentrate sunlight to make heat or steam", "Make shadows", "Spread light", "Cool water"], "e": "For electricity, cooking and furnaces."}
+]},
+{"q": [
+{"t": "A ray hits a mirror at 30° to the mirror surface. Angle of reflection (°)?", "n": 60, "u": "°", "k": "90-30", "e": "Angle with normal = 90 − 30 = 60°; i = r = 60°."},
+{"t": "The angle between the incident and reflected rays is 80°. Angle of incidence (°)?", "n": 40, "u": "°", "k": "F(80,2)", "e": "i + r = 80 and i = r, so i = 40°."},
+{"t": "Lateral inversion is seen in…", "o": ["All three mirror types", "Only plane mirrors", "Only concave", "Only convex"], "e": "Plane, concave and convex all show it."},
+{"t": "Which is used in a dental mirror and why?", "o": ["Concave — enlarged view when held close", "Convex — wide view", "Plane — same size", "Concave lens"], "e": "Close objects appear erect and enlarged."},
+{"t": "Which correctly pairs device and optic?", "o": ["Surveillance mirror — convex mirror", "Headlight — convex mirror", "Magnifier — concave lens", "Telescope main mirror — convex"], "e": "Stores monitor a wide area with convex mirrors."},
+{"t": "Why must you never look at the Sun through a lens?", "o": ["It can permanently damage the eyes", "It's too dark", "The lens breaks", "It's not allowed"], "e": "Concentrated sunlight burns."},
+{"t": "A thin flat glass plate makes parallel beams…", "o": ["Pass straight through unchanged", "Converge", "Diverge", "Reflect fully"], "e": "No curvature, no bending effect."},
+{"t": "Spherical mirrors are made by…", "o": ["Grinding and polishing flat glass, then coating it", "Slicing a glass ball", "Melting sand into spheres", "Bending a plane mirror"], "e": "Usually coated with aluminium."},
+{"t": "Which lens is used in spectacles AND a magnifier?", "o": ["Convex", "Concave", "Neither", "Plane"], "e": "Concave lenses are also used in some spectacles."},
+{"t": "A concave mirror image of a far object is…", "o": ["Inverted and diminished", "Erect and enlarged", "Same size", "Erect and diminished"], "e": "Gets smaller as distance increases."}
+]}
+]}

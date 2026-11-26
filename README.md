@@ -45,6 +45,7 @@ Content is bucketed **by class** (5–10); vocabulary and the to-do list are cla
 | `class<N>-math.html` · `class<N>-science.html` | One page per class per subject. |
 | `class7-math-questions.html` · `class7-science-questions.html` · `class7-saved.html` · `class7-links.html` | The extra class-7 pages. |
 | `class7-tests.html` · `test.html` · `content/class7/tests/*.json` | **Chapter tests** — four self-marking tests per chapter (see *Chapter tests* below). |
+| `class<N>-science-tests.html` · `content/class<N>/science-tests/*.json` | **Science chapter tests** (classes 3–10; classes 3–4 follow NCERT *Our Wondrous World*, classes 1–2 have no EVS book) — same four-level format, one file per science chapter. |
 | `assets/js/tests.js` · `tools/check_tests.py` | The test engine, and the script that re-checks every answer key. |
 | `questions.html` · `science.html` · `saved.html` · `links.html` | Redirect stubs kept so old bookmarks still work. |
 | `assets/js/app.js` | Loads a manifest + `.md` files and builds the page; one engine drives every layout (chosen by `#app`'s `data-mode`). |
@@ -192,6 +193,11 @@ A question is multiple choice or a number answer:
 is run as `test.html?c=grammar&f=…`, its hub is `grammar-tests.html` (`data-class="grammar"`), and
 `python3 tools/check_tests.py grammar` checks it. To add another set, give it a label in `SET_NAMES`
 in `assets/js/tests.js`.
+
+**Science test sets.** Each class's science tests are the set `<N>-science`: data in
+`content/class<N>/science-tests/` (manifest lists the chapter files, matching the science notes'
+file names), run as `test.html?c=<N>-science&f=…`, hub `class<N>-science-tests.html`
+(`data-class="<N>-science"`, the 🧫 Sci Tests tab), checked with `python3 tools/check_tests.py <N>-science`.
 
 To add a class: create `content/class<N>/tests/` with chapter files and a `manifest.json`, copy
 `class7-tests.html` to `class<N>-tests.html`, and change `data-class`.

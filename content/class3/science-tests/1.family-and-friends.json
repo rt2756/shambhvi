@@ -1,0 +1,52 @@
+{
+"title": "1. Family and Friends",
+"tests": [
+{"q": [
+{"t": "What is the name of the girl who welcomes us to her home?", "o": ["Bela", "Nita", "Simmi", "Tara"], "e": "Bela lives with her brothers Banku and Bishu."},
+{"t": "What game do Bela and her brothers play outside?", "o": ["Chhupan-chhupai (hide and seek)", "Cricket", "Chess", "Kabaddi"], "e": "They hide and look for each other."},
+{"t": "Who is Shiru?", "o": ["Bela's pet dog", "Bela's brother", "A cat", "A friend"], "e": "Shiru barks, wags his tail and is a member of the family."},
+{"t": "What does Bela call her grandmother?", "o": ["Dadiji", "Mausi", "Chachi", "Nani"], "e": "Her father's mother is Dadiji."},
+{"t": "What do Bela's mother and Dadiji make on rainy days?", "o": ["Hot pakodas and tea", "Ice cream", "Cake", "Pizza"], "e": "The family eats them together in the garden shelter."},
+{"t": "Mother's sister is called…", "o": ["Mausi", "Bua", "Chachi", "Mami"], "e": "Bua is father's sister."},
+{"t": "Families can be…", "o": ["Big or small", "Only big", "Only small", "Only people"], "e": "\"Families are big, families are small.\""},
+{"t": "Which game did Bela and friends play in the park?", "o": ["Pitthoo", "Football", "Ludo", "Carrom"], "e": "A ball knocks down a pile of stones."},
+{"t": "Should we hurt or tease animals?", "o": ["No — we should be kind to them", "Yes", "Only cats", "Only at night"], "e": "Banku and Bela never hurt Shiru and share food with him."},
+{"t": "What is Munni very good at making?", "o": ["Rangoli", "Cakes", "Kites", "Pots"], "e": "She uses colours from dried flowers."}
+]},
+{"q": [
+{"t": "Can animals like cows and dogs be part of a family?", "o": ["Yes", "No", "Only fish", "Only in cities"], "e": "Families love and care for animals too."},
+{"t": "Who helps with the housework in Bela's home?", "o": ["Everyone — parents help each other", "Only mother", "Only Dadiji", "Nobody"], "e": "Cooking, cleaning and shopping are shared."},
+{"t": "How does Bela help her Dadaji?", "o": ["In the garden", "Cooking", "Driving", "Shopping"], "e": "Banku helps clean and chop vegetables."},
+{"t": "What does Dadiji do for Bela every morning?", "o": ["Oils and braids her hair", "Cooks breakfast only", "Takes her to school by car", "Reads the news"], "e": "She hums a song while doing it."},
+{"t": "Kusum Mausi is Bela's mother's…", "o": ["Close friend who is like a sister", "Real sister", "Mother", "Teacher"], "e": "Friends can feel like family."},
+{"t": "What can be used to make a rangoli?", "o": ["Fallen leaves and flowers", "Plastic bags", "Mud only", "Paper only"], "e": "Many materials work."},
+{"t": "Relatives who don't live with us are related through our…", "o": ["Parents", "Neighbours", "Teachers", "Friends"], "e": "Through mother or father."},
+{"t": "Who needs special care in a family?", "o": ["Grandparents, small children, or someone sick", "Only adults", "Nobody", "Only pets"], "e": "We help them."},
+{"t": "What do families do together in the evening in Bela's home?", "o": ["Sit, talk and laugh in the garden", "Watch TV only", "Go to sleep", "Study only"], "e": "Spending time together makes families happy."},
+{"t": "Who taught Bela and Banku old games?", "o": ["Dadaji", "Shiru", "Munni", "Their teacher"], "e": "Games he played as a child."}
+]},
+{"q": [
+{"t": "Why do families share housework?", "o": ["So no one person gets too tired, and work gets done", "Because it's a game", "To get money", "It's not needed"], "e": "Helping each other makes life easier and happier."},
+{"t": "Father's brother is called…", "o": ["Chacha", "Mama", "Mausa", "Nana"], "e": "Mama is mother's brother."},
+{"t": "Why should we share food with animals that come home?", "o": ["Caring for them is kind — they depend on us", "To make them leave", "Because they ask", "No reason"], "e": "Families care for animals and plants too."},
+{"t": "Bela's family is…", "o": ["A big family with grandparents", "A small family of two", "Only children", "Only parents"], "e": "Parents, grandparents, three children and Shiru."},
+{"t": "What do we learn from elders?", "o": ["Songs, games and skills", "Nothing", "Only rules", "Only cooking"], "e": "Bela learnt songs from Dadiji."},
+{"t": "Peek-a-boo is played with…", "o": ["A young child", "A dog", "Grandparents only", "A ball"], "e": "Hiding and suddenly reappearing."},
+{"t": "Why did Dadaji ask the children to rest at the park?", "o": ["They were tired from running", "It was raining", "The park closed", "He was angry"], "e": "Resting helps the body recover."},
+{"t": "Antakshari is a…", "o": ["Singing game", "Running game", "Board game with dice", "Card game"], "e": "Snakes and ladders is the board game."},
+{"t": "Which shows love and care in a family?", "o": ["Helping, sharing and spending time together", "Fighting", "Ignoring each other", "Teasing pets"], "e": "Love shows in what we do for each other."},
+{"t": "Mother's brother is called…", "o": ["Mama", "Chacha", "Taau", "Fufa"], "e": "His wife is Mami."}
+]},
+{"q": [
+{"t": "Who do we care for who is NOT in our family?", "o": ["Neighbours, friends, animals and plants", "Nobody", "Only relatives", "Only teachers"], "e": "Caring reaches beyond our home."},
+{"t": "Bela's father's mother is Dadiji. Bela's mother's mother is…", "o": ["Nani", "Dadi", "Bua", "Mausi"], "e": "Nani and Nana are mother's parents."},
+{"t": "Why do Bela's parents relax in the garden in the evening?", "o": ["They are tired after a hard day's work", "They have no house", "It's raining", "To water plants only"], "e": "Spending time outdoors together helps them rest."},
+{"t": "Which list is all games?", "o": ["Pitthoo, ludo, chhupan-chhupai", "Pakoda, tea, rangoli", "Bus, train, auto", "Mausi, Chacha, Nani"], "e": "The others are food, vehicles and relatives."},
+{"t": "A friend's mother whom we call Mausi shows that…", "o": ["People who care for us can be like family", "She is mother's sister", "She is a teacher", "She is a stranger"], "e": "Kusum Mausi joins every festival at Bela's home."},
+{"t": "Who is usually the oldest person in a family?", "o": ["A grandparent", "A baby", "The youngest child", "The pet"], "e": "Answers can vary — ask your family!"},
+{"t": "Why does Bela make rangoli with fallen flowers instead of plucking them?", "o": ["It doesn't harm plants", "Plucked flowers don't have colour", "Fallen ones are bigger", "It's faster"], "e": "Caring for plants."},
+{"t": "What makes every family special?", "o": ["Its people care about each other", "Its size", "Its money", "Its house"], "e": "\"My family is special, and yours is too!\""},
+{"t": "Who might live far away but still be family?", "o": ["Relatives like uncles, aunts and cousins", "Strangers", "Shopkeepers", "Bus drivers"], "e": "We meet them on visits and festivals."},
+{"t": "Ice cream at the park was bought by…", "o": ["Dadaji", "Rohit", "Bela", "Tara"], "e": "After about 20 minutes of rest."}
+]}
+]}

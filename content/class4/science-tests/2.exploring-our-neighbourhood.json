@@ -1,0 +1,52 @@
+{
+"title": "2. Exploring Our Neighbourhood",
+"tests": [
+{"q": [
+{"t": "Navya saw a red ___ on the corner.", "o": ["Postbox", "Fire hydrant", "Phone booth", "Bin"], "e": "Letters are posted in it."},
+{"t": "Who takes letters to the post office?", "o": ["Postman", "Doctor", "Driver", "Banker"], "e": "Then they're sorted by region."},
+{"t": "ATM stands for…", "o": ["Automated Teller Machine", "Any Time Money", "Auto Train Machine", "All Time Mail"], "e": "It gives out money anytime."},
+{"t": "Banks help us…", "o": ["Keep money safe and save for the future", "Grow food", "Post letters", "Treat illness"], "e": "Savings for the future."},
+{"t": "On a map, North is shown…", "o": ["Upwards", "Downwards", "Left", "Right"], "e": "South down, East right, West left."},
+{"t": "On a map, East is on the…", "o": ["Right", "Left", "Top", "Bottom"], "e": "The Sun rises in the east."},
+{"t": "Navya found East using…", "o": ["The rising Sun", "A clock", "A phone", "The Moon"], "e": "The Sun rises in the east."},
+{"t": "Roads built above busy crossings are…", "o": ["Flyovers", "Tunnels", "Bridges over rivers only", "Footpaths"], "e": "They save travel time."},
+{"t": "Long ago people exchanged goods without money. This is…", "o": ["Barter system", "Banking", "Shopping online", "Money order"], "e": "Wheat for milk, for example."},
+{"t": "A hospital camp outside showed a banner for…", "o": ["Eye check-up", "Dental care only", "Vaccination only", "Blood donation only"], "e": "Dada ji's wife had an eye operation there."}
+]},
+{"q": [
+{"t": "Long ago people communicated using…", "o": ["Drumbeats, rock carvings, messengers, pigeons", "Mobile phones", "Email", "Video calls"], "e": "Then the postal service came."},
+{"t": "Today we communicate in seconds using…", "o": ["Internet on phones and computers", "Pigeons", "Drums", "Letters only"], "e": "Technology made it fast."},
+{"t": "Why did Dada ji miss handwritten letters?", "o": ["He enjoyed the joy of writing and receiving them", "Phones are slow", "Letters are free", "He had no phone"], "e": "Old ways have their charm."},
+{"t": "How did people send money long ago through the post office?", "o": ["Money Orders", "ATMs", "Mobile apps", "Cards"], "e": "Now we send money online in seconds."},
+{"t": "A nurse in a hospital…", "o": ["Cares for patients and helps doctors", "Drives buses", "Cooks only", "Posts letters"], "e": "Many people work in a hospital."},
+{"t": "Why was money invented?", "o": ["Barter was hard — finding the right trade partner and value", "For fun", "To make paper", "To decorate"], "e": "Money simplifies exchange."},
+{"t": "A landmark is…", "o": ["An easily recognised place used to give directions", "A secret place", "A type of road", "A bus"], "e": "Parks, shops, temples."},
+{"t": "Metro trains help by…", "o": ["Moving many people fast", "Making noise", "Blocking roads", "Carrying letters"], "e": "Faster connectivity."},
+{"t": "Which is a public service place?", "o": ["Post office", "Your house", "A friend's room", "A private car"], "e": "Also hospitals, banks, libraries, police stations."},
+{"t": "Dada ji said development and nature can be balanced by…", "o": ["Planting trees", "Cutting forests", "More flyovers only", "Doing nothing"], "e": "Keep the environment secure."}
+]},
+{"q": [
+{"t": "Letters took weeks to reach people. How did this affect communication?", "o": ["News travelled slowly and people waited long for replies", "It was faster", "No effect", "People never wrote"], "e": "Compare with today."},
+{"t": "Quick messages can spread wrong information fast. What should you do?", "o": ["Check if news is true before sharing", "Forward everything", "Believe all messages", "Delete your phone"], "e": "Be careful with news."},
+{"t": "If a place is on the left of your map, it's to the…", "o": ["West", "East", "North", "South"], "e": "Standard map directions."},
+{"t": "If a place is at the bottom of your map, it's to the…", "o": ["South", "North", "East", "West"], "e": "North is up."},
+{"t": "Why save money?", "o": ["For future needs and emergencies", "To lose it", "To throw it", "No reason"], "e": "Banks help with saving."},
+{"t": "What do people use banks for besides saving?", "o": ["Sending and withdrawing money, loans", "Buying vegetables", "Planting trees", "Posting letters"], "e": "Visit a bank to learn more."},
+{"t": "What do flyovers and metros cost the environment?", "o": ["Some trees, birds and animals disappear", "Nothing", "More forests", "Cleaner air always"], "e": "Development needs balance."},
+{"t": "An Indian currency note shows text in…", "o": ["Many languages", "Only English", "Only Hindi", "No language"], "e": "Look closely at a note."},
+{"t": "A passbook shows details like…", "o": ["Account number and IFSC code", "Recipes", "Bus routes", "Weather"], "e": "Look at a family passbook."},
+{"t": "Post offices sort letters according to…", "o": ["Regions", "Colours", "Size only", "Weight only"], "e": "Then send them to destinations."}
+]},
+{"q": [
+{"t": "Facing North, East is on your…", "o": ["Right", "Left", "Behind", "Front"], "e": "Turn a map to check."},
+{"t": "Facing North, what's behind you?", "o": ["South", "East", "West", "North"], "e": "Opposite of North."},
+{"t": "If the Sun rises to your right, you are facing…", "o": ["North", "South", "East", "West"], "e": "East on the right means North ahead."},
+{"t": "A farmer has 10 kg wheat and wants milk. 2 kg wheat = 1 litre milk. How many litres can he get?", "n": 5, "u": "L", "k": "F(10,2)", "e": "Barter: 10 ÷ 2 = 5."},
+{"t": "You save ₹5 a day for 20 days. Savings (₹)?", "n": 100, "u": "₹", "k": "5*20", "e": "Small savings add up."},
+{"t": "How did your grandparents probably go to school?", "o": ["Walking or cycling", "By metro", "By plane", "By e-rickshaw only"], "e": "Ask them!"},
+{"t": "Which is fastest for sending a message today?", "o": ["Text or internet message", "Letter", "Pigeon", "Drumbeat"], "e": "Seconds instead of weeks."},
+{"t": "Navya's Mama sent money for Raksha Bandhan by…", "o": ["Mobile phone, online", "Pigeon", "Money order", "Hand only"], "e": "Technology makes it easy."},
+{"t": "Which is a good landmark for directions?", "o": ["A big temple or hospital", "A moving car", "A cloud", "A cat"], "e": "Landmarks don't move."},
+{"t": "Which shows how communication changed over time?", "o": ["Drums → letters → telephone → internet", "Internet → drums", "Letters → pigeons", "Phones → rock carvings"], "e": "Getting faster over time."}
+]}
+]}
