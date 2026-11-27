@@ -33,8 +33,8 @@ things on **one chapter list taken from the current NCERT book**:
 
 ## To do
 
-- [ ] **Commit the class 10 maths tests** with `PLAN.md` (ask the user first). Class 5 maths and the
-  class 10 notes are already in commit `6598e0e`.
+Nothing left — every class 5–10 has notes and tests for Maths, Science and English. Ask the user
+before starting anything under *Later*.
 
 ## Later (not agreed yet — ask the user before starting)
 
@@ -55,7 +55,7 @@ things on **one chapter list taken from the current NCERT book**:
 - 2026-11-27 — Class 10 maths **notes** (14 chapters, 2,300–4,000 words each; cheat-sheet link removed). Commit `6598e0e`.
 - 2026-11-27 — Class 10 maths **tests** (14 chapters, 560 Qs, checker passes; ~75% reused from the old
   19 files, out-of-syllabus ones replaced). Old test files and `content/class10/math-questions/` removed.
-  **Not committed yet.**
+  Commit `9062054`, merged to `main`.
 
 ## Learnings
 
