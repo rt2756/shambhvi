@@ -78,7 +78,12 @@
   function initHub(mount) {
     var cls = mount.dataset.class;
     var dir = dirFor(cls);
-    getJSON(dir + "manifest.json")
+    // data-manifest picks a subset (e.g. one class's grammar lessons); the page's own
+    // name rides along as &h= so a test's "All tests" link comes back here.
+    var manifest = mount.dataset.manifest || "manifest.json";
+    var here = location.pathname.split("/").pop() || "";
+    var back = (here && here !== hubFor(cls)) ? "&h=" + encodeURIComponent(here) : "";
+    getJSON(dir + manifest)
       .then(function (files) {
         return Promise.all(files.map(function (name) {
           return getJSON(dir + name).then(function (data) {
@@ -98,7 +103,7 @@
             var lvl = LEVELS[i] || { name: "Test " + (i + 1), icon: "📝" };
             var a = el("a", "test-btn lvl" + (i + 1));
             a.href = "test.html?c=" + encodeURIComponent(cls) +
-              "&f=" + encodeURIComponent(ch.file) + "&t=" + (i + 1);
+              "&f=" + encodeURIComponent(ch.file) + "&t=" + (i + 1) + back;
             var st = loadState(keyFor(cls, ch.file, i + 1));
             total++;
             var score = "";
@@ -163,7 +168,9 @@
     var cls = (p.get("c") || "").replace(/[^a-z0-9\-]/gi, "");
     var file = (p.get("f") || "").replace(/[^a-z0-9.\-]/gi, "");
     var t = parseInt(p.get("t"), 10) || 1;
-    var hub = hubFor(cls);
+    var h = (p.get("h") || "").replace(/[^a-z0-9.\-]/gi, "");
+    var hub = /^[a-z0-9\-]+\.html$/i.test(h) ? h : hubFor(cls);
+    var hubArg = hub !== hubFor(cls) ? "&h=" + encodeURIComponent(hub) : "";
     var key = keyFor(cls, file, t);
 
     getJSON(dirFor(cls) + file + ".json")
@@ -240,7 +247,7 @@
         bar.appendChild(retryBtn); bar.appendChild(hubLink);
         if (t < data.tests.length) {
           var next = el("a", "toggle-all");
-          next.href = "test.html?c=" + cls + "&f=" + encodeURIComponent(file) + "&t=" + (t + 1);
+          next.href = "test.html?c=" + cls + "&f=" + encodeURIComponent(file) + "&t=" + (t + 1) + hubArg;
           next.textContent = "Next level →";
           bar.appendChild(next);
         }

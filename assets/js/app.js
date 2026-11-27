@@ -424,8 +424,11 @@
 
     // { cache: "no-cache" } => always revalidate with the server, so edits to the
     // .md / manifest show up on a normal reload (no hard refresh needed).
-    fetch(dir + "manifest.json", { cache: "no-cache" })
-      .then(function (r) { if (!r.ok) throw new Error("manifest.json " + r.status); return r.json(); })
+    // data-manifest picks a different list in the same folder — e.g. the English pages
+    // show only one class's grammar lessons via manifest-class7.json.
+    var manifest = mount.dataset.manifest || "manifest.json";
+    fetch(dir + manifest, { cache: "no-cache" })
+      .then(function (r) { if (!r.ok) throw new Error(manifest + " " + r.status); return r.json(); })
       .then(function (files) {
         return Promise.all(files.map(function (name) {
           return fetch(dir + name, { cache: "no-cache" })

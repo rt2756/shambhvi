@@ -4,19 +4,25 @@ Guidance for AI assistants working in this repository.
 
 ## What this repo is
 
-CBSE / NCERT **revision notes and practice questions** for a school student — maths and
-science, **bucketed by class (5–10)**. Plain Markdown in `content/class<N>/math/*.md` and
-`content/class<N>/science/*.md` (notes), `content/class7/*-questions/*.md` (practice
-questions), rendered in the browser and published via GitHub Pages. See `README.md` for the
-full file map, callout syntax, and how rendering works.
+CBSE / NCERT revision for a school student, **bucketed by class (5–10)**, published via
+GitHub Pages. **Every class has three subjects — Maths, Science, English — and every subject
+has exactly two things: detailed chapter NOTES and 4-level self-marking TESTS, on one chapter
+list taken from the current NCERT book.** Don't add other page types (practice-question sets,
+cheat sheets, extra tabs) — fold anything useful into the notes or the tests.
 
-**Class 7 is the live one** — it has full notes plus a question set for every chapter.
-Classes 5, 6, 8, 9 and 10 currently hold only `0.syllabus.md`, a verified chapter map of
-the year; fill them in one chapter at a time, matching the class-7 depth.
+- Maths: `content/class<N>/math/*.md` + `content/class<N>/tests/*.json` (same file names).
+- Science: `content/class<N>/science/*.md` + `content/class<N>/science-tests/*.json`. Science
+  stays **one subject** up to class 10, as in the NCERT book (no physics/chemistry/biology split).
+- English: the class-free grammar course — `content/grammar/notes/` (21 lessons, each saying
+  which classes teach it) and `content/grammar/tests/`; each class's English tab shows only its
+  lessons via `manifest-class<N>.json` in both folders. Run `python3 tools/check_tests.py grammar` after edits.
 
-**English grammar** is class-free: `content/grammar/notes/` (21 topic lessons, each saying which
-classes teach it) and `content/grammar/tests/` (4 levels × 10 questions per lesson), shown on
-`grammar.html` and `grammar-tests.html`. Run `python3 tools/check_tests.py grammar` after edits.
+Pages per class: `class<N>-math.html`, `class<N>-tests.html`, `class<N>-science.html`,
+`class<N>-science-tests.html`, `class<N>-english.html`, `class<N>-english-tests.html`. See
+`README.md` for the full file map, callout syntax, and how rendering works.
+
+**Notes are detailed teaching, not cheat sheets** — explain each chapter the way a patient
+tutor would explain it to a child (style model: `content/class6/science/*.md`).
 
 **Music** is class-free too: `content/music/notes/` (theory lessons, written for a complete-beginner
 electric guitarist), `content/music/practice/` (30-minute-a-day plan, one file per week, tick-off

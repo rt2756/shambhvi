@@ -1,0 +1,13 @@
+[
+  "1.sentences.json",
+  "2.nouns.json",
+  "3.pronouns.json",
+  "4.adjectives.json",
+  "5.articles-determiners.json",
+  "6.verbs.json",
+  "10.adverbs.json",
+  "11.prepositions.json",
+  "12.conjunctions-interjections.json",
+  "18.punctuation.json",
+  "19.word-building.json"
+]
