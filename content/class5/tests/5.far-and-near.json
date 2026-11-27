@@ -9,7 +9,7 @@
 {"t": "3 km = how many m?", "n": 3000, "u": "m", "k": "3*1000", "e": "Each km is 1,000 m, so 3 km = 3 × 1,000."},
 {"t": "Which unit is best for the length of a pencil?", "o": ["Centimetres", "Kilometres", "Metres", "Litres"], "e": "Small things are measured in cm, so the number is easy to say."},
 {"t": "Which unit is best for the distance between two cities?", "o": ["Kilometres", "Centimetres", "Metres", "Grams"], "e": "Journeys are long, so km gives a sensible-sized number."},
-{"t": "Which unit is best for the height of a building?", "o": ["Metres", "Kilometres", "Centimetres", "Kilograms"], "e": "Buildings are tens of metres tall — cm would give a very big number."},
+{"t": "1 cm = how many mm?", "n": 10, "u": "mm", "e": "The small marks between two centimetre marks on a ruler split 1 cm into 10 equal parts — each is 1 millimetre."},
 {"t": "2 m 40 cm = how many cm?", "n": 240, "u": "cm", "k": "2*100+40", "e": "2 m = 200 cm, and 200 + 40 = 240."},
 {"t": "Which is longer: 456 cm or 5 m?", "o": ["5 m", "456 cm"], "e": "5 m = 500 cm, and 500 is more than 456. Change to the same unit before comparing."}
 ]},
@@ -18,11 +18,11 @@
 {"t": "2 m 4 cm = how many cm?", "n": 204, "u": "cm", "k": "2*100+4", "e": "200 cm + 4 cm = 204 cm — not 240. The zero matters."},
 {"t": "5,792 cm = ?", "o": ["57 m 92 cm", "579 m 2 cm", "5 m 79 cm", "57 m 9 cm"], "e": "Every 100 cm is 1 m: 5,700 cm = 57 m, and 92 cm are left over."},
 {"t": "How many ropes of 250 m make 1 km?", "n": 4, "k": "1000//250", "e": "1 km = 1,000 m, and 1,000 ÷ 250 = 4."},
-{"t": "6 km = how many m?", "n": 6000, "u": "m", "k": "6*1000", "e": "Each km is 1,000 m."},
+{"t": "About how long is 1 inch?", "o": ["2 cm 5 mm", "25 cm", "1 cm", "12 cm"], "e": "1 inch is a little over 2½ cm (2 cm 5 mm) — check the inch edge of your ruler. 12 inches make a foot, about 30 cm."},
 {"t": "4,000 m = how many km?", "n": 4, "u": "km", "k": "4000//1000", "e": "Small unit to big unit: divide by 1,000."},
 {"t": "Which is longer: 6 m 5 cm or 6 m 50 cm?", "o": ["6 m 50 cm", "6 m 5 cm", "They are equal"], "e": "In cm they are 650 and 605, so 6 m 50 cm is longer."},
 {"t": "Compare 238 cm with 1 m + 138 cm.", "o": ["They are equal", "238 cm is longer", "1 m + 138 cm is longer"], "e": "1 m = 100 cm, and 100 + 138 = 238 cm."},
-{"t": "How many ropes of 100 m make 1 km?", "n": 10, "k": "1000//100", "e": "1,000 ÷ 100 = 10. Shorter ropes mean you need more of them."},
+{"t": "4 cm 5 mm = how many mm?", "n": 45, "u": "mm", "k": "4*10+5", "e": "Each centimetre is 10 mm, so 4 cm = 40 mm; add the 5 mm → 45 mm."},
 {"t": "3 km 500 m = how many m?", "n": 3500, "u": "m", "k": "3*1000+500", "e": "3 km = 3,000 m, plus 500 m."}
 ]},
 {"q": [
@@ -35,16 +35,16 @@
 {"t": "A ribbon is 3 m long. 1 m 75 cm is used. How much is left, in cm?", "n": 125, "u": "cm", "k": "300-175", "e": "300 cm − 175 cm = 125 cm."},
 {"t": "Ravi’s school is 1 km 200 m away. He walks there and back. How far does he walk, in m?", "n": 2400, "u": "m", "k": "2*1200", "e": "1 km 200 m = 1,200 m, and there and back is twice that."},
 {"t": "Which is longer: 55 cm + 200 cm or 200 cm + 54 cm?", "o": ["55 cm + 200 cm", "200 cm + 54 cm", "They are equal"], "e": "Both have 200 cm, so just compare 55 with 54."},
-{"t": "How many 20 m ropes are needed to make 1 km?", "n": 50, "k": "1000//20", "e": "1,000 m ÷ 20 m = 50."}
+{"t": "89 mm = ?", "o": ["8 cm 9 mm", "89 cm", "80 cm 9 mm", "8 m 9 cm"], "e": "89 mm = 80 mm + 9 mm, and 80 mm is 8 cm (10 mm in each cm). So 8 cm 9 mm."}
 ]},
 {"q": [
 {"t": "Children stand every 300 m along a 3 km track, the first at 300 m and the last at the finish. How many children?", "n": 10, "k": "3000//300", "e": "3,000 ÷ 300 = 10."},
 {"t": "Flags are put every 50 m along a 2 km road, the first at 50 m. They go red, blue, red, blue … How many RED flags?", "n": 20, "k": "2000//50//2", "e": "2,000 ÷ 50 = 40 flags in all, and half of them are red."},
 {"t": "Sita walks 750 m to the bus stop, rides the bus 4 km 600 m, then walks 650 m to school. How far is that, in m?", "n": 6000, "u": "m", "k": "750+4600+650", "e": "750 + 4,600 + 650 = 6,000 m, which is 6 km."},
 {"t": "Meena’s step is 50 cm long. How many steps does she take to walk 1 km?", "n": 2000, "k": "1000*(100//50)", "e": "2 steps of 50 cm make 1 m (100 cm), and 1 km = 1,000 m, so 2 × 1,000 = 2,000 steps."},
-{"t": "A 5 km race has a marker every 250 m, the first at 250 m and the last at the finish. How many markers?", "n": 20, "k": "5000//250", "e": "5,000 ÷ 250 = 20 (4 markers in every km)."},
+{"t": "One shirt needs 1 m 80 cm of cloth. How many metres for 20 shirts?", "n": 36, "u": "m", "k": "20*180//100", "e": "20 × 1 m = 20 m and 20 × 80 cm = 1,600 cm = 16 m. Together 36 m."},
 {"t": "Raju’s home is 2 km 350 m from the market. He goes there and back TWICE in a day. How far, in m?", "n": 9400, "u": "m", "k": "2350*4", "e": "There and back twice is 4 trips of 2,350 m."},
-{"t": "Which is 1 km more than 4,500 m?", "o": ["5 km 500 m", "4 km 600 m", "5 km 50 m", "14 km 500 m"], "e": "4,500 m + 1,000 m = 5,500 m = 5 km 500 m."},
+{"t": "5 m of cloth costs ₹100. How much do 12 m cost, in rupees?", "n": 240, "u": "₹", "k": "100//5*12", "e": "First find the cost of ONE metre: ₹100 ÷ 5 = ₹20. Then 12 m cost 12 × ₹20 = ₹240."},
 {"t": "A 12 m rope is cut into pieces of 75 cm. How many pieces?", "n": 16, "k": "1200//75", "e": "12 m = 1,200 cm. 4 pieces make 300 cm, so 1,200 cm makes 4 × 4 = 16."},
 {"t": "Tina cycles 3 km 400 m in the morning and 2 km 800 m in the evening. How much MORE in the morning, in m?", "n": 600, "u": "m", "k": "3400-2800", "e": "3,400 m − 2,800 m = 600 m."},
 {"t": "A tree is 6 m 30 cm tall and a pole is 480 cm tall. How much taller is the tree, in cm?", "n": 150, "u": "cm", "k": "630-480", "e": "Change to the same unit: 630 cm − 480 cm = 150 cm."}

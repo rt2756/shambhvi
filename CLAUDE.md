@@ -2,6 +2,12 @@
 
 Guidance for AI assistants working in this repository.
 
+## Start here
+
+**Read `PLAN.md` first.** It holds the agreed plan, what's done, what's next, and learnings.
+Do the next item, then update `PLAN.md` (tick it, add learnings). Work **one session at a time** —
+don't start parallel or child sessions.
+
 ## What this repo is
 
 CBSE / NCERT revision for a school student, **bucketed by class (5–10)**, published via
