@@ -74,6 +74,15 @@ class Fig:
         self._track(add(p, (0, 12)), add(p, (0, -6)))
         self.items.append(("text", p, s, color, anchor, bold, size))
 
+    def label(self, p, s, color=INK, anchor="middle", bold=False, size=15):
+        """Like text(), but also keeps the text's estimated width inside the picture, so long
+        labels anchored at one end are not clipped. (text() is kept as it was so existing
+        figures are drawn exactly the same.)"""
+        w = len(s) * size * (0.6 if bold else 0.56)
+        x0 = {"start": p[0], "end": p[0] - w, "middle": p[0] - w / 2}[anchor]
+        self._track(P(x0, p[1]), P(x0 + w, p[1]))
+        self.text(p, s, color=color, anchor=anchor, bold=bold, size=size)
+
     def poly(self, ps, fill="#ffe0b2", color=INK):
         self._track(*ps)
         self.items.append(("fillpoly", ps, fill, color))

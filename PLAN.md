@@ -79,7 +79,7 @@ batch's *Done* entry saying why it is fine (e.g. "no figures: a chapter on numbe
 
 **Class 7 maths** (*Ganita Prakash* Part 1 + Part 2)
 - [x] Ch 5 Parallel and Intersecting Lines — pilot, commit `29069e5`
-- [ ] Ch 1 Large Numbers Around Us · Ch 2 Arithmetic Expressions · Ch 3 A Peek Beyond the Point
+- [x] Ch 1 Large Numbers Around Us · Ch 2 Arithmetic Expressions · Ch 3 A Peek Beyond the Point (2026-11-27)
 - [ ] Ch 4 Expressions using Letter-Numbers · Ch 6 Number Play · Ch 8 Working with Fractions
 - [ ] Ch 7 A Tale of Three Intersecting Lines · Ch 9 Geometric Twins (figure-heavy)
 - [ ] Ch 10 Operations with Integers · Ch 11 Finding Common Ground · Ch 12 Another Peek Beyond the Point
@@ -199,6 +199,21 @@ book's activities and questions.
 - 2026-11-27 — Class 10 maths **tests** (14 chapters, 560 Qs, checker passes; ~75% reused from the old
   19 files, out-of-syllabus ones replaced). Old test files and `content/class10/math-questions/` removed.
   Commit `9062054`, merged to `main`.
+- 2026-11-27 — Class 7 maths Ch 1, 2, 3 rewritten to the notes standard (99 + 98 + 102 Check-yourself
+  answers, 26 + 17 + 35 exercises; 7 + 6 + 16 figures from `tools/figures/class7_math_{1,2,3}.py`).
+  Checker passes. Soft warnings looked at and left: no other warnings for Ch 1; Ch 2 and Ch 3 have many
+  one-line fill-in answers (blanks, conversions, single sums), so "% answers with steps" (19%, 15%) and
+  Ch 3's "avg words per answer" (29) are low; the longer answers do have steps. Answer-key differences
+  (trust these notes): Ch 1 Q3 key's 987654312 is wrong (only 123456789 works); Ch 1 Q6(c) the 5000th
+  "5" is in 13,495, not 13,995; Ch 1 Q9(a) the largest sum is 99,87,654 + 87,654 = 1,00,75,308 (key
+  1,00,54,320); Ch 1 Q10 (c) and (e) key uses cards that don't exist (×4, ×14) — exact answers found
+  for (a)–(d), 20,91,000 for (e); Ch 1 Q2 is 61 letters with "lakhs" as in the question's example (key
+  60); Ch 1 fact 52,00,00,00,000 ÷ 130 = 4 crore (old notes said 40 crore); Ch 1 Q5 (no two consecutive
+  names without a shared letter) has no key answer: none exist. Ch 2 Q2 of "remove brackets" key is
+  garbled; Ch 2 end Q4(a) and Figure it Out Q4(b) print the same expression more than once (kept, and
+  said so). Ch 3 end Q10 prints 6.18, 6.17 but the pattern and key give 8.18, 8.17. Picture-only
+  questions the key doesn't answer (Ch 3 objects measured "two ways", fill-the-boxes line) became a
+  Try this / a redrawn figure with our own values; the wire picture uses the key's values.
 
 ## Learnings
 
@@ -216,5 +231,16 @@ book's activities and questions.
   (Ch 2), cross-multiplication + equations reducible to linear (Ch 3), areas of similar triangles +
   Pythagoras proofs (Ch 6), area of a triangle + centroid (Ch 7), complementary-angle ratios (Ch 8),
   melting/recasting + frustums (Ch 12), ogives (Ch 13). Keep tests clear of these.
+- `geo.py` `Fig.text()` only keeps the anchor point inside the picture, so long labels get clipped;
+  new scripts use `Fig.label()` (same look, width-aware). `text()` is unchanged so the pilot's SVGs still match.
+- Class 7 Part 1 PDF: book page = PDF page − 18 for Ch 1 (Ch 1 text PDF 19–41, its answers 42–56;
+  Ch 2 text 57–78, answers 79–96; Ch 3 text 97–131, answers 132–151; Ch 4 starts at 152). Each chapter's
+  answer key sits right after the chapter, not at the back of the book.
+- `pdftotext -layout` scrambles stacked fractions (Ch 3); read the answer key and zoom on the page
+  image (`pdftoppm -r 150 -x … -y … -W … -H …`) for number lines and pictures.
+- A `> [!ANSWER]` outside a `### Check yourself` / `## Exercises` section is not counted by the checker;
+  after writing, list answers outside sections (see how Ch 1's estimates were caught) before setting counts.
+- Python's `http.server` (the `static` preview) sometimes drops parallel fetches; reload the page if it
+  says "Couldn't load this page".
 - The answer keys printed in NCERT books sometimes have slips (e.g. class 9 science Ch 2 Q11) —
   trust the chapter text and say so in the notes.

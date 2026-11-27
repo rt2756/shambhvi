@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 422 224" width="422" height="224" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<circle cx="96.4" cy="14.0" r="3.6" fill="#64b5f6"/>
+<circle cx="122.4" cy="14.0" r="3.6" fill="#64b5f6"/>
+<circle cx="148.4" cy="14.0" r="3.6" fill="#64b5f6"/>
+<circle cx="174.4" cy="14.0" r="3.6" fill="#64b5f6"/>
+<circle cx="200.4" cy="14.0" r="3.6" fill="#64b5f6"/>
+<circle cx="96.4" cy="40.0" r="3.6" fill="#64b5f6"/>
+<circle cx="122.4" cy="40.0" r="3.6" fill="#64b5f6"/>
+<circle cx="148.4" cy="40.0" r="3.6" fill="#64b5f6"/>
+<circle cx="174.4" cy="40.0" r="3.6" fill="#64b5f6"/>
+<circle cx="200.4" cy="40.0" r="3.6" fill="#64b5f6"/>
+<circle cx="96.4" cy="66.0" r="3.6" fill="#64b5f6"/>
+<circle cx="122.4" cy="66.0" r="3.6" fill="#64b5f6"/>
+<circle cx="148.4" cy="66.0" r="3.6" fill="#64b5f6"/>
+<circle cx="174.4" cy="66.0" r="3.6" fill="#64b5f6"/>
+<circle cx="200.4" cy="66.0" r="3.6" fill="#64b5f6"/>
+<circle cx="96.4" cy="92.0" r="3.6" fill="#64b5f6"/>
+<circle cx="122.4" cy="92.0" r="3.6" fill="#64b5f6"/>
+<circle cx="148.4" cy="92.0" r="3.6" fill="#64b5f6"/>
+<circle cx="174.4" cy="92.0" r="3.6" fill="#64b5f6"/>
+<circle cx="200.4" cy="92.0" r="3.6" fill="#64b5f6"/>
+<circle cx="96.4" cy="118.0" r="3.6" fill="#e57373"/>
+<circle cx="122.4" cy="118.0" r="3.6" fill="#e57373"/>
+<circle cx="148.4" cy="118.0" r="3.6" fill="#e57373"/>
+<circle cx="174.4" cy="118.0" r="3.6" fill="#e57373"/>
+<circle cx="200.4" cy="118.0" r="3.6" fill="#e57373"/>
+<circle cx="96.4" cy="144.0" r="3.6" fill="#e57373"/>
+<circle cx="122.4" cy="144.0" r="3.6" fill="#e57373"/>
+<circle cx="148.4" cy="144.0" r="3.6" fill="#e57373"/>
+<circle cx="174.4" cy="144.0" r="3.6" fill="#e57373"/>
+<circle cx="200.4" cy="144.0" r="3.6" fill="#e57373"/>
+<circle cx="96.4" cy="170.0" r="3.6" fill="#e57373"/>
+<circle cx="122.4" cy="170.0" r="3.6" fill="#e57373"/>
+<circle cx="148.4" cy="170.0" r="3.6" fill="#e57373"/>
+<circle cx="174.4" cy="170.0" r="3.6" fill="#e57373"/>
+<circle cx="200.4" cy="170.0" r="3.6" fill="#e57373"/>
+<text x="226.4" y="57.5" font-size="13" fill="#64b5f6" text-anchor="start">4 rows of 5 scouts: 4 × 5</text>
+<text x="226.4" y="148.6" font-size="13" fill="#e57373" text-anchor="start">3 rows of 5 guides: 3 × 5</text>
+<text x="148.4" y="208.7" font-size="14" fill="#263238" text-anchor="middle" font-weight="bold">(4 + 3) × 5 = 4 × 5 + 3 × 5 = 35</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 417 349" width="417" height="349" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="145.2,335.0 295.2,335.0 295.2,317.0 145.2,317.0" fill="#8d6e63" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="145.2,317.0 295.2,317.0 295.2,287.0 145.2,287.0" fill="#bbdefb" stroke="#bbdefb" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="145.2,287.0 295.2,287.0 295.2,275.0 145.2,275.0" fill="#455a64" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="145.2,275.0 295.2,275.0 295.2,245.0 145.2,245.0" fill="#bbdefb" stroke="#bbdefb" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="145.2,245.0 295.2,245.0 295.2,233.0 145.2,233.0" fill="#455a64" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="145.2,233.0 295.2,233.0 295.2,203.0 145.2,203.0" fill="#bbdefb" stroke="#bbdefb" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="145.2,203.0 295.2,203.0 295.2,191.0 145.2,191.0" fill="#455a64" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="145.2,191.0 295.2,191.0 295.2,161.0 145.2,161.0" fill="#bbdefb" stroke="#bbdefb" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="145.2,161.0 295.2,161.0 295.2,149.0 145.2,149.0" fill="#455a64" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="145.2,149.0 295.2,149.0 295.2,119.0 145.2,119.0" fill="#bbdefb" stroke="#bbdefb" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="145.2,119.0 295.2,119.0 295.2,107.0 145.2,107.0" fill="#455a64" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="145.2,107.0 295.2,107.0 295.2,77.0 145.2,77.0" fill="#bbdefb" stroke="#bbdefb" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="145.2,77.0 295.2,77.0 295.2,65.0 145.2,65.0" fill="#455a64" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="145.2,65.0 295.2,65.0 295.2,35.0 145.2,35.0" fill="#bbdefb" stroke="#bbdefb" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="145.2,35.0 295.2,35.0 295.2,17.0 145.2,17.0" fill="#8d6e63" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="299.2" y1="26.0" x2="319.2" y2="26.0" stroke="#8a969c" stroke-width="1.2" stroke-linecap="round"/>
+<text x="323.2" y="30.6" font-size="13" fill="#263238" text-anchor="start">Border 3 cm</text>
+<line x1="299.2" y1="50.0" x2="319.2" y2="50.0" stroke="#8a969c" stroke-width="1.2" stroke-linecap="round"/>
+<text x="323.2" y="54.5" font-size="13" fill="#263238" text-anchor="start">Gap 5 cm</text>
+<line x1="299.2" y1="71.0" x2="319.2" y2="71.0" stroke="#8a969c" stroke-width="1.2" stroke-linecap="round"/>
+<text x="323.2" y="75.5" font-size="13" fill="#263238" text-anchor="start">Grill 2 cm</text>
+<line x1="129.2" y1="335.0" x2="129.2" y2="17.0" stroke="#c62828" stroke-width="1.6" stroke-linecap="round"/>
+<text x="123.2" y="180.6" font-size="13" fill="#c62828" text-anchor="end" font-weight="bold">total height ?</text>
+</svg>
