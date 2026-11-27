@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 186" width="288" height="186" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="65.2,152.0 225.2,152.0 225.2,112.0 65.2,112.0" fill="#ffe0b2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="65.2,112.0 225.2,112.0 225.2,32.0 65.2,32.0" fill="#fff3e0" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="65.2" y1="152.0" x2="225.2" y2="32.0" stroke="#c62828" stroke-width="3" stroke-linecap="round"/>
+<circle cx="65.2" cy="152.0" r="3.6" fill="#c62828"/>
+<circle cx="225.2" cy="32.0" r="3.6" fill="#c62828"/>
+<line x1="65.2" y1="152.0" x2="225.2" y2="152.0" stroke="#1565c0" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6,4"/>
+<line x1="225.2" y1="152.0" x2="225.2" y2="32.0" stroke="#1565c0" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6,4"/>
+<text x="39.2" y="161.2" font-size="15" fill="#263238" text-anchor="middle">spider</text>
+<text x="249.2" y="31.2" font-size="15" fill="#263238" text-anchor="middle">target</text>
+<text x="145.2" y="170.2" font-size="12" fill="#263238" text-anchor="middle">4</text>
+<text x="237.2" y="136.2" font-size="12" fill="#263238" text-anchor="middle">1</text>
+<text x="237.2" y="76.2" font-size="12" fill="#263238" text-anchor="middle">2</text>
+<text x="113.2" y="87.2" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">5</text>
+<text x="145.2" y="135.8" font-size="11" fill="#8a969c" text-anchor="middle">front face</text>
+<text x="145.2" y="55.9" font-size="11" fill="#8a969c" text-anchor="middle">top face</text>
+</svg>

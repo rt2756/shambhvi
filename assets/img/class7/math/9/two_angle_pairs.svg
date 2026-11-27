@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 255" width="260" height="255" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="110.2" y1="40.0" x2="30.2" y2="130.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="110.2" y1="40.0" x2="230.2" y2="130.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="110.2" y1="220.0" x2="30.2" y2="130.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="110.2" y1="220.0" x2="230.2" y2="130.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="30.2" y1="130.0" x2="230.2" y2="130.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="110.2" cy="40.0" r="3.6" fill="#263238"/>
+<text x="110.2" y="31.2" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<circle cx="30.2" cy="130.0" r="3.6" fill="#263238"/>
+<text x="18.2" y="135.2" font-size="15" fill="#263238" text-anchor="middle">B</text>
+<circle cx="230.2" cy="130.0" r="3.6" fill="#263238"/>
+<text x="242.2" y="135.2" font-size="15" fill="#263238" text-anchor="middle">C</text>
+<circle cx="110.2" cy="220.0" r="3.6" fill="#263238"/>
+<text x="110.2" y="240.2" font-size="15" fill="#263238" text-anchor="middle">D</text>
+<path d="M52.2,130.0 A22,22 0 0 0 44.8,113.6" fill="none" stroke="#263238" stroke-width="1.8"/>
+<text x="64.0" y="120.0" font-size="15" fill="#263238" text-anchor="middle"></text>
+<path d="M44.8,146.4 A22,22 0 0 0 52.2,130.0" fill="none" stroke="#263238" stroke-width="1.8"/>
+<text x="64.0" y="150.4" font-size="15" fill="#263238" text-anchor="middle"></text>
+<path d="M215.8,119.2 A18,18 0 0 0 212.2,130.0" fill="none" stroke="#263238" stroke-width="1.8"/>
+<text x="198.9" y="124.8" font-size="15" fill="#263238" text-anchor="middle"></text>
+<path d="M211.8,116.2 A23,23 0 0 0 207.2,130.0" fill="none" stroke="#263238" stroke-width="1.8"/>
+<text x="194.2" y="123.2" font-size="15" fill="#263238" text-anchor="middle"></text>
+<path d="M212.2,130.0 A18,18 0 0 0 215.8,140.8" fill="none" stroke="#263238" stroke-width="1.8"/>
+<text x="198.9" y="145.7" font-size="15" fill="#263238" text-anchor="middle"></text>
+<path d="M207.2,130.0 A23,23 0 0 0 211.8,143.8" fill="none" stroke="#263238" stroke-width="1.8"/>
+<text x="194.2" y="147.2" font-size="15" fill="#263238" text-anchor="middle"></text>
+</svg>

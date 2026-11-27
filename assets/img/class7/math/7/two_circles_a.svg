@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248 196" width="248" height="196" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<circle cx="84.0" cy="100.6" r="70.0" fill="none" stroke="#263238" stroke-width="1.8"/>
+<circle cx="154.0" cy="100.6" r="70.0" fill="none" stroke="#263238" stroke-width="1.8"/>
+<circle cx="84.0" cy="100.6" r="3.6" fill="#263238"/>
+<text x="74.0" y="97.8" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<circle cx="154.0" cy="100.6" r="3.6" fill="#263238"/>
+<text x="164.0" y="97.8" font-size="15" fill="#263238" text-anchor="middle">B</text>
+<polygon points="84.0,100.6 154.0,100.6 119.0,40.0" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="84.0,100.6 154.0,100.6 119.0,161.2" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2" stroke-linejoin="round"/>
+<line x1="84.0" y1="100.6" x2="217.4" y2="71.0" stroke="#1565c0" stroke-width="2" stroke-linecap="round"/>
+<line x1="154.0" y1="100.6" x2="217.4" y2="71.0" stroke="#1565c0" stroke-width="2" stroke-linecap="round"/>
+<circle cx="119.0" cy="40.0" r="3.6" fill="#263238"/>
+<text x="119.0" y="31.2" font-size="15" fill="#263238" text-anchor="middle">C</text>
+<circle cx="119.0" cy="161.2" r="3.6" fill="#263238"/>
+<text x="119.0" y="181.4" font-size="15" fill="#263238" text-anchor="middle">D</text>
+<circle cx="217.4" cy="71.0" r="3.6" fill="#263238"/>
+<text x="229.4" y="72.2" font-size="15" fill="#263238" text-anchor="middle">E</text>
+<circle cx="84.0" cy="100.6" r="3.6" fill="#263238"/>
+<circle cx="154.0" cy="100.6" r="3.6" fill="#263238"/>
+</svg>

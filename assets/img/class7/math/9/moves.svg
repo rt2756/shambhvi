@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 479 136" width="479" height="136" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="15.2,94.0 75.2,94.0 75.2,74.0 35.2,74.0 35.2,14.0 15.2,14.0" fill="#ffe0b2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="45.2" y="120.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">original</text>
+<polygon points="145.2,94.0 205.2,94.0 205.2,74.0 165.2,74.0 165.2,14.0 145.2,14.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="175.2" y="120.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">slid</text>
+<polygon points="335.2,94.0 335.2,34.0 315.2,34.0 315.2,74.0 255.2,74.0 255.2,94.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="305.2" y="120.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">turned</text>
+<polygon points="465.2,94.0 405.2,94.0 405.2,74.0 445.2,74.0 445.2,14.0 465.2,14.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="435.2" y="120.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">flipped</text>
+</svg>

@@ -81,7 +81,7 @@ batch's *Done* entry saying why it is fine (e.g. "no figures: a chapter on numbe
 - [x] Ch 5 Parallel and Intersecting Lines — pilot, commit `29069e5`
 - [x] Ch 1 Large Numbers Around Us · Ch 2 Arithmetic Expressions · Ch 3 A Peek Beyond the Point (2026-11-27)
 - [x] Ch 4 Expressions using Letter-Numbers · Ch 6 Number Play · Ch 8 Working with Fractions (2026-11-27)
-- [ ] Ch 7 A Tale of Three Intersecting Lines · Ch 9 Geometric Twins (figure-heavy)
+- [x] Ch 7 A Tale of Three Intersecting Lines · Ch 9 Geometric Twins (2026-11-27)
 - [ ] Ch 10 Operations with Integers · Ch 11 Finding Common Ground · Ch 12 Another Peek Beyond the Point
 - [ ] Ch 13 Connecting the Dots… · Ch 15 Finding the Unknown
 - [ ] Ch 14 Constructions and Tilings (figure-heavy: step-by-step construction drawings)
@@ -229,6 +229,18 @@ book's activities and questions.
   pictures, grids and cryptarithms were solved by trying every case in a script (each has one answer;
   Grid B has two). Ch 6's height arrangements and Ch 8's shaded-square puzzles are our own drawings
   with values matching the key (3/32, 3/8, 1/16; ants 29/32 and 3/32).
+- 2026-11-27 — Class 7 maths Ch 7 and Ch 9 rewritten to the notes standard (67 + 19 Check-yourself
+  answers, 6 + 19 exercises; 40 + 35 figures from `tools/figures/class7_math_{7,9}.py`). Checker passes
+  with no soft warnings for either (Ch 7's construction and third-angle answers were turned into numbered
+  steps to get there; its many one-line "longest < sum of the other two" checks stay short). Ch 7 has no
+  separate end-of-chapter set: the last Figure it Out (altitudes, right triangles, special triangles) plus
+  the shortest-path-in-a-box puzzle are its Exercises. Ch 7 answer key matches; no slips found. Ch 9 is
+  Part 2 Ch 1 and **Part 2 prints no answer key**, so every answer was worked out here (the 6-congruent-
+  regions puzzle by trying all tetrominoes in a script: only the L-shape works). Picture-only questions
+  (bent figures, look-alike pairs, branch figures) are redrawn with our own shapes and values; the big
+  "find the missing angles" figure became six small figures (a)-(f) using the same angles (68°, 34°, 90°,
+  60°, 44°, 34°/56°). Ch 9's "Are ∆DFE and ∆GED congruent?": the triangles are, but the naming must be
+  ∆DFE ≅ ∆DGE — the notes say both.
 
 ## Learnings
 
@@ -266,3 +278,10 @@ book's activities and questions.
 - "for example 5" trips the book-example check; write "for instance" or "say" before a number.
 - A quick way to look at a new script's figures: write a throwaway HTML page listing the SVGs, open it
   in the `static` preview, then delete it (plain `rm` may be blocked; `python3 -c "import os; os.remove(…)"` works).
+- `geo.py` now has `circle()`, `carc()` (compass arcs) and `ticks()` (equal-side marks); the older chapters'
+  SVGs are unchanged. `class7_math_7.py` / `_9.py` have `sss()`, `asa()`, `side()` (width-aware length
+  labels) and `eq_ticks()` (asserts ticked sides really are equal) — copy them for later geometry chapters.
+- Class 7 Part 1 PDF: Ch 7 text 259–285, answers 286–292. Part 2 PDF: Ch 1 (site Ch 9) text 19–41; Part 2
+  has **no answer key**, so solve and double-check everything for site Ch 9–15.
+- In a Check-yourself section, a question stem followed by parts (a), (b) must not start with `**4.**`
+  (the checker then wants its own answer); write `**Question 4.**` instead.

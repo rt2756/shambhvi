@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 282 168" width="282" height="168" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="99.4" y1="132.8" x2="249.4" y2="132.8" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="249.4" y1="132.8" x2="30.6" y2="34.5" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="30.6" y1="34.5" x2="99.4" y2="132.8" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="99.4" cy="132.8" r="3.6" fill="#263238"/>
+<text x="89.9" y="149.6" font-size="15" fill="#263238" text-anchor="middle">B</text>
+<circle cx="249.4" cy="132.8" r="3.6" fill="#263238"/>
+<text x="263.9" y="141.8" font-size="15" fill="#263238" text-anchor="middle">C</text>
+<circle cx="30.6" cy="34.5" r="3.6" fill="#263238"/>
+<text x="18.2" y="31.2" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<line x1="30.6" y1="132.8" x2="99.4" y2="132.8" stroke="#263238" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="7,4"/>
+<line x1="30.6" y1="34.5" x2="30.6" y2="132.8" stroke="#1565c0" stroke-width="2.4" stroke-linecap="round"/>
+<polyline points="41.6,132.8 41.6,121.8 30.6,121.8" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<circle cx="30.6" cy="132.8" r="3.6" fill="#1565c0"/>
+<text x="30.6" y="153.1" font-size="15" fill="#1565c0" text-anchor="middle">D</text>
+<path d="M117.4,132.8 A18,18 0 0 0 89.1,118.0" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="114.2" y="109.7" font-size="15" fill="#1565c0" text-anchor="middle">125°</text>
+</svg>

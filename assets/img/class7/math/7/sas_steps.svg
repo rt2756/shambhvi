@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214 159" width="214" height="159" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="32.3" y1="125.8" x2="142.6" y2="15.4" stroke="#8a969c" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="6,4"/>
+<line x1="32.3" y1="125.8" x2="182.3" y2="125.8" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="182.3" y1="125.8" x2="117.2" y2="40.9" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="117.2" y1="40.9" x2="32.3" y2="125.8" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="32.3" cy="125.8" r="3.6" fill="#263238"/>
+<text x="18.2" y="136.1" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<circle cx="182.3" cy="125.8" r="3.6" fill="#263238"/>
+<text x="196.3" y="136.6" font-size="15" fill="#263238" text-anchor="middle">B</text>
+<circle cx="117.2" cy="40.9" r="3.6" fill="#263238"/>
+<text x="118.9" y="31.2" font-size="15" fill="#263238" text-anchor="middle">C</text>
+<path d="M58.3,125.8 A26,26 0 0 0 50.7,107.4" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="71.1" y="115.0" font-size="15" fill="#1565c0" text-anchor="middle">45°</text>
+<text x="107.3" y="143.4" font-size="13" fill="#1565c0" text-anchor="middle">5 cm</text>
+<text x="58.3" y="71.5" font-size="13" fill="#1565c0" text-anchor="middle">4 cm</text>
+</svg>

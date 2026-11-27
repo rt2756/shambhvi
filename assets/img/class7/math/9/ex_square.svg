@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 206" width="196" height="206" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="28.2,36.0 168.2,36.0 168.2,176.0 28.2,176.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="28.2" y1="36.0" x2="168.2" y2="176.0" stroke="#1565c0" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="28.2" cy="36.0" r="3.6" fill="#263238"/>
+<text x="18.2" y="31.2" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<circle cx="168.2" cy="36.0" r="3.6" fill="#263238"/>
+<text x="178.2" y="31.2" font-size="15" fill="#263238" text-anchor="middle">B</text>
+<circle cx="168.2" cy="176.0" r="3.6" fill="#263238"/>
+<text x="178.2" y="191.2" font-size="15" fill="#263238" text-anchor="middle">C</text>
+<circle cx="28.2" cy="176.0" r="3.6" fill="#263238"/>
+<text x="18.2" y="191.2" font-size="15" fill="#263238" text-anchor="middle">D</text>
+<polyline points="28.2,47.0 39.2,47.0 39.2,36.0" fill="none" stroke="#263238" stroke-width="1.6"/>
+<polyline points="157.2,36.0 157.2,47.0 168.2,47.0" fill="none" stroke="#263238" stroke-width="1.6"/>
+<polyline points="168.2,165.0 157.2,165.0 157.2,176.0" fill="none" stroke="#263238" stroke-width="1.6"/>
+<polyline points="39.2,176.0 39.2,165.0 28.2,165.0" fill="none" stroke="#263238" stroke-width="1.6"/>
+<line x1="98.2" y1="29.0" x2="98.2" y2="43.0" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="175.2" y1="106.0" x2="161.2" y2="106.0" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="98.2" y1="183.0" x2="98.2" y2="169.0" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="21.2" y1="106.0" x2="35.2" y2="106.0" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

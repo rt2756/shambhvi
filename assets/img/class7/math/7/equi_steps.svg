@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 529 205" width="529" height="205" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="31.3" y1="144.9" x2="151.3" y2="144.9" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="31.3" cy="144.9" r="3.6" fill="#263238"/>
+<circle cx="151.3" cy="144.9" r="3.6" fill="#263238"/>
+<text x="25.3" y="164.2" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<text x="157.3" y="164.2" font-size="15" fill="#263238" text-anchor="middle">B</text>
+<text x="91.3" y="162.5" font-size="13" fill="#1565c0" text-anchor="middle">4 cm</text>
+<path d="M129.6,76.1 A120.0,120.0 0 0 0 41.7,25.4" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<text x="91.3" y="189.1" font-size="12" fill="#263238" text-anchor="middle">Step 1: arc 4 cm from A</text>
+<line x1="206.3" y1="144.9" x2="326.3" y2="144.9" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="206.3" cy="144.9" r="3.6" fill="#263238"/>
+<circle cx="326.3" cy="144.9" r="3.6" fill="#263238"/>
+<text x="200.3" y="164.2" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<text x="332.3" y="164.2" font-size="15" fill="#263238" text-anchor="middle">B</text>
+<text x="266.3" y="162.5" font-size="13" fill="#1565c0" text-anchor="middle">4 cm</text>
+<path d="M304.6,76.1 A120.0,120.0 0 0 0 216.7,25.4" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<path d="M315.8,25.4 A120.0,120.0 0 0 0 228.0,76.1" fill="none" stroke="#c62828" stroke-width="1.6"/>
+<text x="266.3" y="189.1" font-size="12" fill="#263238" text-anchor="middle">Step 2: arc 4 cm from B</text>
+<line x1="381.3" y1="144.9" x2="501.3" y2="144.9" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="381.3" cy="144.9" r="3.6" fill="#263238"/>
+<circle cx="501.3" cy="144.9" r="3.6" fill="#263238"/>
+<text x="375.3" y="164.2" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<text x="507.3" y="164.2" font-size="15" fill="#263238" text-anchor="middle">B</text>
+<text x="441.3" y="162.5" font-size="13" fill="#1565c0" text-anchor="middle">4 cm</text>
+<path d="M479.6,76.1 A120.0,120.0 0 0 0 391.7,25.4" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<path d="M490.8,25.4 A120.0,120.0 0 0 0 403.0,76.1" fill="none" stroke="#c62828" stroke-width="1.6"/>
+<line x1="381.3" y1="144.9" x2="441.3" y2="41.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="501.3" y1="144.9" x2="441.3" y2="41.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="441.3" cy="41.0" r="3.6" fill="#263238"/>
+<text x="441.3" y="31.2" font-size="15" fill="#263238" text-anchor="middle">C</text>
+<text x="441.3" y="189.1" font-size="12" fill="#263238" text-anchor="middle">Step 3: join AC and BC</text>
+</svg>

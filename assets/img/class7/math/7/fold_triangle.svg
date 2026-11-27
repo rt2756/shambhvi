@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 304" width="384" height="304" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="48.0,245.7 288.0,245.7 192.1,40.0" fill="#fff3e0" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="120.0" y1="142.9" x2="240.0" y2="142.9" stroke="#8a969c" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="6,4"/>
+<line x1="120.0" y1="142.9" x2="120.0" y2="245.7" stroke="#8a969c" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="6,4"/>
+<line x1="240.0" y1="142.9" x2="240.0" y2="245.7" stroke="#8a969c" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="6,4"/>
+<circle cx="192.1" cy="245.7" r="3.6" fill="#c62828"/>
+<text x="192.1" y="31.2" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<text x="38.0" y="260.9" font-size="15" fill="#263238" text-anchor="middle">B</text>
+<text x="298.0" y="260.9" font-size="15" fill="#263238" text-anchor="middle">C</text>
+<text x="192.1" y="265.9" font-size="15" fill="#263238" text-anchor="middle">D</text>
+<path d="M210.1,245.7 A18,18 0 0 0 199.7,229.4" fill="none" stroke="#c62828" stroke-width="1.8"/>
+<text x="219.1" y="233.8" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">C</text>
+<path d="M199.7,229.4 A18,18 0 0 0 181.8,231.0" fill="none" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="189.3" y="219.2" font-size="15" fill="#2e7d32" text-anchor="middle">A</text>
+<path d="M181.8,231.0 A18,18 0 0 0 174.1,245.7" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="163.7" y="236.2" font-size="15" fill="#1565c0" text-anchor="middle">B</text>
+<text x="192.1" y="287.9" font-size="12" fill="#263238" text-anchor="middle">fold along the dashed lines: A, B and C all land on D</text>
+</svg>

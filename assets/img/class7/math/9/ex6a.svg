@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 117" width="148" height="117" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="14.0" y1="103.0" x2="134.0" y2="103.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="134.0" y1="103.0" x2="74.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="74.0" y1="14.0" x2="14.0" y2="103.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M65.1,27.3 A16,16 0 0 0 82.9,27.3" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="74.0" y="49.2" font-size="15" fill="#1565c0" text-anchor="middle">68°</text>
+<path d="M32.0,103.0 A18,18 0 0 0 24.1,88.0" fill="none" stroke="#c62828" stroke-width="1.8"/>
+<text x="42.3" y="93.2" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">?</text>
+<path d="M123.9,88.0 A18,18 0 0 0 116.0,103.0" fill="none" stroke="#c62828" stroke-width="1.8"/>
+<text x="105.7" y="93.2" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">?</text>
+<line x1="38.2" y1="54.6" x2="49.8" y2="62.4" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="98.2" y1="62.4" x2="109.8" y2="54.6" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 198" width="550" height="198" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="68.8" y1="143.3" x2="218.8" y2="143.3" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="218.8" y1="143.3" x2="72.5" y2="38.4" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="72.5" y1="38.4" x2="68.8" y2="143.3" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="68.8" cy="143.3" r="3.6" fill="#263238"/>
+<text x="56.4" y="157.1" font-size="15" fill="#263238" text-anchor="middle">E</text>
+<circle cx="218.8" cy="143.3" r="3.6" fill="#263238"/>
+<text x="232.9" y="153.7" font-size="15" fill="#263238" text-anchor="middle">D</text>
+<circle cx="72.5" cy="38.4" r="3.6" fill="#263238"/>
+<text x="64.1" y="31.2" font-size="15" fill="#263238" text-anchor="middle">R</text>
+<text x="143.8" y="160.9" font-size="13" fill="#1565c0" text-anchor="middle">5 cm</text>
+<text x="35.8" y="94.1" font-size="13" fill="#1565c0" text-anchor="middle">3.5 cm</text>
+<text x="158.2" y="78.0" font-size="13" fill="#1565c0" text-anchor="middle">6 cm</text>
+<line x1="338.8" y1="83.3" x2="406.3" y2="163.8" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="406.3" y1="163.8" x2="517.7" y2="63.3" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="517.7" y1="63.3" x2="338.8" y2="83.3" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="338.8" cy="83.3" r="3.6" fill="#263238"/>
+<text x="324.2" y="85.0" font-size="15" fill="#263238" text-anchor="middle">J</text>
+<circle cx="406.3" cy="163.8" r="3.6" fill="#263238"/>
+<text x="402.7" y="183.7" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<circle cx="517.7" cy="63.3" r="3.6" fill="#263238"/>
+<text x="531.5" y="62.9" font-size="15" fill="#263238" text-anchor="middle">M</text>
+<text x="349.7" y="147.2" font-size="13" fill="#1565c0" text-anchor="middle">3.5 cm</text>
+<text x="477.2" y="135.0" font-size="13" fill="#1565c0" text-anchor="middle">5 cm</text>
+<text x="426.6" y="63.3" font-size="13" fill="#1565c0" text-anchor="middle">6 cm</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 295 234" width="295" height="234" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="30.7" y1="200.3" x2="180.7" y2="200.3" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="180.7" y1="200.3" x2="122.7" y2="40.9" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="122.7" y1="40.9" x2="30.7" y2="200.3" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="30.7" cy="200.3" r="3.6" fill="#263238"/>
+<text x="18.2" y="213.8" font-size="15" fill="#263238" text-anchor="middle">B</text>
+<circle cx="180.7" cy="200.3" r="3.6" fill="#263238"/>
+<text x="192.6" y="214.7" font-size="15" fill="#263238" text-anchor="middle">C</text>
+<circle cx="122.7" cy="40.9" r="3.6" fill="#263238"/>
+<text x="124.3" y="31.2" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<line x1="180.7" y1="200.3" x2="270.7" y2="200.3" stroke="#263238" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="7,4"/>
+<circle cx="270.7" cy="200.3" r="3.6" fill="#263238"/>
+<text x="276.7" y="219.6" font-size="15" fill="#263238" text-anchor="middle">D</text>
+<path d="M111.7,60.0 A22,22 0 0 0 130.3,61.6" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="119.4" y="84.0" font-size="15" fill="#1565c0" text-anchor="middle">50°</text>
+<path d="M54.7,200.3 A24,24 0 0 0 42.7,179.5" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="65.4" y="185.6" font-size="15" fill="#1565c0" text-anchor="middle">60°</text>
+<path d="M173.9,181.5 A20,20 0 0 0 160.7,200.3" fill="none" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="152.9" y="186.1" font-size="15" fill="#2e7d32" text-anchor="middle">70°</text>
+<path d="M208.7,200.3 A28,28 0 0 0 171.2,174.0" fill="none" stroke="#c62828" stroke-width="1.8"/>
+<text x="207.1" y="167.8" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">110°</text>
+</svg>

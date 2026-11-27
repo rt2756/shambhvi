@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 596 468" width="596" height="468" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<path d="M118.5,105.1 A120.0,120.0 0 0 0 85.5,67.6" fill="none" stroke="#8a969c" stroke-width="1.6"/>
+<path d="M122.5,67.6 A120.0,120.0 0 0 0 89.5,105.1" fill="none" stroke="#8a969c" stroke-width="1.6"/>
+<line x1="14.0" y1="164.0" x2="194.0" y2="164.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="194.0" y1="164.0" x2="104.0" y2="84.6" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="104.0" y1="84.6" x2="14.0" y2="164.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="14.0" cy="164.0" r="3.6" fill="#263238"/>
+<circle cx="194.0" cy="164.0" r="3.6" fill="#263238"/>
+<circle cx="104.0" cy="84.6" r="3.6" fill="#263238"/>
+<text x="104.0" y="181.2" font-size="12" fill="#1565c0" text-anchor="middle">6</text>
+<text x="48.9" y="117.1" font-size="12" fill="#1565c0" text-anchor="middle">4</text>
+<text x="159.1" y="117.1" font-size="12" fill="#1565c0" text-anchor="middle">4</text>
+<text x="104.0" y="204.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">(a) 4, 4, 6</text>
+<text x="104.0" y="222.6" font-size="13" fill="#2e7d32" text-anchor="middle">isosceles</text>
+<path d="M351.8,104.8 A90.0,90.0 0 0 0 321.9,82.3" fill="none" stroke="#8a969c" stroke-width="1.6"/>
+<path d="M355.1,73.6 A120.0,120.0 0 0 0 325.1,113.5" fill="none" stroke="#8a969c" stroke-width="1.6"/>
+<line x1="284.0" y1="164.0" x2="434.0" y2="164.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="434.0" y1="164.0" x2="338.0" y2="92.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="338.0" y1="92.0" x2="284.0" y2="164.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="284.0" cy="164.0" r="3.6" fill="#263238"/>
+<circle cx="434.0" cy="164.0" r="3.6" fill="#263238"/>
+<circle cx="338.0" cy="92.0" r="3.6" fill="#263238"/>
+<text x="359.0" y="181.2" font-size="12" fill="#1565c0" text-anchor="middle">5</text>
+<text x="298.4" y="122.8" font-size="12" fill="#1565c0" text-anchor="middle">3</text>
+<text x="395.0" y="120.2" font-size="12" fill="#1565c0" text-anchor="middle">4</text>
+<text x="359.0" y="204.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">(b) 3, 4, 5</text>
+<text x="359.0" y="222.6" font-size="13" fill="#2e7d32" text-anchor="middle">scalene</text>
+<path d="M569.7,21.1 A150.0,150.0 0 0 0 507.6,14.9" fill="none" stroke="#8a969c" stroke-width="1.6"/>
+<path d="M570.4,14.9 A150.0,150.0 0 0 0 508.3,21.1" fill="none" stroke="#8a969c" stroke-width="1.6"/>
+<line x1="524.0" y1="164.0" x2="554.0" y2="164.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="554.0" y1="164.0" x2="539.0" y2="14.8" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="539.0" y1="14.8" x2="524.0" y2="164.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="524.0" cy="164.0" r="3.6" fill="#263238"/>
+<circle cx="554.0" cy="164.0" r="3.6" fill="#263238"/>
+<circle cx="539.0" cy="14.8" r="3.6" fill="#263238"/>
+<text x="539.0" y="181.2" font-size="12" fill="#1565c0" text-anchor="middle">1</text>
+<text x="515.2" y="91.9" font-size="12" fill="#1565c0" text-anchor="middle">5</text>
+<text x="562.8" y="91.9" font-size="12" fill="#1565c0" text-anchor="middle">5</text>
+<text x="539.0" y="204.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">(c) 1, 5, 5</text>
+<text x="539.0" y="222.6" font-size="13" fill="#2e7d32" text-anchor="middle">isosceles</text>
+<path d="M112.8,325.9 A120.0,120.0 0 0 0 76.6,291.6" fill="none" stroke="#8a969c" stroke-width="1.6"/>
+<path d="M118.1,276.0 A180.0,180.0 0 0 0 81.8,341.5" fill="none" stroke="#8a969c" stroke-width="1.6"/>
+<line x1="14.0" y1="394.0" x2="254.0" y2="394.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="254.0" y1="394.0" x2="96.5" y2="306.9" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="96.5" y1="306.9" x2="14.0" y2="394.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="14.0" cy="394.0" r="3.6" fill="#263238"/>
+<circle cx="254.0" cy="394.0" r="3.6" fill="#263238"/>
+<circle cx="96.5" cy="306.9" r="3.6" fill="#263238"/>
+<text x="134.0" y="411.2" font-size="12" fill="#1565c0" text-anchor="middle">8</text>
+<text x="44.0" y="344.0" font-size="12" fill="#1565c0" text-anchor="middle">4</text>
+<text x="182.3" y="341.8" font-size="12" fill="#1565c0" text-anchor="middle">6</text>
+<text x="134.0" y="434.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">(d) 4, 6, 8</text>
+<text x="134.0" y="452.6" font-size="13" fill="#2e7d32" text-anchor="middle">scalene</text>
+<path d="M414.3,316.0 A105.0,105.0 0 0 0 376.4,294.1" fill="none" stroke="#8a969c" stroke-width="1.6"/>
+<path d="M416.6,294.1 A105.0,105.0 0 0 0 378.7,316.0" fill="none" stroke="#8a969c" stroke-width="1.6"/>
+<line x1="344.0" y1="394.0" x2="449.0" y2="394.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="449.0" y1="394.0" x2="396.5" y2="303.1" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="396.5" y1="303.1" x2="344.0" y2="394.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="344.0" cy="394.0" r="3.6" fill="#263238"/>
+<circle cx="449.0" cy="394.0" r="3.6" fill="#263238"/>
+<circle cx="396.5" cy="303.1" r="3.6" fill="#263238"/>
+<text x="396.5" y="411.2" font-size="12" fill="#1565c0" text-anchor="middle">3.5</text>
+<text x="351.4" y="341.9" font-size="12" fill="#1565c0" text-anchor="middle">3.5</text>
+<text x="441.6" y="341.9" font-size="12" fill="#1565c0" text-anchor="middle">3.5</text>
+<text x="396.5" y="434.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">(e) 3.5, 3.5, 3.5</text>
+<text x="396.5" y="452.6" font-size="13" fill="#2e7d32" text-anchor="middle">equilateral</text>
+</svg>

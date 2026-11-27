@@ -87,6 +87,24 @@ class Fig:
         self._track(*ps)
         self.items.append(("fillpoly", ps, fill, color))
 
+    def circle(self, c, r, color=HELP, w=1.6, dash=None):
+        """A full circle (compass drawing)."""
+        self._track(add(c, (-r, -r)), add(c, (r, r)))
+        self.items.append(("circle", c, r, color, w, dash))
+
+    def carc(self, c, r, a1, a2, color=HELP, w=1.6, dash=None):
+        """A compass arc of radius r about c, counter-clockwise from angle a1 to a2 (degrees)."""
+        sweep = (a2 - a1) % 360
+        self._track(*[along(c, a1 + sweep * k / 8, r) for k in range(9)])
+        self.items.append(("carc", c, r, a1, sweep, color, w, dash))
+
+    def ticks(self, p, q, n=1, color=INK, size=7, gap=5):
+        """n equal-length tick marks across the middle of segment pq (the 'equal sides' sign)."""
+        a = dirto(p, q); m = mul(add(p, q), 0.5)
+        for i in range(n):
+            c = along(m, a, (i - (n - 1) / 2) * gap)
+            self.seg(along(c, a + 90, size), along(c, a - 90, size), color=color, w=1.6)
+
     def svg(self, pad=14, scale=1.0):
         xs = [p[0] for p in self.pts]; ys = [p[1] for p in self.pts]
         x0, x1, y0, y1 = min(xs) - pad, max(xs) + pad, min(ys) - pad, max(ys) + pad
@@ -108,6 +126,15 @@ class Fig:
                 s, e = T(along(v, a1, r)), T(along(v, a1 + sw, r))
                 large = 1 if sw > 180 else 0
                 out.append(f'<path d="M{s[0]},{s[1]} A{r},{r} 0 {large} 0 {e[0]},{e[1]}" fill="none" stroke="{c}" stroke-width="1.8"/>')
+            elif k == "circle":
+                _, c, r, col, w, dash = it; a, b = T(c)
+                da = f' stroke-dasharray="{dash}"' if dash else ""
+                out.append(f'<circle cx="{a}" cy="{b}" r="{r:.1f}" fill="none" stroke="{col}" stroke-width="{w}"{da}/>')
+            elif k == "carc":
+                _, c, r, a1, sw, col, w, dash = it
+                s, e = T(along(c, a1, r)), T(along(c, a1 + sw, r))
+                da = f' stroke-dasharray="{dash}"' if dash else ""
+                out.append(f'<path d="M{s[0]},{s[1]} A{r:.1f},{r:.1f} 0 {1 if sw > 180 else 0} 0 {e[0]},{e[1]}" fill="none" stroke="{col}" stroke-width="{w}"{da}/>')
             elif k == "poly":
                 _, ps, c = it
                 out.append('<polyline points="' + " ".join(f"{T(p)[0]},{T(p)[1]}" for p in ps) + f'" fill="none" stroke="{c}" stroke-width="1.6"/>')

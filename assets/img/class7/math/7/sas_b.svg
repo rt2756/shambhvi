@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 112" width="246" height="112" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="33.0" y1="78.7" x2="213.0" y2="78.7" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="213.0" y1="78.7" x2="114.6" y2="40.6" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="114.6" y1="40.6" x2="33.0" y2="78.7" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="33.0" cy="78.7" r="3.6" fill="#263238"/>
+<text x="18.2" y="86.0" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<circle cx="213.0" cy="78.7" r="3.6" fill="#263238"/>
+<text x="227.9" y="86.0" font-size="15" fill="#263238" text-anchor="middle">B</text>
+<circle cx="114.6" cy="40.6" r="3.6" fill="#263238"/>
+<text x="111.4" y="31.2" font-size="15" fill="#263238" text-anchor="middle">C</text>
+<path d="M53.0,78.7 A20,20 0 0 0 51.2,70.2" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="68.2" y="76.2" font-size="15" fill="#1565c0" text-anchor="middle">25°</text>
+<text x="123.0" y="96.2" font-size="13" fill="#1565c0" text-anchor="middle">6 cm</text>
+<text x="65.7" y="46.8" font-size="13" fill="#1565c0" text-anchor="middle">3 cm</text>
+<text x="173.7" y="38.6" font-size="13" fill="#2e7d32" text-anchor="middle">BC ≈ 3.5 cm</text>
+</svg>

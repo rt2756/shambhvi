@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 183" width="244" height="183" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="32.1" y1="148.3" x2="212.1" y2="148.3" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="212.1" y1="148.3" x2="122.1" y2="41.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="122.1" y1="41.0" x2="32.1" y2="148.3" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="32.1" cy="148.3" r="3.6" fill="#263238"/>
+<text x="18.2" y="159.1" font-size="15" fill="#263238" text-anchor="middle">B</text>
+<circle cx="212.1" cy="148.3" r="3.6" fill="#263238"/>
+<text x="226.1" y="159.1" font-size="15" fill="#263238" text-anchor="middle">C</text>
+<circle cx="122.1" cy="41.0" r="3.6" fill="#263238"/>
+<text x="122.1" y="31.2" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<line x1="122.1" y1="41.0" x2="122.1" y2="148.3" stroke="#1565c0" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="6,4"/>
+<polyline points="133.1,148.3 133.1,137.3 122.1,137.3" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<circle cx="122.1" cy="148.3" r="3.6" fill="#1565c0"/>
+<text x="122.1" y="168.6" font-size="15" fill="#1565c0" text-anchor="middle">D</text>
+<path d="M109.3,56.3 A20,20 0 0 0 135.0,56.3" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="122.1" y="82.2" font-size="15" fill="#1565c0" text-anchor="middle">80°</text>
+<line x1="82.5" y1="99.1" x2="71.8" y2="90.1" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="172.5" y1="90.1" x2="161.8" y2="99.1" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
