@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 395 268" width="395" height="268" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<circle cx="142.3" cy="125.0" r="85.0" fill="none" stroke="#1565c0" stroke-width="2.2"/>
+<circle cx="252.3" cy="125.0" r="85.0" fill="none" stroke="#2e7d32" stroke-width="2.2"/>
+<text x="112.3" y="30.6" font-size="13" fill="#1565c0" text-anchor="middle" font-weight="bold">84 = 2 × 2 × 3 × 7</text>
+<text x="282.3" y="30.6" font-size="13" fill="#2e7d32" text-anchor="middle" font-weight="bold">180 = 2 × 2 × 3 × 3 × 5</text>
+<text x="102.3" y="131.3" font-size="18" fill="#263238" text-anchor="middle" font-weight="bold">7</text>
+<text x="197.3" y="117.3" font-size="18" fill="#c62828" text-anchor="middle" font-weight="bold">2  2</text>
+<text x="197.3" y="143.3" font-size="18" fill="#c62828" text-anchor="middle" font-weight="bold">3</text>
+<text x="292.3" y="131.3" font-size="18" fill="#263238" text-anchor="middle" font-weight="bold">3  5</text>
+<text x="197.3" y="232.6" font-size="13" fill="#c62828" text-anchor="middle" font-weight="bold">overlap = HCF = 2 × 2 × 3 = 12</text>
+<text x="197.3" y="252.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">everything = LCM = 2 × 2 × 3 × 7 × 3 × 5 = 1260</text>
+</svg>

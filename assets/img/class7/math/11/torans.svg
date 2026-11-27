@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 120" width="425" height="120" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="61.0,48.0 133.0,48.0 133.0,26.0 61.0,26.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="97.0" y="41.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">6</text>
+<polygon points="133.0,48.0 205.0,48.0 205.0,26.0 133.0,26.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="169.0" y="41.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">6</text>
+<polygon points="205.0,48.0 277.0,48.0 277.0,26.0 205.0,26.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="241.0" y="41.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">6</text>
+<polygon points="277.0,48.0 349.0,48.0 349.0,26.0 277.0,26.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="313.0" y="41.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">6</text>
+<polygon points="61.0,78.0 157.0,78.0 157.0,56.0 61.0,56.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="109.0" y="71.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">8</text>
+<polygon points="157.0,78.0 253.0,78.0 253.0,56.0 157.0,56.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="205.0" y="71.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">8</text>
+<polygon points="253.0,78.0 349.0,78.0 349.0,56.0 253.0,56.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="301.0" y="71.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">8</text>
+<text x="53.0" y="41.5" font-size="13" fill="#263238" text-anchor="end" font-weight="bold">Anshu</text>
+<text x="53.0" y="71.5" font-size="13" fill="#263238" text-anchor="end" font-weight="bold">Guna</text>
+<line x1="349.0" y1="88.0" x2="349.0" y2="14.0" stroke="#c62828" stroke-width="2" stroke-linecap="round" stroke-dasharray="5,4"/>
+<text x="349.0" y="104.5" font-size="13" fill="#c62828" text-anchor="middle" font-weight="bold">both reach 24 cm</text>
+</svg>

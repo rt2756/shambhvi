@@ -82,7 +82,7 @@ batch's *Done* entry saying why it is fine (e.g. "no figures: a chapter on numbe
 - [x] Ch 1 Large Numbers Around Us · Ch 2 Arithmetic Expressions · Ch 3 A Peek Beyond the Point (2026-11-27)
 - [x] Ch 4 Expressions using Letter-Numbers · Ch 6 Number Play · Ch 8 Working with Fractions (2026-11-27)
 - [x] Ch 7 A Tale of Three Intersecting Lines · Ch 9 Geometric Twins (2026-11-27)
-- [ ] Ch 10 Operations with Integers · Ch 11 Finding Common Ground · Ch 12 Another Peek Beyond the Point
+- [x] Ch 10 Operations with Integers · Ch 11 Finding Common Ground · Ch 12 Another Peek Beyond the Point (2026-11-27)
 - [ ] Ch 13 Connecting the Dots… · Ch 15 Finding the Unknown
 - [ ] Ch 14 Constructions and Tilings (figure-heavy: step-by-step construction drawings)
 
@@ -241,6 +241,20 @@ book's activities and questions.
   "find the missing angles" figure became six small figures (a)-(f) using the same angles (68°, 34°, 90°,
   60°, 44°, 34°/56°). Ch 9's "Are ∆DFE and ∆GED congruent?": the triangles are, but the naming must be
   ∆DFE ≅ ∆DGE — the notes say both.
+- 2026-11-27 — Class 7 maths Ch 10, 11, 12 rewritten to the notes standard (40 + 67 + 73 Check-yourself
+  answers, 41 + 19 + 27 exercises; 11 + 6 + 6 figures from `tools/figures/class7_math_{10,11,12}.py`:
+  number-line jumps, token bags, factor tree, Venn of primes, star rows, 1 ÷ 7 remainder cycle, leap-year
+  rule). Checker passes; the only soft warning is Ch 12 "avg words per answer" (36): many one-line
+  conversions (× 10 tables, unit blanks, decimal-place counts), as in Ch 3 and Ch 8. Figures stay below the
+  pilot's rate (number chapters; ladders and long divisions are code blocks). Part 2 has **no answer key**, so
+  every answer was worked out here and checked by script. Slips in the old notes, now fixed: Ch 10 Q15 minimum
+  is −60 ((−6) × (5 + (3 − (−2)))), not −55; Machine 2 (never solved before) is −(a × b) − c → −111; the Q7
+  machine is a − b × c → −70. Book quirks (said so in the notes): Ch 10 Q11 (b), (c) are fractions (4/81,
+  20/81), not integers; Ch 10 the "play the same game with the grid below" grid is the same grid; Ch 10 Q6(b)
+  assumes Anil sat Anita's 25-question test (5 unanswered); Ch 12 FIO Q2(b) prints options (i) and (iv) the
+  same; Ch 12 end Q8 (f) repeats (b); Ch 12 Q10 "nearest to 5" is 9.16 because no product is smaller.
+  Answers that never end (24.86 ÷ 1.2, 5.728 ÷ 1.52, 234.45 ÷ 12.6, 60 1/4 ÷ 3 1/2) are given to a few places
+  with the reason. Ch 11's Mystery Colours page became a Try this; Ch 12's Hidato puzzle page is left out.
 
 ## Learnings
 
@@ -285,3 +299,9 @@ book's activities and questions.
   has **no answer key**, so solve and double-check everything for site Ch 9–15.
 - In a Check-yourself section, a question stem followed by parts (a), (b) must not start with `**4.**`
   (the checker then wants its own answer); write `**Question 4.**` instead.
+- Class 7 Part 2 PDF: book page = PDF page − 18. Ch 2 (site Ch 10) text 42–64, Ch 3 (site 11) 65–84,
+  Ch 4 (site 12) 85–114 (the Hidato page is 113–114). Picture-only data (pattern machines, star rows, arrow
+  number lines) needs `pdftoppm` — `pdftotext` drops it.
+- Token figures: `class7_math_10.py` has `token()` (green/red, crossed = taken out), `rounds_fig()` (bag
+  pictures that assert tokens left = product) and `jump()` (flat number-line arcs) — reuse for integers in
+  other classes. A figure can sit inside a `> [!ANSWER]` block (`> ![alt](…)`); it renders and is counted.
