@@ -22,41 +22,166 @@ things on **one chapter list taken from the current NCERT book**:
 | Science | `content/class<N>/science/*.md` | `content/class<N>/science-tests/*.json` |
 | English | `content/grammar/notes/` via `manifest-class<N>.json` | `content/grammar/tests/` via `manifest-class<N>.json` |
 
-- **Notes** teach like a patient tutor explaining to a child: example → idea → rule, the *why* for
-  every rule, the book's activities and questions worked, callouts, "In a nutshell", a final
-  "Top traps" line. About 2,000–3,500 words per chapter. Style model: `content/class6/science/*.md`.
+- **Notes** follow **the notes standard in `CLAUDE.md`**: standalone (no pointers to the book),
+  teach the *why*, drawn figures, every question solved step by step, practice and end-of-chapter
+  answers behind **Show answer**. Model chapter: `content/class7/math/5.parallel-and-intersecting-lines.md`.
 - **Tests**: four levels (Simple, Hard, Harder, Hardest) × 10 questions per chapter, **same file
   names as the notes**. Format at the top of `assets/js/tests.js`. Check with
   `python3 tools/check_tests.py <N>` (or `<N>-science`, `grammar`).
 - Science stays **one subject** up to class 10, as in the NCERT book (no physics/chemistry/biology split).
 - No other page types (no practice-question sets, cheat sheets, RD Sharma, saved/links tabs).
 
-## To do
+## To do — rewrite every chapter's notes to the new standard (agreed 2026-11-27)
 
-- [ ] **User reviews the pilot:** class 7 maths Ch 5 (*Parallel and Intersecting Lines*), rewritten to
-  the new notes standard below, with 49 drawn figures. Wait for approval or changes before rolling out.
-- [ ] **After approval:** write the standard into `CLAUDE.md`, add a notes checker (flags "the book",
-  "Fig. 5.3", "Activity 2", "selected", "similar", and exercise questions with no hidden answer), then
-  roll out one subject per session: class 7 maths, 7 science, then 8, 6, 9, 10, 5.
+The class 7 maths Ch 5 pilot was approved, so every other chapter (147 of them) gets the same treatment.
+**Each box below is one session.** Do the first unticked box, nothing more.
 
-### New notes standard (pilot, agreed in principle 2026-11-27)
+### How to do one batch (every session)
 
-1. **Standalone.** No "the book", "Example 6", "Fig. 8.13", "Activity 10.9". Anything from the book is
-   written out in full, in our own words (same numbers and facts; the book is © NCERT, so no verbatim
-   copying or screenshots on the public site).
-2. **Teach concept by concept:** concrete example → idea → rule with its *why* → worked examples, step by step.
-3. **Activities become "Try this":** what you need, what to do, what you see, why it happens.
-4. **Draw a figure wherever one is needed** (always for geometry). Figures are SVGs drawn from exact
-   coordinates by a script in `tools/figures/` (see `class7_math_5.py`); every angle label is
-   asserted against the drawn geometry. Compare each with the book's figure before finishing.
-5. **Every question is solved, step by step, with reasons.** Teaching examples are shown openly; every
-   practice question ("Check yourself") and every end-of-chapter question ("Exercises — try first")
-   hides its solution in a `> [!ANSWER]` block, which the notes page shows as a **Show answer** button.
-6. Ends with "In a nutshell" and a "Top traps" line, as before.
+1. Read `CLAUDE.md` (the notes standard) and the model chapter
+   `content/class7/math/5.parallel-and-intersecting-lines.md`. Skim `tools/figures/class7_math_5.py`
+   to see how figures are drawn.
+2. For each chapter in the batch, extract it from the book PDF (`pdftotext -layout`, see *Learnings*
+   for the page offset) **including the answer key at the back**, and render the pages with figures
+   (`pdftoppm -r 80 -png`) to look at them.
+3. Rewrite the notes file in place (same file name, so manifests and tests stay as they are):
+   - keep what is already good in the current notes; remove every pointer to the book;
+   - turn activities into "Try this"; draw every needed figure with a new
+     `tools/figures/class<N>_<subject>_<ch>.py`;
+   - put each in-chapter "Figure it out / Think and answer / Check yourself" set under
+     **Check yourself** with `> [!ANSWER]` blocks, and **every** end-of-chapter question under
+     **Exercises — try first** with `> [!ANSWER]` blocks; answers step by step with reasons, matching
+     the book's answer key (where the key has a slip, trust the text and say so).
+4. Add each chapter to `tools/notes_coverage.json` with the book's counts: `check` = in-chapter
+   practice questions, `exercises` = end-of-chapter questions (count every lettered part), and a
+   `book` note listing them. Then `python3 tools/check_notes.py class<N>/<subject>` must pass (no ✗).
+   Read every `⚠ soft (vs pilot)` warning and run `--compare` on the chapter: fix what is genuinely
+   thin, and note the rest in the *Done* entry. Open
+   `class<N>-<subject>.html` in the browser pane, confirm every figure loads and every Show answer
+   opens, and compare each figure with the book's.
+5. Tick the box, add learnings, and ask the user before committing.
+
+### Batches
+
+- [x] **Setup: notes checker + pre-commit hook** (2026-11-27). `tools/check_notes.py`,
+  `tools/notes_coverage.json`, `tools/hooks/pre-commit`. Starting point (`--survey`): **513 book
+  pointers** in 147 old-style chapters — class 5 maths 23, 5 sci 1, 6 maths 31, 6 sci 60, 7 maths 25,
+  7 sci 68, 8 maths 6, 8 sci 65, 9 maths 32, 9 sci 97, 10 maths 62, 10 sci 43. (A low count does not mean
+  a chapter is done: most old chapters also lack hidden answers and figures.)
+
+### Phase 1 — all maths first (agreed 2026-11-27)
+
+Order: class 7, 8, 6, 9, 10, 5. Besides the hard checks, every maths chapter gets a **soft check against
+the pilot**: `python3 tools/check_notes.py` prints `⚠ soft (vs pilot)` warnings, and
+`python3 tools/check_notes.py --compare content/class<N>/math/<file>.md` shows the full comparison.
+Warnings never block a commit, but look at each one: improve the chapter, or write one line in the
+batch's *Done* entry saying why it is fine (e.g. "no figures: a chapter on number patterns").
+
+**Class 7 maths** (*Ganita Prakash* Part 1 + Part 2)
+- [x] Ch 5 Parallel and Intersecting Lines — pilot, commit `29069e5`
+- [ ] Ch 1 Large Numbers Around Us · Ch 2 Arithmetic Expressions · Ch 3 A Peek Beyond the Point
+- [ ] Ch 4 Expressions using Letter-Numbers · Ch 6 Number Play · Ch 8 Working with Fractions
+- [ ] Ch 7 A Tale of Three Intersecting Lines · Ch 9 Geometric Twins (figure-heavy)
+- [ ] Ch 10 Operations with Integers · Ch 11 Finding Common Ground · Ch 12 Another Peek Beyond the Point
+- [ ] Ch 13 Connecting the Dots… · Ch 15 Finding the Unknown
+- [ ] Ch 14 Constructions and Tilings (figure-heavy: step-by-step construction drawings)
+
+**Class 8 maths** (*Ganita Prakash* I + II)
+- [ ] Ch 1 A square and a cube · Ch 2 Power play · Ch 3 A story of numbers
+- [ ] Ch 4 Quadrilaterals · Ch 9 The Baudhāyana–Pythagoras theorem (figure-heavy)
+- [ ] Ch 5 Number play · Ch 6 We distribute, yet things multiply · Ch 7 Proportional reasoning — 1
+- [ ] Ch 8 Fractions in disguise · Ch 10 Proportional reasoning — 2 · Ch 13 Algebra play
+- [ ] Ch 11 Exploring some geometric themes · Ch 12 Tales by dots and lines · Ch 14 Area
+
+**Class 6 maths** (*Ganita Prakash*)
+- [ ] Ch 1 Patterns in mathematics · Ch 3 Number play · Ch 5 Prime time
+- [ ] Ch 2 Lines and angles · Ch 8 Playing with constructions (figure-heavy)
+- [ ] Ch 4 Data handling and presentation · Ch 6 Perimeter and area · Ch 7 Fractions
+- [ ] Ch 9 Symmetry · Ch 10 The other side of zero
+
+**Class 9 maths** (new 8-chapter book; long chapters, two per session)
+- [ ] Ch 1 Coordinates · Ch 2 Linear polynomials
+- [ ] Ch 3 The world of numbers · Ch 4 Algebraic identities
+- [ ] Ch 5 Circles · Ch 6 Perimeter and area (figure-heavy)
+- [ ] Ch 7 Probability · Ch 8 Sequences and progressions
+
+**Class 10 maths** (rationalised book — see *Learnings* for dropped topics)
+- [ ] Ch 1 Real numbers · Ch 2 Polynomials · Ch 3 Pair of linear equations
+- [ ] Ch 4 Quadratic equations · Ch 5 Arithmetic progressions
+- [ ] Ch 6 Triangles · Ch 7 Coordinate geometry (figure-heavy)
+- [ ] Ch 8 Introduction to trigonometry · Ch 9 Applications of trigonometry (figure-heavy)
+- [ ] Ch 10 Circles · Ch 11 Areas related to circles (figure-heavy)
+- [ ] Ch 12 Surface areas and volumes · Ch 13 Statistics · Ch 14 Probability
+
+**Class 5 maths** (*Maths Mela*)
+- [ ] Ch 1 We the Travellers — I · Ch 2 Fractions · Ch 3 Angles as turns
+- [ ] Ch 4 We the Travellers — II · Ch 5 Far and Near · Ch 6 The Dairy Farm
+- [ ] Ch 7 Shapes and patterns · Ch 10 Symmetrical designs · Ch 11 Grandmother's quilt (figure-heavy)
+- [ ] Ch 8 Weight and capacity · Ch 9 Coconut farm
+- [ ] Ch 12 Racing seconds · Ch 13 Animal jumps
+- [ ] Ch 14 Maps and locations · Ch 15 Data through pictures
+
+### Phase 2 — science and English (later; plan the details when Phase 1 is done)
+
+Do **not** start these until all maths boxes are ticked. Then, as for maths, first rewrite **one
+pilot chapter** per subject, get the user's approval, and add it to `PILOTS` in `tools/check_notes.py`
+so the soft check compares against it.
+
+- [ ] **Science pilot:** pick one class 7 science chapter with diagrams (e.g. Ch 11 Light: shadows &
+  reflections), rewrite it to the standard, user reviews, then set it as the science pilot.
+- [ ] **English grammar pilot:** one grammar lesson rewritten with a Check yourself set; user reviews.
+
+**Class 7 science** (*Curiosity*) — Ch 1 *The Ever-Evolving World of Science* is in the book but
+**missing from both the notes and the tests**: write `1.<name>.md` and its 4-level test file and add
+both to their manifests (run `python3 tools/check_tests.py 7-science`).
+- [ ] Ch 1 The Ever-Evolving World of Science (new notes + test) · Ch 2 Acidic, basic & neutral · Ch 3 Electricity: circuits & components
+- [ ] Ch 4 Metals & non-metals · Ch 5 Physical & chemical changes · Ch 6 Adolescence
+- [ ] Ch 7 Heat transfer in nature · Ch 8 Measurement of time & motion · Ch 9 Life processes in animals
+- [ ] Ch 10 Life processes in plants · Ch 11 Light: shadows & reflections · Ch 12 Earth, Moon & the Sun
+
+**Class 8 science** (*Curiosity*)
+- [ ] Ch 1 Investigative world of science · Ch 2 The invisible living world · Ch 3 Health · Ch 4 Electricity — magnetic and heating effects
+- [ ] Ch 5 Exploring forces · Ch 6 Pressure, winds, storms and cyclones · Ch 7 Particulate nature of matter
+- [ ] Ch 8 Elements, compounds and mixtures · Ch 9 Solutes, solvents and solutions · Ch 10 Light — mirrors and lenses
+- [ ] Ch 11 Keeping time with the skies · Ch 12 How nature works in harmony · Ch 13 Our home — Earth
+
+**Class 6 science** (*Curiosity*)
+- [ ] Ch 1 The wonderful world of science · Ch 2 Diversity in the living world · Ch 3 Mindful eating
+- [ ] Ch 4 Exploring magnets · Ch 5 Measurement of length & motion · Ch 6 Materials around us
+- [ ] Ch 7 Temperature & its measurement · Ch 8 States of water · Ch 9 Methods of separation
+- [ ] Ch 10 Living creatures · Ch 11 Nature's treasures · Ch 12 Beyond Earth
+
+**Class 9 science** (long chapters, two per session)
+- [ ] Ch 1 Exploration · Ch 2 Cell
+- [ ] Ch 3 Tissues in action · Ch 4 Describing motion
+- [ ] Ch 5 Mixtures and separation · Ch 6 How forces affect motion
+- [ ] Ch 7 Work, energy and simple machines · Ch 8 Journey inside the atom
+- [ ] Ch 9 Atomic foundations of matter · Ch 10 Sound waves
+- [ ] Ch 11 Reproduction · Ch 12 Diversity and classification
+- [ ] Ch 13 Earth as a system
+
+**Class 10 science** (long chapters, two per session)
+- [ ] Ch 1 Chemical reactions and equations · Ch 2 Acids, bases and salts
+- [ ] Ch 3 Metals and non-metals · Ch 4 Carbon and its compounds
+- [ ] Ch 5 Life processes · Ch 6 Control and coordination
+- [ ] Ch 7 How do organisms reproduce? · Ch 8 Heredity
+- [ ] Ch 9 Light — reflection and refraction · Ch 10 The human eye (figure-heavy: ray diagrams)
+- [ ] Ch 11 Electricity · Ch 12 Magnetic effects of electric current (circuit and field diagrams)
+- [ ] Ch 13 Our environment
+
+**Class 5 science** (*Our Wondrous World*) — this also covers the old *Later* idea of adding the
+book's activities and questions.
+- [ ] Ch 1 Water · Ch 2 Journey of a river · Ch 3 The mystery of food
+- [ ] Ch 4 Our school · Ch 5 Our vibrant country · Ch 6 Some unique places
+- [ ] Ch 7 Energy · Ch 8 Clothes
+- [ ] Ch 9 Rhythms of nature · Ch 10 Earth — our shared home
+
+**English grammar** (class-free, 21 lessons)
+- [ ] Check all lessons against the standard: remove the few pointers to "the book" / NCERT, and add a
+  short **Check yourself** set with `[!ANSWER]` blocks to each lesson.
 
 ## Later (not agreed yet — ask the user before starting)
 
-- Class 5 science: add the book's activities and worked questions, like classes 6–10.
 - Classes 2–4: notes to go with the existing tests.
 
 ## Done

@@ -1,0 +1,32 @@
+#!/bin/sh
+# Refuse a commit when the notes or tests break the rules in CLAUDE.md.
+# Installed with:  git config core.hooksPath tools/hooks
+# Never bypass it with --no-verify; fix what it reports instead.
+ROOT=$(git rev-parse --show-toplevel) || exit 1
+cd "$ROOT" || exit 1
+STAGED=$(git diff --cached --name-only --diff-filter=ACMRD)
+[ -z "$STAGED" ] && exit 0
+FAIL=0
+
+# Notes: every rewritten chapter must pass the notes checker.
+if echo "$STAGED" | grep -qE '^(content/class[0-9]+/(math|science)/|assets/img/|tools/figures/|tools/notes_coverage\.json|tools/check_notes\.py)'; then
+  echo "pre-commit: checking notes (tools/check_notes.py)…"
+  python3 tools/check_notes.py || FAIL=1
+fi
+
+# Tests: re-check every test set that has a staged file.
+SETS=$(echo "$STAGED" | sed -nE \
+  -e 's#^content/class([0-9]+)/tests/.*#\1#p' \
+  -e 's#^content/class([0-9]+)/science-tests/.*#\1-science#p' \
+  -e 's#^content/(grammar|music)/tests/.*#\1#p' | sort -u)
+for S in $SETS; do
+  echo "pre-commit: checking tests for $S (tools/check_tests.py)…"
+  python3 tools/check_tests.py "$S" || FAIL=1
+done
+
+if [ "$FAIL" -ne 0 ]; then
+  echo ""
+  echo "pre-commit: commit refused — fix the problems above (see CLAUDE.md, 'The notes standard')."
+  exit 1
+fi
+exit 0

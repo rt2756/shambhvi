@@ -2,7 +2,7 @@ import os, sys
 sys.path.insert(0, os.path.dirname(__file__))
 from geo import *
 
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "assets", "img", "class7", "math", "5")
+OUT = os.environ.get("FIG_OUT") or os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "assets", "img", "class7", "math", "5")
 os.makedirs(OUT, exist_ok=True)
 FIGS = []
 def fig(fn):
