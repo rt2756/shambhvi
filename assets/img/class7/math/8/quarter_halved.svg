@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 215 228" width="215" height="228" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="51.2,190.0 126.2,190.0 126.2,152.5 51.2,152.5" fill="#a5d6a7" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="51.2,152.5 126.2,152.5 126.2,115.0 51.2,115.0" fill="#ffffff" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="51.2,115.0 126.2,115.0 126.2,77.5 51.2,77.5" fill="#ffffff" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="51.2,77.5 126.2,77.5 126.2,40.0 51.2,40.0" fill="#ffffff" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="126.2,190.0 201.2,190.0 201.2,152.5 126.2,152.5" fill="#bbdefb" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="126.2,152.5 201.2,152.5 201.2,115.0 126.2,115.0" fill="#ffffff" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="126.2,115.0 201.2,115.0 201.2,77.5 126.2,77.5" fill="#ffffff" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="126.2,77.5 201.2,77.5 201.2,40.0 126.2,40.0" fill="#ffffff" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="51.2,190.0 201.2,190.0 201.2,40.0 51.2,40.0" fill="none" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="39.2" y="176.1" font-size="14" fill="#1565c0" text-anchor="end" font-weight="bold">1/4</text>
+<text x="88.7" y="30.9" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold">1/2</text>
+<text x="126.2" y="212.9" font-size="14" fill="#263238" text-anchor="middle" font-weight="bold">1/2 × 1/4 = 1/8</text>
+</svg>

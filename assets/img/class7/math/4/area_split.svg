@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 301 148" width="301" height="148" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="45.5,80.0 165.5,80.0 165.5,14.0 45.5,14.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="165.5,80.0 255.5,80.0 255.5,14.0 165.5,14.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="105.5" y="52.6" font-size="16" fill="#263238" text-anchor="middle" font-weight="bold">4v</text>
+<text x="210.5" y="52.6" font-size="16" fill="#263238" text-anchor="middle" font-weight="bold">3v</text>
+<text x="105.5" y="99.2" font-size="15" fill="#263238" text-anchor="middle">4</text>
+<text x="210.5" y="99.2" font-size="15" fill="#263238" text-anchor="middle">3</text>
+<text x="33.5" y="52.2" font-size="15" fill="#1565c0" text-anchor="middle" font-weight="bold">v</text>
+<line x1="45.5" y1="114.0" x2="255.5" y2="114.0" stroke="#8a969c" stroke-width="1.4" stroke-linecap="round"/>
+<text x="150.5" y="132.6" font-size="13" fill="#2e7d32" text-anchor="middle" font-weight="bold">whole width 4 + 3 = 7, so area = 7v</text>
+</svg>

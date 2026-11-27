@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 311 161" width="311" height="161" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="14.0,35.0 54.0,35.0 54.0,17.0 14.0,17.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="34.0" y="29.9" font-size="11" fill="#263238" text-anchor="middle">short</text>
+<polygon points="58.0,35.0 98.0,35.0 98.0,17.0 58.0,17.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="78.0" y="29.9" font-size="11" fill="#263238" text-anchor="middle">short</text>
+<polygon points="102.0,35.0 142.0,35.0 142.0,17.0 102.0,17.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="122.0" y="29.9" font-size="11" fill="#263238" text-anchor="middle">short</text>
+<polygon points="146.0,35.0 186.0,35.0 186.0,17.0 146.0,17.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="166.0" y="29.9" font-size="11" fill="#263238" text-anchor="middle">short</text>
+<text x="202.0" y="30.6" font-size="13" fill="#263238" text-anchor="start">1 + 1 + 1 + 1</text>
+<polygon points="14.0,63.0 54.0,63.0 54.0,45.0 14.0,45.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="34.0" y="57.9" font-size="11" fill="#263238" text-anchor="middle">short</text>
+<polygon points="58.0,63.0 98.0,63.0 98.0,45.0 58.0,45.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="78.0" y="57.9" font-size="11" fill="#263238" text-anchor="middle">short</text>
+<polygon points="102.0,63.0 186.0,63.0 186.0,45.0 102.0,45.0" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="144.0" y="57.9" font-size="11" fill="#263238" text-anchor="middle">long</text>
+<text x="202.0" y="58.5" font-size="13" fill="#263238" text-anchor="start">1 + 1 + 2</text>
+<polygon points="14.0,91.0 54.0,91.0 54.0,73.0 14.0,73.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="34.0" y="85.8" font-size="11" fill="#263238" text-anchor="middle">short</text>
+<polygon points="58.0,91.0 142.0,91.0 142.0,73.0 58.0,73.0" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="100.0" y="85.8" font-size="11" fill="#263238" text-anchor="middle">long</text>
+<polygon points="146.0,91.0 186.0,91.0 186.0,73.0 146.0,73.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="166.0" y="85.8" font-size="11" fill="#263238" text-anchor="middle">short</text>
+<text x="202.0" y="86.5" font-size="13" fill="#263238" text-anchor="start">1 + 2 + 1</text>
+<polygon points="14.0,119.0 98.0,119.0 98.0,101.0 14.0,101.0" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="56.0" y="113.8" font-size="11" fill="#263238" text-anchor="middle">long</text>
+<polygon points="102.0,119.0 142.0,119.0 142.0,101.0 102.0,101.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="122.0" y="113.8" font-size="11" fill="#263238" text-anchor="middle">short</text>
+<polygon points="146.0,119.0 186.0,119.0 186.0,101.0 146.0,101.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="166.0" y="113.8" font-size="11" fill="#263238" text-anchor="middle">short</text>
+<text x="202.0" y="114.5" font-size="13" fill="#263238" text-anchor="start">2 + 1 + 1</text>
+<polygon points="14.0,147.0 98.0,147.0 98.0,129.0 14.0,129.0" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="56.0" y="141.8" font-size="11" fill="#263238" text-anchor="middle">long</text>
+<polygon points="102.0,147.0 186.0,147.0 186.0,129.0 102.0,129.0" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="144.0" y="141.8" font-size="11" fill="#263238" text-anchor="middle">long</text>
+<text x="202.0" y="142.6" font-size="13" fill="#263238" text-anchor="start">2 + 2</text>
+</svg>

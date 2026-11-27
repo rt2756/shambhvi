@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 334 170" width="334" height="170" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="17.0,134.0 137.0,134.0 137.0,14.0 17.0,14.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="17.0,44.0 77.0,44.0 77.0,14.0 17.0,14.0" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="77.0" y="154.9" font-size="14" fill="#263238" text-anchor="middle" font-weight="bold">1/2 × 1/4 = 1/8</text>
+<polygon points="197.0,134.0 317.0,134.0 317.0,14.0 197.0,14.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="197.0,74.0 227.0,74.0 227.0,14.0 197.0,14.0" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="257.0" y="154.9" font-size="14" fill="#263238" text-anchor="middle" font-weight="bold">1/4 × 1/2 = 1/8</text>
+</svg>

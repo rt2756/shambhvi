@@ -80,7 +80,7 @@ batch's *Done* entry saying why it is fine (e.g. "no figures: a chapter on numbe
 **Class 7 maths** (*Ganita Prakash* Part 1 + Part 2)
 - [x] Ch 5 Parallel and Intersecting Lines — pilot, commit `29069e5`
 - [x] Ch 1 Large Numbers Around Us · Ch 2 Arithmetic Expressions · Ch 3 A Peek Beyond the Point (2026-11-27)
-- [ ] Ch 4 Expressions using Letter-Numbers · Ch 6 Number Play · Ch 8 Working with Fractions
+- [x] Ch 4 Expressions using Letter-Numbers · Ch 6 Number Play · Ch 8 Working with Fractions (2026-11-27)
 - [ ] Ch 7 A Tale of Three Intersecting Lines · Ch 9 Geometric Twins (figure-heavy)
 - [ ] Ch 10 Operations with Integers · Ch 11 Finding Common Ground · Ch 12 Another Peek Beyond the Point
 - [ ] Ch 13 Connecting the Dots… · Ch 15 Finding the Unknown
@@ -214,6 +214,21 @@ book's activities and questions.
   said so). Ch 3 end Q10 prints 6.18, 6.17 but the pattern and key give 8.18, 8.17. Picture-only
   questions the key doesn't answer (Ch 3 objects measured "two ways", fill-the-boxes line) became a
   Try this / a redrawn figure with our own values; the wire picture uses the key's values.
+- 2026-11-27 — Class 7 maths Ch 4, 6, 8 rewritten to the notes standard (59 + 58 + 30 Check-yourself
+  answers, 36 + 17 + 23 exercises; 12 + 6 + 21 figures from `tools/figures/class7_math_{4,6,8}.py`).
+  Checker passes with no warnings for Ch 4 and Ch 6; Ch 8 keeps "avg words per answer" (33): many
+  answers are one-line divisions in the Evaluate table and unit-square products whose figure does the
+  explaining. Figures stay below the pilot's rate (number chapters; grids, magic squares and calendars
+  are Markdown tables instead). Answer-key differences (trust these notes): Ch 4 Mind-the-Mistake item 4
+  key prints the wrong form as "x + 5" (question shows x + y); Ch 4 Q14 vertices: key's 16n + 4 counts each
+  square's own corners — notes also give 12n + 4 for touching corners counted once; Ch 6 key's "3779"
+  should be 377; Ch 6 end Q2 (50 sheets, sum 6000): key says possible by parity, but each sheet sums to
+  4k − 1, so 50 sheets sum to 2 more than a multiple of 4 and 6000 is impossible — notes give both steps;
+  Ch 6 Q10(c) is False only because 2p + 1 misses 1 when p starts at 1 (said so); Ch 8 Moon answer is
+  2 1/2 hours after 10 pm, i.e. 12:30 am (key garbled); Ch 8 water tank (b) 14/30 = 7/15. The height
+  pictures, grids and cryptarithms were solved by trying every case in a script (each has one answer;
+  Grid B has two). Ch 6's height arrangements and Ch 8's shaded-square puzzles are our own drawings
+  with values matching the key (3/32, 3/8, 1/16; ants 29/32 and 3/32).
 
 ## Learnings
 
@@ -244,3 +259,10 @@ book's activities and questions.
   says "Couldn't load this page".
 - The answer keys printed in NCERT books sometimes have slips (e.g. class 9 science Ch 2 Q11) —
   trust the chapter text and say so in the notes.
+- Class 7 Part 1 PDF pages: Ch 4 text 152–176, answers 177–192; Ch 6 text 227–245, answers 246–258;
+  Ch 8 text 293–319, answers 323–331 (book page = PDF page − 120 for Ch 8).
+- The checker ends a Check-yourself section at the next `###` heading: a sub-heading such as "Mind the
+  mistake" must itself be called `### Check yourself: …`, or its answers are not counted.
+- "for example 5" trips the book-example check; write "for instance" or "say" before a number.
+- A quick way to look at a new script's figures: write a throwaway HTML page listing the SVGs, open it
+  in the `static` preview, then delete it (plain `rm` may be blocked; `python3 -c "import os; os.remove(…)"` works).

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 358 351" width="358" height="351" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="134.0" y1="337.0" x2="134.0" y2="297.0" stroke="#43a047" stroke-width="7" stroke-linecap="round"/>
+<line x1="134.0" y1="297.0" x2="44.0" y2="37.0" stroke="#43a047" stroke-width="7" stroke-linecap="round"/>
+<line x1="134.0" y1="297.0" x2="169.0" y2="227.0" stroke="#43a047" stroke-width="7" stroke-linecap="round"/>
+<line x1="169.0" y1="227.0" x2="79.0" y2="37.0" stroke="#43a047" stroke-width="7" stroke-linecap="round"/>
+<line x1="169.0" y1="227.0" x2="204.0" y2="147.0" stroke="#43a047" stroke-width="7" stroke-linecap="round"/>
+<line x1="204.0" y1="147.0" x2="114.0" y2="37.0" stroke="#43a047" stroke-width="7" stroke-linecap="round"/>
+<line x1="204.0" y1="147.0" x2="149.0" y2="37.0" stroke="#43a047" stroke-width="7" stroke-linecap="round"/>
+<line x1="204.0" y1="147.0" x2="209.0" y2="87.0" stroke="#43a047" stroke-width="7" stroke-linecap="round"/>
+<line x1="204.0" y1="147.0" x2="314.0" y2="37.0" stroke="#43a047" stroke-width="7" stroke-linecap="round"/>
+<line x1="209.0" y1="87.0" x2="189.0" y2="37.0" stroke="#43a047" stroke-width="7" stroke-linecap="round"/>
+<line x1="209.0" y1="87.0" x2="274.0" y2="37.0" stroke="#43a047" stroke-width="7" stroke-linecap="round"/>
+<circle cx="134.0" cy="297.0" r="3.6" fill="#b71c1c"/>
+<circle cx="169.0" cy="227.0" r="3.6" fill="#b71c1c"/>
+<circle cx="204.0" cy="147.0" r="3.6" fill="#b71c1c"/>
+<circle cx="209.0" cy="87.0" r="3.6" fill="#b71c1c"/>
+<polygon points="14.0,37.0 214.0,37.0 214.0,15.0 14.0,15.0" fill="#c62828" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="114.0" y="30.6" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">Mango tree</text>
+<polygon points="234.0,37.0 344.0,37.0 344.0,15.0 234.0,15.0" fill="#c62828" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="289.0" y="30.6" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">Sugarcane</text>
+</svg>

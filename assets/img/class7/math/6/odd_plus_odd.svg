@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 326 71" width="326" height="71" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<circle cx="88.5" cy="33.0" r="3.6" fill="#1565c0"/>
+<circle cx="88.5" cy="19.0" r="3.6" fill="#1565c0"/>
+<circle cx="102.5" cy="33.0" r="3.6" fill="#1565c0"/>
+<circle cx="102.5" cy="19.0" r="3.6" fill="#1565c0"/>
+<circle cx="116.5" cy="33.0" r="3.6" fill="#c62828"/>
+<text x="132.5" y="32.3" font-size="18" fill="#263238" text-anchor="middle" font-weight="bold">+</text>
+<circle cx="150.5" cy="33.0" r="3.6" fill="#2e7d32"/>
+<circle cx="150.5" cy="19.0" r="3.6" fill="#2e7d32"/>
+<circle cx="164.5" cy="33.0" r="3.6" fill="#2e7d32"/>
+<circle cx="164.5" cy="19.0" r="3.6" fill="#2e7d32"/>
+<circle cx="178.5" cy="33.0" r="3.6" fill="#2e7d32"/>
+<circle cx="178.5" cy="19.0" r="3.6" fill="#2e7d32"/>
+<circle cx="192.5" cy="33.0" r="3.6" fill="#c62828"/>
+<text x="210.5" y="32.3" font-size="18" fill="#263238" text-anchor="middle" font-weight="bold">=</text>
+<circle cx="232.5" cy="33.0" r="3.6" fill="#263238"/>
+<circle cx="232.5" cy="19.0" r="3.6" fill="#263238"/>
+<circle cx="246.5" cy="33.0" r="3.6" fill="#263238"/>
+<circle cx="246.5" cy="19.0" r="3.6" fill="#263238"/>
+<circle cx="260.5" cy="33.0" r="3.6" fill="#263238"/>
+<circle cx="260.5" cy="19.0" r="3.6" fill="#263238"/>
+<circle cx="274.5" cy="33.0" r="3.6" fill="#263238"/>
+<circle cx="274.5" cy="19.0" r="3.6" fill="#263238"/>
+<circle cx="288.5" cy="33.0" r="3.6" fill="#263238"/>
+<circle cx="288.5" cy="19.0" r="3.6" fill="#263238"/>
+<circle cx="302.5" cy="33.0" r="3.6" fill="#c62828"/>
+<circle cx="302.5" cy="19.0" r="3.6" fill="#c62828"/>
+<text x="312.5" y="55.5" font-size="13" fill="#c62828" text-anchor="end">the two leftovers make a pair: 12 is even</text>
+</svg>

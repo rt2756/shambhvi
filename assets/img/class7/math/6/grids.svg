@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 271 98" width="271" height="98" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="44.6,62.0 60.6,62.0 60.6,46.0 44.6,46.0" fill="#ffe0b2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="44.6,46.0 60.6,46.0 60.6,30.0 44.6,30.0" fill="#ffe0b2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="44.6,30.0 60.6,30.0 60.6,14.0 44.6,14.0" fill="#ffe0b2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="60.6,62.0 76.6,62.0 76.6,46.0 60.6,46.0" fill="#ffe0b2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="60.6,46.0 76.6,46.0 76.6,30.0 60.6,30.0" fill="#ffe0b2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="60.6,30.0 76.6,30.0 76.6,14.0 60.6,14.0" fill="#ffe0b2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="76.6,62.0 92.6,62.0 92.6,46.0 76.6,46.0" fill="#ffe0b2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="76.6,46.0 92.6,46.0 92.6,30.0 76.6,30.0" fill="#ffe0b2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="76.6,30.0 92.6,30.0 92.6,14.0 76.6,14.0" fill="#ffe0b2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="68.6" y="82.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">3 × 3 = 9, odd</text>
+<polygon points="162.6,62.0 178.6,62.0 178.6,46.0 162.6,46.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="162.6,46.0 178.6,46.0 178.6,30.0 162.6,30.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="162.6,30.0 178.6,30.0 178.6,14.0 162.6,14.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="178.6,62.0 194.6,62.0 194.6,46.0 178.6,46.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="178.6,46.0 194.6,46.0 194.6,30.0 178.6,30.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="178.6,30.0 194.6,30.0 194.6,14.0 178.6,14.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="194.6,62.0 210.6,62.0 210.6,46.0 194.6,46.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="194.6,46.0 210.6,46.0 210.6,30.0 194.6,30.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="194.6,30.0 210.6,30.0 210.6,14.0 194.6,14.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="210.6,62.0 226.6,62.0 226.6,46.0 210.6,46.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="210.6,46.0 226.6,46.0 226.6,30.0 210.6,30.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="210.6,30.0 226.6,30.0 226.6,14.0 210.6,14.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="194.6" y="82.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">3 × 4 = 12, even</text>
+</svg>
