@@ -1,0 +1,53 @@
+{
+  "title": "9. Geometric Twins",
+  "tests": [
+    { "q": [
+      { "t": "Congruent figures have…", "o": ["the same shape and the same size", "the same shape only", "the same size only", "the same colour"], "e": "Congruent figures can be placed one on the other to fit exactly." },
+      { "t": "What single measurement fixes a circle exactly?", "o": ["Its radius", "Its centre", "Its colour", "Nothing"], "e": "All circles with the same radius are congruent." },
+      { "t": "Which is NOT a congruence condition for triangles?", "o": ["AAA", "SSS", "SAS", "ASA"], "e": "Equal angles can come in different sizes — a small and a large triangle." },
+      { "t": "In a right triangle, the side opposite the right angle is called the…", "o": ["hypotenuse", "altitude", "base", "median"], "e": "The hypotenuse is the longest side, opposite the 90° angle." },
+      { "t": "Each angle of an equilateral triangle is…", "n": 60, "u": "°", "k": "180//3", "e": "Angles opposite equal sides are equal, so all three are equal and share 180°." },
+      { "t": "When checking congruence, may you flip a figure over?", "o": ["Yes — sliding, turning and flipping are allowed", "No, never", "Only triangles", "Only circles"], "e": "A flipped copy still has the same shape and size." },
+      { "t": "Two triangles have all three sides equal. Which rule shows they are congruent?", "o": ["SSS", "SAS", "AAA", "RHS"], "e": "Side-Side-Side." },
+      { "t": "In isosceles ∆ABC, AB = AC and ∠A = 80°. Find ∠B.", "n": 50, "u": "°", "k": "(180-80)//2", "e": "∠B = ∠C (opposite equal sides). 180 − 80 = 100, shared equally → 50°." },
+      { "t": "If ∆ABC ≅ ∆XYZ, which side equals BC?", "o": ["YZ", "XY", "XZ", "ZX and XY"], "e": "Second and third letters B, C match second and third letters Y, Z." },
+      { "t": "In a triangle, angles opposite equal sides are…", "o": ["equal", "supplementary", "right angles", "always 60°"], "e": "Shown with congruent halves (RHS) in an isosceles triangle." }
+    ]},
+    { "q": [
+      { "t": "∆ABC ≅ ∆XYZ. Which other statement is also correct?", "o": ["∆ACB ≅ ∆XZY", "∆ACB ≅ ∆XYZ", "∆BAC ≅ ∆XYZ", "∆CBA ≅ ∆XYZ"], "e": "Both names must be reordered the same way so A–X, B–Y, C–Z still match." },
+      { "t": "Two sides and the angle BETWEEN them are equal. Which rule?", "o": ["SAS", "SSA", "ASA", "RHS"], "e": "Side-Angle-Side, with the angle included between the two sides." },
+      { "t": "Why does SSA not guarantee congruence?", "o": ["The arc can cut the line at two points, giving two different triangles", "Because angles never matter", "Because sides can't be measured", "It always does"], "e": "The side opposite the given angle can swing to two positions — a thin and a fat triangle." },
+      { "t": "∠A = 35°, ∠C = 75° in ∆ABC. Find ∠B.", "n": 70, "u": "°", "k": "180-35-75", "e": "Angle sum: 180 − 110 = 70°. This is how AAS becomes ASA." },
+      { "t": "A is the centre of a circle, B and C are on it, ∠BAC = 120°. Find ∠ABC.", "n": 30, "u": "°", "k": "(180-120)//2", "e": "AB = AC are radii, so ∠B = ∠C = (180 − 120) ÷ 2 = 30°." },
+      { "t": "What fixes a rectangle exactly?", "o": ["Its length and breadth", "Its length only", "Its angles", "Its diagonal only"], "e": "All angles are 90° anyway; length and breadth fix everything else." },
+      { "t": "O is the midpoint of both AD and BC. Which rule shows ∆AOB ≅ ∆DOC?", "o": ["SAS — with vertically opposite angles at O", "SSS", "RHS", "AAA"], "e": "AO = OD, BO = OC and ∠AOB = ∠DOC (vertically opposite) — the angle is between the two sides." },
+      { "t": "AB = AD and CB = CD in a kite ABCD. Why is ∆ABC ≅ ∆ADC?", "o": ["SSS — AC is a shared side", "AAA", "SSA", "They are not congruent"], "e": "Three pairs of equal sides: AB = AD, CB = CD, AC = AC." },
+      { "t": "Two right triangles have equal hypotenuses and one other equal side. They are…", "o": ["congruent (RHS)", "not necessarily congruent", "congruent only if isosceles", "never congruent"], "e": "The right angle makes the two possible positions mirror images, so they are congruent." },
+      { "t": "Triangles with angles 30°, 70°, 80° — are they all congruent?", "o": ["No — they can be different sizes", "Yes", "Only if drawn on the same page", "Only if the 80° angle is at the top"], "e": "Same angles give the same shape but not necessarily the same size." }
+    ]},
+    { "q": [
+      { "t": "∆HEN ≅ ∆BIG. Which is also correct?", "o": ["∆NEH ≅ ∆GIB", "∆NEH ≅ ∆BIG", "∆HNE ≅ ∆BIG", "∆EHN ≅ ∆GBI"], "e": "Reverse both: H–B, E–I, N–G still pair up." },
+      { "t": "AB = EF, ∠A = ∠E, AC = ED. The congruence is…", "o": ["∆ABC ≅ ∆EFD (SAS)", "∆ABC ≅ ∆DEF (SAS)", "∆ABC ≅ ∆EDF (SAS)", "not congruent"], "e": "A–E (the angles); B–F because AB = EF; C–D because AC = ED." },
+      { "t": "AB = DF, ∠B = ∠F, AC = DE. Are the triangles definitely congruent?", "o": ["No — that is SSA", "Yes, SAS", "Yes, ASA", "Yes, RHS"], "e": "∠B is not between sides AB and AC, so it's the unreliable SSA case." },
+      { "t": "∠A = ∠D, ∠B = ∠E, AC = DF. Which rule applies?", "o": ["AAS", "ASA", "SAS", "AAA"], "e": "Two angles and a side that is not between them → AAS (the third angle also matches, so it's really ASA)." },
+      { "t": "In rectangle ABCD with diagonal BD, which statement is correct?", "o": ["∆ABD ≅ ∆CDB", "∆ABD ≅ ∆CBD", "∆ABD ≅ ∆BCD", "∆ABD ≅ ∆DBC"], "e": "AB must sit on CD and AD on CB: A↔C, B↔D, D↔B." },
+      { "t": "∠B = 90° = ∠D, AB = DF, AC = FE. The congruence is…", "o": ["∆ABC ≅ ∆FDE (RHS)", "∆ABC ≅ ∆DEF (RHS)", "∆ABC ≅ ∆EDF (RHS)", "not congruent"], "e": "B–D (right angles), A–F (AB = DF), C–E (hypotenuses AC = FE)." },
+      { "t": "Why are the three angles of an equilateral triangle equal?", "o": ["Each pair of equal sides makes the opposite angles equal", "Because it looks symmetric", "Because they are all acute", "Because the sides are straight"], "e": "AB = AC gives ∠C = ∠B; AB = BC gives ∠C = ∠A — so all equal." },
+      { "t": "An isosceles triangle has a 40° angle between its equal sides. The other two angles are each…", "n": 70, "u": "°", "k": "(180-40)//2", "e": "The base angles are equal: (180 − 40) ÷ 2 = 70°." },
+      { "t": "In the isosceles-angle proof, the altitude AD makes ∆ADB ≅ ∆ADC by…", "o": ["RHS", "SSS", "AAA", "SSA"], "e": "Right angles at D, hypotenuses AB = AC, and the shared side AD." },
+      { "t": "∆AIR ≅ ∆FLY. Which angle equals ∠R?", "o": ["∠Y", "∠F", "∠L", "∠A"], "e": "Third letter matches third letter: R ↔ Y." }
+    ]},
+    { "q": [
+      { "t": "OB = OC and OA = OD where AD and BC cross at O. Why is AB ∥ CD?", "o": ["∆AOB ≅ ∆DOC, so alternate angles ∠OAB and ∠ODC are equal", "Because O is in the middle", "Because AB = CD", "They are not parallel"], "e": "SAS (vertically opposite angles) gives congruent triangles; equal alternate angles on transversal AD mean the lines are parallel." },
+      { "t": "In how many ways can an equilateral triangle be placed exactly onto a copy of itself?", "n": 6, "e": "Any vertex can go to any of 3 places, and it can be flipped or not: 3 × 2 = 6." },
+      { "t": "An isosceles triangle has base angles of 65°. The angle between the equal sides is…", "n": 50, "u": "°", "k": "180-2*65", "e": "180 − 65 − 65 = 50°." },
+      { "t": "Square ABCD: in how many ways does ∆ABC fit on ∆ADC (as shown by statements like ∆ABC ≅ ∆ADC and ∆ABC ≅ ∆CDA)?", "n": 2, "e": "All sides of a square are equal, so the triangle can be laid on the other either way round." },
+      { "t": "PQ = 6 cm, QR = 4 cm, ∠P = 30°. How many different triangles PQR can be drawn?", "n": 2, "e": "The 4 cm arc from Q cuts the 30° line from P at two points — the SSA case." },
+      { "t": "CD ∥ AB and AB = CD, with AD and BC crossing at O. Which rule proves ∆AOB ≅ ∆DOC?", "o": ["ASA — using two pairs of alternate angles", "SSS", "RHS", "AAA"], "e": "∠OAB = ∠ODC and ∠OBA = ∠OCD (alternate angles), with AB = DC between them." },
+      { "t": "The kite fact 'AC divides ∠BAD into two equal parts' follows because…", "o": ["∆ABC ≅ ∆ADC, so ∠BAC = ∠DAC", "AC is the longest side", "AB is parallel to CD", "All kites are squares"], "e": "Corresponding angles of congruent triangles are equal." },
+      { "t": "Can a triangle with sides 5, 5, 5 have an angle of 70°?", "o": ["No — all its angles are 60°", "Yes", "Only if it is flipped", "Only one angle"], "e": "An equilateral triangle's angles are all equal and total 180°." },
+      { "t": "Which pair of facts is enough for two right triangles (90° at B and Y) to be congruent?", "o": ["AC = XZ and BC = YZ", "∠A = ∠X only", "AC = XZ only", "∠C = ∠Z and ∠A = ∠X"], "e": "Hypotenuse plus one side (RHS). Angles alone can't fix the size." },
+      { "t": "An isosceles triangle has one angle of 100°. What are the other two?", "o": ["40° and 40°", "100° and −20°", "50° and 30°", "80° and 0°"], "e": "100° can't be a base angle (two of them would exceed 180°), so it is the top angle: (180 − 100) ÷ 2 = 40°." }
+    ]}
+  ]
+}

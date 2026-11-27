@@ -1,0 +1,53 @@
+{
+"title": "10. The Other Side of Zero",
+"tests": [
+{"q": [
+{"t": "Start at Floor +2 and press −3. Which floor do you reach?", "n": -1, "k": "2+(-3)", "e": "Starting floor + movement: (+2) + (−3) = −1, one floor below ground."},
+{"t": "Find (+1) + (+4).", "n": 5, "k": "1+4", "e": "Up 1 then up 4 more: +5."},
+{"t": "Find (+4) + (−3).", "n": 1, "k": "4-3", "e": "From +4, go down 3: +1."},
+{"t": "What is the inverse of +4?", "n": -4, "e": "The inverse adds to make 0: (+4) + (−4) = 0."},
+{"t": "What is the inverse of 0?", "n": 0, "e": "0 + 0 = 0, so 0 is its own inverse."},
+{"t": "Is 0 positive or negative?", "o": ["Neither", "Positive", "Negative", "Both"], "e": "0 is the starting point; positives are above it and negatives below."},
+{"t": "Which is smaller, −5 or −3?", "o": ["−5", "−3", "They are equal", "Can't tell"], "e": "Floor −5 is below Floor −3. Further down (further left) means smaller."},
+{"t": "Find 7 + (−7).", "n": 0, "k": "7-7", "e": "A number plus its inverse is 0."},
+{"t": "Find −5 + 0.", "n": -5, "e": "Adding 0 changes nothing."},
+{"t": "A green token is +1 and a red token is −1. One green and one red together make …", "n": 0, "e": "They form a zero pair: (+1) + (−1) = 0."}
+]},
+{"q": [
+{"t": "Find (+1) − (+4).", "n": -3, "k": "1-4", "e": "From +4, what movement reaches +1? Down 3: −3."},
+{"t": "Find 0 − (−2).", "n": 2, "k": "0-(-2)", "e": "From −2 up to 0 is +2. Subtracting a negative is adding a positive."},
+{"t": "Find (+4) − (−3).", "n": 7, "k": "4-(-3)", "e": "From −3 to +4 is 7 floors up. Same as 4 + 3."},
+{"t": "Find (−4) − (−3).", "n": -1, "k": "-4-(-3)", "e": "From −3 to −4 is one floor down: −1."},
+{"t": "Find (+4) + (−3) + (−2).", "n": -1, "k": "4-3-2", "e": "Up 4, down 3, down 2: overall down 1."},
+{"t": "Which is true?", "o": ["−25 < −7", "−25 > −7", "−7 < −25", "−25 = −7"], "e": "−25 is much further below zero than −7."},
+{"t": "Find 10 − 20.", "n": -10, "k": "10-20", "e": "From 20 back to 10 is 10 steps down: −10."},
+{"t": "Find (+5) + (−7) using tokens.", "n": -2, "k": "5-7", "e": "5 greens cancel 5 of the 7 reds, leaving 2 reds: −2."},
+{"t": "Write the integers between −4 and 4. How many are there?", "n": 7, "k": "len(range(-3,4))", "e": "−3, −2, −1, 0, 1, 2, 3 — seven integers."},
+{"t": "Jay is on Floor +2, Asin +5, Binnu −3, Aman −1. Who is on the lowest floor?", "o": ["Binnu", "Aman", "Jay", "Asin"], "e": "The lowest floor has the smallest number: −3."}
+]},
+{"q": [
+{"t": "Find (−3) − (+5).", "n": -8, "k": "-3-5", "e": "With tokens: add 5 zero pairs, take away 5 greens, 8 reds remain. Subtracting +5 = adding −5."},
+{"t": "When finding (−3) − (+5) with tokens, how many zero pairs must you add?", "n": 5, "e": "You need 5 greens to take away and have none, so put in 5 zero pairs (worth 0)."},
+{"t": "Find (+8) − (−7).", "n": 15, "k": "8-(-7)", "e": "Subtracting −7 = adding +7: 15."},
+{"t": "Find (−9) − (+10).", "n": -19, "k": "-9-10", "e": "Subtracting +10 = adding −10: −9 + (−10) = −19."},
+{"t": "Find −8 − (−10).", "n": 2, "k": "-8-(-10)", "e": "From −10 to −8 is 2 up: +2."},
+{"t": "(−50) + ___ = −200. Fill the blank.", "n": -150, "k": "-200-(-50)", "e": "From −50 down to −200 is 150 floors down: −150."},
+{"t": "(+40) + ___ = −200. Fill the blank.", "n": -240, "k": "-200-40", "e": "From +40 down to 0 is 40, then 200 more: −240."},
+{"t": "Find −125 + (−30).", "n": -155, "k": "-125-30", "e": "Two negatives: add the sizes and keep the minus."},
+{"t": "Your balance is ₹130 and ₹150 is debited. What is the balance?", "n": -20, "u": "₹", "k": "130-150", "e": "130 − 150 = −20: you owe the bank ₹20."},
+{"t": "What year was 320 years after 680 BCE?", "o": ["360 BCE", "1000 BCE", "360 CE", "320 CE"], "e": "BCE years count down towards 0: 680 − 320 = 360, still BCE."}
+]},
+{"q": [
+{"t": "From 0: credits ₹30, ₹40, ₹50 and debits ₹40, ₹50, ₹60. What is the balance?", "n": -30, "u": "₹", "k": "30+40+50-40-50-60", "e": "Credits 120, debits 150: 120 − 150 = −30."},
+{"t": "From 0: debits ₹1, 2, 4, 8, 16, 32, 64, 128, then a credit of ₹256. Balance?", "n": 1, "u": "₹", "k": "256-sum(2**i for i in range(8))", "e": "1 + 2 + … + 128 = 255 (one less than 256), so 256 − 255 = ₹1."},
+{"t": "Find −99 − (−200).", "n": 101, "k": "-99-(-200)", "e": "Subtracting −200 = adding 200: −99 + 200 = 101."},
+{"t": "Dice faces are −1, 2, −3, 4, −5, 6. Which sum is IMPOSSIBLE with two dice?", "o": ["0", "1", "−2", "3"], "e": "0 would need a number and its inverse, but no face's inverse is on the dice. 1 = −1 + 2, −2 = −1 + (−1), 3 = −1 + 4."},
+{"t": "(negative) − (positive) is …", "o": ["always negative", "always positive", "could be either", "always 0"], "e": "It's negative + negative, which goes further below zero."},
+{"t": "(negative) − (negative) is …", "o": ["could be positive or negative", "always negative", "always positive", "always 0"], "e": "−8 − (−4) = −4, but −5 − (−7) = +2. It depends on which is bigger."},
+{"t": "Next three terms: −40, −34, −28, −22, … What is the third term after −22?", "n": -4, "k": "-22+18", "e": "Add 6 each time: −16, −10, −4."},
+{"t": "Using cards +1, +7, +18, −5, −2, −9 with + and −, which expression equals −30?", "o": ["(−2) + (−9) − (+18) − (+1)", "(+18) + (+7) − (−5)", "(−9) − (−5) + (−2)", "(−5) + (−9) + (−2) + (+1)"], "e": "−2 − 9 = −11; −11 − 18 = −29; −29 − 1 = −30."},
+{"t": "Everest is about +8,848 m and the Challenger Deep about −10,994 m. What is the height difference?", "n": 19842, "u": "m", "k": "8848-(-10994)", "e": "8,848 − (−10,994) = 8,848 + 10,994 = 19,842 m."},
+{"t": "By Brahmagupta's rule, −5 + 3 = ?", "n": -2, "k": "-5+3", "e": "Subtract the smaller size from the larger (5 − 3 = 2) and keep the sign of the larger (−)."}
+]}
+]
+}

@@ -1,0 +1,53 @@
+{
+"title": "5. Prime Time",
+"tests": [
+{"q": [
+{"t": "How many factors does 12 have?", "n": 6, "k": "len([d for d in range(1,13) if 12%d==0])", "e": "Pairs that multiply to 12: 1 × 12, 2 × 6, 3 × 4 → 1, 2, 3, 4, 6, 12."},
+{"t": "In idli-vada (idli on multiples of 3, vada on multiples of 5), what is the first number where you say 'idli-vada'?", "n": 15, "e": "The first number that is a multiple of both 3 and 5 is 15."},
+{"t": "Is 17 a prime number?", "o": ["Yes — its only factors are 1 and 17", "No — it is odd", "No — it ends in 7", "No — it has three factors"], "e": "A prime has exactly two factors. Nothing except 1 and 17 divides 17."},
+{"t": "What is the smallest prime number?", "n": 2, "e": "1 has only one factor so it isn't prime. 2 has exactly two: 1 and 2."},
+{"t": "The number 1 is …", "o": ["neither prime nor composite", "prime", "composite", "both prime and composite"], "e": "Prime needs exactly two factors, composite more than two; 1 has just one."},
+{"t": "Which is the only even prime number?", "n": 2, "e": "Every other even number has 2 as an extra factor, so it has more than two factors."},
+{"t": "Which number is divisible by 5?", "o": ["345", "342", "348", "341"], "e": "A number is divisible by 5 when its last digit is 0 or 5."},
+{"t": "Which number is divisible by 10?", "o": ["970", "975", "907", "1009"], "e": "Multiples of 10 always end in 0."},
+{"t": "What is the third multiple of 7?", "n": 21, "k": "7*3", "e": "Count up in 7s: 7, 14, 21."},
+{"t": "Jumpy jumps from 0 in steps of 4. Will he land on 24?", "o": ["Yes — 24 is a multiple of 4", "No — 24 is even", "No — 4 is not prime", "Only if he jumps 7 times"], "e": "Steps of 4 land on 4, 8, 12, 16, 20, 24 — the multiples of 4."}
+]},
+{"q": [
+{"t": "Playing idli-vada (3 and 5) from 1 to 90, how many times is 'idli-vada' said?", "n": 6, "k": "90//15", "e": "Idli-vada comes on multiples of 15: 90 ÷ 15 = 6."},
+{"t": "Playing idli-vada (3 and 5) from 1 to 90, how many times is 'idli' said (including idli-vada)?", "n": 30, "k": "90//3", "e": "Every multiple of 3 up to 90: 90 ÷ 3 = 30."},
+{"t": "When is 'idli-vada' (3 and 5) said for the 10th time?", "n": 150, "k": "10*15", "e": "Idli-vada comes every 15 numbers, so the 10th is 10 × 15 = 150."},
+{"t": "What are the common factors of 20 and 28?", "o": ["1, 2, 4", "1, 2, 4, 7", "1, 4", "2, 4, 5"], "e": "Factors of 20: 1, 2, 4, 5, 10, 20. Factors of 28: 1, 2, 4, 7, 14, 28. Shared: 1, 2, 4."},
+{"t": "How many prime numbers are there from 21 to 30?", "n": 2, "k": "len([n for n in range(21,31) if all(n%d for d in range(2,n))])", "e": "Only 23 and 29. The rest are even or multiples of 3 or 5 (21, 25, 27 …)."},
+{"t": "Which pair are twin primes?", "o": ["41 and 43", "43 and 47", "23 and 27", "51 and 53"], "e": "Twin primes are primes that differ by 2. 43 and 47 differ by 4; 27 and 51 aren't prime."},
+{"t": "Which of these is a prime number?", "o": ["37", "51", "91", "57"], "e": "51 = 3 × 17, 91 = 7 × 13, 57 = 3 × 19. Only 37 has no factors except 1 and itself."},
+{"t": "Which pair is co-prime?", "o": ["18 and 35", "30 and 415", "81 and 18", "15 and 39"], "e": "18 = 2 × 3 × 3 and 35 = 5 × 7 share no prime. 30 & 415 share 5; 81 & 18 share 9; 15 & 39 share 3."},
+{"t": "Is 8536 divisible by 4?", "o": ["Yes — the last two digits 36 are a multiple of 4", "No — it ends in 6", "Yes — it is even", "No — 8 + 5 + 3 + 6 is odd"], "e": "Only the last two digits matter for 4, because 100 is a multiple of 4. 36 = 4 × 9."},
+{"t": "What is the perfect number between 1 and 10?", "n": 6, "e": "Its factors 1 + 2 + 3 + 6 = 12, which is twice 6."}
+]},
+{"q": [
+{"t": "Treasures are on 28 and 70. What is the LARGEST jump size that reaches both?", "n": 14, "k": "math.gcd(28,70)", "e": "Common factors of 28 and 70 are 1, 2, 7, 14. The largest is 14."},
+{"t": "Find the prime factorisation of 104.", "o": ["2 × 2 × 2 × 13", "2 × 52", "4 × 26", "2 × 2 × 26"], "e": "Keep halving: 104 → 52 → 26 → 13. Three 2s, then 13, which is prime."},
+{"t": "A number's prime factorisation has one 2, two 3s and one 11. What is the number?", "n": 198, "k": "2*3*3*11", "e": "2 × 3 × 3 × 11 = 18 × 11 = 198."},
+{"t": "What is the smallest number whose prime factorisation has three different primes?", "n": 30, "k": "2*3*5", "e": "Use the three smallest primes: 2 × 3 × 5 = 30."},
+{"t": "Which number is the product of exactly three different primes?", "o": ["105", "45", "60", "330"], "k": "3*5*7", "e": "105 = 3 × 5 × 7. 45 = 3 × 3 × 5 repeats 3; 60 = 2 × 2 × 3 × 5; 330 = 2 × 3 × 5 × 11 has four."},
+{"t": "Is 225 divisible by 27?", "o": ["No — 225 has only two 3s but 27 needs three", "Yes — both are multiples of 3", "Yes — 2 + 2 + 5 = 9", "No — 225 is odd"], "e": "225 = 3 × 3 × 5 × 5 and 27 = 3 × 3 × 3. You need enough copies of each prime."},
+{"t": "What is the smallest number that is a multiple of every number from 1 to 10 except 7?", "n": 360, "k": "math.lcm(1,2,3,4,5,6,8,9,10)", "e": "It needs 8 = 2×2×2, 9 = 3×3 and 5: 8 × 9 × 5 = 360. That covers 2, 3, 4, 6 and 10 automatically."},
+{"t": "What is the smallest number that is a multiple of every number from 1 to 10?", "n": 2520, "k": "math.lcm(*range(1,11))", "e": "Take 360 (everything except 7) and multiply by 7, since 360 has no 7 in it: 2520."},
+{"t": "For a co-prime pair like 4 and 9, the first common multiple is …", "o": ["their product, 36", "less than their product", "their sum, 13", "always 1"], "e": "With no shared factor, nothing can be saved, so the first common multiple is 4 × 9 = 36."},
+{"t": "How many 3-digit primes can you make using each of 2, 4 and 5 once?", "n": 0, "e": "The last digit is 2 or 4 (even) or 5 (multiple of 5) — every arrangement has a factor besides 1 and itself."}
+]},
+{"q": [
+{"t": "1955 is the product of three primes all less than 30. What is the largest of them?", "n": 23, "e": "1955 ends in 5: 1955 ÷ 5 = 391 = 17 × 23. So 1955 = 5 × 17 × 23."},
+{"t": "What is the smallest number whose prime factorisation has four different primes?", "n": 210, "k": "2*3*5*7", "e": "2 × 3 × 5 × 7 = 210."},
+{"t": "Two numbers below 10 play idli-vada. The first idli-vada comes after 50 and before 60. What are they?", "o": ["7 and 8", "8 and 9", "6 and 9", "5 and 9"], "e": "7 and 8 share no factor, so their first common multiple is 56. 8 & 9 → 72; 6 & 9 → 18; 5 & 9 → 45."},
+{"t": "How many leap years are there from 2024 to 2099?", "n": 19, "k": "len([y for y in range(2024,2100) if y%4==0])", "e": "2024, 2028, …, 2096: (2096 − 2024) ÷ 4 + 1 = 19. No century year falls in the range."},
+{"t": "What is the largest 4-digit palindrome divisible by 4?", "n": 8888, "k": "max(i for i in range(1000,10000) if str(i)==str(i)[::-1] and i%4==0)", "e": "The last digit equals the first, so it must be even (≤ 8). 8998 fails (98 isn't a multiple of 4); 8888 works (88 = 4 × 22)."},
+{"t": "To check that 14560 is divisible by 2, 4, 5, 8 and 10, which TWO checks are enough?", "o": ["5 and 8", "2 and 4", "2 and 10", "4 and 10"], "e": "Divisible by 8 means divisible by 2 and 4 too; 8 and 5 together give 2 × 5 = 10."},
+{"t": "10000 = A × B, and neither A nor B ends in 0. What is the larger of A and B?", "n": 625, "e": "10000 = 2×2×2×2 × 5×5×5×5. Keep all 2s apart from all 5s: 16 × 625 (any 2 with a 5 makes a 10 and a final 0)."},
+{"t": "After 2 and 3, why is the number right after a prime always composite?", "o": ["Every prime after 2 is odd, so the next number is even and bigger than 2", "Because primes are rare", "Because it is a multiple of 3", "It isn't — it is sometimes prime"], "e": "Even numbers bigger than 2 have 2 as an extra factor."},
+{"t": "What is the remainder when 2345 is divided by 2? By 5? Give the remainder for 5.", "n": 0, "k": "2345%5", "e": "2345 ends in 5, so it's a multiple of 5 — remainder 0. (By 2 the remainder is 1 because it's odd.)"},
+{"t": "Which number is divisible by all of 2, 4, 5, 8 and 10?", "o": ["5600", "572", "2352", "1250"], "e": "5600 ends in 0 (2, 5, 10) and its last three digits 600 = 8 × 75 (8, so 4). 572 and 2352 don't end in 0/5; 1250's last three digits 250 aren't a multiple of 8."}
+]}
+]
+}

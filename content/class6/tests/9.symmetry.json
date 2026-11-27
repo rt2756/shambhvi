@@ -1,0 +1,53 @@
+{
+"title": "9. Symmetry",
+"tests": [
+{"q": [
+{"t": "How many lines of symmetry does a square have?", "n": 4, "e": "Vertical, horizontal and both diagonals — four folds give matching halves."},
+{"t": "How many lines of symmetry does a rectangle (not a square) have?", "n": 2, "e": "Only the two lines through the middles of opposite sides. Its diagonals are NOT lines of symmetry."},
+{"t": "How many lines of symmetry does an equilateral triangle have?", "n": 3, "e": "One from each corner to the middle of the opposite side."},
+{"t": "A line of symmetry divides a figure into two parts that …", "o": ["match exactly when folded along the line", "have the same colour", "are both triangles", "are different sizes"], "e": "Each half is the mirror image of the other."},
+{"t": "Which has NO line of symmetry?", "o": ["A cloud", "A square", "A butterfly", "A circle"], "e": "Nothing in a cloud repeats in a regular way."},
+{"t": "A pinwheel looks the same after a quarter turn. This is called …", "o": ["rotational symmetry", "line symmetry", "no symmetry", "folding symmetry"], "e": "Looking the same after turning about a centre is rotational symmetry."},
+{"t": "Which angle is an angle of symmetry for EVERY figure?", "n": 360, "u": "°", "e": "A full turn always brings any figure back to where it started."},
+{"t": "How many lines of symmetry does a circle have?", "o": ["Infinitely many", "1", "2", "4"], "e": "Every line through the centre is a line of symmetry."},
+{"t": "How many lines of symmetry does a regular hexagon have?", "n": 6, "e": "A regular polygon with n sides has n lines of symmetry."},
+{"t": "Paper folded once and punched once. How many holes when opened?", "n": 2, "e": "One fold makes two layers, and the punch goes through both."}
+]},
+{"q": [
+{"t": "What are the angles of symmetry of a square?", "o": ["90°, 180°, 270°, 360°", "180°, 360°", "45°, 90°, 360°", "120°, 240°, 360°"], "e": "A quarter turn makes a square look the same, and so do 2, 3 and 4 quarter turns."},
+{"t": "What is the order of rotational symmetry of an equilateral triangle?", "n": 3, "e": "Angles 120°, 240°, 360° — three of them."},
+{"t": "What is the smallest angle of symmetry of a rectangle (not a square)?", "n": 180, "u": "°", "e": "Only a half turn (and a full turn) makes a rectangle look the same."},
+{"t": "Paper folded twice (in half, then in half again) and punched once. How many holes?", "n": 4, "k": "2*2", "e": "Each fold doubles the layers: 2 × 2 = 4."},
+{"t": "Why is a rectangle's diagonal not a line of symmetry?", "o": ["When folded along it, the corners stick out and the halves don't match", "Diagonals are never lines of symmetry", "Because a rectangle has 4 sides", "It is — it splits it into equal halves"], "e": "The two triangles are equal but don't land on each other when folded — unless it's a square."},
+{"t": "A figure with 5 evenly spaced arms — what is its smallest angle of symmetry?", "n": 72, "u": "°", "k": "360//5", "e": "Each turn must carry one arm onto the next: 360° ÷ 5 = 72°."},
+{"t": "Which triangle has exactly one line of symmetry?", "o": ["Isosceles (two equal sides, third different)", "Equilateral", "Scalene", "Every triangle"], "e": "The line runs from the corner between the equal sides to the middle of the third side."},
+{"t": "Can a triangle have exactly 2 lines of symmetry?", "o": ["No — two lines force all sides equal, which gives a third line", "Yes, an isosceles triangle", "Yes, a right triangle", "Yes, any triangle"], "e": "A triangle has 0, 1 or 3 lines of symmetry."},
+{"t": "Reflect square ABCD in its diagonal AC. What happens to A and C?", "o": ["They stay where they are", "They swap", "They move to B and D", "They disappear"], "e": "Points on the fold line don't move; B and D swap."},
+{"t": "A figure's smallest angle of symmetry is 60°. Which is also an angle of symmetry?", "o": ["240°", "90°", "45°", "200°"], "e": "Angles of symmetry are multiples of the smallest: 60, 120, 180, 240, 300, 360."}
+]},
+{"q": [
+{"t": "A figure's smallest angle of symmetry is 45°. What is its order of rotational symmetry?", "n": 8, "k": "360//45", "e": "360 ÷ 45 = 8 angles: 45°, 90°, …, 360°."},
+{"t": "Can a figure's smallest angle of symmetry be 17°?", "o": ["No — 17 is not a factor of 360", "Yes", "Only for a circle", "Only with 17 arms"], "e": "The smallest angle (in whole degrees) must divide 360 exactly; 360 ÷ 17 isn't whole."},
+{"t": "60° is an angle of symmetry and there are two smaller angles of symmetry. What is the smallest?", "n": 20, "u": "°", "k": "60//3", "e": "The angles are multiples of the smallest, and 60° is the 3rd one: 60 ÷ 3 = 20°."},
+{"t": "A figure has 7 evenly spaced arms. What is its smallest angle of symmetry?", "o": ["51 3/7°", "51°", "52°", "50 3/7°"], "k": "F(360,7)", "e": "360 ÷ 7 = 51 remainder 3, so 51 3/7° — not a whole number."},
+{"t": "What are the lines-of-symmetry numbers for regular polygons from triangle to decagon?", "o": ["3, 4, 5, 6, 7, 8, 9, 10", "1, 2, 3, 4, 5, 6, 7, 8", "3, 6, 9, 12, …", "2, 4, 6, 8, …"], "e": "A regular polygon has as many lines of symmetry as sides: the counting numbers from 3."},
+{"t": "Which quadrilateral has rotational symmetry but NO line of symmetry?", "o": ["A parallelogram that isn't a rectangle or rhombus", "A square", "A kite", "A rectangle"], "e": "It looks the same after a half turn but no fold makes its halves match."},
+{"t": "Which quadrilateral has a line of symmetry but no rotational symmetry?", "o": ["A kite", "A square", "A rectangle", "A parallelogram"], "e": "A kite folds along its long diagonal, but no turn under 360° brings it back."},
+{"t": "A circle is cut into 12 equal sectors and coloured to have exactly 4 angles of symmetry. How many sectors are in the repeating pattern?", "n": 3, "k": "12//4", "e": "The pattern repeats 4 times round 12 sectors: 12 ÷ 4 = 3."},
+{"t": "The outer boundary of the new Parliament building has rotational symmetry. What are its angles of symmetry?", "o": ["120°, 240°, 360°", "90°, 180°, 270°, 360°", "180°, 360°", "360° only"], "e": "It is triangle-like with 3 lines of symmetry and turns onto itself every 120°."},
+{"t": "A regular hexagon's angles of symmetry are multiples of …", "n": 60, "u": "°", "k": "360//6", "e": "360 ÷ 6 = 60°: 60, 120, 180, 240, 300, 360."}
+]},
+{"q": [
+{"t": "A circle of 12 equal sectors is coloured in a repeating pattern. Which number of angles of symmetry is IMPOSSIBLE?", "o": ["5", "6", "4", "3"], "e": "The pattern must repeat a whole number of times round 12 sectors, so the count must divide 12: 1, 2, 3, 4, 6, 12."},
+{"t": "How many lines of symmetry does every Koch snowflake after the first (triangle) have?", "n": 6, "e": "The bumps make it look the same from six directions: 6 lines, and angles of symmetry every 60°."},
+{"t": "Which statement is true for every figure?", "o": ["If the smallest angle of symmetry is a whole number of degrees, it is a factor of 360", "Every figure has a line of symmetry", "Every figure has order at least 2", "The smallest angle of symmetry is always 90°"], "e": "Repeating the smallest turn must land exactly on a full turn of 360°."},
+{"t": "Which triangle has at least 2 lines AND at least 2 angles of symmetry?", "o": ["Equilateral", "Isosceles", "Scalene", "Right-angled"], "e": "Only the equilateral triangle: 3 lines and angles 120°, 240°, 360°."},
+{"t": "Paper is folded in half twice and the closed corner is cut off with a straight slanting cut. What hole appears when opened?", "o": ["A diamond — a square standing on its corner", "A circle", "A triangle", "No hole"], "e": "The slanting cut is reflected across both folds, making four equal edges around the centre."},
+{"t": "An opened paper shows 4 holes, symmetric about a vertical and a horizontal line. How was it folded before one punch?", "o": ["In half vertically and then horizontally", "Once vertically", "Not at all", "Three times"], "e": "Two folds make 4 layers; the hole pattern shows both fold lines as lines of symmetry."},
+{"t": "A figure has rotational symmetry of order 9. What is its smallest angle of symmetry?", "n": 40, "u": "°", "k": "360//9", "e": "360 ÷ 9 = 40°."},
+{"t": "How many lines of symmetry does a regular 12-sided polygon have?", "n": 12, "e": "A regular n-gon has n lines: 6 through opposite corners and 6 through middles of opposite sides."},
+{"t": "Three arms meet at a centre at angles 100°, 120°, 140°. What is its order of rotational symmetry?", "o": ["1 — no rotational symmetry (only 360°)", "3", "2", "120"], "e": "The gaps are unequal, so no turn less than a full turn carries every arm onto another."},
+{"t": "On squared paper a corner is 3 squares left of the line of symmetry. Where is its reflection?", "o": ["3 squares right of the line, level with it", "3 squares left", "6 squares right", "On the line"], "e": "A reflection puts each point the same distance from the line on the other side, straight across."}
+]}
+]
+}

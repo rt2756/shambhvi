@@ -1,0 +1,53 @@
+{
+"title": "6. Perimeter and Area",
+"tests": [
+{"q": [
+{"t": "Find the perimeter of a rectangle 12 cm long and 8 cm wide.", "n": 40, "u": "cm", "k": "2*(12+8)", "e": "Perimeter = 2 × (length + breadth) = 2 × 20 = 40 cm."},
+{"t": "Find the perimeter of a square of side 7 cm.", "n": 28, "u": "cm", "k": "4*7", "e": "All four sides are equal: 4 × 7 = 28 cm."},
+{"t": "Find the area of a rectangle 6 cm long and 4 cm wide.", "n": 24, "u": "sq cm", "k": "6*4", "e": "4 rows of 6 unit squares: 6 × 4 = 24 sq cm."},
+{"t": "Find the area of a square of side 9 m.", "n": 81, "u": "sq m", "k": "9*9", "e": "Side × side = 81 sq m."},
+{"t": "A triangle has sides 5 cm, 6 cm and 7 cm. What is its perimeter?", "n": 18, "u": "cm", "k": "5+6+7", "e": "Perimeter of any polygon = sum of its sides."},
+{"t": "Putting a fence around a field needs its …", "o": ["perimeter", "area", "volume", "weight"], "e": "A fence goes around the boundary — that's perimeter."},
+{"t": "Carpeting a floor needs its …", "o": ["area", "perimeter", "diagonal", "height"], "e": "Carpet covers the surface inside — that's area."},
+{"t": "Area is measured in …", "o": ["square units, like sq cm", "cm", "kg", "litres"], "e": "Area counts unit squares, so its unit is square cm, square m, etc."},
+{"t": "A regular hexagon has side 5 cm. What is its perimeter?", "n": 30, "u": "cm", "k": "6*5", "e": "Six equal sides: 6 × 5 = 30 cm."},
+{"t": "Why do we measure area with squares rather than circles?", "o": ["Squares fit together with no gaps or overlaps", "Squares are easier to draw", "Circles are too big", "Circles have no area"], "e": "Circles leave gaps, so counting them gives different answers for the same shape."}
+]},
+{"q": [
+{"t": "A rectangle has perimeter 14 cm and breadth 2 cm. What is its length?", "n": 5, "u": "cm", "k": "14//2-2", "e": "Length + breadth = 14 ÷ 2 = 7, so length = 7 − 2 = 5 cm."},
+{"t": "A square has perimeter 20 cm. What is its side?", "n": 5, "u": "cm", "k": "20//4", "e": "Side = perimeter ÷ 4 = 5 cm."},
+{"t": "A triangle has perimeter 55 cm; two sides are 20 cm and 14 cm. Find the third side.", "n": 21, "u": "cm", "k": "55-20-14", "e": "55 − 20 − 14 = 21 cm."},
+{"t": "A wire rectangle 5 cm × 3 cm is bent into a square. What is the square's side?", "n": 4, "u": "cm", "k": "2*(5+3)//4", "e": "Same wire, same perimeter: 2 × 8 = 16 cm. Side = 16 ÷ 4 = 4 cm."},
+{"t": "A 36 cm string is made into an equilateral triangle. How long is each side?", "n": 12, "u": "cm", "k": "36//3", "e": "Three equal sides share the 36 cm: 36 ÷ 3 = 12 cm."},
+{"t": "A garden 25 m long has area 300 sq m. What is its width?", "n": 12, "u": "m", "k": "300//25", "e": "Area = length × width, so width = 300 ÷ 25 = 12 m."},
+{"t": "A floor 5 m × 4 m has a square carpet of side 3 m. What area is NOT carpeted?", "n": 11, "u": "sq m", "k": "5*4-3*3", "e": "Floor 20 sq m minus carpet 9 sq m = 11 sq m."},
+{"t": "Fencing a park 150 m × 120 m costs ₹40 per metre. What is the total cost?", "n": 21600, "u": "₹", "k": "2*(150+120)*40", "e": "Perimeter = 2 × 270 = 540 m. Cost = 540 × 40 = ₹21,600."},
+{"t": "With 9 unit squares, what is the SMALLEST perimeter you can make?", "n": 12, "e": "The most compact shape, a 3 × 3 square, has perimeter 4 × 3 = 12."},
+{"t": "A triangle fits exactly in a 6 cm × 4 cm rectangle (same base and height). What is its area?", "n": 12, "u": "sq cm", "k": "6*4//2", "e": "A triangle is half its surrounding rectangle: ½ × 24 = 12 sq cm."}
+]},
+{"q": [
+{"t": "A field 230 m × 160 m is fenced with 3 rounds of rope. How much rope is needed?", "n": 2340, "u": "m", "k": "3*2*(230+160)", "e": "One round = 2 × 390 = 780 m. Three rounds = 2,340 m."},
+{"t": "Akshi runs 5 rounds of a 70 m × 40 m track. How far does she run?", "n": 1100, "u": "m", "k": "5*2*(70+40)", "e": "One round = 220 m. 5 × 220 = 1,100 m."},
+{"t": "Toshi runs 7 rounds of a 60 m × 30 m track. How far does he run?", "n": 1260, "u": "m", "k": "7*2*(60+30)", "e": "One round = 180 m. 7 × 180 = 1,260 m — more than Akshi's 1,100 m."},
+{"t": "A coconut grove is 100 m × 50 m and each tree needs 25 sq m. How many trees at most?", "n": 200, "k": "100*50//25", "e": "Area 5,000 sq m ÷ 25 = 200 trees."},
+{"t": "Tiling a plot 500 m × 200 m costs ₹8 per hundred sq m. What is the cost?", "n": 8000, "u": "₹", "k": "500*200//100*8", "e": "Area = 1,00,000 sq m = 1,000 hundreds. 1,000 × ₹8 = ₹8,000."},
+{"t": "A garden 15 m × 12 m has four flower beds of 2 m × 1 m. What area is left for lawn?", "n": 172, "u": "sq m", "k": "15*12-4*2*1", "e": "180 − 4 × 2 = 172 sq m."},
+{"t": "With 9 unit squares, what is the LARGEST perimeter you can make?", "n": 20, "k": "2*(9+1)", "e": "Spread them in a line, 9 × 1: perimeter 2 × 10 = 20 — almost no edges are hidden."},
+{"t": "Which rectangle with area 24 sq cm has the least perimeter?", "o": ["4 cm × 6 cm", "1 cm × 24 cm", "2 cm × 12 cm", "3 cm × 8 cm"], "e": "Perimeters: 20, 50, 28, 22. The most square-like rectangle has the least perimeter."},
+{"t": "A triangle on dot paper has 3 straight edges and 3 diagonal edges. Is its perimeter 6 units?", "o": ["No — diagonal units are longer, so it's more than 6", "Yes, 3 + 3 = 6", "No, it's less than 6", "Yes, all edges are equal"], "e": "A diagonal across a square is longer than its side, so we write 3s + 3d, which is more than 6 straight units."},
+{"t": "Charan's house is 35 ft × 30 ft and Sharan's is 42 ft × 25 ft. Which is true?", "o": ["Same area (1,050 sq ft), different perimeters", "Same perimeter, different areas", "Same area and perimeter", "Different area and perimeter"], "e": "35 × 30 = 42 × 25 = 1,050. Perimeters: 130 ft and 134 ft."}
+]},
+{"q": [
+{"t": "Find a SQUARE with the same area as a 5 m × 10 m rectangle plus a 2 m × 7 m rectangle. What is its side?", "n": 8, "u": "m", "k": "8", "e": "Total area = 50 + 14 = 64 sq m, and 8 × 8 = 64."},
+{"t": "A square of side 2 is cut along a fold into two rectangles. Together, their perimeters are how many times the square's?", "o": ["1½ times", "2 times", "the same", "half"], "e": "Square: 8. Each 2 × 1 rectangle: 6, so 12 in all = 1½ × 8. The cut adds two new edges."},
+{"t": "Shape A has area 18 and perimeter 38. What could its shape be?", "o": ["An 18 × 1 rectangle", "A 6 × 3 rectangle", "A 9 × 2 rectangle", "A square"], "e": "18 × 1: area 18, perimeter 2 × 19 = 38. 6 × 3 gives 18; 9 × 2 gives 22."},
+{"t": "Akshi has run 1,000 m round a 220 m track. How far into her current round is she?", "n": 120, "u": "m", "k": "1000-4*220", "e": "4 full rounds = 880 m. 1,000 − 880 = 120 m into the 5th round."},
+{"t": "An L-shape is a 6 m × 3 m rectangle joined to a 2 m × 5 m rectangle. What is its area?", "n": 28, "u": "sq m", "k": "6*3+2*5", "e": "Split it into rectangles and add: 18 + 10 = 28 sq m."},
+{"t": "A unit square is added into a corner notch so that 2 of its sides touch the shape. The perimeter …", "o": ["stays the same", "increases by 2", "increases by 4", "decreases by 2"], "e": "It hides 2 old edges and adds 2 new ones."},
+{"t": "In a tangram, a large triangle is how many times the area of a small triangle?", "n": 4, "e": "The 7 pieces total 16 small triangles: large 4 + 4, medium triangle 2, square 2, parallelogram 2, small 1 + 1."},
+{"t": "The 7 tangram pieces make a square of 16 small-triangle units. Rearranged into a rectangle, its area is …", "o": ["still 16 small triangles", "more, because rectangles are longer", "less, because of gaps", "impossible to tell"], "e": "The same pieces cover the same amount of surface, so the area doesn't change. Only the perimeter can."},
+{"t": "A 12 × 8 rectangle has a smaller rectangle inside with exactly half its area. What is that area?", "n": 48, "u": "sq units", "k": "12*8//2", "e": "12 × 8 = 96; half is 48 (e.g. a 8 × 6 rectangle)."},
+{"t": "A rectangle has area 30 sq cm and one side 6 cm. A neighbour shares its other side and is 3 cm long. Area of the neighbour?", "n": 15, "u": "sq cm", "k": "30//6*3", "e": "Other side = 30 ÷ 6 = 5 cm. Neighbour = 5 × 3 = 15 sq cm."}
+]}
+]
+}

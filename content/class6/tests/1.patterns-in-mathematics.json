@@ -1,0 +1,53 @@
+{
+"title": "1. Patterns in Mathematics",
+"tests": [
+{"q": [
+{"t": "What comes next? 2, 4, 6, 8, 10, …", "n": 12, "k": "10+2", "e": "Even numbers go up by 2 each time."},
+{"t": "What comes next in the odd numbers? 1, 3, 5, 7, 9, …", "n": 11, "k": "9+2", "e": "Odd numbers start at 1 and go up by 2."},
+{"t": "What is the next square number after 1, 4, 9, 16, 25?", "n": 36, "k": "6*6", "e": "Squares are 1×1, 2×2, 3×3, … The 6th is 6 × 6 = 36."},
+{"t": "What is the next triangular number? 1, 3, 6, 10, …", "n": 15, "k": "10+5", "e": "Each triangle adds a new row one dot longer: +2, +3, +4, then +5. 10 + 5 = 15."},
+{"t": "What is the next cube? 1, 8, 27, 64, …", "n": 125, "k": "5**3", "e": "Cubes are n × n × n. The 5th is 5 × 5 × 5 = 125."},
+{"t": "What is the next power of 2? 1, 2, 4, 8, 16, …", "n": 32, "k": "16*2", "e": "Powers of 2 double each time: 16 × 2 = 32."},
+{"t": "What is the next Virahānka number? 1, 2, 3, 5, 8, …", "n": 13, "k": "5+8", "e": "Each Virahānka number is the sum of the previous two: 5 + 8 = 13."},
+{"t": "Mathematics is, in large part, the search for …", "o": ["patterns, and the explanations of why they exist", "the biggest number", "quick tricks to memorise", "the answers at the back of the book"], "e": "The book's big idea: find the pattern, then explain why it happens — the explanation is what you can reuse."},
+{"t": "Patterns in whole numbers are studied by which branch of maths?", "o": ["Number theory", "Geometry", "Data handling", "Measurement"], "e": "Number theory studies patterns in whole numbers; geometry studies patterns in shapes."},
+{"t": "How many sides does a regular hexagon have?", "n": 6, "e": "Hexa means six. The regular polygon sequence counts sides 3, 4, 5, 6, …"}
+]},
+{"q": [
+{"t": "Find 1 + 3 + 5 + 7 + 9 + 11 without adding one by one.", "n": 36, "k": "1+3+5+7+9+11", "e": "These are the first 6 odd numbers. The sum of the first n odd numbers is n × n, so 6 × 6 = 36."},
+{"t": "What is the sum of the first 10 odd numbers?", "n": 100, "k": "sum(range(1,20,2))", "e": "The first n odd numbers add to n × n (they make L-shaped layers of a square). 10 × 10 = 100."},
+{"t": "Find 1 + 2 + 3 + 4 + 5 + 4 + 3 + 2 + 1.", "n": 25, "k": "1+2+3+4+5+4+3+2+1", "e": "Adding up and down to 5 counts the diagonals of a 5 × 5 square, so the total is 5 × 5 = 25."},
+{"t": "Add the consecutive triangular numbers 10 and 15. What kind of number do you get?", "o": ["25, a square number", "25, a triangular number", "25, a cube", "25, a power of 2"], "k": "10+15", "e": "Two neighbouring triangles of dots fit together into a square: 10 + 15 = 25 = 5 × 5."},
+{"t": "What is the next hexagonal number? 1, 7, 19, 37, …", "n": 61, "k": "10*6+1", "e": "Hexagonal numbers = triangular × 6 + 1. The 5th triangular number is 10, so 10 × 6 + 1 = 61."},
+{"t": "How many lines are there in a complete graph with 4 dots (every dot joined to every other)?", "n": 6, "k": "1+2+3", "e": "The 2nd dot adds 1 line, the 3rd adds 2, the 4th adds 3: 1 + 2 + 3 = 6, a triangular number."},
+{"t": "Which number is both a triangular number and a square number?", "o": ["36", "16", "10", "25"], "e": "36 = 6 × 6, and 36 = 1 + 2 + … + 8, so its dots make both a square and a triangle."},
+{"t": "Find 1 + 2 + 4 + 8 + 16.", "n": 31, "k": "1+2+4+8+16", "e": "Adding powers of 2 from 1 always gives one less than the next power of 2: 32 − 1 = 31."},
+{"t": "A regular polygon must have …", "o": ["all sides equal and all angles equal", "all sides equal only", "all angles equal only", "exactly four sides"], "e": "Regular means both: equal sides and equal angles. A rhombus has equal sides but is not regular unless its angles are equal too."},
+{"t": "How many line segments does the 2nd shape of the Koch snowflake have (the first is a triangle with 3)?", "n": 12, "k": "3*4", "e": "Every segment is replaced by a speed bump of 4 segments, so 3 × 4 = 12."}
+]},
+{"q": [
+{"t": "Find 1 + 3 + 5 + … + 19 (all the odd numbers up to 19).", "n": 100, "k": "sum(range(1,20,2))", "e": "There are (19 + 1) ÷ 2 = 10 odd numbers up to 19, so the sum is 10 × 10 = 100. Count the numbers — don't use the last one."},
+{"t": "Find 1 + 2 + 3 + … + 99 + 100 + 99 + … + 3 + 2 + 1.", "n": 10000, "k": "sum(range(1,101))+sum(range(1,100))", "e": "Up and down to 100 counts the diagonals of a 100 × 100 square: 100 × 100 = 10,000."},
+{"t": "Find 1 + 2 + 3 + … + 10.", "n": 55, "k": "sum(range(1,11))", "e": "Pair the ends: (1+10) + (2+9) + … + (5+6) = 5 pairs of 11 = 55. It is the 10th triangular number."},
+{"t": "What is the 9th Virahānka number? 1, 2, 3, 5, 8, 13, 21, …", "n": 55, "k": "34+21", "e": "Keep adding the previous two: 13 + 21 = 34 (8th), then 21 + 34 = 55 (9th)."},
+{"t": "What is 1 + 2 + 4 + 8 + 16 + 32 + 64?", "n": 127, "k": "sum(2**i for i in range(7))", "e": "The next power of 2 after 64 is 128; the sum is always one less: 128 − 1 = 127. (Add 1 and it snowballs: 1+1 = 2, 2+2 = 4, …, 64+64 = 128.)"},
+{"t": "Find 1 + 7 + 19 + 37 (adding hexagonal numbers).", "n": 64, "k": "1+7+19+37", "e": "Adding hexagonal numbers gives cubes, because each hexagon is one layer of a cube seen from its corner. 1 + 7 + 19 + 37 = 64 = 4 × 4 × 4."},
+{"t": "Why does a regular polygon have as many corners as sides?", "o": ["Every side ends at a corner where the next side begins", "Because all its sides are equal", "Because it is regular", "It doesn't — it has one more corner than sides"], "e": "Walking round the shape you meet one corner after each side, then arrive back at the start — so the counts match for every closed polygon, regular or not."},
+{"t": "How many lines are there in a complete graph with 6 dots?", "n": 15, "k": "1+2+3+4+5", "e": "Each new dot joins every dot already there: 1 + 2 + 3 + 4 + 5 = 15."},
+{"t": "A stacked-triangle shape has 4 rows. How many little triangles does it have?", "n": 16, "k": "1+3+5+7", "e": "The rows hold 1, 3, 5, 7 little triangles — the odd numbers — and 1 + 3 + 5 + 7 = 16 = 4 × 4."},
+{"t": "How many segments does the 4th Koch snowflake shape have (3, 12, 48, …)?", "n": 192, "k": "3*4**3", "e": "Each step every segment becomes 4: 48 × 4 = 192. The sequence is 3 × powers of 4."}
+]},
+{"q": [
+{"t": "Find 1 + 3 + 5 + … + 199 (all odd numbers up to 199).", "n": 10000, "k": "sum(range(1,200,2))", "e": "There are (199 + 1) ÷ 2 = 100 odd numbers, so the sum is 100 × 100 = 10,000."},
+{"t": "1 + 3 + 5 + … adds up to 144. How many odd numbers were added?", "n": 12, "k": "12", "e": "The sum of the first n odd numbers is n × n, and 12 × 12 = 144, so n = 12. (The last one added is 23.)"},
+{"t": "What is the 6th hexagonal number (1, 7, 19, 37, 61, …)?", "n": 91, "k": "15*6+1", "e": "Hexagonal = 6 × triangular + 1. The 6th triangular number is 15, so 15 × 6 + 1 = 91. (Check the jumps: +6, +12, +18, +24, +30.)"},
+{"t": "Which sequence do you get by multiplying each triangular number by 6 and adding 1, and why?", "o": ["Hexagonal numbers — a hexagon is a centre dot with six triangles around it", "Square numbers — two triangles make a square", "Cubes — the layers stack up", "Powers of 2 — the numbers double"], "e": "Six equal triangles of dots around one centre dot make a hexagon: 6 × triangle + 1."},
+{"t": "Find 1 + 7 + 19 + 37 + 61 (the first five hexagonal numbers).", "n": 125, "k": "1+7+19+37+61", "e": "Adding hexagonal numbers gives cubes. Five of them make 5 × 5 × 5 = 125."},
+{"t": "If 1 + 2 + 4 + … + 512 = N, what is N?", "n": 1023, "k": "sum(2**i for i in range(10))", "e": "The next power of 2 after 512 is 1024, and the sum is one less: 1023."},
+{"t": "A complete graph has 10 lines. How many dots does it have?", "n": 5, "k": "5", "e": "Lines go 1, 3, 6, 10 for 2, 3, 4, 5 dots (adding 1, 2, 3, 4). So 10 lines means 5 dots."},
+{"t": "How many segments does the 5th Koch snowflake shape have?", "n": 768, "k": "3*4**4", "e": "3, 12, 48, 192, 768 — multiply by 4 each step because each segment becomes 4."},
+{"t": "Which of these is NOT a square number?", "o": ["50", "49", "64", "81"], "e": "49 = 7×7, 64 = 8×8, 81 = 9×9. 7×7 = 49 and 8×8 = 64, so 50 sits between squares and is not one."},
+{"t": "The 10th triangular number and the 11th triangular number are added. What is the total?", "n": 121, "k": "55+66", "e": "10th = 55, 11th = 66. Two consecutive triangular numbers make a square: 55 + 66 = 121 = 11 × 11."}
+]}
+]
+}

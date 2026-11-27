@@ -1,0 +1,53 @@
+{
+  "title": "5. Parallel and Intersecting Lines",
+  "tests": [
+    { "q": [
+      { "t": "Two lines intersect. One angle is 120°. What is the angle next to it (its linear pair)?", "n": 60, "u": "°", "k": "180-120", "e": "A linear pair sits on a straight line, so the two angles add to 180°: 180 − 120 = 60." },
+      { "t": "Two lines intersect and one angle is 70°. What is the vertically opposite angle?", "n": 70, "u": "°", "e": "Vertically opposite angles are always equal." },
+      { "t": "How many angles are formed when two lines intersect?", "n": 4, "e": "Around the crossing point there are four angles." },
+      { "t": "At most how many points can two different straight lines share?", "n": 1, "e": "Through two points there is only one straight line, so two different lines can meet at most once." },
+      { "t": "Lines that cross at 90° are called…", "o": ["perpendicular", "parallel", "transversal", "vertically opposite"], "e": "Perpendicular lines meet at right angles." },
+      { "t": "Lines in the same plane that never meet are called…", "o": ["parallel", "perpendicular", "intersecting", "transversal"], "e": "Parallel lines never meet however far they are extended." },
+      { "t": "A line that crosses two other lines is called a…", "o": ["transversal", "diagonal", "perpendicular", "ray"], "e": "That's the definition of a transversal." },
+      { "t": "How many angles does a transversal make with two lines?", "n": 8, "e": "4 angles at each of the 2 crossing points." },
+      { "t": "If two intersecting lines make four equal angles, each angle is…", "n": 90, "u": "°", "k": "360//4", "e": "The four angles fill a full turn (360°), so each is 360 ÷ 4 = 90°." },
+      { "t": "Linear-pair angles always add up to…", "n": 180, "u": "°", "e": "They make a straight line, which is 180°." }
+    ]},
+    { "q": [
+      { "t": "Parallel lines are cut by a transversal. One corresponding angle is 75°. The other is…", "n": 75, "u": "°", "e": "When lines are parallel, corresponding angles are equal." },
+      { "t": "l ∥ m and an alternate angle is 48°. Its alternate partner is…", "n": 48, "u": "°", "e": "Alternate angles between parallel lines are equal." },
+      { "t": "l ∥ m and one interior angle on one side of the transversal is 50°. The other interior angle on the same side is…", "n": 130, "u": "°", "k": "180-50", "e": "Same-side interior angles between parallel lines add to 180°: 180 − 50 = 130." },
+      { "t": "A transversal crosses two lines. Can all 8 angles be different sizes?", "o": ["No — vertically opposite angles are equal, so at most 4 sizes", "Yes, always", "Yes, if the lines are not parallel", "No — they are always all equal"], "e": "At each crossing the vertically opposite angles match, leaving at most 4 different sizes." },
+      { "t": "Corresponding angles made by a transversal on two lines are equal. What can we say about the lines?", "o": ["They are parallel", "They are perpendicular", "They meet", "Nothing"], "e": "Equal corresponding angles means both lines tilt the same way against the transversal, so they never meet." },
+      { "t": "Parallel lines and a transversal; one angle is 135°. What is the size of the other kind of angle?", "n": 45, "u": "°", "k": "180-135", "e": "Only two sizes appear, and they form linear pairs: 180 − 135 = 45°." },
+      { "t": "With two set-square perpendiculars to line l, why are the two lines parallel?", "o": ["Both make 90° with l — equal corresponding angles", "Because they are the same length", "Because a set square is a triangle", "They are not parallel"], "e": "l is a transversal; the corresponding angles are both 90°, so the lines are parallel." },
+      { "t": "A square sheet is folded in half horizontally. How many parallel horizontal lines (edges + crease) are there?", "n": 3, "e": "Top edge, bottom edge, and the new crease between them." },
+      { "t": "Which pair is ALWAYS equal, even if the two lines are not parallel?", "o": ["Vertically opposite angles", "Corresponding angles", "Alternate angles", "Same-side interior angles"], "e": "Vertically opposite angles are equal at any crossing. The others need parallel lines." },
+      { "t": "If one angle at a crossing is 90°, how many of the four angles are 90°?", "n": 4, "e": "Its linear-pair partner is 180 − 90 = 90, and vertically opposite angles copy these two." }
+    ]},
+    { "q": [
+      { "t": "∠a = 120° at line l. At line m, the angle corresponding to ∠a's linear-pair partner is 70°. Are l and m parallel?", "o": ["No — 60° ≠ 70°", "Yes", "Only if the transversal is perpendicular", "Can't tell"], "e": "∠a's partner is 180 − 120 = 60°. Its corresponding angle is 70°, not 60°, so the lines aren't parallel." },
+      { "t": "In parallelogram ABCD, ∠ADC = 60°. Find ∠DAB.", "n": 120, "u": "°", "k": "180-60", "e": "AB ∥ DC with transversal AD: same-side interior angles add to 180°." },
+      { "t": "In parallelogram ABCD, ∠DAB = 120° and diagonal AC makes ∠DAC = 65°. Find ∠CAB.", "n": 55, "u": "°", "k": "120-65", "e": "∠DAB is split by AC: 120 = 65 + ∠CAB." },
+      { "t": "Two parallel lines and a transversal. One angle is 3 times its linear-pair partner. The smaller angle is…", "n": 45, "u": "°", "k": "180//4", "e": "x + 3x = 180 → 4x = 180 → x = 45°." },
+      { "t": "A path bends at a point between two parallel lines, making 40° with the top line and 68° with the bottom line. The bend angle is…", "n": 108, "u": "°", "k": "40+68", "e": "Draw a parallel line through the bend: it splits the bend into 40° and 68° (alternate angles). Total 108°." },
+      { "t": "Why are alternate angles equal when lines are parallel?", "o": ["Each equals the same corresponding angle, via vertically opposite angles", "Because they look the same", "Because they add to 180°", "Because the transversal is always perpendicular"], "e": "∠6 = ∠2 (corresponding) and ∠2 = ∠4 (vertically opposite), so ∠6 = ∠4." },
+      { "t": "Four angles at a crossing are x, 2x, x, 2x. What is x?", "n": 60, "u": "°", "k": "360//6", "e": "They fill a full turn: 6x = 360 → x = 60°." },
+      { "t": "A line drawn on the floor and one on the ceiling never meet. Are they parallel?", "o": ["Not necessarily — parallel lines must lie in the same plane", "Yes, always", "No, they must be perpendicular", "Only if they are equal in length"], "e": "The definition needs the same plane. Lines in different planes can miss each other without being parallel." },
+      { "t": "Folding a sheet horizontally in half three times (unfold each time), how many parallel lines do you see including the two edges?", "n": 9, "k": "2**3+1", "e": "3 folds make 8 strips; lines = strips + 1 = 9." },
+      { "t": "Same-side interior angles between two lines are 85° and 85°. Are the lines parallel?", "o": ["No — they should add to 180°", "Yes", "Yes, and perpendicular too", "Can't tell"], "e": "For parallel lines the pair must add to 180°. 85 + 85 = 170, so the lines lean towards each other." }
+    ]},
+    { "q": [
+      { "t": "Two angles in a linear pair differ by 40°. The bigger one is…", "n": 110, "u": "°", "k": "(180+40)//2", "e": "x + (x − 40) = 180 → 2x = 220 → x = 110°." },
+      { "t": "AB ∥ CD ∥ EF and ∠BEF = 55°. The same-side interior partner of ∠BEF is…", "n": 125, "u": "°", "k": "180-55", "e": "Interior angles on the same side add to 180°: 180 − 55 = 125°." },
+      { "t": "Parallel lines, transversal: one angle is (2x + 10)° and its corresponding angle is (3x − 20)°. Find x.", "n": 30, "k": "30", "e": "Corresponding angles are equal: 2x + 10 = 3x − 20 → x = 30 (both 70°)." },
+      { "t": "Parallel lines, transversal: same-side interior angles are (x + 20)° and (2x + 10)°. Find x.", "n": 50, "k": "(180-30)//3", "e": "They add to 180: 3x + 30 = 180 → x = 50." },
+      { "t": "Of the 8 angles a transversal makes with two parallel lines, how many different sizes are there (if it is not perpendicular)?", "n": 2, "e": "Corresponding and vertically opposite angles match up so only two sizes remain, and they add to 180°." },
+      { "t": "In parallelogram ABCD, ∠A = 120°. What is ∠C (the opposite angle)?", "n": 120, "u": "°", "e": "∠B = 180 − 120 = 60° (interior angles), and ∠C = 180 − 60 = 120°. Opposite angles are equal." },
+      { "t": "How can you be SURE two drawn lines are parallel?", "o": ["Draw a transversal and check corresponding angles are equal", "Check they look parallel", "Check they are the same length", "Check they are both straight"], "e": "Equal corresponding angles is both needed and enough for lines to be parallel." },
+      { "t": "In a 'Z' shape between two parallel lines, the top angle is 37°. The bottom angle inside the Z is…", "n": 37, "u": "°", "e": "The angles inside a Z are alternate angles, equal when the lines are parallel." },
+      { "t": "Two lines cross. ∠a + ∠c = 140°, where ∠a and ∠c are vertically opposite. Find ∠b.", "n": 110, "u": "°", "k": "180-70", "e": "∠a = ∠c = 70°. ∠b forms a linear pair with ∠a: 180 − 70 = 110°." },
+      { "t": "Why is the 'equal vertically opposite angles' fact a proof and not just an observation?", "o": ["It follows from linear pairs adding to 180° for ANY angle", "Because we measured many examples", "Because the protractor is accurate", "Because the book says so"], "e": "∠a + ∠b = 180 and ∠b + ∠c = 180 for any ∠b, so ∠a = ∠c always — reasoning covers every case." }
+    ]}
+  ]
+}

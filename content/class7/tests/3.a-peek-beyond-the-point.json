@@ -1,0 +1,53 @@
+{
+  "title": "3. A Peek Beyond the Point",
+  "tests": [
+    { "q": [
+      { "t": "How many tenths make one unit?", "n": 10, "e": "A unit split into 10 equal parts gives tenths; 10 of them make the whole unit back." },
+      { "t": "Write 7 tens and 5 tenths as a decimal.", "o": ["70.5", "7.5", "7.05", "705"], "e": "7 tens = 70, 5 tenths = 0.5 → 70.5." },
+      { "t": "Convert 12 mm to cm.", "n": 1.2, "u": "cm", "k": "F(12,10)", "e": "1 mm = 0.1 cm, so 12 mm = 10 mm + 2 mm = 1 cm + 0.2 cm = 1.2 cm." },
+      { "t": "Find 2.7 + 3.5.", "n": 6.2, "k": "F('2.7')+F('3.5')", "e": "Tenths: 7 + 5 = 12 tenths = 1 unit + 2 tenths. Units 2 + 3 + 1 = 6 → 6.2." },
+      { "t": "Which is larger: 1.23 or 1.32?", "o": ["1.32", "1.23", "They are equal"], "e": "Same units; tenths 3 > 2, so 1.32 is larger." },
+      { "t": "Are 0.2 and 0.20 equal?", "o": ["Yes — both are 2 tenths", "No — 0.20 is bigger", "No — 0.20 is smaller", "Only on a calculator"], "e": "A zero at the end of the decimal part adds 0 hundredths, so the value doesn't change." },
+      { "t": "Write 1/2 as a decimal.", "n": 0.5, "k": "F(1,2)", "e": "1/2 = 5/10 = 0.5." },
+      { "t": "How many paise make ₹1?", "n": 100, "e": "₹1 = 100 paise, so 1 paisa = ₹0.01." },
+      { "t": "Find 5.6 − 2.3.", "n": 3.3, "k": "F('5.6')-F('2.3')", "e": "Tenths 6 − 3 = 3, units 5 − 2 = 3 → 3.3." },
+      { "t": "How do you read 0.274?", "o": ["zero point two seven four", "zero point two hundred seventy four", "two hundred seventy four", "point twenty-seven four"], "e": "Each digit is its own place: 2 tenths, 7 hundredths, 4 thousandths, so we read the digits one by one." }
+    ]},
+    { "q": [
+      { "t": "Write 234 tenths as a decimal.", "n": 23.4, "k": "F(234,10)", "e": "234 tenths = 230 tenths + 4 tenths = 23 + 0.4 = 23.4." },
+      { "t": "Convert 68 g to kg.", "o": ["0.068 kg", "0.68 kg", "6.8 kg", "0.0068 kg"], "k": "F(68,1000)", "e": "1 g = 1/1000 kg, so 68 g = 68/1000 = 0.068 kg (three decimal places for thousandths)." },
+      { "t": "Find 0.934 + 0.6.", "n": 1.534, "k": "F('0.934')+F('0.6')", "e": "Line up the points: 0.934 + 0.600 = 1.534." },
+      { "t": "Find 18 − 8.8.", "n": 9.2, "k": "18-F('8.8')", "e": "Write 18 as 18.0 and borrow: 18.0 − 8.8 = 9.2." },
+      { "t": "Which of these equals 4.05?", "o": ["4.050", "4.5", "4.005", "40.5"], "e": "Adding a zero at the end changes nothing: 4.050 = 4.05. The others have the 5 in a different place." },
+      { "t": "Which is closest to 1: 0.9, 1.1, 1.01, 1.11?", "o": ["1.01", "0.9", "1.1", "1.11"], "e": "Distances from 1: 0.1, 0.1, 0.01, 0.11. The smallest is 0.01 → 1.01." },
+      { "t": "Convert 325 cm to m.", "n": 3.25, "u": "m", "k": "F(325,100)", "e": "1 cm = 0.01 m, so 325 cm = 3.25 m (300 cm = 3 m, 25 cm = 0.25 m)." },
+      { "t": "Next term: 4.4, 4.8, 5.2, 5.6, 6.0, …", "n": 6.4, "k": "F('6.0')+F('0.4')", "e": "The step is +0.4, so 6.0 + 0.4 = 6.4." },
+      { "t": "Write 3/4 as a decimal.", "n": 0.75, "k": "F(3,4)", "e": "3/4 = 75/100 = 0.75 (multiply top and bottom by 25)." },
+      { "t": "A bus arrives '4.5 hours after noon'. At what time?", "o": ["4:30 p.m.", "4:50 p.m.", "4:05 p.m.", "4:15 p.m."], "e": "0.5 hour = 5 tenths of 60 minutes = 30 minutes." }
+    ]},
+    { "q": [
+      { "t": "Find 75.345 + 86.691.", "n": 162.036, "k": "F('75.345')+F('86.691')", "e": "Add place by place with carries: 162.036." },
+      { "t": "Find 17 − 16.198.", "n": 0.802, "k": "17-F('16.198')", "e": "Write 17 as 17.000, then subtract: 0.802." },
+      { "t": "Shylaja's hand is 12.4 units and her palm 6.7 units. How long is her finger?", "n": 5.7, "k": "F('12.4')-F('6.7')", "e": "Break a unit: 12.4 = 11 + 14 tenths. 14 − 7 = 7 tenths, 11 − 6 = 5 → 5.7." },
+      { "t": "How many thousandths make one tenth?", "n": 100, "k": "1000//10", "e": "1 tenth = 10 hundredths, and each hundredth = 10 thousandths → 10 × 10 = 100." },
+      { "t": "Mahi buys 0.25, 0.3, 0.5, 0.2 and 0.05 kg of vegetables. Total kg?", "n": 1.3, "k": "F('0.25')+F('0.3')+F('0.5')+F('0.2')+F('0.05')", "e": "0.25 + 0.05 = 0.3; 0.3 + 0.3 = 0.6; + 0.5 = 1.1; + 0.2 = 1.3 kg." },
+      { "t": "Arrange in descending order: 11.01, 1.011, 1.101, 11.10, 1.01", "o": ["11.10, 11.01, 1.101, 1.011, 1.01", "11.01, 11.10, 1.101, 1.011, 1.01", "1.101, 1.011, 1.01, 11.10, 11.01", "11.10, 11.01, 1.011, 1.101, 1.01"], "e": "Two with 11 units first (11.10 > 11.01 by tenths), then compare 1.101, 1.011, 1.010 place by place." },
+      { "t": "A carpenter is told 2.5 ft. How wide does he make the door?", "o": ["2 ft 6 in", "2 ft 5 in", "2 ft 50 in", "25 in"], "e": "1 ft = 12 inches, so 0.5 ft = 6 inches. 2.5 ft is NOT 2 ft 5 in." },
+      { "t": "Sequence 25.75, 26.25, 26.75, … — the next term?", "n": 27.25, "k": "F('26.75')+F('0.5')", "e": "Each step adds 0.5: 26.75 + 0.5 = 27.25." },
+      { "t": "Write 12 tens and 12 tenths as a decimal.", "n": 121.2, "k": "120+F(12,10)", "e": "12 tens = 120, 12 tenths = 1.2 → 121.2." },
+      { "t": "On a line from 5 to 10 split into 10 equal divisions, what number is at the 5th division?", "n": 7.5, "k": "5+F(5*5,10)", "e": "5 units over 10 divisions → each division is 0.5. Five divisions = 2.5 → 5 + 2.5 = 7.5." }
+    ]},
+    { "q": [
+      { "t": "Pinto supplied 3.79 L, 4.2 L and 4.25 L in 3 days and 25 L in 6 days. How much in the last 3 days?", "n": 12.76, "u": "L", "k": "25-(F('3.79')+F('4.2')+F('4.25'))", "e": "First three days: 12.24 L. 25 − 12.24 = 12.76 L." },
+      { "t": "Insurance costs 45 paise per passenger. Total for 1 lakh passengers, in ₹?", "n": 45000, "k": "45*100000//100", "e": "45 × 1,00,000 = 45,00,000 paise. 100 paise = ₹1 → ₹45,000." },
+      { "t": "How many millimetres make 1 kilometre?", "n": 1000000, "k": "1000*1000", "e": "1 km = 1000 m and 1 m = 1000 mm → 10,00,000 mm." },
+      { "t": "Using digits 4, 1, 8, 2, 5 once each, which decimal is closest to 25?", "o": ["25.148", "24.851", "25.184", "24.815"], "e": "Above 25, use the smallest decimal part: 25.148 (0.148 away). Below, the best is 24.851 (0.149 away). 25.148 just wins." },
+      { "t": "Write 25 tens, 25 ones, 25 tenths and 25 hundredths as a decimal.", "n": 277.75, "k": "250+25+F(25,10)+F(25,100)", "e": "250 + 25 + 2.5 + 0.25 = 277.75." },
+      { "t": "Which is greater: 90 thousandths or one hundredth?", "o": ["90 thousandths", "One hundredth", "They are equal"], "e": "90 thousandths = 0.090 and one hundredth = 0.010. 0.09 > 0.01." },
+      { "t": "Using digits 1, 4, 0, 8, 6 once each, the smallest decimal number between 100 and 1000 is…", "o": ["104.68", "100.468", "140.68", "106.48"], "e": "The whole part must be a 3-digit number ≥ 100 using different digits: smallest is 104. Then the smallest decimal part from 6 and 8 is .68." },
+      { "t": "Half of 8.9 units is…", "n": 4.45, "k": "F('8.9')/2", "e": "8.9 = 8 units + 9 tenths = 89 tenths = 890 hundredths. Half is 445 hundredths = 4.45." },
+      { "t": "Sonu says: the sum of two decimals with non-zero decimal parts is more than the sum of their whole parts but less than that sum + 2. Is he right?", "o": ["Yes — each decimal part is between 0 and 1", "No — it can be more than 2 extra", "Only if both are less than 1", "Only for numbers with one decimal place"], "e": "Each decimal part adds more than 0 but less than 1, so together they add between 0 and 2 to the whole parts." },
+      { "t": "Find 6.236 − 0.487.", "n": 5.749, "k": "F('6.236')-F('0.487')", "e": "Borrow through each place: 6.236 − 0.487 = 5.749." }
+    ]}
+  ]
+}

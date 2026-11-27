@@ -1,0 +1,53 @@
+{
+  "title": "13. Connecting the Dots",
+  "tests": [
+    { "q": [
+      { "t": "Mean of 2, 7, 9, 4, 3?", "n": 5, "k": "F(2+7+9+4+3,5)", "e": "Total 25, 5 values: 25 ÷ 5 = 5." },
+      { "t": "Median of 118, 165, 170, 173, 175?", "n": 170, "e": "Already sorted; the middle (3rd of 5) value is 170." },
+      { "t": "Median of 155, 160, 164, 165, 169, 173?", "n": 164.5, "k": "F(164+165,2)", "e": "Six values: average the two middle ones, (164 + 165) ÷ 2." },
+      { "t": "Which is a statistical question?", "o": ["How tall are Grade 7 students in our school?", "Do you like reading?", "What is 7 × 8?", "What is your name?"], "e": "It needs data from many students, and the answers vary." },
+      { "t": "Range of 25, 24, 26, 59, 44?", "n": 35, "k": "59-24", "e": "Range = maximum − minimum = 59 − 24." },
+      { "t": "A group of 5 collected 30 guavas and share equally. Each gets…", "n": 6, "k": "30//5", "e": "Mean as fair share: 30 ÷ 5." },
+      { "t": "A value far away from the rest of the data is called…", "o": ["an outlier", "a median", "a mean", "a range"], "e": "Outliers deviate significantly from the other values." },
+      { "t": "Bounces: 6, 2, 9, 5, 4, 6, 3, 5. Mean?", "n": 5, "k": "F(6+2+9+5+4+6+3+5,8)", "e": "Total 40 over 8 attempts." },
+      { "t": "Before finding the median you must first…", "o": ["sort the data", "add the data", "find the mean", "remove the largest value"], "e": "The median is the middle of the SORTED list." },
+      { "t": "Shubman scored 110 in 5 matches; Yashasvi 96 in 4. Who has the higher average?", "o": ["Yashasvi (24 vs 22)", "Shubman (22 vs 24)", "They are equal", "Shubman, because 110 > 96"], "e": "110 ÷ 5 = 22 and 96 ÷ 4 = 24. Totals mislead when the counts differ." }
+    ]},
+    { "q": [
+      { "t": "Mean of Poovizhi's family heights 170, 173, 165, 118, 175 (cm)?", "n": 160.2, "k": "F(170+173+165+118+175,5)", "e": "801 ÷ 5 = 160.2 — lower than 4 of the 5 heights because of the outlier 118." },
+      { "t": "An outlier at the LOW end usually makes…", "o": ["mean < median", "mean > median", "mean = median", "the median very small"], "e": "The low value drags the mean down; the median, depending only on position, barely moves." },
+      { "t": "A player scores 57, 13, 0, 84, — (didn't play), 51, 27. Mean per match played?", "o": ["232 ÷ 6", "232 ÷ 7", "232 ÷ 5", "232 ÷ 4"], "e": "The 0 is a real innings and counts; the '—' is not a match played. 6 matches." },
+      { "t": "Median of newspaper pages 16, 18, 20, 22, 26, 16, 10?", "n": 18, "e": "Sorted: 10, 16, 16, 18, 20, 22, 26 — the 4th value is 18." },
+      { "t": "Mean school enrolment of 1555, 1670, 1750, 2013, 2040, 2126?", "n": 1859, "k": "F(1555+1670+1750+2013+2040+2126,6)", "e": "Total 11,154 ÷ 6 = 1859." },
+      { "t": "Nikhil's times 17, 18, 17, 16, 19, 17, 18 and Sunil's 20, 18, 18, 17, 16, 16, 17. Who is quicker on average?", "o": ["Neither — both total 122 s, the same mean", "Nikhil", "Sunil", "Can't compare"], "e": "Both totals are 122 for 7 runs, so the means are equal." },
+      { "t": "Can the mean of 5.6, 8, 3.09, 12.9, 6.5, 12.1, 11.3, 20.5, 7.4 be 25?", "o": ["No — the mean lies between the min and max", "Yes", "Only the median can", "Only if rounded"], "e": "A fair share can't exceed the largest value (20.5)." },
+      { "t": "Onion prices: Yahapur total 458, Wahapur 450, over 12 months. Wahapur's mean (₹)?", "n": 37.5, "k": "F(450,12)", "e": "450 ÷ 12 = 37.5." },
+      { "t": "Which shows data spread and clusters as stacked dots on a number line?", "o": ["A dot plot", "A pie chart", "A table", "A clustered bar graph"], "e": "Each value is a dot above its position; repeated values stack." },
+      { "t": "In a clustered (double) bar graph of two cities' monthly prices, each cluster shows…", "o": ["both cities' prices for one month side by side", "one city's whole year", "the total of all months", "only the highest prices"], "e": "Bars for the same category (month) sit together, coloured by city." }
+    ]},
+    { "q": [
+      { "t": "20 students' pets: 0, 1, 0, 4, 8, 0, 0, 2, 1, 1, 5, 3, 4, 0, 0, 10, 25, 2, 2, 4. Mean?", "n": 3.6, "k": "F(72,20)", "e": "Total 72 ÷ 20 = 3.6 (the absent students are left out)." },
+      { "t": "Median of the same pets data?", "n": 2, "e": "Sorted, the 10th and 11th values are both 2." },
+      { "t": "Median onion price in Wahapur (19, 17, 23, 30, 38, 35, 42, 39, 53, 60, 52, 42)?", "n": 38.5, "k": "F(38+39,2)", "e": "Sorted, the 6th and 7th values are 38 and 39." },
+      { "t": "Without the outlier 118, the mean of 170, 173, 165, 175 is…", "n": 170.75, "k": "F(170+173+165+175,4)", "e": "683 ÷ 4 = 170.75 — now close to the median (171.5)." },
+      { "t": "Player C scored 8, 11, did not play, 13 in four games. Mean per game played?", "o": ["32 ÷ 3", "32 ÷ 4", "32 ÷ 2", "32"], "e": "Divide by the 3 games C actually played." },
+      { "t": "17 heights have median 115 cm. How many students are taller than the median?", "n": 8, "e": "With 17 sorted values the median is the 9th; 8 are below and 8 above." },
+      { "t": "Mango tree: 8, 24, 41, 16, 5 in the season. Mean per season month?", "n": 18.8, "k": "F(8+24+41+16+5,5)", "e": "94 ÷ 5 = 18.8." },
+      { "t": "In one class girls have the higher average height. Which MUST be true?", "o": ["None of the others — averages describe groups, not individuals", "Every girl is taller than every boy", "The tallest student is a girl", "The shortest student is a boy"], "e": "In the book's class the tallest AND shortest were boys, yet girls were taller on average." },
+      { "t": "Graph 1 shows heights on an axis from 145 cm; graph 2 from 0. What's true?", "o": ["Graph 1 makes differences look bigger", "Graph 2 is wrong", "They show different data", "Graph 1 is always more accurate"], "e": "A zoomed-in axis exaggerates small differences — always check the scale." },
+      { "t": "A team scored 407 but its median runs per player was 0. Possible?", "o": ["Yes — if at least 6 of 11 scored 0 and a few scored a lot", "No, never", "Only with extras", "Only if the mean is also 0"], "e": "The median just needs the middle (6th) sorted score to be 0." }
+    ]},
+    { "q": [
+      { "t": "Quiz group 1: 85, 76, 90, 85, 39, 48, 56, 95, 81, 75. Mean?", "n": 73, "k": "F(85+76+90+85+39+48+56+95+81+75,10)", "e": "Total 730 ÷ 10 = 73." },
+      { "t": "Median of the same group 1 scores?", "n": 78.5, "k": "F(76+81,2)", "e": "Sorted: 39, 48, 56, 75, 76, 81, 85, 85, 90, 95. Middle two: 76 and 81." },
+      { "t": "Group 1's mean (73) is below its median (78.5). This suggests…", "o": ["some low scores pull the mean down", "some high outliers", "the data is perfectly balanced", "a mistake in adding"], "e": "Low values like 39 and 48 drag the mean below the middle value." },
+      { "t": "Sumo wrestlers average about 240 kg, ballet dancers about 42 kg. Roughly how many times heavier?", "n": 6, "e": "240 ÷ 42 ≈ 5.7, about 6 times." },
+      { "t": "Aditi's week-1 Sudoku times 410, 400, 370, 340, 360, 400, 320, 330, 310 s. Mean?", "n": 360, "k": "F(410+400+370+340+360+400+320+330+310,9)", "e": "Total 3240 ÷ 9 = 360 s." },
+      { "t": "29 date palms have mean ≈ 55.9 ft. Quick way to find a mean of many values near 55?", "o": ["Add the differences from 55, divide by the count, add back to 55", "Pick the biggest value", "Take the middle value", "Multiply 55 by 29"], "e": "The differences are small numbers, so the sum is easy; the average difference adjusts the base." },
+      { "t": "Helsinki's June daylight is 564 hours. Average per day (June has 30 days)?", "n": 18.8, "k": "F(564,30)", "e": "564 ÷ 30 = 18.8 hours." },
+      { "t": "Why do Helsinki and Wellington have opposite daylight patterns?", "o": ["They are in opposite hemispheres", "Different time zones", "One is near the sea", "Different calendars"], "e": "In June the Northern Hemisphere tilts towards the Sun (long days) and the Southern away (short days)." },
+      { "t": "At age 12 in 2019, girls averaged 143.8 cm and boys 142.2 cm. Which statement is justified?", "o": ["On average, 12-year-old girls were slightly taller", "Every 12-year-old girl is taller than every boy", "Boys never catch up", "Girls are taller at every age"], "e": "Averages compare groups. At 19 the boys average much more (166.5 vs 155.2)." },
+      { "t": "Section A's mean height is 154.2 cm. Section B's mean height is…", "o": ["impossible to tell from this", "also 154.2 cm", "less than 154.2 cm", "more than 154.2 cm"], "e": "One section's data says nothing about another's." }
+    ]}
+  ]
+}

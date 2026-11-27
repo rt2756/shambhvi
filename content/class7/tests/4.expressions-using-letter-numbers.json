@@ -1,0 +1,53 @@
+{
+  "title": "4. Expressions using Letter-Numbers",
+  "tests": [
+    { "q": [
+      { "t": "Shabnam is 3 years older than Aftab (age a). Which expression gives Shabnam's age?", "o": ["a + 3", "a − 3", "3a", "a ÷ 3"], "e": "Older by 3 means add 3 to Aftab's age." },
+      { "t": "What does 7k mean?", "o": ["7 × k", "7 + k", "70 + k", "k − 7"], "e": "Writing a number right before a letter means multiply: 7k = 7 × k." },
+      { "t": "Find 5m + 3 when m = 2.", "n": 13, "k": "5*2+3", "e": "5m = 5 × 2 = 10, then + 3 = 13." },
+      { "t": "Simplify 5c + 3c + 10c.", "o": ["18c", "18", "150c", "18c³"], "e": "Like terms: c added 5 + 3 + 10 = 18 times → 18c." },
+      { "t": "Perimeter of a regular hexagon with side s?", "o": ["6s", "s + 6", "6 + s + s", "s⁶"], "e": "A regular hexagon has 6 equal sides, so s + s + s + s + s + s = 6s." },
+      { "t": "Find 3d when d = 6.", "n": 18, "k": "3*6", "e": "3d means 3 × d = 18 — not '36' (the digits written side by side)." },
+      { "t": "How many matchsticks for n matchstick Ls (2 sticks each)?", "o": ["2n", "n + 2", "2 + n + n", "n²"], "e": "Each L uses 2 sticks, so n Ls use 2 × n = 2n." },
+      { "t": "Can 18c + 11d be simplified further?", "o": ["No — they are unlike terms", "Yes, to 29cd", "Yes, to 29", "Yes, to 29c"], "e": "c and d are different letter-numbers, so the terms can't be combined." },
+      { "t": "Write '4 less than a number n'.", "o": ["n − 4", "4 − n", "4n", "n + 4"], "e": "Start with n and take away 4: n − 4." },
+      { "t": "Ketaki buys c coconuts at ₹35 and j kg jaggery at ₹60. Cost for c = 10, j = 5 (₹)?", "n": 650, "k": "10*35+5*60", "e": "35c + 60j = 350 + 300 = ₹650." }
+    ]},
+    { "q": [
+      { "t": "Find 10 − a when a = −4.", "n": 14, "k": "10-(-4)", "e": "Put the negative in brackets: 10 − (−4) = 10 + 4 = 14." },
+      { "t": "Simplify (40x + 75y) − (6x + 10y).", "o": ["34x + 65y", "46x + 85y", "34x + 85y", "34x − 65y"], "e": "The minus flips both signs: 40x − 6x = 34x, 75y − 10y = 65y." },
+      { "t": "Simplify 6(p + 2).", "o": ["6p + 12", "6p + 2", "6p + 8", "p + 12"], "e": "Distributive property: 6 × p + 6 × 2 = 6p + 12." },
+      { "t": "Simplify 4(x + y) − y.", "o": ["4x + 3y", "4x + 4y", "4x + 5y", "3x + 3y"], "e": "4x + 4y − y = 4x + 3y." },
+      { "t": "The flour mill takes 10 s to start and 8 s per kg. Time for y kg?", "o": ["10 + 8y", "(10 + 8) × y", "10y + 8", "10 × 8 × y"], "e": "The 10-second start happens once; each of the y kg takes 8 s → 10 + 8y." },
+      { "t": "Find 2t + b when t = 4 and b = 3.", "n": 11, "k": "2*4+3", "e": "2t = 8, plus 3 = 11 (not 24 — 2t is 2 × 4)." },
+      { "t": "Simplify p + q − (p + q).", "n": 0, "e": "Removing the bracket: p + q − p − q. p − p = 0 and q − q = 0." },
+      { "t": "Saree designs repeat A, B, C, A, B, C… At which position is the nth design C?", "o": ["3n", "3n − 1", "3n − 2", "n + 3"], "e": "C is at 3, 6, 9, … — the multiples of 3." },
+      { "t": "Matchstick triangles in a row: step y uses how many sticks?", "o": ["2y + 1", "3y", "2y", "y + 2"], "e": "3 sticks, then 2 more for each new triangle: 3 + 2(y − 1) = 2y + 1." },
+      { "t": "Charu's rounds: 7p − 3q, 8p − 4q, 6p − 2q. Her total?", "o": ["21p − 9q", "21p + 9q", "12pq", "21p − 3q"], "e": "Add like terms: (7 + 8 + 6)p = 21p and −(3 + 4 + 2)q = −9q." }
+    ]},
+    { "q": [
+      { "t": "Simplify 3a + 9b − 6 + 8a − 4b − 7a + 16.", "o": ["4a + 5b + 10", "18a + 5b + 10", "4a + 13b + 10", "4a + 5b − 22"], "e": "a-terms: 3 + 8 − 7 = 4. b-terms: 9 − 4 = 5. Numbers: −6 + 16 = 10." },
+      { "t": "Simplify 5 − (2 − 6z).", "o": ["3 + 6z", "3 − 6z", "7 − 6z", "−3z"], "e": "The minus in front flips both signs inside: 5 − 2 + 6z = 3 + 6z." },
+      { "t": "In a calendar 2 × 2 square with top-left a, what is each diagonal sum?", "o": ["2a + 8", "2a + 7", "4a + 16", "2a + 1"], "e": "Numbers are a, a + 1, a + 7, a + 8. a + (a + 8) = 2a + 8 and (a + 1) + (a + 7) = 2a + 8." },
+      { "t": "Which design is at position 148 if A, B, C repeat?", "o": ["A", "B", "C"], "e": "148 = 3 × 49 + 1. Remainder 1 → the first design in the block, A." },
+      { "t": "How many matchsticks for step 33 of the triangle pattern (2y + 1)?", "n": 67, "k": "2*33+1", "e": "2 × 33 + 1 = 67." },
+      { "t": "Krishita scored 23p − 7q; Charu 21p − 9q. How much more did Krishita score?", "o": ["2p + 2q", "2p − 2q", "2p − 16q", "44p − 16q"], "e": "23p − 7q − (21p − 9q) = 23p − 7q − 21p + 9q = 2p + 2q." },
+      { "t": "Subtract 9a − 6b + 14 from 6a + 9b − 18.", "o": ["−3a + 15b − 32", "3a − 15b + 32", "−3a + 3b − 4", "15a + 3b − 4"], "e": "Subtract A from B = B − A: 6a + 9b − 18 − 9a + 6b − 14 = −3a + 15b − 32." },
+      { "t": "A train passes 3 equally spaced stations between two towns, t minutes between stations, stopping 2 minutes at each. Total time?", "o": ["4t + 6", "3t + 6", "4t + 8", "3t + 2"], "e": "3 stations in between make 4 gaps (4t) and 3 stops of 2 minutes (6)." },
+      { "t": "When is 5u equal to 5 + u?", "o": ["Only for one value of u (1.25)", "Always", "Never", "Whenever u is even"], "e": "They are different expressions (5 times u vs 5 more than u), so they agree only by coincidence: 5u = 5 + u only when 4u = 5." },
+      { "t": "Find 3(m + 1) when m = −6.", "n": -15, "k": "3*(-6+1)", "e": "m + 1 = −5, and 3 × (−5) = −15." }
+    ]},
+    { "q": [
+      { "t": "Simplify 23 + 4(6m − 3n) − 8n − 3m − 18.", "o": ["21m − 20n + 5", "21m − 4n + 5", "27m − 20n + 5", "21m − 20n − 41"], "e": "4(6m − 3n) = 24m − 12n. m: 24 − 3 = 21. n: −12 − 8 = −20. Numbers: 23 − 18 = 5." },
+      { "t": "In the plus-shaped calendar pattern (centre a, plus the numbers left, right, above and below), the sum is…", "o": ["5a", "5a + 14", "4a", "5a − 7"], "e": "a + (a − 1) + (a + 1) + (a − 7) + (a + 7) = 5a; the extras cancel in pairs." },
+      { "t": "Traffic light: red, yellow, green, yellow, red, … What colour is at position 343?", "o": ["Green", "Red", "Yellow"], "e": "The cycle has length 4: red at 4n − 3, yellow at every even position, green at 4n − 1. 343 = 4 × 86 − 1 → green." },
+      { "t": "In the endless 4-column grid (row 1: 1 2 3 4, row 2: 5 6 7 8 …), which row is 147 in?", "n": 37, "e": "Row r, column c holds 4(r − 1) + c. 147 = 4 × 36 + 3, so r − 1 = 36 → row 37 (column 3)." },
+      { "t": "Matchstick squares in a row: how many sticks for w squares?", "o": ["3w + 1", "4w", "4w − 1", "3w"], "e": "First square 4 sticks, every later square shares a side and adds 3: 4 + 3(w − 1) = 3w + 1." },
+      { "t": "Radha cycles 5 km a day in week 1 and adds z km to the daily distance each week. Total km after 3 weeks?", "o": ["105 + 21z", "15 + 3z", "105 + 3z", "35 + 21z"], "e": "7 × 5 + 7(5 + z) + 7(5 + 2z) = 35 + 35 + 7z + 35 + 14z = 105 + 21z." },
+      { "t": "Add (8d − 14c + 9) and (16c − (11 + 9d)).", "o": ["2c − d − 2", "2c + 17d − 2", "30c − d + 20", "2c − d + 20"], "e": "Open the bracket: 16c − 11 − 9d. d: 8 − 9 = −1. c: −14 + 16 = 2. Numbers: 9 − 11 = −2." },
+      { "t": "A snail climbs u cm by day and slips d cm by night for 10 days and nights. If d > u, where does it end?", "o": ["Below its starting point", "Above its starting point", "Exactly at the start", "It cannot be decided"], "e": "Its position is 10(u − d). If d > u, u − d is negative, so it ends below where it began." },
+      { "t": "Simplify 2d − d − (d − c).", "o": ["c", "−c", "2d − c", "d + c"], "e": "2d − d − d + c: the d's cancel (2 − 1 − 1 = 0), leaving c." },
+      { "t": "Which simplification is correct?", "o": ["(4x + 3y) − (3x + 4y) = x − y", "3a + 2b = 5ab", "2 + (x + 3) = 2x − 6", "7p − p + 5q − 2q = 7p + 3q"], "e": "4x − 3x = x and 3y − 4y = −y. The others combine unlike terms or drop a term." }
+    ]}
+  ]
+}

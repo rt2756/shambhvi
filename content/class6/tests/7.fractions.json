@@ -1,0 +1,53 @@
+{
+"title": "7. Fractions",
+"tests": [
+{"q": [
+{"t": "One roti is shared equally by 4 children. How much does each get?", "o": ["1/4 roti", "1/2 roti", "4 rotis", "1/3 roti"], "k": "F(1,4)", "e": "One whole cut into 4 equal shares: each is one quarter."},
+{"t": "Which is bigger, 1/2 or 1/4?", "o": ["1/2", "1/4", "They are equal", "Can't tell"], "e": "Fewer people sharing the same roti means a bigger share each."},
+{"t": "In the fraction 3/5, what does the 5 tell you?", "o": ["The whole is cut into 5 equal parts", "We have 5 parts", "There are 5 wholes", "The answer is 5"], "e": "The denominator (bottom) is the number of equal parts in the whole."},
+{"t": "4 friends share 3 glasses of juice equally. How much does each drink?", "o": ["3/4 glass", "4/3 glass", "1/4 glass", "1/3 glass"], "k": "F(3,4)", "e": "3 ÷ 4 = 3/4: cut each glass into quarters — 12 quarters, 3 each."},
+{"t": "Find 2/7 + 3/7.", "o": ["5/7", "5/14", "6/7", "1/7"], "k": "F(2,7)+F(3,7)", "e": "Same unit (sevenths): 2 sevenths + 3 sevenths = 5 sevenths. The denominator stays."},
+{"t": "Find 5/8 − 3/8 in lowest terms.", "o": ["1/4", "2/8", "2/0", "1/8"], "k": "F(5,8)-F(3,8)", "e": "5 eighths − 3 eighths = 2/8 = 1/4."},
+{"t": "Which fraction is equivalent to 1/2?", "o": ["3/6", "2/3", "1/4", "2/5"], "e": "Multiply top and bottom by 3: 1/2 = 3/6."},
+{"t": "Write 7/2 as a mixed number.", "o": ["3 1/2", "2 1/2", "3 1/7", "7 1/2"], "k": "F(7,2)", "e": "7 ÷ 2 = 3 remainder 1, so 3 wholes and 1 half."},
+{"t": "Which is smaller, 1/8 or 1/6?", "o": ["1/8", "1/6", "They are equal", "Can't tell"], "e": "Cutting the same whole into more pieces makes each piece smaller."},
+{"t": "How many 1/6 pieces make 1/2?", "n": 3, "k": "F(1,2)/F(1,6)", "e": "1/2 = 3/6, so three sixths."}
+]},
+{"q": [
+{"t": "Write 3 1/4 as a fraction.", "o": ["13/4", "7/4", "12/4", "31/4"], "k": "F(13,4)", "e": "Each whole is 4 quarters: 3 × 4 = 12, plus 1 → 13/4."},
+{"t": "Write 47/9 as a mixed number.", "o": ["5 2/9", "4 7/9", "5 1/9", "6 2/9"], "k": "F(47,9)", "e": "47 = 5 × 9 + 2, so 5 wholes and 2 ninths."},
+{"t": "Find 1/4 + 1/3.", "o": ["7/12", "2/7", "1/7", "2/12"], "k": "F(1,4)+F(1,3)", "e": "Rename in twelfths: 3/12 + 4/12 = 7/12. Never add the denominators."},
+{"t": "Which is greater: 4/7 or 4/9?", "o": ["4/7", "4/9", "They are equal", "Can't tell"], "e": "Same number of pieces, but sevenths are bigger pieces than ninths."},
+{"t": "Write 16/20 in lowest terms.", "o": ["4/5", "8/10", "2/5", "16/20"], "k": "F(16,20)", "e": "Divide top and bottom by their common factor 4."},
+{"t": "5 glasses shared among 4 friends is the same share as how many glasses among 8 friends?", "n": 10, "k": "F(5,4)*8", "e": "Double the friends, double the glasses: 5/4 = 10/8."},
+{"t": "2 cakes are shared equally among 5 children. How much cake does each get?", "o": ["2/5", "5/2", "1/5", "2 1/2"], "k": "F(2,5)", "e": "a ÷ b = a/b: 2 ÷ 5 = 2/5."},
+{"t": "Which shows 3 = 4 × 3/4 as an addition fact?", "o": ["3 = 3/4 + 3/4 + 3/4 + 3/4", "3 = 3/4 + 4", "3 = 1/4 + 1/4 + 1/4", "3 = 4/3 + 4/3 + 4/3"], "e": "Four children each getting 3/4 together get all 3 rotis."},
+{"t": "Find 3/4 − 2/3.", "o": ["1/12", "1/1", "1/7", "5/12"], "k": "F(3,4)-F(2,3)", "e": "Twelfths: 9/12 − 8/12 = 1/12."},
+{"t": "How many fractions lie between 0 and 1?", "o": ["Infinitely many", "9", "10", "100"], "e": "You can always cut into smaller pieces: 1/2, 1/3, 1/4, …, 1/1000 …"}
+]},
+{"q": [
+{"t": "Rahim mixes 2/3 litre of yellow paint with 3/4 litre of blue. How much green paint?", "o": ["1 5/12 litres", "5/7 litre", "1 1/12 litres", "5/12 litre"], "k": "F(2,3)+F(3,4)", "e": "8/12 + 9/12 = 17/12 = 1 5/12 litres."},
+{"t": "Geeta has 2/5 m of lace and Shamim 3/4 m. How much lace in all?", "o": ["1 3/20 m", "5/9 m", "1 1/20 m", "23/9 m"], "k": "F(2,5)+F(3,4)", "e": "Twentieths: 8/20 + 15/20 = 23/20 = 1 3/20 m — enough for a 1 m border."},
+{"t": "Jaya's school is 7/10 km away. She goes 1/2 km by auto and walks the rest. How far does she walk?", "o": ["1/5 km", "6/8 km", "1/10 km", "2/5 km"], "k": "F(7,10)-F(1,2)", "e": "7/10 − 5/10 = 2/10 = 1/5 km."},
+{"t": "Compare 4/5 and 7/9.", "o": ["4/5 is greater", "7/9 is greater", "They are equal", "Can't compare"], "e": "Forty-fifths: 4/5 = 36/45 and 7/9 = 35/45."},
+{"t": "Write 126/147 in lowest terms.", "o": ["6/7", "18/21", "42/49", "3/7"], "k": "F(126,147)", "e": "126 = 2×3×3×7 and 147 = 3×7×7 share 3 × 7 = 21. 126 ÷ 21 = 6, 147 ÷ 21 = 7."},
+{"t": "Write 17/51 in lowest terms.", "o": ["1/3", "17/51", "1/17", "3/17"], "k": "F(17,51)", "e": "51 = 3 × 17, so divide both by 17."},
+{"t": "Which is the largest: 2/5, 7/10, 11/15?", "o": ["11/15", "7/10", "2/5", "All equal"], "e": "In thirtieths: 12/30, 21/30, 22/30."},
+{"t": "Find 2 1/2 + 1 1/3.", "o": ["3 5/6", "3 2/5", "3 1/6", "4 5/6"], "k": "F(5,2)+F(4,3)", "e": "5/2 + 4/3 = 15/6 + 8/6 = 23/6 = 3 5/6."},
+{"t": "Which fraction greater than 1 can NOT be written as a mixed number?", "o": ["8/4", "9/4", "7/3", "5/2"], "e": "8/4 = 2 exactly — no fraction part is left over, so it's a whole number."},
+{"t": "Compare 9/4 and 5/2.", "o": ["9/4 < 5/2", "9/4 > 5/2", "They are equal", "Can't tell"], "e": "5/2 = 10/4, and 9/4 < 10/4."}
+]},
+{"q": [
+{"t": "Subtract 13/4 from 10/3.", "o": ["1/12", "−1/12", "3/1", "1/7"], "k": "F(10,3)-F(13,4)", "e": "'Subtract A from B' means B − A: 10/3 − 13/4 = 40/12 − 39/12 = 1/12."},
+{"t": "Write 525/112 in lowest terms.", "o": ["75/16", "105/22", "25/16", "15/4"], "k": "F(525,112)", "e": "Both are multiples of 7: 525 ÷ 7 = 75, 112 ÷ 7 = 16. 75 = 3×5×5 and 16 = 2×2×2×2 share nothing more."},
+{"t": "Which three DIFFERENT fractional units add up to 1?", "o": ["1/2 + 1/3 + 1/6", "1/2 + 1/4 + 1/8", "1/3 + 1/4 + 1/5", "1/2 + 1/3 + 1/4"], "e": "In sixths: 3/6 + 2/6 + 1/6 = 6/6 = 1. It is the only way with three different units."},
+{"t": "Why can't two DIFFERENT fractional units add to 1?", "o": ["The biggest unit is 1/2, and 1/2 + 1/2 = 1; any smaller unit makes the sum less than 1", "Because 1 is odd", "Because units always add to 1/2", "They can: 1/3 + 2/3"], "e": "To be different, one 1/2 must be replaced by a smaller unit, so the total falls short. (2/3 is not a unit — its numerator isn't 1.)"},
+{"t": "Arrange in descending order: 25/16, 7/8, 13/4, 17/32. Which comes THIRD?", "o": ["7/8", "25/16", "17/32", "13/4"], "e": "In 32nds: 13/4 = 104, 25/16 = 50, 7/8 = 28, 17/32 = 17. Order: 13/4, 25/16, 7/8, 17/32."},
+{"t": "Find 7/10 − 9/14 (as a fraction in lowest terms).", "o": ["2/35", "4/70", "−2/4", "1/35"], "k": "F(7,10)-F(9,14)", "e": "Seventieths: 49/70 − 45/70 = 4/70 = 2/35."},
+{"t": "Group 1: 3 glasses among 4 children. Group 2: 7 glasses among 10. In which group does each child get more?", "o": ["Group 1", "Group 2", "Same", "Can't tell"], "e": "3/4 = 15/20 and 7/10 = 14/20, so Group 1 gets more."},
+{"t": "9 times a quarter roti is how many rotis?", "o": ["2 1/4", "9/9", "1 1/4", "2 1/2"], "k": "9*F(1,4)", "e": "9/4 = 2 wholes (8 quarters) and 1 quarter."},
+{"t": "4 kg of potatoes in 3 bags is the same per bag as 12 kg in how many bags?", "n": 9, "k": "12/F(4,3)", "e": "Multiply both by 3: 4/3 = 12/9."},
+{"t": "Which is closest to 1/2?", "o": ["5/9", "3/4", "1/5", "7/8"], "e": "In 180ths: 1/2 = 90/180, 5/9 = 100/180 (10 away); 3/4 = 135, 1/5 = 36, 7/8 = 157.5 — all much further."}
+]}
+]
+}

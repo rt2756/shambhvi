@@ -1,0 +1,53 @@
+{
+  "title": "6. Number Play",
+  "tests": [
+    { "q": [
+      { "t": "odd + odd = ?", "o": ["even", "odd", "can be either"], "e": "Each odd number has one leftover; the two leftovers make a pair, so the sum is even." },
+      { "t": "even + odd = ?", "o": ["odd", "even", "can be either"], "e": "The even number is all pairs; the odd number's single leftover stays unpaired." },
+      { "t": "What is the 100th odd number?", "n": 199, "k": "2*100-1", "e": "The 100th even number is 200; odd numbers sit one below the evens → 199. Formula 2n − 1." },
+      { "t": "What is the nth even number?", "o": ["2n", "2n − 1", "n + 2", "n²"], "e": "Even numbers are the 2-times table: 2, 4, 6, … → 2n." },
+      { "t": "In a 1–9 magic square, what is the magic sum?", "n": 15, "k": "45//3", "e": "All rows together use 1 + 2 + … + 9 = 45. Three equal rows → 45 ÷ 3 = 15." },
+      { "t": "Which number must be in the centre of a 1–9 magic square?", "n": 5, "e": "Any other centre makes some line impossible (e.g. 9 with 8 is already 17). Opposite pairs through the centre add to 10." },
+      { "t": "Next Virahāṅka number: 1, 2, 3, 5, 8, 13, …", "n": 21, "k": "8+13", "e": "Each number is the sum of the two before it: 8 + 13 = 21." },
+      { "t": "A bulb is ON. Its switch is toggled 77 times. Is it on or off?", "o": ["Off", "On"], "e": "Every 2 toggles bring it back to ON. 77 is odd, so one toggle is left over → OFF." },
+      { "t": "Is the number of small squares in a 27 × 13 grid odd or even?", "o": ["odd", "even"], "e": "A product is odd only when all factors are odd. 27 and 13 are both odd." },
+      { "t": "In the height line, who always calls out 0?", "o": ["The first person in line", "The shortest person", "The last person", "The middle person"], "e": "Nobody stands in front of the first person, so nobody in front can be taller." }
+    ]},
+    { "q": [
+      { "t": "Can 5 odd numbers add up to 30?", "o": ["No — an odd count of odd numbers gives an odd sum", "Yes, e.g. 5 + 5 + 5 + 5 + 10", "Yes, always", "Only if they are all equal"], "e": "Two odds pair up their leftovers; with 5 odds one leftover remains, so the sum is odd. 30 is even." },
+      { "t": "Martin and Maria were born exactly a year apart. Can their ages add up to 112?", "o": ["No — consecutive numbers add to an odd number", "Yes — 56 and 56", "Yes — 55 and 57", "Only on their birthday"], "e": "One of two consecutive numbers is even and one odd, so the sum is odd. 112 is even." },
+      { "t": "odd − even = ?", "o": ["odd", "even", "can be either"], "e": "Taking away pairs doesn't touch the single leftover." },
+      { "t": "Is the sum of 8 odd numbers odd or even?", "o": ["even", "odd"], "e": "8 is an even count, so all the leftovers pair up." },
+      { "t": "In a group of 8 people in a line, what is the largest number anyone can call out?", "n": 7, "e": "The shortest person standing last has all 7 others in front, all taller." },
+      { "t": "How many ways can 5 be written as an ordered sum of 1s and 2s?", "n": 8, "e": "Start with 1+ (then 4 beats: 5 ways) or 2+ (then 3 beats: 3 ways) → 5 + 3 = 8." },
+      { "t": "In T + T + T = UT, what digit is T?", "n": 5, "e": "3 × T must end in T and be 2-digit: 3 × 5 = 15 → T = 5, U = 1." },
+      { "t": "Each number of a magic square is increased by 1. The magic sum 15 becomes…", "n": 18, "k": "15+3", "e": "Each line has 3 numbers, each up by 1, so every line sum goes up by 3." },
+      { "t": "The row sums of a 3 × 3 grid filled with 1–9 always add up to…", "n": 45, "k": "sum(range(1,10))", "e": "Adding all rows adds every number once: 1 + 2 + … + 9 = 45." },
+      { "t": "Which expression is always odd (n a counting number)?", "o": ["2n + 1", "3n + 4", "2n + 4", "6n"], "e": "2n is even; even + 1 is odd. 3n + 4 depends on n; the others are always even." }
+    ]},
+    { "q": [
+      { "t": "In K2 + K2 = HMM, what is K?", "n": 7, "e": "Units 2 + 2 = 4 so M = 4. Then K + K must end in 4 with a carry: 2K = 14 → K = 7 (72 + 72 = 144)." },
+      { "t": "Lakpa has an odd number of ₹1 coins, an odd number of ₹5 coins and an even number of ₹10 coins. Can his total be ₹205?", "o": ["No — the total must be even", "Yes", "Only with 41 five-rupee coins", "Only if he has no ₹10 coins"], "e": "Odd × 1 = odd, odd × 5 = odd, even × 10 = even. Odd + odd + even = even, but 205 is odd." },
+      { "t": "How many rhythms of 8 beats (short = 1 beat, long = 2) are there?", "n": 34, "e": "1, 2, 3, 5, 8, 13, 21, 34 — the 8th Virahāṅka number." },
+      { "t": "Can 1 sit in a corner of a 1–9 magic square?", "o": ["No — a corner is on 3 lines, but only 2 pairs add to 14 with 1", "Yes, always", "Only with 9 opposite it", "Only in the top-left"], "e": "1 would need three different pairs summing to 14 from 2–9; only 5 + 9 and 6 + 8 exist." },
+      { "t": "General magic square with centre m: what does every line add up to?", "o": ["3m", "m", "9m", "3m + 4"], "e": "Each line is m plus pairs like +3 and −3 that cancel, leaving m + m + m = 3m." },
+      { "t": "What centre number makes a magic square with magic sum 60?", "n": 20, "k": "60//3", "e": "Magic sum = 3 × centre, so centre = 60 ÷ 3 = 20." },
+      { "t": "What comes after 55, 89 in the Virahāṅka sequence?", "n": 144, "k": "55+89", "e": "55 + 89 = 144." },
+      { "t": "Is 6j − 4 (j = 1, 2, 3, …) a formula for ALL even numbers?", "o": ["No — it gives 2, 8, 14, … and misses 4, 6, 10", "Yes", "Yes, but only for big j", "It gives odd numbers"], "e": "Steps of 6 skip most even numbers. All evens need steps of 2: 2n." },
+      { "t": "In YY + Z = ZOO, what is Y?", "n": 9, "e": "The sum is at most 99 + 9 = 108, so Z = 1 and ZOO = 100. YY = 99 → Y = 9." },
+      { "t": "Parity of 135 × 654?", "o": ["even", "odd"], "e": "654 is even. If any factor is even, the product is even." }
+    ]},
+    { "q": [
+      { "t": "Is the 20th Virahāṅka number odd or even?", "o": ["even", "odd"], "e": "Parities go O, E, O, O, E, O, … — evens at positions 2, 5, 8, …, 20 (every 3rd from the 2nd)." },
+      { "t": "Two consecutive Virahāṅka numbers are 987 and 1597. What is the number before 987?", "n": 610, "k": "1597-987", "e": "1597 = 987 + (previous), so previous = 1597 − 987 = 610." },
+      { "t": "Angaan climbs 8 steps taking 1 or 2 at a time. How many ways?", "n": 34, "e": "Same as rhythms of 8 beats. Each count is the sum of the previous two: … 13, 21, 34." },
+      { "t": "In UT + TA = TAT, what is U?", "n": 9, "e": "Two 2-digit numbers make less than 200, so T = 1. Units 1 + A ends in 1 → A = 0. U1 + 10 = 101 → U = 9." },
+      { "t": "In B5 + 3D = ED5, what is B?", "n": 7, "e": "Units: 5 + D ends in 5 → D = 0. B5 + 30 has 3 digits → E = 1 and B + 3 = 10 → B = 7 (75 + 30 = 105)." },
+      { "t": "50 loose book sheets, each with two consecutive page numbers. Is the total of page numbers odd or even?", "o": ["even", "odd", "can't tell"], "e": "Each sheet's two pages (one odd, one even) add to an odd number. 50 odd numbers — an even count — add to an even total." },
+      { "t": "A 3 × 3 grid of 1–9 has a row sum circled as 26. Possible?", "o": ["No — the largest possible sum is 9 + 8 + 7 = 24", "Yes", "Only if 9 is in that row", "Only on the diagonal"], "e": "Three different numbers from 1–9 add to at most 24 and at least 6." },
+      { "t": "Is the sum 1 + 2 + 3 + … + 100 odd or even?", "o": ["even", "odd"], "e": "There are 50 odd numbers (an even count → even) and 50 evens. Total 5050, even." },
+      { "t": "Every number in the 1–9 magic square is doubled. New magic sum?", "n": 30, "k": "15*2", "e": "Each line's three numbers are all doubled, so each line sum doubles: 15 × 2 = 30." },
+      { "t": "Sequence of heights calls 0, 1, 2, 3, 4, 5, 6. How are they standing?", "o": ["Tallest first, shortest last", "Shortest first, tallest last", "Randomly", "All the same height"], "e": "Each person has everyone in front taller than them, so heights decrease along the line." }
+    ]}
+  ]
+}

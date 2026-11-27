@@ -1,0 +1,53 @@
+{
+  "title": "7. A Tale of Three Intersecting Lines",
+  "tests": [
+    { "q": [
+      { "t": "The three angles of any triangle add up to…", "n": 180, "u": "°", "e": "Angle sum property: a line through the top vertex parallel to the base shows the three angles fill a straight angle." },
+      { "t": "Two angles of a triangle are 50° and 70°. The third is…", "n": 60, "u": "°", "k": "180-50-70", "e": "180 − (50 + 70) = 60°." },
+      { "t": "A triangle with all three sides equal is called…", "o": ["equilateral", "isosceles", "scalene", "right-angled"], "e": "Equi-lateral = equal sides." },
+      { "t": "A triangle with exactly two equal sides is called…", "o": ["isosceles", "equilateral", "scalene", "obtuse"], "e": "Isosceles triangles have two equal sides." },
+      { "t": "Can 3 cm, 4 cm and 8 cm make a triangle?", "o": ["No — 3 + 4 is less than 8", "Yes", "Yes, a right triangle", "Only if drawn carefully"], "e": "The two shorter sides together (7) can't reach across 8, so the arcs never meet." },
+      { "t": "Can 3 cm, 4 cm and 5 cm make a triangle?", "o": ["Yes — 5 is less than 3 + 4", "No", "Only an equilateral one", "Only if 5 is the base"], "e": "The longest side 5 is less than 3 + 4 = 7, so the triangle inequality holds." },
+      { "t": "Each angle of an equilateral triangle is…", "n": 60, "u": "°", "k": "180//3", "e": "All three angles are equal and add to 180°, so each is 60°." },
+      { "t": "A triangle with one angle of exactly 90° is called…", "o": ["right-angled", "acute-angled", "obtuse-angled", "equilateral"], "e": "One right angle makes a right-angled triangle." },
+      { "t": "What tool lets you mark all points 4 cm from a point A?", "o": ["A compass", "A protractor", "A set square", "An eraser"], "e": "A compass draws a circle/arc — every point on it is the same distance (the radius) from the centre." },
+      { "t": "∠A = 50° and ∠B = 60° in ∆ABC. Find the exterior angle at C.", "n": 110, "u": "°", "k": "50+60", "e": "Exterior angle = sum of the two opposite interior angles: 50 + 60 = 110°." }
+    ]},
+    { "q": [
+      { "t": "Can 10, 15, 30 be the sides of a triangle?", "o": ["No — 30 is more than 10 + 15", "Yes", "Yes, an obtuse one", "Only in km"], "e": "Going directly from one end of the 30 side to the other would be longer than the roundabout path of 25 — impossible." },
+      { "t": "Can 3, 6, 9 be the sides of a triangle?", "o": ["No — 3 + 6 equals 9, so the points lie on a line", "Yes", "Yes, a right triangle", "Yes, an isosceles one"], "e": "When the two shorter sides exactly equal the longest, the arcs only touch on the base: a flat line, not a triangle." },
+      { "t": "Two angles of a triangle are 90° and 30°. The third is…", "n": 60, "u": "°", "k": "180-90-30", "e": "180 − 120 = 60°." },
+      { "t": "Can 35° and 150° be two angles of a triangle?", "o": ["No — they already add to more than 180°", "Yes", "Only with a long base", "Only if isosceles"], "e": "Two angles of a triangle must add to less than 180°; here 185°." },
+      { "t": "In ∆ABC, ∠A = 50° and ∠B = ∠C. Find ∠B.", "n": 65, "u": "°", "k": "(180-50)//2", "e": "∠B + ∠C = 130°, shared equally → 65° each." },
+      { "t": "Which test is enough to check three lengths make a triangle?", "o": ["Longest side < sum of the other two", "Shortest side < sum of the other two", "All sides equal", "Longest side > sum of the other two"], "e": "If the longest side passes, the shorter ones automatically do, since each is already less than the longest." },
+      { "t": "What is an altitude of a triangle?", "o": ["The perpendicular from a vertex to the opposite side", "The longest side", "A line from a vertex to the middle of the opposite side", "The angle at the top"], "e": "An altitude measures the height: it meets the opposite side (extended if needed) at 90°." },
+      { "t": "In the angle-sum proof, why is ∠XAB equal to ∠B?", "o": ["They are alternate angles, since XY ∥ BC", "They are vertically opposite", "They form a linear pair", "Because AB = AC"], "e": "AB is a transversal of the parallel lines XY and BC; alternate angles are equal." },
+      { "t": "Can a triangle have angles 70°, 70°, 70°?", "o": ["No — they add to 210°", "Yes, an equilateral one", "Yes, an isosceles one", "Only if large"], "e": "The angles of every triangle add to exactly 180°." },
+      { "t": "Two angles are 75° and 45°. The third angle is…", "n": 60, "u": "°", "k": "180-75-45", "e": "180 − 120 = 60°." }
+    ]},
+    { "q": [
+      { "t": "Two sides of a triangle are 3 cm and 7 cm. The third side must be…", "o": ["between 4 cm and 10 cm", "between 3 cm and 7 cm", "more than 10 cm", "less than 4 cm"], "e": "It must be less than the sum (10) and more than the difference (4), or the longest side would fail the test." },
+      { "t": "∠A = 40°. What is the smallest ∠B for which ∠A and ∠B can NOT be angles of a triangle (with AB as the included side)?", "n": 140, "u": "°", "k": "180-40", "e": "At 140° the ray from B is parallel to the ray from A (same-side interior angles add to 180°), so they never meet." },
+      { "t": "Can 1, 100, 100 be the sides of a triangle?", "o": ["Yes — 100 < 1 + 100", "No — 1 is too small", "No — two sides are equal", "Only in metres"], "e": "Check the longest side: 100 < 101. A very thin isosceles triangle." },
+      { "t": "An exterior angle of a triangle is 120° and one opposite interior angle is 45°. The other opposite interior angle is…", "n": 75, "u": "°", "k": "120-45", "e": "Exterior angle = sum of the two opposite interior angles: 120 − 45 = 75°." },
+      { "t": "Why does an acute-angled triangle need ALL three angles acute?", "o": ["Every triangle already has at least two acute angles", "Because the book says so", "Because acute means 'sharp'", "So that it can be equilateral"], "e": "Two angles of 90° or more would already reach 180°, so every triangle has at least two acute angles — 'one acute angle' tells nothing." },
+      { "t": "Which isosceles triangle is obtuse-angled?", "o": ["30°, 30°, 120°", "60°, 60°, 60°", "45°, 45°, 90°", "70°, 70°, 40°"], "e": "120° is obtuse, and two angles (30°) are equal so two sides are equal." },
+      { "t": "Can an equilateral triangle be right-angled?", "o": ["No — all its angles are 60°", "Yes", "Only if large", "Only if its sides are 5 cm"], "e": "Its three equal angles share 180°, so each is 60°." },
+      { "t": "Which set can be the sides of a triangle?", "o": ["10, 20, 25", "10, 20, 35", "2, 4, 8", "2, 2, 5"], "e": "Longest side 25 < 10 + 20 = 30. The others fail: 35 > 30, 8 > 6, 5 > 4." },
+      { "t": "The circles from A and B (radii = the two shorter sides, AB = the longest) just touch at one point. Then…", "o": ["sum of shorter sides = longest side, no triangle", "a triangle exists", "the triangle is equilateral", "the triangle is right-angled"], "e": "Touching means the radii add up exactly to AB: the 'third vertex' lies on AB, so the shape is flat." },
+      { "t": "Two angles of a triangle are 150° and 15°. The third is…", "n": 15, "u": "°", "k": "180-150-15", "e": "180 − 165 = 15°: an obtuse isosceles triangle." }
+    ]},
+    { "q": [
+      { "t": "In a triangle, the angles are x, 2x and 3x. Find x.", "n": 30, "u": "°", "k": "180//6", "e": "6x = 180 → x = 30° (angles 30°, 60°, 90°)." },
+      { "t": "In ∆ABC, ∠B = 90° and ∠A = 35°. Find ∠C.", "n": 55, "u": "°", "k": "180-90-35", "e": "∠A + ∠C = 90° in a right triangle, so ∠C = 55°." },
+      { "t": "An exterior angle is 130° and the two opposite interior angles are equal. Each is…", "n": 65, "u": "°", "k": "130//2", "e": "The two opposite interior angles add to the exterior angle: 130 ÷ 2 = 65°." },
+      { "t": "Why does the exterior angle equal the sum of the two opposite interior angles?", "o": ["Both make 180° with the same interior angle", "Because they are vertically opposite", "Because the triangle is isosceles", "Because exterior angles are always 90°"], "e": "∠A + ∠B + ∠ACB = 180 and ∠ACD + ∠ACB = 180, so ∠ACD = ∠A + ∠B." },
+      { "t": "Which two angles CAN be angles of a triangle?", "o": ["90° and 85°", "50° and 150°", "100° and 80°", "120° and 60°"], "e": "Only 90 + 85 = 175 is less than 180. The others reach 180° or more." },
+      { "t": "Sides 5 and 5: which can NOT be the third side?", "o": ["10", "1", "9.9", "5"], "e": "The third side must be less than 5 + 5 = 10. At exactly 10 the triangle is flat." },
+      { "t": "How many different right triangles have ∠B = 90° and AC = 5 cm?", "o": ["Infinitely many", "Exactly one", "Exactly two", "None"], "e": "∠A can be any angle between 0° and 90° (with ∠C = 90° − ∠A), each giving a different triangle." },
+      { "t": "In an obtuse-angled triangle, where can the altitude from a vertex at the acute end fall?", "o": ["Outside the triangle, on the extended opposite side", "Always inside", "Always on a vertex", "Nowhere"], "e": "When the angle at the foot is obtuse, the perpendicular lands beyond the side, so we extend the side first." },
+      { "t": "A diagonal splits a quadrilateral into two triangles. So the four angles of the quadrilateral add up to…", "n": 360, "u": "°", "k": "2*180", "e": "A diagonal splits a quadrilateral into two triangles, each 180°: total 360°." },
+      { "t": "Lengths 4, 5, 8: the circles of radius 4 (from A) and 5 (from B) with AB = 8 …", "o": ["cross at two points — a triangle exists", "never meet", "just touch", "are the same circle"], "e": "4 + 5 = 9 > 8, so the circles overlap: a point 4 cm from A on AB is only 4 cm from B, inside the 5 cm circle." }
+    ]}
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "title": "10. Operations with Integers",
+  "tests": [
+    { "q": [
+      { "t": "4 × (−2) = ?", "n": -8, "k": "4*-2", "e": "Put 2 negative tokens in the bag 4 times → 8 negatives." },
+      { "t": "(−4) × (−2) = ?", "n": 8, "k": "-4*-2", "e": "Same signs give a positive product: 4 × 2 = 8." },
+      { "t": "(−7) × 3 = ?", "n": -21, "k": "-7*3", "e": "Different signs give a negative product." },
+      { "t": "7 − 18 = ?", "n": -11, "k": "7-18", "e": "Remove 18 greens from 7: add 11 zero pairs first; 11 reds remain." },
+      { "t": "(−100) ÷ 25 = ?", "n": -4, "k": "-100//25", "e": "25 × (−4) = −100. Different signs → negative." },
+      { "t": "(−46) ÷ (−23) = ?", "n": 2, "k": "-46//-23", "e": "Same signs → positive: 46 ÷ 23 = 2." },
+      { "t": "A coin moves 5 right then 7 left. Final position?", "n": -2, "k": "5+(-7)", "e": "Right is +, left is −: 5 + (−7) = −2." },
+      { "t": "(−1) × (−5) = ?", "n": 5, "k": "-1*-5", "e": "(−1) × a gives the additive inverse of a: the inverse of −5 is 5." },
+      { "t": "4 − (−12) = ?", "n": 16, "k": "4-(-12)", "e": "Subtracting −12 is adding its inverse, +12." },
+      { "t": "Two numbers add to 25 and their difference is 11. The larger number is…", "n": 18, "k": "(25+11)//2", "e": "(sum + difference) ÷ 2 = 36 ÷ 2 = 18; the other is 7." }
+    ]},
+    { "q": [
+      { "t": "(−2) × (−1) × (−5) × (−3) = ?", "n": 30, "k": "-2*-1*-5*-3", "e": "Four negatives (an even count) → positive. 2 × 1 × 5 × 3 = 30." },
+      { "t": "(−7) × 4 × (−1) = ?", "n": 28, "k": "-7*4*-1", "e": "Two negatives → positive: 7 × 4 × 1 = 28." },
+      { "t": "Mala: +5 per right answer, −2 per wrong. 30 right and 20 wrong. Her score?", "n": 110, "k": "30*5+20*(-2)", "e": "150 + (−40) = 110." },
+      { "t": "If 123 × 456 = 56,088, then (−123) × (−456) = ?", "n": 56088, "e": "Two negatives give a positive; the size is unchanged." },
+      { "t": "Room at 32 °C cools by 5 °C an hour. Temperature after 10 hours (°C)?", "n": -18, "k": "32+10*(-5)", "e": "32 + 10 × (−5) = 32 − 50 = −18 °C." },
+      { "t": "(−5) × (18 + (−3)) = ?", "n": -75, "k": "-5*(18-3)", "e": "Bracket first: 15. (−5) × 15 = −75." },
+      { "t": "Fill the blank: (−3) × ___ = 27", "n": -9, "k": "27//-3", "e": "Same signs give positive, so the blank is negative: −9." },
+      { "t": "Sum −7 and difference −13. The first number is…", "n": -10, "k": "(-7-13)//2", "e": "(sum + difference) ÷ 2 = (−20) ÷ 2 = −10; the second is 3." },
+      { "t": "Is (−1) multiplied by itself 5 times positive or negative?", "o": ["negative (−1)", "positive (1)", "zero", "can't tell"], "e": "Negatives cancel in pairs; with 5 (odd) one is left over → −1." },
+      { "t": "An elevator starts 15 m above ground and goes down 3 m per minute for 45 minutes. Final position (m)?", "n": -120, "k": "15+45*(-3)", "e": "15 + 45 × (−3) = 15 − 135 = −120 (120 m below ground)." }
+    ]},
+    { "q": [
+      { "t": "Cement: +₹8 per white bag, −₹5 per grey bag. 3,000 white and 5,000 grey: profit (₹, negative for loss)?", "n": -1000, "k": "3000*8+5000*(-5)", "e": "24,000 − 25,000 = −1,000 → a loss of ₹1,000." },
+      { "t": "6,400 grey bags lose ₹5 each. How many white bags (₹8 profit each) to break even?", "n": 4000, "k": "6400*5//8", "e": "Loss = 32,000. 32,000 ÷ 8 = 4,000 white bags." },
+      { "t": "Anita (+4 right, −2 wrong) answered every question, got 15 right and scored 40. How many questions were there?", "n": 25, "k": "15+(15*4-40)//2", "e": "15 right = 60. 60 − 40 = 20 lost → 10 wrong. 15 + 10 = 25." },
+      { "t": "Three consecutive integers have product −6. Their sum is…", "n": -6, "k": "-3+-2+-1", "e": "−3 × −2 × −1 = −6 (three negatives → negative). Sum = −6." },
+      { "t": "If 47 − 56 + 14 − 8 + 2 − 8 + 5 = −4, what is −47 + 56 − 14 + 8 − 2 + 8 − 5?", "n": 4, "e": "Every sign is flipped, which is (−1) × the original: (−1) × (−4) = 4." },
+      { "t": "(32 × (−18)) ÷ (−36) = ?", "n": 16, "k": "32*-18//-36", "e": "−576 ÷ −36 = 16 (same signs → positive)." },
+      { "t": "Which is the same as a ÷ (−b) (a, b positive)?", "o": ["−(a ÷ b)", "a ÷ b", "−a ÷ −b", "b ÷ a"], "e": "Different signs → negative quotient of the same size." },
+      { "t": "Moves 1, −2, 3, −4, …, 9, −10 from 0. Final position?", "n": -5, "k": "sum((-1)**(i+1)*i for i in range(1,11))", "e": "Pairs (1 − 2), (3 − 4), … each give −1; five pairs → −5." },
+      { "t": "Temperature 8 °C, falling 5 °C each hour. After 4 hours (°C)?", "n": -12, "k": "8+4*(-5)", "e": "8 + 4 × (−5) = −12." },
+      { "t": "Why does (−4) × 2 leave red tokens in the bag?", "o": ["We must remove greens from an empty bag, so we add zero pairs and the reds stay", "Because 2 is red", "Because −4 means add reds", "It leaves greens"], "e": "Removing 2 greens four times from nothing needs 8 zero pairs; 8 reds are left." }
+    ]},
+    { "q": [
+      { "t": "Given (−548) × 972 = −5,32,656, find (−547) × 972.", "n": -531684, "k": "-547*972", "e": "One fewer lot of −972 means 972 more: −5,32,656 + 972 = −5,31,684." },
+      { "t": "Using 3, −2, 5, −6 and +, −, × once each, the maximum value is…", "n": 60, "k": "-6*(-2-(5+3))", "e": "(−6) × (−2 − (5 + 3)) = (−6) × (−10) = 60: make two negatives multiply." },
+      { "t": "In the magic grid (rows 8 −4 12 −6 / −28 14 −42 21 / 12 −6 18 −9 / 20 −10 30 −15), the product of 4 circled numbers (one per row and column) is always…", "n": -30240, "k": "(2*-7*3*5)*(4*-2*6*-3)", "e": "Each entry = row number × column number (rows 2, −7, 3, 5; columns 4, −2, 6, −3), so the product is always (−210) × 144." },
+      { "t": "Coins of +13 and −9 pibs. Which makes exactly +1?", "o": ["7 × 13 and 10 × (−9)", "1 × 13 and 1 × (−9)", "2 × 13 and 3 × (−9)", "It's impossible"], "e": "91 − 90 = 1. Once +1 is possible, every whole number of pibs is possible." },
+      { "t": "(280 × (−7)) ÷ ((−8) × (−35)) = ?", "n": -7, "k": "280*-7//((-8)*(-35))", "e": "Top −1960, bottom +280. −1960 ÷ 280 = −7." },
+      { "t": "Anil (+4 right, −2 wrong) scored −10 with 5 right. How many wrong?", "n": 15, "k": "(5*4+10)//2", "e": "5 right = 20. To end at −10 he lost 30 → 30 ÷ 2 = 15 wrong." },
+      { "t": "Which is smallest?", "o": ["348 × (−1064)", "(−348) + (−1064)", "(−348) − (−1064)", "(−348) × (−1064)"], "e": "348 × (−1064) = −3,70,272, far below −1,412." },
+      { "t": "Three consecutive integers have product 120. The smallest is…", "n": 4, "e": "4 × 5 × 6 = 120. (−6 × −5 × −4 = −120, not 120.)" },
+      { "t": "Using 3, −2, 5, −6 and +, −, × once each, the minimum value is…", "n": -55, "k": "((-2)+(-6-3))*5", "e": "((−2) + (−6 − 3)) × 5 = (−11) × 5 = −55." },
+      { "t": "Mala's exam (50 questions, +5 right, −2 wrong). The lowest possible score is…", "n": -100, "k": "50*(-2)", "e": "All 50 wrong: 50 × (−2) = −100." }
+    ]}
+  ]
+}

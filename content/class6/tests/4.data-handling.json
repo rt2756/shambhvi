@@ -1,0 +1,53 @@
+{
+"title": "4. Data Handling and Presentation",
+"tests": [
+{"q": [
+{"t": "How many does this tally show: one bundle of five (four strokes crossed by a fifth) and 2 more strokes?", "n": 7, "k": "5+2", "e": "A crossed bundle is 5; add the 2 single strokes."},
+{"t": "The frequency of a value means …", "o": ["how many times it occurs", "how big it is", "where it is in the list", "the first value collected"], "e": "Frequency = number of times a value turns up in the data."},
+{"t": "Which question needs you to COLLECT data?", "o": ["What is the most popular TV show in my class?", "What is the capital of India?", "When did India get independence?", "How many days are there in a week?"], "e": "Only the first depends on particular people right now; the others are fixed facts you can look up."},
+{"t": "In a pictograph, 1 symbol = 10 students. A row has 4 symbols. How many students?", "n": 40, "k": "4*10", "e": "Count the symbols and multiply by the key: 4 × 10 = 40."},
+{"t": "In a pictograph, 1 symbol = 10. What does half a symbol stand for?", "n": 5, "k": "10//2", "e": "Half a symbol is half the key: 10 ÷ 2 = 5."},
+{"t": "In a bar graph, what shows the value of each category?", "o": ["The length (or height) of the bar", "The width of the bar", "The colour of the bar", "The gap between bars"], "e": "Widths and gaps are kept equal so that only the length carries information."},
+{"t": "Bars in a bar graph should have …", "o": ["the same width and equal gaps", "widths that match the values", "no gaps at all", "different colours for bigger values"], "e": "Equal widths stop a fatter bar from looking bigger than it really is."},
+{"t": "What does the 'key' of a pictograph tell you?", "o": ["What one symbol stands for", "Which row is biggest", "The total of all rows", "The title of the graph"], "e": "Without the key you can't turn symbols into numbers."},
+{"t": "Shoe sizes in order: 3, 3, 4, 4, 4, 5, 5, 6, 7. What is the largest size?", "n": 7, "e": "In ascending order the largest value is at the end."},
+{"t": "Bar graph scale: 1 unit = 100 vehicles. A bar is 12 units tall. How many vehicles?", "n": 1200, "k": "12*100", "e": "Length × scale = 12 × 100 = 1,200."}
+]},
+{"q": [
+{"t": "Sweets chosen: jalebi 6, barfi 3, gujiya 13, rasgulla 7, gulab jamun 9. How many sweets in all?", "n": 38, "k": "6+3+13+7+9", "e": "Add the frequencies: 6 + 3 + 13 + 7 + 9 = 38."},
+{"t": "Is that sweets frequency table enough to give each student the sweet they chose?", "o": ["No — it shows how many chose each sweet, not who chose which", "Yes — it has all the numbers", "Yes — if you add them up", "No — it has too many sweets"], "e": "Organising into a frequency table loses the names. You'd need the original list."},
+{"t": "1 kite symbol = 100 kites. Rani bought 300 kites. How many symbols?", "n": 3, "k": "300//100", "e": "300 ÷ 100 = 3 symbols."},
+{"t": "Poonam Ben bought 700 kites and Rani 300. Did Poonam buy more than double Rani's?", "o": ["Yes — double 300 is 600, and 700 > 600", "No — 700 is less than double", "They bought the same", "Can't tell"], "e": "Compare with double: 2 × 300 = 600. 700 is more."},
+{"t": "A pictograph key is 1 symbol = 10 students. Which number CAN'T be shown neatly with whole or half symbols?", "o": ["33", "35", "30", "40"], "e": "35 = 3½ symbols, but 33 would need 3.3 symbols."},
+{"t": "A bar graph's scale is 1 unit = 5 students. How many units tall is the bar for 45 students?", "n": 9, "k": "45//5", "e": "45 ÷ 5 = 9 units."},
+{"t": "8–9 a.m.: 1,000 vehicles; 9–10 a.m.: 800 vehicles. How many in these two hours together?", "n": 1800, "k": "1000+800", "e": "Read each bar and add: 1,000 + 800 = 1,800."},
+{"t": "In an absentee bar graph, one class has NO bar. What does that mean?", "o": ["No one was absent — full attendance", "The data was lost", "Everyone was absent", "The class doesn't exist"], "e": "A bar of length 0 means the value is 0."},
+{"t": "To show the heights of the tallest child in each class, which bars feel most natural?", "o": ["Vertical bars", "Horizontal bars", "Triangles of different widths", "A pictograph with no key"], "e": "Heights are measured upwards, so upward (vertical) bars match the real thing."},
+{"t": "Why do we bundle tally marks in fives?", "o": ["Counting bundles (5, 10, 15…) is faster and harder to get wrong", "Because 5 is a prime number", "So the table looks pretty", "Because there are 5 days in a school week"], "e": "Bundles let you count in fives instead of one stroke at a time."}
+]},
+{"q": [
+{"t": "Mudhol dogs: A 18, B 36, C 12, D 48, E 18, F 24. With key 1 symbol = 6 dogs, how many symbols for Village B?", "n": 6, "k": "36//6", "e": "36 ÷ 6 = 6 symbols. 6 works as a key because every number is a multiple of 6."},
+{"t": "Same data: how many dogs are there in Villages B and D together?", "n": 84, "k": "36+48", "e": "36 + 48 = 84."},
+{"t": "Same data: how many dogs in Villages A, C, E and F together?", "n": 72, "k": "18+12+18+24", "e": "18 + 12 + 18 + 24 = 72 — so B and D together (84) really do have more."},
+{"t": "A bar 6 units long shows 24 tickets. What is the scale?", "o": ["1 unit = 4 tickets", "1 unit = 6 tickets", "1 unit = 24 tickets", "1 unit = 2 tickets"], "e": "Scale = value ÷ length = 24 ÷ 6 = 4."},
+{"t": "With 1 unit = 4 tickets, how many tickets does a 5-unit bar show?", "n": 20, "k": "5*4", "e": "Length × scale = 5 × 4 = 20."},
+{"t": "Education costs ₹800 and food ₹3,400. What is one-fourth of the food cost?", "n": 850, "u": "₹", "k": "3400//4", "e": "3,400 ÷ 4 = 850. Since 800 < 850, education is less than a quarter of food."},
+{"t": "A bowler took 3 wickets in each of 8 matches. How many wickets is that?", "n": 24, "k": "3*8", "e": "Value × frequency: 3 × 8 = 24."},
+{"t": "Runs scored go up to about 100. Which scale is most sensible?", "o": ["1 unit = 10 runs", "1 unit = 1 run", "1 unit = 100 runs", "1 unit = 1000 runs"], "e": "1 unit = 10 runs gives a tallest bar of about 10 units — easy to draw. 1 run per unit means 100 marks; 100 runs per unit makes every bar tiny."},
+{"t": "1 symbol = 4 girls. Class 2 has 4½ symbols. Two more girls join. How does the row change?", "o": ["The half symbol becomes a full symbol (5 symbols)", "One more half symbol is added", "Two more symbols are added", "Nothing changes"], "e": "4½ symbols = 18 girls. 18 + 2 = 20 = 5 full symbols."},
+{"t": "Which is best shown with horizontal bars?", "o": ["Lengths of the longest rivers", "Heights of mountains", "Heights of buildings", "Heights of children"], "e": "Rivers stretch along the ground, so sideways bars match them."}
+]},
+{"q": [
+{"t": "Wickets: 0 in 5 matches, 1 in 4 matches, 2 in 3 matches, 3 in 2 matches. Total wickets?", "n": 16, "k": "0*5+1*4+2*3+3*2", "e": "Multiply each value by its frequency and add: 0 + 4 + 6 + 6 = 16."},
+{"t": "Same data: in how many matches did he bowl in total?", "n": 14, "k": "5+4+3+2", "e": "Add the frequencies (numbers of matches): 5 + 4 + 3 + 2 = 14."},
+{"t": "Mayank finds a bowler's total wickets by adding 0 + 1 + 2 + … + 7. Why is that wrong?", "o": ["Each value must be multiplied by how many matches it happened in", "He should start from 1", "He should add only the even numbers", "It is correct"], "e": "If 3 wickets came in 8 matches, that's 24 wickets, not 3. Total = Σ value × frequency."},
+{"t": "An infographic shows Everest looking about twice as tall as Elbrus (5,642 m). What would twice Elbrus be?", "n": 11284, "u": "m", "k": "5642*2", "e": "5,642 × 2 = 11,284 m — but Everest is 8,848 m, so the picture misleads."},
+{"t": "Mountains drawn as triangles where taller ones are also wider. What's the problem?", "o": ["Width suggests extra information (size) the data doesn't give", "Triangles can't show height", "Mountains are never triangles", "There is no problem"], "e": "Equal widths keep the comparison to height alone; wider triangles look 'bigger' than the heights justify."},
+{"t": "A survey of 120 students: playing 45, reading 30, painting 20, rest is music. How many chose music?", "n": 25, "k": "120-45-30-20", "e": "The groups add up to the total: 120 − 45 − 30 − 20 = 25."},
+{"t": "Data: 12, 15, 18, 21, 27 (all multiples of 3). Which key gives a pictograph with only whole symbols?", "o": ["1 symbol = 3", "1 symbol = 5", "1 symbol = 10", "1 symbol = 4"], "e": "3 divides every value exactly, so each row is a whole number of symbols."},
+{"t": "Scale 1 unit = 50 vehicles. A bar reaches 7½ units. How many vehicles?", "n": 375, "k": "F(15,2)*50", "e": "7 × 50 = 350, plus half a unit = 25: 375."},
+{"t": "A class's shoe sizes are put in ascending order. Which question does this make EASIEST to answer?", "o": ["How many students wear sizes larger than 4?", "Who wears size 5?", "What is each student's favourite game?", "Which student is tallest?"], "e": "Ordered data puts equal values together and bigger ones after, so you just count from the last 4 onward. Names aren't in the list at all."},
+{"t": "Cars passing a crossing: 6–7 a.m. 250, 7–8 a.m. 1,200, 8–9 a.m. 1,000. How many more cars at 7–8 than at 6–7?", "n": 950, "k": "1200-250", "e": "1,200 − 250 = 950. The jump makes sense: people leave for school and work."}
+]}
+]
+}

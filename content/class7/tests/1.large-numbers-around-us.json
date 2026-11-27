@@ -1,0 +1,53 @@
+{
+  "title": "1. Large Numbers Around Us",
+  "tests": [
+    { "q": [
+      { "t": "How many zeros does one lakh have?", "n": 5, "e": "1 lakh = 1,00,000 — a 1 followed by 5 zeros. It is the smallest 6-digit number (99,999 + 1)." },
+      { "t": "How many zeros does one crore have?", "n": 7, "e": "1 crore = 100 lakh = 1,00,00,000: 5 zeros of a lakh + 2 more for ×100 = 7 zeros." },
+      { "t": "Write 'five lakh four thousand eighty five' in figures.", "o": ["5,04,085", "5,40,085", "5,4,085", "54,085"], "e": "Lakh place 5, ten-thousands 0, thousands 4, hundreds 0, tens 8, ones 5. Empty places get a 0." },
+      { "t": "1 million equals how many lakh?", "n": 10, "k": "1000000//100000", "e": "1,000,000 has 6 zeros, a lakh has 5, so a million is 10 × 1 lakh = 10 lakh." },
+      { "t": "How many times must the +1000 button be pressed to show one lakh?", "n": 100, "k": "100000//1000", "e": "1,00,000 ÷ 1,000 = 100. A hundred thousands make a lakh." },
+      { "t": "Round 76,068 to the nearest thousand.", "o": ["76,000", "77,000", "75,000", "76,100"], "e": "The part after the thousands is 068, less than 500, so round down to 76,000." },
+      { "t": "In the Indian system, commas group digits from the right as…", "o": ["3, then 2, 2, 2…", "3, 3, 3…", "2, 2, 2…", "2, then 3, 3…"], "e": "First the hundreds-tens-ones (3 digits), then thousands, lakhs, crores take 2 digits each." },
+      { "t": "Find 116 × 5 using 'multiply by 10, then halve'.", "n": 580, "k": "116*5", "e": "5 = 10 ÷ 2, so 116 × 10 = 1160, halved is 580." },
+      { "t": "Which is bigger: 30 thousand or 3 lakh?", "o": ["3 lakh", "30 thousand", "They are equal", "Can't tell"], "e": "3 lakh = 3,00,000 = 300 thousand, which is 10 times 30 thousand." },
+      { "t": "What is 1,00,000 − 75,000?", "n": 25000, "k": "100000-75000", "e": "75,000 is 25,000 short of a lakh — that is the book's Chintamani population question." }
+    ]},
+    { "q": [
+      { "t": "Write 40,50,678 in the American system.", "o": ["4,050,678", "40,506,78", "405,0678", "4,05,0678"], "e": "American commas go every 3 digits from the right: 678, then 050, then 4 → 4,050,678 (four million fifty thousand six hundred seventy eight)." },
+      { "t": "1 billion = how many crore?", "n": 100, "k": "10**9//10**7", "e": "1 billion has 9 zeros, a crore has 7. 9 − 7 = 2 zeros → 100 crore (also called one arab)." },
+      { "t": "Fewest clicks to make 40,629 with buttons +1, +10, +100, +1000, +10000?", "n": 21, "k": "4+0+6+2+9", "e": "Fewest clicks = digit sum: 4 + 0 + 6 + 2 + 9 = 21. Pressing any button 10 times could be replaced by one press of the next button, so no button needs more than 9 presses." },
+      { "t": "Round 6,72,85,183 to the nearest lakh.", "o": ["6,73,00,000", "6,72,00,000", "6,70,00,000", "6,72,90,000"], "e": "The part after the lakhs is 85,183, which is at least half a lakh (50,000), so round up to 6,73,00,000." },
+      { "t": "Compute 72 × 125 quickly.", "n": 9000, "k": "72*125", "e": "125 = 1000 ÷ 8, so 72 × 1000 ÷ 8 = 9 × 1000 = 9,000." },
+      { "t": "A 3-digit number times a 3-digit number has how many digits?", "o": ["5 or 6", "6 only", "4 or 5", "3 to 6"], "e": "Smallest 100 × 100 = 10,000 (5 digits); every product is below 1000 × 1000 = 10,00,000 (7 digits), so 5 or 6." },
+      { "t": "Write 'one crore one lakh one thousand ten' in figures.", "o": ["1,01,01,010", "1,01,01,10", "1,10,10,010", "11,01,010"], "e": "Crore 1, ten-lakh 0, lakh 1, ten-thousand 0, thousand 1, hundreds 0, tens 1, ones 0 → 1,01,01,010." },
+      { "t": "How many seconds are in one day (so how many coins could you count at one per second)?", "n": 86400, "k": "24*60*60", "e": "24 hours × 60 minutes × 60 seconds = 86,400 — far less than a million, so you can't count a million coins in a day." },
+      { "t": "Compare 500 lakh and 5 million.", "o": ["500 lakh > 5 million", "500 lakh < 5 million", "They are equal", "Can't compare"], "e": "500 lakh = 5 crore = 50 million. 5 million is only 50 lakh." },
+      { "t": "Find 25 × 240 quickly.", "n": 6000, "k": "25*240", "e": "25 = 100 ÷ 4: 240 ÷ 4 = 60, × 100 = 6,000." }
+    ]},
+    { "q": [
+      { "t": "Find the exact value of 4,63,128 + 4,19,682.", "n": 882810, "k": "463128+419682", "e": "Add column by column: 8,82,810. It is closer to 9 lakh (17,190 away) than to 8 lakh (82,810 away)." },
+      { "t": "Find 14,63,128 − 4,90,020.", "n": 973108, "k": "1463128-490020", "e": "14,63,128 − 4,90,020 = 9,73,108 — nearer 10 lakh than 9 lakh." },
+      { "t": "Round 3,87,69,957 to the nearest ten lakh.", "o": ["3,90,00,000", "3,80,00,000", "3,88,00,000", "4,00,00,000"], "e": "Look at the part after the ten-lakh place: 7,69,957 ≥ 5,00,000 → round up from 3,80,00,000 to 3,90,00,000." },
+      { "t": "How many lakhs make a billion?", "n": 10000, "k": "10**9//10**5", "e": "A billion has 9 zeros, a lakh 5. 9 − 5 = 4 zeros → 10,000 lakh." },
+      { "t": "Compute 125 × 40 × 8 × 25.", "n": 1000000, "k": "125*40*8*25", "e": "Regroup: (125 × 8) × (40 × 25) = 1000 × 1000 = 10,00,000." },
+      { "t": "An 8-digit number × a 3-digit number has how many digits?", "o": ["10 or 11", "11 only", "24", "9 or 10"], "e": "a-digit × b-digit gives a + b − 1 or a + b digits: 8 + 3 − 1 = 10 or 8 + 3 = 11." },
+      { "t": "If 250 babies are born each minute, how many are born in a day?", "n": 360000, "k": "250*60*24", "e": "250 × 60 = 15,000 per hour; × 24 = 3,60,000 per day — less than a million (10 lakh)." },
+      { "t": "Write 1020304050 in Indian notation.", "o": ["1,02,03,04,050", "1,020,304,050", "10,20,30,40,50", "1,0203,04,050"], "e": "From the right: 050 (3 digits), then pairs 04, 03, 02, then 1 → 1,02,03,04,050 = one arab two crore three lakh four thousand fifty." },
+      { "t": "With only +10,000 and +100 buttons, how many clicks make 70,25,700?", "n": 759, "k": "702+57", "e": "70,25,700 = 702 × 10,000 + 57 × 100 → 702 + 57 = 759 clicks." },
+      { "t": "Compute 2100 × 70,000 (the approx. Earth–Sun distance in km).", "n": 147000000, "k": "2100*70000", "e": "21 × 7 = 147, then add the 2 + 4 = 6 zeros: 14,70,00,000 km = 147 million km." }
+    ]},
+    { "q": [
+      { "t": "Smallest 10-digit even number using each digit 0–9 once?", "o": ["1023456798", "1023456789", "0123456798", "1234567890"], "e": "Start with the smallest non-zero digit 1, then 0, then ascend: 1023456789 is odd, so swap the last two to end in an even 8: 1023456798." },
+      { "t": "When writing 1, 2, 3, 4, … one digit after another, which number contains the 1000th digit?", "n": 370, "e": "1–9 use 9 digits, 10–99 use 180 → 189. 1000 − 189 = 811 = 270 × 3 + 1. 270 three-digit numbers take us to 369; the 1000th digit is the first digit of 370." },
+      { "t": "How many numbers have ALL five nearest neighbours (thousand, ten thousand, lakh, ten lakh, crore) equal to 5,00,00,000?", "n": 1000, "e": "Rounding to the nearest thousand must give 5,00,00,000, so the number is from 4,99,99,500 to 5,00,00,499 — that is 1,000 numbers, and all of them round to 5 crore at every bigger place too." },
+      { "t": "With exactly 30 presses of +1, +10, +100, what is the largest 3-digit number Chitti can make?", "n": 993, "e": "Swapping one press for ten presses of a smaller button adds 9, so press-counts are digit sum + 9, + 18, … 999 (sum 27) can't reach 30. 993 has digit sum 21, and 21 + 9 = 30." },
+      { "t": "Travelling 1000 km a day, about how many years to cover 14,70,00,000 km to the Sun?", "o": ["About 400 years", "About 40 years", "About 4 years", "About 4,000 years"], "e": "1000 × 365 = 3,65,000 km a year. 14,70,00,000 ÷ 3,65,000 ≈ 403 years — not in one lifetime." },
+      { "t": "A godwit flew 13,560 km in 11 days non-stop. About how far per day (nearest km)?", "n": 1233, "k": "round(13560/11)", "e": "13,560 ÷ 11 ≈ 1,232.7, about 1,233 km a day (and ÷ 24 ≈ 51 km an hour)." },
+      { "t": "Which is true about 640 crore and 60 billion?", "o": ["640 crore < 60 billion", "640 crore > 60 billion", "They are equal", "640 crore = 6 billion exactly"], "e": "1 billion = 100 crore, so 60 billion = 6,000 crore — much more than 640 crore (= 6.4 billion)." },
+      { "t": "Strike out 10 digits from 12345123451234512345 to leave the largest number. What remains?", "o": ["5534512345", "5555512345", "5545123455", "5512345345"], "e": "Pick greedily: the first kept digit is the best in the first 11 places (a 5), the next the best of what remains while leaving enough digits… giving 5, 5, 3, then 4512345 → 5534512345." },
+      { "t": "Coins 1 mm thick are stacked to the height of the 180 m Statue of Unity. How many coins?", "n": 180000, "k": "180*1000", "e": "1 m = 1000 mm, so 180 m = 1,80,000 mm → 1,80,000 coins." },
+      { "t": "A 12-digit number × a 13-digit number has at most how many digits?", "n": 25, "k": "12+13", "e": "Each number is below 1 followed by 12 (or 13) zeros, so the product is below 1 followed by 25 zeros — at most 25 digits (at least 24)." }
+    ]}
+  ]
+}

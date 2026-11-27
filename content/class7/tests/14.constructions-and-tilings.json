@@ -1,0 +1,53 @@
+{
+  "title": "14. Constructions and Tilings",
+  "tests": [
+    { "q": [
+      { "t": "The perpendicular bisector of XY passes through its…", "o": ["midpoint, at 90°", "endpoint X", "midpoint, at 45°", "endpoint Y, at 90°"], "e": "Bisector = cuts into two equal halves; perpendicular = at right angles." },
+      { "t": "Which two tools are used for these constructions?", "o": ["An unmarked ruler and a compass", "A protractor and a scale", "A set square and a protractor", "Only a compass"], "e": "The ruler draws straight lines; the compass draws arcs and copies lengths." },
+      { "t": "Bisecting a 90° angle gives…", "n": 45, "u": "°", "e": "Half of 90° is 45°." },
+      { "t": "Each angle of an equilateral triangle, used to construct 60°, is…", "n": 60, "u": "°", "e": "Three equal angles share 180°." },
+      { "t": "Each interior angle of a regular hexagon is…", "n": 120, "u": "°", "e": "Each corner is made of two 60° angles of the equilateral triangles: 60 + 60 = 120." },
+      { "t": "How many equilateral triangles fit around a point with no gap?", "n": 6, "k": "360//60", "e": "6 × 60° = 360°, a full turn." },
+      { "t": "Covering a region with shapes with no gaps or overlaps is called…", "o": ["tiling", "bisecting", "constructing", "reflecting"], "e": "That's the definition of a tiling." },
+      { "t": "Can a 4 × 6 grid be tiled with 2 × 1 dominoes?", "o": ["Yes", "No", "Only with 3 × 1 tiles", "Only if rotated"], "e": "Fill each column of 4 squares with two vertical dominoes." },
+      { "t": "Can a 5 × 7 grid be tiled with 2 × 1 dominoes?", "o": ["No — it has 35 squares, an odd number", "Yes", "Only with horizontal tiles", "Only with vertical tiles"], "e": "Each domino covers 2 squares, so the total covered is always even." },
+      { "t": "Which regular polygon CANNOT tile the plane?", "o": ["Regular pentagon", "Square", "Equilateral triangle", "Regular hexagon"], "e": "Its angle, 108°, doesn't divide 360° exactly." }
+    ]},
+    { "q": [
+      { "t": "A point is equally far from X and Y. Where must it lie?", "o": ["On the perpendicular bisector of XY", "On XY itself", "On a circle through X", "Anywhere"], "e": "Two such points determine the perpendicular bisector, and XY has only one." },
+      { "t": "Which congruence rule proves the angle-bisector construction?", "o": ["SSS", "AAA", "SSA", "RHS"], "e": "OA = OB, AC = BC (same radius), OC common → ∆OAC ≅ ∆OBC." },
+      { "t": "Which congruence rule proves the angle-copying construction?", "o": ["SSS", "ASA", "AAA", "SSA"], "e": "Two radii and the copied chord BC give three equal sides." },
+      { "t": "How do you construct 30°?", "o": ["Construct 60°, then bisect it", "Bisect 90° twice", "Bisect 120°", "Construct 45°, then bisect it"], "e": "60 ÷ 2 = 30." },
+      { "t": "How do you get 120° from a 60° construction on a straight line?", "o": ["Take the angle next to it: 180° − 60°", "Bisect it", "Copy it once", "It isn't possible"], "e": "The two angles on a straight line add to 180°." },
+      { "t": "Six angles around a point measure 40°, 60°, 50°, 30°, 40°, 90°. The gap angle is…", "n": 50, "u": "°", "k": "360-(40+60+50+30+40+90)", "e": "Angles round a point total 360°: 360 − 310 = 50°. A 70° piece won't fit." },
+      { "t": "When is an m × n grid tileable by dominoes?", "o": ["When at least one of m, n is even", "Only when both are even", "Always", "When m = n"], "e": "An even side can be filled by dominoes lined up along it; odd × odd gives an odd count." },
+      { "t": "Can a 4 × 7 grid be tiled with dominoes?", "o": ["Yes", "No", "Only half of it", "Only with squares"], "e": "4 is even, so each column of 4 takes two vertical dominoes." },
+      { "t": "The 8-petalled design needs lines meeting at equal angles of…", "n": 45, "u": "°", "k": "360//8", "e": "360° ÷ 8 = 45°: construct 90° and bisect it." },
+      { "t": "To construct a parallel line through B, which angle is copied?", "o": ["A corresponding angle made by a transversal", "A right angle only", "Any random angle", "The angle of a hexagon"], "e": "Equal corresponding angles make the lines parallel." }
+    ]},
+    { "q": [
+      { "t": "In the perpendicular-bisector proof, ∆ABX ≅ ∆ABY by…", "o": ["SSS", "SAS", "RHS", "AAA"], "e": "AX = AY, BX = BY, and AB is common." },
+      { "t": "Why does the angle between OA (bisector) and XY come out as 90°?", "o": ["The two equal angles at O make a straight line, 180°", "Because AB is long", "Because the arcs are equal", "Because O is a vertex"], "e": "∠AOX = ∠AOY and together they make 180°, so each is 90°." },
+      { "t": "Must the arcs above and below XY have the same radius?", "o": ["No — each meeting point is still equidistant from X and Y", "Yes, always", "Only below the line", "Only if XY is short"], "e": "Each pair (one from X, one from Y) needs equal radii; the two pairs can differ." },
+      { "t": "In one pair of arcs (one from X, one from Y), must the radii be equal?", "o": ["Yes — otherwise the meeting point isn't equidistant from X and Y", "No", "Only above the line", "Only for long segments"], "e": "The meeting point's distances to X and Y are the two radii, so they must match." },
+      { "t": "A 5 × 3 chessboard-coloured grid has how many squares of the corner colour?", "n": 8, "e": "15 squares; the corner colour gets one more than the other: 8 and 7." },
+      { "t": "A white square (the colour with 7) is removed from the 5 × 3 grid. Can it be tiled by dominoes?", "o": ["No — 8 black and 6 white remain", "Yes — 14 squares is even", "Only with vertical tiles", "Only with horizontal tiles"], "e": "Each domino covers one black and one white, so equal numbers are needed." },
+      { "t": "In the Śulba-sūtra rope method, why is AX = AY?", "o": ["A is the rope's midpoint, so the two parts are equal", "Because the pegs are tall", "Because the rope is straight", "Because the ground is flat"], "e": "Pulled taut at its midpoint, each half of the rope reaches one peg." },
+      { "t": "The six points of the star made from a regular hexagon are triangles with angles of…", "n": 60, "u": "°", "k": "180-120", "e": "Each base angle is 180° − 120° = 60°, so all angles are 60° — equilateral." },
+      { "t": "Stepping a compass set to radius r around a circle of radius r, how many steps fit?", "n": 6, "e": "Each step with the centre forms an equilateral triangle (60°), and 360 ÷ 60 = 6 — a regular hexagon." },
+      { "t": "Which angle can be constructed with ruler and compass by bisecting?", "o": ["15°", "65.5°", "50°", "70°"], "e": "15° = half of 30° = a quarter of 60°. The others can't be reached by halving 60° or 90°." }
+    ]},
+    { "q": [
+      { "t": "Regular pentagons can't tile the plane. Why?", "o": ["360 ÷ 108 is not a whole number", "They have 5 sides", "They are too big", "Their sides are unequal"], "e": "Copies meeting at a corner must fill exactly 360°; 3 leave a gap, 4 overlap." },
+      { "t": "How many regular hexagons meet at each corner of a hexagon tiling?", "n": 3, "k": "360//120", "e": "360 ÷ 120 = 3." },
+      { "t": "How do you construct a perpendicular from a point P outside line l?", "o": ["Arc from P cuts l at X and Y; draw the perpendicular bisector of XY", "Draw any line from P", "Bisect the angle at P", "Copy a 60° angle at P"], "e": "P is equidistant from X and Y, so it lies on their perpendicular bisector." },
+      { "t": "With 360° split by 10 equal lines through a point (a 10-ray design), each angle is…", "n": 36, "u": "°", "k": "360//10", "e": "360 ÷ 10 = 36°." },
+      { "t": "Each corner of a square tiling has how many squares meeting?", "n": 4, "k": "360//90", "e": "360 ÷ 90 = 4." },
+      { "t": "A region has 10 black and 10 white squares (chessboard colouring). Is it definitely tileable by dominoes?", "o": ["Not necessarily — equal colours is needed but not enough", "Yes, always", "No, never", "Only if rectangular"], "e": "Unequal counts prove a tiling impossible; equal counts don't guarantee one (the shape matters too)." },
+      { "t": "The angle 75° can be constructed as…", "o": ["60° + 15°", "90° − 10°", "a bisected 140°", "it can't"], "e": "Construct 60°, then add 15° (half of 30°) next to it." },
+      { "t": "Why does copying the angle at A to D make a symmetric trefoil-arch support?", "o": ["It makes ∠BAD = ∠CDA, and the compass makes AB = DC", "It makes the arch pointed", "It bisects AD", "It makes AB parallel to AD"], "e": "Equal side lengths and equal base angles give a symmetric frame." },
+      { "t": "In the hexagon made of 6 equilateral triangles around O, why is AOD a straight line?", "o": ["∠AOB + ∠BOC + ∠COD = 3 × 60° = 180°", "Because A and D are opposite", "Because AD is longest", "Because O is the centre"], "e": "Three 60° angles make a straight angle." },
+      { "t": "In the angle-bisector construction, the arcs from A and B are drawn on the far side so that C is behind O. Is OC still a bisector line?", "o": ["Yes — the triangles are still congruent by SSS", "No", "Only for acute angles", "Only for 90°"], "e": "C is still equally far from A and B, so the line through O and C bisects the angle." }
+    ]}
+  ]
+}

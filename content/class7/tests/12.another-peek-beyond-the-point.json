@@ -1,0 +1,53 @@
+{
+  "title": "12. Another Peek Beyond the Point",
+  "tests": [
+    { "q": [
+      { "t": "12 ÷ 1000 = ?", "n": 0.012, "k": "F(12,1000)", "e": "Three zeros → move the point 3 places left: 12. → 0.012." },
+      { "t": "9.5 × 5 = ?", "n": 47.5, "k": "F('9.5')*5", "e": "95 × 5 = 475, and 1 decimal place → 47.5." },
+      { "t": "3.9 m of ribbon is cut into 10 equal pieces. Length of each (m)?", "n": 0.39, "k": "F('3.9')/10", "e": "÷ 10 moves the point one place left." },
+      { "t": "Write 2/5 as a decimal.", "n": 0.4, "k": "F(2,5)", "e": "2/5 = 4/10 = 0.4." },
+      { "t": "0.306 × 100 = ?", "n": 30.6, "k": "F('0.306')*100", "e": "× 100 moves the point two places right." },
+      { "t": "1.65 m of cloth per shirt. How much for 3 shirts (m)?", "n": 4.95, "k": "F('1.65')*3", "e": "165 × 3 = 495, 2 decimal places → 4.95." },
+      { "t": "Which product is less than 1?", "o": ["0.7 × 0.6", "7 × 0.6", "0.7 × 6", "7 × 6"], "e": "Both factors below 1 → the product is smaller than both, so below 1 (0.42)." },
+      { "t": "29 m of ribbon shared equally by 2 girls. Each gets (m)?", "n": 14.5, "k": "F(29,2)", "e": "14 m each with 1 m left; half of 1 m is 0.5 m → 14.5 m." },
+      { "t": "13/4 as a decimal?", "n": 3.25, "k": "F(13,4)", "e": "Multiply by 25: 325/100 = 3.25." },
+      { "t": "Is 2000 a leap year?", "o": ["Yes — divisible by 400", "No — century years never are", "No — not divisible by 4", "Only every other time"], "e": "Century years are leap years only if divisible by 400. 2000 is." }
+    ]},
+    { "q": [
+      { "t": "12.5 × 7.5 = ?", "n": 93.75, "k": "F('12.5')*F('7.5')", "e": "125 × 75 = 9375; 1 + 1 = 2 decimal places → 93.75." },
+      { "t": "596 × 248 = 147808. So 5.96 × 24.8 = ?", "n": 147.808, "k": "F('5.96')*F('24.8')", "e": "2 + 1 = 3 decimal places → 147.808." },
+      { "t": "1325 ÷ 4 = ?", "n": 331.25, "k": "F(1325,4)", "e": "331 with 1 left; 10 tenths ÷ 4 = 2 (2 left); 20 hundredths ÷ 4 = 5." },
+      { "t": "126 km in 2.5 hours. Average speed (km/h)?", "n": 50.4, "k": "126/F('2.5')", "e": "Scale both by 10: 1260 ÷ 25 = 50.4." },
+      { "t": "4.68 ÷ 0.13 = ?", "n": 36, "k": "F('4.68')/F('0.13')", "e": "Multiply both by 100: 468 ÷ 13 = 36." },
+      { "t": "Meenu buys 4 notebooks at ₹15.50 and 3 erasers at ₹2.75. Total (₹)?", "n": 70.25, "k": "4*F('15.50')+3*F('2.75')", "e": "62 + 8.25 = 70.25." },
+      { "t": "Thickness of 36 coins of 1.45 mm, in cm?", "n": 5.22, "k": "36*F('1.45')/10", "e": "36 × 1.45 = 52.2 mm = 5.22 cm." },
+      { "t": "Given 18 × 12 = 216, find 0.18 × 0.12.", "n": 0.0216, "k": "F('0.18')*F('0.12')", "e": "2 + 2 = 4 decimal places → 0.0216." },
+      { "t": "9.5 kg sugar packed equally into 4 bags. Each bag (kg)?", "n": 2.375, "k": "F('9.5')/4", "e": "Long division: 2.375 (keep regrouping into hundredths and thousandths)." },
+      { "t": "128 ÷ 0.4 = ?", "n": 320, "k": "128/F('0.4')", "e": "1280 ÷ 4 = 320 — bigger than 128, because the divisor is less than 1." }
+    ]},
+    { "q": [
+      { "t": "0.432 × 0.23 = ?", "n": 0.09936, "k": "F('0.432')*F('0.23')", "e": "432 × 23 = 9936; 3 + 2 = 5 decimal places → 0.09936." },
+      { "t": "237 ÷ 8 = ?", "n": 29.625, "k": "F(237,8)", "e": "29 with 5 left; 50 tenths ÷ 8 = 6 r2; 20 hundredths ÷ 8 = 2 r4; 40 thousandths ÷ 8 = 5." },
+      { "t": "Given 756 ÷ 36 = 21, find 756 ÷ 0.36.", "n": 2100, "k": "756/F('0.36')", "e": "Multiply both by 100: 75600 ÷ 36 = 2100." },
+      { "t": "Dwarakanath buys notebooks at ₹23.6 and sells at ₹30. Profit on 50 (₹)?", "n": 320, "k": "(30-F('23.6'))*50", "e": "₹6.4 each × 50 = ₹320." },
+      { "t": "1 ÷ 7 = 0.142857142857… What is 142857 × 7?", "n": 999999, "k": "142857*7", "e": "A surprising fact about this cyclic number." },
+      { "t": "Why does 10 ÷ 3 never end?", "o": ["The remainder is 1 at every step, so it repeats forever", "Because 10 is even", "Because 3 is odd", "It ends after 3 decimal places"], "e": "Each step regroups 1 into 10 smaller units, divides by 3 and leaves 1 again." },
+      { "t": "A 12-sided regular polygon has perimeter 208.8 cm. Side length (cm)?", "n": 17.4, "k": "F('208.8')/12", "e": "208.8 ÷ 12 = 17.4." },
+      { "t": "3 litres of juice shared by 8 friends. How many mL each?", "n": 375, "k": "F(3000,8)", "e": "3 L = 3000 mL; 3000 ÷ 8 = 375 mL (0.375 L)." },
+      { "t": "Is 2.46 ÷ 0.15 the same as 24.6 ÷ 1.5?", "o": ["Yes — both numbers were multiplied by 10", "No", "Only approximately", "Only if rounded"], "e": "Scaling both dividend and divisor by the same number doesn't change the quotient (16.4)." },
+      { "t": "How many days are there in 100 calendar years if EVERY 4th year is a leap year?", "n": 36525, "k": "100*365+25", "e": "100 × 365 + 25 extra days = 36,525 — more than the Earth's 36,524.22." }
+    ]},
+    { "q": [
+      { "t": "With the rule 'leap every 4 years except century years', how many days in 100 years?", "n": 36524, "k": "24*366+76*365", "e": "24 leap years (the 100th is excluded) and 76 ordinary: 24 × 366 + 76 × 365 = 36,524." },
+      { "t": "1/32 as a decimal?", "n": 0.03125, "k": "F(1,32)", "e": "1/32 = 3125/100000 = 0.03125 — it ends because 32 is made only of 2s." },
+      { "t": "Which fraction's decimal will NOT end?", "o": ["1/3", "1/8", "1/25", "3/40"], "e": "A denominator with a prime other than 2 or 5 can't be made into a power of 10." },
+      { "t": "Śrīdhara: 6 ÷ 2¼ = ?", "o": ["8/3 (2.666…)", "3", "2.25", "13.5"], "k": "6/F(9,4)", "e": "6 ÷ 9/4 = 6 × 4/9 = 24/9 = 8/3 = 2.666…" },
+      { "t": "Chikki ₹70.5 for 210 g or chips ₹33.25 for 110 g — which is cheaper per gram?", "o": ["Chips", "Chikki", "Same price per gram"], "e": "Chikki ≈ ₹0.336/g, chips ≈ ₹0.302/g." },
+      { "t": "A 160 cm shelf holds books 2.5 cm thick. How many books fit?", "n": 64, "k": "160/F('2.5')", "e": "1600 ÷ 25 = 64, with no space left over." },
+      { "t": "In 1000 calendar years with the full leap-year rule, how many days?", "n": 365242, "k": "750*365+240*366+8*365+2*366", "e": "750 ordinary + 240 leap (÷4 not ÷100) + 8 centuries (365) + 2 four-hundreds (366)." },
+      { "t": "Which is largest?", "o": ["245.05 ÷ 0.942368", "245.05 × 0.942368", "245.05", "245.05 ÷ 7.9682"], "e": "Dividing by a number below 1 makes it bigger; multiplying by one below 1 makes it smaller." },
+      { "t": "Given 156 × 12 = 1872, find 18.72 ÷ 15.6.", "n": 1.2, "k": "F('18.72')/F('15.6')", "e": "Since 15.6 × 1.2 = 18.72, the quotient is 1.2." },
+      { "t": "125.5 mL in litres?", "n": 0.1255, "k": "F('125.5')/1000", "e": "1 L = 1000 mL → ÷ 1000, point 3 places left." }
+    ]}
+  ]
+}

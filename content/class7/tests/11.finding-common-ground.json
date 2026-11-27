@@ -1,0 +1,53 @@
+{
+  "title": "11. Finding Common Ground",
+  "tests": [
+    { "q": [
+      { "t": "HCF of 12 and 16?", "n": 4, "k": "math.gcd(12,16)", "e": "Factors of 12: 1, 2, 3, 4, 6, 12. Of 16: 1, 2, 4, 8, 16. The biggest common one is 4." },
+      { "t": "LCM of 6 and 8?", "n": 24, "k": "6*8//math.gcd(6,8)", "e": "Multiples of 6: 6, 12, 18, 24 … of 8: 8, 16, 24 … First common one: 24." },
+      { "t": "Prime factorisation of 105?", "o": ["3 × 5 × 7", "3 × 35", "5 × 21", "15 × 7"], "e": "Only the first has all prime factors; 35, 21 and 15 can still be split." },
+      { "t": "Which of these is a prime number?", "o": ["13", "21", "1", "27"], "e": "13's only factors are 1 and 13. 1 is not prime; 21 = 3 × 7; 27 = 3 × 9." },
+      { "t": "HCF of two consecutive numbers like 8 and 9?", "n": 1, "e": "A common factor would also divide their difference, 1." },
+      { "t": "LCM of 7 and 10?", "n": 70, "k": "7*10//math.gcd(7,10)", "e": "7 and 10 share no factor, so the LCM is their product." },
+      { "t": "A 12 ft × 16 ft floor uses the largest possible equal square tiles (whole feet). How many tiles?", "n": 12, "k": "(12//4)*(16//4)", "e": "Tile side = HCF = 4 ft → 3 × 4 = 12 tiles." },
+      { "t": "HCF of 45 and 75?", "n": 15, "k": "math.gcd(45,75)", "e": "45 = 3 × 3 × 5 and 75 = 3 × 5 × 5 share 3 × 5 = 15." },
+      { "t": "Free gajak every Monday; Kabamai visits every 10 days. After how many days does she next get it?", "n": 70, "k": "7*10//math.gcd(7,10)", "e": "Mondays come every 7 days; she comes every 10 → LCM(7, 10) = 70." },
+      { "t": "Is there a LARGEST common multiple of 6 and 8?", "o": ["No — common multiples go on forever", "Yes, 48", "Yes, 24", "Yes, 6 × 8"], "e": "You can always add another 24, so there is no largest." }
+    ]},
+    { "q": [
+      { "t": "HCF of 30 and 72?", "n": 6, "k": "math.gcd(30,72)", "e": "30 = 2 × 3 × 5, 72 = 2³ × 3². Shared primes with fewest copies: one 2, one 3 → 6." },
+      { "t": "LCM of 96 and 360?", "n": 1440, "k": "96*360//math.gcd(96,360)", "e": "96 = 2⁵ × 3, 360 = 2³ × 3² × 5. Most copies of each prime: 2⁵ × 3² × 5 = 1440." },
+      { "t": "Is 27 a factor of 840 = 2 × 2 × 2 × 3 × 5 × 7?", "o": ["No — 27 needs three 3s, 840 has one", "Yes", "Yes, 840 = 27 × 31", "Only if 840 is even"], "e": "A factor's primes must fit inside the number's prime factorisation." },
+      { "t": "How many factors does 225 = 3 × 3 × 5 × 5 have?", "n": 9, "k": "3*3", "e": "1, 3, 5, 9, 15, 25, 45, 75, 225 — or (2 + 1) × (2 + 1) choices = 9." },
+      { "t": "Lekhana packs 84 kg and 108 kg of rice in equal whole-kg bags, as few as possible. Bag weight (kg)?", "n": 12, "k": "math.gcd(84,108)", "e": "Fewest bags means the biggest bag that divides both: HCF = 12 kg." },
+      { "t": "HCF of 112 and 84?", "n": 28, "k": "math.gcd(112,84)", "e": "112 = 2⁴ × 7, 84 = 2² × 3 × 7 → 2 × 2 × 7 = 28." },
+      { "t": "HCF × LCM of 105 and 95 equals…", "n": 9975, "k": "105*95", "e": "For two numbers HCF × LCM = their product: 105 × 95 = 9975 (HCF 5, LCM 1995)." },
+      { "t": "Anshu says: 'a bigger number always has a longer prime factorisation.' Which is a counterexample?", "o": ["96 = 2⁵ × 3 but 121 = 11 × 11", "8 = 2 × 2 × 2 and 16 = 2⁴", "6 = 2 × 3 and 30 = 2 × 3 × 5", "There is none"], "e": "121 is bigger than 96 but has only 2 prime factors to 96's 6." },
+      { "t": "LCM of 36 and 54?", "n": 108, "k": "36*54//math.gcd(36,54)", "e": "36 = 2² × 3², 54 = 2 × 3³ → 2² × 3³ = 108." },
+      { "t": "HCF of 96 and 275?", "n": 1, "k": "math.gcd(96,275)", "e": "96 = 2⁵ × 3 and 275 = 5² × 11 share no prime." }
+    ]},
+    { "q": [
+      { "t": "A cowherd with fewer than 200 cows splits them equally through 3, then 5, then 7 gates. How many cows?", "n": 105, "k": "3*5*7", "e": "The number must be a multiple of LCM(3, 5, 7) = 105; the next, 210, is too many." },
+      { "t": "Which cube size packs a 12 × 18 × 36 cm box with no gaps?", "o": ["6 cm", "9 cm", "4 cm", "8 cm"], "e": "The side must divide 12, 18 and 36, i.e. divide their HCF, 6." },
+      { "t": "Ladder: 2 | 84, 180 → 2 | 42, 90 → 3 | 21, 45 → 7, 15. LCM?", "n": 1260, "k": "2*2*3*7*15", "e": "Left column (HCF 12) × bottom row (7 × 15) = 1260." },
+      { "t": "HCF of 370 and 592?", "n": 74, "k": "math.gcd(370,592)", "e": "370 = 2 × 5 × 37, 592 = 2⁴ × 37 → 2 × 37 = 74." },
+      { "t": "Two numbers have HCF 1 and LCM 66. Which pair works?", "o": ["6 and 11", "6 and 66", "2 and 66", "11 and 66"], "e": "HCF × LCM = product → product 66 and co-prime: 6 × 11." },
+      { "t": "HCF of two consecutive even numbers like 14 and 16?", "n": 2, "e": "Both even, and any common factor divides their difference 2." },
+      { "t": "HCF of 14 × 6 and 14 × 9?", "n": 42, "k": "math.gcd(14*6,14*9)", "e": "6 and 9 still share a 3, so the HCF is 14 × 3 = 42, not just 14." },
+      { "t": "A dog leaps 9 ft each time a rabbit leaps 7 ft; the rabbit starts 150 ft ahead. Leaps to catch it?", "n": 75, "k": "150//(9-7)", "e": "The dog gains 2 ft per leap: 150 ÷ 2 = 75." },
+      { "t": "Smallest number that is a multiple of 1, 2, 3, 4, 5, 6, 8, 9, 10?", "n": 360, "e": "LCM: 2³ (from 8) × 3² (from 9) × 5 = 360." },
+      { "t": "LCM of two different primes m and n is…", "o": ["m × n, bigger than both", "smaller than both", "between them", "less than m × n"], "e": "Different primes share nothing, so the LCM is their product." }
+    ]},
+    { "q": [
+      { "t": "Smallest number divisible by 3, 4, 5 and 7 that leaves remainder 10 when divided by 11?", "n": 2100, "e": "Multiples of LCM 420: 420, 840, 1260, 1680, 2100. 2100 = 11 × 190 + 10." },
+      { "t": "Mahāvīrāchārya: 8/15 + 1/20 + 7/36 + 11/63 + 1/21 = ?", "n": 1, "k": "F(8,15)+F(1,20)+F(7,36)+F(11,63)+F(1,21)", "e": "Over the LCM 1260: 672 + 63 + 245 + 220 + 60 = 1260, so the sum is 1." },
+      { "t": "In Fire in the Mountain, nobody was out for 6 or 9 but some were out for 10. How many could be playing?", "o": ["72", "90", "45", "3"], "e": "A multiple of LCM(6, 9) = 18 but not of 10: 72 works; 90 is a multiple of 10." },
+      { "t": "Doubling both numbers does what to their HCF?", "o": ["Doubles it", "Halves it", "Keeps it the same", "Squares it"], "e": "Each number gets one more 2, and that shared 2 joins the HCF." },
+      { "t": "HCF(2, 4, 8) × LCM(2, 4, 8) compared with 2 × 4 × 8:", "o": ["16 vs 64 — the rule fails for three numbers", "equal, both 64", "equal, both 16", "16 vs 32"], "e": "HCF 2, LCM 8 → 16, but the product is 64. HCF × LCM = product only for two numbers." },
+      { "t": "How many factors does 360 = 2³ × 3² × 5 have?", "n": 24, "k": "4*3*2", "e": "Choose how many 2s (0–3), 3s (0–2), 5s (0–1): 4 × 3 × 2 = 24." },
+      { "t": "LCM of 105, 195 and 65?", "n": 1365, "e": "105 = 3 × 5 × 7, 195 = 3 × 5 × 13, 65 = 5 × 13 → 3 × 5 × 7 × 13 = 1365." },
+      { "t": "Is 5 × 7 × 11 × 11 a multiple of 5 × 7 × 7 × 11 × 2?", "o": ["No — it lacks a second 7 and a 2", "Yes", "Yes, it is 11/14 times it", "Only if 11 is even"], "e": "A multiple must contain all the other number's prime factors." },
+      { "t": "HCF of 3 × 3 × 5 × 7 × 7 and 12 × 7 × 11?", "n": 21, "k": "math.gcd(3*3*5*7*7,12*7*11)", "e": "12 × 7 × 11 = 2² × 3 × 7 × 11. Shared: one 3 and one 7 → 21." },
+      { "t": "Torans of 6 cm and 8 cm strips must be equal and under 1 m. How many different lengths are possible?", "n": 4, "e": "Common multiples of 6 and 8 are multiples of 24: 24, 48, 72, 96 cm." }
+    ]}
+  ]
+}

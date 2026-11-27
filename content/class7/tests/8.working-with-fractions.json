@@ -1,0 +1,53 @@
+{
+  "title": "8. Working with Fractions",
+  "tests": [
+    { "q": [
+      { "t": "3 × 1/4 = ?", "o": ["3/4", "1/12", "3/12", "4/3"], "k": "3*F(1,4)", "e": "3 lots of one quarter is 3 quarters." },
+      { "t": "1/2 × 1/4 = ?", "o": ["1/8", "2/8", "1/6", "2/4"], "k": "F(1,2)*F(1,4)", "e": "Half of a quarter: the unit square is cut into 2 × 4 = 8 pieces and one is shaded." },
+      { "t": "2/3 × 4/5 = ?", "o": ["8/15", "6/8", "8/8", "10/12"], "k": "F(2,3)*F(4,5)", "e": "Multiply tops (2 × 4 = 8) and bottoms (3 × 5 = 15)." },
+      { "t": "What is the reciprocal of 3/5?", "o": ["5/3", "3/5", "−3/5", "1/15"], "k": "F(5,3)", "e": "Flip it: 3/5 × 5/3 = 1." },
+      { "t": "1/2 ÷ 1/4 = ?", "n": 2, "k": "F(1,2)/F(1,4)", "e": "Multiply by the reciprocal: 1/2 × 4 = 2. Two quarters fit in a half." },
+      { "t": "A farmer gives 2/3 acre to each of 5 grandchildren. Total acres?", "o": ["10/3", "2/15", "7/3", "10/15"], "k": "5*F(2,3)", "e": "5 × 2/3 = 10/3 = 3 1/3 acres." },
+      { "t": "Tenzin drinks 1/2 glass of milk a day. How many glasses in a week?", "o": ["7/2", "1/14", "2/7", "7"], "k": "7*F(1,2)", "e": "7 × 1/2 = 7/2 = 3 1/2 glasses." },
+      { "t": "6 ÷ 1/4 = ?", "n": 24, "k": "6/F(1,4)", "e": "How many quarters fit in 6? Each whole has 4 → 24." },
+      { "t": "Multiplying a number by 3/4 makes it…", "o": ["smaller", "bigger", "stay the same", "negative"], "e": "× 3/4 means take 3/4 OF it — less than the whole." },
+      { "t": "1/3 × 1/5 = ?", "o": ["1/15", "2/8", "1/8", "5/3"], "k": "F(1,15)", "e": "The square is cut into 3 × 5 = 15 parts; one is shaded." }
+    ]},
+    { "q": [
+      { "t": "Simplify 12/7 × 5/24 (cancel first).", "o": ["5/14", "60/168", "5/7", "12/35"], "k": "F(12,7)*F(5,24)", "e": "Cancel 12 with 24 (→ 1 and 2): 1/7 × 5/2 = 5/14." },
+      { "t": "2/3 ÷ 3/5 = ?", "o": ["10/9", "6/15", "9/10", "2/5"], "k": "F(2,3)/F(3,5)", "e": "Multiply by the reciprocal of the divisor: 2/3 × 5/3 = 10/9." },
+      { "t": "Internet costs ₹8 an hour. Cost of 1 1/4 hours (₹)?", "n": 10, "k": "F(5,4)*8", "e": "1 1/4 = 5/4. 5/4 × 8 = 5 × 2 = ₹10." },
+      { "t": "Leena uses 1/4 litre of milk for 5 cups of tea. Milk per cup (litres)?", "o": ["1/20", "5/4", "4/5", "1/9"], "k": "F(1,4)/5", "e": "1/4 ÷ 5 = 1/4 × 1/5 = 1/20." },
+      { "t": "Maria has 8 m of lace and uses 1/4 m per bag. How many bags?", "n": 32, "k": "8/F(1,4)", "e": "8 ÷ 1/4 = 8 × 4 = 32." },
+      { "t": "A tap fills 7/10 of a tank in an hour. How much in 1/3 hour?", "o": ["7/30", "21/10", "10/21", "7/13"], "k": "F(7,10)*F(1,3)", "e": "1/3 of 7/10 = 7/30." },
+      { "t": "Which describes 3/4 × 2/5?", "o": ["Smaller than both 3/4 and 2/5", "Bigger than both", "Between them", "Equal to 1"], "e": "Both are between 0 and 1, so each multiplication takes a part of the other — the product (3/10) is smaller than both." },
+      { "t": "8/2 ÷ 4/15 = ?", "n": 15, "k": "F(8,2)/F(4,15)", "e": "8/2 = 4. 4 × 15/4 = 15." },
+      { "t": "Four saplings are planted in a row, 3/4 m apart. Distance from first to last (m)?", "o": ["9/4", "3", "12/4", "3/16"], "k": "3*F(3,4)", "e": "4 saplings make 3 gaps: 3 × 3/4 = 9/4 = 2 1/4 m." },
+      { "t": "The Moon sets 5/6 hour later each day. How many hours later after 3 days?", "o": ["5/2", "15/18", "5/18", "8/6"], "k": "3*F(5,6)", "e": "3 × 5/6 = 15/6 = 5/2 = 2 1/2 hours." }
+    ]},
+    { "q": [
+      { "t": "Somu gives away 1/6 of her land; then half of the rest to Krishna. What fraction of the ORIGINAL land does Krishna get?", "o": ["5/12", "1/12", "1/2", "5/6"], "k": "F(1,2)*F(5,6)", "e": "Rest = 5/6. Half of 5/6 = 5/12." },
+      { "t": "Area of a rectangle 3 3/4 ft by 9 3/5 ft (sq ft)?", "n": 36, "k": "F(15,4)*F(48,5)", "e": "15/4 × 48/5: cancel 15 with 5 (→3) and 48 with 4 (→12): 3 × 12 = 36." },
+      { "t": "Which is heavier: 12/15 of 500 g or 3/20 of 4 kg?", "o": ["3/20 of 4 kg (600 g)", "12/15 of 500 g (400 g)", "They are equal", "Can't tell"], "e": "12/15 × 500 = 400 g. 3/20 × 4000 = 600 g." },
+      { "t": "3 2/3 ÷ 1 3/8 = ?", "o": ["8/3", "3/8", "121/24", "11/8"], "k": "F(11,3)/F(11,8)", "e": "11/3 × 8/11: the 11s cancel → 8/3 = 2 2/3." },
+      { "t": "Four fountains fill a cistern in 1, 1/2, 1/4 and 1/5 of a day. Together, in what fraction of a day?", "o": ["1/12", "2", "1/4", "12"], "k": "F(1,1+2+4+5)", "e": "In a day they fill it 1 + 2 + 4 + 5 = 12 times, so once in 1/12 of a day." },
+      { "t": "Square bricks of side 1/5 unit cover 7 1/2 square units. How many bricks?", "o": ["375/2", "15/2", "75/2", "3/2"], "k": "F(15,2)/F(1,25)", "e": "Each brick has area 1/25. 15/2 ÷ 1/25 = 15/2 × 25 = 375/2 = 187 1/2." },
+      { "t": "Mariam's family ate 4/5 of a cake; 3 friends shared the rest equally. Each friend got…", "o": ["1/15", "1/5", "3/5", "4/15"], "k": "F(1,5)/3", "e": "1/5 is left. 1/5 ÷ 3 = 1/15." },
+      { "t": "Śrīdhara: 1 ÷ 1/6 + 1 ÷ 1/10 + 1 ÷ 1/13 + 1 ÷ 1/9 + 1 ÷ 1/2 = ?", "n": 40, "k": "6+10+13+9+2", "e": "1 ÷ 1/n = n. So 6 + 10 + 13 + 9 + 2 = 40." },
+      { "t": "565/465 × 707/676 is…", "o": ["greater than 1", "less than 1", "equal to 1", "less than 565/465"], "e": "Both fractions are more than 1, so the product is bigger than each of them, and bigger than 1." },
+      { "t": "A car runs 16 km per litre. How far on 2 3/4 litres (km)?", "n": 44, "k": "16*F(11,4)", "e": "16 × 11/4 = 4 × 11 = 44 km." }
+    ]},
+    { "q": [
+      { "t": "(1 − 1/2)(1 − 1/3)(1 − 1/4)…(1 − 1/10) = ?", "o": ["1/10", "1/2", "9/10", "1/100"], "k": "F(1,10)", "e": "1/2 × 2/3 × 3/4 × … × 9/10: each numerator cancels the denominator before it, leaving 1/10." },
+      { "t": "Līlāvatī: 1/2 of 2/3 of 3/4 of 1/5 of 1/16 of 1/4 of a dramma. What fraction of a dramma?", "o": ["1/1280", "1/7680", "6/1280", "1/640"], "k": "F(1,2)*F(2,3)*F(3,4)*F(1,5)*F(1,16)*F(1,4)", "e": "6/7680 = 1/1280 — exactly one cowrie, since 1 dramma = 1280 cowries." },
+      { "t": "Amritpal: train 5 1/6 hours, plane 1/2 hour. Hours saved?", "o": ["14/3", "31/6", "4", "29/6"], "k": "F(31,6)-F(1,2)", "e": "31/6 − 3/6 = 28/6 = 14/3 = 4 2/3 hours." },
+      { "t": "Somu: 1/6 taken, Krishna gets half of the rest, Bora 1/3 of the rest. What fraction does Somu keep?", "o": ["5/36", "1/6", "5/18", "1/36"], "k": "F(5,6)-F(5,12)-F(5,18)", "e": "5/6 − 5/12 − 5/18 = 30/36 − 15/36 − 10/36 = 5/36." },
+      { "t": "1/6 ÷ 11/12 = ?", "o": ["2/11", "11/72", "11/2", "1/11"], "k": "F(1,6)/F(11,12)", "e": "1/6 × 12/11 = 12/66 = 2/11." },
+      { "t": "If 1 pana = 1/48 dinar and 1 cowrie = 1/30 pana, 1 cowrie = ? dinar", "o": ["1/1440", "1/78", "30/48", "1/480"], "k": "F(1,30)*F(1,48)", "e": "A fraction of a fraction: 1/30 × 1/48 = 1/1440." },
+      { "t": "Dividing a number by 2/5 makes it…", "o": ["bigger", "smaller", "the same", "zero"], "e": "Dividing by a number between 0 and 1 is multiplying by its reciprocal 5/2, which is more than 1." },
+      { "t": "How long must the 7/10-per-hour tap run to fill the whole tank?", "o": ["10/7 hours", "7/10 hours", "7 hours", "3/10 hours"], "k": "1/F(7,10)", "e": "1 ÷ 7/10 = 10/7 hours = 1 3/7 hours." },
+      { "t": "14/15 × 25/42 = ?", "o": ["5/9", "350/630", "7/9", "5/3"], "k": "F(14,15)*F(25,42)", "e": "Cancel 14 with 42 (→ 1, 3) and 25 with 15 (→ 5, 3): 5/9." },
+      { "t": "Mira read 3/10 and then 1/5 of a 400-page book. Pages left?", "n": 200, "k": "400-400*(F(3,10)+F(1,5))", "e": "3/10 + 1/5 = 1/2 of the book read → 200 pages left." }
+    ]}
+  ]
+}

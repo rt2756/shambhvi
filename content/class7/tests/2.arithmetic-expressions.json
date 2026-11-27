@@ -1,0 +1,53 @@
+{
+  "title": "2. Arithmetic Expressions",
+  "tests": [
+    { "q": [
+      { "t": "Find the value of 30 + 5 × 4.", "n": 50, "k": "30+5*4", "e": "Terms are 30 and 5 × 4. Work out the term 5 × 4 = 20 first, then add: 30 + 20 = 50." },
+      { "t": "What are the terms of 83 − 14?", "o": ["83 and −14", "83 and 14", "83, −, 14", "69"], "e": "Subtracting 14 is adding −14, so 83 − 14 = 83 + (−14): terms 83 and −14." },
+      { "t": "Fill the blank: 13 + 4 = ___ + 6", "n": 11, "k": "13+4-6", "e": "The left side is 17, so the blank must be 17 − 6 = 11." },
+      { "t": "Irfan pays ₹100 for biscuits ₹15 and dal ₹56. Which expression gives his change?", "o": ["100 − (15 + 56)", "100 − 15 + 56", "100 + 15 − 56", "(100 − 15) + 56"], "e": "He must get back 100 minus the TOTAL cost, so the cost goes in a bracket: 100 − (15 + 56) = ₹29." },
+      { "t": "How many terms does 2 − 10 + 4 × 6 have?", "n": 3, "e": "2 + (−10) + 4 × 6: the terms are 2, −10 and 4 × 6. A product is one term." },
+      { "t": "Compare 113 − 25 and 112 − 24.", "o": ["They are equal", "113 − 25 is bigger", "112 − 24 is bigger", "Can't tell without calculating"], "e": "Both numbers are 1 bigger on the left, so the gap (difference) is the same: both are 88." },
+      { "t": "Evaluate 28 − 7 + 8.", "n": 29, "k": "28-7+8", "e": "Terms 28, −7, 8. Adding them in any order: 28 + 8 = 36, 36 − 7 = 29." },
+      { "t": "Remove the brackets: 14 − (12 + 10) =", "o": ["14 − 12 − 10", "14 − 12 + 10", "14 + 12 + 10", "14 + 12 − 10"], "e": "A minus in front of a bracket flips every sign inside: +12 → −12, +10 → −10." },
+      { "t": "4 friends each order a ₹23 dosa and leave one ₹5 tip. Total cost in ₹?", "n": 97, "k": "4*23+5", "e": "4 × 23 + 5: the terms are 92 and 5, total ₹97." },
+      { "t": "Which equals 2 × (43 + 24)?", "o": ["2 × 43 + 2 × 24", "2 × 43 + 24", "43 + 2 × 24", "2 + 43 + 24"], "e": "Twice a bill of (cutlet + rasgulla) = 2 cutlets + 2 rasgullas — the distributive property." }
+    ]},
+    { "q": [
+      { "t": "Evaluate 48 − 10 × 2 + 16 ÷ 2.", "n": 36, "k": "48-10*2+16//2", "e": "Terms: 48, −10 × 2 = −20, 16 ÷ 2 = 8. 48 − 20 + 8 = 36." },
+      { "t": "Compare without calculating: 245 + 289 ___ 246 + 285", "o": [">", "<", "="], "e": "Right gains 1 in the first number but loses 4 in the second, so the left is 3 more." },
+      { "t": "Evaluate 6 × 3 − 4 × 8 × 5.", "n": -142, "k": "6*3-4*8*5", "e": "Terms: 6 × 3 = 18 and −4 × 8 × 5 = −160. 18 − 160 = −142." },
+      { "t": "500 − (250 − 100) is the same as…", "o": ["500 − 250 + 100", "500 − 250 − 100", "500 + 250 − 100", "500 − 100 − 250"], "e": "Taking away 250 removes 100 too many (we only needed to take 150), so add the 100 back. The − in front flips −100 to +100." },
+      { "t": "Given 53 × 18 = 954, find 63 × 18.", "n": 1134, "k": "63*18", "e": "63 × 18 = (53 + 10) × 18 = 954 + 10 × 18 = 954 + 180 = 1,134." },
+      { "t": "Find 97 × 25 using (100 − 3) × 25.", "n": 2425, "k": "97*25", "e": "100 × 25 − 3 × 25 = 2500 − 75 = 2,425." },
+      { "t": "Queen Alia gave 100 coins each to Elsa and Anna. Elsa doubled hers; Anna has half left. Total coins now?", "n": 250, "k": "2*100+100//2", "e": "2 × 100 + 100 ÷ 2 = 200 + 50 = 250." },
+      { "t": "Fill the blank: 207 − 68 = 210 − ___", "n": 71, "k": "210-(207-68)", "e": "207 went up by 3 to 210, so the number taken away must also go up by 3 (68 → 71) to keep the same difference." },
+      { "t": "Is 5 × 4 + 3 equal to 5 × (4 + 3)?", "o": ["No: 23 vs 35", "Yes, both 23", "Yes, both 35", "No: 35 vs 23"], "e": "5 × 4 + 3 has terms 20 and 3 → 23. In 5 × (4 + 3) the 5 multiplies the whole bracket → 35." },
+      { "t": "Metro: adult ₹40, child ₹20. Cost for 4 adults and 3 children (₹)?", "n": 220, "k": "4*40+3*20", "e": "4 × 40 + 3 × 20 = 160 + 60 = ₹220." }
+    ]},
+    { "q": [
+      { "t": "Add brackets so that 34 − 9 + 12 = 13.", "o": ["34 − (9 + 12)", "(34 − 9) + 12", "34 − 9 + (12)", "(34 − 9 + 12)"], "e": "34 − (9 + 12) = 34 − 21 = 13. Without the bracket it would be 37." },
+      { "t": "Compute 1 − 2 + 3 − 4 + 5 − 6 + 7 − 8 + 9 − 10.", "n": -5, "k": "1-2+3-4+5-6+7-8+9-10", "e": "Group in pairs: (1 − 2) + (3 − 4) + … = five lots of −1 = −5." },
+      { "t": "A snail climbs 3 cm each day and slips 2 cm each night up a 10 cm post. On which day does it reach the top?", "n": 8, "e": "After 7 day-and-night cycles it is at 7 cm. On day 8 it climbs 3 cm to 10 cm and is at the top before any slip." },
+      { "t": "Melvin reads a story a day except Tuesday and Saturday. Stories in 8 weeks?", "n": 40, "k": "(7-2)*8", "e": "(7 − 2) × 8 = 7 × 8 − 2 × 8 = 40. (5 × 2 × 8 = 80 would count pages.)" },
+      { "t": "Compare by reasoning: 15 + 9 × 18 ___ (15 + 9) × 18", "o": ["<", ">", "="], "e": "The right side multiplies the 15 by 18 too (15 × 18 + 9 × 18), while the left adds just 15." },
+      { "t": "Remove the brackets: 14 − (−12 − 10) =", "o": ["14 + 12 + 10", "14 − 12 − 10", "14 + 12 − 10", "14 − 12 + 10"], "e": "The − in front flips both signs inside: −12 → +12, −10 → +10. Value 36." },
+      { "t": "Binu earns ₹20,000 a month and spends ₹5,000 + ₹5,000 + ₹2,000. Savings in a year (₹)?", "n": 96000, "k": "12*(20000-12000)", "e": "Monthly saving = 20,000 − 12,000 = 8,000. × 12 months = ₹96,000." },
+      { "t": "Find 104 × 15 using the distributive property.", "n": 1560, "k": "104*15", "e": "(100 + 4) × 15 = 1500 + 60 = 1,560." },
+      { "t": "Which is equal to 83 − 37 − 12?", "o": ["84 − 38 − 12", "84 − (37 + 12)", "83 − 38 − 13", "83 − (37 − 12)"], "e": "84 − 38: both numbers up by 1, so the same difference, then −12 → 34. The others give 35, 32 and 58." },
+      { "t": "Mangoes: Rahim 9 kg and Shyam 11 kg every day for a week. Total kg?", "n": 140, "k": "7*(9+11)", "e": "7 × (9 + 11) = 7 × 20 = 140 kg — or 7 × 9 + 7 × 11 = 63 + 77." }
+    ]},
+    { "q": [
+      { "t": "From 53 + (−16) = 37, find 53 + (−17) without adding.", "n": 36, "e": "−17 is one LESS than −16, so the value drops by 1: 36." },
+      { "t": "−87 + (−16) = −103. What is −88 + (−15)?", "n": -103, "k": "-88+(-15)", "e": "One term went down by 1 and the other up by 1, so the total is unchanged." },
+      { "t": "Compare: (76 − 53) × 88 ___ 88 × (53 − 76)", "o": [">", "<", "="], "e": "76 − 53 = 23 (positive) and 53 − 76 = −23 (negative). 23 lots of 88 beat −23 lots." },
+      { "t": "Compare: 36 × (28 − 16) ___ 35 × (27 − 15)", "o": [">", "<", "="], "e": "Both brackets equal 12 (each number dropped by 1). Then 36 × 12 > 35 × 12." },
+      { "t": "Jasoda subtracts 9 by doing −10 then +1. Why does this always work?", "o": ["−9 = −(10 − 1) = −10 + 1", "Because 9 is odd", "It only works for numbers above 10", "Because 10 − 9 = 1 is a coincidence"], "e": "Subtracting 9 = subtracting (10 − 1). Removing the bracket flips the signs: −10 + 1." },
+      { "t": "Which expression equals 93 + 37 × 44 + 76?", "o": ["37 × 44 + 93 + 76", "37 + 93 × 44 + 76", "(93 + 37) × (44 + 76)", "93 + 37 × 76 + 44"], "e": "Its terms are 93, 37 × 44 and 76. Only the first option has exactly the same terms (just reordered)." },
+      { "t": "Add brackets so −22 − 12 + 10 + 22 equals −22.", "o": ["−22 − (12 + 10) + 22", "(−22 − 12) + 10 + 22", "−22 − 12 + (10 + 22)", "−(22 − 12) + 10 + 22"], "e": "−22 − (12 + 10) + 22 = −22 − 22 + 22 = −22." },
+      { "t": "Manasa's 11,749 total missed the number 9,055. Correct total?", "n": 20804, "k": "11749+9055", "e": "Grouping doesn't change a sum, so just add the missing number to her total: 20,804. No need to start again." },
+      { "t": "Lhamo, Norbu and Sangmu each have a ₹43 cutlet and a ₹24 rasgulla. Total bill (₹)?", "n": 201, "k": "3*(43+24)", "e": "3 × (43 + 24) = 3 × 67 = ₹201." },
+      { "t": "Compute 49 × 50 smartly.", "n": 2450, "k": "49*50", "e": "(50 − 1) × 50 = 2500 − 50 = 2,450." }
+    ]}
+  ]
+}

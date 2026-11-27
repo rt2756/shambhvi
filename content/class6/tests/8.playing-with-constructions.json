@@ -1,0 +1,53 @@
+{
+"title": "8. Playing with Constructions",
+"tests": [
+{"q": [
+{"t": "All the points that are 4 cm from a point P form a …", "o": ["circle", "square", "straight line", "triangle"], "e": "A circle is every point at one fixed distance (the radius) from the centre."},
+{"t": "The fixed distance from the centre to the circle is called the …", "o": ["radius", "diameter", "perimeter", "diagonal"], "e": "The radius is the distance from the centre to any point on the circle."},
+{"t": "Which tool draws a circle?", "o": ["Compass", "Ruler", "Protractor", "Eraser"], "e": "The compass point stays at the centre while the pencil keeps a fixed distance."},
+{"t": "In a rectangle, how many angles are 90°?", "n": 4, "e": "Property R2: all four angles of a rectangle are right angles."},
+{"t": "In a rectangle, which sides are equal?", "o": ["Opposite sides", "All four sides", "Adjacent sides", "No sides"], "e": "Property R1: opposite sides are equal."},
+{"t": "A square has …", "o": ["all sides equal and all angles 90°", "only opposite sides equal", "all angles 60°", "two sides equal"], "e": "Properties S1 and S2."},
+{"t": "A square is turned so it stands on a corner. Is it still a square?", "o": ["Yes — turning doesn't change sides or angles", "No — it's a diamond now", "Only if it's small", "No — its angles change"], "e": "Rotation keeps every length and angle the same."},
+{"t": "A line joining opposite corners of a rectangle is called a …", "o": ["diagonal", "radius", "side", "perpendicular"], "e": "Diagonals join opposite corners, like AC and BD in ABCD."},
+{"t": "A half circle has radius 2 cm. How long a stretch of line does it cover (end to end)?", "n": 4, "u": "cm", "k": "2*2", "e": "The ends are a diameter apart: 2 × radius = 4 cm."},
+{"t": "Which tool is best for copying an exact length to a new place?", "o": ["Compass", "Protractor", "Pencil alone", "Eraser"], "e": "Set the compass to the length once and it carries it anywhere without re-measuring."}
+]},
+{"q": [
+{"t": "Which is NOT a valid name for square PQRS (corners in order P, Q, R, S)?", "o": ["PQSR", "QRSP", "RSPQ", "SPQR"], "e": "Names must walk round the corners in order. P → Q → S jumps across the square."},
+{"t": "A wavy line AB is 8 cm long with two equal half-circle waves. What radius does each wave have?", "n": 2, "u": "cm", "k": "8//2//2", "e": "Each wave covers half the line, 4 cm. That's a diameter, so radius = 2 cm."},
+{"t": "Can a four-sided figure have all angles 90° but opposite sides unequal?", "o": ["No — four right angles force opposite sides to be equal", "Yes, always", "Yes, if it is large", "Only on dot paper"], "e": "With right angles at both ends, the top side is pushed to match the bottom, and the sides to match each other."},
+{"t": "In a rectangle, the two diagonals are …", "o": ["equal in length", "always perpendicular", "equal to the sides", "unequal"], "e": "Both diagonals of a rectangle have the same length."},
+{"t": "A diagonal splits a rectangle's corner into two parts. They always add up to …", "n": 90, "u": "°", "e": "Together they make the whole corner, which is a right angle."},
+{"t": "A diagonal splits a corner into 40° and one other angle. What is the other?", "n": 50, "u": "°", "k": "90-40", "e": "The two parts make the 90° corner: 90 − 40 = 50°."},
+{"t": "A diagonal splits the corners into 45° and 45°. The rectangle must be a …", "o": ["square", "long thin rectangle", "rhombus that isn't a square", "triangle"], "e": "The diagonal splits the corner equally only when the two sides at that corner are equal."},
+{"t": "A rectangle must split into 2 identical squares. If the breadth is 4 cm, the length is …", "n": 8, "u": "cm", "k": "2*4", "e": "Two squares of side 4 cm side by side: length = 2 × 4 = 8 cm."},
+{"t": "Where should the centre of a circular hole be placed to sit exactly in the middle of a square?", "o": ["Where the two diagonals cross", "At a corner", "At the middle of one side", "Anywhere inside"], "e": "The crossing point of the diagonals is equally far from all four corners and all four sides."},
+{"t": "A four-sided figure has all sides equal but no right angles. It is a …", "o": ["rhombus", "square", "rectangle", "circle"], "e": "Equal sides alone don't make a square — it also needs 90° angles."}
+]},
+{"q": [
+{"t": "Rectangle ABCD has AB = 7 cm, BC = 4 cm. X is on AD and Y on BC, both 1 cm from A and B. What is XY?", "n": 7, "u": "cm", "e": "Same distance down both sides makes ABYX a rectangle, so XY = AB = 7 cm."},
+{"t": "In that rectangle, when is XY the LONGEST?", "o": ["When X and Y are at opposite corners — XY is a diagonal", "When both are at the top", "When both are 2 cm down", "XY never changes"], "e": "Corner to opposite corner (X at A, Y at C, or X at D, Y at B) gives the diagonal, the longest distance."},
+{"t": "In that rectangle, what is the SHORTEST XY can be?", "n": 7, "u": "cm", "e": "AD and BC are 7 cm apart. Straight across (7 cm) is shortest; any slant is longer."},
+{"t": "A rectangle splits into 3 identical squares and its breadth is 2 cm. What is its length?", "n": 6, "u": "cm", "k": "3*2", "e": "Three squares of side 2 cm in a row: 3 × 2 = 6 cm."},
+{"t": "Which rectangle can NOT be split into two identical squares?", "o": ["4 cm × 2.5 cm", "8 cm × 4 cm", "6 cm × 3 cm", "10 cm × 5 cm"], "e": "The length must be exactly twice the breadth. 2 × 2.5 = 5, not 4."},
+{"t": "House: point A must be 5 cm from both B and C. How do you find it with a compass?", "o": ["Draw 5 cm arcs from B and from C; A is where they cross", "Measure 5 cm straight up from the middle of BC", "Draw one circle round A", "Guess and check with a ruler"], "e": "Points 5 cm from B lie on one circle, points 5 cm from C on another; A is on both."},
+{"t": "Constructing a rectangle with side 4 cm and diagonal 8 cm: what radius do you set for the arc from A?", "n": 8, "u": "cm", "e": "The arc from A must hit the perpendicular at B exactly 8 cm from A — the diagonal's length."},
+{"t": "In a rectangle with side 4 cm, could a diagonal be 3 cm long?", "o": ["No — a diagonal is always longer than a side", "Yes", "Only in a square", "Only if the other side is 1 cm"], "e": "The diagonal slants across the corner, so it's longer than either side it joins."},
+{"t": "Why keep the compass at one fixed opening when constructing a square?", "o": ["All sides must be equal, and one opening guarantees it", "Compasses can't change", "To draw circles", "To make the angles 90°"], "e": "Re-measuring each side invites small errors; one fixed setting gives exactly equal sides."},
+{"t": "Which shows equal sides on a rough sketch?", "o": ["A small tick '|' on each equal side", "Colouring them red", "Writing 'equal' on them", "Drawing them dotted"], "e": "The book's convention: matching tick marks mean equal lengths."}
+]},
+{"q": [
+{"t": "The roof point A is 5 cm from B and C. Then an arc of radius 5 cm centred at A will …", "o": ["pass through both B and C", "pass through neither", "pass through B only", "be a straight line"], "e": "B and C are both exactly 5 cm from A, so they lie on the circle of radius 5 cm around A."},
+{"t": "A tilted square on dot paper has every side going '2 across, 1 up' (turned each time). What does that tell you?", "o": ["All four sides are equal", "It is not a square", "Its angles are 45°", "Its sides are 3 units"], "e": "The same step for every side means the same length every time."},
+{"t": "A rectangle's diagonal makes 50° with the longer side at a corner. What angle does it make with the shorter side?", "n": 40, "u": "°", "k": "90-50", "e": "The two parts add to the 90° corner."},
+{"t": "In a long thin rectangle, which part of the corner made by the diagonal is SMALLER?", "o": ["The part next to the long side", "The part next to the short side", "They are equal", "It depends on the colour"], "e": "The diagonal leans towards the long side, so it makes a smaller angle with it."},
+{"t": "How many different valid names (starting point and direction) does a rectangle ABCD have?", "n": 8, "k": "4*2", "e": "Start at any of 4 corners and go either of 2 ways: 4 × 2 = 8 (ABCD, BCDA, CDAB, DABC and the reverses)."},
+{"t": "To construct a rhombus with sides 5 cm, after drawing two sides from a corner, how do you find the fourth corner?", "o": ["Arcs of 5 cm from the two free ends; it's where they cross", "Measure 5 cm straight across", "Draw a right angle", "It can't be done"], "e": "The fourth corner must be 5 cm from both free ends — the same two-arc trick as the house."},
+{"t": "A rectangle 8 cm long splits into how many identical squares if its breadth is 2 cm?", "n": 4, "k": "8//2", "e": "8 ÷ 2 = 4 squares of side 2 cm in a row."},
+{"t": "Why does the diagonal split a square's corner into 45° and 45°?", "o": ["The two sides at the corner are equal, so the diagonal sits exactly between them", "Because 45 is half of 90 in any rectangle", "Because squares are tilted", "Because diagonals are always 45°"], "e": "Equal adjacent sides make the diagonal lean equally towards both, so the 90° corner is halved."},
+{"t": "X on AD is 2 cm from A and Y on BC is 2 cm from B in a 7 cm × 4 cm rectangle ABCD. What shape is ABYX?", "o": ["A rectangle", "A triangle", "A circle", "A rhombus that isn't a rectangle"], "e": "XY is parallel to AB and 7 cm long, with right angles at A and B — a rectangle."},
+{"t": "Which details fix a rectangle exactly (as constructed in the book)?", "o": ["One side and the diagonal", "Only one side", "Only the diagonal", "Only one angle"], "e": "Side + right angle + a diagonal arc pins down the far corner. One side or the diagonal alone allows many rectangles."}
+]}
+]
+}
