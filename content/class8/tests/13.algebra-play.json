@@ -1,0 +1,50 @@
+{"title": "13. Algebra Play", "tests": [
+{"q": [
+{"t": "Think of x, double it, add 4, halve it, subtract x. The result is:", "n": 2, "e": "2x + 4 → x + 2 → x + 2 − x = 2. The unknown cancels."},
+{"t": "In that trick, what should you add at step 3 to make the answer always 5?", "n": 10, "e": "The final answer is half of what you add: 2x + 10 → x + 5 → 5."},
+{"t": "A number pyramid's bottom row is 4, 13, 8 (each block = sum of the two below). Top?", "n": 38, "k": "4+2*13+8", "e": "Top of 3 rows = a + 2b + c: the middle number reaches the top by two paths."},
+{"t": "In a calendar 2 × 2 block with top-left number a, the number directly below a is:", "o": ["a + 7", "a + 1", "a + 8", "a + 14"], "e": "A week has 7 days, so one row down adds 7."},
+{"t": "A 2 × 2 calendar block adds to 36. What is its top-left date?", "n": 5, "k": "F(36-16,4)", "e": "a + (a+1) + (a+7) + (a+8) = 4a + 16 = 36."},
+{"t": "Take 47, reverse it (74) and subtract. The difference is always divisible by:", "n": 9, "e": "(10b + a) − (10a + b) = 9(b − a)."},
+{"t": "Add 31 and its reverse 13. The sum is always divisible by:", "n": 11, "e": "(10a + b) + (10b + a) = 11(a + b)."},
+{"t": "Using 2, 3, 5 once each in □□ × □, the largest product is:", "n": 160, "k": "32*5", "e": "Largest digit as the multiplier, the others in decreasing order: 32 × 5."},
+{"t": "55 heads and 150 legs of horses and hens. How many horses?", "n": 20, "k": "F(150-110,2)", "e": "All hens would give 110 legs; each horse adds 2 more: 40 ÷ 2."},
+{"t": "Naina has twice Gauri's cows; if Naina gave 3 to Gauri they'd be equal. How many does Gauri have?", "n": 6, "e": "2g − 3 = g + 3 gives g = 6 (Naina 12)."}
+]},
+{"q": [
+{"t": "Bottom row 7, 18, 19, 6 of a 4-row pyramid. Top?", "n": 124, "k": "7+3*18+3*19+6", "e": "Top of 4 rows = a + 3b + 3c + d."},
+{"t": "Bottom row 10, 14, 25 of a 3-row pyramid. Top?", "n": 63, "k": "10+2*14+25", "e": "10 + 28 + 25."},
+{"t": "A mother is 5 times her daughter's age; in 6 years she'll be 3 times. Daughter's age now?", "n": 6, "e": "5d + 6 = 3(d + 6) → 2d = 12."},
+{"t": "Using 1, 3, 7 once each in □□ × □, the largest product is:", "n": 217, "k": "31*7", "e": "31 × 7 = 217 beats 71 × 3 = 213."},
+{"t": "Using 3, 5, 9 once each in □□ × □, the largest product is:", "n": 477, "k": "53*9", "e": "53 × 9 = 477 beats 93 × 5 = 465."},
+{"t": "In 74 − 47 = 27, the quotient 27 ÷ 9 = 3 equals:", "o": ["The difference of the digits, 7 − 4", "The sum of the digits", "The product of the digits", "Always 3"], "e": "The difference is 9(b − a), so the quotient is b − a."},
+{"t": "Cycling a 3-digit number abc into bca and cab and adding gives 111(a + b + c). This is always divisible by:", "o": ["37 and 3", "37 only", "11", "7"], "e": "111 = 3 × 37."},
+{"t": "abcabc = abc × ?", "n": 1001, "e": "abc × 1000 + abc."},
+{"t": "1001 equals:", "o": ["7 × 11 × 13", "7 × 11 × 17", "11 × 91 × 1", "3 × 7 × 47"], "e": "So abcabc is divisible by 7, 11 and 13."},
+{"t": "The date trick ends with 100M + 165 + D. The answer is 1390. What is the date?", "o": ["25 December", "12 December", "25 January", "13 September"], "e": "1390 − 165 = 1225: M = 12, D = 25."}
+]},
+{"q": [
+{"t": "Dosa cart: rent ₹5000/day, ₹10 per dosa to make, 100 dosas sold. Price for ₹2000 profit (in ₹)?", "n": 80, "u": "₹", "k": "F(2000+5000+1000,100)", "e": "100p − 1000 − 5000 = 2000."},
+{"t": "If customers pay only ₹50 a dosa, how many must be sold for ₹2000 profit?", "n": 175, "k": "F(7000,40)", "e": "Each dosa earns ₹40 over its cost: 40n = 5000 + 2000."},
+{"t": "Karim's coins double each round and he pays 8 per round; after 3 rounds he has nothing. How many did he start with?", "n": 7, "e": "8x − 56 = 0 after three rounds of 'double, pay 8'. Check: 7 → 6 → 4 → 0."},
+{"t": "Flowers double in each of 3 ponds; the same number is left at each of 3 shrines, ending with none. Smallest starting number?", "n": 7, "e": "8x − 7f = 0 → x = 7, f = 8. Check: 14 − 8 = 6, 12 − 8 = 4, 8 − 8 = 0."},
+{"t": "(1 + 3) ÷ (5 + 7), (1 + 3 + 5) ÷ (7 + 9 + 11), … always equal:", "o": ["1/3", "1/2", "1/4", "They keep changing"], "e": "The first n odd numbers add to n²; the next n add to 4n² − n² = 3n²."},
+{"t": "Bottom row 1, 2, 3 (Virahāṅka–Fibonacci). The top of the 3-row pyramid is:", "n": 8, "e": "Rows: 1 2 3 → 3 5 → 8 — each row is part of the same sequence."},
+{"t": "A 2 × 2 calendar block adds to 40. Its top-left date is:", "n": 6, "k": "F(40-16,4)", "e": "4a + 16 = 40 → 6, 7, 13, 14."},
+{"t": "Date trick answer 394. Which date?", "o": ["29 February", "2 September", "9 March", "22 September"], "e": "394 − 165 = 229 → M = 2, D = 29."},
+{"t": "A 3 × 3 calendar block has 15 in the centre. What is the sum of its 9 dates?", "n": 135, "k": "9*15", "e": "The pairs around c (c−8 & c+8, c−7 & c+7, c−6 & c+6, c−1 & c+1) each add to 2c, so the total is 9c = 9 × 15."},
+{"t": "Bottom row 9, 7, 5, 11 of a 4-row pyramid. Top?", "n": 56, "k": "9+3*7+3*5+11", "e": "9 + 21 + 15 + 11."}
+]},
+{"q": [
+{"t": "Bottom row 8, 19, 21, 13 of a 4-row pyramid. Top?", "n": 141, "k": "8+3*19+3*21+13", "e": "8 + 57 + 63 + 13."},
+{"t": "For a 4-row pyramid the top in terms of a, b, c, d is:", "o": ["a + 3b + 3c + d", "a + 2b + 2c + d", "a + b + c + d", "3a + b + c + 3d"], "e": "Paths down from the top: 1, 3, 3, 1 (Pascal's triangle)."},
+{"t": "A 29-row pyramid has the first 29 Virahāṅka–Fibonacci numbers on the bottom. The top is the ___th number of the sequence.", "n": 57, "k": "2*29-1", "e": "With n rows the apex is the (2n − 1)th term."},
+{"t": "Doubling then paying c each round INCREASES Karim's coins only when he has:", "o": ["More than c coins", "Fewer than c coins", "Exactly c coins", "Any number"], "e": "2x − c > x exactly when x > c."},
+{"t": "If 2x + 7 = 3x − 5, find x.", "n": 12, "e": "Subtract 2x from both sides: 7 = x − 5."},
+{"t": "Two numbers add to 50 and differ by 14. The larger is:", "n": 32, "k": "F(50+14,2)", "e": "x + (x − 14) = 50 → 2x = 64."},
+{"t": "A number trick: x → 3x → 3x + 12 → ÷3 → subtract x. The answer is always:", "n": 4, "e": "(3x + 12) ÷ 3 = x + 4, minus x."},
+{"t": "Mukta's trick with 82 and 28: the difference divided by 9 gives:", "n": 6, "k": "F(82-28,9)", "e": "54 ÷ 9 = 6 = 8 − 2."},
+{"t": "Which 6-digit number is NOT necessarily divisible by 13?", "o": ["123321", "123123", "456456", "999999"], "e": "abcabc forms are abc × 1001 = abc × 7 × 11 × 13. 999999 = 999 × 1001 too; 123321 isn't of that form (123321 = 3 × 11 × 37 × 101)."},
+{"t": "Sum of 2-digit number 28 and its reverse 82, divided by 11, gives:", "n": 10, "k": "F(28+82,11)", "e": "11(a + b) ÷ 11 = a + b = 2 + 8."}
+]}
+]}

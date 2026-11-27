@@ -1,0 +1,50 @@
+{"title": "10. Proportional Reasoning — 2", "tests": [
+{"q": [
+{"t": "x and y are in inverse proportion. When x = 3, y = 8. Find y when x = 6.", "n": 4, "k": "F(3*8,6)", "e": "In inverse proportion x × y stays the same: 24 ÷ 6 = 4."},
+{"t": "For a fixed distance, speed and time taken are in:", "o": ["Inverse proportion", "Direct proportion", "No proportion", "Equal amounts"], "e": "speed × time = distance is fixed, so doubling speed halves time."},
+{"t": "If x × y is always the same number, x and y are in:", "o": ["Inverse proportion", "Direct proportion", "Neither", "Both"], "e": "A constant product is the definition of inverse proportion."},
+{"t": "20 workers lay a road in 4 days. How many days for 10 workers?", "n": 8, "u": "days", "k": "F(20*4,10)", "e": "20 × 4 = 80 worker-days. Halve the workers, double the days."},
+{"t": "A pie chart slice of 90° shows what fraction of the whole?", "o": ["1/4", "1/2", "1/3", "1/9"], "e": "90/360 = 1/4."},
+{"t": "50% of viewers prefer entertainment. What angle is that slice?", "n": 180, "u": "°", "k": "360*F(50,100)", "e": "Half of 360°."},
+{"t": "A map has RF 1 : 60,00,000. 1 cm on the map is how many km on the ground?", "n": 60, "u": "km", "k": "F(6000000,100000)", "e": "60,00,000 cm = 60,000 m = 60 km."},
+{"t": "Divide 150 minutes in the ratio 3 : 4 : 3 : 5. How long is the largest part?", "n": 50, "u": "min", "k": "150*F(5,15)", "e": "15 parts of 10 minutes; the largest has 5 parts."},
+{"t": "2 pumps fill a tank in 18 hours. How long do 4 such pumps take?", "n": 9, "u": "h", "k": "F(2*18,4)", "e": "2 × 18 = 4 × x."},
+{"t": "Which pair is in DIRECT proportion?", "o": ["Length of cloth and its price", "Number of taps and filling time", "Speed and time for a fixed route", "Painters and days to paint a wall"], "e": "Twice the cloth costs twice as much; the others go one up, one down."}
+]},
+{"q": [
+{"t": "Odiya : Hindi : English books = 3 : 2 : 1 and there are 288 Odiya books. How many Hindi books?", "n": 192, "k": "F(288,3)*2", "e": "One part is 96."},
+{"t": "100 coins: ₹10 : ₹5 : ₹2 : ₹1 = 4 : 3 : 2 : 1. Total money (in ₹)?", "n": 600, "u": "₹", "k": "40*10+30*5+20*2+10*1", "e": "40, 30, 20 and 10 coins: 400 + 150 + 40 + 10."},
+{"t": "Can a triangle have sides in the ratio 1 : 3 : 5?", "o": ["No — 1 + 3 is less than 5", "Yes", "Only if it is right-angled", "Only if it is large"], "e": "Any two sides must together be longer than the third."},
+{"t": "Grades A–E: 12, 10, 8, 6, 4 students out of 40. Angle for grade A?", "n": 108, "u": "°", "k": "360*F(12,40)", "e": "12/40 × 360 = 108."},
+{"t": "Fill in: x and y inverse, x = 16 when y = 9. Find y when x = 12.", "n": 12, "k": "F(16*9,12)", "e": "xy = 144."},
+{"t": "Which table is in inverse proportion?", "o": ["x: 30, 90, 150 and y: 15, 5, 3", "x: 40, 80, 25 and y: 20, 40, 12.5", "x: 1, 2, 3 and y: 2, 4, 6", "x: 10, 20 and y: 5, 15"], "e": "30 × 15 = 90 × 5 = 150 × 3 = 450."},
+{"t": "Water lasts 20 families 6 days. 10 more families move in. How many days now?", "n": 4, "u": "days", "k": "F(20*6,30)", "e": "120 family-days ÷ 30 families (assuming each family uses the same)."},
+{"t": "24 pencils cost ₹120. How much do 20 cost (in ₹)?", "n": 100, "u": "₹", "k": "F(120,24)*20", "e": "Direct: ₹5 each."},
+{"t": "25 rows of 12 chairs are rearranged with 20 chairs per row. How many rows?", "n": 15, "k": "F(25*12,20)", "e": "300 chairs ÷ 20."},
+{"t": "A school has 8 periods of 45 min. With 9 periods in the same time, each lasts (in min):", "n": 40, "u": "min", "k": "F(8*45,9)", "e": "360 minutes ÷ 9."}
+]},
+{"q": [
+{"t": "A small pump fills a tank in 3 h, a large one in 2 h. Together (in hours)?", "n": 1.2, "u": "h", "k": "1/(F(1,3)+F(1,2))", "e": "Add the rates: 1/3 + 1/2 = 5/6 tank per hour, so 6/5 h = 1 h 12 min."},
+{"t": "42 machines make the toys in 63 days. How many machines are needed for 54 days?", "n": 49, "k": "F(42*63,54)", "e": "42 × 63 = m × 54."},
+{"t": "A car takes 2 h at 60 km/h. How long at 80 km/h (in hours)?", "n": 1.5, "u": "h", "k": "F(120,80)", "e": "60 × 2 = 80 × t."},
+{"t": "It takes 6 hours to fill 2 tanks with a pump. How long for 5 tanks?", "n": 15, "u": "h", "k": "F(6,2)*5", "e": "More tanks need more time — this one is DIRECT."},
+{"t": "5 workers move 4500 bricks a day. How many workers move 18000 bricks a day?", "n": 20, "k": "5*F(18000,4500)", "e": "More bricks need more workers in the same time: direct."},
+{"t": "Ram cuts vegetables in 1 hour, Shyam in 1.5 hours. Together (in minutes)?", "n": 36, "u": "min", "k": "60/(1+F(2,3))", "e": "Rates 1 + 2/3 = 5/3 jobs per hour → 3/5 hour."},
+{"t": "3 workers paint a fence in 4 days. One more joins. How many days?", "n": 3, "u": "days", "k": "F(3*4,4)", "e": "12 worker-days ÷ 4 workers."},
+{"t": "In a survey, the car slice is 60° and 18 children travel by car. How many children were surveyed?", "n": 108, "k": "18*F(360,60)", "e": "60° is 1/6 of the circle, so the total is 6 × 18."},
+{"t": "Seasons poll of 360 people: 90 summer, 120 rainy, rest winter. Winter's angle?", "n": 150, "u": "°", "k": "360-90-120", "e": "With 360 people, each person is 1°."},
+{"t": "Two people working together finish a job. Compared with the faster person alone, the joint time is:", "o": ["Always less", "Always more", "The average of the two", "Equal"], "e": "Adding a helper adds work per hour, so the job ends sooner."}
+]},
+{"q": [
+{"t": "A fort has food for 1200 soldiers for 28 days. How long would it last 1400 soldiers?", "n": 24, "u": "days", "k": "F(1200*28,1400)", "e": "33,600 soldier-days ÷ 1400."},
+{"t": "A camp has food for 1200 people for 35 days. After 5 days, 300 more arrive. How many more days does the food last?", "n": 24, "u": "days", "k": "F(1200*30,1500)", "e": "Food left = 1200 × 30 person-days; now 1500 people."},
+{"t": "24 men can finish a job in 12 days. After 4 days, 8 men leave. How many more days?", "n": 12, "u": "days", "k": "F(24*8,16)", "e": "Work left = 24 × 8 = 192 man-days, done by 16 men."},
+{"t": "A wheel with 20 teeth drives one with 50 teeth. The small wheel turns 150 times. The large wheel turns:", "n": 60, "k": "F(20*150,50)", "e": "Teeth × turns is the same for both: 3000 ÷ 50."},
+{"t": "Provisions last 80 students 15 days. 20 more students join. How many days now?", "n": 12, "u": "days", "k": "F(80*15,100)", "e": "1200 student-days ÷ 100."},
+{"t": "x varies inversely as y. If y is multiplied by 4, x is:", "o": ["Divided by 4", "Multiplied by 4", "Unchanged", "Divided by 2"], "e": "xy stays constant."},
+{"t": "TV preferences: 15% news. Angle for news?", "n": 54, "u": "°", "k": "360*F(15,100)", "e": "1% = 3.6°, so 15% = 54°."},
+{"t": "4 equal taps fill a tank in 9 hours. After 3 hours, 2 more are opened. How many more hours?", "n": 4, "u": "h", "k": "F(4*9-4*3,6)", "e": "36 tap-hours needed; 12 done; 24 left ÷ 6 taps."},
+{"t": "A floor needs 45 m of carpet 1.2 m wide. How many metres of carpet 1.5 m wide?", "n": 36, "u": "m", "k": "45*F('1.2')/F('1.5')", "e": "Area fixed: length × width constant, so inverse."},
+{"t": "Triangles with sides in the ratio 3 : 4 : 5 are always:", "o": ["Similar and right-angled, but not necessarily congruent", "Congruent", "Equilateral", "Obtuse"], "e": "Same shape, possibly different sizes; 3² + 4² = 5² makes them right-angled."}
+]}
+]}

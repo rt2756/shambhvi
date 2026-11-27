@@ -1,0 +1,50 @@
+{"title": "5. Number Play", "tests": [
+{"q": [
+{"t": "Four consecutive numbers add up to 34. What is the smallest?", "n": 7, "k": "F(34-6,4)", "e": "n + (n+1) + (n+2) + (n+3) = 4n + 6 = 34, so n = 7: 7, 8, 9, 10."},
+{"t": "Put + or − signs between 3, 4, 5, 6 in any way. The answer is always:", "o": ["Even", "Odd", "A multiple of 3", "Positive"], "e": "Switching one sign changes the value by twice a number — an even amount — so all eight answers share the same parity, and 3 + 4 + 5 + 6 = 18 is even."},
+{"t": "Which expression is even for EVERY integer value of the letters?", "o": ["4m + 2n", "3g + 5h", "x² + 2", "b² + 1"], "e": "4m + 2n = 2(2m + n) has 2 as a factor. The others change parity with the values."},
+{"t": "Is 7281 divisible by 9?", "o": ["Yes, the digits add up to 18", "No, it ends in 1", "No, the digits add up to 18", "Yes, it ends in 1"], "e": "7 + 2 + 8 + 1 = 18, a multiple of 9. Each place value is 1 more than a multiple of 9, so only the digit sum matters."},
+{"t": "Is 524 divisible by 4?", "o": ["Yes, because 24 is divisible by 4", "No, because 5 + 2 + 4 = 11", "No, because 5 is odd", "Yes, because it ends in 4"], "e": "100 is a multiple of 4, so only the last two digits matter. 24 ÷ 4 = 6."},
+{"t": "Numbers that leave remainder 3 when divided by 5 can be written as:", "o": ["5k + 3", "3k + 5", "3k", "5k − 3"], "e": "They are 3 more than a multiple of 5: 3, 8, 13, 18, …"},
+{"t": "What is the digital root of 489710?", "n": 2, "k": "1+(489710-1)%9", "e": "4+8+9+7+1+0 = 29 → 2+9 = 11 → 1+1 = 2."},
+{"t": "A number is divisible by 8 and by 3. Must it be divisible by 24?", "o": ["Yes — 8 and 3 share no factor", "No, never", "Only if it is even", "Only if it ends in 0"], "e": "LCM(8, 3) = 24 because they are coprime."},
+{"t": "In PQ × 8 = RS (2-digit numbers, different letters = different digits), what is PQ?", "n": 12, "e": "PQ ≥ 13 gives a 3-digit product. 10 × 8 = 80 repeats 0 and 11 repeats 1. 12 × 8 = 96 ✓."},
+{"t": "If p is the greatest of five consecutive numbers, the smallest is:", "o": ["p − 4", "p − 5", "p + 4", "p − 3"], "e": "Going down from p: p − 1, p − 2, p − 3, p − 4."}
+]},
+{"q": [
+{"t": "Find the remainder when 7309 is divided by 9.", "n": 1, "k": "7309%9", "e": "7 + 3 + 0 + 9 = 19 → 1 + 9 = 10 → 1. The digit sum keeps the same remainder as the number."},
+{"t": "What is the remainder when 158 is divided by 11?", "n": 4, "k": "158%11", "e": "Alternating sum from the units digit: 8 − 5 + 1 = 4."},
+{"t": "Is 90904 divisible by 11?", "o": ["Yes — the alternating sum is 22", "No — the digit sum is 22", "No — it is even", "Yes — it ends in 4"], "k": "90904%11+22", "e": "4 − 0 + 9 − 0 + 9 = 22, a multiple of 11. Place values are alternately 1 more and 1 less than multiples of 11."},
+{"t": "A number is divisible by 6 and by 4. Must it be divisible by 24?", "o": ["No — 12 is a counterexample", "Yes, always", "Yes, if it is even", "Never"], "e": "LCM(6, 4) = 12, not 24, because 6 and 4 share a factor 2."},
+{"t": "If a number is divisible by 9 and by 4, it is divisible by:", "n": 36, "e": "9 and 4 share no common factor, so LCM = 36."},
+{"t": "'The sum of a multiple of 6 and a multiple of 9 is a multiple of 3.' This is:", "o": ["Always true", "Sometimes true", "Never true", "True only for even numbers"], "e": "6a + 9b = 3(2a + 3b)."},
+{"t": "'An odd number plus an even number is a multiple of 6.' This is:", "o": ["Never true", "Always true", "Sometimes true", "True for small numbers"], "e": "odd + even is odd, but every multiple of 6 is even."},
+{"t": "661 leaves remainder 3 on ÷7 and 4779 leaves remainder 5. What remainder does 4779 + 661 leave?", "n": 1, "k": "(4779+661)%7", "e": "(7p + 5) + (7q + 3) = 7(p + q + 1) + 1."},
+{"t": "31z5 is a multiple of 9. Which values can z take?", "o": ["0 or 9", "Only 0", "Only 9", "0, 3, 6 or 9"], "e": "Digit sum 9 + z must be a multiple of 9: z = 0 gives 9, z = 9 gives 18."},
+{"t": "What is the smallest multiple of 9 whose digits are all even?", "n": 288, "k": "min(n for n in range(9,1000,9) if all(int(d)%2==0 for d in str(n)))", "e": "Even digits give an even digit sum, so it must be 18. Two even digits reach at most 16, so we need three: 2, 8, 8 → 288."}
+]},
+{"q": [
+{"t": "Which multiple of 9 is closest to 6000?", "n": 6003, "e": "6000 has digit sum 6, so it is 6 above 5994 and 3 below 6003."},
+{"t": "How many multiples of 9 lie between 4300 and 4400?", "n": 11, "k": "len([n for n in range(4300,4401) if n%9==0])", "e": "From 4302 (9 × 478) to 4392 (9 × 488): 488 − 478 + 1 = 11."},
+{"t": "What is the digital root of 9a + 36b + 13 (a, b whole numbers)?", "n": 4, "e": "9a + 36b + 13 = 9(a + 4b + 1) + 4; multiples of 9 don't change the digital root."},
+{"t": "Pebbles: groups of 2, 3 or 5 leave 1 over; groups of 7 leave none; there are at most 100. How many?", "n": 91, "k": "[n for n in range(1,101) if n%2==1 and n%3==1 and n%5==1 and n%7==0][0]", "e": "n − 1 is a multiple of LCM(2,3,5) = 30: 31, 61, 91. Only 91 = 7 × 13."},
+{"t": "Find the smallest number leaving remainder 2 on ÷3, 3 on ÷4 and 4 on ÷5.", "n": 59, "k": "min(n for n in range(1,200) if n%3==2 and n%4==3 and n%5==4)", "e": "Each remainder is one less than the divisor, so n + 1 is a common multiple of 3, 4, 5. Smallest: 60 − 1."},
+{"t": "Three numbers each leave remainder 2 when divided by 6. Their sum is:", "o": ["Always a multiple of 6", "Never a multiple of 6", "Sometimes a multiple of 6", "Always odd"], "e": "(6a+2) + (6b+2) + (6c+2) = 6(a + b + c + 1)."},
+{"t": "UT × 3 = PUT. What is UT?", "n": 50, "e": "PUT − UT = P00, so 2 × UT = P00, giving UT = 50 and P = 1: 50 × 3 = 150."},
+{"t": "JK × 6 = KKK. What is JK?", "n": 74, "k": "[n for n in range(10,100) if n*6==111*(n%10)][0]", "e": "KKK = 111 × K, so JK = 111K ÷ 6. K = 4 gives 74 (which ends in 4 ✓): 74 × 6 = 444."},
+{"t": "Find the remainder when 481 is divided by 11.", "n": 8, "k": "481%11", "e": "1 − 8 + 4 = −3, so 481 is 3 short of a multiple of 11, i.e. remainder 11 − 3 = 8."},
+{"t": "If a number is divisible by 7, it is divisible by every multiple of 7. This is:", "o": ["Sometimes true", "Always true", "Never true", "True only for 7 itself"], "e": "42 is divisible by 14 but not by 28."}
+]},
+{"q": [
+{"t": "48a23b is a multiple of 18. How many pairs (a, b) are possible?", "n": 5, "k": "len([(a,b) for a in range(10) for b in range(10) if int('48%d23%d'%(a,b))%18==0])", "e": "b even (for 2) and 17 + a + b a multiple of 9 (so a + b = 1 or 10): (1,0), (2,8), (4,6), (6,4), (8,2)."},
+{"t": "3p7q8 is divisible by 44. What is p + q?", "n": 7, "e": "For 11: 8 − q + 7 − p + 3 = 18 − (p + q) must be a multiple of 11, so p + q = 7 (18 is too big with q even). E.g. 37708 = 44 × 857."},
+{"t": "8(7b − 3) − 4(11b + 1) is a multiple of 12:", "o": ["Never", "Always", "Sometimes", "Only when b is even"], "e": "It simplifies to 12b − 28 = 12(b − 3) + 8, which always leaves remainder 8."},
+{"t": "The product of any 4 consecutive integers is always a multiple of:", "n": 24, "e": "Among 4 in a row there is a multiple of 4, another even number, and a multiple of 3: 4 × 2 × 3 = 24."},
+{"t": "WOW × 5 = MEOW. What is WOW?", "n": 575, "e": "5 × W ends in W, so W = 5. Trying O = 0…9, only 575 × 5 = 2875 puts O (7) back in the tens place with all letters different."},
+{"t": "Snehal adds a number that leaves 8 on ÷12 to one that is 4 short of a multiple of 12. The sum is a multiple of 8:", "o": ["Only sometimes", "Always", "Never", "Only if both are even"], "e": "(12n + 8) + (12m − 4) = 12(n + m) + 4: 8 + 8 = 16 works, 20 + 8 = 28 doesn't."},
+{"t": "Three consecutive numbers: the first a multiple of 2, the second of 3, the third of 4. After 2, 3, 4, the next such triple starts at:", "n": 14, "e": "The pattern repeats every LCM(2,3,4) = 12: 14, 15, 16."},
+{"t": "If abcdef is a multiple of 6, then badcef is:", "o": ["Always a multiple of 6", "Never a multiple of 6", "Sometimes a multiple of 6", "Always odd"], "e": "Swapping digits keeps the digit sum (test for 3) and the units digit f (test for 2)."},
+{"t": "Every six-digit number of the form abcabc (such as 437437) is divisible by:", "o": ["7, 11 and 13", "9 only", "37 only", "101"], "k": "437437%1001+7", "e": "abcabc = abc × 1001, and 1001 = 7 × 11 × 13."},
+{"t": "When is the sum of three numbers divisible by 3?", "o": ["When their remainders on ÷3 are all equal or all different", "Only when all three are multiples of 3", "When two of them are equal", "Whenever one of them is a multiple of 3"], "e": "Remainders 0+0+0, 1+1+1, 2+2+2 and 0+1+2 all total a multiple of 3; other mixes don't."}
+]}
+]}

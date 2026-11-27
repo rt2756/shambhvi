@@ -1,0 +1,50 @@
+{"title": "11. Exploring Some Geometric Themes", "tests": [
+{"q": [
+{"t": "A fractal is a shape that:", "o": ["Contains smaller copies of itself again and again", "Has exactly 4 sides", "Is always a circle", "Has no area"], "e": "Self-similarity at smaller and smaller scales: ferns, trees, coastlines."},
+{"t": "In the Sierpinski Carpet, a square is cut into how many equal squares at each step?", "n": 9, "e": "A 3 × 3 grid; the middle one is removed, leaving 8."},
+{"t": "How many squares remain at step 1 of the Sierpinski Carpet?", "n": 8, "e": "9 minus the removed middle square."},
+{"t": "In the Sierpinski Gasket, joining the midpoints of a triangle makes how many small triangles?", "n": 4, "e": "Three corner triangles and one middle triangle, all equilateral and identical."},
+{"t": "How many faces does a cube have?", "n": 6, "e": "Top, bottom, front, back, left, right."},
+{"t": "How many edges does a cube have?", "n": 12, "e": "4 on top, 4 on the bottom, 4 upright."},
+{"t": "How many different nets does a cube have?", "n": 11, "e": "Counting rotations and flips as the same net."},
+{"t": "Which solid has NO net?", "o": ["Sphere", "Cube", "Cylinder", "Cone"], "e": "A curved ball can't be flattened without gaps or overlaps."},
+{"t": "The net of a cylinder is two circles and a:", "o": ["Rectangle", "Triangle", "Sector", "Square only"], "e": "The curved side unrolls into a rectangle whose width is the circumference 2πr."},
+{"t": "The Kandariya Mahadev Temple shows fractal-like design. Where is it?", "o": ["Khajuraho", "Madurai", "Hampi", "Varanasi"], "e": "Completed around 1025 CE in Khajuraho, Madhya Pradesh."}
+]},
+{"q": [
+{"t": "How many squares remain at step 2 of the Sierpinski Carpet?", "n": 64, "k": "8**2", "e": "Each of the 8 squares becomes 8: Rₙ = 8ⁿ."},
+{"t": "How many holes are there at step 2 of the Sierpinski Carpet?", "n": 9, "k": "1+8", "e": "The 1 old hole stays and each of the 8 squares adds a new one."},
+{"t": "How many triangles remain at step 3 of the Sierpinski Gasket?", "n": 27, "k": "3**3", "e": "Each step triples the triangles: 3ⁿ."},
+{"t": "A Koch snowflake starts as a triangle (3 sides). How many sides at step 1?", "n": 12, "k": "3*4", "e": "Each side becomes 4 shorter sides."},
+{"t": "How many edges does a pentagonal prism have?", "n": 15, "k": "3*5", "e": "5 on top, 5 on the bottom, 5 joining them: 3n."},
+{"t": "How many vertices does a hexagonal pyramid have?", "n": 7, "k": "6+1", "e": "6 base corners plus the apex."},
+{"t": "For a prism, pyramid or cube, F + V − E equals:", "n": 2, "e": "Euler's rule, e.g. cube 6 + 8 − 12 = 2."},
+{"t": "How many nets does a regular tetrahedron have?", "n": 2, "e": "A big triangle split into 4, or a strip of 4 triangles."},
+{"t": "The shortest path between two points on a box's surface is found by:", "o": ["Unfolding it into a net and joining them with a straight line", "Always going along the edges", "Going through the inside", "Measuring the diagonal of the box"], "e": "Unfolding keeps lengths, so the shortest surface path becomes a straight segment on some net."},
+{"t": "The projection of a segment onto a plane is:", "o": ["Never longer than the segment", "Always longer", "Always equal", "Always zero"], "e": "The segment is the hypotenuse of a right triangle whose leg is the projection."}
+]},
+{"q": [
+{"t": "Area remaining in the Sierpinski Carpet at step n (start 1):", "o": ["(8/9)ⁿ", "(1/9)ⁿ", "8ⁿ", "(9/8)ⁿ"], "e": "Each step keeps 8 of the 9 equal parts of every square."},
+{"t": "Area remaining in the Sierpinski Gasket at step 2 (start 1):", "o": ["9/16", "3/4", "1/16", "3/16"], "k": "F(3,4)**2", "e": "Each step keeps 3 of 4 parts: (3/4)²."},
+{"t": "Perimeter of the Koch snowflake at step 1 (starting side 1):", "n": 4, "k": "3*F(4,3)", "e": "12 sides of length 1/3."},
+{"t": "As the step number grows, the Koch snowflake's perimeter:", "o": ["Grows without limit", "Shrinks to 0", "Stays 3", "Becomes 4 and stops"], "e": "It is multiplied by 4/3 at every step."},
+{"t": "How many holes at step 3 of the Sierpinski Gasket?", "n": 13, "k": "1+3+9", "e": "Hₙ₊₁ = Hₙ + Tₙ: 0 → 1 → 4 → 13."},
+{"t": "A segment's projection has the same length as the segment exactly when it is:", "o": ["Parallel to the plane", "Perpendicular to the plane", "At 45° to the plane", "Never"], "e": "Then the right triangle is flat — the projection IS the segment."},
+{"t": "A parallelogram's shadow in sunlight (on a plane perpendicular to the rays) is always a:", "o": ["Parallelogram (or a line)", "Rectangle", "Square", "Triangle"], "e": "Parallel lines project to parallel lines."},
+{"t": "In an isometric drawing of a cube, its edges are drawn:", "o": ["All the same length", "Shorter at the back", "In perspective", "Only the front ones"], "e": "'Isometric' means equal measure."},
+{"t": "Which can NOT be a cube net?", "o": ["Five squares in a row with one square attached", "A cross shape (row of 4 with one above and one below)", "Two rows of 3, shifted by one", "A 2-2-2 staircase"], "e": "Five in a row would wrap round and overlap."},
+{"t": "A cone's net is a circle and a:", "o": ["Sector of a bigger circle", "Rectangle", "Triangle", "Square"], "e": "Every point on the base rim is the same slant distance from the apex, so the side unrolls onto a circle around the apex."}
+]},
+{"q": [
+{"t": "An ant's route unfolds into a right triangle with legs 24 cm and 32 cm. How long is it (in cm)?", "n": 40, "u": "cm", "k": "(24**2+32**2)**F(1,2)", "e": "576 + 1024 = 1600 = 40²."},
+{"t": "How many sides does the Koch snowflake have at step 3?", "n": 192, "k": "3*4**3", "e": "3 × 4ⁿ."},
+{"t": "How many squares remain at step 3 of the Sierpinski Carpet?", "n": 512, "k": "8**3", "e": "8 × 8 × 8."},
+{"t": "How many edges does a 10-sided prism have?", "n": 30, "k": "3*10", "e": "3n: 10 + 10 + 10."},
+{"t": "How many faces does a 10-sided pyramid have?", "n": 11, "e": "10 triangular faces plus the base."},
+{"t": "Besides the 5 flat shapes, how many more ways are there to glue 4 cubes face to face?", "n": 3, "e": "The 3D 'tripod' and two twisted shapes that are mirror images."},
+{"t": "Why can the 'impossible triangle' be drawn but not built?", "o": ["The isometric drawing hides depth, so far-apart edges appear joined", "It has too many cubes", "The grid is wrong", "It is a fractal"], "e": "Every corner is buildable; only the whole loop contradicts itself."},
+{"t": "A torch close to an object makes a shadow bigger than the projection. As the torch moves very far away, the shadow:", "o": ["Becomes the projection", "Disappears", "Grows without limit", "Turns upside down"], "e": "Far-away light rays are nearly parallel — like sunlight."},
+{"t": "The top view of a cone standing on its base is:", "o": ["A circle (with the apex at its centre)", "A triangle", "A rectangle", "A sector"], "e": "Looking down you see the round base and the apex over its centre."},
+{"t": "The Sierpinski Carpet's area at step n is (8/9)ⁿ. As n grows very large, the area:", "o": ["Gets closer and closer to 0", "Stays 1", "Becomes 8/9 and stops", "Grows"], "e": "Multiplying by 8/9 again and again shrinks it towards 0."}
+]}
+]}

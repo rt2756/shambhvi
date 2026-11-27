@@ -1,0 +1,53 @@
+{
+  "title": "5. I'm Up and Down, and Round and Round",
+  "tests": [
+    { "q": [
+      { "t": "A circle is the set of all points in a plane that are:", "o": ["At a fixed distance from a fixed point", "Inside a fixed square", "On a straight line", "At different distances from a point"], "e": "That is the definition: the fixed point is the centre, the fixed distance the radius." },
+      { "t": "A chord that passes through the centre is called a:", "o": ["Diameter", "Radius", "Arc", "Tangent"], "e": "A diameter is the chord through the centre; it is twice the radius." },
+      { "t": "How many lines of reflection symmetry does a circle have?", "o": ["Infinitely many", "1", "2", "4"], "e": "Every diameter is a mirror line, and there are infinitely many diameters." },
+      { "t": "What is the longest chord of a circle of radius 5 units (in units)?", "n": 10, "k": "2*5", "e": "The longest chord is a diameter: 2 × 5 = 10." },
+      { "t": "How many circles can pass through two given points?", "o": ["Infinitely many", "Exactly one", "Exactly two", "None"], "e": "Any point on the perpendicular bisector of the two points can be a centre." },
+      { "t": "How many circles pass through three non-collinear points?", "o": ["Exactly one", "None", "Two", "Infinitely many"], "e": "The centre must be on two perpendicular bisectors, which meet at exactly one point." },
+      { "t": "An arc subtends 70° at the centre. What angle does it subtend at a point on the rest of the circle (in degrees)?", "n": 35, "k": "70/2", "e": "The angle at the centre is twice the angle at the circle." },
+      { "t": "What is the angle in a semicircle (in degrees)?", "n": 90, "e": "A diameter's central angle is 180°; the angle at the circle is half of that." },
+      { "t": "In a cyclic quadrilateral ABCD, ∠A = 75°. Find ∠C (in degrees).", "n": 105, "k": "180 - 75", "e": "Opposite angles of a cyclic quadrilateral add to 180°." },
+      { "t": "The line from the centre of a circle to the midpoint of a chord is:", "o": ["Perpendicular to the chord", "Parallel to the chord", "Equal to the chord", "Half the chord"], "e": "Triangles CMA and CMB are congruent (SSS), so the angles at M are equal and add to 180°: 90° each." }
+    ] },
+    { "q": [
+      { "t": "A chord is 5 cm from the centre of a circle of radius 13 cm. Find its length (in cm).", "n": 24, "k": "2*math.sqrt(169 - 25)", "e": "Half-chord = √(13² − 5²) = 12, so the chord is 24." },
+      { "t": "A circle has diameter 26 cm and a chord of 24 cm. How far is the chord from the centre (in cm)?", "n": 5, "k": "math.sqrt(13**2 - 12**2)", "e": "r = 13, half-chord 12; d = √(169 − 144) = 5." },
+      { "t": "A chord of 16 cm is 6 cm from the centre. Find the radius (in cm).", "n": 10, "k": "math.sqrt(8**2 + 6**2)", "e": "r² = 8² + 6² = 100." },
+      { "t": "A circle of radius 15 cm has a chord 9 cm from the centre. Find the chord (in cm).", "n": 24, "k": "2*math.sqrt(225 - 81)", "e": "2√(225 − 81) = 2 × 12 = 24." },
+      { "t": "Where is the circumcentre of a right-angled triangle?", "o": ["At the midpoint of the hypotenuse", "Inside the triangle", "Outside the triangle", "At the right-angle vertex"], "e": "The right angle is an angle in a semicircle, so the hypotenuse is a diameter; its midpoint is the centre." },
+      { "t": "Where is the circumcentre of an obtuse-angled triangle?", "o": ["Outside the triangle", "Inside the triangle", "On the longest side", "At a vertex"], "e": "For obtuse triangles the perpendicular bisectors meet beyond the longest side." },
+      { "t": "Of two unequal chords of a circle, which is nearer the centre?", "o": ["The longer one", "The shorter one", "They are equally far", "It depends on the radius"], "e": "r² = d² + (c/2)² is fixed; a bigger half-chord leaves a smaller d²." },
+      { "t": "In a circle with centre O, ∠AOB = 60° and the radius is 12 cm. Find AB (in cm).", "n": 12, "e": "OA = OB and the apex is 60°, so the base angles are 60°: the triangle is equilateral." },
+      { "t": "Equal chords of a circle subtend equal angles at the centre because the triangles are congruent by:", "o": ["SSS", "AAA", "ASA only", "They aren't congruent"], "e": "Two sides are radii and the third sides (the chords) are equal." },
+      { "t": "Can three collinear points lie on a circle?", "o": ["No", "Yes, always", "Only if equally spaced", "Only on a large circle"], "e": "The perpendicular bisectors of AB and BC would be parallel, so no point is equidistant from all three." }
+    ] },
+    { "q": [
+      { "t": "∠P = (2x + 10)° and ∠R = (3x − 20)° are opposite angles of a cyclic quadrilateral. Find x.", "n": 38, "k": "(180 + 10)/5", "e": "2x + 10 + 3x − 20 = 180 → 5x = 190 → x = 38." },
+      { "t": "With x = 38, what is ∠P = (2x + 10)° (in degrees)?", "n": 86, "k": "2*38 + 10", "e": "2 × 38 + 10 = 86; then ∠R = 94 and they add to 180." },
+      { "t": "Parallel chords of 6 cm and 8 cm are on opposite sides of the centre of a circle of radius 5 cm. Find the distance between them (in cm).", "n": 7, "k": "math.sqrt(25-9) + math.sqrt(25-16)", "e": "Distances from the centre are 4 and 3; on opposite sides they add." },
+      { "t": "Parallel chords of 10 cm and 24 cm are on the same side of the centre and 7 cm apart. Find the radius (in cm).", "n": 13, "e": "√(r² − 25) − √(r² − 144) = 7. r = 13 gives 12 − 5 = 7." },
+      { "t": "A circle has radius 7 cm and a chord 6 cm from the centre. The chord is:", "o": ["2√13 cm", "2 cm", "√13 cm", "13 cm"], "e": "2√(49 − 36) = 2√13 ≈ 7.2 cm." },
+      { "t": "Can a cyclic quadrilateral have angles 80°, 110°, 100°, 70° (in order A, B, C, D)?", "o": ["Yes — A + C = 180° and B + D = 180°", "No — the angles are unequal", "No — 110° is too big", "Only if it's a square"], "e": "The test for cyclic is that each pair of opposite angles adds to 180°." },
+      { "t": "Which parallelogram can be inscribed in a circle?", "o": ["A rectangle", "A rhombus that isn't a square", "Any parallelogram", "None"], "e": "Opposite angles of a parallelogram are equal; cyclic needs them to add to 180°, so each is 90°." },
+      { "t": "ABCD is cyclic and side CD is extended to E. The exterior angle ∠CDE equals:", "o": ["∠ABC", "∠ADC", "∠BCD", "90°"], "e": "∠CDE = 180° − ∠ADC, and ∠ABC = 180° − ∠ADC (opposite angles)." },
+      { "t": "In the proof that the angle at the centre is double, the key fact about triangle AOD (O the centre, A and D on the circle) is:", "o": ["It is isosceles because OA = OD", "It is equilateral", "It is right-angled", "It is congruent to AOB"], "e": "Two sides are radii, so its base angles are equal; the exterior angle at O is then twice one of them." },
+      { "t": "A regular hexagon is inscribed in a circle of radius 9 cm. What is its side (in cm)?", "n": 9, "e": "Each side subtends 60° at the centre, making equilateral triangles with side equal to the radius." }
+    ] },
+    { "q": [
+      { "t": "A cyclic quadrilateral has sides 5, 12, 5, 12 in order. Find its area (in square units).", "n": 60, "k": "5*12", "e": "It's a parallelogram inscribed in a circle, so a rectangle: 5 × 12." },
+      { "t": "All chords of a circle with a fixed length have midpoints that form:", "o": ["A circle with the same centre", "A straight line", "A single point", "A square"], "e": "Each midpoint is the same distance d = √(r² − (c/2)²) from the centre." },
+      { "t": "Distance of chord AB from the centre is twice that of chord CD. Must CD = 2AB?", "o": ["No — length goes as 2√(r² − d²), not in proportion to d", "Yes, always", "Yes, if r is large", "Only if AB is a diameter"], "e": "Example r = 5: d = 2 gives about 9.2, d = 4 gives 6 — not a factor of 2." },
+      { "t": "A chord of 6 cm is 3 cm from the centre. The radius is:", "o": ["3√2 cm", "6 cm", "3 cm", "√45 cm"], "e": "r² = 3² + 3² = 18, so r = 3√2." },
+      { "t": "A regular hexagon is inscribed in a circle of radius r. Each side's distance from the centre is:", "o": ["(√3/2) r", "r/2", "r", "√3 r"], "e": "It's the height of an equilateral triangle of side r: √(r² − (r/2)²) = (√3/2) r." },
+      { "t": "Segment AB subtends equal angles at C and D on the same side of AB. Then:", "o": ["A, B, C, D are concyclic", "C = D", "ABCD is a square", "AB is a diameter"], "e": "Theorem 10: if D were inside or outside the circle through A, B, C, an exterior-angle argument gives a contradiction." },
+      { "t": "In a circle with centre O, chords AB and AC are equal. Where does O lie?", "o": ["On the bisector of ∠BAC", "On chord BC", "Outside the circle", "At A"], "e": "Triangles OAB and OAC are congruent (SSS), so ∠OAB = ∠OAC." },
+      { "t": "Why is no chord longer than the diameter?", "o": ["Chord = 2√(r² − d²) ≤ 2r", "Diameters are curved", "Chords never pass through the centre", "Because the radius is fixed at 1"], "e": "The chord length is largest when d = 0, i.e. when it passes through the centre." },
+      { "t": "A is inside a circle with centre O. The SHORTEST chord through A is:", "o": ["Perpendicular to OA", "Along OA", "Parallel to a diameter through A", "Any chord — all are equal"], "e": "A chord through A is at distance at most OA from O; the perpendicular one reaches that maximum, and the farthest chord is the shortest." },
+      { "t": "If a rectangle is inscribed in a circle, its diagonals meet at:", "o": ["The centre", "A vertex", "The midpoint of a side", "Outside the circle"], "e": "Each diagonal subtends 90° at a vertex, so each is a diameter; diameters cross at the centre." }
+    ] }
+  ]
+}

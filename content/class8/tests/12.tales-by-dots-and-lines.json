@@ -1,0 +1,50 @@
+{"title": "12. Tales by Dots and Lines", "tests": [
+{"q": [
+{"t": "Find the mean of 4, 6, 8, 10, 12.", "n": 8, "k": "F(4+6+8+10+12,5)", "e": "Total 40 ÷ 5 values."},
+{"t": "Find the median of 3, 9, 4, 7, 5.", "n": 5, "e": "Sort first: 3, 4, 5, 7, 9. The middle value is 5."},
+{"t": "Find the median of 2, 4, 6, 8.", "n": 5, "k": "F(4+6,2)", "e": "Even count: average of the two middle values, 4 and 6."},
+{"t": "The mean is best thought of as:", "o": ["The balance point of the data", "The most common value", "The largest value", "The middle position"], "e": "The distances of values above the mean exactly balance those below."},
+{"t": "Find the mean of the first 50 natural numbers.", "n": 25.5, "k": "F(sum(range(1,51)),50)", "e": "Evenly spaced: (1 + 50) ÷ 2."},
+{"t": "Every student's height included 1 cm of shoe. The average was 150.2 cm. Correct average (in cm)?", "n": 149.2, "u": "cm", "k": "F('150.2')-1", "e": "Subtracting 1 from every value subtracts 1 from the mean."},
+{"t": "A line graph is mainly used to show:", "o": ["How a quantity changes over time", "Parts of a whole", "Only the largest value", "Shapes of objects"], "e": "Points for each time joined by lines show rises and falls."},
+{"t": "3 numbers have mean 8. Their total is:", "n": 24, "k": "3*8", "e": "Total = mean × count."},
+{"t": "Including a value LESS than the mean will:", "o": ["Always decrease the mean", "Always increase the mean", "Never change the mean", "Sometimes increase it"], "e": "It pulls the balance point towards itself."},
+{"t": "Find the mean of the first 50 odd numbers.", "n": 50, "k": "F(sum(range(1,100,2)),50)", "e": "(1 + 99) ÷ 2 = 50."}
+]},
+{"q": [
+{"t": "The mean of 8, 13, 10, 4, 5, 20, y, 10 is 10.375. Find y.", "n": 13, "k": "8*F('10.375')-70", "e": "Total = 8 × 10.375 = 83; the others add to 70."},
+{"t": "Find the median of 8, 10, 19, 23, 26, 34, 40, 41, 41, 48, 51, 55, 70, 84, 91, 92.", "n": 41, "e": "16 values: the 8th and 9th are both 41."},
+{"t": "Which single value can be added to that list without changing its median of 41?", "n": 41, "e": "With 17 values the 9th is the median; only adding another 41 keeps it 41."},
+{"t": "Find the mean of the first 50 multiples of 4.", "n": 102, "k": "F(sum(range(4,201,4)),50)", "e": "(4 + 200) ÷ 2."},
+{"t": "Add 5 to every value in a data set. The mean:", "o": ["Increases by 5", "Stays the same", "Is multiplied by 5", "Increases by 5 × the count"], "e": "The total rises by 5 × count, and dividing by count gives +5."},
+{"t": "Double every value in a data set. The median:", "o": ["Doubles", "Stays the same", "Increases by 2", "Halves"], "e": "The order doesn't change, so the middle value is simply doubled."},
+{"t": "'The average of two even numbers is even.' This is:", "o": ["False — e.g. 2 and 4 average 3", "Always true", "True for big numbers", "True only for multiples of 4"], "e": "(2 + 4) ÷ 2 = 3."},
+{"t": "3, 11, _, _, 15, 6 has mean 6.5. The two blanks must add to:", "n": 4, "k": "6*F('6.5')-35", "e": "Total 39; known values add to 35."},
+{"t": "Visitors on Sunday 35, purchasers 26. How many visitors didn't buy?", "n": 9, "k": "35-26", "e": "The gap between the two lines on the graph."},
+{"t": "Including 4 values all less than the median will:", "o": ["Never increase the median", "Always increase it", "Always leave it unchanged", "Double it"], "e": "The middle can only move down or stay."}
+]},
+{"q": [
+{"t": "Mangaluru's rainy days by month add to about 112, Port Blair's to about 126, Rameswaram's to about 42. Which has the most rainy days a year?", "o": ["Port Blair", "Mangaluru", "Rameswaram", "All equal"], "e": "125.8 > 112.1 > 42.3."},
+{"t": "Rameswaram's rainiest months are:", "o": ["October–December", "June–August", "January–March", "April–May"], "e": "8.1, 10.4 and 7.8 days — the north-east monsoon season."},
+{"t": "Two new students (149 cm and 152 cm) join a class whose mean is 150.2 cm. The mean:", "o": ["Increases slightly", "Decreases", "Stays the same", "Can't change"], "e": "The newcomers average 150.5, above 150.2."},
+{"t": "One person loses 2 kg and two people gain 1 kg each. The mean weight:", "o": ["Stays the same", "Increases", "Decreases", "Can't be found"], "e": "The total weight is unchanged."},
+{"t": "Removing a value less than the median will decrease the median:", "o": ["Never", "Always", "Sometimes", "Only for even counts"], "e": "With fewer values below, the middle moves up or stays."},
+{"t": "'The average of any 5 multiples of 5 is a multiple of 5.' Is it true?", "o": ["No — 5, 5, 5, 5, 10 average 6", "Yes, always", "Yes, if they are different", "Only for 5 itself"], "e": "(5a + 5b + 5c + 5d + 5e) ÷ 5 = a + b + c + d + e, any whole number."},
+{"t": "In a 3 × 3 grid every row, column and diagonal has mean 10. Each line adds to:", "n": 30, "k": "3*10", "e": "Mean × count."},
+{"t": "Which set has mean greater than median?", "o": ["1, 2, 3, 4, 5, 100", "1, 2, 3, 4, 5, 6", "2, 2, 2, 2", "1, 3, 5, 7"], "e": "Median 3.5, mean 115 ÷ 6 ≈ 19.2 — one big value drags the mean up."},
+{"t": "5, 21, 14 and three more numbers have median 13. Which three work?", "o": ["12, 1, 30", "13, 13, 13", "1, 2, 3", "20, 25, 30"], "e": "Sorted: 1, 5, 12, 14, 21, 30 → (12 + 14) ÷ 2 = 13."},
+{"t": "West Bengal salt went from about ₹9 to about ₹24. Roughly how many times as dear?", "o": ["About 2.5 times", "About 1.2 times", "About 4 times", "Same"], "e": "24 ÷ 9.47 ≈ 2.5."}
+]},
+{"q": [
+{"t": "The mean of 6 numbers is 15. One number, 20, is removed. New mean?", "n": 14, "k": "F(90-20,5)", "e": "Total 90 − 20 = 70, over 5 values."},
+{"t": "The mean of 10 numbers is 12. A number 34 is added. New mean?", "n": 14, "k": "F(120+34,11)", "e": "154 ÷ 11."},
+{"t": "A student's mean of 4 tests is 70. What must the 5th test score be for the mean to become 72?", "n": 80, "k": "5*72-4*70", "e": "Needed total 360, already 280."},
+{"t": "The median of 7 sorted numbers is their:", "o": ["4th value", "3rd value", "Average of 3rd and 4th", "7th value"], "e": "3 values on each side of the 4th."},
+{"t": "Values 10, 20, 30, 40, 50: if 50 is changed to 500, what happens?", "o": ["The mean changes a lot; the median stays 30", "Both stay the same", "The median changes; the mean stays", "Both double"], "e": "The median depends only on the middle; the mean uses every value."},
+{"t": "Every value is multiplied by 3 and then 2 is added. The old mean was 10. New mean?", "n": 32, "k": "3*10+2", "e": "Mean follows the same operations: 3 × 10 + 2."},
+{"t": "How many counting-number pairs fill the blanks so that 3, 11, _, _, 15, 6 has mean 6.5?", "n": 3, "e": "The blanks add to 4: (1, 3), (2, 2), (3, 1)."},
+{"t": "A graph shows the main lighting source in homes by year. Can it tell you that there were no power cuts in 2023?", "o": ["No — it doesn't measure power cuts", "Yes", "Only for cities", "Only for villages"], "e": "Only claim what the graph actually measures."},
+{"t": "In the grid 13 6 11 / 8 10 12 / 9 14 7, what is the mean of the diagonal 13, 10, 7?", "n": 10, "k": "F(13+10+7,3)", "e": "30 ÷ 3."},
+{"t": "Mean of 5 numbers is 13.6. Their total is:", "n": 68, "k": "5*F('13.6')", "e": "Mean × count."}
+]}
+]}

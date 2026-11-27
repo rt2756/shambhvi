@@ -1,0 +1,53 @@
+{
+  "title": "2. Introduction to Linear Polynomials",
+  "tests": [
+    { "q": [
+      { "t": "What is the degree of 2x² − 5x + 3?", "n": 2, "e": "The degree is the highest power of the variable; here that is x², so 2." },
+      { "t": "What is the degree of the constant polynomial −9?", "n": 0, "e": "−9 = −9x⁰, so the highest power of x is 0." },
+      { "t": "Which of these is a linear polynomial?", "o": ["4z − 3", "x² + 1", "y³ + 2y", "7"], "e": "Linear means degree 1: the highest power of the variable is 1." },
+      { "t": "What is the coefficient of x³ in x⁴ − 3x³ + 6x² − 2x + 7?", "n": -3, "e": "The sign in front belongs to the coefficient: the term is −3x³." },
+      { "t": "What is the coefficient of z in 4z³ + 5z² − 11?", "n": 0, "e": "There is no z term at all, so its coefficient is 0." },
+      { "t": "What is the constant term of 9x³ + 5x² − 8x − 10?", "n": -10, "e": "The constant term is the one with no variable, sign included: −10." },
+      { "t": "Find the value of 5x − 3 when x = 2.", "n": 7, "k": "5*2 - 3", "e": "Substitute: 5 × 2 − 3 = 10 − 3 = 7." },
+      { "t": "Find the value of 5x − 3 when x = −1.", "n": -8, "k": "5*(-1) - 3", "e": "5 × (−1) − 3 = −5 − 3 = −8." },
+      { "t": "A chess club charges ₹200 to join plus ₹50 per match. What does a player pay for m matches?", "o": ["200 + 50m", "250m", "50 + 200m", "200m + 50"], "e": "The ₹200 is paid once; ₹50 is paid m times, so 200 + 50m." },
+      { "t": "In 4x + 5y + 3, what is the constant?", "n": 3, "e": "The constant is the term without any variable." }
+    ] },
+    { "q": [
+      { "t": "A player paid ₹750 at a club that charges ₹200 plus ₹50 per match. How many matches did he play?", "n": 11, "k": "(750-200)/50", "e": "200 + 50m = 750 → 50m = 550 → m = 11." },
+      { "t": "Two numbers add to 64 and one is 10 more than the other. What is the smaller number?", "n": 27, "k": "(64-10)/2", "e": "x + (x + 10) = 64 → 2x = 54 → x = 27 (the other is 37)." },
+      { "t": "Find the value of 7s² − 4s + 6 when s = −3.", "n": 81, "k": "7*9 + 12 + 6", "e": "7(9) − 4(−3) + 6 = 63 + 12 + 6 = 81. Square first, and −4 × −3 is +12." },
+      { "t": "A tile pattern has 1, 3, 5, 7, … tiles. How many tiles are in stage 15?", "n": 29, "k": "2*15 - 1", "e": "Rule 2n − 1 (goes up 2 each stage, one less than 2n): 2(15) − 1 = 29." },
+      { "t": "In the pattern 2n − 1, which stage has 47 tiles?", "n": 24, "k": "(47+1)/2", "e": "2n − 1 = 47 → 2n = 48 → n = 24." },
+      { "t": "Bela has ₹100 and spends ₹5 a day. After how many days will she have ₹40 left?", "n": 12, "k": "(100-40)/5", "e": "100 − 5n = 40 → 5n = 60 → n = 12." },
+      { "t": "The difference of two positive integers is 63 and their ratio is 2 : 5. What is the larger one?", "n": 105, "k": "5*(63/3)", "e": "Numbers 2k and 5k differ by 3k = 63, so k = 21 and the larger is 105." },
+      { "t": "Which describes linear decay?", "o": ["A quantity falls by the same amount every equal interval", "A quantity halves every interval", "A quantity rises by the same amount every interval", "A quantity stays the same"], "e": "Linear decay = constant decrease per equal interval (negative slope). Halving is not linear — the drops get smaller." },
+      { "t": "Salil's mother is 3 times his age. In 5 years their ages will add to 70. How old is Salil now?", "n": 15, "k": "(70-10)/4", "e": "s + 5 + 3s + 5 = 70 → 4s = 60 → s = 15 (mother 45)." },
+      { "t": "Water height in a tank is h(t) = 3 − 0.5t metres after t months. What is it after 5 months (in m)?", "n": 0.5, "k": "3 - 0.5*5", "e": "3 − 2.5 = 0.5 m. It drops 0.5 m every month — linear decay." }
+    ] },
+    { "q": [
+      { "t": "An auto charges ₹25 for the first 2 km, then ₹15 per km. What is the fare for 10 km (in ₹)?", "n": 145, "k": "25 + 15*8", "e": "Only 10 − 2 = 8 km are charged at ₹15: 25 + 120 = 145." },
+      { "t": "With the same auto (₹25 for 2 km, then ₹15/km), how many km cost ₹130?", "n": 9, "k": "(130+5)/15", "e": "Fare = 25 + 15(n − 2) = 15n − 5. 15n − 5 = 130 → n = 9." },
+      { "t": "A data plan costs ₹350 for 10 GB and ₹550 for 20 GB, with y = ax + b. Find a (₹ per GB).", "n": 20, "k": "(550-350)/(20-10)", "e": "The extra 10 GB cost an extra ₹200, so each GB costs ₹20." },
+      { "t": "For the same plan, find the fixed monthly fee b (in ₹).", "n": 150, "k": "350 - 20*10", "e": "b = 350 − 20 × 10 = 150. It's what you'd pay for 0 GB." },
+      { "t": "What is the slope of the line y = −3x + 4?", "n": -3, "e": "In y = ax + b the slope is a, the number multiplying x." },
+      { "t": "Where does y = 3x − 2 cut the y-axis?", "o": ["(0, −2)", "(−2, 0)", "(0, 3)", "(2/3, 0)"], "e": "On the y-axis x = 0, so y = −2: the point (0, b)." },
+      { "t": "Which line is parallel to y = 2x + 1?", "o": ["y = 2x − 5", "y = −2x + 1", "y = x + 1", "y = 3x + 1"], "e": "Parallel lines have the same slope. y = 2x − 5 is always 6 below y = 2x + 1, so they never meet." },
+      { "t": "Which point lies on y = 2x + 1?", "o": ["(7, 15)", "(2, 6)", "(0, 2)", "(3, 6)"], "e": "Substitute: 2 × 7 + 1 = 15 ✓. A point is on the line exactly when it satisfies the equation." },
+      { "t": "Which of these lines is the steepest?", "o": ["y = 4x", "y = 2x", "y = x", "y = ½x"], "e": "The slope a tells how much y rises per 1 across; the biggest a gives the steepest line." },
+      { "t": "A recharge of ₹600 drops by ₹15 a day. After how many days does it run out?", "n": 40, "k": "600/15", "e": "b(x) = 600 − 15x = 0 → x = 40." }
+    ] },
+    { "q": [
+      { "t": "Multiply a number by 5/2 and add 2/3 to get −7/12. What is the number?", "o": ["−1/2", "1/2", "−5/4", "−3/10"], "k": "(F(-7,12) - F(2,3)) / F(5,2)", "e": "(5/2)x = −7/12 − 8/12 = −5/4, so x = −5/4 × 2/5 = −1/2." },
+      { "t": "One number is 5 times another. Adding 21 to both makes one twice the other. What is the smaller number?", "n": 7, "k": "21/3", "e": "5x + 21 = 2(x + 21) → 3x = 21 → x = 7 (numbers 7 and 35)." },
+      { "t": "A two-digit number's digits differ by 3. It plus its reverse is 143. What is the larger of the two numbers?", "n": 85, "e": "10p + q + 10q + p = 11(p + q) = 143 → p + q = 13; with p − q = 3, p = 8, q = 5 → 85 and 58." },
+      { "t": "A linear polynomial p(x) passes through (1, 5) and (3, 11). What is p(x)?", "o": ["3x + 2", "2x + 3", "3x + 5", "6x − 1"], "e": "Slope = (11 − 5) ÷ (3 − 1) = 3, and b = 5 − 3 × 1 = 2." },
+      { "t": "Where does p(x) = 3x + 2 cut the x-axis?", "o": ["(−2/3, 0)", "(0, 2)", "(2/3, 0)", "(−2, 0)"], "e": "On the x-axis y = 0: 3x + 2 = 0 → x = −2/3." },
+      { "t": "Which pair of lines is parallel: (i) 2y = 4x + 7, (ii) 5y = 6x − 10, (iii) 3y = 6x − 11?", "o": ["(i) and (iii)", "(i) and (ii)", "(ii) and (iii)", "None"], "e": "Divide through: (i) y = 2x + 3.5, (ii) y = 1.2x − 2, (iii) y = 2x − 11/3. Only (i) and (iii) share slope 2." },
+      { "t": "Using y = (9/5)(x − 273) + 32, convert 313 K to °F.", "n": 104, "k": "F(9,5)*(313-273) + 32", "e": "(9/5)(40) + 32 = 72 + 32 = 104 °F." },
+      { "t": "Hexagons sharing a side need 6, 11, 16, … matchsticks. How many for stage 15?", "n": 76, "k": "5*15 + 1", "e": "Each new hexagon adds 5 sticks (one side is shared): 5n + 1 = 76." },
+      { "t": "p(x) = ax + b and q(x) = cx + d with p(0) = 5, p(x) + q(x) = 6x + 4 and p − q zero at x = 3. What is q(x)?", "o": ["4x − 1", "2x + 5", "4x + 1", "2x − 1"], "e": "b = 5, d = −1, a + c = 6; p − q = (a − c)x + 6 = 0 at 3 → a − c = −2 → a = 2, c = 4." },
+      { "t": "What do all lines f(x) = ax + a (a > 0) have in common?", "o": ["They all pass through (−1, 0)", "They all pass through the origin", "They are all parallel", "They all have slope 1"], "e": "ax + a = a(x + 1), which is 0 when x = −1, whatever a is." }
+    ] }
+  ]
+}

@@ -1,0 +1,50 @@
+{"title": "4. Quadrilaterals", "tests": [
+{"q": [
+{"t": "The four angles of a quadrilateral add up to:", "n": 360, "u": "°", "e": "A diagonal cuts it into two triangles, each with 180°."},
+{"t": "Three angles of a quadrilateral are 80°, 90° and 100°. Find the fourth (in degrees).", "n": 90, "u": "°", "k": "360-80-90-100", "e": "360 − 270 = 90."},
+{"t": "A quadrilateral with all sides equal and every angle 90° is a:", "o": ["Square", "Rhombus", "Rectangle", "Kite"], "e": "A rhombus has equal sides, a rectangle has right angles; a square has both."},
+{"t": "A quadrilateral in which both pairs of opposite sides are parallel is a:", "o": ["Parallelogram", "Trapezium", "Kite", "Pentagon"], "e": "That is the definition of a parallelogram."},
+{"t": "A kite has:", "o": ["Two pairs of equal adjacent sides", "Two pairs of equal opposite sides", "Four equal sides always", "One pair of parallel sides"], "e": "In a kite the equal sides are next to each other, not opposite."},
+{"t": "The diagonals of a rectangle are:", "o": ["Equal, and they bisect each other", "Equal but never bisect each other", "Unequal and perpendicular", "Always perpendicular"], "e": "∆ADC ≅ ∆DAB (SAS) gives equal diagonals; another pair of congruent triangles shows they cut each other in half."},
+{"t": "A parallelogram has one angle of 30°. What is the angle next to it (in degrees)?", "n": 150, "u": "°", "k": "180-30", "e": "Neighbouring angles are co-interior angles between parallel sides, so they add to 180°."},
+{"t": "A trapezium has:", "o": ["At least one pair of parallel sides", "Two pairs of parallel sides always", "All sides equal", "No parallel sides"], "e": "One pair of parallel opposite sides is enough."},
+{"t": "Can a quadrilateral have three right angles and a fourth angle that is not 90°?", "o": ["No — the fourth must be 360 − 270 = 90°", "Yes, in a kite", "Yes, in a trapezium", "Yes, if it is large"], "e": "The angle sum fixes the fourth angle."},
+{"t": "A diagonal of a square splits each corner angle into two angles of:", "n": 45, "u": "°", "e": "The triangle on either side is isosceles (equal sides) with a 90° corner, so its other two angles are equal: 90 ÷ 2 = 45."}
+]},
+{"q": [
+{"t": "The angles of a quadrilateral are in the ratio 3 : 4 : 5 : 6. Find the largest (in degrees).", "n": 120, "u": "°", "k": "F(360,18)*6", "e": "18 parts make 360°, so one part is 20° and the largest is 120°."},
+{"t": "One angle of a parallelogram is 110°. What are all four angles?", "o": ["110°, 70°, 110°, 70°", "110°, 110°, 70°, 70° in that order round the shape", "110°, 90°, 110°, 50°", "110°, 250°, 110°, 250°"], "e": "Opposite angles are equal and neighbours add to 180°."},
+{"t": "Rhombus ABCD has ∠A = 50°. Find ∠B (in degrees).", "n": 130, "u": "°", "k": "180-50", "e": "A rhombus is a parallelogram, so neighbouring angles add to 180°."},
+{"t": "The diagonals of a rhombus cross at what angle?", "n": 90, "u": "°", "e": "The two triangles on either side of one diagonal are congruent (SSS), so the angles at the centre are equal and lie on a straight line: 90° each."},
+{"t": "A carpenter's two strips (the diagonals) are 8 cm each, joined at their midpoints at ANY angle. The thread round their ends makes a:", "o": ["Rectangle", "Square always", "Rhombus", "Kite"], "e": "Equal diagonals that bisect each other always give a rectangle; the crossing angle only changes its shape."},
+{"t": "In trapezium ABCD, AB ∥ DC and ∠B = 85°. Find ∠C (in degrees).", "n": 95, "u": "°", "k": "180-85", "e": "BC is a transversal of the parallel sides, so ∠B + ∠C = 180°."},
+{"t": "An isosceles trapezium has one angle of 100°. Its angles are:", "o": ["100°, 100°, 80°, 80°", "100°, 80°, 100°, 80° (opposite equal)", "100°, 100°, 100°, 60°", "100°, 90°, 90°, 80°"], "e": "Base angles of an isosceles trapezium are equal, and angles along each slanted side add to 180°."},
+{"t": "Two identical equilateral triangles of side 4 cm are joined along a side. The quadrilateral is a:", "o": ["Rhombus with angles 60°, 120°, 60°, 120°", "Square", "Rectangle", "Kite that is not a rhombus"], "e": "All four sides are 4 cm; corners are 60° or 60° + 60° = 120°."},
+{"t": "The angles of a quadrilateral are x°, (x + 10)°, (x + 20)° and (x + 30)°. Find x.", "n": 75, "k": "F(360-60,4)", "e": "4x + 60 = 360, so x = 75."},
+{"t": "Two perpendicular diameters PL and AM of a circle are joined to form APML. It is a:", "o": ["Square", "Rhombus that is not a square", "Rectangle that is not a square", "Kite that is not a rhombus"], "e": "Its diagonals are equal (diameters), bisect each other (at the centre) and are at 90°."}
+]},
+{"q": [
+{"t": "'A quadrilateral whose diagonals are equal and bisect each other must be a square.' This is:", "o": ["False — it must be a rectangle", "True", "False — it must be a kite", "False — it must be a trapezium"], "e": "Without the 90° crossing it can be any rectangle."},
+{"t": "'A quadrilateral whose diagonals are perpendicular must be a rhombus.' This is:", "o": ["False — a kite also has perpendicular diagonals", "True", "False — only squares have them", "True for all trapeziums"], "e": "Perpendicular diagonals alone don't force all sides equal."},
+{"t": "'A quadrilateral with opposite angles equal must be a parallelogram.' This is:", "o": ["True", "False", "True only for squares", "True only for kites"], "e": "Angles x, y, x, y with 2x + 2y = 360 give x + y = 180, so co-interior angles make the sides parallel."},
+{"t": "A quadrilateral has both pairs of opposite sides equal. It must be a:", "o": ["Parallelogram", "Rectangle", "Kite", "Trapezium only"], "e": "Draw a diagonal: SSS gives congruent triangles, so alternate angles are equal and opposite sides are parallel."},
+{"t": "In a rectangle a diagonal makes 30° with the longer side. What angle does it make with the shorter side (in degrees)?", "n": 60, "u": "°", "k": "90-30", "e": "The two parts of the 90° corner add to 90."},
+{"t": "In a rectangle the diagonals cross at 110°. What is each base angle of the isosceles triangle with the 110° angle at its tip (in degrees)?", "n": 35, "u": "°", "k": "F(180-110,2)", "e": "Half-diagonals are equal, so the triangle is isosceles: (180 − 110) ÷ 2 = 35."},
+{"t": "In kite ABCD, AB = AD and CB = CD. ∠B = 110° and ∠A = 60°. Find ∠C (in degrees).", "n": 80, "u": "°", "k": "360-110-110-60", "e": "The kite is symmetric about AC, so ∠D = ∠B = 110°. Then ∠C = 360 − 220 − 60 = 80."},
+{"t": "Two identical scalene triangles (6, 9, 12 cm) are joined on the 12 cm side by FLIPPING one over. The result is a:", "o": ["Kite with sides 6, 6, 9, 9", "Parallelogram with sides 6, 9, 6, 9", "Rhombus", "Rectangle"], "e": "Flipping puts equal sides next to each other — adjacent equal pairs make a kite. Turning 180° would give a parallelogram."},
+{"t": "Which quadrilateral is both a kite and a rectangle?", "o": ["Only a square", "Any rhombus", "Any parallelogram", "None at all"], "e": "A rectangle's adjacent sides must then be equal, which makes all sides equal: a square."},
+{"t": "In trapezium ABCD, AB ∥ DC and ∠A : ∠D = 2 : 3. Find ∠D (in degrees).", "n": 108, "u": "°", "k": "F(180,5)*3", "e": "∠A + ∠D = 180° (co-interior). 5 parts → 36° each, so ∠D = 108°."}
+]},
+{"q": [
+{"t": "U, V, W, X are the midpoints of the sides of square CASE. Quadrilateral UVWX is a:", "o": ["Square", "Rhombus that is not a square", "Rectangle that is not a square", "Kite that is not a rhombus"], "e": "The four corner triangles are congruent isosceles right triangles, giving equal sides, and 45° + 90° + 45° = 180° at each midpoint gives right angles."},
+{"t": "A quadrilateral has four equal sides and one 90° angle. It is a:", "o": ["Square", "Rhombus that is not a square", "Kite only", "Trapezium"], "e": "It's a rhombus (a parallelogram); neighbours add to 180°, so every angle is 90°."},
+{"t": "In quadrilateral ABCD, ∠A + ∠B = 220°. The bisectors of ∠C and ∠D meet at O. Find ∠COD (in degrees).", "n": 110, "u": "°", "k": "180-F(360-220,2)", "e": "∠C + ∠D = 140°, halves add to 70°, so ∠COD = 180 − 70 = 110°."},
+{"t": "The bisectors of the four angles of a parallelogram (not a rhombus) enclose a:", "o": ["Rectangle", "Rhombus", "Trapezium", "Kite"], "e": "Adjacent angles add to 180°, so their halves add to 90° and the bisectors meet at right angles."},
+{"t": "In parallelogram ABCD, ∠A = (3x + 10)° and ∠B = (2x + 20)°. Find ∠C (in degrees).", "n": 100, "u": "°", "k": "3*30+10", "e": "∠A + ∠B = 180 gives 5x + 30 = 180, x = 30. ∠C = ∠A = 100°."},
+{"t": "A geoboard square's diagonals are equal and perpendicular. One diagonal is now extended 2 cm at each end. The shape becomes a:", "o": ["Rhombus", "Rectangle", "Square", "Kite that is not a rhombus"], "e": "Diagonals still bisect each other at 90° but are no longer equal."},
+{"t": "Why are the diagonals of a parallelogram usually NOT equal?", "o": ["Equal diagonals would force all angles to 90° — a rectangle", "Because opposite sides are unequal", "Because they never meet", "They always are equal"], "e": "Equal diagonals that bisect each other is the rectangle's special property."},
+{"t": "The four angles of a quadrilateral are consecutive multiples of 12. Find the largest (in degrees).", "n": 108, "u": "°", "k": "F(360-72,4)+36", "e": "a + (a + 12) + (a + 24) + (a + 36) = 360 → a = 72. Angles: 72°, 84°, 96°, 108°."},
+{"t": "A concave ('dented') quadrilateral's angles add up to:", "n": 360, "u": "°", "e": "The diagonal from the dented corner lies inside and makes two triangles: 180° + 180°."},
+{"t": "In a kite ABCD (AB = BC, CD = DA), the diagonal BD:", "o": ["Bisects AC at right angles", "Is bisected by AC", "Equals AC", "Is parallel to AC"], "e": "∆ABD ≅ ∆CBD (SSS) then ∆AOB ≅ ∆COB (SAS) give AO = OC and equal angles at O on a straight line, so 90°."}
+]}
+]}

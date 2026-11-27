@@ -1,0 +1,50 @@
+{"title": "3. A Story of Numbers", "tests": [
+{"q": [
+{"t": "Counting a collection means making a ___ mapping with a standard sequence.", "o": ["one-to-one", "one-to-many", "many-to-one", "random"], "e": "Each object is matched with exactly one item of the sequence, and no two objects share an item."},
+{"t": "What is the Roman numeral for 27?", "o": ["XXVII", "XXIIV", "XVVII", "IIIXXX"], "e": "27 = 10 + 10 + 5 + 1 + 1 = X X V I I."},
+{"t": "What number is XL?", "n": 40, "e": "A smaller symbol before a larger one is subtracted: 10 less than 50."},
+{"t": "Which Roman symbol stands for 500?", "o": ["D", "C", "M", "L"], "e": "I 1, V 5, X 10, L 50, C 100, D 500, M 1000."},
+{"t": "In the Gumulgal system, 'ukasar-ukasar-urapon' means:", "n": 5, "e": "ukasar = 2 and urapon = 1, so 2 + 2 + 1 = 5."},
+{"t": "The Egyptian system is a base-__ system.", "n": 10, "e": "Each landmark number is 10 times the previous one: 1, 10, 100, 1000, …"},
+{"t": "Our hour has 60 minutes because of which ancient number system?", "o": ["Mesopotamian (base 60)", "Egyptian (base 10)", "Mayan (base 20)", "Roman"], "e": "The Mesopotamian (Babylonian) sexagesimal system still shapes how we measure time."},
+{"t": "The first known written use of ten digits including zero (written as a dot) is in the:", "o": ["Bakhshali manuscript", "Ishango bone", "Lebombo bone", "Roman abacus"], "e": "The Bakhshali manuscript (c. 3rd century CE) from India."},
+{"t": "Most people can tell the size of a group at a glance only up to about:", "o": ["4", "10", "20", "100"], "e": "Groups of 5 or more usually need counting — this limit probably pushed people to group tally marks."},
+{"t": "The word 'algorithm' comes from the name of:", "o": ["Al-Khwārizmī", "Fibonacci", "Aryabhata", "Laplace"], "e": "Al-Khwārizmī wrote 'On the Calculation with Hindu Numerals' (c. 825)."}
+]},
+{"q": [
+{"t": "Write 2999 in Roman numerals.", "o": ["MMCMXCIX", "MMDCCCCLXXXXVIIII", "MMIM", "MMXMIX"], "e": "2000 = MM, 900 = CM, 90 = XC, 9 = IX."},
+{"t": "What number is MCCXXII?", "n": 1222, "e": "M 1000 + CC 200 + XX 20 + II 2."},
+{"t": "What number is DCCXV?", "n": 715, "e": "D 500 + CC 200 + X 10 + V 5."},
+{"t": "What are the landmark numbers of a base-7 system?", "o": ["1, 7, 49, 343, …", "7, 14, 21, 28, …", "1, 7, 14, 21, …", "0, 7, 49, 343, …"], "e": "Start at 1 and multiply by 7 each time: the powers of 7."},
+{"t": "How many 25s are in 137 when it is written in our base-5 system (landmarks 1, 5, 25, 125)?", "n": 0, "e": "137 = 125 + 5 + 5 + 1 + 1. After taking 125, only 12 is left — no 25 fits."},
+{"t": "In base 5, how many 125s, 25s, 5s and 1s make 293?", "o": ["2, 1, 3, 3", "2, 1, 3, 2", "1, 6, 3, 3", "2, 0, 8, 3"], "e": "250 + 25 + 15 + 3 = 293. No landmark may appear 5 or more times."},
+{"t": "Why can no Egyptian numeral show the same symbol 10 or more times?", "o": ["Ten of any symbol is replaced by the next symbol", "The Egyptians could not count past 9", "It was forbidden", "Symbols were too big"], "e": "Each landmark is 10 times the previous, so ten copies regroup into one of the next."},
+{"t": "In the Mesopotamian system, how is 132 grouped?", "o": ["2 sixties and 12", "1 sixty and 72", "13 tens and 2", "2 sixties and 2"], "e": "132 = 2 × 60 + 12; no place can hold 60 or more."},
+{"t": "The Roman system is hard for multiplication mainly because:", "o": ["Its landmarks don't go up by a fixed factor", "It has no symbol for 1", "It uses letters", "It is base 10"], "e": "1→5 is ×5, 5→10 is ×2, … so a product of landmarks like V × L = 250 is not a landmark."},
+{"t": "Find CCXXXII + CCCCXIII as a number.", "n": 645, "k": "232+413", "e": "232 + 413 = 645 = DCXLV. (Gather I's, X's and C's, then regroup: IIIII = V, CCCCC = D.)"}
+]},
+{"q": [
+{"t": "In a base-n system, the product of two landmark numbers is:", "o": ["Always another landmark number", "Never a landmark", "Sometimes a landmark", "Always n"], "e": "Landmarks are powers of n and nᵃ × nᵇ = nᵃ⁺ᵇ, another power of n."},
+{"t": "Multiplying an Egyptian numeral by 10 means:", "o": ["Replacing each symbol by the next landmark symbol", "Writing a 0 at the end", "Writing ten copies of the numeral side by side", "Adding ten strokes"], "e": "(100 + 10 + 1) × 10 = 1000 + 100 + 10: each landmark × 10 is the next landmark."},
+{"t": "Which number cannot be written in the base-5 system made in the chapter (no zero symbol)?", "o": ["0", "5", "125", "624"], "e": "Every positive whole number can be built from landmarks; 'nothing' has no symbol."},
+{"t": "Mayan landmarks were 1, 20, then:", "n": 360, "e": "The third Mayan landmark was 360, not 400 — probably linked to their calendar — so it is not a true base-20 system."},
+{"t": "Write 721 with Mayan landmarks 1, 20, 360: how many 360s?", "n": 2, "e": "721 = 2 × 360 + 0 × 20 + 1."},
+{"t": "What problem did the Mesopotamian blank spaces cause?", "o": ["Numbers like 61 and 3601 could look alike", "They could not write 1", "They could not add", "Numbers had to be written vertically"], "e": "A gap meant 'none of this power', but gaps were hard to see, so 1 | 1 and 1 | blank | 1 got confused."},
+{"t": "Find LXXXVII + LXXVIII as a number.", "n": 165, "k": "87+78", "e": "87 + 78 = 165 = CLXV."},
+{"t": "Find VII × IX as a number.", "n": 63, "k": "7*9", "e": "7 × 9 = 63, written LXIII."},
+{"t": "Using Gumulgal names, what is (ukasar-ukasar-ukasar-ukasar-urapon) − (ukasar-ukasar-ukasar)?", "o": ["ukasar-urapon", "ukasar-ukasar", "urapon", "ukasar-ukasar-urapon"], "e": "9 − 6 = 3 = 2 + 1."},
+{"t": "Who first codified arithmetic with zero as a number (628 CE)?", "o": ["Brahmagupta", "Aryabhata", "Fibonacci", "Al-Kindi"], "e": "Brahmagupta's Brāhmasphuṭasiddhānta gave the rules for 0 and negative numbers."}
+]},
+{"q": [
+{"t": "Write 25 in base 8.", "n": 31, "e": "25 = 3 × 8 + 1, so the eights digit is 3 and the units digit 1."},
+{"t": "Write 25 in base 5.", "n": 100, "e": "25 = 1 × 5² + 0 × 5 + 0, so it is written 100."},
+{"t": "Write 25 in base 2.", "n": 11001, "e": "25 = 16 + 8 + 1 = 1·2⁴ + 1·2³ + 0·2² + 0·2 + 1."},
+{"t": "Which feature does the Hindu system have that the Egyptian system lacks?", "o": ["Place value with a zero digit", "A base of 10", "Symbols for powers of 10", "Landmark numbers"], "e": "Both are base 10, but Egyptians needed a new symbol for each power; position + 0 needs only ten digits."},
+{"t": "Why did Chinese rod numerals alternate zong (upright) and heng (flat) rods?", "o": ["So neighbouring places look different and aren't misread", "To look decorative", "Because heng meant negative", "To show fractions"], "e": "With only upright rods, 41 could be misread as 23 or 32 if spacing slipped."},
+{"t": "An abacus adds 2907 + 43. What happens on the ones line?", "o": ["7 + 3 = 10 counters: clear them and carry one to the tens line", "Leave 10 counters there", "Move 3 counters to the hundreds line", "Nothing changes"], "e": "It's base 10, so ten ones become one ten — the same 'carry' as on paper. Answer 2950."},
+{"t": "In Mesopotamian notation, 1 × 3600 + 70 × 60 + 2 should be rewritten as:", "o": ["2 × 3600 + 10 × 60 + 2", "1 × 3600 + 70 × 60 + 2", "1 × 3600 + 7 × 600 + 2", "71 × 60 + 2"], "e": "No place may hold 60 or more: 70 sixties = 1 × 3600 + 10 sixties."},
+{"t": "What is L × D as a number (which has no single Roman symbol)?", "n": 25000, "k": "50*500", "e": "50 × 500 = 25000 — you'd need 25 Ms."},
+{"t": "Put these ideas in historical-logical order: (A) place value, (B) landmark numbers, (C) zero as a number, (D) a base.", "o": ["B, D, A, C", "A, B, C, D", "D, B, C, A", "B, A, D, C"], "e": "Landmarks (Roman) → powers of a base (Egyptian) → position (Mesopotamian) → zero (Indian)."},
+{"t": "How many numbers can a place-value system with 10 digits write?", "o": ["Unendingly many", "Only up to 9999999", "Only 10", "Only up to 10¹²"], "e": "Positions can go on for ever, each a higher power, with the same ten digits — the great advantage of place value."}
+]}
+]}

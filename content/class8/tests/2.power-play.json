@@ -1,0 +1,50 @@
+{"title": "2. Power Play", "tests": [
+{"q": [
+{"t": "Find 2⁵.", "n": 32, "k": "2**5", "e": "2 × 2 × 2 × 2 × 2 = 32. The exponent says how many 2s are multiplied."},
+{"t": "In 5⁴, which number is the base?", "o": ["5", "4", "625", "20"], "e": "The base is the number being multiplied; the exponent (4) says how many times."},
+{"t": "Find 3⁴.", "n": 81, "k": "3**4", "e": "3 × 3 = 9, × 3 = 27, × 3 = 81."},
+{"t": "Find 7⁰.", "n": 1, "k": "7**0", "e": "7³ ÷ 7³ = 1, and by the division law it is 7⁰. So any non-zero number to the power 0 is 1."},
+{"t": "Find (−1)⁵.", "n": -1, "k": "(-1)**5", "e": "The negatives pair up, but with an odd power one is left over, so the answer is negative."},
+{"t": "Write 2⁻¹ as a fraction.", "o": ["1/2", "−2", "−1/2", "2"], "k": "F(1,2)", "e": "2⁴ ÷ 2⁵ = 1/2, and the division law calls it 2⁴⁻⁵ = 2⁻¹. A negative exponent means a reciprocal, not a negative number."},
+{"t": "2³ × 2⁴ = 2^?", "n": 7, "e": "Three 2s followed by four more 2s is seven 2s in a row: exponents add."},
+{"t": "Paper 0.001 cm thick doubles with each fold. Which expression gives its thickness after 10 folds?", "o": ["0.001 × 2¹⁰ cm", "0.001 × 10 cm", "0.001 + 2¹⁰ cm", "0.001 × 10² cm"], "e": "Each fold multiplies by 2, ten times over."},
+{"t": "Estu has 4 dresses and 3 caps. How many different outfits can he make?", "n": 12, "k": "4*3", "e": "Each of the 3 caps goes with each of the 4 dresses: 4 + 4 + 4 = 4 × 3."},
+{"t": "Write 5900 in standard form.", "o": ["5.9 × 10³", "59 × 10²", "0.59 × 10⁴", "5.9 × 10²"], "e": "All the first three are equal to 5900, but standard form needs 1 ≤ x < 10, so 5.9 × 10³."}
+]},
+{"q": [
+{"t": "Find 2⁴ × 3⁴ using the rule mᵃ × nᵃ = (mn)ᵃ.", "n": 1296, "k": "6**4", "e": "Pair each 2 with a 3: (2×3)⁴ = 6⁴ = 1296."},
+{"t": "Find 2⁵ × 5⁵.", "n": 100000, "k": "10**5", "e": "(2 × 5)⁵ = 10⁵ = 1,00,000."},
+{"t": "(4³)² = 4^?", "n": 6, "e": "2 groups of three 4s = six 4s: exponents multiply in a power of a power."},
+{"t": "Find 2¹⁰⁰ ÷ 2²⁵ as a power of 2. Give the exponent.", "n": 75, "k": "100-25", "e": "25 of the 2s on top cancel the 25 below, leaving 100 − 25 = 75."},
+{"t": "Simplify 3² × 3⁻⁵ × 3⁶. Give the value.", "n": 27, "k": "F(3)**(2-5+6)", "e": "Add the exponents: 2 − 5 + 6 = 3, so 3³ = 27."},
+{"t": "Find 2⁴ × 4⁻².", "n": 1, "k": "F(2)**4*F(4)**-2", "e": "4⁻² = (2²)⁻² = 2⁻⁴, so 2⁴ × 2⁻⁴ = 2⁰ = 1."},
+{"t": "How many passwords does a 5-digit lock (digits 0–9) have?", "n": 100000, "k": "10**5", "e": "10 choices for each of 5 digits: 10 × 10 × 10 × 10 × 10 = 10⁵ (00000 to 99999)."},
+{"t": "Lotuses double daily and cover the pond on day 30. On which day was it half covered?", "n": 29, "e": "The last doubling takes the pond from half to full, so half was one day earlier."},
+{"t": "Roxie has 7 dresses, 2 hats and 3 pairs of shoes. How many ways can she dress up?", "n": 42, "k": "7*2*3", "e": "Multiply the choices at each step: 7 × 2 × 3."},
+{"t": "Write 20800 in standard form.", "o": ["2.08 × 10⁴", "20.8 × 10³", "2.08 × 10³", "208 × 10²"], "e": "Move the point 4 places left to get 2.08 (between 1 and 10), so the exponent is 4."}
+]},
+{"q": [
+{"t": "In the 'stones that shine' poem everything comes in 3s through 7 levels. How many diamonds are there?", "n": 2187, "k": "3**7", "e": "3⁷ = 3⁴ × 3³ = 81 × 27 = 2187."},
+{"t": "Find (−3)² × (−5)².", "n": 225, "k": "(-3)**2*(-5)**2", "e": "Even powers make negatives positive: 9 × 25 = 225."},
+{"t": "Find (−2)⁵ × (−10)⁶.", "n": -32000000, "k": "(-2)**5*(-10)**6", "e": "(−2)⁵ = −32 (odd power) and (−10)⁶ = 10⁶ (even power): −32 × 1000000."},
+{"t": "Which is greater: 4³ or 3⁴?", "o": ["3⁴ = 81", "4³ = 64", "They are equal", "Can't tell"], "e": "4³ = 64 and 3⁴ = 81."},
+{"t": "Express 648 in prime powers.", "o": ["2³ × 3⁴", "2⁴ × 3³", "2² × 3⁵", "2³ × 3³"], "e": "648 = 8 × 81 = 2³ × 3⁴."},
+{"t": "Find 10⁴ ÷ 5⁴.", "n": 16, "k": "(10//5)**4", "e": "mᵃ ÷ nᵃ = (m/n)ᵃ: (10/5)⁴ = 2⁴ = 16."},
+{"t": "If 12² = 144, find 0.012².", "o": ["0.000144", "0.00144", "0.0144", "0.144"], "k": "F('0.012')**2", "e": "0.012 has 3 decimal places; its square has 6: 0.000144."},
+{"t": "What is 10⁹ + 10⁹?", "o": ["2 × 10⁹", "10¹⁸", "20⁹", "10¹⁰"], "e": "One billion plus one billion is two billion. Exponents add only when you MULTIPLY powers."},
+{"t": "How many times larger than 4⁻² is 4²?", "n": 256, "k": "4**4", "e": "4² ÷ 4⁻² = 4^(2−(−2)) = 4⁴ = 256."},
+{"t": "Write 34,30,000 in standard form.", "o": ["3.43 × 10⁶", "3.43 × 10⁵", "34.3 × 10⁵", "3.43 × 10⁷"], "e": "34,30,000 has 7 digits, so moving the point to after the 3 is 6 places: 3.43 × 10⁶."}
+]},
+{"q": [
+{"t": "What is the units digit of 2²²⁴ ÷ 4³²?", "n": 6, "k": "2**(224-64)%10", "e": "4³² = 2⁶⁴, so the value is 2¹⁶⁰. Units digits of powers of 2 cycle 2, 4, 8, 6; 160 is a multiple of 4, so it ends in 6."},
+{"t": "A dairy needs unique codes (digits 0–9) for 8.5 billion packets. At least how many digits must each code have?", "n": 10, "e": "n digits give 10ⁿ codes. 10⁹ = 1 billion is too few; 10¹⁰ = 10 billion is enough."},
+{"t": "A locker code has 5 slots, each a letter A–Z or a digit 0–9. How many codes are possible?", "n": 60466176, "k": "36**5", "e": "26 + 10 = 36 symbols for each slot: 36⁵."},
+{"t": "Numbers that are both perfect squares and perfect cubes are exactly the:", "o": ["sixth powers", "fourth powers", "fifth powers", "even numbers"], "e": "Each prime's exponent must be divisible by 2 and by 3, so by 6: 1, 64, 729, …"},
+{"t": "'The product of two cube numbers is a cube.' This is:", "o": ["Always true", "Sometimes true", "Never true", "True only for even cubes"], "e": "a³ × b³ = (ab)³ — regroup the copies in pairs."},
+{"t": "Simplify m⁵n¹²(mn)⁹.", "o": ["m¹⁴n²¹", "m⁴⁵n¹⁰⁸", "m¹⁴n¹²", "(mn)²⁶"], "e": "(mn)⁹ = m⁹n⁹. Then m⁵⁺⁹ = m¹⁴ and n¹²⁺⁹ = n²¹."},
+{"t": "There are about 2 × 10¹⁶ ants and 8 × 10⁹ people. About how many ants per person?", "o": ["2.5 × 10⁶", "2.5 × 10⁷", "4 × 10⁶", "1.6 × 10²⁶"], "e": "2 ÷ 8 = 0.25 and 10¹⁶ ÷ 10⁹ = 10⁷: 0.25 × 10⁷ = 2.5 × 10⁶."},
+{"t": "About how long is 10⁶ seconds?", "o": ["About 11.6 days", "About 11.6 hours", "About 31.7 years", "About 1 year"], "e": "10⁶ ÷ (60 × 60 × 24) = 10⁶ ÷ 86400 ≈ 11.57 days."},
+{"t": "A ladder to the Moon (3,84,400 km) has steps 20 cm apart. How many steps (in crores)?", "n": 192.2, "u": "crore", "k": "F(384400*100000,20)/10**7", "e": "3,84,400 km = 3.844 × 10¹⁰ cm; ÷ 20 = 1.922 × 10⁹ = 192.2 crore. Linear growth needs billions of steps where doubling needed 46 folds."},
+{"t": "Which three are equal: 2⁴×3⁶, 6⁴×3², 6¹⁰, 18²×6²?", "o": ["2⁴×3⁶, 6⁴×3², 18²×6²", "2⁴×3⁶, 6¹⁰, 18²×6²", "6⁴×3², 6¹⁰, 18²×6²", "All four"], "e": "6⁴×3² = 2⁴3⁴×3² = 2⁴3⁶ and 18²×6² = 2²3⁴×2²3² = 2⁴3⁶. All are 11664; 6¹⁰ is far bigger."}
+]}
+]}

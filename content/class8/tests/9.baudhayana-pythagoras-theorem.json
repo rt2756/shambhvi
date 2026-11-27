@@ -1,0 +1,50 @@
+{"title": "9. The Baudhāyana–Pythagoras Theorem", "tests": [
+{"q": [
+{"t": "A right triangle has legs 3 and 4. Find the hypotenuse.", "n": 5, "k": "(9+16)**F(1,2)", "e": "c² = 3² + 4² = 25, so c = 5."},
+{"t": "A right triangle has legs 5 cm and 12 cm. Find the hypotenuse (in cm).", "n": 13, "u": "cm", "k": "(25+144)**F(1,2)", "e": "25 + 144 = 169 = 13²."},
+{"t": "Leg 8 cm, hypotenuse 17 cm. Find the other leg (in cm).", "n": 15, "u": "cm", "k": "(289-64)**F(1,2)", "e": "Finding a leg means SUBTRACT: 289 − 64 = 225 = 15²."},
+{"t": "In a right triangle, the hypotenuse is:", "o": ["The side opposite the right angle", "The shortest side", "Either leg", "The side next to the right angle"], "e": "It faces the 90° angle and is always the longest side."},
+{"t": "The square on the diagonal of a square has what area compared with the square?", "o": ["Double", "Equal", "Four times", "Half"], "e": "c² = a² + a² = 2a² — Baudhāyana's way of doubling a square."},
+{"t": "Which is a Baudhāyana triple?", "o": ["(8, 15, 17)", "(4, 5, 6)", "(2, 3, 4)", "(5, 10, 15)"], "k": "8**2+15**2-17**2+8", "e": "64 + 225 = 289 = 17²."},
+{"t": "Find the hypotenuse of a right triangle with legs 6 and 8.", "n": 10, "k": "(36+64)**F(1,2)", "e": "(6, 8, 10) is (3, 4, 5) scaled by 2."},
+{"t": "Who stated this theorem in the Śulba-Sūtra around 800 BCE?", "o": ["Baudhāyana", "Pythagoras", "Fermat", "Aryabhata"], "e": "Baudhāyana's Śulba-Sūtra gives it in full generality, centuries before Pythagoras."},
+{"t": "Is (6, 8, 10) a primitive triple?", "o": ["No — all three are divisible by 2", "Yes", "Yes, it's the smallest", "No — it isn't a triple at all"], "e": "Primitive means no common factor above 1; (6, 8, 10) = 2 × (3, 4, 5)."},
+{"t": "An isosceles right triangle has equal sides 6. Its hypotenuse lies between:", "o": ["8 and 9", "6 and 7", "11 and 12", "12 and 13"], "e": "c² = 2 × 36 = 72, and 8² = 64 < 72 < 81 = 9²."}
+]},
+{"q": [
+{"t": "Find the diagonal of a square of side 5 cm (2 decimal places).", "n": 7.07, "u": "cm", "e": "d² = 25 + 25 = 50, and √50 ≈ 7.07."},
+{"t": "An isosceles right triangle has hypotenuse √72. Find each equal side.", "n": 6, "k": "(F(72,2))**F(1,2)", "e": "c² = 2a²: 72 = 2a², so a² = 36."},
+{"t": "A rhombus has diagonals 24 and 70. Find its side.", "n": 37, "k": "(12**2+35**2)**F(1,2)", "e": "The diagonals bisect each other at 90°, so each side is the hypotenuse of a 12-35 right triangle: √1369 = 37."},
+{"t": "A 10 m ladder reaches a window 8 m high. How far is its foot from the wall (in m)?", "n": 6, "u": "m", "k": "(100-64)**F(1,2)", "e": "The ladder is the hypotenuse: √(100 − 64) = 6."},
+{"t": "Find the missing side: a = 9, c = 15.", "n": 12, "k": "(225-81)**F(1,2)", "e": "b² = 225 − 81 = 144."},
+{"t": "How many Baudhāyana triples have all numbers ≤ 20?", "n": 6, "k": "len([(a,b,c) for c in range(1,21) for b in range(1,c) for a in range(1,b) if a*a+b*b==c*c])", "e": "(3,4,5), (6,8,10), (5,12,13), (9,12,15), (8,15,17), (12,16,20)."},
+{"t": "If (a, b, c) is a triple, (ka, kb, kc) is also a triple because:", "o": ["(ka)² + (kb)² = k²(a² + b²) = (kc)²", "k + a = k + c", "all multiples are squares", "it only works for k = 2"], "e": "The factor k² comes out of every term."},
+{"t": "Using odd squares: 2n − 1 = 25 gives n = 13. Which triple?", "o": ["(5, 12, 13)", "(12, 13, 25)", "(5, 13, 25)", "(3, 4, 5)"], "e": "(n − 1)² + (2n − 1) = n²: 12² + 5² = 13²."},
+{"t": "A right triangle has legs 7 and 24. Find the hypotenuse.", "n": 25, "k": "(49+576)**F(1,2)", "e": "49 + 576 = 625 = 25²."},
+{"t": "Is √2 a fraction (a ratio of two whole numbers)?", "o": ["No — its decimals never end or repeat", "Yes, it is 1.414", "Yes, it is 7/5", "Yes, it is 3/2"], "e": "1.414² = 1.999396 and 7/5 squared is 49/25 — close, never exact."}
+]},
+{"q": [
+{"t": "Bhāskara's lotus is 1 unit above water; pushed over, its tip touches the water 3 units away. How deep is the lake?", "n": 4, "k": "F(9-1,2)", "e": "Stem x + 1 is the hypotenuse: 9 + x² = (x + 1)² → 9 = 2x + 1 → x = 4."},
+{"t": "Equilateral triangle with side 6: what is its height squared?", "n": 27, "k": "36-9", "e": "The altitude bisects the base: h² = 6² − 3² = 27, so h ≈ 5.2."},
+{"t": "Which primitive triple is NOT produced by the odd-square method (bigger leg = hypotenuse − 1)?", "o": ["(8, 15, 17)", "(7, 24, 25)", "(9, 40, 41)", "(3, 4, 5)"], "e": "In (8, 15, 17) the bigger leg is 2 less than the hypotenuse."},
+{"t": "Which square area CANNOT be drawn with its corners on a square dot grid?", "o": ["3", "2", "5", "8"], "e": "A tilted square's area is p² + q² for whole p, q: 2 = 1 + 1, 5 = 4 + 1, 8 = 4 + 4, but no two squares add to 3."},
+{"t": "To build a square 5 times the area of a square of side a, use a right triangle with legs:", "o": ["a and 2a", "a and 5a", "2a and 3a", "a and a"], "e": "a² + (2a)² = 5a²."},
+{"t": "Can all three sides of a whole-number right triangle be odd?", "o": ["No — odd² + odd² is even, but the hypotenuse² would be odd", "Yes, e.g. (3, 5, 7)", "Yes, always", "Only if the triangle is isosceles"], "e": "An odd number squared is odd, and odd + odd is even."},
+{"t": "Find the missing hypotenuse when the legs are 150 and 200.", "n": 250, "k": "(150**2+200**2)**F(1,2)", "e": "50 × (3, 4, 5) = (150, 200, 250)."},
+{"t": "Hypotenuse 45, one leg 27. Find the other leg.", "n": 36, "k": "(45**2-27**2)**F(1,2)", "e": "9 × (3, 4, 5) = (27, 36, 45); or 2025 − 729 = 1296 = 36²."},
+{"t": "Fermat's Last Theorem says xⁿ + yⁿ = zⁿ has no positive whole-number solutions when:", "o": ["n > 2", "n = 2", "n is odd", "n is even"], "e": "For n = 2 there are infinitely many (the triples); for n ≥ 3, none. Proved by Andrew Wiles in 1994."},
+{"t": "A square has the area 7² − 5². What is its area?", "n": 24, "k": "49-25", "e": "Use a right triangle with hypotenuse 7 and leg 5; the other leg is √24."}
+]},
+{"q": [
+{"t": "A rectangle has sides 8 and 15. Find its diagonal.", "n": 17, "k": "(64+225)**F(1,2)", "e": "The diagonal makes a right triangle with the two sides."},
+{"t": "An isosceles right triangle has hypotenuse 10. Find the square of each equal side.", "n": 50, "k": "F(100,2)", "e": "c² = 2a²: 100 = 2a², a² = 50, so a = √50 ≈ 7.07."},
+{"t": "A pole 9 m tall is tied to a peg 12 m from its foot. How long is the rope (in m)?", "n": 15, "u": "m", "k": "(81+144)**F(1,2)", "e": "3 × (3, 4, 5) = (9, 12, 15)."},
+{"t": "A boy walks 24 m east then 10 m north. How far is he from the start (in m)?", "n": 26, "u": "m", "k": "(576+100)**F(1,2)", "e": "2 × (5, 12, 13) = (10, 24, 26)."},
+{"t": "A triangle has sides 7, 24, 25. Is it right-angled?", "o": ["Yes, because 7² + 24² = 25²", "No, it's too long", "Only if it is isosceles", "Can't tell"], "e": "49 + 576 = 625. The converse of the theorem: if the squares add up, the angle opposite the longest side is 90°."},
+{"t": "A triangle has sides 5, 6, 8. Is it right-angled?", "o": ["No, 25 + 36 ≠ 64", "Yes", "Only if drawn carefully", "Yes, because 5 + 6 > 8"], "e": "25 + 36 = 61, not 64."},
+{"t": "Two squares have sides 20 and 21. A single square with their combined area has side:", "n": 29, "k": "(400+441)**F(1,2)", "e": "400 + 441 = 841 = 29², so (20, 21, 29) is a primitive triple."},
+{"t": "An equilateral triangle has side 6. Its area to 1 decimal place is about:", "o": ["15.6", "18", "10.4", "31.2"], "e": "h = √27 ≈ 5.196; area = ½ × 6 × 5.196 ≈ 15.6."},
+{"t": "From 2n − 1 = 81, which triple comes out?", "o": ["(9, 40, 41)", "(9, 12, 15)", "(9, 41, 81)", "(40, 41, 81)"], "e": "n = 41: (n − 1)² + 81 = n² → 40² + 9² = 41²."},
+{"t": "A TV screen is 32 inches wide and 24 inches tall. Its diagonal is (in inches):", "n": 40, "u": "in", "k": "(32**2+24**2)**F(1,2)", "e": "8 × (4, 3, 5) = (32, 24, 40)."}
+]}
+]}

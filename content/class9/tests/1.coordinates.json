@@ -1,0 +1,53 @@
+{
+  "title": "1. Orienting Yourself: The Use of Coordinates",
+  "tests": [
+    { "q": [
+      { "t": "What are the coordinates of the origin?", "o": ["(0, 0)", "(1, 0)", "(0, 1)", "(1, 1)"], "e": "The origin is where the axes cross: zero distance from both axes, so both coordinates are 0." },
+      { "t": "What is the x-coordinate of the point (4, −7)?", "n": 4, "e": "The x-coordinate is always written first. It is the signed distance from the y-axis." },
+      { "t": "What is the y-coordinate of the point (4, −7)?", "n": -7, "e": "The y-coordinate is written second. −7 means 7 units below the x-axis." },
+      { "t": "In which quadrant does (−3, 5) lie?", "o": ["II", "I", "III", "IV"], "e": "x is negative (left of the y-axis) and y is positive (above the x-axis): left and up is Quadrant II." },
+      { "t": "In which quadrant does (6, −2) lie?", "o": ["IV", "I", "II", "III"], "e": "x positive (right), y negative (down): right and down is Quadrant IV." },
+      { "t": "The point (0, −3) lies:", "o": ["On the y-axis", "On the x-axis", "In Quadrant III", "In Quadrant IV"], "e": "Its x-coordinate is 0, so it is zero distance from the y-axis — it sits on the y-axis. Points on an axis are in no quadrant." },
+      { "t": "The point (5, 0) lies:", "o": ["On the x-axis", "On the y-axis", "In Quadrant I", "In Quadrant IV"], "e": "Its y-coordinate is 0, so it is zero distance from the x-axis — it sits on the x-axis." },
+      { "t": "How far is (3, −4) from the x-axis (in units)?", "n": 4, "k": "abs(-4)", "e": "The distance from the x-axis is the size of the y-coordinate: |−4| = 4." },
+      { "t": "The horizontal axis of the Cartesian plane is called the:", "o": ["x-axis", "y-axis", "origin", "quadrant"], "e": "By convention the horizontal number line is the x-axis and the vertical one is the y-axis." },
+      { "t": "Into how many quadrants do the axes divide the plane?", "n": 4, "e": "Left/right of the y-axis (2 choices) × above/below the x-axis (2 choices) = 4 regions." }
+    ] },
+    { "q": [
+      { "t": "How far is (−6, 2) from the y-axis (in units)?", "n": 6, "k": "abs(-6)", "e": "The distance from the y-axis is the size of the x-coordinate: |−6| = 6." },
+      { "t": "What is the reflection of (3, 5) in the x-axis?", "o": ["(3, −5)", "(−3, 5)", "(−3, −5)", "(5, 3)"], "e": "A mirror along the x-axis flips up and down: the y-coordinate changes sign, x stays." },
+      { "t": "What is the reflection of (3, 5) in the y-axis?", "o": ["(−3, 5)", "(3, −5)", "(−3, −5)", "(5, 3)"], "e": "A mirror along the y-axis flips left and right: the x-coordinate changes sign, y stays." },
+      { "t": "Find the distance between (2, 3) and (2, −4) (in units).", "n": 7, "k": "3 - (-4)", "e": "Same x, so the segment is vertical: subtract the y's, 3 − (−4) = 7." },
+      { "t": "Find the distance between (−3, 1) and (5, 1) (in units).", "n": 8, "k": "5 - (-3)", "e": "Same y, so the segment is horizontal: subtract the x's, 5 − (−3) = 8." },
+      { "t": "A point on the x-axis is 5 units to the left of the origin. Its coordinates are:", "o": ["(−5, 0)", "(0, −5)", "(5, 0)", "(0, 5)"], "e": "On the x-axis means y = 0; left of the origin means x is negative." },
+      { "t": "The points (2, 2), (5, 2) and (−1, 2) all lie on a line that is:", "o": ["Parallel to the x-axis", "Parallel to the y-axis", "The y-axis", "Through the origin"], "e": "They all have y = 2 — the same height — so they lie on a horizontal line 2 units above the x-axis." },
+      { "t": "If the two coordinates of a point have opposite signs, it lies in quadrant:", "o": ["II or IV", "I or III", "I or II", "III or IV"], "e": "(−, +) is Quadrant II and (+, −) is Quadrant IV." },
+      { "t": "Find the distance between A (3, 4) and D (7, 1) (in units).", "n": 5, "k": "math.sqrt((7-3)**2 + (4-1)**2)", "e": "Sideways shift 4, up-down shift 3; by Baudhāyana–Pythagoras, √(16 + 9) = √25 = 5." },
+      { "t": "When is the point (x, y) the same as the point (y, x)?", "o": ["Only when x = y", "Always", "Never", "Only when x = 0"], "e": "Two points are equal only if both coordinates match; swapping makes the first coordinates x and y, equal only when x = y." }
+    ] },
+    { "q": [
+      { "t": "Three feet of a rectangular table are at (8, 9), (11, 9) and (11, 7). Where is the fourth foot?", "o": ["(8, 7)", "(11, 8)", "(7, 8)", "(9, 7)"], "e": "A rectangle's missing corner takes the x of one neighbour (8) and the y of the other (7)." },
+      { "t": "Find the distance from the origin to (6, 8) (in units).", "n": 10, "k": "math.sqrt(6**2 + 8**2)", "e": "√(6² + 8²) = √(36 + 64) = √100 = 10." },
+      { "t": "Find the midpoint of the segment joining (−2, 4) and (6, −8).", "o": ["(2, −2)", "(4, −4)", "(2, 2)", "(−4, 6)"], "e": "Average the x's: (−2 + 6)/2 = 2. Average the y's: (4 − 8)/2 = −2." },
+      { "t": "The point (a, b) lies in Quadrant IV. In which quadrant does (−a, −b) lie?", "o": ["II", "I", "III", "IV"], "e": "In IV, a > 0 and b < 0, so −a < 0 and −b > 0: left and up is Quadrant II." },
+      { "t": "M (−7, 1) is the midpoint of A (3, −4) and B. Find the x-coordinate of B.", "n": -17, "k": "2*(-7) - 3", "e": "Other end = 2 × midpoint − known end: 2(−7) − 3 = −17." },
+      { "t": "M (−7, 1) is the midpoint of A (3, −4) and B. Find the y-coordinate of B.", "n": 6, "k": "2*1 - (-4)", "e": "2 × 1 − (−4) = 6. Check: (−4 + 6)/2 = 1 ✓." },
+      { "t": "Find the distance between D (7, 1) and M (9, 6), to 2 decimal places.", "n": 5.39, "e": "Shifts 2 and 5: √(4 + 25) = √29 ≈ 5.39." },
+      { "t": "Triangle ADM is reflected in the y-axis. What happens to the lengths of its sides?", "o": ["They stay the same", "They double", "They become negative", "They are halved"], "e": "Each x-difference only changes sign, and the distance formula squares it, so every length is unchanged." },
+      { "t": "W has x-coordinate −5. Point H is on the line through W parallel to the y-axis. Which must be true?", "o": ["H has x-coordinate −5", "H has y-coordinate −5", "H is in Quadrant I", "H is the origin"], "e": "A line parallel to the y-axis is vertical: every point on it has the same x-coordinate as W." },
+      { "t": "How far is (−5, 12) from the origin (in units)?", "n": 13, "k": "math.sqrt(25 + 144)", "e": "√(25 + 144) = √169 = 13. The negative sign doesn't matter once squared." }
+    ] },
+    { "q": [
+      { "t": "Are M (−3, −4), A (0, 0) and G (6, 8) collinear?", "o": ["Yes — MA + AG = MG (5 + 10 = 15)", "No — the distances don't add up", "No — A is the origin", "Can't tell without plotting"], "e": "MA = 5, AG = 10, MG = 15. The two shorter distances add up to the longest, so there is no detour — the points are on one line." },
+      { "t": "A (4, 7) and B (16, −2). P is the point of trisection nearer A. Find P.", "o": ["(8, 4)", "(10, 2.5)", "(12, 1)", "(6, 5)"], "e": "Total shift (12, −9); one third of it is (4, −3); A + (4, −3) = (8, 4)." },
+      { "t": "A (1, −8), B (−4, 7), C (−7, −4) lie on a circle centred at the origin. What is r²?", "n": 65, "k": "1 + 64", "e": "Each point is √65 from O: 1 + 64 = 16 + 49 = 49 + 16 = 65." },
+      { "t": "For the circle x² + y² = 65 (centre O, radius √65), where is D (−5, 6)?", "o": ["Inside the circle", "On the circle", "Outside the circle", "At the centre"], "e": "25 + 36 = 61 < 65, so D is closer to O than the radius — inside." },
+      { "t": "The midpoints of BC, CA, AB of triangle ABC are D (5, 1), E (6, 5) and F (0, 3). Find A.", "o": ["(1, 7)", "(11, 3)", "(−1, −1)", "(5, 5)"], "e": "D + E + F = A + B + C = (11, 9); B + C = 2D = (10, 2); so A = (11, 9) − (10, 2) = (1, 7)." },
+      { "t": "A (2, 1), B (−1, 2), C (−2, −1), D (1, −2) form a square. Find its area (in square units).", "n": 10, "k": "(2-(-1))**2 + (1-2)**2", "e": "Each side is √(9 + 1) = √10 and the diagonals are equal, so it's a square of area (√10)² = 10." },
+      { "t": "Circles of radius 80 and 100 have centres (100, 150) and (250, 230). Find the distance between the centres.", "n": 170, "k": "math.sqrt(150**2 + 80**2)", "e": "√(150² + 80²) = √(22500 + 6400) = √28900 = 170." },
+      { "t": "For the same two circles (radii 80 and 100, centres 170 apart), what is true?", "o": ["They overlap, since 170 < 80 + 100", "They are separate, since 170 > 100", "They just touch", "One is inside the other"], "e": "If they just touched, the centres would be 180 apart. They are closer than that, so the edges cross." },
+      { "t": "Are R (−5, −1), B (−2, −5) and C (4, −12) collinear?", "o": ["No — the step (6, −7) is not a multiple of (3, −4)", "Yes — they look straight", "Yes — RB + BC = RC exactly", "No — C is in Quadrant III"], "e": "A straight path keeps the same direction, so the steps must be multiples. 6 ÷ 3 = 2 but −7 ÷ −4 = 1.75: the path turns." },
+      { "t": "(x, y) is reflected in the x-axis and then in the y-axis. The result is the same as:", "o": ["(−x, −y)", "(x, y)", "(y, x)", "(−y, −x)"], "e": "x-axis: (x, −y); then y-axis: (−x, −y). Both signs flip — a half-turn about the origin." }
+    ] }
+  ]
+}

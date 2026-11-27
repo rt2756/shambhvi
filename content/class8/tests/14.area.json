@@ -1,0 +1,50 @@
+{"title": "14. Area", "tests": [
+{"q": [
+{"t": "Find the area of a triangle with base 12 cm and height 5 cm (in cm²).", "n": 30, "u": "cm²", "k": "F(1,2)*12*5", "e": "A triangle is half of a parallelogram on the same base and height."},
+{"t": "Find the area of a parallelogram with base 9 cm and height 4 cm (in cm²).", "n": 36, "u": "cm²", "k": "9*4", "e": "Slide the end triangle across and it becomes a 9 × 4 rectangle."},
+{"t": "Which is the formula for the area of a trapezium with parallel sides a, b and height h?", "o": ["½ × (a + b) × h", "(a + b) × h", "½ × a × b × h", "a × b × h"], "e": "Two copies, one turned round, make a parallelogram of base a + b."},
+{"t": "Find the area of a rhombus with diagonals 20 cm and 15 cm (in cm²).", "n": 150, "u": "cm²", "k": "F(1,2)*20*15", "e": "½ × d₁ × d₂: the rhombus fills half of the 20 × 15 rectangle around it."},
+{"t": "A rectangle has area 28 in² and one side 4 in. The other side is (in in):", "n": 7, "u": "in", "k": "F(28,4)", "e": "Area ÷ known side."},
+{"t": "Two rectangles have the same perimeter. Their areas are:", "o": ["Not necessarily equal", "Always equal", "Always different", "Equal only if both are squares"], "e": "A 1 × 9 and a 5 × 5 rectangle both have perimeter 20, but areas 9 and 25."},
+{"t": "The height used in the area of a triangle must be:", "o": ["Perpendicular to the base", "Any side", "The longest side", "The slanting side"], "e": "Height is the straight-up distance from the base to the opposite vertex."},
+{"t": "What is the area of an A4 sheet, 21 cm × 29.7 cm (in cm²)?", "n": 623.7, "u": "cm²", "k": "21*F('29.7')", "e": "Length × width."},
+{"t": "How many square metres make 1 hectare?", "n": 10000, "k": "100*100", "e": "A hectare is a square 100 m by 100 m."},
+{"t": "1 ft² equals how many in²?", "n": 144, "k": "12**2", "e": "1 ft = 12 in, so a square foot is 12 × 12 square inches."}
+]},
+{"q": [
+{"t": "Quadrilateral ABCD has diagonal AC = 22 cm and perpendiculars of 3 cm from B and D. Area (in cm²)?", "n": 66, "u": "cm²", "k": "F(1,2)*22*3*2", "e": "Two triangles on base AC: ½ × 22 × 3 each."},
+{"t": "Find the area of a trapezium with parallel sides 6 cm and 10 cm and height 4 cm (in cm²).", "n": 32, "u": "cm²", "k": "F(1,2)*(6+10)*4", "e": "½ × 16 × 4."},
+{"t": "1 in = 2.54 cm. How many cm² is 1 in²?", "n": 6.4516, "u": "cm²", "k": "F('2.54')**2", "e": "Square the conversion factor for areas: 2.54²."},
+{"t": "Convert 161.29 cm² to in².", "n": 25, "u": "in²", "k": "F('161.29')/F('6.4516')", "e": "Divide by 6.4516."},
+{"t": "Triangles on the same base and between the same parallel lines have:", "o": ["Equal areas", "Equal perimeters", "Equal angles", "Nothing in common"], "e": "Same base and same height give the same ½ × b × h."},
+{"t": "A rhombus has area 96 cm² and one diagonal 16 cm. Find the other diagonal (in cm).", "n": 12, "u": "cm", "k": "F(2*96,16)", "e": "½ × 16 × d = 96."},
+{"t": "A trapezium has area 105 cm², height 7 cm and one parallel side 12 cm. Find the other parallel side (in cm).", "n": 18, "u": "cm", "k": "F(2*105,7)-12", "e": "½ × (12 + b) × 7 = 105 → 12 + b = 30."},
+{"t": "A 'house' shape is a rectangle 12 m by 8 m with a triangle of height 5 m on top of the 12 m side. Area (in m²)?", "n": 126, "u": "m²", "k": "12*8+F(1,2)*12*5", "e": "96 + 30."},
+{"t": "1 km² equals how many m²?", "n": 1000000, "k": "1000**2", "e": "1000 m × 1000 m."},
+{"t": "All parallelograms on the same base between the same parallels have equal areas. Their perimeters:", "o": ["Grow as they get more slanted", "Are all equal", "Shrink as they slant", "Are always 0"], "e": "Same height, but the slanted sides get longer."}
+]},
+{"q": [
+{"t": "A regular hexagon is cut into a trapezium, a rhombus and an equilateral triangle. Ratio of their areas?", "o": ["3 : 2 : 1", "1 : 1 : 1", "2 : 2 : 1", "3 : 1 : 2"], "e": "The hexagon is 6 small equilateral triangles: trapezium 3, rhombus 2, triangle 1."},
+{"t": "A rhombus has side 13 cm and one diagonal 10 cm. Find its area (in cm²).", "n": 120, "u": "cm²", "k": "F(1,2)*10*2*(169-25)**F(1,2)", "e": "Half-diagonals 5 and 12 (5-12-13), so the diagonals are 10 and 24: ½ × 10 × 24."},
+{"t": "Which trapezium has area 144 cm²?", "o": ["Parallel sides 10 and 14 cm, height 12 cm", "Parallel sides 10 and 14 cm, height 6 cm", "Parallel sides 12 and 12 cm, height 6 cm", "Parallel sides 6 and 18 cm, height 6 cm"], "e": "½ × 24 × 12 = 144."},
+{"t": "In quadrilateral ABCD, BD = 26 cm and perpendiculars from A and C to BD are 12.8 cm and 11.2 cm. Area (in cm²)?", "n": 312, "u": "cm²", "k": "F(1,2)*26*(F('12.8')+F('11.2'))", "e": "½ × 26 × 24."},
+{"t": "A trapezium has the same area as a square of side 12 cm. Its parallel sides are 10 and 14 cm. Height (in cm)?", "n": 12, "u": "cm", "k": "F(2*144,24)", "e": "½ × 24 × h = 144."},
+{"t": "M and N are midpoints of XY and XZ in triangle XYZ. Area of XMN is what fraction of XYZ?", "o": ["1/4", "1/2", "1/3", "1/8"], "e": "Half the base and half the height: ½ × ½."},
+{"t": "A path of width 2 m surrounds a 20 m × 10 m park. Area of the path (in m²)?", "n": 136, "u": "m²", "k": "24*14-20*10", "e": "Outer 24 × 14 = 336 minus the park 200."},
+{"t": "Doubling every length of a shape multiplies its area by:", "n": 4, "e": "Area scales by the square of the length factor: 2²."},
+{"t": "Convert 10 in² to cm².", "n": 64.516, "u": "cm²", "k": "10*F('6.4516')", "e": "10 × 6.4516."},
+{"t": "A hexagon is a 10 cm × 6 cm rectangle with a triangle of height 4 cm on each 6 cm side. Area (in cm²)?", "n": 84, "u": "cm²", "k": "10*6+2*F(1,2)*6*4", "e": "60 + 12 + 12."}
+]},
+{"q": [
+{"t": "A trapezium has parallel sides 25 cm and 11 cm, and non-parallel sides 15 cm and 13 cm. Area (in cm²)?", "n": 216, "u": "cm²", "k": "F(1,2)*(25+11)*12", "e": "Cutting off a parallelogram leaves a 14-15-13 triangle whose height is 12 (from area 84 on base 14)."},
+{"t": "The mid-line of a trapezium (joining midpoints of the slanted sides) is 15 cm and the height is 8 cm. Area (in cm²)?", "n": 120, "u": "cm²", "k": "15*8", "e": "The mid-line equals ½(a + b), so area = mid-line × height."},
+{"t": "A quadrilateral has perpendicular diagonals 18 cm and 25 cm. Area (in cm²)?", "n": 225, "u": "cm²", "k": "F(1,2)*18*25", "e": "½ × d₁ × d₂ works for any quadrilateral with perpendicular diagonals."},
+{"t": "A rhombus has the same area as a triangle with base 24.8 cm and height 16.5 cm. One diagonal is 22 cm. Find the other (in cm).", "n": 18.6, "u": "cm", "k": "F(1,2)*F('24.8')*F('16.5')*2/22", "e": "Triangle area 204.6; ½ × 22 × d = 204.6."},
+{"t": "A regular octagon of side 5 m is a rectangle 11 m × 5 m plus two trapeziums (parallel sides 5 and 11 m, height 4 m). Area (in m²)?", "n": 119, "u": "m²", "k": "11*5+2*F(1,2)*(5+11)*4", "e": "55 + 32 + 32."},
+{"t": "Equilateral triangle vs square, both of side s. Which is bigger?", "o": ["The square (more than twice the triangle)", "The triangle", "They are equal", "It depends on s"], "e": "Triangle ≈ 0.433s², square = s²."},
+{"t": "ZYXW is a trapezium (ZY ∥ WX), A is the midpoint of XY, and ZA meets WX produced at B. Then area of ZYXW equals area of:", "o": ["Triangle ZWB", "Triangle ZAY", "Triangle ABX", "Half of ZWB"], "e": "∆ZAY ≅ ∆BAX, so swapping them keeps the area."},
+{"t": "To change an isosceles triangle into a rectangle of equal area (Śulba-Sūtra), you:", "o": ["Cut along the altitude and fit the two halves together", "Double the base", "Cut off the top and throw it away", "Fold it in half"], "e": "The two right-triangle halves make a rectangle of width b/2 and height h."},
+{"t": "A rectangle 8 cm × 3 cm becomes a rhombus of equal area. Possible diagonals?", "o": ["16 cm and 3 cm", "8 cm and 3 cm", "4 cm and 3 cm", "8 cm and 6 cm"], "e": "½ × 16 × 3 = 24 = 8 × 3."},
+{"t": "A trapezium's parallel sides are in the ratio 2 : 3, 12 cm apart, area 360 cm². Shorter parallel side (in cm)?", "n": 24, "u": "cm", "k": "2*F(360,30)", "e": "½ × 5k × 12 = 30k = 360 → k = 12."}
+]}
+]}

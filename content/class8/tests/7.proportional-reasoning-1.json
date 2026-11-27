@@ -1,0 +1,50 @@
+{"title": "7. Proportional Reasoning — 1", "tests": [
+{"q": [
+{"t": "Write 60 : 40 in simplest form.", "o": ["3 : 2", "6 : 4", "2 : 3", "30 : 20"], "e": "Divide both terms by their HCF, 20."},
+{"t": "Which is a true proportion?", "o": ["4 : 7 :: 12 : 21", "8 : 3 :: 24 : 6", "7 : 12 :: 12 : 7", "12 : 18 :: 28 : 12"], "e": "4 × 3 = 12 and 7 × 3 = 21: both terms multiplied by the same factor."},
+{"t": "A photo 60 mm × 40 mm is resized. Which size keeps it looking right?", "o": ["30 mm × 20 mm", "40 mm × 20 mm", "60 mm × 60 mm", "50 mm × 30 mm"], "e": "30 : 20 = 3 : 2, the same as 60 : 40. Both sides were multiplied by ½."},
+{"t": "Fill in: 14 : 21 :: __ : 42", "n": 28, "k": "F(14*42,21)", "e": "42 is 21 × 2, so double 14."},
+{"t": "5 kg of rice costs ₹200. Find the cost of 8 kg (in ₹).", "n": 320, "u": "₹", "k": "F(200,5)*8", "e": "1 kg costs ₹40, so 8 kg cost ₹320."},
+{"t": "Divide ₹4,500 in the ratio 2 : 3. What is the larger part (in ₹)?", "n": 2700, "u": "₹", "k": "4500*F(3,5)", "e": "2 + 3 = 5 groups of ₹900. The larger share is 3 groups."},
+{"t": "Rice and urad dal are mixed 2 : 1 for idlis. How many cups of rice in 6 cups of mixture?", "n": 4, "k": "6*F(2,3)", "e": "3 groups of 2 cups; rice takes 2 groups."},
+{"t": "Anagh mixes 600 mL orange juice with 900 mL apple juice. Ratio of orange to apple in simplest form?", "o": ["2 : 3", "3 : 2", "6 : 9", "1 : 3"], "e": "HCF 300: 600 : 900 = 2 : 3."},
+{"t": "Neelima is 3, her mother 30. In 9 years the ratio of their ages will be:", "o": ["4 : 13", "1 : 10", "12 : 30", "3 : 39"], "e": "12 : 39 = 4 : 13. Adding the same number to both terms changes the ratio."},
+{"t": "1 hectare equals how many square metres?", "n": 10000, "e": "A hectare is a 100 m × 100 m square."}
+]},
+{"q": [
+{"t": "120 students need 15 kg of rice. How much rice for 80 students (in kg)?", "n": 10, "u": "kg", "k": "F(15*80,120)", "e": "80 is 2/3 of 120, so the rice is 2/3 of 15."},
+{"t": "A car goes 90 km in 150 minutes. How far does it go in 4 hours (in km)?", "n": 144, "u": "km", "k": "F(90*240,150)", "e": "Change 4 h to 240 min first. 150 : 90 :: 240 : x gives x = 90 × 240 ÷ 150."},
+{"t": "Fill in: 18 : 24 :: 27 : __", "n": 36, "k": "F(24*27,18)", "e": "18 : 24 = 3 : 4, and 27 = 3 × 9, so 4 × 9 = 36."},
+{"t": "Acid and water are mixed 1 : 5. How much acid is in 240 mL of solution (in mL)?", "n": 40, "u": "mL", "k": "F(240,6)", "e": "6 groups of 40 mL; acid is 1 group."},
+{"t": "Blue : yellow = 3 : 5 in 40 mL of green paint. 20 mL more yellow is added. New blue : yellow?", "o": ["1 : 3", "3 : 5", "3 : 7", "15 : 25"], "e": "Blue 15 mL, yellow 25 + 20 = 45 mL. 15 : 45 = 1 : 3."},
+{"t": "If a : b :: c : d, which must be true?", "o": ["ad = bc", "ab = cd", "ac = bd", "a + d = b + c"], "e": "c = fa and d = fb for the same factor f, so c/a = d/b, giving ad = bc."},
+{"t": "Which coffee is STRONGER than decoction : milk = 3 : 7?", "o": ["20 : 30", "10 : 40", "150 : 500", "24 : 56"], "e": "20 : 30 = 2 : 3 has 1.5 mL milk per mL decoction, less than 7/3 ≈ 2.33 — so stronger. 24 : 56 is exactly 3 : 7."},
+{"t": "Prashanti invests ₹75,000 and Bhuvan ₹25,000. A ₹4,000 profit is shared in that ratio. Bhuvan gets (in ₹):", "n": 1000, "u": "₹", "k": "4000*F(1,4)", "e": "75000 : 25000 = 3 : 1 → 4 groups of ₹1000."},
+{"t": "A tap fills a 500 mL mug in 15 s. How long for a 10-litre bucket (in seconds)?", "n": 300, "u": "s", "k": "F(10000,500)*15", "e": "10 L = 10000 mL = 20 mugs; 20 × 15 = 300 s (5 minutes)."},
+{"t": "Convert 25 °C to °F.", "n": 77, "u": "°F", "k": "F(9,5)*25+32", "e": "F = (9/5) × 25 + 32 = 45 + 32. (Not a simple ratio, because of the +32.)"}
+]},
+{"q": [
+{"t": "3 full buses carried 162 people. How many buses for 204 people?", "n": 4, "e": "Each bus holds 162 ÷ 3 = 54. 204 ÷ 54 ≈ 3.8, so 4 buses — the last one not full."},
+{"t": "Delhi: 30 million people in 1,484 sq km. Mumbai: 20 million in 550 sq km. Which is more crowded?", "o": ["Mumbai — about 36,000 per sq km vs 20,000", "Delhi — it has more people", "Equal", "Can't compare"], "e": "Compare people per sq km: 20,000,000 ÷ 550 ≈ 36,400 and 30,000,000 ÷ 1484 ≈ 20,200."},
+{"t": "Harmain is 1, her brother 5. How old will Harmain be when her age is half her brother's?", "n": 4, "e": "The gap stays 4 years. If she is x, he is x + 4, and 2x = x + 4 gives x = 4."},
+{"t": "Equal volumes of gold and water have masses in the ratio 37 : 2. What is the mass of 1 litre of gold (in kg)?", "n": 18.5, "u": "kg", "k": "F(37,2)", "e": "1 litre of water is 1 kg, so gold is 37/2 kg."},
+{"t": "A bucket of red : yellow = 3 : 5 paint gets a whole extra bucket of yellow. New red : yellow?", "o": ["3 : 13", "3 : 10", "3 : 5", "6 : 10"], "e": "Red 3/8 bucket; yellow 5/8 + 8/8 = 13/8 bucket."},
+{"t": "40 kg of sand and cement in ratio 3 : 1. How much cement must be added to make it 5 : 2 (in kg)?", "n": 2, "u": "kg", "k": "30*F(2,5)-10", "e": "Sand 30 kg stays fixed; 5 : 2 :: 30 : 12, and there is already 10 kg cement."},
+{"t": "Lilavati: 2½ palas of saffron cost 3/7 niska. How many palas for 9 niskas?", "n": 52.5, "u": "palas", "k": "F(5,2)*9/F(3,7)", "e": "x = 2½ × 9 ÷ 3/7 = 2.5 × 9 × 7/3 = 52.5."},
+{"t": "A pair of oxen ploughs 1 acre in 6 h; a tractor is 4 times faster. How long does the tractor take for 20 acres (in hours)?", "n": 30, "u": "h", "k": "20*F(6,4)", "e": "Tractor: 1.5 h per acre × 20."},
+{"t": "1 acre (43,560 sq ft) costs ₹15,00,000. About how much does 2,400 sq ft cost?", "o": ["About ₹82,600", "About ₹8,260", "About ₹8,26,000", "About ₹36,000"], "e": "1500000 × 2400 ÷ 43560 ≈ 82,645."},
+{"t": "Why is price usually NOT proportional to volume for shampoo packs?", "o": ["Packaging, transport and margins don't scale with contents", "Bigger bottles hold less", "Prices are random", "Small sachets are always dearer per mL"], "e": "Fixed costs per pack make price per mL different for each size."}
+]},
+{"q": [
+{"t": "Earth travels about 940 million km a year. About how far in one week (in million km)?", "o": ["About 18", "About 1.8", "About 180", "About 94"], "e": "940 ÷ 52 ≈ 18.1 million km."},
+{"t": "A mason needs 1450 bricks for 10 ft of wall. How many for 108 ft of wall?", "n": 15660, "k": "1450*F(108,10)", "e": "1450 × 10.8 = 15,660."},
+{"t": "A ₹10 coin (7.74 g) is copper : nickel = 3 : 1. What mass of copper (in g)?", "n": 5.805, "u": "g", "k": "F('7.74')*F(3,4)", "e": "3/4 of 7.74 g."},
+{"t": "A farmer needs 10 tonnes of manure per acre (43,560 sq ft). Roughly how much for a 200 ft × 500 ft plot?", "o": ["About 23 tonnes", "About 10 tonnes", "About 2.3 tonnes", "About 100 tonnes"], "e": "100,000 sq ft ÷ 43,560 ≈ 2.3 acres → 23 tonnes."},
+{"t": "Which statement about temperature is right?", "o": ["Doubling °C does NOT double °F", "°F is always 1.8 × °C", "0 °C = 0 °F", "°C and °F are in direct proportion"], "e": "F = 1.8C + 32; the +32 means there is no single multiplying factor."},
+{"t": "A crane's neck : rest of body = 4 : 6. For a 150 cm child with the same ratio, how long would the neck be (in cm)?", "n": 60, "u": "cm", "k": "150*F(4,10)", "e": "The neck is 4 of 10 parts of the whole height."},
+{"t": "Ratios proportional to 18 : 24: what goes in 20 : __?", "o": ["26⅔", "26", "28", "30"], "k": "F(80,3)", "e": "18 : 24 = 3 : 4, so the second term is 20 × 4/3 = 80/3."},
+{"t": "A ride takes 2 hours at 50 km/h. Why is 50 : 2 :: 75 : x WRONG for the time at 75 km/h?", "o": ["Faster speed means LESS time — it's inverse, not direct", "Speeds must be in m/s", "The ratio should be 2 : 50", "It is correct"], "e": "The Rule of Three needs both quantities to grow together."},
+{"t": "A wall pattern has 9 grey and 6 coloured bricks per block. Ratio grey : coloured?", "o": ["3 : 2", "2 : 3", "9 : 15", "1 : 1"], "e": "HCF 3: 9 : 6 = 3 : 2."},
+{"t": "A 6 m pole casts a 15 m shadow. At the same time a tree casts a 25 m shadow. Find the tree's height (in m).", "n": 10, "u": "m", "k": "F(6,15)*25", "e": "Height : shadow is the same at the same time: 6 : 15 :: x : 25."}
+]}
+]}

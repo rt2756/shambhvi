@@ -1,0 +1,50 @@
+{"title": "1. A Square and A Cube", "tests": [
+{"q": [
+{"t": "Find 12².", "n": 144, "k": "12**2", "e": "12 × 12 = 144 — the number of unit squares in a 12 by 12 square."},
+{"t": "Find √81.", "n": 9, "k": "81**F(1,2)", "e": "The square root undoes squaring: 9 × 9 = 81."},
+{"t": "In the 100-locker game, which lockers stay open?", "o": ["The square numbers: 1, 4, 9, …, 100", "The prime numbers", "The even numbers", "The odd numbers"], "e": "A locker is toggled once per factor. Only squares have an odd number of factors (one factor is its own partner, like 6 × 6 = 36), so only they end open."},
+{"t": "Which lockers are touched exactly twice?", "o": ["The prime numbers", "The squares", "The cubes", "The multiples of 10"], "e": "Exactly two factors — 1 and itself — means a prime."},
+{"t": "Which digit can NEVER be the units digit of a perfect square?", "o": ["7", "1", "4", "6"], "e": "Squaring the digits 0–9 gives last digits 0, 1, 4, 9, 6, 5, 6, 9, 4, 1 only — never 2, 3, 7 or 8."},
+{"t": "Find 1 + 3 + 5 + 7.", "n": 16, "k": "1+3+5+7", "e": "The sum of the first n odd numbers is n². Here n = 4, so 4² = 16 — each odd number adds an L-shaped border to a square."},
+{"t": "Find 4³.", "n": 64, "k": "4**3", "e": "4 × 4 × 4 = 64 — the number of unit cubes in a 4 by 4 by 4 cube (4 layers of 16)."},
+{"t": "Find ∛125.", "n": 5, "k": "round(125**(1/3))", "e": "5 × 5 × 5 = 125."},
+{"t": "Find (−2)³.", "n": -8, "k": "(-2)**3", "e": "(−2) × (−2) = 4, and 4 × (−2) = −8. Three negatives leave one unpaired, so the cube stays negative."},
+{"t": "A square has area 441 m². Find its side (in m).", "n": 21, "u": "m", "k": "441**F(1,2)", "e": "Side × side = 441. 441 = 3² × 7², so the side is 3 × 7 = 21 m."}
+]},
+{"q": [
+{"t": "Given 125² = 15625, find 126².", "n": 15876, "k": "126**2", "e": "Add the 126th odd number, 2 × 126 − 1 = 251: 15625 + 251 = 15876."},
+{"t": "How many whole numbers lie strictly between 16² and 17²?", "n": 32, "k": "17**2-16**2-1", "e": "The gap between n² and (n+1)² is 2n + 1, so 2n numbers lie strictly between: 2 × 16 = 32."},
+{"t": "Find √324 using prime factors.", "n": 18, "k": "324**F(1,2)", "e": "324 = 2 × 2 × 3 × 3 × 3 × 3 = (2 × 3 × 3) × (2 × 3 × 3). One group is 18."},
+{"t": "Is 156 a perfect square?", "o": ["No — 156 = 2 × 2 × 3 × 13 and 3, 13 have no partners", "Yes, it is even", "Yes, it ends in 6", "No, because it is even"], "e": "A square's primes must pair up. The 3 and 13 appear only once."},
+{"t": "What is the smallest number by which 180 must be multiplied to make a perfect square?", "n": 5, "k": "min(n for n in range(1,200) if round((180*n)**0.5)**2==180*n)", "e": "180 = 2² × 3² × 5. The 5 has no partner, so multiply by 5: 900 = 30²."},
+{"t": "What is the 36th odd number?", "n": 71, "k": "2*36-1", "e": "The nth odd number is 2n − 1 (one less than the nth even number 2n): 72 − 1 = 71."},
+{"t": "Which of these squares ends in 6?", "o": ["34²", "38²", "82²", "108²"], "e": "Only the last digit matters: 4 × 4 = 16 ends in 6. 8² = 64 and 2² = 4 end in 4."},
+{"t": "How many zeros are at the end of 7000²?", "n": 6, "e": "Each copy of 7000 brings 3 zeros: 7000 × 7000 = 49 000 000. Zeros at the end double when you square."},
+{"t": "Find ∛1728.", "n": 12, "k": "round(1728**(1/3))", "e": "1728 = 2⁶ × 3³ = (2² × 3)³. One of each triplet: 2 × 2 × 3 = 12."},
+{"t": "Is 500 a perfect cube?", "o": ["No — 500 = 2 × 2 × 5 × 5 × 5; the 2s are not a triplet", "Yes, 500 = 5³ × 4", "Yes, it ends in zeros", "No, because it is even"], "e": "For a cube every prime must come in groups of three."}
+]},
+{"q": [
+{"t": "Find the smallest square number divisible by each of 4, 9 and 10.", "n": 900, "k": "min(n*n for n in range(1,100) if n*n%4==0 and n*n%9==0 and n*n%10==0)", "e": "It must be a multiple of LCM 180 = 2² × 3² × 5. Pair the 5 by multiplying by 5: 900 = 30²."},
+{"t": "Find the smallest number by which 9408 must be multiplied to make a perfect square.", "n": 3, "k": "min(n for n in range(1,50) if round((9408*n)**0.5)**2==9408*n)", "e": "9408 = 2⁶ × 3 × 7². Only the 3 is unpaired, so multiply by 3 → 28224."},
+{"t": "Find the square root of 9408 × 3.", "n": 168, "k": "(9408*3)**F(1,2)", "e": "28224 = 2⁶ × 3² × 7². One from each pair: 2³ × 3 × 7 = 8 × 21 = 168."},
+{"t": "Estimate: √250 lies between which two whole numbers?", "o": ["15 and 16", "12 and 13", "16 and 17", "25 and 26"], "e": "15² = 225 and 16² = 256, so 15 < √250 < 16 (closer to 16)."},
+{"t": "A square cloth has area 125 cm². What is the largest whole-number side of a square handkerchief cut from it (in cm)?", "n": 11, "u": "cm", "k": "max(n for n in range(1,20) if n*n<=125)", "e": "11² = 121 fits but 12² = 144 is too big."},
+{"t": "Fill the blank: 4² + 5² + 20² = (__)².", "n": 21, "k": "(4**2+5**2+20**2)**F(1,2)", "e": "Pattern n² + (n+1)² + (n(n+1))² = (n(n+1) + 1)²: 4 × 5 + 1 = 21. Check 16 + 25 + 400 = 441."},
+{"t": "What is the sum 91 + 93 + 95 + … + 109 (ten odd numbers)?", "n": 1000, "k": "sum(range(91,110,2))", "e": "These ten odd numbers are centred on 100 = 10², so they are the tenth row of the cube pattern: 10³ = 1000."},
+{"t": "1729 is famous because it is:", "o": ["The smallest number that is a sum of two cubes in two ways", "The largest 4-digit cube", "A perfect square", "The sum of the first 1729 odd numbers"], "e": "Ramanujan: 1729 = 1³ + 12³ = 9³ + 10³."},
+{"t": "What number must 1323 be multiplied by to make a perfect cube?", "n": 7, "k": "min(n for n in range(1,50) if round((1323*n)**(1/3))**3==1323*n)", "e": "1323 = 3³ × 7². The 7s need one more to form a triplet: 1323 × 7 = 9261 = 21³."},
+{"t": "Find ∛10648.", "n": 22, "k": "round(10648**(1/3))", "e": "10648 = 2³ × 11³, so ∛ = 2 × 11 = 22."}
+]},
+{"q": [
+{"t": "4104 = 2³ + 16³. Which is its other way as a sum of two cubes?", "o": ["9³ + 15³", "10³ + 14³", "12³ + 12³", "1³ + 16³"], "e": "729 + 3375 = 4104, so 4104 is a taxicab number."},
+{"t": "Which is the greatest?", "o": ["67³ − 66³", "43³ − 42³", "67² − 66²", "43² − 42²"], "e": "(n+1)³ − n³ = 3n² + 3n + 1, which grows fast: 13267, 5419, while the square gaps are only 133 and 85."},
+{"t": "12167 is a perfect cube. Find its cube root.", "n": 23, "k": "round(12167**(1/3))", "e": "Units digit 7 → root ends in 3 (only 3³ ends in 7). The front part 12 lies between 2³ = 8 and 3³ = 27 → tens digit 2. So 23."},
+{"t": "32768 is a perfect cube. Find its cube root.", "n": 32, "k": "round(32768**(1/3))", "e": "Ends in 8 → root ends in 2. Front 32 lies between 3³ = 27 and 4³ = 64 → tens digit 3. So 32."},
+{"t": "True or false: the cube of a 2-digit number can have 7 digits.", "o": ["False — even 99³ = 970299 has only 6", "True — 99³ has 7 digits", "True — 50³ has 7 digits", "False — cubes never have 7 digits"], "e": "The largest 2-digit cube is 99³ = 970299, 6 digits. (100³ = 1 000 000 is the first 7-digit cube.)"},
+{"t": "Why can't a cube end in exactly two zeros?", "o": ["Each zero in the root gives three zeros in the cube", "Cubes never end in 0", "Cubes are always odd", "Two zeros is too many"], "e": "(a × 10ᵏ)³ = a³ × 10³ᵏ, so the number of zeros is 0, 3, 6, … — always a multiple of 3."},
+{"t": "How many 4-digit perfect cubes are there?", "n": 12, "k": "len([n for n in range(1,30) if 1000<=n**3<=9999])", "e": "10³ = 1000 up to 21³ = 9261; 22³ = 10648 is too big. That is 10, 11, …, 21 — 12 numbers."},
+{"t": "Successive differences of the cubes 1, 8, 27, 64, 125, … become constant at which value?", "n": 6, "e": "7, 19, 37, 61 → 12, 18, 24 → 6, 6, 6. Cubes need three levels; squares need two (constant 2)."},
+{"t": "A general has 8160 soldiers. He arranges them in a solid square and 60 are left over. How many soldiers are in each row?", "n": 90, "k": "(8160-60)**F(1,2)", "e": "8160 − 60 = 8100 soldiers form the square, and √8100 = 90."},
+{"t": "True or false: every cube number has an odd number of factors.", "o": ["False — 8 has 4 factors (1, 2, 4, 8)", "True — like squares", "True — cubes are odd", "False — cubes have no factors"], "e": "An odd count needs a factor that is its own partner, i.e. a square. 8 is not a square. Only cubes that are also squares (64, 729…) have an odd count."}
+]}
+]}

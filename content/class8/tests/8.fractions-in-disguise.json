@@ -1,0 +1,50 @@
+{"title": "8. Fractions in Disguise", "tests": [
+{"q": [
+{"t": "Find 15% of 200.", "n": 30, "k": "200*F(15,100)", "e": "10% is 20 and 5% is 10, so 15% is 30."},
+{"t": "Write 3/8 as a percentage.", "n": 37.5, "u": "%", "k": "F(3,8)*100", "e": "3/8 × 100 = 300/8 = 37.5."},
+{"t": "Nandini has 25 marbles; 15 are white. What percent are white?", "n": 60, "u": "%", "k": "F(15,25)*100", "e": "15/25 = 60/100."},
+{"t": "What percent of 80 is 20?", "n": 25, "u": "%", "k": "F(20,80)*100", "e": "20/80 = 1/4 = 25%."},
+{"t": "Write 120% as a fraction in lowest terms.", "o": ["6/5", "12/100", "5/6", "1/20"], "k": "F(120,100)", "e": "120/100 = 6/5. More than 100% means more than one whole."},
+{"t": "A shirt costs ₹300 with 25% off. How much does Anwar pay (in ₹)?", "n": 225, "u": "₹", "k": "300*F(75,100)", "e": "He pays 75% of 300."},
+{"t": "A geometry box bought for ₹75 is sold for ₹110. Profit as a percent of cost?", "o": ["46⅔%", "35%", "31.8%", "50%"], "k": "F(35,75)*100", "e": "Profit 35 on a cost of 75: 35/75 × 100 = 46⅔."},
+{"t": "40% of a number is 16. Find the number.", "n": 40, "k": "16/F(40,100)", "e": "40% → 16, so 10% → 4 and 100% → 40."},
+{"t": "Which is bigger: 30% or 1/3?", "o": ["1/3", "30%", "They are equal", "Can't compare"], "e": "1/3 = 33⅓%."},
+{"t": "A ₹8,250 phone has 18% GST added. Which gives the final price?", "o": ["8250 × 1.18", "8250 + 18", "8250 × 18", "1.8 × 8250"], "e": "Adding 18% means keeping 100% and adding 18%: × 1.18."}
+]},
+{"q": [
+{"t": "Petrol went from ₹60 to ₹100. What is the percentage increase?", "o": ["66⅔%", "40%", "60%", "140%"], "k": "F(40,60)*100", "e": "Increase 40 measured on the OLD price 60."},
+{"t": "A number increased by 20% becomes 90. Find the number.", "n": 75, "k": "90/F(120,100)", "e": "90 is 120% of the number: 90 ÷ 1.2."},
+{"t": "A carpenter's chair costs ₹475 to make; he wants a 50% profit margin. Selling price (in ₹)?", "n": 712.5, "u": "₹", "k": "475*F(150,100)", "e": "Profit margin is on cost: 475 × 1.5."},
+{"t": "Rice rose from ₹38 to ₹42 per kg. Inflation (to the nearest whole %)?", "n": 11, "u": "%", "e": "4/38 × 100 ≈ 10.5, which rounds to 11%."},
+{"t": "In an election, 500 of 1600 votes went to the winner. What percent?", "n": 31.25, "u": "%", "k": "F(500,1600)*100", "e": "500/1600 = 5/16 = 31.25%."},
+{"t": "Elephants increased 5% over a decade from p. The new population is:", "o": ["p × 1.05", "p × 0.05", "p × 1.5", "p + 1.50"], "e": "Keep 100% and add 5%: 105% = 1.05."},
+{"t": "Find the amount on ₹20,000 at 10% p.a. for 2 years, compounded yearly (in ₹).", "n": 24200, "u": "₹", "k": "20000*F(11,10)**2", "e": "20000 → 22000 → 24200. Without compounding it would be ₹24,000."},
+{"t": "A price is cut by 20%. By what percent must it rise to get back to the original?", "n": 25, "u": "%", "k": "F(20,80)*100", "e": "100 → 80; climbing 20 from 80 is 20/80 = 25%."},
+{"t": "Shop A: buy 1 get 1 free. Shop C: buy 3 get 1 free. Items cost ₹100. Effective price per item at C (in ₹)?", "n": 75, "u": "₹", "k": "F(300,4)", "e": "Pay ₹300, receive 4 items."},
+{"t": "What is 12% of 25?", "n": 3, "k": "25*F(12,100)", "e": "x% of y = y% of x = xy/100: same as 25% of 12."}
+]},
+{"q": [
+{"t": "Samson paid ₹4,40,000 for a car after a 15% discount. Original price (to the nearest rupee)?", "n": 517647, "u": "₹", "k": "round(F(440000,1)/F(85,100))", "e": "Price × 0.85 = 4,40,000 → price = 440000 ÷ 0.85 ≈ 5,17,647. (Not 440000 × 1.15!)"},
+{"t": "Two buffaloes sold for ₹80,000 each: one at 5% profit, one at 10% loss. Overall:", "o": ["A loss of about ₹5,079", "A gain of about ₹5,079", "No profit no loss", "A loss of ₹4,000"], "e": "CPs: 80000/1.05 ≈ 76,190 and 80000/0.9 ≈ 88,889. Total ₹1,65,079 vs ₹1,60,000 received."},
+{"t": "Revenue was ₹2.5 crore with a 25% profit margin on cost. What were the costs (in crore ₹)?", "n": 2, "k": "F(25,10)/F(125,100)", "e": "Revenue = 1.25 × cost, so cost = 2.5 ÷ 1.25."},
+{"t": "A 35% profit margin is followed by a 30% discount. Result?", "o": ["A 5.5% loss", "A 5% profit", "No profit no loss", "A 5% loss"], "e": "1.35 × 0.70 = 0.945 of cost."},
+{"t": "Bus fares rose 3% then 4%. Overall increase?", "n": 7.12, "u": "%", "k": "(F(103,100)*F(104,100)-1)*100", "e": "Successive changes multiply: 1.03 × 1.04 = 1.0712."},
+{"t": "Giridhar borrows ₹12,500 at 12% simple interest for 3 years. Interest (in ₹)?", "n": 4500, "u": "₹", "k": "12500*F(12,100)*3", "e": "12% of 12,500 = 1,500 each year, for 3 years."},
+{"t": "Raghava borrows ₹12,500 at 10% compounded yearly for 3 years. Interest (in ₹)?", "n": 4137.5, "u": "₹", "k": "12500*F(11,10)**3-12500", "e": "12500 × 1.331 = 16,637.50, minus 12,500."},
+{"t": "Mice change +5%, −2%, −3% in three months from p. After three months the population is:", "o": ["Slightly less than p", "Exactly p", "More than p", "p + 0"], "e": "p × 1.05 × 0.98 × 0.97 ≈ 0.998p."},
+{"t": "40% of excursion students are in Grade 8 and 60% of those are girls. What percent of all students are Grade 8 girls?", "n": 24, "u": "%", "k": "40*F(60,100)", "e": "60% of 40% = 0.6 × 0.4 = 0.24."},
+{"t": "Selling price of 3 pencils = cost price of 5 pencils. Profit percent?", "o": ["66⅔%", "40%", "60%", "20%"], "k": "F(2,3)*100", "e": "Cost ₹1 each: 3 pencils cost ₹3, sell for ₹5. Profit 2 on 3."}
+]},
+{"q": [
+{"t": "99 of 100 people in a room are left-handed. How many left-handers must leave to make it 98%?", "n": 50, "e": "The 1 right-hander must become 2% of the room, so the room must hold 50 people: 99 − 49 = 50 leave."},
+{"t": "A rectangle's length rises 10% and its area stays the same. By what percent does the breadth fall (2 decimal places)?", "n": 9.09, "u": "%", "e": "Breadth × 1/1.1 = 10/11, a fall of 1/11 ≈ 9.09%."},
+{"t": "₹50,000 at 7% for 3 years: how much MORE does compounding give than simple interest (to the nearest rupee)?", "n": 752, "u": "₹", "k": "round(50000*F(107,100)**3-50000-10500)", "e": "Compound interest ≈ ₹11,252; simple interest ₹10,500."},
+{"t": "₹1000 grows at 10% a year. Without compounding it doubles in 10 years. With compounding it doubles during which year?", "n": 8, "e": "1.1⁷ ≈ 1.95 and 1.1⁸ ≈ 2.14."},
+{"t": "₹20,000 at 5% p.a. for 4 years, compounded yearly. Amount (to the nearest rupee)?", "n": 24310, "u": "₹", "k": "round(20000*F(105,100)**4)", "e": "20000 × 1.05⁴ = 24,310.13 — more than the ₹24,200 at 10% for 2 years."},
+{"t": "Minimum number of candidates if the winner got 500 of 1600 votes?", "n": 4, "e": "The other 1100 votes must be shared so nobody reaches 500: two rivals could have at most 998, so at least three rivals."},
+{"t": "Bengaluru's population in 2025 is 250% of its 50 lakh in 2000. 2025 population (in lakh)?", "n": 125, "u": "lakh", "k": "50*F(250,100)", "e": "2.5 × 50 lakh = 125 lakh = 1.25 crore."},
+{"t": "A town of 10,000 grows 10%, shrinks 10%, grows 10%. Final population?", "n": 10890, "k": "10000*F(11,10)*F(9,10)*F(11,10)", "e": "10,000 × 1.1 × 0.9 × 1.1 = 10,890."},
+{"t": "Surbhi marks goods 50% above cost, then gives 50% off. She:", "o": ["Loses 25%", "Breaks even", "Gains 25%", "Loses 50%"], "e": "1.5 × 0.5 = 0.75 of cost."},
+{"t": "India has about 1.46 billion of the world's 8.2 billion people. Roughly what percent?", "o": ["18%", "1.8%", "35%", "8%"], "e": "1.46 ÷ 8.2 ≈ 0.178."}
+]}
+]}

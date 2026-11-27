@@ -1,0 +1,53 @@
+{
+  "title": "6. Measuring Space: Perimeter and Area",
+  "tests": [
+    { "q": [
+      { "t": "π is the ratio of a circle's:", "o": ["Circumference to diameter", "Area to radius", "Diameter to radius", "Circumference to area"], "e": "C ÷ d is the same for every circle, because all circles are scaled copies of each other." },
+      { "t": "The circumference of a circle is 44 cm. Find its radius in cm (π ≈ 22/7).", "n": 7, "k": "44 / (2*F(22,7))", "e": "2 × 22/7 × r = 44 → r = 7." },
+      { "t": "Find the circumference of a circle of radius 7 cm (π ≈ 22/7), in cm.", "n": 44, "k": "2*F(22,7)*7", "e": "2πr = 2 × 22/7 × 7 = 44." },
+      { "t": "Find the area of a circle of radius 7 cm (π ≈ 22/7), in cm².", "n": 154, "k": "F(22,7)*49", "e": "πr² = 22/7 × 49 = 154." },
+      { "t": "Area of a triangle with base 10 cm and height 6 cm (in cm²)?", "n": 30, "k": "F(1,2)*10*6", "e": "Two copies make a parallelogram of area 60; the triangle is half." },
+      { "t": "Area of a parallelogram with base 9 cm and height 4 cm (in cm²)?", "n": 36, "k": "9*4", "e": "Slide the triangle off one end to the other: a 9 × 4 rectangle." },
+      { "t": "Is π exactly equal to 22/7?", "o": ["No — π is irrational; 22/7 is an approximation", "Yes", "Yes, and also to 3.14", "Only for big circles"], "e": "π can't be written as a fraction at all (Lambert, 1761)." },
+      { "t": "How long is a semicircular arc of radius r?", "o": ["πr", "2πr", "πr²", "πr/2"], "e": "Half of the full circumference 2πr." },
+      { "t": "A median of a triangle divides it into two triangles that:", "o": ["Have equal area", "Are always congruent", "Have equal perimeters", "Are right-angled"], "e": "Equal bases (the midpoint halves the side) and the same height give equal ½ × base × height." },
+      { "t": "Using Heron's formula, find the area of a triangle with sides 3, 4, 5 (in square units).", "n": 6, "k": "math.sqrt(6*3*2*1)", "e": "s = 6; √(6 × 3 × 2 × 1) = √36 = 6, matching ½ × 3 × 4." }
+    ] },
+    { "q": [
+      { "t": "Find the length of an arc of radius 6.3 m subtending 120° (π ≈ 22/7), in m.", "n": 13.2, "k": "2*F(22,7)*F(63,10)*F(120,360)", "e": "Full circle 2 × 22/7 × 6.3 = 39.6; 120° is a third: 13.2." },
+      { "t": "Find the area of a sector of radius 7 cm and angle 60° (π ≈ 22/7), in cm².", "o": ["77/3", "154/3", "22/3", "77/6"], "k": "F(22,7)*49*F(60,360)", "e": "πr² × 60/360 = 154 × 1/6 = 77/3 ≈ 25.67." },
+      { "t": "A circle has circumference 44 cm. Find the area of a quadrant (π ≈ 22/7), in cm².", "n": 38.5, "k": "F(22,7)*49/4", "e": "r = 7, full area 154, a quarter of it is 38.5." },
+      { "t": "A tyre has diameter 56 cm. How far does the car move in one turn (in cm, π ≈ 22/7)?", "n": 176, "k": "F(22,7)*56", "e": "One turn rolls out one circumference: πd = 22/7 × 56." },
+      { "t": "A triangle has sides 7, 24, 25 cm. Find its area (in cm²).", "n": 84, "k": "math.sqrt(28*21*4*3)", "e": "It's right-angled (49 + 576 = 625): ½ × 7 × 24 = 84. Heron agrees." },
+      { "t": "An isosceles triangle has base 10 cm and area 60 cm². Find each equal side (in cm).", "n": 13, "k": "math.sqrt(5**2 + 12**2)", "e": "Height = 2 × 60 ÷ 10 = 12; equal side = √(5² + 12²)." },
+      { "t": "A right triangle has area 54 cm² and one leg 12 cm. Find its perimeter (in cm).", "n": 36, "k": "12 + 9 + 15", "e": "Other leg = 2 × 54 ÷ 12 = 9; hypotenuse = √(144 + 81) = 15; 12 + 9 + 15." },
+      { "t": "The perimeters of two circles are in the ratio 5 : 4. Their radii are in the ratio:", "o": ["5 : 4", "25 : 16", "√5 : 2", "4 : 5"], "e": "C = 2πr is proportional to r, so the ratio passes straight through." },
+      { "t": "Among rectangles with perimeter 40, which has the largest area?", "o": ["The 10 × 10 square", "A 15 × 5 rectangle", "A 19 × 1 rectangle", "They all have the same area"], "e": "a + b = 20 and a(20 − a) is biggest when a = b = 10 (area 100)." },
+      { "t": "On a running track, each lane is 1.22 m wider. One full circle of bend in the next lane out is longer by about:", "o": ["7.67 m", "1.22 m", "3.83 m", "It depends on the radius"], "e": "2π(R + 1.22) − 2πR = 2π × 1.22 ≈ 7.67 m — the radius cancels." }
+    ] },
+    { "q": [
+      { "t": "A trapezium has parallel sides 40 cm and 20 cm and both other sides 26 cm. Find its area (in cm²).", "n": 720, "k": "F(1,2)*(40+20)*math.sqrt(26**2 - 10**2)", "e": "Overhang (40 − 20)/2 = 10; height √(676 − 100) = 24; ½ × 60 × 24 = 720." },
+      { "t": "A rhombus has one diagonal twice the other and area 128 cm². The shorter diagonal is:", "o": ["8√2 cm", "8 cm", "16 cm", "√128 cm"], "e": "½ × d × 2d = d² = 128, so d = √128 = 8√2." },
+      { "t": "Sides in ratio 3 : 5 : 7, perimeter 300 m. Find the area:", "o": ["1500√3 m²", "4500 m²", "750√3 m²", "3000 m²"], "e": "Sides 60, 100, 140; s = 150; √(150 × 90 × 50 × 10) = √6750000 = 1500√3." },
+      { "t": "Heron's formula for an equilateral triangle of side a gives:", "o": ["(√3/4) a²", "(√3/2) a²", "a²/2", "(3/4) a²"], "e": "s = 3a/2: √(3a/2 × a/2 × a/2 × a/2) = (√3/4)a² — the same as ½ × a × (√3/2)a." },
+      { "t": "Brahmagupta's formula becomes Heron's formula when:", "o": ["One side d is 0", "All sides are equal", "The quadrilateral is a square", "s = 0"], "e": "A triangle is a cyclic 'quadrilateral' with two corners merged; put d = 0 and s − d = s." },
+      { "t": "Can you find a quadrilateral's area from its four sides alone?", "o": ["Not in general — only if extra information, like being cyclic, is known", "Yes, always", "Yes, using Heron", "Only for squares"], "e": "A 3-3-3-3 rhombus can have area 9, 8.01, 5.41… as it is pushed over." },
+      { "t": "Each wiper blade is 28 cm and sweeps 120°. Total area cleaned by two (π ≈ 22/7), in cm²:", "o": ["4928/3", "2464/3", "1232", "4928"], "k": "2*F(22,7)*28*28*F(120,360)", "e": "One sector = 22/7 × 784 × 1/3 = 2464/3; two wipers double it." },
+      { "t": "Doubling every side of a triangle multiplies its area by:", "n": 4, "e": "Base and height both double, so ½ × base × height is multiplied by 2 × 2." },
+      { "t": "A point P is inside square ABCD. What fraction of the square is ΔPAB + ΔPCD?", "o": ["1/2", "1/4", "It depends on P", "1/3"], "e": "Bases AB = CD = a and the two heights add up to a: ½ × a × a." },
+      { "t": "ab equals which expression (Baudhāyana's squaring of a rectangle)?", "o": ["((a + b)/2)² − ((a − b)/2)²", "((a + b)/2)²", "(a − b)²", "a² + b²"], "e": "Expanding: (a² + 2ab + b² − a² + 2ab − b²)/4 = ab." }
+    ] },
+    { "q": [
+      { "t": "Triangle sides 10, 15, 20 cm. Its area to one decimal place (in cm²):", "n": 72.6, "e": "s = 22.5; √(22.5 × 12.5 × 7.5 × 2.5) = (75√15)/4 ≈ 72.6." },
+      { "t": "Radius 15 cm, chord subtending 60°. Minor segment area (π ≈ 3.14, √3 ≈ 1.73), to 2 dp:", "n": 20.44, "e": "Sector 3.14 × 225 / 6 = 117.75; equilateral triangle 1.73/4 × 225 ≈ 97.31; difference ≈ 20.44." },
+      { "t": "Two circles of radius r pass through each other's centres. The outline of the combined shape is:", "o": ["8πr/3", "4πr", "2πr", "4πr/3"], "e": "Triangle with sides AB, AC, BC (all r) is equilateral, so each hidden arc is 120°; each visible arc is 240° = 2/3 of 2πr." },
+      { "t": "A semicircle on PQ versus three semicircles whose diameters together make up PQ. Which path is longer?", "o": ["They are equal", "The big semicircle", "The three small ones", "It depends on the sizes"], "e": "Semicircle length is π × radius, proportional to the diameter, and the small diameters add up to PQ." },
+      { "t": "A square inscribed in a circle of radius r covers what fraction of the circle?", "o": ["2/π", "1/2", "π/4", "1/π"], "e": "Its diagonal is 2r, so its area is (2r)²/2 = 2r². 2r² ÷ πr² = 2/π ≈ 0.637." },
+      { "t": "A regular hexagon inscribed in a circle covers what fraction of it, to 3 decimal places?", "n": 0.827, "e": "Six equilateral triangles of side r: (3√3/2)r² ÷ πr² = 3√3/(2π) ≈ 0.827." },
+      { "t": "BC = l is a chord of the big circle touching the smaller concentric circle. The area between the circles is:", "o": ["πl²/4", "πl²", "πl²/2", "πl/4"], "e": "The radius to the touching point is ⊥ to BC and bisects it: R² − r² = (l/2)², so π(R² − r²) = πl²/4." },
+      { "t": "Semicircles are drawn on the sides of a right triangle (areas A, B on the legs, C on the hypotenuse). Then:", "o": ["A + B = C", "A + B > C", "A = B = C", "A × B = C"], "e": "A semicircle on side x has area (π/8)x², and leg² + leg² = hypotenuse²." },
+      { "t": "In a square of side 2, four semicircles on the sides make a 4-petal flower. Its area is:", "o": ["2π − 4", "4π", "π", "4 − π"], "e": "Each petal is two segments of a radius-1 quarter circle: 2(π/4 − 1/2) = π/2 − 1. Four petals give 2π − 4." },
+      { "t": "A car wheel of radius 28 cm travels 1 km. How many COMPLETE turns does it make (π ≈ 22/7)?", "n": 568, "e": "One turn = 176 cm; 100000 ÷ 176 ≈ 568.2, so about 568 complete turns." }
+    ] }
+  ]
+}

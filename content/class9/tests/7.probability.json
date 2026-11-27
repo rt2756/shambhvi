@@ -1,0 +1,53 @@
+{
+  "title": "7. The Mathematics of Maybe: Introduction to Probability",
+  "tests": [
+    { "q": [
+      { "t": "What is the probability of an impossible event?", "n": 0, "e": "Impossible sits at the bottom of the 0-to-1 scale." },
+      { "t": "What is the probability of a certain event?", "n": 1, "e": "Certain sits at the top of the scale: it happens in every trial." },
+      { "t": "A fair coin is tossed. What is P(heads)?", "o": ["1/2", "1", "1/4", "2"], "k": "F(1,2)", "e": "Two equally likely outcomes, one favourable." },
+      { "t": "A fair die is rolled. What is P(4)?", "o": ["1/6", "1/4", "4/6", "1/2"], "k": "F(1,6)", "e": "Six equally likely faces, one of them is 4." },
+      { "t": "The set of all possible outcomes of an experiment is called the:", "o": ["Sample space", "Event", "Trial", "Frequency"], "e": "An event is a subset of this set." },
+      { "t": "Which is the sample space for tossing one coin?", "o": ["{H, T}", "{H}", "{HH, HT, TH, TT}", "{1, 2}"], "e": "Every possible outcome, each listed once." },
+      { "t": "A die rolled 50 times shows 4 eight times. What is the experimental probability of a 4?", "n": 0.16, "k": "F(8,50)", "e": "Times it happened ÷ trials = 8/50 = 0.16." },
+      { "t": "Which of these is impossible?", "o": ["Rolling a number greater than 6 on a die", "Rolling a 3", "Getting heads", "Rolling an even number"], "e": "A die has only 1 to 6, so this has probability 0." },
+      { "t": "A probability of 0.75 means the event is:", "o": ["More likely than not", "Impossible", "Certain", "Less likely"], "e": "It's above the 0.5 midpoint but below 1." },
+      { "t": "How many outcomes are in the sample space for rolling one die?", "n": 6, "e": "{1, 2, 3, 4, 5, 6}." }
+    ] },
+    { "q": [
+      { "t": "A letter is picked at random from PROBABILITY. What is P(B)?", "o": ["2/11", "1/11", "2/9", "1/9"], "k": "F(2,11)", "e": "11 letters, two of which are B — count every copy." },
+      { "t": "Two coins are tossed. What is P(at least one head)?", "o": ["3/4", "1/2", "1/4", "2/3"], "k": "F(3,4)", "e": "{HH, HT, TH} out of {HH, HT, TH, TT}." },
+      { "t": "Two coins are tossed. How many outcomes are in the sample space?", "n": 4, "e": "HH, HT, TH, TT — HT and TH are different outcomes." },
+      { "t": "A die is rolled. What is P(a number greater than 4)?", "o": ["1/3", "1/2", "2/3", "1/6"], "k": "F(2,6)", "e": "{5, 6}: 2 out of 6." },
+      { "t": "A bag has 3 red, 2 blue and 1 green ball. What is P(not red)?", "o": ["1/2", "1/3", "2/3", "1/6"], "k": "F(3,6)", "e": "3 of the 6 balls are not red." },
+      { "t": "In a sample of 30 sweets, 7 are yellow. About how many yellow sweets are in a bag of 600?", "n": 140, "k": "F(7,30)*600", "e": "Expected number ≈ probability × population = 7/30 × 600." },
+      { "t": "In a sample of 40 students, 9 prefer sports. About how many of the school's 800 students prefer sports?", "n": 180, "k": "F(9,40)*800", "e": "9/40 × 800 = 180." },
+      { "t": "A coin has landed heads 6 times in a row. P(tails) on the next toss is:", "o": ["1/2", "More than 1/2", "Less than 1/2", "1"], "e": "The coin has no memory — believing tails is 'due' is the gambler's fallacy." },
+      { "t": "As the number of trials grows, the experimental probability tends to:", "o": ["Get closer to the theoretical probability", "Move away from it", "Become 0", "Become 1"], "e": "This is the law of large numbers: streaks get swamped by many results." },
+      { "t": "Which experiment has equally likely outcomes?", "o": ["Rolling a fair die", "Starting a car: starts or doesn't", "A marble from 3 red and 7 blue", "Tomorrow: rain or no rain"], "e": "Only the fair die has a symmetry making each outcome equally likely." }
+    ] },
+    { "q": [
+      { "t": "Three coins are tossed. What is P(exactly two heads)?", "o": ["3/8", "1/4", "1/2", "2/3"], "k": "F(3,8)", "e": "{HHT, HTH, THH} out of 8 outcomes." },
+      { "t": "A child has 2 shirts and 3 pairs of trousers. How many outfits are possible?", "n": 6, "k": "2*3", "e": "Each of the 2 shirts goes with each of the 3 trousers: 2 × 3." },
+      { "t": "In the word PEACE, what is P(not E)?", "o": ["3/5", "2/5", "4/5", "1/5"], "k": "F(3,5)", "e": "Two of the five cards are E, so three are not." },
+      { "t": "A spinner shows 1 to 8, equally likely. What is P(a multiple of 3)?", "o": ["1/4", "3/8", "1/8", "1/3"], "k": "F(2,8)", "e": "Only 3 and 6: 2 out of 8." },
+      { "t": "1000 tyres: 20 lasted under 4000 km, 210 for 4001–9000, 325 for 9001–14000, 445 over 14000. P(between 4000 and 14000 km)?", "n": 0.535, "k": "F(210+325,1000)", "e": "(210 + 325) ÷ 1000 = 0.535." },
+      { "t": "Basket A has an apple and 2 oranges; basket B a banana and a mango. One fruit from each. P(apple and banana)?", "o": ["1/6", "1/4", "1/3", "1/2"], "k": "F(1,3)*F(1,2)", "e": "Six equally likely pairs, one of them is apple–banana (1/3 × 1/2)." },
+      { "t": "4 red and 5 blue balls; two drawn without replacement. P(red then blue)?", "o": ["5/18", "20/81", "4/9", "1/2"], "k": "F(4,9)*F(5,8)", "e": "Multiply along the branch: 4/9, then 5/8 because one ball has gone." },
+      { "t": "Same bag (4 red, 5 blue), without replacement. P(two blue)?", "o": ["5/18", "25/81", "5/9", "4/9"], "k": "F(5,9)*F(4,8)", "e": "5/9, then 4 blue left of 8: 5/9 × 4/8." },
+      { "t": "15 of 50 students like football. The relative frequency is:", "n": 0.3, "k": "F(15,50)", "e": "Frequency is 15; relative frequency is 15 ÷ 50." },
+      { "t": "Which is a correct sample space for the number of heads when 3 coins are tossed?", "o": ["{0, 1, 2, 3}", "{1, 2, 3}", "{0, 1, 2}", "{0, 1, 2, 3, 4}"], "e": "It must include every possible count (0 too) and nothing impossible (like 4)." }
+    ] },
+    { "q": [
+      { "t": "Two dice are rolled. What is P(sum is a prime greater than 5)?", "o": ["2/9", "1/6", "5/36", "1/4"], "k": "F(8,36)", "e": "Sum 7 in 6 ways, sum 11 in 2 ways: 8 of 36." },
+      { "t": "4 red, 3 green, 2 blue; two drawn without replacement. P(different colours)?", "o": ["13/18", "5/18", "1/2", "2/3"], "k": "1 - (F(4,9)*F(3,8) + F(3,9)*F(2,8) + F(2,9)*F(1,8))", "e": "P(same) = (12 + 6 + 2)/72 = 20/72; P(different) = 1 − 20/72 = 13/18." },
+      { "t": "Three coins: P(first coin heads AND exactly two heads)?", "o": ["1/4", "3/8", "1/8", "1/2"], "k": "F(2,8)", "e": "Only HHT and HTH: 2 of 8." },
+      { "t": "A four-digit number uses 1, 2, 3, 4 once each. P(it is even)?", "o": ["1/2", "1/4", "3/4", "1/3"], "k": "F(2,4)", "e": "Only the last digit matters; 2 of the 4 digits are even, each equally likely to be last." },
+      { "t": "Guessing 3 questions with 4 options each, P(exactly 2 correct)?", "o": ["9/64", "3/64", "1/16", "27/64"], "k": "3*F(1,4)*F(1,4)*F(3,4)", "e": "3 choices for which one is wrong, each path (1/4)(1/4)(3/4)." },
+      { "t": "3 red, 4 black, 2 green pens; you and a friend each pick one WITH replacement. P(same colour)?", "o": ["29/81", "1/3", "11/36", "9/81"], "k": "F(9+16+4,81)", "e": "(3/9)² + (4/9)² + (2/9)² = 29/81." },
+      { "t": "Balls 1–4: two draws WITHOUT replacement. How many outcomes in the sample space?", "n": 12, "k": "4*3", "e": "4 choices for the first, 3 left for the second; pairs like 1-1 are impossible." },
+      { "t": "A dart lands at random on a 3 m × 2 m rectangle containing a circle of diameter 1 m. P(inside the circle)?", "o": ["π/24", "π/6", "1/6", "π/12"], "e": "Circle area π × 0.5² = π/4; divide by the rectangle's 6 m²." },
+      { "t": "Rolling 12 times gave three 3's. Which statement is right?", "o": ["Experimental 1/4 differs from theoretical 1/6 because 12 rolls is few", "The die must be unfair", "The theoretical probability is now 1/4", "The next roll is less likely to be 3"], "e": "Small samples wobble; with thousands of rolls the relative frequency settles near 1/6." },
+      { "t": "With two dice, which event has probability 1?", "o": ["The total is between 2 and 12", "The total is 7", "The total is even", "Both show the same number"], "e": "Every possible total lies from 1 + 1 = 2 to 6 + 6 = 12." }
+    ] }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "title": "4. Exploring Algebraic Identities",
+  "tests": [
+    { "q": [
+      { "t": "(a + b)² = ?", "o": ["a² + 2ab + b²", "a² + b²", "a² + ab + b²", "2a + 2b"], "e": "The square of side a + b is made of a², b² and TWO ab rectangles." },
+      { "t": "(a − b)² = ?", "o": ["a² − 2ab + b²", "a² − b²", "a² − 2ab − b²", "a² + 2ab − b²"], "e": "Replace b by −b in (a + b)²; (−b)² = +b², so only the middle term turns negative." },
+      { "t": "a² − b² = ?", "o": ["(a + b)(a − b)", "(a − b)²", "(a + b)²", "a(a − b)"], "e": "(a + b)(a − b) = a² − ab + ab − b²; the middle terms cancel." },
+      { "t": "Find 43² using (40 + 3)².", "n": 1849, "k": "1600 + 240 + 9", "e": "40² + 2 × 40 × 3 + 3² = 1600 + 240 + 9 = 1849." },
+      { "t": "Find 29² using (30 − 1)².", "n": 841, "k": "900 - 60 + 1", "e": "30² − 2 × 30 × 1 + 1² = 900 − 60 + 1 = 841." },
+      { "t": "Factorise x² + 4x + 4.", "o": ["(x + 2)²", "(x + 4)²", "(x + 1)(x + 4)", "(x − 2)²"], "e": "x² = (x)², 4 = 2², and 4x = 2 × x × 2: it fits a² + 2ab + b²." },
+      { "t": "Which is an identity (true for all x)?", "o": ["(x + 1)² = x² + 2x + 1", "x² − 1 = 24", "2x + 3 = 7", "(x + 1)² = x² + 1"], "e": "An identity holds for every value; x² − 1 = 24 holds only for x = ±5." },
+      { "t": "Find 23 × 17 using (20 + 3)(20 − 3).", "n": 391, "k": "400 - 9", "e": "Difference of squares: 20² − 3² = 400 − 9 = 391." },
+      { "t": "Expand (5x + 2y)².", "o": ["25x² + 20xy + 4y²", "25x² + 4y²", "25x² + 10xy + 4y²", "5x² + 20xy + 2y²"], "e": "a = 5x, b = 2y: (5x)² + 2(5x)(2y) + (2y)²." },
+      { "t": "Factorise x² + 7x + 12.", "o": ["(x + 3)(x + 4)", "(x + 2)(x + 6)", "(x + 1)(x + 12)", "(x + 7)(x + 12)"], "e": "Need two numbers that add to 7 and multiply to 12: 3 and 4." }
+    ] },
+    { "q": [
+      { "t": "Find 105² using an identity.", "n": 11025, "k": "10000 + 1000 + 25", "e": "(100 + 5)² = 10000 + 1000 + 25." },
+      { "t": "Find 104 × 96.", "n": 9984, "k": "100**2 - 4**2", "e": "(100 + 4)(100 − 4) = 10000 − 16." },
+      { "t": "Factorise 9x² + 24xy + 16y².", "o": ["(3x + 4y)²", "(9x + 16y)²", "(3x + 8y)(3x + 2y)", "(3x − 4y)²"], "e": "(3x)², (4y)², and 24xy = 2(3x)(4y)." },
+      { "t": "Factorise x² − 5x + 6.", "o": ["(x − 2)(x − 3)", "(x + 2)(x + 3)", "(x − 1)(x − 6)", "(x − 6)(x + 1)"], "e": "Add to −5 and multiply to +6: −2 and −3 (same sign because the constant is positive)." },
+      { "t": "Factorise r² − r − 42.", "o": ["(r − 7)(r + 6)", "(r + 7)(r − 6)", "(r − 42)(r + 1)", "(r − 14)(r + 3)"], "e": "Add to −1, multiply to −42: −7 and 6." },
+      { "t": "Using Śhrīdhara's a² = (a + b)(a − b) + b², find 65².", "n": 4225, "k": "70*60 + 25", "e": "Take b = 5: 70 × 60 + 25 = 4225." },
+      { "t": "Find 119² using (100 + 10 + 9)².", "n": 14161, "k": "119**2", "e": "10000 + 100 + 81 + 2000 + 1800 + 180 = 14161." },
+      { "t": "Factorise 50p² + 60pq + 18q².", "o": ["2(5p + 3q)²", "(5p + 3q)²", "2(25p + 9q)²", "(10p + 6q)²"], "e": "Take out 2: 2(25p² + 30pq + 9q²) = 2[(5p)² + 2(5p)(3q) + (3q)²]." },
+      { "t": "(a + b)² − (a² + b²) equals:", "o": ["2ab", "0", "ab", "2a + 2b"], "e": "Subtract a² + b² from a² + 2ab + b²; the sign of ab decides which is bigger." },
+      { "t": "(n − 1)² + (n + 1)² − 2n² always equals:", "n": 2, "e": "(n² − 2n + 1) + (n² + 2n + 1) − 2n² = 2. The n's cancel, so it's 2 for every n." }
+    ] },
+    { "q": [
+      { "t": "(a + b)³ = ?", "o": ["a³ + 3a²b + 3ab² + b³", "a³ + b³", "a³ + 3ab + b³", "a³ + 2a²b + 2ab² + b³"], "e": "(a + b)(a² + 2ab + b²) gives 1, 3, 3, 1 — the cube splits into 2 cubes and 6 cuboids." },
+      { "t": "Find 199³ using (200 − 1)³.", "n": 7880599, "k": "199**3", "e": "8000000 − 3(40000)(1) + 3(200)(1) − 1 = 8000000 − 120000 + 600 − 1." },
+      { "t": "Factorise 10x² − 11x − 6.", "o": ["(2x − 3)(5x + 2)", "(2x + 3)(5x − 2)", "(10x + 1)(x − 6)", "(5x − 3)(2x + 2)"], "e": "Check: 2 × 5 = 10, 2(2) + 5(−3) = −11, (−3)(2) = −6." },
+      { "t": "Factorise 6x² + 7x + 2.", "o": ["(2x + 1)(3x + 2)", "(6x + 1)(x + 2)", "(3x + 1)(2x + 2)", "(2x + 2)(3x + 1)"], "e": "(2x + 1)(3x + 2) = 6x² + 4x + 3x + 2 = 6x² + 7x + 2." },
+      { "t": "x³ − y³ = ?", "o": ["(x − y)(x² + xy + y²)", "(x − y)³", "(x − y)(x² − xy + y²)", "(x + y)(x² − y²)"], "e": "Multiplying out (x − y)(x² + xy + y²), the middle terms cancel in pairs, leaving x³ − y³." },
+      { "t": "A cube has volume p³ + 6p²q + 12pq² + 8q³. What is its side?", "o": ["p + 2q", "p + 6q", "p + 8q", "p + 4q"], "e": "It is p³ + 3p²(2q) + 3p(2q)² + (2q)³ = (p + 2q)³." },
+      { "t": "Expand (3x − 2y + 4z)². What is the coefficient of yz?", "n": -16, "k": "2*(-2)*4", "e": "2 × (−2y) × (4z) = −16yz. Every pair appears twice, with its sign." },
+      { "t": "Simplify (x² − 7x + 12) ÷ (5x² + 5x − 100), assuming the denominator isn't 0.", "o": ["(x − 3)/[5(x + 5)]", "(x − 4)/[5(x + 5)]", "(x − 3)/(x + 5)", "12/(−100)"], "e": "Top (x − 3)(x − 4), bottom 5(x − 4)(x + 5); cancel the common factor (x − 4)." },
+      { "t": "A pool's breadth is 4 m less than its length; its area is 96 m². Find the length (in m).", "n": 12, "e": "x(x − 4) = 96 → (x − 12)(x + 8) = 0 → x = 12 (a length can't be −8)." },
+      { "t": "Is (a + b − c)² + (a − b + c)² + (a − b − c)² = 2a² + 2b² + 2c² an identity?", "o": ["No — a = 1, b = c = 0 gives 3 ≠ 2", "Yes — always", "Yes, for positive a, b, c", "Only when a = b = c"], "e": "One counter-example is enough to show a claimed identity is false." }
+    ] },
+    { "q": [
+      { "t": "x + y + z = 10, xyz = 25 and x² + y² + z² = 38. Find x³ + y³ + z³.", "n": 145, "k": "10*(38 - (100-38)//2) + 3*25", "e": "xy + yz + zx = (100 − 38)/2 = 31. Then x³ + y³ + z³ = 3(25) + 10(38 − 31) = 75 + 70." },
+      { "t": "a + b + c = 5 and ab + bc + ca = 10. Find a³ + b³ + c³ − 3abc.", "n": -25, "k": "5*((25 - 20) - 10)", "e": "a² + b² + c² = 25 − 20 = 5, so (a + b + c)(a² + b² + c² − ab − bc − ca) = 5(5 − 10) = −25." },
+      { "t": "If x + y = −4, find x³ + y³ − 12xy + 64.", "n": 0, "e": "It is x³ + y³ + 4³ − 3(x)(y)(4), and x + y + 4 = 0, so the three-cube identity gives 0." },
+      { "t": "A number plus its reciprocal is 10/3. Which could the number be?", "o": ["3", "10", "1/10", "3/10"], "e": "x + 1/x = 10/3 → 3x² − 10x + 3 = 0 → (3x − 1)(x − 3) = 0 → x = 3 or 1/3." },
+      { "t": "n³ − n is always divisible by:", "o": ["6", "4", "5", "9"], "e": "n³ − n = (n − 1)n(n + 1): three consecutive numbers include an even one and a multiple of 3." },
+      { "t": "Find 127³.", "n": 2048383, "k": "127**3", "e": "(130 − 3)³ = 2197000 − 152100 + 3510 − 27 = 2048383." },
+      { "t": "Factorise 64u² + 121v² + 4w² − 176uv − 32uw + 44vw.", "o": ["(8u − 11v − 2w)²", "(8u + 11v + 2w)²", "(8u − 11v + 2w)²", "(8u + 11v − 2w)²"], "e": "Squares 8u, 11v, 2w; −176uv needs u and v opposite signs, −32uw needs u and w opposite, +44vw needs v and w alike." },
+      { "t": "Simplify (n³ − 3n²m + 3nm² − m³) ÷ (5m² − 10mn + 5n²).", "o": ["(n − m)/5", "(n − m)²/5", "5(n − m)", "(m − n)/5"], "e": "Top is (n − m)³, bottom is 5(n − m)²; cancel (n − m)²." },
+      { "t": "(x − 2) and (x − ½) are factors of px² + 5x + r. What must be true?", "o": ["p = r", "p = 2r", "p + r = 5", "r = 0"], "e": "px² + 5x + r = p(x − 2)(x − ½) = px² − (5p/2)x + p, so the constant r = p." },
+      { "t": "A path of width s runs around a 40 m square playground. Its area is:", "o": ["160s + 4s²", "160s", "40s + s²", "1600 + 4s²"], "e": "Outer square side 40 + 2s: (40 + 2s)² − 40² = 1600 + 160s + 4s² − 1600." }
+    ] }
+  ]
+}

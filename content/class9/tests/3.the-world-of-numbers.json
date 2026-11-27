@@ -1,0 +1,53 @@
+{
+  "title": "3. The World of Numbers",
+  "tests": [
+    { "q": [
+      { "t": "Which of these is an irrational number?", "o": ["√2", "√9", "0.25", "−7/3"], "e": "√9 = 3, 0.25 = 1/4 and −7/3 are all p/q. √2 cannot be written as p/q — the side-1 square's diagonal." },
+      { "t": "√81 is:", "o": ["A rational number", "An irrational number", "Not a real number", "Neither"], "e": "√81 = 9 = 9/1. The square root of a perfect square is rational." },
+      { "t": "The decimal expansion of 1/3 is:", "o": ["Non-terminating and repeating", "Terminating", "Non-terminating and non-repeating", "Exactly 0.3"], "e": "1/3 = 0.333… — the remainder 1 keeps coming back, so the 3 repeats forever." },
+      { "t": "Every integer is also:", "o": ["A rational number", "A natural number", "An irrational number", "Positive"], "e": "Any integer n = n/1, so it fits the p/q definition." },
+      { "t": "The number π is:", "o": ["Irrational", "Rational, equal to 22/7", "Rational, equal to 3.14", "An integer"], "e": "22/7 and 3.14 are only approximations; Lambert proved π irrational in 1761." },
+      { "t": "Write 0.35 in the form p/q in lowest terms.", "o": ["7/20", "35/10", "3/5", "7/2"], "k": "F(35,100)", "e": "0.35 = 35/100; divide top and bottom by 5 → 7/20." },
+      { "t": "Using Brahmagupta's rules, find (−8) × (−7).", "n": 56, "k": "(-8)*(-7)", "e": "Debt × debt = fortune: removing 7 debts of 8 makes you 56 richer." },
+      { "t": "The temperature is 4 °C and falls by 15 °C. What is the new temperature (in °C)?", "n": -11, "k": "4 - 15", "e": "4 − 15 = −11: you pass 0 and go 11 below." },
+      { "t": "Why must q ≠ 0 in a rational number p/q?", "o": ["Division by zero has no single answer", "Because q must be positive", "Because 0 is not an integer", "Because p could be 0"], "e": "p/q is the number that times q gives p; anything times 0 is 0, so no number works (or every number does)." },
+      { "t": "How many rational numbers lie between any two different rational numbers?", "o": ["Infinitely many", "None", "Exactly one", "Exactly ten"], "e": "Their average is between them; then average again, and again — it never stops. Rationals are dense." }
+    ] },
+    { "q": [
+      { "t": "Write 0.666… (6 repeating) in the form p/q.", "o": ["2/3", "6/10", "3/5", "66/100"], "k": "F(6,9)", "e": "10x = 6.666…, x = 0.666…; subtract: 9x = 6 → x = 6/9 = 2/3." },
+      { "t": "Find 7/12 + 5/8.", "o": ["29/24", "12/20", "35/96", "1/2"], "k": "F(7,12) + F(5,8)", "e": "Common denominator 24: 14/24 + 15/24 = 29/24." },
+      { "t": "Find −7/9 − (−2/3).", "o": ["−1/9", "−13/9", "1/9", "−5/6"], "k": "F(-7,9) + F(2,3)", "e": "Subtracting a negative adds: −7/9 + 6/9 = −1/9." },
+      { "t": "Find −4/7 ÷ 5/14.", "o": ["−8/5", "−10/49", "−5/8", "8/5"], "k": "F(-4,7) / F(5,14)", "e": "Flip and multiply: −4/7 × 14/5 = −56/35 = −8/5." },
+      { "t": "Which fraction has a terminating decimal?", "o": ["13/250", "4/15", "2/9", "5/6"], "e": "250 = 2 × 5³ — only 2s and 5s, so it can be made a power of 10. The others have a factor 3." },
+      { "t": "Find |−5/3|.", "o": ["5/3", "−5/3", "3/5", "0"], "e": "Absolute value is distance from 0, which can't be negative." },
+      { "t": "What is the distance between −4 and 3 on the number line?", "n": 7, "k": "abs(-4 - 3)", "e": "|a − b| = |−4 − 3| = |−7| = 7." },
+      { "t": "A tailor has 15¾ m of silk and each kurta needs 2¼ m. How many kurtas can he make?", "n": 7, "k": "F(63,4) / F(9,4)", "e": "63/4 ÷ 9/4 = 63/9 = 7." },
+      { "t": "Which is a rational number between 1 and 3/2?", "o": ["5/4", "3/2", "7/4", "1/2"], "e": "The average (1 + 3/2)/2 = 5/4 always lies strictly between." },
+      { "t": "A trader has a ₹850 loan, then ₹1200 profit, then ₹450 loss. What is his final standing (in ₹)?", "n": -100, "k": "-850 + 1200 - 450", "e": "−850 + 1200 − 450 = −100: he still owes ₹100." }
+    ] },
+    { "q": [
+      { "t": "Write 0.1666… (only the 6 repeating) as p/q.", "o": ["1/6", "16/99", "1/60", "15/99"], "k": "F(15,90)", "e": "10x = 1.666…, 100x = 16.666…; subtract: 90x = 15 → x = 1/6." },
+      { "t": "Write 0.4545… (45 repeating) as p/q.", "o": ["5/11", "45/100", "9/20", "4/9"], "k": "F(45,99)", "e": "Two digits repeat → multiply by 100: 99x = 45 → 45/99 = 5/11." },
+      { "t": "How many decimal places does 18/125 have?", "n": 3, "e": "125 = 5³; multiply top and bottom by 2³: 144/1000 = 0.144." },
+      { "t": "A fraction in lowest terms has denominator 2³ × 5. How many decimal places does it have?", "n": 3, "e": "Multiply by 5² to make the denominator 10³ — three decimal places." },
+      { "t": "In the proof that √2 is irrational, after getting 2q² = p², what do we conclude first?", "o": ["p is even", "q is odd", "p = q", "p is prime"], "e": "p² is 2 × something, so even; an odd number squared is odd, so p itself must be even." },
+      { "t": "In that proof, what is the contradiction?", "o": ["p and q are both even, but p/q was in lowest terms", "p is negative", "q becomes zero", "√2 is bigger than 2"], "e": "Both even means a common factor 2 — impossible for a fraction we chose in lowest terms." },
+      { "t": "Find x if x/3 + x/5 = 16/15.", "n": 2, "k": "F(16,15) / F(8,15)", "e": "x/3 + x/5 = 8x/15 = 16/15 → x = 2." },
+      { "t": "Classify 1.01001000100001…", "o": ["Irrational — no block repeats", "Rational — it has a pattern", "Rational — it is close to 1", "An integer"], "e": "The runs of zeros keep growing, so no fixed block repeats. Non-terminating, non-repeating → irrational." },
+      { "t": "On the square root spiral, the hypotenuses are √2, √3, √4, … What is the 3rd hypotenuse?", "n": 2, "k": "math.sqrt(4)", "e": "Each triangle adds 1 under the root: √2, √3, √4 = 2." },
+      { "t": "Show (1/2 + 3/4) × 8/3. What is it equal to?", "o": ["10/3", "5/3", "4/3", "2"], "k": "(F(1,2) + F(3,4)) * F(8,3)", "e": "5/4 × 8/3 = 10/3, the same as 4/3 + 2 — the distributive law." }
+    ] },
+    { "q": [
+      { "t": "Write 2.357̄ (only the 7 repeating) as p/q.", "o": ["1061/450", "2357/999", "2122/999", "707/300"], "k": "F(2122,900)", "e": "100x = 235.777…, 1000x = 2357.777…; subtract: 900x = 2122 → 1061/450." },
+      { "t": "Write 3.05̄2̄ (52 repeating, i.e. 3.05252…) as p/q.", "o": ["1511/495", "3052/999", "3049/990", "1526/495"], "k": "F(3022,990)", "e": "10x = 30.5252…, 1000x = 3052.5252…; 990x = 3022 → 1511/495." },
+      { "t": "What is 0.999… (9 repeating) exactly equal to?", "n": 1, "k": "F(9,9)", "e": "10x = 9.999…, x = 0.999…; 9x = 9 → x = 1. No number fits between them." },
+      { "t": "142857 × 3 = ?", "o": ["428571", "428751", "426571", "428517"], "k": "142857*3", "e": "142857 is the repeating block of 1/7; multiplying by 1–6 just rotates its digits." },
+      { "t": "a and b are non-zero rationals with a + 1/b = 0. What is ab?", "n": -1, "e": "a = −1/b, so ab = −1: negative." },
+      { "t": "x + y + z = 0 and xy + yz + zx = 0 for rationals x, y, z. What is x² + y² + z²?", "n": 0, "e": "(x + y + z)² = x² + y² + z² + 2(xy + yz + zx), so 0 = x² + y² + z². Squares can't be negative, so all are 0." },
+      { "t": "Which is NOT a cyclic-number denominator like 7 (1/n rotating under multiplication)?", "o": ["13", "17", "19", "23"], "e": "Thirteenths split into two different 6-digit cycles (076923 and 153846), so 1/13's block is not fully cyclic." },
+      { "t": "Write 2.05̄ (only the 5 repeating) as p/q.", "o": ["37/18", "205/99", "41/20", "203/99"], "k": "F(185,90)", "e": "100x = 205.55…, 10x = 20.55…; 90x = 185 → 37/18." },
+      { "t": "Which number is rational?", "o": ["0.123451234512345…", "√12", "π", "1.0100100010…"], "e": "The block 12345 repeats forever, so it equals 12345/99999. Repeating decimals are rational." },
+      { "t": "(5/6)(x + 3/5) = (5/6)x + 1/2. Which x satisfies this?", "o": ["Every rational x", "Only x = 0", "Only x = 1/2", "No x"], "e": "Expanding the left gives (5/6)x + 1/2 — identical to the right side, so it is true for all x." }
+    ] }
+  ]
+}
