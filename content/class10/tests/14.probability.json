@@ -1,5 +1,5 @@
 {
-  "title": "13. Probability",
+  "title": "14. Probability",
   "tests": [
     {"q": [
       {"t": "A fair coin is tossed. Find P(head).", "n": 0.5, "k": "F(1,2)", "e": "2 equally likely outcomes, 1 of them a head."},

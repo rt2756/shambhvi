@@ -1,5 +1,5 @@
 {
-  "title": "10. Quadratic Equations",
+  "title": "4. Quadratic Equations",
   "tests": [
     {"q": [
       {"t": "Find the roots of x² − 9 = 0.", "o": ["3 and −3", "3 only", "9 and −9", "−3 only"], "e": "x² = 9 has two square roots: (−3)² is also 9."},

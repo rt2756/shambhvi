@@ -33,15 +33,8 @@ things on **one chapter list taken from the current NCERT book**:
 
 ## To do
 
-- [ ] **Class 10 maths tests.** The notes are **done** (14 chapters in `content/class10/math/`, listed in
-  its `manifest.json`; uncommitted). Write `content/class10/tests/<same name>.json` for each of the
-  14 chapters (`1.real-numbers.json` … `14.probability.json`) plus `manifest.json` in the same order.
-  Reuse good questions from the old 19 test files and `content/class10/math-questions/*.md`
-  (the book's answer key at the back of `ncert_books/class_10/maths.pdf` helps), then delete the old
-  test files not in the new manifest and the whole `content/class10/math-questions/` folder.
-  Run `python3 tools/check_tests.py 10` until it passes; check `class10-tests.html` loads.
-- [ ] **Commit class 5 and class 10 maths** together with `PLAN.md` and the `CLAUDE.md` change
-  (ask the user first).
+- [ ] **Commit the class 10 maths tests** with `PLAN.md` (ask the user first). Class 5 maths and the
+  class 10 notes are already in commit `6598e0e`.
 
 ## Later (not agreed yet — ask the user before starting)
 
@@ -58,9 +51,11 @@ things on **one chapter list taken from the current NCERT book**:
   *Ganita Prakash*. Commit `7c66921`.
 - 2026-11-27 — Class 8 maths (14 chapters, 560 Qs, *Ganita Prakash* I + II) and class 9 maths
   (8 chapters, 320 Qs, new book). Commit `8f2157a`.
-- 2026-11-27 — Class 5 maths (15 chapters of *Maths Mela*, 600 Qs, checker passes). **Not committed yet.**
-- 2026-11-27 — Class 10 maths **notes** (14 chapters, 2,300–4,000 words each; cheat-sheet link removed).
-  **Not committed yet**; tests still to do (see *To do*).
+- 2026-11-27 — Class 5 maths (15 chapters of *Maths Mela*, 600 Qs, checker passes). Commit `6598e0e`.
+- 2026-11-27 — Class 10 maths **notes** (14 chapters, 2,300–4,000 words each; cheat-sheet link removed). Commit `6598e0e`.
+- 2026-11-27 — Class 10 maths **tests** (14 chapters, 560 Qs, checker passes; ~75% reused from the old
+  19 files, out-of-syllabus ones replaced). Old test files and `content/class10/math-questions/` removed.
+  **Not committed yet.**
 
 ## Learnings
 
@@ -71,5 +66,9 @@ things on **one chapter list taken from the current NCERT book**:
 - If plain `rm` is blocked by permissions, `git rm` works for tracked files.
 - After a rewrite, check that no old files remain: every `.md` / `.json` in the folder should be in
   its `manifest.json`.
+- Class 10 maths rationalised book drops: Euclid's lemma + decimal expansions (Ch 1), division algorithm
+  (Ch 2), cross-multiplication + equations reducible to linear (Ch 3), areas of similar triangles +
+  Pythagoras proofs (Ch 6), area of a triangle + centroid (Ch 7), complementary-angle ratios (Ch 8),
+  melting/recasting + frustums (Ch 12), ogives (Ch 13). Keep tests clear of these.
 - The answer keys printed in NCERT books sometimes have slips (e.g. class 9 science Ch 2 Q11) —
   trust the chapter text and say so in the notes.

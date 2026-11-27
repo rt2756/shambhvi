@@ -1,5 +1,5 @@
 {
-  "title": "12. Some Applications of Trigonometry",
+  "title": "9. Some Applications of Trigonometry",
   "tests": [
     {"q": [
       {"t": "From a point 20 m from the foot of a tower, the angle of elevation of its top is 45°. Find the height.", "n": 20, "u": "m", "k": "20", "e": "tan 45° = height/20 = 1, so height equals distance."},
@@ -41,7 +41,7 @@
       {"t": "From a point 20 m above a still lake, the angle of elevation of a cloud is 30° and the angle of depression of its reflection is 60°. Find the cloud’s height above the lake.", "n": 40, "u": "m", "k": "40", "e": "The reflection is as far below the water as the cloud is above. With horizontal distance d: H − 20 = d/√3 and H + 20 = d√3. Dividing: H + 20 = 3(H − 20)."},
       {"t": "Points A and B are on opposite sides of a tower, 100 m apart and in line with its foot. The angles of elevation of its top are 45° and 30°. Find its height.", "o": ["50(√3 − 1) m", "50(√3 + 1) m", "100(√3 − 1) m", "50 m"], "e": "Distances h and h√3 add to 100: h(1 + √3) = 100, so h = 100/(√3 + 1) = 50(√3 − 1)."},
       {"t": "The angle of elevation of a tower’s top is 30°. After walking 20 m towards it, the angle is 45°. Find its height.", "o": ["10(√3 + 1) m", "10(√3 − 1) m", "20√3 m", "10√3 m"], "e": "h√3 − h = 20, so h = 20/(√3 − 1) = 10(√3 + 1)."},
-      {"t": "The angles of elevation of a tower’s top from points 4 m and 16 m from its foot (same side, in a line) are complementary. Find its height.", "n": 8, "u": "m", "k": "(4*16)**F(1,2)", "e": "tan θ = h/4 and tan(90° − θ) = cot θ = h/16. Multiply: 1 = h²/64."},
+      {"t": "The angles of elevation of a tower’s top from points 4 m and 16 m from its foot (same side, in a line) add up to 90°. Find the tower’s height.", "n": 8, "u": "m", "k": "(4*16)**F(1,2)", "e": "Call the angles θ (from 16 m) and 90° − θ (from 4 m). The two right triangles then have the same angles in swapped places, so they are similar: h/4 = 16/h. So h² = 64 and h = 8."},
       {"t": "From a point P on the ground, the elevation of the top of a 10 m building is 30°, and of the top of a flagpole on it is 45°. Find the flagpole’s length.", "o": ["10(√3 − 1) m", "10(√3 + 1) m", "10√3 m", "10 m"], "e": "Distance = 10/tan 30° = 10√3. At 45°, the flag’s top is 10√3 high, so the flag is 10√3 − 10."},
       {"t": "From the top of a 100 m lighthouse, the angle of depression of a ship changes from 30° to 45°. How far did the ship move? (Use √3 = 1.732.)", "n": 73.2, "u": "m", "k": "100*F('1.732')-100", "e": "Distances 100√3 and 100: 100 × 1.732 − 100."},
       {"t": "From the top of a 100 m lighthouse, the depression of a ship changes from 30° to 45° in 2 minutes. Find its speed in m/min. (Use √3 = 1.732.)", "n": 36.6, "u": "m/min", "k": "(100*F('1.732')-100)/2", "e": "It moved 100(√3 − 1) = 73.2 m in 2 minutes."},

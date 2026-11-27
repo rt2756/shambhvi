@@ -1,5 +1,5 @@
 {
-  "title": "11. Arithmetic Progression",
+  "title": "5. Arithmetic Progressions",
   "tests": [
     {"q": [
       {"t": "Find the common difference of 3, 7, 11, …", "n": 4, "k": "7-3", "e": "Each term minus the one before: 7 − 3 = 4."},

@@ -1,0 +1,53 @@
+{
+  "title": "8. Introduction to Trigonometry",
+  "tests": [
+    {"q": [
+      {"t": "In a right triangle, the side opposite θ is 3, the side next to θ is 4 and the hypotenuse is 5. Find sin θ.", "o": ["3/5", "4/5", "3/4", "5/3"], "k": "F(3,5)", "e": "sin θ = opposite ÷ hypotenuse."},
+      {"t": "If sin θ = 5/13, find cos θ (θ acute).", "o": ["12/13", "5/12", "13/12", "8/13"], "k": "F(12,13)", "e": "Opposite 5, hypotenuse 13, so adjacent = √(169 − 25) = 12; cos θ = 12/13."},
+      {"t": "sec θ is the reciprocal of…", "o": ["cos θ", "sin θ", "tan θ", "cot θ"], "e": "sec θ = hypotenuse ÷ adjacent, which is cos θ turned upside down."},
+      {"t": "If cosec θ = 2, find sin θ.", "n": 0.5, "k": "F(1,2)", "e": "sin θ is the reciprocal of cosec θ."},
+      {"t": "Find sin 30°.", "n": 0.5, "k": "F(1,2)", "e": "Half of an equilateral triangle of side 2 has hypotenuse 2 and side 1 opposite 30°."},
+      {"t": "Find sin 60°.", "o": ["√3/2", "1/2", "1/√2", "√3"], "e": "In the half-equilateral triangle (1, √3, 2), the side opposite 60° is √3."},
+      {"t": "What is tan 90°?", "o": ["Not defined", "0", "1", "√3"], "e": "tan 90° = sin 90°/cos 90° = 1/0, and we cannot divide by zero."},
+      {"t": "Find tan 30°.", "o": ["1/√3", "√3", "1/2", "√3/2"], "e": "In the (1, √3, 2) triangle, opposite 30° is 1 and adjacent is √3."},
+      {"t": "1 + tan² θ equals…", "o": ["sec² θ", "cosec² θ", "cos² θ", "cot² θ"], "e": "Divide sin² θ + cos² θ = 1 by cos² θ."},
+      {"t": "Find sec² θ − tan² θ.", "n": 1, "k": "1", "e": "Rearrange 1 + tan² θ = sec² θ."}
+    ]},
+    {"q": [
+      {"t": "If tan θ = 8/15, find sin θ.", "o": ["8/17", "15/17", "8/15", "17/8"], "k": "F(8,17)", "e": "Opposite 8, adjacent 15, so hypotenuse = √(64 + 225) = 17."},
+      {"t": "If sin A = 3/5, find tan A + sec A.", "n": 2, "k": "F(3,4)+F(5,4)", "e": "Adjacent = 4: tan A = 3/4, sec A = 5/4, total 8/4."},
+      {"t": "If 3 tan θ = 4, find (4 sin θ − cos θ)/(4 sin θ + cos θ).", "o": ["13/19", "19/13", "1/3", "4/3"], "k": "F(13,19)", "e": "tan θ = 4/3, so sin θ = 4/5, cos θ = 3/5: (16 − 3)/(16 + 3)."},
+      {"t": "Can sin θ = 4/3 for some angle θ?", "o": ["No — sin θ can never be more than 1", "Yes, for a large angle", "Yes, if θ is obtuse", "Only when cos θ = 3/4"], "e": "sin θ = opposite ÷ hypotenuse, and the hypotenuse is the longest side."},
+      {"t": "Find 3 tan² 45° − sin² 60° + cos² 30°.", "n": 3, "k": "3-F(3,4)+F(3,4)", "e": "3 × 1 − 3/4 + 3/4 = 3."},
+      {"t": "If tan 2A = √3 (2A acute), find A in degrees.", "n": 30, "u": "°", "k": "30", "e": "tan 60° = √3, so 2A = 60°."},
+      {"t": "ΔABC is right-angled at B with ∠A = 30° and AC = 20 cm. Find BC.", "n": 10, "u": "cm", "k": "20*F(1,2)", "e": "BC is opposite 30°: BC = AC sin 30° = 20 × 1/2."},
+      {"t": "If sec θ + tan θ = 4, find sec θ − tan θ.", "n": 0.25, "k": "F(1,4)", "e": "(sec θ + tan θ)(sec θ − tan θ) = sec² θ − tan² θ = 1, so it is 1/4."},
+      {"t": "Simplify (1 + cot² A)(1 − cos A)(1 + cos A).", "n": 1, "k": "1", "e": "cosec² A × (1 − cos² A) = cosec² A × sin² A."},
+      {"t": "If tan θ + cot θ = 2, find tan² θ + cot² θ.", "n": 2, "k": "4-2", "e": "Square: tan² θ + cot² θ + 2 tan θ cot θ = 4, and tan θ cot θ = 1."}
+    ]},
+    {"q": [
+      {"t": "If sin θ = 5/13, find (sec θ + tan θ)/(sec θ − tan θ).", "n": 2.25, "k": "F(18,8)", "e": "cos θ = 12/13, so sec θ = 13/12, tan θ = 5/12: (18/12) ÷ (8/12) = 9/4."},
+      {"t": "If tan θ = 3/2, find (3 sin θ − 2 cos θ)/(3 sin θ + 2 cos θ).", "o": ["5/13", "1/5", "13/5", "5/12"], "k": "F(5,13)", "e": "Divide top and bottom by cos θ: (3 tan θ − 2)/(3 tan θ + 2) = (4.5 − 2)/(4.5 + 2) = 2.5/6.5."},
+      {"t": "ΔABC is right-angled at B with AB = 12 cm and sin A = 5/13. Find its perimeter.", "n": 30, "u": "cm", "k": "5+12+13", "e": "BC/AC = 5/13 with AB = 12 means the 5–12–13 triangle: BC = 5, AC = 13."},
+      {"t": "If sin(2θ − 10°) = cos 60° (θ acute), find θ in degrees.", "n": 20, "u": "°", "k": "20", "e": "cos 60° = 1/2 = sin 30°, so 2θ − 10° = 30°."},
+      {"t": "If cos(A − B) = √3/2 and sin(A + B) = 1, find A in degrees.", "n": 60, "u": "°", "k": "60", "e": "A − B = 30° and A + B = 90°, so 2A = 120°."},
+      {"t": "A ladder makes 60° with the ground and its foot is 2.5 m from the wall. Find the ladder’s length.", "n": 5, "u": "m", "k": "F(5,2)*2", "e": "cos 60° = foot distance ÷ ladder: 2.5 ÷ 1/2."},
+      {"t": "Find 4 cos³ 30° − 3 cos 30°.", "n": 0, "k": "0", "e": "4 × 3√3/8 − 3√3/2 = 3√3/2 − 3√3/2. (It equals cos 90°.)"},
+      {"t": "If sin θ + cos θ = 7/5, find sin θ cos θ.", "n": 0.48, "k": "(F(49,25)-1)/2", "e": "Square: 1 + 2 sin θ cos θ = 49/25, so 2 sin θ cos θ = 24/25."},
+      {"t": "If sin θ + cos θ = 7/5 and sin θ > cos θ, find sin θ − cos θ.", "n": 0.2, "k": "F(1,5)", "e": "(sin θ − cos θ)² = 1 − 2 sin θ cos θ = 1 − 24/25 = 1/25."},
+      {"t": "(tan θ + sec θ − 1)/(tan θ − sec θ + 1) equals…", "o": ["(1 + sin θ)/cos θ", "(1 − sin θ)/cos θ", "cos θ/(1 + sin θ)", "tan θ"], "e": "Replace the 1 on top by sec² θ − tan² θ, factor out (sec θ + tan θ), and the rest cancels."}
+    ]},
+    {"q": [
+      {"t": "If tan θ = 8/15, find (1 − sin θ + cos θ)/(1 + sin θ + cos θ).", "o": ["3/5", "5/3", "8/15", "2/5"], "k": "F(24,40)", "e": "sin θ = 8/17, cos θ = 15/17. Multiply through by 17: (17 − 8 + 15)/(17 + 8 + 15) = 24/40."},
+      {"t": "If 5 sin² θ + 3 cos² θ = 4 (θ acute), find tan θ.", "n": 1, "k": "1", "e": "Write 3 cos² θ = 3 − 3 sin² θ: 2 sin² θ + 3 = 4, so sin² θ = 1/2 and θ = 45°."},
+      {"t": "ΔABC is right-angled at B with AC + AB = 9 cm and BC = 3 cm. Find sec A + tan A.", "n": 2, "k": "F(5,4)+F(3,4)", "e": "AC² − AB² = 9, so (AC − AB) × 9 = 9 and AC − AB = 1: AC = 5, AB = 4. sec A = 5/4, tan A = 3/4."},
+      {"t": "If sin(A + B) = 1 and cos(A − 2B) = 1 (A, B acute), find A in degrees.", "n": 60, "u": "°", "k": "60", "e": "A + B = 90° and A − 2B = 0°. So A = 2B and 3B = 90°: B = 30°, A = 60°."},
+      {"t": "Find (sec² 45° + cot² 60° + 3 tan² 30°)/(cosec² 30° − tan² 60°).", "o": ["10/3", "3", "7/3", "4"], "k": "(2+F(1,3)+1)/(4-3)", "e": "Top: 2 + 1/3 + 1 = 10/3. Bottom: 4 − 3 = 1."},
+      {"t": "If sin(A − B) = 1/2 and cos(A + B) = 0 (A, B acute), find B in degrees.", "n": 30, "u": "°", "k": "30", "e": "A − B = 30° and A + B = 90°: subtract to get 2B = 60°."},
+      {"t": "If cosec θ − sin θ = l and sec θ − cos θ = m, find l²m²(l² + m² + 3).", "n": 1, "k": "1", "e": "l = cos² θ/sin θ and m = sin² θ/cos θ, so lm = sin θ cos θ and l² + m² + 3 = 1/(sin² θ cos² θ)."},
+      {"t": "If 4 sin θ + 3 cos θ = 3, find 3 sin θ − 4 cos θ.", "o": ["±4", "±3", "±5", "±1"], "e": "(4s + 3c)² + (3s − 4c)² = 25(s² + c²) = 25, so (3s − 4c)² = 16."},
+      {"t": "If sec θ + tan θ = 3 (θ acute), find sin θ.", "n": 0.8, "k": "F(4,3)/F(5,3)", "e": "sec θ − tan θ = 1/3. So sec θ = 5/3, tan θ = 4/3, and sin θ = tan θ/sec θ."},
+      {"t": "If sin θ + cos θ = p and sec θ + cosec θ = q, then q(p² − 1) equals…", "o": ["2p", "p", "2q", "p²"], "e": "q = p/(sin θ cos θ) and p² − 1 = 2 sin θ cos θ."}
+    ]}
+  ]
+}

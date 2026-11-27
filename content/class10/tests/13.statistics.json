@@ -1,5 +1,5 @@
 {
-  "title": "9. Mean, Median and Mode of Grouped Data",
+  "title": "13. Statistics",
   "tests": [
     {"q": [
       {"t": "Find the class mark of the class 10–20.", "n": 15, "k": "F(10+20,2)", "e": "The class mark is the middle of the class: (10 + 20)/2. It stands for every value in that class."},
@@ -9,7 +9,7 @@
       {"t": "The modal class is the class with…", "o": ["the highest frequency", "the middle position", "the largest class mark", "the highest cumulative frequency"], "e": "Mode means the most common value, so it lies in the most crowded class."},
       {"t": "For some data the mean is 20 and the median is 22. Use the empirical relation to find the mode.", "n": 26, "k": "3*22-2*20", "e": "Mode = 3 × 22 − 2 × 20 = 66 − 40."},
       {"t": "Values 1, 2, 3 occur 2, 3 and 5 times. Find the mean.", "n": 2.3, "k": "F(2+6+15,10)", "e": "Σfx/Σf = (2 + 6 + 15)/10 = 23/10."},
-      {"t": "An ogive is the graph of…", "o": ["cumulative frequency", "class marks", "frequency density", "the mode"], "e": "An ogive plots running totals against class limits, which is why the median can be read from it."},
+      {"t": "The cumulative frequency of a class is…", "o": ["the number of observations up to the end of that class", "the frequency of that class only", "the class mark × frequency", "the highest frequency in the table"], "e": "It is a running total of the frequencies. A ‘less than 30’ figure in a table is exactly the cumulative frequency of the class ending at 30."},
       {"t": "Find the median of 3, 7, 1, 9, 5.", "n": 5, "k": "sorted([3,7,1,9,5])[2]", "e": "Sort: 1, 3, 5, 7, 9. The middle (3rd) value is 5."},
       {"t": "The classes are 0–10, 10–20, 20–30, … What is the class size?", "n": 10, "k": "10", "e": "Class size = upper limit − lower limit = 10 − 0."}
     ]},
@@ -21,7 +21,7 @@
       {"t": "The mean of some data is 25.5 and the mode is 24. Find the median.", "n": 25, "k": "F(24+2*F(51,2),3)", "e": "Mode = 3 Median − 2 Mean, so 3 Median = 24 + 51 = 75."},
       {"t": "Values 10, 20, 30, 40 occur 3, p, 5, 2 times and the mean is 25. Find p.", "n": 2, "k": "2", "e": "(30 + 20p + 150 + 80)/(10 + p) = 25, so 260 + 20p = 250 + 25p."},
       {"t": "Classes 0–20, 20–40, 40–60, 60–80, 80–100 have frequencies 6, 9, 10, 8, 7. Which is the median class?", "o": ["40–60", "20–40", "60–80", "0–20"], "e": "n = 40, n/2 = 20. Cumulative: 6, 15, 25 — the 20th value falls in 40–60."},
-      {"t": "The x-coordinate of the point where the ‘less than’ and ‘more than’ ogives cross gives the…", "o": ["median", "mean", "mode", "range"], "e": "At that point as many values lie below as above — exactly what the median means."},
+      {"t": "In the median formula l + ((n/2 − cf)/f) × h, what is cf?", "o": ["the cumulative frequency of the class BEFORE the median class", "the cumulative frequency of the median class", "the frequency of the median class", "the total frequency n"], "e": "cf counts how many values come before the median class. The formula then asks how far into the median class we must go to reach the n/2-th value."},
       {"t": "What is the sum of the deviations of a set of values from their mean?", "n": 0, "k": "0", "e": "The mean is the balance point: the amounts above it exactly cancel the amounts below it."},
       {"t": "In the step-deviation method, a = 45, h = 10 and the mean of the u values is −0.4. Find the mean.", "n": 41, "k": "45+10*F(-4,10)", "e": "Mean = a + h × (mean of u) = 45 + 10 × (−0.4)."}
     ]},
@@ -46,7 +46,7 @@
       {"t": "Classes 0–10, 10–20, 20–30, 30–40, 40–50 have frequencies 5, 9, 22, 8, 6. Find the mean.", "n": 25.2, "k": "F(1260,50)", "e": "Σfx = 25 + 135 + 550 + 280 + 270 = 1260 and Σf = 50."},
       {"t": "The mean of 25 values is 36. The mean of the first 13 is 32 and of the last 13 is 40. Find the 13th value.", "n": 36, "k": "13*32+13*40-25*36", "e": "The 13th value is in both groups, so it is counted twice: 13 × 32 + 13 × 40 − 25 × 36 = 416 + 520 − 900."},
       {"t": "Mode − Mean = k(Median − Mean). Use the empirical relation to find k.", "n": 3, "k": "3", "e": "Mode = 3 Median − 2 Mean, so Mode − Mean = 3 Median − 3 Mean."},
-      {"t": "The ‘less than’ and ‘more than’ ogives of some data meet at (35, 40). How many values are there in all?", "n": 80, "k": "2*40", "e": "At the crossing, 40 values lie below 35 and 40 lie above, so 40 is half the total."},
+      {"t": "Daily wages (₹) of 50 workers: 500–520: 12, 520–540: 14, 540–560: 8, 560–580: 6, 580–600: 10. Find the mean wage by the step-deviation method (in ₹).", "n": 545.2, "k": "550+20*F(-12,50)", "e": "Take a = 550, h = 20, so u = −2, −1, 0, 1, 2. Σfu = −24 − 14 + 0 + 6 + 20 = −12. Mean = 550 + 20 × (−12/50) = 545.2."},
       {"t": "Class A has 30 students with mean mark 60; class B has 20 students with mean mark 70. Find the mean of all 50.", "n": 64, "k": "F(1800+1400,50)", "e": "Total marks (1800 + 1400) ÷ 50. The answer leans towards 60 because class A is bigger."}
     ]}
   ]

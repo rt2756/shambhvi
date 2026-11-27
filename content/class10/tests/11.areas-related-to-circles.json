@@ -1,5 +1,5 @@
 {
-  "title": "18. Areas of Circle, Sector and Segment",
+  "title": "11. Areas Related to Circles",
   "tests": [
     {"q": [
       {"t": "Find the circumference of a circle of radius 7 cm. (π = 22/7)", "n": 44, "u": "cm", "k": "2*F(22,7)*7", "e": "C = 2πr = 2 × 22/7 × 7."},
