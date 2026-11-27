@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198 193" width="198" height="193" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="14.0" y1="179.0" x2="184.0" y2="179.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="74.0" y1="179.0" x2="74.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<polyline points="85.0,179.0 85.0,168.0 74.0,168.0" fill="none" stroke="#263238" stroke-width="1.6"/>
+<line x1="74.0" y1="179.0" x2="27.1" y2="68.5" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="47.6" y1="103.7" x2="40.0" y2="98.9" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="38.1" y1="107.7" x2="40.0" y2="98.9" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="129.0" y1="179.0" x2="60.3" y2="17.2" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="118.3" y1="140.5" x2="110.6" y2="135.7" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="108.8" y1="144.5" x2="110.6" y2="135.7" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<path d="M66.2,160.6 A20,20 0 0 0 54.0,179.0" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="44.0" y="164.3" font-size="15" fill="#1565c0" text-anchor="middle">67°</text>
+<path d="M74.0,79.4 A30,30 0 0 0 85.7,77.0" fill="none" stroke="#c62828" stroke-width="1.8"/>
+<text x="82.8" y="97.8" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">a</text>
+</svg>

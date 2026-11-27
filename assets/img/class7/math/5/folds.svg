@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 438 162" width="438" height="162" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="14.0" y1="124.0" x2="124.0" y2="124.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="124.0" y1="124.0" x2="124.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="124.0" y1="14.0" x2="14.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="14.0" y1="14.0" x2="14.0" y2="124.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="14.0" y1="69.0" x2="124.0" y2="69.0" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5,4"/>
+<text x="69.0" y="146.6" font-size="13" fill="#263238" text-anchor="middle">1 fold: 3 lines</text>
+<line x1="164.0" y1="124.0" x2="274.0" y2="124.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="274.0" y1="124.0" x2="274.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="274.0" y1="14.0" x2="164.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="164.0" y1="14.0" x2="164.0" y2="124.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="164.0" y1="96.5" x2="274.0" y2="96.5" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5,4"/>
+<line x1="164.0" y1="69.0" x2="274.0" y2="69.0" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5,4"/>
+<line x1="164.0" y1="41.5" x2="274.0" y2="41.5" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5,4"/>
+<text x="219.0" y="146.6" font-size="13" fill="#263238" text-anchor="middle">2 folds: 5 lines</text>
+<line x1="314.0" y1="124.0" x2="424.0" y2="124.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="424.0" y1="124.0" x2="424.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="424.0" y1="14.0" x2="314.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="314.0" y1="14.0" x2="314.0" y2="124.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="314.0" y1="110.2" x2="424.0" y2="110.2" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5,4"/>
+<line x1="314.0" y1="96.5" x2="424.0" y2="96.5" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5,4"/>
+<line x1="314.0" y1="82.8" x2="424.0" y2="82.8" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5,4"/>
+<line x1="314.0" y1="69.0" x2="424.0" y2="69.0" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5,4"/>
+<line x1="314.0" y1="55.2" x2="424.0" y2="55.2" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5,4"/>
+<line x1="314.0" y1="41.5" x2="424.0" y2="41.5" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5,4"/>
+<line x1="314.0" y1="27.8" x2="424.0" y2="27.8" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5,4"/>
+<text x="369.0" y="146.6" font-size="13" fill="#263238" text-anchor="middle">3 folds: 9 lines</text>
+</svg>

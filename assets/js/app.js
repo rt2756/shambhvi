@@ -177,6 +177,9 @@
         ? words.fragment
         : emptyState("🔤", "Words coming soon",
             "Vocabulary for this level hasn’t been added yet."));
+    } else {
+      // Notes: end-of-chapter questions hide their solutions behind "Show answer".
+      upgradeAnswers(tmp, "Show answer");
     }
     return { id: slugify(title), title: title, body: tmp };
   }

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 292" width="340" height="292" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="14.0" y1="278.0" x2="14.0" y2="14.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="38.0" y1="278.0" x2="38.0" y2="14.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="62.0" y1="278.0" x2="62.0" y2="14.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="86.0" y1="278.0" x2="86.0" y2="14.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="110.0" y1="278.0" x2="110.0" y2="14.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="134.0" y1="278.0" x2="134.0" y2="14.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="158.0" y1="278.0" x2="158.0" y2="14.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="182.0" y1="278.0" x2="182.0" y2="14.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="206.0" y1="278.0" x2="206.0" y2="14.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="230.0" y1="278.0" x2="230.0" y2="14.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="254.0" y1="278.0" x2="254.0" y2="14.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="278.0" y1="278.0" x2="278.0" y2="14.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="302.0" y1="278.0" x2="302.0" y2="14.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="326.0" y1="278.0" x2="326.0" y2="14.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="14.0" y1="278.0" x2="326.0" y2="278.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="14.0" y1="254.0" x2="326.0" y2="254.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="14.0" y1="230.0" x2="326.0" y2="230.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="14.0" y1="206.0" x2="326.0" y2="206.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="14.0" y1="182.0" x2="326.0" y2="182.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="14.0" y1="158.0" x2="326.0" y2="158.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="14.0" y1="134.0" x2="326.0" y2="134.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="14.0" y1="110.0" x2="326.0" y2="110.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="14.0" y1="86.0" x2="326.0" y2="86.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="14.0" y1="62.0" x2="326.0" y2="62.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="14.0" y1="38.0" x2="326.0" y2="38.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<line x1="14.0" y1="14.0" x2="326.0" y2="14.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<polygon points="38.0,230.0 134.0,230.0 182.0,158.0 86.0,158.0" fill="#ffccbc" stroke="#c62828" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="230.0,254.0 302.0,254.0 302.0,134.0 230.0,206.0" fill="#ffccbc" stroke="#c62828" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="38.0,110.0 38.0,38.0 110.0,38.0 110.0,62.0 62.0,62.0 62.0,110.0" fill="#ffccbc" stroke="#c62828" stroke-width="2" stroke-linejoin="round"/>
+</svg>

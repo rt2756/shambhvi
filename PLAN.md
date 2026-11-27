@@ -33,8 +33,26 @@ things on **one chapter list taken from the current NCERT book**:
 
 ## To do
 
-Nothing left — every class 5–10 has notes and tests for Maths, Science and English. Ask the user
-before starting anything under *Later*.
+- [ ] **User reviews the pilot:** class 7 maths Ch 5 (*Parallel and Intersecting Lines*), rewritten to
+  the new notes standard below, with 49 drawn figures. Wait for approval or changes before rolling out.
+- [ ] **After approval:** write the standard into `CLAUDE.md`, add a notes checker (flags "the book",
+  "Fig. 5.3", "Activity 2", "selected", "similar", and exercise questions with no hidden answer), then
+  roll out one subject per session: class 7 maths, 7 science, then 8, 6, 9, 10, 5.
+
+### New notes standard (pilot, agreed in principle 2026-11-27)
+
+1. **Standalone.** No "the book", "Example 6", "Fig. 8.13", "Activity 10.9". Anything from the book is
+   written out in full, in our own words (same numbers and facts; the book is © NCERT, so no verbatim
+   copying or screenshots on the public site).
+2. **Teach concept by concept:** concrete example → idea → rule with its *why* → worked examples, step by step.
+3. **Activities become "Try this":** what you need, what to do, what you see, why it happens.
+4. **Draw a figure wherever one is needed** (always for geometry). Figures are SVGs drawn from exact
+   coordinates by a script in `tools/figures/` (see `class7_math_5.py`); every angle label is
+   asserted against the drawn geometry. Compare each with the book's figure before finishing.
+5. **Every question is solved, step by step, with reasons.** Teaching examples are shown openly; every
+   practice question ("Check yourself") and every end-of-chapter question ("Exercises — try first")
+   hides its solution in a `> [!ANSWER]` block, which the notes page shows as a **Show answer** button.
+6. Ends with "In a nutshell" and a "Top traps" line, as before.
 
 ## Later (not agreed yet — ask the user before starting)
 
@@ -63,6 +81,9 @@ before starting anything under *Later*.
   Class 9 maths is the **new 8-chapter book** (not the old 12); classes 6–8 maths are *Ganita Prakash*.
 - `pdftotext -f A -l B book.pdf -` extracts pages; contents pages list book page numbers, so find the
   PDF offset first (book page 1 is usually PDF page 13–21).
+- Notes pages turn `> [!ANSWER]` blocks into Show answer buttons (`assets/js/app.js`, notes mode).
+  Images go in as `![alt](assets/img/class<N>/<subject>/<chapter>/<name>.svg)`; the page gives them a
+  white card, so they read fine in dark mode.
 - If plain `rm` is blocked by permissions, `git rm` works for tracked files.
 - After a rewrite, check that no old files remain: every `.md` / `.json` in the folder should be in
   its `manifest.json`.

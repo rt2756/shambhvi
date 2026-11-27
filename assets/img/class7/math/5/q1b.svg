@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 191" width="247" height="191" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="14.0" y1="38.8" x2="233.2" y2="58.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="202.5" y1="60.5" x2="210.3" y2="56.0" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="203.4" y1="50.2" x2="210.3" y2="56.0" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="14.0" y1="128.8" x2="233.2" y2="148.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="202.5" y1="150.5" x2="210.3" y2="146.0" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="203.4" y1="140.2" x2="210.3" y2="146.0" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="91.8" y1="14.0" x2="197.4" y2="176.5" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M124.5,64.3 A20,20 0 0 0 133.5,49.3" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="144.5" y="71.3" font-size="15" fill="#1565c0" text-anchor="middle">52°</text>
+<path d="M165.8,127.9 A18,18 0 0 0 157.7,141.4" fill="none" stroke="#c62828" stroke-width="1.8"/>
+<text x="148.2" y="131.8" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">b</text>
+</svg>

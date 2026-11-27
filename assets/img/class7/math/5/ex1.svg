@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 198" width="300" height="198" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="14.0" y1="47.5" x2="274.0" y2="47.5" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="243.6" y1="52.6" x2="251.0" y2="47.5" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="243.6" y1="42.3" x2="251.0" y2="47.5" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<text x="286.0" y="52.8" font-size="15" fill="#263238" text-anchor="start">l</text>
+<line x1="14.0" y1="137.5" x2="274.0" y2="137.5" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="243.6" y1="142.6" x2="251.0" y2="137.5" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="243.6" y1="132.3" x2="251.0" y2="137.5" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<text x="286.0" y="142.8" font-size="15" fill="#263238" text-anchor="start">m</text>
+<line x1="92.2" y1="15.7" x2="245.8" y2="169.3" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<text x="254.3" y="183.1" font-size="15" fill="#263238" text-anchor="middle">t</text>
+<text x="100.0" y="42.8" font-size="15" fill="#263238" text-anchor="middle">1</text>
+<text x="128.8" y="31.2" font-size="15" fill="#263238" text-anchor="middle">2</text>
+<text x="119.2" y="74.2" font-size="15" fill="#263238" text-anchor="middle">4</text>
+<text x="148.0" y="62.6" font-size="15" fill="#263238" text-anchor="middle">3</text>
+<text x="190.0" y="132.8" font-size="15" fill="#263238" text-anchor="middle">5</text>
+<text x="209.2" y="164.2" font-size="15" fill="#263238" text-anchor="middle">8</text>
+<text x="238.0" y="152.7" font-size="15" fill="#263238" text-anchor="middle">7</text>
+<path d="M228.0,137.5 A14,14 0 0 0 204.1,127.6" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="233.1" y="96.5" font-size="15" fill="#1565c0" text-anchor="middle">6 = 135°</text>
+</svg>

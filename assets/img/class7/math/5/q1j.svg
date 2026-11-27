@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365 266" width="365" height="266" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="61.0" y1="204.5" x2="171.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="160.3" y1="42.9" x2="159.5" y2="33.9" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="151.3" y1="37.7" x2="159.5" y2="33.9" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="150.7" y1="204.9" x2="261.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="250.3" y1="42.9" x2="249.5" y2="33.9" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="241.3" y1="37.7" x2="249.5" y2="33.9" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="213.5" y1="252.2" x2="351.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="340.3" y1="42.9" x2="339.5" y2="33.9" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="331.3" y1="37.7" x2="339.5" y2="33.9" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="14.0" y1="52.2" x2="257.4" y2="235.6" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="19.4" y1="47.7" x2="93.0" y2="198.7" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M40.9,91.8 A34,34 0 0 0 53.1,81.7" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="57.8" y="105.0" font-size="15" fill="#1565c0" text-anchor="middle">27°</text>
+<path d="M95.2,113.4 A16,16 0 0 0 100.0,136.9" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="76.7" y="134.7" font-size="15" fill="#1565c0" text-anchor="middle">97°</text>
+<path d="M73.8,159.2 A14,14 0 0 0 72.9,183.9" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="49.9" y="175.9" font-size="15" fill="#1565c0" text-anchor="middle">124°</text>
+<path d="M220.7,207.9 A16,16 0 0 0 225.5,231.4" fill="none" stroke="#c62828" stroke-width="1.8"/>
+<text x="204.1" y="228.8" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">j</text>
+</svg>
