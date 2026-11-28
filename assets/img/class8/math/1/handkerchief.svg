@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 252" width="460" height="252" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="44.7,214.0 223.6,214.0 223.6,35.1 44.7,35.1" fill="#ffb74d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="44.7,214.0 220.7,214.0 220.7,38.0 44.7,38.0" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="44.7" y1="22.0" x2="236.7" y2="22.0" stroke="#c62828" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="6 4"/>
+<line x1="236.7" y1="214.0" x2="236.7" y2="22.0" stroke="#c62828" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="6 4"/>
+<text x="132.7" y="135.9" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold">11 cm × 11 cm</text>
+<text x="132.7" y="156.4" font-size="13" fill="#2e7d32" text-anchor="middle">= 121 sq cm</text>
+<text x="134.1" y="236.6" font-size="13" fill="#263238" text-anchor="middle">cloth: 125 sq cm (side ≈ 11.2 cm)</text>
+<text x="244.7" y="30.2" font-size="12" fill="#c62828" text-anchor="start">12 cm needs 144 sq cm: too big</text>
+</svg>

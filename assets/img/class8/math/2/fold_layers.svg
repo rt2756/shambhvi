@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 507 148" width="507" height="148" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="19.3,94.0 89.3,94.0 89.3,89.0 19.3,89.0" fill="#90caf9" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<text x="54.3" y="114.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">0 folds</text>
+<text x="54.3" y="132.2" font-size="12" fill="#1565c0" text-anchor="middle">1 layer = 2⁰</text>
+<polygon points="123.3,94.0 181.3,94.0 181.3,89.0 123.3,89.0" fill="#90caf9" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="123.3,89.0 181.3,89.0 181.3,84.0 123.3,84.0" fill="#bbdefb" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<text x="152.3" y="114.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">1 fold</text>
+<text x="152.3" y="132.2" font-size="12" fill="#1565c0" text-anchor="middle">2 layers = 2¹</text>
+<polygon points="227.3,94.0 273.3,94.0 273.3,89.0 227.3,89.0" fill="#90caf9" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="227.3,89.0 273.3,89.0 273.3,84.0 227.3,84.0" fill="#bbdefb" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="227.3,84.0 273.3,84.0 273.3,79.0 227.3,79.0" fill="#90caf9" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="227.3,79.0 273.3,79.0 273.3,74.0 227.3,74.0" fill="#bbdefb" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<text x="250.3" y="114.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">2 folds</text>
+<text x="250.3" y="132.2" font-size="12" fill="#1565c0" text-anchor="middle">4 layers = 2²</text>
+<polygon points="331.3,94.0 365.3,94.0 365.3,89.0 331.3,89.0" fill="#90caf9" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="331.3,89.0 365.3,89.0 365.3,84.0 331.3,84.0" fill="#bbdefb" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="331.3,84.0 365.3,84.0 365.3,79.0 331.3,79.0" fill="#90caf9" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="331.3,79.0 365.3,79.0 365.3,74.0 331.3,74.0" fill="#bbdefb" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="331.3,74.0 365.3,74.0 365.3,69.0 331.3,69.0" fill="#90caf9" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="331.3,69.0 365.3,69.0 365.3,64.0 331.3,64.0" fill="#bbdefb" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="331.3,64.0 365.3,64.0 365.3,59.0 331.3,59.0" fill="#90caf9" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="331.3,59.0 365.3,59.0 365.3,54.0 331.3,54.0" fill="#bbdefb" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<text x="348.3" y="114.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">3 folds</text>
+<text x="348.3" y="132.2" font-size="12" fill="#1565c0" text-anchor="middle">8 layers = 2³</text>
+<polygon points="435.3,94.0 457.3,94.0 457.3,89.0 435.3,89.0" fill="#90caf9" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="435.3,89.0 457.3,89.0 457.3,84.0 435.3,84.0" fill="#bbdefb" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="435.3,84.0 457.3,84.0 457.3,79.0 435.3,79.0" fill="#90caf9" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="435.3,79.0 457.3,79.0 457.3,74.0 435.3,74.0" fill="#bbdefb" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="435.3,74.0 457.3,74.0 457.3,69.0 435.3,69.0" fill="#90caf9" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="435.3,69.0 457.3,69.0 457.3,64.0 435.3,64.0" fill="#bbdefb" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="435.3,64.0 457.3,64.0 457.3,59.0 435.3,59.0" fill="#90caf9" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="435.3,59.0 457.3,59.0 457.3,54.0 435.3,54.0" fill="#bbdefb" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="435.3,54.0 457.3,54.0 457.3,49.0 435.3,49.0" fill="#90caf9" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="435.3,49.0 457.3,49.0 457.3,44.0 435.3,44.0" fill="#bbdefb" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="435.3,44.0 457.3,44.0 457.3,39.0 435.3,39.0" fill="#90caf9" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="435.3,39.0 457.3,39.0 457.3,34.0 435.3,34.0" fill="#bbdefb" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="435.3,34.0 457.3,34.0 457.3,29.0 435.3,29.0" fill="#90caf9" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="435.3,29.0 457.3,29.0 457.3,24.0 435.3,24.0" fill="#bbdefb" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="435.3,24.0 457.3,24.0 457.3,19.0 435.3,19.0" fill="#90caf9" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="435.3,19.0 457.3,19.0 457.3,14.0 435.3,14.0" fill="#bbdefb" stroke="#1565c0" stroke-width="2" stroke-linejoin="round"/>
+<text x="446.3" y="114.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">4 folds</text>
+<text x="446.3" y="132.2" font-size="12" fill="#1565c0" text-anchor="middle">16 layers = 2⁴</text>
+</svg>

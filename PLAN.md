@@ -87,7 +87,7 @@ batch's *Done* entry saying why it is fine (e.g. "no figures: a chapter on numbe
 - [x] Ch 14 Constructions and Tilings (2026-11-28)
 
 **Class 8 maths** (*Ganita Prakash* I + II)
-- [ ] Ch 1 A square and a cube · Ch 2 Power play · Ch 3 A story of numbers
+- [x] Ch 1 A square and a cube · Ch 2 Power play · Ch 3 A story of numbers (2026-11-28)
 - [ ] Ch 4 Quadrilaterals · Ch 9 The Baudhāyana–Pythagoras theorem (figure-heavy)
 - [ ] Ch 5 Number play · Ch 6 We distribute, yet things multiply · Ch 7 Proportional reasoning — 1
 - [ ] Ch 8 Fractions in disguise · Ch 10 Proportional reasoning — 2 · Ch 13 Algebra play
@@ -281,6 +281,22 @@ book's activities and questions.
   midpoints); 65.5° is shown impossible because every constructible angle, doubled enough, is a multiple of 15.
   Brute force: removing any of the 7 "black" squares of a 5 × 3 grid makes it untileable, any of the 8 "white"
   squares leaves it tileable. The old notes' book-pointer lines ("Book Figure it Out") are gone.
+- 2026-11-28 — Class 8 maths Ch 1, 2, 3 rewritten to the notes standard (44 + 101 + 77 Check-yourself
+  answers, 11 + 34 + 4 exercises; 15 + 10 + 27 figures from `tools/figures/class8_math_{1,2,3}.py`). Checker
+  passes; no soft warnings for Ch 1. Ch 2 keeps "avg words per answer" (33) and "% answers with steps" (18%), Ch 3
+  keeps "% answers with steps" (26%): both have many one-line drills (write in exponential form, read a power line,
+  name a product of two landmark symbols) where a list of steps would be padding; the longer answers have steps.
+  Ch 1 and Ch 3 have no separate end set: Ch 1's last Figure it Out + the Square Pairs puzzle are its Exercises,
+  Ch 3's last Figure it Out (4 questions) is. Answer-key differences and quirks (trust these notes): Ch 1 key has no
+  answer for Q9 (tiny squares): the picture is 9 × 9 tiles of 5 × 5, so 2025 = 3⁴ × 5² = 45²; Square Pairs checked
+  by brute force (1-17 in a row: only one order and its reverse; 1-32 in a circle: exactly one). Ch 2 key Q12 gives
+  only (vi) 10⁹ + 10⁹, but (v) 2 × 10⁹ is the same number, so both are right; the old notes had 70,04,00,00,000 =
+  7.004 × 10⁹ (it has 11 digits: 10¹⁰, as the key says); key's 172 expansion has a "+" for "×" typo. Ch 2's
+  estimation questions are answered with stated assumptions (coin 4 g, walking 5 km/h, etc.); the age and
+  billion-seconds answers count back from 28 November 2026 and say so. Ch 3 text writes 2367 as MMCCCLXII, which is
+  2362 (its own sum gives MMCCCLXVII). Ch 3's picture numerals (Egyptian 276, 4322, 9608 + 507, 1080 + 46, 522 × 10,
+  1010 × 10; the base-5 sum 182 + 412) are redrawn with our own simplified symbols and the same values; our base-5
+  symbols are ▲ ■ ◆ ● ★ ✚ (the base-4 example uses · ✦ ⬟ so the two systems don't share symbols).
 
 ## Learnings
 
@@ -345,3 +361,16 @@ book's activities and questions.
   `inter()` (two circles' meeting points), `tick_arc()` (a short compass mark through a point), `bisect()`,
   `tile()` (finds a tiling of a cell set by a list of tile shapes) and `draw_tiles()` — reuse for class 6 Ch 8
   constructions and any tiling questions.
+
+- Class 8 Part 1 PDF: book page = PDF page − 16. Ch 1 text PDF 17–34, answers 35–38; Ch 2 text 39–67, answers
+  68–76; Ch 3 text 77–110, answers 111–122; Ch 4 starts at 123. Each answer key sits right after its chapter.
+- `tools/notes_coverage.json` keeps one entry per line (and already has a few duplicate class 7 keys). Never
+  rewrite it with `json.dump` (it reflows the file and drops the duplicates); insert or replace the one line.
+- Unicode shapes render at very different sizes in the site font (△ ⬡ ∿ come out tiny next to ○); the filled
+  ▲ ■ ◆ ● ★ ✚ look even. Check any symbol-heavy text in the browser pane.
+- Reusable drawers: `class8_math_1.py` `cube()` (oblique n × n × n cube with grid lines) and `tri_sq()` (square of
+  dots cut by a staircase); `class8_math_2.py` `power_line()` (exact fractions) and `indian()` (Indian commas);
+  `class8_math_3.py` `eg_number()` (Egyptian), `meso_number()` (base 60, blanks or placeholder), `maya_number()`,
+  `rod_number()`, `abacus()`, each asserting the drawn symbols add up to the value, and `shift()` to place a
+  sub-figure inside a bigger one.
+- A Check-yourself question line can carry its picture: `**(i)** ![alt](…)` is still counted as a question.

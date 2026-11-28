@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 318 112" width="318" height="112" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="20.0" y1="93.0" x2="20.0" y2="76.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="20.0" y1="76.0" x2="30.0" y2="76.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="36.0,76.0 35.1,73.9 33.0,73.0 30.9,73.9 30.0,76.0 30.9,78.1 33.0,79.0 35.1,78.1" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="14.0,98.0 26.0,98.0 20.0,92.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="51.0" y1="38.0" x2="51.0" y2="21.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="65.0" y1="38.0" x2="65.0" y2="21.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M65.0,21.0 A7.0,7.0 0 0 0 51.0,21.0" fill="none" stroke="#263238" stroke-width="2.2"/>
+<line x1="73.0" y1="38.0" x2="73.0" y2="21.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="87.0" y1="38.0" x2="87.0" y2="21.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M87.0,21.0 A7.0,7.0 0 0 0 73.0,21.0" fill="none" stroke="#263238" stroke-width="2.2"/>
+<line x1="95.0" y1="38.0" x2="95.0" y2="21.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="109.0" y1="38.0" x2="109.0" y2="21.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M109.0,21.0 A7.0,7.0 0 0 0 95.0,21.0" fill="none" stroke="#263238" stroke-width="2.2"/>
+<line x1="51.0" y1="68.0" x2="51.0" y2="51.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="65.0" y1="68.0" x2="65.0" y2="51.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M65.0,51.0 A7.0,7.0 0 0 0 51.0,51.0" fill="none" stroke="#263238" stroke-width="2.2"/>
+<line x1="73.0" y1="68.0" x2="73.0" y2="51.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="87.0" y1="68.0" x2="87.0" y2="51.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M87.0,51.0 A7.0,7.0 0 0 0 73.0,51.0" fill="none" stroke="#263238" stroke-width="2.2"/>
+<line x1="95.0" y1="68.0" x2="95.0" y2="51.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="109.0" y1="68.0" x2="109.0" y2="51.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M109.0,51.0 A7.0,7.0 0 0 0 95.0,51.0" fill="none" stroke="#263238" stroke-width="2.2"/>
+<line x1="51.0" y1="98.0" x2="51.0" y2="81.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="65.0" y1="98.0" x2="65.0" y2="81.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M65.0,81.0 A7.0,7.0 0 0 0 51.0,81.0" fill="none" stroke="#263238" stroke-width="2.2"/>
+<line x1="73.0" y1="98.0" x2="73.0" y2="81.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="87.0" y1="98.0" x2="87.0" y2="81.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M87.0,81.0 A7.0,7.0 0 0 0 73.0,81.0" fill="none" stroke="#263238" stroke-width="2.2"/>
+<text x="132.0" y="82.9" font-size="14" fill="#263238" text-anchor="start">and</text>
+<line x1="175.0" y1="68.0" x2="175.0" y2="51.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="189.0" y1="68.0" x2="189.0" y2="51.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M189.0,51.0 A7.0,7.0 0 0 0 175.0,51.0" fill="none" stroke="#263238" stroke-width="2.2"/>
+<line x1="197.0" y1="68.0" x2="197.0" y2="51.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="211.0" y1="68.0" x2="211.0" y2="51.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M211.0,51.0 A7.0,7.0 0 0 0 197.0,51.0" fill="none" stroke="#263238" stroke-width="2.2"/>
+<line x1="219.0" y1="68.0" x2="219.0" y2="51.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="233.0" y1="68.0" x2="233.0" y2="51.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M233.0,51.0 A7.0,7.0 0 0 0 219.0,51.0" fill="none" stroke="#263238" stroke-width="2.2"/>
+<line x1="175.0" y1="98.0" x2="175.0" y2="81.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="189.0" y1="98.0" x2="189.0" y2="81.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M189.0,81.0 A7.0,7.0 0 0 0 175.0,81.0" fill="none" stroke="#263238" stroke-width="2.2"/>
+<line x1="260.0" y1="68.0" x2="260.0" y2="44.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="282.0" y1="68.0" x2="282.0" y2="44.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="304.0" y1="68.0" x2="304.0" y2="44.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="260.0" y1="98.0" x2="260.0" y2="74.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="282.0" y1="98.0" x2="282.0" y2="74.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="304.0" y1="98.0" x2="304.0" y2="74.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+</svg>
