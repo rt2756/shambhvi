@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284 174" width="284" height="174" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="31.7" y1="143.9" x2="201.7" y2="143.9" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="201.7" y1="143.9" x2="252.0" y2="36.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="252.0" y1="36.0" x2="82.0" y2="36.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="82.0" y1="36.0" x2="31.7" y2="143.9" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="31.7" cy="143.9" r="3.6" fill="#263238"/>
+<text x="18.2" y="155.8" font-size="15" fill="#263238" text-anchor="middle">P</text>
+<circle cx="201.7" cy="143.9" r="3.6" fill="#263238"/>
+<text x="212.8" y="159.2" font-size="15" fill="#263238" text-anchor="middle">E</text>
+<circle cx="252.0" cy="36.0" r="3.6" fill="#263238"/>
+<text x="265.4" y="34.6" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<circle cx="82.0" cy="36.0" r="3.6" fill="#263238"/>
+<text x="70.8" y="31.2" font-size="15" fill="#263238" text-anchor="middle">R</text>
+<line x1="112.3" y1="149.1" x2="119.7" y2="143.9" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="112.3" y1="138.7" x2="119.7" y2="143.9" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="162.6" y1="41.2" x2="170.0" y2="36.0" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="162.6" y1="30.9" x2="170.0" y2="36.0" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="58.0" y1="99.7" x2="56.4" y2="90.9" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="48.6" y1="95.4" x2="56.4" y2="90.9" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="60.9" y1="93.4" x2="59.4" y2="84.5" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="51.6" y1="89.0" x2="59.4" y2="84.5" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="228.0" y1="99.7" x2="226.4" y2="90.9" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="218.6" y1="95.4" x2="226.4" y2="90.9" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="230.9" y1="93.4" x2="229.4" y2="84.5" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="221.6" y1="89.0" x2="229.4" y2="84.5" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<path d="M53.7,143.9 A22,22 0 0 0 41.0,124.0" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="62.0" y="129.8" font-size="15" fill="#1565c0" text-anchor="middle">x</text>
+<path d="M230.0,36.0 A22,22 0 0 0 242.7,56.0" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="221.6" y="60.6" font-size="15" fill="#1565c0" text-anchor="middle">x</text>
+<path d="M209.3,127.6 A18,18 0 0 0 183.7,143.9" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="174.8" y="107.0" font-size="15" fill="#1565c0" text-anchor="middle">180° − x</text>
+<path d="M74.4,52.4 A18,18 0 0 0 100.0,36.0" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="108.8" y="83.5" font-size="15" fill="#1565c0" text-anchor="middle">180° − x</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 369 351" width="369" height="351" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="54.1" y1="184.7" x2="264.1" y2="184.7" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="264.1" y1="184.7" x2="264.1" y2="34.7" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="264.1" y1="34.7" x2="54.1" y2="34.7" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="54.1" y1="34.7" x2="54.1" y2="184.7" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="54.1" cy="184.7" r="3.6" fill="#263238"/>
+<text x="41.9" y="198.7" font-size="15" fill="#263238" text-anchor="middle">R</text>
+<circle cx="264.1" cy="184.7" r="3.6" fill="#263238"/>
+<text x="276.3" y="198.7" font-size="15" fill="#263238" text-anchor="middle">I</text>
+<circle cx="264.1" cy="34.7" r="3.6" fill="#263238"/>
+<text x="276.3" y="31.2" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<circle cx="54.1" cy="34.7" r="3.6" fill="#263238"/>
+<text x="41.9" y="31.2" font-size="15" fill="#263238" text-anchor="middle">P</text>
+<line x1="54.1" y1="184.7" x2="264.1" y2="63.5" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="264.1" y1="63.5" x2="339.1" y2="193.4" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="339.1" y1="193.4" x2="129.1" y2="314.6" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="129.1" y1="314.6" x2="54.1" y2="184.7" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="264.1" cy="63.5" r="3.6" fill="#263238"/>
+<text x="252.1" y="52.8" font-size="15" fill="#263238" text-anchor="middle">O</text>
+<circle cx="339.1" cy="193.4" r="3.6" fill="#263238"/>
+<text x="351.1" y="206.7" font-size="15" fill="#263238" text-anchor="middle">D</text>
+<circle cx="129.1" cy="314.6" r="3.6" fill="#263238"/>
+<text x="129.1" y="335.9" font-size="15" fill="#263238" text-anchor="middle">S</text>
+<text x="28.6" y="114.2" font-size="13" fill="#1565c0" text-anchor="middle">5 cm</text>
+<text x="71.2" y="266.1" font-size="13" fill="#1565c0" text-anchor="middle">5 cm</text>
+<path d="M88.1,184.7 A34,34 0 0 0 83.6,167.7" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="102.4" y="177.1" font-size="15" fill="#1565c0" text-anchor="middle">30°</text>
+<polyline points="264.1,174.7 254.1,174.7 254.1,184.7" fill="none" stroke="#263238" stroke-width="1.6"/>
+<polyline points="255.5,68.5 260.5,77.1 269.1,72.1" fill="none" stroke="#263238" stroke-width="1.6"/>
+<path d="M238.1,78.5 A30,30 0 0 0 264.1,93.5" fill="none" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="240.1" y="110.2" font-size="15" fill="#2e7d32" text-anchor="middle">60°</text>
+<path d="M264.1,109.5 A46,46 0 0 0 287.1,103.3" fill="none" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="280.2" y="128.7" font-size="15" fill="#2e7d32" text-anchor="middle">30°</text>
+</svg>

@@ -88,7 +88,7 @@ batch's *Done* entry saying why it is fine (e.g. "no figures: a chapter on numbe
 
 **Class 8 maths** (*Ganita Prakash* I + II)
 - [x] Ch 1 A square and a cube · Ch 2 Power play · Ch 3 A story of numbers (2026-11-28)
-- [ ] Ch 4 Quadrilaterals · Ch 9 The Baudhāyana–Pythagoras theorem (figure-heavy)
+- [x] Ch 4 Quadrilaterals · Ch 9 The Baudhāyana–Pythagoras theorem (2026-11-28)
 - [ ] Ch 5 Number play · Ch 6 We distribute, yet things multiply · Ch 7 Proportional reasoning — 1
 - [ ] Ch 8 Fractions in disguise · Ch 10 Proportional reasoning — 2 · Ch 13 Algebra play
 - [ ] Ch 11 Exploring some geometric themes · Ch 12 Tales by dots and lines · Ch 14 Area
@@ -298,6 +298,21 @@ book's activities and questions.
   1010 × 10; the base-5 sum 182 + 412) are redrawn with our own simplified symbols and the same values; our base-5
   symbols are ▲ ■ ◆ ● ★ ✚ (the base-4 example uses · ✦ ⬟ so the two systems don't share symbols).
 
+- 2026-11-28 — Class 8 maths Ch 4 and Ch 9 rewritten to the notes standard (34 + 33 Check-yourself answers,
+  25 + 19 exercises; 56 + 24 figures from `tools/figures/class8_math_{4,9}.py`). Checker passes with **no soft
+  warnings** for either (Ch 9 got four more "Try this" activities and more tips after the first run flagged them).
+  Ch 4's end set is its last Figure it Out (Q1-Q11) plus the "Which Quad?" folding puzzle; Ch 9's is its last
+  Figure it Out plus the "Find the Colours" puzzle. Answer-key differences (trust these notes): Ch 4 end Q4(ii)
+  key says no quadrilateral is both a kite and a rectangle, but a **square** is both (its own key counts squares as
+  kites in (i)); Ch 4 FIO p94 Q5 key just says "No": the notes give the 60° parallelogram as the counter-example.
+  Ch 4 picture questions were redrawn with the same given values (30°/110° rectangles, 40°/110° parallelograms,
+  30°/20° rhombuses, 135°/105° and 100° trapeziums, PAIR/RODS with 5 cm and 30°); the kite with 6 and 8 cm
+  diagonals uses a 2 + 6 split (any split but 4 + 4 works). Ch 9 is Part 2 Ch 2 and **Part 2 has no answer
+  key**: every answer was worked out and checked by script. Ch 9 text lists the triples up to 20 as only the
+  (3, 4, 5) family, but (5, 12, 13) and (8, 15, 17) are also up to 20: the notes list all six. Ch 9's six
+  "missing side" triangles were read off the picture as legs 7 & 9, legs 4 & 10, leg 40 / hyp 41, leg 10 / hyp
+  √200, legs 10 & √150, leg 27 / hyp 45, and redrawn upright.
+
 ## Learnings
 
 - Always check the chapter list against the PDF in `ncert_books/class_<N>/` — books changed a lot.
@@ -374,3 +389,15 @@ book's activities and questions.
   `rod_number()`, `abacus()`, each asserting the drawn symbols add up to the value, and `shift()` to place a
   sub-figure inside a bigger one.
 - A Check-yourself question line can carry its picture: `**(i)** ![alt](…)` is still counted as a question.
+- Class 8 Part 1 PDF: Ch 4 text PDF 123–152 (book page = PDF page − 41), answers 153–161. Part 2 PDF: book page =
+  PDF page − 16; Ch 1 (site Ch 8) text 17–48, Ch 2 (site Ch 9) text 49–70, Ch 3 (site Ch 10) starts at 71; **Part 2
+  has no answer key** (its last pages are learning-material sheets).
+- `class8_math_4.py` has quadrilateral helpers: `qang()` (interior angle of a counter-clockwise polygon),
+  `rmark()` (asserts 90°), `eq_arcs()` (asserts the marked angles are equal), `par()` (asserts arrowed sides are
+  parallel), `para()`, `from_diagonals()`, `diag_construction()`, `join()` (two triangles flipped or half-turned
+  along a side) and `ellipse()` for Venn diagrams. `class8_math_9.py` has `square_on()`, `is_square()`,
+  `congruent()` and a `side()` that can assert the drawn length — reuse for class 9/10 geometry and area chapters.
+- In a Check-yourself section, a question with parts must start `**Question 2.**` (not `**2.**`), as before; in
+  "## Exercises" a `### 4. …` heading followed by `**(a)**`, `**(i)**` parts counts the parts only.
+- `git rm`/`rm` of scratch files may be refused; `python3 -c "import os; os.remove(…)"` works.
+

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237 333" width="237" height="333" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="26.8" y1="300.4" x2="210.3" y2="300.4" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="210.3" y1="300.4" x2="210.3" y2="38.3" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="210.3" y1="38.3" x2="26.8" y2="38.3" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="26.8" y1="38.3" x2="26.8" y2="300.4" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="26.8" cy="300.4" r="3.6" fill="#263238"/>
+<text x="18.2" y="317.9" font-size="15" fill="#263238" text-anchor="middle">D</text>
+<circle cx="210.3" cy="300.4" r="3.6" fill="#263238"/>
+<text x="219.0" y="317.9" font-size="15" fill="#263238" text-anchor="middle">C</text>
+<circle cx="210.3" cy="38.3" r="3.6" fill="#263238"/>
+<text x="219.0" y="31.2" font-size="15" fill="#263238" text-anchor="middle">B</text>
+<circle cx="26.8" cy="38.3" r="3.6" fill="#263238"/>
+<text x="18.2" y="31.2" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<line x1="26.8" y1="38.3" x2="210.3" y2="300.4" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="210.3" y1="38.3" x2="26.8" y2="300.4" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="118.6" cy="169.4" r="3.6" fill="#263238"/>
+<path d="M128.9,154.6 A18,18 0 0 0 108.3,154.6" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="118.6" y="142.7" font-size="15" fill="#1565c0" text-anchor="middle">x</text>
+<path d="M108.3,184.1 A18,18 0 0 0 128.9,184.1" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="118.6" y="206.7" font-size="15" fill="#1565c0" text-anchor="middle">x</text>
+<path d="M126.6,180.8 A14,14 0 0 0 126.6,157.9" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="172.6" y="174.7" font-size="15" fill="#1565c0" text-anchor="middle">180° − x</text>
+<path d="M110.5,157.9 A14,14 0 0 0 110.5,180.8" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="64.6" y="174.7" font-size="15" fill="#1565c0" text-anchor="middle">180° − x</text>
+<path d="M39.4,56.3 A22,22 0 0 0 48.8,38.3" fill="none" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="81.8" y="72.2" font-size="15" fill="#2e7d32" text-anchor="middle">90° − x/2</text>
+<path d="M188.3,38.3 A22,22 0 0 0 197.7,56.3" fill="none" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="155.4" y="72.2" font-size="15" fill="#2e7d32" text-anchor="middle">90° − x/2</text>
+<path d="M197.7,282.4 A22,22 0 0 0 188.3,300.4" fill="none" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="155.4" y="277.1" font-size="15" fill="#2e7d32" text-anchor="middle">90° − x/2</text>
+<path d="M48.8,300.4 A22,22 0 0 0 39.4,282.4" fill="none" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="81.8" y="277.1" font-size="15" fill="#2e7d32" text-anchor="middle">90° − x/2</text>
+<path d="M26.8,72.3 A34,34 0 0 0 46.3,66.1" fill="none" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="44.2" y="98.8" font-size="15" fill="#2e7d32" text-anchor="middle">x/2</text>
+<path d="M190.8,66.1 A34,34 0 0 0 210.3,72.3" fill="none" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="192.9" y="98.8" font-size="15" fill="#2e7d32" text-anchor="middle">x/2</text>
+<path d="M210.3,266.4 A34,34 0 0 0 190.8,272.6" fill="none" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="192.9" y="250.3" font-size="15" fill="#2e7d32" text-anchor="middle">x/2</text>
+<path d="M46.3,272.6 A34,34 0 0 0 26.8,266.4" fill="none" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="44.2" y="250.3" font-size="15" fill="#2e7d32" text-anchor="middle">x/2</text>
+</svg>

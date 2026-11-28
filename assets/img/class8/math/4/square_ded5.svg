@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 274 283" width="274" height="283" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="244.8,36.6 136.8,144.6 28.8,36.6" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="244.8,36.6 136.8,144.6 244.8,252.6" fill="#ffe0b2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="28.8" y1="252.6" x2="244.8" y2="252.6" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="244.8" y1="252.6" x2="244.8" y2="36.6" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="244.8" y1="36.6" x2="28.8" y2="36.6" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="28.8" y1="36.6" x2="28.8" y2="252.6" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="28.8" cy="252.6" r="3.6" fill="#263238"/>
+<text x="18.2" y="268.4" font-size="15" fill="#263238" text-anchor="middle">D</text>
+<circle cx="244.8" cy="252.6" r="3.6" fill="#263238"/>
+<text x="255.4" y="268.4" font-size="15" fill="#263238" text-anchor="middle">C</text>
+<circle cx="244.8" cy="36.6" r="3.6" fill="#263238"/>
+<text x="255.4" y="31.2" font-size="15" fill="#263238" text-anchor="middle">B</text>
+<circle cx="28.8" cy="36.6" r="3.6" fill="#263238"/>
+<text x="18.2" y="31.2" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<line x1="28.8" y1="36.6" x2="244.8" y2="252.6" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="244.8" y1="36.6" x2="28.8" y2="252.6" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="136.8" cy="144.6" r="3.6" fill="#263238"/>
+<text x="136.8" y="173.8" font-size="15" fill="#263238" text-anchor="middle">O</text>
+<line x1="136.8" y1="43.6" x2="136.8" y2="29.6" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="251.8" y1="144.6" x2="237.8" y2="144.6" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="79.6" y1="97.3" x2="89.5" y2="87.4" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="76.1" y1="93.8" x2="86.0" y2="83.9" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="194.0" y1="191.9" x2="184.1" y2="201.8" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="197.5" y1="195.4" x2="187.6" y2="205.3" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="244.8" y1="36.6" x2="136.8" y2="144.6" stroke="#1565c0" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M146.7,134.7 A14,14 0 0 0 126.9,134.7" fill="none" stroke="#c62828" stroke-width="1.8"/>
+<text x="136.8" y="123.8" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">?</text>
+<path d="M146.7,154.5 A14,14 0 0 0 146.7,134.7" fill="none" stroke="#c62828" stroke-width="1.8"/>
+<text x="162.8" y="149.8" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">?</text>
+</svg>

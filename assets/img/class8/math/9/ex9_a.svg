@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 253" width="264" height="253" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="132.2,40.0 30.2,216.7 132.2,216.7" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="132.2,40.0 132.2,216.7 234.2,216.7" fill="#ffe0b2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="132.2" y1="40.0" x2="132.2" y2="216.7" stroke="#c62828" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 4"/>
+<polyline points="142.2,216.7 142.2,206.7 132.2,206.7" fill="none" stroke="#263238" stroke-width="1.6"/>
+<circle cx="132.2" cy="40.0" r="3.6" fill="#263238"/>
+<text x="132.2" y="31.2" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<circle cx="30.2" cy="216.7" r="3.6" fill="#263238"/>
+<text x="18.2" y="231.9" font-size="15" fill="#263238" text-anchor="middle">B</text>
+<circle cx="234.2" cy="216.7" r="3.6" fill="#263238"/>
+<text x="246.2" y="231.9" font-size="15" fill="#263238" text-anchor="middle">C</text>
+<circle cx="132.2" cy="216.7" r="3.6" fill="#263238"/>
+<text x="132.2" y="237.9" font-size="15" fill="#263238" text-anchor="middle">D</text>
+<text x="68.9" y="125.8" font-size="13" fill="#1565c0" text-anchor="middle">6</text>
+<text x="195.5" y="125.8" font-size="13" fill="#1565c0" text-anchor="middle">6</text>
+<text x="81.2" y="207.2" font-size="13" fill="#1565c0" text-anchor="middle">3</text>
+<text x="183.2" y="207.2" font-size="13" fill="#1565c0" text-anchor="middle">3</text>
+<text x="146.2" y="133.6" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">h</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 551 229" width="551" height="229" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="14.0,214.9 104.0,214.9 104.0,124.9 14.0,124.9" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="140.0,214.9 290.0,214.9 290.0,64.9 140.0,64.9" fill="#ffe0b2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="59.0" y="175.2" font-size="15" fill="#263238" text-anchor="middle">a²</text>
+<text x="215.0" y="145.2" font-size="15" fill="#263238" text-anchor="middle">b²</text>
+<text x="122.0" y="187.0" font-size="26" fill="#263238" text-anchor="middle" font-weight="bold">+</text>
+<line x1="306.0" y1="139.9" x2="346.0" y2="139.9" stroke="#263238" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="337.0" y1="133.9" x2="346.0" y2="139.9" stroke="#263238" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="337.0" y1="145.9" x2="346.0" y2="139.9" stroke="#263238" stroke-width="2.4" stroke-linecap="round"/>
+<polygon points="362.0,214.9 536.9,214.9 536.9,40.0 362.0,40.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="449.5" y="132.8" font-size="15" fill="#263238" text-anchor="middle">a² + b²</text>
+<text x="449.5" y="30.6" font-size="13" fill="#c62828" text-anchor="middle">side = ?</text>
+</svg>

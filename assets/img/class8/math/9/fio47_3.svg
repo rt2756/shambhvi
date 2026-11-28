@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 414 277" width="414" height="277" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="40.2,164.0 90.2,164.0 90.2,214.0 40.2,214.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="65.2" y="192.8" font-size="11" fill="#263238" text-anchor="middle">side s</text>
+<polygon points="40.2,164.0 90.2,164.0 40.2,93.3" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="40.2" y1="93.3" x2="90.2" y2="164.0" stroke="#c62828" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="90.2" y1="164.0" x2="161.0" y2="114.0" stroke="#c62828" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="161.0" y1="114.0" x2="111.0" y2="43.3" stroke="#c62828" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="111.0" y1="43.3" x2="40.2" y2="93.3" stroke="#c62828" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<text x="100.6" y="108.5" font-size="14" fill="#c62828" text-anchor="middle" font-weight="bold">3s²</text>
+<polyline points="50.2,164.0 50.2,154.0 40.2,154.0" fill="none" stroke="#263238" stroke-width="1.6"/>
+<text x="25.6" y="133.2" font-size="13" fill="#1565c0" text-anchor="middle">d</text>
+<text x="100.2" y="243.6" font-size="13" fill="#263238" text-anchor="middle">3 times the area</text>
+<text x="100.2" y="260.9" font-size="11" fill="#263238" text-anchor="middle">(d = diagonal of the square)</text>
+<polygon points="250.2,164.0 300.2,164.0 300.2,214.0 250.2,214.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="275.2" y="192.8" font-size="11" fill="#263238" text-anchor="middle">side s</text>
+<polygon points="250.2,164.0 300.2,164.0 250.2,64.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="250.2" y1="64.0" x2="300.2" y2="164.0" stroke="#c62828" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="300.2" y1="164.0" x2="400.2" y2="114.0" stroke="#c62828" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="400.2" y1="114.0" x2="350.2" y2="14.0" stroke="#c62828" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="350.2" y1="14.0" x2="250.2" y2="64.0" stroke="#c62828" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<text x="325.2" y="93.9" font-size="14" fill="#c62828" text-anchor="middle" font-weight="bold">5s²</text>
+<polyline points="260.2,164.0 260.2,154.0 250.2,154.0" fill="none" stroke="#263238" stroke-width="1.6"/>
+<text x="232.0" y="118.5" font-size="13" fill="#1565c0" text-anchor="middle">2s</text>
+<text x="310.2" y="243.6" font-size="13" fill="#263238" text-anchor="middle">5 times the area</text>
+</svg>

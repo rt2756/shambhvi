@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 262" width="330" height="262" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="62.8" y1="197.6" x2="267.6" y2="197.6" stroke="#c62828" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="267.6" y1="197.6" x2="267.6" y2="44.0" stroke="#c62828" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="267.6" y1="44.0" x2="62.8" y2="44.0" stroke="#c62828" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="62.8" y1="44.0" x2="62.8" y2="197.6" stroke="#c62828" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="62.8" y1="197.6" x2="267.6" y2="44.0" stroke="#8d6e63" stroke-width="8" stroke-linecap="round"/>
+<line x1="62.8" y1="44.0" x2="267.6" y2="197.6" stroke="#8d6e63" stroke-width="8" stroke-linecap="round"/>
+<circle cx="62.8" cy="197.6" r="3.6" fill="#263238"/>
+<text x="50.8" y="212.8" font-size="15" fill="#263238" text-anchor="middle">A</text>
+<circle cx="62.8" cy="44.0" r="3.6" fill="#263238"/>
+<text x="50.8" y="39.2" font-size="15" fill="#263238" text-anchor="middle">B</text>
+<circle cx="267.6" cy="44.0" r="3.6" fill="#263238"/>
+<text x="279.6" y="39.2" font-size="15" fill="#263238" text-anchor="middle">C</text>
+<circle cx="267.6" cy="197.6" r="3.6" fill="#263238"/>
+<text x="279.6" y="212.8" font-size="15" fill="#263238" text-anchor="middle">D</text>
+<circle cx="165.2" cy="120.8" r="3.6" fill="#263238"/>
+<text x="165.2" y="144.1" font-size="15" fill="#263238" text-anchor="middle">O</text>
+<text x="165.2" y="220.2" font-size="13" fill="#1565c0" text-anchor="middle">strip AC = 8 cm</text>
+<text x="165.2" y="30.6" font-size="13" fill="#c62828" text-anchor="middle">strip BD = ?</text>
+<text x="165.2" y="245.8" font-size="12" fill="#c62828" text-anchor="middle">dashed red = the thread through the four ends</text>
+</svg>

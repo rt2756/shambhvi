@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 498 200" width="498" height="200" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="48.2" y1="154.0" x2="118.2" y2="154.0" stroke="#263238" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="118.2" y1="154.0" x2="118.2" y2="84.0" stroke="#263238" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="118.2" y1="84.0" x2="48.2" y2="84.0" stroke="#263238" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="48.2" y1="84.0" x2="48.2" y2="154.0" stroke="#263238" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="48.2" y1="84.0" x2="118.2" y2="154.0" stroke="#c62828" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="118.2" y1="154.0" x2="188.2" y2="84.0" stroke="#c62828" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="188.2" y1="84.0" x2="118.2" y2="14.0" stroke="#c62828" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="118.2" y1="14.0" x2="48.2" y2="84.0" stroke="#c62828" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="48.2" y1="84.0" x2="118.2" y2="154.0" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+<text x="118.2" y="184.2" font-size="12" fill="#263238" text-anchor="middle">square on the diagonal (dashed)</text>
+<polygon points="279.2,154.0 349.2,154.0 279.2,84.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="349.2,84.0 279.2,84.0 349.2,154.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="349.2,84.0 349.2,154.0 419.2,84.0" fill="#ffe0b2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="349.2,84.0 419.2,84.0 349.2,14.0" fill="#bbdefb" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="349.2,84.0 349.2,14.0 279.2,84.0" fill="#ffe0b2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="349.2" y1="154.0" x2="349.2" y2="14.0" stroke="#1565c0" stroke-width="2" stroke-linecap="round"/>
+<line x1="279.2" y1="84.0" x2="419.2" y2="84.0" stroke="#1565c0" stroke-width="2" stroke-linecap="round"/>
+<line x1="279.2" y1="154.0" x2="349.2" y2="154.0" stroke="#263238" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="349.2" y1="154.0" x2="349.2" y2="84.0" stroke="#263238" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="349.2" y1="84.0" x2="279.2" y2="84.0" stroke="#263238" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="279.2" y1="84.0" x2="279.2" y2="154.0" stroke="#263238" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="279.2" y1="84.0" x2="349.2" y2="154.0" stroke="#c62828" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="349.2" y1="154.0" x2="419.2" y2="84.0" stroke="#c62828" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="419.2" y1="84.0" x2="349.2" y2="14.0" stroke="#c62828" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="349.2" y1="14.0" x2="279.2" y2="84.0" stroke="#c62828" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="279.2" y1="84.0" x2="349.2" y2="154.0" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="4 4"/>
+<text x="349.2" y="184.2" font-size="12" fill="#263238" text-anchor="middle">2 small triangles  vs  4 small triangles</text>
+</svg>
