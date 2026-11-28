@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 409 274" width="409" height="274" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="44.6" y1="240.0" x2="394.6" y2="240.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="38.6" y="243.8" font-size="11" fill="#263238" text-anchor="end">0</text>
+<line x1="44.6" y1="216.0" x2="394.6" y2="216.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="38.6" y="219.8" font-size="11" fill="#263238" text-anchor="end">200</text>
+<line x1="44.6" y1="192.0" x2="394.6" y2="192.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="38.6" y="195.8" font-size="11" fill="#263238" text-anchor="end">400</text>
+<line x1="44.6" y1="168.0" x2="394.6" y2="168.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="38.6" y="171.8" font-size="11" fill="#263238" text-anchor="end">600</text>
+<line x1="44.6" y1="144.0" x2="394.6" y2="144.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="38.6" y="147.8" font-size="11" fill="#263238" text-anchor="end">800</text>
+<line x1="44.6" y1="120.0" x2="394.6" y2="120.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="38.6" y="123.8" font-size="11" fill="#263238" text-anchor="end">1000</text>
+<line x1="44.6" y1="96.0" x2="394.6" y2="96.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="38.6" y="99.8" font-size="11" fill="#263238" text-anchor="end">1200</text>
+<line x1="44.6" y1="72.0" x2="394.6" y2="72.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="38.6" y="75.8" font-size="11" fill="#263238" text-anchor="end">1400</text>
+<line x1="44.6" y1="240.0" x2="394.6" y2="240.0" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="44.6" y1="240.0" x2="44.6" y2="72.0" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="57.6,240.0 78.6,240.0 78.6,91.2 57.6,91.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="79.6,240.0 100.6,240.0 100.6,165.6 79.6,165.6" fill="#43a047" stroke="#43a047" stroke-width="2" stroke-linejoin="round"/>
+<text x="79.6" y="258.2" font-size="12" fill="#263238" text-anchor="middle">Cricket</text>
+<polygon points="127.6,240.0 148.6,240.0 148.6,183.6 127.6,183.6" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="149.6,240.0 170.6,240.0 170.6,201.6 149.6,201.6" fill="#43a047" stroke="#43a047" stroke-width="2" stroke-linejoin="round"/>
+<text x="149.6" y="258.2" font-size="12" fill="#263238" text-anchor="middle">Basketball</text>
+<polygon points="197.6,240.0 218.6,240.0 218.6,178.8 197.6,178.8" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="219.6,240.0 240.6,240.0 240.6,201.6 219.6,201.6" fill="#43a047" stroke="#43a047" stroke-width="2" stroke-linejoin="round"/>
+<text x="219.6" y="258.2" font-size="12" fill="#263238" text-anchor="middle">Swimming</text>
+<polygon points="267.6,240.0 288.6,240.0 288.6,188.4 267.6,188.4" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="289.6,240.0 310.6,240.0 310.6,210.0 289.6,210.0" fill="#43a047" stroke="#43a047" stroke-width="2" stroke-linejoin="round"/>
+<text x="289.6" y="258.2" font-size="12" fill="#263238" text-anchor="middle">Hockey</text>
+<polygon points="337.6,240.0 358.6,240.0 358.6,210.0 337.6,210.0" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="359.6,240.0 380.6,240.0 380.6,227.4 359.6,227.4" fill="#43a047" stroke="#43a047" stroke-width="2" stroke-linejoin="round"/>
+<text x="359.6" y="258.2" font-size="12" fill="#263238" text-anchor="middle">Athletics</text>
+<polygon points="44.6,54.0 56.6,54.0 56.6,42.0 44.6,42.0" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<text x="62.6" y="52.2" font-size="12" fill="#263238" text-anchor="start">Watching</text>
+<polygon points="128.6,54.0 140.6,54.0 140.6,42.0 128.6,42.0" fill="#43a047" stroke="#43a047" stroke-width="2" stroke-linejoin="round"/>
+<text x="146.6" y="52.2" font-size="12" fill="#263238" text-anchor="start">Participating</text>
+<text x="44.6" y="30.2" font-size="12" fill="#263238" text-anchor="start" font-weight="bold">number of people; 1 unit = 200 people</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502 266" width="502" height="266" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="32.3" y1="232.0" x2="488.3" y2="232.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="26.3" y="235.8" font-size="11" fill="#263238" text-anchor="end">0</text>
+<line x1="32.3" y1="192.0" x2="488.3" y2="192.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="26.3" y="195.8" font-size="11" fill="#263238" text-anchor="end">5</text>
+<line x1="32.3" y1="152.0" x2="488.3" y2="152.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="26.3" y="155.8" font-size="11" fill="#263238" text-anchor="end">10</text>
+<line x1="32.3" y1="112.0" x2="488.3" y2="112.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="26.3" y="115.8" font-size="11" fill="#263238" text-anchor="end">15</text>
+<line x1="32.3" y1="72.0" x2="488.3" y2="72.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="26.3" y="75.8" font-size="11" fill="#263238" text-anchor="end">20</text>
+<line x1="32.3" y1="232.0" x2="488.3" y2="232.0" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="32.3" y1="232.0" x2="32.3" y2="72.0" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="38.3,232.0 50.3,232.0 50.3,177.8 38.3,177.8" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="51.3,232.0 63.3,232.0 63.3,113.5 51.3,113.5" fill="#fb8c00" stroke="#fb8c00" stroke-width="2" stroke-linejoin="round"/>
+<text x="51.3" y="249.8" font-size="11" fill="#263238" text-anchor="middle">Jan</text>
+<polygon points="76.3,232.0 88.3,232.0 88.3,158.6 76.3,158.6" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="89.3,232.0 101.3,232.0 101.3,122.3 89.3,122.3" fill="#fb8c00" stroke="#fb8c00" stroke-width="2" stroke-linejoin="round"/>
+<text x="89.3" y="249.8" font-size="11" fill="#263238" text-anchor="middle">Feb</text>
+<polygon points="114.3,232.0 126.3,232.0 126.3,136.0 114.3,136.0" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="127.3,232.0 139.3,232.0 139.3,133.7 127.3,133.7" fill="#fb8c00" stroke="#fb8c00" stroke-width="2" stroke-linejoin="round"/>
+<text x="127.3" y="249.8" font-size="11" fill="#263238" text-anchor="middle">Mar</text>
+<polygon points="152.3,232.0 164.3,232.0 164.3,114.4 152.3,114.4" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="165.3,232.0 177.3,232.0 177.3,144.8 165.3,144.8" fill="#fb8c00" stroke="#fb8c00" stroke-width="2" stroke-linejoin="round"/>
+<text x="165.3" y="249.8" font-size="11" fill="#263238" text-anchor="middle">Apr</text>
+<polygon points="190.3,232.0 202.3,232.0 202.3,93.7 190.3,93.7" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="203.3,232.0 215.3,232.0 215.3,153.5 203.3,153.5" fill="#fb8c00" stroke="#fb8c00" stroke-width="2" stroke-linejoin="round"/>
+<text x="203.3" y="249.8" font-size="11" fill="#263238" text-anchor="middle">May</text>
+<polygon points="228.3,232.0 240.3,232.0 240.3,81.6 228.3,81.6" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="241.3,232.0 253.3,232.0 253.3,158.4 241.3,158.4" fill="#fb8c00" stroke="#fb8c00" stroke-width="2" stroke-linejoin="round"/>
+<text x="241.3" y="249.8" font-size="11" fill="#263238" text-anchor="middle">Jun</text>
+<polygon points="266.3,232.0 278.3,232.0 278.3,88.8 266.3,88.8" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="279.3,232.0 291.3,232.0 291.3,155.9 279.3,155.9" fill="#fb8c00" stroke="#fb8c00" stroke-width="2" stroke-linejoin="round"/>
+<text x="279.3" y="249.8" font-size="11" fill="#263238" text-anchor="middle">Jul</text>
+<polygon points="304.3,232.0 316.3,232.0 316.3,112.0 304.3,112.0" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="317.3,232.0 329.3,232.0 329.3,149.9 317.3,149.9" fill="#fb8c00" stroke="#fb8c00" stroke-width="2" stroke-linejoin="round"/>
+<text x="317.3" y="249.8" font-size="11" fill="#263238" text-anchor="middle">Aug</text>
+<polygon points="342.3,232.0 354.3,232.0 354.3,126.9 342.3,126.9" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="355.3,232.0 367.3,232.0 367.3,133.6 355.3,133.6" fill="#fb8c00" stroke="#fb8c00" stroke-width="2" stroke-linejoin="round"/>
+<text x="355.3" y="249.8" font-size="11" fill="#263238" text-anchor="middle">Sep</text>
+<polygon points="380.3,232.0 392.3,232.0 392.3,152.0 380.3,152.0" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="393.3,232.0 405.3,232.0 405.3,126.5 393.3,126.5" fill="#fb8c00" stroke="#fb8c00" stroke-width="2" stroke-linejoin="round"/>
+<text x="393.3" y="249.8" font-size="11" fill="#263238" text-anchor="middle">Oct</text>
+<polygon points="418.3,232.0 430.3,232.0 430.3,172.8 418.3,172.8" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="431.3,232.0 443.3,232.0 443.3,116.0 431.3,116.0" fill="#fb8c00" stroke="#fb8c00" stroke-width="2" stroke-linejoin="round"/>
+<text x="431.3" y="249.8" font-size="11" fill="#263238" text-anchor="middle">Nov</text>
+<polygon points="456.3,232.0 468.3,232.0 468.3,184.0 456.3,184.0" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="469.3,232.0 481.3,232.0 481.3,111.2 469.3,111.2" fill="#fb8c00" stroke="#fb8c00" stroke-width="2" stroke-linejoin="round"/>
+<text x="469.3" y="249.8" font-size="11" fill="#263238" text-anchor="middle">Dec</text>
+<polygon points="32.3,54.0 44.3,54.0 44.3,42.0 32.3,42.0" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<text x="50.3" y="52.2" font-size="12" fill="#263238" text-anchor="start">City 1</text>
+<polygon points="101.3,54.0 113.3,54.0 113.3,42.0 101.3,42.0" fill="#fb8c00" stroke="#fb8c00" stroke-width="2" stroke-linejoin="round"/>
+<text x="119.3" y="52.2" font-size="12" fill="#263238" text-anchor="start">City 2</text>
+<text x="32.3" y="30.2" font-size="12" fill="#263238" text-anchor="start" font-weight="bold">average hours of daylight per day</text>
+</svg>

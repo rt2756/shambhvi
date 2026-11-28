@@ -83,7 +83,7 @@ batch's *Done* entry saying why it is fine (e.g. "no figures: a chapter on numbe
 - [x] Ch 4 Expressions using Letter-Numbers · Ch 6 Number Play · Ch 8 Working with Fractions (2026-11-27)
 - [x] Ch 7 A Tale of Three Intersecting Lines · Ch 9 Geometric Twins (2026-11-27)
 - [x] Ch 10 Operations with Integers · Ch 11 Finding Common Ground · Ch 12 Another Peek Beyond the Point (2026-11-27)
-- [ ] Ch 13 Connecting the Dots… · Ch 15 Finding the Unknown
+- [x] Ch 13 Connecting the Dots… · Ch 15 Finding the Unknown (2026-11-28)
 - [ ] Ch 14 Constructions and Tilings (figure-heavy: step-by-step construction drawings)
 
 **Class 8 maths** (*Ganita Prakash* I + II)
@@ -255,6 +255,22 @@ book's activities and questions.
   same; Ch 12 end Q8 (f) repeats (b); Ch 12 Q10 "nearest to 5" is 9.16 because no product is smaller.
   Answers that never end (24.86 ÷ 1.2, 5.728 ÷ 1.52, 234.45 ÷ 12.6, 60 1/4 ÷ 3 1/2) are given to a few places
   with the reason. Ch 11's Mystery Colours page became a Try this; Ch 12's Hidato puzzle page is left out.
+- 2026-11-28 — Class 7 maths Ch 13 and Ch 15 rewritten to the notes standard (58 + 58 Check-yourself
+  answers, 25 + 37 exercises; 22 + 27 figures from `tools/figures/class7_math_{13,15}.py`). Checker passes;
+  no soft warnings for Ch 15. Ch 13 keeps "figures /1000 words" (1.5): a long data chapter whose data lives in
+  tables (onion prices, the 15-row height survey) rather than pictures; it still has 22 dot plots and bar
+  graphs. Part 2 has **no answer key**, so every answer was worked out and checked by script. Slips and quirks
+  (said so where they matter): Ch 13 Shubman's mean is 110 ÷ 5 = 22, not 21; the Grade 5 class mean is
+  4046 ÷ 28 = 144.5 (printed 144.4); the runs-per-over graph's bars don't add up to a finished match (Red stops
+  at over 18 with 152 against Blue's 163), so it is redrawn with our own consistent match; Ex Q5 (17 heights):
+  five students are exactly 115 cm, so "shorter/taller than one height" cannot split 8/8 (old notes said it
+  could). Graphs from published charts (rockets, animal speeds, skyscrapers, EVs) are redrawn with values read
+  off them and labelled approximate; the "1 minute" and School A/B dot plots became tables of their printed
+  summaries. Lock puzzle checked by brute force (only 415). Ch 15 Example 3 prints 135 in the question and 132
+  in the working (135 is right: the answer 7024 needs it); window grill (Ex Q8) assumes the bottom frame is 3 cm
+  like the top (as drawn), giving 6 gaps of 3 cm; the maze path visits 11 of 12 boxes (−7 = 11 − 3x is a
+  decoy) and ends in 30 = 4 − 50n, n = −13/25; staircase sticks are 9n + 4 (counted from the drawing).
+  Mobiles and sack balances are redrawn with our own shapes and the same numbers.
 
 ## Learnings
 
@@ -305,3 +321,13 @@ book's activities and questions.
 - Token figures: `class7_math_10.py` has `token()` (green/red, crossed = taken out), `rounds_fig()` (bag
   pictures that assert tokens left = product) and `jump()` (flat number-line arcs) — reuse for integers in
   other classes. A figure can sit inside a `> [!ANSWER]` block (`> ![alt](…)`); it renders and is counted.
+- Class 7 Part 2 PDF: Ch 5 (site Ch 13) text PDF 115–152, lock puzzle 153; Ch 7 (site Ch 15) text 182–208.
+  Ch 13's data is mostly in pictures (dot plots, graphs, the stories cards): render with `pdftoppm` and read
+  values off the zoomed image; redraw charts with our own figures rather than copying them.
+- `class7_math_13.py` has reusable `dotplot()` (stacked dots + mean/median lines), `vbars()` (clustered
+  vertical bars with legend) and `hbars()` (clustered horizontal bars) — copy them for any data chapter.
+  `class7_math_15.py` has `mobile()` / `balance()` (assert the drawn puzzle balances with the solved weights)
+  and edge-counting for stick patterns (`cell_edges`), so a stick-count formula is checked against the drawing.
+- A question in a section without a `### Check yourself…` heading (e.g. under "### Doing the same to both
+  sides") is not counted: add a `### Check yourself: …` heading right before it.
+- `**Worked example 7**` trips the book-example check; number our own as `**Example 7: title.**`.

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 421 169" width="421" height="169" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<circle cx="96.8" cy="29.0" r="15.0" fill="none" stroke="#263238" stroke-width="2"/>
+<text x="96.8" y="34.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">4</text>
+<line x1="96.8" y1="44.0" x2="96.8" y2="59.0" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="31.8" y1="59.0" x2="161.8" y2="59.0" stroke="#263238" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="31.8" y1="59.0" x2="31.8" y2="79.0" stroke="#263238" stroke-width="1.3" stroke-linecap="round"/>
+<polygon points="15.8,111.0 47.8,111.0 47.8,79.0 15.8,79.0" fill="#fff3e0" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="31.8" y="100.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">2</text>
+<line x1="161.8" y1="59.0" x2="161.8" y2="79.0" stroke="#263238" stroke-width="1.3" stroke-linecap="round"/>
+<polygon points="145.8,111.0 177.8,111.0 177.8,79.0 145.8,79.0" fill="#fff3e0" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="161.8" y="100.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">2</text>
+<text x="96.8" y="153.2" font-size="12" fill="#2e7d32" text-anchor="middle" font-weight="bold">level: both sides equal</text>
+<circle cx="316.8" cy="29.0" r="15.0" fill="none" stroke="#263238" stroke-width="2"/>
+<text x="316.8" y="34.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">7</text>
+<line x1="316.8" y1="44.0" x2="316.8" y2="59.0" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="252.4" y1="50.0" x2="381.2" y2="68.0" stroke="#263238" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="252.4" y1="50.0" x2="252.4" y2="70.0" stroke="#263238" stroke-width="1.3" stroke-linecap="round"/>
+<polygon points="236.4,102.0 268.4,102.0 268.4,70.0 236.4,70.0" fill="#fff3e0" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="252.4" y="91.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">4</text>
+<line x1="381.2" y1="68.0" x2="381.2" y2="88.0" stroke="#263238" stroke-width="1.3" stroke-linecap="round"/>
+<polygon points="365.2,120.0 397.2,120.0 397.2,88.0 365.2,88.0" fill="#fff3e0" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="381.2" y="109.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">3</text>
+<text x="316.8" y="153.2" font-size="12" fill="#c62828" text-anchor="middle" font-weight="bold">tilts to the heavier side</text>
+</svg>

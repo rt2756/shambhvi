@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 152" width="480" height="152" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="19.5" y1="96.0" x2="459.5" y2="96.0" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="19.5" y1="100.0" x2="19.5" y2="92.0" stroke="#263238" stroke-width="1.2" stroke-linecap="round"/>
+<text x="19.5" y="116.2" font-size="12" fill="#263238" text-anchor="middle">0</text>
+<line x1="74.5" y1="100.0" x2="74.5" y2="92.0" stroke="#263238" stroke-width="1.2" stroke-linecap="round"/>
+<text x="74.5" y="116.2" font-size="12" fill="#263238" text-anchor="middle">5</text>
+<line x1="129.5" y1="100.0" x2="129.5" y2="92.0" stroke="#263238" stroke-width="1.2" stroke-linecap="round"/>
+<text x="129.5" y="116.2" font-size="12" fill="#263238" text-anchor="middle">10</text>
+<line x1="184.5" y1="100.0" x2="184.5" y2="92.0" stroke="#263238" stroke-width="1.2" stroke-linecap="round"/>
+<text x="184.5" y="116.2" font-size="12" fill="#263238" text-anchor="middle">15</text>
+<line x1="239.5" y1="100.0" x2="239.5" y2="92.0" stroke="#263238" stroke-width="1.2" stroke-linecap="round"/>
+<text x="239.5" y="116.2" font-size="12" fill="#263238" text-anchor="middle">20</text>
+<line x1="294.5" y1="100.0" x2="294.5" y2="92.0" stroke="#263238" stroke-width="1.2" stroke-linecap="round"/>
+<text x="294.5" y="116.2" font-size="12" fill="#263238" text-anchor="middle">25</text>
+<line x1="349.5" y1="100.0" x2="349.5" y2="92.0" stroke="#263238" stroke-width="1.2" stroke-linecap="round"/>
+<text x="349.5" y="116.2" font-size="12" fill="#263238" text-anchor="middle">30</text>
+<line x1="404.5" y1="100.0" x2="404.5" y2="92.0" stroke="#263238" stroke-width="1.2" stroke-linecap="round"/>
+<text x="404.5" y="116.2" font-size="12" fill="#263238" text-anchor="middle">35</text>
+<line x1="459.5" y1="100.0" x2="459.5" y2="92.0" stroke="#263238" stroke-width="1.2" stroke-linecap="round"/>
+<text x="459.5" y="116.2" font-size="12" fill="#263238" text-anchor="middle">40</text>
+<polygon points="91.0,80.5 90.3,77.8 88.2,75.7 85.5,75.0 82.8,75.7 80.7,77.8 80.0,80.5 80.7,83.2 82.8,85.3 85.5,86.0 88.2,85.3 90.3,83.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="113.0,80.5 112.3,77.8 110.2,75.7 107.5,75.0 104.8,75.7 102.7,77.8 102.0,80.5 102.7,83.2 104.8,85.3 107.5,86.0 110.2,85.3 112.3,83.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="80.0,80.5 79.3,77.8 77.2,75.7 74.5,75.0 71.8,75.7 69.7,77.8 69.0,80.5 69.7,83.2 71.8,85.3 74.5,86.0 77.2,85.3 79.3,83.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="190.0,80.5 189.3,77.8 187.2,75.7 184.5,75.0 181.8,75.7 179.7,77.8 179.0,80.5 179.7,83.2 181.8,85.3 184.5,86.0 187.2,85.3 189.3,83.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="58.0,80.5 57.3,77.8 55.2,75.7 52.5,75.0 49.8,75.7 47.7,77.8 47.0,80.5 47.7,83.2 49.8,85.3 52.5,86.0 55.2,85.3 57.3,83.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="25.0,80.5 24.3,77.8 22.2,75.7 19.5,75.0 16.8,75.7 14.7,77.8 14.0,80.5 14.7,83.2 16.7,85.3 19.5,86.0 22.2,85.3 24.3,83.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="47.0,80.5 46.3,77.8 44.2,75.7 41.5,75.0 38.8,75.7 36.7,77.8 36.0,80.5 36.7,83.2 38.8,85.3 41.5,86.0 44.2,85.3 46.3,83.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="102.0,80.5 101.3,77.8 99.2,75.7 96.5,75.0 93.8,75.7 91.7,77.8 91.0,80.5 91.7,83.2 93.8,85.3 96.5,86.0 99.2,85.3 101.3,83.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="157.0,80.5 156.3,77.8 154.2,75.7 151.5,75.0 148.8,75.7 146.7,77.8 146.0,80.5 146.7,83.2 148.8,85.3 151.5,86.0 154.2,85.3 156.3,83.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="465.0,80.5 464.3,77.8 462.2,75.7 459.5,75.0 456.8,75.7 454.7,77.8 454.0,80.5 454.7,83.2 456.8,85.3 459.5,86.0 462.2,85.3 464.3,83.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="135.0,80.5 134.3,77.8 132.2,75.7 129.5,75.0 126.8,75.7 124.7,77.8 124.0,80.5 124.7,83.2 126.8,85.3 129.5,86.0 132.2,85.3 134.3,83.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="80.0,68.5 79.3,65.8 77.2,63.7 74.5,63.0 71.8,63.7 69.7,65.8 69.0,68.5 69.7,71.2 71.8,73.3 74.5,74.0 77.2,73.3 79.3,71.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="25.0,68.5 24.3,65.8 22.2,63.7 19.5,63.0 16.8,63.7 14.7,65.8 14.0,68.5 14.7,71.2 16.7,73.3 19.5,74.0 22.2,73.3 24.3,71.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="36.0,80.5 35.3,77.8 33.2,75.7 30.5,75.0 27.8,75.7 25.7,77.8 25.0,80.5 25.7,83.2 27.7,85.3 30.5,86.0 33.2,85.3 35.3,83.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="113.0,68.5 112.3,65.8 110.2,63.7 107.5,63.0 104.8,63.7 102.7,65.8 102.0,68.5 102.7,71.2 104.8,73.3 107.5,74.0 110.2,73.3 112.3,71.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<line x1="109.0" y1="98.0" x2="109.0" y2="56.0" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="85.5" y1="98.0" x2="85.5" y2="56.0" stroke="#263238" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6,4"/>
+<line x1="19.5" y1="26.0" x2="45.5" y2="26.0" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<text x="53.5" y="30.2" font-size="12" fill="#263238" text-anchor="start">mean ≈ 8.1</text>
+<line x1="149.5" y1="26.0" x2="175.5" y2="26.0" stroke="#263238" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6,4"/>
+<text x="183.5" y="30.2" font-size="12" fill="#263238" text-anchor="start">median = 6</text>
+<text x="459.5" y="61.9" font-size="11" fill="#c62828" text-anchor="end" font-weight="bold">40: outlier</text>
+<text x="239.5" y="136.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">number of stories read</text>
+</svg>

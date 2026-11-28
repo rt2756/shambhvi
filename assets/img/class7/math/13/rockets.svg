@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 513 396" width="513" height="396" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="169.8" y1="344.0" x2="169.8" y2="44.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="169.8" y="359.9" font-size="11" fill="#263238" text-anchor="middle">0</text>
+<line x1="233.8" y1="344.0" x2="233.8" y2="44.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="233.8" y="359.9" font-size="11" fill="#263238" text-anchor="middle">20</text>
+<line x1="297.8" y1="344.0" x2="297.8" y2="44.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="297.8" y="359.9" font-size="11" fill="#263238" text-anchor="middle">40</text>
+<line x1="361.8" y1="344.0" x2="361.8" y2="44.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="361.8" y="359.9" font-size="11" fill="#263238" text-anchor="middle">60</text>
+<line x1="425.8" y1="344.0" x2="425.8" y2="44.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="425.8" y="359.9" font-size="11" fill="#263238" text-anchor="middle">80</text>
+<line x1="489.8" y1="344.0" x2="489.8" y2="44.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="489.8" y="359.9" font-size="11" fill="#263238" text-anchor="middle">100</text>
+<line x1="169.8" y1="344.0" x2="169.8" y2="44.0" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="169.8,55.5 269.0,55.5 269.0,49.5 169.8,49.5" fill="#1a237e" stroke="#1a237e" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,62.5 365.0,62.5 365.0,56.5 169.8,56.5" fill="#64b5f6" stroke="#64b5f6" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,69.5 477.0,69.5 477.0,63.5 169.8,63.5" fill="#90a4ae" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<text x="161.8" y="63.2" font-size="12" fill="#263238" text-anchor="end">SpaceX</text>
+<polygon points="169.8,85.5 323.4,85.5 323.4,79.5 169.8,79.5" fill="#1a237e" stroke="#1a237e" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,92.5 281.8,92.5 281.8,86.5 169.8,86.5" fill="#64b5f6" stroke="#64b5f6" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,99.5 313.8,99.5 313.8,93.5 169.8,93.5" fill="#90a4ae" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<text x="161.8" y="93.2" font-size="12" fill="#263238" text-anchor="end">CASC</text>
+<polygon points="169.8,115.5 221.0,115.5 221.0,109.5 169.8,109.5" fill="#1a237e" stroke="#1a237e" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,122.5 237.0,122.5 237.0,116.5 169.8,116.5" fill="#64b5f6" stroke="#64b5f6" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,129.5 227.4,129.5 227.4,123.5 169.8,123.5" fill="#90a4ae" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<text x="161.8" y="123.2" font-size="12" fill="#263238" text-anchor="end">Roscosmos</text>
+<polygon points="169.8,145.5 217.8,145.5 217.8,139.5 169.8,139.5" fill="#1a237e" stroke="#1a237e" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,152.5 189.0,152.5 189.0,146.5 169.8,146.5" fill="#64b5f6" stroke="#64b5f6" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,159.5 179.4,159.5 179.4,153.5 169.8,153.5" fill="#90a4ae" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<text x="161.8" y="153.2" font-size="12" fill="#263238" text-anchor="end">Arianespace</text>
+<polygon points="169.8,175.5 189.0,175.5 189.0,169.5 169.8,169.5" fill="#1a237e" stroke="#1a237e" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,182.5 189.0,182.5 189.0,176.5 169.8,176.5" fill="#64b5f6" stroke="#64b5f6" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,189.5 198.6,189.5 198.6,183.5 169.8,183.5" fill="#90a4ae" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<text x="161.8" y="183.2" font-size="12" fill="#263238" text-anchor="end">Rocket Lab</text>
+<polygon points="169.8,205.5 185.8,205.5 185.8,199.5 169.8,199.5" fill="#1a237e" stroke="#1a237e" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,212.5 195.4,212.5 195.4,206.5 169.8,206.5" fill="#64b5f6" stroke="#64b5f6" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,219.5 179.4,219.5 179.4,213.5 169.8,213.5" fill="#90a4ae" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<text x="161.8" y="213.2" font-size="12" fill="#263238" text-anchor="end">United Launch Alliance</text>
+<polygon points="169.8,235.5 176.2,235.5 176.2,229.5 169.8,229.5" fill="#1a237e" stroke="#1a237e" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,242.5 185.8,242.5 185.8,236.5 169.8,236.5" fill="#64b5f6" stroke="#64b5f6" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,249.5 192.2,249.5 192.2,243.5 169.8,243.5" fill="#90a4ae" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<text x="161.8" y="243.2" font-size="12" fill="#263238" text-anchor="end">ISRO</text>
+<polygon points="169.8,265.5 173.0,265.5 173.0,259.5 169.8,259.5" fill="#1a237e" stroke="#1a237e" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,272.5 176.2,272.5 176.2,266.5 169.8,266.5" fill="#64b5f6" stroke="#64b5f6" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,279.5 192.2,279.5 192.2,273.5 169.8,273.5" fill="#90a4ae" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<text x="161.8" y="273.2" font-size="12" fill="#263238" text-anchor="end">Galactic Energy</text>
+<polygon points="169.8,295.5 182.6,295.5 182.6,289.5 169.8,289.5" fill="#1a237e" stroke="#1a237e" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,302.5 182.6,302.5 182.6,296.5 169.8,296.5" fill="#64b5f6" stroke="#64b5f6" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,309.5 189.0,309.5 189.0,303.5 169.8,303.5" fill="#90a4ae" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<text x="161.8" y="303.2" font-size="12" fill="#263238" text-anchor="end">Expace</text>
+<polygon points="169.8,325.5 227.4,325.5 227.4,319.5 169.8,319.5" fill="#1a237e" stroke="#1a237e" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,332.5 224.2,332.5 224.2,326.5 169.8,326.5" fill="#64b5f6" stroke="#64b5f6" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="169.8,339.5 253.0,339.5 253.0,333.5 169.8,333.5" fill="#90a4ae" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<text x="161.8" y="333.2" font-size="12" fill="#263238" text-anchor="end">Others</text>
+<polygon points="169.8,32.0 181.8,32.0 181.8,20.0 169.8,20.0" fill="#1a237e" stroke="#1a237e" stroke-width="2" stroke-linejoin="round"/>
+<text x="187.8" y="30.2" font-size="12" fill="#263238" text-anchor="start">2021</text>
+<polygon points="225.8,32.0 237.8,32.0 237.8,20.0 225.8,20.0" fill="#64b5f6" stroke="#64b5f6" stroke-width="2" stroke-linejoin="round"/>
+<text x="243.8" y="30.2" font-size="12" fill="#263238" text-anchor="start">2022</text>
+<polygon points="281.8,32.0 293.8,32.0 293.8,20.0 281.8,20.0" fill="#90a4ae" stroke="#90a4ae" stroke-width="2" stroke-linejoin="round"/>
+<text x="299.8" y="30.2" font-size="12" fill="#263238" text-anchor="start">2023</text>
+<text x="329.8" y="380.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">number of rocket launches (approximate)</text>
+</svg>
