@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 468 264" width="468" height="264" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="88.2,74.0 53.6,14.0 19.0,74.0" fill="#ef9a9a" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="88.2" cy="74.0" r="3.6" fill="#263238"/>
+<circle cx="53.6" cy="14.0" r="3.6" fill="#263238"/>
+<circle cx="19.0" cy="74.0" r="3.6" fill="#263238"/>
+<text x="53.6" y="118.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">triangle: 3</text>
+<polygon points="201.9,82.3 201.9,25.7 145.3,25.7 145.3,82.3" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="201.9" cy="82.3" r="3.6" fill="#263238"/>
+<circle cx="201.9" cy="25.7" r="3.6" fill="#263238"/>
+<circle cx="145.3" cy="25.7" r="3.6" fill="#263238"/>
+<circle cx="145.3" cy="82.3" r="3.6" fill="#263238"/>
+<text x="173.6" y="118.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">quadrilateral: 4</text>
+<polygon points="317.1,86.4 331.6,41.6 293.6,14.0 255.6,41.6 270.1,86.4" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="317.1" cy="86.4" r="3.6" fill="#263238"/>
+<circle cx="331.6" cy="41.6" r="3.6" fill="#263238"/>
+<circle cx="293.6" cy="14.0" r="3.6" fill="#263238"/>
+<circle cx="255.6" cy="41.6" r="3.6" fill="#263238"/>
+<circle cx="270.1" cy="86.4" r="3.6" fill="#263238"/>
+<text x="293.6" y="118.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">pentagon: 5</text>
+<polygon points="433.6,88.6 453.6,54.0 433.6,19.4 393.6,19.4 373.6,54.0 393.6,88.6" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="433.6" cy="88.6" r="3.6" fill="#263238"/>
+<circle cx="453.6" cy="54.0" r="3.6" fill="#263238"/>
+<circle cx="433.6" cy="19.4" r="3.6" fill="#263238"/>
+<circle cx="393.6" cy="19.4" r="3.6" fill="#263238"/>
+<circle cx="373.6" cy="54.0" r="3.6" fill="#263238"/>
+<circle cx="393.6" cy="88.6" r="3.6" fill="#263238"/>
+<text x="413.6" y="118.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">hexagon: 6</text>
+<polygon points="71.0,220.0 92.6,192.9 84.9,159.1 53.6,144.0 22.3,159.1 14.6,192.9 36.2,220.0" fill="#ce93d8" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="71.0" cy="220.0" r="3.6" fill="#263238"/>
+<circle cx="92.6" cy="192.9" r="3.6" fill="#263238"/>
+<circle cx="84.9" cy="159.1" r="3.6" fill="#263238"/>
+<circle cx="53.6" cy="144.0" r="3.6" fill="#263238"/>
+<circle cx="22.3" cy="159.1" r="3.6" fill="#263238"/>
+<circle cx="14.6" cy="192.9" r="3.6" fill="#263238"/>
+<circle cx="36.2" cy="220.0" r="3.6" fill="#263238"/>
+<text x="53.6" y="248.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">heptagon: 7</text>
+<polygon points="188.9,221.0 210.6,199.3 210.6,168.7 188.9,147.0 158.3,147.0 136.6,168.7 136.6,199.3 158.3,221.0" fill="#80cbc4" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="188.9" cy="221.0" r="3.6" fill="#263238"/>
+<circle cx="210.6" cy="199.3" r="3.6" fill="#263238"/>
+<circle cx="210.6" cy="168.7" r="3.6" fill="#263238"/>
+<circle cx="188.9" cy="147.0" r="3.6" fill="#263238"/>
+<circle cx="158.3" cy="147.0" r="3.6" fill="#263238"/>
+<circle cx="136.6" cy="168.7" r="3.6" fill="#263238"/>
+<circle cx="136.6" cy="199.3" r="3.6" fill="#263238"/>
+<circle cx="158.3" cy="221.0" r="3.6" fill="#263238"/>
+<text x="173.6" y="248.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">octagon: 8</text>
+<polygon points="307.3,221.6 328.2,204.0 333.0,177.1 319.3,153.4 293.6,144.0 267.9,153.4 254.2,177.1 259.0,204.0 279.9,221.6" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="307.3" cy="221.6" r="3.6" fill="#263238"/>
+<circle cx="328.2" cy="204.0" r="3.6" fill="#263238"/>
+<circle cx="333.0" cy="177.1" r="3.6" fill="#263238"/>
+<circle cx="319.3" cy="153.4" r="3.6" fill="#263238"/>
+<circle cx="293.6" cy="144.0" r="3.6" fill="#263238"/>
+<circle cx="267.9" cy="153.4" r="3.6" fill="#263238"/>
+<circle cx="254.2" cy="177.1" r="3.6" fill="#263238"/>
+<circle cx="259.0" cy="204.0" r="3.6" fill="#263238"/>
+<circle cx="279.9" cy="221.6" r="3.6" fill="#263238"/>
+<text x="293.6" y="248.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">nonagon: 9</text>
+<polygon points="426.0,222.0 446.0,207.5 453.6,184.0 446.0,160.5 426.0,146.0 401.2,146.0 381.2,160.5 373.6,184.0 381.2,207.5 401.2,222.0" fill="#f8bbd0" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="426.0" cy="222.0" r="3.6" fill="#263238"/>
+<circle cx="446.0" cy="207.5" r="3.6" fill="#263238"/>
+<circle cx="453.6" cy="184.0" r="3.6" fill="#263238"/>
+<circle cx="446.0" cy="160.5" r="3.6" fill="#263238"/>
+<circle cx="426.0" cy="146.0" r="3.6" fill="#263238"/>
+<circle cx="401.2" cy="146.0" r="3.6" fill="#263238"/>
+<circle cx="381.2" cy="160.5" r="3.6" fill="#263238"/>
+<circle cx="373.6" cy="184.0" r="3.6" fill="#263238"/>
+<circle cx="381.2" cy="207.5" r="3.6" fill="#263238"/>
+<circle cx="401.2" cy="222.0" r="3.6" fill="#263238"/>
+<text x="413.6" y="248.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">decagon: 10</text>
+</svg>

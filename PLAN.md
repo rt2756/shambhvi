@@ -94,7 +94,7 @@ batch's *Done* entry saying why it is fine (e.g. "no figures: a chapter on numbe
 - [x] Ch 11 Exploring some geometric themes · Ch 12 Tales by dots and lines · Ch 14 Area (2026-11-28) — **class 8 maths done**
 
 **Class 6 maths** (*Ganita Prakash*)
-- [ ] Ch 1 Patterns in mathematics · Ch 3 Number play · Ch 5 Prime time
+- [x] Ch 1 Patterns in mathematics · Ch 3 Number play · Ch 5 Prime time (2026-11-28)
 - [ ] Ch 2 Lines and angles · Ch 8 Playing with constructions (figure-heavy)
 - [ ] Ch 4 Data handling and presentation · Ch 6 Perimeter and area · Ch 7 Fractions
 - [ ] Ch 9 Symmetry · Ch 10 The other side of zero
@@ -393,6 +393,27 @@ with nothing but the question in front of her:
   the worked example and 3 in the exercise; the spiral tube is 112 square units (9 pieces, 8 corners); QN = 72 ÷ 7.6 ≈ 9.47
   (the parallelogram leans left so N falls on PS); hexagon split is 3 : 1 : 2.
 
+- 2026-11-28 — Class 6 maths Ch 1, 3 and 5 rewritten to the notes standard (22 + 88 + 107 Check-yourself answers,
+  5 + 10 + 13 exercises; 27 + 16 + 16 figures from `tools/figures/class6_math_{1,3,5}.py`). Checker passes with **no
+  soft warnings** for the three (Ch 3 got five more "Try this", Ch 5 more callouts after the first run). `--compare`
+  still shows figures/1000 words below the pilot for Ch 3 and Ch 5 (1.3, 1.4): number chapters whose supercells,
+  digit tables, Kaprekar chains, prime puzzles and divisibility lists are Markdown tables or code blocks. None of the
+  three has a separate end set: Ch 1 uses its 1.6 Figure it Out, Ch 3 its last Figure it Out (Q1-Q10), Ch 5 the 5.5
+  divisibility Figure it Out plus the four prime puzzles. Everything was checked by script (supercells, Kaprekar,
+  palindromic times/dates, calendar repeats, mental-maths sums, Collatz, LCMs, primes, all four prime puzzles have one
+  answer). Answer-key slips (trust these notes): Ch 3 supercell Q2 key fill (5347, 1000, 1258, 1100…) makes 1258 a
+  supercell too — notes use 5346 6000 2000 1258 3000 4000 5000 9635 9700; Kaprekar 5683 takes **7** rounds keeping the
+  0 in 0558 (key's 8 uses 5058, and its 1980 example drops the zero too — notes give both); palindromic dates: key's
+  01/02/2001 and 02/02/2002 aren't palindromes (the 20xx ones are 10/02/2001, 20/02/2002, 01/02/2010, 11/02/2011,
+  21/02/2012, 02/02/2020, 12/02/2021, 22/02/2022); calendars: key's "6 years / 5 years" rule is wrong — 2026 repeats in
+  2037 (2032 starts the same day but is a leap year), leap years after 28; Collatz key "proves" the conjecture — notes
+  say it is unproved; Gandhinagar–Kohima ≈ 2,200 km straight (key 2,500); Sheetal's 13,000 hours: ~1,200 h a year, so
+  too high. Ch 5: "other number" with 4 can be 8 **or 2** (key: 8 only); Guna's Venn (24, 48, 72) needs LCM 24, e.g. 3
+  and 8 (key's 3 and 4 would also show 12 and 36); 8560 is already a multiple of 8 (key changes it to 8552); 4-digit
+  palindromes divisible by 4 are 2112 and **8888** (key's 1001 and 9999 are odd). Ch 3's number-pattern pictures (a)-(f)
+  are our own versions (40/50 rows 980, 1s-and-5s grid 128, 32/64 grid 2048, dice 130, hexagon 600, coin rings 7000);
+  thread art is redrawn (12/4, 13/3, 16/5, 24/6 and the four answers).
+
 ## Learnings
 
 - Always check the chapter list against the PDF in `ncert_books/class_<N>/` — books changed a lot.
@@ -508,3 +529,12 @@ with nothing but the question in front of her:
 - Don't put a part's answer in the picture shown with the question (Ch 11's C/ring/U figure first did this): show the
   question figure only, and the solved figure inside the answer.
 - Plain `rm` may be refused even in the scratchpad: write new files under fresh names instead of deleting.
+- Class 6 PDF (`ncert_books/class_6/maths.pdf`, one book, 412 pages): book page = PDF page − 20 for Ch 1 (text PDF
+  21–32, solutions 33–37), Ch 3 text 91–109, solutions 110–121; Ch 5 text 167–188, solutions 189–199. Each chapter's
+  "solutions" sit right after it and have many slips: check every answer by script.
+- `class6_math_1.py` has dot-picture helpers (`tri_dots`, `sq_dots`, hexagonal lattice `hex_points` + `sector()` for the
+  six triangles, `odd_L` L-shapes, `draw_cubes` isometric blocks, `koch()`, complete graphs); `class6_math_3.py` has
+  `children()` (heights → "taller neighbours" numbers), `numline()` and pattern `cell()` grids; `class6_math_5.py` has
+  `venn()` (places each number by testing it), `tree()` (factor trees that assert the product), `sieve()` and `thread()`.
+- Use `**Question N.**` for a stem whose parts are (a), (b)…; a stem with its parts listed in plain text (estimation
+  questions) is one question with one answer.

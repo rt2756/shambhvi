@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 305 132" width="305" height="132" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="14.0,118.0 40.0,118.0 40.0,92.0 14.0,92.0" fill="#eceff1" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="27.0" y="114.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">+1</text>
+<polygon points="40.0,118.0 66.0,118.0 66.0,92.0 40.0,92.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="53.0" y="114.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">1</text>
+<polygon points="14.0,92.0 66.0,92.0 66.0,66.0 14.0,66.0" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="40.0" y="88.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">2</text>
+<polygon points="14.0,66.0 66.0,66.0 66.0,14.0 14.0,14.0" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="40.0" y="49.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">4</text>
+<polygon points="66.0,118.0 118.0,118.0 118.0,14.0 66.0,14.0" fill="#ce93d8" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="92.0" y="75.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">8</text>
+<text x="138.0" y="44.9" font-size="14" fill="#263238" text-anchor="start" font-weight="bold">1 + 2 + 4 + 8 = 15</text>
+<text x="138.0" y="70.5" font-size="13" fill="#8a969c" text-anchor="start">add the extra 1:</text>
+<text x="138.0" y="91.3" font-size="13" fill="#263238" text-anchor="start">1 + 1 = 2, 2 + 2 = 4,</text>
+<text x="138.0" y="112.1" font-size="13" fill="#263238" text-anchor="start">4 + 4 = 8, 8 + 8 = 16</text>
+</svg>
