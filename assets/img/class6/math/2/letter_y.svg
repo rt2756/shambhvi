@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 225" width="130" height="225" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="66.2" y1="100.6" x2="66.2" y2="210.6" stroke="#263238" stroke-width="3" stroke-linecap="round"/>
+<line x1="66.2" y1="100.6" x2="116.2" y2="14.0" stroke="#263238" stroke-width="3" stroke-linecap="round"/>
+<line x1="66.2" y1="100.6" x2="16.2" y2="14.0" stroke="#263238" stroke-width="3" stroke-linecap="round"/>
+<path d="M66.2,122.6 A22,22 0 0 0 77.2,81.5" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="104.8" y="116.2" font-size="15" fill="#1565c0" text-anchor="middle">150°</text>
+<path d="M77.2,81.5 A22,22 0 0 0 55.2,81.5" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="66.2" y="65.8" font-size="15" fill="#1565c0" text-anchor="middle">60°</text>
+<path d="M52.2,76.4 A28,28 0 0 0 66.2,128.6" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="23.7" y="117.2" font-size="15" fill="#1565c0" text-anchor="middle">150°</text>
+</svg>

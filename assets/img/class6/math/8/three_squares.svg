@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 354 137" width="354" height="137" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="87.2" y1="28.5" x2="87.2" y2="88.5" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="87.2" y1="28.5" x2="147.2" y2="28.5" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="87.2" y1="88.5" x2="147.2" y2="88.5" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="147.2" y1="28.5" x2="147.2" y2="88.5" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="147.2" y1="28.5" x2="207.2" y2="28.5" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="147.2" y1="88.5" x2="207.2" y2="88.5" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="207.2" y1="28.5" x2="207.2" y2="88.5" stroke="#263238" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="207.2" y1="28.5" x2="267.2" y2="28.5" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="207.2" y1="88.5" x2="267.2" y2="88.5" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="267.2" y1="28.5" x2="267.2" y2="88.5" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M145.5,43.0 A60.0,60.0 0 0 0 145.5,14.0" fill="none" stroke="#c62828" stroke-width="1.4"/>
+<path d="M205.5,43.0 A60.0,60.0 0 0 0 205.5,14.0" fill="none" stroke="#c62828" stroke-width="1.4"/>
+<path d="M265.5,43.0 A60.0,60.0 0 0 0 265.5,14.0" fill="none" stroke="#c62828" stroke-width="1.4"/>
+<path d="M101.8,30.3 A60.0,60.0 0 0 0 72.7,30.3" fill="none" stroke="#c62828" stroke-width="1.4"/>
+<text x="177.2" y="120.3" font-size="11" fill="#8a969c" text-anchor="middle">compass kept at AF: step it along the top three times</text>
+</svg>

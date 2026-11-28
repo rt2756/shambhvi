@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 373 194" width="373" height="194" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="56.5" y1="128.0" x2="316.5" y2="128.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="56.5" cy="128.0" r="3.6" fill="#263238"/>
+<text x="56.5" y="159.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">A</text>
+<circle cx="316.5" cy="128.0" r="3.6" fill="#263238"/>
+<text x="316.5" y="159.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">B</text>
+<circle cx="186.5" cy="128.0" r="3.6" fill="#263238"/>
+<text x="186.5" y="159.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">O</text>
+<line x1="186.5" y1="128.0" x2="186.5" y2="18.0" stroke="#c62828" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="190.7" y1="25.9" x2="186.5" y2="18.0" stroke="#c62828" stroke-width="2" stroke-linecap="round"/>
+<line x1="182.3" y1="25.9" x2="186.5" y2="18.0" stroke="#c62828" stroke-width="2" stroke-linecap="round"/>
+<circle cx="186.5" cy="33.0" r="3.6" fill="#c62828"/>
+<text x="198.5" y="30.6" font-size="13" fill="#c62828" text-anchor="middle" font-weight="bold">C</text>
+<polyline points="199.5,128.0 199.5,115.0 186.5,115.0" fill="none" stroke="#263238" stroke-width="1.6"/>
+<polyline points="186.5,115.0 173.5,115.0 173.5,128.0" fill="none" stroke="#263238" stroke-width="1.6"/>
+<text x="256.5" y="102.5" font-size="13" fill="#1565c0" text-anchor="middle">90°</text>
+<text x="116.5" y="102.5" font-size="13" fill="#1565c0" text-anchor="middle">90°</text>
+<text x="186.5" y="177.8" font-size="11" fill="#8a969c" text-anchor="middle">fold OB onto OA: the crease OC halves the straight angle</text>
+</svg>

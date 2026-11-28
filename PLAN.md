@@ -95,7 +95,7 @@ batch's *Done* entry saying why it is fine (e.g. "no figures: a chapter on numbe
 
 **Class 6 maths** (*Ganita Prakash*)
 - [x] Ch 1 Patterns in mathematics · Ch 3 Number play · Ch 5 Prime time (2026-11-28)
-- [ ] Ch 2 Lines and angles · Ch 8 Playing with constructions (figure-heavy)
+- [x] Ch 2 Lines and angles · Ch 8 Playing with constructions (2026-11-28)
 - [ ] Ch 4 Data handling and presentation · Ch 6 Perimeter and area · Ch 7 Fractions
 - [ ] Ch 9 Symmetry · Ch 10 The other side of zero
 
@@ -414,6 +414,25 @@ with nothing but the question in front of her:
   are our own versions (40/50 rows 980, 1s-and-5s grid 128, 32/64 grid 2048, dice 130, hexagon 600, coin rings 7000);
   thread art is redrawn (12/4, 13/3, 16/5, 24/6 and the four answers).
 
+- 2026-11-28 — Class 6 maths Ch 2 and Ch 8 rewritten to the notes standard (86 + 38 Check-yourself answers, 12 + 7
+  exercises; 55 + 33 figures from `tools/figures/class6_math_{2,8}.py`). Checker passes with **no soft warnings** (Ch 2
+  got measuring steps in its one-line "measure each angle" answers; Ch 8 more Try this and callouts after the first run).
+  Neither chapter has a separate end set: Ch 2 uses its last Figure it Out (p53-54, Q1-Q7), Ch 8 the last two Construct
+  sets (p211 Q1-Q4, p215 Q1-Q3). Almost every Ch 2 question is a picture (protractors, angles to measure, grids), so all
+  are our own drawings with exact angles, using the key's values where it gives them (KAL 30 / WAL 50 / TAK 120; the
+  P-U protractor 35/95/125/160/180; 47, 23, 108; 42, 116; 260; a-f 80, 120, 60, 130, 130, 60; BXE 115 etc.; PQR 45/100/150;
+  PTR 30, PTQ 60, PTW 102, WTP 258). Our own: the six protractor mistakes (U: one arm below the 0 line → 60°; V: tilted,
+  80 − 15 = 65°; W: vertex off-centre → 90°; X: wrong row → 30°; Y: angle below the protractor → 60°; Z: reflex marked →
+  275°), triangles 60/55/65, 55/30/95, 40/78/62, the two-lines figure (CAP 110 … LSR 75), end Q2 a-f (35, 150, 90, 30, 70,
+  340). Answer-key slips (trust these notes): acute-angle pattern is 3, 12, 21, 30 (+9 each; key's "3 × n + 1" formula is
+  wrong, counted by script); key lists 14 of the 15 angles on the labelled protractor (misses ∠POU); key's "figure with 3
+  acute, 1 right, 2 obtuse" as a closed hexagon is impossible (angles would total < 720°) — notes use a zigzag; puzzle
+  answer is any x with 18° < x < 22.5° (19-22 in whole degrees); letter M with 40°/60°/40° needs outward-leaning legs.
+  Ch 8: X-Y table 7.4 / 7.0 / 7.3 cm, farthest = diagonal √65 ≈ 8.1 cm; side 4 + diagonal 8 → other side 6.9 cm; side 3 +
+  diagonal 7 → 6.3 cm; 6 × 4 rectangle diagonals 7.2 cm, corner split ≈ 34° + 56°. The dot-grid collection is our own (A and D
+  squares by the "swap the steps" test; the key's picture had only A); artwork, shadings and eyes are our own versions; the
+  paper-craft activity (Ch 2 Q8, picture steps only) is described in words.
+
 ## Learnings
 
 - Always check the chapter list against the PDF in `ncert_books/class_<N>/` — books changed a lot.
@@ -538,3 +557,12 @@ with nothing but the question in front of her:
   `venn()` (places each number by testing it), `tree()` (factor trees that assert the product), `sieve()` and `thread()`.
 - Use `**Question N.**` for a stem whose parts are (a), (b)…; a stem with its parts listed in plain text (estimation
   questions) is one question with one answer.
+- Class 6 PDF: Ch 2 text PDF 38–79 (book page = PDF − 24), solutions 80–90; Ch 8 text 279–308, solutions 309–316.
+- `class6_math_2.py` has `protractor()` (both scales, any rotation) and `reading()`, `ray()` with arrowheads, `line2()`, dot
+  `grid()` with answers tested by `ang_at()`, `count_acute()` (counts acute angles in a segment drawing), `path_with_bends()`
+  (zigzag with chosen bend angles) and `misuse()` (protractor-mistake pictures). `class6_math_8.py` has `inter()` (circle
+  meeting points), `rect_by_angle()`, `rect_side_diag()`, `house()`, `is_rect()` and `dim()` — reuse for class 7-9 constructions.
+- `geo.Fig.carc` draws counter-clockwise from a1 to a2: for "the short arc between two points" assert the sweep (twice an arc went
+  the long way round, drawing a near-full circle).
+- A question picture that gives away the answer (angle labels on "measure these") needs two figures: one without labels for
+  the question and one with them inside the answer.

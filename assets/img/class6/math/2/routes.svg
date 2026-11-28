@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 179" width="297" height="179" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="48.4" y1="109.0" x2="88.4" y2="39.0" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="88.4" y1="39.0" x2="158.4" y2="14.0" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="158.4" y1="14.0" x2="248.4" y2="49.0" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="48.4" y1="109.0" x2="108.4" y2="139.0" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="108.4" y1="139.0" x2="198.4" y2="109.0" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="198.4" y1="109.0" x2="248.4" y2="49.0" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="48.4" y1="109.0" x2="78.4" y2="69.0" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="78.4" y1="69.0" x2="128.4" y2="99.0" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="128.4" y1="99.0" x2="178.4" y2="39.0" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="178.4" y1="39.0" x2="218.4" y2="69.0" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="218.4" y1="69.0" x2="248.4" y2="49.0" stroke="#8a969c" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="48.4" y1="109.0" x2="248.4" y2="49.0" stroke="#c62828" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="48.4" cy="109.0" r="3.6" fill="#263238"/>
+<text x="36.4" y="122.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">A</text>
+<circle cx="248.4" cy="49.0" r="3.6" fill="#263238"/>
+<text x="260.4" y="62.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">B</text>
+<text x="148.4" y="163.2" font-size="12" fill="#c62828" text-anchor="middle">the straight route (red) is the shortest</text>
+</svg>

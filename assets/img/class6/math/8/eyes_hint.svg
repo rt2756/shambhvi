@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124 130" width="124" height="130" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<path d="M102.0,63.0 A58.0,58.0 0 0 0 22.0,63.0" fill="none" stroke="#263238" stroke-width="2.4"/>
+<path d="M22.0,63.0 A58.0,58.0 0 0 0 102.0,63.0" fill="none" stroke="#263238" stroke-width="2.4"/>
+<polygon points="73.0,63.0 72.6,60.2 71.5,57.5 69.8,55.2 67.5,53.5 64.8,52.4 62.0,52.0 59.2,52.4 56.5,53.5 54.2,55.2 52.5,57.5 51.4,60.2 51.0,63.0 51.4,65.8 52.5,68.5 54.2,70.8 56.5,72.5 59.2,73.6 62.0,74.0 64.8,73.6 67.5,72.5 69.8,70.8 71.5,68.5 72.6,65.8" fill="#263238" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="14.0" y1="63.0" x2="110.0" y2="63.0" stroke="#8a969c" stroke-width="1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<polygon points="65.0,105.0 64.6,103.5 63.5,102.4 62.0,102.0 60.5,102.4 59.4,103.5 59.0,105.0 59.4,106.5 60.5,107.6 62.0,108.0 63.5,107.6 64.6,106.5" fill="#c62828" stroke="#c62828" stroke-width="2" stroke-linejoin="round"/>
+<text x="74.0" y="114.2" font-size="12" fill="#c62828" text-anchor="start" font-weight="bold">A</text>
+<polygon points="65.0,21.0 64.6,19.5 63.5,18.4 62.0,18.0 60.5,18.4 59.4,19.5 59.0,21.0 59.4,22.5 60.5,23.6 62.0,24.0 63.5,23.6 64.6,22.5" fill="#c62828" stroke="#c62828" stroke-width="2" stroke-linejoin="round"/>
+<text x="74.0" y="30.2" font-size="12" fill="#c62828" text-anchor="start" font-weight="bold">B</text>
+<line x1="62.0" y1="105.0" x2="62.0" y2="21.0" stroke="#8a969c" stroke-width="1" stroke-linecap="round" stroke-dasharray="4 3"/>
+</svg>

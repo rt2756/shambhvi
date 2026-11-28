@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 214" width="550" height="214" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<circle cx="121.8" cy="94.3" r="70.0" fill="none" stroke="#8a969c" stroke-width="1.6"/>
+<line x1="121.8" y1="94.3" x2="243.0" y2="164.3" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="234.0" y1="164.0" x2="243.0" y2="164.3" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="238.3" y1="156.7" x2="243.0" y2="164.3" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="121.8" y1="94.3" x2="253.4" y2="46.4" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="247.3" y1="53.1" x2="253.4" y2="46.4" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="244.4" y1="45.2" x2="253.4" y2="46.4" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<circle cx="182.4" cy="129.3" r="3.6" fill="#263238"/>
+<text x="192.4" y="152.9" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">A</text>
+<circle cx="187.6" cy="70.4" r="3.6" fill="#263238"/>
+<text x="195.6" y="74.0" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">B</text>
+<circle cx="121.8" cy="94.3" r="3.6" fill="#263238"/>
+<text x="109.8" y="107.8" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">O</text>
+<text x="121.8" y="198.2" font-size="11" fill="#8a969c" text-anchor="middle">crane 1: mark A and B on the circle</text>
+<circle cx="381.8" cy="94.3" r="70.0" fill="none" stroke="#8a969c" stroke-width="1.6"/>
+<line x1="381.8" y1="94.3" x2="503.0" y2="164.3" stroke="#1565c0" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="494.0" y1="164.0" x2="503.0" y2="164.3" stroke="#1565c0" stroke-width="2" stroke-linecap="round"/>
+<line x1="498.3" y1="156.7" x2="503.0" y2="164.3" stroke="#1565c0" stroke-width="2" stroke-linecap="round"/>
+<line x1="381.8" y1="94.3" x2="496.5" y2="14.0" stroke="#1565c0" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="492.4" y1="22.0" x2="496.5" y2="14.0" stroke="#1565c0" stroke-width="2" stroke-linecap="round"/>
+<line x1="487.5" y1="15.1" x2="496.5" y2="14.0" stroke="#1565c0" stroke-width="2" stroke-linecap="round"/>
+<circle cx="442.4" cy="129.3" r="3.6" fill="#263238"/>
+<text x="452.4" y="152.9" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">A</text>
+<circle cx="447.6" cy="70.4" r="3.6" fill="#c62828"/>
+<text x="457.6" y="90.0" font-size="13" fill="#c62828" text-anchor="middle" font-weight="bold">B</text>
+<circle cx="439.1" cy="54.2" r="3.6" fill="#1565c0"/>
+<text x="435.1" y="53.8" font-size="13" fill="#1565c0" text-anchor="middle" font-weight="bold">Y</text>
+<text x="381.8" y="198.2" font-size="11" fill="#8a969c" text-anchor="middle">crane 2's arm passes beyond B: its angle is bigger</text>
+</svg>

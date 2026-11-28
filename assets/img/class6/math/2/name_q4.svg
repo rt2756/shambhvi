@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 207 209" width="207" height="209" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="42.8" y1="161.7" x2="16.8" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="22.3" y1="21.1" x2="16.8" y2="14.0" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="14.0" y1="22.6" x2="16.8" y2="14.0" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<circle cx="22.0" cy="43.5" r="3.6" fill="#263238"/>
+<text x="34.0" y="53.0" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">P</text>
+<line x1="42.8" y1="161.7" x2="117.8" y2="31.8" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="117.5" y1="40.8" x2="117.8" y2="31.8" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="110.2" y1="36.6" x2="117.8" y2="31.8" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<circle cx="102.8" cy="57.8" r="3.6" fill="#263238"/>
+<text x="114.8" y="67.3" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">Q</text>
+<line x1="42.8" y1="161.7" x2="192.8" y2="161.7" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="184.9" y1="165.9" x2="192.8" y2="161.7" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="184.9" y1="157.5" x2="192.8" y2="161.7" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<circle cx="162.8" cy="161.7" r="3.6" fill="#263238"/>
+<text x="162.8" y="193.2" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">R</text>
+<circle cx="42.8" cy="161.7" r="3.6" fill="#263238"/>
+<text x="30.8" y="185.2" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">T</text>
+<path d="M66.8,161.7 A24,24 0 0 0 54.8,140.9" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="76.6" y="147.4" font-size="15" fill="#1565c0" text-anchor="middle"></text>
+<path d="M76.8,161.7 A34,34 0 0 0 36.9,128.2" fill="none" stroke="#c62828" stroke-width="1.8"/>
+<text x="74.3" y="129.4" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold"></text>
+</svg>

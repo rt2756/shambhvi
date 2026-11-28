@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238 198" width="238" height="198" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="70.3" y1="92.2" x2="224.4" y2="20.3" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="219.0" y1="27.5" x2="224.4" y2="20.3" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="215.4" y1="19.9" x2="224.4" y2="20.3" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="70.3" y1="92.2" x2="224.4" y2="164.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="215.4" y1="164.5" x2="224.4" y2="164.0" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<line x1="219.0" y1="156.8" x2="224.4" y2="164.0" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+<circle cx="70.3" cy="92.2" r="3.6" fill="#263238"/>
+<text x="58.3" y="105.8" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">B</text>
+<circle cx="197.2" cy="33.0" r="3.6" fill="#263238"/>
+<text x="197.2" y="30.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">D</text>
+<circle cx="197.2" cy="151.3" r="3.6" fill="#263238"/>
+<text x="197.2" y="182.9" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">E</text>
+<path d="M93.9,103.2 A26,26 0 0 0 93.9,81.2" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="111.3" y="97.5" font-size="15" fill="#1565c0" text-anchor="middle"></text>
+<text x="124.3" y="50.7" font-size="12" fill="#1565c0" text-anchor="middle">arm</text>
+<text x="124.3" y="152.1" font-size="12" fill="#1565c0" text-anchor="middle">arm</text>
+<text x="54.3" y="122.4" font-size="12" fill="#1565c0" text-anchor="end">vertex</text>
+</svg>
