@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 358 326" width="358" height="326" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="55.6" y1="180.0" x2="343.6" y2="180.0" stroke="#263238" stroke-width="4" stroke-linecap="round"/>
+<line x1="55.6" y1="36.0" x2="343.6" y2="36.0" stroke="#263238" stroke-width="4" stroke-linecap="round"/>
+<line x1="55.6" y1="180.0" x2="55.6" y2="36.0" stroke="#263238" stroke-width="4" stroke-linecap="round"/>
+<line x1="343.6" y1="180.0" x2="343.6" y2="36.0" stroke="#263238" stroke-width="4" stroke-linecap="round"/>
+<line x1="163.6" y1="180.0" x2="163.6" y2="36.0" stroke="#263238" stroke-width="4" stroke-linecap="round"/>
+<line x1="163.6" y1="180.0" x2="163.6" y2="288.0" stroke="#263238" stroke-width="4" stroke-linecap="round"/>
+<line x1="235.6" y1="180.0" x2="235.6" y2="288.0" stroke="#263238" stroke-width="4" stroke-linecap="round"/>
+<line x1="163.6" y1="288.0" x2="235.6" y2="288.0" stroke="#263238" stroke-width="4" stroke-linecap="round"/>
+<text x="109.6" y="30.2" font-size="12" fill="#1565c0" text-anchor="middle">9 ft</text>
+<text x="253.6" y="30.2" font-size="12" fill="#1565c0" text-anchor="middle">15 ft</text>
+<text x="47.6" y="117.2" font-size="12" fill="#1565c0" text-anchor="end">12 ft</text>
+<text x="199.6" y="310.2" font-size="12" fill="#1565c0" text-anchor="middle">6 ft</text>
+<text x="243.6" y="243.2" font-size="12" fill="#1565c0" text-anchor="start">9 ft</text>
+<text x="109.6" y="117.2" font-size="12" fill="#8a969c" text-anchor="middle">room 1</text>
+<text x="253.6" y="117.2" font-size="12" fill="#8a969c" text-anchor="middle">room 2</text>
+<text x="199.6" y="243.2" font-size="12" fill="#8a969c" text-anchor="middle">room 3</text>
+</svg>

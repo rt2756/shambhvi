@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 731 206" width="731" height="206" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="118.0,137.0 118.0,85.0 14.0,85.0 14.0,137.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="66.0" y="122.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">A</text>
+<text x="132.0" y="120.2" font-size="12" fill="#1565c0" text-anchor="middle">2 cm</text>
+<text x="66.0" y="78.2" font-size="12" fill="#1565c0" text-anchor="middle">4 cm</text>
+<polygon points="174.0,120.0 278.0,120.0 278.0,42.0 174.0,42.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="226.0" y="92.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">B</text>
+<text x="226.0" y="143.2" font-size="12" fill="#1565c0" text-anchor="middle">4 cm</text>
+<text x="294.0" y="90.2" font-size="12" fill="#1565c0" text-anchor="middle">3 cm</text>
+<polygon points="381.2,188.1 448.8,149.1 370.8,14.0 303.2,53.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="376.0" y="112.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">C</text>
+<text x="422.0" y="189.9" font-size="12" fill="#1565c0" text-anchor="middle">3 cm</text>
+<text x="423.6" y="82.7" font-size="12" fill="#1565c0" text-anchor="middle">6 cm</text>
+<polygon points="487.4,126.4 638.1,86.0 624.6,35.7 473.9,76.1" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="556.0" y="92.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">D</text>
+<text x="566.4" y="128.9" font-size="12" fill="#1565c0" text-anchor="middle">6 cm</text>
+<text x="646.8" y="65.9" font-size="12" fill="#1565c0" text-anchor="middle">2 cm</text>
+<polygon points="636.0,138.4 665.9,163.5 716.0,103.7 686.1,78.6" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="676.0" y="132.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">E</text>
+<text x="641.9" y="170.9" font-size="12" fill="#1565c0" text-anchor="middle">1.5 cm</text>
+<text x="703.2" y="153.1" font-size="12" fill="#1565c0" text-anchor="middle">3 cm</text>
+</svg>

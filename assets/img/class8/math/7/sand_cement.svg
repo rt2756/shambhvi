@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 574 202" width="574" height="202" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="14.0,60.0 58.0,60.0 58.0,36.0 14.0,36.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="36.0" y="57.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">10</text>
+<polygon points="58.0,60.0 102.0,60.0 102.0,36.0 58.0,36.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="80.0" y="57.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">10</text>
+<polygon points="102.0,60.0 146.0,60.0 146.0,36.0 102.0,36.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="124.0" y="57.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">10</text>
+<polygon points="146.0,60.0 190.0,60.0 190.0,36.0 146.0,36.0" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="168.0" y="57.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">10</text>
+<text x="14.0" y="30.2" font-size="12" fill="#1565c0" text-anchor="start">sand: 3 groups = 30</text>
+<text x="200.0" y="58.2" font-size="12" fill="#2e7d32" text-anchor="start">cement: 1 group = 10</text>
+<text x="14.0" y="86.5" font-size="13" fill="#263238" text-anchor="start" font-weight="bold">40 kg in the ratio 3 : 1: each part is 10 kg</text>
+<polygon points="14.0,160.0 44.0,160.0 44.0,136.0 14.0,136.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="29.0" y="157.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">6</text>
+<polygon points="44.0,160.0 74.0,160.0 74.0,136.0 44.0,136.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="59.0" y="157.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">6</text>
+<polygon points="74.0,160.0 104.0,160.0 104.0,136.0 74.0,136.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="89.0" y="157.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">6</text>
+<polygon points="104.0,160.0 134.0,160.0 134.0,136.0 104.0,136.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="119.0" y="157.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">6</text>
+<polygon points="134.0,160.0 164.0,160.0 164.0,136.0 134.0,136.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="149.0" y="157.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">6</text>
+<polygon points="164.0,160.0 194.0,160.0 194.0,136.0 164.0,136.0" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="179.0" y="157.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">6</text>
+<polygon points="194.0,160.0 224.0,160.0 224.0,136.0 194.0,136.0" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="209.0" y="157.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">6</text>
+<text x="14.0" y="130.2" font-size="12" fill="#1565c0" text-anchor="start">sand: 5 parts = 30</text>
+<text x="234.0" y="158.2" font-size="12" fill="#2e7d32" text-anchor="start">cement: 2 parts = 12</text>
+<text x="14.0" y="186.6" font-size="13" fill="#263238" text-anchor="start" font-weight="bold">new ratio 5 : 2 with the same 30 kg of sand: add 12 − 10 = 2 kg cement</text>
+</svg>

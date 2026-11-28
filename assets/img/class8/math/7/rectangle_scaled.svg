@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 558 184" width="558" height="184" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="14.0,146.0 102.0,146.0 102.0,80.0 14.0,80.0" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="58.0" y="168.2" font-size="12" fill="#2e7d32" text-anchor="middle">given 4 × 3</text>
+<polygon points="132.0,146.0 176.0,146.0 176.0,113.0 132.0,113.0" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="154.0" y="168.2" font-size="12" fill="#2e7d32" text-anchor="middle">half: 2 × 1.5</text>
+<polygon points="206.0,146.0 382.0,146.0 382.0,14.0 206.0,14.0" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="294.0" y="168.2" font-size="12" fill="#2e7d32" text-anchor="middle">double: 8 × 6</text>
+<polygon points="412.0,146.0 544.0,146.0 544.0,36.0 412.0,36.0" fill="#f8bbd0" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="478.0" y="168.2" font-size="12" fill="#c62828" text-anchor="middle">6 × 5: not similar</text>
+</svg>

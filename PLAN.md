@@ -89,7 +89,7 @@ batch's *Done* entry saying why it is fine (e.g. "no figures: a chapter on numbe
 **Class 8 maths** (*Ganita Prakash* I + II)
 - [x] Ch 1 A square and a cube · Ch 2 Power play · Ch 3 A story of numbers (2026-11-28)
 - [x] Ch 4 Quadrilaterals · Ch 9 The Baudhāyana–Pythagoras theorem (2026-11-28)
-- [ ] Ch 5 Number play · Ch 6 We distribute, yet things multiply · Ch 7 Proportional reasoning — 1
+- [x] Ch 5 Number play · Ch 6 We distribute, yet things multiply · Ch 7 Proportional reasoning — 1 (2026-11-28)
 - [ ] Ch 8 Fractions in disguise · Ch 10 Proportional reasoning — 2 · Ch 13 Algebra play
 - [ ] Ch 11 Exploring some geometric themes · Ch 12 Tales by dots and lines · Ch 14 Area
 
@@ -313,6 +313,24 @@ book's activities and questions.
   "missing side" triangles were read off the picture as legs 7 & 9, legs 4 & 10, leg 40 / hyp 41, leg 10 / hyp
   √200, legs 10 & √150, leg 27 / hyp 45, and redrawn upright.
 
+- 2026-11-28 — Class 8 maths Ch 5, 6 and 7 rewritten to the notes standard (62 + 59 + 29 Check-yourself
+  answers, 24 + 26 + 14 exercises; 13 + 14 + 12 figures from `tools/figures/class8_math_{5,6,7}.py`). Checker
+  passes with **no soft warnings** for any of the three. Every cryptarithm was solved by trying all digits in a
+  script. Answer-key differences (trust these notes): Ch 5 ON + ON + ON = PO has three answers (17, 24, 31; key
+  gives only 31), L2N × 2 = 2NP has two (124 → 248 and 125 → 250; key only 125), PP × QQ = PRP has three (22, 33,
+  44 × 11; key only 22); the divisibility table's printed row says 128 is not divisible by 4 (it is: 4 × 32);
+  numbers with remainder 2 on ÷ 3 and ÷ 4 start at 2, not 14; key's Q13 (three numbers, sum ÷ 3) is garbled, the
+  notes give the full case table; Q14's 4 and 5 consecutive integers are explained as 8 × 3 = 24 and 24 × 5 = 120.
+  Ch 6: (7y − 3/(4z))² is expanded as printed (with z in the denominator, as the key does); the printed step 3
+  of the yellow staircase (end Q11a) draws tails of 6 squares (27 in all), but the key's (y + 2)² needs tails of
+  5 — our drawing follows the rule and the notes say so; the park (end Q10) follows the key's 2w strip between
+  the plots, and the notes give 7gw + 6w² for a w-wide strip; 100 = 26² − 24² and also 10² − 0²; Coin Conjoin
+  (end, 15 coins: 5 moves; rule: coins ÷ 3 rounded down) is an exercise, its 3-move picture found by a search
+  over overlaps. Ch 7: the text dates Āryabhaṭa to "199 CE"; the notes say born 476 CE; Earth-per-week answer
+  gives both 52-week (18,076,923 km) and 365-day (18,027,397 km) versions; the rectangles (FIO Q4), brick walls
+  (Q6) and Binairo puzzles are our own drawings (walls keep the key's 3 : 2 and 4 : 3; two 6 × 6 Binairos
+  generated with a fixed seed and checked to have one solution each, instead of the three printed ones).
+
 ## Learnings
 
 - Always check the chapter list against the PDF in `ncert_books/class_<N>/` — books changed a lot.
@@ -400,4 +418,13 @@ book's activities and questions.
 - In a Check-yourself section, a question with parts must start `**Question 2.**` (not `**2.**`), as before; in
   "## Exercises" a `### 4. …` heading followed by `**(a)**`, `**(i)**` parts counts the parts only.
 - `git rm`/`rm` of scratch files may be refused; `python3 -c "import os; os.remove(…)"` works.
-
+- Class 8 Part 1 PDF: book page = PDF page − 50 for Ch 5 (text PDF 162–185, Navakankari 185, answers 186–198);
+  Ch 6 text 199–221 (Coin Conjoin 221), answers 222–233 (book page = PDF − 63); Ch 7 text 234–253 (Binairo 253,
+  dot grids 254–255), answers 256–263 (book page = PDF − 75).
+- `class8_math_5.py` has `dots()` (rows of dots) and `brace()`; `four_case()` draws "rows of 4" sums and asserts the
+  remainder; `elevens_*` and `root_clock()` assert place-value and digital-root facts. `class8_math_6.py` has `hatch()`
+  (45° hatching clipped to a rectangle), `dim()` (dimension line with end bars) and area pictures that assert the
+  parts sum to the whole. `class8_math_7.py` has `bar_model()` (share x in m : n), `wall()` (counts its own bricks),
+  `rot_rect()` and a Binairo generator/solver (`make_puzzle(seed)`) — reuse for any logic-grid puzzle page.
+- Page text that the book prints as a picture ("Example 4" activities, Math Talk prompts) becomes a **Try this**;
+  that is also the cheapest honest fix for a "'Try this' activities" soft warning.
