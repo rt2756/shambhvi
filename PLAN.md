@@ -84,7 +84,7 @@ batch's *Done* entry saying why it is fine (e.g. "no figures: a chapter on numbe
 - [x] Ch 7 A Tale of Three Intersecting Lines · Ch 9 Geometric Twins (2026-11-27)
 - [x] Ch 10 Operations with Integers · Ch 11 Finding Common Ground · Ch 12 Another Peek Beyond the Point (2026-11-27)
 - [x] Ch 13 Connecting the Dots… · Ch 15 Finding the Unknown (2026-11-28)
-- [ ] Ch 14 Constructions and Tilings (figure-heavy: step-by-step construction drawings)
+- [x] Ch 14 Constructions and Tilings (2026-11-28)
 
 **Class 8 maths** (*Ganita Prakash* I + II)
 - [ ] Ch 1 A square and a cube · Ch 2 Power play · Ch 3 A story of numbers
@@ -271,6 +271,16 @@ book's activities and questions.
   like the top (as drawn), giving 6 gaps of 3 cm; the maze path visits 11 of 12 boxes (−7 = 11 − 3x is a
   decoy) and ends in 30 = 4 − 50n, n = −13/25; staircase sticks are 9n + 4 (counted from the drawing).
   Mobiles and sack balances are redrawn with our own shapes and the same numbers.
+- 2026-11-28 — Class 7 maths Ch 14 rewritten to the notes standard (38 Check-yourself answers, 10 exercises;
+  46 figures from `tools/figures/class7_math_14.py`). Checker passes with **no soft warnings**. Every
+  construction in the script is done with exact circle meeting points and its result asserted (90°, halves,
+  copied angles, parallels); tilings come from a search. Part 2 has **no answer key**. Choices made: the tangram
+  silhouettes (picture-only, many answers) are a Try this with tips; the 8-pointed star (p148) is read as eight
+  rhombuses round the centre, so it is built with the parallel-line construction its section teaches; the
+  compass-only flower uses petals centred on the six circle points (the half-circle look needs a ruler for
+  midpoints); 65.5° is shown impossible because every constructible angle, doubled enough, is a multiple of 15.
+  Brute force: removing any of the 7 "black" squares of a 5 × 3 grid makes it untileable, any of the 8 "white"
+  squares leaves it tileable. The old notes' book-pointer lines ("Book Figure it Out") are gone.
 
 ## Learnings
 
@@ -331,3 +341,7 @@ book's activities and questions.
 - A question in a section without a `### Check yourself…` heading (e.g. under "### Doing the same to both
   sides") is not counted: add a `### Check yourself: …` heading right before it.
 - `**Worked example 7**` trips the book-example check; number our own as `**Example 7: title.**`.
+- Class 7 Part 2 PDF: Ch 6 (site Ch 14) text PDF 154–181 (book page = PDF page − 18). `class7_math_14.py` has
+  `inter()` (two circles' meeting points), `tick_arc()` (a short compass mark through a point), `bisect()`,
+  `tile()` (finds a tiling of a cell set by a list of tile shapes) and `draw_tiles()` — reuse for class 6 Ch 8
+  constructions and any tiling questions.

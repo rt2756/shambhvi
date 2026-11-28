@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153 182" width="153" height="182" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="36.4,40.0 62.4,40.0 62.4,14.0 36.4,14.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="88.4,40.0 114.4,40.0 114.4,14.0 88.4,14.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="36.4,66.0 62.4,66.0 62.4,40.0 36.4,40.0" fill="#37474f" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="62.4,66.0 88.4,66.0 88.4,40.0 62.4,40.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="88.4,66.0 114.4,66.0 114.4,40.0 88.4,40.0" fill="#37474f" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="36.4,92.0 62.4,92.0 62.4,66.0 36.4,66.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="62.4,92.0 88.4,92.0 88.4,66.0 62.4,66.0" fill="#37474f" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="88.4,92.0 114.4,92.0 114.4,66.0 88.4,66.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="36.4,118.0 62.4,118.0 62.4,92.0 36.4,92.0" fill="#37474f" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="62.4,118.0 88.4,118.0 88.4,92.0 62.4,92.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="88.4,118.0 114.4,118.0 114.4,92.0 88.4,92.0" fill="#37474f" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="36.4,144.0 62.4,144.0 62.4,118.0 36.4,118.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="62.4,144.0 88.4,144.0 88.4,118.0 62.4,118.0" fill="#37474f" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="88.4,144.0 114.4,144.0 114.4,118.0 88.4,118.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="76.4" y="166.6" font-size="13" fill="#c62828" text-anchor="middle" font-weight="bold">8 white, 6 black</text>
+</svg>

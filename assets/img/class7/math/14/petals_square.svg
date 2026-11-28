@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 228" width="244" height="228" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="14.0,214.0 214.0,214.0 214.0,14.0 14.0,14.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="14.0" y1="114.0" x2="214.0" y2="114.0" stroke="#8a969c" stroke-width="1" stroke-linecap="round" stroke-dasharray="5,4"/>
+<line x1="114.0" y1="214.0" x2="114.0" y2="14.0" stroke="#8a969c" stroke-width="1" stroke-linecap="round" stroke-dasharray="5,4"/>
+<path d="M214.0,14.0 A100.0,100.0 0 0 0 114.0,114.0" fill="none" stroke="#263238" stroke-width="2.4"/>
+<path d="M114.0,114.0 A100.0,100.0 0 0 0 214.0,14.0" fill="none" stroke="#263238" stroke-width="2.4"/>
+<path d="M114.0,114.0 A100.0,100.0 0 0 0 14.0,14.0" fill="none" stroke="#263238" stroke-width="2.4"/>
+<path d="M14.0,14.0 A100.0,100.0 0 0 0 114.0,114.0" fill="none" stroke="#263238" stroke-width="2.4"/>
+<path d="M14.0,214.0 A100.0,100.0 0 0 0 114.0,114.0" fill="none" stroke="#263238" stroke-width="2.4"/>
+<path d="M114.0,114.0 A100.0,100.0 0 0 0 14.0,214.0" fill="none" stroke="#263238" stroke-width="2.4"/>
+<path d="M114.0,114.0 A100.0,100.0 0 0 0 214.0,214.0" fill="none" stroke="#263238" stroke-width="2.4"/>
+<path d="M214.0,214.0 A100.0,100.0 0 0 0 114.0,114.0" fill="none" stroke="#263238" stroke-width="2.4"/>
+<circle cx="214.0" cy="114.0" r="3.6" fill="#1565c0"/>
+<circle cx="114.0" cy="14.0" r="3.6" fill="#1565c0"/>
+<circle cx="14.0" cy="114.0" r="3.6" fill="#1565c0"/>
+<circle cx="114.0" cy="214.0" r="3.6" fill="#1565c0"/>
+<text x="222.0" y="118.5" font-size="13" fill="#1565c0" text-anchor="start" font-weight="bold">M</text>
+</svg>

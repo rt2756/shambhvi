@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304 274" width="304" height="274" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="51.8" y1="204.0" x2="251.8" y2="204.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M212.2,147.7 A170.0,170.0 0 0 0 166.9,79.0" fill="none" stroke="#8a969c" stroke-width="1.5"/>
+<path d="M218.1,99.3 A110.0,110.0 0 0 0 172.9,127.3" fill="none" stroke="#8a969c" stroke-width="1.5"/>
+<line x1="151.8" y1="234.0" x2="151.8" y2="14.0" stroke="#2e7d32" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6,4"/>
+<line x1="51.8" y1="204.0" x2="193.8" y2="110.5" stroke="#8a969c" stroke-width="1" stroke-linecap="round" stroke-dasharray="3,3"/>
+<line x1="251.8" y1="204.0" x2="193.8" y2="110.5" stroke="#8a969c" stroke-width="1" stroke-linecap="round" stroke-dasharray="3,3"/>
+<circle cx="51.8" cy="204.0" r="3.6" fill="#263238"/>
+<text x="37.8" y="208.9" font-size="14" fill="#263238" text-anchor="middle" font-weight="bold">X</text>
+<circle cx="251.8" cy="204.0" r="3.6" fill="#263238"/>
+<text x="265.8" y="208.9" font-size="14" fill="#263238" text-anchor="middle" font-weight="bold">Y</text>
+<circle cx="193.8" cy="110.5" r="3.6" fill="#c62828"/>
+<text x="207.8" y="109.4" font-size="14" fill="#c62828" text-anchor="middle" font-weight="bold">A</text>
+<text x="91.8" y="98.2" font-size="12" fill="#8a969c" text-anchor="middle">170</text>
+<text x="241.8" y="138.2" font-size="12" fill="#8a969c" text-anchor="middle">110</text>
+<text x="151.8" y="258.2" font-size="12" fill="#8a969c" text-anchor="middle">dashed: the true bisector; A is not on it</text>
+</svg>

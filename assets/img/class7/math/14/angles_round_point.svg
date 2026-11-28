@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 247" width="244" height="247" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="123.6" y1="123.6" x2="45.8" y2="201.4" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M96.7,150.5 A38,38 0 0 0 120.3,161.4" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="97.4" y="185.1" font-size="15" fill="#1565c0" text-anchor="middle">40°</text>
+<line x1="123.6" y1="123.6" x2="114.0" y2="233.2" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M121.1,151.5 A28,28 0 0 0 146.5,139.6" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="143.9" y="172.3" font-size="15" fill="#1565c0" text-anchor="middle">60°</text>
+<line x1="123.6" y1="123.6" x2="213.7" y2="186.7" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M146.5,139.6 A28,28 0 0 0 150.6,116.3" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="170.9" y="137.2" font-size="15" fill="#1565c0" text-anchor="middle">50°</text>
+<line x1="123.6" y1="123.6" x2="229.8" y2="95.1" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M160.3,113.7 A38,38 0 0 0 150.5,96.7" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="177.3" y="97.8" font-size="15" fill="#1565c0" text-anchor="middle">30°</text>
+<line x1="123.6" y1="123.6" x2="201.4" y2="45.8" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M150.5,96.7 A38,38 0 0 0 126.9,85.7" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="149.8" y="72.7" font-size="15" fill="#1565c0" text-anchor="middle">40°</text>
+<line x1="123.6" y1="123.6" x2="133.2" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M126.0,95.7 A28,28 0 0 0 95.7,121.1" fill="none" stroke="#1565c0" stroke-width="1.8"/>
+<text x="92.7" y="92.0" font-size="15" fill="#1565c0" text-anchor="middle">90°</text>
+<line x1="123.6" y1="123.6" x2="14.0" y2="114.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M63.8,118.4 A60,60 0 0 0 81.2,166.0" fill="none" stroke="#c62828" stroke-width="1.8"/>
+<text x="42.8" y="158.2" font-size="15" fill="#c62828" text-anchor="middle" font-weight="bold">gap = ?</text>
+</svg>

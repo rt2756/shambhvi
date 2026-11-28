@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 178" width="118" height="178" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="14.0,44.0 44.0,44.0 44.0,14.0 14.0,14.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="29.0" y="33.9" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold">✓</text>
+<polygon points="44.0,44.0 74.0,44.0 74.0,14.0 44.0,14.0" fill="#ffcdd2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="59.0" y="33.9" font-size="14" fill="#c62828" text-anchor="middle" font-weight="bold">✗</text>
+<polygon points="74.0,44.0 104.0,44.0 104.0,14.0 74.0,14.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="89.0" y="33.9" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold">✓</text>
+<polygon points="14.0,74.0 44.0,74.0 44.0,44.0 14.0,44.0" fill="#ffcdd2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="29.0" y="63.9" font-size="14" fill="#c62828" text-anchor="middle" font-weight="bold">✗</text>
+<polygon points="44.0,74.0 74.0,74.0 74.0,44.0 44.0,44.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="59.0" y="63.9" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold">✓</text>
+<polygon points="74.0,74.0 104.0,74.0 104.0,44.0 74.0,44.0" fill="#ffcdd2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="89.0" y="63.9" font-size="14" fill="#c62828" text-anchor="middle" font-weight="bold">✗</text>
+<polygon points="14.0,104.0 44.0,104.0 44.0,74.0 14.0,74.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="29.0" y="93.9" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold">✓</text>
+<polygon points="44.0,104.0 74.0,104.0 74.0,74.0 44.0,74.0" fill="#ffcdd2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="59.0" y="93.9" font-size="14" fill="#c62828" text-anchor="middle" font-weight="bold">✗</text>
+<polygon points="74.0,104.0 104.0,104.0 104.0,74.0 74.0,74.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="89.0" y="93.9" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold">✓</text>
+<polygon points="14.0,134.0 44.0,134.0 44.0,104.0 14.0,104.0" fill="#ffcdd2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="29.0" y="123.9" font-size="14" fill="#c62828" text-anchor="middle" font-weight="bold">✗</text>
+<polygon points="44.0,134.0 74.0,134.0 74.0,104.0 44.0,104.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="59.0" y="123.9" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold">✓</text>
+<polygon points="74.0,134.0 104.0,134.0 104.0,104.0 74.0,104.0" fill="#ffcdd2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="89.0" y="123.9" font-size="14" fill="#c62828" text-anchor="middle" font-weight="bold">✗</text>
+<polygon points="14.0,164.0 44.0,164.0 44.0,134.0 14.0,134.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="29.0" y="153.9" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold">✓</text>
+<polygon points="44.0,164.0 74.0,164.0 74.0,134.0 44.0,134.0" fill="#ffcdd2" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="59.0" y="153.9" font-size="14" fill="#c62828" text-anchor="middle" font-weight="bold">✗</text>
+<polygon points="74.0,164.0 104.0,164.0 104.0,134.0 74.0,134.0" fill="#c8e6c9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="89.0" y="153.9" font-size="14" fill="#2e7d32" text-anchor="middle" font-weight="bold">✓</text>
+</svg>

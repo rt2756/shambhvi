@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 237" width="264" height="237" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="32.2" y1="183.4" x2="232.2" y2="183.4" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M165.4,62.4 A180.0,180.0 0 0 0 93.0,14.0" fill="none" stroke="#8a969c" stroke-width="1.5"/>
+<path d="M171.4,14.0 A180.0,180.0 0 0 0 99.0,62.4" fill="none" stroke="#8a969c" stroke-width="1.5"/>
+<path d="M147.4,134.8 A125.0,125.0 0 0 0 111.1,86.4" fill="none" stroke="#8a969c" stroke-width="1.5"/>
+<path d="M153.3,86.4 A125.0,125.0 0 0 0 117.0,134.8" fill="none" stroke="#8a969c" stroke-width="1.5"/>
+<line x1="132.2" y1="18.7" x2="132.2" y2="223.4" stroke="#2e7d32" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="32.2" cy="183.4" r="3.6" fill="#263238"/>
+<text x="18.2" y="188.3" font-size="14" fill="#263238" text-anchor="middle" font-weight="bold">X</text>
+<circle cx="232.2" cy="183.4" r="3.6" fill="#263238"/>
+<text x="246.2" y="188.3" font-size="14" fill="#263238" text-anchor="middle" font-weight="bold">Y</text>
+<circle cx="132.2" cy="33.7" r="3.6" fill="#263238"/>
+<text x="146.2" y="32.6" font-size="14" fill="#263238" text-anchor="middle" font-weight="bold">A</text>
+<circle cx="132.2" cy="108.4" r="3.6" fill="#263238"/>
+<text x="146.2" y="107.3" font-size="14" fill="#263238" text-anchor="middle" font-weight="bold">C</text>
+<circle cx="132.2" cy="183.4" r="3.6" fill="#263238"/>
+<text x="144.2" y="200.3" font-size="14" fill="#263238" text-anchor="middle" font-weight="bold">O</text>
+</svg>

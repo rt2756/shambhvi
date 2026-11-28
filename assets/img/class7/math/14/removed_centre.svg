@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106 158" width="106" height="158" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="14.0,40.0 40.0,40.0 40.0,14.0 14.0,14.0" fill="#ffcc80" stroke="#ffcc80" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="40.0,40.0 66.0,40.0 66.0,14.0 40.0,14.0" fill="#ffcc80" stroke="#ffcc80" stroke-width="2" stroke-linejoin="round"/>
+<line x1="14.0" y1="14.0" x2="40.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="14.0" y1="40.0" x2="40.0" y2="40.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="14.0" y1="40.0" x2="14.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="40.0" y1="14.0" x2="66.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="40.0" y1="40.0" x2="66.0" y2="40.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="66.0" y1="40.0" x2="66.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="66.0,40.0 92.0,40.0 92.0,14.0 66.0,14.0" fill="#90caf9" stroke="#90caf9" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="66.0,66.0 92.0,66.0 92.0,40.0 66.0,40.0" fill="#90caf9" stroke="#90caf9" stroke-width="2" stroke-linejoin="round"/>
+<line x1="66.0" y1="14.0" x2="92.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="66.0" y1="40.0" x2="66.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="92.0" y1="40.0" x2="92.0" y2="14.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="66.0" y1="66.0" x2="92.0" y2="66.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="66.0" y1="66.0" x2="66.0" y2="40.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="92.0" y1="66.0" x2="92.0" y2="40.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="14.0,66.0 40.0,66.0 40.0,40.0 14.0,40.0" fill="#a5d6a7" stroke="#a5d6a7" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="14.0,92.0 40.0,92.0 40.0,66.0 14.0,66.0" fill="#a5d6a7" stroke="#a5d6a7" stroke-width="2" stroke-linejoin="round"/>
+<line x1="14.0" y1="40.0" x2="40.0" y2="40.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="14.0" y1="66.0" x2="14.0" y2="40.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="40.0" y1="66.0" x2="40.0" y2="40.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="14.0" y1="92.0" x2="40.0" y2="92.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="14.0" y1="92.0" x2="14.0" y2="66.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="40.0" y1="92.0" x2="40.0" y2="66.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="40.0,92.0 66.0,92.0 66.0,66.0 40.0,66.0" fill="#f48fb1" stroke="#f48fb1" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="66.0,92.0 92.0,92.0 92.0,66.0 66.0,66.0" fill="#f48fb1" stroke="#f48fb1" stroke-width="2" stroke-linejoin="round"/>
+<line x1="40.0" y1="66.0" x2="66.0" y2="66.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="40.0" y1="92.0" x2="66.0" y2="92.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="40.0" y1="92.0" x2="40.0" y2="66.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="66.0" y1="66.0" x2="92.0" y2="66.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="66.0" y1="92.0" x2="92.0" y2="92.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="92.0" y1="92.0" x2="92.0" y2="66.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="14.0,118.0 40.0,118.0 40.0,92.0 14.0,92.0" fill="#ce93d8" stroke="#ce93d8" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="40.0,118.0 66.0,118.0 66.0,92.0 40.0,92.0" fill="#ce93d8" stroke="#ce93d8" stroke-width="2" stroke-linejoin="round"/>
+<line x1="14.0" y1="92.0" x2="40.0" y2="92.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="14.0" y1="118.0" x2="40.0" y2="118.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="14.0" y1="118.0" x2="14.0" y2="92.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="40.0" y1="92.0" x2="66.0" y2="92.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="40.0" y1="118.0" x2="66.0" y2="118.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="66.0" y1="118.0" x2="66.0" y2="92.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="66.0,118.0 92.0,118.0 92.0,92.0 66.0,92.0" fill="#fff59d" stroke="#fff59d" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="66.0,144.0 92.0,144.0 92.0,118.0 66.0,118.0" fill="#fff59d" stroke="#fff59d" stroke-width="2" stroke-linejoin="round"/>
+<line x1="66.0" y1="92.0" x2="92.0" y2="92.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="66.0" y1="118.0" x2="66.0" y2="92.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="92.0" y1="118.0" x2="92.0" y2="92.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="66.0" y1="144.0" x2="92.0" y2="144.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="66.0" y1="144.0" x2="66.0" y2="118.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="92.0" y1="144.0" x2="92.0" y2="118.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="14.0,144.0 40.0,144.0 40.0,118.0 14.0,118.0" fill="#ffcc80" stroke="#ffcc80" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="40.0,144.0 66.0,144.0 66.0,118.0 40.0,118.0" fill="#ffcc80" stroke="#ffcc80" stroke-width="2" stroke-linejoin="round"/>
+<line x1="14.0" y1="118.0" x2="40.0" y2="118.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="14.0" y1="144.0" x2="40.0" y2="144.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="14.0" y1="144.0" x2="14.0" y2="118.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="40.0" y1="118.0" x2="66.0" y2="118.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="40.0" y1="144.0" x2="66.0" y2="144.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="66.0" y1="144.0" x2="66.0" y2="118.0" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/>
+</svg>
