@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 324 136" width="324" height="136" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="101.8,98.0 141.8,98.0 141.8,70.0 101.8,70.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="121.8" y="94.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">1</text>
+<polygon points="141.8,98.0 181.8,98.0 181.8,70.0 141.8,70.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="161.8" y="94.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">9</text>
+<polygon points="181.8,98.0 221.8,98.0 221.8,70.0 181.8,70.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="201.8" y="94.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">4</text>
+<polygon points="121.8,70.0 161.8,70.0 161.8,42.0 121.8,42.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="141.8" y="66.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">10</text>
+<polygon points="161.8,70.0 201.8,70.0 201.8,42.0 161.8,42.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="181.8" y="66.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">13</text>
+<polygon points="141.8,42.0 181.8,42.0 181.8,14.0 141.8,14.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="161.8" y="38.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">23</text>
+<text x="161.8" y="120.2" font-size="12" fill="#8a969c" text-anchor="middle">each box = the sum of the two boxes under it</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 614 140" width="614" height="140" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="14.0,126.0 84.0,126.0 84.0,98.0 14.0,98.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="49.0" y="122.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">a</text>
+<polygon points="84.0,126.0 154.0,126.0 154.0,98.0 84.0,98.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="119.0" y="122.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">b</text>
+<polygon points="154.0,126.0 224.0,126.0 224.0,98.0 154.0,98.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="189.0" y="122.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">c</text>
+<polygon points="49.0,98.0 119.0,98.0 119.0,70.0 49.0,70.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="84.0" y="94.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">a + b</text>
+<polygon points="119.0,98.0 189.0,98.0 189.0,70.0 119.0,70.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="154.0" y="94.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">b + c</text>
+<polygon points="84.0,70.0 154.0,70.0 154.0,42.0 84.0,42.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="119.0" y="66.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">a + 2b + c</text>
+<polygon points="264.0,126.0 348.0,126.0 348.0,98.0 264.0,98.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="306.0" y="122.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">a</text>
+<polygon points="348.0,126.0 432.0,126.0 432.0,98.0 348.0,98.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="390.0" y="122.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">b</text>
+<polygon points="432.0,126.0 516.0,126.0 516.0,98.0 432.0,98.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="474.0" y="122.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">c</text>
+<polygon points="516.0,126.0 600.0,126.0 600.0,98.0 516.0,98.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="558.0" y="122.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">d</text>
+<polygon points="306.0,98.0 390.0,98.0 390.0,70.0 306.0,70.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="348.0" y="94.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">a + b</text>
+<polygon points="390.0,98.0 474.0,98.0 474.0,70.0 390.0,70.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="432.0" y="94.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">b + c</text>
+<polygon points="474.0,98.0 558.0,98.0 558.0,70.0 474.0,70.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="516.0" y="94.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">c + d</text>
+<polygon points="348.0,70.0 432.0,70.0 432.0,42.0 348.0,42.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="390.0" y="66.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">a + 2b + c</text>
+<polygon points="432.0,70.0 516.0,70.0 516.0,42.0 432.0,42.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="474.0" y="66.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">b + 2c + d</text>
+<polygon points="390.0,42.0 474.0,42.0 474.0,14.0 390.0,14.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="432.0" y="38.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">a + 3b + 3c + d</text>
+</svg>

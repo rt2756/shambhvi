@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348 112" width="348" height="112" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="14.0,98.0 54.0,98.0 54.0,70.0 14.0,70.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="34.0" y="94.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">12</text>
+<polygon points="54.0,98.0 94.0,98.0 94.0,70.0 54.0,70.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="74.0" y="94.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">c</text>
+<polygon points="94.0,98.0 134.0,98.0 134.0,70.0 94.0,70.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="114.0" y="94.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">8</text>
+<polygon points="34.0,70.0 74.0,70.0 74.0,42.0 34.0,42.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="54.0" y="66.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">a</text>
+<polygon points="74.0,70.0 114.0,70.0 114.0,42.0 74.0,42.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="94.0" y="66.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">b</text>
+<polygon points="54.0,42.0 94.0,42.0 94.0,14.0 54.0,14.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="74.0" y="38.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">60</text>
+<polygon points="214.0,98.0 254.0,98.0 254.0,70.0 214.0,70.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="234.0" y="94.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">12</text>
+<polygon points="254.0,98.0 294.0,98.0 294.0,70.0 254.0,70.0" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="274.0" y="94.5" font-size="13" fill="#2e7d32" text-anchor="middle" font-weight="bold">20</text>
+<polygon points="294.0,98.0 334.0,98.0 334.0,70.0 294.0,70.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="314.0" y="94.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">8</text>
+<polygon points="234.0,70.0 274.0,70.0 274.0,42.0 234.0,42.0" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="254.0" y="66.5" font-size="13" fill="#2e7d32" text-anchor="middle" font-weight="bold">32</text>
+<polygon points="274.0,70.0 314.0,70.0 314.0,42.0 274.0,42.0" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="294.0" y="66.5" font-size="13" fill="#2e7d32" text-anchor="middle" font-weight="bold">28</text>
+<polygon points="254.0,42.0 294.0,42.0 294.0,14.0 254.0,14.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="274.0" y="38.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">60</text>
+<text x="174.0" y="75.7" font-size="22" fill="#1565c0" text-anchor="middle" font-weight="bold">→</text>
+</svg>

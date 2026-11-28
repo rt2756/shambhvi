@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 474 420" width="474" height="420" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="14.0,325.5 54.0,325.5 54.0,115.5 14.0,115.5" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="60.0,325.5 100.0,325.5 100.0,115.5 60.0,115.5" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="34.0" y="113.3" font-size="11" fill="#1565c0" text-anchor="middle">6,000</text>
+<text x="80.0" y="113.3" font-size="11" fill="#2e7d32" text-anchor="middle">6,000</text>
+<text x="57.0" y="347.7" font-size="12" fill="#263238" text-anchor="middle">year 0</text>
+<polygon points="134.0,325.5 174.0,325.5 174.0,94.5 134.0,94.5" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="180.0,325.5 220.0,325.5 220.0,94.5 180.0,94.5" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="154.0" y="92.3" font-size="11" fill="#1565c0" text-anchor="middle">6,600</text>
+<text x="200.0" y="78.3" font-size="11" fill="#2e7d32" text-anchor="middle">6,600</text>
+<text x="177.0" y="347.7" font-size="12" fill="#263238" text-anchor="middle">year 1</text>
+<polygon points="254.0,325.5 294.0,325.5 294.0,73.5 254.0,73.5" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="300.0,325.5 340.0,325.5 340.0,71.4 300.0,71.4" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="274.0" y="71.3" font-size="11" fill="#1565c0" text-anchor="middle">7,200</text>
+<text x="320.0" y="55.2" font-size="11" fill="#2e7d32" text-anchor="middle">7,260</text>
+<text x="297.0" y="347.7" font-size="12" fill="#263238" text-anchor="middle">year 2</text>
+<polygon points="374.0,325.5 414.0,325.5 414.0,52.5 374.0,52.5" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="420.0,325.5 460.0,325.5 460.0,46.0 420.0,46.0" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="394.0" y="50.4" font-size="11" fill="#1565c0" text-anchor="middle">7,800</text>
+<text x="440.0" y="29.9" font-size="11" fill="#2e7d32" text-anchor="middle">7,986</text>
+<text x="417.0" y="347.7" font-size="12" fill="#263238" text-anchor="middle">year 3</text>
+<polygon points="14.0,379.5 28.0,379.5 28.0,367.5 14.0,367.5" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="34.0" y="383.7" font-size="12" fill="#263238" text-anchor="start">no compounding: + ₹600 every year</text>
+<polygon points="14.0,399.5 28.0,399.5 28.0,387.5 14.0,387.5" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="34.0" y="403.7" font-size="12" fill="#263238" text-anchor="start">compounding: × 1.1 every year</text>
+</svg>

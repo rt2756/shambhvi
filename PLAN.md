@@ -90,7 +90,7 @@ batch's *Done* entry saying why it is fine (e.g. "no figures: a chapter on numbe
 - [x] Ch 1 A square and a cube · Ch 2 Power play · Ch 3 A story of numbers (2026-11-28)
 - [x] Ch 4 Quadrilaterals · Ch 9 The Baudhāyana–Pythagoras theorem (2026-11-28)
 - [x] Ch 5 Number play · Ch 6 We distribute, yet things multiply · Ch 7 Proportional reasoning — 1 (2026-11-28)
-- [ ] Ch 8 Fractions in disguise · Ch 10 Proportional reasoning — 2 · Ch 13 Algebra play
+- [x] Ch 8 Fractions in disguise · Ch 10 Proportional reasoning — 2 · Ch 13 Algebra play (2026-11-28)
 - [ ] Ch 11 Exploring some geometric themes · Ch 12 Tales by dots and lines · Ch 14 Area
 
 **Class 6 maths** (*Ganita Prakash*)
@@ -331,6 +331,23 @@ book's activities and questions.
   (Q6) and Binairo puzzles are our own drawings (walls keep the key's 3 : 2 and 4 : 3; two 6 × 6 Binairos
   generated with a fixed seed and checked to have one solution each, instead of the three printed ones).
 
+- 2026-11-28 — Class 8 maths Ch 8, 10 and 13 (Part II Ch 1, 3, 6) rewritten to the notes standard (62 + 15 + 22
+  Check-yourself answers, 19 + 15 + 14 exercises; 16 + 12 + 13 figures from `tools/figures/class8_math_{8,10,13}.py`).
+  Checker passes with **no soft warnings** for any of the three (drill questions with many one-line parts, e.g.
+  "write as percentages (i)-(vi)", ">, <, = (i)-(vi)", "which pairs are inverse (i)-(vi)", were answered as one
+  question with a table or numbered steps). **Part II has no answer key**: every answer was worked out and checked by
+  script. Book quirks (said so in the notes): Ch 8 end Q2 prints no option near the USA's real share (≈ 4%); end Q8
+  gives 38.4 Grade 8 girls (60% of 64 is not whole) — notes say "about 38"; the profit Figure it Out is printed
+  numbered 1-5 then 3-9 (notes number it 1-12); "profit margin" is taken on cost throughout, so the ₹2.5 crore
+  company has costs of ₹2 crore (the notes also give ₹1.875 crore for a margin on sales). Ch 10's map is our own
+  three-city sketch at the book's RF 1 : 60,00,000 with our own measured map distances (4.8, 9.7, 5.0 cm); the sleep
+  charts became rings with animal names (same hours: giraffe 2.5 … bat 20); the transport pie's car slice is 30°
+  (not printed), so 18 children → 216 surveyed and 0 taxis. Ch 13: tops of the 29-row Virahāṅka–Fibonacci pyramid is
+  the 57th number, 591,286,729,879 (1, 2, 3, 5, … counted from 1); pyramid puzzles have bottoms 4 9 6 1, 5 14 7 2,
+  3 5 5 2; shape grids square 11 / circle 5 and circle 4 / diamond 7. Picture-only data (badam-mix labels, bill,
+  runners, area grid, survey bar chart, chips label, knights) was read off zoomed page images and redrawn as our own
+  tables and figures; brand names on the labels were replaced by "Mix P" and "Mix Q".
+
 ## Learnings
 
 - Always check the chapter list against the PDF in `ncert_books/class_<N>/` — books changed a lot.
@@ -428,3 +445,11 @@ book's activities and questions.
   `rot_rect()` and a Binairo generator/solver (`make_puzzle(seed)`) — reuse for any logic-grid puzzle page.
 - Page text that the book prints as a picture ("Example 4" activities, Math Talk prompts) becomes a **Try this**;
   that is also the cheapest honest fix for a "'Try this' activities" soft warning.
+- Class 8 Part 2 PDF chapter pages (book page = PDF page − 16): Ch 1 (site Ch 8) text PDF 17–47, Peaceful Knights 48;
+  Ch 3 (site Ch 10) 71–85; Ch 6 (site Ch 13) 151–163; Ch 7 (site Ch 14, Area) starts at 164. Part 2 has no answer key.
+- `notes_coverage.json`: the **last** entry has no trailing comma — when inserting after it, add a comma to it first
+  (and check with `python3 -c "import json; json.load(open('tools/notes_coverage.json'))"`).
+- The browser pane caches the throwaway figure page: open it with a new `?v=` query each time, and use a fresh file name.
+- Reusable drawers: `class8_math_8.py` `double_line()` (percent/amount number line), `missing_bars()` bar models;
+  `class8_math_10.py` `pie()` (asserts the angles total 360°) and `donut()`; `class8_math_13.py` `build()`/`pyramid()`
+  (number pyramids, checks given boxes) and `grid()` (shape-sum grids with column sums).

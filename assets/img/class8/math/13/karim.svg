@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 666 86" width="666" height="86" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="14.0,48.0 64.0,48.0 64.0,14.0 14.0,14.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="39.0" y="43.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">7</text>
+<text x="88.0" y="42.5" font-size="13" fill="#1565c0" text-anchor="middle" font-weight="bold">× 2</text>
+<polygon points="112.0,48.0 162.0,48.0 162.0,14.0 112.0,14.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="137.0" y="43.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">14</text>
+<text x="137.0" y="69.8" font-size="11" fill="#8a969c" text-anchor="middle">round 1</text>
+<text x="186.0" y="42.5" font-size="13" fill="#c62828" text-anchor="middle" font-weight="bold">− 8</text>
+<polygon points="210.0,48.0 260.0,48.0 260.0,14.0 210.0,14.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="235.0" y="43.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">6</text>
+<text x="284.0" y="42.5" font-size="13" fill="#1565c0" text-anchor="middle" font-weight="bold">× 2</text>
+<polygon points="308.0,48.0 358.0,48.0 358.0,14.0 308.0,14.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="333.0" y="43.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">12</text>
+<text x="333.0" y="69.8" font-size="11" fill="#8a969c" text-anchor="middle">round 2</text>
+<text x="382.0" y="42.5" font-size="13" fill="#c62828" text-anchor="middle" font-weight="bold">− 8</text>
+<polygon points="406.0,48.0 456.0,48.0 456.0,14.0 406.0,14.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="431.0" y="43.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">4</text>
+<text x="480.0" y="42.5" font-size="13" fill="#1565c0" text-anchor="middle" font-weight="bold">× 2</text>
+<polygon points="504.0,48.0 554.0,48.0 554.0,14.0 504.0,14.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="529.0" y="43.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">8</text>
+<text x="529.0" y="69.8" font-size="11" fill="#8a969c" text-anchor="middle">round 3</text>
+<text x="578.0" y="42.5" font-size="13" fill="#c62828" text-anchor="middle" font-weight="bold">− 8</text>
+<polygon points="602.0,48.0 652.0,48.0 652.0,14.0 602.0,14.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="627.0" y="43.2" font-size="15" fill="#263238" text-anchor="middle" font-weight="bold">0</text>
+</svg>
