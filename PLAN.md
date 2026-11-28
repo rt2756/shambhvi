@@ -91,7 +91,7 @@ batch's *Done* entry saying why it is fine (e.g. "no figures: a chapter on numbe
 - [x] Ch 4 Quadrilaterals · Ch 9 The Baudhāyana–Pythagoras theorem (2026-11-28)
 - [x] Ch 5 Number play · Ch 6 We distribute, yet things multiply · Ch 7 Proportional reasoning — 1 (2026-11-28)
 - [x] Ch 8 Fractions in disguise · Ch 10 Proportional reasoning — 2 · Ch 13 Algebra play (2026-11-28)
-- [ ] Ch 11 Exploring some geometric themes · Ch 12 Tales by dots and lines · Ch 14 Area
+- [x] Ch 11 Exploring some geometric themes · Ch 12 Tales by dots and lines · Ch 14 Area (2026-11-28) — **class 8 maths done**
 
 **Class 6 maths** (*Ganita Prakash*)
 - [ ] Ch 1 Patterns in mathematics · Ch 3 Number play · Ch 5 Prime time
@@ -348,6 +348,21 @@ book's activities and questions.
   runners, area grid, survey bar chart, chips label, knights) was read off zoomed page images and redrawn as our own
   tables and figures; brand names on the labels were replaced by "Mix P" and "Mix Q".
 
+- 2026-11-28 — Class 8 maths Ch 11, 12 and 14 (Part II Ch 4, 5, 7) rewritten to the notes standard (52 + 56 + 59
+  Check-yourself answers, 6 + 23 + 11 exercises; 31 + 18 + 36 figures from `tools/figures/class8_math_{11,12,14}.py`).
+  **All 14 class 8 maths chapters are now in the new style.** Checker passes with **no soft warnings** for the three.
+  Part II has no answer key: everything worked out and checked by script. Ch 11 is picture-heavy: the 11 cube nets are
+  found by rolling a die over all 35 hexominoes; solids of unit cubes are kept as cube lists and their front/top/side
+  views are computed (letters C / ring / U puzzle, which-solid, build-from-views, a 14-cube stack); the six candidate
+  nets, cube combinations and matching-views question are our own (the matching question became text: views → solid);
+  the ant on the 8 × 4 × 4 box is √20 ≈ 4.47 cm and the 30 × 12 × 12 box gives 40 cm (straight over the top is 42).
+  Ch 12's real-world charts (temperature, space launches, births, rainy days, lighting, hobbies, sunrise times,
+  rice-wheat map) were read off zoomed page images and redrawn or tabulated, marked approximate; the activity strips,
+  the collections to mark, the missing-dot plot and the moon question's dates are our own; the cycle dot plot
+  (42 students, mean ≈ 4.6, median 4) and the × dot plot (mean 18.4, not 17) are read off the book. Ch 14: BY = 3.75 in
+  the worked example and 3 in the exercise; the spiral tube is 112 square units (9 pieces, 8 corners); QN = 72 ÷ 7.6 ≈ 9.47
+  (the parallelogram leans left so N falls on PS); hexagon split is 3 : 1 : 2.
+
 ## Learnings
 
 - Always check the chapter list against the PDF in `ncert_books/class_<N>/` — books changed a lot.
@@ -453,3 +468,13 @@ book's activities and questions.
 - Reusable drawers: `class8_math_8.py` `double_line()` (percent/amount number line), `missing_bars()` bar models;
   `class8_math_10.py` `pie()` (asserts the angles total 360°) and `donut()`; `class8_math_13.py` `build()`/`pyramid()`
   (number pyramids, checks given boxes) and `grid()` (shape-sum grids with column sums).
+- Class 8 Part 2 PDF: Ch 4 (site Ch 11) text PDF 86–118, Ch 5 (site Ch 12) 119–149 (Hex game 150), Ch 7 (site Ch 14)
+  164–187, then learning-material sheets (dot/isometric grids).
+- `class8_math_11.py` has reusable 3-D helpers: `draw_iso()` (isometric unit cubes, painter's order, hidden-face culling),
+  `views()` (front/top/side cell sets from a cube list), `is_cube_net()` (roll a die over a polyomino), `free_polyominoes()`,
+  `canon3()` (tetracubes), triangular-grid `tri_cells()`. `class8_math_12.py` has `dotplot()` (stacked dots, mean line,
+  new values in green) and `line_graph()`; `class8_math_14.py` has `area()` (shoelace), `hatch()` for convex regions,
+  `dim()` dimension lines — reuse for class 9/10 mensuration and statistics.
+- Don't put a part's answer in the picture shown with the question (Ch 11's C/ring/U figure first did this): show the
+  question figure only, and the solved figure inside the answer.
+- Plain `rm` may be refused even in the scratchpad: write new files under fresh names instead of deleting.

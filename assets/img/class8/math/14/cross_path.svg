@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 291 256" width="291" height="256" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="57.4,210.0 253.4,210.0 253.4,42.0 57.4,42.0" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="141.4,210.0 169.4,210.0 169.4,42.0 141.4,42.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="57.4,140.0 253.4,140.0 253.4,119.0 57.4,119.0" fill="#fff59d" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="141.4,140.0 169.4,140.0 169.4,119.0 141.4,119.0" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="57.4" y1="220.0" x2="253.4" y2="220.0" stroke="#1565c0" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="57.4" y1="216.0" x2="57.4" y2="224.0" stroke="#1565c0" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="253.4" y1="216.0" x2="253.4" y2="224.0" stroke="#1565c0" stroke-width="1.2" stroke-linecap="round"/>
+<text x="155.4" y="240.2" font-size="12" fill="#1565c0" text-anchor="middle">14 m</text>
+<line x1="47.4" y1="210.0" x2="47.4" y2="42.0" stroke="#1565c0" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="43.4" y1="210.0" x2="51.4" y2="210.0" stroke="#1565c0" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="43.4" y1="42.0" x2="51.4" y2="42.0" stroke="#1565c0" stroke-width="1.2" stroke-linecap="round"/>
+<text x="27.4" y="134.2" font-size="12" fill="#1565c0" text-anchor="middle">12 m</text>
+<line x1="141.4" y1="32.0" x2="169.4" y2="32.0" stroke="#1565c0" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="141.4" y1="28.0" x2="141.4" y2="36.0" stroke="#1565c0" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="169.4" y1="28.0" x2="169.4" y2="36.0" stroke="#1565c0" stroke-width="1.2" stroke-linecap="round"/>
+<text x="155.4" y="30.2" font-size="12" fill="#1565c0" text-anchor="middle">a</text>
+<line x1="263.4" y1="140.0" x2="263.4" y2="119.0" stroke="#1565c0" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="259.4" y1="140.0" x2="267.4" y2="140.0" stroke="#1565c0" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="259.4" y1="119.0" x2="267.4" y2="119.0" stroke="#1565c0" stroke-width="1.2" stroke-linecap="round"/>
+<text x="273.4" y="137.7" font-size="12" fill="#1565c0" text-anchor="middle">b</text>
+</svg>

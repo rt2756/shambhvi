@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 174" width="290" height="174" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="27.9,135.0 261.9,135.0 209.9,31.0 79.9,31.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="53.9,135.0 235.9,135.0 235.9,31.0 53.9,31.0" fill="none" stroke="#c62828" stroke-width="2" stroke-linejoin="round"/>
+<text x="79.9" y="30.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">A</text>
+<text x="209.9" y="30.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">B</text>
+<text x="271.9" y="152.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">C</text>
+<text x="17.9" y="152.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">D</text>
+<text x="43.9" y="34.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">H</text>
+<text x="245.9" y="34.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">E</text>
+<text x="53.9" y="158.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">G</text>
+<text x="235.9" y="158.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">F</text>
+<text x="41.9" y="92.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">I</text>
+<text x="247.9" y="92.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">J</text>
+</svg>

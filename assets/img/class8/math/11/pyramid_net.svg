@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 287 218" width="287" height="218" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="113.4,126.0 173.4,126.0 173.4,66.0 113.4,66.0" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="113.4,66.0 173.4,66.0 143.4,14.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="113.4,126.0 173.4,126.0 143.4,177.9" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="113.4,126.0 113.4,66.0 61.4,96.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="173.4,126.0 173.4,66.0 225.3,96.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="143.4" y="201.8" font-size="11" fill="#8a969c" text-anchor="middle">square base, 4 triangles (here 6 cm sides)</text>
+</svg>

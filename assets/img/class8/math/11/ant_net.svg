@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 391 274" width="391" height="274" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="107.7,214.0 283.7,214.0 283.7,126.0 107.7,126.0" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="283.7,214.0 371.7,214.0 371.7,126.0 283.7,126.0" fill="#c5e1a5" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="107.7,126.0 283.7,126.0 283.7,38.0 107.7,38.0" fill="#dcedc8" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="327.7" y1="170.0" x2="239.7" y2="214.0" stroke="#c62828" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="327.7" cy="170.0" r="3.6" fill="#c62828"/>
+<text x="345.7" y="178.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">ant</text>
+<circle cx="239.7" cy="214.0" r="3.6" fill="#c62828"/>
+<text x="239.7" y="238.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">laddu</text>
+<text x="195.7" y="29.9" font-size="11" fill="#8a969c" text-anchor="middle">front face 8 × 4 with the end face 4 × 4 unfolded beside it</text>
+<text x="195.7" y="258.6" font-size="13" fill="#2e7d32" text-anchor="middle" font-weight="bold">shortest path = √(4² + 2²) = √20 ≈ 4.47 cm</text>
+</svg>

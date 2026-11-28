@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 654 122" width="654" height="122" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="14.0,62.0 78.0,62.0 78.0,14.0 14.0,14.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="46.0" y="83.8" font-size="11" fill="#263238" text-anchor="middle" font-weight="bold">(a)</text>
+<polygon points="104.0,62.0 168.0,62.0 184.0,14.0 120.0,14.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="144.0" y="83.8" font-size="11" fill="#263238" text-anchor="middle" font-weight="bold">(b)</text>
+<polygon points="210.0,62.0 274.0,62.0 306.0,14.0 242.0,14.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="258.0" y="83.8" font-size="11" fill="#263238" text-anchor="middle" font-weight="bold">(c)</text>
+<polygon points="332.0,62.0 396.0,62.0 444.0,14.0 380.0,14.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="388.0" y="83.8" font-size="11" fill="#263238" text-anchor="middle" font-weight="bold">(d)</text>
+<polygon points="470.0,62.0 534.0,62.0 518.0,14.0 454.0,14.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="494.0" y="83.8" font-size="11" fill="#263238" text-anchor="middle" font-weight="bold">(e)</text>
+<polygon points="576.0,62.0 640.0,62.0 608.0,14.0 544.0,14.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="592.0" y="83.8" font-size="11" fill="#263238" text-anchor="middle" font-weight="bold">(f)</text>
+<text x="14.0" y="105.8" font-size="11" fill="#8a969c" text-anchor="start">all: base 4, height 3 (on a grid of unit squares)</text>
+</svg>

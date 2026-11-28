@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 463 348" width="463" height="348" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="51.0,104.0 195.0,104.0 195.0,41.0 51.0,14.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="37.5" y="67.8" font-size="11" fill="#1565c0" text-anchor="middle">10 ft</text>
+<text x="208.5" y="81.3" font-size="11" fill="#1565c0" text-anchor="middle">7 ft</text>
+<text x="123.0" y="132.7" font-size="11" fill="#1565c0" text-anchor="middle">16 ft</text>
+<text x="91.0" y="142.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">(i)</text>
+<polygon points="271.0,104.0 449.2,104.0 389.8,34.7 271.0,34.7" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="360.1" y="123.8" font-size="11" fill="#1565c0" text-anchor="middle">36 m</text>
+<text x="330.4" y="36.6" font-size="11" fill="#1565c0" text-anchor="middle">24 m</text>
+<text x="397.2" y="78.1" font-size="11" fill="#1565c0" text-anchor="middle">14 m</text>
+<text x="311.0" y="142.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">(ii)</text>
+<polygon points="51.0,294.0 141.0,258.0 141.0,204.0 51.0,168.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="29.4" y="239.8" font-size="11" fill="#1565c0" text-anchor="middle">14 in</text>
+<text x="155.4" y="239.8" font-size="11" fill="#1565c0" text-anchor="middle">6 in</text>
+<text x="96.0" y="235.3" font-size="11" fill="#1565c0" text-anchor="middle">10 in</text>
+<text x="91.0" y="332.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">(iii)</text>
+<polygon points="271.0,294.0 433.0,294.0 397.0,222.0 289.0,222.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="352.0" y="322.7" font-size="11" fill="#1565c0" text-anchor="middle">18 ft</text>
+<text x="343.0" y="218.2" font-size="11" fill="#1565c0" text-anchor="middle">12 ft</text>
+<text x="303.4" y="266.9" font-size="11" fill="#1565c0" text-anchor="middle">8 ft</text>
+<text x="311.0" y="332.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">(iv)</text>
+</svg>

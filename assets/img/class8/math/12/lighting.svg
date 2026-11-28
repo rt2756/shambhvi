@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 554 262" width="554" height="262" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="38.8" y1="202.0" x2="238.8" y2="202.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="30.8" y="210.5" font-size="10" fill="#8a969c" text-anchor="end">0</text>
+<line x1="38.8" y1="170.0" x2="238.8" y2="170.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="30.8" y="178.5" font-size="10" fill="#8a969c" text-anchor="end">20</text>
+<line x1="38.8" y1="138.0" x2="238.8" y2="138.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="30.8" y="146.5" font-size="10" fill="#8a969c" text-anchor="end">40</text>
+<line x1="38.8" y1="106.0" x2="238.8" y2="106.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="30.8" y="114.5" font-size="10" fill="#8a969c" text-anchor="end">60</text>
+<line x1="38.8" y1="74.0" x2="238.8" y2="74.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="30.8" y="82.5" font-size="10" fill="#8a969c" text-anchor="end">80</text>
+<line x1="38.8" y1="42.0" x2="238.8" y2="42.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="30.8" y="50.5" font-size="10" fill="#8a969c" text-anchor="end">100</text>
+<text x="38.8" y="223.5" font-size="10" fill="#8a969c" text-anchor="middle">1983</text>
+<text x="88.8" y="223.5" font-size="10" fill="#8a969c" text-anchor="middle">1990</text>
+<text x="138.8" y="223.5" font-size="10" fill="#8a969c" text-anchor="middle">2000</text>
+<text x="188.8" y="223.5" font-size="10" fill="#8a969c" text-anchor="middle">2010</text>
+<text x="238.8" y="223.5" font-size="10" fill="#8a969c" text-anchor="middle">2023</text>
+<line x1="38.8" y1="178.0" x2="88.8" y2="146.0" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<line x1="88.8" y1="146.0" x2="138.8" y2="122.0" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<line x1="138.8" y1="122.0" x2="188.8" y2="86.8" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<line x1="188.8" y1="86.8" x2="238.8" y2="43.6" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<polygon points="42.0,178.0 41.6,176.4 40.4,175.2 38.8,174.8 37.2,175.2 36.0,176.4 35.6,178.0 36.0,179.6 37.2,180.8 38.8,181.2 40.4,180.8 41.6,179.6" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="92.0,146.0 91.6,144.4 90.4,143.2 88.8,142.8 87.2,143.2 86.0,144.4 85.6,146.0 86.0,147.6 87.2,148.8 88.8,149.2 90.4,148.8 91.6,147.6" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="142.0,122.0 141.6,120.4 140.4,119.2 138.8,118.8 137.2,119.2 136.0,120.4 135.6,122.0 136.0,123.6 137.2,124.8 138.8,125.2 140.4,124.8 141.6,123.6" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="192.0,86.8 191.6,85.2 190.4,84.0 188.8,83.6 187.2,84.0 186.0,85.2 185.6,86.8 186.0,88.4 187.2,89.6 188.8,90.0 190.4,89.6 191.6,88.4" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="242.0,43.6 241.6,42.0 240.4,40.8 238.8,40.4 237.2,40.8 236.0,42.0 235.6,43.6 236.0,45.2 237.2,46.4 238.8,46.8 240.4,46.4 241.6,45.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<line x1="38.8" y1="69.2" x2="88.8" y2="101.2" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<line x1="88.8" y1="101.2" x2="138.8" y2="125.2" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<line x1="138.8" y1="125.2" x2="188.8" y2="160.4" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<line x1="188.8" y1="160.4" x2="238.8" y2="200.4" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<polygon points="42.0,69.2 41.6,67.6 40.4,66.4 38.8,66.0 37.2,66.4 36.0,67.6 35.6,69.2 36.0,70.8 37.2,72.0 38.8,72.4 40.4,72.0 41.6,70.8" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="92.0,101.2 91.6,99.6 90.4,98.4 88.8,98.0 87.2,98.4 86.0,99.6 85.6,101.2 86.0,102.8 87.2,104.0 88.8,104.4 90.4,104.0 91.6,102.8" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="142.0,125.2 141.6,123.6 140.4,122.4 138.8,122.0 137.2,122.4 136.0,123.6 135.6,125.2 136.0,126.8 137.2,128.0 138.8,128.4 140.4,128.0 141.6,126.8" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="192.0,160.4 191.6,158.8 190.4,157.6 188.8,157.2 187.2,157.6 186.0,158.8 185.6,160.4 186.0,162.0 187.2,163.2 188.8,163.6 190.4,163.2 191.6,162.0" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="242.0,200.4 241.6,198.8 240.4,197.6 238.8,197.2 237.2,197.6 236.0,198.8 235.6,200.4 236.0,202.0 237.2,203.2 238.8,203.6 240.4,203.2 241.6,202.0" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<text x="38.8" y="29.9" font-size="11" fill="#8a969c" text-anchor="start">rural (% of households)</text>
+<line x1="328.8" y1="202.0" x2="528.8" y2="202.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="320.8" y="210.5" font-size="10" fill="#8a969c" text-anchor="end">0</text>
+<line x1="328.8" y1="170.0" x2="528.8" y2="170.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="320.8" y="178.5" font-size="10" fill="#8a969c" text-anchor="end">20</text>
+<line x1="328.8" y1="138.0" x2="528.8" y2="138.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="320.8" y="146.5" font-size="10" fill="#8a969c" text-anchor="end">40</text>
+<line x1="328.8" y1="106.0" x2="528.8" y2="106.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="320.8" y="114.5" font-size="10" fill="#8a969c" text-anchor="end">60</text>
+<line x1="328.8" y1="74.0" x2="528.8" y2="74.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="320.8" y="82.5" font-size="10" fill="#8a969c" text-anchor="end">80</text>
+<line x1="328.8" y1="42.0" x2="528.8" y2="42.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="320.8" y="50.5" font-size="10" fill="#8a969c" text-anchor="end">100</text>
+<text x="328.8" y="223.5" font-size="10" fill="#8a969c" text-anchor="middle">1983</text>
+<text x="378.8" y="223.5" font-size="10" fill="#8a969c" text-anchor="middle">1990</text>
+<text x="428.8" y="223.5" font-size="10" fill="#8a969c" text-anchor="middle">2000</text>
+<text x="478.8" y="223.5" font-size="10" fill="#8a969c" text-anchor="middle">2010</text>
+<text x="528.8" y="223.5" font-size="10" fill="#8a969c" text-anchor="middle">2023</text>
+<line x1="328.8" y1="99.6" x2="378.8" y2="74.0" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<line x1="378.8" y1="74.0" x2="428.8" y2="56.4" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<line x1="428.8" y1="56.4" x2="478.8" y2="48.4" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<line x1="478.8" y1="48.4" x2="528.8" y2="43.6" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<polygon points="332.0,99.6 331.6,98.0 330.4,96.8 328.8,96.4 327.2,96.8 326.0,98.0 325.6,99.6 326.0,101.2 327.2,102.4 328.8,102.8 330.4,102.4 331.6,101.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="382.0,74.0 381.6,72.4 380.4,71.2 378.8,70.8 377.2,71.2 376.0,72.4 375.6,74.0 376.0,75.6 377.2,76.8 378.8,77.2 380.4,76.8 381.6,75.6" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="432.0,56.4 431.6,54.8 430.4,53.6 428.8,53.2 427.2,53.6 426.0,54.8 425.6,56.4 426.0,58.0 427.2,59.2 428.8,59.6 430.4,59.2 431.6,58.0" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="482.0,48.4 481.6,46.8 480.4,45.6 478.8,45.2 477.2,45.6 476.0,46.8 475.6,48.4 476.0,50.0 477.2,51.2 478.8,51.6 480.4,51.2 481.6,50.0" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="532.0,43.6 531.6,42.0 530.4,40.8 528.8,40.4 527.2,40.8 526.0,42.0 525.6,43.6 526.0,45.2 527.2,46.4 528.8,46.8 530.4,46.4 531.6,45.2" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<line x1="328.8" y1="147.6" x2="378.8" y2="171.6" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<line x1="378.8" y1="171.6" x2="428.8" y2="187.6" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<line x1="428.8" y1="187.6" x2="478.8" y2="197.2" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<line x1="478.8" y1="197.2" x2="528.8" y2="201.2" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<polygon points="332.0,147.6 331.6,146.0 330.4,144.8 328.8,144.4 327.2,144.8 326.0,146.0 325.6,147.6 326.0,149.2 327.2,150.4 328.8,150.8 330.4,150.4 331.6,149.2" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="382.0,171.6 381.6,170.0 380.4,168.8 378.8,168.4 377.2,168.8 376.0,170.0 375.6,171.6 376.0,173.2 377.2,174.4 378.8,174.8 380.4,174.4 381.6,173.2" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="432.0,187.6 431.6,186.0 430.4,184.8 428.8,184.4 427.2,184.8 426.0,186.0 425.6,187.6 426.0,189.2 427.2,190.4 428.8,190.8 430.4,190.4 431.6,189.2" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="482.0,197.2 481.6,195.6 480.4,194.4 478.8,194.0 477.2,194.4 476.0,195.6 475.6,197.2 476.0,198.8 477.2,200.0 478.8,200.4 480.4,200.0 481.6,198.8" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="532.0,201.2 531.6,199.6 530.4,198.4 528.8,198.0 527.2,198.4 526.0,199.6 525.6,201.2 526.0,202.8 527.2,204.0 528.8,204.4 530.4,204.0 531.6,202.8" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<text x="328.8" y="29.9" font-size="11" fill="#8a969c" text-anchor="start">urban (% of households)</text>
+<text x="38.8" y="245.8" font-size="11" fill="#263238" text-anchor="start">blue: electricity   red: kerosene   (main source of light at home, approximate)</text>
+</svg>

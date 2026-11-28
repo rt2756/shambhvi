@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229 186" width="229" height="186" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="16.9,128.0 155.1,128.0 155.1,58.0 16.9,58.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="108.0,36.0 106.9,29.2 103.8,23.1 98.9,18.2 92.8,15.1 86.0,14.0 79.2,15.1 73.1,18.2 68.2,23.1 65.1,29.2 64.0,36.0 65.1,42.8 68.2,48.9 73.1,53.8 79.2,56.9 86.0,58.0 92.8,56.9 98.9,53.8 103.8,48.9 106.9,42.8" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="108.0,150.0 106.9,143.2 103.8,137.1 98.9,132.2 92.8,129.1 86.0,128.0 79.2,129.1 73.1,132.2 68.2,137.1 65.1,143.2 64.0,150.0 65.1,156.8 68.2,162.9 73.1,167.8 79.2,170.9 86.0,172.0 92.8,170.9 98.9,167.8 103.8,162.9 106.9,156.8" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="86.0" y="103.2" font-size="12" fill="#263238" text-anchor="middle" font-weight="bold">rectangle: (2πr) × h</text>
+<text x="116.0" y="44.9" font-size="11" fill="#263238" text-anchor="start">circle, radius r</text>
+</svg>

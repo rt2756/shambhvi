@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 218 104" width="218" height="104" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="32.0,68.0 50.0,68.0 50.0,50.0 32.0,50.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="14.0,50.0 32.0,50.0 32.0,32.0 14.0,32.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="32.0,50.0 50.0,50.0 50.0,32.0 32.0,32.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="14.0,68.0 32.0,68.0 32.0,50.0 14.0,50.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="41.0" y="87.8" font-size="11" fill="#1565c0" text-anchor="middle">front</text>
+<polygon points="100.0,68.0 118.0,68.0 118.0,50.0 100.0,50.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="82.0,32.0 100.0,32.0 100.0,14.0 82.0,14.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="82.0,68.0 100.0,68.0 100.0,50.0 82.0,50.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="82.0,50.0 100.0,50.0 100.0,32.0 82.0,32.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="109.0" y="87.8" font-size="11" fill="#1565c0" text-anchor="middle">top</text>
+<polygon points="150.0,50.0 168.0,50.0 168.0,32.0 150.0,32.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="150.0,68.0 168.0,68.0 168.0,50.0 150.0,50.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="168.0,50.0 186.0,50.0 186.0,32.0 168.0,32.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="186.0,68.0 204.0,68.0 204.0,50.0 186.0,50.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="168.0,68.0 186.0,68.0 186.0,50.0 168.0,50.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="177.0" y="87.8" font-size="11" fill="#1565c0" text-anchor="middle">side</text>
+</svg>

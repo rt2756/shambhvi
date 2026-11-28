@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 522 141" width="522" height="141" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="28.7,100.6 78.7,100.6 53.7,57.3" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="78.7,100.6 128.7,100.6 103.7,57.3" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="53.7,57.3 103.7,57.3 78.7,14.0" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="78.7,100.6 103.7,57.3 53.7,57.3" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="78.7" y="124.4" font-size="11" fill="#2e7d32" text-anchor="middle">big triangle: folds ✓</text>
+<polygon points="198.7,100.6 248.7,100.6 223.7,57.3" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="248.7,100.6 273.7,57.3 223.7,57.3" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="248.7,100.6 298.7,100.6 273.7,57.3" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="298.7,100.6 323.7,57.3 273.7,57.3" fill="#a5d6a7" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="248.7" y="124.4" font-size="11" fill="#2e7d32" text-anchor="middle">strip: folds ✓</text>
+<polygon points="368.7,100.6 418.7,100.6 393.7,57.3" fill="#f8bbd0" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="418.7,100.6 443.7,57.3 393.7,57.3" fill="#f8bbd0" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="418.7,100.6 468.7,100.6 443.7,57.3" fill="#f8bbd0" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="393.7,57.3 443.7,57.3 418.7,14.0" fill="#f8bbd0" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="418.7" y="124.4" font-size="11" fill="#c62828" text-anchor="middle">three round a corner + one: ✗</text>
+</svg>

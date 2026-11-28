@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 373 155" width="373" height="155" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<polygon points="90.5,101.0 234.5,101.0 282.5,29.0 138.5,29.0" fill="#90caf9" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="90.5,101.0 138.5,101.0 138.5,29.0" fill="#ffcc80" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="234.5,101.0 282.5,101.0 282.5,29.0" fill="none" stroke="#8a969c" stroke-width="2" stroke-linejoin="round"/>
+<line x1="234.5" y1="101.0" x2="282.5" y2="101.0" stroke="#8a969c" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="4,3"/>
+<polyline points="145.5,101.0 145.5,94.0 138.5,94.0" fill="none" stroke="#263238" stroke-width="1.6"/>
+<polyline points="282.5,94.0 275.5,94.0 275.5,101.0" fill="none" stroke="#263238" stroke-width="1.6"/>
+<text x="130.5" y="30.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">A</text>
+<text x="290.5" y="30.6" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">B</text>
+<text x="234.5" y="124.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">C</text>
+<text x="80.5" y="118.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">D</text>
+<text x="138.5" y="124.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">X</text>
+<text x="292.5" y="118.5" font-size="13" fill="#263238" text-anchor="middle" font-weight="bold">Y</text>
+<text x="186.5" y="138.8" font-size="11" fill="#2e7d32" text-anchor="middle">cut off triangle AXD and slide it to BYC: rectangle ABYX</text>
+</svg>

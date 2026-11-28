@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 399 390" width="399" height="390" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="129.2" y="82.2" font-size="12" fill="#263238" text-anchor="end" font-weight="bold">cylinder</text>
+<polygon points="139.2,96.0 179.2,96.0 179.2,46.0 139.2,46.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="281.2,71.0 280.5,65.3 278.3,60.0 274.8,55.4 270.2,51.9 264.9,49.7 259.2,49.0 253.5,49.7 248.2,51.9 243.6,55.4 240.1,60.0 237.9,65.3 237.2,71.0 237.9,76.7 240.1,82.0 243.6,86.6 248.2,90.1 253.5,92.3 259.2,93.0 264.9,92.3 270.2,90.1 274.8,86.6 278.3,82.0 280.5,76.7" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="339.2,96.0 379.2,96.0 379.2,46.0 339.2,46.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="129.2" y="152.2" font-size="12" fill="#263238" text-anchor="end" font-weight="bold">cone</text>
+<polygon points="139.2,166.0 183.2,166.0 161.2,116.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="281.2,141.0 280.5,135.3 278.3,130.0 274.8,125.4 270.2,121.9 264.9,119.7 259.2,119.0 253.5,119.7 248.2,121.9 243.6,125.4 240.1,130.0 237.9,135.3 237.2,141.0 237.9,146.7 240.1,152.0 243.6,156.6 248.2,160.1 253.5,162.3 259.2,163.0 264.9,162.3 270.2,160.1 274.8,156.6 278.3,152.0 280.5,146.7" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="259.2" cy="141.0" r="3.6" fill="#263238"/>
+<polygon points="339.2,166.0 383.2,166.0 361.2,116.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="129.2" y="222.2" font-size="12" fill="#263238" text-anchor="end" font-weight="bold">sphere</text>
+<polygon points="185.2,211.0 184.4,204.8 182.0,199.0 178.2,194.0 173.2,190.2 167.4,187.8 161.2,187.0 155.0,187.8 149.2,190.2 144.2,194.0 140.4,199.0 138.0,204.8 137.2,211.0 138.0,217.2 140.4,223.0 144.2,228.0 149.2,231.8 155.0,234.2 161.2,235.0 167.4,234.2 173.2,231.8 178.2,228.0 182.0,223.0 184.4,217.2" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="283.2,211.0 282.4,204.8 280.0,199.0 276.2,194.0 271.2,190.2 265.4,187.8 259.2,187.0 253.0,187.8 247.2,190.2 242.2,194.0 238.4,199.0 236.0,204.8 235.2,211.0 236.0,217.2 238.4,223.0 242.2,228.0 247.2,231.8 253.0,234.2 259.2,235.0 265.4,234.2 271.2,231.8 276.2,228.0 280.0,223.0 282.4,217.2" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="385.2,211.0 384.4,204.8 382.0,199.0 378.2,194.0 373.2,190.2 367.4,187.8 361.2,187.0 355.0,187.8 349.2,190.2 344.2,194.0 340.4,199.0 338.0,204.8 337.2,211.0 338.0,217.2 340.4,223.0 344.2,228.0 349.2,231.8 355.0,234.2 361.2,235.0 367.4,234.2 373.2,231.8 378.2,228.0 382.0,223.0 384.4,217.2" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="129.2" y="292.2" font-size="12" fill="#263238" text-anchor="end" font-weight="bold">square pyramid</text>
+<polygon points="139.2,306.0 183.2,306.0 161.2,256.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="237.2,303.0 281.2,303.0 281.2,259.0 237.2,259.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="237.2" y1="303.0" x2="281.2" y2="259.0" stroke="#263238" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="237.2" y1="259.0" x2="281.2" y2="303.0" stroke="#263238" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="339.2,306.0 383.2,306.0 361.2,256.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="129.2" y="362.2" font-size="12" fill="#263238" text-anchor="end" font-weight="bold">triangular prism</text>
+<polygon points="139.2,376.0 209.2,376.0 209.2,336.0 139.2,336.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="237.2,376.0 307.2,376.0 307.2,336.0 237.2,336.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<line x1="237.2" y1="356.0" x2="307.2" y2="356.0" stroke="#263238" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="339.2,376.0 379.2,376.0 359.2,341.0" fill="#ffffff" stroke="#263238" stroke-width="2" stroke-linejoin="round"/>
+<text x="161.2" y="30.2" font-size="12" fill="#1565c0" text-anchor="middle">front</text>
+<text x="259.2" y="30.2" font-size="12" fill="#1565c0" text-anchor="middle">top</text>
+<text x="361.2" y="30.2" font-size="12" fill="#1565c0" text-anchor="middle">side</text>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 536 280" width="536" height="280" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="33.2" y1="242.0" x2="453.2" y2="242.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="25.2" y="250.5" font-size="10" fill="#8a969c" text-anchor="end">0</text>
+<line x1="33.2" y1="192.0" x2="453.2" y2="192.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="25.2" y="200.5" font-size="10" fill="#8a969c" text-anchor="end">10</text>
+<line x1="33.2" y1="142.0" x2="453.2" y2="142.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="25.2" y="150.5" font-size="10" fill="#8a969c" text-anchor="end">20</text>
+<line x1="33.2" y1="92.0" x2="453.2" y2="92.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="25.2" y="100.5" font-size="10" fill="#8a969c" text-anchor="end">30</text>
+<line x1="33.2" y1="42.0" x2="453.2" y2="42.0" stroke="#cfd8dc" stroke-width="1" stroke-linecap="round"/>
+<text x="25.2" y="50.5" font-size="10" fill="#8a969c" text-anchor="end">40</text>
+<text x="33.2" y="263.5" font-size="10" fill="#8a969c" text-anchor="middle">J</text>
+<text x="71.4" y="263.5" font-size="10" fill="#8a969c" text-anchor="middle">F</text>
+<text x="109.6" y="263.5" font-size="10" fill="#8a969c" text-anchor="middle">M</text>
+<text x="147.7" y="263.5" font-size="10" fill="#8a969c" text-anchor="middle">A</text>
+<text x="185.9" y="263.5" font-size="10" fill="#8a969c" text-anchor="middle">M</text>
+<text x="224.1" y="263.5" font-size="10" fill="#8a969c" text-anchor="middle">J</text>
+<text x="262.3" y="263.5" font-size="10" fill="#8a969c" text-anchor="middle">J</text>
+<text x="300.5" y="263.5" font-size="10" fill="#8a969c" text-anchor="middle">A</text>
+<text x="338.7" y="263.5" font-size="10" fill="#8a969c" text-anchor="middle">S</text>
+<text x="376.8" y="263.5" font-size="10" fill="#8a969c" text-anchor="middle">O</text>
+<text x="415.0" y="263.5" font-size="10" fill="#8a969c" text-anchor="middle">N</text>
+<text x="453.2" y="263.5" font-size="10" fill="#8a969c" text-anchor="middle">D</text>
+<line x1="33.2" y1="89.5" x2="71.4" y2="84.5" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<line x1="71.4" y1="84.5" x2="109.6" y2="79.5" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<line x1="109.6" y1="79.5" x2="147.7" y2="77.0" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<line x1="147.7" y1="77.0" x2="185.9" y2="82.0" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<line x1="185.9" y1="82.0" x2="224.1" y2="89.5" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<line x1="224.1" y1="89.5" x2="262.3" y2="97.0" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<line x1="262.3" y1="97.0" x2="300.5" y2="97.0" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<line x1="300.5" y1="97.0" x2="338.7" y2="94.5" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<line x1="338.7" y1="94.5" x2="376.8" y2="92.0" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<line x1="376.8" y1="92.0" x2="415.0" y2="87.0" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<line x1="415.0" y1="87.0" x2="453.2" y2="87.0" stroke="#1e88e5" stroke-width="2" stroke-linecap="round"/>
+<polygon points="36.4,89.5 36.0,87.9 34.8,86.7 33.2,86.3 31.6,86.7 30.4,87.9 30.0,89.5 30.4,91.1 31.6,92.3 33.2,92.7 34.8,92.3 36.0,91.1" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="74.6,84.5 74.2,82.9 73.0,81.7 71.4,81.3 69.8,81.7 68.6,82.9 68.2,84.5 68.6,86.1 69.8,87.3 71.4,87.7 73.0,87.3 74.2,86.1" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="112.8,79.5 112.3,77.9 111.2,76.7 109.6,76.3 108.0,76.7 106.8,77.9 106.4,79.5 106.8,81.1 108.0,82.3 109.6,82.7 111.2,82.3 112.3,81.1" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="150.9,77.0 150.5,75.4 149.3,74.2 147.7,73.8 146.1,74.2 145.0,75.4 144.5,77.0 145.0,78.6 146.1,79.8 147.7,80.2 149.3,79.8 150.5,78.6" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="189.1,82.0 188.7,80.4 187.5,79.2 185.9,78.8 184.3,79.2 183.2,80.4 182.7,82.0 183.2,83.6 184.3,84.8 185.9,85.2 187.5,84.8 188.7,83.6" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="227.3,89.5 226.9,87.9 225.7,86.7 224.1,86.3 222.5,86.7 221.3,87.9 220.9,89.5 221.3,91.1 222.5,92.3 224.1,92.7 225.7,92.3 226.9,91.1" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="265.5,97.0 265.1,95.4 263.9,94.2 262.3,93.8 260.7,94.2 259.5,95.4 259.1,97.0 259.5,98.6 260.7,99.8 262.3,100.2 263.9,99.8 265.1,98.6" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="303.7,97.0 303.2,95.4 302.1,94.2 300.5,93.8 298.9,94.2 297.7,95.4 297.3,97.0 297.7,98.6 298.9,99.8 300.5,100.2 302.1,99.8 303.2,98.6" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="341.9,94.5 341.4,92.9 340.3,91.7 338.7,91.3 337.1,91.7 335.9,92.9 335.5,94.5 335.9,96.1 337.1,97.3 338.7,97.7 340.3,97.3 341.4,96.1" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="380.0,92.0 379.6,90.4 378.4,89.2 376.8,88.8 375.2,89.2 374.1,90.4 373.6,92.0 374.1,93.6 375.2,94.8 376.8,95.2 378.4,94.8 379.6,93.6" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="418.2,87.0 417.8,85.4 416.6,84.2 415.0,83.8 413.4,84.2 412.2,85.4 411.8,87.0 412.2,88.6 413.4,89.8 415.0,90.2 416.6,89.8 417.8,88.6" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="456.4,87.0 456.0,85.4 454.8,84.2 453.2,83.8 451.6,84.2 450.4,85.4 450.0,87.0 450.4,88.6 451.6,89.8 453.2,90.2 454.8,89.8 456.0,88.6" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="467.2,42.0 479.2,42.0 479.2,32.0 467.2,32.0" fill="#1e88e5" stroke="#1e88e5" stroke-width="2" stroke-linejoin="round"/>
+<text x="485.2" y="45.9" font-size="11" fill="#263238" text-anchor="start">Kerala</text>
+<line x1="33.2" y1="149.5" x2="71.4" y2="112.0" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<line x1="71.4" y1="112.0" x2="109.6" y2="97.0" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<line x1="109.6" y1="97.0" x2="147.7" y2="72.0" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<line x1="147.7" y1="72.0" x2="185.9" y2="57.0" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<line x1="185.9" y1="57.0" x2="224.1" y2="52.0" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<line x1="224.1" y1="52.0" x2="262.3" y2="69.5" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<line x1="262.3" y1="69.5" x2="300.5" y2="67.0" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<line x1="300.5" y1="67.0" x2="338.7" y2="64.5" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<line x1="338.7" y1="64.5" x2="376.8" y2="77.0" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<line x1="376.8" y1="77.0" x2="415.0" y2="102.0" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<line x1="415.0" y1="102.0" x2="453.2" y2="127.0" stroke="#e53935" stroke-width="2" stroke-linecap="round"/>
+<polygon points="36.4,149.5 36.0,147.9 34.8,146.7 33.2,146.3 31.6,146.7 30.4,147.9 30.0,149.5 30.4,151.1 31.6,152.3 33.2,152.7 34.8,152.3 36.0,151.1" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="74.6,112.0 74.2,110.4 73.0,109.2 71.4,108.8 69.8,109.2 68.6,110.4 68.2,112.0 68.6,113.6 69.8,114.8 71.4,115.2 73.0,114.8 74.2,113.6" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="112.8,97.0 112.3,95.4 111.2,94.2 109.6,93.8 108.0,94.2 106.8,95.4 106.4,97.0 106.8,98.6 108.0,99.8 109.6,100.2 111.2,99.8 112.3,98.6" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="150.9,72.0 150.5,70.4 149.3,69.2 147.7,68.8 146.1,69.2 145.0,70.4 144.5,72.0 145.0,73.6 146.1,74.8 147.7,75.2 149.3,74.8 150.5,73.6" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="189.1,57.0 188.7,55.4 187.5,54.2 185.9,53.8 184.3,54.2 183.2,55.4 182.7,57.0 183.2,58.6 184.3,59.8 185.9,60.2 187.5,59.8 188.7,58.6" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="227.3,52.0 226.9,50.4 225.7,49.2 224.1,48.8 222.5,49.2 221.3,50.4 220.9,52.0 221.3,53.6 222.5,54.8 224.1,55.2 225.7,54.8 226.9,53.6" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="265.5,69.5 265.1,67.9 263.9,66.7 262.3,66.3 260.7,66.7 259.5,67.9 259.1,69.5 259.5,71.1 260.7,72.3 262.3,72.7 263.9,72.3 265.1,71.1" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="303.7,67.0 303.2,65.4 302.1,64.2 300.5,63.8 298.9,64.2 297.7,65.4 297.3,67.0 297.7,68.6 298.9,69.8 300.5,70.2 302.1,69.8 303.2,68.6" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="341.9,64.5 341.4,62.9 340.3,61.7 338.7,61.3 337.1,61.7 335.9,62.9 335.5,64.5 335.9,66.1 337.1,67.3 338.7,67.7 340.3,67.3 341.4,66.1" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="380.0,77.0 379.6,75.4 378.4,74.2 376.8,73.8 375.2,74.2 374.1,75.4 373.6,77.0 374.1,78.6 375.2,79.8 376.8,80.2 378.4,79.8 379.6,78.6" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="418.2,102.0 417.8,100.4 416.6,99.2 415.0,98.8 413.4,99.2 412.2,100.4 411.8,102.0 412.2,103.6 413.4,104.8 415.0,105.2 416.6,104.8 417.8,103.6" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="456.4,127.0 456.0,125.4 454.8,124.2 453.2,123.8 451.6,124.2 450.4,125.4 450.0,127.0 450.4,128.6 451.6,129.8 453.2,130.2 454.8,129.8 456.0,128.6" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="467.2,62.0 479.2,62.0 479.2,52.0 467.2,52.0" fill="#e53935" stroke="#e53935" stroke-width="2" stroke-linejoin="round"/>
+<text x="485.2" y="65.8" font-size="11" fill="#263238" text-anchor="start">Punjab</text>
+<text x="33.2" y="29.9" font-size="11" fill="#8a969c" text-anchor="start">monthly maximum temperature (°C), 2023 (approximate)</text>
+</svg>
