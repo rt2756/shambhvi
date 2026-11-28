@@ -180,6 +180,36 @@ book's activities and questions.
 - [ ] Check all lessons against the standard: remove the few pointers to "the book" / NCERT, and add a
   short **Check yourself** set with `[!ANSWER]` blocks to each lesson.
 
+### Phase 3 — clarity sanity check (agreed 2026-11-28; do last, after Phases 1 and 2)
+
+Some questions are written like shorthand notes, and a child can't tell what is asked. Example from a
+class 8 maths test: *"Snacks ₹25 a plate + ₹50 delivery, budget ₹500. How many plates?"* The "+" reads
+like a sum, the ₹50 could be per plate, and it doesn't say if ₹500 must be spent exactly. A better
+version: *"A shop sells snacks at ₹25 per plate. It also charges ₹50 once for delivery, however many
+plates you order. You have ₹500 to spend. What is the greatest number of plates you can order?"*
+(answer 18). Another: *"Jahnavi: ₹4000 + ₹650 a month. Sunita: ₹5050 + ₹500 a month. Months until
+equal?"* becomes *"Jahnavi has ₹4000 in her savings and adds ₹650 to it every month. Sunita has ₹5050
+and adds ₹500 every month. After how many months will they both have the same amount of money?"*
+(answer 7).
+
+These two are only examples — the check is wider than this one pattern. Go through every **test**
+file and every **notes** file (all classes, all subjects) and read each question as the child would,
+with nothing but the question in front of her:
+- **Complete in itself:** it gives every fact, figure and condition needed to solve it; it doesn't lean
+  on an earlier question, a missing picture, or something "everyone knows".
+- **One meaning only:** a careful reader can't take it two ways; nothing has to be guessed.
+- **Clear ask:** it says exactly what to find and in what form (unit, rounding, fraction or decimal,
+  how many reasons, etc.).
+- **Plain, readable language:** full sentences at the class's reading level, not note-style shorthand.
+- **Answer matches:** re-solve it; the answer is correct, answers exactly what was asked, and the
+  accepted answer in the test JSON matches the worked solution and allows every fair form of it.
+- Fix by rewording in plain words, keeping the facts and numbers; re-run `check_tests.py` /
+  `check_notes.py` after edits.
+
+- [ ] Maths tests and notes, classes 5–10
+- [ ] Science tests and notes, classes 5–10
+- [ ] English grammar tests and notes
+
 ## Later (not agreed yet — ask the user before starting)
 
 - Classes 2–4: notes to go with the existing tests.
